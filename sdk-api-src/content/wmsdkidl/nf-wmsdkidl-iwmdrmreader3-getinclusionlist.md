@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader3::GetInclusionList
+ - IWMDRMReader3.GetInclusionList
 ---
 
 # IWMDRMReader3::GetInclusionList
@@ -96,4 +96,3 @@ The license issuer can specify other protection systems to which the encrypted c
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader3">IWMDRMReader3 Interface</a>
-

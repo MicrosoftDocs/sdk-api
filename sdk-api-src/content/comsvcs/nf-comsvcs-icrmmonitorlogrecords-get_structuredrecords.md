@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmMonitorLogRecords::get_StructuredRecords
+ - ICrmMonitorLogRecords.get_StructuredRecords
 ---
 
 # ICrmMonitorLogRecords::get_StructuredRecords
@@ -95,4 +95,3 @@ A <b>NULL</b> pointer was provided as an argument.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
-

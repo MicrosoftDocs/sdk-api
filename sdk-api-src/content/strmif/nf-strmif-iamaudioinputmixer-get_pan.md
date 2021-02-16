@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer::get_Pan
+ - IAMAudioInputMixer.get_Pan
 ---
 
 # IAMAudioInputMixer::get_Pan
@@ -95,4 +95,3 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_pan">IAMAudioInputMixer::put_Pan</a>
-

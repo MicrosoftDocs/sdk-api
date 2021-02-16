@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProvider::Refresh
+ - IVdsHwProvider.Refresh
 ---
 
 # IVdsHwProvider::Refresh
@@ -142,4 +142,3 @@ This method does not query the network to find newly connected subsystems. To di
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
-

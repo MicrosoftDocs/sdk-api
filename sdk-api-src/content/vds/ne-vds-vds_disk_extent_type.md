@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DISK_EXTENT_TYPE
  - VDS_DISK_EXTENT_TYPE
 ---
 
@@ -111,4 +110,3 @@ The <a href="/windows/desktop/api/vds/ns-vds-vds_disk_extent">VDS_DISK_EXTENT</a
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_extent">VDS_DISK_EXTENT</a>
-

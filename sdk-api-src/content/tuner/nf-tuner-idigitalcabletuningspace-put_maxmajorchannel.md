@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDigitalCableTuningSpace::put_MaxMajorChannel
+ - IDigitalCableTuningSpace.put_MaxMajorChannel
 ---
 
 # IDigitalCableTuningSpace::put_MaxMajorChannel
@@ -65,4 +65,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idigitalcabletuningspace">IDigitalCableTuningSpace Interface</a>
-

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
- - tagACTCTXA
- - PACTCTXA
- - ACTCTXA
+ - ACTCTX
+ - ACTCTXW
+ - ACTCTXW
 ---
 
 # ACTCTXA structure
@@ -224,4 +224,3 @@ The values of <b>lpApplicationName</b> and <b>lpAssemblyDirectory</b> are not se
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-createactctxa">CreateActCtx</a>
-

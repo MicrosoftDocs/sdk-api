@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleProtection::GetProtectionCertificate
+ - IMFSampleProtection.GetProtectionCertificate
 ---
 
 # IMFSampleProtection::GetProtectionCertificate
@@ -107,4 +107,3 @@ For certain version numbers of sample protection, the downstream component must 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
-

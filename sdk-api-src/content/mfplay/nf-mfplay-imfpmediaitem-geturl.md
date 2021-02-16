@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem::GetURL
+ - IMFPMediaItem.GetURL
 ---
 
 # IMFPMediaItem::GetURL
@@ -121,4 +121,3 @@ This method applies when the application calls  <a href="/windows/desktop/api/mf
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

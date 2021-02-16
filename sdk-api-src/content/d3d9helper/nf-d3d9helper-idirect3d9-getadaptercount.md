@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::GetAdapterCount
+ - IDirect3D9.GetAdapterCount
 ---
 
 # IDirect3D9::GetAdapterCount
@@ -68,4 +68,3 @@ A UINT value that denotes the number of adapters on the system at the time this 
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

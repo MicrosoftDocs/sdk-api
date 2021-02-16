@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::Query
+ - IDataCollectorSet.Query
 ---
 
 # IDataCollectorSet::Query
@@ -200,4 +200,3 @@ To query all committed sets on a computer, call the <a href="/previous-versions/
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-delete">IDataCollectorSet::Delete</a>
-

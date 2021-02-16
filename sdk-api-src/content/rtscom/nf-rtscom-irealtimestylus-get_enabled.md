@@ -42,7 +42,11 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus::get_Enabled
+ - IRealTimeStylus.Enabled
+ - IRealTimeStylus.get_Enabled
+ - IRealTimeStylus.put_Enabled
+ - IRealTimeStylus.get_Enabled
+ - IRealTimeStylus.put_Enabled
 ---
 
 # IRealTimeStylus::get_Enabled
@@ -95,4 +99,3 @@ When the <b>IRealTimeStylus::Enabled Property</b> of a container control is set 
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-

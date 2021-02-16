@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_BAT::GetTableDescriptorByTag
+ - IDVB_BAT.GetTableDescriptorByTag
 ---
 
 # IDVB_BAT::GetTableDescriptorByTag
@@ -144,4 +144,3 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_bat">IDVB_BAT Interface</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwProducts::get_Count
+ - INetFwProducts.Count
+ - INetFwProducts.get_Count
 ---
 
 # INetFwProducts::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
-

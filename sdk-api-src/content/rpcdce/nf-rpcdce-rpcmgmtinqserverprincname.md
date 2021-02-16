@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcMgmtInqServerPrincName
+ - RpcMgmtInqServerPrincNameA
+ - RpcMgmtInqServerPrincNameW
 ---
 
 # RpcMgmtInqServerPrincName function
@@ -128,4 +130,3 @@ The server must be listening for remote procedure calls for this function to suc
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

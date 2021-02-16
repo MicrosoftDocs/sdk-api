@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation::Advise
+ - IFileOperation.Advise
 ---
 
 # IFileOperation::Advise
@@ -83,4 +83,3 @@ Several individual methods have the ability to declare their own progress sinks,
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-unadvise">IFileOperation::Unadvise</a>
-

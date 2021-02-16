@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetExitCode
+ - IScheduledWorkItem.GetExitCode
 ---
 
 # IScheduledWorkItem::GetExitCode
@@ -137,4 +137,3 @@ For an example of how to retrieve the creator of a task, see <a href="/windows/d
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
-

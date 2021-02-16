@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::GetUnit
+ - Font.GetUnit
 ---
 
 # Font::GetUnit
@@ -85,4 +85,3 @@ This method returns one of the elements of the <a href="/windows/desktop/api/gdi
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

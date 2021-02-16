@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainerW::SetLinkUpdateOptions
+ - IOleUILinkContainer.SetLinkUpdateOptions
+ - IOleUILinkContainerA.SetLinkUpdateOptions
+ - IOleUILinkContainerW.SetLinkUpdateOptions
 ---
 
 # IOleUILinkContainerW::SetLinkUpdateOptions
@@ -133,4 +135,3 @@ Containers can implement this method for OLE links by simply calling <a href="/w
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-ioleuilinkcontainera-getnextlink">IOleUILinkContainer::GetNextLink</a>
-

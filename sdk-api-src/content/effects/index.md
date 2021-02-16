@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - effects
  - effects/effects
-api_name:
- - effects
 ---
 
 # Effects.h header

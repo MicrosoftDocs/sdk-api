@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _RADIUSPROPERTIES
  - RADIUSPROPERTIES
 ---
 
@@ -81,4 +80,3 @@ The collection of vendors for this RADIUS server.
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-vendorproperties">VENDORPROPERTIES</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFVideoInfo
  - MFVideoInfo
 ---
 
@@ -219,4 +218,3 @@ Developers are encouraged to use media type attributes instead of using the <b>M
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
-

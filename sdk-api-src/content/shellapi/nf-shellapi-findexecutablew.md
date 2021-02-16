@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FindExecutableW
  - shellapi/FindExecutableW
- - FindExecutable
- - shellapi/FindExecutable
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - FindExecutableW
  - FindExecutable
+ - FindExecutableA
+ - FindExecutableW
 ---
 
 # FindExecutableW function
@@ -183,4 +182,3 @@ When <b>FindExecutable</b> returns, the <i>lpResult</i> parameter may contain th
 ## -see-also
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecutea">ShellExecute</a>
-

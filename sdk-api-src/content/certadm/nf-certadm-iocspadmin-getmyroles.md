@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin::GetMyRoles
+ - IOCSPAdmin.GetMyRoles
 ---
 
 # IOCSPAdmin::GetMyRoles
@@ -152,4 +152,3 @@ Examples of privileges a user might have, depending on the  mask:
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorDataReport::GetSensorValue
+ - ISensorDataReport.GetSensorValue
 ---
 
 # ISensorDataReport::GetSensorValue
@@ -121,4 +121,3 @@ For an example of how to retrieve a sensor data field value, see <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
-

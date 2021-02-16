@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - Mem_Range_s
- - PMEM_RANGE
  - MEM_RANGE
 ---
 
@@ -87,4 +85,3 @@ One bit flag from [MEM_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des) s
 ## -see-also
 
 [MEM_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_des)
-

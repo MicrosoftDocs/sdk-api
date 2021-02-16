@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl::GetIconPath
+ - IAudioSessionControl.GetIconPath
 ---
 
 # IAudioSessionControl::GetIconPath
@@ -124,4 +124,3 @@ If a client has not called <a href="/windows/desktop/api/audiopolicy/nf-audiopol
 
 
 <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-seticonpath">IAudioSessionControl::SetIconPath</a>
-

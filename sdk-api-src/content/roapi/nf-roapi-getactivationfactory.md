@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-Winrt-l1-1-0.dll
 api_name:
  - GetActivationFactory
+ - WinRTGetActivationFactory
 ---
 
 # GetActivationFactory function

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasSetEntryDialParamsA
  - ras/RasSetEntryDialParamsA
- - RasSetEntryDialParams
- - ras/RasSetEntryDialParams
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasSetEntryDialParamsA
  - RasSetEntryDialParams
+ - RasSetEntryDialParamsA
+ - RasSetEntryDialParamsW
 ---
 
 # RasSetEntryDialParamsA function
@@ -288,4 +287,3 @@ To create a new phone-book entry, use the
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

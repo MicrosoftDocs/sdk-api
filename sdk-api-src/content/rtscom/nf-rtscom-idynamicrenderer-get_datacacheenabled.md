@@ -42,7 +42,11 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer::get_DataCacheEnabled
+ - IDynamicRenderer.DataCacheEnabled
+ - IDynamicRenderer.get_DataCacheEnabled
+ - IDynamicRenderer.put_DataCacheEnabled
+ - IDynamicRenderer.get_DataCacheEnabled
+ - IDynamicRenderer.put_DataCacheEnabled
 ---
 
 # IDynamicRenderer::get_DataCacheEnabled
@@ -77,4 +81,3 @@ Setting this property to <b>FALSE</b> clears the cached data.
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a>
-

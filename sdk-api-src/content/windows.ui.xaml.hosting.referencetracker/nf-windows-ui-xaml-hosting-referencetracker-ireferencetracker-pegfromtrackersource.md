@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTracker::PegFromTrackerSource
+ - IReferenceTracker.PegFromTrackerSource
 ---
 
 # IReferenceTracker::xaml
@@ -65,4 +65,3 @@ This method is called by the CLR when it is returning a XAML object as an <b>out
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetracker">IReferenceTracker</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2MasteringVoice::GetChannelMask
+ - IXAudio2MasteringVoice.GetChannelMask
 ---
 
 # IXAudio2MasteringVoice::GetChannelMask
@@ -96,4 +96,3 @@ Windows 10 (XAudio2.9);
 ## -see-also
 
 <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2masteringvoice">IXAudio2MasteringVoice</a>
-

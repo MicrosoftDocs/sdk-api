@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2::GetViewProperty
+ - IFolderView2.GetViewProperty
 ---
 
 # IFolderView2::GetViewProperty
@@ -120,4 +120,3 @@ The value is not in the view's cache.
 
 
 <a href="/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>
-

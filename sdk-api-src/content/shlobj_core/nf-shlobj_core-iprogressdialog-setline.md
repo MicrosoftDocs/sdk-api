@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog::SetLine
+ - IProgressDialog.SetLine
 ---
 
 # IProgressDialog::SetLine
@@ -91,4 +91,3 @@ This function is typically used to display a message such as "Item XXX is now be
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-

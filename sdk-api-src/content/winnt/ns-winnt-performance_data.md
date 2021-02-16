@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _PERFORMANCE_DATA
- - PPERFORMANCE_DATA
  - PERFORMANCE_DATA
 ---
 
@@ -118,4 +116,3 @@ The following members are set when you specify the READ_THREAD_PROFILING_FLAG_HA
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-readthreadprofilingdata">ReadThreadProfilingData</a>
-

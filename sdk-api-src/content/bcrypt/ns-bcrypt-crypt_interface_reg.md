@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _CRYPT_INTERFACE_REG
- - PCRYPT_INTERFACE_REG
  - CRYPT_INTERFACE_REG
 ---
 
@@ -193,4 +191,3 @@ An array of null-terminated Unicode strings that contains the identifiers of the
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a>
-

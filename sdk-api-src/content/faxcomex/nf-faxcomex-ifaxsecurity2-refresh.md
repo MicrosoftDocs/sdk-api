@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSecurity2::Refresh
+ - IFaxSecurity2.Refresh
+ - IFaxSecurity2.Refresh
 ---
 
 # IFaxSecurity2::Refresh
@@ -73,4 +74,3 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity2">IFaxSecurity2</a>
-

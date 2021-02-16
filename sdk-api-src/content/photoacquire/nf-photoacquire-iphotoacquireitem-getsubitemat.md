@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem::GetSubItemAt
+ - IPhotoAcquireItem.GetSubItemAt
 ---
 
 # IPhotoAcquireItem::GetSubItemAt
@@ -92,4 +92,3 @@ If no item is found at the given index, <i>ppPhotoAcquireItem</i> is set to <b>N
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireitem">IPhotoAcquireItem Interface</a>
-

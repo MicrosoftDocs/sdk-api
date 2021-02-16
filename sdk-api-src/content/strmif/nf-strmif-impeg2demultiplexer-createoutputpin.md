@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpeg2Demultiplexer::CreateOutputPin
+ - IMpeg2Demultiplexer.CreateOutputPin
 ---
 
 # IMpeg2Demultiplexer::CreateOutputPin
@@ -122,4 +122,3 @@ Duplicate pin names are not allowed. To configure the pin, query the returned <a
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-impeg2demultiplexer">IMpeg2Demultiplexer Interface</a>
-

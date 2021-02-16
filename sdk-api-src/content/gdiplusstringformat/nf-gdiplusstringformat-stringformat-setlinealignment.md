@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::SetLineAlignment
+ - StringFormat.SetLineAlignment
 ---
 
 # StringFormat::SetLineAlignment
@@ -101,4 +101,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
-

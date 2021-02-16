@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::operator-
+ - WBEMTimeSpan.operator-
 ---
 
 # WBEMTimeSpan::operator-sub
@@ -71,4 +71,3 @@ This method returns a new <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbe
 
 <div class="alert"><b>Note</b>  The new time span is set to INVALID_TIME if a negative time span results. Subtracting a time span from an object that contains INVALID_TIME produces a new time span object set to INVALID_TIME.</div>
 <div> </div>
-

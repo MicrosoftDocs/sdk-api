@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbBaseNotifySink::OnError
+ - ITsSbBaseNotifySink.OnError
 ---
 
 # ITsSbBaseNotifySink::OnError
@@ -69,4 +69,3 @@ Calling this  method stops further processing on the client connection and cause
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
-

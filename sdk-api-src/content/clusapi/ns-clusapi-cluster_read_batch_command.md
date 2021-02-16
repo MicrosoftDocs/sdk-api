@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_READ_BATCH_COMMAND
  - CLUSTER_READ_BATCH_COMMAND
 ---
 
@@ -106,4 +105,3 @@ Errors from read commands are independent from each other.
 
 
 <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterregreadbatchreplynextcommand">ClusterRegReadBatchReplyNextCommand</a>
-

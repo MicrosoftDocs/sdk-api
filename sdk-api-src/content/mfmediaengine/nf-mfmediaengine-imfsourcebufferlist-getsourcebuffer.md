@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBufferList::GetSourceBuffer
+ - IMFSourceBufferList.GetSourceBuffer
 ---
 
 # IMFSourceBufferList::GetSourceBuffer
@@ -65,4 +65,3 @@ The source buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebufferlist">IMFSourceBufferList</a>
-

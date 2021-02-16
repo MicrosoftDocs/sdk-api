@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetCurrentTime
+ - IMFMediaEngine.GetCurrentTime
 ---
 
 # IMFMediaEngine::GetCurrentTime
@@ -67,4 +67,3 @@ Note that after you call <a href="/windows/desktop/api/mfmediaengine/nf-mfmediae
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Resapi.h
 api_name:
- - _CLUSTER_HEALTH_FAULT_ARRAY
- - PCLUSTER_HEALTH_FAULT_ARRAY
  - CLUSTER_HEALTH_FAULT_ARRAY
 ---
 

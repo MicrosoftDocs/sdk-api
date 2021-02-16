@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleImplementation::OnUnload
+ - IFsrmPipelineModuleImplementation.OnUnload
+ - IFsrmStorageModuleImplementation.OnUnload
+ - IFsrmClassifierModuleImplementation.OnUnload
 ---
 
 # IFsrmPipelineModuleImplementation::OnUnload
@@ -69,4 +71,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduleimplementation">IFsrmStorageModuleImplementation</a>
-

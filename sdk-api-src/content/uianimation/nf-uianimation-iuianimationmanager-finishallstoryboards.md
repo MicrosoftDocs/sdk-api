@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::FinishAllStoryboards
+ - IUIAnimationManager.FinishAllStoryboards
 ---
 
 # IUIAnimationManager::FinishAllStoryboards
@@ -84,4 +84,3 @@ Calling <b>FinishAllStoryboards</b> ensures that all active storyboards finish w
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
-

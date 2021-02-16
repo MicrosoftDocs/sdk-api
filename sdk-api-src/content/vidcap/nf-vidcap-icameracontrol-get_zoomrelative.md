@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICameraControl::get_ZoomRelative
+ - ICameraControl.get_ZoomRelative
 ---
 
 # ICameraControl::get_ZoomRelative
@@ -95,4 +95,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
-

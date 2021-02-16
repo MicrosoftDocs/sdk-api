@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceSxsConfig::SxsDirectory
+ - IServiceSxsConfig.SxsDirectory
 ---
 
 # IServiceSxsConfig::SxsDirectory
@@ -69,4 +69,3 @@ This method must be called if a new side-by-side assembly domain is created usin
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicesxsconfig">IServiceSxsConfig</a>
-

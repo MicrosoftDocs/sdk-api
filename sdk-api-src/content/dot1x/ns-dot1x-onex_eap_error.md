@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
- - _ONEX_EAP_ERROR
- - PONEX_EAP_ERROR
  - ONEX_EAP_ERROR
 ---
 
@@ -1302,4 +1300,3 @@ If the <b>fEapError</b> member in the <a href="/windows/desktop/api/dot1x/ns-dot
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

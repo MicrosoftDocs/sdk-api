@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentAriaRole
+ - IUIAutomationElement.CurrentAriaRole
+ - IUIAutomationElement.get_CurrentAriaRole
 ---
 
 # IUIAutomationElement::get_CurrentAriaRole
@@ -87,4 +88,3 @@ This property is read-only.
 
 
 <a href="https://www.w3.org/WAI/intro/aria">WAI-ARIA Overview</a>
-

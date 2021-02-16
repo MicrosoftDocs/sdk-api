@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::DeleteStroke
+ - IInkDisp.DeleteStroke
 ---
 
 # IInkDisp::DeleteStroke
@@ -155,4 +155,3 @@ This method deletes only a single stroke. To delete a collection of strokes, cal
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-

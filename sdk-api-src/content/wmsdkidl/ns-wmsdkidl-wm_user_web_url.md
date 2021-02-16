@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMUserWebURL
  - WM_USER_WEB_URL
 ---
 
@@ -68,4 +67,3 @@ Pointer to a wide-character null-terminated string containing the URL.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymSetSearchPathW
  - dbghelp/SymSetSearchPathW
- - SymSetSearchPath
- - dbghelp/SymSetSearchPath
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymSetSearchPathW
  - SymSetSearchPath
+ - SymSetSearchPath
+ - SymSetSearchPathW
 ---
 
 # SymSetSearchPathW function
@@ -102,4 +101,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

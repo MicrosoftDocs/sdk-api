@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess::BeginPreprocessingPass
+ - IWMWriterPreprocess.BeginPreprocessingPass
 ---
 
 # IWMWriterPreprocess::BeginPreprocessingPass
@@ -130,4 +130,3 @@ The writer must be activated by calling <a href="/windows/desktop/api/wmsdkidl/n
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
-

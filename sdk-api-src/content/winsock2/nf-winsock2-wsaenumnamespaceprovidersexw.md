@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSAEnumNameSpaceProvidersExW
  - winsock2/WSAEnumNameSpaceProvidersExW
- - WSAEnumNameSpaceProvidersEx
- - winsock2/WSAEnumNameSpaceProvidersEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAEnumNameSpaceProvidersExW
  - WSAEnumNameSpaceProvidersEx
+ - WSAEnumNameSpaceProvidersExA
+ - WSAEnumNameSpaceProvidersExW
 ---
 
 # WSAEnumNameSpaceProvidersExW function
@@ -157,4 +156,3 @@ When UNICODE or _UNICODE is not defined, <b>WSAEnumNameSpaceProvidersEx</b> is d
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscinstallnamespaceex">WSCInstallNameSpaceEx32</a>
-

@@ -32,12 +32,9 @@ api_location:
  - sspi.h
 api_name:
  - SspiAcquireCredentialsHandleAsyncW
- - SspiAcquireCredentialsHandleAsync
 f1_keywords:
  - SspiAcquireCredentialsHandleAsyncW
  - sspi/SspiAcquireCredentialsHandleAsyncW
- - SspiAcquireCredentialsHandleAsync
- - sspi/SspiAcquireCredentialsHandleAsync
 dev_langs:
  - c++
 ---

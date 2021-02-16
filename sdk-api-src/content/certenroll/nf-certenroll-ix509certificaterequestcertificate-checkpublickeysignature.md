@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCertificate::CheckPublicKeySignature
+ - IX509CertificateRequestCertificate.CheckPublicKeySignature
 ---
 
 # IX509CertificateRequestCertificate::CheckPublicKeySignature
@@ -135,4 +135,3 @@ This method decrypts the signature and compares it to a hash of the certificate,
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcertificate">IX509CertificateRequestCertificate</a>
-

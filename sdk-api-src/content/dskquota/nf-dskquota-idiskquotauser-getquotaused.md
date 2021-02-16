@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser::GetQuotaUsed
+ - IDiskQuotaUser.GetQuotaUsed
 ---
 
 # IDiskQuotaUser::GetQuotaUsed
@@ -157,4 +157,3 @@ An unexpected exception occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
-

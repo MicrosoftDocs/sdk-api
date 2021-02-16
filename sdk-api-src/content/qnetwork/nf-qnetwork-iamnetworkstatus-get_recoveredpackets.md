@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetworkStatus::get_RecoveredPackets
+ - IAMNetworkStatus.get_RecoveredPackets
 ---
 
 # IAMNetworkStatus::get_RecoveredPackets
@@ -65,4 +65,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus">IAMNetworkStatus Interface</a>
-

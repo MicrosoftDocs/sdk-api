@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_SURFACE_MORE
- - PDD_SURFACE_MORE
  - DD_SURFACE_MORE
 ---
 
@@ -338,4 +336,3 @@ Specifies a cookie for <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_cr
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_updateoverlay">DdUpdateOverlay</a>
-

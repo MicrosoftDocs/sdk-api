@@ -43,7 +43,8 @@ api_location:
  - oaidl.h
  - oleaut32.dll
 api_name:
- - ITypeInfo::GetIDsOfNames
+ - ITypeInfo.GetIDsOfNames
+ - ITypeInfo2.GetIDsOfNames
 ---
 
 # ITypeInfo::GetIDsOfNames
@@ -125,4 +126,3 @@ If the type description inherits from another type description, this function is
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode::Initialize
+ - IWICBitmapFrameEncode.Initialize
 ---
 
 # IWICBitmapFrameEncode::Initialize
@@ -72,4 +72,3 @@ If you don't want any encoding options, pass <b>NULL</b> for <i>pIEncoderOptions
 
 
 For a complete list of encoding options supported by the Windows-provided codecs, see <a href="/windows/desktop/wic/native-wic-codecs">Native WIC Codecs</a>.
-

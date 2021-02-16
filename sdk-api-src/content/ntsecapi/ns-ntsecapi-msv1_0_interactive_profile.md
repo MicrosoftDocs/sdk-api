@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _MSV1_0_INTERACTIVE_PROFILE
- - PMSV1_0_INTERACTIVE_PROFILE
  - MSV1_0_INTERACTIVE_PROFILE
 ---
 
@@ -154,4 +152,3 @@ The user logged on using extra <a href="/windows/desktop/SecGloss/s-gly">securit
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_profile_buffer_type">MSV1_0_PROFILE_BUFFER_TYPE</a>
-

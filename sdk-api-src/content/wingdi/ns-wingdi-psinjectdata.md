@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _PSINJECTDATA
- - PPSINJECTDATA
  - PSINJECTDATA
 ---
 
@@ -217,4 +215,3 @@ The page number (starting from 1) to which the injection data is applied. Specif
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
-

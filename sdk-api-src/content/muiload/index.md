@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - muiload
  - muiload/muiload
-api_name:
- - muiload
 ---
 
 # Muiload.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - _TS_SB_SORT_BY
  - TS_SB_SORT_BY
 ---
 
@@ -72,4 +71,3 @@ Sort by a specified property.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-enumeratetargets">EnumerateTargets</a>
-

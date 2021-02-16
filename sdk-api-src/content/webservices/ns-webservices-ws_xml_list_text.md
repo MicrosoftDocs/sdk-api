@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_LIST_TEXT
  - WS_XML_LIST_TEXT
 ---
 
@@ -72,4 +71,3 @@ The number of items in the list.
 ### -field items
 
 The list of items.
-

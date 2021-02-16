@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPProperty::get_Name
+ - IOCSPProperty.Name
+ - IOCSPProperty.get_Name
 ---
 
 # IOCSPProperty::get_Name
@@ -63,4 +64,3 @@ For possible values of <i>pVal</i>, see <a href="/windows/desktop/api/certadm/nf
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
-

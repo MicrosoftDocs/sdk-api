@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
- - PAUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
  - AUTHZ_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE
 ---
 
@@ -79,4 +77,3 @@ The length, in bytes, of the <b>pValue</b> member.
 
 
 <a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-

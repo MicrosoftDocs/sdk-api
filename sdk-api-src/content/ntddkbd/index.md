@@ -9,8 +9,6 @@ tech.root: hid
 f1_keywords:
  - ntddkbd
  - ntddkbd/ntddkbd
-api_name:
- - ntddkbd
 ---
 
 # Ntddkbd.h header

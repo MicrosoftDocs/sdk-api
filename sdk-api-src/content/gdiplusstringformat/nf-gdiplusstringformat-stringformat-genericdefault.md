@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::GenericDefault
+ - StringFormat.GenericDefault
 ---
 
 # StringFormat::GenericDefault
@@ -148,4 +148,3 @@ VOID Example_GenericDefault(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a>
-

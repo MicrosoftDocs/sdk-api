@@ -9,8 +9,6 @@ tech.root: tablet
 f1_keywords:
  - tpcshrd
  - tpcshrd/tpcshrd
-api_name:
- - tpcshrd
 ---
 
 # Tpcshrd.h header

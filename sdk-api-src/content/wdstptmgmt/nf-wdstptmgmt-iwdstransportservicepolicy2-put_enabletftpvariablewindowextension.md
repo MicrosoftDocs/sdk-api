@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
+ - IWdsTransportServicePolicy2.EnableTftpVariableWindowExtension
+ - IWdsTransportServicePolicy2.get_EnableTftpVariableWindowExtension
+ - IWdsTransportServicePolicy2.put_EnableTftpVariableWindowExtension
 ---
 
 # IWdsTransportServicePolicy2::put_EnableTftpVariableWindowExtension
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_tftp_capability">WDSTRANSPORT_TFTP_CAPABILITY</a>
-

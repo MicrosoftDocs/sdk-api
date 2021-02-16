@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - _CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
  - CREDENTIAL_PROVIDER_CREDENTIAL_SERIALIZATION
 ---
 
@@ -92,4 +91,3 @@ Once the user has entered credential information into a credential tile, it need
 Credential providers may also enumerate a credential tile if an input credential is received from <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">SetSerialization</a>. One example where this is useful is if a user provides an invalid user-password combination. The Credential UI will pass the credentials back to the credential provider since they are invalid. The credential provider can opt to display a tile to the user that already has the user name filled in.
 
 Input credentials can take many different forms. It is important that credential providers are robust when receiving serialized credentials. This could include incomplete or partial credentials. In many cases, an incomplete input credential is a hint about what type of credential the caller wants. One case where this process is used is with callers who only wish to gather smart card credentials from the user. During the <b>CPUS_LOGON</b> usage scenario, the system uses <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-setserialization">SetSerialization</a> to fill in some of the information from a remote machine. Logon UI will call <b>SetSerialization</b> zero or one times each enumeration cycle.
-

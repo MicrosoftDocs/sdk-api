@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEventTrigger::get_Delay
+ - IEventTrigger.Delay
+ - IEventTrigger.get_Delay
+ - IEventTrigger.put_Delay
 ---
 
 # IEventTrigger::get_Delay
@@ -67,4 +69,3 @@ When reading or writing your own XML for a task, the event delay is specified us
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

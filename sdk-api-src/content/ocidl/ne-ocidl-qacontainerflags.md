@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagQACONTAINERFLAGS
  - QACONTAINERFLAGS
 ---
 
@@ -92,4 +91,3 @@ Specifies the SupportsMnemonics ambient property, which has a standard ambient D
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/ns-ocidl-qacontainer">QACONTAINER</a>
-

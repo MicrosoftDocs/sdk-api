@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::put_Underline
+ - IFont.put_Underline
 ---
 
 # IFont::put_Underline
@@ -98,4 +98,3 @@ The font does not support an underline state. This value is not an error conditi
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_underline">IFont::get_Underline</a>
-

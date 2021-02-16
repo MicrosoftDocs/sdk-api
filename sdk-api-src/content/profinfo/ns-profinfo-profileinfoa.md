@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Profinfo.h
 api_name:
- - _PROFILEINFOA
- - LPPROFILEINFOA
+ - PROFILEINFO
  - PROFILEINFOA
+ - PROFILEINFOW
 ---
 
 # PROFILEINFOA structure
@@ -149,4 +149,3 @@ Services and applications that call <a href="/windows/desktop/api/userenv/nf-use
 
 
 <a href="/previous-versions/windows/desktop/legacy/bb776900(v=vs.85)">User Profiles Overview</a>
-

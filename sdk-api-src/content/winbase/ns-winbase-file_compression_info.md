@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_COMPRESSION_INFO
- - PFILE_COMPRESSION_INFO
  - FILE_COMPRESSION_INFO
 ---
 
@@ -92,4 +90,3 @@ Reserved.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

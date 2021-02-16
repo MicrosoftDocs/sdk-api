@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
+ - IVdsDiskPartitionMF.GetPartitionFileSystemTypeName
 ---
 
 # IVdsDiskPartitionMF::GetPartitionFileSystemTypeName
@@ -150,4 +150,3 @@ The operation is not supported on non-OEM partitions.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsdiskpartitionmf">IVdsDiskPartitionMF</a>
-

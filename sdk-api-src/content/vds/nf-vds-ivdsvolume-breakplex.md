@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume::BreakPlex
+ - IVdsVolume.BreakPlex
 ---
 
 # IVdsVolume::BreakPlex
@@ -152,4 +152,3 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a>
-

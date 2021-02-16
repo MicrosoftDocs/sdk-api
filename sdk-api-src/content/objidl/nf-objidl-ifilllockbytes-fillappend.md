@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IFillLockBytes::FillAppend
+ - IFillLockBytes.FillAppend
 ---
 
 # IFillLockBytes::FillAppend
@@ -79,4 +79,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ilockbytes">ILockBytes</a>
-

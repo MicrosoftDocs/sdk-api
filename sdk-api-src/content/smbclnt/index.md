@@ -9,8 +9,6 @@ tech.root: mscs
 f1_keywords:
  - smbclnt
  - smbclnt/smbclnt
-api_name:
- - smbclnt
 ---
 
 # Smbclnt.h header

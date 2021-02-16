@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RectF::Contains
+ - RectF.Contains
 ---
 
 # RectF::Contains(IN const RectF &)
@@ -94,4 +94,3 @@ If the rectangle is inside this rectangle, this method returns <b>TRUE</b>; othe
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-

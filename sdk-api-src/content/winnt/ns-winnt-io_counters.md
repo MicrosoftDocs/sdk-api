@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _IO_COUNTERS
  - IO_COUNTERS
 ---
 
@@ -88,4 +87,3 @@ The number of bytes transferred during operations other than read and write oper
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-jobobject_basic_and_io_accounting_information">JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION</a>
-

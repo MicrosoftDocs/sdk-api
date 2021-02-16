@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutputDuplication::ReleaseFrame
+ - IDXGIOutputDuplication.ReleaseFrame
 ---
 
 # IDXGIOutputDuplication::ReleaseFrame
@@ -78,4 +78,3 @@ For performance reasons, we recommend that you release the frame just before you
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
-

@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGIFactory6::EnumAdapterByGpuPreference
+ - IDXGIFactory6.EnumAdapterByGpuPreference
 ---
 
 ## -description

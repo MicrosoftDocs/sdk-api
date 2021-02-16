@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplicationList::get__NewEnum
+ - IRDPSRAPIApplicationList._NewEnum
+ - IRDPSRAPIApplicationList.get__NewEnum
+ - RDPSRAPIApplicationList._NewEnum
 ---
 
 # IRDPSRAPIApplicationList::get__NewEnum
@@ -63,4 +65,3 @@ The enumerator provides a snapshot of the collection. If an application is destr
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationlist">IRDPSRAPIApplicationList</a>
-

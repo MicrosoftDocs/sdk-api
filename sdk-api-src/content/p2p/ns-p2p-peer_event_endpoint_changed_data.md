@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_event_endpoint_changed_data_tag
- - PPEER_EVENT_ENDPOINT_CHANGED_DATA
  - PEER_EVENT_ENDPOINT_CHANGED_DATA
 ---
 
@@ -83,4 +81,3 @@ This event is raised when information about the endpoint changes. An example of 
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

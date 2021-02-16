@@ -9,8 +9,6 @@ tech.root: input_intcontext
 f1_keywords:
  - interactioncontext
  - interactioncontext/interactioncontext
-api_name:
- - interactioncontext
 ---
 
 # Interactioncontext.h header

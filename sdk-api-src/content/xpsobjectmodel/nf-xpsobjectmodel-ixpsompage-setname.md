@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::SetName
+ - IXpsOMPage.SetName
 ---
 
 # IXpsOMPage::SetName
@@ -106,4 +106,3 @@ The <b>Name</b> property identifies the current page as a named, addressable poi
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

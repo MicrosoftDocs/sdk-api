@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - RsopResetPolicySettingStatus
+ - RSoPResetPolicySettingStatus
 ---
 
 # RsopResetPolicySettingStatus function
@@ -97,4 +97,3 @@ To link (associate) the
 
 
 <a href="/windows/desktop/api/userenv/nf-userenv-rsopsetpolicysettingstatus">RSoPSetPolicySettingStatus</a>
-

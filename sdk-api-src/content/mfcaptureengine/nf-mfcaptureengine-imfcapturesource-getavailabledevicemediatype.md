@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSource::GetAvailableDeviceMediaType
+ - IMFCaptureSource.GetAvailableDeviceMediaType
 ---
 
 # IMFCaptureSource::GetAvailableDeviceMediaType
@@ -171,4 +171,3 @@ Some cameras might support a range of frame rates. The minimum and maximum frame
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FindResourceExA
  - winbase/FindResourceExA
- - FindResourceEx
- - winbase/FindResourceEx
 dev_langs:
  - c++
 topic_type:
@@ -62,8 +60,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - FindResourceExA
  - FindResourceEx
+ - FindResourceExA
+ - FindResourceExW
 ---
 
 # FindResourceExA function
@@ -243,4 +242,3 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
-

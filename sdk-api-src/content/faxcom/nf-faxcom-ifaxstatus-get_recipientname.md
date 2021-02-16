@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_RecipientName
+ - IFaxStatus.RecipientName
+ - IFaxStatus.get_RecipientName
 ---
 
 # IFaxStatus::get_RecipientName
@@ -89,4 +90,3 @@ The <b>IFaxStatus::get_RecipientName</b> method allocates the memory required fo
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

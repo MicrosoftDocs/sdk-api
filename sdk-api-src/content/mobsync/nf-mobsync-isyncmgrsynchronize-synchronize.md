@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize::Synchronize
+ - ISyncMgrSynchronize.Synchronize
 ---
 
 # ISyncMgrSynchronize::Synchronize
@@ -135,4 +135,3 @@ The <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a>
-

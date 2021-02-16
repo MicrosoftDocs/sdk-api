@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapCodecProgressNotification::RegisterProgressNotification
+ - IWICBitmapCodecProgressNotification.RegisterProgressNotification
 ---
 
 # IWICBitmapCodecProgressNotification::RegisterProgressNotification
@@ -98,4 +98,3 @@ Progress is reported in an increasing order between 0.0 and 1.0.
 
 
 <a href="/windows/desktop/api/wincodec/nc-wincodec-pfnprogressnotification">ProgressNotificationCallback</a>
-

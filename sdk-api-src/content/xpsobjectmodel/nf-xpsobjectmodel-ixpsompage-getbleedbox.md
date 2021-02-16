@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::GetBleedBox
+ - IXpsOMPage.GetBleedBox
 ---
 
 # IXpsOMPage::GetBleedBox
@@ -134,4 +134,3 @@ The default bleed box of a page is:
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
-

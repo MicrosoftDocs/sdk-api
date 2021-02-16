@@ -28,7 +28,6 @@ api_location:
  - schannel.h
 api_name:
  - _CRYPTO_SETTINGS
- - PCRYPTO_SETTINGS
  - CRYPTO_SETTINGS
 f1_keywords:
  - _CRYPTO_SETTINGS
@@ -98,4 +97,3 @@ If 0, schannel uses system defaults. Set to 0 if the CNG algorithm implies bit l
 [TLS_PARAMETERS](ns-schannel-tls_parameters.md)
 
 [eTlsAlgorithmUsage](ne-schannel-etlsalgorithmusage.md)
-

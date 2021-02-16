@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::GetSurfaceDesc
+ - IDirectDrawVideo.GetSurfaceDesc
 ---
 
 # IDirectDrawVideo::GetSurfaceDesc
@@ -74,4 +74,3 @@ Surfaces are allocated only when the renderer is paused. After the renderer has 
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

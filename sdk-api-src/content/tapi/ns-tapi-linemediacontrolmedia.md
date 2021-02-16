@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linemediacontrolmedia_tag
- - LPLINEMEDIACONTROLMEDIA
  - LINEMEDIACONTROLMEDIA
 ---
 
@@ -92,4 +90,3 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>
-

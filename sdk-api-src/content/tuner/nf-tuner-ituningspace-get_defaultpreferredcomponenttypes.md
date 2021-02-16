@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace::get_DefaultPreferredComponentTypes
+ - ITuningSpace.get_DefaultPreferredComponentTypes
 ---
 
 # ITuningSpace::get_DefaultPreferredComponentTypes
@@ -71,4 +71,3 @@ If the tuning space does not have any default preferred types, this method succe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::ResetProtocolRollover
+ - IWMReaderNetworkConfig.ResetProtocolRollover
 ---
 
 # IWMReaderNetworkConfig::ResetProtocolRollover
@@ -78,4 +78,3 @@ Player users sometimes experiment with network settings when they are having con
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>
-

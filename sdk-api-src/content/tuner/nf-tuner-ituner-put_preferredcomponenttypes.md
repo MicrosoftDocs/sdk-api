@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner::put_PreferredComponentTypes
+ - ITuner.put_PreferredComponentTypes
 ---
 
 # ITuner::put_PreferredComponentTypes
@@ -73,4 +73,3 @@ Applications create a list of preferred component types by instantiating an empt
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-

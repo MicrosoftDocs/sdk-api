@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - tagIMECOMPOSITIONSTRINGINFO
- - LPIMECOMPOSITIONSTRINGINFO
  - IMECOMPOSITIONSTRINGINFO
 ---
 
@@ -87,4 +85,3 @@ Target phrase length of composition string.
 ## -see-also
 
 <a href="/windows/desktop/api/imepad/nf-imepad-iimepad-request">IImePad::Request</a>
-

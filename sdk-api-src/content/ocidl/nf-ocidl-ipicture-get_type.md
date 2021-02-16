@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::get_Type
+ - IPicture.get_Type
 ---
 
 # IPicture::get_Type
@@ -102,4 +102,3 @@ The value of <i>pType</i> is not valid. For example, it may be <b>NULL</b>.
 
 
 <a href="/windows/desktop/com/pictype-constants">PICTYPE</a>
-

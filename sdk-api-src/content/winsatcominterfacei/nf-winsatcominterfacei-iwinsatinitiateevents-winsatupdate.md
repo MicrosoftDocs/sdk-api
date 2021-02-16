@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IWinSATInitiateEvents::WinSATUpdate
+ - IWinSATInitiateEvents.WinSATUpdate
 ---
 
 # IWinSATInitiateEvents::WinSATUpdate
@@ -100,4 +100,3 @@ For an example implementation, see the <a href="/windows/desktop/api/winsatcomin
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatcomplete">IWinSATInitiateEvents::WinSATComplete</a>
-

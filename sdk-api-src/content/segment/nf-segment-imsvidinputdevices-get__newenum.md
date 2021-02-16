@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidInputDevices::get__NewEnum
+ - IMSVidInputDevices.get__NewEnum
 ---
 
 # IMSVidInputDevices::get__NewEnum
@@ -113,4 +113,3 @@ If the method succeeds, the <b>IEnumVARIANT</b> interface has an outstanding ref
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidinputdevices">IMSVidInputDevices Interface</a>
-

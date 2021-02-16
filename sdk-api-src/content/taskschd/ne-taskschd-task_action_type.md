@@ -44,7 +44,6 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
- - _TASK_ACTION_TYPE
  - TASK_ACTION_TYPE
 ---
 
@@ -104,4 +103,3 @@ The action type is defined when the action is created and cannot be changed late
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-

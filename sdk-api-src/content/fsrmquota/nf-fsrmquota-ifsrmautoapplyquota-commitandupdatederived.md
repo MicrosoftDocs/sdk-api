@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAutoApplyQuota::CommitAndUpdateDerived
+ - IFsrmAutoApplyQuota.CommitAndUpdateDerived
 ---
 
 # IFsrmAutoApplyQuota::CommitAndUpdateDerived
@@ -114,4 +114,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/updating-a-
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmautoquota">MSFT_FSRMAutoQuota</a>
-

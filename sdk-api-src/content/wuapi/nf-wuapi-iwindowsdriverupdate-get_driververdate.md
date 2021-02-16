@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate::get_DriverVerDate
+ - IWindowsDriverUpdate.DriverVerDate
+ - IWindowsDriverUpdate.get_DriverVerDate
 ---
 
 # IWindowsDriverUpdate::get_DriverVerDate
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpstypes.h
 api_name:
- - FWPS_CLASSIFY_OUT0_
  - FWPS_CLASSIFY_OUT0
 ---
 
@@ -229,4 +228,3 @@ The filter engine passes a pointer to an <b>FWPS_CLASSIFY_OUT0</b> structure to 
 
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IRegisterServiceProvider::RegisterService
+ - IRegisterServiceProvider.RegisterService
 ---
 
 # IRegisterServiceProvider::RegisterService
@@ -148,4 +148,3 @@ The Filter Graph Manager keeps a reference count on the service object until the
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iregisterserviceprovider">IRegisterServiceProvider Interface</a>
-

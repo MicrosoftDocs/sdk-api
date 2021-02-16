@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider2::RangeFromAnnotation
+ - ITextProvider2.RangeFromAnnotation
 ---
 
 # ITextProvider2::RangeFromAnnotation
@@ -91,4 +91,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

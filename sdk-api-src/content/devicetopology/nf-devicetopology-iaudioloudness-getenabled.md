@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioLoudness::GetEnabled
+ - IAudioLoudness.GetEnabled
 ---
 
 # IAudioLoudness::GetEnabled
@@ -83,4 +83,3 @@ Pointer <i>pbEnabled</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioloudness">IAudioLoudness Interface</a>
-

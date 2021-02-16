@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _TRUSTED_POSIX_OFFSET_INFO
- - PTRUSTED_POSIX_OFFSET_INFO
  - TRUSTED_POSIX_OFFSET_INFO
 ---
 
@@ -77,4 +75,3 @@ An offset that the system uses to generate Posix user and group identifiers that
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
-

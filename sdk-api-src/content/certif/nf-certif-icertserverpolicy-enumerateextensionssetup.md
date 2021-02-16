@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::EnumerateExtensionsSetup
+ - ICertServerPolicy.EnumerateExtensionsSetup
+ - CCertServerPolicy.EnumerateExtensionsSetup
 ---
 
 # ICertServerPolicy::EnumerateExtensionsSetup
@@ -107,4 +108,3 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">SetContext</a>
-

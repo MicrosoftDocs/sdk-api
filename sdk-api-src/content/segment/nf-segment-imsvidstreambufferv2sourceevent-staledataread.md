@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent::StaleDataRead
+ - IMSVidStreamBufferV2SourceEvent.StaleDataRead
 ---
 
 # IMSVidStreamBufferV2SourceEvent::StaleDataRead
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>
-

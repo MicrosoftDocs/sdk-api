@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection::GetCollection
+ - ICatalogCollection.GetCollection
 ---
 
 # ICatalogCollection::GetCollection
@@ -77,4 +77,3 @@ This method does not read in data for items in the retrieved collection from the
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::QuerySupport
+ - IShellFolderView.QuerySupport
 ---
 
 # IShellFolderView::QuerySupport

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4::createFilePFXWStr
+ - IEnroll4.createFilePFXWStr
 ---
 
 # IEnroll4::createFilePFXWStr
@@ -67,4 +67,3 @@ A pointer to a <b>null</b>-terminated wide character string that contains the na
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

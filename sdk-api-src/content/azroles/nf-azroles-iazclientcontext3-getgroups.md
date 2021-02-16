@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3::GetGroups
+ - IAzClientContext3.GetGroups
 ---
 
 # IAzClientContext3::GetGroups
@@ -95,4 +95,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -see-also
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext3">IAzClientContext3</a>
-

@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGISwapChain2::SetMaximumFrameLatency
+ - IDXGISwapChain2.SetMaximumFrameLatency
 ---
 
 # IDXGISwapChain2::SetMaximumFrameLatency
@@ -74,4 +74,3 @@ This method is only valid for use on swap chains created with <a href="/windows/
 <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-getmaximumframelatency">GetMaximumFrameLatency</a>
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchain2">IDXGISwapChain2</a>
-

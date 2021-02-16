@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_PROTOCOL_MESSAGE_TYPE
- - PKERB_PROTOCOL_MESSAGE_TYPE
  - KERB_PROTOCOL_MESSAGE_TYPE
 ---
 
@@ -236,4 +234,3 @@ This message queries the proxy cache for the information about a service for use
 #### - KerbVerifyCredentialsMessage
 
 This constant is reserved.
-

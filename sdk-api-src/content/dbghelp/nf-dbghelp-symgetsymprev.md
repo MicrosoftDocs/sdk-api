@@ -42,6 +42,7 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
+ - SymGetSymPrev64
  - SymGetSymPrev
 ---
 
@@ -143,4 +144,3 @@ SymGetSymPrevW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

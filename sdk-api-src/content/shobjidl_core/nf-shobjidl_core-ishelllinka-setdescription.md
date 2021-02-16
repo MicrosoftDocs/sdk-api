@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::SetDescription
+ - IShellLink.SetDescription
+ - IShellLinkA.SetDescription
+ - IShellLinkW.SetDescription
 ---
 
 # IShellLinkA::SetDescription

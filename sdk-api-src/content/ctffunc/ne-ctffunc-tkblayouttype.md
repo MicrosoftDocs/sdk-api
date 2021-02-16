@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - __MIDL_ITfFnGetPreferredTouchKeyboardLayout_0001
  - TKBLayoutType
 ---
 
@@ -72,4 +71,3 @@ The touch keyboard is to use a touch-optimized layout.
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetpreferredtouchkeyboardlayout-getlayout">ITfFnGetPreferredTouchKeyboardLayout::GetLayout</a>
-

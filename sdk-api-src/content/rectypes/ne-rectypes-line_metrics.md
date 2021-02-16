@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - enumLINE_METRICS
  - LINE_METRICS
 ---
 

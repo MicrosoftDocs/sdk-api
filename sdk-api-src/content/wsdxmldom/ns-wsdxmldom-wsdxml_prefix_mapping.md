@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
- - _WSDXML_PREFIX_MAPPING
  - WSDXML_PREFIX_MAPPING
 ---
 
@@ -72,4 +71,3 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_names
 ### -field Prefix
 
 The text of the XML prefix.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _MESSAGE_RESOURCE_ENTRY
- - PMESSAGE_RESOURCE_ENTRY
  - MESSAGE_RESOURCE_ENTRY
 ---
 
@@ -97,4 +95,3 @@ Pointer to an array that contains the error message or message box display text.
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
-

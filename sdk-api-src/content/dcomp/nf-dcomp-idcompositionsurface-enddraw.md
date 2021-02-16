@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSurface::EndDraw
+ - IDCompositionSurface.EndDraw
 ---
 
 # IDCompositionSurface::EndDraw
@@ -79,4 +79,3 @@ If the application calls <a href="/windows/desktop/api/dcomp/nf-dcomp-idcomposit
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionsurface-enddraw">IDCompositionSurface::EndDraw</a>
-

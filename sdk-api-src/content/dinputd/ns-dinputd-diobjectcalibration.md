@@ -45,7 +45,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIOBJECTCALIBRATION
- - LPDIOBJECTCALIBRATION
 ---
 
 # DIOBJECTCALIBRATION structure
@@ -74,4 +73,3 @@ Specifies the logical value for the axis maximum position.
 If the "Calibration" value is absent, then the calibration information is taken from the joystick [JOYREGHWVALUES](../mmddk/ns-mmddk-joyreghwvalues.md) configuration structure.
 
 Only HID joysticks have a "Calibration" value.
-

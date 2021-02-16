@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetNtmsObjectAttributeW
  - ntmsapi/SetNtmsObjectAttributeW
- - SetNtmsObjectAttribute
- - ntmsapi/SetNtmsObjectAttribute
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - SetNtmsObjectAttributeW
  - SetNtmsObjectAttribute
+ - SetNtmsObjectAttributeA
+ - SetNtmsObjectAttributeW
 ---
 
 # SetNtmsObjectAttributeW function
@@ -85,6 +84,8 @@ User-defined data.
 ### -param AttributeSize
 
 Size of the <i>lpAttributeData</i> buffer, in bytes.D
+
+
 
 ## -returns
 
@@ -300,4 +301,3 @@ The following is the list of objects that require special access rights.
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection::get_Count
+ - IUpdateCollection.Count
+ - IUpdateCollection.get_Count
 ---
 
 # IUpdateCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
-

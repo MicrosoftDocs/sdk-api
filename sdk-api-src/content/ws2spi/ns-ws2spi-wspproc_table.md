@@ -30,7 +30,6 @@ api_location:
  - ws2spi.h
 api_name:
  - _WSPPROC_TABLE
- - LPWSPPROC_TABLE
  - WSPPROC_TABLE
 f1_keywords:
  - _WSPPROC_TABLE
@@ -277,4 +276,3 @@ The **WSPPROC_TABLE** structure contains a table of pointers to service provider
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wspstartup">WSPStartup<a>
 
 <a href=" /windows/win32/api/winsock2/nf-winsock2-wsastringtoaddressa">WSAStringToAddress<a>
-

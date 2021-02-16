@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer::TuningSpacesForName
+ - ITuningSpaceContainer.TuningSpacesForName
 ---
 
 # ITuningSpaceContainer::TuningSpacesForName
@@ -105,4 +105,3 @@ if (SUCCEEDED(hr))
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-

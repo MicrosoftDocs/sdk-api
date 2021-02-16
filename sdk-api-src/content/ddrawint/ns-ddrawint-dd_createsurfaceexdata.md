@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_CREATESURFACEEXDATA
- - PDD_CREATESURFACEEXDATA
  - DD_CREATESURFACEEXDATA
 ---
 
@@ -87,4 +85,3 @@ Specifies the location where the driver writes the return value of the <a href="
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a>
-

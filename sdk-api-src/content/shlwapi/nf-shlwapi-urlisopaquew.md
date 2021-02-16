@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - UrlIsOpaqueW
  - shlwapi/UrlIsOpaqueW
- - UrlIsOpaque
- - shlwapi/UrlIsOpaque
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Core-url-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - UrlIsOpaqueW
  - UrlIsOpaque
+ - UrlIsOpaqueA
+ - UrlIsOpaqueW
 ---
 
 # UrlIsOpaqueW function
@@ -88,4 +87,3 @@ A URL that has a scheme that is not followed by two slashes (//) is opaque. For 
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlisa">UrlIs</a>
-

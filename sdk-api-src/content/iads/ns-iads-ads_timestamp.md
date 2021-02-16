@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0007
- - PADS_TIMESTAMP
  - ADS_TIMESTAMP
 ---
 
@@ -71,4 +69,3 @@ An event identifier, in the order of occurrence, within the period specified by 
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

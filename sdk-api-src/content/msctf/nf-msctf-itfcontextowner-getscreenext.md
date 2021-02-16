@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwner::GetScreenExt
+ - ITfContextOwner.GetScreenExt
 ---
 
 # ITfContextOwner::GetScreenExt
@@ -102,4 +102,3 @@ If the text is not currently displayed, for example if the document window is mi
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

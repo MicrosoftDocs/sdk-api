@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCProviderConfig::Configure
+ - IWPCProviderConfig.Configure
 ---
 
 # IWPCProviderConfig::Configure
@@ -89,4 +89,3 @@ Allows the provider to not handle the configuration user interface and instead t
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>
-

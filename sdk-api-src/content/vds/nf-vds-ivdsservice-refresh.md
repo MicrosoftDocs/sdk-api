@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::Refresh
+ - IVdsService.Refresh
 ---
 
 # IVdsService::Refresh
@@ -109,4 +109,3 @@ This method synchronizes the disk layout to the layout known to the disk driver.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
-

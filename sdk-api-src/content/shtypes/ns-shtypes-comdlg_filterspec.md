@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
- - _COMDLG_FILTERSPEC
  - COMDLG_FILTERSPEC
 ---
 

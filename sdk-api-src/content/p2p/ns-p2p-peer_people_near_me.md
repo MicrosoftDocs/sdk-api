@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_people_near_me_tag
- - PPEER_PEOPLE_NEAR_ME
  - PEER_PEOPLE_NEAR_ME
 ---
 
@@ -79,4 +77,3 @@ GUID value that contains the unique ID value for this peer.  Since this value un
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

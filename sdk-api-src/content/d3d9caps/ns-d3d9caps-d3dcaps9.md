@@ -44,7 +44,6 @@ api_type:
 api_location:
  - D3D9Caps.h
 api_name:
- - _D3DCAPS9
  - D3DCAPS9
 ---
 
@@ -2034,4 +2033,3 @@ The following flags concerning mipmapped textures are not supported in Direct3D 
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getdevicecaps">GetDeviceCaps</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain::GetGPO
+ - IGPMDomain.GetGPO
+ - GPMDomain.GetGPO
 ---
 
 # IGPMDomain::GetGPO
@@ -82,4 +83,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-

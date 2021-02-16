@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
- - tagDDEML_MSG_HOOK_DATA
- - PDDEML_MSG_HOOK_DATA
  - DDEML_MSG_HOOK_DATA
 ---
 
@@ -119,4 +117,3 @@ The first 32 bytes of data being passed with the message (<code>8 * sizeof(DWORD
 
 
 <b>Reference</b>
-

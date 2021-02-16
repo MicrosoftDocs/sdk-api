@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn::erase
+ - IWMPCdromBurn.erase
 ---
 
 # IWMPCdromBurn::erase
@@ -85,4 +85,3 @@ This method will not work if the disc in the drive is not rewritable. Use <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
-

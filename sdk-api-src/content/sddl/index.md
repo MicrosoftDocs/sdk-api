@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - sddl
  - sddl/sddl
-api_name:
- - sddl
 ---
 
 # Sddl.h header

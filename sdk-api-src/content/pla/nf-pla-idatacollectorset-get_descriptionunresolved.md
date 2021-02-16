@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_DescriptionUnresolved
+ - IDataCollectorSet.DescriptionUnresolved
+ - IDataCollectorSet.get_DescriptionUnresolved
 ---
 
 # IDataCollectorSet::get_DescriptionUnresolved
@@ -67,4 +68,3 @@ This property returns the description as you originally set it in the <a href="/
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_description">IDataCollectorSet::Description</a>
-

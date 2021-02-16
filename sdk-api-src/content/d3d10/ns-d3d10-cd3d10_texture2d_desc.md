@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10.h
 api_name:
- - CD3D10_TEXTURE2D_DESC
+ - D3D10_TEXTURE2D_DESC
 ---
 
 ## -description

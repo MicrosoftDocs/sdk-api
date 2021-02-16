@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IDTFilter2::GetLastErrorCode
+ - IDTFilter2.GetLastErrorCode
 ---
 
 # IDTFilter2::GetLastErrorCode
@@ -101,4 +101,3 @@ No DRM errors have occurred.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter">IDTFilter Interface</a>
-

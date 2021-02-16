@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_COUNTER_DESC::CD3D11_COUNTER_DESC
+ - CD3D11_COUNTER_DESC.CD3D11_COUNTER_DESC
 ---
 
 ## -description
@@ -67,4 +67,3 @@ Reserved.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151626(v=vs.85)">CD3D11_COUNTER_DESC</a>
-

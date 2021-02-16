@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::SetTopoNodeID
+ - IMFTopologyNode.SetTopoNodeID
 ---
 
 # IMFTopologyNode::SetTopoNodeID
@@ -109,4 +109,3 @@ When a node is first created, it is assigned an identifier. Typically there is n
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

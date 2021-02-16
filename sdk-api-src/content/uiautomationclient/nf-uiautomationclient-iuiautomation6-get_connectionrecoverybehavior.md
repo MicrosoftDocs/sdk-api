@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation6::get_ConnectionRecoveryBehavior
+ - IUIAutomation6.ConnectionRecoveryBehavior
+ - IUIAutomation6.get_ConnectionRecoveryBehavior
+ - IUIAutomation6.put_ConnectionRecoveryBehavior
 ---
 
 # IUIAutomation6::get_ConnectionRecoveryBehavior

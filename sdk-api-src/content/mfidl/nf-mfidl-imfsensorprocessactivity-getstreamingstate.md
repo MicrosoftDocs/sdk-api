@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorProcessActivity::GetStreamingState
+ - IMFSensorProcessActivity.GetStreamingState
 ---
 
 # IMFSensorProcessActivity::GetStreamingState
@@ -99,4 +99,3 @@ The <i>pfStreaming</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>
-

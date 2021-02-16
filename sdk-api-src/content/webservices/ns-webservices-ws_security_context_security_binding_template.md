@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE
  - WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -72,4 +71,3 @@ Application provided security binding properties that cannot be represented in p
 
 Application provided additional security properties for the service channel
           that cannot be represented in policy. Only policy specified security properties is used if no additional properties are specified here.
-

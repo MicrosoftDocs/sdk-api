@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::get_SupportHighContrastSelectionUI
+ - IInkOverlay.SupportHighContrastSelectionUI
+ - IInkOverlay.get_SupportHighContrastSelectionUI
+ - IInkOverlay.put_SupportHighContrastSelectionUI
+ - InkOverlay.get_SupportHighContrastSelectionUI
+ - InkOverlay.put_SupportHighContrastSelectionUI
 ---
 
 # IInkOverlay::get_SupportHighContrastSelectionUI
@@ -80,4 +84,3 @@ Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT syste
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_supporthighcontrastink">SupportHighContrastInk Property</a>
-

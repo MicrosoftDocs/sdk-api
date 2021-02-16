@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATAssessmentInfo::get_Description
+ - IProvideWinSATAssessmentInfo.Description
+ - IProvideWinSATAssessmentInfo.get_Description
 ---
 
 # IProvideWinSATAssessmentInfo::get_Description
@@ -65,4 +66,3 @@ The description provided depends on the subcomponent. For example, the descripti
 ## -see-also
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatassessmentinfo">IProvideWinSATAssessmentInfo</a>
-

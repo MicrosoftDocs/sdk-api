@@ -42,7 +42,8 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventPublisher::put_PublisherID
+ - IEventPublisher.PublisherID
+ - IEventPublisher.put_PublisherID
 ---
 
 # IEventPublisher::put_PublisherID
@@ -59,4 +60,3 @@ This property is write-only.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventpublisher">IEventPublisher</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::AddListContents
+ - IWMPContentPartnerCallback.AddListContents
 ---
 
 # IWMPContentPartnerCallback::AddListContents
@@ -93,4 +93,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

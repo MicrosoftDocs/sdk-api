@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_VPORTCB_GETVPORTCONNECT
+ - DdVideoPortGetConnectInfo
 ---
 
 ## -description
@@ -83,4 +83,3 @@ In the second call, <b>lpConnect</b> points to the array of allocated <a href="/
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportconnectdata">DD_GETVPORTCONNECTDATA</a>
-

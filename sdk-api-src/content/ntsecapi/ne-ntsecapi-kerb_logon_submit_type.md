@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_LOGON_SUBMIT_TYPE
- - PKERB_LOGON_SUBMIT_TYPE
  - KERB_LOGON_SUBMIT_TYPE
 ---
 
@@ -107,4 +105,3 @@ Unlock a workstation using a certificate stored on a smart card.
 ### -field KerbNoElevationLogon
 
 ### -field KerbLuidLogon
-

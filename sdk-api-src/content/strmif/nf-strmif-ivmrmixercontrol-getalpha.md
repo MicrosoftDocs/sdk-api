@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerControl::GetAlpha
+ - IVMRMixerControl.GetAlpha
 ---
 
 # IVMRMixerControl::GetAlpha
@@ -111,4 +111,3 @@ The pin is not connected.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

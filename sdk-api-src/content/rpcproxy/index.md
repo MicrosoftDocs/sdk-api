@@ -9,8 +9,6 @@ tech.root: rpc
 f1_keywords:
  - rpcproxy
  - rpcproxy/rpcproxy
-api_name:
- - rpcproxy
 ---
 
 # Rpcproxy.h header

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::put_VerticalOffset
+ - IPenInputPanel.VerticalOffset
+ - IPenInputPanel.get_VerticalOffset
+ - IPenInputPanel.put_VerticalOffset
+ - PenInputPanel.get_VerticalOffset
+ - PenInputPanel.put_VerticalOffset
 ---
 
 # IPenInputPanel::put_VerticalOffset
@@ -78,4 +82,3 @@ If the new position of the <a href="/windows/desktop/tablet/peninputpanel-class"
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

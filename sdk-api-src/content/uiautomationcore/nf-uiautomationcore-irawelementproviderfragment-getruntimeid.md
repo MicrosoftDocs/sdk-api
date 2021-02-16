@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment::GetRuntimeId
+ - IRawElementProviderFragment.GetRuntimeId
 ---
 
 # IRawElementProviderFragment::GetRuntimeId
@@ -122,4 +122,3 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::GetRuntimeId(SAFEARRAY ** pRetVal)
 
 
 <b>Reference</b>
-

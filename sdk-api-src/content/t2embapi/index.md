@@ -9,8 +9,6 @@ tech.root: gdi
 f1_keywords:
  - t2embapi
  - t2embapi/t2embapi
-api_name:
- - t2embapi
 ---
 
 # T2Embapi.h header

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage::get_TransmissionEnd
+ - IFaxIncomingMessage.TransmissionEnd
+ - IFaxIncomingMessage.get_TransmissionEnd
+ - IFaxIncomingMessage.get_TransmissionEnd
 ---
 
 # IFaxIncomingMessage::get_TransmissionEnd
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-archive">Visual Basic Example</a>
-

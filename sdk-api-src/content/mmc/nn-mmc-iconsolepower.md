@@ -43,6 +43,7 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IConsolePower
+ - ConsolePower
 ---
 
 # IConsolePower interface
@@ -63,4 +64,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IConsolePower</b> interface i
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsolepowersink">IConsolePowerSink</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dwmapi.h
 api_name:
- - _DWM_THUMBNAIL_PROPERTIES
- - PDWM_THUMBNAIL_PROPERTIES
  - DWM_THUMBNAIL_PROPERTIES
 ---
 
@@ -83,4 +81,3 @@ The opacity with which to render the thumbnail. 0 is fully transparent while 255
 ### -field fSourceClientAreaOnly
 
 <b>TRUE</b> to use only the thumbnail source's client area; otherwise, <b>FALSE</b>. The default is <b>FALSE</b>.
-

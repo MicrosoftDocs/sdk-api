@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
- - _tagSYNCMGRFLAG
  - SYNCMGRFLAG
 ---
 
@@ -96,4 +95,3 @@ Interaction with the user is permitted. The application is allowed to show user 
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-initialize">ISyncMgrSynchronize::Initialize</a>
-

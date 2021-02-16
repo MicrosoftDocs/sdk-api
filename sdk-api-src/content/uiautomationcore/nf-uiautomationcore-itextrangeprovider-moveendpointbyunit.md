@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::MoveEndpointByUnit
+ - ITextRangeProvider.MoveEndpointByUnit
 ---
 
 # ITextRangeProvider::MoveEndpointByUnit
@@ -133,4 +133,3 @@ The order, from smallest unit to largest, is listed here.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

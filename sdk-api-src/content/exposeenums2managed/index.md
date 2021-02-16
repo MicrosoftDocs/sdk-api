@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - exposeenums2managed
  - exposeenums2managed/exposeenums2managed
-api_name:
- - exposeenums2managed
 ---
 
 # Exposeenums2Managed.h header

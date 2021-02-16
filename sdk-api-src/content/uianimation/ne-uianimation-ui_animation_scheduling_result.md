@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0002_0002
  - UI_ANIMATION_SCHEDULING_RESULT
 ---
 
@@ -88,4 +87,3 @@ Scheduling is deferred and will be attempted when the current callback completes
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-schedule">IUIAnimationStoryboard::Schedule</a>
-

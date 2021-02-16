@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCOMPLUS_APPTYPE
  - COMPLUS_APPTYPE
 ---
 
@@ -80,4 +79,3 @@ COM+ services without components.
 
 
 <a href="/windows/desktop/api/comsvcs/ns-comsvcs-applicationsummary">ApplicationSummary</a>
-

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::get_MousePointer
+ - IInkOverlay.MousePointer
+ - IInkOverlay.get_MousePointer
+ - IInkOverlay.put_MousePointer
+ - InkOverlay.get_MousePointer
+ - InkOverlay.put_MousePointer
 ---
 
 # IInkOverlay::get_MousePointer
@@ -80,4 +84,3 @@ You can use this property when you want to indicate changes in functionality as 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mouseicon">MouseIcon Property</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdrom::get_playlist
+ - IWMPCdrom.get_playlist
 ---
 
 # IWMPCdrom::get_playlist
@@ -111,4 +111,3 @@ To retrieve the value of this property, read access to the library is required. 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights">IWMPSettings2::requestMediaAccessRights</a>
-

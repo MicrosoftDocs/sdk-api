@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::IsUsingDefaultDestination
+ - IBasicVideo.IsUsingDefaultDestination
 ---
 
 # IBasicVideo::IsUsingDefaultDestination
@@ -70,4 +70,3 @@ Returns S_OK if the renderer is using the default destination rectangle, or S_FA
 
 
 <a href="/windows/desktop/api/control/nf-control-ibasicvideo-setdefaultdestinationposition">IBasicVideo::SetDefaultDestinationPosition</a>
-

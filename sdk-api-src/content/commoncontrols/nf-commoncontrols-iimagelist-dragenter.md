@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList::DragEnter
+ - IImageList.DragEnter
 ---
 
 # IImageList::DragEnter
@@ -84,4 +84,3 @@ To begin a drag operation, use <a href="/windows/desktop/api/commoncontrols/nf-c
 		
 
 To use <b>IImageList::DragEnter</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-

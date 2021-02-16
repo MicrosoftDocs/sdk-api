@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IEnumFullIDList::Next
+ - IEnumFullIDList.Next
 ---
 
 # IEnumFullIDList::Next
@@ -83,4 +83,3 @@ Returns S_OK if the method successfully retrieved the requested <i>celt</i> elem
 S_FALSE indicates that more items were requested than remained in the enumeration. The value pointed to by the <i>pceltFetched</i> parameter specifies the actual number of items retrieved. Note that the value will be 0 if there are no more items to retrieve.
 
 Returns a COM-defined error value otherwise.
-

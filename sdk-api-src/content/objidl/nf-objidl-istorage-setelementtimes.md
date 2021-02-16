@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::SetElementTimes
+ - IStorage.SetElementTimes
 ---
 
 # IStorage::SetElementTimes
@@ -90,4 +90,3 @@ Call the
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
-

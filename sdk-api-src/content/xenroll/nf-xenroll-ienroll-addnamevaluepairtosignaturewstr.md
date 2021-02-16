@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::AddNameValuePairToSignatureWStr
+ - IEnroll.AddNameValuePairToSignatureWStr
+ - IEnroll4.AddNameValuePairToSignatureWStr
 ---
 
 # IEnroll::AddNameValuePairToSignatureWStr
@@ -80,4 +81,3 @@ The <b>AddNameValuePairToSignatureWStr</b> method is used  to add attributes to 
 
 
 <b>IEnroll4</b>
-

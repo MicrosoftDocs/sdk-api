@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateService::get_SetupPrefix
+ - IUpdateService.SetupPrefix
+ - IUpdateService.get_SetupPrefix
 ---
 
 # IUpdateService::get_SetupPrefix
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
-

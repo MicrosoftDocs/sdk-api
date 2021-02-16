@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_UPDATEVPORTDATA
- - PDD_UPDATEVPORTDATA
  - DD_UPDATEVPORTDATA
 ---
 
@@ -144,4 +142,3 @@ Used by the DirectDraw API and should not be filled in by the driver.
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
-

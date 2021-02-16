@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps::GetPropByIndex
+ - IWMBackupRestoreProps.GetPropByIndex
 ---
 
 # IWMBackupRestoreProps::GetPropByIndex
@@ -104,4 +104,3 @@ You should make two calls to <b>GetPropByIndex</b>. On the first call, pass <b>N
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-setprop">IWMBackupRestoreProps::SetProp</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue::GetMessageCountLimit
+ - ID3D12InfoQueue.GetMessageCountLimit
 ---
 
 # ID3D12InfoQueue::GetMessageCountLimit
@@ -65,4 +65,3 @@ When the number of messages in the message queue has reached the maximum limit, 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
-

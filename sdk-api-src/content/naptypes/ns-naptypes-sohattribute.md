@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagSoHAttribute
  - SoHAttribute
 ---
 
@@ -76,4 +75,3 @@ A pointer to a <a href="/windows/desktop/NAP/sohattributevalue-union">SoHAttribu
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
-

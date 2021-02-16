@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_50
- - PDFS_INFO_50
  - DFS_INFO_50
 ---
 
@@ -88,4 +86,3 @@ The DFS namespace supports associating a security descriptor with a DFS link for
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winusbio.h
 api_name:
- - _WINUSB_PIPE_INFORMATION
- - PWINUSB_PIPE_INFORMATION
  - WINUSB_PIPE_INFORMATION
 ---
 
@@ -87,4 +85,3 @@ The pipe interval.
 
 
 <a href="/windows/desktop/api/winusb/nf-winusb-winusb_querypipe">WinUsb_QueryPipe</a>
-

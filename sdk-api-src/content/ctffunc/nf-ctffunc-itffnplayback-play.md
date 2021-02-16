@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnPlayBack::Play
+ - ITfFnPlayBack.Play
 ---
 
 # ITfFnPlayBack::Play
@@ -117,4 +117,3 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionServiceCallback::onComplete
+ - IWMPSubscriptionServiceCallback.onComplete
 ---
 
 # IWMPSubscriptionServiceCallback::onComplete
@@ -97,4 +97,3 @@ In your <b>prepareForSync</b> and <b>deviceAvailable</b> methods, use the follow
 ## -see-also
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback Interface</a>
-

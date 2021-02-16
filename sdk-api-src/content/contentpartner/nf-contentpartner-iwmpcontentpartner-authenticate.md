@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::Authenticate
+ - IWMPContentPartner.Authenticate
 ---
 
 # IWMPContentPartner::Authenticate
@@ -103,4 +103,3 @@ To decrypt the information supplied in <i>userInfo</i> and <i>pwdInfo</i>, use t
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-

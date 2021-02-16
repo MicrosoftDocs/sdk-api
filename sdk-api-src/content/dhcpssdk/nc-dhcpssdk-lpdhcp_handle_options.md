@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dhcpssdk.h
 api_name:
- - LPDHCP_HANDLE_OPTIONS
+ - DhcpHandleOptionsHook
 ---
 
 # LPDHCP_HANDLE_OPTIONS callback function
@@ -103,4 +103,3 @@ The
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpssdk/nc-dhcpssdk-lpdhcp_newpkt">DhcpNewPktHook</a>
-

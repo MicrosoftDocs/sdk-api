@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_LOCKDATA
- - PDD_LOCKDATA
  - DD_LOCKDATA
 ---
 
@@ -252,4 +250,3 @@ Specifies a pointer to a user-mode mapping of the driver's memory. The driver pe
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff568216(v=vs.85)">LockD3DBuffer</a>
-

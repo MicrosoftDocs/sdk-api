@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProviderCollection::Add
+ - ITraceDataProviderCollection.Add
 ---
 
 # ITraceDataProviderCollection::Add
@@ -73,4 +73,3 @@ Returns S_OK if successful.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovidercollection-remove">ITraceDataProviderCollection::Remove</a>
-

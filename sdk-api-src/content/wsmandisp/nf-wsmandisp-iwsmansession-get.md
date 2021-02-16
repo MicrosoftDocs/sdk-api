@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession::Get
+ - IWSManSession.Get
 ---
 
 # IWSManSession::Get
@@ -86,4 +86,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/session-get">Session.Get</a>
-

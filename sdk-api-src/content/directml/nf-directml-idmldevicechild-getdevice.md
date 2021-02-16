@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLDeviceChild::GetDevice
+ - IDMLDeviceChild.GetDevice
 ---
 
 # IDMLDeviceChild::GetDevice

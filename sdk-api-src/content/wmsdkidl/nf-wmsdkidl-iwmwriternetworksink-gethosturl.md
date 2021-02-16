@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink::GetHostURL
+ - IWMWriterNetworkSink.GetHostURL
 ---
 
 # IWMWriterNetworkSink::GetHostURL
@@ -127,4 +127,3 @@ You should make two calls to <b>GetHostURL</b>. On the first call, pass <b>NULL<
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
-

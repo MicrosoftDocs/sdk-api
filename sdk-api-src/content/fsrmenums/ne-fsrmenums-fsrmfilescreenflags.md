@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmFileScreenFlags
  - FsrmFileScreenFlags
 ---
 
@@ -66,4 +65,3 @@ If this flag is set, the server will fail any IO operation that violates the fil
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nf-fsrmscreen-ifsrmfilescreenbase-get_filescreenflags">IFsrmFileScreenBase::FileScreenFlags</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE
  - WS_HTTP_HEADER_AUTH_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -69,4 +68,3 @@ Application provided security binding properties that cannot be represented in p
 
 The Windows credential to be used to obtain this security token.  This
           is required on the client side and must be <b>NULL</b> on the server side.
-

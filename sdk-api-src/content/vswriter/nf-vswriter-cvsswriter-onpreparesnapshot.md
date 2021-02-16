@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::OnPrepareSnapshot
+ - CVssWriter.OnPrepareSnapshot
 ---
 
 # CVssWriter::OnPrepareSnapshot
@@ -98,4 +98,3 @@ If this method calls the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvss
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linemessage_tag
- - LPLINEMESSAGE
  - LINEMESSAGE
 ---
 
@@ -100,4 +98,3 @@ For information about parameter values passed in this structure, see
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _MAP_VALUETYPE
  - MAP_VALUETYPE
 ---
 
@@ -68,4 +67,3 @@ Use the <b>InputOffset</b> member of <a href="/windows/desktop/api/tdh/ns-tdh-ev
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
-

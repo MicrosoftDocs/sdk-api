@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_SERVICE_METADATA_LIST
  - WSD_SERVICE_METADATA_LIST
 ---
 
@@ -68,4 +67,3 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_me
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_service_metadata">WSD_SERVICE_METADATA</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::Capture
+ - IMSVidVideoRenderer.Capture
 ---
 
 # IMSVidVideoRenderer::Capture
@@ -97,4 +97,3 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

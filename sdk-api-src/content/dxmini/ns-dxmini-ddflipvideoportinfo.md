@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDFLIPVIDEOPORTINFO
- - PDDFLIPVIDEOPORTINFO
  - DDFLIPVIDEOPORTINFO
 ---
 
@@ -114,4 +112,3 @@ Flip the normal video surface.
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_flipvideoport">DxFlipVideoPort</a>
-

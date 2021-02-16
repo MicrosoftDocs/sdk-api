@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendPropertySheet::QueryPagesFor
+ - IExtendPropertySheet.QueryPagesFor
 ---
 
 # IExtendPropertySheet::QueryPagesFor
@@ -83,4 +83,3 @@ The console calls this method to determine whether the
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
-

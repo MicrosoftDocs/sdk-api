@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ksopmapi.h
 api_name:
- - _OPM_OMAC
  - OPM_OMAC
 ---
 
@@ -80,4 +79,3 @@ A buffer that contains the cryptographic MAC value of the message.
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-

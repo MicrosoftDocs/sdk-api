@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_VPCAPS
  - DXVAHD_VPCAPS
 ---
 
@@ -96,4 +95,3 @@ The number of custom output frame rates. To get the list of custom frame rates, 
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

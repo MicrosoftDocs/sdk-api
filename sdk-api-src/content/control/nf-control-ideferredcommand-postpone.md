@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDeferredCommand::Postpone
+ - IDeferredCommand.Postpone
 ---
 
 # IDeferredCommand::Postpone
@@ -99,4 +99,3 @@ The specified time has already passed.
 
 
 <a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>
-

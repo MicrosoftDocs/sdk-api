@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::ExposeSnapshot
+ - IVssBackupComponents.ExposeSnapshot
 ---
 
 # IVssBackupComponents::ExposeSnapshot
@@ -253,4 +253,3 @@ For more information on how to expose shadow copies, see
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-

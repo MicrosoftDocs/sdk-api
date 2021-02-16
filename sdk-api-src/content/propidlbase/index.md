@@ -9,8 +9,6 @@ tech.root: stg
 f1_keywords:
  - propidlbase
  - propidlbase/propidlbase
-api_name:
- - propidlbase
 ---
 
 # Propidlbase.h header

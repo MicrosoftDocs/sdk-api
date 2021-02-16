@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dsclient.h
 api_name:
- - LPDSPROPERTYPAGEINFO
  - DSPROPERTYPAGEINFO
 ---
 
@@ -76,4 +75,3 @@ The  <b>DSPROPETYPAGEINFO</b> structure contains the optional string that the ex
 
 
 <a href="/windows/desktop/AD/registering-the-property-page-com-object-in-a-display-specifier">Registering the Property Page COM Object in a Display Specifier</a>
-

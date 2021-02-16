@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::GetStringProperty
+ - IX509PolicyServerUrl.GetStringProperty
 ---
 
 # IX509PolicyServerUrl::GetStringProperty
@@ -138,4 +138,3 @@ Memory could not be allocated for the return value.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

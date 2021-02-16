@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_WRITE_AGGREGATION_DESCRIPTOR
- - PDEVICE_WRITE_AGGREGATION_DESCRIPTOR
  - DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 ---
 
@@ -79,4 +77,3 @@ Specifies the total size of the descriptor, in bytes.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-

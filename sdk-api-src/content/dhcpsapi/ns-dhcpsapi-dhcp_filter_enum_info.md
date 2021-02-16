@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_FILTER_ENUM_INFO
- - LPDHCP_FILTER_ENUM_INFO
  - DHCP_FILTER_ENUM_INFO
 ---
 
@@ -75,4 +73,3 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_f
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_filter_record">DHCP_FILTER_RECORD</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOQualityControl::SetNow
+ - IDMOQualityControl.SetNow
 ---
 
 # IDMOQualityControl::SetNow
@@ -103,4 +103,3 @@ If incoming samples are not time-stamped, the DMO never performs quality control
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol">IDMOQualityControl Interface</a>
-

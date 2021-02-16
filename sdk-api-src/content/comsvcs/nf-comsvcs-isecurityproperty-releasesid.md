@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityProperty::ReleaseSID
+ - ISecurityProperty.ReleaseSID
 ---
 
 # ISecurityProperty::ReleaseSID
@@ -102,4 +102,3 @@ You should always invoke the <b>ReleaseSID</b> method to release any security ID
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
-

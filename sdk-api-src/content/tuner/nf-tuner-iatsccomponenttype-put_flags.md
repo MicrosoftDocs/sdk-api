@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCComponentType::put_Flags
+ - IATSCComponentType.put_Flags
 ---
 
 # IATSCComponentType::put_Flags
@@ -85,4 +85,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsccomponenttype">IATSCComponentType Interface</a>
-

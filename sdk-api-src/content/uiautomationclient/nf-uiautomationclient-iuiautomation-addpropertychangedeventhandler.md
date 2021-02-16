@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::AddPropertyChangedEventHandler
+ - IUIAutomation.AddPropertyChangedEventHandler
 ---
 
 # IUIAutomation::AddPropertyChangedEventHandler
@@ -137,4 +137,3 @@ A UI Automation client should not use multiple threads to add or remove event ha
 
 
 <a href="/windows/desktop/WinAuto/uiauto-threading">Understanding Threading Issues</a>
-

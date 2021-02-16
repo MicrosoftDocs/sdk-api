@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology::AddNode
+ - IMFTopology.AddNode
 ---
 
 # IMFTopology::AddNode
@@ -99,4 +99,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - PIP6_ADDRESS
  - IP6_ADDRESS
 ---
 

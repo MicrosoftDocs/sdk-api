@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties::GetPropertyName
+ - ID2D1Properties.GetPropertyName
 ---
 
 # ID2D1Properties::GetPropertyName(U,PWSTR,UINT32)
@@ -129,4 +129,3 @@ This method returns an empty string if <i>index</i> is invalid. If the method re
 �
 
 �
-

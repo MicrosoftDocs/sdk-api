@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ImageBrush::SetImage
+ - ID2D1ImageBrush.SetImage
 ---
 
 # ID2D1ImageBrush::SetImage
@@ -63,4 +63,3 @@ The image to be associated with the image brush.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">ID2D1ImageBrush</a>
-

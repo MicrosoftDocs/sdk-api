@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPorts::Add
+ - INetFwOpenPorts.Add
 ---
 
 # INetFwOpenPorts::Add
@@ -60,6 +60,7 @@ Opens a new port and adds it to the collection.
 ### -param port [in]
 
 Port to add to the collection.
+
 
 ## -returns
 
@@ -183,4 +184,3 @@ If the port is already open, the existing settings are overwritten.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>
-

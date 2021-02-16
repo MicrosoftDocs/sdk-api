@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueueRenameSectionA
  - setupapi/SetupQueueRenameSectionA
- - SetupQueueRenameSection
- - setupapi/SetupQueueRenameSection
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueueRenameSectionA
  - SetupQueueRenameSection
+ - SetupQueueRenameSectionA
+ - SetupQueueRenameSectionW
 ---
 
 # SetupQueueRenameSectionA function
@@ -117,4 +116,3 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuerenamea">SetupQueueRename</a>
-

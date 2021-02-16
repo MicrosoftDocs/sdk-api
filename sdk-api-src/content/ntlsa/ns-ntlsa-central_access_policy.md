@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntlsa.h
 api_name:
- - _CENTRAL_ACCESS_POLICY
- - PCENTRAL_ACCESS_POLICY
  - CENTRAL_ACCESS_POLICY
 ---
 
@@ -87,4 +85,3 @@ The length of the buffer pointed to by the <i>CAPEs</i> field.
 ### -field CAPEs
 
 Pointer to a buffer of <a href="/windows/desktop/api/ntlsa/ns-ntlsa-central_access_policy_entry">CENTRAL_ACCESS_POLICY_ENTRY</a> pointers.
-

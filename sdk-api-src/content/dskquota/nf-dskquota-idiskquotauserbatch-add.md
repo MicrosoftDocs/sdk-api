@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUserBatch::Add
+ - IDiskQuotaUserBatch.Add
 ---
 
 # IDiskQuotaUserBatch::Add
@@ -132,4 +132,3 @@ An unexpected exception occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
-

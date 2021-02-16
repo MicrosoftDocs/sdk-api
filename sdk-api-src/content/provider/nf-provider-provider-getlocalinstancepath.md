@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::GetLocalInstancePath
+ - Provider.GetLocalInstancePath
 ---
 
 # Provider::GetLocalInstancePath
@@ -72,4 +72,3 @@ Full object path, complete from the computer name to the key value.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if the operation was unsuccessful.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _CACHE_DESCRIPTOR
- - PCACHE_DESCRIPTOR
  - CACHE_DESCRIPTOR
 ---
 
@@ -131,4 +129,3 @@ The cache type. This member is a <a href="/windows/desktop/api/winnt/ne-winnt-pr
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
-

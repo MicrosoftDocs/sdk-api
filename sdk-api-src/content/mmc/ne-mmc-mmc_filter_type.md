@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_FILTER_TYPE
  - MMC_FILTER_TYPE
 ---
 
@@ -92,4 +91,3 @@ When reading filter data, if no value has been entered by the snap-in or the use
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iheaderctrl2-setcolumnfilter">IHeaderCtrl2::SetColumnFilter</a>
-

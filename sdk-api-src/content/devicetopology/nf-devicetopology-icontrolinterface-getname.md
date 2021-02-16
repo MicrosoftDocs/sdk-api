@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IControlInterface::GetName
+ - IControlInterface.GetName
 ---
 
 # IControlInterface::GetName
@@ -102,4 +102,3 @@ As an example of a friendly name, a subunit with an <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface Interface</a>
-

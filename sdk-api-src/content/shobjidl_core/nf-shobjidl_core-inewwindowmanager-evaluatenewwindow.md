@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - INewWindowManager::EvaluateNewWindow
+ - INewWindowManager.EvaluateNewWindow
 ---
 
 # INewWindowManager::EvaluateNewWindow
@@ -141,4 +141,3 @@ When you implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-
 </td>
 </tr>
 </table>
-

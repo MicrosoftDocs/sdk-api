@@ -47,8 +47,6 @@ api_location:
  - Ws2ipdef.h
  - Ws2tcpip.h
 api_name:
- - in6_pktinfo
- - PIN6_PKTINFO
  - IN6_PKTINFO
 ---
 
@@ -111,4 +109,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-in_pktinfo">in_pktinfo</a>
-

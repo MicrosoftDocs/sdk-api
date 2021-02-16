@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemInputPin::ReceiveMultiple
+ - IMemInputPin.ReceiveMultiple
 ---
 
 # IMemInputPin::ReceiveMultiple
@@ -155,4 +155,3 @@ This method behaves like the <a href="/windows/desktop/api/strmif/nf-strmif-imem
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-

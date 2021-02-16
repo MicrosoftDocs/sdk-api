@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl::GetColumnWidth
+ - IHeaderCtrl.GetColumnWidth
 ---
 
 # IHeaderCtrl::GetColumnWidth
@@ -77,4 +77,3 @@ GetColumnWidth returns 0 (zero) as the column width. However, because a column c
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>
-

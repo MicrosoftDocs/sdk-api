@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate::GetStrokesFromTextRange
+ - IInkRecognitionAlternate.GetStrokesFromTextRange
 ---
 
 # IInkRecognitionAlternate::GetStrokesFromTextRange
@@ -154,4 +154,3 @@ In both word and character based recognizers, spaces are counted as a character.
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

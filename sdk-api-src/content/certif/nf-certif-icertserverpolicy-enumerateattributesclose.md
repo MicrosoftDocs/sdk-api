@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::EnumerateAttributesClose
+ - ICertServerPolicy.EnumerateAttributesClose
+ - CCertServerPolicy.EnumerateAttributesClose
 ---
 
 # ICertServerPolicy::EnumerateAttributesClose
@@ -92,4 +93,3 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateattributessetup">ICertServerPolicy::EnumerateAttributesSetup</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_METHOD_INFO_ARRAY_EX
  - EAP_METHOD_INFO_ARRAY_EX
 ---
 
@@ -88,4 +87,3 @@ Pointer to the address of the first element in an array of <a href="/windows/des
 
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a>
-

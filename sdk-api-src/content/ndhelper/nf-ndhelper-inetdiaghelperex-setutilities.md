@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelperEx::SetUtilities
+ - INetDiagHelperEx.SetUtilities
 ---
 
 # INetDiagHelperEx::SetUtilities
@@ -69,4 +69,3 @@ This method  is reserved for system use.
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>
-

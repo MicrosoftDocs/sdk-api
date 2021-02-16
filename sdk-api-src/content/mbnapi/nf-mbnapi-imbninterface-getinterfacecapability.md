@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface::GetInterfaceCapability
+ - IMbnInterface.GetInterfaceCapability
 ---
 
 # IMbnInterface::GetInterfaceCapability
@@ -101,4 +101,3 @@ The <b>GetInterfaceCapability</b> method returns the interface capabilities, inc
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-

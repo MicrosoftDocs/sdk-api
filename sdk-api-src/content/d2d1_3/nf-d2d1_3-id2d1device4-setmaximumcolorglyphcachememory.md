@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device4::SetMaximumColorGlyphCacheMemory
+ - ID2D1Device4.SetMaximumColorGlyphCacheMemory
 ---
 
 # ID2D1Device4::SetMaximumColorGlyphCacheMemory
@@ -71,4 +71,3 @@ The color glyph cache is used to store color bitmap glyphs and SVG glyphs, enabl
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a>
-

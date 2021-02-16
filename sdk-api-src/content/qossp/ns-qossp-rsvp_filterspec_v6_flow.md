@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
- - _RSVP_FILTERSPEC_V6_FLOW
- - LPRSVP_FILTERSPEC_V6_FLOW
  - RSVP_FILTERSPEC_V6_FLOW
 ---
 
@@ -81,4 +79,3 @@ Reserved. Do not use.
 
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
-

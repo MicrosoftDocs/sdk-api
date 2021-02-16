@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Madcapcl.h
 api_name:
- - _MCAST_SCOPE_ENTRY
- - PMCAST_SCOPE_ENTRY
  - MCAST_SCOPE_ENTRY
 ---
 
@@ -130,4 +128,3 @@ Description of the scope, in human readable, user-friendly format.
 
 
 <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a>
-

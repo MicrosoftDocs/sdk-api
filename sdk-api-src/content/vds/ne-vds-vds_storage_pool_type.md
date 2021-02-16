@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_STORAGE_POOL_TYPE
  - VDS_STORAGE_POOL_TYPE
 ---
 
@@ -84,4 +83,3 @@ A storage area network (SAN) can contain one primordial pool. You can create mul
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_prop">VDS_STORAGE_POOL_PROP</a>
-

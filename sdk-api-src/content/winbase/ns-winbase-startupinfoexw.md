@@ -46,8 +46,8 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _STARTUPINFOEXW
- - LPSTARTUPINFOEXW
+ - STARTUPINFOEX
+ - STARTUPINFOEXA
  - STARTUPINFOEXW
 ---
 
@@ -92,4 +92,3 @@ Be sure to set the <b>cb</b> member of the <a href="/windows/desktop/api/process
 
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-initializeprocthreadattributelist">InitializeProcThreadAttributeList</a>
-

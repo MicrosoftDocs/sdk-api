@@ -46,8 +46,6 @@ api_type:
 api_location:
  - vptype.h
 api_name:
- - _AMVPDATAINFO
- - LPAMVPDATAINFO
  - AMVPDATAINFO
 ---
 
@@ -115,4 +113,3 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

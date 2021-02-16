@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPStringCollection::get_count
+ - IWMPStringCollection.get_count
 ---
 
 # IWMPStringCollection::get_count
@@ -95,4 +95,3 @@ To retrieve the value of this method, read access to the library is required. Fo
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::SetTag
+ - IDirectManipulationViewport.SetTag
 ---
 
 # IDirectManipulationViewport::SetTag
@@ -90,4 +90,3 @@ HRESULT hr = pRegion->SetTag(pUnk, id);
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

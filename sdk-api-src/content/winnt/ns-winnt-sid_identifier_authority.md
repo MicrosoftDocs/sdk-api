@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SID_IDENTIFIER_AUTHORITY
- - PSID_IDENTIFIER_AUTHORITY
  - SID_IDENTIFIER_AUTHORITY
 ---
 
@@ -121,4 +119,3 @@ A SID must contain a top-level authority and at least one <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-

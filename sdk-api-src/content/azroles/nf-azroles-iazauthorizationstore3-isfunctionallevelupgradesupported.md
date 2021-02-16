@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported
+ - IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
 ---
 
 # IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported
@@ -75,4 +75,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore3-upgradestoresfunctionallevel">UpgradeStoresFunctionalLevel</a>
-

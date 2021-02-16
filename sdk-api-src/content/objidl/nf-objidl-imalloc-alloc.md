@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMalloc::Alloc
+ - IMalloc.Alloc
 ---
 
 # IMalloc::Alloc
@@ -77,4 +77,3 @@ If <i>cb</i> is zero, <b>Alloc</b> allocates a zero-length item and returns a va
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-

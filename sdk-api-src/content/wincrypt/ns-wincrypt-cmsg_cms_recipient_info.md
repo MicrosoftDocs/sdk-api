@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CMS_RECIPIENT_INFO
- - PCMSG_CMS_RECIPIENT_INFO
  - CMSG_CMS_RECIPIENT_INFO
 ---
 
@@ -123,4 +121,3 @@ A pointer to a
 
 A pointer to a 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_info">CMSG_MAIL_LIST_RECIPIENT_INFO</a> structure that identifies a recipient using a previously distributed key encryption key for the encryption/decryption of the envelopes message's <a href="/windows/desktop/SecGloss/s-gly">symmetric key</a>.
-

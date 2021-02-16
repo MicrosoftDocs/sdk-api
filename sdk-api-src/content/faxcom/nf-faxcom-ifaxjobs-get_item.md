@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJobs::get_Item
+ - IFaxJobs.get_Item
 ---
 
 # IFaxJobs::get_Item
@@ -103,4 +103,3 @@ A fax client application can also access the <a href="/previous-versions/windows
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IDataRetrieverCallback::LoadChangeDataComplete
+ - IDataRetrieverCallback.LoadChangeDataComplete
 ---
 
 # IDataRetrieverCallback::LoadChangeDataComplete
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-idataretrievercallback">IDataRetrieverCallback Interface</a>
-

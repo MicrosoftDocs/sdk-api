@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush::TextureBrush
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN WrapMode,IN REAL,IN REAL,IN REAL,IN REAL)
@@ -120,4 +120,3 @@ Now suppose you create another <a href="/windows/desktop/api/gdiplusbrush/nl-gdi
 <code>TextureBrush(&amp;someImage, WrapModeTile, 0, 0, 256, 512)</code>
 
 The brush will have width and height equal to 256 and 512, respectively. The brush will use the entire image instead of a portion of it because the rectangle specifies a starting pixel at coordinates (0, 0) and dimensions identical to those of the image.
-

@@ -9,8 +9,6 @@ tech.root: smi
 f1_keywords:
  - wcmconfig
  - wcmconfig/wcmconfig
-api_name:
- - wcmconfig
 ---
 
 # Wcmconfig.h header

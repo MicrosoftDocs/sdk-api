@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellApp::GetPossibleActions
+ - IShellApp.GetPossibleActions
 ---
 
 # IShellApp::GetPossibleActions
@@ -81,4 +81,3 @@ Of the set of <a href="/windows/desktop/api/shappmgr/ne-shappmgr-appactionflags"
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-

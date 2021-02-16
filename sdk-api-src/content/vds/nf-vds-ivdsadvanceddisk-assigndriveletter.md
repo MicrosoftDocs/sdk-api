@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk::AssignDriveLetter
+ - IVdsAdvancedDisk.AssignDriveLetter
 ---
 
 # IVdsAdvancedDisk::AssignDriveLetter
@@ -134,4 +134,3 @@ VDS implements this method.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk">IVdsAdvancedDisk</a>
-

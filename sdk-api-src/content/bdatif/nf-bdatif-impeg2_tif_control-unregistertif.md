@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL::UnregisterTIF
+ - IMPEG2_TIF_CONTROL.UnregisterTIF
 ---
 
 # IMPEG2_TIF_CONTROL::UnregisterTIF
@@ -102,4 +102,3 @@ Call this method after the TIF's intput pin has been disconnected from the Demux
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_COOKIE_PAIR0_
  - IKEEXT_COOKIE_PAIR0
 ---
 
@@ -72,4 +71,3 @@ Responder cookie. An IKEEXT_COOKIE is a UINT64.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

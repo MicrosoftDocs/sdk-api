@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Object::SetPrivateData
+ - ID3D12Object.SetPrivateData
 ---
 
 # ID3D12Object::SetPrivateData
@@ -86,4 +86,3 @@ Rather than using the Direct3D 11 debug object naming scheme of calling <b>ID3D1
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
-

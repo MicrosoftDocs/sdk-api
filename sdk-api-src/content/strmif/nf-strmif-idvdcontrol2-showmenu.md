@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2::ShowMenu
+ - IDvdControl2.ShowMenu
 ---
 
 # IDvdControl2::ShowMenu

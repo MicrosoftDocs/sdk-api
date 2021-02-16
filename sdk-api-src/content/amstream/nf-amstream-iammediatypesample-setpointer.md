@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::SetPointer
+ - IAMMediaTypeSample.SetPointer
 ---
 
 # IAMMediaTypeSample::SetPointer
@@ -104,4 +104,3 @@ If the value of the <i>pBuffer</i> parameter is <b>NULL</b>, the method allocate
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

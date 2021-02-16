@@ -9,8 +9,6 @@ tech.root: wcn
 f1_keywords:
  - wcndevice
  - wcndevice/wcndevice
-api_name:
- - wcndevice
 ---
 
 # Wcndevice.h header

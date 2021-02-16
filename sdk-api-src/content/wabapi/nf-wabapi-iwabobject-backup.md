@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject::Backup
+ - IWABObject.Backup
 ---
 
 # IWABObject::Backup

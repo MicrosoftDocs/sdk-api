@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectType::IsValid
+ - ID3D10EffectType.IsValid
 ---
 
 # ID3D10EffectType::IsValid
@@ -63,4 +63,3 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
-

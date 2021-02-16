@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentAutomationId
+ - IUIAutomationElement.CurrentAutomationId
+ - IUIAutomationElement.get_CurrentAutomationId
 ---
 
 # IUIAutomationElement::get_CurrentAutomationId
@@ -75,4 +76,3 @@ The identifier is unique among sibling elements in a container, and is the same 
 
 
 <b>Reference</b>
-

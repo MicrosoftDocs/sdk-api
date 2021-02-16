@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyFriendlyName::get_FriendlyName
+ - ICertPropertyFriendlyName.FriendlyName
+ - ICertPropertyFriendlyName.get_FriendlyName
 ---
 
 # ICertPropertyFriendlyName::get_FriendlyName
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyfriendlyname">ICertPropertyFriendlyName</a>
-

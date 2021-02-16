@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_OPM_CGMSA_PROTECTION_LEVEL
  - MF_OPM_CGMSA_PROTECTION_LEVEL
 ---
 
@@ -88,4 +87,3 @@ These flags are equivalent to the OPM_CGMSA_Protection_Level enumeration constan
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

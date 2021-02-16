@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _XLATEOBJ
  - XLATEOBJ
 ---
 
@@ -169,4 +168,3 @@ The XLATEOBJ structure is used to translate color indices that refer to the sour
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-xlateobj_pivector">XLATEOBJ_piVector</a>
-

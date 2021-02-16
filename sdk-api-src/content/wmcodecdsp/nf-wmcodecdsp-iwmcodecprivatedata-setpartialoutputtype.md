@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecPrivateData::SetPartialOutputType
+ - IWMCodecPrivateData.SetPartialOutputType
 ---
 
 # IWMCodecPrivateData::SetPartialOutputType
@@ -91,4 +91,3 @@ You must call this method before calling <a href="/windows/desktop/api/wmcodecds
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmcodecprivatedata">IWMCodecPrivateData Interface</a>
-

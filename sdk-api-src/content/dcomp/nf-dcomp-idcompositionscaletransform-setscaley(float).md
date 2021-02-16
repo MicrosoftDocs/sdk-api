@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionScaleTransform::SetScaleY
+ - IDCompositionScaleTransform.SetScaleY
 ---
 
 # IDCompositionScaleTransform::SetScaleY
@@ -81,4 +81,3 @@ If the ScaleY property was previously animated, this method removes the animatio
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449048(v=vs.85)">IDCompositionScaleTransform::SetScaleX</a>
-

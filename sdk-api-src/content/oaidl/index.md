@@ -9,8 +9,6 @@ tech.root: automat
 f1_keywords:
  - oaidl
  - oaidl/oaidl
-api_name:
- - oaidl
 ---
 
 # Oaidl.h header

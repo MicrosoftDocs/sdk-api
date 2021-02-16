@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_CONTEXT
- - PCTL_CONTEXT
  - CTL_CONTEXT
 ---
 
@@ -148,4 +146,3 @@ Count, in bytes, of <b>pbCtlContent</b>.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgsignctl">CryptMsgSignCTL</a>
-

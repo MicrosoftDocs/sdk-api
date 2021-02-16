@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion::RemoveRecord
+ - IMFASFMutualExclusion.RemoveRecord
 ---
 
 # IMFASFMutualExclusion::RemoveRecord
@@ -96,4 +96,3 @@ When a record is removed, the ASF mutual exclusion object indexes the remaining 
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-

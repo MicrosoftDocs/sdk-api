@@ -9,8 +9,6 @@ tech.root: rras
 f1_keywords:
  - mgm
  - mgm/mgm
-api_name:
- - mgm
 ---
 
 # Mgm.h header

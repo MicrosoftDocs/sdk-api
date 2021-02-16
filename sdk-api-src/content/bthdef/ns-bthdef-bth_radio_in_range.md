@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bthdef.h
 api_name:
- - _BTH_RADIO_IN_RANGE
- - PBTH_RADIO_IN_RANGE
  - BTH_RADIO_IN_RANGE
 ---
 
@@ -76,4 +74,3 @@ Previous flags for the <b>flags</b> member of the <a href="/windows/desktop/api/
 
 <a href="/windows/desktop/Bluetooth/bluetooth-and-wm-devicechange-messages">Bluetooth and WM_DEVICECHANGE
 				Messages</a>
-

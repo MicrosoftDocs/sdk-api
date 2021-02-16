@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - _IP4_ARRAY
- - PIP4_ARRAY
  - IP4_ARRAY
 ---
 
@@ -71,4 +69,3 @@ The number of IPv4 addresses in <b>AddrArray</b>.
 ### -field AddrArray
 
 An array of <a href="/windows/desktop/DNS/dns-data-types">IP4_ADDRESS</a> data types that contains a list of IPv4 address.
-

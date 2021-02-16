@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlay::GetOverlayIconIndex
+ - IShellIconOverlay.GetOverlayIconIndex
 ---
 
 # IShellIconOverlay::GetOverlayIconIndex
@@ -119,4 +119,3 @@ To retrieve the overlay's image index in the system image list, you must first c
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
-

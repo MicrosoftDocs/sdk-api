@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl::get_AutoKeypadTones
+ - ITAutomatedPhoneControl.get_AutoKeypadTones
 ---
 
 # ITAutomatedPhoneControl::get_AutoKeypadTones
@@ -86,4 +86,3 @@ The <b>AutoKeypadTones</b> property functions only when the value of the <b>Phon
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolder::SetPath
+ - IKnownFolder.SetPath
 ---
 
 # IKnownFolder::SetPath
@@ -97,4 +97,3 @@ This method is equivalent to <a href="/windows/desktop/api/shlobj_core/nf-shlobj
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shsetknownfolderpath">SHSetKnownFolderPath</a>
-

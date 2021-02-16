@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagRGBQUAD
  - RGBQUAD
 ---
 
@@ -112,4 +111,3 @@ The <b>bmiColors</b> member of the <a href="/windows/desktop/api/wingdi/ns-wingd
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-

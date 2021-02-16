@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupAddInstallSectionToDiskSpaceListA
  - setupapi/SetupAddInstallSectionToDiskSpaceListA
- - SetupAddInstallSectionToDiskSpaceList
- - setupapi/SetupAddInstallSectionToDiskSpaceList
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupAddInstallSectionToDiskSpaceListA
  - SetupAddInstallSectionToDiskSpaceList
+ - SetupAddInstallSectionToDiskSpaceListA
+ - SetupAddInstallSectionToDiskSpaceListW
 ---
 
 # SetupAddInstallSectionToDiskSpaceListA function
@@ -121,4 +120,3 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupremoveinstallsectionfromdiskspacelista">SetupRemoveInstallSectionFromDiskSpaceList</a>
-

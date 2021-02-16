@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredentialCache::SetGood
+ - IMFNetCredentialCache.SetGood
 ---
 
 # IMFNetCredentialCache::SetGood
@@ -92,4 +92,3 @@ This method is called by the network source into the credential manager.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
-

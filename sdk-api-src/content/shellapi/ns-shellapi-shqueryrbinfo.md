@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - _SHQUERYRBINFO
- - LPSHQUERYRBINFO
  - SHQUERYRBINFO
 ---
 
@@ -77,4 +75,3 @@ The total size of all the objects in the specified Recycle Bin, in bytes.
 Type: <b>__int64</b>
 
 The total number of items in the specified Recycle Bin.
-

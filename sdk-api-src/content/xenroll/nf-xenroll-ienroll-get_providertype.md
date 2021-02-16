@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_ProviderType
+ - IEnroll.ProviderType
+ - IEnroll.get_ProviderType
+ - IEnroll.put_ProviderType
 ---
 
 # IEnroll::get_ProviderType
@@ -91,4 +93,3 @@ The <b>ProviderType</b> property affects the behavior of the following methods:
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

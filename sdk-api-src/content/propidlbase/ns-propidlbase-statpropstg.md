@@ -44,7 +44,6 @@ api_type:
 api_location:
  - propidlbase.h
 api_name:
- - tagSTATPROPSTG
  - STATPROPSTG
 ---
 
@@ -84,4 +83,3 @@ The property type.
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-enum">IPropertyStorage::Enum</a>
-

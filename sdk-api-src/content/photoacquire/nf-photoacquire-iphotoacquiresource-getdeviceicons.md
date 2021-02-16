@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource::GetDeviceIcons
+ - IPhotoAcquireSource.GetDeviceIcons
 ---
 
 # IPhotoAcquireSource::GetDeviceIcons
@@ -107,4 +107,3 @@ A null pointer was passed where non-null was expected.
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
-

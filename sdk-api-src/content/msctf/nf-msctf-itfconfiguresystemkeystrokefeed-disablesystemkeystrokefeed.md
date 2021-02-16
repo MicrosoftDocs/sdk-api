@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
+ - ITfConfigureSystemKeystrokeFeed.DisableSystemKeystrokeFeed
 ---
 
 # ITfConfigureSystemKeystrokeFeed::DisableSystemKeystrokeFeed
@@ -85,4 +85,3 @@ Calls to this method are cumulative, so every call to this method requires a sub
 ## -see-also
 
 [ITfConfigureSystemKeystrokeFeed interface](nn-msctf-itfconfiguresystemkeystrokefeed.md), [ITfConfigureSystemKeystrokeFeed::EnableSystemKeystrokeFeed](nf-msctf-itfconfiguresystemkeystrokefeed-enablesystemkeystrokefeed.md)
-

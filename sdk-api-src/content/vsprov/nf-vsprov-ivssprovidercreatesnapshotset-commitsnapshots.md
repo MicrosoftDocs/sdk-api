@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet::CommitSnapshots
+ - IVssProviderCreateSnapshotSet.CommitSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::CommitSnapshots
@@ -153,4 +153,3 @@ Note that the I/O system is quiescent only while this method is executing. Immed
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
-

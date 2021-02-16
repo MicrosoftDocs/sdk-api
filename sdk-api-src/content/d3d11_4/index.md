@@ -9,8 +9,6 @@ tech.root: direct3d11
 f1_keywords:
  - d3d11_4
  - d3d11_4/d3d11_4
-api_name:
- - d3d11_4
 ---
 
 # D3D11_4.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ISysmon.h
 api_name:
- - __MIDL___MIDL_itf_sysmon_0000_0000_0002
  - SysmonDataType
 ---
 
@@ -80,4 +79,3 @@ Number of samples that were compressed into the data point.
 ## -see-also
 
 <a href="/windows/desktop/SysMon/counteritem-getdataat">CounterItem.GetDataAt</a>
-

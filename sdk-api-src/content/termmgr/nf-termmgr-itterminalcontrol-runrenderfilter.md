@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalControl::RunRenderFilter
+ - ITTerminalControl.RunRenderFilter
 ---
 
 # ITTerminalControl::RunRenderFilter
@@ -91,4 +91,3 @@ Method not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-

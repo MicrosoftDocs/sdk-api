@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDevice::get_Authorization
+ - IWindowsMediaLibrarySharingDevice.get_Authorization
 ---
 
 # IWindowsMediaLibrarySharingDevice::get_Authorization
@@ -79,4 +79,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
-

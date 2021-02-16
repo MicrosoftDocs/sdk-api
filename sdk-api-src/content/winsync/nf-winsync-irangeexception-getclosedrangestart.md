@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IRangeException::GetClosedRangeStart
+ - IRangeException.GetClosedRangeStart
 ---
 
 # IRangeException::GetClosedRangeStart
@@ -106,4 +106,3 @@ When<i>pbClosedRangeStart</i> is too small. In this case, the required number of
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>
-

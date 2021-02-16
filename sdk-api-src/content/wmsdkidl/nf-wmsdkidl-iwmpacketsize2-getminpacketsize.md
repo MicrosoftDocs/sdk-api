@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPacketSize2::GetMinPacketSize
+ - IWMPacketSize2.GetMinPacketSize
 ---
 
 # IWMPacketSize2::GetMinPacketSize
@@ -101,4 +101,3 @@ NULL pointer argument.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize2-setminpacketsize">IWMPacketSize2::SetMinPacketSize</a>
-

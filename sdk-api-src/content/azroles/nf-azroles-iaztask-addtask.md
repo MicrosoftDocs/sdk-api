@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask::AddTask
+ - IAzTask.AddTask
+ - AzTask.AddTask
 ---
 
 # IAzTask::AddTask
@@ -67,4 +68,3 @@ Reserved for future use.
 This method allows the nesting of <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a> objects within another <b>IAzTask</b> object.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
-

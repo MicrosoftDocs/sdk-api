@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::ExpandToEnclosingUnit
+ - ITextRangeProvider.ExpandToEnclosingUnit
 ---
 
 # ITextRangeProvider::ExpandToEnclosingUnit
@@ -119,4 +119,3 @@ Despite its name, the <b>ITextRangeProvider::ExpandToEnclosingUnit</b> method do
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetWBEMINT16
+ - CInstance.GetWBEMINT16
+ - ?GetWBEMINT16@CInstance@@QBE_NPBGAAF@Z
+ - ?GetWBEMINT16@CInstance@@QEBA_NPEBGAEAF@Z
 ---
 
 # CInstance::GetWBEMINT16
@@ -72,4 +74,3 @@ Buffer to receive the 16-bit integer property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a nonexistent property or a property that was not a 16-bit integer. More information is available in the log file, Framework.log.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegisterEventSourceA
  - winbase/RegisterEventSourceA
- - RegisterEventSource
- - winbase/RegisterEventSource
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EventLog-l1-1-0.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - RegisterEventSourceA
  - RegisterEventSource
+ - RegisterEventSourceA
+ - RegisterEventSourceW
 ---
 
 # RegisterEventSourceA function
@@ -119,4 +118,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>
-

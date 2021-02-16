@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationAsync::Abort
+ - IWsbApplicationAsync.Abort
 ---
 
 # IWsbApplicationAsync::Abort
@@ -65,4 +65,3 @@ Windows Server Backup calls this method to cancel an asynchronous operation. For
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationasync">IWsbApplicationAsync</a>
-

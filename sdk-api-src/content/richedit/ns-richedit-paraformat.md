@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _paraformat
  - PARAFORMAT
 ---
 
@@ -435,4 +434,3 @@ Double line leader
 
 
 <b>Reference</b>
-

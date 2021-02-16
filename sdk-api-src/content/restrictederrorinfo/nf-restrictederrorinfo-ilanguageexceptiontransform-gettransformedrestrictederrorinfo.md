@@ -42,7 +42,7 @@ api_type:
 api_location:
  - restrictederrorinfo.h
 api_name:
- - ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo
+ - ILanguageExceptionTransform.GetTransformedRestrictedErrorInfo
 ---
 
 # ILanguageExceptionTransform::GetTransformedRestrictedErrorInfo
@@ -157,4 +157,3 @@ void OriginateErrorInfoForThrowWithCaughtException(IFooException* exception, IFo
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptiontransform">ILanguageExceptionTransform</a>
-

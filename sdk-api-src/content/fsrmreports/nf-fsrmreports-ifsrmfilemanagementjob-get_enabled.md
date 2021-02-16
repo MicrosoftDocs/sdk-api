@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_Enabled
+ - IFsrmFileManagementJob.Enabled
+ - IFsrmFileManagementJob.get_Enabled
+ - IFsrmFileManagementJob.put_Enabled
 ---
 
 # IFsrmFileManagementJob::get_Enabled
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

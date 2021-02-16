@@ -44,7 +44,6 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - _ACT_AUTHORIZATION_STATE
  - ACT_AUTHORIZATION_STATE
 ---
 

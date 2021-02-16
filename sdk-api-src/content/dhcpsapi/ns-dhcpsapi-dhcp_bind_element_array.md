@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_BIND_ELEMENT_ARRAY
- - LPDHCP_BIND_ELEMENT_ARRAY
  - DHCP_BIND_ELEMENT_ARRAY
 ---
 
@@ -83,4 +81,3 @@ Specifies an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_bi
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpsetserverbindinginfo">DhcpSetServerBindingInfo</a>
-

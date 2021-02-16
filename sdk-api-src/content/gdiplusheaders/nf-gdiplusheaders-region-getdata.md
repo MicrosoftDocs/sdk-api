@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::GetData
+ - Region.GetData
 ---
 
 # Region::GetData
@@ -135,4 +135,3 @@ VOID Example_GetData(HDC)
    delete pData;
 }
 ```
-

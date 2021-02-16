@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFContentInfo::GetProfile
+ - IMFASFContentInfo.GetProfile
 ---
 
 # IMFASFContentInfo::GetProfile
@@ -110,4 +110,3 @@ An ASF profile is a template for file encoding, and is intended mainly for creat
 
 
 <a href="/windows/desktop/medfound/initializing-the-contentinfo-object-of-a-new-asf-file">Initializing the ContentInfo Object of a New ASF File</a>
-

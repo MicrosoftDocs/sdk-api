@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredentialManager::BeginGetCredentials
+ - IMFNetCredentialManager.BeginGetCredentials
 ---
 
 # IMFNetCredentialManager::BeginGetCredentials
@@ -92,4 +92,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialmanager">IMFNetCredentialManager</a>
-

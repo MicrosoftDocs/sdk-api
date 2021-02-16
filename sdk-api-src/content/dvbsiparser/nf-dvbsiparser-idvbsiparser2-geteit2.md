@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbSiParser2::GetEIT2
+ - IDvbSiParser2.GetEIT2
 ---
 
 # IDvbSiParser2::GetEIT2
@@ -185,4 +185,3 @@ The method fails if the filter does not receive a matching table within a predet
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser2">IDvbSiParser2</a>
-

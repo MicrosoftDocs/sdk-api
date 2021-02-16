@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplat.dll
 api_name:
- - IMFContentProtectionDevice::InvokeFunction
+ - IMFContentProtectionDevice.InvokeFunction
 ---
 
 # IMFContentProtectionDevice::InvokeFunction
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectiondevice">IMFContentProtectionDevice</a>
-

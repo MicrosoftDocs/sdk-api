@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICameraControl::getRange_RollRelative
+ - ICameraControl.getRange_RollRelative
 ---
 
 # ICameraControl::getRange_RollRelative
@@ -86,4 +86,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
-

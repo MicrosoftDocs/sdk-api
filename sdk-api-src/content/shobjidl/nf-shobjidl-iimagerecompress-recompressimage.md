@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shimgvw.dll
 api_name:
- - IImageRecompress::RecompressImage
+ - IImageRecompress.RecompressImage
 ---
 
 # IImageRecompress::RecompressImage
@@ -117,4 +117,3 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 <a href="/windows/desktop/shell/known-folders">ImageRecompress</a>
-

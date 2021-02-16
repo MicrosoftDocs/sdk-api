@@ -42,7 +42,7 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - MINIDUMP_CALLBACK_ROUTINE
+ - MiniDumpCallback
 ---
 
 # MINIDUMP_CALLBACK_ROUTINE callback function
@@ -87,4 +87,3 @@ If the function succeeds, return <b>TRUE</b>; otherwise, return <b>FALSE</b>.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-

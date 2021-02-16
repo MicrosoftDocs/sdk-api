@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsdbase.h
 api_name:
- - _WSDUdpRetransmitParams
  - WSDUdpRetransmitParams
 ---
 
@@ -94,4 +93,3 @@ For details on how WSD uses these values to send messages, see Appendix I of the
 
 
 <a href="/windows/desktop/api/wsdbase/nf-wsdbase-iwsdudpmessageparameters-setretransmitparams">IWSDUdpMessageParameters::SetRetransmitParams</a>
-

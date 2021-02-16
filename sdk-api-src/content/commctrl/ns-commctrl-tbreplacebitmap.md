@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - LPTBREPLACEBITMAP
  - TBREPLACEBITMAP
 ---
 
@@ -93,4 +92,3 @@ Number of button images contained in the new bitmap. The number of new images sh
 
 If 
 				<b>nIDNew</b> holds a bitmap handle, rather than a resource ID, do not destroy the bitmap until it has been replaced with <a href="/windows/desktop/Controls/tb-replacebitmap">TB_REPLACEBITMAP</a>, or the toolbar is destroyed.
-

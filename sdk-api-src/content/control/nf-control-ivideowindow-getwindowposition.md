@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::GetWindowPosition
+ - IVideoWindow.GetWindowPosition
 ---
 
 # IVideoWindow::GetWindowPosition
@@ -130,4 +130,3 @@ This method has the same effect as calling the <a href="/windows/desktop/api/con
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-setwindowposition">IVideoWindow::SetWindowPosition</a>
-

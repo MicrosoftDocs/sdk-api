@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - BCLASS_SET_INFORMATION_CALLBACK
+ - BatteryMiniSetInformation
 ---
 
 # BCLASS_SET_INFORMATION_CALLBACK callback function

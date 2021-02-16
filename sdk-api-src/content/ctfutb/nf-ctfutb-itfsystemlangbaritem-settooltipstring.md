@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSystemLangBarItem::SetTooltipString
+ - ITfSystemLangBarItem.SetTooltipString
 ---
 
 # ITfSystemLangBarItem::SetTooltipString
@@ -98,4 +98,3 @@ The tooltip string for the system language bar menu cannot be modified.
 ## -remarks
 
 In response to this method, the system language bar menu should call <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itflangbaritemsink-onupdate">ITfLangBarItemSink::OnUpdate</a> with TF_LBI_TOOLTIP to force the language bar to obtain the new tooltip text.
-

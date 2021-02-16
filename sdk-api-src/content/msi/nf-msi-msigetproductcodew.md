@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetProductCodeW
  - msi/MsiGetProductCodeW
- - MsiGetProductCode
- - msi/MsiGetProductCode
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetProductCodeW
  - MsiGetProductCode
+ - MsiGetProductCodeA
+ - MsiGetProductCodeW
 ---
 
 # MsiGetProductCodeW function
@@ -148,4 +147,3 @@ During initialization, an application must determine the product code under whic
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Application-Only Functions</a>
-

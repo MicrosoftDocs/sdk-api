@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetStringArray
+ - CInstance.SetStringArray
+ - ?SetStringArray@CInstance@@QAE_NPBGABUtagSAFEARRAY@@@Z
+ - ?SetStringArray@CInstance@@QEAA_NPEBGAEBUtagSAFEARRAY@@@Z
 ---
 
 # CInstance::SetStringArray
@@ -72,4 +74,3 @@ Value assigned to the array of strings.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent property or a property that is not an array of strings. More information is available in the log file, Framework.log.
-

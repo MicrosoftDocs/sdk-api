@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn::refreshStatus
+ - IWMPCdromBurn.refreshStatus
 ---
 
 # IWMPCdromBurn::refreshStatus
@@ -95,4 +95,3 @@ Refreshing the status is a synchronous operation. This means that a lengthy peri
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpburnstate">WMPBurnState</a>
-

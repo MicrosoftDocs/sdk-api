@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PMFT_ENUM_DATA_V0
  - MFT_ENUM_DATA_V0
 ---
 
@@ -90,4 +89,3 @@ The upper boundary of the range of USN values used to filter which files are ret
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

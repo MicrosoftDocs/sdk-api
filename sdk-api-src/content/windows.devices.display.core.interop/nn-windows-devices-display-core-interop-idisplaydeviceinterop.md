@@ -28,7 +28,7 @@ api_type:
 api_location:
  - windows.h
 api_name:
- - IDisplayDeviceInterop
+ - interop::IDisplayDeviceInterop
 f1_keywords:
  - IDisplayDeviceInterop
  - windows.devices.display.core.interop/IDisplayDeviceInterop

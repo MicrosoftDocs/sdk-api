@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tvratings.h
 api_name:
- - IXDSToRat::ParseXDSBytePair
+ - IXDSToRat.ParseXDSBytePair
 ---
 
 # IXDSToRat::ParseXDSBytePair
@@ -146,4 +146,3 @@ For details, see section 9.5.1.5.4 (General Content Advisory Requirements) of th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ixdstorat">IXDSToRat Interface</a>
-

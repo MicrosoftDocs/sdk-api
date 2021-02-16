@@ -45,7 +45,6 @@ api_location:
  - Dvdmedia.h
 api_name:
  - AM_DVDCOPY_TITLEKEY
- - PAM_DVDCOPY_TITLEKEY
 ---
 
 ## -description
@@ -65,7 +64,7 @@ Title key.
 ### -field Reserved
 
 Reserved.
-
+ 
 ## -remarks
 
 The AM_PROPERTY_DVDCOPY_TITLE_KEY property uses this structure.
@@ -75,4 +74,3 @@ A title key is used for the DVD CSS key exchange for decryption. Implementors sh
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_record_change_type_tag
  - PEER_RECORD_CHANGE_TYPE
 ---
 
@@ -84,4 +83,3 @@ Indicates that the specified record is expired and removed from the peer graph o
 
 
 <a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_validate_record">PFNPEER_VALIDATE_RECORD</a>
-

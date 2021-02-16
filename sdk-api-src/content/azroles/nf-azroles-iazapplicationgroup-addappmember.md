@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::AddAppMember
+ - IAzApplicationGroup.AddAppMember
+ - AzApplicationGroup.AddAppMember
 ---
 
 # IAzApplicationGroup::AddAppMember
@@ -67,4 +68,3 @@ Reserved for future use.
 To view the list of application groups that belong to this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appmembers">AppMembers</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
-

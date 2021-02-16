@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl::GetID
+ - ITLegacyCallMediaControl.GetID
 ---
 
 # ITLegacyCallMediaControl::GetID
@@ -138,4 +138,3 @@ The application must call the
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol2-getidasvariant">ITLegacyCallMediaControl2::GetIDAsVariant</a>
-

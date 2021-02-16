@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumFilters::Clone
+ - IEnumFilters.Clone
 ---
 
 # IEnumFilters::Clone
@@ -110,4 +110,3 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>
-

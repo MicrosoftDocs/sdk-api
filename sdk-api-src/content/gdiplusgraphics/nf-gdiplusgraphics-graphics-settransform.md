@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::SetTransform
+ - Graphics.SetTransform
 ---
 
 # Graphics::SetTransform
@@ -116,4 +116,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

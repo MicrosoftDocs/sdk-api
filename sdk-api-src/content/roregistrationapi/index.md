@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - roregistrationapi
  - roregistrationapi/roregistrationapi
-api_name:
- - roregistrationapi
 ---
 
 # Roregistrationapi.h header

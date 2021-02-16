@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMITEMACTIVATE
- - LPNMITEMACTIVATE
  - NMITEMACTIVATE
 ---
 
@@ -153,4 +151,3 @@ The  key is pressed.
 </td>
 </tr>
 </table>
-

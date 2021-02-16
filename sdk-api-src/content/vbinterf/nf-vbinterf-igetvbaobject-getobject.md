@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VbInterf.h
 api_name:
- - IGetVBAObject::GetObject
+ - IGetVBAObject.GetObject
 ---
 
 # IGetVBAObject::GetObject
@@ -78,4 +78,3 @@ This method supports the standard return values <b>E_INVALIDARG</b>,
 ## -see-also
 
 <a href="/windows/desktop/api/vbinterf/nn-vbinterf-igetvbaobject">IGetVBAObject</a>
-

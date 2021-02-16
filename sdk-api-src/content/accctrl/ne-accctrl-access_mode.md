@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - _ACCESS_MODE
  - ACCESS_MODE
 ---
 
@@ -142,4 +141,3 @@ On input, this value combines the specified rights with any existing audited acc
 
 
 <a href="/windows/desktop/api/aclapi/nf-aclapi-setentriesinacla">SetEntriesInAcl</a>
-

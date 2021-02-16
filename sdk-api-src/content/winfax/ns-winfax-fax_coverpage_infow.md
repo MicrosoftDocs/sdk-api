@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - _FAX_COVERPAGE_INFOW
- - PFAX_COVERPAGE_INFOW
+ - FAX_COVERPAGE_INFO
+ - FAX_COVERPAGE_INFOA
  - FAX_COVERPAGE_INFOW
 ---
 
@@ -268,4 +268,3 @@ A fax client application passes the <b>FAX_COVERPAGE_INFO</b> structure in a cal
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-

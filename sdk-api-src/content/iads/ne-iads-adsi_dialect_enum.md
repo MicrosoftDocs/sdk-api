@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0023
  - ADSI_DIALECT_ENUM
 ---
 
@@ -75,4 +74,3 @@ An ActiveX Data Object (ADO) client can use one of the two ADSI query dialects t
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-enumerations">ADSI Enumerations</a>
-

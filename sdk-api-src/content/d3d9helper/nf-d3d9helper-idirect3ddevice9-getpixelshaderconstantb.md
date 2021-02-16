@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::GetPixelShaderConstantB
+ - IDirect3DDevice9.GetPixelShaderConstantB
 ---
 
 # IDirect3DDevice9::GetPixelShaderConstantB
@@ -87,4 +87,3 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantb">IDirect3DDevice9::SetPixelShaderConstantB</a>
-

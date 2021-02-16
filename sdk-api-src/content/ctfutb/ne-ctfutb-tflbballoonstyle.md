@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ctfutb.h
 api_name:
- - __MIDL_ITfLangBarItemBalloon_0001
  - TfLBBalloonStyle
 ---
 
@@ -90,4 +89,3 @@ The following image shows an example of a balloon with the TF_LB_BALLOON_MISS st
 
 <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
       </a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchItemsChangedSink::OnItemsChanged
+ - ISearchItemsChangedSink.OnItemsChanged
 ---
 
 # ISearchItemsChangedSink::OnItemsChanged
@@ -96,4 +96,3 @@ When there are multiple change notifications, the <b>priority</b> member of the 
 
 
 <a href="/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
-

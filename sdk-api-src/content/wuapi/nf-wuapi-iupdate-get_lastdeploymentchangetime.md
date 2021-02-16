@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_LastDeploymentChangeTime
+ - IUpdate.LastDeploymentChangeTime
+ - IUpdate.get_LastDeploymentChangeTime
 ---
 
 # IUpdate::get_LastDeploymentChangeTime
@@ -63,4 +64,3 @@ On computers that are running Windows XP, the <b>LastDeploymentChangeTime</b> p
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

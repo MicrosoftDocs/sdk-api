@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy::GetEndpointProxy
+ - IWSDDeviceProxy.GetEndpointProxy
 ---
 
 # IWSDDeviceProxy::GetEndpointProxy
@@ -99,4 +99,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerCommand::GetIcon
+ - IExplorerCommand.GetIcon
 ---
 
 # IExplorerCommand::GetIcon
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The retrieved icon resource string is in the standard format, for instance "shell32.dll,-249".
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUserBatch::FlushToDisk
+ - IDiskQuotaUserBatch.FlushToDisk
 ---
 
 # IDiskQuotaUserBatch::FlushToDisk
@@ -135,4 +135,3 @@ There are limitations on the amount of information that can be written to disk i
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
-

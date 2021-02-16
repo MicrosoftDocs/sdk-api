@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIFile::Info
+ - IAVIFile.Info
 ---
 
 # IAVIFile::Info
@@ -93,4 +93,3 @@ HRESULT Info(AVIFILEINFO *pfi, LONG lSize)
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

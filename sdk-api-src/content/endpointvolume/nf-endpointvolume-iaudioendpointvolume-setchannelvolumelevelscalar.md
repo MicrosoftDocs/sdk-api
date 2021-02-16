@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::SetChannelVolumeLevelScalar
+ - IAudioEndpointVolume.SetChannelVolumeLevelScalar
 ---
 
 # IAudioEndpointVolume::SetChannelVolumeLevelScalar
@@ -120,4 +120,3 @@ The normalized volume levels that are passed to this method are suitable to repr
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
-

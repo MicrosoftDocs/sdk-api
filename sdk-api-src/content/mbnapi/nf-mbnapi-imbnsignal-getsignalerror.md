@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSignal::GetSignalError
+ - IMbnSignal.GetSignalError
 ---
 
 # IMbnSignal::GetSignalError
@@ -160,4 +160,3 @@ Mobile Broadband interfaces report the signal error rate as a coded value that m
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsignal">IMbnSignal</a>
-

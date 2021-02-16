@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenException::get_Path
+ - IFsrmFileScreenException.Path
+ - IFsrmFileScreenException.get_Path
 ---
 
 # IFsrmFileScreenException::get_Path
@@ -72,4 +73,3 @@ Note that if the path is renamed, the exception becomes associated with the new 
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreenexception">MSFT_FSRMFileScreenException</a>
-

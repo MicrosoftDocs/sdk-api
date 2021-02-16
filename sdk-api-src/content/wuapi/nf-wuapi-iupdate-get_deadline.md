@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_Deadline
+ - IUpdate.Deadline
+ - IUpdate.get_Deadline
 ---
 
 # IUpdate::get_Deadline
@@ -65,4 +66,3 @@ In the Microsoft .NET Framework, the return value is <b>NULL</b> if the update h
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

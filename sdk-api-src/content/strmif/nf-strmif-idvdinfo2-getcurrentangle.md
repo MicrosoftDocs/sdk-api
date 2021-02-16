@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetCurrentAngle
+ - IDvdInfo2.GetCurrentAngle
 ---
 
 # IDvdInfo2::GetCurrentAngle
@@ -132,4 +132,3 @@ This method is demonstrated in the DVDSample application in <b>CAngleDlg::MakeAn
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

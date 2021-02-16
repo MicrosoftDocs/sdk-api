@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PIS_ALIVE_ROUTINE
+ - IsAlive
 ---
 
 # PIS_ALIVE_ROUTINE callback function
@@ -111,4 +111,3 @@ See <a href="/previous-versions/aa372246(v=vs.85)">Resource DLL Examples</a>.
 
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-

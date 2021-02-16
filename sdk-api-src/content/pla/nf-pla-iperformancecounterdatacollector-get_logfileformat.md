@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IPerformanceCounterDataCollector::get_LogFileFormat
+ - IPerformanceCounterDataCollector.LogFileFormat
+ - IPerformanceCounterDataCollector.get_LogFileFormat
+ - IPerformanceCounterDataCollector.put_LogFileFormat
 ---
 
 # IPerformanceCounterDataCollector::get_LogFileFormat
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
-

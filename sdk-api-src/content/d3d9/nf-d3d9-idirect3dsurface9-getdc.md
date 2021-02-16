@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DSurface9::GetDC
+ - IDirect3DSurface9.GetDC
 ---
 
 # IDirect3DSurface9::GetDC
@@ -159,4 +159,3 @@ The hdc provides access to Win32 and GDI functionality.
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-releasedc">IDirect3DSurface9::ReleaseDC</a>
-

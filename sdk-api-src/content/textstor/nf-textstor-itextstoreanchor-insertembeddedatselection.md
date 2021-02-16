@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::InsertEmbeddedAtSelection
+ - ITextStoreAnchor.InsertEmbeddedAtSelection
 ---
 
 # ITextStoreAnchor::InsertEmbeddedAtSelection
@@ -198,4 +198,3 @@ Clients must use this method to insert an object into a text stream, since a <a 
 
 <a href="/windows/desktop/TSF/ts-char--constants">TS_CHAR_EMBEDDED
       </a>
-

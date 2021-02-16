@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwnerCompositionSink::OnUpdateComposition
+ - ITfContextOwnerCompositionSink.OnUpdateComposition
 ---
 
 # ITfContextOwnerCompositionSink::OnUpdateComposition
@@ -73,4 +73,3 @@ To determine what has changed within the composition, compare <i>pRangeNew</i> w
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md), [ITfCompositionView::GetRange](nf-msctf-itfcompositionview-getrange.md), [ITfRange interface](nn-msctf-itfrange.md)
-

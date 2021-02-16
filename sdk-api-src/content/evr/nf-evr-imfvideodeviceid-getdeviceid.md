@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDeviceID::GetDeviceID
+ - IMFVideoDeviceID.GetDeviceID
 ---
 
 # IMFVideoDeviceID::GetDeviceID
@@ -103,4 +103,3 @@ If a mixer or presenter uses Direct3D 9, it must return the value IID_IDirect3DD
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideodeviceid">IMFVideoDeviceID</a>
-

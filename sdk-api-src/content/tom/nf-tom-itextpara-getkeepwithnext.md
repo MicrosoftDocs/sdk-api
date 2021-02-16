@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetKeepWithNext
+ - ITextPara.GetKeepWithNext
 ---
 
 # ITextPara::GetKeepWithNext
@@ -170,4 +170,3 @@ This property corresponds to the PFE_KEEPNEXT effect described in the <a href="/
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

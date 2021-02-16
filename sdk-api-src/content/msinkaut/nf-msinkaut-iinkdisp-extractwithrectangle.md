@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::ExtractWithRectangle
+ - IInkDisp.ExtractWithRectangle
 ---
 
 # IInkDisp::ExtractWithRectangle
@@ -190,4 +190,3 @@ When the <i>extractFlags</i> parameter is <a href="/windows/desktop/api/msinkaut
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

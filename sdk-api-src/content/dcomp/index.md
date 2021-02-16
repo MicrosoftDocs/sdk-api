@@ -9,8 +9,6 @@ tech.root: directcomp
 f1_keywords:
  - dcomp
  - dcomp/dcomp
-api_name:
- - dcomp
 ---
 
 # Dcomp.h header

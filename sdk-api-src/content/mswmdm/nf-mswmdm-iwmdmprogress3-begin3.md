@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMProgress3::Begin3
+ - IWMDMProgress3.Begin3
 ---
 
 # IWMDMProgress3::Begin3
@@ -172,4 +172,3 @@ HRESULT Begin3(GUID  EventId, DWORD  dwEstimatedTicks, OPAQUECOMMAND*  pContext)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-begin">IWMDMProgress::Begin</a>
-

@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - fhcfg
  - fhcfg/fhcfg
-api_name:
- - fhcfg
 ---
 
 # Fhcfg.h header

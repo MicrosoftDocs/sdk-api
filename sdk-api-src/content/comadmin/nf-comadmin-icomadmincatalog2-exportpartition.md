@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2::ExportPartition
+ - ICOMAdminCatalog2.ExportPartition
 ---
 
 # ICOMAdminCatalog2::ExportPartition
@@ -168,4 +168,3 @@ The specified partition does not exist.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-

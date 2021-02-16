@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - avrfsdk
  - avrfsdk/avrfsdk
-api_name:
- - avrfsdk
 ---
 
 # Avrfsdk.h header

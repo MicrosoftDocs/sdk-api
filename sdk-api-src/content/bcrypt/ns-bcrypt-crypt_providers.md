@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _CRYPT_PROVIDERS
- - PCRYPT_PROVIDERS
  - CRYPT_PROVIDERS
 ---
 
@@ -71,4 +69,3 @@ An array of null-terminated Unicode strings that contains the names of the regis
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumregisteredproviders">BCryptEnumRegisteredProviders</a>
-

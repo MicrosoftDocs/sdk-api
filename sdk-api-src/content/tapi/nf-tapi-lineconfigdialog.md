@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineConfigDialog
+ - lineConfigDialogA
+ - lineConfigDialogW
 ---
 
 # lineConfigDialog function
@@ -92,4 +94,3 @@ The <i>lpszDeviceClass</i> parameter would be "tapi/line" , "", or <b>NULL</b> t
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
-

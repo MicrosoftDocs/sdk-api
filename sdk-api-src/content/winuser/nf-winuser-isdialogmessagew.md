@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - IsDialogMessageW
  - winuser/IsDialogMessageW
- - IsDialogMessage
- - winuser/IsDialogMessage
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - User32.dll
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - IsDialogMessageW
  - IsDialogMessage
+ - IsDialogMessageA
+ - IsDialogMessageW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # IsDialogMessageW function
@@ -137,4 +136,3 @@ Because the <b>IsDialogMessage</b> function performs all necessary translating a
 
 
 <a href="/windows/desktop/winmsg/wm-user">WM_USER</a>
-

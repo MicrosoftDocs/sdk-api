@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob::get_LastRun
+ - IFsrmReportJob.LastRun
+ - IFsrmReportJob.get_LastRun
 ---
 
 # IFsrmReportJob::get_LastRun
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UiAutomationCore.dll
 api_name:
- - ILegacyIAccessibleProvider::get_Value
+ - ILegacyIAccessibleProvider.Value
+ - ILegacyIAccessibleProvider.get_Value
 ---
 
 # ILegacyIAccessibleProvider::get_Value
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ilegacyiaccessibleprovider">ILegacyIAccessibleProvider</a>
-

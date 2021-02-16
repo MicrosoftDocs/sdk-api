@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration::get_KeySpec
+ - IOCSPCAConfiguration.KeySpec
+ - IOCSPCAConfiguration.get_KeySpec
 ---
 
 # IOCSPCAConfiguration::get_KeySpec
@@ -70,4 +71,3 @@ For information about a non-Microsoft CSP, see the documentation provided with t
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-

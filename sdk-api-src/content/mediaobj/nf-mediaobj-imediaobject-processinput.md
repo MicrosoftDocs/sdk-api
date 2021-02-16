@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::ProcessInput
+ - IMediaObject.ProcessInput
 ---
 
 # IMediaObject::ProcessInput
@@ -143,4 +143,3 @@ If the method returns S_FALSE, no output was generated from this input and the a
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

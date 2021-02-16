@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-draw-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - LoadBitmapA
  - winuser/LoadBitmapA
- - LoadBitmap
- - winuser/LoadBitmap
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +44,10 @@ api_location:
  - Ext-MS-Win-NTUser-Draw-l1-1-1.dll
  - ext-ms-win-ntuser-draw-l1-1-2.dll
 api_name:
- - LoadBitmapA
  - LoadBitmap
+ - LoadBitmapA
+ - LoadBitmapW
+req.apiset: ext-ms-win-ntuser-draw-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # LoadBitmapA function
@@ -214,4 +213,3 @@ For an example, see Example of Menu-Item Bitmaps in <a href="/windows/desktop/me
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-makeintresourcea">MAKEINTRESOURCE</a>
-

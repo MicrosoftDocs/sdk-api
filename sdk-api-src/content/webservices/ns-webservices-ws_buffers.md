@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_BUFFERS
  - WS_BUFFERS
 ---
 
@@ -60,4 +59,3 @@ A structure used to represent a discontiguous array of <a href="/windows/desktop
 ### -field bufferCount
 
 ### -field buffers
-

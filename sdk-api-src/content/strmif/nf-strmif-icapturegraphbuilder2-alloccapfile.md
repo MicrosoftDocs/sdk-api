@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2::AllocCapFile
+ - ICaptureGraphBuilder2.AllocCapFile
 ---
 
 # ICaptureGraphBuilder2::AllocCapFile
@@ -82,4 +82,3 @@ If you use this method to preallocate the file, call <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-

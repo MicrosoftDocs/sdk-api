@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetRetrievalFilterStackSize
+ - IDXGIInfoQueue.GetRetrievalFilterStackSize
 ---
 
 # IDXGIInfoQueue::GetRetrievalFilterStackSize
@@ -70,4 +70,3 @@ Returns the size of the retrieval-filter stack in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

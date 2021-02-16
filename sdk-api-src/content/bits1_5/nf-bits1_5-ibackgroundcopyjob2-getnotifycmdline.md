@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2::GetNotifyCmdLine
+ - IBackgroundCopyJob2.GetNotifyCmdLine
 ---
 
 # IBackgroundCopyJob2::GetNotifyCmdLine
@@ -77,4 +77,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline">IBackgroundCopyJob2::SetNotifyCmdLine</a>
-

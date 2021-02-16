@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDevice::CreateAuthenticatedChannel
+ - ID3D11VideoDevice.CreateAuthenticatedChannel
 ---
 
 # ID3D11VideoDevice::CreateAuthenticatedChannel
@@ -75,4 +75,3 @@ If <i>ChannelType</i> is <b>D3D11_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE</b> or <
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-

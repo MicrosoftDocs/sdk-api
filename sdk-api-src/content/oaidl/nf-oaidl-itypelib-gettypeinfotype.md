@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib::GetTypeInfoType
+ - ITypeLib.GetTypeInfoType
 ---
 
 # ITypeLib::GetTypeInfoType
@@ -99,4 +99,3 @@ The <i>index</i> parameter is outside the range of  to <a href="/previous-versio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-

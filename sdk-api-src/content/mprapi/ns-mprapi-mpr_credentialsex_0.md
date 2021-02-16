@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_CREDENTIALSEX_0
- - PMPR_CREDENTIALSEX_0
  - MPR_CREDENTIALSEX_0
 ---
 
@@ -76,4 +74,3 @@ Pointer to the extended credentials information.
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetcredentialsex">MprAdminInterfaceSetCredentialsEx</a>
-

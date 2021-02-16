@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::put_DestinationHeight
+ - IBasicVideo.put_DestinationHeight
 ---
 
 # IBasicVideo::put_DestinationHeight
@@ -110,4 +110,3 @@ The video renderer is not connected.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-

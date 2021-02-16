@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderCredential::GetSubmitButtonValue
+ - ICredentialProviderCredential.GetSubmitButtonValue
 ---
 
 # ICredentialProviderCredential::GetSubmitButtonValue
@@ -83,4 +83,3 @@ You should not hide the submit button unless your credential provider always per
 Call this method when assembling the Logon UI. For example usage, see the Credential Providers samples included in the Windows Software Development Kit (SDK).
 
 .
-

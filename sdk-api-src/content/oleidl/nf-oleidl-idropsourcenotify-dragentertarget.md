@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IDropSourceNotify::DragEnterTarget
+ - IDropSourceNotify.DragEnterTarget
 ---
 
 # IDropSourceNotify::DragEnterTarget
@@ -65,4 +65,3 @@ This method returns S_OK on success.
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-idropsourcenotify">IDropSourceNotify</a>
-

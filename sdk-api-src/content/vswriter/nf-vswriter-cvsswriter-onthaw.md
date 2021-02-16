@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::OnThaw
+ - CVssWriter.OnThaw
 ---
 
 # CVssWriter::OnThaw
@@ -105,4 +105,3 @@ If this method calls the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvss
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-setwriterfailure">CVssWriter::SetWriterFailure</a>
-

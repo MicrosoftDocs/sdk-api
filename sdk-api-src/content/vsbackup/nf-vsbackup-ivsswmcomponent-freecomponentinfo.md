@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMComponent::FreeComponentInfo
+ - IVssWMComponent.FreeComponentInfo
 ---
 
 # IVssWMComponent::FreeComponentInfo
@@ -90,4 +90,3 @@ Successfully freed the component information data.
 
 
 <a href="/windows/desktop/api/vsbackup/ns-vsbackup-vss_componentinfo">VSS_COMPONENTINFO</a>
-

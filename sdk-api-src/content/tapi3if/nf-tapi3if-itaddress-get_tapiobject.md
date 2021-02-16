@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::get_TAPIObject
+ - ITAddress.get_TAPIObject
 ---
 
 # ITAddress::get_TAPIObject
@@ -111,4 +111,3 @@ The <i>ppTapiObject</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfCleanupContextDurationSink::OnEndCleanupContext
+ - ITfCleanupContextDurationSink.OnEndCleanupContext
 ---
 
 # ITfCleanupContextDurationSink::OnEndCleanupContext

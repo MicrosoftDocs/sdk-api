@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMRadialGradientBrush::GetRadiiSizes
+ - IXpsOMRadialGradientBrush.GetRadiiSizes
 ---
 
 # IXpsOMRadialGradientBrush::GetRadiiSizes
@@ -142,4 +142,3 @@ The following illustration shows the parts of a radial gradient. <i>radiiSizes.w
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
-

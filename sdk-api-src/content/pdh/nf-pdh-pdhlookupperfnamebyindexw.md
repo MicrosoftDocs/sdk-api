@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhLookupPerfNameByIndexW
  - pdh/PdhLookupPerfNameByIndexW
- - PdhLookupPerfNameByIndex
- - pdh/PdhLookupPerfNameByIndex
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhLookupPerfNameByIndexW
  - PdhLookupPerfNameByIndex
+ - PdhLookupPerfNameByIndexA
+ - PdhLookupPerfNameByIndexW
 ---
 
 # PdhLookupPerfNameByIndexW function
@@ -143,4 +142,3 @@ The index value that you specify must match one of the index values associated w
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhlookupperfindexbynamea">PdhLookupPerfIndexByName</a>
-

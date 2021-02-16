@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - mmioRenameW
  - mmiscapi/mmioRenameW
- - mmioRename
- - mmiscapi/mmioRename
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - winmmbase.dll
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
- - mmioRenameW
  - mmioRename
+ - mmioRenameA
+ - mmioRenameW
 ---
 
 # mmioRenameW function
@@ -84,4 +83,3 @@ Returns zero if the file was renamed. Otherwise, returns an error code returned 
 
 > [!NOTE]
 > The mmiscapi.h header defines mmioRename as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

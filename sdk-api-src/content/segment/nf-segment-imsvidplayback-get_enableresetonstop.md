@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback::get_EnableResetOnStop
+ - IMSVidPlayback.get_EnableResetOnStop
 ---
 
 # IMSVidPlayback::get_EnableResetOnStop
@@ -115,4 +115,3 @@ For more information, see <a href="/windows/desktop/api/segment/nf-segment-imsvi
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
-

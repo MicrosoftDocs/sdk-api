@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting::SetActionRunLimitInterval
+ - IFsrmSetting.SetActionRunLimitInterval
+ - FsrmSetting.SetActionRunLimitInterval
 ---
 
 # IFsrmSetting::SetActionRunLimitInterval
@@ -79,4 +80,3 @@ This property specifies the interval that should occur before the action is run 
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
-

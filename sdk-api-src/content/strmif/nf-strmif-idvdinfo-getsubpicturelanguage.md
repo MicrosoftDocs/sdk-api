@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetSubpictureLanguage
+ - IDvdInfo.GetSubpictureLanguage
 ---
 
 # IDvdInfo::GetSubpictureLanguage
@@ -145,4 +145,3 @@ GetLocaleInfo(*pLanguage, LOCALE_SENGLANGUAGE, pszString, cbSize);
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

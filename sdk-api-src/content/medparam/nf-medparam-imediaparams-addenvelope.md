@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParams::AddEnvelope
+ - IMediaParams.AddEnvelope
 ---
 
 # IMediaParams::AddEnvelope
@@ -175,4 +175,3 @@ This example assumes that the caller has previous used the <b>IMediaParamInfo</b
 ## -see-also
 
 <a href="/windows/desktop/api/medparam/nn-medparam-imediaparams">IMediaParams Interface</a>
-

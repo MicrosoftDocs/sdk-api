@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleConnector::Bind
+ - IFsrmPipelineModuleConnector.Bind
+ - FsrmPipelineModuleConnector.Bind
 ---
 
 ## -description
@@ -74,4 +75,3 @@ Call this method from your <a href="/previous-versions/windows/desktop/api/fsrmp
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleconnector">IFsrmPipelineModuleConnector</a>
-

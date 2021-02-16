@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _SOCKET_SECURITY_SETTINGS_IPSEC
  - SOCKET_SECURITY_SETTINGS_IPSEC
 ---
 
@@ -224,4 +223,3 @@ There is a possibility that some of the IPsec settings specified in the <b>SOCKE
 
 
 <a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
-

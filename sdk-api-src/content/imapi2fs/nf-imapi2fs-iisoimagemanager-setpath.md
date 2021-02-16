@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IIsoImageManager::SetPath
+ - IIsoImageManager.SetPath
 ---
 
 # IIsoImageManager::SetPath
@@ -93,4 +93,3 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iisoimagemanager-get_path">IIsoImageManager::get_Path</a>
-

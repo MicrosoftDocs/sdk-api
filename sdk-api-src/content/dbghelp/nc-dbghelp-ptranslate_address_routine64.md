@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PTRANSLATE_ADDRESS_ROUTINE64
+ - TranslateAddressProc64
 ---
 
 # PTRANSLATE_ADDRESS_ROUTINE64 callback function
@@ -100,4 +100,3 @@ DWORD
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
-

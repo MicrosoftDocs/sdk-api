@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.idl
 api_name:
- - _MF2DBuffer_LockFlags
  - MF2DBuffer_LockFlags
 ---
 
@@ -80,4 +79,3 @@ Reserved. This member forces the enumeration type to compile as a <b>DWORD</b> v
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

@@ -9,8 +9,6 @@ tech.root: netmgmt
 f1_keywords:
  - lmaudit
  - lmaudit/lmaudit
-api_name:
- - lmaudit
 ---
 
 # Lmaudit.h header

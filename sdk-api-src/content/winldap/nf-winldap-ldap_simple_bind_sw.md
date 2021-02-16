@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_simple_bind_sW
  - winldap/ldap_simple_bind_sW
- - ldap_simple_bind_s
- - winldap/ldap_simple_bind_s
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_simple_bind_sW
  - ldap_simple_bind_s
+ - ldap_simple_bind_sA
+ - ldap_simple_bind_sW
 ---
 
 # ldap_simple_bind_sW function
@@ -125,4 +124,3 @@ When all of the operations on the session handle are completed, terminate the se
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-

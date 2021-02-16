@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties::GetValues
+ - IPortableDeviceProperties.GetValues
 ---
 
 # IPortableDeviceProperties::GetValues
@@ -119,4 +119,3 @@ One or more property values could not be retrieved. The problem properties will 
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
-

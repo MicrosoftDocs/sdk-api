@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NetCon.h
 api_name:
- - tagNETCON_STATUS
  - NETCON_STATUS
 ---
 
@@ -133,4 +132,3 @@ Security credentials are required.
 
 
 <a href="/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.h
 api_name:
- - IWMPPlaylist::clear
+ - IWMPPlaylist.clear
 ---
 
 # IWMPPlaylist::clear
@@ -79,4 +79,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-

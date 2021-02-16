@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsbuffer.h
 api_name:
- - IWMSBufferAllocator::AllocatePageSizeBuffer
+ - IWMSBufferAllocator.AllocatePageSizeBuffer
 ---
 
 # IWMSBufferAllocator::AllocatePageSizeBuffer
@@ -69,4 +69,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsbuffer/nn-wmsbuffer-iwmsbufferallocator">IWMSBufferAllocator Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagPrivateData
  - PrivateData
 ---
 
@@ -76,4 +75,3 @@ The <b>PrivateData</b> structure is used to store state information for the NapA
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
-

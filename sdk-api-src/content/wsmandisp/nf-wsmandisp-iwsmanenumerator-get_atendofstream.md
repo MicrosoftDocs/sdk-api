@@ -42,7 +42,8 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEnumerator::get_AtEndOfStream
+ - IWSManEnumerator.AtEndOfStream
+ - IWSManEnumerator.get_AtEndOfStream
 ---
 
 # IWSManEnumerator::get_AtEndOfStream
@@ -69,4 +70,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinRM/windows-remote-management-reference">Windows Remote Management Reference</a>
-

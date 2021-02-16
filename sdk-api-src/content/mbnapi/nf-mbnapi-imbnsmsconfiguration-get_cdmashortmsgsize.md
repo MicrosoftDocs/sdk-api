@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsConfiguration::get_CdmaShortMsgSize
+ - IMbnSmsConfiguration.CdmaShortMsgSize
+ - IMbnSmsConfiguration.get_CdmaShortMsgSize
 ---
 
 # IMbnSmsConfiguration::get_CdmaShortMsgSize
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>
-

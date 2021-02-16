@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumSingleItemExceptions::Next
+ - IEnumSingleItemExceptions.Next
 ---
 
 # IEnumSingleItemExceptions::Next
@@ -118,4 +118,3 @@ There are no more single-item exceptions to retrieve.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>
-

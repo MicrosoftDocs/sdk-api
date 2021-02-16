@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget::GetProperties
+ - IVdsIscsiTarget.GetProperties
 ---
 
 # IVdsIscsiTarget::GetProperties
@@ -134,4 +134,3 @@ The portal object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_target_prop">VDS_ISCSI_TARGET_PROP</a>
-

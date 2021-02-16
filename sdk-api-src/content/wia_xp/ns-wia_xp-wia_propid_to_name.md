@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
- - _WIA_PROPID_TO_NAME
- - PWIA_PROPID_TO_NAME
  - WIA_PROPID_TO_NAME
 ---
 
@@ -74,4 +72,3 @@ WIA property name.
 
 <div class="alert"><b>Note</b>  Property names are not localized. They are primarily used to support scripting languages; therefore, they are always the same on any system.</div>
 <div> </div>
-

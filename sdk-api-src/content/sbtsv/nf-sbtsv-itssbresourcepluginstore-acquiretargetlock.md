@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::AcquireTargetLock
+ - ITsSbResourcePluginStore.AcquireTargetLock
 ---
 
 # ITsSbResourcePluginStore::AcquireTargetLock
@@ -80,4 +80,3 @@ After the lock is acquired, the calling thread is assumed to have exclusive acce
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore">ITsSbResourcePluginStore</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId::GetResourceId
+ - IAppxManifestPackageId.GetResourceId
 ---
 
 # IAppxManifestPackageId::GetResourceId
@@ -77,4 +77,3 @@ The caller must free the memory allocated for <i>resourceId</i> using the <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2::CompareToKnowledgeCookie
+ - ISyncKnowledge2.CompareToKnowledgeCookie
 ---
 
 # ISyncKnowledge2::CompareToKnowledgeCookie
@@ -111,4 +111,3 @@ This method can be used when the performance of the knowledge comparison operati
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-knowledge_cookie_comparison_result">KNOWLEDGE_COOKIE_COMPARISON_RESULT Enumeration</a>
-

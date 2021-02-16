@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsCollection::Add
+ - IADsCollection.Add
 ---
 
 # IADsCollection::Add
@@ -99,4 +99,3 @@ This method is not supported in any of the  <a href="/windows/desktop/ADSI/adsi-
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

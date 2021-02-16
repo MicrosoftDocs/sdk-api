@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::LockInChangePoint
+ - IFileSystemImage.LockInChangePoint
 ---
 
 # IFileSystemImage::LockInChangePoint
@@ -93,4 +93,3 @@ Locking the change point does not change the <a href="/windows/desktop/api/imapi
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - XInput.h
 api_name:
- - _XINPUT_CAPABILITIES
- - PXINPUT_CAPABILITIES
  - XINPUT_CAPABILITIES
 ---
 
@@ -157,4 +155,3 @@ Older XUSB Windows drivers report incomplete capabilities information, particula
 
 
 <a href="/windows/desktop/api/xinput/nf-xinput-xinputgetcapabilities">XInputGetCapabilities</a>
-

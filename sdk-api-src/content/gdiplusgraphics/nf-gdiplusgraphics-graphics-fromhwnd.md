@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::FromHWND
+ - Graphics.FromHWND
 ---
 
 # Graphics::FromHWND
@@ -100,4 +100,3 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">Graphics::GetHDC</a>
-

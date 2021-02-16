@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::SetClip
+ - Graphics.SetClip
 ---
 
 # Graphics::SetClip(IN HRGN,IN CombineMode)
@@ -144,4 +144,3 @@ VOID Example_SetClip2(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-translateclip(inint_inint)">TranslateClip Methods</a>
-

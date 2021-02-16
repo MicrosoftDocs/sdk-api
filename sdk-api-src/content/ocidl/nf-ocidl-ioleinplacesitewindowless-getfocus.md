@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless::GetFocus
+ - IOleInPlaceSiteWindowless.GetFocus
 ---
 
 # IOleInPlaceSiteWindowless::GetFocus
@@ -83,4 +83,3 @@ A windowless object calls this method to find out if it currently has the focus 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-

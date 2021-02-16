@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect::put_Rect
+ - IMSVidRect.put_Rect
 ---
 
 # IMSVidRect::put_Rect
@@ -65,4 +65,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidRect Interface</a>
-

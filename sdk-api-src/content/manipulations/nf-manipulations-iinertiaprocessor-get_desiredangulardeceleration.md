@@ -42,7 +42,9 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor::get_DesiredAngularDeceleration
+ - IInertiaProcessor.DesiredAngularDeceleration
+ - IInertiaProcessor.get_DesiredAngularDeceleration
+ - IInertiaProcessor.put_DesiredAngularDeceleration
 ---
 
 # IInertiaProcessor::get_DesiredAngularDeceleration
@@ -89,4 +91,3 @@ Call this function to set the initial state of inertia. You would call this func
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
-

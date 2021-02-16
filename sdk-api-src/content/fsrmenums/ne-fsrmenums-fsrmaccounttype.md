@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmAccountType
  - FsrmAccountType
 ---
 
@@ -107,4 +106,3 @@ Run the command or pipeline module under the account that FSRM selects. This is 
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpipelinemoduledefinition-get_account">IFsrmPipelineModuleDefinition.Account</a>
-

@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Ifdef.h
 api_name:
- - _IF_COUNTED_STRING_LH
- - PIF_COUNTED_STRING_LH
- - IF_COUNTED_STRING_LH
+ - IF_COUNTED_STRING
 ---
 
 # IF_COUNTED_STRING_LH structure

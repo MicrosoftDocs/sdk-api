@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PTARGETPROTOCOLTYPE
  - TARGETPROTOCOLTYPE
 ---
 
@@ -64,4 +63,3 @@ The target uses the TCP protocol.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-getiscsitargetinformationa">GetIScsiTargetInformation</a>
-

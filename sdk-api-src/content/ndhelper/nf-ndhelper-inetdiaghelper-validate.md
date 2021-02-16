@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper::Validate
+ - INetDiagHelper.Validate
 ---
 
 # INetDiagHelper::Validate
@@ -153,4 +153,3 @@ This method only returns an error code if it encounters failures that impede val
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-

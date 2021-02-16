@@ -47,8 +47,6 @@ api_location:
  - Tcpmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_TCP6TABLE_OWNER_MODULE
- - PMIB_TCP6TABLE_OWNER_MODULE
  - MIB_TCP6TABLE_OWNER_MODULE
 ---
 
@@ -90,4 +88,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportScheduler::VerifyNamespaces
+ - IFsrmReportScheduler.VerifyNamespaces
+ - FsrmReportScheduler.VerifyNamespaces
 ---
 
 # IFsrmReportScheduler::VerifyNamespaces
@@ -93,4 +94,3 @@ If one of the paths fails to validate, there is no indication of which path fail
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
-

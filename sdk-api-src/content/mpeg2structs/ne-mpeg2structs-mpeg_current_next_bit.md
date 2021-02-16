@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0004
  - MPEG_CURRENT_NEXT_BIT
 ---
 
@@ -68,4 +67,3 @@ Indicates that the table is not yet applicable, and will be the next valid table
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-types">BDA Enumeration Types</a>
-

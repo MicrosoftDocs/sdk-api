@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
- - _CLUSTER_REG_COMMAND
  - CLUSTER_REG_COMMAND
 ---
 
@@ -182,4 +181,3 @@ The <b>CLUSREG_VALUE_DELETED</b> command precedes every <b>CLUSREG_SET_VALUE</b>
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

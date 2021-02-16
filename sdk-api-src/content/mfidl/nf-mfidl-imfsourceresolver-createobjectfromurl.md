@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSourceResolver::CreateObjectFromURL
+ - IMFSourceResolver.CreateObjectFromURL
 ---
 
 # IMFSourceResolver::CreateObjectFromURL
@@ -190,4 +190,3 @@ done:
 
 
 <a href="/windows/desktop/medfound/source-resolver">Source Resolver</a>
-

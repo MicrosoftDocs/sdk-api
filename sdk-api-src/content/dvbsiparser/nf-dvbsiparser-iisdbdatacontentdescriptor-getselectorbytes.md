@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbDataContentDescriptor::GetSelectorBytes
+ - IIsdbDataContentDescriptor.GetSelectorBytes
 ---
 
 # IIsdbDataContentDescriptor::GetSelectorBytes
@@ -76,4 +76,3 @@ ARIB, STD-B10, Version 4.6</i> shows the contents of this descriptor for differe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdatacontentdescriptor">IIsdbDataContentDescriptor</a>
-

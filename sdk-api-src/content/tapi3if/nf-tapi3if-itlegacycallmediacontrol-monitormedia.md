@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl::MonitorMedia
+ - ITLegacyCallMediaControl.MonitorMedia
 ---
 
 # ITLegacyCallMediaControl::MonitorMedia
@@ -123,4 +123,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile::GetDownLevelRasterizationLimit
+ - Metafile.GetDownLevelRasterizationLimit
 ---
 
 # Metafile::GetDownLevelRasterizationLimit
@@ -60,4 +60,3 @@ Gets the rasterization limit currently set for this metafile. The rasterization 
 Type: <b>UINT</b>
 
 This method returns the rasterization limit in dpi.
-

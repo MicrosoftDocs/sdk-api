@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::SetEventHandle
+ - IAudioClient.SetEventHandle
 ---
 
 # IAudioClient::SetEventHandle
@@ -149,4 +149,3 @@ For a code example that calls the <b>SetEventHandle</b> method, see <a href="/wi
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a>
-

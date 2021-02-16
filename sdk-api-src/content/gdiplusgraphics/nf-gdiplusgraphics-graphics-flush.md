@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::Flush
+ - Graphics.Flush
 ---
 
 # Graphics::Flush
@@ -68,4 +68,3 @@ Element of the <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-flushi
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a>
-

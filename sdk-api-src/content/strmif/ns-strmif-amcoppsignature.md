@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _AMCOPPSignature
  - AMCOPPSignature
 ---
 
@@ -68,4 +67,3 @@ Buffer that contains the signature. For more information, see the Remarks sectio
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-

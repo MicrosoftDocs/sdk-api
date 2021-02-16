@@ -43,7 +43,8 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaFilter::GetState
+ - IMediaFilter.GetState
+ - IBaseFilter.GetState
 ---
 
 # IMediaFilter::GetState
@@ -137,4 +138,3 @@ For more information, see <a href="/windows/desktop/DirectShow/data-flow-in-the-
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
-

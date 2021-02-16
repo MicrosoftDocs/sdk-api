@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallInfo2::put_EventFilter
+ - ITCallInfo2.put_EventFilter
 ---
 
 # ITCallInfo2::put_EventFilter
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2">ITCallInfo2</a>
-

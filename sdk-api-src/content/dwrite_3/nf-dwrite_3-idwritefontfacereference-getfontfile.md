@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFontFaceReference::GetFontFile
+ - IDWriteFontFaceReference.GetFontFile
 ---
 
 # IDWriteFontFaceReference::GetFontFile

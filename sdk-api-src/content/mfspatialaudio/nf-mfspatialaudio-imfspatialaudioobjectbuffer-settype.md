@@ -43,7 +43,7 @@ api_location:
  - mfobjects.lib
  - mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer::SetType
+ - IMFSpatialAudioObjectBuffer.SetType
 ---
 
 # IMFSpatialAudioObjectBuffer::SetType
@@ -70,4 +70,3 @@ A spatial audio object can be of type <b>AudioObjectType_Dynamic</b>, which mean
 ## -see-also
 
 <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
-

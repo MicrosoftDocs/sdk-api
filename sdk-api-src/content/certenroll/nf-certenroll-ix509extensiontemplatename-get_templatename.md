@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionTemplateName::get_TemplateName
+ - IX509ExtensionTemplateName.TemplateName
+ - IX509ExtensionTemplateName.get_TemplateName
 ---
 
 # IX509ExtensionTemplateName::get_TemplateName
@@ -66,4 +67,3 @@ You must call either <a href="/windows/desktop/api/certenroll/nf-certenroll-ix50
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplatename">IX509ExtensionTemplateName</a>
-

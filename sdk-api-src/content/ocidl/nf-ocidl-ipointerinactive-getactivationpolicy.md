@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPointerInactive::GetActivationPolicy
+ - IPointerInactive.GetActivationPolicy
 ---
 
 # IPointerInactive::GetActivationPolicy
@@ -84,4 +84,3 @@ The activation policy should not be cached. The container should call this metho
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>
-

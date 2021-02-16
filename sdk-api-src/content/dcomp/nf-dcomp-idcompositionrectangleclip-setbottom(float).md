@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRectangleClip::SetBottom
+ - IDCompositionRectangleClip.SetBottom
 ---
 
 # IDCompositionRectangleClip::SetBottom
@@ -79,4 +79,3 @@ If the Bottom property was previously animated, this method removes the animatio
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionrectangleclip">IDCompositionRectangleClip</a>
-

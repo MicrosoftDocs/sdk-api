@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_DecodeExtensionData
  - DXVA2_DecodeExtensionData
 ---
 
@@ -88,4 +87,3 @@ This structure corresponds to parameters of the <b>IAMVideoAccelerator::Execute<
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

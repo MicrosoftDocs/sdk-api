@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced3::SetNonBlocking
+ - IWMWriterAdvanced3.SetNonBlocking
 ---
 
 # IWMWriterAdvanced3::SetNonBlocking
@@ -70,4 +70,3 @@ This method has no effect when writing from a live source. It is normal for the 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced3">IWMWriterAdvanced3 Interface</a>
-

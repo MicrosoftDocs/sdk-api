@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TAPE_ERASE
- - PTAPE_ERASE
  - TAPE_ERASE
 ---
 

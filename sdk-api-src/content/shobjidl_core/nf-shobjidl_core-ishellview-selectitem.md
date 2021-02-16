@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::SelectItem
+ - IShellView.SelectItem
 ---
 
 # IShellView::SelectItem
@@ -80,4 +80,3 @@ This method is used to implement the Target command from the <b>File</b> menu of
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

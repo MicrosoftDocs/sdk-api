@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::get_DrawingAttributes
+ - IInkStrokeDisp.DrawingAttributes
+ - IInkStrokeDisp.get_DrawingAttributes
+ - IInkStrokeDisp.put_DrawingAttributes
+ - IInkStrokeDisp.get_DrawingAttributes
+ - IInkStrokeDisp.put_DrawingAttributes
 ---
 
 # IInkStrokeDisp::get_DrawingAttributes
@@ -85,4 +89,3 @@ Successive calls to the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkc
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
-

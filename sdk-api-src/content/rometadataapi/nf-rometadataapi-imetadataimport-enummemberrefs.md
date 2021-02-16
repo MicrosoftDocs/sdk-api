@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumMemberRefs
+ - IMetaDataImport.EnumMemberRefs
 ---
 
 # IMetaDataImport::EnumMemberRefs
@@ -97,4 +97,3 @@ The actual number of MemberRef tokens returned in <i>rgMemberRefs</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

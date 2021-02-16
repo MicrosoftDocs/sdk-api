@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPlayerHook::PreDecode
+ - IWMPlayerHook.PreDecode
 ---
 
 # IWMPlayerHook::PreDecode
@@ -72,4 +72,3 @@ To assign an implementation of the <b>IWMPlayerHook</b> interface to an output i
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmplayerhook">IWMPlayerHook Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagUASFLAGS
  - UASFLAGS
 ---
 
@@ -78,4 +77,3 @@ When checking for a normal state, use this value to mask unused bits in the <i>p
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-getparentstate">IOleParentUndoUnit::GetParentState</a>
-

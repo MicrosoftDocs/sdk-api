@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallInfo::put_CallInfoBuffer
+ - ITCallInfo.put_CallInfoBuffer
 ---
 
 # ITCallInfo::put_CallInfoBuffer
@@ -143,4 +143,3 @@ The current
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcallinfo-get_callinfobuffer">get_CallInfoBuffer</a>
-

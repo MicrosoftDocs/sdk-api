@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - IStaticPortMappingCollection::get_Item
+ - IStaticPortMappingCollection.get_Item
 ---
 
 # IStaticPortMappingCollection::get_Item
@@ -192,4 +192,3 @@ The NAT API with UPnP technology uses the combination of the external port and t
 
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-

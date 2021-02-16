@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_TRANSACTION_ACTIVE_INFO
- - PTXFS_TRANSACTION_ACTIVE_INFO
  - TXFS_TRANSACTION_ACTIVE_INFO
 ---
 
@@ -72,4 +70,3 @@ This member is <b>TRUE</b> if the mounted snapshot volume had active transaction
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_transaction_active">FSCTL_TXFS_TRANSACTION_ACTIVE</a>
-

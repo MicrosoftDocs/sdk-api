@@ -45,6 +45,7 @@ api_location:
  - ComBase.dll
 api_name:
  - RoUninitialize
+ - WinRTUninitialize
 ---
 
 # RoUninitialize function
@@ -69,4 +70,3 @@ Use the <a href="/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize<
 
 
 <a href="/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - INamedPropertyStore::GetNameAt
+ - INamedPropertyStore.GetNameAt
 ---
 
 # INamedPropertyStore::GetNameAt
@@ -71,4 +71,3 @@ When this method returns, contains a pointer to the property's name. It is the c
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

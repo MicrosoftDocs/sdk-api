@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_COLUMN_DATA
  - MMC_COLUMN_DATA
 ---
 
@@ -96,4 +95,3 @@ MMC_COLUMN_DATA structure, a snap-in can hide or show columns in a column set in
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
-

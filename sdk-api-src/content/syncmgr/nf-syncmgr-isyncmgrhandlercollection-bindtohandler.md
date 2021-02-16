@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandlerCollection::BindToHandler
+ - ISyncMgrHandlerCollection.BindToHandler
 ---
 
 # ISyncMgrHandlerCollection::BindToHandler
@@ -89,4 +89,3 @@ It is possible for this method to be called by Sync Center without it first call
 
 
 <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlercollection">ISyncMgrHandlerCollection</a>
-

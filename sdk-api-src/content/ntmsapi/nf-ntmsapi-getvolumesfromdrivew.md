@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetVolumesFromDriveW
  - ntmsapi/GetVolumesFromDriveW
- - GetVolumesFromDrive
- - ntmsapi/GetVolumesFromDrive
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - GetVolumesFromDriveW
  - GetVolumesFromDrive
+ - GetVolumesFromDriveA
+ - GetVolumesFromDriveW
 ---
 
 # GetVolumesFromDriveW function
@@ -97,4 +96,3 @@ This function assumes there will be only zero or one partitions on a
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
-

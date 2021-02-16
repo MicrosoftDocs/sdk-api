@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::Open
+ - ITPhone.Open
 ---
 
 # ITPhone::Open
@@ -78,4 +78,3 @@ Also, a phone must be open with owner privilege for the application to set the s
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::CreateGeometryShader
+ - ID3D10Device.CreateGeometryShader
 ---
 
 # ID3D10Device::CreateGeometryShader
@@ -86,4 +86,3 @@ Once created, the shader can be set to the device by calling <a href="/windows/d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

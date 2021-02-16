@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin::GetHashAlgorithms
+ - IOCSPAdmin.GetHashAlgorithms
 ---
 
 # IOCSPAdmin::GetHashAlgorithms
@@ -79,4 +79,3 @@ A list of hash algorithms with which a responder server can sign responses.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-

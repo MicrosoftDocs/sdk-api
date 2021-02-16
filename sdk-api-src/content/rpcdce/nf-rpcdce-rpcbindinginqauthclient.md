@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcBindingInqAuthClient
+ - RpcBindingInqAuthClientA
+ - RpcBindingInqAuthClientW
 ---
 
 # RpcBindingInqAuthClient function
@@ -175,4 +177,3 @@ For synchronous RPC calls, the server application can use zero as the value for 
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

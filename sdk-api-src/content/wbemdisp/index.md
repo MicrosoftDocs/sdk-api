@@ -9,8 +9,6 @@ tech.root: wmi
 f1_keywords:
  - wbemdisp
  - wbemdisp/wbemdisp
-api_name:
- - wbemdisp
 ---
 
 # Wbemdisp.h header

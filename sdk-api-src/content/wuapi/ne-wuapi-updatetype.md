@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
- - tagUpdateType
  - UpdateType
 ---
 
@@ -68,4 +67,3 @@ Indicates that the update is a driver update.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_type">IUpdate.Type</a>
-

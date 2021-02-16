@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyFiles::GetCount
+ - IEnumBackgroundCopyFiles.GetCount
 ---
 
 # IEnumBackgroundCopyFiles::GetCount
@@ -65,4 +65,3 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyfiles">IEnumBackgroundCopyFiles</a>
-

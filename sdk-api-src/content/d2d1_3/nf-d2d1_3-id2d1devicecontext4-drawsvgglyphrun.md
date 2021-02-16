@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext4::DrawSvgGlyphRun
+ - ID2D1DeviceContext4.DrawSvgGlyphRun
 ---
 
 # ID2D1DeviceContext4::DrawSvgGlyphRun
@@ -94,4 +94,3 @@ Indicates the measuring method used for text layout.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext4">ID2D1DeviceContext4</a>
-

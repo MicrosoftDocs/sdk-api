@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymDeleteSymbol
+ - SymDeleteSymbol
+ - SymDeleteSymbolW
 ---
 
 # SymDeleteSymbol function
@@ -95,4 +97,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symaddsymbol">SymAddSymbol</a>
-

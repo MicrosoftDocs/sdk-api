@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA0_
  - IPSEC_SA0
 ---
 
@@ -122,4 +121,3 @@ Security algorithms of the SA transform. Available when <b>saTransformType</b> i
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

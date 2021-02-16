@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputJoyConfig8::SetUserValues
+ - IDirectInputJoyConfig8.SetUserValues
 ---
 
 # IDirectInputJoyConfig8::SetUserValues
@@ -116,4 +116,3 @@ One or more parameters was invalid.
 </td>
 </tr>
 </table>
-

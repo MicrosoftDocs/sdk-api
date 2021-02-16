@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache2::DiscardCache
+ - IOleCache2.DiscardCache
 ---
 
 # IOleCache2::DiscardCache
@@ -110,4 +110,3 @@ After it is discarded, a cache will satisfy subsequent <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iolecachecontrol">IOleCacheControl</a>
-

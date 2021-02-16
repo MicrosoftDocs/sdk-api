@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgDocument::GetViewportSize
+ - ID2D1SvgDocument.GetViewportSize
 ---
 
 # ID2D1SvgDocument::GetViewportSize
@@ -63,4 +63,3 @@ Returns the size of the initial viewport
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgdocument">ID2D1SvgDocument</a>
-

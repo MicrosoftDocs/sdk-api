@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection::SaveChanges
+ - ICatalogCollection.SaveChanges
 ---
 
 # ICatalogCollection::SaveChanges
@@ -98,4 +98,3 @@ For a given item, <b>SaveChanges</b> writes all properties to the catalog at the
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-

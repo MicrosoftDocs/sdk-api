@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_VideoTransferMatrix
  - DXVA2_VideoTransferMatrix
 ---
 
@@ -122,4 +121,3 @@ If you are using the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmed
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

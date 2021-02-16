@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMLinearGradientBrush::GetEndPoint
+ - IXpsOMLinearGradientBrush.GetEndPoint
 ---
 
 # IXpsOMLinearGradientBrush::GetEndPoint
@@ -110,4 +110,3 @@ The coordinates are relative to the page and are expressed in units of the trans
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICMetadataQueryReader::GetEnumerator
+ - IWICMetadataQueryReader.GetEnumerator
 ---
 
 # IWICMetadataQueryReader::GetEnumerator
@@ -85,4 +85,3 @@ The retrieved enumerator only contains query strings for the metadata blocks and
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-

@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - _NTMS_DRIVETYPEINFORMATIONW
+ - NTMS_DRIVETYPEINFORMATION
+ - NTMS_DRIVETYPEINFORMATIONA
  - NTMS_DRIVETYPEINFORMATIONW
 ---
 
@@ -141,4 +142,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
-

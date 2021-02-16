@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::GetCenterColor
+ - PathGradientBrush.GetCenterColor
 ---
 
 # PathGradientBrush::GetCenterColor
@@ -152,4 +152,3 @@ VOID Example_GetCenterColor(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcenterpoint(inconstpoint_)">PathGradientBrush::SetCenterPoint Methods</a>
-

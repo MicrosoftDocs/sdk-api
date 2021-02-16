@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut
+ - IUIAutomationLegacyIAccessiblePattern.CurrentKeyboardShortcut
+ - IUIAutomationLegacyIAccessiblePattern.get_CurrentKeyboardShortcut
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentKeyboardShortcut

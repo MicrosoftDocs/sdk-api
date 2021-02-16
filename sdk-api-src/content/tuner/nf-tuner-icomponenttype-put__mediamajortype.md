@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponentType::put__MediaMajorType
+ - IComponentType.put__MediaMajorType
 ---
 
 # IComponentType::put__MediaMajorType
@@ -73,4 +73,3 @@ This method is available through C++ only. Note the two underscores in the metho
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponenttype">IComponentType Interface</a>
-

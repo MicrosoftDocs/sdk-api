@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagNetworkSoH
  - NetworkSoH
 ---
 
@@ -72,4 +71,3 @@ A pointer to a data blob that contains the <a href="/windows/desktop/api/naptype
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
-

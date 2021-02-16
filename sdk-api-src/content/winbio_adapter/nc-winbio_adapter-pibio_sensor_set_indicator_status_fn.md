@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_SENSOR_SET_INDICATOR_STATUS_FN
+ - SensorAdapterSetIndicatorStatus
 ---
 
 # PIBIO_SENSOR_SET_INDICATOR_STATUS_FN callback function
@@ -140,4 +140,3 @@ The sensor does not have an indicator.
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_get_indicator_status_fn">SensorAdapterGetIndicatorStatus</a>
-

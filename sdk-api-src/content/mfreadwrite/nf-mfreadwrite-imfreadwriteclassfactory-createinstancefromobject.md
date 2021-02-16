@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFReadWriteClassFactory::CreateInstanceFromObject
+ - IMFReadWriteClassFactory.CreateInstanceFromObject
 ---
 
 # IMFReadWriteClassFactory::CreateInstanceFromObject
@@ -163,4 +163,3 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 ## -see-also
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfreadwriteclassfactory">IMFReadWriteClassFactory</a>
-

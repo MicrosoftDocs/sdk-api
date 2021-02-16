@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsExtension::Operate
+ - IADsExtension.Operate
 ---
 
 # IADsExtension::Operate
@@ -118,4 +118,3 @@ STDMETHOD(Operate)(ULONG dwCode, VARIANT varData1, VARIANT varData2, VARIANT var
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsextension">IADsExtension</a>
-

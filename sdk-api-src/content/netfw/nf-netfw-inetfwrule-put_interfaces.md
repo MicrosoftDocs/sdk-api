@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule::put_Interfaces
+ - INetFwRule.Interfaces
+ - INetFwRule.get_Interfaces
+ - INetFwRule.put_Interfaces
 ---
 
 # INetFwRule::put_Interfaces
@@ -69,4 +71,3 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
-

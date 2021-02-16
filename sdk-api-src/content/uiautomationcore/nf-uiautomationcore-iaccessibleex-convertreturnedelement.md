@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAccessibleEx::ConvertReturnedElement
+ - IAccessibleEx.ConvertReturnedElement
 ---
 
 # IAccessibleEx::ConvertReturnedElement
@@ -79,4 +79,3 @@ This method is implemented by the bridge between Microsoft UI Automation and Mic
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessibleex">IAccessibleEx</a>
-

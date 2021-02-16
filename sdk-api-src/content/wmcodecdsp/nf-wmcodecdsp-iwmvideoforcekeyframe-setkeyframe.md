@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMVideoForceKeyFrame::SetKeyFrame
+ - IWMVideoForceKeyFrame.SetKeyFrame
 ---
 
 # IWMVideoForceKeyFrame::SetKeyFrame
@@ -87,4 +87,3 @@ Each call to this method applies to a single frame. After processing this frame,
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideoforcekeyframe">IWMVideoForceKeyFrame Interface</a>
-

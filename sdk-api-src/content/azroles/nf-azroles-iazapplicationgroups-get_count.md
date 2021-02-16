@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroups::get_Count
+ - IAzApplicationGroups.Count
+ - IAzApplicationGroups.get_Count
+ - AzApplicationGroups.Count
 ---
 
 # IAzApplicationGroups::get_Count
@@ -59,4 +61,3 @@ This property is read-only.
 ## -remarks
 
 The <b>Count</b> property can be used to specify the last <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object in a collection when retrieving a specific <b>IAzApplicationGroup</b> object using the  <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroups-get_item">IAzApplicationGroups.Item</a> property.
-

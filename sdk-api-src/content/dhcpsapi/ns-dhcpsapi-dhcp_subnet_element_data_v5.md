@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SUBNET_ELEMENT_DATA_V5
- - LPDHCP_SUBNET_ELEMENT_DATA_V5
  - DHCP_SUBNET_ELEMENT_DATA_V5
 ---
 
@@ -84,6 +82,8 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 
 ### -field Element.IpUsedCluster.case.DhcpIpUsedClusters
 
+
+
 ### -field Element.switch_type
 
 ### -field Element.switch_type.DHCP_SUBNET_ELEMENT_TYPE
@@ -109,4 +109,3 @@ The <b>DHCP_SUBNET_ELEMENT_DATA_V5</b> structure defines an element that describ
 ### -field Element.IpUsedCluster
 
 ### -field _DHCP_SUBNET_ELEMENT_UNION_V5
-

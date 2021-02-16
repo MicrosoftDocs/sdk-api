@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_SampleFormat
  - DXVA2_SampleFormat
 ---
 
@@ -138,4 +137,3 @@ The value DXVA2_SampleSubStream has no equivalent in the <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

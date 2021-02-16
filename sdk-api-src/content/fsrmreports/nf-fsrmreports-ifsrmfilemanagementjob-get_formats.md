@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_Formats
+ - IFsrmFileManagementJob.Formats
+ - IFsrmFileManagementJob.get_Formats
+ - IFsrmFileManagementJob.put_Formats
 ---
 
 # IFsrmFileManagementJob::get_Formats
@@ -71,4 +73,3 @@ The job generates the reports if <a href="/previous-versions/windows/desktop/api
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

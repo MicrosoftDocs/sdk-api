@@ -45,6 +45,7 @@ api_location:
  - WsmSvc.dll
 api_name:
  - MI_Application_InitializeV1
+ - MI_Application_Initialize
 ---
 
 # MI_Application_InitializeV1 function
@@ -99,4 +100,3 @@ MI.h defines
      line:
 
 <code>#define MI_Application_Initialize MI_Application_InitializeV1</code>
-

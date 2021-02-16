@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite::OnFocus
+ - IOleControlSite.OnFocus
 ---
 
 # IOleControlSite::OnFocus
@@ -73,4 +73,3 @@ The container uses this information to update the state of <b>Default</b> and <b
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
-

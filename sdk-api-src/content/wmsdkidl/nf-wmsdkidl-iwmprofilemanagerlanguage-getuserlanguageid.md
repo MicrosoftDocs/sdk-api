@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManagerLanguage::GetUserLanguageID
+ - IWMProfileManagerLanguage.GetUserLanguageID
 ---
 
 # IWMProfileManagerLanguage::GetUserLanguageID
@@ -102,4 +102,3 @@ The default language is U.S. English (0x409).
 
 
 <a href="/windows/desktop/wmformat/working-with-localized-system-profiles">Working with Localized System Profiles</a>
-

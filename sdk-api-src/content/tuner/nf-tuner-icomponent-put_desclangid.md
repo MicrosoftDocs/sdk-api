@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponent::put_DescLangID
+ - IComponent.put_DescLangID
 ---
 
 # IComponent::put_DescLangID
@@ -69,4 +69,3 @@ This is the language of the descriptive info in the component object. It is not 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _POLICY_SERVER_ENABLE_STATE
- - PPOLICY_SERVER_ENABLE_STATE
  - POLICY_SERVER_ENABLE_STATE
 ---
 

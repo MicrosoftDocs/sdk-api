@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN
+ - StorageAdapterQueryExtendedInfo
 ---
 
 # PIBIO_STORAGE_QUERY_EXTENDED_INFO_FN callback function
@@ -104,4 +104,3 @@ The <i>StorageInfoSize</i> value is less than the size needed to return the stor
 This method is called once during configuration of the biometric unit. 
 
 It will also be called if a client application uses the <a href="/windows/desktop/api/winbio/nf-winbio-winbiogetproperty">WinBioGetProperty</a> function to query the value of the <b>WINBIO_PROPERTY_EXTENDED_STORAGE_INFO</b> property.
-

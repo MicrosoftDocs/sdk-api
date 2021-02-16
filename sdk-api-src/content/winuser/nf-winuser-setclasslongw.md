@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - SetClassLongW
  - winuser/SetClassLongW
- - SetClassLong
- - winuser/SetClassLong
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - User32.dll
  - Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
 api_name:
- - SetClassLongW
  - SetClassLong
+ - SetClassLongA
+ - SetClassLongW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetClassLongW function
@@ -264,4 +263,3 @@ For an example, see <a href="/windows/desktop/menurc/using-icons">Displaying an 
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
-

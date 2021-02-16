@@ -43,7 +43,7 @@ api_location:
  - mfobjects.lib
  - mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer::GetMetadataItems
+ - IMFSpatialAudioObjectBuffer.GetMetadataItems
 ---
 
 # IMFSpatialAudioObjectBuffer::GetMetadataItems
@@ -101,4 +101,3 @@ The metadata is written to the <a href="/windows/desktop/api/spatialaudiometadat
 ## -see-also
 
 <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITrigger::put_Id
+ - ITrigger.Id
+ - ITrigger.get_Id
+ - ITrigger.put_Id
 ---
 
 # ITrigger::put_Id
@@ -67,4 +69,3 @@ When reading or writing XML for a task, the trigger identifier is specified in t
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

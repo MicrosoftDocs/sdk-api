@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Elscore.h
 api_name:
- - PFN_MAPPINGCALLBACKPROC
+ - MappingCallbackProc
 ---
 
 # PFN_MAPPINGCALLBACKPROC callback function
@@ -99,4 +99,3 @@ The application should check the <i>Result</i> parameter before using the data i
 
 
 <a href="/windows/desktop/Intl/providing-callbacks-for-els-services">Providing Callbacks for ELS Services</a>
-

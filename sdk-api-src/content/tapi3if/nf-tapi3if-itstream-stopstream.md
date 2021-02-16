@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream::StopStream
+ - ITStream.StopStream
 ---
 
 # ITStream::StopStream
@@ -122,4 +122,3 @@ To subsequently restart the stream, the application must call
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

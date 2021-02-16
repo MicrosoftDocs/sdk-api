@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - ISharedBitmap::Detach
+ - ISharedBitmap.Detach
 ---
 
 # ISharedBitmap::Detach
@@ -71,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 If the bitmap being retrieved resides in shared memory, a copy of the bitmap is returned.  The <b>Detach</b> method does not release any references to the underlying shared memory.
 
 If the bitmap being retrieved does not reside in shared memory, the bitmap itself is returned and no copy is made.
-

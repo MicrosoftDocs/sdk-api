@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMaster::SetActiveDiscMasterFormat
+ - IDiscMaster.SetActiveDiscMasterFormat
 ---
 
 # IDiscMaster::SetActiveDiscMasterFormat
@@ -82,4 +82,3 @@ A successful call to this method clears the contents of the currently staged ima
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-

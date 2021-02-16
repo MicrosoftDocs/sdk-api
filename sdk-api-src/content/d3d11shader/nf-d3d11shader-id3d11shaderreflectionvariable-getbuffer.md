@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11shader.h
 api_name:
- - ID3D11ShaderReflectionVariable::GetBuffer
+ - ID3D11ShaderReflectionVariable.GetBuffer
 ---
 
 # ID3D11ShaderReflectionVariable::GetBuffer
@@ -63,4 +63,3 @@ Returns a pointer to the <a href="/windows/desktop/api/d3d11shader/nn-d3d11shade
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflectionvariable">ID3D11ShaderReflectionVariable</a>
-

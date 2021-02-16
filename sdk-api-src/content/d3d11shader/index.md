@@ -9,8 +9,6 @@ tech.root: direct3d11
 f1_keywords:
  - d3d11shader
  - d3d11shader/d3d11shader
-api_name:
- - d3d11shader
 ---
 
 # D3D11Shader.h header

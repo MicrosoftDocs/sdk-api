@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::GetObject
+ - Provider.GetObject
+ - ?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z
+ - ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z
 ---
 
 # Provider::GetObject(ParsedObjectPath,MethodContext,long)
@@ -95,4 +97,3 @@ WMI often invokes <b>GetObject</b> in response to a client call to <a href="/win
 <li>Determine which instance WMI requested by reading the key properties with a <b>Get</b> method from <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>, such as <a href="/windows/desktop/api/instance/nf-instance-cinstance-getchstring">CInstance::GetCHString</a>.</li>
 <li>Populate the rest of the properties of the instance using the many Set methods of the <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> class, such as <a href="/windows/desktop/api/instance/nf-instance-cinstance-setbyte">CInstance::SetByte</a> or <a href="/windows/desktop/api/instance/nf-instance-cinstance-setstringarray">CInstance::SetStringArray</a>.</li>
 </ol>
-

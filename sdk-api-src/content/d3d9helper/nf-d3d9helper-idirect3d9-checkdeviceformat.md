@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::CheckDeviceFormat
+ - IDirect3D9.CheckDeviceFormat
 ---
 
 # IDirect3D9::CheckDeviceFormat
@@ -159,4 +159,3 @@ When migrating code from Direct3D 9 to Direct3D 10, the Direct3D 10 equivalent t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

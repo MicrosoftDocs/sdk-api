@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_COLOR_RGBA
  - DXVAHD_COLOR_RGBA
 ---
 
@@ -94,4 +93,3 @@ For full-range RGB, reference black is (0.0, 0.0, 0.0), which corresponds to (0,
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

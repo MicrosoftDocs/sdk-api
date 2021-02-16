@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Taskschd.dll
 api_name:
- - ITaskSettings3::put_MaintenanceSettings
+ - ITaskSettings3.MaintenanceSettings
+ - ITaskSettings3.get_MaintenanceSettings
+ - ITaskSettings3.put_MaintenanceSettings
 ---
 
 # ITaskSettings3::put_MaintenanceSettings
@@ -70,4 +72,3 @@ All other triggers are delayed until battery saver is off. For more information 
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings3">ITaskSettings3</a>
-

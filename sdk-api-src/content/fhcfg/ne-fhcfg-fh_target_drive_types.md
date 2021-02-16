@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - _FH_TARGET_DRIVE_TYPES
  - FH_TARGET_DRIVE_TYPES
 ---
 
@@ -76,4 +75,3 @@ The backup target is a storage device that is accessible over network, such as a
 ## -see-also
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getnumericalproperty">IFhTarget::GetNumericalProperty</a>
-

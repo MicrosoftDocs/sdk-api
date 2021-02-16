@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11ClassLinkage::CreateClassInstance
+ - ID3D11ClassLinkage.CreateClassInstance
 ---
 
 # ID3D11ClassLinkage::CreateClassInstance
@@ -110,4 +110,3 @@ For more information about using the <a href="/windows/desktop/api/d3d11/nn-d3d1
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>
-

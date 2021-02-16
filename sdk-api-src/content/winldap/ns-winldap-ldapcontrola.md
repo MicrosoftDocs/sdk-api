@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - ldapcontrolA
- - PLDAPControlA
+ - LDAPControl
  - LDAPControlA
+ - LDAPControlW
 ---
 
 # LDAPControlA structure
@@ -98,4 +98,3 @@ For more information, and a list of the supported LDAP extended controls and the
 
 
 <a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
-

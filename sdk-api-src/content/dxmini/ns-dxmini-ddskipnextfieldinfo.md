@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDSKIPNEXTFIELDINFO
- - PDDSKIPNEXTFIELDINFO
  - DDSKIPNEXTFIELDINFO
 ---
 
@@ -102,4 +100,3 @@ The next field should be skipped.
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_skipnextfield">DxSkipNextField</a>
-

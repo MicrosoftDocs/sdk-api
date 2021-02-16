@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _FILE_ID_EXTD_DIR_INFO
- - PFILE_ID_EXTD_DIR_INFO
  - FILE_ID_EXTD_DIR_INFO
 ---
 
@@ -374,4 +372,3 @@ The first character of the file name string. This is followed in memory by the r
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

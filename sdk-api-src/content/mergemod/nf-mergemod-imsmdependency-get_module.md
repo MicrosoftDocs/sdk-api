@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmDependency::get_Module
+ - IMsmDependency.get_Module
 ---
 
 # IMsmDependency::get_Module
@@ -106,4 +106,3 @@ The client is responsible for freeing the resulting string using <b>SysFreeStrin
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

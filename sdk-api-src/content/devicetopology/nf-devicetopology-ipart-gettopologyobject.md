@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart::GetTopologyObject
+ - IPart.GetTopologyObject
 ---
 
 # IPart::GetTopologyObject
@@ -100,4 +100,3 @@ For code examples that use this method, see the following topics:
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-

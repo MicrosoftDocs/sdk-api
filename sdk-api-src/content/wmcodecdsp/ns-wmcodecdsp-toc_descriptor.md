@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - _TOC_DESCRIPTOR
  - TOC_DESCRIPTOR
 ---
 
@@ -80,4 +79,3 @@ You might want to design several different type of tables of contents. In that c
 ## -see-also
 
 <a href="/windows/desktop/medfound/toc-parser-structures">Table of Contents Parser Structures</a>
-

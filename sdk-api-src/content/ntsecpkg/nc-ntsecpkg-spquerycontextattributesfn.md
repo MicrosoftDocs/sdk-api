@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpQueryContextAttributesFn
+ - SpQueryContextAttributes
 ---
 
 # SpQueryContextAttributesFn callback function
@@ -117,4 +117,3 @@ A pointer to the user-mode implementation of the <b>SpQueryContextAttributes</b>
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange::ScrollIntoView
+ - IUIAutomationTextRange.ScrollIntoView
 ---
 
 # IUIAutomationTextRange::ScrollIntoView
@@ -79,4 +79,3 @@ The method respects both hidden and visible text. If the text range is hidden, t
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

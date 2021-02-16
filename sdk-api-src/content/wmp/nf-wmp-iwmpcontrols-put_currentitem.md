@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls::put_currentItem
+ - IWMPControls.put_currentItem
 ---
 
 # IWMPControls::put_currentItem
@@ -99,4 +99,3 @@ This method works only with items in the playlist. Calling <b>put_currentItem</b
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
-

@@ -9,8 +9,6 @@ tech.root: rpc
 f1_keywords:
  - rpcssl
  - rpcssl/rpcssl
-api_name:
- - rpcssl
 ---
 
 # Rpcssl.h header

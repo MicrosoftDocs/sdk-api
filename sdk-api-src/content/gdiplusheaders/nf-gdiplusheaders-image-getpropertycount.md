@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetPropertyCount
+ - Image.GetPropertyCount
 ---
 
 # Image::GetPropertyCount
@@ -102,4 +102,3 @@ This method returns the number of properties stored in this
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
-

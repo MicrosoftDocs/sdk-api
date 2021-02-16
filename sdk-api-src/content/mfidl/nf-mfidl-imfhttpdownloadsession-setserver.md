@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession::SetServer
+ - IMFHttpDownloadSession.SetServer
 ---
 
 # IMFHttpDownloadSession::SetServer
@@ -102,4 +102,3 @@ There is insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityFileIdTable::Invalidate
+ - ISimilarityFileIdTable.Invalidate
 ---
 
 # ISimilarityFileIdTable::Invalidate
@@ -71,4 +71,3 @@ The file ID is marked as not valid by setting the contents of the corresponding 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
-

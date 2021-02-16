@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader::GetReadStreamSamples
+ - IWMSyncReader.GetReadStreamSamples
 ---
 
 # IWMSyncReader::GetReadStreamSamples
@@ -120,4 +120,3 @@ To configure a stream to deliver compressed samples, call <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-

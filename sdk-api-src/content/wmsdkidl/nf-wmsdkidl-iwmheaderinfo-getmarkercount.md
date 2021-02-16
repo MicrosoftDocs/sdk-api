@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::GetMarkerCount
+ - IWMHeaderInfo.GetMarkerCount
+ - IWMHeaderInfo2.GetMarkerCount
+ - IWMHeaderInfo3.GetMarkerCount
 ---
 
 # IWMHeaderInfo::GetMarkerCount
@@ -125,4 +127,3 @@ The method failed for an unspecified reason.
 
 
 <a href="/windows/desktop/wmformat/markers">Markers</a>
-

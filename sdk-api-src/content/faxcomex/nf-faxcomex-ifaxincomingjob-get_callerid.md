@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob::get_CallerId
+ - IFaxIncomingJob.CallerId
+ - IFaxIncomingJob.get_CallerId
 ---
 
 # IFaxIncomingJob::get_CallerId
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
-

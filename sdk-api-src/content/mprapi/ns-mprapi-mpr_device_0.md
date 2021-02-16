@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_DEVICE_0
- - PMPR_DEVICE_0
  - MPR_DEVICE_0
 ---
 
@@ -81,4 +79,3 @@ Specifies a null-terminated string that contains the name of the TAPI device to 
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedevicesetinfo">MprAdminInterfaceDeviceSetInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificate::Initialize
+ - ISignerCertificate.Initialize
 ---
 
 # ISignerCertificate::Initialize
@@ -134,4 +134,3 @@ Set the following properties before calling <b>Initialize</b>:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
-

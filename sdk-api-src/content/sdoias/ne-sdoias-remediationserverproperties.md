@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _REMEDIATIONSERVERPROPERTIES
  - REMEDIATIONSERVERPROPERTIES
 ---
 
@@ -69,4 +68,3 @@ Host-name for a Remediation Server. Used in NPS user interface.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
-

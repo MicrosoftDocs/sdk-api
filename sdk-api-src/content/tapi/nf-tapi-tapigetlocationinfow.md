@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - tapiGetLocationInfoW
  - tapi/tapiGetLocationInfoW
- - tapiGetLocationInfo
- - tapi/tapiGetLocationInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - tapiGetLocationInfoW
  - tapiGetLocationInfo
+ - tapiGetLocationInfoA
+ - tapiGetLocationInfoW
 ---
 
 # tapiGetLocationInfoW function
@@ -82,4 +81,3 @@ Returns zero if the request succeeds or a negative error number if an error occu
 
 > [!NOTE]
 > The tapi.h header defines tapiGetLocationInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

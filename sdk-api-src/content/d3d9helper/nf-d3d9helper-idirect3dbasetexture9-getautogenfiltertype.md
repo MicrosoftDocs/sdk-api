@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DBaseTexture9::GetAutoGenFilterType
+ - IDirect3DBaseTexture9.GetAutoGenFilterType
 ---
 
 # IDirect3DBaseTexture9::GetAutoGenFilterType
@@ -80,4 +80,3 @@ This method has no effect if the texture is not created with <a href="/windows/d
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-setautogenfiltertype">SetAutoGenFilterType</a>
-

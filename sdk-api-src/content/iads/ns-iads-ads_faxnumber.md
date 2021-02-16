@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0013
- - PADS_FAXNUMBER
  - ADS_FAXNUMBER
 ---
 
@@ -75,4 +73,3 @@ Optional parameters for the fax machine.
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

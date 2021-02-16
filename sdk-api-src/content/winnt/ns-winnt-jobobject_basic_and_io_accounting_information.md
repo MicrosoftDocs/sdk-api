@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
- - PJOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
  - JOBOBJECT_BASIC_AND_IO_ACCOUNTING_INFORMATION
 ---
 
@@ -81,4 +79,3 @@ An
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-queryinformationjobobject">QueryInformationJobObject</a>
-

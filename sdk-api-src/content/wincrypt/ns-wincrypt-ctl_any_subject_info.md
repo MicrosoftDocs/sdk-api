@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_ANY_SUBJECT_INFO
- - PCTL_ANY_SUBJECT_INFO
  - CTL_ANY_SUBJECT_INFO
 ---
 
@@ -88,4 +86,3 @@ The <b>CTL_ANY_SUBJECT_INFO</b> structure contains a <b>SubjectAlgorithm</b> to 
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindsubjectinctl">CertFindSubjectInCTL</a>
-

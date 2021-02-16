@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - IStaticPortMapping::get_ExternalIPAddress
+ - IStaticPortMapping.get_ExternalIPAddress
 ---
 
 # IStaticPortMapping::get_ExternalIPAddress
@@ -172,4 +172,3 @@ The method failed for unknown reasons.
 
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-

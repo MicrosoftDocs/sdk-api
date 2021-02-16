@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspaceScriptable::StartWorkspace
+ - IWorkspaceScriptable.StartWorkspace
+ - IWorkspaceScriptable2.StartWorkspace
+ - IWorkspaceScriptable3.StartWorkspace
+ - Workspace.StartWorkspace
 ---
 
 # IWorkspaceScriptable::StartWorkspace
@@ -111,4 +114,3 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
-

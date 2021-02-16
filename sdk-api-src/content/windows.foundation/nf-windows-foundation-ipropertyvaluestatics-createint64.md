@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValueStatics::CreateInt64
+ - IPropertyValueStatics.CreateInt64
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -123,4 +123,3 @@ Use the <b>CreateInt64</b> method to  store a value in an <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
-

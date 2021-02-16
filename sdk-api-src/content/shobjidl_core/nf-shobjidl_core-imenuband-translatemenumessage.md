@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IMenuBand::TranslateMenuMessage
+ - IMenuBand.TranslateMenuMessage
 ---
 
 # IMenuBand::TranslateMenuMessage
@@ -108,4 +108,3 @@ Typically, <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-imenuban
 This method can change the values of <i>pmsg</i>. If so, the changes should be forwarded on.
 
 This method is required because some modal message pumps do not allow a call to a custom translation method.
-

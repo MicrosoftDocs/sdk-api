@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
- - _EC_VARIANT_TYPE
  - EC_VARIANT_TYPE
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Unsecapp.exe
 api_name:
- - IUnsecuredApartment::CreateObjectStub
+ - IUnsecuredApartment.CreateObjectStub
 ---
 
 # IUnsecuredApartment::CreateObjectStub
@@ -115,4 +115,3 @@ For a complete example that shows how to use the <a href="/windows/desktop/api/w
 
 
 <a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
-

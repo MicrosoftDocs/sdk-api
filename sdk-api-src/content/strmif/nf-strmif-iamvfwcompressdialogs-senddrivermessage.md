@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs::SendDriverMessage
+ - IAMVfwCompressDialogs.SendDriverMessage
 ---
 
 # IAMVfwCompressDialogs::SendDriverMessage
@@ -84,4 +84,3 @@ This method calls the Video for Windows video compression manager (VCM) <a href=
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>
-

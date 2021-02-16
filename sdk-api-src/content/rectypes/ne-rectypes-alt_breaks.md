@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - enumALT_BREAKS
  - ALT_BREAKS
 ---
 
@@ -76,4 +75,3 @@ Check the <a href="/windows/desktop/api/rectypes/ns-rectypes-reco_attrs">dwRecoC
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/ms698163(v=vs.85)">GetAlternateList Function</a>
-

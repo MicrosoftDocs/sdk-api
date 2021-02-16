@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - MfCard_Des_s
- - PMFCARD_DES
  - MFCARD_DES
 ---
 
@@ -108,4 +106,3 @@ Offset from the beginning of the card's attribute memory space to the base confi
 ## -see-also
 
 [IO_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::DefineFuncAsDllEntry
+ - ICreateTypeInfo.DefineFuncAsDllEntry
 ---
 
 # ICreateTypeInfo::DefineFuncAsDllEntry
@@ -154,4 +154,3 @@ If the high word of <i>szProcName</i> is zero, then the low word must contain th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMT_TIMECODE_EXTENSION_DATA
  - WMT_TIMECODE_EXTENSION_DATA
 ---
 
@@ -87,4 +86,3 @@ Ranges are guaranteed to be monotonically increasing (in other words, 0, 1, 2, 3
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

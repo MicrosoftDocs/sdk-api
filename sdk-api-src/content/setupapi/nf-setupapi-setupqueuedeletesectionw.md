@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueueDeleteSectionW
  - setupapi/SetupQueueDeleteSectionW
- - SetupQueueDeleteSection
- - setupapi/SetupQueueDeleteSection
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueueDeleteSectionW
  - SetupQueueDeleteSection
+ - SetupQueueDeleteSectionA
+ - SetupQueueDeleteSectionW
 ---
 
 # SetupQueueDeleteSectionW function
@@ -114,4 +113,3 @@ This function requires a Windows INF file. Some older INF file  formats may not 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuerenamesectiona">SetupQueueRenameSection</a>
-

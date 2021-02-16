@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoDictionaryOld::GetAttributeInfo
+ - ISdoDictionaryOld.GetAttributeInfo
 ---
 
 # ISdoDictionaryOld::GetAttributeInfo
@@ -94,4 +94,3 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 
 
 <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-

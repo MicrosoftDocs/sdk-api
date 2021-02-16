@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BuildTrusteeWithObjectsAndNameA
  - aclapi/BuildTrusteeWithObjectsAndNameA
- - BuildTrusteeWithObjectsAndName
- - aclapi/BuildTrusteeWithObjectsAndName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Advapi32.dll
 api_name:
- - BuildTrusteeWithObjectsAndNameA
  - BuildTrusteeWithObjectsAndName
+ - BuildTrusteeWithObjectsAndNameA
+ - BuildTrusteeWithObjectsAndNameW
 ---
 
 # BuildTrusteeWithObjectsAndNameA function
@@ -136,4 +135,3 @@ For more information about object-specific ACEs, see <a href="/windows/desktop/S
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

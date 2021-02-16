@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUIObjInfoA::SetViewInfo
+ - IOleUIObjInfo.SetViewInfo
+ - IOleUIObjInfoW.SetViewInfo
+ - IOleUIObjInfoA.SetViewInfo
 ---
 
 # IOleUIObjInfoA::SetViewInfo
@@ -141,4 +143,3 @@ You should apply the new attributes (icon, aspect, and scale) to the object. If 
 
 
 <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
-

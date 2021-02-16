@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::get_DiscountRateStartMinute
+ - IFaxServer.DiscountRateStartMinute
+ - IFaxServer.get_DiscountRateStartMinute
+ - IFaxServer.put_DiscountRateStartMinute
+ - IFaxServer.get_DiscountRateStartMinute
+ - IFaxServer.put_DiscountRateStartMinute
 ---
 
 # IFaxServer::get_DiscountRateStartMinute
@@ -97,4 +101,3 @@ If the time the discount rate period ends is less than the time the discount rat
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-discountratestarthour-vb">IFaxServer::get_DiscountRateStartHour</a>
-

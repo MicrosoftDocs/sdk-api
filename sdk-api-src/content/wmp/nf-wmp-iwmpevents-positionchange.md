@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::PositionChange
+ - IWMPEvents.PositionChange
 ---
 
 # IWMPEvents::PositionChange
@@ -71,4 +71,3 @@ This event is not raised routinely during playback. It only occurs when somethin
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

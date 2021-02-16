@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmFileSystemPropertyId
  - FsrmFileSystemPropertyId
 ---
 
@@ -88,4 +87,3 @@ The file system property id is the current time.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_propertyid">IFsrmFileConditionProperty.PropertyId</a>
-

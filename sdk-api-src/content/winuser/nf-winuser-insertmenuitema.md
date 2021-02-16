@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - InsertMenuItemA
  - winuser/InsertMenuItemA
- - InsertMenuItem
- - winuser/InsertMenuItem
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +45,10 @@ api_location:
  - ext-ms-win-ntuser-menu-l1-1-2.dll
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - InsertMenuItemA
  - InsertMenuItem
+ - InsertMenuItemA
+ - InsertMenuItemW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # InsertMenuItemA function
@@ -131,4 +130,3 @@ For an example, see <a href="/windows/desktop/menurc/using-menus">Example of Men
 
 
 <b>Reference</b>
-

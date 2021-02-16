@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem::Delete
+ - IPhotoAcquireItem.Delete
 ---
 
 # IPhotoAcquireItem::Delete
@@ -88,4 +88,3 @@ To determine whether an item may be deleted, call <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-candelete">IPhotoAcquireItem::CanDelete</a>
-

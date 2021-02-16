@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lstrcpyA
  - winbase/lstrcpyA
- - lstrcpy
- - winbase/lstrcpy
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-Core-String-Obsolete-l1-1-1.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - lstrcpyA
  - lstrcpy
+ - lstrcpyA
+ - lstrcpyW
 ---
 
 # lstrcpyA function
@@ -179,4 +178,3 @@ Consider using <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopya">
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
-

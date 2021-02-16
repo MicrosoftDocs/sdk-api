@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferMediaSeeking2::SetRateEx
+ - IStreamBufferMediaSeeking2.SetRateEx
 ---
 
 # IStreamBufferMediaSeeking2::SetRateEx
@@ -97,4 +97,3 @@ The frame rate is applied to the video stream. If there is no video stream, the 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffermediaseeking2">IStreamBufferMediaSeeking2 Interface</a>
-

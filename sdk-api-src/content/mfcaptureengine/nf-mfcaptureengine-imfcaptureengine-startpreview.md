@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngine::StartPreview
+ - IMFCaptureEngine.StartPreview
 ---
 
 # IMFCaptureEngine::StartPreview
@@ -98,4 +98,3 @@ After the preview sink is configured, you can stop and start preview by calling 
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengine">IMFCaptureEngine</a>
-

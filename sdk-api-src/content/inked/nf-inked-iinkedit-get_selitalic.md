@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_SelItalic
+ - IInkEdit.SelItalic
+ - IInkEdit.get_SelItalic
+ - IInkEdit.put_SelItalic
+ - InkEdit.get_SelItalic
+ - InkEdit.put_SelItalic
 ---
 
 # IInkEdit::get_SelItalic
@@ -70,4 +74,3 @@ If there is no text selected in the <a href="/windows/desktop/tablet/inkedit-con
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2::GetGroupBy
+ - IFolderView2.GetGroupBy
 ---
 
 # IFolderView2::GetGroupBy
@@ -100,4 +100,3 @@ The view is not grouped.
 </td>
 </tr>
 </table>
-

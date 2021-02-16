@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntddpsch.h
 api_name:
- - _PS_DRRSEQ_STATS
- - PPS_DRRSEQ_STATS
  - PS_DRRSEQ_STATS
 ---
 
@@ -90,4 +88,3 @@ Number of nonconforming packets that have been transmitted for the flow or inter
 
 
 <a href="/windows/desktop/api/ntddpsch/ns-ntddpsch-ps_component_stats">PS_COMPONENT_STATS</a>
-

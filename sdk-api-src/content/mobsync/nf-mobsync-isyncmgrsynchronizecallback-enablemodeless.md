@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback::EnableModeless
+ - ISyncMgrSynchronizeCallback.EnableModeless
 ---
 
 # ISyncMgrSynchronizeCallback::EnableModeless
@@ -111,4 +111,3 @@ To request permission to display a dialog box, the registered application first 
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationshipSet::GetEnumerator
+ - IOpcRelationshipSet.GetEnumerator
 ---
 
 # IOpcRelationshipSet::GetEnumerator
@@ -144,4 +144,3 @@ An <b>HRESULT</b> error code from the <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
-

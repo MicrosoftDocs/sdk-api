@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::RequestSupportedAttrs
+ - ITextStoreAnchor.RequestSupportedAttrs
 ---
 
 # ITextStoreAnchor::RequestSupportedAttrs
@@ -128,4 +128,3 @@ The method was unable to allocate sufficient memory to complete the operation.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
       </a>
-

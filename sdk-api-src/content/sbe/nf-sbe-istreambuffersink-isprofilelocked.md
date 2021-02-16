@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferSink::IsProfileLocked
+ - IStreamBufferSink.IsProfileLocked
 ---
 
 # IStreamBufferSink::IsProfileLocked
@@ -110,4 +110,3 @@ When the filter's profile is locked, the number of streams and their media types
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
-

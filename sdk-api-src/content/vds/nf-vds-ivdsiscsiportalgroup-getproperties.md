@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiPortalGroup::GetProperties
+ - IVdsIscsiPortalGroup.GetProperties
 ---
 
 # IVdsIscsiPortalGroup::GetProperties
@@ -132,4 +132,3 @@ The portal group object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portalgroup_prop">VDS_ISCSI_PORTALGROUP_PROP</a>
-

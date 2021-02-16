@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition::GetInputTerms
+ - ICondition.GetInputTerms
 ---
 
 # ICondition::GetInputTerms
@@ -103,4 +103,3 @@ Each <a href="/windows/desktop/api/structuredquerycondition/nn-structuredqueryco
 
 
 <b>Reference</b>
-

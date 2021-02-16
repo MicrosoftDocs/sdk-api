@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CUSTOM_CERT_CREDENTIAL
  - WS_CUSTOM_CERT_CREDENTIAL
 ---
 
@@ -76,4 +75,3 @@ The state to be passed when invoking the callback.
 ### -field certIssuerListNotificationCallback
 
 ### -field certIssuerListNotificationCallbackState
-

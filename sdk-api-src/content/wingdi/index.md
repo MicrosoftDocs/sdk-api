@@ -9,8 +9,6 @@ tech.root: dataxchg
 f1_keywords:
  - wingdi
  - wingdi/wingdi
-api_name:
- - wingdi
 ---
 
 # Wingdi.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent::GetDisplayInfo
+ - IComponent.GetDisplayInfo
 ---
 
 # IComponent::GetDisplayInfo
@@ -89,4 +89,3 @@ It is safe to reallocate the memory allocated for members of pResultDataItem onl
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-

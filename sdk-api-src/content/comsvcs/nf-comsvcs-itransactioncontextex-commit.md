@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionContextEx::Commit
+ - ITransactionContextEx.Commit
 ---
 
 # ITransactionContextEx::Commit
@@ -122,4 +122,3 @@ See the example in <a href="/windows/desktop/api/comsvcs/nf-comsvcs-itransaction
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
-

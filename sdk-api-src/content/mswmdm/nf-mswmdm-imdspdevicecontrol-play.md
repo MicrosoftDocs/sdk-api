@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDeviceControl::Play
+ - IMDSPDeviceControl.Play
 ---
 
 # IMDSPDeviceControl::Play
@@ -133,4 +133,3 @@ To determine whether an audio format can be played by the media device before in
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevicecontrol-seek">IMDSPDeviceControl::Seek</a>
-

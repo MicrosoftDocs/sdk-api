@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_KeyInfoW
- - PSecPkgContext_KeyInfoW
+ - SecPkgContext_KeyInfo
+ - SecPkgContext_KeyInfoA
  - SecPkgContext_KeyInfoW
 ---
 
@@ -91,4 +91,3 @@ Specifies the algorithm identifier (<a href="/windows/desktop/SecCrypto/alg-id">
 
 > [!NOTE]
 > The sspi.h header defines SecPkgContext_KeyInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

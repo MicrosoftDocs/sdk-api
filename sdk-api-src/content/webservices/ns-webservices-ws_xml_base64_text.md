@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_BASE64_TEXT
  - WS_XML_BASE64_TEXT
 ---
 
@@ -68,4 +67,3 @@ The bytes of data.
 ### -field length
 
 The length of the bytes of data.
-

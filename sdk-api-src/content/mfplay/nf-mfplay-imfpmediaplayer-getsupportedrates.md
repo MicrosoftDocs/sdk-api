@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer::GetSupportedRates
+ - IMFPMediaPlayer.GetSupportedRates
 ---
 
 # IMFPMediaPlayer::GetSupportedRates
@@ -114,4 +114,3 @@ Playback rates are expressed as a ratio of the current rate to the normal rate. 
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

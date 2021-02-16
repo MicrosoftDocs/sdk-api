@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::GetPolicyServerId
+ - IX509EnrollmentPolicyServer.GetPolicyServerId
 ---
 
 # IX509EnrollmentPolicyServer::GetPolicyServerId
@@ -107,4 +107,3 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

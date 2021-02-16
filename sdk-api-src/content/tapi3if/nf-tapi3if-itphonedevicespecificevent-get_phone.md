@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhoneDeviceSpecificEvent::get_Phone
+ - ITPhoneDeviceSpecificEvent.get_Phone
 ---
 
 # ITPhoneDeviceSpecificEvent::get_Phone
@@ -112,4 +112,3 @@ The <i>ppPhone</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphonedevicespecificevent">ITPhoneDeviceSpecificEvent</a>
-

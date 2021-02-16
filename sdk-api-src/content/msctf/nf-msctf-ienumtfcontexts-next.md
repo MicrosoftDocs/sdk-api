@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfContexts::Next
+ - IEnumTfContexts.Next
 ---
 
 # IEnumTfContexts::Next
@@ -113,4 +113,3 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfContexts interface](nn-msctf-ienumtfcontexts.md), [ITfContext interface](nn-msctf-itfcontext.md)
-

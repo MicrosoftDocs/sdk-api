@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ntddkbd.h
 api_name:
- - _KEYBOARD_ATTRIBUTES
- - PKEYBOARD_ATTRIBUTES
  - KEYBOARD_ATTRIBUTES
 ---
 
@@ -130,4 +128,3 @@ More details can also be found in the *kbd.h*, *ntdd8042.h* and *ntddkbd.h* head
 [IOCTL_KEYBOARD_SET_TYPEMATIC IOCTL](ni-ntddkbd-ioctl_keyboard_set_typematic.md)
 
 [KEYBOARD_TYPEMATIC_PARAMETERS structure](ns-ntddkbd-keyboard_typematic_parameters.md)
-

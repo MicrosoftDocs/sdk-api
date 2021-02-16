@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::GetItemSpacing
+ - IShellFolderView.GetItemSpacing
 ---
 
 # IShellFolderView::GetItemSpacing
@@ -75,4 +75,3 @@ This method sends an <a href="/windows/desktop/Controls/lvm-getitemspacing">LVM_
 This method retrieves mode spacing for only the large and small view modes.
 
 In Windows Vista and later, this method stores the small view mode spacing in both pairs of values returned in the <a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-itemspacing">ITEMSPACING</a> structure.
-

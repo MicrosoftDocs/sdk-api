@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpcsdk.h
 api_name:
- - _DHCPCAPI_PARAMS_ARARAY
- - PDHCPCAPI_PARAMS_ARRAY
  - DHCPCAPI_PARAMS_ARRAY
 ---
 
@@ -75,4 +73,3 @@ Array of <a href="/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCP
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpcsdk/ns-dhcpcsdk-dhcpapi_params">DHCPAPI_PARAMS</a>
-

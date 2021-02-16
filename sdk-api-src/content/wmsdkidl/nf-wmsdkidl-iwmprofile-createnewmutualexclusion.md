@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile::CreateNewMutualExclusion
+ - IWMProfile.CreateNewMutualExclusion
+ - IWMProfile2.CreateNewMutualExclusion
+ - IWMProfile3.CreateNewMutualExclusion
 ---
 
 # IWMProfile::CreateNewMutualExclusion
@@ -116,4 +118,3 @@ After the application has created the mutual exclusion object, it must be config
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-addmutualexclusion">IWMProfile::AddMutualExclusion</a>
-

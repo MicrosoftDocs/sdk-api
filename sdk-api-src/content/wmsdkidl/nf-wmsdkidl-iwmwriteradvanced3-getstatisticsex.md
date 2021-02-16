@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced3::GetStatisticsEx
+ - IWMWriterAdvanced3.GetStatisticsEx
 ---
 
 # IWMWriterAdvanced3::GetStatisticsEx
@@ -105,4 +105,3 @@ The writer is in the configuration state, during which this method cannot be cal
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced3">IWMWriterAdvanced3 Interface</a>
-

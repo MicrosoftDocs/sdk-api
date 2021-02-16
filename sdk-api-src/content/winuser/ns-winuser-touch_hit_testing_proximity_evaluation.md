@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - tagTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
- - PTOUCH_HIT_TESTING_PROXIMITY_EVALUATION
  - TOUCH_HIT_TESTING_PROXIMITY_EVALUATION
 ---
 
@@ -75,4 +73,3 @@ The <a href="/windows/desktop/api/winuser/nf-winuser-evaluateproximitytorect">Ev
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_touchhittest/structures">Structures</a>
-

@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetEmbeddedObject
+ - CInstance.SetEmbeddedObject
+ - ?SetEmbeddedObject@CInstance@@QAE_NPBGAAV1@@Z
 ---
 
 # CInstance::SetEmbeddedObject
@@ -72,4 +73,3 @@ Value assigned to the embedded <a href="/windows/desktop/api/instance/nl-instanc
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent or non- <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> property. More information is available in the log file, Framework.log.
-

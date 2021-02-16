@@ -35,7 +35,6 @@ api_location:
 api_name:
  - ID3D12Device7::CreateProtectedResourceSession1
 f1_keywords:
- - ID3D12Device7::CreateProtectedResourceSession1
  - d3d12/ID3D12Device7::CreateProtectedResourceSession1
 dev_langs:
  - c++
@@ -72,4 +71,3 @@ A pointer to a memory block that receives a pointer to the session for the given
 ## -remarks
 
 ## -see-also
-

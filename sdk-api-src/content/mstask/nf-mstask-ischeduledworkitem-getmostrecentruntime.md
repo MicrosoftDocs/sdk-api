@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetMostRecentRunTime
+ - IScheduledWorkItem.GetMostRecentRunTime
 ---
 
 # IScheduledWorkItem::GetMostRecentRunTime
@@ -123,4 +123,3 @@ The work item has never run.
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
-

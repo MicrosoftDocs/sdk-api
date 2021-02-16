@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.dll
 api_name:
- - IMFTimedTextTrack::GetExtendedErrorCode
+ - IMFTimedTextTrack.GetExtendedErrorCode
 ---
 
 # IMFTimedTextTrack::GetExtendedErrorCode
@@ -67,4 +67,3 @@ If the most recent error was associated with a track, this value will be the sam
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
-

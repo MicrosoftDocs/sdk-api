@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winsxs.h
 api_name:
- - _FUSION_INSTALL_REFERENCE_
- - LPFUSION_INSTALL_REFERENCE
  - FUSION_INSTALL_REFERENCE
 ---
 
@@ -141,4 +139,3 @@ A pointer to a string value that identifies the application that references asse
 ### -field szNonCannonicalData
 
 A string that is used only by the application that reference the assembly.
-

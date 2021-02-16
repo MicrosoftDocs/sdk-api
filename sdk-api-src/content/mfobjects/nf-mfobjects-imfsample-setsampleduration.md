@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSample::SetSampleDuration
+ - IMFSample.SetSampleDuration
 ---
 
 # IMFSample::SetSampleDuration
@@ -89,4 +89,3 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/time-stamps-and-durations">Time Stamps and Durations</a>
-

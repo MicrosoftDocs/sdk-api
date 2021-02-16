@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_READER_STREAM_INPUT
  - WS_XML_READER_STREAM_INPUT
 ---
 
@@ -68,4 +67,3 @@ A callback that is invoked when <a href="/windows/desktop/api/webservices/nf-web
 ### -field readCallbackState
 
 A user-defined value that will be passed back to readCallback.
-

@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 7afdea97-39b7-4dd1-8084-90ec40814735
 ms.date: 12/05/2018
 ms.keywords: DDPCAPS_1BIT, DDPCAPS_2BIT, DDPCAPS_4BIT, DDPCAPS_8BIT, DDPCAPS_8BITENTRIES, DDPCAPS_ALLOW256, DDPCAPS_ALPHA, DDPCAPS_PRIMARYSURFACE, DDPCAPS_PRIMARYSURFACELEFT, DDPCAPS_VSYNC, GetCaps, GetCaps method [DirectDraw], GetCaps method [DirectDraw],IDirectDrawPalette interface, IDirectDrawPalette interface [DirectDraw],GetCaps method, IDirectDrawPalette.GetCaps, IDirectDrawPalette::GetCaps, ddraw/IDirectDrawPalette::GetCaps, directdraw.idirectdrawpalette_getcaps
+f1_keywords:
+- ddraw/IDirectDrawPalette.GetCaps
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDrawPalette.GetCaps
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDrawPalette::GetCaps
- - ddraw/IDirectDrawPalette::GetCaps
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDrawPalette::GetCaps
 ---
 
 ## -description
@@ -113,4 +112,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a>
-

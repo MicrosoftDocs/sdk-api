@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSMan::CreateConnectionOptions
+ - IWSMan.CreateConnectionOptions
 ---
 
 # IWSMan::CreateConnectionOptions
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/wsman-createconnectionoptions">WSMan.CreateConnectionOptions</a>
-

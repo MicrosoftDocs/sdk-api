@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue::GetJobs
+ - IFaxOutgoingQueue.GetJobs
+ - IFaxOutgoingQueue.GetJobs
 ---
 
 # IFaxOutgoingQueue::GetJobs
@@ -83,4 +84,3 @@ With the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fa
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Managing Outgoing Jobs</a>
-

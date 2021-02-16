@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagRID_DEVICE_INFO_MOUSE
- - PRID_DEVICE_INFO_MOUSE
  - RID_DEVICE_INFO_MOUSE
 ---
 
@@ -105,4 +103,3 @@ For the mouse, the Usage Page is 1 and the Usage is 2.
 <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 <b>Reference</b>
-

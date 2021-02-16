@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcServerInterfaceGroupCreateA
  - rpcdce/RpcServerInterfaceGroupCreateA
- - RpcServerInterfaceGroupCreate
- - rpcdce/RpcServerInterfaceGroupCreate
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcServerInterfaceGroupCreateA
  - RpcServerInterfaceGroupCreate
+ - RpcServerInterfaceGroupCreateA
+ - RpcServerInterfaceGroupCreateW
 ---
 
 # RpcServerInterfaceGroupCreateA function
@@ -146,4 +145,3 @@ RPC server activity is not always visible to the server application.  In some ca
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings">RpcServerInterfaceGroupInqBindings</a>
-

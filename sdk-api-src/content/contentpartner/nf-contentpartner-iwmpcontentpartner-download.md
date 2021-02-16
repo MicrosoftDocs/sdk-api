@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::Download
+ - IWMPContentPartner.Download
 ---
 
 # IWMPContentPartner::Download
@@ -101,4 +101,3 @@ This method initiates the process of inspecting the container list passed in <i>
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-downloadtrackcomplete">IWMPContentPartner::DownloadTrackComplete</a>
-

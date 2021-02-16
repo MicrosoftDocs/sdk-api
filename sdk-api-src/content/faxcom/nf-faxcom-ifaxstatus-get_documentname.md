@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_DocumentName
+ - IFaxStatus.DocumentName
+ - IFaxStatus.get_DocumentName
 ---
 
 # IFaxStatus::get_DocumentName
@@ -89,4 +90,3 @@ The <b>IFaxStatus::get_DocumentName</b> method allocates the memory required for
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

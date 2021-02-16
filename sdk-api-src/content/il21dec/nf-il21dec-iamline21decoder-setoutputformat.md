@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder::SetOutputFormat
+ - IAMLine21Decoder.SetOutputFormat
 ---
 
 # IAMLine21Decoder::SetOutputFormat
@@ -78,4 +78,3 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-getoutputformat">IAMLine21Decoder::GetOutputFormat</a>
-

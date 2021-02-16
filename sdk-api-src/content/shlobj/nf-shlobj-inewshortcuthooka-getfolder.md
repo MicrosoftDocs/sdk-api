@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
+ - INewShortcutHook.GetFolder
  - INewShortcutHookA::GetFolder
+ - INewShortcutHookW::GetFolder
 ---
 
 # INewShortcutHookA::GetFolder

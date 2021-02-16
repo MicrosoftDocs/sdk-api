@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxgi1_2.h
 api_name:
- - _DXGI_OFFER_RESOURCE_PRIORITY
  - DXGI_OFFER_RESOURCE_PRIORITY
 ---
 
@@ -84,4 +83,3 @@ Priority determines how likely the operating system is to discard an offered res
 
 
 <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">IDXGIDevice2::ReclaimResource</a>
-

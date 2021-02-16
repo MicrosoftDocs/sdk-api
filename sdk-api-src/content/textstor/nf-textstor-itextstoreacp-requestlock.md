@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP::RequestLock
+ - ITextStoreACP.RequestLock
 ---
 
 # ITextStoreACP::RequestLock
@@ -170,4 +170,3 @@ For more information about document locks, see <a href="/windows/desktop/TSF/doc
 
 <a href="/windows/desktop/TSF/text-store-return-values">Text Store Return Values
       </a>
-

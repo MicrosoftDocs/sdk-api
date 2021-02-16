@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 4195C266-4F1D-4DD6-935E-78D07ACAA765
 ms.date: 12/05/2018
 ms.keywords: EnumSurfacesCallback, EnumSurfacesCallback callback function [DirectDraw], LPDDENUMSURFACESCALLBACK, LPDDENUMSURFACESCALLBACK callback, ddraw/EnumSurfacesCallback, directdraw.enumsurfacescallback
+f1_keywords:
+- ddraw/EnumSurfacesCallback
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- Ddraw.h
+api_name:
+- EnumSurfacesCallback
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - LPDDENUMSURFACESCALLBACK
- - ddraw/LPDDENUMSURFACESCALLBACK
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - UserDefined
-api_location:
- - Ddraw.h
-api_name:
- - LPDDENUMSURFACESCALLBACK
 ---
 
 ## -description
@@ -72,4 +71,3 @@ It returns DDENUMRET_CANCEL to stop the enumeration.
 ## -remarks
 
 You can use the LPDDENUMSURFACESCALLBACK data type to declare a variable that can contain a pointer to this callback function.
-

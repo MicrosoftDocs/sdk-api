@@ -43,6 +43,8 @@ api_location:
  - wmprealestate.h
 api_name:
  - IWMPAudioRenderConfig
+ - IWMPAudioRenderConfig.get_audioOutputDevice
+ - IWMPAudioRenderConfig.put_audioOutputDevice
 ---
 
 # IWMPAudioRenderConfig interface
@@ -62,4 +64,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPAudioRenderConfig</b> int
 ## -see-also
 
 <a href="/windows/desktop/WMP/interfaces">Interfaces</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfobjects.h
 api_name:
- - IMFAsyncCallbackLogging::GetObjectPointer
+ - IMFAsyncCallbackLogging.GetObjectPointer
 ---
 
 # IMFAsyncCallbackLogging::GetObjectPointer
@@ -61,4 +61,3 @@ void pointer to the object.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfasynccallbacklogging">IMFAsyncCallbackLogging</a>
-

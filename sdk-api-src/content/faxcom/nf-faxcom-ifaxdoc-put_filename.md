@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::put_FileName
+ - IFaxDoc.FileName
+ - IFaxDoc.get_FileName
+ - IFaxDoc.put_FileName
 ---
 
 # IFaxDoc::put_FileName
@@ -77,4 +79,3 @@ The <b>get_FileName</b> method allocates the memory required for the buffer poin
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

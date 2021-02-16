@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Size::Equals
+ - Size.Equals
 ---
 
 # Size::Equals
@@ -114,4 +114,3 @@ if(rectSize.Equals(desiredSize))
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
-

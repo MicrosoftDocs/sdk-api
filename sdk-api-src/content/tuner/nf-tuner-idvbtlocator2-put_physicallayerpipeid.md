@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBTLocator2::put_PhysicalLayerPipeId
+ - IDVBTLocator2.PhysicalLayerPipeId
+ - IDVBTLocator2.get_PhysicalLayerPipeId
+ - IDVBTLocator2.put_PhysicalLayerPipeId
 ---
 
 # IDVBTLocator2::put_PhysicalLayerPipeId
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator2">IDVBTLocator2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetNumStoredMessages
+ - IDXGIInfoQueue.GetNumStoredMessages
 ---
 
 # IDXGIInfoQueue::GetNumStoredMessages
@@ -70,4 +70,3 @@ Returns the number of messages currently stored in the message queue.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

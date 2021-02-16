@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream::GetMediaStream
+ - IMultiMediaStream.GetMediaStream
 ---
 
 # IMultiMediaStream::GetMediaStream
@@ -115,4 +115,3 @@ If the method succeeds, the caller must release the <b>IMediaStream</b> interfac
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
-

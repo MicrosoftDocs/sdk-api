@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::GetBSTR
+ - WBEMTime.GetBSTR
+ - ?GetBSTR@WBEMTime@@QBEPAGXZ
+ - ?GetBSTR@WBEMTime@@QEBAPEAGXZ
 ---
 
 # WBEMTime::GetBSTR
@@ -77,4 +79,3 @@ If the value returned is not <b>NULL</b>, the calling function must call <a href
 
 
 <a href="/windows/desktop/api/wbemtime/nf-wbemtime-wbemtime-getdmtf">WBEMTime::GetDMTF</a>
-

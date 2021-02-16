@@ -9,8 +9,6 @@ tech.root: gdi
 f1_keywords:
  - prnasnot
  - prnasnot/prnasnot
-api_name:
- - prnasnot
 ---
 
 # Prnasnot.h header

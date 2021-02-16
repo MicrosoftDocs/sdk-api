@@ -9,8 +9,6 @@ tech.root: automat
 f1_keywords:
  - oleauto
  - oleauto/oleauto
-api_name:
- - oleauto
 ---
 
 # Oleauto.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext::CreateInstance
+ - ObjectContext.CreateInstance
 ---
 
 # ObjectContext::CreateInstance
@@ -106,4 +106,3 @@ If the component's transaction attribute setting either requires a transaction o
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-

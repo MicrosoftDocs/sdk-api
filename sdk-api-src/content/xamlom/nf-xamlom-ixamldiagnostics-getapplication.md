@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IXamlDiagnostics::GetApplication
+ - IXamlDiagnostics.GetApplication
 ---
 
 # IXamlDiagnostics::GetApplication
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ixamldiagnostics">IXamlDiagnostics</a>
-

@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_MyStoreFlags
+ - ICEnroll4.MyStoreFlags
+ - ICEnroll4.get_MyStoreFlags
+ - ICEnroll4.put_MyStoreFlags
+ - ICEnroll3.MyStoreFlags
+ - ICEnroll3.get_MyStoreFlags
+ - ICEnroll3.put_MyStoreFlags
+ - ICEnroll2.MyStoreFlags
+ - ICEnroll2.get_MyStoreFlags
+ - ICEnroll2.put_MyStoreFlags
+ - ICEnroll.MyStoreFlags
+ - ICEnroll.get_MyStoreFlags
+ - ICEnroll.put_MyStoreFlags
+ - CEnroll.MyStoreFlags
 ---
 
 # ICEnroll::put_MyStoreFlags
@@ -102,4 +114,3 @@ if ( FAILED ( hr ) )
 else
     printf("Updated MyStoreFlags\n");
 ```
-

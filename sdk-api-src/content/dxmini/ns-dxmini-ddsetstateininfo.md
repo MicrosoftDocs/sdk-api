@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDSETSTATEININFO
- - PDDSETSTATEININFO
  - DDSETSTATEININFO
 ---
 
@@ -79,4 +77,3 @@ Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddvideoportdata">DDVI
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_setstate">DxSetState</a>
-

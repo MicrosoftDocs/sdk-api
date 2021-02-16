@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::GetNextColumnName
+ - IDirectorySearch.GetNextColumnName
 ---
 
 # IDirectorySearch::GetNextColumnName
@@ -100,4 +100,3 @@ while( m_pSearch->GetNextColumnName( hSearch, &pszColumn ) != S_ADS_NOMORE_COLUM
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
-

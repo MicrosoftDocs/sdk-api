@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SYSTEM_ALARM_CALLBACK_OBJECT_ACE
- - PSYSTEM_ALARM_CALLBACK_OBJECT_ACE
  - SYSTEM_ALARM_CALLBACK_OBJECT_ACE
 ---
 
@@ -187,4 +185,3 @@ If neither the <b>ObjectType</b> nor <b>InheritedObjectType</b> GUID is specifie
 
 An ACL that contains an <b>SYSTEM_ALARM_CALLBACK_OBJECT_ACE</b> must specify the ACL_REVISION_DS revision number in its 
 <a href="/windows/desktop/api/winnt/ns-winnt-ace_header">ACE_HEADER</a> structure.
-

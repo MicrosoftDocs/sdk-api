@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth::GetRunningStats
+ - IDirectMusicSynth.GetRunningStats
 ---
 
 # IDirectMusicSynth::GetRunningStats
@@ -124,4 +124,3 @@ An application typically accesses <code>GetRunningStats</code> indirectly by cal
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-setchannelpriority">IDirectMusicSynth::SetChannelPriority</a>
-

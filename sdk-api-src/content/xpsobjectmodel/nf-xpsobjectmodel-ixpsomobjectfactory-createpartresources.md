@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory::CreatePartResources
+ - IXpsOMObjectFactory.CreatePartResources
 ---
 
 # IXpsOMObjectFactory::CreatePartResources
@@ -149,4 +149,3 @@ else
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

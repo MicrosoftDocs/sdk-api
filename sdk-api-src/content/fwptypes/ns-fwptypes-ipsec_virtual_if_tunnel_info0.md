@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwptypes.h
 api_name:
- - IPSEC_VIRTUAL_IF_TUNNEL_INFO0_
  - IPSEC_VIRTUAL_IF_TUNNEL_INFO0
 ---
 
@@ -74,4 +73,3 @@ ID of the virtual interface tunneling traffic selector(s).
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

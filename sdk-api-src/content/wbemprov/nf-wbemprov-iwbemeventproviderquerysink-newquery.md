@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventProviderQuerySink::NewQuery
+ - IWbemEventProviderQuerySink.NewQuery
 ---
 
 # IWbemEventProviderQuerySink::NewQuery
@@ -102,4 +102,3 @@ The
 
 
 <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-cancelquery">IWbemEventProviderQuerySink::CancelQuery</a>
-

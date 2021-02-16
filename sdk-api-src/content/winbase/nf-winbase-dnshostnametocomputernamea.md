@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DnsHostnameToComputerNameA
  - winbase/DnsHostnameToComputerNameA
- - DnsHostnameToComputerName
- - winbase/DnsHostnameToComputerName
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - DnsHostnameToComputerNameA
  - DnsHostnameToComputerName
+ - DnsHostnameToComputerNameA
+ - DnsHostnameToComputerNameW
 ---
 
 # DnsHostnameToComputerNameA function
@@ -133,4 +132,3 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System
     Information Functions</a>
-

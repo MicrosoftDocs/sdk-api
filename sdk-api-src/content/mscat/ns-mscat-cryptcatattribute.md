@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mscat.h
 api_name:
- - CRYPTCATATTRIBUTE_
  - CRYPTCATATTRIBUTE
 ---
 
@@ -174,4 +173,3 @@ Reserved; do not use.
 
 
 <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatenumeratecatattr">CryptCATEnumerateCatAttr</a>
-

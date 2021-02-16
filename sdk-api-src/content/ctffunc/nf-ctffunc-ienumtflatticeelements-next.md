@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sptip.dll
 api_name:
- - IEnumTfLatticeElements::Next
+ - IEnumTfLatticeElements.Next
 ---
 
 # IEnumTfLatticeElements::Next
@@ -120,4 +120,3 @@ The method reached the end of the enumeration before the specified number of ele
 
 <a href="/windows/desktop/api/ctffunc/ns-ctffunc-tf_lmlattelement">TF_LMLATTELEMENT
       </a>
-

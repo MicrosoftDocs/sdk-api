@@ -42,7 +42,8 @@ api_type:
 api_location:
  - TSWorkspace.dll
 api_name:
- - IWorkspaceResTypeRegistry::DeleteResourceType
+ - IWorkspaceResTypeRegistry.DeleteResourceType
+ - Workspace.DeleteResourceType
 ---
 
 # IWorkspaceResTypeRegistry::DeleteResourceType
@@ -87,4 +88,3 @@ This method is called when the plug-in is uninstalled to unregister non-RDP reso
 ## -see-also
 
 <a href="/windows/desktop/api/workspaceax/nn-workspaceax-iworkspacerestyperegistry">IWorkspaceResTypeRegistry</a>
-

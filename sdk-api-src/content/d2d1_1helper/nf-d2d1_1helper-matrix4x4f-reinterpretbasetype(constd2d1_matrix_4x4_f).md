@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_1helper.h
 api_name:
- - Matrix4x4F::ReinterpretBaseType
+ - Matrix4x4F.ReinterpretBaseType
 ---
 
 # Matrix4x4F::ReinterpretBaseType
@@ -69,4 +69,3 @@ The converted matrix.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1helper/nl-d2d1_1helper-matrix4x4f">Matrix4x4F</a>
-

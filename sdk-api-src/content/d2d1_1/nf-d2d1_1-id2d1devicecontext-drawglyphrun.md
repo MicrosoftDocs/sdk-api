@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::DrawGlyphRun
+ - ID2D1DeviceContext.DrawGlyphRun
 ---
 
 # ID2D1DeviceContext::DrawGlyphRun
@@ -99,4 +99,3 @@ The <i>glyphRunDescription</i> is ignored when rendering, but can be useful for 
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun">ID2D1RenderTarget::DrawGlyphRun</a>
-

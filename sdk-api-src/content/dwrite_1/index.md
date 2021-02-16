@@ -9,8 +9,6 @@ tech.root: directwrite
 f1_keywords:
  - dwrite_1
  - dwrite_1/dwrite_1
-api_name:
- - dwrite_1
 ---
 
 # Dwrite_1.h header

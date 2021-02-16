@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACTIVATION_CONTEXT_DETAILED_INFORMATION
- - PACTIVATION_CONTEXT_DETAILED_INFORMATION
  - ACTIVATION_CONTEXT_DETAILED_INFORMATION
 ---
 
@@ -193,4 +191,3 @@ DoneQuerying:
 
 
 ```
-

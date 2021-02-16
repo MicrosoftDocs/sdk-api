@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _SPropProblemArray
- - LPSPropProblemArray
  - SPropProblemArray
 ---
 
@@ -72,4 +70,3 @@ Variable of type <b>ULONG</b> that specifies the count of <a href="/windows/desk
 Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a>[MAPI_DIM]</b>
 
 Array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropproblem">SPropProblem</a> that specify information about a property error.
-

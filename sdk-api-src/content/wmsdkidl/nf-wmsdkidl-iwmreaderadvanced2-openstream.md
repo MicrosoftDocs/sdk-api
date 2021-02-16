@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2::OpenStream
+ - IWMReaderAdvanced2.OpenStream
 ---
 
 # IWMReaderAdvanced2::OpenStream
@@ -133,4 +133,3 @@ This method sends a WMT_OPENED status notification to the application's <b>IWMRe
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
-

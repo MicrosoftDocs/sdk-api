@@ -46,8 +46,6 @@ api_type:
 api_location:
  - fileapi.h
 api_name:
- - _WIN32_FIND_STREAM_DATA
- - PWIN32_FIND_STREAM_DATA
  - WIN32_FIND_STREAM_DATA
 ---
 
@@ -83,4 +81,3 @@ The name of the stream. The string name format is
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-large_integer-r1">LARGE_INTEGER</a>
-

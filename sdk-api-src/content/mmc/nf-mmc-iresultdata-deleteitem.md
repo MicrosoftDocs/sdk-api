@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::DeleteItem
+ - IResultData.DeleteItem
+ - IResultData2.DeleteItem
 ---
 
 # IResultData::DeleteItem
@@ -77,4 +78,3 @@ DeleteItem removes an item identified by itemID and nCol. If nCol does not equal
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
- - _WLX_DESKTOP
- - PWLX_DESKTOP
  - WLX_DESKTOP
 ---
 
@@ -112,4 +110,3 @@ Name of the desktop.
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_get_source_desktop">WlxGetSourceDesktop</a>
-

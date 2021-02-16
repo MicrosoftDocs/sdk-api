@@ -9,8 +9,6 @@ tech.root: lwef
 f1_keywords:
  - windowsdefender
  - windowsdefender/windowsdefender
-api_name:
- - windowsdefender
 ---
 
 # Windowsdefender.h header

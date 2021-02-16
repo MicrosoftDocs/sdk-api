@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunningObjectTable::GetObject
+ - IRunningObjectTable.GetObject
 ---
 
 # IRunningObjectTable::GetObject
@@ -111,4 +111,3 @@ However, note that not all implementations of <a href="/windows/desktop/api/obji
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-

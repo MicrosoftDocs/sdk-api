@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_FAILURE_POINT_
  - IPSEC_FAILURE_POINT
 ---
 
@@ -76,4 +75,3 @@ Maximum value for testing only.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-

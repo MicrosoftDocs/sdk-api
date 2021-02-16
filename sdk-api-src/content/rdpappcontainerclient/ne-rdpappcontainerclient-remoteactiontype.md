@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - __MIDL_IRemoteDesktopClientActions_0001
  - RemoteActionType
 ---
 
@@ -80,4 +79,3 @@ Causes the application switch window to be displayed in the remote session. This
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-executeremoteaction">ExecuteRemoteAction</a>
-

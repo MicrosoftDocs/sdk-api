@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcStringBindingParseA
  - rpcdce/RpcStringBindingParseA
- - RpcStringBindingParse
- - rpcdce/RpcStringBindingParse
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcStringBindingParseA
  - RpcStringBindingParse
+ - RpcStringBindingParseA
+ - RpcStringBindingParseW
 ---
 
 # RpcStringBindingParseA function
@@ -182,4 +181,3 @@ If any field of the <i>StringBinding</i> parameter is empty,
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

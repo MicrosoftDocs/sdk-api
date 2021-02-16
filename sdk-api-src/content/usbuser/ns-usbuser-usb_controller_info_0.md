@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USB_CONTROLLER_INFO_0
- - PUSB_CONTROLLER_INFO_0
  - USB_CONTROLLER_INFO_0
 ---
 
@@ -139,4 +137,3 @@ The <b>USB_CONTROLLER_INFO_0</b> structure is used with the USBUSER_GET_CONTROLL
 
 
 <a href="/windows-hardware/drivers/ddi/content/usb/ne-usb-_usb_controller_flavor">USB_CONTROLLER_FLAVOR</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_match_type_tag
  - DRT_MATCH_TYPE
 ---
 
@@ -76,4 +75,3 @@ The node returned is  an intermediate node. An application will  receive this no
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
-

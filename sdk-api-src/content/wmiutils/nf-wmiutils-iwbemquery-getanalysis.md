@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemQuery::GetAnalysis
+ - IWbemQuery.GetAnalysis
 ---
 
 # IWbemQuery::GetAnalysis
@@ -110,4 +110,3 @@ This method returns an <b>HRESULT</b> that indicates the status of a method call
 
 
 <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
-

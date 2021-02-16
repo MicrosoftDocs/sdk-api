@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccountSet::RemoveAccount
+ - IFaxAccountSet.RemoveAccount
+ - IFaxAccountSet.RemoveAccount
 ---
 
 # IFaxAccountSet::RemoveAccount
@@ -77,4 +78,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountset">IFaxAccountSet</a>
-

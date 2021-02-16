@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - WINTRUST_FILE_INFO_
- - PWINTRUST_FILE_INFO
  - WINTRUST_FILE_INFO
 ---
 
@@ -76,4 +74,3 @@ Optional. File handle to the open file to be verified. This handle must be to a 
 ### -field pgKnownSubject
 
 Optional. Pointer to a <a href="/windows/win32/api/guiddef/ns-guiddef-guid">GUID</a> structure that specifies the subject type. This member can be set to <b>NULL</b>.
-

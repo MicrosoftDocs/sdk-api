@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactPropertyCollection::GetPropertyArrayElementID
+ - IContactPropertyCollection.GetPropertyArrayElementID
 ---
 
 # IContactPropertyCollection::GetPropertyArrayElementID
@@ -124,4 +124,3 @@ Array node does not have a unique array element ID.
 <div class="alert"><b>Note</b>  Valid only when <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-getpropertytype">IContactPropertyCollection::GetPropertyType</a> 
 		returns CGD_ARRAY_NODE for the current property.</div>
 <div> </div>
-

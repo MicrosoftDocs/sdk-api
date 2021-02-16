@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFByteStreamTimeSeek::GetTimeSeekResult
+ - IMFByteStreamTimeSeek.GetTimeSeekResult
 ---
 
 # IMFByteStreamTimeSeek::GetTimeSeekResult
@@ -110,4 +110,3 @@ This method returns the server response from a previous time-based seek.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreamtimeseek">IMFByteStreamTimeSeek</a>
-

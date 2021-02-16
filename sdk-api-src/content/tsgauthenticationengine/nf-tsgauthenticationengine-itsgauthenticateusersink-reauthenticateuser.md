@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink::ReauthenticateUser
+ - ITSGAuthenticateUserSink.ReauthenticateUser
 ---
 
 # ITSGAuthenticateUserSink::ReauthenticateUser
@@ -78,4 +78,3 @@ For a sample that uses the <b>ReauthenticateUser</b> method, see the [Remote Des
 ## -see-also
 
 <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _CatalogPausedReason
  - CatalogPausedReason
 ---
 
@@ -100,4 +99,3 @@ Paused by external request.
 ### -field CATALOG_PAUSED_REASON_UPGRADING
 
 Paused by upgrading.
-

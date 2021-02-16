@@ -9,8 +9,6 @@ tech.root: direct3d11
 f1_keywords:
  - d3d11sdklayers
  - d3d11sdklayers/d3d11sdklayers
-api_name:
- - d3d11sdklayers
 ---
 
 # D3D11Sdklayers.h header

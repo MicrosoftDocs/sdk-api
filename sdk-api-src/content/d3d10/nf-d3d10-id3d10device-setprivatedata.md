@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::SetPrivateData
+ - ID3D10Device.SetPrivateData
 ---
 
 # ID3D10Device::SetPrivateData
@@ -88,4 +88,3 @@ The data and guid set with this method will typically be application-defined.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

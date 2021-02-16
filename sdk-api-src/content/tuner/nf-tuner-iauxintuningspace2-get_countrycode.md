@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAuxInTuningSpace2::get_CountryCode
+ - IAuxInTuningSpace2.get_CountryCode
 ---
 
 # IAuxInTuningSpace2::get_CountryCode
@@ -70,4 +70,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iauxintuningspace2">IAuxInTuningSpace2 Interface</a>
-

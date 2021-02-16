@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
- - __MIDL___MIDL_itf_msctf_0000_0070_0001
  - TF_DA_LINESTYLE
 ---
 
@@ -81,4 +80,3 @@ The text is underlined with a solid wavy line.
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceTopology::GetDeviceId
+ - IDeviceTopology.GetDeviceId
 ---
 
 # IDeviceTopology::GetDeviceId
@@ -104,4 +104,3 @@ For a code example that uses the <b>GetDeviceId</b> method, see <a href="/window
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdevice">IMMDeviceEnumerator::GetDevice</a>
-

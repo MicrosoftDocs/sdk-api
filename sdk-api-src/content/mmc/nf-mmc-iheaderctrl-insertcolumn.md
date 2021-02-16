@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl::InsertColumn
+ - IHeaderCtrl.InsertColumn
 ---
 
 # IHeaderCtrl::InsertColumn
@@ -126,4 +126,3 @@ Calls to
 
 
 <a href="/previous-versions/windows/desktop/mmc/iheaderctrl2-and-column-persistence">IHeaderCtrl2 and Column Persistence</a>
-

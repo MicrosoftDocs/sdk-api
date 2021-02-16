@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _TRACE_QUERY_INFO_CLASS
- - TRACE_QUERY_INFO_CLASS
+ - TRACE_INFO_CLASS, TRACE_QUERY_INFO_CLASS
 ---
 
 # TRACE_QUERY_INFO_CLASS enumeration
@@ -181,4 +180,3 @@ The <b>TRACE_INFO_CLASS</b> and <b>TRACE_QUERY_INFO_CLASS</b> enumerations both 
 
 
 <a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
-

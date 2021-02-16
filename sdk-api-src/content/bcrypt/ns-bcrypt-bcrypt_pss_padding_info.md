@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_PSS_PADDING_INFO
  - BCRYPT_PSS_PADDING_INFO
 ---
 
@@ -72,4 +71,3 @@ The size, in bytes, of the random salt to use for the padding.
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a>
-

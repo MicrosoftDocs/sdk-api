@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnumEnhancedStorageACT::GetACTs
+ - IEnumEnhancedStorageACT.GetACTs
 ---
 
 # IEnumEnhancedStorageACT::GetACTs
@@ -113,4 +113,3 @@ The memory containing the array of <a href="/previous-versions/windows/desktop/a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
-

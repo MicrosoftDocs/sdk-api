@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxAccountFolders::get_IncomingArchive
+ - IFaxAccountFolders.IncomingArchive
+ - IFaxAccountFolders.get_IncomingArchive
+ - IFaxAccountFolders.get_IncomingArchive
 ---
 
 # IFaxAccountFolders::get_IncomingArchive
@@ -63,4 +65,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxaccountfolders">IFaxAccountFolders</a>
-

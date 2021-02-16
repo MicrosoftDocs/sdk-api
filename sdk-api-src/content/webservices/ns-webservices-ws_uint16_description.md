@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_UINT16_DESCRIPTION
  - WS_UINT16_DESCRIPTION
 ---
 
@@ -65,4 +64,3 @@ The minimum value.
 ### -field maxValue
 
 The maximum value.
-

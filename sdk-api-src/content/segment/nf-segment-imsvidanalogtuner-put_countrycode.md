@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner::put_CountryCode
+ - IMSVidAnalogTuner.put_CountryCode
 ---
 
 # IMSVidAnalogTuner::put_CountryCode
@@ -81,4 +81,3 @@ Do not confuse the international country/region code with the LCID. The country/
 
 
 <a href="/windows/desktop/DirectShow/international-analog-tv-tuning">International Analog TV Tuning</a>
-

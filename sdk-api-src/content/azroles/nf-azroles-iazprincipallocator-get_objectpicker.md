@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzPrincipalLocator::get_ObjectPicker
+ - IAzPrincipalLocator.ObjectPicker
+ - IAzPrincipalLocator.get_ObjectPicker
 ---
 
 # IAzPrincipalLocator::get_ObjectPicker
@@ -55,4 +56,3 @@ The <b>ObjectPicker</b> method gets a pointer to the <a href="/windows/desktop/a
 This property is read-only.
 
 ## -parameters
-

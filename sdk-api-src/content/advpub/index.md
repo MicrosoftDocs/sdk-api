@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - advpub
  - advpub/advpub
-api_name:
- - advpub
 ---
 
 # Advpub.h header

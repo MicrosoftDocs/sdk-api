@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDirectoryExW
  - winbase/CreateDirectoryExW
- - CreateDirectoryEx
- - winbase/CreateDirectoryEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CreateDirectoryExW
  - CreateDirectoryEx
+ - CreateDirectoryExA
+ - CreateDirectoryExW
 ---
 
 # CreateDirectoryExW function
@@ -261,4 +260,3 @@ Yes
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-

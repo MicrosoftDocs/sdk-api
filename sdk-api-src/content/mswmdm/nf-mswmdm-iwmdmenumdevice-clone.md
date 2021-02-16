@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumDevice::Clone
+ - IWMDMEnumDevice.Clone
 ---
 
 # IWMDMEnumDevice::Clone
@@ -77,4 +77,3 @@ Using this method, a client can record a particular point in the enumeration seq
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice">IWMDMEnumDevice Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IProvideTaskPage::GetPage
+ - IProvideTaskPage.GetPage
 ---
 
 # IProvideTaskPage::GetPage
@@ -117,4 +117,3 @@ For a complete example of retrieving and displaying the general task page of a k
 
 
 <a href="/windows/desktop/api/mstask/ne-mstask-taskpage">TASKPAGE</a>
-

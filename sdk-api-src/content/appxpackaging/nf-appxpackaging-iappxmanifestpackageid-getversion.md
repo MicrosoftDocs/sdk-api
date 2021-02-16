@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId::GetVersion
+ - IAppxManifestPackageId.GetVersion
 ---
 
 # IAppxManifestPackageId::GetVersion
@@ -90,4 +90,3 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-ident
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
-

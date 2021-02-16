@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_BINARY
- - PCLUSPROP_BINARY
 ---
 
 # CLUSPROP_BINARY structure
@@ -93,4 +92,3 @@ Use the <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusp
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-

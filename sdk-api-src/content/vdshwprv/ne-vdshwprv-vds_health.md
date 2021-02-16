@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_HEALTH
  - VDS_HEALTH
 ---
 
@@ -356,4 +355,3 @@ The property structure for each object listed in the table includes the value of
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop2">VDS_VOLUME_PROP2</a>
-

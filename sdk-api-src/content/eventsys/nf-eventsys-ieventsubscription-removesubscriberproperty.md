@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription::RemoveSubscriberProperty
+ - IEventSubscription.RemoveSubscriberProperty
 ---
 
 # IEventSubscription::RemoveSubscriberProperty
@@ -69,4 +69,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberclsid">SubscriberCLSID</a>
-

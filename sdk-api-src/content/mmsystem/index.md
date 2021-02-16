@@ -9,8 +9,6 @@ tech.root: gdi
 f1_keywords:
  - mmsystem
  - mmsystem/mmsystem
-api_name:
- - mmsystem
 ---
 
 # Mmsystem.h header

@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::ExecQueryAsync
+ - IWbemServices.ExecQueryAsync
 ---
 
 # IWbemServices::ExecQueryAsync
@@ -276,4 +276,3 @@ pSink->SetStatus(WBEM_STATUS_REQUIREMENTS,
 
 
 <a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
-

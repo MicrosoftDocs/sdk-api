@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Magnification.h
 api_name:
- - tagMAGTRANSFORM
- - PMAGTRANSFORM
  - MAGTRANSFORM
 ---
 
@@ -89,4 +87,3 @@ where <i>n</i> is the magnification factor.
 
 
 <b>Reference</b>
-

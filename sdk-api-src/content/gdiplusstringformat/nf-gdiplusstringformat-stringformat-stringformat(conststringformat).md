@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusstringformat.h
 api_name:
- - StringFormat::StringFormat
+ - StringFormat.StringFormat
 ---
 
 # StringFormat::StringFormat(IN const StringFormat)
@@ -78,4 +78,3 @@ Creates a <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringform
 </table>
 
 ## -parameters
-

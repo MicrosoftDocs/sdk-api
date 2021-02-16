@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager::GetJob
+ - IBackgroundCopyManager.GetJob
 ---
 
 # IBackgroundCopyManager::GetJob
@@ -123,4 +123,3 @@ User does not have permission to retrieve the job.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs">IBackgroundCopyManager::EnumJobs</a>
-

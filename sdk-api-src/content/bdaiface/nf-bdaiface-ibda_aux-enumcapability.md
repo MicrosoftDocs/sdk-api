@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_AUX::EnumCapability
+ - IBDA_AUX.EnumCapability
 ---
 
 # IBDA_AUX::EnumCapability
@@ -116,4 +116,3 @@ You must call the <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_aux-qu
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_aux">IBDA_AUX</a>
-

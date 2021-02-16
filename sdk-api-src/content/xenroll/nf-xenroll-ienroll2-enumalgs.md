@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2::EnumAlgs
+ - IEnroll2.EnumAlgs
 ---
 
 # IEnroll2::EnumAlgs
@@ -91,4 +91,3 @@ For algorithm ID and class constants used by this method, see Wincrypt.h.
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
-

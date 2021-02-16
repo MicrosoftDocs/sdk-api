@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUSHORTN4::XMUSHORTN4
+ - XMUSHORTN4.XMUSHORTN4
 ---
 
 # XMUSHORTN4::XMUSHORTN4(const XMUSHORTN4 &)
@@ -69,4 +69,3 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushortn4">XMUSHORTN4</a>
 
 <a href="/windows/desktop/dxmath/xmushortn4-ctor">XMUSHORTN4 Constructors</a>
-

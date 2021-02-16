@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
+ - IUIAnimationTransitionLibrary2.CreateInstantaneousVectorTransition
 ---
 
 # IUIAnimationTransitionLibrary2::CreateInstantaneousVectorTransition
@@ -86,4 +86,3 @@ The following figure shows the change in value over time of an animation variabl
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ksopmapi.h
 api_name:
- - _OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
  - OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 ---
 
@@ -72,4 +71,3 @@ The layout of this structure is identical to the <a href="/windows/desktop/api/s
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-

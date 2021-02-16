@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVertexDeclaration9::GetDeclaration
+ - IDirect3DVertexDeclaration9.GetDeclaration
 ---
 
 # IDirect3DVertexDeclaration9::GetDeclaration
@@ -95,4 +95,3 @@ Specify <b>NULL</b> for pDeclto get the number of elements in the declaration.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvertexdeclaration9">IDirect3DVertexDeclaration9</a>
-

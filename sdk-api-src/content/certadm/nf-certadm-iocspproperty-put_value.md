@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPProperty::put_Value
+ - IOCSPProperty.Value
+ - IOCSPProperty.get_Value
+ - IOCSPProperty.put_Value
 ---
 
 # IOCSPProperty::put_Value
@@ -63,4 +65,3 @@ For possible values of <i>newVal</i> and <i>pVal</i>, see <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspproperty">IOCSPProperty</a>
-

@@ -9,8 +9,6 @@ tech.root: netmgmt
 f1_keywords:
  - lmat
  - lmat/lmat
-api_name:
- - lmat
 ---
 
 # Lmat.h header

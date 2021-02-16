@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory1::CreateDrawingStateBlock
+ - ID2D1Factory1.CreateDrawingStateBlock
 ---
 
 # ID2D1Factory1::CreateDrawingStateBlock(ID2D1DrawingStateBlock1)
@@ -91,4 +91,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1factory1">ID2D1Factory1</a>
-

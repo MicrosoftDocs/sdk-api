@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcFileReader::Read
+ - IRdcFileReader.Read
 ---
 
 # IRdcFileReader::Read
@@ -95,4 +95,3 @@ If the <b>BOOL</b> pointed to by the <i>eof</i> parameter is not <b>TRUE</b>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdcfilereader">IRdcFileReader</a>
-

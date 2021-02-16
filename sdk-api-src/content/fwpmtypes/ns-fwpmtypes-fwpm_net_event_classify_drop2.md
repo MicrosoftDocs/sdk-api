@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_CLASSIFY_DROP2_
  - FWPM_NET_EVENT_CLASSIFY_DROP2
 ---
 
@@ -109,4 +108,3 @@ Transient destination port of a packet within the vSwitch.
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMExtendedSeeking::GetMarkerTime
+ - IAMExtendedSeeking.GetMarkerTime
 ---
 
 # IAMExtendedSeeking::GetMarkerTime
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamextendedseeking-getmarkername">IAMExtendedSeeking::GetMarkerName</a>
-

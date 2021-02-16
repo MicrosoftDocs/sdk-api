@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SSL_TRANSPORT_SECURITY_BINDING
  - WS_SSL_TRANSPORT_SECURITY_BINDING
 ---
 
@@ -95,4 +94,3 @@ server SSL certificate must be specified using this field.
 Client side: If a client certificate is to be used with SSL, it must
 be specified using this field.  If no client certificate is to be
 used, this field must be set to <b>NULL</b>.
-

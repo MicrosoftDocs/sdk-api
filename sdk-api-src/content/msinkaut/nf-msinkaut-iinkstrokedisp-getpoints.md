@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::GetPoints
+ - IInkStrokeDisp.GetPoints
 ---
 
 # IInkStrokeDisp::GetPoints
@@ -153,4 +153,3 @@ Unexpected parameter or property type.
 
 
 <a href="/windows/win32/api/msinkaut/ne-msinkaut-inkselectionconstants">ItemSelectionConstants Enumeration</a>
-

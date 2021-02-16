@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - tagDVTARGETDEVICE
  - DVTARGETDEVICE
 ---
 
@@ -100,4 +99,3 @@ Some OLE 1 client applications incorrectly construct target devices by allocatin
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleconvertolestreamtoistorage">OleConvertOLESTREAMToIStorage</a>
-

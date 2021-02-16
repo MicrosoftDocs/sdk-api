@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup::get_ErrorString
+ - ICertificateEnrollmentPolicyServerSetup.ErrorString
+ - ICertificateEnrollmentPolicyServerSetup.get_ErrorString
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::get_ErrorString
@@ -63,4 +64,3 @@ Calling any method on the <a href="/windows/desktop/api/casetup/nn-casetup-icert
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentpolicyserversetup">ICertificateEnrollmentPolicyServerSetup</a>
-

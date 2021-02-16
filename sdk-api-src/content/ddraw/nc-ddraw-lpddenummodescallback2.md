@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2
 ms.date: 12/05/2018
 ms.keywords: EnumModesCallback2, EnumModesCallback2 callback function [DirectDraw], LPDDENUMMODESCALLBACK2, LPDDENUMMODESCALLBACK2 callback, ddraw/EnumModesCallback2, directdraw.enummodescallback2
+f1_keywords:
+- ddraw/EnumModesCallback2
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- UserDefined
+api_location:
+- Ddraw.h
+api_name:
+- EnumModesCallback2
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - LPDDENUMMODESCALLBACK2
- - ddraw/LPDDENUMMODESCALLBACK2
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - UserDefined
-api_location:
- - Ddraw.h
-api_name:
- - LPDDENUMMODESCALLBACK2
 ---
 
 ## -description
@@ -68,4 +67,3 @@ It returns DDENUMRET_CANCEL to stop the enumeration.
 ## -remarks
 
 You can use the LPDDENUMMODESCALLBACK2 data type to declare a variable that can contain a pointer to this callback function.
-

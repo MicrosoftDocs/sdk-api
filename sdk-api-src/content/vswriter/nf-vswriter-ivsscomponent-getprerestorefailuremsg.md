@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::GetPreRestoreFailureMsg
+ - IVssComponent.GetPreRestoreFailureMsg
 ---
 
 # IVssComponent::GetPreRestoreFailureMsg
@@ -157,4 +157,3 @@ If
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setprerestorefailuremsg">IVssComponent::SetPreRestoreFailureMsg</a>
-

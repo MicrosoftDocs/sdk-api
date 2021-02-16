@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmMonitorClerks::get_Count
+ - ICrmMonitorClerks.get_Count
 ---
 
 # ICrmMonitorClerks::get_Count
@@ -94,4 +94,3 @@ A <b>NULL</b> pointer was provided as an argument.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorclerks">ICrmMonitorClerks</a>
-

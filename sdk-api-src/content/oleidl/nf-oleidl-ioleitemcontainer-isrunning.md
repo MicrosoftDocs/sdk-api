@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleItemContainer::IsRunning
+ - IOleItemContainer.IsRunning
 ---
 
 # IOleItemContainer::IsRunning
@@ -114,4 +114,3 @@ If <i>pszItem</i> names a pseudo-object, your implementation can simply return S
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
-

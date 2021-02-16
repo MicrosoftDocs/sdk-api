@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IBasicDevice::remove_ConnectionStatusChanged
+ - IBasicDevice.remove_ConnectionStatusChanged
 ---
 
 # IBasicDevice::streaming
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
-

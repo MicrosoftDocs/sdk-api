@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate2::get_RebootRequired
+ - IUpdate2.RebootRequired
+ - IUpdate2.get_RebootRequired
 ---
 
 # IUpdate2::get_RebootRequired
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
-

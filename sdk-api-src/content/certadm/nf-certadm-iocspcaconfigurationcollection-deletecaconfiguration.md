@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfigurationCollection::DeleteCAConfiguration
+ - IOCSPCAConfigurationCollection.DeleteCAConfiguration
 ---
 
 # IOCSPCAConfigurationCollection::DeleteCAConfiguration
@@ -65,4 +65,3 @@ The <i>bstrIdentifier</i> value must be one previously set by the <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-

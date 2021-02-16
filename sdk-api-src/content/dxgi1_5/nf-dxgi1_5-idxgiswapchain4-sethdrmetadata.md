@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi1_5.dll
 api_name:
- - IDXGISwapChain4::SetHDRMetaData
+ - IDXGISwapChain4.SetHDRMetaData
 ---
 
 # IDXGISwapChain4::SetHDRMetaData
@@ -89,4 +89,3 @@ This method sets metadata to enable a monitor's output to be adjusted depending 
 
 
 <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgiswapchain4">IDXGISwapChain4</a>
-

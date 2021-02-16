@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mpconfig.h
 api_name:
- - _AM_ASPECT_RATIO_MODE
  - AM_ASPECT_RATIO_MODE
 ---
 
@@ -88,4 +87,3 @@ The AM_ARMODE_STRETCHED member causes a video stream to occupy the entire region
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setaspectratiomode">IMixerPinConfig::SetAspectRatioMode</a>
-

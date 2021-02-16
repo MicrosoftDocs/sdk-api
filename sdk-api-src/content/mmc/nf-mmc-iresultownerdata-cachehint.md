@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IResultOwnerData::CacheHint
+ - IResultOwnerData.CacheHint
 ---
 
 # IResultOwnerData::CacheHint
@@ -74,4 +74,3 @@ CacheHint is called, the snap-in must be prepared to load the cache with item in
 <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getdisplayinfo">IComponent::GetDisplayInfo</a> method is called later.
 
 There is no certainty that all the items will be requested or that other items will not be requested.
-

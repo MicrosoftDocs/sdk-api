@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelperEx::ReproduceFailure
+ - INetDiagHelperEx.ReproduceFailure
 ---
 
 # INetDiagHelperEx::ReproduceFailure
@@ -65,4 +65,3 @@ This method is reserved for system use.
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>
-

@@ -39,7 +39,6 @@ api_location:
  - oledlg.h
 api_name:
  - tagOLEUICHANGEICONW
- - POLEUICHANGEICONW
  - OLEUICHANGEICONW
 ---
 

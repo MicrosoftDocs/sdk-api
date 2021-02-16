@@ -9,8 +9,6 @@ tech.root: qos
 f1_keywords:
  - lpmapi
  - lpmapi/lpmapi
-api_name:
- - lpmapi
 ---
 
 # Lpmapi.h header

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ShellMessageBoxA
  - shellapi/ShellMessageBoxA
- - ShellMessageBox
- - shellapi/ShellMessageBox
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
  - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
- - ShellMessageBoxA
  - ShellMessageBox
+ - ShellMessageBoxA
+ - ShellMessageBoxW
 ---
 
 # ShellMessageBoxA function
@@ -120,4 +119,3 @@ If the function fails, the return value is zero. To get extended error informati
 
 > [!NOTE]
 > The shellapi.h header defines ShellMessageBox as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

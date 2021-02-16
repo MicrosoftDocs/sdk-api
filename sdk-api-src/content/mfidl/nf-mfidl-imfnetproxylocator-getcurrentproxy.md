@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetProxyLocator::GetCurrentProxy
+ - IMFNetProxyLocator.GetCurrentProxy
 ---
 
 # IMFNetProxyLocator::GetCurrentProxy
@@ -99,4 +99,3 @@ The buffer specified in <i>pszStr</i> is too small.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a>
-

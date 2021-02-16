@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::ElementAt
+ - CHStringArray.ElementAt
 ---
 
 # CHStringArray::ElementAt
@@ -95,4 +95,3 @@ See the example for <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringa
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>
-

@@ -43,7 +43,9 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnits::get_Count
+ - IInkDivisionUnits.Count
+ - IInkDivisionUnits.get_Count
+ - IInkDivisionUnits.get_Count
 ---
 
 # IInkDivisionUnits::get_Count
@@ -62,4 +64,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunits">IInkDivisionUnits Interface</a>
-

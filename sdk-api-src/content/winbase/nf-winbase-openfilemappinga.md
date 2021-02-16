@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OpenFileMappingA
  - winbase/OpenFileMappingA
- - OpenFileMapping
- - winbase/OpenFileMapping
 dev_langs:
  - c++
 topic_type:
@@ -57,8 +55,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-Memory-L1-1-4.dll
 api_name:
- - OpenFileMappingA
  - OpenFileMapping
+ - OpenFileMappingA
+ - OpenFileMappingW
 ---
 
 # OpenFileMappingA function
@@ -198,4 +197,3 @@ Memory Management Functions
 
 
 <a href="/windows/desktop/Memory/sharing-files-and-memory">Sharing Files and Memory</a>
-

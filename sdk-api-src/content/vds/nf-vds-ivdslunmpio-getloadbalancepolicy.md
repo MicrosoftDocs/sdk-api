@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsLunMpio::GetLoadBalancePolicy
+ - IVdsLunMpio.GetLoadBalancePolicy
 ---
 
 # IVdsLunMpio::GetLoadBalancePolicy
@@ -167,4 +167,3 @@ The number of paths returned by this method will match the number of paths retur
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a>
-

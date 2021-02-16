@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext2::AddRoles
+ - IAzClientContext2.AddRoles
 ---
 
 # IAzClientContext2::AddRoles
@@ -85,4 +85,3 @@ The added roles are used in subsequent calls to the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext2">IAzClientContext2</a>
-

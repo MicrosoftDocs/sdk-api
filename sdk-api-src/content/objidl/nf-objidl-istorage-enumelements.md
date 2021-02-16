@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::EnumElements
+ - IStorage.EnumElements
 ---
 
 # IStorage::EnumElements
@@ -100,4 +100,3 @@ or to have the enumeration reflect the current state of the storage object.
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
-

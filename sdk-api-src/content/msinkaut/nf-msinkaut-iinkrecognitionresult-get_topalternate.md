@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionResult::get_TopAlternate
+ - IInkRecognitionResult.TopAlternate
+ - IInkRecognitionResult.get_TopAlternate
+ - IInkRecognitionResult.get_TopAlternate
 ---
 
 # IInkRecognitionResult::get_TopAlternate
@@ -76,4 +78,3 @@ You can use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecogniti
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-modifytopalternate">ModifyTopAlternate Method</a>
-

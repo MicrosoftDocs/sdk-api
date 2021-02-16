@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcServerInqCallAttributesA
  - rpcasync/RpcServerInqCallAttributesA
- - RpcServerInqCallAttributes
- - rpcasync/RpcServerInqCallAttributes
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcServerInqCallAttributesA
  - RpcServerInqCallAttributes
+ - RpcServerInqCallAttributesA
+ - RpcServerInqCallAttributesW
 ---
 
 # RpcServerInqCallAttributesA function
@@ -123,4 +122,3 @@ Status = RpcServerInqCallAttributes(0, &ClientContextAttributes);
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcasyncgetcallhandle">RpcAsyncGetCallHandle</a>
-

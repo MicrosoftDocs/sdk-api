@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetClassRegistryPropertyW
  - setupapi/SetupDiSetClassRegistryPropertyW
- - SetupDiSetClassRegistryProperty
- - setupapi/SetupDiSetClassRegistryProperty
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetClassRegistryPropertyW
- - SetupDiSetClassRegistryProperty
+ - SetupDiSetClassRegistryProperty - SetupDiSetClassRegistryPropertyW
 ---
 
 # SetupDiSetClassRegistryPropertyW function
@@ -189,4 +186,3 @@ To determine the data type for a device class property, call <a href="/windows/d
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
-

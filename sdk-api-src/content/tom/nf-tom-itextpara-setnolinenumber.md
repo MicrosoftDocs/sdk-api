@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::SetNoLineNumber
+ - ITextPara.SetNoLineNumber
 ---
 
 # ITextPara::SetNoLineNumber
@@ -188,4 +188,3 @@ This property concerns the numbering of paragraphs in a range. If
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

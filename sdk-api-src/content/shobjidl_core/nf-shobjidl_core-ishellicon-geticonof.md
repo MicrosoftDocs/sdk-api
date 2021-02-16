@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIcon::GetIconOf
+ - IShellIcon.GetIconOf
 ---
 
 # IShellIcon::GetIconOf
@@ -135,4 +135,3 @@ If the icon index used is not one of the standard images listed, it is the imple
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellicon">IShellIcon</a>
-

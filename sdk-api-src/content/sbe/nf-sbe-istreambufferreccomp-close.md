@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecComp::Close
+ - IStreamBufferRecComp.Close
 ---
 
 # IStreamBufferRecComp::Close
@@ -83,4 +83,3 @@ This method is called automatically when the <a href="/previous-versions/windows
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-

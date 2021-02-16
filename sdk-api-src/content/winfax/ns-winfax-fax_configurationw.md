@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - _FAX_CONFIGURATIONW
- - PFAX_CONFIGURATIONW
+ - FAX_CONFIGURATION
+ - FAX_CONFIGURATIONA
  - FAX_CONFIGURATIONW
 ---
 
@@ -179,4 +179,3 @@ The fax client application passes the <b>FAX_CONFIGURATION</b> structure in a ca
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetconfigurationa">FaxSetConfiguration</a>
-

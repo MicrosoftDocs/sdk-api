@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup::SetCADistinguishedName
+ - ICertSrvSetup.SetCADistinguishedName
 ---
 
 # ICertSrvSetup::SetCADistinguishedName
@@ -128,4 +128,3 @@ If <i>bstrCADN</i> includes UTF8 encoding, set the appropriate flag in CAPolicy.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimerUpdateHandler::OnUpdate
+ - IUIAnimationTimerUpdateHandler.OnUpdate
 ---
 
 # IUIAnimationTimerUpdateHandler::OnUpdate
@@ -81,4 +81,3 @@ This method is used by the <a href="/previous-versions/windows/desktop/legacy/dd
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimerupdatehandler">IUIAnimationTimerUpdateHandler</a>
-

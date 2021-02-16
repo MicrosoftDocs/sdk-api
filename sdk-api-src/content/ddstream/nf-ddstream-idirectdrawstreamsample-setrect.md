@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawStreamSample::SetRect
+ - IDirectDrawStreamSample.SetRect
 ---
 
 # IDirectDrawStreamSample::SetRect
@@ -146,4 +146,3 @@ If the new rectangle's size isn't the same as the current rectangle, a call to t
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawstreamsample">IDirectDrawStreamSample Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDroppedFrames::GetNumDropped
+ - IAMDroppedFrames.GetNumDropped
 ---
 
 # IAMDroppedFrames::GetNumDropped
@@ -105,4 +105,3 @@ If your application uses the <a href="/windows/desktop/api/strmif/nn-strmif-iams
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdroppedframes">IAMDroppedFrames Interface</a>
-

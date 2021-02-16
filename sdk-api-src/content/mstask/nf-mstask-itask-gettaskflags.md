@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask::GetTaskFlags
+ - ITask.GetTaskFlags
 ---
 
 # ITask::GetTaskFlags
@@ -120,4 +120,3 @@ This method is designed to get the flags that only apply to scheduled tasks. In 
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itask-settaskflags">ITask::SetTaskFlags</a>
-

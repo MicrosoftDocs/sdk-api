@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2::put_ExcludedInterfaces
+ - INetFwPolicy2.ExcludedInterfaces
+ - INetFwPolicy2.get_ExcludedInterfaces
+ - INetFwPolicy2.put_ExcludedInterfaces
 ---
 
 # INetFwPolicy2::put_ExcludedInterfaces
@@ -65,4 +67,3 @@ When you pass a profile type obtained from the <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - NtmsMli.h
 api_name:
- - MAXMEDIALABEL
+ - MaxMediaLabel
 ---
 
 # MAXMEDIALABEL callback function
@@ -92,4 +92,3 @@ When the media format of the media specified in the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Label Library Functions</a>
-

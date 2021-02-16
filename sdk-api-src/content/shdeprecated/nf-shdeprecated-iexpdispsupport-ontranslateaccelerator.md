@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IExpDispSupport::OnTranslateAccelerator
+ - IExpDispSupport.OnTranslateAccelerator
 ---
 
 # IExpDispSupport::OnTranslateAccelerator
@@ -72,4 +72,3 @@ Flags describing the state of the CTRL, ALT, and SHIFT keys. The value of the fl
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the container processed the message, <b>S_FALSE</b> if the container did not process the message, or <b>E_NOTIMPL</b> if the container does not implement accelerator support.
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateService::get_ServiceID
+ - IUpdateService.ServiceID
+ - IUpdateService.get_ServiceID
 ---
 
 # IUpdateService::get_ServiceID
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
-

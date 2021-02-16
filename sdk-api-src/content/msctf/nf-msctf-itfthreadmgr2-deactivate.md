@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.h
 api_name:
- - ITfThreadMgr2::Deactivate
+ - ITfThreadMgr2.Deactivate
 ---
 
 # ITfThreadMgr2::Deactivate
@@ -94,4 +94,3 @@ Each call to this method must be matched with a previous call to <b>Activate</b>
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser::GetAccountStatus
+ - IDiskQuotaUser.GetAccountStatus
 ---
 
 # IDiskQuotaUser::GetAccountStatus
@@ -176,4 +176,3 @@ The <i>pdwStatus</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
-

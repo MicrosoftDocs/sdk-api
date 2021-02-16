@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::GetCookie
+ - IXMLHTTPRequest2.GetCookie
 ---
 
 # IXMLHTTPRequest2::GetCookie
@@ -97,4 +97,3 @@ Returns <b>S_OK</b> on success; <b>E_FAIL</b> indicates an error.
 
 
 <a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_flag">XHR_COOKIE_FLAG</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetFirstLineIndent
+ - ITextPara.GetFirstLineIndent
 ---
 
 # ITextPara::GetFirstLineIndent
@@ -136,4 +136,3 @@ To get and set the indent for all other lines of the paragraph (that is, the lef
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

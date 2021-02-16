@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioMeterInformation::GetMeteringChannelCount
+ - IAudioMeterInformation.GetMeteringChannelCount
 ---
 
 # IAudioMeterInformation::GetMeteringChannelCount
@@ -83,4 +83,3 @@ Parameter <i>pnChannelCount</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudiometerinformation">IAudioMeterInformation Interface</a>
-

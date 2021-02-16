@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSuspend::SuspendRoot
+ - IOfflineFilesSuspend.SuspendRoot
 ---
 
 # IOfflineFilesSuspend::SuspendRoot
@@ -70,4 +70,3 @@ When a share root or directory tree is suspended, all directories and files cont
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessuspend">IOfflineFilesSuspend</a>
-

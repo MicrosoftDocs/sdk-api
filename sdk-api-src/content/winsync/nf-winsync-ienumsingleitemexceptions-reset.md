@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumSingleItemExceptions::Reset
+ - IEnumSingleItemExceptions.Reset
 ---
 
 # IEnumSingleItemExceptions::Reset
@@ -79,4 +79,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumsingleitemexceptions">IEnumSingleItemExceptions Interface</a>
-

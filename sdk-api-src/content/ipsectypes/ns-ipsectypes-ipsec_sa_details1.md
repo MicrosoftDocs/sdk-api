@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_DETAILS1_
  - IPSEC_SA_DETAILS1
 ---
 
@@ -120,4 +119,3 @@ An [IPSEC_VIRTUAL_IF_TUNNEL_INFO0](/windows/desktop/api/fwptypes/ns-fwptypes-ips
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

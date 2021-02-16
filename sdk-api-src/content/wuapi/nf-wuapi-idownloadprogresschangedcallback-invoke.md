@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadProgressChangedCallback::Invoke
+ - IDownloadProgressChangedCallback.Invoke
 ---
 
 # IDownloadProgressChangedCallback::Invoke
@@ -73,4 +73,3 @@ Returns <b>S_OK</b> if successful. Otherwise, returns   a COM or Windows error c
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-idownloadprogresschangedcallback-invoke">IUpdateDownloader::BeginDownload</a>
-

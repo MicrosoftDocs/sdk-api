@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IChannelAudioVolume::GetAllVolumes
+ - IChannelAudioVolume.GetAllVolumes
 ---
 
 # IChannelAudioVolume::GetAllVolumes
@@ -136,4 +136,3 @@ Clients can call the <a href="/windows/desktop/api/audioclient/nf-audioclient-ic
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-ichannelaudiovolume-setchannelvolume">IChannelAudioVolume::SetChannelVolume</a>
-

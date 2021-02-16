@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ImageList_LoadImageA
  - commctrl/ImageList_LoadImageA
- - ImageList_LoadImage
- - commctrl/ImageList_LoadImage
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Comctl32.dll
  - comdlg32.dll
 api_name:
- - ImageList_LoadImageA
  - ImageList_LoadImage
+ - ImageList_LoadImageA
+ - ImageList_LoadImageW
 ---
 
 # ImageList_LoadImageA function
@@ -278,4 +277,3 @@ LR_LOADTRANSPARENT does not load the image transparently. It creates an opaque i
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadimagea">LoadImage</a>
-

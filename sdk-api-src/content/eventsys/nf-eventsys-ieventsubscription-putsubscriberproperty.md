@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription::PutSubscriberProperty
+ - IEventSubscription.PutSubscriberProperty
 ---
 
 # IEventSubscription::PutSubscriberProperty
@@ -77,4 +77,3 @@ A property bag is used to store information about the events the subscriber need
 
 
 <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_subscriberclsid">SubscriberCLSID</a>
-

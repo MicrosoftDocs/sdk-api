@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_8
- - PDFS_INFO_8
  - DFS_INFO_8
 ---
 
@@ -268,4 +266,3 @@ Specifies the number of storage servers  for the volume that contains the DFS ro
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
-

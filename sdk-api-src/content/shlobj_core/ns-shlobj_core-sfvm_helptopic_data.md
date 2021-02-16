@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - _SFVM_HELPTOPIC_DATA
  - SFVM_HELPTOPIC_DATA
 ---
 
@@ -68,4 +67,3 @@ A null-terminated Unicode string containing the fully qualified path to the help
 Type: <b>WCHAR[MAX_PATH]</b>
 
 A null-terminated Unicode string containing the name of the topic.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - tagOLEUPDATE
  - OLEUPDATE
 ---
 
@@ -72,4 +71,3 @@ Update the link object only when <a href="/windows/desktop/api/oleidl/nf-oleidl-
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-setupdateoptions">IOleLink::SetUpdateOptions</a>
-

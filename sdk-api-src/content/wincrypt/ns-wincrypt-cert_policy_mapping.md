@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_POLICY_MAPPING
- - PCERT_POLICY_MAPPING
  - CERT_POLICY_MAPPING
 ---
 

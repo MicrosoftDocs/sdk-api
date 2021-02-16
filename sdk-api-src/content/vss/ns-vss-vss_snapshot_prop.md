@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_SNAPSHOT_PROP
- - PVSS_SNAPSHOT_PROP
  - VSS_SNAPSHOT_PROP
 ---
 
@@ -193,4 +191,3 @@ If the shadow copy is exposed as a share, the value of
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-

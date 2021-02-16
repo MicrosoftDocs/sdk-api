@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegUnLoadKeyA
  - winreg/RegUnLoadKeyA
- - RegUnLoadKey
- - winreg/RegUnLoadKey
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegUnLoadKeyA
  - RegUnLoadKey
+ - RegUnLoadKeyA
+ - RegUnLoadKeyW
 ---
 
 # RegUnLoadKeyA function
@@ -134,4 +133,3 @@ The calling process must have the SE_RESTORE_NAME and SE_BACKUP_NAME privileges 
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
-

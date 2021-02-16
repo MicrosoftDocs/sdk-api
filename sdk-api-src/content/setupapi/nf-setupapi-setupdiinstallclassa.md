@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiInstallClassA
  - setupapi/SetupDiInstallClassA
- - SetupDiInstallClass
- - setupapi/SetupDiInstallClass
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiInstallClassA
  - SetupDiInstallClass
+ - SetupDiInstallClassA
 ---
 
 # SetupDiInstallClassA function
@@ -126,4 +124,3 @@ To install an interface class or a device class, use <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstallclassexa">SetupDiInstallClassEx</a>
-

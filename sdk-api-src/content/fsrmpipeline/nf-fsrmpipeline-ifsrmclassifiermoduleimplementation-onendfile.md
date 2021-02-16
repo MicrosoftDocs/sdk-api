@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation::OnEndFile
+ - IFsrmClassifierModuleImplementation.OnEndFile
 ---
 
 # IFsrmClassifierModuleImplementation::OnEndFile
@@ -61,4 +61,3 @@ The method returns the following return values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
-

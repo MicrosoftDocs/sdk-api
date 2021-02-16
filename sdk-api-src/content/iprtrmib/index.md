@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - iprtrmib
  - iprtrmib/iprtrmib
-api_name:
- - iprtrmib
 ---
 
 # Iprtrmib.h header

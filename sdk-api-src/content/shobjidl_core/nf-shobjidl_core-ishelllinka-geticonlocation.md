@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::GetIconLocation
+ - IShellLink.GetIconLocation
+ - IShellLinkA.GetIconLocation
+ - IShellLinkW.GetIconLocation
 ---
 
 # IShellLinkA::GetIconLocation

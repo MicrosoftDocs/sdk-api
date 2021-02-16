@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::RemoveAll
+ - CHStringArray.RemoveAll
 ---
 
 # CHStringArray::RemoveAll
@@ -88,4 +88,3 @@ assert( array.GetSize() == 0 );
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-freeextra">CHStringArray::FreeExtra</a>
-

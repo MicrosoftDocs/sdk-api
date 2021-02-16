@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMEndpoint::GetDataFlow
+ - IMMEndpoint.GetDataFlow
 ---
 
 # IMMEndpoint::GetDataFlow
@@ -89,4 +89,3 @@ Parameter <i>ppDataFlow</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint">IMMEndpoint Interface</a>
-

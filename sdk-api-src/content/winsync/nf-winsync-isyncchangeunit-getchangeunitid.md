@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeUnit::GetChangeUnitId
+ - ISyncChangeUnit.GetChangeUnitId
 ---
 
 # ISyncChangeUnit::GetChangeUnitId
@@ -109,4 +109,3 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangeunit">ISyncChangeUnit Interface</a>
-

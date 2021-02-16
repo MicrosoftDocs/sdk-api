@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCSC_IISIntrinsicsConfig
  - CSC_IISIntrinsicsConfig
 ---
 
@@ -84,4 +83,3 @@ This enumeration is used to configure the IIS intrinsics settings through <a hre
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceiisintrinsicsconfig-iisintrinsicsconfig">IServiceIISIntrinsicsConfig::IISIntrinsicsConfig</a>
-

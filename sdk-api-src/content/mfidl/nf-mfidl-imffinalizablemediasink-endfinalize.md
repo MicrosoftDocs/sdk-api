@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFFinalizableMediaSink::EndFinalize
+ - IMFFinalizableMediaSink.EndFinalize
 ---
 
 # IMFFinalizableMediaSink::EndFinalize
@@ -88,4 +88,3 @@ Call this method after the <a href="/windows/desktop/api/mfidl/nf-mfidl-imffinal
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imffinalizablemediasink">IMFFinalizableMediaSink</a>
-

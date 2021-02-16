@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeShrink::QueryMaxReclaimableBytes
+ - IVdsVolumeShrink.QueryMaxReclaimableBytes
 ---
 
 # IVdsVolumeShrink::QueryMaxReclaimableBytes
@@ -126,4 +126,3 @@ This method can return more reclaimable bytes than are actually available. For m
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumeshrink">IVdsVolumeShrink</a>
-

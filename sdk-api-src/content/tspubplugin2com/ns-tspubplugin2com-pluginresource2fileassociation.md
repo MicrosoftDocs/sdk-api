@@ -44,7 +44,6 @@ api_type:
 api_location:
  - tspubplugin2com.h
 api_name:
- - __MIDL_ItsPubPlugin2_0001
  - pluginResource2FileAssociation
 ---
 

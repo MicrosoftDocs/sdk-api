@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxGetRoutingInfoA
  - winfax/FaxGetRoutingInfoA
- - FaxGetRoutingInfo
- - winfax/FaxGetRoutingInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxGetRoutingInfoA
  - FaxGetRoutingInfo
+ - FaxGetRoutingInfoA
+ - FaxGetRoutingInfoW
 ---
 
 # FaxGetRoutingInfoA function
@@ -199,4 +198,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetroutinginfoa">FaxSetRoutingInfo</a>
-

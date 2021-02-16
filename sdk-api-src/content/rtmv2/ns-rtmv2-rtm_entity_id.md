@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_ENTITY_ID
- - PRTM_ENTITY_ID
  - RTM_ENTITY_ID
 ---
 
@@ -76,4 +74,3 @@ Specifies a client's identifier, which is a combination of the <b>EntityProtocol
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_entity_info">RTM_ENTITY_INFO</a>
-

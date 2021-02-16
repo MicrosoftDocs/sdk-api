@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITMediaPlayback::get_PlayList
+ - ITMediaPlayback.get_PlayList
 ---
 
 # ITMediaPlayback::get_PlayList
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itmediaplayback-put_playlist">put_PlayList</a>
-

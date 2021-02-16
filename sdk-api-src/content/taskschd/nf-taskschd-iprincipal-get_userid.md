@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal::get_UserId
+ - IPrincipal.UserId
+ - IPrincipal.get_UserId
+ - IPrincipal.put_UserId
 ---
 
 # IPrincipal::get_UserId
@@ -73,4 +75,3 @@ When reading or writing XML for a task, the user identifier for a principal is s
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

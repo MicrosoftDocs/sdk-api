@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeClientId::get_ProcessName
+ - IX509AttributeClientId.ProcessName
+ - IX509AttributeClientId.get_ProcessName
 ---
 
 # IX509AttributeClientId::get_ProcessName
@@ -79,4 +80,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributecl
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_QUERY_BY_SUBJECT_FN
+ - StorageAdapterQueryBySubject
 ---
 
 # PIBIO_STORAGE_QUERY_BY_SUBJECT_FN callback function
@@ -284,4 +284,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_query_by_content_fn">StorageAdapterQueryByContent</a>
-

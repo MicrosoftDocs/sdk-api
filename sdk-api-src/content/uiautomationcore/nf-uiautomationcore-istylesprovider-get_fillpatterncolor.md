@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IStylesProvider::get_FillPatternColor
+ - IStylesProvider.FillPatternColor
+ - IStylesProvider.get_FillPatternColor
 ---
 
 # IStylesProvider::get_FillPatternColor
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-istylesprovider">IStylesProvider</a>
-

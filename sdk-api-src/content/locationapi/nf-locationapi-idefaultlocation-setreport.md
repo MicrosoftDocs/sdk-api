@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - IDefaultLocation::SetReport
+ - IDefaultLocation.SetReport
 ---
 
 # IDefaultLocation::SetReport
@@ -143,4 +143,3 @@ The following example shows how to set the default location using a civic addres
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-idefaultlocation">IDefaultLocation</a>
-

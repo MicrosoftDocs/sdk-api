@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterMapper3::GetICreateDevEnum
+ - IFilterMapper3.GetICreateDevEnum
 ---
 
 # IFilterMapper3::GetICreateDevEnum
@@ -73,4 +73,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper3">IFilterMapper3 Interface</a>
-

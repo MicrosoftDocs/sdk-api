@@ -47,8 +47,6 @@ api_location:
  - ClusApi.h
  - MSClus.h
 api_name:
- - _CLUSTER_ENUM_ITEM
- - PCLUSTER_ENUM_ITEM
  - CLUSTER_ENUM_ITEM
 ---
 
@@ -96,4 +94,3 @@ The name of the cluster.
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-

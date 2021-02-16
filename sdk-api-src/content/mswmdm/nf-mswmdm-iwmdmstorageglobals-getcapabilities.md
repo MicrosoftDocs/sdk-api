@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageGlobals::GetCapabilities
+ - IWMDMStorageGlobals.GetCapabilities
 ---
 
 # IWMDMStorageGlobals::GetCapabilities
@@ -110,4 +110,3 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
-

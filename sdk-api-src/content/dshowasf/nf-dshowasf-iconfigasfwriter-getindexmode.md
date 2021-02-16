@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter::GetIndexMode
+ - IConfigAsfWriter.GetIndexMode
 ---
 
 # IConfigAsfWriter::GetIndexMode
@@ -77,4 +77,3 @@ Use this method to determine whether the WM ASF Writer is currently configured t
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-

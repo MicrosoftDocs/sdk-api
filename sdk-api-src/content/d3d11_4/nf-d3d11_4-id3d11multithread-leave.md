@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_4.dll
 api_name:
- - ID3D11Multithread::Leave
+ - ID3D11Multithread.Leave
 ---
 
 # ID3D11Multithread::Leave
@@ -63,4 +63,3 @@ This function is typically used in multithreaded applications when there is a se
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11multithread">ID3D11Multithread</a>
-

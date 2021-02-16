@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder::GetMetadataQueryReader
+ - IWICBitmapDecoder.GetMetadataQueryReader
 ---
 
 # IWICBitmapDecoder::GetMetadataQueryReader
@@ -89,4 +89,3 @@ If an image format does not support container-level metadata, this will return <
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-

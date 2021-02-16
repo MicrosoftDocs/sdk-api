@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagGCP_RESULTSA
- - LPGCP_RESULTSA
+ - GCP_RESULTS
  - GCP_RESULTSA
+ - GCP_RESULTSW
 ---
 
 # GCP_RESULTSA structure
@@ -318,4 +318,3 @@ In the case of languages such as Thai or Arabic, in which <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a>
-

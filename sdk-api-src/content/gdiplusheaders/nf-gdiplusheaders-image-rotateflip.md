@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::RotateFlip
+ - Image.RotateFlip
 ---
 
 # Image::RotateFlip
@@ -86,4 +86,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-rotating-reflecting-and-skewing-images-use">Rotating, Reflecting, and Skewing Images</a>
-

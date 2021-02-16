@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
- - PSR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
  - SR_RESOURCE_TYPE_ELIGIBLE_DISKS_RESULT
 ---
 
@@ -75,4 +73,3 @@ An array that contains the retrieved disk information.
 
 
 <a href="/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
-

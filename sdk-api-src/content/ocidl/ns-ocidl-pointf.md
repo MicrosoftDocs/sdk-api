@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagPOINTF
- - LPPOINTF
  - POINTF
 ---
 
@@ -71,4 +69,3 @@ The y coordinates of the point in units that the container finds convenient.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrolsite-transformcoords">IOleControlSite::TransformCoords</a>
-

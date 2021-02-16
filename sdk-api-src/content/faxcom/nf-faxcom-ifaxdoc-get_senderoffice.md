@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::get_SenderOffice
+ - IFaxDoc.SenderOffice
+ - IFaxDoc.get_SenderOffice
+ - IFaxDoc.put_SenderOffice
 ---
 
 # IFaxDoc::get_SenderOffice
@@ -77,4 +79,3 @@ The <b>get_SenderOffice</b> method allocates the memory required for the buffer 
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

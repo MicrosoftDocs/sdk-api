@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMAddressAccess::GetAccessEntry
+ - IWMAddressAccess.GetAccessEntry
 ---
 
 # IWMAddressAccess::GetAccessEntry
@@ -116,4 +116,3 @@ Invalid index number.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess Interface</a>
-

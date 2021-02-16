@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IAction::get_Type
+ - IAction.Type
+ - IAction.get_Type
 ---
 
 # IAction::get_Type
@@ -73,4 +74,3 @@ For information on how actions and tasks work together, see <a href="/windows/de
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

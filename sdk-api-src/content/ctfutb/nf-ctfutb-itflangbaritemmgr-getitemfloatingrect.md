@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr::GetItemFloatingRect
+ - ITfLangBarItemMgr.GetItemFloatingRect
 ---
 
 # ITfLangBarItemMgr::GetItemFloatingRect
@@ -122,4 +122,3 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/TSF/predefined-lang-bar-items">Predefined language bar items
       </a>
-

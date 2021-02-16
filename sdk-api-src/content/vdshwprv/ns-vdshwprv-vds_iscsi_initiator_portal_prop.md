@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_INITIATOR_PORTAL_PROP
  - VDS_ISCSI_INITIATOR_PORTAL_PROP
 ---
 
@@ -83,4 +82,3 @@ The port index assigned to the portal by the iSCSI initiator service.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_ipaddress">VDS_IPADDRESS</a>
-

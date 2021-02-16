@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced5::SetPlayerHook
+ - IWMReaderAdvanced5.SetPlayerHook
 ---
 
 # IWMReaderAdvanced5::SetPlayerHook
@@ -94,4 +94,3 @@ DirectX Video Acceleration enables supported graphics cards to decompress video 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced5">IWMReaderAdvanced5 Interface</a>
-

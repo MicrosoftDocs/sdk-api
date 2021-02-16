@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationGridPattern::get_CachedRowCount
+ - IUIAutomationGridPattern.CachedRowCount
+ - IUIAutomationGridPattern.get_CachedRowCount
 ---
 
 # IUIAutomationGridPattern::get_CachedRowCount
@@ -63,4 +64,3 @@ Hidden rows and columns, depending on the provider implementation, may be loaded
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgridpattern">IUIAutomationGridPattern</a>
-

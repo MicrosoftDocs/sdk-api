@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::EnumObjectParam
+ - IBindCtx.EnumObjectParam
 ---
 
 # IBindCtx::EnumObjectParam
@@ -78,4 +78,3 @@ In the system implementation of the <a href="/windows/desktop/api/objidl/nn-obji
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring">IEnumString</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::GetLanguage
+ - IXpsOMPage.GetLanguage
 ---
 
 # IXpsOMPage::GetLanguage
@@ -114,4 +114,3 @@ This method allocates the memory used by the string that is returned in <i>langu
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

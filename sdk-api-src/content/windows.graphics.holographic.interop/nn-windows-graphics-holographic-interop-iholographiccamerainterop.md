@@ -25,6 +25,7 @@ api_type:
 api_location:
  - windows.graphics.holographic.interop.h
 api_name:
+ - interop::IHolographicCameraInterop
  - IHolographicCameraInterop
 f1_keywords:
  - IHolographicCameraInterop
@@ -91,4 +92,3 @@ winrt::check_hresult(
 ```
 
 ## -see-also
-

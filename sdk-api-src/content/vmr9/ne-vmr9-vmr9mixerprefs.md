@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - __MIDL___MIDL_itf_vmr9_0000_0005_0001
  - VMR9MixerPrefs
 ---
 
@@ -148,4 +147,3 @@ Bitmask to isolate the MixerPref9_DynamicSwitchToBOB and MixerPref9_DynamicDecim
 
 
 <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-setmixingprefs">IVMRMixerControl9::SetMixingPrefs</a>
-

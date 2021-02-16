@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityCallContext::IsCallerInRole
+ - ISecurityCallContext.IsCallerInRole
 ---
 
 # ISecurityCallContext::IsCallerInRole
@@ -114,4 +114,3 @@ Because <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not ena
 
 
 <a href="/windows/desktop/cossdk/role-based-security-administration">Role-Based Security</a>
-

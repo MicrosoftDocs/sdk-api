@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaKeySessionNotify::KeyError
+ - IMFMediaKeySessionNotify.KeyError
 ---
 
 # IMFMediaKeySessionNotify::KeyError
@@ -61,4 +61,3 @@ Notifies the application that an error occurred while processing the key.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysessionnotify">IMFMediaKeySessionNotify</a>
-

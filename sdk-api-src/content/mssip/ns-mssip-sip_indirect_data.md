@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
- - SIP_INDIRECT_DATA_
- - PSIP_INDIRECT_DATA
  - SIP_INDIRECT_DATA
 ---
 
@@ -71,4 +69,3 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier"
 ### -field Digest
 
 A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_HASH_BLOB</a> structure that contains the hash of the subject. For information about <b>CRYPT_HASH_BLOB</b>, see <b>CRYPT_INTEGER_BLOB</b>.
-

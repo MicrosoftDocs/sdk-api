@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory::GetText
+ - ITextStory.GetText
 ---
 
 # ITextStory::GetText
@@ -195,4 +195,3 @@ This method is similar to using <a href="/windows/desktop/api/tom/nf-tom-itextra
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextstory-settext">ITextStory::SetText</a>
-

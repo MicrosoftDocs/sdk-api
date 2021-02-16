@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - PDO_UPDATE_ROUTES
+ - DoUpdateRoutes
 ---
 
 # PDO_UPDATE_ROUTES callback function
@@ -118,4 +118,3 @@ If the function returns NO_ERROR, the update operation started successfully on t
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-

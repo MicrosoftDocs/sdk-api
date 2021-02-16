@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorCollection::Remove
+ - IDataCollectorCollection.Remove
 ---
 
 # IDataCollectorCollection::Remove
@@ -79,4 +79,3 @@ Note that by removing the collector from the collection, you are also removing t
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-clear">IDataCollectorCollection::Clear</a>
-

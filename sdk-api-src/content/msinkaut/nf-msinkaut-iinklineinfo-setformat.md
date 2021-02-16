@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkLineInfo::SetFormat
+ - IInkLineInfo.SetFormat
 ---
 
 # IInkLineInfo::SetFormat
@@ -122,4 +122,3 @@ If the IMF_FONT_SELECTED_IN_HDC flag is set in the <i>pim</i> parameter, then th
 
 
 <a href="/windows/desktop/api/msinkaut/ns-msinkaut-inkmetric">INKMETRIC Structure</a>
-

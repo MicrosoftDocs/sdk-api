@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::get__CustomCompositorClass
+ - IMSVidVideoRenderer.get__CustomCompositorClass
 ---
 
 # IMSVidVideoRenderer::get__CustomCompositorClass
@@ -77,4 +77,3 @@ Applications can provide their own compositors to perform custom image compositi
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put__customcompositorclass">IMSVidVideoRenderer::put__CustomCompositorClass</a>
-

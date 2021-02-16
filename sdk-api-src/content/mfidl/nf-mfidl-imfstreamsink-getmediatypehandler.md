@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFStreamSink::GetMediaTypeHandler
+ - IMFStreamSink.GetMediaTypeHandler
 ---
 
 # IMFStreamSink::GetMediaTypeHandler
@@ -114,4 +114,3 @@ If the stream sink currently does not support any media types, this method retur
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

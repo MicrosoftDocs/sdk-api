@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsFileServiceOperations::Resources
+ - IADsFileServiceOperations.Resources
 ---
 
 # IADsFileServiceOperations::Resources
@@ -109,4 +109,3 @@ For a code example using the <b>IADsFileServiceOperations::Resources</b> method,
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsresource">IADsResource</a>
-

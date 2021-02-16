@@ -47,8 +47,8 @@ api_location:
  - WinBase.h
  - processthreadsapi.h
 api_name:
- - _STARTUPINFOW
- - LPSTARTUPINFOW
+ - STARTUPINFO
+ - STARTUPINFOA
  - STARTUPINFOW
 ---
 
@@ -432,4 +432,3 @@ For an example, see
 
 
 [GetStartupInfo](./nf-processthreadsapi-getstartupinfow.md)
-

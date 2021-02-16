@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser::RemoveMenusSB
+ - IShellBrowser.RemoveMenusSB
 ---
 
 # IShellBrowser::RemoveMenusSB
@@ -78,4 +78,3 @@ The method is called by the object application while it is being UI-deactivated 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-

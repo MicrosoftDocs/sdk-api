@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windef.h
 api_name:
- - DPI_HOSTING_BEHAVIOR
+ - _DPI_HOSTING_BEHAVIOR
 ---
 
 # DPI_HOSTING_BEHAVIOR enumeration
@@ -87,4 +87,3 @@ Enabling mixed hosting behavior will not automatically adjust the thread's <b>DP
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setthreaddpihostingbehavior">SetThreadDpiHostingBehavior</a>
-

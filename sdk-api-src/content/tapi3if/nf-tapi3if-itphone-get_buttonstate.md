@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::get_ButtonState
+ - ITPhone.get_ButtonState
 ---
 
 # ITPhone::get_ButtonState
@@ -78,4 +78,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphoneevent-get_buttonstate">ITPhoneEvent::get_ButtonState</a>
-

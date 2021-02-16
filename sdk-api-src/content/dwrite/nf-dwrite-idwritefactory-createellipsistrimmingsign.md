@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFactory::CreateEllipsisTrimmingSign
+ - IDWriteFactory.CreateEllipsisTrimmingSign
 ---
 
 # IDWriteFactory::CreateEllipsisTrimmingSign

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetWBEMINT64
+ - CInstance.SetWBEMINT64
 ---
 
 ## -description
@@ -81,4 +81,3 @@ The provider framework currently uses a CHString type to set the 64-bit integer 
 
 
 <a href="/windows/desktop/WmiSdk/cinstance-getwbemint64">CInstance::GetWBEMINT64</a>
-

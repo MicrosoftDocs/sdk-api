@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_RootStoreType
+ - ICEnroll4.RootStoreType
+ - ICEnroll4.get_RootStoreType
+ - ICEnroll4.put_RootStoreType
+ - ICEnroll3.RootStoreType
+ - ICEnroll3.get_RootStoreType
+ - ICEnroll3.put_RootStoreType
+ - ICEnroll2.RootStoreType
+ - ICEnroll2.get_RootStoreType
+ - ICEnroll2.put_RootStoreType
+ - ICEnroll.RootStoreType
+ - ICEnroll.get_RootStoreType
+ - ICEnroll.put_RootStoreType
+ - CEnroll.RootStoreType
 ---
 
 # ICEnroll::put_RootStoreType
@@ -105,4 +117,3 @@ if ( FAILED ( hr ) )
 else
     printf( "RootStoreType was set to %ws\n", bstrNewType );
 ```
-

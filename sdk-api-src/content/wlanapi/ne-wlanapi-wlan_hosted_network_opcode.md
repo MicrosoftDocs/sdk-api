@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_OPCODE
- - PWLAN_HOSTED_NETWORK_OPCODE
  - WLAN_HOSTED_NETWORK_OPCODE
 ---
 
@@ -91,4 +89,3 @@ The <b>WLAN_HOSTED_NETWORK_OPCODE</b> specifies the possible values of the opera
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworksetproperty">WlanHostedNetworkSetProperty</a>
-

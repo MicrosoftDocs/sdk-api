@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _PROCESS_MITIGATION_POLICY
- - PPROCESS_MITIGATION_POLICY
  - PROCESS_MITIGATION_POLICY
 ---
 

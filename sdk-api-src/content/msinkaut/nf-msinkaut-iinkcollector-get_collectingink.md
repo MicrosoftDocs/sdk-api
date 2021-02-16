@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::get_CollectingInk
+ - IInkCollector.CollectingInk
+ - IInkCollector.get_CollectingInk
+ - get_CollectingInk
+ - IInkCollector.get_CollectingInk
+ - InkCollector.get_CollectingInk
 ---
 
 # IInkCollector::get_CollectingInk
@@ -73,4 +77,3 @@ You can use the <b>CollectingInk</b> property to see if ink is being drawn on an
 
 
 <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
-

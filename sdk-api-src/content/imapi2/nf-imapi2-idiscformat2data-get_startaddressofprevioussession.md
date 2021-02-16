@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data::get_StartAddressOfPreviousSession
+ - IDiscFormat2Data.get_StartAddressOfPreviousSession
 ---
 
 # IDiscFormat2Data::get_StartAddressOfPreviousSession
@@ -373,4 +373,3 @@ Value: 0xC0AA0402
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_nextwritableaddress">IDiscFormat2Data::get_NextWritableAddress</a>
-

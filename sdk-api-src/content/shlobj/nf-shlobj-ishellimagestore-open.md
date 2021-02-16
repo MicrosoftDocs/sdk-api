@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageStore::Open
+ - IShellImageStore.Open
 ---
 
 # IShellImageStore::Open
@@ -113,4 +113,3 @@ You do not have access to open the storage with the permissions specified by <i>
 </td>
 </tr>
 </table>
-

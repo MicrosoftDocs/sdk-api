@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagACTIVATEFLAGS
  - ACTIVATEFLAGS
 ---
 
@@ -64,4 +63,3 @@ Indicates whether an object is activated as a windowless object. It is used in <
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx::OnInPlaceActivateEx</a>
-

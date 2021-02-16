@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::Getbool
+ - CInstance.Getbool
+ - ?Getbool@CInstance@@QBE_NPBGAA_N@Z
+ - ?Getbool@CInstance@@QEBA_NPEBGAEA_N@Z
 ---
 
 # CInstance::Getbool
@@ -72,4 +74,3 @@ Buffer to receive the Boolean property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a non-Boolean property or a nonexistent property. More information is available in the log file, Framework.log.
-

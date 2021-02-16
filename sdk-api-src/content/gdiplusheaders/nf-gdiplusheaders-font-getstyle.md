@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::GetStyle
+ - Font.GetStyle
 ---
 
 # Font::GetStyle
@@ -89,4 +89,3 @@ This method returns a value that is an element of the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

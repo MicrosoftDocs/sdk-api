@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_OBJECTID_BUFFER
- - PFILE_OBJECTID_BUFFER
  - FILE_OBJECTID_BUFFER
 ---
 
@@ -110,4 +108,3 @@ Object identifiers are used  to track  files and directories. They are invisible
 
 
 <a href="/windows/desktop/FileIO/distributed-link-tracking-and-object-identifiers">Object Identifiers</a>
-

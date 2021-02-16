@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_VPORTCB_CREATEVIDEOPORT
+ - DdVideoPortCreate
 ---
 
 ## -description
@@ -80,4 +80,3 @@ If the hardware video port is implemented to use the feature connector, the driv
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_update">DdVideoPortUpdate</a>
-

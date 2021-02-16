@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::put_Text
+ - IInkEdit.Text
+ - IInkEdit.get_Text
+ - IInkEdit.put_Text
+ - InkEdit.get_Text
+ - InkEdit.put_Text
 ---
 
 # IInkEdit::put_Text
@@ -68,4 +72,3 @@ Setting the Text property replaces the entire contents of a control with the new
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

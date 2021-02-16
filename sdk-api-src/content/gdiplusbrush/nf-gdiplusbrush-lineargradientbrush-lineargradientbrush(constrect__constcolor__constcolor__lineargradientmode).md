@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush::LinearGradientBrush
+ - LinearGradientBrush.LinearGradientBrush
 ---
 
 # LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN LinearGradientMode)
@@ -153,4 +153,3 @@ VOID Example_Construct04(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-

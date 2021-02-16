@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest::AddPattern
+ - IUIAutomationCacheRequest.AddPattern
 ---
 
 # IUIAutomationCacheRequest::AddPattern
@@ -73,4 +73,3 @@ Adding a control pattern that is already in the cache request has no effect.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationcacherequest">IUIAutomationCacheRequest</a>
-

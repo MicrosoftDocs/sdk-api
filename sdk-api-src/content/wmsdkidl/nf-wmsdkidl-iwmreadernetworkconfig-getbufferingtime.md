@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::GetBufferingTime
+ - IWMReaderNetworkConfig.GetBufferingTime
 ---
 
 # IWMReaderNetworkConfig::GetBufferingTime
@@ -105,4 +105,3 @@ See the Remarks for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setbufferingtime">IWMReaderNetworkConfig::SetBufferingTime</a>
-

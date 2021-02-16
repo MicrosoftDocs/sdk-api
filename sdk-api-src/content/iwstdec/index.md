@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - iwstdec
  - iwstdec/iwstdec
-api_name:
- - iwstdec
 ---
 
 # Iwstdec.h header

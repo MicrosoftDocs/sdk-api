@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_VALUE
- - PCLUSPROP_VALUE
 ---
 
 # CLUSPROP_VALUE structure
@@ -150,4 +149,3 @@ The <b>CLUSPROP_VALUE</b> structure is used to describe the
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-

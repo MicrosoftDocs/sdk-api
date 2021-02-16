@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow::GetCellBorderColors
+ - ITextRow.GetCellBorderColors
 ---
 
 # ITextRow::GetCellBorderColors
@@ -91,4 +91,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellbordercolors">ITextRow::SetCellBorderColors</a>
-

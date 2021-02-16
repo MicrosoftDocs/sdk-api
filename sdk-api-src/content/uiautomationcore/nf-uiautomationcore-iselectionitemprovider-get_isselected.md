@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionItemProvider::get_IsSelected
+ - ISelectionItemProvider.IsSelected
+ - ISelectionItemProvider.get_IsSelected
 ---
 
 # ISelectionItemProvider::get_IsSelected
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

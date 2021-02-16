@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiNotifySidChangeW
  - msi/MsiNotifySidChangeW
- - MsiNotifySidChange
- - msi/MsiNotifySidChange
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiNotifySidChangeW
  - MsiNotifySidChange
+ - MsiNotifySidChangeA
+ - MsiNotifySidChangeW
 ---
 
 # MsiNotifySidChangeW function
@@ -134,4 +133,3 @@ Internal failure during execution.
 ## -see-also
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
-

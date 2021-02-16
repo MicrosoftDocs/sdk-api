@@ -9,8 +9,6 @@ tech.root: http
 f1_keywords:
  - http
  - http/http
-api_name:
- - http
 ---
 
 # Http.h header

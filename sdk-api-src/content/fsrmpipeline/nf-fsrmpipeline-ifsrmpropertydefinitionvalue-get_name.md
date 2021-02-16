@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinitionValue::get_Name
+ - IFsrmPropertyDefinitionValue.Name
+ - IFsrmPropertyDefinitionValue.get_Name
 ---
 
 # IFsrmPropertyDefinitionValue::get_Name
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmmgmtpropertyvalue">MSFT_FSRMMgmtPropertyValue</a>
-

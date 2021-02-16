@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::SetLanguage
+ - IXpsOMPage.SetLanguage
 ---
 
 # IXpsOMPage::SetLanguage
@@ -110,4 +110,3 @@ The language tag string must conform to the language tag syntax that is describe
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

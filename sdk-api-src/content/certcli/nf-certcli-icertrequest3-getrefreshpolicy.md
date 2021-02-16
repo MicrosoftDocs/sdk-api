@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest3::GetRefreshPolicy
+ - ICertRequest3.GetRefreshPolicy
+ - CCertRequest.GetRefreshPolicy
 ---
 
 # ICertRequest3::GetRefreshPolicy
@@ -71,4 +72,3 @@ The return value is a <b>BOOL</b> that indicates whether the client's policy ser
 ## -remarks
 
 The <b>GetRefreshPolicy</b> method returns <b>TRUE</b> only when the enrollment server returns a fault. Before calling the <b>GetRefreshPolicy</b> method you must contact the enrollment server. If a fault is returned, then call  the <b>GetRefreshPolicy</b> method from same instance of <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a> to determine whether  the cached policy is out of date and needs to be refreshed.
-

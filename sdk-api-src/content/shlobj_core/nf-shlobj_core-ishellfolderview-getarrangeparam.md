@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::GetArrangeParam
+ - IShellFolderView.GetArrangeParam
 ---
 
 # IShellFolderView::GetArrangeParam
@@ -88,4 +88,3 @@ The upper sixteen bits of <i>plParamSort</i> are used for flags that modify the 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

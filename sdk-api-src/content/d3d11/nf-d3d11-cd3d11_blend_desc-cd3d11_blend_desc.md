@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_BLEND_DESC::CD3D11_BLEND_DESC
+ - CD3D11_BLEND_DESC.CD3D11_BLEND_DESC
 ---
 
 # CD3D11_BLEND_DESC::CD3D11_BLEND_DESC
@@ -60,4 +60,3 @@ Instantiates a new instance of an uninitialized <a href="/windows/desktop/api/d3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/ns-d3d11-cd3d11_blend_desc">CD3D11_BLEND_DESC</a>
-

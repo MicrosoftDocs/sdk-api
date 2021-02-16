@@ -44,7 +44,6 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
- - _TASK_PROCESSTOKENSID
  - TASK_PROCESSTOKENSID_TYPE
 ---
 
@@ -76,4 +75,3 @@ A Task Scheduler will apply default settings to the task process.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-

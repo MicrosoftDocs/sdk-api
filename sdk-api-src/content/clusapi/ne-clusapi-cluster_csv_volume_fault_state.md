@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_CSV_VOLUME_FAULT_STATE
- - PCLUSTER_CSV_VOLUME_FAULT_STATE
  - CLUSTER_CSV_VOLUME_FAULT_STATE
 ---
 
@@ -87,4 +85,3 @@ The CSV is dismounted.
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

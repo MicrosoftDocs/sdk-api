@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT1_
  - IPSEC_SA_CONTEXT1
 ---
 
@@ -73,4 +72,3 @@ An [IPSEC_SA_DETAILS1](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_de
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

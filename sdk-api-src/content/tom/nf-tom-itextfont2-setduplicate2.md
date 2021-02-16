@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::SetDuplicate2
+ - ITextFont2.SetDuplicate2
 ---
 
 # ITextFont2::SetDuplicate2
@@ -108,4 +108,3 @@ For an example of how to use font duplicates, see <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-getduplicate2">ITextFont2::GetDuplicate2</a>
-

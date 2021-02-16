@@ -46,9 +46,7 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - tagUiInfo
- - PUiInfo
- - UiInfo
+ - UiInfo, *PUiInfo
 ---
 
 # UiInfo structure
@@ -97,4 +95,3 @@ Use a direct user interface. Used when <b>type</b> is set to UIT_DUI.
 
 
 <a href="/windows/win32/api/ndattrib/ne-ndattrib-ui_info_type">UI_INFO_TYPE</a>
-

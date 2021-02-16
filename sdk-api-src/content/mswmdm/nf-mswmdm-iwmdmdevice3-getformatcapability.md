@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice3::GetFormatCapability
+ - IWMDMDevice3.GetFormatCapability
 ---
 
 # IWMDMDevice3::GetFormatCapability
@@ -176,4 +176,3 @@ e_Exit:
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice3">IWMDMDevice3 Interface</a>
-

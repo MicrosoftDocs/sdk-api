@@ -44,7 +44,6 @@ api_type:
 api_location:
  - sensorsapi.h
 api_name:
- - __MIDL___MIDL_itf_sensorsapi_0000_0000_0002
  - SensorConnectionType
 ---
 

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_V4_ADDR_AND_MASK_
  - FWP_V4_ADDR_AND_MASK
 ---
 
@@ -68,4 +67,3 @@ Specifies an IPv4 mask.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

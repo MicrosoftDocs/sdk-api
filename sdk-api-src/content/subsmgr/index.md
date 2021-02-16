@@ -9,8 +9,6 @@ tech.root: search
 f1_keywords:
  - subsmgr
  - subsmgr/subsmgr
-api_name:
- - subsmgr
 ---
 
 # Subsmgr.h header

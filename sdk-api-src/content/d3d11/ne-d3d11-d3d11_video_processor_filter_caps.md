@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - D3D11_VIDEO_PROCESSOR_FILTER_CAPS
+ - D3D11_VIDEO_PROCESSPR_FILTER_CAPS
 ---
 
 # D3D11_VIDEO_PROCESSOR_FILTER_CAPS enumeration
@@ -97,4 +97,3 @@ These capability flags indicate support for the image filters defined by the <a 
 
 
 <a href="/windows/desktop/medfound/direct3d-11-video-enumerations">Direct3D 11 Video Enumerations</a>
-

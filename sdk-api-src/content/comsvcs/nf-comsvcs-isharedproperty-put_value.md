@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedProperty::put_Value
+ - ISharedProperty.put_Value
 ---
 
 # ISharedProperty::put_Value
@@ -109,4 +109,3 @@ The argument passed in the parameter is not a valid Variant type.
 
 
 <a href="/windows/desktop/cossdk/sharedproperty">SharedProperty</a>
-

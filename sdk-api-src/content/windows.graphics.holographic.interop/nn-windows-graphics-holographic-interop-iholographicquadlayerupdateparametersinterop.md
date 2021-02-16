@@ -25,6 +25,7 @@ api_type:
 api_location:
  - windows.graphics.holographic.interop.h
 api_name:
+ - interop::IHolographicQuadLayerUpdateParametersInterop
  - IHolographicQuadLayerUpdateParametersInterop
 f1_keywords:
  - IHolographicQuadLayerUpdateParametersInterop
@@ -65,4 +66,3 @@ Microsoft::WRL::ComPtr<IHolographicQuadLayerUpdateParametersInterop> quadLayerPa
 ```
 
 ## -see-also
-

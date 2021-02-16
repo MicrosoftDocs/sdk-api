@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::SetEventInterest
+ - IInkPicture.SetEventInterest
 ---
 
 # IInkPicture::SetEventInterest
@@ -155,4 +155,3 @@ Use the <a href="/windows/desktop/tablet/inkpicture-newpackets">NewPackets</a>, 
 
 
 <a href="/windows/desktop/tablet/inkpicture-stroke">Stroke Event</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTS_SESSION_ADDRESS
- - PWTS_SESSION_ADDRESS
  - WTS_SESSION_ADDRESS
 ---
 
@@ -75,4 +73,3 @@ The virtual IP address assigned to the session. The format of this address is id
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_client_address">WTS_CLIENT_ADDRESS</a>
-

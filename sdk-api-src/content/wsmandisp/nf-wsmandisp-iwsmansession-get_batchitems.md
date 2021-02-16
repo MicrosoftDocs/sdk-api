@@ -42,7 +42,9 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession::get_BatchItems
+ - IWSManSession.BatchItems
+ - IWSManSession.get_BatchItems
+ - IWSManSession.put_BatchItems
 ---
 
 # IWSManSession::get_BatchItems
@@ -67,4 +69,3 @@ This is an optimization feature that controls how often network calls are made b
 
 
 <a href="/windows/desktop/WinRM/session-batchitems">Session.BatchItems</a>
-

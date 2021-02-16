@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration::CreateSyncProviderRegistrationInstance
+ - ISyncProviderRegistration.CreateSyncProviderRegistrationInstance
 ---
 
 # ISyncProviderRegistration::CreateSyncProviderRegistrationInstance
@@ -117,4 +117,3 @@ The synchronization provider is not registered on the system until the <b>ISyncP
 
 
 <a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguration">SyncProviderConfiguration Structure</a>
-

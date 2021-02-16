@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::EndFlush
+ - IPin.EndFlush
 ---
 
 # IPin::EndFlush
@@ -117,4 +117,3 @@ When the method returns, the pin can accept new samples.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

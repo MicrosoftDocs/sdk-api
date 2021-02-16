@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITFileTrack::get_ControllingTerminal
+ - ITFileTrack.get_ControllingTerminal
 ---
 
 # ITFileTrack::get_ControllingTerminal
@@ -77,4 +77,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-

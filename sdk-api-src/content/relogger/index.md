@@ -9,8 +9,6 @@ tech.root: etw
 f1_keywords:
  - relogger
  - relogger/relogger
-api_name:
- - relogger
 ---
 
 # Relogger.h header

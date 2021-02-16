@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - IUIManagerEventSink::OnWindowUpdated
+ - IUIManagerEventSink.OnWindowUpdated
 ---
 
 # IUIManagerEventSink::OnWindowUpdated
@@ -65,4 +65,3 @@ Ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-iuimanagereventsink">IUIManagerEventSink</a>
-

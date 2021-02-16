@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - tagDBSETFUNC
  - DBSETFUNC
 ---
 
@@ -67,4 +66,3 @@ which aggregation method to use
 ## -remarks
 
 For valid values of the <b>dwSetQuantifier</b> member, see <a href="/previous-versions/windows/desktop/indexsrv/aggregate-function-constants">Aggregate Function Constants</a>.
-

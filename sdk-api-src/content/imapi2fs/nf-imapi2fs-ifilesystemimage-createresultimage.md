@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::CreateResultImage
+ - IFileSystemImage.CreateResultImage
 ---
 
 # IFileSystemImage::CreateResultImage
@@ -122,4 +122,3 @@ The resulting stream can be saved as an ISO file if the file system is generated
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-chooseimagedefaultsformediatype">IFilesystemImage::ChooseImageDefaultsForMediaType</a>
-

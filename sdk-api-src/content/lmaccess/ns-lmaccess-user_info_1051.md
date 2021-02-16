@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1051
- - PUSER_INFO_1051
  - USER_INFO_1051
 ---
 
@@ -83,4 +81,3 @@ Specifies a <b>DWORD</b> value that contains the RID of the Primary Global Group
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

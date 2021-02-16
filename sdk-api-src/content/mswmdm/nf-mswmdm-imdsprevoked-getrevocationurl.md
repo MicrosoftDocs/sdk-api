@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPRevoked::GetRevocationURL
+ - IMDSPRevoked.GetRevocationURL
 ---
 
 # IMDSPRevoked::GetRevocationURL
@@ -81,4 +81,3 @@ The <b>IMDSPRevoked</b> interface retrieves the URL from which updated component
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdsprevoked">IMDSPRevoked Interface</a>
-

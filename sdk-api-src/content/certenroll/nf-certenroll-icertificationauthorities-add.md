@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertificationAuthorities::Add
+ - ICertificationAuthorities.Add
 ---
 
 # ICertificationAuthorities::Add
@@ -71,4 +71,3 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
-

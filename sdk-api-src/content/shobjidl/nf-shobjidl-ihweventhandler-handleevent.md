@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shimgvw.dll
 api_name:
- - IHWEventHandler::HandleEvent
+ - IHWEventHandler.HandleEvent
 ---
 
 # IHWEventHandler::HandleEvent
@@ -89,4 +89,3 @@ The event types are not C/C++ language constants; they are literal text strings.
 
 
 <a href="/windows/desktop/api/shobjidl/nf-shobjidl-ihweventhandler-handleeventwithcontent">IHWEventHandler::HandleEventWithContent</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1::GetFullscreenDesc
+ - IDXGISwapChain1.GetFullscreenDesc
 ---
 
 # IDXGISwapChain1::GetFullscreenDesc
@@ -76,4 +76,3 @@ The semantics of <b>GetFullscreenDesc</b> are identical to that of the <a href="
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
-

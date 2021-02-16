@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm::get_LongName
+ - ICspAlgorithm.LongName
+ - ICspAlgorithm.get_LongName
 ---
 
 # ICspAlgorithm::get_LongName
@@ -114,4 +115,3 @@ The <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_nam
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-

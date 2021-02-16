@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_IKEEXT_MM_FAILURE1_
  - FWPM_NET_EVENT_IKEEXT_MM_FAILURE1
 ---
 
@@ -132,4 +131,3 @@ Groups in the remote security principal's token.
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
-

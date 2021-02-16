@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnReconversion::GetReconversion
+ - ITfFnReconversion.GetReconversion
 ---
 
 # ITfFnReconversion::GetReconversion
@@ -135,4 +135,3 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

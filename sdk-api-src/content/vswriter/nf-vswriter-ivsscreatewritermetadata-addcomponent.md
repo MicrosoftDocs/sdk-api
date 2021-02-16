@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata::AddComponent
+ - IVssCreateWriterMetadata.AddComponent
 ---
 
 # IVssCreateWriterMetadata::AddComponent
@@ -239,4 +239,3 @@ The combination of logical path and name for each component of a given instance 
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
-

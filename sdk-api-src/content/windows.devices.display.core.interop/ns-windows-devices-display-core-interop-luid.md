@@ -30,9 +30,8 @@ api_type:
 api_location:
  - windows.devices.display.core.interop.h
 api_name:
- - __LUID
- - PLUID
- - LUID
+ - interop::__LUID
+ - interop::LUID
 f1_keywords:
  - __LUID
  - windows.devices.display.core.interop/__LUID

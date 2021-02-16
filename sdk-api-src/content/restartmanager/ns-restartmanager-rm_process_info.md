@@ -46,8 +46,6 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
- - _RM_PROCESS_INFO
- - PRM_PROCESS_INFO
  - RM_PROCESS_INFO
 ---
 
@@ -114,4 +112,3 @@ This member is always <b>TRUE</b> if the process is a service. This member is al
 
 
 <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmshutdown">RmShutdown</a>
-

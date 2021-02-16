@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob::get_SubmissionId
+ - IFaxOutgoingJob.SubmissionId
+ - IFaxOutgoingJob.get_SubmissionId
+ - IFaxOutgoingJob.get_SubmissionId
 ---
 
 # IFaxOutgoingJob::get_SubmissionId
@@ -71,4 +73,3 @@ All fax jobs created by the same submission process share the same unique submis
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
-

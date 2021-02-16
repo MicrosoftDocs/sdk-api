@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionContextEx::Abort
+ - ITransactionContextEx.Abort
 ---
 
 # ITransactionContextEx::Abort
@@ -132,4 +132,3 @@ if (bUserCanceled) {
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
-

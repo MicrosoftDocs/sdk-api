@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
- - FWPS_FILTER1_
  - FWPS_FILTER1
 ---
 
@@ -146,4 +145,3 @@ The **ProviderContext** member provides a mechanism for a callout driver to retr
 
 
 [notifyFn1](/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn1)
-

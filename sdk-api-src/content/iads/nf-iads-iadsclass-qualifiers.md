@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsClass::Qualifiers
+ - IADsClass.Qualifiers
 ---
 
 # IADsClass::Qualifiers
@@ -106,4 +106,3 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsproperty-qualifiers">IADsProperty::Qualifiers</a>
-

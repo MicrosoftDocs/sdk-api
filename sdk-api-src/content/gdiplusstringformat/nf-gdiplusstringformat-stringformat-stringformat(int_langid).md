@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::StringFormat
+ - StringFormat.StringFormat
 ---
 
 # StringFormat::StringFormat(IN INT,IN LANGID)
@@ -87,4 +87,3 @@ For a list of the available languages and sublanguages, see Winnt.h.
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
-

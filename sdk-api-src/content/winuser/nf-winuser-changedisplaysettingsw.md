@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - ChangeDisplaySettingsW
  - winuser/ChangeDisplaySettingsW
- - ChangeDisplaySettings
- - winuser/ChangeDisplaySettings
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +42,10 @@ api_type:
 api_location:
  - user32.dll
 api_name:
- - ChangeDisplaySettingsW
  - ChangeDisplaySettings
+ - ChangeDisplaySettingsA
+ - ChangeDisplaySettingsW
+req.apiset: ext-ms-win-ntuser-sysparams-ext-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ChangeDisplaySettingsW function
@@ -398,4 +397,3 @@ This API does not participate in DPI virtualization. The input given is always i
 
 
 <a href="/windows/desktop/gdi/wm-displaychange">WM_DISPLAYCHANGE</a>
-

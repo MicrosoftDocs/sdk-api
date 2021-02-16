@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IExternalConnection::AddConnection
+ - IExternalConnection.AddConnection
 ---
 
 # IExternalConnection::AddConnection
@@ -91,4 +91,3 @@ The following is a typical implementation for the <b>AddConnection</b> method.
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olelockrunning">OleLockRunning</a>
-

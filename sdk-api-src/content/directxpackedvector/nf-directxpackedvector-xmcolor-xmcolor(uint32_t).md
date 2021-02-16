@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR::XMCOLOR
+ - XMCOLOR.XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR(uint32_t)
@@ -113,4 +113,3 @@ The fourth 8 bits (bits 24-31) of <b>Packed</b> assigned, as an unsigned
 
 
 <a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
-

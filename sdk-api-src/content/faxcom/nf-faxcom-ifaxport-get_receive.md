@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort::get_Receive
+ - IFaxPort.Receive
+ - IFaxPort.get_Receive
+ - IFaxPort.put_Receive
 ---
 
 # IFaxPort::get_Receive
@@ -77,4 +79,3 @@ The <b>IFaxPort::get_Receive</b> property returns a value of <b>TRUE</b> if the 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
-

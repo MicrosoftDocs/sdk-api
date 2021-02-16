@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbOrchestrationNotifySink::OnReadyToConnect
+ - ITsSbOrchestrationNotifySink.OnReadyToConnect
 ---
 
 # ITsSbOrchestrationNotifySink::OnReadyToConnect
@@ -73,4 +73,3 @@ The target object referenced by the <i>pTarget</i> parameter should contain the 
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
-

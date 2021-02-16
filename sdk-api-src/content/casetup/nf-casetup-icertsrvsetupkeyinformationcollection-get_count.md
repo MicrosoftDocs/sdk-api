@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformationCollection::get_Count
+ - ICertSrvSetupKeyInformationCollection.Count
+ - ICertSrvSetupKeyInformationCollection.get_Count
 ---
 
 # ICertSrvSetupKeyInformationCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
-

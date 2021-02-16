@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DlgDirListComboBoxA
  - winuser/DlgDirListComboBoxA
- - DlgDirListComboBox
- - winuser/DlgDirListComboBox
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DlgDirListComboBoxA
  - DlgDirListComboBox
+ - DlgDirListComboBoxA
+ - DlgDirListComboBoxW
 ---
 
 # DlgDirListComboBoxA function
@@ -233,4 +232,3 @@ Windows 95 or later: <b>DlgDirListComboBoxW</b> is supported by the Microsoft L
 
 
 <b>Reference</b>
-

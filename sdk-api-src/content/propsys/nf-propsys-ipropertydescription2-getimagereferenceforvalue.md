@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription2::GetImageReferenceForValue
+ - IPropertyDescription2.GetImageReferenceForValue
 ---
 
 # IPropertyDescription2::GetImageReferenceForValue
@@ -71,4 +71,3 @@ A pointer to a buffer that receives, when this method returns successfully, a st
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

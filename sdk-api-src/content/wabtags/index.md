@@ -9,8 +9,6 @@ tech.root: wab
 f1_keywords:
  - wabtags
  - wabtags/wabtags
-api_name:
- - wabtags
 ---
 
 # Wabtags.h header

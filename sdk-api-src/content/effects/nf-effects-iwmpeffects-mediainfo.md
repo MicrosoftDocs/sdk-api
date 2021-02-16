@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects::MediaInfo
+ - IWMPEffects.MediaInfo
 ---
 
 # IWMPEffects::MediaInfo
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-

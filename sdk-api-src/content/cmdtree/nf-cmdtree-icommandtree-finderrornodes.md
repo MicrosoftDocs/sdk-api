@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - ICommandTree::FindErrorNodes
+ - ICommandTree.FindErrorNodes
 ---
 
 # ICommandTree::FindErrorNodes
@@ -127,4 +127,3 @@ The provider was unable to allocate sufficient memory in which to return the arr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
-

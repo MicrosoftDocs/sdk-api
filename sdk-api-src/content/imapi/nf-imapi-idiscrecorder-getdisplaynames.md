@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder::GetDisplayNames
+ - IDiscRecorder.GetDisplayNames
 ---
 
 # IDiscRecorder::GetDisplayNames
@@ -80,4 +80,3 @@ The combination of these three strings does not produce a unique identifier for 
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_Lifespan
- - PSecPkgContext_Lifespan
  - SecPkgContext_Lifespan
 ---
 
@@ -76,4 +74,3 @@ It is recommended that the <a href="/windows/desktop/SecGloss/s-gly">security pa
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser::Advise
+ - IExplorerBrowser.Advise
 ---
 
 # IExplorerBrowser::Advise
@@ -97,4 +97,3 @@ When the connection is no longer needed, call method <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowserevents-onviewcreated">OnViewCreated</a>
-

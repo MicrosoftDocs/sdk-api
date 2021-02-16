@@ -44,6 +44,8 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmDriverAdd
+ - acmDriverAddA
+ - acmDriverAddW
 ---
 
 # acmDriverAdd function
@@ -155,4 +157,3 @@ The system is unable to allocate resources.
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-

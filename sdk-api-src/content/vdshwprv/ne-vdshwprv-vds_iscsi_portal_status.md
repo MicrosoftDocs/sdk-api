@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_PORTAL_STATUS
  - VDS_ISCSI_PORTAL_STATUS
 ---
 
@@ -96,4 +95,3 @@ The portal has failed.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_portal_prop">VDS_ISCSI_PORTAL_PROP</a>
-

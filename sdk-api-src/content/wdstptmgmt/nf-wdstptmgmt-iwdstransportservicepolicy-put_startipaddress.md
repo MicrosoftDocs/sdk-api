@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy::put_StartIpAddress
+ - IWdsTransportServicePolicy.StartIpAddress
+ - IWdsTransportServicePolicy.get_StartIpAddress
+ - IWdsTransportServicePolicy.put_StartIpAddress
 ---
 
 # IWdsTransportServicePolicy::put_StartIpAddress
@@ -67,4 +69,3 @@ When setting the start IP address, this property validates that it is a valid mu
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_ip_address_type">WDSTRANSPORT_IP_ADDRESS_TYPE</a>
-

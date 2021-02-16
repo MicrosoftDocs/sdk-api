@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nspapi.h
 api_name:
- - _SERVICE_ADDRESS
- - PSERVICE_ADDRESS
  - SERVICE_ADDRESS
 ---
 
@@ -149,4 +147,3 @@ Reserved for future use. Must be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
-

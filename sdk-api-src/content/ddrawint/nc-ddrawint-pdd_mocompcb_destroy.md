@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_MOCOMPCB_DESTROY
+ - DdMoCompDestroy
 ---
 
 ## -description
@@ -66,4 +66,3 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroymocompd
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroymocompdata">DD_DESTROYMOCOMPDATA</a>
-

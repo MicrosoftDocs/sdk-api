@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_FLOAT_TEXT
  - WS_XML_FLOAT_TEXT
 ---
 
@@ -83,4 +82,3 @@ Unrepresentable values are represented by the text "NaN".
       
 
 For more information on this representation, refer to IEEE Standard for Binary Floating-Point Arithmetic, available on the Web site http://www.ieee.org/.
-

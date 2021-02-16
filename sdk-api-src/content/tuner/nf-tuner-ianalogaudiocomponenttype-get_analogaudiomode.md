@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAnalogAudioComponentType::get_AnalogAudioMode
+ - IAnalogAudioComponentType.get_AnalogAudioMode
 ---
 
 # IAnalogAudioComponentType::get_AnalogAudioMode
@@ -69,4 +69,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ianalogaudiocomponenttype-put_analogaudiomode">put_AnalogAudioMode</a>
-

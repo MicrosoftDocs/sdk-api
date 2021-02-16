@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNETSOURCE_PROTOCOL_TYPE
  - MFNETSOURCE_PROTOCOL_TYPE
 ---
 
@@ -95,4 +94,3 @@ The protocol type is multicast.
 
 
 <a href="/windows/desktop/medfound/supported-protocols">Supported Protocols</a>
-

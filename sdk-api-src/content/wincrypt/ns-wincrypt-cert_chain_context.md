@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_CHAIN_CONTEXT
- - PCERT_CHAIN_CONTEXT
  - CERT_CHAIN_CONTEXT
 ---
 
@@ -112,4 +110,3 @@ When a <b>CERT_CHAIN_CONTEXT</b> is built, the first simple chain begins with an
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certgetcertificatechain">CertGetCertificateChain</a>
-

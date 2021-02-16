@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::GetSize
+ - Font.GetSize
 ---
 
 # Font::GetSize
@@ -83,4 +83,3 @@ The method returns the font size. The size is in the units of this
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

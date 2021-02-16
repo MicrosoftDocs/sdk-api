@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxShowScrollBar
+ - ITextHost.TxShowScrollBar
 ---
 
 # ITextHost::TxShowScrollBar
@@ -105,4 +105,3 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-

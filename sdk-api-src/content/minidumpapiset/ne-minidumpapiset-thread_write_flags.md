@@ -44,7 +44,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _THREAD_WRITE_FLAGS
  - THREAD_WRITE_FLAGS
 ---
 
@@ -97,4 +96,3 @@ When the minidump type includes <b>MiniDumpWithThreadInfo</b>, this flag is set.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_VERIFY_MESSAGE_PARA
- - PCRYPT_VERIFY_MESSAGE_PARA
  - CRYPT_VERIFY_MESSAGE_PARA
 ---
 
@@ -143,4 +141,3 @@ This structure is passed to the following functions:
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptverifymessagesignature">CryptVerifyMessageSignature</a>
-

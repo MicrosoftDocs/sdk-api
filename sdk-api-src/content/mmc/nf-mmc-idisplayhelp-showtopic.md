@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IDisplayHelp::ShowTopic
+ - IDisplayHelp.ShowTopic
 ---
 
 # IDisplayHelp::ShowTopic
@@ -119,4 +119,3 @@ If the snap-in handles the <a href="/previous-versions/windows/desktop/mmc/mmcn-
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-mmcpropertyhelp">MMCPropertyHelp</a>
-

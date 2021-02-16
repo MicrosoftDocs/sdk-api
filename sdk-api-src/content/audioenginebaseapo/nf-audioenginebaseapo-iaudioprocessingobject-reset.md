@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObject::Reset
+ - IAudioProcessingObject.Reset
 ---
 
 ## -description
@@ -61,4 +61,3 @@ This method is not real-time compliant and must not be called from a real-time p
 ## -see-also
 
 <a href="/windows/desktop/api/audioenginebaseapo/nn-audioenginebaseapo-iaudioprocessingobject">IAudioProcessingObject</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStream::SetFormat
+ - IAVIStream.SetFormat
 ---
 
 # IAVIStream::SetFormat
@@ -92,4 +92,3 @@ HRESULT SetFormat(LONG lPos, LPVOID lpFormat, LONG cbFormat)
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

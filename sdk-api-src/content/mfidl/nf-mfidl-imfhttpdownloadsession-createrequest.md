@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession::CreateRequest
+ - IMFHttpDownloadSession.CreateRequest
 ---
 
 # IMFHttpDownloadSession::CreateRequest
@@ -132,4 +132,3 @@ The method was invoked after <a href="/windows/desktop/api/mfidl/nf-mfidl-imfhtt
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
-

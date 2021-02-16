@@ -9,8 +9,6 @@ tech.root: fs
 f1_keywords:
  - txfw32
  - txfw32/txfw32
-api_name:
- - txfw32
 ---
 
 # Txfw32.h header

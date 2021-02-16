@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator::EndFrame
+ - IAMVideoAccelerator.EndFrame
 ---
 
 # IAMVideoAccelerator::EndFrame
@@ -164,4 +164,3 @@ For more information about this method, see the remarks for  <a href="/windows/d
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-

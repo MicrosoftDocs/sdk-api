@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideDataEvent::ScheduleDeleted
+ - IGuideDataEvent.ScheduleDeleted
 ---
 
 # IGuideDataEvent::ScheduleDeleted
@@ -77,4 +77,3 @@ The event sink is not required to support this event; it may return E_NOTIMPL.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataevent">IGuideDataEvent Interface</a>
-

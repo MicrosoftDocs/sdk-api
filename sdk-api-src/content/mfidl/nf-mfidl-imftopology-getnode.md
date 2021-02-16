@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology::GetNode
+ - IMFTopology.GetNode
 ---
 
 # IMFTopology::GetNode
@@ -118,4 +118,3 @@ No node can be found at the index <i>wIndex</i>.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

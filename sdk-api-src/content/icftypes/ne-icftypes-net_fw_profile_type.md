@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
- - NET_FW_PROFILE_TYPE_
  - NET_FW_PROFILE_TYPE
 ---
 
@@ -81,4 +80,3 @@ Used for boundary checking only. Not valid for application programming.
 [Windows Firewall Enumerated Types](/previous-versions/windows/desktop/ics/windows-firewall-enumerated-types)
 
 [Windows Firewall Reference](/previous-versions/windows/desktop/ics/windows-firewall-reference)
-

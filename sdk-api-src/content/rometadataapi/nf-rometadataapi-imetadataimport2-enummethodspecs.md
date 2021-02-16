@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport2::EnumMethodSpecs
+ - IMetaDataImport2.EnumMethodSpecs
 ---
 
 # IMetaDataImport2::EnumMethodSpecs
@@ -97,4 +97,3 @@ The returned number of tokens placed in <i>rMethodSpecs</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
-

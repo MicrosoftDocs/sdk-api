@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagRID_DEVICE_INFO
- - PRID_DEVICE_INFO
  - RID_DEVICE_INFO
 ---
 
@@ -144,4 +142,3 @@ If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="/windows/desktop/ap
 <a href="/windows/desktop/inputdev/raw-input">Raw Input</a>
 
 <b>Reference</b>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRGLSBOUNDEDRECORD
- - PEMRGLSBOUNDEDRECORD
  - EMRGLSBOUNDEDRECORD
 ---
 
@@ -92,4 +90,3 @@ The coordinates in <b>rclBounds</b> are in OpenGL pixel coordinates, which gener
 
 
 <a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows NT, Windows 2000, and Windows 95/98</a>
-

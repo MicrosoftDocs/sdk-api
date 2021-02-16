@@ -9,8 +9,6 @@ tech.root: direct3d12
 f1_keywords:
  - d3d11on12
  - d3d11on12/d3d11on12
-api_name:
- - d3d11on12
 ---
 
 # D3D11On12.h header

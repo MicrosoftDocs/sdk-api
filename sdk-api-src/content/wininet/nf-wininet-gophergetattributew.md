@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GopherGetAttributeW
  - wininet/GopherGetAttributeW
- - GopherGetAttribute
- - wininet/GopherGetAttribute
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GopherGetAttributeW
  - GopherGetAttribute
+ - GopherGetAttributeA
+ - GopherGetAttributeW
 ---
 
 # GopherGetAttributeW function
@@ -132,4 +131,3 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 ## -see-also
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

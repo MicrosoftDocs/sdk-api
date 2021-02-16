@@ -44,7 +44,6 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
- - IKEEXT_EM_POLICY2_
  - IKEEXT_EM_POLICY2
 ---
 
@@ -89,4 +88,3 @@ Type of impersonation.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

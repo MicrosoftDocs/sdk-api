@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _STORAGE_DEPENDENCY_INFO_TYPE_1
- - PSTORAGE_DEPENDENCY_INFO_TYPE_1
  - STORAGE_DEPENDENCY_INFO_TYPE_1
 ---
 
@@ -80,4 +78,3 @@ A <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

@@ -9,8 +9,6 @@ tech.root: properties
 f1_keywords:
  - shobjidl_core
  - shobjidl_core/shobjidl_core
-api_name:
- - shobjidl_core
 ---
 
 # Shobjidl_Core.h header

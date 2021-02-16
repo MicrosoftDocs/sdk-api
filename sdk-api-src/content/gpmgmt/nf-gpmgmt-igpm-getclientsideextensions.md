@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM::GetClientSideExtensions
+ - IGPM.GetClientSideExtensions
+ - GPM.GetClientSideExtensions
 ---
 
 # IGPM::GetClientSideExtensions
@@ -78,4 +79,3 @@ Returns a reference to a <b>GPMCSECollection</b> object.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>
-

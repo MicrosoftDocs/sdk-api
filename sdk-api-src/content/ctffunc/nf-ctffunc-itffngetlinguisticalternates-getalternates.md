@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfFnGetLinguisticAlternates::GetAlternates
+ - ITfFnGetLinguisticAlternates.GetAlternates
 ---
 
 # ITfFnGetLinguisticAlternates::GetAlternates
@@ -120,4 +120,3 @@ One or more parameters are invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffngetlinguisticalternates">ITfFnGetLinguisticAlternates</a>
-

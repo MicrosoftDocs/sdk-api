@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IPublishedApp::Install
+ - IPublishedApp.Install
 ---
 
 # IPublishedApp::Install
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
-

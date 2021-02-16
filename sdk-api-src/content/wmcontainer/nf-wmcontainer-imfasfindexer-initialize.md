@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::Initialize
+ - IMFASFIndexer.Initialize
 ---
 
 # IMFASFIndexer::Initialize
@@ -117,4 +117,3 @@ In the ASF header, the maximum data-packet size must equal the minimum data-pack
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-

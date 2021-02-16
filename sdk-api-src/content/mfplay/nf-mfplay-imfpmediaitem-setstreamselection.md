@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem::SetStreamSelection
+ - IMFPMediaItem.SetStreamSelection
 ---
 
 # IMFPMediaItem::SetStreamSelection
@@ -108,4 +108,3 @@ You can use this method to change which streams are selected. The change goes in
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

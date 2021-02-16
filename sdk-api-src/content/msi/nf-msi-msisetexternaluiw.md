@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSetExternalUIW
  - msi/MsiSetExternalUIW
- - MsiSetExternalUI
- - msi/MsiSetExternalUI
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSetExternalUIW
  - MsiSetExternalUI
+ - MsiSetExternalUIA
+ - MsiSetExternalUIW
 ---
 
 # MsiSetExternalUIW function
@@ -296,4 +295,3 @@ The external user interface handler pointed to by the <i>puiHandler</i> paramete
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Interface and Logging Functions</a>
-

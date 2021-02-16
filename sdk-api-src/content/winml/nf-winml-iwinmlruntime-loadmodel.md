@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winml.dll
 api_name:
- - IWinMLRuntime::LoadModel
+ - IWinMLRuntime.LoadModel
 ---
 
 # IWinMLRuntime::LoadModel
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/winml/nn-winml-iwinmlruntime">IWinMLRuntime</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::get_Cc
+ - IEmailAction.Cc
+ - IEmailAction.get_Cc
+ - IEmailAction.put_Cc
 ---
 
 # IEmailAction::get_Cc

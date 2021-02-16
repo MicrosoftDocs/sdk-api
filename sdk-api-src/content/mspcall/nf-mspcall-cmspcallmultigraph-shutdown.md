@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph::ShutDown
+ - CMSPCallMultiGraph.ShutDown
 ---
 
 # CMSPCallMultiGraph::ShutDown
@@ -59,4 +59,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-

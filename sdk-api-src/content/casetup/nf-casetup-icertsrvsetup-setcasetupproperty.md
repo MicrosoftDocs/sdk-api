@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup::SetCASetupProperty
+ - ICertSrvSetup.SetCASetupProperty
 ---
 
 # ICertSrvSetup::SetCASetupProperty
@@ -78,4 +78,3 @@ A pointer to a <b>VARIANT</b> that specifies the property value. The <b>VARIANT<
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-

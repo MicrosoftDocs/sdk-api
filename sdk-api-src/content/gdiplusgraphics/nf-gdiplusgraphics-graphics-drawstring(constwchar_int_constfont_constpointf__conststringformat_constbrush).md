@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::DrawString
+ - Graphics.DrawString
 ---
 
 # Graphics::DrawString(const WCHAR,INT,const Font,const PointF &,const StringFormat,const Brush)
@@ -166,4 +166,3 @@ VOID Example_DrawString3(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a>
-

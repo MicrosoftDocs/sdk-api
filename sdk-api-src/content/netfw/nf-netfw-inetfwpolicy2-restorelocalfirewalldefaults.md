@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2::RestoreLocalFirewallDefaults
+ - INetFwPolicy2.RestoreLocalFirewallDefaults
 ---
 
 # INetFwPolicy2::RestoreLocalFirewallDefaults
@@ -106,4 +106,3 @@ The operation was aborted due to permissions issues.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
-

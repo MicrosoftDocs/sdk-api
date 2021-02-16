@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::Clone
+ - IMFASFStreamConfig.Clone
 ---
 
 # IMFASFStreamConfig::Clone
@@ -88,4 +88,3 @@ The cloned object is completely independent of the original.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-

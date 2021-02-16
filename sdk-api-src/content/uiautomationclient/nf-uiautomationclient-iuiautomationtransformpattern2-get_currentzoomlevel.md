@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern2::get_CurrentZoomLevel
+ - IUIAutomationTransformPattern2.CurrentZoomLevel
+ - IUIAutomationTransformPattern2.get_CurrentZoomLevel
 ---
 
 # IUIAutomationTransformPattern2::get_CurrentZoomLevel
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtransformpattern2">IUIAutomationTransformPattern2</a>
-

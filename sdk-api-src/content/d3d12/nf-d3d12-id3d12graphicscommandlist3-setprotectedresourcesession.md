@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList3::SetProtectedResourceSession
+ - ID3D12GraphicsCommandList3.SetProtectedResourceSession
 ---
 
 ## -description
@@ -64,4 +64,3 @@ If set, indicates that protected resources can be accessed with the given sessio
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
-

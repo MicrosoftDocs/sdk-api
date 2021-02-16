@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain::GetFrameStatistics
+ - IDXGISwapChain.GetFrameStatistics
 ---
 
 # IDXGISwapChain::GetFrameStatistics
@@ -76,4 +76,3 @@ You can only use <b>GetFrameStatistics</b> for swap chains that either use the f
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
-

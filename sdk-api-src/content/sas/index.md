@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - sas
  - sas/sas
-api_name:
- - sas
 ---
 
 # Sas.h header

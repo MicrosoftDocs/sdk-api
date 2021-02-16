@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsrm.h
 api_name:
- - _RM_FEC_INFO
  - RM_FEC_INFO
 ---
 
@@ -96,4 +95,3 @@ Since the use of this structure implies the need for forward error correction, e
 
 <a href="/windows/desktop/WinSock/socket-options">Socket
   Options</a>
-

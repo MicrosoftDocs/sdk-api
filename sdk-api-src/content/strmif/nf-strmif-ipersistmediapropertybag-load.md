@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag::Load
+ - IPersistMediaPropertyBag.Load
 ---
 
 # IPersistMediaPropertyBag::Load
@@ -158,4 +158,3 @@ The <a href="/windows/desktop/DirectShow/avi-splitter-filter">AVI Splitter</a> f
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>
-

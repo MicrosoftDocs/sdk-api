@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern::get_CachedVerticalViewSize
+ - IUIAutomationScrollPattern.CachedVerticalViewSize
+ - IUIAutomationScrollPattern.get_CachedVerticalViewSize
 ---
 
 # IUIAutomationScrollPattern::get_CachedVerticalViewSize
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_cachedhorizontalviewsize">IUIAutomationScrollPattern::CachedHorizontalViewSize</a>
-

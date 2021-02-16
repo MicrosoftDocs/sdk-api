@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnBeginLabelEdit
+ - INameSpaceTreeControlEvents.OnBeginLabelEdit
 ---
 
 # INameSpaceTreeControlEvents::OnBeginLabelEdit
@@ -77,4 +77,3 @@ If this method fails, the transition to edit mode is not canceled.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

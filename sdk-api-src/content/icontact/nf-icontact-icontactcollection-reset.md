@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactCollection::Reset
+ - IContactCollection.Reset
 ---
 
 # IContactCollection::Reset
@@ -63,4 +63,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 A call to <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">IContactCollection::GetCurrent</a> immediately after <b>IContactCollection::Reset</b> is undefined. To get the first contact, call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">IContactCollection::Next</a> first to ensure that there is one.
-

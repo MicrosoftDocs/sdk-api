@@ -42,7 +42,7 @@ api_type:
 api_location:
  - twinapi.dll
 api_name:
- - IApplicationDesignModeSettings2::SetNativeDisplayOrientation
+ - IApplicationDesignModeSettings2.SetNativeDisplayOrientation
 ---
 
 # IApplicationDesignModeSettings2::SetNativeDisplayOrientation
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationdesignmodesettings2">IApplicationDesignModeSettings2</a>
-

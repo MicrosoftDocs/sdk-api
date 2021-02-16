@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteColorGlyphRunEnumerator1::GetCurrentRun
+ - IDWriteColorGlyphRunEnumerator1.GetCurrentRun
 ---
 
 # IDWriteColorGlyphRunEnumerator1::GetCurrentRun

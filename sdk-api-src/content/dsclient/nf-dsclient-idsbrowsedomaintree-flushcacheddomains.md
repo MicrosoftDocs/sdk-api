@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree::FlushCachedDomains
+ - IDsBrowseDomainTree.FlushCachedDomains
 ---
 
 # IDsBrowseDomainTree::FlushCachedDomains
@@ -70,4 +70,3 @@ This method frees the internal cached domain data. This method must  be called b
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer">IDsBrowseDomainTree::SetComputer</a>
-

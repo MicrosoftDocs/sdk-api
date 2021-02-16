@@ -9,8 +9,6 @@ tech.root: audio
 f1_keywords:
  - audiomediatype
  - audiomediatype/audiomediatype
-api_name:
- - audiomediatype
 ---
 
 # Audiomediatype.h header

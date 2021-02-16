@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite_1.dll
 api_name:
- - IDWriteFont1::IsMonospacedFont
+ - IDWriteFont1.IsMonospacedFont
 ---
 
 # IDWriteFont1::IsMonospacedFont

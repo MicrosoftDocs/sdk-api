@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - PAUTHZ_SID_OPERATION
  - AUTHZ_SID_OPERATION
 ---
 
@@ -76,4 +75,3 @@ Deletes the specified SID. If no matching SID is found, no modifications are don
 ### -field AUTHZ_SID_OPERATION_REPLACE
 
 Replaces the existing SID with the specified SID. If the SID does not already exist, then adds the SID.
-

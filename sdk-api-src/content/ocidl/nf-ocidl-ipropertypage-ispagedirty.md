@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage::IsPageDirty
+ - IPropertyPage.IsPageDirty
 ---
 
 # IPropertyPage::IsPageDirty
@@ -68,4 +68,3 @@ This method has no reason to return an error code, since the inability to determ
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _tableRowParms
  - TABLEROWPARMS
 ---
 
@@ -212,4 +211,3 @@ The rows are aligned with the right margin.
 
 
 <a href="/windows/desktop/api/richedit/ns-richedit-tablecellparms">TABLECELLPARMS</a>
-

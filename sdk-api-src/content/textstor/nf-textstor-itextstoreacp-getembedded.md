@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP::GetEmbedded
+ - ITextStoreACP.GetEmbedded
 ---
 
 # ITextStoreACP::GetEmbedded
@@ -221,4 +221,3 @@ The caller must use <b>QueryInterface</b> to probe for appropriate interfaces. P
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a>
-

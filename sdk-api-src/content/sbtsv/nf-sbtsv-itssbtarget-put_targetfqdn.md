@@ -42,7 +42,12 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::put_TargetFQDN
+ - ITsSbTarget.TargetFQDN
+ - ITsSbTarget.get_TargetFQDN
+ - ITsSbTarget.put_TargetFQDN
+ - ITsSbTargetEx.TargetFQDN
+ - ITsSbTargetEx.get_TargetFQDN
+ - ITsSbTargetEx.put_TargetFQDN
 ---
 
 # ITsSbTarget::put_TargetFQDN
@@ -63,4 +68,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
-

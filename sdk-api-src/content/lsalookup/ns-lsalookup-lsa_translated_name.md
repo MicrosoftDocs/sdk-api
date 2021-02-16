@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LsaLookup.h
 api_name:
- - _LSA_TRANSLATED_NAME
- - PLSA_TRANSLATED_NAME
  - LSA_TRANSLATED_NAME
 ---
 
@@ -149,4 +147,3 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
-

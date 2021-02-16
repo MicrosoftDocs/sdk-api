@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider::QueryRevertStatus
+ - IVssSoftwareSnapshotProvider.QueryRevertStatus
 ---
 
 # IVssSoftwareSnapshotProvider::QueryRevertStatus
@@ -156,4 +156,3 @@ The revert operation will continue even if the computer is rebooted, and cannot 
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
-

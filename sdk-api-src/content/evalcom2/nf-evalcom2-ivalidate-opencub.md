@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate::OpenCUB
+ - IValidate.OpenCUB
 ---
 
 # IValidate::OpenCUB
@@ -128,4 +128,3 @@ The <a href="/windows/desktop/Msi/internal-consistency-evaluators-ices">Internal
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-

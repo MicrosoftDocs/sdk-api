@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineSetDevConfigA
  - tapi/lineSetDevConfigA
- - lineSetDevConfig
- - tapi/lineSetDevConfig
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineSetDevConfigA
  - lineSetDevConfig
+ - lineSetDevConfigA
+ - lineSetDevConfigW
 ---
 
 # lineSetDevConfigA function
@@ -133,4 +132,3 @@ Some service providers may permit the configuration to be set while a call is ac
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
-

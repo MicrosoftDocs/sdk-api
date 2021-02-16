@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
+ - IDXGIAdapter3.RegisterHardwareContentProtectionTeardownStatusEvent
 ---
 
 # IDXGIAdapter3::RegisterHardwareContentProtectionTeardownStatusEvent
@@ -81,4 +81,3 @@ After the event is signaled, the application can call <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
-

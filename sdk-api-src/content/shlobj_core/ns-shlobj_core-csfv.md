@@ -46,8 +46,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - _CSFV
- - LPCSFV
  - CSFV
 ---
 
@@ -97,4 +95,3 @@ A pointer to the <a href="/windows/desktop/api/shlobj_core/nc-shlobj_core-lpfnvi
 ### -field fvm
 
 Type: <b><a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-folderviewmode">FOLDERVIEWMODE</a></b>
-

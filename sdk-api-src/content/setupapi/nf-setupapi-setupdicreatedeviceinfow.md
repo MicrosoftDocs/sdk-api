@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiCreateDeviceInfoW
  - setupapi/SetupDiCreateDeviceInfoW
- - SetupDiCreateDeviceInfo
- - setupapi/SetupDiCreateDeviceInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiCreateDeviceInfoW
- - SetupDiCreateDeviceInfo
+ - SetupDiCreateDeviceInfo - SetupDiCreateDeviceInfoW
 ---
 
 # SetupDiCreateDeviceInfoW function
@@ -152,4 +149,3 @@ The <i>DeviceInfoSet</i> must only contain elements on the local computer.
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinfoa">SetupDiOpenDeviceInfo</a>
-

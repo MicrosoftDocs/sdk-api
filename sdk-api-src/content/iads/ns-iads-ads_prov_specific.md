@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0004
- - PADS_PROV_SPECIFIC
  - ADS_PROV_SPECIFIC
 ---
 
@@ -81,4 +79,3 @@ ADSI may also return attributes as <b>ADS_PROV_SPECIFIC</b> if unable to determi
 
 
 <a href="/windows/desktop/api/iads/ns-iads-adsvalue">ADSVALUE</a>
-

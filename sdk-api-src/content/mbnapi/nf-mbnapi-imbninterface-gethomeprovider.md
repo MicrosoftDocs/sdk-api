@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface::GetHomeProvider
+ - IMbnInterface.GetHomeProvider
 ---
 
 # IMbnInterface::GetHomeProvider
@@ -149,4 +149,3 @@ The registered <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterfaceevent
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-

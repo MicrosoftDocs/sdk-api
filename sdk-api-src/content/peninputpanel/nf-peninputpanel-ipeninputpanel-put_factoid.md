@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::put_Factoid
+ - IPenInputPanel.Factoid
+ - IPenInputPanel.get_Factoid
+ - IPenInputPanel.put_Factoid
+ - PenInputPanel.get_Factoid
+ - PenInputPanel.put_Factoid
 ---
 
 # IPenInputPanel::put_Factoid
@@ -95,4 +99,3 @@ If the <b>Factoid</b> property is set, it is forwarded to the recognizer only if
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

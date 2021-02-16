@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::SetIndexStatus
+ - IMFASFIndexer.SetIndexStatus
 ---
 
 # IMFASFIndexer::SetIndexStatus
@@ -115,4 +115,3 @@ You cannot use this method in an index reading scenario.  You can only use this 
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-

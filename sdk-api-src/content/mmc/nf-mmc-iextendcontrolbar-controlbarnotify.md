@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendControlbar::ControlbarNotify
+ - IExtendControlbar.ControlbarNotify
 ---
 
 # IExtendControlbar::ControlbarNotify
@@ -103,4 +103,3 @@ For more information, see the individual notifications. The snap-in should retur
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-

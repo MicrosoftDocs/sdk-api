@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::GetNumProtocolsSupported
+ - IWMReaderNetworkConfig.GetNumProtocolsSupported
 ---
 
 # IWMReaderNetworkConfig::GetNumProtocolsSupported
@@ -103,4 +103,3 @@ This method counts the number of protocols that the reader can use when receivin
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-

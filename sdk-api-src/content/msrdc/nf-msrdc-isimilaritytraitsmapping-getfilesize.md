@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping::GetFileSize
+ - ISimilarityTraitsMapping.GetFileSize
 ---
 
 # ISimilarityTraitsMapping::GetFileSize
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>
-

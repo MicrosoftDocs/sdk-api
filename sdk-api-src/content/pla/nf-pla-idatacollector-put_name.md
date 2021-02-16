@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::put_Name
+ - IDataCollector.Name
+ - IDataCollector.get_Name
+ - IDataCollector.put_Name
 ---
 
 # IDataCollector::put_Name
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
-

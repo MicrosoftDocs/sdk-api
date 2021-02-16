@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::FindAllBuildCache
+ - IUIAutomationElement.FindAllBuildCache
 ---
 
 # IUIAutomationElement::FindAllBuildCache
@@ -125,4 +125,3 @@ If your client application might try to find elements in its own user interface,
 
 
 <b>Reference</b>
-

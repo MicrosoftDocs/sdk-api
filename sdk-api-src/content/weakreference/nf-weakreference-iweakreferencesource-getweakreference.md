@@ -41,7 +41,7 @@ api_type:
 api_location:
  - WeakReference.h
 api_name:
- - IWeakReferenceSource::GetWeakReference
+ - IWeakReferenceSource.GetWeakReference
 ---
 
 ## -description
@@ -65,4 +65,3 @@ If this method succeeds, then it returns <b xmlns:loc="http://microsoft.com/wdcm
 ## -see-also
 
 <a href="/windows/win32/api/weakreference/nn-weakreference-iweakreferencesource">IWeakReferenceSource</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig2::GetDataUnitExtension
+ - IWMStreamConfig2.GetDataUnitExtension
 ---
 
 # IWMStreamConfig2::GetDataUnitExtension
@@ -127,4 +127,3 @@ To retrieve the total number of data unit extension systems associated with the 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension">IWMStreamConfig2::AddDataUnitExtension</a>
-

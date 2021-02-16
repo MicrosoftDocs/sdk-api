@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbGetsW
  - strsafe/StringCbGetsW
- - StringCbGets
- - strsafe/StringCbGets
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCbGetsW
  - StringCbGets
+ - StringCbGetsA
+ - StringCbGetsW
 ---
 
 # StringCbGetsW function
@@ -183,4 +182,3 @@ The value of <i>pszDest</i> should not be <b>NULL</b>. See <a href="/windows/des
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsa">StringCchGets</a>
-

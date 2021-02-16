@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::GetGestureStatus
+ - IInkPicture.GetGestureStatus
 ---
 
 # IInkPicture::GetGestureStatus
@@ -168,4 +168,3 @@ To set the interest of the <a href="/windows/desktop/tablet/inkpicture-control-r
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setgesturestatus">SetGestureStatus Method</a>
-

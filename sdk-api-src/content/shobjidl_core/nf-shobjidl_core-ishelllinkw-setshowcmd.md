@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkW::SetShowCmd
+ - IShellLink.SetShowCmd
+ - IShellLinkA.SetShowCmd
+ - IShellLinkW.SetShowCmd
 ---
 
 # IShellLinkW::SetShowCmd
@@ -114,4 +116,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>IShellLinkW</b>
-

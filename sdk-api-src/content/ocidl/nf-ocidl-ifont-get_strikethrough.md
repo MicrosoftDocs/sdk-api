@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::get_Strikethrough
+ - IFont.get_Strikethrough
 ---
 
 # IFont::get_Strikethrough
@@ -101,4 +101,3 @@ The address in the <i>pStrikethrough</i> parameter is not valid. For example, it
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_strikethrough">IFont::put_Strikethrough</a>
-

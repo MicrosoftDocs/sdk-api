@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::SetObject
+ - IMFTopologyNode.SetObject
 ---
 
 # IMFTopologyNode::SetObject
@@ -120,4 +120,3 @@ If the object supports <b>IPersist</b>, <b>IPersistStorage</b>, or <b>IPersistPr
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

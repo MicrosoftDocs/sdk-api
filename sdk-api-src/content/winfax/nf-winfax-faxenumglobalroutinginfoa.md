@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxEnumGlobalRoutingInfoA
  - winfax/FaxEnumGlobalRoutingInfoA
- - FaxEnumGlobalRoutingInfo
- - winfax/FaxEnumGlobalRoutingInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxEnumGlobalRoutingInfoA
  - FaxEnumGlobalRoutingInfo
+ - FaxEnumGlobalRoutingInfoA
+ - FaxEnumGlobalRoutingInfoW
 ---
 
 # FaxEnumGlobalRoutingInfoA function
@@ -166,4 +165,3 @@ The <b>FaxEnumGlobalRoutingInfo</b> function allocates the memory required for t
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetglobalroutinginfoa">FaxSetGlobalRoutingInfo</a>
-

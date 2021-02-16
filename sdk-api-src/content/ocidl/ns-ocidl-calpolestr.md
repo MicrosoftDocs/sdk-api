@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagCALPOLESTR
- - LPCALPOLESTR
  - CALPOLESTR
 ---
 
@@ -75,4 +73,3 @@ A pointer to an array of <a href="/windows/desktop/api/wtypesbase/nf-wtypesbase-
 
 
 <a href="/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">LPOLESTR</a>
-

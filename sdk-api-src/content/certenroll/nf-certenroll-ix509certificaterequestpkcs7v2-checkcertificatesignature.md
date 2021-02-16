@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateRequestPkcs7V2::CheckCertificateSignature
+ - IX509CertificateRequestPkcs7V2.CheckCertificateSignature
 ---
 
 # IX509CertificateRequestPkcs7V2::CheckCertificateSignature
@@ -90,4 +90,3 @@ A PKCS #7 request has exactly one certificate-based signature.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7v2">IX509CertificateRequestPkcs7V2</a>
-

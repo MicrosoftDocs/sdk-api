@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMPluginControl::SetPreferredClsid
+ - IAMPluginControl.SetPreferredClsid
 ---
 
 # IAMPluginControl::SetPreferredClsid
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
-

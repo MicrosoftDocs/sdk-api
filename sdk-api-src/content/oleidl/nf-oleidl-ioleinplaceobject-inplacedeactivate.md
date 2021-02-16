@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceObject::InPlaceDeactivate
+ - IOleInPlaceObject.InPlaceDeactivate
 ---
 
 # IOleInPlaceObject::InPlaceDeactivate
@@ -106,4 +106,3 @@ During the call to <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-clo
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
-

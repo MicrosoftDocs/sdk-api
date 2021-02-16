@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiConfigureProductW
  - msi/MsiConfigureProductW
- - MsiConfigureProduct
- - msi/MsiConfigureProduct
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiConfigureProductW
  - MsiConfigureProduct
+ - MsiConfigureProductA
+ - MsiConfigureProductW
 ---
 
 # MsiConfigureProductW function
@@ -244,4 +243,3 @@ The <i>iInstallLevel</i> parameter is ignored, and all features of the product a
 ## -see-also
 
 <a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
-

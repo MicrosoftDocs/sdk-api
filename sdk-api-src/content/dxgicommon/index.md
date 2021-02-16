@@ -9,8 +9,6 @@ tech.root: direct3ddxgi
 f1_keywords:
  - dxgicommon
  - dxgicommon/dxgicommon
-api_name:
- - dxgicommon
 ---
 
 # Dxgicommon.h header

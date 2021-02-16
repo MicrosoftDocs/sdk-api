@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_SYNCSURFACEDATA
- - PDD_SYNCSURFACEDATA
  - DD_SYNCSURFACEDATA
 ---
 
@@ -111,4 +109,3 @@ Specifies the location in which the driver writes the return value of the <a hre
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_kernelcb_syncsurface">DdSyncSurfaceData</a>
-

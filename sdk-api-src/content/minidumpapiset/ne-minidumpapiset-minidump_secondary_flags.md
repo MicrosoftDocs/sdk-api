@@ -44,7 +44,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_SECONDARY_FLAGS
  - MINIDUMP_SECONDARY_FLAGS
 ---
 
@@ -66,4 +65,3 @@ The minidump information does not retrieve the processor power information conta
 ## -see-also
 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_misc_info_2">MINIDUMP_MISC_INFO_2</a>
-

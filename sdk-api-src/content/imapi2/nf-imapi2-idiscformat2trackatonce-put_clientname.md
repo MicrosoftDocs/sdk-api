@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce::put_ClientName
+ - IDiscFormat2TrackAtOnce.put_ClientName
 ---
 
 # IDiscFormat2TrackAtOnce::put_ClientName
@@ -134,4 +134,3 @@ Because any application with read/write access to the CDROM device during the wr
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_clientname">IDiscFormat2TrackAtOnce::get_ClientName</a>
-

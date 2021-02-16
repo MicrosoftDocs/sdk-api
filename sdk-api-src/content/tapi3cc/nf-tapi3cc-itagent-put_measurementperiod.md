@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent::put_MeasurementPeriod
+ - ITAgent.put_MeasurementPeriod
 ---
 
 # ITAgent::put_MeasurementPeriod
@@ -129,4 +129,3 @@ This method will accept negative values for the measurement period, but this wil
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itagent-get_measurementperiod">get_MeasurementPeriod</a>
-

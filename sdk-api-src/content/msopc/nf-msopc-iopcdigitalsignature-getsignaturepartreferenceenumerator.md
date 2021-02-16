@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcDigitalSignature::GetSignaturePartReferenceEnumerator
+ - IOpcDigitalSignature.GetSignaturePartReferenceEnumerator
 ---
 
 # IOpcDigitalSignature::GetSignaturePartReferenceEnumerator
@@ -142,4 +142,3 @@ The <i>partReferenceEnumerator</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
-

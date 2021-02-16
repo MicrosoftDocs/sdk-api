@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspace::GetProcessId
+ - IWorkspace.GetProcessId
+ - IWorkspace2.GetProcessId
+ - IWorkspace3.GetProcessId
+ - Workspace.GetProcessId
 ---
 
 # IWorkspace::GetProcessId
@@ -73,4 +76,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspace3">IWorkspace3</a>
-

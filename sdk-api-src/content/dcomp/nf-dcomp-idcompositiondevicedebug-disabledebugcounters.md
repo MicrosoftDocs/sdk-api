@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDeviceDebug::DisableDebugCounters
+ - IDCompositionDeviceDebug.DisableDebugCounters
 ---
 
 # IDCompositionDeviceDebug::DisableDebugCounters
@@ -69,4 +69,3 @@ Microsoft DirectComposition keeps a count of how many DirectComposition devices 
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevicedebug-enabledebugcounters">IDCompositionDeviceDebug::EnableDebugCounters</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - relogger.h
 api_name:
- - _ETW_BUFFER_CONTEXT
- - PETW_BUFFER_CONTEXT
  - ETW_BUFFER_CONTEXT
 ---
 
@@ -81,4 +79,3 @@ Identifier of the session that logged the event.
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsRemovable::Eject
+ - IVdsRemovable.Eject
 ---
 
 # IVdsRemovable::Eject
@@ -98,4 +98,3 @@ The call to the device failed because the device was performing another operatio
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsremovable-querymedia">IVdsRemovable::QueryMedia</a>
-

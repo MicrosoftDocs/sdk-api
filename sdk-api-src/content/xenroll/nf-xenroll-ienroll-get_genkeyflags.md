@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_GenKeyFlags
+ - IEnroll.GenKeyFlags
+ - IEnroll.get_GenKeyFlags
+ - IEnroll.put_GenKeyFlags
 ---
 
 # IEnroll::get_GenKeyFlags
@@ -100,4 +102,3 @@ The <b>GenKeyFlags</b> property affects the behavior of the following methods:
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

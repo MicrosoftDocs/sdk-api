@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _NEW_LOG_FILE_FREQUENCY
  - NEW_LOG_FILE_FREQUENCY
 ---
 
@@ -81,4 +80,3 @@ Creates a new log file when the log file reaches a particular size.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-accountingproperties">ACCOUNTINGPROPERTIES</a>
-

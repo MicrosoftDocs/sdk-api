@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Inspectable.h
 api_name:
- - IInspectable::GetRuntimeClassName
+ - IInspectable.GetRuntimeClassName
+ - IInputPaneInterop.GetRuntimeClassName
 ---
 
 # IInspectable::GetRuntimeClassName
@@ -152,4 +153,3 @@ The <b>GetRuntimeClassName</b> method returns <b>E_ILLEGAL_METHOD_CALL</b> if th
 
 
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-

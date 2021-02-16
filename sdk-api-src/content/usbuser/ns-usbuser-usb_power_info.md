@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USB_POWER_INFO
- - PUSB_POWER_INFO
  - USB_POWER_INFO
 ---
 
@@ -111,4 +109,3 @@ The <b>USB_POWER_INFO</b> structure is used with the USBUSER_GET_POWER_STATE_MAP
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM::CreateTrustee
+ - IGPM.CreateTrustee
+ - GPM.CreateTrustee
 ---
 
 # IGPM::CreateTrustee
@@ -95,4 +96,3 @@ For more information about policy-related permissions, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
-

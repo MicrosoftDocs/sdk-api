@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumProtocolsA
  - nspapi/EnumProtocolsA
- - EnumProtocols
- - nspapi/EnumProtocols
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mswsock.dll
 api_name:
- - EnumProtocolsA
  - EnumProtocols
+ - EnumProtocolsA
+ - EnumProtocolsW
 ---
 
 # EnumProtocolsA function
@@ -368,4 +367,3 @@ int FindProtocol (
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-

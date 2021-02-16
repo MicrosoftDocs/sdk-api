@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::SetPosition
+ - IMathInputControl.SetPosition
 ---
 
 # IMathInputControl::SetPosition
@@ -130,4 +130,3 @@ If  the method returns <b>S_FALSE</b>, the  <a href="/windows/desktop/api/micaut
 
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-

@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_DRIVE_FLAG
- - PVDS_DRIVE_FLAG
  - VDS_DRIVE_FLAG
 ---
 
@@ -111,4 +109,3 @@ This enumeration provides the values for the <i>ulFlags</i> member of the  <a hr
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop2">VDS_DRIVE_PROP2</a>
-

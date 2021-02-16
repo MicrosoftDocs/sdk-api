@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_TRANSPORT_ADDRESS
- - PHTTP_TRANSPORT_ADDRESS
  - HTTP_TRANSPORT_ADDRESS
 ---
 
@@ -80,4 +78,3 @@ Although the <b>pRemoteAddress</b> and <b>pLocalAddress</b> members are formally
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa364545(v=vs.85)">HTTP_REQUEST</a>
-

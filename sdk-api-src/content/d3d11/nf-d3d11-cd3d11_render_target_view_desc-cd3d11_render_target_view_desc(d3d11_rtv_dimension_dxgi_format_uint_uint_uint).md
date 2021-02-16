@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC
+ - CD3D11_RENDER_TARGET_VIEW_DESC.CD3D11_RENDER_TARGET_VIEW_DESC
 ---
 
 # CD3D11_RENDER_TARGET_VIEW_DESC::CD3D11_RENDER_TARGET_VIEW_DESC(D3D11_RTV_DIMENSION,DXGI_FORMAT,UINT,UINT,UINT)
@@ -90,4 +90,3 @@ Number of elements in the array. <b>WSize</b> for <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151668(v=vs.85)">CD3D11_RENDER_TARGET_VIEW_DESC</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_OUTPUT_RATE
  - DXVAHD_OUTPUT_RATE
 ---
 
@@ -92,4 +91,3 @@ Frame output is at a custom rate.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

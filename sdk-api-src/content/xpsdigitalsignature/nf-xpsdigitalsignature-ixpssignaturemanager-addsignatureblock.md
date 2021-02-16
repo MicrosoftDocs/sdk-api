@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager::AddSignatureBlock
+ - IXpsSignatureManager.AddSignatureBlock
 ---
 
 # IXpsSignatureManager::AddSignatureBlock
@@ -141,4 +141,3 @@ To retrieve a signature block, call   the <a href="/windows/desktop/api/xpsdigit
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

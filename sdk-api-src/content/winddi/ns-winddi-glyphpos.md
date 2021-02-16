@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _GLYPHPOS
- - PGLYPHPOS
  - GLYPHPOS
 ---
 
@@ -93,4 +91,3 @@ Specifies a <a href="/windows/desktop/api/windef/ns-windef-pointl">POINTL</a> st
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-strobj_venumstart">STROBJ_vEnumStart</a>
-

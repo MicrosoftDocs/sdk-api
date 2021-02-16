@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressCapabilities::get_AddressCapabilityString
+ - ITAddressCapabilities.get_AddressCapabilityString
 ---
 
 # ITAddressCapabilities::get_AddressCapabilityString
@@ -146,4 +146,3 @@ The application must use
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
-

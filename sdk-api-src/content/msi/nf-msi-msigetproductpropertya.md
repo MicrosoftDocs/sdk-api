@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetProductPropertyA
  - msi/MsiGetProductPropertyA
- - MsiGetProductProperty
- - msi/MsiGetProductProperty
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetProductPropertyA
  - MsiGetProductProperty
+ - MsiGetProductPropertyA
+ - MsiGetProductPropertyW
 ---
 
 # MsiGetProductPropertyA function
@@ -157,4 +156,3 @@ When the
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
-

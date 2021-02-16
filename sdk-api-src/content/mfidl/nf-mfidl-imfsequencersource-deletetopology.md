@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSequencerSource::DeleteTopology
+ - IMFSequencerSource.DeleteTopology
 ---
 
 # IMFSequencerSource::DeleteTopology
@@ -88,4 +88,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
-

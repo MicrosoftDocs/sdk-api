@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
+ - IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters
 ---
 
 # IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters
@@ -70,4 +70,3 @@ Returns the number of messages that can pass through a retrieval filter.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

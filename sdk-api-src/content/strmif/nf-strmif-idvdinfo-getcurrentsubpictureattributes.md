@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentSubpictureAttributes
+ - IDvdInfo.GetCurrentSubpictureAttributes
 ---
 
 # IDvdInfo::GetCurrentSubpictureAttributes
@@ -117,4 +117,3 @@ For information about DVD_SubpictureATR, see the DVD-Video specification.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

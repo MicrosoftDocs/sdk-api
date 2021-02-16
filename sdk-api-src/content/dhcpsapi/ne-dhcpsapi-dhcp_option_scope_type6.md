@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION_SCOPE_TYPE6
- - LPDHCP_OPTION_SCOPE_TYPE6
  - DHCP_OPTION_SCOPE_TYPE6
 ---
 
@@ -77,4 +75,3 @@ Only the reserved set of DHCP options are selected.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info6">DHCP_OPTION_SCOPE_INFO6</a>
-

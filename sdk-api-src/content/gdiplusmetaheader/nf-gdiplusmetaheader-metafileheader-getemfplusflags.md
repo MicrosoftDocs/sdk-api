@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader::GetEmfPlusFlags
+ - MetafileHeader.GetEmfPlusFlags
 ---
 
 # MetafileHeader::GetEmfPlusFlags
@@ -80,4 +80,3 @@ If the associated metafile is in the EMF+ format and was recorded against a vide
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-

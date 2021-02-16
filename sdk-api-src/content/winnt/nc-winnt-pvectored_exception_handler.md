@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - PVECTORED_EXCEPTION_HANDLER
+ - VectoredHandler
 ---
 
 # PVECTORED_EXCEPTION_HANDLER callback function
@@ -76,4 +76,3 @@ The handler should not call functions that acquire synchronization objects or al
 
 
 <a href="/windows/desktop/Debug/vectored-exception-handling">Vectored Exception Handling</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - _DHCP_IP_RANGE_ARRAY
- - PDHCP_IP_RANGE_ARRAY
  - DHCP_IP_RANGE_ARRAY
 ---
 
@@ -75,4 +73,3 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a>
-

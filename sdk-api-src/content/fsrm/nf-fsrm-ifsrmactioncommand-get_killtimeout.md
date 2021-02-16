@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionCommand::get_KillTimeOut
+ - IFsrmActionCommand.KillTimeOut
+ - IFsrmActionCommand.get_KillTimeOut
+ - IFsrmActionCommand.put_KillTimeOut
 ---
 
 # IFsrmActionCommand::get_KillTimeOut
@@ -86,4 +88,3 @@ For FSRM to terminate the process, the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
- - _PDH_FMT_COUNTERVALUE_ITEM_W
- - PPDH_FMT_COUNTERVALUE_ITEM_W
+ - PDH_FMT_COUNTERVALUE_ITEM
+ - PDH_FMT_COUNTERVALUE_ITEM_A
  - PDH_FMT_COUNTERVALUE_ITEM_W
 ---
 
@@ -76,4 +76,3 @@ Pointer to a null-terminated string that specifies the instance name of the coun
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcounterarraya">PdhGetFormattedCounterArray</a>
-

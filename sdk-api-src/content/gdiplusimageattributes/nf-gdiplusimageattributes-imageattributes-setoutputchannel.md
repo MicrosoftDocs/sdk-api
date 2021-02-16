@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes::SetOutputChannel
+ - ImageAttributes.SetOutputChannel
 ---
 
 # ImageAttributes::SetOutputChannel
@@ -178,4 +178,3 @@ The following illustration shows the output of the preceding code.
 
 
 <a href="/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannelcolorprofile">ImageAttributes::SetOutputChannelColorProfile</a>
-

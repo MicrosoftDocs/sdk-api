@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tiptsf.dll
 api_name:
- - ITfCandidateList::GetCandidateNum
+ - ITfCandidateList.GetCandidateNum
 ---
 
 # ITfCandidateList::GetCandidateNum

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
+ - IMFWorkQueueServices.BeginRegisterTopologyWorkQueuesWithMMCSS
 ---
 
 # IMFWorkQueueServices::BeginRegisterTopologyWorkQueuesWithMMCSS
@@ -98,4 +98,3 @@ To unregister the topology work queues from MMCSS, call <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-

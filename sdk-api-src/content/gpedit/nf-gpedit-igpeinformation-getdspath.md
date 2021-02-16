@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation::GetDSPath
+ - IGPEInformation.GetDSPath
 ---
 
 # IGPEInformation::GetDSPath
@@ -114,4 +114,3 @@ To retrieve the file system path for the specified section of a GPO, you can cal
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
-

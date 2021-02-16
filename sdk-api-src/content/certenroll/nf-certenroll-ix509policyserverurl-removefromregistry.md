@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::RemoveFromRegistry
+ - IX509PolicyServerUrl.RemoveFromRegistry
 ---
 
 # IX509PolicyServerUrl::RemoveFromRegistry
@@ -122,4 +122,3 @@ You do not have sufficient access rights to unregister the CEP.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

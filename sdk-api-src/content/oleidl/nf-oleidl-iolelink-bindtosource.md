@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::BindToSource
+ - IOleLink.BindToSource
 ---
 
 # IOleLink::BindToSource
@@ -160,4 +160,3 @@ If <b>IOleLink::BindToSource</b> binds to the link source, it calls the compound
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a>
-

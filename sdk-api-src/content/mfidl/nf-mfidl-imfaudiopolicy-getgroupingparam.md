@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAudioPolicy::GetGroupingParam
+ - IMFAudioPolicy.GetGroupingParam
 ---
 
 # IMFAudioPolicy::GetGroupingParam
@@ -92,4 +92,3 @@ If two or more audio sessions share the same group, the Windows volume control d
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
-

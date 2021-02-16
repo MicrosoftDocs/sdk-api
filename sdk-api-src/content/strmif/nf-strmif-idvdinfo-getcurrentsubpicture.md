@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentSubpicture
+ - IDvdInfo.GetCurrentSubpicture
 ---
 
 # IDvdInfo::GetCurrentSubpicture
@@ -136,4 +136,3 @@ This method returns an error unless the domain is DVD_DOMAIN_Title. For more inf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

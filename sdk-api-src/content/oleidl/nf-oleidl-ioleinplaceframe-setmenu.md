@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceFrame::SetMenu
+ - IOleInPlaceFrame.SetMenu
 ---
 
 # IOleInPlaceFrame::SetMenu
@@ -131,4 +131,3 @@ When deactivating, the container must call <b>IOleInPlaceFrame::SetMenu</b>, spe
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>
-

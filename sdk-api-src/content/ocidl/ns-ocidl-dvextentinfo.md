@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagExtentInfo
  - DVEXTENTINFO
 ---
 
@@ -76,4 +75,3 @@ The proposed size in content sizing or the preferred size in integral sizing.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getnaturalextent">IViewObjectEx::GetNaturalExtent</a>
-

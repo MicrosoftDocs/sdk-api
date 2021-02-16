@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidXDS::get_ChannelChangeInterface
+ - IMSVidXDS.get_ChannelChangeInterface
 ---
 
 # IMSVidXDS::get_ChannelChangeInterface
@@ -100,4 +100,3 @@ Success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidxds">IMSVidXDS Interface</a>
-

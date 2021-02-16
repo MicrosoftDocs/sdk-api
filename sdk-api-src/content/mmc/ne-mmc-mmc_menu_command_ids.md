@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_MENU_COMMAND_IDS
  - MMC_MENU_COMMAND_IDS
 ---
 
@@ -70,4 +69,3 @@ Typically, a snap-in's
 
 MMCC_STANDARD_VIEW_SELECT notifies the snap-in that the custom view is going away and that the snap-in can do any necessary clean-up. The next time the snap-in's 
 <a href="/windows/desktop/api/mmc/nf-mmc-icomponent-getresultviewtype">IComponent::GetResultViewType</a> method is called, the snap-in should return S_FALSE to indicate that the default list view should be used.
-

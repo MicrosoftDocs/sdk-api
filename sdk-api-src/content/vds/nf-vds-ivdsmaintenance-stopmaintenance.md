@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsMaintenance::StopMaintenance
+ - IVdsMaintenance.StopMaintenance
 ---
 
 # IVdsMaintenance::StopMaintenance
@@ -158,4 +158,3 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_maintenance_operation">VDS_MAINTENANCE_OPERATION</a>
-

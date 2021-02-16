@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_OID_INFO
- - PCRYPT_OID_INFO
  - CRYPT_OID_INFO
 ---
 
@@ -427,4 +425,3 @@ For the other values of <b>dwGroupId</b>, set the <b>pwszCNGExtraAlgid</b> membe
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptunregisteroidinfo">CryptUnregisterOIDInfo</a>
-

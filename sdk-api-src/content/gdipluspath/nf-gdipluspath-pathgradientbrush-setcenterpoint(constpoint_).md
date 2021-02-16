@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::SetCenterPoint
+ - PathGradientBrush.SetCenterPoint
 ---
 
 # PathGradientBrush::SetCenterPoint(IN const Point &)
@@ -103,4 +103,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setcentercolor">PathGradientBrush::SetCenterColor</a>
-

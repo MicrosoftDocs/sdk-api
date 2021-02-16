@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pwm.h
 api_name:
- - _PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
  - PWM_CONTROLLER_SET_DESIRED_PERIOD_OUTPUT
 ---
 
@@ -64,4 +63,3 @@ The effective output signal period, in picoseconds, of the controller.
 ## -see-also
 
 <a href="/windows/desktop/api/pwm/ni-pwm-ioctl_pwm_controller_set_desired_period">IOCTL_PWM_CONTROLLER_SET_DESIRED_PERIOD</a>
-

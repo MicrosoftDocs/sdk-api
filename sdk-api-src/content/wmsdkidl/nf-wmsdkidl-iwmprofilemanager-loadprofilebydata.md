@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager::LoadProfileByData
+ - IWMProfileManager.LoadProfileByData
 ---
 
 # IWMProfileManager::LoadProfileByData
@@ -116,4 +116,3 @@ This string must match an XML-formatted string created by <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
-

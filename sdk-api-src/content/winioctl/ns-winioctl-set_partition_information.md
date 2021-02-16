@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _SET_PARTITION_INFORMATION
- - PSET_PARTITION_INFORMATION
  - SET_PARTITION_INFORMATION
 ---
 
@@ -77,4 +75,3 @@ The type of partition. For a list of values, see
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
-

@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - subscriptionservices
  - subscriptionservices/subscriptionservices
-api_name:
- - subscriptionservices
 ---
 
 # Subscriptionservices.h header

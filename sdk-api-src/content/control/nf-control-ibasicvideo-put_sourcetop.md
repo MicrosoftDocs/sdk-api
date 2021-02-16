@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::put_SourceTop
+ - IBasicVideo.put_SourceTop
 ---
 
 # IBasicVideo::put_SourceTop
@@ -114,4 +114,3 @@ This method moves the entire source rectangle up or down. It does not change the
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsNamespace::GetSettingByPath
+ - ISettingsNamespace.GetSettingByPath
 ---
 
 # ISettingsNamespace::GetSettingByPath
@@ -131,4 +131,3 @@ Indicates that the path is incorrectly specified and references the wrong key fo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsnamespace">ISettingsNamespace</a>
-

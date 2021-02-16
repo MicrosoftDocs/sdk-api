@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties::SetBinary
+ - IContactProperties.SetBinary
 ---
 
 # IContactProperties::SetBinary
@@ -133,4 +133,3 @@ To set a single-level property, set <i>pszPropertyName</i> to the property name.
 
 To set a property from a multi-value property, set <i>pszPropertyName</i> 
 		to the form: toplevel/secondlevel[4]/thirdlevel.
-

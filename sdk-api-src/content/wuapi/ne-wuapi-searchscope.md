@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
- - tagSearchScope
  - SearchScope
 ---
 
@@ -84,4 +83,3 @@ Search only for per-user updates applicable to the calling user – the user who
 ## -remarks
 
 In versions of the Windows Update Agent that do not support per-user updates (versions that do not support the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher3">IUpdateSearcher3</a> interface), searches will always return only per-machine updates.
-

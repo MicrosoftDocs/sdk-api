@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Winineti.h
 api_name:
- - _INTERNET_CACHE_CONFIG_INFOW
- - LPINTERNET_CACHE_CONFIG_INFOW
- - INTERNET_CACHE_CONFIG_INFOW
+ - INTERNET_CACHE_CONFIG_INFO
 ---
 
 # INTERNET_CACHE_CONFIG_INFOW structure
@@ -122,4 +120,3 @@ The number of kilobytes for this container exempt from scavenging.
 ## -see-also
 
 <a href="/windows/desktop/api/winineti/nf-winineti-geturlcacheconfiginfoa">GetUrlCacheConfigInfo</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_FILTER_LIST_TYPE
- - LPDHCP_FILTER_LIST_TYPE
  - DHCP_FILTER_LIST_TYPE
 ---
 

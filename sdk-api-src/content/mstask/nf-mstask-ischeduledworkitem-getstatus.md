@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetStatus
+ - IScheduledWorkItem.GetStatus
 ---
 
 # IScheduledWorkItem::GetStatus
@@ -166,4 +166,3 @@ For an example of how to retrieve  the task status as part of terminating the ta
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-

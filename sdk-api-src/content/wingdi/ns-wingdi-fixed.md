@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _FIXED
  - FIXED
 ---
 
@@ -80,4 +79,3 @@ The <b>FIXED</b> structure is used to describe the elements of the <a href="/win
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-mat2">MAT2</a>
-

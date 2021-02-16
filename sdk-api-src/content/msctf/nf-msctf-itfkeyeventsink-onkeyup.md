@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeyEventSink::OnKeyUp
+ - ITfKeyEventSink.OnKeyUp
 ---
 
 # ITfKeyEventSink::OnKeyUp
@@ -91,4 +91,3 @@ The method was successful.
 </td>
 </tr>
 </table>
-

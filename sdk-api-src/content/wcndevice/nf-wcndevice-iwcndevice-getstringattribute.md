@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice::GetStringAttribute
+ - IWCNDevice.GetStringAttribute
 ---
 
 # IWCNDevice::GetStringAttribute
@@ -128,4 +128,3 @@ This attribute cannot be expressed as a string. For example, if it is an integer
 
 
 <b>WCN_ATTRIBUTE_TYPE</b>
-

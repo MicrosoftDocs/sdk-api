@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice::Advise
+ - IPortableDevice.Advise
 ---
 
 # IPortableDevice::Advise
@@ -101,4 +101,3 @@ The application-defined callback was successfully registered.
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
-

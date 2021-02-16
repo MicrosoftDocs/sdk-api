@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::PollForPotentialSupportedPatterns
+ - IUIAutomation.PollForPotentialSupportedPatterns
 ---
 
 # IUIAutomation::PollForPotentialSupportedPatterns
@@ -107,4 +107,3 @@ There is no guarantee that the element will support any particular control patte
 
 
 <b>Reference</b>
-

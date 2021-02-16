@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_KEYING_POLICY0_
  - IPSEC_KEYING_POLICY0
 ---
 
@@ -73,4 +72,3 @@ Array of distinct keying modules.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

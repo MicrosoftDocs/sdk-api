@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IApiTracingDataCollector::get_LogApiNamesOnly
+ - IApiTracingDataCollector.LogApiNamesOnly
+ - IApiTracingDataCollector.get_LogApiNamesOnly
+ - IApiTracingDataCollector.put_LogApiNamesOnly
 ---
 
 # IApiTracingDataCollector::get_LogApiNamesOnly
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
-

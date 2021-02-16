@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.h
 api_name:
- - ID3D12DescriptorHeap::GetDesc
+ - ID3D12DescriptorHeap.GetDesc
 ---
 
 # ID3D12DescriptorHeap::GetDesc
@@ -63,4 +63,3 @@ The description of the descriptor heap, as a <a href="/windows/desktop/api/d3d12
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>
-

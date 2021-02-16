@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagVARDESC
- - LPVARDESC
  - VARDESC
 ---
 
@@ -89,4 +87,3 @@ The variable flags. See <a href="/windows/desktop/api/oaidl/ne-oaidl-varflags">V
 ### -field varkind
 
 The variable type.
-

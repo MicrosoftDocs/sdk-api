@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary::AddFolder
+ - IShellLibrary.AddFolder
 ---
 
 # IShellLibrary::AddFolder
@@ -146,4 +146,3 @@ __inline HRESULT SHAddFolderPathToLibrary (
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
-

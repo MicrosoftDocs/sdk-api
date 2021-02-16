@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContact::GetContactID
+ - IContact.GetContactID
 ---
 
 # IContact::GetContactID
@@ -114,4 +114,3 @@ Macro HRESULT_FROM_WIN32(ERROR_INSUFFICIENT_BUFFER) returned when <i>pszContactI
 
 
 <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactmanager-load">Load</a>
-

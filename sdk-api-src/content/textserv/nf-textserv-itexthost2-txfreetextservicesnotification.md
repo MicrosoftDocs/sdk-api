@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost2::TxFreeTextServicesNotification
+ - ITextHost2.TxFreeTextServicesNotification
 ---
 
 # ITextHost2::TxFreeTextServicesNotification
@@ -61,4 +61,3 @@ If the text host hasn't received this notification when the text host is shuttin
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nl-textserv-itexthost2">ITextHost2</a>
-

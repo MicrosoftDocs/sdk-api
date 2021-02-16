@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem::Children
+ - ISettingsItem.Children
 ---
 
 # ISettingsItem::Children
@@ -105,4 +105,3 @@ Indicates that the item does not support having children.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-

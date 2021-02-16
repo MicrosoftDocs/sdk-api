@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _AllocatorProperties
  - ALLOCATOR_PROPERTIES
 ---
 
@@ -82,4 +81,3 @@ The alignment is applied to the prefix data, if any. If a nonzero prefix is used
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

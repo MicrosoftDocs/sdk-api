@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::SetZOrder
+ - IMixerPinConfig.SetZOrder
 ---
 
 # IMixerPinConfig::SetZOrder
@@ -86,4 +86,3 @@ Specifying the same z-order for two overlapping streams can cause strange video 
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getzorder">IMixerPinConfig::GetZOrder</a>
-

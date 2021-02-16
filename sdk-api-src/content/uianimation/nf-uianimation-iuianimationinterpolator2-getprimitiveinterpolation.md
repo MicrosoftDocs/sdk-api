@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator2::GetPrimitiveInterpolation
+ - IUIAnimationInterpolator2.GetPrimitiveInterpolation
 ---
 
 # IUIAnimationInterpolator2::GetPrimitiveInterpolation
@@ -73,4 +73,3 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprimitiveinterpolation">IUIAnimationPrimitiveInterpolation</a>
-

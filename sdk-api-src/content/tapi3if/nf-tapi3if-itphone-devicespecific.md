@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::DeviceSpecific
+ - ITPhone.DeviceSpecific
 ---
 
 # ITPhone::DeviceSpecific
@@ -121,4 +121,3 @@ The <i>pParams</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>
-

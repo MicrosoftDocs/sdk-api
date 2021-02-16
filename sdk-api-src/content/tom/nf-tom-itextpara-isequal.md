@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::IsEqual
+ - ITextPara.IsEqual
 ---
 
 # ITextPara::IsEqual
@@ -87,4 +87,3 @@ If the objects are equal, <b>ITextPara::IsEqual</b> succeeds and returns <b>S_OK
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

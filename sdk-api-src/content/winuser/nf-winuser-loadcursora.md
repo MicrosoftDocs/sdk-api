@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LoadCursorA
  - winuser/LoadCursorA
- - LoadCursor
- - winuser/LoadCursor
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Cursor-L1-1-0.dll
  - MinUser.dll
 api_name:
- - LoadCursorA
  - LoadCursor
+ - LoadCursorA
+ - LoadCursorW
 ---
 
 # LoadCursorA function
@@ -322,4 +321,3 @@ For an example, see <a href="/windows/desktop/menurc/using-cursors">Creating a C
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-showcursor">ShowCursor</a>
-

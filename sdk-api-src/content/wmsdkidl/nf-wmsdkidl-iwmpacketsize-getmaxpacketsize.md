@@ -46,7 +46,8 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMPacketSize::GetMaxPacketSize
+ - IWMPacketSize.GetMaxPacketSize
+ - IWMPacketSize2.GetMaxPacketSize
 ---
 
 # IWMPacketSize::GetMaxPacketSize
@@ -106,4 +107,3 @@ For more information, see the Remarks section of <a href="/windows/desktop/api/w
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2">IWMPacketSize2</a>
-

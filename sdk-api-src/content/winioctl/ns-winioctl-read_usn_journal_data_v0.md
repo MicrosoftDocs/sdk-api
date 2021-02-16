@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PREAD_USN_JOURNAL_DATA_V0
  - READ_USN_JOURNAL_DATA_V0
 ---
 
@@ -455,4 +454,3 @@ The NTFS file system can miss putting events in the change journal if the change
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-usn_record_v2">USN_RECORD</a>
-

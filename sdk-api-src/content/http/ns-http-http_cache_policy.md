@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_CACHE_POLICY
- - PHTTP_CACHE_POLICY
  - HTTP_CACHE_POLICY
 ---
 
@@ -109,4 +107,3 @@ When the <b>Policy</b> member is equal to HttpCachePolicyTimeToLive, data is cac
 ## -see-also
 
 <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
-

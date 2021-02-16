@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IErrorInfo::GetHelpContext
+ - IErrorInfo.GetHelpContext
 ---
 
 # IErrorInfo::GetHelpContext
@@ -69,4 +69,3 @@ This method returns the Help context ID for the error. To find the Help file to 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
-

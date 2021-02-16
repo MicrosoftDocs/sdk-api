@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TOKEN_SOURCE
- - PTOKEN_SOURCE
  - TOKEN_SOURCE
 ---
 
@@ -115,4 +113,3 @@ Specifies a locally unique identifier (<a href="/windows/desktop/SecGloss/l-gly"
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
-

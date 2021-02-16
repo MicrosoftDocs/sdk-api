@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - dispatcherqueue
  - dispatcherqueue/dispatcherqueue
-api_name:
- - dispatcherqueue
 ---
 
 # Dispatcherqueue.h header

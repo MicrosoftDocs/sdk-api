@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink::OnUserAuthenticationFailed
+ - ITSGAuthenticateUserSink.OnUserAuthenticationFailed
 ---
 
 # ITSGAuthenticateUserSink::OnUserAuthenticationFailed
@@ -82,4 +82,3 @@ For a sample that uses the <b>OnUserAuthenticationFailed</b> method, see the [Re
 ## -see-also
 
 <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a>
-

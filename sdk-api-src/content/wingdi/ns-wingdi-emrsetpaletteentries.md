@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSETPALETTEENTRIES
- - PEMRSETPALETTEENTRIES
  - EMRSETPALETTEENTRIES
 ---
 
@@ -95,4 +93,3 @@ Array of <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structu
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setpaletteentries">SetPaletteEntries</a>
-

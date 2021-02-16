@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - INamespaceWalk::GetIDArrayResult
+ - INamespaceWalk.GetIDArrayResult
 ---
 
 # INamespaceWalk::GetIDArrayResult
@@ -135,4 +135,3 @@ void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
     return; 
 }
 ```
-

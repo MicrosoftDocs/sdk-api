@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager::Enable
+ - IOleUndoManager.Enable
 ---
 
 # IOleUndoManager::Enable
@@ -89,4 +89,3 @@ If the undo manager is disabled, each method in <a href="/windows/desktop/api/oc
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
-

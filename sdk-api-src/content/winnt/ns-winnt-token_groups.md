@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TOKEN_GROUPS
- - PTOKEN_GROUPS
  - TOKEN_GROUPS
 ---
 
@@ -248,4 +246,3 @@ If this attribute is set, SE_GROUP_ENABLED is not set, and the SID cannot be ree
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
-

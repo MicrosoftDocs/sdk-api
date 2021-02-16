@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::AddAuthenticatedAttributesToPKCS7Request
+ - IEnroll.AddAuthenticatedAttributesToPKCS7Request
 ---
 
 # IEnroll::AddAuthenticatedAttributesToPKCS7Request
@@ -67,4 +67,3 @@ The return value is an <b>HRESULT</b>, with S_OK returned if the call is success
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

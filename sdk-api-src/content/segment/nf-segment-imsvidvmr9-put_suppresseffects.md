@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVMR9::put_SuppressEffects
+ - IMSVidVMR9.put_SuppressEffects
 ---
 
 # IMSVidVMR9::put_SuppressEffects
@@ -105,4 +105,3 @@ The default value for this property is VARIANT_TRUE. Set this property to VARIAN
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
-

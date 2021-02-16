@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentHandlerEvent::get_Event
+ - ITAgentHandlerEvent.get_Event
 ---
 
 # ITAgentHandlerEvent::get_Event
@@ -111,4 +111,3 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandlerevent">ITAgentHandlerEvent</a>
-

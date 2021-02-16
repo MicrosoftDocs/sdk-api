@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTimer::SetTimer
+ - IMFTimer.SetTimer
 ---
 
 # IMFTimer::SetTimer
@@ -126,4 +126,3 @@ If the clock is stopped, the method returns MF_S_CLOCK_STOPPED. The callback wil
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftimer">IMFTimer</a>
-

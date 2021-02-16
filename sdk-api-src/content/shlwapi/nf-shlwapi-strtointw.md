@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StrToIntW
  - shlwapi/StrToIntW
- - StrToInt
- - shlwapi/StrToInt
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrToIntW
  - StrToInt
+ - StrToIntA
+ - StrToIntW
 ---
 
 # StrToIntW function
@@ -93,4 +92,3 @@ If the string pointed to by <i>pszSrc</i> contains an invalid character, that ch
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strtointexa">StrToIntEx</a>
-

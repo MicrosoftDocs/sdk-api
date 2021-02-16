@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMMatrixTransform::SetMatrix
+ - IXpsOMMatrixTransform.SetMatrix
 ---
 
 # IXpsOMMatrixTransform::SetMatrix
@@ -117,4 +117,3 @@ The matrix referenced by <i>matrix</i> is not valid.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - indexsrv.h
 api_name:
- - IColumnMapper::GetPropInfoFromName
+ - IColumnMapper.GetPropInfoFromName
 ---
 
 # IColumnMapper::GetPropInfoFromName
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-icolumnmapper">IColumnMapper</a>
-

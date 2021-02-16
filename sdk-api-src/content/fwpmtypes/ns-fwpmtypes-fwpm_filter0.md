@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_FILTER0_
  - FWPM_FILTER0
 ---
 
@@ -314,4 +313,3 @@ The last members, <b>filterId</b> and <b>effectiveWeight</b>, provides additiona
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

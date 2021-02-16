@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::GetItem
+ - IResultData.GetItem
+ - IResultData2.GetItem
 ---
 
 # IResultData::GetItem
@@ -83,4 +84,3 @@ When applied to virtual lists, you must use the nIndex member and set itemID to 
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-setitem">IResultData::SetItem</a>
-

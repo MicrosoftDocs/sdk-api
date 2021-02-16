@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - IFilter::GetText
+ - IFilter.GetText
 ---
 
 # IFilter::GetText
@@ -134,4 +134,3 @@ If the current chunk is too large for the <i>awcBuffer</i> array, more than one 
 
 
 <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
-

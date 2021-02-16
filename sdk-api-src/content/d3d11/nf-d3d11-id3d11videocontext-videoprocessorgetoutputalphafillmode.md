@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode
+ - ID3D11VideoContext.VideoProcessorGetOutputAlphaFillMode
 ---
 
 # ID3D11VideoContext::VideoProcessorGetOutputAlphaFillMode
@@ -69,4 +69,3 @@ If the alpha fill mode is <b>D3D11_VIDEO_PROCESSOR_ALPHA_FILL_MODE_SOURCE_STREAM
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-

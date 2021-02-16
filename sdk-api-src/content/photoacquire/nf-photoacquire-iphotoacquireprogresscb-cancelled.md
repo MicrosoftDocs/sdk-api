@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB::Cancelled
+ - IPhotoAcquireProgressCB.Cancelled
 ---
 
 # IPhotoAcquireProgressCB::Cancelled
@@ -95,4 +95,3 @@ The method is not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-

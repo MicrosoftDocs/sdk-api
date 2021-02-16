@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.dll
 api_name:
- - IMILBitmapEffectInputConnector::GetConnection
+ - IMILBitmapEffectInputConnector.GetConnection
 ---
 
 # IMILBitmapEffectInputConnector::GetConnection
@@ -65,4 +65,3 @@ A pointer that receives a pointer to the associated output connector.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

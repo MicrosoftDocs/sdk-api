@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::DisplayName
+ - IShellImageData.DisplayName
 ---
 
 # IShellImageData::DisplayName
@@ -89,4 +89,3 @@ The file name or stream name cannot be retrieved.
 </td>
 </tr>
 </table>
-

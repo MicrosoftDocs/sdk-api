@@ -43,6 +43,11 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMWMIFilterCollection
+ - IGPMWMIFilterCollection.Count
+ - IGPMWMIFilterCollection.get_Count
+ - IGPMWMIFilterCollection.Item
+ - IGPMWMIFilterCollection.get_Item
+ - GPMWMIFilterCollection
 ---
 
 # IGPMWMIFilterCollection interface
@@ -72,4 +77,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMWMIFilterCollection</b> i
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-

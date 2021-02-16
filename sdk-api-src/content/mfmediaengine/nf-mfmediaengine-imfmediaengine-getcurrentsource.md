@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetCurrentSource
+ - IMFMediaEngine.GetCurrentSource
 ---
 
 # IMFMediaEngine::GetCurrentSource
@@ -71,4 +71,3 @@ Initially, the current media resource is empty. It is updated when the Media Eng
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

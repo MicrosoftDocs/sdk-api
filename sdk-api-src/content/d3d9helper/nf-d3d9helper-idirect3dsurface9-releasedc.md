@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DSurface9::ReleaseDC
+ - IDirect3DSurface9.ReleaseDC
 ---
 
 # IDirect3DSurface9::ReleaseDC
@@ -80,4 +80,3 @@ This method will release only the device context returned by <a href="/windows/d
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dsurface9-getdc">IDirect3DSurface9::GetDC</a>
-

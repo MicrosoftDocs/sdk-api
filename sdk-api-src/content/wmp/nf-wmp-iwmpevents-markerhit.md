@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::MarkerHit
+ - IWMPEvents.MarkerHit
 ---
 
 # IWMPEvents::MarkerHit
@@ -61,4 +61,3 @@ Specifies the number of the marker that was hit.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

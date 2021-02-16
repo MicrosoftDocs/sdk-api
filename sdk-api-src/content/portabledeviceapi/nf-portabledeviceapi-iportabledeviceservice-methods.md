@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::Methods
+ - IPortableDeviceService.Methods
 ---
 
 # IPortableDeviceService::Methods
@@ -103,4 +103,3 @@ A <b>NULL</b> parameter was specified.
 
 
 <a href="/windows/desktop/wpd_sdk/invoking-methods-asynchronously">Invoking Service Methods Asynchronously</a>
-

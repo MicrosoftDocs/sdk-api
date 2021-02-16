@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMBackupDirEx::GetBackup
+ - IGPMBackupDirEx.GetBackup
 ---
 
 # IGPMBackupDirEx::GetBackup
@@ -93,4 +93,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <b>IGPMStarterGPOBackupCollection</b>
-

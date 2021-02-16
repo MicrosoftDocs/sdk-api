@@ -44,7 +44,6 @@ api_type:
 api_location:
  - audiosessiontypes.h
 api_name:
- - _AUDIO_STREAM_CATEGORY
  - AUDIO_STREAM_CATEGORY
 ---
 
@@ -136,4 +135,3 @@ The values <b>AudioCategory_ForegroundOnlyMedia</b> and <b>AudioCategory_Backgro
 ## -see-also
 
 <a href="/windows/desktop/CoreAudio/core-audio-enumerations">Core Audio Enumerations</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBitmapButton::OnMenuSelect
+ - ITfLangBarItemBitmapButton.OnMenuSelect
 ---
 
 # ITfLangBarItemBitmapButton::OnMenuSelect
@@ -99,4 +99,3 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfmenu-addmenuitem">ITfMenu::AddMenuItem
       </a>
-

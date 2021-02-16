@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - evcode
  - evcode/evcode
-api_name:
- - evcode
 ---
 
 # Evcode.h header

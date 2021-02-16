@@ -47,8 +47,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPFORWARDROW
- - PMIB_IPFORWARDROW
  - MIB_IPFORWARDROW
 ---
 
@@ -516,4 +514,3 @@ To view an example that retrieves the <a href="/windows/desktop/api/ipmib/ns-ipm
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipforwardentry">SetIpForwardEntry</a>
-

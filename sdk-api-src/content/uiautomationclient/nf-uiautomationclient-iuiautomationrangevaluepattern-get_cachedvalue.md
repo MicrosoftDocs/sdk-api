@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern::get_CachedValue
+ - IUIAutomationRangeValuePattern.CachedValue
+ - IUIAutomationRangeValuePattern.get_CachedValue
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedValue

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit::GetRequestProperty
+ - ICertServerExit.GetRequestProperty
+ - CCertServerExit.GetRequestProperty
 ---
 
 # ICertServerExit::GetRequestProperty
@@ -359,4 +360,3 @@ if ( NULL != bstrPropName )
 
 
 <a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>
-

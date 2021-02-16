@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IStringCollection::Clear
+ - IStringCollection.Clear
 ---
 
 # IStringCollection::Clear
@@ -81,4 +81,3 @@ The collection is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
-

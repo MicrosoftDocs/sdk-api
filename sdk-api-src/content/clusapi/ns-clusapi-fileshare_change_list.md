@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _FILESHARE_CHANGE_LIST
- - PFILESHARE_CHANGE_LIST
  - FILESHARE_CHANGE_LIST
 ---
 
@@ -77,4 +75,3 @@ An entry in the event notification list. The format of this member comes from th
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

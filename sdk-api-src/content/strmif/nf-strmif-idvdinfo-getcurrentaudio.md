@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentAudio
+ - IDvdInfo.GetCurrentAudio
 ---
 
 # IDvdInfo::GetCurrentAudio
@@ -130,4 +130,3 @@ This method returns an error unless the domain is DVD_DOMAIN_Title. For more inf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

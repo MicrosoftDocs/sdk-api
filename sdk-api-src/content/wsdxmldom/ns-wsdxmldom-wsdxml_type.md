@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
- - _WSDXML_TYPE
  - WSDXML_TYPE
 ---
 
@@ -64,4 +63,3 @@ The optional URI that identifies the type.
 ### -field Table
 
 The type table that describes the schema of the type and its binary representation.
-

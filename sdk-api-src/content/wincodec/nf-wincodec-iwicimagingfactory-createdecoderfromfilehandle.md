@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory::CreateDecoderFromFileHandle
+ - IWICImagingFactory.CreateDecoderFromFileHandle
 ---
 
 # IWICImagingFactory::CreateDecoderFromFileHandle
@@ -95,4 +95,3 @@ When a decoder is created using this method, the file handle must remain alive d
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimagingfactory">IWICImagingFactory</a>
-

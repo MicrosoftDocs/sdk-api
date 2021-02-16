@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::SetClassName
+ - IWbemPath.SetClassName
 ---
 
 # IWbemPath::SetClassName
@@ -66,4 +66,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-

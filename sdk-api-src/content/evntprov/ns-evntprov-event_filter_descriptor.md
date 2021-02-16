@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntprov.h
 api_name:
- - _EVENT_FILTER_DESCRIPTOR
- - PEVENT_FILTER_DESCRIPTOR
  - EVENT_FILTER_DESCRIPTOR
 ---
 
@@ -356,4 +354,3 @@ On Windows 8.1,Windows Server 2012 R2, and later, event payload, scope, and s
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhcreatepayloadfilter">TdhCreatePayloadFilter</a>
-

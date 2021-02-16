@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - QueryContextAttributesW
  - sspi/QueryContextAttributesW
- - QueryContextAttributes
- - sspi/QueryContextAttributes
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - QueryContextAttributesW
  - QueryContextAttributes
+ - QueryContextAttributesA
+ - QueryContextAttributesW
 ---
 
 # QueryContextAttributesW function
@@ -287,4 +286,3 @@ While  the caller must allocate the <i>pBuffer</i> structure itself, the SSP all
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_sizes">SecPkgContext_Sizes</a>
-

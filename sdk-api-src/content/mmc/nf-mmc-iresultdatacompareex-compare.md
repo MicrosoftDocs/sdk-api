@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IResultDataCompareEx::Compare
+ - IResultDataCompareEx.Compare
 ---
 
 # IResultDataCompareEx::Compare
@@ -82,4 +82,3 @@ The comparison should be based on an ascending sort order. If the user toggles t
 The 
 IResultDataCompareEx interface is not called for virtual list sorting. This is because the snap-in maintains all the item data storage for a virtual list, the snap-in must sort the items itself. A snap-in must implement the 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultownerdata">IResultOwnerData</a> interface to provide sorting for virtual lists.
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink::GetStreamSinkById
+ - IMFMediaSink.GetStreamSinkById
 ---
 
 # IMFMediaSink::GetStreamSinkById
@@ -120,4 +120,3 @@ To enumerate the streams by index number instead of stream identifier, call <a h
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

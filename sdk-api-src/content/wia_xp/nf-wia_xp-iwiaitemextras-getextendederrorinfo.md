@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItemExtras::GetExtendedErrorInfo
+ - IWiaItemExtras.GetExtendedErrorInfo
 ---
 
 # IWiaItemExtras::GetExtendedErrorInfo
@@ -73,4 +73,3 @@ Applications must call the <a href="/previous-versions/windows/desktop/api/oleau
 ## -see-also
 
 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitemextras">IWiaItemExtras</a>
-

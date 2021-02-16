@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_SURFACE_LOCAL
- - PDD_SURFACE_LOCAL
  - DD_SURFACE_LOCAL
 ---
 
@@ -184,4 +182,3 @@ Points to a DD_ATTACHLIST structure that contains the list of surfaces attached 
 ### -field rcOverlaySrc
 
 Reserved for system use and should be ignored by the driver.
-

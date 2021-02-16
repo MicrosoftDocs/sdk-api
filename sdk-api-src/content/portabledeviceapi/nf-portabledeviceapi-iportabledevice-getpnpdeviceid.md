@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice::GetPnPDeviceID
+ - IPortableDevice.GetPnPDeviceID
 ---
 
 # IPortableDevice::GetPnPDeviceID
@@ -107,4 +107,3 @@ The <i>ppszPnPDeviceID</i> argument must not be set to <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">IPortableDevice::Open</a>
-

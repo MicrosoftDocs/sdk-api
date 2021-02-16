@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchNotifyInlineSite::OnCatalogStatusChange
+ - ISearchNotifyInlineSite.OnCatalogStatusChange
 ---
 
 # ISearchNotifyInlineSite::OnCatalogStatusChange
@@ -95,4 +95,3 @@ If a catalog reset occurs, the search service resets the entire catalog and upda
 
 
 <a href="/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
-

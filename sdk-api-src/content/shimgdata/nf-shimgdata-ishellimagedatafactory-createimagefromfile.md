@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageDataFactory::CreateImageFromFile
+ - IShellImageDataFactory.CreateImageFromFile
 ---
 
 # IShellImageDataFactory::CreateImageFromFile
@@ -115,4 +115,3 @@ The <i>ppshimg</i> parameter is <b>NULL</b>.
 ## -remarks
 
 An access violation occurs if <i>pszPath</i> is <b>NULL</b>.
-

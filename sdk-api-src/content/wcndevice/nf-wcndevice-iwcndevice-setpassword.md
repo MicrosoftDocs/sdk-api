@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice::SetPassword
+ - IWCNDevice.SetPassword
 ---
 
 # IWCNDevice::SetPassword
@@ -143,4 +143,3 @@ The byte array is not <b>NULL</b>-terminated.  For example, if the password is a
 
 
 <b>WCN_PASSWORD_TYPE</b>
-

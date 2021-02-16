@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2::SetEnableThinning
+ - IWMReaderNetworkConfig2.SetEnableThinning
 ---
 
 # IWMReaderNetworkConfig2::SetEnableThinning
@@ -109,4 +109,3 @@ Using the WMThinning URL modifier will override the setting specified with this 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-getenablethinning">IWMReaderNetworkConfig2::GetEnableThinning</a>
-

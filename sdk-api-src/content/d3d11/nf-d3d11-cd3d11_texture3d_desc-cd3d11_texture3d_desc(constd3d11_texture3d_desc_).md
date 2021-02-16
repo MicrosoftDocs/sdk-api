@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC
+ - CD3D11_TEXTURE3D_DESC.CD3D11_TEXTURE3D_DESC
 ---
 
 # CD3D11_TEXTURE3D_DESC::CD3D11_TEXTURE3D_DESC(const D3D11_TEXTURE3D_DESC &)
@@ -64,4 +64,3 @@ Address of the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_texture3d_desc
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151706(v=vs.85)">CD3D11_TEXTURE3D_DESC</a>
-

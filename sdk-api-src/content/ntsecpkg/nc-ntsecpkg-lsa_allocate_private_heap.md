@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_ALLOCATE_PRIVATE_HEAP
+ - AllocatePrivateHeap
 ---
 
 # LSA_ALLOCATE_PRIVATE_HEAP callback function
@@ -74,4 +74,3 @@ A pointer to the <b>AllocatePrivateHeap</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

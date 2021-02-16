@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument::Redo
+ - ITextDocument.Redo
 ---
 
 # ITextDocument::Redo
@@ -109,4 +109,3 @@ Less than <i>Count</i> redo operations were performed.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument-undo">Undo</a>
-

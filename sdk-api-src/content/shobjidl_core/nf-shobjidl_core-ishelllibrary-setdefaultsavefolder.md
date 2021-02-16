@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary::SetDefaultSaveFolder
+ - IShellLibrary.SetDefaultSaveFolder
 ---
 
 # IShellLibrary::SetDefaultSaveFolder
@@ -89,4 +89,3 @@ If <i>psi</i> is not in the library, this method returns an error.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
-

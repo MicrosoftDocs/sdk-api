@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::SetPacketValuesByProperty
+ - IInkStrokeDisp.SetPacketValuesByProperty
 ---
 
 # IInkStrokeDisp::SetPacketValuesByProperty
@@ -156,4 +156,3 @@ An exception occurred inside method.
 
 
 <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
-

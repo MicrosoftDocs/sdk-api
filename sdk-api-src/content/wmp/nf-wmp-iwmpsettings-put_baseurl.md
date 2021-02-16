@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::put_baseURL
+ - IWMPSettings.put_baseURL
 ---
 
 # IWMPSettings::put_baseURL
@@ -107,4 +107,3 @@ The Windows Media Player control does not support the use of two periods (..) in
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_baseurl">IWMPSettings::get_baseURL</a>
-

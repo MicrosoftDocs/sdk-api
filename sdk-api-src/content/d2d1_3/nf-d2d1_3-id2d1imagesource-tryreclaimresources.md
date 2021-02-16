@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2D1.dll
 api_name:
- - ID2D1ImageSource::TryReclaimResources
+ - ID2D1ImageSource.TryReclaimResources
 ---
 
 # ID2D1ImageSource::TryReclaimResources
@@ -86,4 +86,3 @@ If a resource’s content was discarded while it was offered, its current conten
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>
-

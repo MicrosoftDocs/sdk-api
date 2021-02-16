@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider::SetSnapshotProperty
+ - IVssFileShareSnapshotProvider.SetSnapshotProperty
 ---
 
 # IVssFileShareSnapshotProvider::SetSnapshotProperty
@@ -136,4 +136,3 @@ The specified shadow copy was not found.
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccServerDocMgr::RevokeDocument
+ - IAccServerDocMgr.RevokeDocument
 ---
 
 # IAccServerDocMgr::RevokeDocument
@@ -68,4 +68,3 @@ An interface pointer to the document being revoked.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK.
-

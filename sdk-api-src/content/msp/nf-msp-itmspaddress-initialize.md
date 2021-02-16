@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - ITMSPAddress::Initialize
+ - ITMSPAddress.Initialize
 ---
 
 # ITMSPAddress::Initialize
@@ -103,4 +103,3 @@ If an MSP is written using the MSP base classes, this method initializes data me
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

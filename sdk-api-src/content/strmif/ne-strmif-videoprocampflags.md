@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagVideoProcAmpFlags
  - VideoProcAmpFlags
 ---
 
@@ -79,4 +78,3 @@ The following flags defined in KsMedia.h are equivalent to the values in <b>Vide
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp Interface</a>
-

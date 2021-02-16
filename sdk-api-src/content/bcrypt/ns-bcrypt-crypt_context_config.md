@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _CRYPT_CONTEXT_CONFIG
- - PCRYPT_CONTEXT_CONFIG
  - CRYPT_CONTEXT_CONFIG
 ---
 
@@ -110,4 +108,3 @@ Indicates that this entry in the enterprise-wide configuration table should take
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptquerycontextconfiguration">BCryptQueryContextConfiguration</a>
-

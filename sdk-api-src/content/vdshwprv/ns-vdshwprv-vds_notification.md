@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_NOTIFICATION
  - VDS_NOTIFICATION
 ---
 
@@ -375,4 +374,3 @@ The members of this structure are aligned on an 8-byte boundary.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_notification_target_type">VDS_NOTIFICATION_TARGET_TYPE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - pnpxassoc.h
 api_name:
- - IPNPXAssociation::Associate
+ - IPNPXAssociation.Associate
 ---
 
 # IPNPXAssociation::Associate
@@ -106,4 +106,3 @@ Once a device is associated, the PnP-X Service IP Bus Enumerator (IPBusEnum) sen
 
 
 <a href="/windows/desktop/api/pnpxassoc/nf-pnpxassoc-ipnpxdeviceassociation-associate">IPNPXDeviceAssociation::Associate</a>
-

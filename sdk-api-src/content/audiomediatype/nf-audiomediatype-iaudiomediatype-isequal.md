@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiomediatype.h
 api_name:
- - IAudioMediaType::IsEqual
+ - IAudioMediaType.IsEqual
 ---
 
 # IAudioMediaType::IsEqual
@@ -151,4 +151,3 @@ If the method succeeds and all the comparison flags are set in <i>pdwFlags</i>, 
 
 
 <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
-

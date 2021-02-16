@@ -43,7 +43,9 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivider::get_Strokes
+ - IInkDivider.Strokes
+ - IInkDivider.get_Strokes
+ - InkDivider.get_Strokes
 ---
 
 # IInkDivider::get_Strokes
@@ -81,4 +83,3 @@ To keep the <b>Strokes</b> property of the <a href="/windows/desktop/tablet/inkd
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

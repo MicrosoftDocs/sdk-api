@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wofapi.h
 api_name:
- - _WOF_FILE_COMPRESSION_INFO_V1
- - PWOF_FILE_COMPRESSION_INFO_V1
  - WOF_FILE_COMPRESSION_INFO_V1
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrRegister::UnregisterSyncMgrHandler
+ - ISyncMgrRegister.UnregisterSyncMgrHandler
 ---
 
 # ISyncMgrRegister::UnregisterSyncMgrHandler
@@ -91,4 +91,3 @@ The handler was successfully removed from the registry with SyncMgr.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
-

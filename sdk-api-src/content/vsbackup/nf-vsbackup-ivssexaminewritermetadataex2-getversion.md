@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadataEx2::GetVersion
+ - IVssExamineWriterMetadataEx2.GetVersion
 ---
 
 # IVssExamineWriterMetadataEx2::GetVersion
@@ -136,4 +136,3 @@ The <b>GetVersion</b> method returns nonzero results only if the writer was init
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex2">IVssExamineWriterMetadataEx2</a>
-

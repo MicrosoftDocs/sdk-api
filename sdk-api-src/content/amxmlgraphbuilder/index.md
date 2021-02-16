@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - amxmlgraphbuilder
  - amxmlgraphbuilder/amxmlgraphbuilder
-api_name:
- - amxmlgraphbuilder
 ---
 
 # Amxmlgraphbuilder.h header

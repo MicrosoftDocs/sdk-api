@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ILocator::get_SymbolRate
+ - ILocator.get_SymbolRate
 ---
 
 # ILocator::get_SymbolRate
@@ -69,4 +69,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/dd693589(v=vs.85)">put_SymbolRate</a>
-

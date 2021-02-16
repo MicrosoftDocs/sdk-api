@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagMETAFILEPICT
- - LPMETAFILEPICT
  - METAFILEPICT
 ---
 
@@ -99,4 +97,3 @@ A handle to a memory metafile.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setclipboarddata">SetClipboardData</a>
-

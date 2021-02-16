@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - aux_ulib
  - aux_ulib/aux_ulib
-api_name:
- - aux_ulib
 ---
 
 # Aux_Ulib.h header

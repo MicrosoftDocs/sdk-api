@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IFileSaveDialog::ApplyProperties
+ - IFileSaveDialog.ApplyProperties
 ---
 
 # IFileSaveDialog::ApplyProperties
@@ -90,4 +90,3 @@ This method should be used when the application has turned on property collectio
 
 <div class="alert"><b>Note</b>  The file represented by the item specified in <i>psi</i> must exist in physical storage before making the call to <b>IFileSaveDialog::ApplyProperties</b>, so it must have been previously saved at some point.</div>
 <div> </div>
-

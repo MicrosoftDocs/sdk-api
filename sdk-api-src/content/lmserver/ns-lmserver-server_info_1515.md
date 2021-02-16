@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1515
- - PSERVER_INFO_1515
  - SERVER_INFO_1515
 ---
 
@@ -80,4 +78,3 @@ Specifies whether the server should force a client to disconnect, even if the cl
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

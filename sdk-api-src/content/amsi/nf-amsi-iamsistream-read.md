@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amsi.h
 api_name:
- - IAmsiStream::Read
+ - IAmsiStream.Read
 ---
 
 # IAmsiStream::Read
@@ -117,4 +117,3 @@ The object is not initialized.
 ## -see-also
 
 <a href="/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
-

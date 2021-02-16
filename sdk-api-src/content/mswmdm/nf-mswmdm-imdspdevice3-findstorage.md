@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice3::FindStorage
+ - IMDSPDevice3.FindStorage
 ---
 
 # IMDSPDevice3::FindStorage
@@ -132,4 +132,3 @@ Windows Media Device Manager calls this method only for devices that are registe
 
 
 <a href="/windows/desktop/WMDM/wmdm-find-scope">WMDM_FIND_SCOPE</a>
-

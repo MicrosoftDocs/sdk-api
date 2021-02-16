@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetSnapshotDeviceName
+ - CVssWriter.GetSnapshotDeviceName
 ---
 
 # CVssWriter::GetSnapshotDeviceName
@@ -140,4 +140,3 @@ The <i>wszOriginalVolume</i> parameter is not one of the volumes or file shares 
 <b>Windows 7, Windows Server 2008 R2, Windows Vista, Windows Server 2008, Windows XP and Windows Server 2003:  </b>Remote file shares are not supported until Windows 8 and Windows Server 2012.
 
 To get the name of the original volume for the <i>wszOriginalVolume</i> parameter, first call the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumecount">CVssWriter::GetCurrentVolumeCount</a> method to query the number of volumes in the shadow copy set. Then call the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-getcurrentvolumearray">CVssWriter::GetCurrentVolumeArray</a> method to enumerate the original names of the volumes in the shadow copy set.
-

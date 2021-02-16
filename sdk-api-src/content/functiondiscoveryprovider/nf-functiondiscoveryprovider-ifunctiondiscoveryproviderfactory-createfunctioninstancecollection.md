@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection
+ - IFunctionDiscoveryProviderFactory.CreateFunctionInstanceCollection
 ---
 
 # IFunctionDiscoveryProviderFactory::CreateFunctionInstanceCollection
@@ -119,4 +119,3 @@ Client programmers can create and use the Function Discovery instance collection
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEventObjectChange2::ChangedSubscription
+ - IEventObjectChange2.ChangedSubscription
 ---
 
 # IEventObjectChange2::ChangedSubscription
@@ -65,4 +65,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectchange2">IEventObjectChange2</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linelocationentry_tag
- - LPLINELOCATIONENTRY
  - LINELOCATIONENTRY
 ---
 
@@ -165,4 +163,3 @@ Older applications are compiled without knowledge of these new fields, and using
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
-

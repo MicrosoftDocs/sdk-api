@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_READER_BINARY_ENCODING
  - WS_XML_READER_BINARY_ENCODING
 ---
 
@@ -74,4 +73,3 @@ Indicates the dictionary that the reader should use for dynamic strings. These a
           The binary representation of the xml document references these strings by id (as opposed to embedding the actual string), 
           and therefore they must contain the same set of strings used when the document was written.
           The application that uses the reader and writer must coordinate communicating the values referenced by these strings.
-

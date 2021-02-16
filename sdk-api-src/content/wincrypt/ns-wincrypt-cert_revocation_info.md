@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_REVOCATION_INFO
- - PCERT_REVOCATION_INFO
  - CERT_REVOCATION_INFO
 ---
 
@@ -96,4 +94,3 @@ For CRL base revocation checking, a non-<b>NULL</b> pointer to a CERT_REVOCATION
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::OnCommand
+ - IBrowserService2.OnCommand
 ---
 
 # IBrowserService2::OnCommand
@@ -75,4 +75,3 @@ Additional information taken from the <a href="/windows/desktop/menurc/wm-comman
 Type: <b>LRESULT</b>
 
 The return value specifies the result of the command processing; it depends on the command sent.
-

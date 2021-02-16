@@ -9,8 +9,6 @@ tech.root: setup
 f1_keywords:
  - setupapi
  - setupapi/setupapi
-api_name:
- - setupapi
 ---
 
 # Setupapi.h header

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration::put_IncomingFaxesArePublic
+ - IFaxConfiguration.IncomingFaxesArePublic
+ - IFaxConfiguration.get_IncomingFaxesArePublic
+ - IFaxConfiguration.put_IncomingFaxesArePublic
 ---
 
 # IFaxConfiguration::put_IncomingFaxesArePublic

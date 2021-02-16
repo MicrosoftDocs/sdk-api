@@ -42,7 +42,12 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::get_FarmName
+ - ITsSbTarget.FarmName
+ - ITsSbTarget.get_FarmName
+ - ITsSbTarget.put_FarmName
+ - ITsSbTargetEx.FarmName
+ - ITsSbTargetEx.get_FarmName
+ - ITsSbTargetEx.put_FarmName
 ---
 
 # ITsSbTarget::get_FarmName
@@ -63,4 +68,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
-

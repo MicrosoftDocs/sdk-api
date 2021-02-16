@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation::SetObjectAttributes
+ - IWMDMOperation.SetObjectAttributes
 ---
 
 # IWMDMOperation::SetObjectAttributes
@@ -122,4 +122,3 @@ Audio attributes include the number of samples per second, the number of bytes p
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-getobjectattributes">IWMDMOperation::GetObjectAttributes</a>
-

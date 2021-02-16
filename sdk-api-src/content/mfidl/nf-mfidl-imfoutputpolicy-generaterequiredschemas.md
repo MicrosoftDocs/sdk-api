@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFOutputPolicy::GenerateRequiredSchemas
+ - IMFOutputPolicy.GenerateRequiredSchemas
 ---
 
 # IMFOutputPolicy::GenerateRequiredSchemas
@@ -402,4 +402,3 @@ The video OTA returns  the <b>MFCONNECTOR_UNKNOWN</b> connector type unless the 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputpolicy">IMFOutputPolicy</a>
-

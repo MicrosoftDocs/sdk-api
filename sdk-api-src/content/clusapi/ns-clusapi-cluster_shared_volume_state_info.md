@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_SHARED_VOLUME_STATE_INFO
- - PCLUSTER_SHARED_VOLUME_STATE_INFO
  - CLUSTER_SHARED_VOLUME_STATE_INFO
 ---
 
@@ -83,4 +81,3 @@ A <a href="/windows/desktop/api/clusapi/ne-clusapi-cluster_shared_volume_state">
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

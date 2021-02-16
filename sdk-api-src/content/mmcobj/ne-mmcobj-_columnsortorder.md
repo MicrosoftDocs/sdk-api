@@ -45,7 +45,6 @@ api_location:
  - mmcobj.h
 api_name:
  - ColumnSortOrder
- - _ColumnSortOrder
 ---
 
 # _ColumnSortOrder enumeration
@@ -68,4 +67,3 @@ Indicates that the sort order is ascending.
 ### -field SortOrder_Descending
 
 Indicates that the sort order is descending.
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::FromStream
+ - Image.FromStream
 ---
 
 # Image::FromStream
@@ -116,4 +116,3 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage">StgOpenStorage</a>
-

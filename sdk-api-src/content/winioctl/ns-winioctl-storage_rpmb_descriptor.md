@@ -36,7 +36,6 @@ api_location:
  - winioctl.h
 api_name:
  - _STORAGE_RPMB_DESCRIPTOR
- - PSTORAGE_RPMB_DESCRIPTOR
  - STORAGE_RPMB_DESCRIPTOR
 ---
 
@@ -69,4 +68,3 @@ To support different RPMB frame formats, specifies which frame format the payloa
 ## -remarks
 
 ## -see-also
-

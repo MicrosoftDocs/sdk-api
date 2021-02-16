@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderStreamClock::GetTime
+ - IWMReaderStreamClock.GetTime
 ---
 
 # IWMReaderStreamClock::GetTime
@@ -101,4 +101,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderstreamclock-settimer">IWMReaderStreamClock::SetTimer</a>
-

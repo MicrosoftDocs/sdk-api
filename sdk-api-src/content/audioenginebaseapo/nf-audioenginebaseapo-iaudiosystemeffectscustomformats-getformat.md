@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioenginebaseapo.h
 api_name:
- - IAudioSystemEffectsCustomFormats::GetFormat
+ - IAudioSystemEffectsCustomFormats.GetFormat
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormat
@@ -121,4 +121,3 @@ When the audio system calls the <code>GetFormat</code> method, the sAPO creates 
 
 
 <a href="/windows/desktop/api/audiomediatype/nn-audiomediatype-iaudiomediatype">IAudioMediaType</a>
-

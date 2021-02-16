@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DCryptoSession9::GetCertificateSize
+ - IDirect3DCryptoSession9.GetCertificateSize
 ---
 
 # IDirect3DCryptoSession9::GetCertificateSize
@@ -73,4 +73,3 @@ To get the certificate, call <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-

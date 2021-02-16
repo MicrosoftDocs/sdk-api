@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_MultisessionInterfaces
+ - IFileSystemImage.put_MultisessionInterfaces
 ---
 
 # IFileSystemImage::put_MultisessionInterfaces
@@ -192,4 +192,3 @@ For an example, see <a href="/windows/desktop/imapi/creating-a-multisession-disc
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
-

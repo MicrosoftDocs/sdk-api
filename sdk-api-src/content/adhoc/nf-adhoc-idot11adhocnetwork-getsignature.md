@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork::GetSignature
+ - IDot11AdHocNetwork.GetSignature
 ---
 
 # IDot11AdHocNetwork::GetSignature
@@ -131,4 +131,3 @@ Do not cache the returned signature locally. Whenever a network object changes, 
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-

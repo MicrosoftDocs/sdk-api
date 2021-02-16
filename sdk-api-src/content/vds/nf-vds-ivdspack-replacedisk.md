@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack::ReplaceDisk
+ - IVdsPack.ReplaceDisk
 ---
 
 # IVdsPack::ReplaceDisk
@@ -121,4 +121,3 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
     does not implement hot sparing, it must support the failed-member scenario: start synchronizing the exposed 
     fault-tolerant volume again after the caller invokes the 
     <b>ReplaceDisk</b> method.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - xpsobjectmodel_1.h
 api_name:
- - __MIDL___MIDL_itf_xpsobjectmodel_1_0000_0000_0001
  - XPS_DOCUMENT_TYPE
 ---
 
@@ -76,4 +75,3 @@ OpenXPS v1.0 document format.
 
 
 <a href="/previous-versions/windows/desktop/dd316978(v=vs.85)">XPS Document Enumerations</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent::get_ID
+ - ITAgent.get_ID
 ---
 
 # ITAgent::get_ID
@@ -126,4 +126,3 @@ The application must free the memory allocated for the <i>ppID</i> parameter thr
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-

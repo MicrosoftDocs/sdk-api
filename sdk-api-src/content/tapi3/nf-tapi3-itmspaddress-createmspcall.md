@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - ITMSPAddress::CreateMSPCall
+ - ITMSPAddress.CreateMSPCall
 ---
 
 # ITMSPAddress::CreateMSPCall
@@ -152,4 +152,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::GetProperties
+ - IVdsService.GetProperties
 ---
 
 # IVdsService::GetProperties
@@ -106,4 +106,3 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_service_prop">VDS_SERVICE_PROP</a>
-

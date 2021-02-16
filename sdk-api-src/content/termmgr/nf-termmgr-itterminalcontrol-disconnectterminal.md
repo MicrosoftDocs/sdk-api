@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalControl::DisconnectTerminal
+ - ITTerminalControl.DisconnectTerminal
 ---
 
 # ITTerminalControl::DisconnectTerminal
@@ -99,4 +99,3 @@ An unknown error occurred during the disconnect attempt.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-

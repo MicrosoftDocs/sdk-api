@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::SaveAsFile
+ - IPicture.SaveAsFile
 ---
 
 # IPicture::SaveAsFile
@@ -73,4 +73,3 @@ This method supports the standard return values E_FAIL, E_INVALIDARG, and S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-

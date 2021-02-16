@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionMSApplicationPolicies::InitializeDecode
+ - IX509ExtensionMSApplicationPolicies.InitializeDecode
 ---
 
 # IX509ExtensionMSApplicationPolicies::InitializeDecode
@@ -106,4 +106,3 @@ You can retrieve the following properties for this extension:<ul>
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionmsapplicationpolicies-initializeencode">InitializeEncode</a>
-

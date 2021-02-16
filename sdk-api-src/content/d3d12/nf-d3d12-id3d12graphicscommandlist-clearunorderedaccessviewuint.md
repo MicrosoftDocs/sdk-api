@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList::ClearUnorderedAccessViewUint
+ - ID3D12GraphicsCommandList.ClearUnorderedAccessViewUint
 ---
 
 ## -description
@@ -105,4 +105,3 @@ The debug layer issues an error if the subresources referenced by the view aren'
 ## -see-also
 
 [ID3D12GraphicsCommandList interface](./nn-d3d12-id3d12graphicscommandlist.md)
-

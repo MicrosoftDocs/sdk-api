@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::get_RequestStoreType
+ - ICEnroll4.RequestStoreType
+ - ICEnroll4.get_RequestStoreType
+ - ICEnroll4.put_RequestStoreType
+ - ICEnroll3.RequestStoreType
+ - ICEnroll3.get_RequestStoreType
+ - ICEnroll3.put_RequestStoreType
+ - ICEnroll2.RequestStoreType
+ - ICEnroll2.get_RequestStoreType
+ - ICEnroll2.put_RequestStoreType
+ - ICEnroll.RequestStoreType
+ - ICEnroll.get_RequestStoreType
+ - ICEnroll.put_RequestStoreType
+ - CEnroll.RequestStoreType
 ---
 
 # ICEnroll::get_RequestStoreType
@@ -118,4 +130,3 @@ if ( FAILED ( hr ) )
 else
     printf( "RequestStoreType was set to %ws\n", bstrNewType );
 ```
-

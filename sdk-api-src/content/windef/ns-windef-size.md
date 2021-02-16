@@ -46,8 +46,6 @@ api_type:
 api_location:
  - windef.h
 api_name:
- - tagSIZE
- - PSIZE
  - SIZE
 ---
 
@@ -79,4 +77,3 @@ The rectangle dimensions stored in this structure can correspond to viewport ext
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
-

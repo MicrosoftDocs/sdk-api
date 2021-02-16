@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem2::GetDrive2
+ - IVdsSubSystem2.GetDrive2
 ---
 
 # IVdsSubSystem2::GetDrive2
@@ -162,4 +162,3 @@ Another operation is in progress; this operation cannot proceed until the previo
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-querydrives">IVdsSubSystem::QueryDrives</a>
-

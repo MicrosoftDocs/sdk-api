@@ -42,7 +42,10 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::get_NumPendingConnections
+ - ITsSbTarget.NumPendingConnections
+ - ITsSbTarget.get_NumPendingConnections
+ - ITsSbTargetEx.NumPendingConnections
+ - ITsSbTargetEx.get_NumPendingConnections
 ---
 
 # ITsSbTarget::get_NumPendingConnections
@@ -63,4 +66,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
-

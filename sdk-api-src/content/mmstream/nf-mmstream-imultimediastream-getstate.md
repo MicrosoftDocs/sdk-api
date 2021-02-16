@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream::GetState
+ - IMultiMediaStream.GetState
 ---
 
 # IMultiMediaStream::GetState
@@ -96,4 +96,3 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject::GetDataHere
+ - IDataObject.GetDataHere
 ---
 
 # IDataObject::GetDataHere
@@ -183,4 +183,3 @@ When the transfer medium is a stream, OLE makes assumptions about where the data
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlayNotify::OnColorKeyChange
+ - IOverlayNotify.OnColorKeyChange
 ---
 
 # IOverlayNotify::OnColorKeyChange
@@ -70,4 +70,3 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify Interface</a>
-

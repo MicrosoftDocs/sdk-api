@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - _DDGAMMARAMP
  - DDGAMMARAMP
 ---
 
@@ -68,4 +67,3 @@ Array of 256 WORD elements that describe the green gamma ramp.
 ### -field blue
 
 Array of 256 WORD elements that describe the blue gamma ramp.
-

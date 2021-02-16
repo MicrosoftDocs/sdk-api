@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows::RegisterPending
+ - IShellWindows.RegisterPending
 ---
 
 # IShellWindows::RegisterPending
@@ -106,4 +106,3 @@ Use this method to register a window that is pending open; if the window is alre
 
 
 <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-revoke">IShellWindows::Revoke</a>
-

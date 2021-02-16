@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask::put_Enabled
+ - IRegisteredTask.Enabled
+ - IRegisteredTask.get_Enabled
+ - IRegisteredTask.put_Enabled
 ---
 
 # IRegisteredTask::put_Enabled
@@ -67,4 +69,3 @@ This property is of type VARIANT_BOOL, which uses -1 to specify a true value and
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

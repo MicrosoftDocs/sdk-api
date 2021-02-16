@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_SHELL_ASYNC
  - WSMAN_SHELL_ASYNC
 ---
 
@@ -64,4 +63,3 @@ Specifies the optional user context associated with the operation.
 ### -field completionFunction
 
 Specifies the <a href="/windows/desktop/api/wsman/nc-wsman-wsman_shell_completion_function">WSMAN_SHELL_COMPLETION_FUNCTION</a> callback function for the operation.
-

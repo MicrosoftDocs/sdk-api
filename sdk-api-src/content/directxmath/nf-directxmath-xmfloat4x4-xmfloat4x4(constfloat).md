@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMFLOAT4X4::XMFLOAT4X4
+ - XMFLOAT4X4.XMFLOAT4X4
 ---
 
 # XMFLOAT4X4::XMFLOAT4X4(const float)
@@ -134,4 +134,3 @@ Or
 
 
 <a href="/windows/desktop/dxmath/xmfloat4x4-ctor">XMFLOAT4X4 Constructors</a>
-

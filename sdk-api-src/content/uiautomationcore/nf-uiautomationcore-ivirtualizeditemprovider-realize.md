@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IVirtualizedItemProvider::Realize
+ - IVirtualizedItemProvider.Realize
 ---
 
 # IVirtualizedItemProvider::Realize
@@ -67,4 +67,3 @@ When an item is obtained from a virtual list, it is only a placeholder. Use this
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ivirtualizeditemprovider">IVirtualizedItemProvider</a>
-

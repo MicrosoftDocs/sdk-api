@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhOpenQueryH
  - pdh/PdhOpenQueryH
- - PdhOpenQuery
- - pdh/PdhOpenQuery
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - Pdh.dll
 api_name:
  - PdhOpenQueryH
- - PdhOpenQuery
 ---
 
 # PdhOpenQueryH function
@@ -87,4 +84,3 @@ If the function fails, the return value is a
 ## -see-also
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhbindinputdatasourcea">PdhBindInputDataSource</a>
-

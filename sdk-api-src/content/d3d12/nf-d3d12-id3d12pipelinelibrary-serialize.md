@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12PipelineLibrary::Serialize
+ - ID3D12PipelineLibrary.Serialize
 ---
 
 # ID3D12PipelineLibrary::Serialize
@@ -79,4 +79,3 @@ Refer to the remarks and examples for <a href="/windows/desktop/api/d3d12/nf-d3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinelibrary">ID3D12PipelineLibrary</a>
-

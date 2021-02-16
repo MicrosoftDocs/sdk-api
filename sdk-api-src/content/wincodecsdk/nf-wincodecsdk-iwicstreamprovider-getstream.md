@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICStreamProvider::GetStream
+ - IWICStreamProvider.GetStream
 ---
 
 # IWICStreamProvider::GetStream
@@ -65,4 +65,3 @@ Pointer that receives a pointer to the stream held by the component.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - windows.graphics.imaging.interop
  - windows.graphics.imaging.interop/windows.graphics.imaging.interop
-api_name:
- - windows.graphics.imaging.interop
 ---
 
 # Windows.Graphics.Imaging.Interop.h header

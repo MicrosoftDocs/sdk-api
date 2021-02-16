@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Set_DevNode_PropertyW
  - cfgmgr32/CM_Set_DevNode_PropertyW
- - CM_Set_DevNode_Property
- - cfgmgr32/CM_Set_DevNode_Property
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Set_DevNode_PropertyW
  - CM_Set_DevNode_Property
+ - CM_Set_DevNode_PropertyW
 ---
 
 # CM_Set_DevNode_PropertyW function
@@ -96,4 +94,3 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdevicepropertyw">SetupDiSetDeviceProperty</a>
-

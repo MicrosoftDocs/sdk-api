@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl::DetectDigits
+ - ITLegacyCallMediaControl.DetectDigits
 ---
 
 # ITLegacyCallMediaControl::DetectDigits
@@ -111,4 +111,3 @@ No call currently exists.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol">ITLegacyCallMediaControl</a>
-

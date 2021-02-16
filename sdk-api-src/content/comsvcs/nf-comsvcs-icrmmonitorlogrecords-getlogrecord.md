@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmMonitorLogRecords::GetLogRecord
+ - ICrmMonitorLogRecords.GetLogRecord
 ---
 
 # ICrmMonitorLogRecords::GetLogRecord
@@ -131,4 +131,3 @@ The transaction has completed, and the log records have been discarded from the 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmmonitorlogrecords">ICrmMonitorLogRecords</a>
-

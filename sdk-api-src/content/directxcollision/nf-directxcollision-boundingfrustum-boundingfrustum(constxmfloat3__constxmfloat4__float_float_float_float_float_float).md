@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingFrustum::BoundingFrustum
+ - BoundingFrustum.BoundingFrustum
 ---
 
 # BoundingFrustum::BoundingFrustum(const XMFLOAT3 &,const XMFLOAT4 &,float,float,float,float,float,float)
@@ -102,4 +102,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

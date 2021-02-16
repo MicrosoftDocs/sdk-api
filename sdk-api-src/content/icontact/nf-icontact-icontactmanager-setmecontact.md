@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactManager::SetMeContact
+ - IContactManager.SetMeContact
 ---
 
 # IContactManager::SetMeContact
@@ -83,4 +83,3 @@ Specification was successful.
 </td>
 </tr>
 </table>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::GetPosition
+ - IMathInputControl.GetPosition
 ---
 
 # IMathInputControl::GetPosition
@@ -87,4 +87,3 @@ This method returns the minimal possible width and height of the control if it i
 
 
 <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-setposition">SetPosition</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::get_WindowStyle
+ - IVideoWindow.get_WindowStyle
 ---
 
 # IVideoWindow::get_WindowStyle
@@ -122,4 +122,3 @@ This method calls the Windows <b>GetWindowLong</b> function with the value GWL_S
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyle">IVideoWindow::put_WindowStyle</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XpsPrint.h
 api_name:
- - IXpsPrintJob::GetJobStatus
+ - IXpsPrintJob.GetJobStatus
 ---
 
 # IXpsPrintJob::GetJobStatus
@@ -93,4 +93,3 @@ If no job ID has been assigned to the print job, or the print job is printed wit
 
 
 <a href="/windows/win32/api/xpsprint/ns-xpsprint-xps_job_status">XPS_JOB_STATUS</a>
-

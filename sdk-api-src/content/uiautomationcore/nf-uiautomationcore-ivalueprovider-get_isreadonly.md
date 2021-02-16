@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IValueProvider::get_IsReadOnly
+ - IValueProvider.IsReadOnly
+ - IValueProvider.get_IsReadOnly
 ---
 
 # IValueProvider::get_IsReadOnly
@@ -68,4 +69,3 @@ A control should have its IsEnabled property (<a href="/windows/desktop/WinAuto/
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

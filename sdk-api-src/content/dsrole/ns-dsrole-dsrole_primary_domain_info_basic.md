@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
- - _DSROLE_PRIMARY_DOMAIN_INFO_BASIC
- - PDSROLE_PRIMARY_DOMAIN_INFO_BASIC
  - DSROLE_PRIMARY_DOMAIN_INFO_BASIC
 ---
 
@@ -125,4 +123,3 @@ Contains the domain identifier. This member is valid only if the <b>Flags</b> me
 
 
 <a href="/windows/desktop/api/dsrole/nf-dsrole-dsrolegetprimarydomaininformation">DsRoleGetPrimaryDomainInformation</a>
-

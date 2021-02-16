@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _EVENT_TRACE_HEADER
- - PEVENT_TRACE_HEADER
  - EVENT_TRACE_HEADER
 ---
 
@@ -395,4 +393,3 @@ Note, however, that the CPU usage timer resolution is typically very low (around
 
 
 <a href="/windows/desktop/ETW/traceevent">TraceEvent</a>
-

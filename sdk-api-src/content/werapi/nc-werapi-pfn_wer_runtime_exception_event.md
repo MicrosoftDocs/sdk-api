@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
- - PFN_WER_RUNTIME_EXCEPTION_EVENT
+ - OutOfProcessExceptionEventCallback
 ---
 
 # PFN_WER_RUNTIME_EXCEPTION_EVENT callback function
@@ -93,4 +93,3 @@ You must implement this function in your exception handler DLL.
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule">WerRegisterRuntimeExceptionModule</a>
-

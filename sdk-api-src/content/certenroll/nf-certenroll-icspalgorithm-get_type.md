@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm::get_Type
+ - ICspAlgorithm.Type
+ - ICspAlgorithm.get_Type
 ---
 
 # ICspAlgorithm::get_Type
@@ -67,4 +68,3 @@ The main difference between the <b>Type</b> property and the <a href="/windows/d
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_operations">Operations</a>
-

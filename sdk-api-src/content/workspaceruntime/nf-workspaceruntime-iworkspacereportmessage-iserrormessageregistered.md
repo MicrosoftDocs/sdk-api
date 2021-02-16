@@ -42,7 +42,8 @@ api_type:
 api_location:
  - WkspRt.exe
 api_name:
- - IWorkspaceReportMessage::IsErrorMessageRegistered
+ - IWorkspaceReportMessage.IsErrorMessageRegistered
+ - Workspace.IsErrorMessageRegistered
 ---
 
 # IWorkspaceReportMessage::IsErrorMessageRegistered
@@ -81,4 +82,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacereportmessage">IWorkspaceReportMessage</a>
-

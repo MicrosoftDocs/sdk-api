@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMPushSource::SetStreamOffset
+ - IAMPushSource.SetStreamOffset
 ---
 
 # IAMPushSource::SetStreamOffset
@@ -76,4 +76,3 @@ If the return value is S_FALSE, the filter might not support a buffer large enou
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
-

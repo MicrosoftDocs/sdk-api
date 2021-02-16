@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_QUERY_TKT_CACHE_REQUEST
- - PKERB_QUERY_TKT_CACHE_REQUEST
  - KERB_QUERY_TKT_CACHE_REQUEST
 ---
 
@@ -75,4 +73,3 @@ If this member is set to <b>KerbQueryTicketCacheMessage</b>, the request is for 
 ### -field LogonId
 
 <a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a> structure containing the <a href="/windows/desktop/SecGloss/l-gly">logon session</a> identifier. This can be zero for the current user's logon session. If not zero, the caller must have the SeTcbPrivilege privilege set. If this fails, the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package sets the <i>ProtocolStatus</i> parameter of <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> to STATUS_ACCESS_DENIED.
-

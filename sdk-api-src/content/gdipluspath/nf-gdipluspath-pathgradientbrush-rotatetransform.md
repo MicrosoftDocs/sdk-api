@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::RotateTransform
+ - PathGradientBrush.RotateTransform
 ---
 
 # PathGradientBrush::RotateTransform
@@ -169,4 +169,3 @@ VOID Example_RotateTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

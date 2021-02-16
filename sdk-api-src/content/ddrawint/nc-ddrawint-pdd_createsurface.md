@@ -42,8 +42,9 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_CREATESURFACE
+ - CreateD3DBuffer
 ---
+
 
 ## -description
 
@@ -159,4 +160,3 @@ DirectDraw should allocate the buffer memory from user memory. The driver must a
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
-

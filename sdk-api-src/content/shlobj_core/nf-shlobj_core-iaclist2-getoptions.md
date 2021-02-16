@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IACList2::GetOptions
+ - IACList2.GetOptions
 ---
 
 # IACList2::GetOptions
@@ -111,4 +111,3 @@ Returns S_OK if successful, or a COM error value otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iaclist2">IACList2</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagPOINTER_PEN_INFO
  - POINTER_PEN_INFO
 ---
 
@@ -108,4 +107,3 @@ Applications can retrieve this information using the <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
-

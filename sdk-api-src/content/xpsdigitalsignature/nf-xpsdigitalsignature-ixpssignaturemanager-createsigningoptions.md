@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager::CreateSigningOptions
+ - IXpsSignatureManager.CreateSigningOptions
 ---
 
 # IXpsSignatureManager::CreateSigningOptions
@@ -127,4 +127,3 @@ The <a href="/windows/desktop/api/xpsdigitalsignature/nn-xpsdigitalsignature-ixp
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

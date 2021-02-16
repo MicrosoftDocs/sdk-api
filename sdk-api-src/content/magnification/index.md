@@ -9,8 +9,6 @@ tech.root: magapi
 f1_keywords:
  - magnification
  - magnification/magnification
-api_name:
- - magnification
 ---
 
 # Magnification.h header

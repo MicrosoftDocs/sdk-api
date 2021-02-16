@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSourceReaderEx::AddTransformForStream
+ - IMFSourceReaderEx.AddTransformForStream
 ---
 
 # IMFSourceReaderEx::AddTransformForStream
@@ -189,4 +189,3 @@ You can add a transform at any time during streaming. However, the method does n
 
 
 <a href="/windows/desktop/medfound/source-reader">Source Reader</a>
-

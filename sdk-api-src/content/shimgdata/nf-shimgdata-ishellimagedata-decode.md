@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::Decode
+ - IShellImageData.Decode
 ---
 
 # IShellImageData::Decode
@@ -152,4 +152,3 @@ The image has already been decoded.
 <b>IShellImageData::Decode</b> must be called prior to calling most <a href="/windows/desktop/api/shimgdata/nn-shimgdata-ishellimagedata">IShellImageData</a> methods. Not doing so causes those methods to fail.
 
 <b>IShellImageData::Decode</b> attempts to maintain the aspect ratio of the original image, so one of the values passed in <i>cxDesired</i> or <i>cyDesired</i> might be overridden to do so.
-

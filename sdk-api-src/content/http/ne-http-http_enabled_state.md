@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_ENABLED_STATE
- - PHTTP_ENABLED_STATE
  - HTTP_ENABLED_STATE
 ---
 
@@ -81,4 +79,3 @@ The HTTP Server API object is disabled.
 
 
 <a href="/windows/desktop/api/http/ns-http-http_state_info">HTTP_STATE_INFO</a>
-

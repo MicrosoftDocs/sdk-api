@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::GetImageWorldBounds
+ - ID2D1DeviceContext.GetImageWorldBounds
 ---
 
 # ID2D1DeviceContext::GetImageWorldBounds
@@ -119,4 +119,3 @@ The returned bounds reflect which pixels would be impacted by calling <a href="/
 
 
 <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
-

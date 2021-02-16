@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbPrintfExA
  - strsafe/StringCbPrintfExA
- - StringCbPrintfEx
- - strsafe/StringCbPrintfEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCbPrintfExA
  - StringCbPrintfEx
+ - StringCbPrintfExA
+ - StringCbPrintfExW
 ---
 
 # StringCbPrintfExA function
@@ -278,4 +277,3 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>
-

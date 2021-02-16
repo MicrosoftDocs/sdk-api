@@ -42,7 +42,7 @@ api_type:
 api_location:
  - editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper::UpdateOperatingSystem
+ - IEditionUpgradeHelper.UpdateOperatingSystem
 ---
 
 # IEditionUpgradeHelper::UpdateOperatingSystem
@@ -96,4 +96,3 @@ When this method installs a genuine copy of the operating system, the method tak
 
 
 <a href="/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>
-

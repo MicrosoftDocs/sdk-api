@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment::GetEmbeddedFragmentRoots
+ - IRawElementProviderFragment.GetEmbeddedFragmentRoots
 ---
 
 # IRawElementProviderFragment::GetEmbeddedFragmentRoots
@@ -86,4 +86,3 @@ This method returns an array of fragments only if the current element is hosting
 
 
 <b>Reference</b>
-

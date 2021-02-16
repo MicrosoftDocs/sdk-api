@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagFixupInfo
  - FixupInfo
 ---
 
@@ -99,4 +98,3 @@ If the SHA cannot update the fix-up information, then <b>state</b> must be set t
 
 
 <a href="/windows/desktop/api/naptypes/ns-naptypes-resultcodes">ResultCodes</a>
-

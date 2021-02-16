@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::RemoveAllPayloadExtensions
+ - IMFASFStreamConfig.RemoveAllPayloadExtensions
 ---
 
 # IMFASFStreamConfig::RemoveAllPayloadExtensions
@@ -84,4 +84,3 @@ None.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-

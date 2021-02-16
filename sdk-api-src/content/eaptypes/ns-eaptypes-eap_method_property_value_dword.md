@@ -44,7 +44,6 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
- - _EAP_METHOD_PROPERTY_VALUE_DWORD
  - EAP_METHOD_PROPERTY_VALUE_DWORD
 ---
 
@@ -76,4 +75,3 @@ A DWORD value of the method property.
 
 
 <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
-

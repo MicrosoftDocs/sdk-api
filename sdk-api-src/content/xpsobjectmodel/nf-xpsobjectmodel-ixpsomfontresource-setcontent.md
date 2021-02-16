@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMFontResource::SetContent
+ - IXpsOMFontResource.SetContent
 ---
 
 # IXpsOMFontResource::SetContent
@@ -134,4 +134,3 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfon
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
-

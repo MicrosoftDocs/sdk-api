@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDeviceProvider::get_Debug
+ - IFaxDeviceProvider.Debug
+ - IFaxDeviceProvider.get_Debug
+ - IFaxDeviceProvider.get_Debug
 ---
 
 # IFaxDeviceProvider::get_Debug
@@ -71,4 +73,3 @@ If this property is equal to <b>TRUE</b>, the FSPÂ DLL was created in a debug 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>
-

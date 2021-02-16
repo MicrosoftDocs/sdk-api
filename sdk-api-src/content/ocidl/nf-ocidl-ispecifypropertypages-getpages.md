@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - ISpecifyPropertyPages::GetPages
+ - ISpecifyPropertyPages.GetPages
 ---
 
 # ISpecifyPropertyPages::GetPages
@@ -105,4 +105,3 @@ E_NOTIMPL is not allowed as a return value, because an object with no property p
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ispecifypropertypages">ISpecifyPropertyPages</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAccelerator::Notify
+ - IWMReaderAccelerator.Notify
 ---
 
 # IWMReaderAccelerator::Notify
@@ -80,4 +80,3 @@ This method enables the reader to update its internal variables and commit to th
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator">IWMReaderAccelerator Interface</a>
-

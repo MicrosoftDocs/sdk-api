@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPersistSerializedPropStorage2::GetPropertyStorageSize
+ - IPersistSerializedPropStorage2.GetPropertyStorageSize
 ---
 
 # IPersistSerializedPropStorage2::GetPropertyStorageSize

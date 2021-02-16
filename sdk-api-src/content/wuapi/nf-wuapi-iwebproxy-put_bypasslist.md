@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWebProxy::put_BypassList
+ - IWebProxy.BypassList
+ - IWebProxy.get_BypassList
+ - IWebProxy.put_BypassList
 ---
 
 # IWebProxy::put_BypassList
@@ -63,4 +65,3 @@ The value of the <b>BypassList</b> property is ignored if the value of the <a hr
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-

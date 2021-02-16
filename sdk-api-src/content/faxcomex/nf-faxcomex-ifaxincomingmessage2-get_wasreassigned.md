@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2::get_WasReAssigned
+ - IFaxIncomingMessage2.WasReAssigned
+ - IFaxIncomingMessage2.get_WasReAssigned
+ - IFaxIncomingMessage2.get_WasReAssigned
 ---
 
 # IFaxIncomingMessage2::get_WasReAssigned
@@ -66,4 +68,3 @@ This property is always VARIANT_FALSE when the fax arrives at the server. If it 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
-

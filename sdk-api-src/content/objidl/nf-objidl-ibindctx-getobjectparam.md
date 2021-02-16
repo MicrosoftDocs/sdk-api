@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::GetObjectParam
+ - IBindCtx.GetObjectParam
 ---
 
 # IBindCtx::GetObjectParam
@@ -80,4 +80,3 @@ Moniker implementations can call this method to handle situations where a caller
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-

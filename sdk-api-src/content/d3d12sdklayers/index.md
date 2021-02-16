@@ -9,8 +9,6 @@ tech.root: direct3d12
 f1_keywords:
  - d3d12sdklayers
  - d3d12sdklayers/d3d12sdklayers
-api_name:
- - d3d12sdklayers
 ---
 
 # D3D12Sdklayers.h header

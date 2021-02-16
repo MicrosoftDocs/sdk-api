@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhEnumObjectItemsHA
  - pdh/PdhEnumObjectItemsHA
- - PdhEnumObjectItemsH
- - pdh/PdhEnumObjectItemsH
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhEnumObjectItemsHA
  - PdhEnumObjectItemsH
+ - PdhEnumObjectItemsHA
+ - PdhEnumObjectItemsHW
 ---
 
 # PdhEnumObjectItemsHA function
@@ -251,4 +250,3 @@ The order of the instance and counter names is undetermined.
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsha">PdhEnumObjectsH</a>
-

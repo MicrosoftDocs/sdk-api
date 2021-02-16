@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory2::ResolveCondition
+ - IConditionFactory2.ResolveCondition
 ---
 
 # IConditionFactory2::ResolveCondition
@@ -127,4 +127,3 @@ Refer to the <a href="/windows/desktop/api/structuredquery/nf-structuredquery-ic
 
 
 <b>Reference</b>
-

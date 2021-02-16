@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_BYTE_ARRAY16_
  - FWP_BYTE_ARRAY16
 ---
 
@@ -68,4 +67,3 @@ This data type  is useful for IPv6 addresses.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

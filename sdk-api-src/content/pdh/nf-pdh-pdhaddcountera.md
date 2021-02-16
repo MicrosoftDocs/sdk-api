@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhAddCounterA
  - pdh/PdhAddCounterA
- - PdhAddCounter
- - pdh/PdhAddCounter
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhAddCounterA
  - PdhAddCounter
+ - PdhAddCounterA
+ - PdhAddCounterW
 ---
 
 # PdhAddCounterA function
@@ -234,4 +233,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SESSION_INFO_1
- - PSESSION_INFO_1
  - SESSION_INFO_1
 ---
 
@@ -132,4 +130,3 @@ The user specified by the <b>sesi1_username</b> member established the session w
 
 
 <a href="/windows/desktop/NetShare/session-functions">Session Functions</a>
-

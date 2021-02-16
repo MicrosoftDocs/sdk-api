@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView::SetAllocateForPostView
+ - IWMWriterPostView.SetAllocateForPostView
 ---
 
 # IWMWriterPostView::SetAllocateForPostView
@@ -122,4 +122,3 @@ The actual allocation of buffers is handled by the <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterpostview-getallocateforpostview">IWMWriterPostView::GetAllocateForPostView</a>
-

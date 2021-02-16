@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsReplicaGetInfo2W
  - ntdsapi/DsReplicaGetInfo2W
- - DsReplicaGetInfo2
- - ntdsapi/DsReplicaGetInfo2
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsReplicaGetInfo2W
  - DsReplicaGetInfo2
+ - DsReplicaGetInfo2W
 ---
 
 # DsReplicaGetInfo2W function
@@ -226,4 +224,3 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise.
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicafreeinfo">DsReplicaFreeInfo</a>
-

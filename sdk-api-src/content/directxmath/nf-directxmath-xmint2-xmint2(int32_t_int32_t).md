@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMINT2::XMINT2
+ - XMINT2.XMINT2
 ---
 
 # XMINT2::XMINT2(int32_t,int32_t)
@@ -81,4 +81,3 @@ Value of the y-coordinate of the vector, the <b>y</b> member of the new
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>
-

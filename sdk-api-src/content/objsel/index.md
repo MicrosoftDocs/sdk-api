@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - objsel
  - objsel/objsel
-api_name:
- - objsel
 ---
 
 # Objsel.h header

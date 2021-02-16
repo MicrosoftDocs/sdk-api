@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _DOMAIN_PASSWORD_INFORMATION
- - PDOMAIN_PASSWORD_INFORMATION
  - DOMAIN_PASSWORD_INFORMATION
 ---
 
@@ -170,4 +168,3 @@ The data type for this member is OLD_LARGE_INTEGER if MIDL_PASS is defined.
 Specifies the minimum length of time before a password can be changed. Because SAM stores relative times as negative values and absolute times as positive numbers, the time is stored as a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure with negative values.
 
 The data type for this member is OLD_LARGE_INTEGER if MIDL_PASS is defined.
-

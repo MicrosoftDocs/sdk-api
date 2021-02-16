@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternates::Item
+ - IInkRecognitionAlternates.Item
 ---
 
 # IInkRecognitionAlternates::Item
@@ -209,4 +209,3 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates">IInkRecognitionAlternates Interface</a>
-

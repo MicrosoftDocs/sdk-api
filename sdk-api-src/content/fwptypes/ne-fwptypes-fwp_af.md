@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_NE_FAMILY_
  - FWP_AF
 ---
 
@@ -76,4 +75,3 @@ Placeholder value to be used when the address family is not yet identified.
 ## -see-also
 
 [FWP_IP_VERSION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_ip_version)
-

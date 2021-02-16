@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CHANNEL_PROPERTY
  - WS_CHANNEL_PROPERTY
 ---
 
@@ -70,4 +69,3 @@ A pointer to the value to set.
 ### -field valueSize
 
 The size in bytes of the memory pointed to by the <b>value</b> member.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IClientSecurity::CopyProxy
+ - IClientSecurity.CopyProxy
 ---
 
 # IClientSecurity::CopyProxy
@@ -114,4 +114,3 @@ The helper function <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cocop
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
-

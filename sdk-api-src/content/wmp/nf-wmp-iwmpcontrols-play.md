@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls::play
+ - IWMPControls.play
 ---
 
 # IWMPControls::play
@@ -87,4 +87,3 @@ If this method is called while fast-forwarding or rewinding, the rate of playbac
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-playitem">IWMPControls::playItem</a>
-

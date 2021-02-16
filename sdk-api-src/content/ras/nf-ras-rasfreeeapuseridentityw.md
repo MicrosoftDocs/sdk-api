@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasFreeEapUserIdentityW
  - ras/RasFreeEapUserIdentityW
- - RasFreeEapUserIdentity
- - ras/RasFreeEapUserIdentity
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasFreeEapUserIdentityW
  - RasFreeEapUserIdentity
+ - RasFreeEapUserIdentityA
+ - RasFreeEapUserIdentityW
 ---
 
 # RasFreeEapUserIdentityW function
@@ -84,4 +83,3 @@ Pointer to the
 
 
 <a href="/windows/desktop/api/ras/nf-ras-rasgeteapuseridentitya">RasGetEapUserIdentity</a>
-

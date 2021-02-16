@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::put_MixerBitmapPositionRect
+ - IMSVidVideoRenderer.put_MixerBitmapPositionRect
 ---
 
 # IMSVidVideoRenderer::put_MixerBitmapPositionRect
@@ -81,4 +81,3 @@ If the static bitmap image is set, the VMR alpha blends the bitmap onto the vide
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmap">IMSVidVideoRenderer::put_MixerBitmap</a>
-

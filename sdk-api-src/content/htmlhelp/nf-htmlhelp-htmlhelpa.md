@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - HtmlHelpA
  - htmlhelp/HtmlHelpA
- - HtmlHelp
- - htmlhelp/HtmlHelp
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Htmlhelp.dll
 api_name:
- - HtmlHelpA
  - HtmlHelp
+ - HtmlHelpA
+ - HtmlHelpW
 ---
 
 # HtmlHelpA function
@@ -128,4 +127,3 @@ HWND hwnd =
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/html-help-api-overview">About the HTML Help API</a>
-

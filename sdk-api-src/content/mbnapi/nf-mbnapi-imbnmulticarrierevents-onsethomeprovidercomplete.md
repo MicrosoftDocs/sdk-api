@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents::OnSetHomeProviderComplete
+ - IMbnMultiCarrierEvents.OnSetHomeProviderComplete
 ---
 
 # IMbnMultiCarrierEvents::OnSetHomeProviderComplete
@@ -138,4 +138,3 @@ If <i>status</i> is <b>S_OK</b>, the home provider for the interface has been su
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>
-

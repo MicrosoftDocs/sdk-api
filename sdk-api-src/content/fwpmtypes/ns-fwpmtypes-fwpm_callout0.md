@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_CALLOUT0_
  - FWPM_CALLOUT0
 ---
 
@@ -136,4 +135,3 @@ The last member, <b>calloutId</b>, provides additional information returned when
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

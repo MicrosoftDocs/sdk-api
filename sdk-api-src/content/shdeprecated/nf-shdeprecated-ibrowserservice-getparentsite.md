@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService::GetParentSite
+ - IBrowserService.GetParentSite
 ---
 
 # IBrowserService::GetParentSite
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 A client site is the display site for embedded objects and provides position and conceptual information about the object.
-

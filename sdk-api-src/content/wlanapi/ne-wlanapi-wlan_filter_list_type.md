@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_FILTER_LIST_TYPE
- - PWLAN_FILTER_LIST_TYPE
  - WLAN_FILTER_LIST_TYPE
 ---
 
@@ -83,4 +81,3 @@ User deny list.
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
-

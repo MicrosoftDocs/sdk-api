@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock::SetTimeSource
+ - IMFPresentationClock.SetTimeSource
 ---
 
 # IMFPresentationClock::SetTimeSource
@@ -118,4 +118,3 @@ This time source have a frequency of 10 MHz. See <a href="/windows/desktop/api/m
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-

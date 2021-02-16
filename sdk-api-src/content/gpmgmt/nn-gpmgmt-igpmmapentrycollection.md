@@ -43,6 +43,11 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMMapEntryCollection
+ - IGPMMapEntryCollection.Count
+ - IGPMMapEntryCollection.get_Count
+ - IGPMMapEntryCollection.Item
+ - IGPMMapEntryCollection.get_Item
+ - GPMMapEntryCollection
 ---
 
 # IGPMMapEntryCollection interface
@@ -67,4 +72,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMMapEntryCollection</b> in
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-

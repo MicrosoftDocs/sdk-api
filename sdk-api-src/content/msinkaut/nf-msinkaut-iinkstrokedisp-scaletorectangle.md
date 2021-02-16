@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::ScaleToRectangle
+ - IInkStrokeDisp.ScaleToRectangle
 ---
 
 # IInkStrokeDisp::ScaleToRectangle
@@ -110,4 +110,3 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-

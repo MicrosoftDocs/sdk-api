@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICMetadataReaderInfo::MatchesPattern
+ - IWICMetadataReaderInfo.MatchesPattern
 ---
 
 # IWICMetadataReaderInfo::MatchesPattern
@@ -77,4 +77,3 @@ Pointer that receives <code>TRUE</code> if the stream contains the pattern; othe
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

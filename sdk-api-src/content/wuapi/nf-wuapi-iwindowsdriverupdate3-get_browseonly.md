@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate3::get_BrowseOnly
+ - IWindowsDriverUpdate3.BrowseOnly
+ - IWindowsDriverUpdate3.get_BrowseOnly
 ---
 
 # IWindowsDriverUpdate3::get_BrowseOnly
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate3">IWindowsDriverUpdate3</a>
-

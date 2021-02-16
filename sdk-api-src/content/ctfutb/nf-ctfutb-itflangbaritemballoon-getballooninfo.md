@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBalloon::GetBalloonInfo
+ - ITfLangBarItemBalloon.GetBalloonInfo
 ---
 
 # ITfLangBarItemBalloon::GetBalloonInfo
@@ -99,4 +99,3 @@ The method was successful.
 
 <a href="/windows/desktop/api/ctfutb/ns-ctfutb-tf_lbballooninfo">TF_LBBALLOONINFO
       </a>
-

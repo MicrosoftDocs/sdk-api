@@ -46,8 +46,6 @@ api_type:
 api_location:
  - peerdist.h
 api_name:
- - _PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
- - PPEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
  - PEERDIST_CLIENT_INFO_BY_HANDLE_CLASS
 ---
 
@@ -75,4 +73,3 @@ A value from this enumeration is passed to the<a href="/windows/desktop/api/peer
 ## -see-also
 
 <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistclientgetinformationbyhandle">PeerDistClientGetInformationByHandle</a>
-

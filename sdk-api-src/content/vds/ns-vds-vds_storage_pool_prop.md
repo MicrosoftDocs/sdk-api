@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_STORAGE_POOL_PROP
- - PVDS_STORAGE_POOL_PROP
  - VDS_STORAGE_POOL_PROP
 ---
 
@@ -155,4 +153,3 @@ Suppose you have 2 drives of 1 TB each. Suppose further that you do the followin
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsstoragepool-getproperties">IVdsStoragePool::GetProperties</a>
-

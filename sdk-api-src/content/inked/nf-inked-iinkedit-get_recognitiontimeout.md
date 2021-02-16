@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_RecognitionTimeout
+ - IInkEdit.RecognitionTimeout
+ - IInkEdit.get_RecognitionTimeout
+ - IInkEdit.put_RecognitionTimeout
+ - InkEdit.get_RecognitionTimeout
+ - InkEdit.put_RecognitionTimeout
 ---
 
 # IInkEdit::get_RecognitionTimeout
@@ -70,4 +74,3 @@ Setting this property equal to zero prevents the ink from being replaced by the 
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

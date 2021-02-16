@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CreateDialogIndirectParamW
  - winuser/CreateDialogIndirectParamW
- - CreateDialogIndirectParam
- - winuser/CreateDialogIndirectParam
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +45,10 @@ api_location:
  - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - CreateDialogIndirectParamW
  - CreateDialogIndirectParam
+ - CreateDialogIndirectParamA
+ - CreateDialogIndirectParamW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateDialogIndirectParamW function
@@ -196,4 +195,3 @@ All character strings in the dialog box template, such as titles for the dialog 
 
 
 <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
-

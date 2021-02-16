@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IISDB_LDT::Initialize
+ - IISDB_LDT.Initialize
 ---
 
 # IISDB_LDT::Initialize
@@ -80,4 +80,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>SectionList</b>
-

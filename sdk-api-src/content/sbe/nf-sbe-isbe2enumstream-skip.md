@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2EnumStream::Skip
+ - ISBE2EnumStream.Skip
 ---
 
 # ISBE2EnumStream::Skip
@@ -94,4 +94,3 @@ The end of the sequence was reached before skipping the requested number of stre
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
-

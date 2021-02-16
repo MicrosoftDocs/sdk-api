@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_SET_SPARSE_BUFFER
- - PFILE_SET_SPARSE_BUFFER
  - FILE_SET_SPARSE_BUFFER
 ---
 
@@ -81,4 +79,3 @@ If <b>FALSE</b>, makes the file not sparse.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_set_sparse">FSCTL_SET_SPARSE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure::SetBackingFileDuration
+ - IStreamBufferConfigure.SetBackingFileDuration
 ---
 
 # IStreamBufferConfigure::SetBackingFileDuration
@@ -98,4 +98,3 @@ Before calling this method, call <a href="/previous-versions/windows/desktop/api
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure Interface</a>
-

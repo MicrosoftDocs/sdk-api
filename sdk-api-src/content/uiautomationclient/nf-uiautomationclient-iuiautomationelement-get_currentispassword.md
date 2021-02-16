@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentIsPassword
+ - IUIAutomationElement.CurrentIsPassword
+ - IUIAutomationElement.get_CurrentIsPassword
 ---
 
 # IUIAutomationElement::get_CurrentIsPassword
@@ -75,4 +76,3 @@ This property enables applications such as screen-readers to determine whether t
 
 
 <b>Reference</b>
-

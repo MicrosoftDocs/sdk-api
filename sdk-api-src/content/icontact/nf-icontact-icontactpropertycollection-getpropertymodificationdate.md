@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactPropertyCollection::GetPropertyModificationDate
+ - IContactPropertyCollection.GetPropertyModificationDate
 ---
 
 # IContactPropertyCollection::GetPropertyModificationDate
@@ -84,4 +84,3 @@ Query is successful.
 </td>
 </tr>
 </table>
-

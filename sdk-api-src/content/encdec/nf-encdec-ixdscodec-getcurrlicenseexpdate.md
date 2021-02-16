@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IXDSCodec::GetCurrLicenseExpDate
+ - IXDSCodec.GetCurrLicenseExpDate
 ---
 
 # IXDSCodec::GetCurrLicenseExpDate
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccClientDocMgr::GetFocused
+ - IAccClientDocMgr.GetFocused
 ---
 
 # IAccClientDocMgr::GetFocused
@@ -80,4 +80,3 @@ If successful, returns S_OK.
 If the window that has focus is not a document that implements the <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp">ITextStoreACP</a> interface, <i>ppunk</i> will be <b>NULL</b>.
 
 Servers might need to poll this method more than once before they receive a document. There can be a limited time lapse (approximately second) between when a document appears in the system and when it is registered with document services.
-

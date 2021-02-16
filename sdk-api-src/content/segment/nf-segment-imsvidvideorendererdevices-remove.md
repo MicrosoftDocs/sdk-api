@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRendererDevices::Remove
+ - IMSVidVideoRendererDevices.Remove
 ---
 
 # IMSVidVideoRendererDevices::Remove
@@ -131,4 +131,3 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidvideorendererdevices">IMSVidVideoRendererDevices Interface</a>
-

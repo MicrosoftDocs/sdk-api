@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader::SetOutputSetting
+ - IWMSyncReader.SetOutputSetting
 ---
 
 # IWMSyncReader::SetOutputSetting
@@ -143,4 +143,3 @@ No file is open in the synchronous reader.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader-getoutputsetting">IWMSyncReader::GetOutputSetting</a>
-

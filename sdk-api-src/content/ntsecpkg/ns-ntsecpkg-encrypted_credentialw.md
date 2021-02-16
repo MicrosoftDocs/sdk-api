@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _ENCRYPTED_CREDENTIALW
- - PENCRYPTED_CREDENTIALW
  - ENCRYPTED_CREDENTIALW
 ---
 
@@ -87,4 +85,3 @@ The size, in bytes, of the unencrypted credential.
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

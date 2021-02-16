@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LogonUserA
  - winbase/LogonUserA
- - LogonUser
- - winbase/LogonUser
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - AdvApi32Legacy.dll
  - API-MS-Win-Security-Logon-L1-1-1.dll
 api_name:
- - LogonUserA
  - LogonUser
+ - LogonUserA
+ - LogonUserW
 ---
 
 # LogonUserA function
@@ -282,4 +281,3 @@ LogonUser(L"LocalService", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser">ImpersonateLoggedOnUser</a>
-

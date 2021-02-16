@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::ReverseFind
+ - CHString.ReverseFind
 ---
 
 # CHString::ReverseFind
@@ -80,4 +80,3 @@ Returns the zero-based index of the last character in the <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-findoneof">CHString::FindOneOf</a>
-

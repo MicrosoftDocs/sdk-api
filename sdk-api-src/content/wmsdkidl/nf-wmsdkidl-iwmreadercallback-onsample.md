@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderCallback::OnSample
+ - IWMReaderCallback.OnSample
 ---
 
 # IWMReaderCallback::OnSample
@@ -114,4 +114,3 @@ This method is for receipt of uncompressed samples by output number only. If you
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback Interface</a>
-

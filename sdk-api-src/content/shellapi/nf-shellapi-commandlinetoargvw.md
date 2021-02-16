@@ -46,6 +46,7 @@ api_location:
  - API-MS-Win-ShCore-Obsolete-l1-1-0.dll
 api_name:
  - CommandLineToArgvW
+ - CommandLineToArgvW
 ---
 
 # CommandLineToArgvW function
@@ -140,4 +141,3 @@ int __cdecl main()
    return(1);
 }
 ```
-

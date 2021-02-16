@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeReader::GetTimecode
+ - IAMTimecodeReader.GetTimecode
 ---
 
 # IAMTimecodeReader::GetTimecode
@@ -148,4 +148,3 @@ Also, the <b>dwUser</b> member receives the <i>blank flag</i> bit from the devic
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtimecodereader">IAMTimecodeReader Interface</a>
-

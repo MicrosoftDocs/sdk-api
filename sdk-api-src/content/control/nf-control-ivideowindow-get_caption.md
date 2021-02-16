@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::get_Caption
+ - IVideoWindow.get_Caption
 ---
 
 # IVideoWindow::get_Caption
@@ -118,4 +118,3 @@ The caller must free the returned string, using the <b>SysFreeString</b> functio
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_caption">IVideoWindow::put_Caption</a>
-

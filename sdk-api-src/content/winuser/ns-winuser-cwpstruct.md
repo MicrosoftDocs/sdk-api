@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagCWPSTRUCT
- - PCWPSTRUCT
  - CWPSTRUCT
 ---
 
@@ -105,4 +103,3 @@ A handle to the window to receive the message.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-

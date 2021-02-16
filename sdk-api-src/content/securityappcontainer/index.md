@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - securityappcontainer
  - securityappcontainer/securityappcontainer
-api_name:
- - securityappcontainer
 ---
 
 # Securityappcontainer.h header

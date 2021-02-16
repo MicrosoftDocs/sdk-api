@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CREATE_CLUSTER_NAME_ACCOUNT
- - PCREATE_CLUSTER_NAME_ACCOUNT
  - CREATE_CLUSTER_NAME_ACCOUNT
 ---
 
@@ -95,4 +93,3 @@ The management point type.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

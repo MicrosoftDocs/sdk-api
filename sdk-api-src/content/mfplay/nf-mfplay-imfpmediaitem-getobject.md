@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem::GetObject
+ - IMFPMediaItem.GetObject
 ---
 
 # IMFPMediaItem::GetObject
@@ -117,4 +117,3 @@ The object pointer is set if the application uses <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

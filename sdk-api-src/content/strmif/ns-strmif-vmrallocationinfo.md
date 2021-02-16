@@ -45,7 +45,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagVMRALLOCATIONINFO
  - VMRALLOCATIONINFO
 ---
 
@@ -93,4 +92,3 @@ The size of the native video rectangle.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

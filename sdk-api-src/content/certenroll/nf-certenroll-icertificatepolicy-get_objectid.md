@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertificatePolicy::get_ObjectId
+ - ICertificatePolicy.ObjectId
+ - ICertificatePolicy.get_ObjectId
 ---
 
 # ICertificatePolicy::get_ObjectId
@@ -67,4 +68,3 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId<
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>
-

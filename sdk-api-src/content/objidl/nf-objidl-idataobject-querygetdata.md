@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject::QueryGetData
+ - IDataObject.QueryGetData
 ---
 
 # IDataObject::QueryGetData
@@ -164,4 +164,3 @@ The client of a data object calls <b>QueryGetData</b> to determine whether passi
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

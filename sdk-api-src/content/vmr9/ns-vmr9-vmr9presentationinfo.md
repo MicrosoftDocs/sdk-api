@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - _VMR9PresentationInfo
  - VMR9PresentationInfo
 ---
 
@@ -96,4 +95,3 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

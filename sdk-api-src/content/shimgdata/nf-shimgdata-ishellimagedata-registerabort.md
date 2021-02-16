@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::RegisterAbort
+ - IShellImageData.RegisterAbort
 ---
 
 # IShellImageData::RegisterAbort
@@ -71,4 +71,3 @@ The address of a pointer to the previous abort object. This parameter can be <b>
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful or an error value otherwise.
-

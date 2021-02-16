@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog::GetFileTypeIndex
+ - IFileDialog.GetFileTypeIndex
 ---
 
 # IFileDialog::GetFileTypeIndex
@@ -72,4 +72,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>IFileDialog::GetFileTypeIndex</b> can be called either while the dialog is open or after it has closed.
-

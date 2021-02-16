@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolManager::Uninitialize
+ - IWRdsProtocolManager.Uninitialize
 ---
 
 # IWRdsProtocolManager::Uninitialize
@@ -69,4 +69,3 @@ You can implement this method to clean up resources used by the <a href="/window
 
 
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolmanager-initialize">Initialize</a>
-

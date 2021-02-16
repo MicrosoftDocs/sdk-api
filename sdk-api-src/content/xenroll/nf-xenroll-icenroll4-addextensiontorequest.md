@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::addExtensionToRequest
+ - ICEnroll4.addExtensionToRequest
+ - CEnroll.addExtensionToRequest
 ---
 
 # ICEnroll4::addExtensionToRequest
@@ -75,4 +76,3 @@ The base64-encoded or binary extension value.
 
 <h3>VB</h3>
 The return value is an <b>HRESULT</b>, with <b>S_OK</b> returned if the call is successful.
-

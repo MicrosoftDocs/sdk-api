@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::GenerateUnusedLookupKey
+ - IXpsOMPage.GenerateUnusedLookupKey
 ---
 
 # IXpsOMPage::GenerateUnusedLookupKey
@@ -239,4 +239,3 @@ This method allocates the memory used by the string that is returned in <i>key</
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_object_type">XPS_OBJECT_TYPE</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::GetBuffer
+ - CHString.GetBuffer
+ - ?GetBuffer@CHString@@QAEPAGH@Z
+ - ?GetBuffer@CHString@@QEAAPEAGH@Z
 ---
 
 # CHString::GetBuffer
@@ -90,4 +92,3 @@ Note that if you keep track of the string length yourself, you should not append
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-releasebuffer">CHString::ReleaseBuffer</a>
-

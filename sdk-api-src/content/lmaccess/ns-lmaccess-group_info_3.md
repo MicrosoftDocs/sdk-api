@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _GROUP_INFO_3
- - PGROUP_INFO_3
  - GROUP_INFO_3
 ---
 
@@ -123,4 +121,3 @@ These attributes are hard-coded to SE_GROUP_MANDATORY, SE_GROUP_ENABLED, and SE_
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
-

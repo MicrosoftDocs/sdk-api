@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_MORESURFACECAPS
- - PDD_MORESURFACECAPS
  - DD_MORESURFACECAPS
 ---
 
@@ -111,4 +109,3 @@ This structure contains the caps bits added to the <b>DDCAPS.ddsCaps</b> structu
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff550292(v=vs.85)">DDSCAPS2</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_KEY_CONTEXT
- - PCERT_KEY_CONTEXT
  - CERT_KEY_CONTEXT
 ---
 
@@ -135,4 +133,3 @@ Keys associated with a CNG CSP.  The handle to the CNG CSP is set in the <b>hNCr
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
-

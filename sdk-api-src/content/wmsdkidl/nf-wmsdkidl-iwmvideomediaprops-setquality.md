@@ -43,7 +43,7 @@ api_location:
  - Wmvcore.lib
  - Wmvcore.dll
 api_name:
- - IWMVideoMediaProps::SetQuality
+ - IWMVideoMediaProps.SetQuality
 ---
 
 # IWMVideoMediaProps::SetQuality
@@ -70,4 +70,3 @@ This method always returns S_OK.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmvideomediaprops-getquality">IWMVideoMediaProps::GetQuality</a>
-

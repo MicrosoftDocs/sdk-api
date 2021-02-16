@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayIdentifier::GetPriority
+ - IShellIconOverlayIdentifier.GetPriority
 ---
 
 # IShellIconOverlayIdentifier::GetPriority
@@ -73,4 +73,3 @@ If more than one icon overlay is available for an object, the one with highest p
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier">IShellIconOverlayIdentifier</a>
-

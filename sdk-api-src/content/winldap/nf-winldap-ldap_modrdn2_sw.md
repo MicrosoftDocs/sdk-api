@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_modrdn2_sW
  - winldap/ldap_modrdn2_sW
- - ldap_modrdn2_s
- - winldap/ldap_modrdn2_s
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_modrdn2_sW
  - ldap_modrdn2_s
+ - ldap_modrdn2_sA
+ - ldap_modrdn2_sW
 ---
 
 # ldap_modrdn2_sW function
@@ -128,4 +127,3 @@ Be aware that the various <a href="/previous-versions/windows/desktop/api/winlda
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

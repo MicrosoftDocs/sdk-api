@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetPatchInfoExA
  - msi/MsiGetPatchInfoExA
- - MsiGetPatchInfoEx
- - msi/MsiGetPatchInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiGetPatchInfoExA
  - MsiGetPatchInfoEx
+ - MsiGetPatchInfoExA
+ - MsiGetPatchInfoExW
 ---
 
 # MsiGetPatchInfoExA function
@@ -381,4 +380,3 @@ A user may query patch data for any product instance that is visible. The admini
 
 
 <a href="/windows/desktop/Msi/removing-patches">Removing Patches</a>
-

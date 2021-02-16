@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - IQueryContinueWithStatus::SetStatusMessage
+ - IQueryContinueWithStatus.SetStatusMessage
 ---
 
 # IQueryContinueWithStatus::SetStatusMessage
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The Logon UI will display the status message during <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-iconnectablecredentialprovidercredential-connect">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts.
-

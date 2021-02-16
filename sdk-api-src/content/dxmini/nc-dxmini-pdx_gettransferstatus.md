@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_GETTRANSFERSTATUS
+ - DxGetTransferStatus
 ---
 
 ## -description
@@ -52,15 +52,12 @@ The<i> DxGetTransferStatus</i> callback function is used by DirectDraw to determ
 ## -parameters
 
 ### -param Arg1
-
 Points to the miniport driver's device extension.
 
 ### -param Arg2
-
 Reserved for system use.
 
 ### -param Arg3
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgettransferstatusoutinfo">DDGETTRANSFERSTATUSOUTINFO</a> structure that contains the transfer status information.
 
 ## -returns
@@ -78,4 +75,3 @@ The driver identifies the bus master by supplying the transfer ID in the DDGETTR
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a>
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>
-

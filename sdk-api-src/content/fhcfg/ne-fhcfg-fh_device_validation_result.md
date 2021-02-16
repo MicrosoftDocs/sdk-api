@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - _FH_DEVICE_VALIDATION_RESULT
- - PFH_DEVICE_VALIDATION_RESULT
  - FH_DEVICE_VALIDATION_RESULT
 ---
 
@@ -95,4 +93,3 @@ The maximum enumeration value for this enumeration. This value and all values gr
 ## -see-also
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-validatetarget">IFhConfigMgr::ValidateTarget</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _TRIVERTEX
- - PTRIVERTEX
  - TRIVERTEX
 ---
 
@@ -110,4 +108,3 @@ For an example of the use of this structure, see <a href="/windows/desktop/gdi/d
 
 
 <a href="/previous-versions/dd162807(v=vs.85)">POINTL</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced::SetSyncTolerance
+ - IWMWriterAdvanced.SetSyncTolerance
 ---
 
 # IWMWriterAdvanced::SetSyncTolerance
@@ -78,4 +78,3 @@ Regardless of what the tolerance is set to, keeping samples as tightly synchroni
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsynctolerance">IWMWriterAdvanced::GetSyncTolerance</a>
-

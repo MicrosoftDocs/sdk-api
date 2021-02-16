@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush::SetViewport
+ - IXpsOMTileBrush.SetViewport
 ---
 
 # IXpsOMTileBrush::SetViewport
@@ -123,4 +123,3 @@ The viewport is the portion of the output area where the tile is drawn. In the f
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern::get_DocumentRange
+ - IUIAutomationTextPattern.DocumentRange
+ - IUIAutomationTextPattern.get_DocumentRange
 ---
 
 # IUIAutomationTextPattern::get_DocumentRange
@@ -67,4 +68,3 @@ Some auxiliary text such as headers, footnotes, or annotations might not be incl
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource::Unadvise
+ - ITransferSource.Unadvise
 ---
 
 # ITransferSource::Unadvise
@@ -98,4 +98,3 @@ The value in dwCookie does not represent a valid connection.
 ## -remarks
 
 Terminates an advisory connection previously established through  method <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-advise">ITransferSource::Advise</a>. The <i>dwCookie</i> parameter identifies the connection to terminate.
-

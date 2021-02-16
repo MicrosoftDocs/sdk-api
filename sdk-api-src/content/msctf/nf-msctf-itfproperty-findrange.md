@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfProperty::FindRange
+ - ITfProperty.FindRange
 ---
 
 # ITfProperty::FindRange
@@ -181,4 +181,3 @@ TEXT:  this is some &lt;a&gt;colored &lt;/a&gt;text
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor</a>
-

@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupEnumInfSectionsW
  - setupapi/SetupEnumInfSectionsW
- - SetupEnumInfSections
- - setupapi/SetupEnumInfSections
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - Setupapi.dll
  - Ext-MS-Win-SetupAPI-Inf-L1-1-1.dll
 api_name:
- - SetupEnumInfSectionsW
  - SetupEnumInfSections
+ - SetupEnumInfSectionsA
+ - SetupEnumInfSectionsW
+req.apiset: ext-ms-win-setupapi-inf-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupEnumInfSectionsW function
@@ -100,4 +99,3 @@ This function can enumerate all unique section names in the INF file. If a secti
 
 > [!NOTE]
 > The setupapi.h header defines SetupEnumInfSections as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

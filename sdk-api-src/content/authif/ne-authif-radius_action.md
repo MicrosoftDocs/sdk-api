@@ -46,8 +46,6 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
- - _RADIUS_ACTION
- - PRADIUS_ACTION
  - RADIUS_ACTION
 ---
 
@@ -101,4 +99,3 @@ Use the values for this enumeration only as the actions for the
 
 
 <a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_ex">RadiusExtensionProcessEx</a>
-

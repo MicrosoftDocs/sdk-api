@@ -9,8 +9,6 @@ tech.root: monitor
 f1_keywords:
  - physicalmonitorenumerationapi
  - physicalmonitorenumerationapi/physicalmonitorenumerationapi
-api_name:
- - physicalmonitorenumerationapi
 ---
 
 # Physicalmonitorenumerationapi.h header

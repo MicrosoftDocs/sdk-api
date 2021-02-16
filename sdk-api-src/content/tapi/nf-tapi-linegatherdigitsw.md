@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineGatherDigitsW
  - tapi/lineGatherDigitsW
- - lineGatherDigits
- - tapi/lineGatherDigits
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGatherDigitsW
  - lineGatherDigits
+ - lineGatherDigitsA
+ - lineGatherDigitsW
 ---
 
 # lineGatherDigitsW function
@@ -164,4 +163,3 @@ If the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemonitordigits">lineMonitorDigits</a>
-

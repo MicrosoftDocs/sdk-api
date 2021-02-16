@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern::get_CurrentStyleId
+ - IUIAutomationStylesPattern.CurrentStyleId
+ - IUIAutomationStylesPattern.get_CurrentStyleId
 ---
 
 # IUIAutomationStylesPattern::get_CurrentStyleId
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationstylespattern">IUIAutomationStylesPattern</a>
-

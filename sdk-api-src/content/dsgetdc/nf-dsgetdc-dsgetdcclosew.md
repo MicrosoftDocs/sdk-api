@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetDcCloseW
  - dsgetdc/DsGetDcCloseW
- - DsGetDcClose
- - dsgetdc/DsGetDcClose
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - Netapi32.dll
 api_name:
- - DsGetDcCloseW
  - DsGetDcClose
+ - DsGetDcCloseW
 ---
 
 # DsGetDcCloseW function
@@ -80,4 +78,3 @@ When this function is called, <i>GetDcContextHandle</i> is invalid and cannot be
 
 
 <a href="/windows/desktop/AD/enumerating-domain-controllers">Enumerating Domain Controllers</a>
-

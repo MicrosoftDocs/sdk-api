@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWindowsParentalControls::GetGamesSettings
+ - IWindowsParentalControls.GetGamesSettings
 ---
 
 # IWindowsParentalControls::GetGamesSettings
@@ -131,4 +131,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwindowsparentalcontrols">IWindowsParentalControls</a>
-

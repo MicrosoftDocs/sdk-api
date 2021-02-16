@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACL_REVISION_INFORMATION
  - ACL_REVISION_INFORMATION
 ---
 
@@ -80,4 +79,3 @@ Specifies a revision number. The current revision number is ACL_REVISION.
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
-

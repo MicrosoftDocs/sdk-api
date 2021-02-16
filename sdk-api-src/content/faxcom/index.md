@@ -9,8 +9,6 @@ tech.root: fax
 f1_keywords:
  - faxcom
  - faxcom/faxcom
-api_name:
- - faxcom
 ---
 
 # Faxcom.h header

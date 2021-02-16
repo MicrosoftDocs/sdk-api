@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection::Close
+ - IWTSProtocolConnection.Close
 ---
 
 # IWTSProtocolConnection::Close
@@ -63,4 +63,3 @@ Closes a connection after the session is disconnected.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_PROTECT_MEMORY
+ - LsaProtectMemory
 ---
 
 # LSA_PROTECT_MEMORY callback function
@@ -71,4 +71,3 @@ A pointer to the <b>LsaProtectMemory</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

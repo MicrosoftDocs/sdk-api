@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2EventArgs::get_LastReadLba
+ - IWriteEngine2EventArgs.get_LastReadLba
 ---
 
 # IWriteEngine2EventArgs::get_LastReadLba
@@ -93,4 +93,3 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_startlba">IWriteEngine2EventArgs::get_StartLba</a>
-

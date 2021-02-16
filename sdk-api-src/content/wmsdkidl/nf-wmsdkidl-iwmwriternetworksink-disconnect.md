@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink::Disconnect
+ - IWMWriterNetworkSink.Disconnect
 ---
 
 # IWMWriterNetworkSink::Disconnect
@@ -86,4 +86,3 @@ This method is equivalent to the <a href="/windows/desktop/api/wmsdkidl/nf-wmsdk
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriternetworksink">IWMWriterNetworkSink Interface</a>
-

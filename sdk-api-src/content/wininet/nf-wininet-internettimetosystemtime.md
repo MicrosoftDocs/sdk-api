@@ -45,6 +45,8 @@ api_location:
  - KernelBase.dll
 api_name:
  - InternetTimeToSystemTime
+ - InternetTimeToSystemTimeA
+ - InternetTimeToSystemTimeW
 ---
 
 # InternetTimeToSystemTime function
@@ -87,4 +89,3 @@ Returns <b>TRUE</b> if the string was converted, or <b>FALSE</b> otherwise. To g
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

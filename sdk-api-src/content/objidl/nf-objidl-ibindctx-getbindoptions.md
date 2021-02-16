@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::GetBindOptions
+ - IBindCtx.GetBindOptions
 ---
 
 # IBindCtx::GetBindOptions
@@ -86,4 +86,3 @@ You must initialize the structure that is filled in by this method. Before calli
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-

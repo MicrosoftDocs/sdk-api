@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::GetChase
+ - IAMExtTransport.GetChase
 ---
 
 # IAMExtTransport::GetChase
@@ -103,4 +103,3 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-setchase">IAMExtTransport::SetChase</a>
-

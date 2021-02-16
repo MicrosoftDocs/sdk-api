@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tspi.h
 api_name:
- - PHONEEVENT
+ - Phone_Event
 ---
 
 # PHONEEVENT callback function
@@ -95,4 +95,3 @@ The sets of messages that can be passed to this procedure differ slightly from t
 
 
 <a href="/windows/desktop/api/tspi/nf-tspi-tspi_lineopen">TSPI_lineOpen</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix
+ - IX509CertificateRequestPkcs10.KeyContainerNamePrefix
+ - IX509CertificateRequestPkcs10.get_KeyContainerNamePrefix
+ - IX509CertificateRequestPkcs10.put_KeyContainerNamePrefix
 ---
 
 # IX509CertificateRequestPkcs10::get_KeyContainerNamePrefix
@@ -83,4 +85,3 @@ You must set this property before calling the <a href="/windows/desktop/api/cert
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

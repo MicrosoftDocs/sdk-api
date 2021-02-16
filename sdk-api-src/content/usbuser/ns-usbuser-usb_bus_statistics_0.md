@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USB_BUS_STATISTICS_0
- - PUSB_BUS_STATISTICS_0
  - USB_BUS_STATISTICS_0
 ---
 
@@ -184,4 +182,3 @@ In Windows 8, this request completes successfully. However, the values retrieve
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-

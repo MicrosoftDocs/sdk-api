@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IPersistTuneXmlUtility2::Serialize
+ - IPersistTuneXmlUtility2.Serialize
 ---
 
 # IPersistTuneXmlUtility2::Serialize
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequest</a>
-

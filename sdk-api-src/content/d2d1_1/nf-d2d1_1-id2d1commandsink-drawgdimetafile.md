@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink::DrawGdiMetafile
+ - ID2D1CommandSink.DrawGdiMetafile
 ---
 
 # ID2D1CommandSink::DrawGdiMetafile
@@ -77,4 +77,3 @@ The <i>targetOffset</i> defines the offset in the destination space that the ima
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1commandsink">ID2D1CommandSink</a>
-

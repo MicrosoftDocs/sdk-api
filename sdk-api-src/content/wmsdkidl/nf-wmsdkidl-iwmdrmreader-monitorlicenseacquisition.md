@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader::MonitorLicenseAcquisition
+ - IWMDRMReader.MonitorLicenseAcquisition
 ---
 
 # IWMDRMReader::MonitorLicenseAcquisition
@@ -84,4 +84,3 @@ When the license acquisition is completed (whether successful or otherwise), the
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
-

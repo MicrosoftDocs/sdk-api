@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::Font
+ - Font.Font
 ---
 
 # Font::Font(IN HDC)
@@ -80,4 +80,3 @@ A device context is a structure that is maintained internally. It is associated 
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

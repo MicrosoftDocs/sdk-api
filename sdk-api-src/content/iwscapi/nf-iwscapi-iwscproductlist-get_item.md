@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wscapi.dll
 api_name:
- - IWSCProductList::get_Item
+ - IWSCProductList.get_Item
 ---
 
 # IWSCProductList::get_Item
@@ -75,4 +75,3 @@ A provider is obtained by calling the <b>Item</b> method, which returns an inter
 ## -see-also
 
 <a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist">IWSCProductList</a>
-

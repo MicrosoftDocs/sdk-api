@@ -46,9 +46,7 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - tMIXERCONTROLDETAILS_UNSIGNED
- - PMIXERCONTROLDETAILS_UNSIGNED
- - MIXERCONTROLDETAILS_UNSIGNED
+ - MIXERCONTROLDETAILS
 ---
 
 # MIXERCONTROLDETAILS_UNSIGNED structure
@@ -115,4 +113,3 @@ MIXERCONTROL_CONTROLTYPE_PERCENT
 
 
 <a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
-

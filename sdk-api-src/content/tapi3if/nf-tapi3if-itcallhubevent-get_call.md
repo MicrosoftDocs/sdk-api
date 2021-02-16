@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallHubEvent::get_Call
+ - ITCallHubEvent.get_Call
 ---
 
 # ITCallHubEvent::get_Call
@@ -115,4 +115,3 @@ This method may return a <b>NULL</b> if the event is not associated with a call.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
-

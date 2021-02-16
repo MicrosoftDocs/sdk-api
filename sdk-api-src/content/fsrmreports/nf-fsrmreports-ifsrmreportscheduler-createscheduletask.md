@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportScheduler::CreateScheduleTask
+ - IFsrmReportScheduler.CreateScheduleTask
+ - FsrmReportScheduler.CreateScheduleTask
 ---
 
 # IFsrmReportScheduler::CreateScheduleTask
@@ -116,4 +117,3 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
-

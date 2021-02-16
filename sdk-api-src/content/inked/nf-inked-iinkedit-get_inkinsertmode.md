@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_InkInsertMode
+ - IInkEdit.InkInsertMode
+ - IInkEdit.get_InkInsertMode
+ - IInkEdit.put_InkInsertMode
+ - InkEdit.get_InkInsertMode
+ - InkEdit.put_InkInsertMode
 ---
 
 # IInkEdit::get_InkInsertMode
@@ -70,4 +74,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/inked/ne-inked-inkinsertmode">InkInsertMode Enumeration</a>
-

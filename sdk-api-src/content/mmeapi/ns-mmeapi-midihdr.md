@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - midihdr_tag
- - PMIDIHDR
  - MIDIHDR
 ---
 
@@ -162,4 +160,3 @@ MIDI Structures
 
 
 <a href="/previous-versions/dd798477(v=vs.85)">midiOutPrepareHeader</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineproviderentry_tag
- - LPLINEPROVIDERENTRY
  - LINEPROVIDERENTRY
 ---
 
@@ -87,4 +85,3 @@ Not extensible.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetproviderlist">lineGetProviderList</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioStreamVolume::SetAllVolumes
+ - IAudioStreamVolume.SetAllVolumes
 ---
 
 # IAudioStreamVolume::SetAllVolumes
@@ -124,4 +124,3 @@ The Windows audio service is not running.
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiostreamvolume-getchannelcount">IAudioStreamVolume::GetChannelCount</a>
-

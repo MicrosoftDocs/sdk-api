@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IMenuButton::AddButton
+ - IMenuButton.AddButton
 ---
 
 # IMenuButton::AddButton
@@ -81,4 +81,3 @@ This method can be called by primary or extension snap-ins.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-imenubutton">IMenuButton</a>
-

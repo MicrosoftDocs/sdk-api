@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_QUERY_PROVIDER_FLAG
  - VDS_QUERY_PROVIDER_FLAG
 ---
 
@@ -88,4 +87,3 @@ This enumeration provides the value for the <i>masks</i> parameter of the  <a hr
 
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

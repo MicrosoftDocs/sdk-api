@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection::get_SamUserAccount
+ - ITsSbClientConnection.SamUserAccount
+ - ITsSbClientConnection.get_SamUserAccount
 ---
 
 # ITsSbClientConnection::get_SamUserAccount
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
-

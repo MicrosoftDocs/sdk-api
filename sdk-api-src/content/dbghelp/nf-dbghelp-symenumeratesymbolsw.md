@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymEnumerateSymbolsW
  - dbghelp/SymEnumerateSymbolsW
- - SymEnumerateSymbols
- - dbghelp/SymEnumerateSymbols
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,11 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymEnumerateSymbolsW
+ - SymEnumerateSymbols64
+ - SymEnumerateSymbols64
+ - SymEnumerateSymbolsW64
  - SymEnumerateSymbols
+ - SymEnumerateSymbolsW
 ---
 
 # SymEnumerateSymbolsW function
@@ -151,4 +152,3 @@ SymEnumerateSymbolsW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

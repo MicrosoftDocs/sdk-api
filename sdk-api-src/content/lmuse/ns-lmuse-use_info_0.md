@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmuse.h
 api_name:
- - _USE_INFO_0
- - PUSE_INFO_0
  - USE_INFO_0
 ---
 
@@ -94,4 +92,3 @@ Pointer to a Unicode string that specifies the share name of the remote resource
 
 
 <a href="/windows/desktop/NetMgmt/use-functions">Use Functions</a>
-

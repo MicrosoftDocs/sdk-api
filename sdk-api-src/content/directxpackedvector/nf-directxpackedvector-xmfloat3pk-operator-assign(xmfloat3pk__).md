@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3PK::operator=
+ - XMFLOAT3PK.operator =
 ---
 
 # XMFLOAT3PK::operator-assign(XMFLOAT3PK &&)

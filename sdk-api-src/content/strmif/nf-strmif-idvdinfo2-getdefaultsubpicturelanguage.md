@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetDefaultSubpictureLanguage
+ - IDvdInfo2.GetDefaultSubpictureLanguage
 ---
 
 # IDvdInfo2::GetDefaultSubpictureLanguage
@@ -140,4 +140,3 @@ DVD Navigator is not in a valid domain.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StartServiceCtrlDispatcherW
  - winsvc/StartServiceCtrlDispatcherW
- - StartServiceCtrlDispatcher
- - winsvc/StartServiceCtrlDispatcher
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
  - API-Ms-Win-Service-Core-L1-1-2.dll
 api_name:
- - StartServiceCtrlDispatcherW
  - StartServiceCtrlDispatcher
+ - StartServiceCtrlDispatcherA
+ - StartServiceCtrlDispatcherW
 ---
 
 # StartServiceCtrlDispatcherW function
@@ -183,4 +182,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DISK_FLAG
  - VDS_DISK_FLAG
 ---
 
@@ -190,4 +189,3 @@ USB disks and CD-ROMs have the following restrictions and capabilities:
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
-

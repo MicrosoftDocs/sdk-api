@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorDevice::GetSymbolicLink
+ - IMFSensorDevice.GetSymbolicLink
 ---
 
 # IMFSensorDevice::GetSymbolicLink
@@ -122,4 +122,3 @@ Depending on the type of device, which is defined by a member of the <a href="/w
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
-

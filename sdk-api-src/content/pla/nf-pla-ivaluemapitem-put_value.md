@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMapItem::put_Value
+ - IValueMapItem.Value
+ - IValueMapItem.get_Value
+ - IValueMapItem.put_Value
 ---
 
 # IValueMapItem::put_Value
@@ -73,4 +75,3 @@ The variant type is VT_UI4 if <a href="/windows/win32/api/pla/ne-pla-valuemaptyp
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>
-

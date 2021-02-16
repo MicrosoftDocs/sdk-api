@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::GetPoint
+ - ITextRange.GetPoint
 ---
 
 # ITextRange::GetPoint
@@ -218,4 +218,3 @@ The <b>ITextRange::GetPoint</b> method gives <a href="/windows/desktop/api/tom/n
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

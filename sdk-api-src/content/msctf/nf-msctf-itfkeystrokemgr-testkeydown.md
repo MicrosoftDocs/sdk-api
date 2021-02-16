@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr::TestKeyDown
+ - ITfKeystrokeMgr.TestKeyDown
 ---
 
 # ITfKeystrokeMgr::TestKeyDown
@@ -152,4 +152,3 @@ If the keystroke manager does not handle the key event, it passes the key event 
 
 
 <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
-

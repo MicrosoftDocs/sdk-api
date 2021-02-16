@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagCOLORKEY
  - COLORKEY
 ---
 
@@ -80,4 +79,3 @@ The video renderer supports a data transport accessed through the <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

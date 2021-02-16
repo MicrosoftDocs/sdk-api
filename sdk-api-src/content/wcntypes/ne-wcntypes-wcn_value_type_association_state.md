@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
- - tagWCN_VALUE_TYPE_ASSOCIATION_STATE
  - WCN_VALUE_TYPE_ASSOCIATION_STATE
 ---
 
@@ -80,4 +79,3 @@ Association has failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
-

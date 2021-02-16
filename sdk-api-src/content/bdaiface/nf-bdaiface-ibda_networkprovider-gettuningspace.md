@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_NetworkProvider::GetTuningSpace
+ - IBDA_NetworkProvider.GetTuningSpace
 ---
 
 # IBDA_NetworkProvider::GetTuningSpace
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_networkprovider-puttuningspace">PutTuningSpace</a>
-

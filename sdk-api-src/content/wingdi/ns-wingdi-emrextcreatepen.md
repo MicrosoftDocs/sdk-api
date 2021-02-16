@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMREXTCREATEPEN
- - PEMREXTCREATEPEN
  - EMREXTCREATEPEN
 ---
 
@@ -107,4 +105,3 @@ Extended logical pen, including the <b>elpStyleEntry</b> member of the <a href="
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

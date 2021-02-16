@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPISENDMAIL
+ - MAPISendMail
 ---
 
 # MAPISENDMAIL callback function
@@ -124,4 +124,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/api/ma
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAnalogTVTuningSpace::get_MaxChannel
+ - IAnalogTVTuningSpace.get_MaxChannel
 ---
 
 # IAnalogTVTuningSpace::get_MaxChannel
@@ -69,4 +69,3 @@ For example, an NTSC tuning space connected to an antenna would return 69.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogtvtuningspace">IAnalogTVTuningSpace Interface</a>
-

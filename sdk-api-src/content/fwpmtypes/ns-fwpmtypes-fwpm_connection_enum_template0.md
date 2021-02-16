@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_CONNECTION_ENUM_TEMPLATE0_
  - FWPM_CONNECTION_ENUM_TEMPLATE0
 ---
 

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
- - FWPS_ALE_ENDPOINT_PROPERTIES0_
  - FWPS_ALE_ENDPOINT_PROPERTIES0
 ---
 
@@ -135,4 +134,3 @@ Endpoints enumerated by calling
 
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
-

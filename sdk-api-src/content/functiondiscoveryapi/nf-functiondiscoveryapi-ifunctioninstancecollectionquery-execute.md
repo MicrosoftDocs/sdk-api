@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceCollectionQuery::Execute
+ - IFunctionInstanceCollectionQuery.Execute
 ---
 
 # IFunctionInstanceCollectionQuery::Execute
@@ -139,4 +139,3 @@ Function Discovery network providers only return function instances through the 
 
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>
-

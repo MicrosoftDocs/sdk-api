@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValueStatics::CreateUInt8Array
+ - IPropertyValueStatics.CreateUInt8Array
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-ipropertyvaluestatics">IPropertyValueStatics</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IContextMenuProvider::ShowContextMenu
+ - IContextMenuProvider.ShowContextMenu
 ---
 
 # IContextMenuProvider::ShowContextMenu
@@ -85,4 +85,3 @@ ShowContextMenu automatically clears the context menu after that displays it. A 
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
-

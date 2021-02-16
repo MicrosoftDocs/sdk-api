@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow::GetCellShading
+ - ITextRow.GetCellShading
 ---
 
 # ITextRow::GetCellShading
@@ -77,4 +77,3 @@ The shading is given in hundredths of a percent, so full shading is given by the
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellshading">ITextRow::SetCellShading</a>
-

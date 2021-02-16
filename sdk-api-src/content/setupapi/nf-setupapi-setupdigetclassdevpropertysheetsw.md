@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassDevPropertySheetsW
  - setupapi/SetupDiGetClassDevPropertySheetsW
- - SetupDiGetClassDevPropertySheets
- - setupapi/SetupDiGetClassDevPropertySheets
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassDevPropertySheetsW
- - SetupDiGetClassDevPropertySheets
+ - SetupDiGetClassDevPropertySheets - SetupDiGetClassDevPropertySheetsW
 ---
 
 # SetupDiGetClassDevPropertySheetsW function
@@ -185,4 +182,3 @@ Returns <b>FALSE</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_devinfo_data">SP_DEVINFO_DATA</a>
-

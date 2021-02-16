@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAnalogTuner::ChannelAvailable
+ - IMSVidAnalogTuner.ChannelAvailable
 ---
 
 # IMSVidAnalogTuner::ChannelAvailable
@@ -79,4 +79,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidanalogtuner">IMSVidAnalogTuner Interface</a>
-

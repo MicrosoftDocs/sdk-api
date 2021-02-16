@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem::GetItemType
+ - IWiaItem.GetItemType
 ---
 
 # IWiaItem::GetItemType
@@ -71,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Every <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem">IWiaItem</a> object in the hierarchical tree of objects associated with a Windows Image Acquisition (WIA) hardware device has a specific data type. Item objects represent folders and files. Folders contain file objects. File objects contain data acquired by the device such as images and sounds. This method enables applications to identify the type of any item in a hierarchical tree of item objects in a device.
 
 An item may have more than one type. For example, an item that represents an audio file will have the type attributes <a href="/windows/desktop/wia/-wia-wia-item-type-flags">WiaItemTypeAudio</a> | <b>WiaItemTypeFile</b>.
-

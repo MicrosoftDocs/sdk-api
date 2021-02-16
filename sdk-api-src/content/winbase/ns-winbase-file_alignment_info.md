@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _FILE_ALIGNMENT_INFO
- - PFILE_ALIGNMENT_INFO
  - FILE_ALIGNMENT_INFO
 ---
 
@@ -78,4 +76,3 @@ Minimum alignment requirement, in bytes.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

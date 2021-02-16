@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferAdviseSink::FileFailure
+ - ITransferAdviseSink.FileFailure
 ---
 
 # ITransferAdviseSink::FileFailure
@@ -129,4 +129,3 @@ The user clicked <b>Ignore</b>. The handler should skip creating the item and re
 </td>
 </tr>
 </table>
-

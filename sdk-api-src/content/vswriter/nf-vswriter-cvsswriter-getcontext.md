@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetContext
+ - CVssWriter.GetContext
 ---
 
 # CVssWriter::GetContext
@@ -103,4 +103,3 @@ Therefore, if a writer is participating in a shadow copy operation, a definitive
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-

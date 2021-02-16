@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TRANSACTION_OUTCOME
  - TRANSACTION_OUTCOME
 ---
 
@@ -76,4 +75,3 @@ The transaction has been rolled back.
 
 
 <a href="/windows/desktop/Ktm/ktm-reference">KTM Reference</a>
-

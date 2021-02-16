@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaPropertyStorage::GetPropertyAttributes
+ - IWiaPropertyStorage.GetPropertyAttributes
 ---
 
 # IWiaPropertyStorage::GetPropertyAttributes
@@ -221,4 +221,3 @@ where <i>n</i> is the index number of the property that is inspected, and <i>fla
 
 
 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage">IWiaPropertyStorage</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder2::EnumSearches
+ - IShellFolder2.EnumSearches
 ---
 
 # IShellFolder2::EnumSearches
@@ -65,4 +65,3 @@ The address of a pointer to an enumerator object's <a href="/windows/desktop/api
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or a COM error value otherwise.
-

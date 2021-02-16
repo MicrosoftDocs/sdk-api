@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::get_VideoRenderersAvailable
+ - IMSVidCtl.get_VideoRenderersAvailable
 ---
 
 # IMSVidCtl::get_VideoRenderersAvailable
@@ -76,4 +76,3 @@ This method returns a collection of video renderer devices. Use the returned <a 
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_videorendereractive">IMSVidCtl::get_VideoRendererActive</a>
-

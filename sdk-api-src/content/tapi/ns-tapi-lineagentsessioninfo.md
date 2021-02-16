@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineagentsessioninfo_tag
- - LPLINEAGENTSESSIONINFO
  - LINEAGENTSESSIONINFO
 ---
 
@@ -140,4 +138,3 @@ Average time calls waited to be answered, in seconds.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>
-

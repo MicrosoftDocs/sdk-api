@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Wdstptmgmt.h
 api_name:
- - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0011
- - PWDSTRANSPORT_UDP_PORT_POLICY
- - WDSTRANSPORT_UDP_PORT_POLICY
+ - WDSTRANSPORT_UDP_PORT_POLICY, *PWDSTRANSPORT_UDP_PORT_POLICY
 ---
 
 # WDSTRANSPORT_UDP_PORT_POLICY enumeration
@@ -71,4 +69,3 @@ Assign a fixed UDP port from a specified range of UDP ports.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportservicepolicy2-get_udpportpolicy">IWdsTransportServicePolicy2::UdpPortPolicy Property</a>
-

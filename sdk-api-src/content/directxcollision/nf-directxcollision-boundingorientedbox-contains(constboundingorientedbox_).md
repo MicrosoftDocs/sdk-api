@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingOrientedBox::Contains
+ - BoundingOrientedBox.Contains
 ---
 
 # BoundingOrientedBox::Contains(const BoundingOrientedBox &)

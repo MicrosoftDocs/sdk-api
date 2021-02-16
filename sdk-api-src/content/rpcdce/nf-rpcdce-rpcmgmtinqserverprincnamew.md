@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcMgmtInqServerPrincNameW
  - rpcdce/RpcMgmtInqServerPrincNameW
- - RpcMgmtInqServerPrincName
- - rpcdce/RpcMgmtInqServerPrincName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcMgmtInqServerPrincNameW
  - RpcMgmtInqServerPrincName
+ - RpcMgmtInqServerPrincNameA
+ - RpcMgmtInqServerPrincNameW
 ---
 
 # RpcMgmtInqServerPrincNameW function
@@ -138,4 +137,3 @@ The server must be listening for remote procedure calls for this function to suc
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

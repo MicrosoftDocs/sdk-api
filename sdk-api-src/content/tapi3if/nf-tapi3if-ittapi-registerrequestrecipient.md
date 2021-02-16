@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI::RegisterRequestRecipient
+ - ITTAPI.RegisterRequestRecipient
 ---
 
 # ITTAPI::RegisterRequestRecipient
@@ -130,4 +130,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

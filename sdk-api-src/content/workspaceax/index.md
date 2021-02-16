@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - workspaceax
  - workspaceax/workspaceax
-api_name:
- - workspaceax
 ---
 
 # Workspaceax.h header

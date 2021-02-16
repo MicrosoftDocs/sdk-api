@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::GetInfo
+ - IWbemPath.GetInfo
 ---
 
 # IWbemPath::GetInfo
@@ -181,4 +181,3 @@ This method returns one of the following values.
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-

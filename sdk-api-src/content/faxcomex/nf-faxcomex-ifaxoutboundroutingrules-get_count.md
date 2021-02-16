@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRules::get_Count
+ - IFaxOutboundRoutingRules.Count
+ - IFaxOutboundRoutingRules.get_Count
 ---
 
 # IFaxOutboundRoutingRules::get_Count
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
-

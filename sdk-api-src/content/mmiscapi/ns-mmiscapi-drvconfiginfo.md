@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mmsystem.h
 api_name:
- - tagDRVCONFIGINFO
- - PDRVCONFIGINFO
  - DRVCONFIGINFO
 ---
 

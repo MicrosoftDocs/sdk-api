@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::IsPartialFileSupportEnabled
+ - CVssWriter.IsPartialFileSupportEnabled
 ---
 
 # CVssWriter::IsPartialFileSupportEnabled
@@ -95,4 +95,3 @@ The requester supports only the backup and restore of entire files.
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
-

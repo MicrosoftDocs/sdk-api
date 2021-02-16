@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata::GetComponent
+ - IVssExamineWriterMetadata.GetComponent
 ---
 
 # IVssExamineWriterMetadata::GetComponent
@@ -165,4 +165,3 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a>
-

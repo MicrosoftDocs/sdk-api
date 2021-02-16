@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11ModuleInstance::BindConstantBufferByName
+ - ID3D11ModuleInstance.BindConstantBufferByName
 ---
 
 # ID3D11ModuleInstance::BindConstantBufferByName
@@ -92,4 +92,3 @@ Returns:
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11moduleinstance">ID3D11ModuleInstance</a>
-

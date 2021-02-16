@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT
  - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_CONSTRAINT
 ---
 
@@ -64,4 +63,3 @@ The base binding constraint that this binding constraint derives from.
                 
 
 There are currently no binding-specific properties defined for this binding constraint.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymSrvGetFileIndexesW
  - dbghelp/SymSrvGetFileIndexesW
- - SymSrvGetFileIndexes
- - dbghelp/SymSrvGetFileIndexes
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymSrvGetFileIndexesW
  - SymSrvGetFileIndexes
+ - SymSrvGetFileIndexes
+ - SymSrvGetFileIndexesW
 ---
 
 # SymSrvGetFileIndexesW function
@@ -93,4 +92,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-

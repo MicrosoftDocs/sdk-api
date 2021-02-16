@@ -47,8 +47,6 @@ api_location:
  - TimeAPI.h
  - Mmsystem.h
 api_name:
- - timecaps_tag
- - PTIMECAPS
  - TIMECAPS
 ---
 
@@ -84,4 +82,3 @@ The maximum supported resolution, in milliseconds.
 
 
 <a href="/windows/desktop/api/timeapi/nf-timeapi-timegetdevcaps">timeGetDevCaps</a>
-

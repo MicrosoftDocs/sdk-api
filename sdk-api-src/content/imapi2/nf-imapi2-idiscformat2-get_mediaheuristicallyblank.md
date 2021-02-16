@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2::get_MediaHeuristicallyBlank
+ - IDiscFormat2.get_MediaHeuristicallyBlank
 ---
 
 # IDiscFormat2::get_MediaHeuristicallyBlank
@@ -368,4 +368,3 @@ For a positive check that a disc is blank, call the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2-get_mediaphysicallyblank">IDiscFormat2::get_MediaPhysicallyBlank</a>
-

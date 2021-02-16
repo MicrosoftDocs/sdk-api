@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferInitialize::SetSIDs
+ - IStreamBufferInitialize.SetSIDs
 ---
 
 # IStreamBufferInitialize::SetSIDs
@@ -123,4 +123,3 @@ Note that this method does not apply to content recording files, which are prote
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferinitialize">IStreamBufferInitialize Interface</a>
-

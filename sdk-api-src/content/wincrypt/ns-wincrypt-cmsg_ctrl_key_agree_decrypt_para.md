@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
- - PCMSG_CTRL_KEY_AGREE_DECRYPT_PARA
  - CMSG_CTRL_KEY_AGREE_DECRYPT_PARA
 ---
 
@@ -94,4 +92,3 @@ Indicates a specific encrypted key in an array of encrypted keys.
 ### -field OriginatorPublicKey
 
 A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_bit_blob">CRYPT_BIT_BLOB</a> structure that contains the sender's public key information.
-

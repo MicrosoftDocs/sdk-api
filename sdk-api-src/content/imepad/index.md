@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - imepad
  - imepad/imepad
-api_name:
- - imepad
 ---
 
 # Imepad.h header

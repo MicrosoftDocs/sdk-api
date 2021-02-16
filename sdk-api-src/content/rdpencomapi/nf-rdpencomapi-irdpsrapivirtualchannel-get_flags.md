@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel::get_Flags
+ - IRDPSRAPIVirtualChannel.Flags
+ - IRDPSRAPIVirtualChannel.get_Flags
+ - RDPSRAPIVirtualChannel.Flags
 ---
 
 # IRDPSRAPIVirtualChannel::get_Flags
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::Submit
+ - IAzApplicationGroup.Submit
+ - AzApplicationGroup.Submit
 ---
 
 # IAzApplicationGroup::Submit
@@ -67,4 +68,3 @@ Reserved for future use.
 Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object are not persisted until the <b>Submit</b> method is called. 
 
 A created <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> object must be submitted before it can be referenced. The destructor for an object silently discards unsubmitted changes.
-

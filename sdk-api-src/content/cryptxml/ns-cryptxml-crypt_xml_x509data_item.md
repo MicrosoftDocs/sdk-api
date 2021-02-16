@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_X509DATA_ITEM
  - CRYPT_XML_X509DATA_ITEM
 ---
 
@@ -162,4 +161,3 @@ A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_
 ### -field Custom
 
 A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom data.
-

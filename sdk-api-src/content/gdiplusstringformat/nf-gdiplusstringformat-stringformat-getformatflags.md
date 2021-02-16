@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::GetFormatFlags
+ - StringFormat.GetFormatFlags
 ---
 
 # StringFormat::GetFormatFlags
@@ -75,4 +75,3 @@ This method returns a value that indicates which string format flags are set for
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
-

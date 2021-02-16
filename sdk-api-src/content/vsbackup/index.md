@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vsbackup
  - vsbackup/vsbackup
-api_name:
- - vsbackup
 ---
 
 # Vsbackup.h header

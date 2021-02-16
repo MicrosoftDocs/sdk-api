@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_SMIME_CAPABILITY
- - PCRYPT_SMIME_CAPABILITY
  - CRYPT_SMIME_CAPABILITY
 ---
 
@@ -82,4 +80,3 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OB
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capabilities">CRYPT_SMIME_CAPABILITIES</a>
-

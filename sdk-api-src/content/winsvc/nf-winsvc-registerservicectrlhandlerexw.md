@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegisterServiceCtrlHandlerExW
  - winsvc/RegisterServiceCtrlHandlerExW
- - RegisterServiceCtrlHandlerEx
- - winsvc/RegisterServiceCtrlHandlerEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
  - API-Ms-Win-Service-Core-L1-1-2.dll
 api_name:
- - RegisterServiceCtrlHandlerExW
  - RegisterServiceCtrlHandlerEx
+ - RegisterServiceCtrlHandlerExA
+ - RegisterServiceCtrlHandlerExW
 ---
 
 # RegisterServiceCtrlHandlerExW function
@@ -164,4 +163,3 @@ The service status handle does not have to be closed.
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
-

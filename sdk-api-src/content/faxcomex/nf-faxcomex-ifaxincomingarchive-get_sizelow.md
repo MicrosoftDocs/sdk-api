@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingArchive::get_SizeLow
+ - IFaxIncomingArchive.SizeLow
+ - IFaxIncomingArchive.get_SizeLow
+ - IFaxIncomingArchive.get_SizeLow
 ---
 
 # IFaxIncomingArchive::get_SizeLow
@@ -77,4 +79,3 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-incoming-archive">Visual Basic Example</a>
-

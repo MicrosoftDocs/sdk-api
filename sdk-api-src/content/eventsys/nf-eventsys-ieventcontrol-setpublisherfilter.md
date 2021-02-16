@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEventControl::SetPublisherFilter
+ - IEventControl.SetPublisherFilter
 ---
 
 # IEventControl::SetPublisherFilter
@@ -73,4 +73,3 @@ An event publisher can install a publisher filter at run time to fire an event o
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventcontrol">IEventControl</a>
-

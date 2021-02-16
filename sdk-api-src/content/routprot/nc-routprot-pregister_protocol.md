@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - PREGISTER_PROTOCOL
+ - RegisterProtocol
 ---
 
 # PREGISTER_PROTOCOL callback function
@@ -115,4 +115,3 @@ Routing protocols are implemented in user-mode DLLs. A single DLL may implement 
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-

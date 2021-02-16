@@ -44,7 +44,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_leafset_key_change_type_tag
  - DRT_LEAFSET_KEY_CHANGE_TYPE
 ---
 
@@ -76,4 +75,3 @@ This enumeration is used to determine the event type returned by <a href="/windo
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-

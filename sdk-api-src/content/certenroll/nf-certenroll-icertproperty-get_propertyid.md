@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperty::get_PropertyId
+ - ICertProperty.PropertyId
+ - ICertProperty.get_PropertyId
+ - ICertProperty.put_PropertyId
 ---
 
 # ICertProperty::get_PropertyId
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-

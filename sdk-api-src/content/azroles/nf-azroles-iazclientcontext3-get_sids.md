@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3::get_Sids
+ - IAzClientContext3.Sids
+ - IAzClientContext3.get_Sids
 ---
 
 # IAzClientContext3::get_Sids
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazclientcontext3">IAzClientContext3</a>
-

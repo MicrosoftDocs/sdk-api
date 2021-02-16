@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - tagDBCONTENTPROXIMITY
  - DBCONTENTPROXIMITY
 ---
 
@@ -77,4 +76,3 @@ weight of the proximity node
 For valid values of the <b>dwProximityUnit</b> member, see <a href="/previous-versions/windows/desktop/indexsrv/proximity-unit-constants">Proximity Unit Constants</a>.
 
 For more information on the DBOP_content_proximity operator, see <a href="/previous-versions/windows/desktop/indexsrv/content-search-operators">Content Search Operators</a>.
-

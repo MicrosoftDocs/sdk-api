@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::RemoveRecord
+ - IWMMutualExclusion2.RemoveRecord
 ---
 
 # IWMMutualExclusion2::RemoveRecord
@@ -116,4 +116,3 @@ After you remove a record, it cannot be restored.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addrecord">IWMMutualExclusion2::AddRecord</a>
-

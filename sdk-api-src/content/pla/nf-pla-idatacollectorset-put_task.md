@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::put_Task
+ - IDataCollectorSet.Task
+ - IDataCollectorSet.get_Task
+ - IDataCollectorSet.put_Task
 ---
 
 # IDataCollectorSet::put_Task
@@ -73,4 +75,3 @@ To start the task in the directory where PLA is collecting the data, set the tas
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_taskusertextarguments">IDataCollectorSet::TaskUserTextArguments</a>
-

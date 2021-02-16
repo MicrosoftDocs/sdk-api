@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD::put_RequestedSectorType
+ - IDiscFormat2RawCD.put_RequestedSectorType
 ---
 
 # IDiscFormat2RawCD::put_RequestedSectorType
@@ -123,4 +123,3 @@ For a list of supported data sector types, call the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes">IDiscFormat2RawCD::get_SupportedSectorTypes</a>
-

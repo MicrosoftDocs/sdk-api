@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback::Step
+ - IMSVidPlayback.Step
 ---
 
 # IMSVidPlayback::Step
@@ -119,4 +119,3 @@ Call the <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-im
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_canstep">IMSVidPlayback::get_CanStep</a>
-

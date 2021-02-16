@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4::IsUsingFastCache
+ - IWMReaderAdvanced4.IsUsingFastCache
 ---
 
 # IWMReaderAdvanced4::IsUsingFastCache
@@ -101,4 +101,3 @@ NULL pointer argument.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
-

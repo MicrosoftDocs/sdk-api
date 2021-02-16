@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoctl.h
 api_name:
- - _FILE_STORAGE_TIER_MEDIA_TYPE
- - PFILE_STORAGE_TIER_MEDIA_TYPE
  - FILE_STORAGE_TIER_MEDIA_TYPE
 ---
 

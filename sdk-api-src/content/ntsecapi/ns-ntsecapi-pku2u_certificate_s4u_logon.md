@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _PKU2U_CERTIFICATE_S4U_LOGON
- - PPKU2U_CERTIFICATE_S4U_LOGON
  - PKU2U_CERTIFICATE_S4U_LOGON
 ---
 

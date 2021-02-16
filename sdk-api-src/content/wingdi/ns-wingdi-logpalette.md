@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagLOGPALETTE
- - PLOGPALETTE
  - LOGPALETTE
 ---
 
@@ -91,4 +89,3 @@ The colors in the palette-entry table should appear in order of importance becau
 
 
 <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
-

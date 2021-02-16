@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1::GetFileCount
+ - IBackgroundCopyJob1.GetFileCount
 ---
 
 # IBackgroundCopyJob1::GetFileCount
@@ -85,4 +85,3 @@ Successfully retrieved the number of files in the job.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
-

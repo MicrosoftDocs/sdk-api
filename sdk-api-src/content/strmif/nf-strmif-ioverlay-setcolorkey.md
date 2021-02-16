@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay::SetColorKey
+ - IOverlay.SetColorKey
 ---
 
 # IOverlay::SetColorKey
@@ -78,4 +78,3 @@ Trying to set a palette when a color key is installed returns a VFW_E_PALETTE_SE
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-

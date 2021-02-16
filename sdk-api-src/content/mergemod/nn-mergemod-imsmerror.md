@@ -43,6 +43,13 @@ api_location:
  - Mergemod.dll
 api_name:
  - IMsmError
+ - IMsmError.get_Type
+ - IMsmError.get_Path
+ - IMsmError.get_Language
+ - IMsmError.get_DatabaseTable
+ - IMsmError.get_DatabaseKeys
+ - IMsmError.get_ModuleTable
+ - IMsmError.get_ModuleKeys
 ---
 
 # IMsmError interface
@@ -66,4 +73,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMsmError</b> interface inher
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

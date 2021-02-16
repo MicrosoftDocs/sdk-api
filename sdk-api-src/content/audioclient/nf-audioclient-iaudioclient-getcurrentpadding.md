@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::GetCurrentPadding
+ - IAudioClient.GetCurrentPadding
 ---
 
 # IAudioClient::GetCurrentPadding
@@ -156,4 +156,3 @@ For a code example that calls the <b>GetCurrentPadding</b> method, see <a href="
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
-

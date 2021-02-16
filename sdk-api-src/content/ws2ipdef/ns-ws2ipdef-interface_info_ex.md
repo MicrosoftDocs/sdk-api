@@ -47,9 +47,7 @@ api_location:
  - Ws2ipdef.h
  - Ws2tcpip.h
 api_name:
- - _INTERFACE_INFO_EX
- - LPINTERFACE_INFO_EX
- - INTERFACE_INFO_EX
+ - INTERFACE_INFO_EX, FAR * _LPINTERFACE_INFO_EX
 ---
 
 # INTERFACE_INFO_EX structure
@@ -142,4 +140,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/WinSock/winsock-ioctls">Winsock IOCTLs</a>
-

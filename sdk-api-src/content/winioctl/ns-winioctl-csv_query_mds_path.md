@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_QUERY_MDS_PATH
- - PCSV_QUERY_MDS_PATH
  - CSV_QUERY_MDS_PATH
 ---
 
@@ -98,4 +96,3 @@ This structure is used if the <a href="/windows/desktop/api/winioctl/ni-winioctl
 
 
 <a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-

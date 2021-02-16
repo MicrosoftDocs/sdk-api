@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDeviceControl::Seek
+ - IMDSPDeviceControl.Seek
 ---
 
 # IMDSPDeviceControl::Seek
@@ -164,4 +164,3 @@ For device recording, if <b>Seek</b> is not called before <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
-

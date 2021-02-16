@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dsparse.h
 api_name:
- - _DS_MANGLE_FOR
  - DS_MANGLE_FOR
 ---
 
@@ -86,4 +85,3 @@ Indicates that the relative distinguished name has been mangled due to a naming 
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-

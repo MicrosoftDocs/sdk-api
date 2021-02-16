@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::GetOwner
+ - IXpsOMPage.GetOwner
 ---
 
 # IXpsOMPage::GetOwner
@@ -106,4 +106,3 @@ When the page does not have an owner, a <b>NULL</b> pointer is returned in <i>pa
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

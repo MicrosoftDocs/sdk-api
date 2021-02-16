@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValueStatics::CreateUInt8
+ - IPropertyValueStatics.CreateUInt8
 ---
 
 # IPropertyValueStatics::IPropertyValueStatics
@@ -123,4 +123,3 @@ Use the <b>CreateUInt8</b> method to  store a value in an <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvalue-getuint8">vGetUInt8</a>
-

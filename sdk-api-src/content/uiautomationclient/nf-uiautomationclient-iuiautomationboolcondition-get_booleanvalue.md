@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationBoolCondition::get_BooleanValue
+ - IUIAutomationBoolCondition.BooleanValue
+ - IUIAutomationBoolCondition.get_BooleanValue
 ---
 
 # IUIAutomationBoolCondition::get_BooleanValue

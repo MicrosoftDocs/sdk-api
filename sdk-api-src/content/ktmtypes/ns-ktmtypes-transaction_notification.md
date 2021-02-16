@@ -46,8 +46,6 @@ api_type:
 api_location:
  - KtmTypes.h
 api_name:
- - _TRANSACTION_NOTIFICATION
- - PTRANSACTION_NOTIFICATION
  - TRANSACTION_NOTIFICATION
 ---
 
@@ -104,4 +102,3 @@ Indicates the number of bytes for the
 
 
 <a href="/windows/win32/api/ktmtypes/ns-ktmtypes-transaction_notification_recovery_argument">TRANSACTION_NOTIFICATION_RECOVERY_ARGUMENT</a>
-

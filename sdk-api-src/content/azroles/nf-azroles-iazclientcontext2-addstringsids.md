@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext2::AddStringSids
+ - IAzClientContext2.AddStringSids
 ---
 
 # IAzClientContext2::AddStringSids
@@ -63,4 +63,3 @@ The array of string representations of SIDs to add to the client context.
  If the method succeeds, the method returns S_OK.
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

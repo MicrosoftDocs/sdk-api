@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Taskschd.dll
 api_name:
- - IMaintenanceSettings::put_Exclusive
+ - IMaintenanceSettings.Exclusive
+ - IMaintenanceSettings.get_Exclusive
+ - IMaintenanceSettings.put_Exclusive
 ---
 
 # IMaintenanceSettings::put_Exclusive
@@ -69,4 +71,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
-

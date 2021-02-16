@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager::CreateFileScreenCollection
+ - IFsrmFileScreenManager.CreateFileScreenCollection
+ - FsrmFileScreenManager.CreateFileScreenCollection
 ---
 
 # IFsrmFileScreenManager::CreateFileScreenCollection
@@ -73,4 +74,3 @@ After adding the file screens to the collection, call the <a href="/previous-ver
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
-

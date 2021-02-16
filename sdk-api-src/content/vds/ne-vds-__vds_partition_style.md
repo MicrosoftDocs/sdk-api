@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - tag_VDS_PARTITION_STYLE
  - __VDS_PARTITION_STYLE
 ---
 
@@ -80,4 +79,3 @@ This value is not intended for use.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
-

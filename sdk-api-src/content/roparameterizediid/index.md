@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - roparameterizediid
  - roparameterizediid/roparameterizediid
-api_name:
- - roparameterizediid
 ---
 
 # Roparameterizediid.h header

@@ -43,6 +43,7 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetSymFromName64
+ - SymGetSymFromName
 ---
 
 # SymGetSymFromName64 function
@@ -123,4 +124,3 @@ SymGetSymFromName(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

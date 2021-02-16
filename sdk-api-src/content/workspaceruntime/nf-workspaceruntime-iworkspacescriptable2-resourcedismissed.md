@@ -42,7 +42,9 @@ api_type:
 api_location:
  - WkspRt.exe
 api_name:
- - IWorkspaceScriptable2::ResourceDismissed
+ - IWorkspaceScriptable2.ResourceDismissed
+ - IWorkspaceScriptable3.ResourceDismissed
+ - Workspace.ResourceDismissed
 ---
 
 # IWorkspaceScriptable2::ResourceDismissed
@@ -73,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
-

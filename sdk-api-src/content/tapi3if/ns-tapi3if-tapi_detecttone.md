@@ -45,7 +45,6 @@ api_location:
  - Tapi3if.h
 api_name:
  - TAPI_DETECTTONE
- - LPTAPI_DETECTTONE
 ---
 
 # TAPI_DETECTTONE structure
@@ -89,4 +88,3 @@ The frequency, in hertz, of a component of the tone. If fewer than three frequen
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>
-

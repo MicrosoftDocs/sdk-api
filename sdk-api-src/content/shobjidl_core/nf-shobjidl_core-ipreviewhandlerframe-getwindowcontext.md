@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandlerFrame::GetWindowContext
+ - IPreviewHandlerFrame.GetWindowContext
 ---
 
 # IPreviewHandlerFrame::GetWindowContext
@@ -79,4 +79,3 @@ This method should be called at the point when the preview handler has called <a
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandlerframe-translateaccelerator">IPreviewHandlerFrame::TranslateAccelerator</a>
-

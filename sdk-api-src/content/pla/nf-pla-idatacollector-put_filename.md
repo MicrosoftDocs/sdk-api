@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::put_FileName
+ - IDataCollector.FileName
+ - IDataCollector.get_FileName
+ - IDataCollector.put_FileName
 ---
 
 # IDataCollector::put_FileName
@@ -97,4 +99,3 @@ The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-ge
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_filenameformatpattern">IDataCollector::FileNameFormatPattern</a>
-

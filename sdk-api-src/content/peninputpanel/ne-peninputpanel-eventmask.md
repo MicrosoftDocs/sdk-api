@@ -44,7 +44,6 @@ api_type:
 api_location:
  - peninputpanel.h
 api_name:
- - __MIDL___MIDL_itf_peninputpanel_0000_0000_0007
  - EventMask
 ---
 
@@ -112,4 +111,3 @@ Represents a bitwise combination of all member events.
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-advise">ITextInputPanel::Advise Method</a>
-

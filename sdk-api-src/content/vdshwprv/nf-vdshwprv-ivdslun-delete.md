@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::Delete
+ - IVdsLun.Delete
 ---
 
 # IVdsLun::Delete
@@ -152,4 +152,3 @@ The hardware provider is responsible for removing the LUN's partition informatio
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-getproperties">IVdsLun::GetProperties</a>
-

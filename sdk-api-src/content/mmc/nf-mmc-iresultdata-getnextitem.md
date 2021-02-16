@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::GetNextItem
+ - IResultData.GetNextItem
+ - IResultData2.GetNextItem
 ---
 
 # IResultData::GetNextItem
@@ -76,4 +77,3 @@ When applied to virtual lists, only the <b>LVIS_FOCUSED</b> and <b>LVIS_SELECTED
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-

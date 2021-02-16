@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent2::RestoreResultView
+ - IComponent2.RestoreResultView
 ---
 
 # IComponent2::RestoreResultView
@@ -92,4 +92,3 @@ The user revisits the result view by pressing the MMC <b>Back/Forward</b> button
 
 
 <a href="/previous-versions/windows/desktop/mmc/restoring-result-views">Restoring Result Views</a>
-

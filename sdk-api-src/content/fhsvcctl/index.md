@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - fhsvcctl
  - fhsvcctl/fhsvcctl
-api_name:
- - fhsvcctl
 ---
 
 # Fhsvcctl.h header

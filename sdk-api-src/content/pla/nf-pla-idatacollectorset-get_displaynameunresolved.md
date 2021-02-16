@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_DisplayNameUnresolved
+ - IDataCollectorSet.DisplayNameUnresolved
+ - IDataCollectorSet.get_DisplayNameUnresolved
 ---
 
 # IDataCollectorSet::get_DisplayNameUnresolved
@@ -67,4 +68,3 @@ This property returns the display name as you originally set it in the <a href="
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displayname">IDataCollectorSet::DisplayName</a>
-

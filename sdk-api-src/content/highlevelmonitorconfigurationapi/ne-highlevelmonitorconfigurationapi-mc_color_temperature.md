@@ -46,8 +46,6 @@ api_type:
 api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
- - _MC_COLOR_TEMPERATURE
- - LPMC_COLOR_TEMPERATURE
  - MC_COLOR_TEMPERATURE
 ---
 
@@ -107,4 +105,3 @@ Unknown temperature.
 
 
 <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorcolortemperature">SetMonitorColorTemperature</a>
-

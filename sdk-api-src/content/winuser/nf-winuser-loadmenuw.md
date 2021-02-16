@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - LoadMenuW
  - winuser/LoadMenuW
- - LoadMenu
- - winuser/LoadMenu
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +46,10 @@ api_location:
  - ext-ms-win-ntuser-menu-l1-1-2.dll
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - LoadMenuW
  - LoadMenu
+ - LoadMenuA
+ - LoadMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # LoadMenuW function
@@ -118,4 +117,3 @@ For an example, see <a href="/windows/desktop/menurc/using-menus">Displaying a S
 
 
 <b>Reference</b>
-

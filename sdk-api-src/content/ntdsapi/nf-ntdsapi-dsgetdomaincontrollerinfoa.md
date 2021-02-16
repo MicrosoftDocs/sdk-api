@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetDomainControllerInfoA
  - ntdsapi/DsGetDomainControllerInfoA
- - DsGetDomainControllerInfo
- - ntdsapi/DsGetDomainControllerInfo
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - KernelBase.dll
  - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsGetDomainControllerInfoA
  - DsGetDomainControllerInfo
+ - DsGetDomainControllerInfoA
+ - DsGetDomainControllerInfoW
 ---
 
 # DsGetDomainControllerInfoA function
@@ -139,4 +138,3 @@ If the function fails, the return value can be one of the following error codes.
 
 > [!NOTE]
 > The ntdsapi.h header defines DsGetDomainControllerInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

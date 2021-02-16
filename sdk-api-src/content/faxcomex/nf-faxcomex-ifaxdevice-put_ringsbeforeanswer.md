@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice::put_RingsBeforeAnswer
+ - IFaxDevice.RingsBeforeAnswer
+ - IFaxDevice.get_RingsBeforeAnswer
+ - IFaxDevice.put_RingsBeforeAnswer
+ - IFaxDevice.get_RingsBeforeAnswer
+ - IFaxDevice.put_RingsBeforeAnswer
 ---
 
 # IFaxDevice::put_RingsBeforeAnswer
@@ -71,4 +75,3 @@ This property is used only if the <a href="/previous-versions/windows/desktop/fa
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
-

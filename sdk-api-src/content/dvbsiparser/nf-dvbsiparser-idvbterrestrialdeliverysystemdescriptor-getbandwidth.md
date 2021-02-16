@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth
+ - IDvbTerrestrialDeliverySystemDescriptor.GetBandwidth
 ---
 
 # IDvbTerrestrialDeliverySystemDescriptor::GetBandwidth
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbterrestrialdeliverysystemdescriptor">IDvbTerrestrialDeliverySystemDescriptor Interface</a>
-

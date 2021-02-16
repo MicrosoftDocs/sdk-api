@@ -3,6 +3,9 @@ UID: NE:http._HTTP_DELEGATE_REQUEST_PROPERTY_ID
 title: HTTP_DELEGATE_REQUEST_PROPERTY_ID
 description: Describes property information for a delegate request.
 ms.date: 09/28/2020
+f1_keywords:
+ - http/_HTTP_DELEGATE_REQUEST_PROPERTY_ID
+ - http/HTTP_DELEGATE_REQUEST_PROPERTY_ID
 tech.root: http
 req.construct-type: enumeration
 req.header: http.h
@@ -21,13 +24,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.redist: 
-f1_keywords:
- - _HTTP_DELEGATE_REQUEST_PROPERTY_ID
- - http/_HTTP_DELEGATE_REQUEST_PROPERTY_ID
- - PHTTP_DELEGATE_REQUEST_PROPERTY_ID
- - http/PHTTP_DELEGATE_REQUEST_PROPERTY_ID
- - HTTP_DELEGATE_REQUEST_PROPERTY_ID
- - http/HTTP_DELEGATE_REQUEST_PROPERTY_ID
 dev_langs:
  - c++
 topic_type:
@@ -39,7 +35,6 @@ api_location:
  - Http.h
 api_name:
  - _HTTP_DELEGATE_REQUEST_PROPERTY_ID
- - PHTTP_DELEGATE_REQUEST_PROPERTY_ID
  - HTTP_DELEGATE_REQUEST_PROPERTY_ID
 ---
 
@@ -56,4 +51,3 @@ This property is reserved.
 ## -remarks
 
 ## -see-also
-

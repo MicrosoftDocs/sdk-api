@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls::stop
+ - IWMPControls.stop
 ---
 
 # IWMPControls::stop
@@ -101,4 +101,3 @@ When Windows Media Player is stopped, the current playback point in the media it
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols-previous">IWMPControls::previous</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2::GetDownloadProgress
+ - IWMReaderAdvanced2.GetDownloadProgress
 ---
 
 # IWMReaderAdvanced2::GetDownloadProgress
@@ -90,4 +90,3 @@ Before the first WMT_BUFFERING_START event, all the parameters return zero. Betw
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_play_mode">WMT_PLAY_MODE</a>
-

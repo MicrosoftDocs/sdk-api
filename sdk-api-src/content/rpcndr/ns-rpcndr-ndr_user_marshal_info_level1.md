@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcndr.h
 api_name:
- - _NDR_USER_MARSHAL_INFO_LEVEL1
  - NDR_USER_MARSHAL_INFO_LEVEL1
 ---
 
@@ -83,4 +82,3 @@ If the current call is for a COM interface, this member is a pointer to the chan
 ### -field Reserved
 
 Reserved for future use.
-

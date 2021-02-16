@@ -47,8 +47,6 @@ api_location:
  - Udpmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_UDP6TABLE_OWNER_PID
- - PMIB_UDP6TABLE_OWNER_PID
  - MIB_UDP6TABLE_OWNER_PID
 ---
 
@@ -147,4 +145,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
-

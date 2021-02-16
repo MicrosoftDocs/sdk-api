@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::DoubleClick
+ - IWMPEvents.DoubleClick
 ---
 
 # IWMPEvents::DoubleClick
@@ -77,4 +77,3 @@ The y coordinate of the mouse pointer relative to the upper left-hand corner of 
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

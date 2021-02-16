@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - __MIDL_IWTSSBPlugin_0004
  - WTSSBX_IP_ADDRESS
 ---
 
@@ -76,4 +75,3 @@ The scope of the address. This member is used only for IPv6 addresses.
 ## -see-also
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-

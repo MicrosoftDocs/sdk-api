@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor::GetExpansionVelocity
+ - IManipulationProcessor.GetExpansionVelocity
 ---
 
 # IManipulationProcessor::GetExpansionVelocity
@@ -77,4 +77,3 @@ This value is useful when you are using the <a href="/windows/desktop/api/manipu
 
 
 <a href="/windows/desktop/wintouch/mtmethods">Methods</a>
-

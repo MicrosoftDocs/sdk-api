@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner::get_TuneRequest
+ - ITuner.get_TuneRequest
 ---
 
 # ITuner::get_TuneRequest
@@ -73,4 +73,3 @@ After a tune request is submitted to the Tuner, its Components collection will b
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-

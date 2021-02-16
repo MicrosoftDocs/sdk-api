@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::GetGammaRamp
+ - IDirect3DDevice9.GetGammaRamp
 ---
 
 # IDirect3DDevice9::GetGammaRamp
@@ -78,4 +78,3 @@ Pointer to an application-supplied <a href="/windows/desktop/direct3d9/d3dgammar
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dswapchain9">IDirect3DSwapChain9</a>
-

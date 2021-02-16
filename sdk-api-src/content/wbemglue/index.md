@@ -9,8 +9,6 @@ tech.root: wmi
 f1_keywords:
  - wbemglue
  - wbemglue/wbemglue
-api_name:
- - wbemglue
 ---
 
 # Wbemglue.h header

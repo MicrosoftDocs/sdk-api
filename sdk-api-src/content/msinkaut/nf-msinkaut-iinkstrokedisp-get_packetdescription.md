@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::get_PacketDescription
+ - IInkStrokeDisp.PacketDescription
+ - IInkStrokeDisp.get_PacketDescription
+ - IInkStrokeDisp.get_PacketDescription
 ---
 
 # IInkStrokeDisp::get_PacketDescription
@@ -66,4 +68,3 @@ For a complete list of available packet properties, see the <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-

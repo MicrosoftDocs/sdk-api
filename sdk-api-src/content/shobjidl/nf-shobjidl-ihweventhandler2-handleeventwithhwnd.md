@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IHWEventHandler2::HandleEventWithHWND
+ - IHWEventHandler2.HandleEventWithHWND
 ---
 
 # IHWEventHandler2::HandleEventWithHWND
@@ -91,4 +91,3 @@ When a handler is invoked and requires immediate privilege elevation in a new pr
 Note that if the handler was launched by default instead of by direct user action, the HWND is not active and the dialog is not shown in the foreground.
 
 The event types are not C/C++ language constants; they are literal text strings.
-

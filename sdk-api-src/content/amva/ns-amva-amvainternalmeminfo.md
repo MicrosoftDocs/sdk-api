@@ -46,8 +46,6 @@ api_type:
 api_location:
  - amva.h
 api_name:
- - _tag_AMVAInternalMemInfo
- - LPAMVAInternalMemInfo
  - AMVAInternalMemInfo
 ---
 
@@ -71,4 +69,3 @@ Amount of scratch memory the HAL will allocate for its private use.
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getinternalmeminfo">IAMVideoAccelerator::GetInternalMemInfo</a>
-

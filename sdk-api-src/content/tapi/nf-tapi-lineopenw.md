@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineOpenW
  - tapi/lineOpenW
- - lineOpen
- - tapi/lineOpen
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineOpenW
  - lineOpen
+ - lineOpenA
+ - lineOpenW
 ---
 
 # lineOpenW function
@@ -287,4 +286,3 @@ LINEMAPPER allows an application to select a line indirectly—by means of the s
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
-

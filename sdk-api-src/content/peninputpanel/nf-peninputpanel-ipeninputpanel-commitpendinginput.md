@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::CommitPendingInput
+ - IPenInputPanel.CommitPendingInput
 ---
 
 # IPenInputPanel::CommitPendingInput
@@ -118,4 +118,3 @@ Starting with Windows XP Tablet PC Edition 2005, if the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

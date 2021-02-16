@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut
+ - IUIAutomationLegacyIAccessiblePattern.CachedKeyboardShortcut
+ - IUIAutomationLegacyIAccessiblePattern.get_CachedKeyboardShortcut
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CachedKeyboardShortcut

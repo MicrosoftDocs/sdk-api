@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager::SavePackageToStream
+ - IXpsSignatureManager.SavePackageToStream
 ---
 
 # IXpsSignatureManager::SavePackageToStream
@@ -121,4 +121,3 @@ If this method returns an <b>HRESULT</b> value that is not in the list of return
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

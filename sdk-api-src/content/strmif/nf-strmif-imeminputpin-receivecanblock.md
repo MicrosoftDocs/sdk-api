@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemInputPin::ReceiveCanBlock
+ - IMemInputPin.ReceiveCanBlock
 ---
 
 # IMemInputPin::ReceiveCanBlock
@@ -99,4 +99,3 @@ If this method returns S_FALSE, calls to the <b>Receive</b> method are guarantee
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imeminputpin">IMemInputPin Interface</a>
-

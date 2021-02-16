@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager::put_Enabled
+ - IDataManager.Enabled
+ - IDataManager.get_Enabled
+ - IDataManager.put_Enabled
 ---
 
 # IDataManager::put_Enabled
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-

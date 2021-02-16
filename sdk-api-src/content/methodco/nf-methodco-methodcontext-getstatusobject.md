@@ -42,7 +42,8 @@ api_type:
 api_location:
  - framedynos.dll
 api_name:
- - MethodContext::GetStatusObject
+ - MethodContext.GetStatusObject
+ - ?GetStatusObject@MethodContext@@QAEPAUIWbemClassObject@@XZ
 ---
 
 ## -description
@@ -64,4 +65,3 @@ A pointer to the **IWbemClassObject** information.
 ## -see-also
 
 <a href="/windows/desktop/api/methodco/nl-methodco-methodcontext">MethodContext</a>
-

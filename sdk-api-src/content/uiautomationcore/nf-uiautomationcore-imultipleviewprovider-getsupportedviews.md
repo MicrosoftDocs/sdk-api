@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IMultipleViewProvider::GetSupportedViews
+ - IMultipleViewProvider.GetSupportedViews
 ---
 
 # IMultipleViewProvider::GetSupportedViews
@@ -96,4 +96,3 @@ View identifier values can be passed to <a href="/windows/desktop/api/uiautomati
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_ExtendedFormat
  - DXVA2_ExtendedFormat
 ---
 
@@ -104,4 +103,3 @@ Most of the values in this structure can be translated directly to and from <a h
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

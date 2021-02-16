@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmStorageModuleDefinition::put_Capabilities
+ - IFsrmStorageModuleDefinition.Capabilities
+ - IFsrmStorageModuleDefinition.get_Capabilities
+ - IFsrmStorageModuleDefinition.put_Capabilities
 ---
 
 # IFsrmStorageModuleDefinition::put_Capabilities
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduledefinition">IFsrmStorageModuleDefinition</a>
-

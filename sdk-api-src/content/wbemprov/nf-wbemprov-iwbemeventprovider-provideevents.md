@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventProvider::ProvideEvents
+ - IWbemEventProvider.ProvideEvents
 ---
 
 # IWbemEventProvider::ProvideEvents
@@ -79,4 +79,3 @@ Windows Management calls this method to activate the provider. Windows Managemen
 Typically, the provider will create an independent thread, and deliver the events as they occur to the provided sink interface.
 
 The provider is not permitted to block this call for more than a few seconds, but it must return as quickly as possible to Windows Management.
-

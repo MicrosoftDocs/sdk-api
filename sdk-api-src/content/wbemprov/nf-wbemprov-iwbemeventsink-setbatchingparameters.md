@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventSink::SetBatchingParameters
+ - IWbemEventSink.SetBatchingParameters
 ---
 
 # IWbemEventSink::SetBatchingParameters

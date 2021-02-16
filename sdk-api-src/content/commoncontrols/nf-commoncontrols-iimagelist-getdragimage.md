@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList::GetDragImage
+ - IImageList.GetDragImage
 ---
 
 # IImageList::GetDragImage
@@ -90,4 +90,3 @@ The temporary image list is destroyed when <a href="/windows/desktop/api/commonc
 		
 
 To use <b>IImageList::GetDragImage</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-

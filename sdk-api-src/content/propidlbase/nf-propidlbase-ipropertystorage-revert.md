@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::Revert
+ - IPropertyStorage.Revert
 ---
 
 # IPropertyStorage::Revert
@@ -71,4 +71,3 @@ For direct-mode property sets, this request is ignored and returns S_OK.
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-commit">IPropertyStorage::Commit</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventSink::SetSinkSecurity
+ - IWbemEventSink.SetSinkSecurity
 ---
 
 # IWbemEventSink::SetSinkSecurity
@@ -118,4 +118,3 @@ HRESULT CMyEventProvider::ProvideEvents( IWbemObjectSink *pSink,
     return hRes;
 }
 ```
-

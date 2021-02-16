@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleAut32.dll
 api_name:
- - VarI4FromI4
+ - VarI4FromInt
 ---
 
 # VarI4FromI4 macro

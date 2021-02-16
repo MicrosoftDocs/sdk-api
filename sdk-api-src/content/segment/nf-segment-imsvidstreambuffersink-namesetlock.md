@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink::NameSetLock
+ - IMSVidStreamBufferSink.NameSetLock
 ---
 
 # IMSVidStreamBufferSink::NameSetLock
@@ -83,4 +83,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
-

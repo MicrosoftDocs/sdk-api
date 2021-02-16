@@ -44,7 +44,6 @@ api_type:
 api_location:
  - HtmlHelp.h
 api_name:
- - tagHH_AKLINK
  - HH_AKLINK
 ---
 
@@ -122,4 +121,3 @@ If the lookup yields no matching topics, <b>HtmlHelp()</b> checks the values of 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
-

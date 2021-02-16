@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_EthernetFilter::GetMulticastListSize
+ - IBDA_EthernetFilter.GetMulticastListSize
 ---
 
 # IBDA_EthernetFilter::GetMulticastListSize
@@ -73,4 +73,3 @@ Addresses in the address list are byte aligned in Network order. <i>UlcbAddresse
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ethernetfilter">IBDA_EthernetFilter Interface</a>
-

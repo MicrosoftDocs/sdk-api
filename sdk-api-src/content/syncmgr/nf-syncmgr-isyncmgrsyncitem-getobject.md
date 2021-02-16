@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem::GetObject
+ - ISyncMgrSyncItem.GetObject
 ---
 
 # ISyncMgrSyncItem::GetObject
@@ -183,4 +183,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetObject(__in REFGUID   rguidObjectID,
 }
 
 ```
-

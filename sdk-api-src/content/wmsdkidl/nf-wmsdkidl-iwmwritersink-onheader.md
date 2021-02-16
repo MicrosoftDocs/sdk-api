@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterSink::OnHeader
+ - IWMWriterSink.OnHeader
 ---
 
 # IWMWriterSink::OnHeader
@@ -72,4 +72,3 @@ The ASF header will always be sent before any data units, as the header is requi
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwritersink">IWMWriterSink Interface</a>
-

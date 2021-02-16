@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_CHANGE_PASSWORD_NOTIFY_EX
+ - WlxChangePasswordNotifyEx
 ---
 
 # PWLX_CHANGE_PASSWORD_NOTIFY_EX callback function
@@ -103,4 +103,3 @@ This function supersedes the
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
- - PCLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
  - CLAIM_SECURITY_ATTRIBUTE_RELATIVE_V1
 ---
 
@@ -227,4 +225,3 @@ Pointer to an array of <b>ValueCount</b> members where each member is an offset 
 ### -field Values.pOctetString
 
 Pointer to an array of <b>ValueCount</b> members where each member is an offset from the beginning of the structure to a <b>LONG64</b> octet string of type <a href="/windows/win32/api/winnt/ns-winnt-claim_security_attribute_octet_string_value">CLAIM_SECURITY_ATTRIBUTE_OCTET_STRING_VALUE</a>.
-

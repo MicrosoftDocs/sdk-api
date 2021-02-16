@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::Unsubscribe
+ - CVssWriter.Unsubscribe
 ---
 
 # CVssWriter::Unsubscribe
@@ -109,4 +109,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriter">CVssWriter</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_ASSIGN_SHELL_PROTECTION
+ - WlxAssignShellProtection
 ---
 
 # PWLX_ASSIGN_SHELL_PROTECTION callback function
@@ -99,4 +99,3 @@ The Windows API
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

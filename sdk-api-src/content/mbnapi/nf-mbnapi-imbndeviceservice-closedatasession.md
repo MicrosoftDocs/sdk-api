@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceService::CloseDataSession
+ - IMbnDeviceService.CloseDataSession
 ---
 
 # IMbnDeviceService::CloseDataSession
@@ -114,4 +114,3 @@ This is an asynchronous operation and <b>CloseDataSession</b> will return immedi
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
-

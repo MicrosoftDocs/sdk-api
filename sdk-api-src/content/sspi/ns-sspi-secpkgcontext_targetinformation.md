@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_TargetInformation
- - PSecPkgContext_TargetInformation
  - SecPkgContext_TargetInformation
 ---
 
@@ -67,4 +65,3 @@ Size, in bytes, of <b>MarshalledTargetInfo</b>.
 ### -field MarshalledTargetInfo
 
 Array of bytes that represent the credential, if a credential is provided by a credential manager.
-

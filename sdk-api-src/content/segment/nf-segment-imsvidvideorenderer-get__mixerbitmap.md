@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::get__MixerBitmap
+ - IMSVidVideoRenderer.get__MixerBitmap
 ---
 
 # IMSVidVideoRenderer::get__MixerBitmap
@@ -81,4 +81,3 @@ The returned <a href="/windows/win32/api/strmif/nn-strmif-ivmrmixerbitmap">IVMRM
 
 
 <a href="/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
-

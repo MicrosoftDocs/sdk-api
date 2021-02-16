@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob1::GetProgress
+ - IBackgroundCopyJob1.GetProgress
 ---
 
 # IBackgroundCopyJob1::GetProgress
@@ -137,4 +137,3 @@ You cannot specify QM_PROGRESS_TIME_DONE for the <i>dwFlags</i> parameter.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyjob1">IBackgroundCopyJob1</a>
-

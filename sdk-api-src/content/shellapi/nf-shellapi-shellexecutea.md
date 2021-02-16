@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ShellExecuteA
  - shellapi/ShellExecuteA
- - ShellExecute
- - shellapi/ShellExecute
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ShellExecuteA
  - ShellExecute
+ - ShellExecuteA
+ - ShellExecuteW
 ---
 
 # ShellExecuteA function
@@ -469,4 +468,3 @@ To obtain information about the application that is launched as a result of call
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>
-

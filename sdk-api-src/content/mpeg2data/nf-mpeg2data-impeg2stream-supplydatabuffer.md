@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - IMpeg2Stream::SupplyDataBuffer
+ - IMpeg2Stream.SupplyDataBuffer
 ---
 
 # IMpeg2Stream::SupplyDataBuffer
@@ -126,4 +126,3 @@ If the object is still waiting for data, this method returns E_FAIL.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2stream">IMpeg2Stream Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider::Query
+ - ITraceDataProvider.Query
 ---
 
 # ITraceDataProvider::Query
@@ -75,4 +75,3 @@ To specify the context logger, set <i>bstrName</i> to "Circular Kernel Context L
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
-

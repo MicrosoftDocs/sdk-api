@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2::GetStatistics
+ - ISyncKnowledge2.GetStatistics
 ---
 
 # ISyncKnowledge2::GetStatistics
@@ -118,4 +118,3 @@ Invalid pointer.
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_statistics">SYNC_STATISTICS Enumeration</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
- - _TASK_STATE
  - TASK_STATE
 ---
 
@@ -84,4 +83,3 @@ One or more instances of the task is running.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10DepthStencilState::GetDesc
+ - ID3D10DepthStencilState.GetDesc
 ---
 
 # ID3D10DepthStencilState::GetDesc
@@ -64,4 +64,3 @@ A pointer to the depth-stencil state (see <a href="/windows/desktop/api/d3d10/ns
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10depthstencilstate">ID3D10DepthStencilState Interface</a>
-

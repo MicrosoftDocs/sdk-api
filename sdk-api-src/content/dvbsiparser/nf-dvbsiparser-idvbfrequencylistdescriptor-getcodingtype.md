@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbFrequencyListDescriptor::GetCodingType
+ - IDvbFrequencyListDescriptor.GetCodingType
 ---
 
 # IDvbFrequencyListDescriptor::GetCodingType
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbfrequencylistdescriptor">IDvbFrequencyListDescriptor Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizers::Item
+ - IInkRecognizers.Item
 ---
 
 # IInkRecognizers::Item
@@ -213,4 +213,3 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
-

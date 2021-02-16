@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ksopmapi.h
 api_name:
- - _OPM_STANDARD_INFORMATION
  - OPM_STANDARD_INFORMATION
 ---
 
@@ -88,4 +87,3 @@ The layout of this structure is identical to the <a href="/windows/desktop/api/d
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-

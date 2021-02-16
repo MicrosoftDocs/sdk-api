@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ITrackShellMenu::Popup
+ - ITrackShellMenu.Popup
 ---
 
 # ITrackShellMenu::Popup
@@ -83,4 +83,3 @@ One or more of the <a href="/windows/desktop/shell/mp-popupflags">MP_POPUPFLAGS<
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFOffset
  - MFOffset
 ---
 
@@ -87,4 +86,3 @@ MFOffset MakeOffset(float v)
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

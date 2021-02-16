@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - appcompatapi
  - appcompatapi/appcompatapi
-api_name:
- - appcompatapi
 ---
 
 # Appcompatapi.h header

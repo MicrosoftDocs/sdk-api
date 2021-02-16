@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _EXPAND_VIRTUAL_DISK_PARAMETERS
- - PEXPAND_VIRTUAL_DISK_PARAMETERS
  - EXPAND_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -84,4 +82,3 @@ New size, in bytes, for the expansion request.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPINTERNET_PROXY_INFO
  - INTERNET_PROXY_INFO
 ---
 
@@ -119,4 +118,3 @@ Pointer to a string that contains the proxy bypass list.
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
-

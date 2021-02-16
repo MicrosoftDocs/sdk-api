@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FLOATOBJ
- - PFLOATOBJ
  - FLOATOBJ
 ---
 
@@ -171,4 +169,3 @@ This structure, in conjunction with the <b>FLOATOBJ_</b><i>Xxx</i> service routi
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-xformobj_igetfloatobjxform">XFORMOBJ_iGetFloatObjXform</a>
-

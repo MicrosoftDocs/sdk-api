@@ -46,8 +46,6 @@ api_type:
 api_location:
  - QosObjs.h
 api_name:
- - _QOS_TCP_TRAFFIC
- - LPQOS_TCP_TRAFFIC
  - QOS_TCP_TRAFFIC
 ---
 
@@ -71,4 +69,3 @@ When the <b>QOS_TCP_TRAFFIC</b> object is passed, the <b>DSField</b> mapping and
 ## -see-also
 
 <a href="/windows/desktop/api/qos/ns-qos-flowspec">FLOWSPEC</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaEventGenerator::GetEvent
+ - IMFMediaEventGenerator.GetEvent
 ---
 
 # IMFMediaEventGenerator::GetEvent
@@ -181,4 +181,3 @@ This method returns MF_E_MULTIPLE_SUBSCRIBERS if you previously called <a href="
 
 
 <a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
-

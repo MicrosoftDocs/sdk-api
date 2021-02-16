@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationPrimaryContent::SetSnapPoints
+ - IDirectManipulationPrimaryContent.SetSnapPoints
 ---
 
 # IDirectManipulationPrimaryContent::SetSnapPoints
@@ -85,4 +85,3 @@ If snap points are invalid (for example, outside of the content boundaries), the
 
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directmanipulation-idirectmanipulationprimarycontent-setsnapinterval">SetSnapInterval</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchAdvanced::GetFilterInfo
+ - ISyncChangeBatchAdvanced.GetFilterInfo
 ---
 
 # ISyncChangeBatchAdvanced::GetFilterInfo
@@ -109,4 +109,3 @@ Invalid pointer.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfilterinfo">ISyncFilterInfo Interface</a>
-

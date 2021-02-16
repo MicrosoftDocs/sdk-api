@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_ID_List_Size_ExW
  - cfgmgr32/CM_Get_Device_ID_List_Size_ExW
- - CM_Get_Device_ID_List_Size_Ex
- - cfgmgr32/CM_Get_Device_ID_List_Size_Ex
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_Device_ID_List_Size_ExW
  - CM_Get_Device_ID_List_Size_Ex
+ - CM_Get_Device_ID_List_Size_ExW
 ---
 
 # CM_Get_Device_ID_List_Size_ExW function
@@ -96,4 +94,3 @@ For information about device instance IDs, see <a href="/windows-hardware/driver
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea">CM_Get_Device_ID_List_Size</a>
-

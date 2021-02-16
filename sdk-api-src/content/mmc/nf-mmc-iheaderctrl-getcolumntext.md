@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl::GetColumnText
+ - IHeaderCtrl.GetColumnText
 ---
 
 # IHeaderCtrl::GetColumnText
@@ -75,4 +75,3 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl">IHeaderCtrl</a>
-

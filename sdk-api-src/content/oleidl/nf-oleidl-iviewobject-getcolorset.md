@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IViewObject::GetColorSet
+ - IViewObject.GetColorSet
 ---
 
 # IViewObject::GetColorSet
@@ -168,4 +168,3 @@ The OLE-provided implementation of <b>IViewObject::GetColorSet</b> looks at the 
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iviewobject">IViewObject</a>
-

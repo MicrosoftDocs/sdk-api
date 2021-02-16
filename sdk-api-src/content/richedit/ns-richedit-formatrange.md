@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _formatrange
  - FORMATRANGE
 ---
 
@@ -97,4 +96,3 @@ The values for <b>rc</b> and <b>rcPage</b> can be obtained by using <a href="/wi
 ## -see-also
 
 <a href="https://msdn.microsoft.com/6d1e562b-d741-4d4a-a395-554083cb0dbb">EM_FORMATRANGE</a>
-

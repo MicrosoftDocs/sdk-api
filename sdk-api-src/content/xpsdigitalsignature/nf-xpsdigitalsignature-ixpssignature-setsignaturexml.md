@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature::SetSignatureXml
+ - IXpsSignature.SetSignatureXml
 ---
 
 # IXpsSignature::SetSignatureXml
@@ -138,4 +138,3 @@ Before calling this method, the application must check that the signature markup
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

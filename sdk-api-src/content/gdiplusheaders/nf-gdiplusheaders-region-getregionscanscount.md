@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::GetRegionScansCount
+ - Region.GetRegionScansCount
 ---
 
 # Region::GetRegionScansCount
@@ -125,4 +125,3 @@ VOID Example_GetRegionScansCount(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getregionscans(inconstmatrix_outrect_outint)">Region::GetRegionScans Methods</a>
-

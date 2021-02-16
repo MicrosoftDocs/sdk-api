@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPViewerInputSink::BeginTouchFrame
+ - IRDPViewerInputSink.BeginTouchFrame
 ---
 
 # IRDPViewerInputSink::BeginTouchFrame
@@ -71,4 +71,3 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerinputsink">IRDPViewerInputSink</a>
-

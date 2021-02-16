@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::OpenStateChange
+ - IWMPEvents.OpenStateChange
 ---
 
 # IWMPEvents::OpenStateChange
@@ -67,4 +67,3 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

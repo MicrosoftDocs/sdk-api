@@ -43,7 +43,8 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaFilter::Pause
+ - IMediaFilter.Pause
+ - IBaseFilter.Pause
 ---
 
 # IMediaFilter::Pause
@@ -109,4 +110,3 @@ The state transition might be asynchronous. If the method returns before the tra
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
-

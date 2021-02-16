@@ -9,8 +9,6 @@ tech.root: direct2d
 f1_keywords:
  - d2d1svg
  - d2d1svg/d2d1svg
-api_name:
- - d2d1svg
 ---
 
 # D2D1Svg.h header

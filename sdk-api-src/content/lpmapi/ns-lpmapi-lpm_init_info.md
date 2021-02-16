@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Lpmapi.h
 api_name:
- - lpminitinfo
  - LPM_INIT_INFO
 ---
 
@@ -101,4 +100,3 @@ Callback function used to obtain RSVP objects. See <a href="/previous-versions/w
 
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/nc-lpmapi-cbgetrsvpobjects">cbGetRsvpObjects</a>
-

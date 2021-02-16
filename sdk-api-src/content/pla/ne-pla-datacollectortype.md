@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pla.h
 api_name:
- - __MIDL___MIDL_itf_pla_0001_0043_0001
  - DataCollectorType
 ---
 
@@ -80,4 +79,3 @@ Logs API calls made by the process. The <a href="/previous-versions/windows/desk
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_datacollectortype">IDataCollector::DataCollectorType</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
- - _TSSD_AddrV46Type
  - TSSD_AddrV46Type
 ---
 

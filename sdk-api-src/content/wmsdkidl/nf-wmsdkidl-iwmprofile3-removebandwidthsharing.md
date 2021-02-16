@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3::RemoveBandwidthSharing
+ - IWMProfile3.RemoveBandwidthSharing
 ---
 
 # IWMProfile3::RemoveBandwidthSharing
@@ -109,4 +109,3 @@ This method does not release the bandwidth sharing object from memory. You must 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-addbandwidthsharing">IWMProfile3::AddBandwidthSharing</a>
-

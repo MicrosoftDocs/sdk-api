@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizers::GetDefaultRecognizer
+ - IInkRecognizers.GetDefaultRecognizer
 ---
 
 # IInkRecognizers::GetDefaultRecognizer
@@ -152,4 +152,3 @@ For more information about NLS, see <a href="/windows/desktop/Intl/nls-terminolo
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
-

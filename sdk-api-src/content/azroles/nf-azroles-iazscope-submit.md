@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope::Submit
+ - IAzScope.Submit
+ - AzScope.Submit
 ---
 
 # IAzScope::Submit
@@ -67,4 +68,3 @@ Reserved for future use.
 Any additions or modifications to an <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object are not persisted until the <b>Submit</b> method is called. 
 
 The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="/windows/desktop/api/azroles/nn-azroles-iazscope">IAzScope</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
-

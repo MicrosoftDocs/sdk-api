@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_COPY_TO_CLIENT_BUFFER
+ - CopyToClientBuffer
 ---
 
 # LSA_COPY_TO_CLIENT_BUFFER callback function
@@ -88,4 +88,3 @@ The
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-

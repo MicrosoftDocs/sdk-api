@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced::AddSink
+ - IWMWriterAdvanced.AddSink
 ---
 
 # IWMWriterAdvanced::AddSink
@@ -154,4 +154,3 @@ If you only need to write to a single file, you can let the writer object handle
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-removesink">IWMWriterAdvanced::RemoveSink</a>
-

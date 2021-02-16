@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::GetFormattedText
+ - ITextStoreAnchor.GetFormattedText
 ---
 
 # ITextStoreAnchor::GetFormattedText
@@ -132,4 +132,3 @@ Text, embedded objects, and any formatting are wrapped into a single <b>IDataObj
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreanchor">ITextStoreAnchor</a>
-

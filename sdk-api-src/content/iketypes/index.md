@@ -9,8 +9,6 @@ tech.root: fwp
 f1_keywords:
  - iketypes
  - iketypes/iketypes
-api_name:
- - iketypes
 ---
 
 # Iketypes.h header

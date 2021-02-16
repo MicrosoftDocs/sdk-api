@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - TcQueryFlowW
  - traffic/TcQueryFlowW
- - TcQueryFlow
- - traffic/TcQueryFlow
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Traffic.dll
 api_name:
- - TcQueryFlowW
  - TcQueryFlow
+ - TcQueryFlowA
+ - TcQueryFlowW
 ---
 
 # TcQueryFlowW function
@@ -175,4 +174,3 @@ Use of the
 
 
 <a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcgetflownamea">TcGetFlowName</a>
-

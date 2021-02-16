@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMC_PEND_INFO
- - PCMC_PEND_INFO
  - CMC_PEND_INFO
 ---
 
@@ -68,4 +66,3 @@ A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the pending r
 ### -field PendTime
 
 <b>FILETIME</b> containing the request.
-

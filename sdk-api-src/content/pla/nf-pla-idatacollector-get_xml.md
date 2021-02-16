@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::get_Xml
+ - IDataCollector.Xml
+ - IDataCollector.get_Xml
 ---
 
 # IDataCollector::get_Xml
@@ -67,4 +68,3 @@ For details on the property elements contained in the XML string, see the Remark
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-setxml">IDataCollector::SetXml</a>
-

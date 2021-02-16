@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::createPartnership
+ - IWMPSyncDevice.createPartnership
 ---
 
 # IWMPSyncDevice::createPartnership
@@ -166,4 +166,3 @@ Windows Media Player cannot create a partnership with a device having the status
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_deviceid">IWMPSyncDevice::get_deviceId</a>
-

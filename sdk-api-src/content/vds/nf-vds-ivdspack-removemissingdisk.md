@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack::RemoveMissingDisk
+ - IVdsPack.RemoveMissingDisk
 ---
 
 # IVdsPack::RemoveMissingDisk
@@ -103,4 +103,3 @@ Use this method for dynamic disks only.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdspack">IVdsPack</a>
-

@@ -39,9 +39,6 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreNotificationType
-f1_keywords:
- - DXCoreNotificationType
- - dxcore_interface/DXCoreNotificationType
 ---
 
 ## -description
@@ -71,4 +68,3 @@ This notification is raised by an <a href="/windows/win32/api/dxcore_interface/n
 ## -see-also
 
 [IDXCoreAdapterFactory::RegisterEventNotification](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-registereventnotification), [IDXCoreAdapterFactory::UnregisterEventNotification](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification), [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

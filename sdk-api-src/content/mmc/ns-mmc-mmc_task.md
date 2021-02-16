@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_TASK
  - MMC_TASK
 ---
 
@@ -158,4 +157,3 @@ You should also allocate the strings in the
 
 
 <a href="/windows/desktop/api/mmc/ns-mmc-mmc_task_display_symbol">MMC_TASK_DISPLAY_SYMBOL</a>
-

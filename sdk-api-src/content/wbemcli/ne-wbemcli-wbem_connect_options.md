@@ -43,7 +43,6 @@ api_type:
 api_location:
  - 
 api_name:
- - tag_WBEM_CONNECT_OPTIONS
  - WBEM_CONNECT_OPTIONS
 ---
 
@@ -67,4 +66,3 @@ The call  returns in 2 minutes or less whether successful or not.
 ### -field WBEM_FLAG_CONNECT_PROVIDERS
 
 TBD
-

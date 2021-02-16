@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineSetDevConfig
+ - lineSetDevConfigA
+ - lineSetDevConfigW
 ---
 
 # lineSetDevConfig function
@@ -123,4 +125,3 @@ Some service providers may permit the configuration to be set while a call is ac
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
-

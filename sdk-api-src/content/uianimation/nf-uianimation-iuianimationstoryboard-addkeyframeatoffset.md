@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard::AddKeyframeAtOffset
+ - IUIAnimationStoryboard.AddKeyframeAtOffset
 ---
 
 # IUIAnimationStoryboard::AddKeyframeAtOffset
@@ -110,4 +110,3 @@ hr = pStoryboard->AddKeyframeAtOffset(
 
 
 <a href="/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IReconcilableObject::Reconcile
+ - IReconcilableObject.Reconcile
 ---
 
 # IReconcilableObject::Reconcile
@@ -308,4 +308,3 @@ Unspecified error.
 ## -see-also
 
 <a href="/windows/desktop/api/reconcil/nn-reconcil-ireconcilableobject">IReconcilableObject</a>
-

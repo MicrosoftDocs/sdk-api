@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IAppPublisher::GetNumberOfCategories
+ - IAppPublisher.GetNumberOfCategories
 ---
 
 # IAppPublisher::GetNumberOfCategories
@@ -73,4 +73,3 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
-

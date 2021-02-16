@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSinkWriterEncoderConfig::PlaceEncodingParameters
+ - IMFSinkWriterEncoderConfig.PlaceEncodingParameters
 ---
 
 # IMFSinkWriterEncoderConfig::PlaceEncodingParameters
@@ -81,4 +81,3 @@ The encoder will be configured with these settings after all previously queued i
 
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriterex">IMFSinkWriterEx</a>
-

@@ -9,8 +9,6 @@ tech.root: sysmon
 f1_keywords:
  - isysmon
  - isysmon/isysmon
-api_name:
- - isysmon
 ---
 
 # Isysmon.h header

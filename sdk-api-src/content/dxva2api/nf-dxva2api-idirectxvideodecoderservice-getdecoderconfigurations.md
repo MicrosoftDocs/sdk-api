@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoderService::GetDecoderConfigurations
+ - IDirectXVideoDecoderService.GetDecoderConfigurations
 ---
 
 # IDirectXVideoDecoderService::GetDecoderConfigurations
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice">IDirectXVideoDecoderService</a>
-

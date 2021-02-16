@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFFrameSourceTypes
  - MFFrameSourceTypes
 ---
 
@@ -82,4 +81,3 @@ The frame source provides custom data.
 ## -remarks
 
 The values of this enumeration are used with the <a href="/windows/desktop/medfound/mf-devicestream-attribute-framesource-types">MF_DEVICESTREAM_ATTRIBUTE_FRAMESOURCE_TYPES</a> attribute.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSourceReaderEx::SetNativeMediaType
+ - IMFSourceReaderEx.SetNativeMediaType
 ---
 
 # IMFSourceReaderEx::SetNativeMediaType
@@ -148,4 +148,3 @@ This method is useful with audio and video capture devices, because a device mig
 ## -see-also
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ImmGetCompositionStringW
  - immdev/ImmGetCompositionStringW
- - ImmGetCompositionString
- - immdev/ImmGetCompositionString
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-imm-l1-1-0.dll
  - ext-ms-win-imm-l1-1-1.dll
 api_name:
- - ImmGetCompositionStringW
  - ImmGetCompositionString
+ - ImmGetCompositionStringA
+ - ImmGetCompositionStringW
 ---
 
 # ImmGetCompositionStringW function
@@ -119,4 +118,3 @@ An application calls this function in response to the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/Intl/wm-ime-startcomposition">WM_IME_STARTCOMPOSITION</a>
-

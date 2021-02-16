@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetSourceVarFromToken
+ - SymGetSourceVarFromToken
+ - SymGetSourceVarFromTokenW
 ---
 
 # SymGetSourceVarFromToken function
@@ -92,4 +94,3 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 All DbgHelp functions, such as this one, are single threaded. Therefore, calls from more than one thread to this function will likely result in unexpected behavior or memory corruption. To avoid this, you must synchronize all concurrent calls from more than one thread to this function.
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay::Unadvise
+ - IOverlay.Unadvise
 ---
 
 # IOverlay::Unadvise
@@ -70,4 +70,3 @@ This method terminates the advise link established by using the <a href="/window
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateJobObjectA
  - winbase/CreateJobObjectA
- - CreateJobObject
- - winbase/CreateJobObject
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
  - API-MS-Win-Core-Job-L2-1-1.dll
 api_name:
- - CreateJobObjectA
  - CreateJobObject
+ - CreateJobObjectA
+ - CreateJobObjectW
 ---
 
 # CreateJobObjectA function
@@ -134,4 +133,3 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-

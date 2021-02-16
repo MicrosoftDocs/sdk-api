@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IStringTable::GetString
+ - IStringTable.GetString
 ---
 
 # IStringTable::GetString
@@ -85,4 +85,3 @@ If lpBuffer is not large enough to hold the entire string corresponding to Strin
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-istringtable-getstringlength">IStringTable::GetStringLength</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_search_info_tag
- - PDRT_SEARCH_INFO
  - DRT_SEARCH_INFO
 ---
 
@@ -91,4 +89,3 @@ Specifies the numerically smallest key value the infrastructure should attempt t
 ## -see-also
 
 <a href="/windows/desktop/api/drt/nf-drt-drtstartsearch">DrtStartSearch</a>
-

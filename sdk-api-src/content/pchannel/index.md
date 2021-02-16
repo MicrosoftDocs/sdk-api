@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - pchannel
  - pchannel/pchannel
-api_name:
- - pchannel
 ---
 
 # Pchannel.h header

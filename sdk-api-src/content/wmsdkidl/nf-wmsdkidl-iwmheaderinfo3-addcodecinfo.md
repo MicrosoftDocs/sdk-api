@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3::AddCodecInfo
+ - IWMHeaderInfo3.AddCodecInfo
 ---
 
 # IWMHeaderInfo3::AddCodecInfo
@@ -106,4 +106,3 @@ The parameters passed to this method should be obtained from the original file w
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
-

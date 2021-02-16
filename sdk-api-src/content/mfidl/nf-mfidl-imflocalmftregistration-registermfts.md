@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFLocalMFTRegistration::RegisterMFTs
+ - IMFLocalMFTRegistration.RegisterMFTs
 ---
 
 # IMFLocalMFTRegistration::RegisterMFTs
@@ -84,4 +84,3 @@ Unlike <a href="/windows/desktop/api/mfapi/nf-mfapi-mftregisterlocalbyclsid">MFT
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imflocalmftregistration">IMFLocalMFTRegistration</a>
-

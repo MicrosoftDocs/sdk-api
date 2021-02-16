@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings::put_AllowInboundTimestampRequest
+ - INetFwIcmpSettings.AllowInboundTimestampRequest
+ - INetFwIcmpSettings.get_AllowInboundTimestampRequest
+ - INetFwIcmpSettings.put_AllowInboundTimestampRequest
 ---
 
 # INetFwIcmpSettings::put_AllowInboundTimestampRequest
@@ -66,4 +68,3 @@ This setting is  for IPv4 only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwicmpsettings">INetFwIcmpSettings</a>
-

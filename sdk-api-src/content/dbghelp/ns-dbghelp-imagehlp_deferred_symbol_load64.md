@@ -46,9 +46,10 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _IMAGEHLP_DEFERRED_SYMBOL_LOAD64
- - PIMAGEHLP_DEFERRED_SYMBOL_LOAD64
  - IMAGEHLP_DEFERRED_SYMBOL_LOAD64
+ - IMAGEHLP_DEFERRED_SYMBOL_LOAD64
+ - IMAGEHLP_DEFERRED_SYMBOL_LOADW64
+ - IMAGEHLP_DEFERRED_SYMBOL_LOAD
 ---
 
 ## -description
@@ -118,4 +119,3 @@ typedef struct _IMAGEHLP_DEFERRED_SYMBOL_LOAD {
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
-

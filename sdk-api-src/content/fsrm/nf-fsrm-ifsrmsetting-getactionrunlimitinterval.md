@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting::GetActionRunLimitInterval
+ - IFsrmSetting.GetActionRunLimitInterval
+ - FsrmSetting.GetActionRunLimitInterval
 ---
 
 # IFsrmSetting::GetActionRunLimitInterval
@@ -73,4 +74,3 @@ Returns the following return values:
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
-

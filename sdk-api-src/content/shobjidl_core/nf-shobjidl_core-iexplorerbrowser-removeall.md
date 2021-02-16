@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser::RemoveAll
+ - IExplorerBrowser.RemoveAll
 ---
 
 # IExplorerBrowser::RemoveAll
@@ -63,4 +63,3 @@ Returns S_OK if successful, or  E_UNEXPECTED if this method is called before a c
 ## -remarks
 
 This method removes all results from the  <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iresultsfolder">IResultsFolder</a> created in method <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-fillfromobject">IExplorerBrowser::FillFromObject</a>.
-

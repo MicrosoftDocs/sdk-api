@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetListAlignment
+ - ITextPara.GetListAlignment
 ---
 
 # ITextPara::GetListAlignment
@@ -153,4 +153,3 @@ For a description of the different types of lists, see the <a href="/windows/des
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

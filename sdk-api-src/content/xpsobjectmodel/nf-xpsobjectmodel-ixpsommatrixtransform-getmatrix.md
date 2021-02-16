@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMMatrixTransform::GetMatrix
+ - IXpsOMMatrixTransform.GetMatrix
 ---
 
 # IXpsOMMatrixTransform::GetMatrix
@@ -106,4 +106,3 @@ The method succeeded.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
-

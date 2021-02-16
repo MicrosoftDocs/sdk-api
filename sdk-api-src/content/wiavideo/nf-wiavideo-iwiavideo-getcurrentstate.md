@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiavideo.dll
 api_name:
- - IWiaVideo::GetCurrentState
+ - IWiaVideo.GetCurrentState
 ---
 
 # IWiaVideo::GetCurrentState

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_QueueStatus
+ - IFaxJob.QueueStatus
+ - IFaxJob.get_QueueStatus
 ---
 
 # IFaxJob::get_QueueStatus
@@ -77,4 +78,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-

@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice::IsWmdrmCompliant
+ - IWMRegisteredDevice.IsWmdrmCompliant
 ---
 
 # IWMRegisteredDevice::IsWmdrmCompliant
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::ClearStoredMessages
+ - IDXGIInfoQueue.ClearStoredMessages
 ---
 
 # IDXGIInfoQueue::ClearStoredMessages
@@ -66,4 +66,3 @@ Clears all messages from the message queue.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

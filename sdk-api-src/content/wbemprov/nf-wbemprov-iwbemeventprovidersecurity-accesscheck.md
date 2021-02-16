@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventProviderSecurity::AccessCheck
+ - IWbemEventProviderSecurity.AccessCheck
 ---
 
 # IWbemEventProviderSecurity::AccessCheck
@@ -93,4 +93,3 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 
 <a href="/windows/desktop/WmiSdk/securing-wmi-events">Securing WMI Events</a>
-

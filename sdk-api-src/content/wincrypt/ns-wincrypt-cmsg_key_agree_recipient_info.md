@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_KEY_AGREE_RECIPIENT_INFO
- - PCMSG_KEY_AGREE_RECIPIENT_INFO
  - CMSG_KEY_AGREE_RECIPIENT_INFO
 ---
 
@@ -126,4 +124,3 @@ The number of elements in the <b>rgpRecipientEncryptedKeys</b> array.
 ### -field rgpRecipientEncryptedKeys
 
 The address of an array of <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_encrypted_key_info">CMSG_RECIPIENT_ENCRYPTED_KEY_INFO</a> structures that contains information about the key recipients. The <b>cRecipientEncryptedKeys</b> member contains the number of elements in this array.
-

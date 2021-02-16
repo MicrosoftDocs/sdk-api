@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMOpenProgress::AbortOperation
+ - IAMOpenProgress.AbortOperation
 ---
 
 # IAMOpenProgress::AbortOperation
@@ -66,4 +66,3 @@ Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamopenprogress">IAMOpenProgress Interface</a>
-

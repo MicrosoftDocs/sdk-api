@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device::CreateSamplerState
+ - ID3D11Device.CreateSamplerState
 ---
 
 # ID3D11Device::CreateSamplerState
@@ -82,4 +82,3 @@ If an application attempts to create a sampler-state interface with the same sta
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumTimeFormatsW
  - winnls/EnumTimeFormatsW
- - EnumTimeFormats
- - winnls/EnumTimeFormats
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumTimeFormatsW
  - EnumTimeFormats
+ - EnumTimeFormatsA
+ - EnumTimeFormatsW
 ---
 
 # EnumTimeFormatsW function
@@ -175,4 +174,3 @@ Note that any new values for <i>dwFlags</i> introduced in the future will not wo
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

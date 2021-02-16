@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - _NTMS_NOTIFICATIONINFORMATION
- - LPNTMS_NOTIFICATIONINFORMATION
  - NTMS_NOTIFICATIONINFORMATION
 ---
 
@@ -113,4 +111,3 @@ Object Identifier.
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-waitforntmsnotification">WaitForNtmsNotification</a>
-

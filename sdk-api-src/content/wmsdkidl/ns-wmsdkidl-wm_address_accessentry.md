@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMAddressAccessEntry
  - WM_ADDRESS_ACCESSENTRY
 ---
 
@@ -76,4 +75,3 @@ You can use the <b>inet_addr</b> function to convert a standard dotted-format st
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

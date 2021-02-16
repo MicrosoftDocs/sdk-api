@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities::GetEventAttributes
+ - IPortableDeviceServiceCapabilities.GetEventAttributes
 ---
 
 # IPortableDeviceServiceCapabilities::GetEventAttributes
@@ -85,4 +85,3 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-supported-events">Retrieving Supported Service Events</a>
-

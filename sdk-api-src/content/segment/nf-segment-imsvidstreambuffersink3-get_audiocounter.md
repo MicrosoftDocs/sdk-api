@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink3::get_AudioCounter
+ - IMSVidStreamBufferSink3.get_AudioCounter
 ---
 
 # IMSVidStreamBufferSink3::get_AudioCounter
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>
-

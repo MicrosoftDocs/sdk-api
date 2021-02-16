@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback::DeleteLogError
+ - ISyncMgrSynchronizeCallback.DeleteLogError
 ---
 
 # ISyncMgrSynchronizeCallback::DeleteLogError
@@ -91,4 +91,3 @@ The item was successfully deleted from the log.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
-

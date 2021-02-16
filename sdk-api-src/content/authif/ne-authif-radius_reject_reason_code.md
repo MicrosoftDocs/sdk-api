@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
- - _RADIUS_REJECT_REASON_CODE
  - RADIUS_REJECT_REASON_CODE
 ---
 
@@ -89,4 +88,3 @@ The authentication process has failed; possibly due to incorrect credentials.
 
 
 <a href="/windows/desktop/Nps/ias-internet-authentication-service-reference">NPS Extensions Reference</a>
-

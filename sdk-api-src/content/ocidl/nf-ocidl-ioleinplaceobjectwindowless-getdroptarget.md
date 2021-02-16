@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceObjectWindowless::GetDropTarget
+ - IOleInPlaceObjectWindowless.GetDropTarget
 ---
 
 # IOleInPlaceObjectWindowless::GetDropTarget
@@ -117,4 +117,3 @@ A container can cache the pointer to the object's <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-registerdragdrop">RegisterDragDrop</a>
-

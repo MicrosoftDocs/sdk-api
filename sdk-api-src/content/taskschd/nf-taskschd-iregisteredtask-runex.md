@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask::RunEx
+ - IRegisteredTask.RunEx
 ---
 
 # IRegisteredTask::RunEx
@@ -107,4 +107,3 @@ If <b>IRegisteredTask::RunEx</b> is invoked from a disabled task, it will return
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

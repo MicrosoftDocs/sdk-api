@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiInitiatorPortal::SetIpsecSecurity
+ - IVdsIscsiInitiatorPortal.SetIpsecSecurity
 ---
 
 # IVdsIscsiInitiatorPortal::SetIpsecSecurity
@@ -96,4 +96,3 @@ This method is not supported in this release.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsiscsiinitiatorportal">IVdsIscsiInitiatorPortal</a>
-

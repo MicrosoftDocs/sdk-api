@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::CurrentMediaItemAvailable
+ - IWMPEvents.CurrentMediaItemAvailable
 ---
 
 # IWMPEvents::CurrentMediaItemAvailable
@@ -65,4 +65,3 @@ Specifies the item name.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

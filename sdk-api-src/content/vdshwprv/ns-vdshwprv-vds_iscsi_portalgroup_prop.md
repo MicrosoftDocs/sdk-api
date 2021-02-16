@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_PORTALGROUP_PROP
- - PVDS_ISCSI_PORTALGROUP_PROP
  - VDS_ISCSI_PORTALGROUP_PROP
 ---
 
@@ -74,4 +72,3 @@ The portal group tag that is assigned by the provider to the portal group. For m
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsiportalgroup-getproperties">IVdsIscsiPortalGroup::GetProperties</a>
-

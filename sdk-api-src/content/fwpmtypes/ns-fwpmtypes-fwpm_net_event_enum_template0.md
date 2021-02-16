@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_ENUM_TEMPLATE0_
  - FWPM_NET_EVENT_ENUM_TEMPLATE0
 ---
 
@@ -182,4 +181,3 @@ The identification of the local user.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

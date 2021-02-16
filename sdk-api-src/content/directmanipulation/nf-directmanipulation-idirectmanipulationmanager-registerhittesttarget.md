@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationManager::RegisterHitTestTarget
+ - IDirectManipulationManager.RegisterHitTestTarget
 ---
 
 # IDirectManipulationManager::RegisterHitTestTarget
@@ -86,4 +86,3 @@ If <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-directm
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>
-

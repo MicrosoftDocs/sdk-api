@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LowLevelMonitorConfigurationAPI.h
 api_name:
- - _MC_VCP_CODE_TYPE
- - LPMC_VCP_CODE_TYPE
  - MC_VCP_CODE_TYPE
 ---
 
@@ -79,4 +77,3 @@ Set Parameter VCP code. Sending a command of this type changes some aspect of th
 
 
 <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitordisplayareasize">SetMonitorDisplayAreaSize</a>
-

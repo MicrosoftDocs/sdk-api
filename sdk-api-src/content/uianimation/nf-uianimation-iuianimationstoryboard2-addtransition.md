@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2::AddTransition
+ - IUIAnimationStoryboard2.AddTransition
 ---
 
 # IUIAnimationStoryboard2::AddTransition
@@ -111,4 +111,3 @@ The <b>AddTransition</b> method applies the specified transition to the specifie
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
-

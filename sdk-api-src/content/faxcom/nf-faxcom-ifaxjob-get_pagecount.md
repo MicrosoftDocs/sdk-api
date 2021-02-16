@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_PageCount
+ - IFaxJob.PageCount
+ - IFaxJob.get_PageCount
 ---
 
 # IFaxJob::get_PageCount
@@ -81,4 +82,3 @@ The total page count is only available for faxes that have a <a href="/previous-
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-

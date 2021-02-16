@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _TCP_INITIAL_RTO_PARAMETERS
- - PTCP_INITIAL_RTO_PARAMETERS
  - TCP_INITIAL_RTO_PARAMETERS
 ---
 
@@ -83,4 +81,3 @@ An application can choose system defaults for any of these fields and supply tho
 ## -see-also
 
 <a href="/windows/win32/winsock/sio-tcp-initial-rto">SIO_TCP_INITIAL_RTO</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _CRYPT_TRUST_REG_ENTRY
- - PCRYPT_TRUST_REG_ENTRY
  - CRYPT_TRUST_REG_ENTRY
 ---
 
@@ -81,4 +79,3 @@ A pointer to a null-terminated string for the function name.
 
 
 <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a>
-

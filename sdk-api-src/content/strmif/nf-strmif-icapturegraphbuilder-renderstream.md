@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder::RenderStream
+ - ICaptureGraphBuilder.RenderStream
 ---
 
 # ICaptureGraphBuilder::RenderStream
@@ -99,4 +99,3 @@ When you render a capture or preview pin of a video capture filter (using <code>
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
-

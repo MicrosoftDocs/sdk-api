@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression::OverrideFrameSize
+ - IAMVideoCompression.OverrideFrameSize
 ---
 
 # IAMVideoCompression::OverrideFrameSize
@@ -111,4 +111,3 @@ If the filter supports this method, the <a href="/windows/desktop/api/strmif/nf-
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression Interface</a>
-

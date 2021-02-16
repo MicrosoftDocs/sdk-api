@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport::FindManifestResourceByName
+ - IMetaDataAssemblyImport.FindManifestResourceByName
 ---
 
 # IMetaDataAssemblyImport::FindManifestResourceByName
@@ -73,4 +73,3 @@ This method uses the standard rules employed by the common language runtime for 
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-

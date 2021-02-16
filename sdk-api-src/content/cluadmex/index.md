@@ -9,8 +9,6 @@ tech.root: mscs
 f1_keywords:
  - cluadmex
  - cluadmex/cluadmex
-api_name:
- - cluadmex
 ---
 
 # Cluadmex.h header

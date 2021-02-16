@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::put_ApplicationData
+ - IAzAuthorizationStore.ApplicationData
+ - IAzAuthorizationStore.get_ApplicationData
+ - IAzAuthorizationStore.put_ApplicationData
+ - AzAuthorizationStore.ApplicationData
 ---
 
 # IAzAuthorizationStore::put_ApplicationData

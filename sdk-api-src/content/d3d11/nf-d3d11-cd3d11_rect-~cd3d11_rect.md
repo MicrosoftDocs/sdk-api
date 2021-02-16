@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_RECT::~CD3D11_RECT
+ - CD3D11_RECT.~CD3D11_RECT
 ---
 
 # CD3D11_RECT::~CD3D11_RECT
@@ -58,4 +58,3 @@ Destroys an instance of a <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect
 ## -see-also
 
 <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a>
-

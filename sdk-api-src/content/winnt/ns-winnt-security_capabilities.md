@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SECURITY_CAPABILITIES
- - PSECURITY_CAPABILITIES
  - SECURITY_CAPABILITIES
 ---
 
@@ -83,4 +81,3 @@ This member is reserved. Do not use it.
 ## -see-also
 
 <a href="/windows/desktop/SecAuthZ/capability-sid-constants">Capability SID Constants</a>
-

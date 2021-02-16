@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeComp::BindType
+ - ITypeComp.BindType
 ---
 
 # ITypeComp::BindType
@@ -124,4 +124,3 @@ Use the function <b>BindType</b> for binding a type name to the <a href="/previo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypecomp">ITypeComp</a>
-

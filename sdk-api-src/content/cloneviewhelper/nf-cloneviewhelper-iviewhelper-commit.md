@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cloneviewhelper.h
 api_name:
- - IViewHelper::Commit
+ - IViewHelper.Commit
 ---
 
 # IViewHelper::Commit
@@ -95,4 +95,3 @@ A call to <b>Commit</b> will no longer replace a call to <b>ChangeDisplaySetting
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a>
-

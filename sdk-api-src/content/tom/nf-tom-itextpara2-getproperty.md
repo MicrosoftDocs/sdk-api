@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara2::GetProperty
+ - ITextPara2.GetProperty
 ---
 
 # ITextPara2::GetProperty
@@ -89,4 +89,3 @@ The <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomParaPropMathAlign</a
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextpara2-setproperty">ITextPara2::SetProperty</a>
-

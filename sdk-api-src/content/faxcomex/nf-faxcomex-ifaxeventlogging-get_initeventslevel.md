@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxEventLogging::get_InitEventsLevel
+ - IFaxEventLogging.InitEventsLevel
+ - IFaxEventLogging.get_InitEventsLevel
+ - IFaxEventLogging.put_InitEventsLevel
+ - IFaxEventLogging.get_InitEventsLevel
+ - IFaxEventLogging.put_InitEventsLevel
 ---
 
 # IFaxEventLogging::get_InitEventsLevel
@@ -71,4 +75,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-logging-options">Visual Basic Example</a>
-

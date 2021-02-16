@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AddERExcludedApplicationA
  - errorrep/AddERExcludedApplicationA
- - AddERExcludedApplication
- - errorrep/AddERExcludedApplication
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Faultrep.dll
 api_name:
- - AddERExcludedApplicationA
  - AddERExcludedApplication
+ - AddERExcludedApplicationA
+ - AddERExcludedApplicationW
 ---
 
 # AddERExcludedApplicationA function
@@ -92,4 +91,3 @@ This function stores the excluded application list under the <b>HKEY_LOCAL_MACHI
 
 
 <a href="/windows/desktop/wer/windows-error-reporting">Windows Error Reporting</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::SetStateBits
+ - IStorage.SetStateBits
 ---
 
 # IStorage::SetStateBits
@@ -77,4 +77,3 @@ The values for the state bits are not currently defined.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-stat">IStorage::Stat</a>
-

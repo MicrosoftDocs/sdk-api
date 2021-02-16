@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CredMarshalCredentialA
  - wincred/CredMarshalCredentialA
- - CredMarshalCredential
- - wincred/CredMarshalCredential
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - sechost.dll
  - API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredMarshalCredentialA
  - CredMarshalCredential
+ - CredMarshalCredentialA
+ - CredMarshalCredentialW
 ---
 
 # CredMarshalCredentialA function
@@ -120,4 +119,3 @@ ERROR_INVALID_PARAMETER
 
 > [!NOTE]
 > The wincred.h header defines CredMarshalCredential as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

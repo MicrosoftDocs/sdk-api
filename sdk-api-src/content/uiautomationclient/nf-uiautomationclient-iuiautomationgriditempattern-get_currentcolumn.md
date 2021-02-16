@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern::get_CurrentColumn
+ - IUIAutomationGridItemPattern.CurrentColumn
+ - IUIAutomationGridItemPattern.get_CurrentColumn
 ---
 
 # IUIAutomationGridItemPattern::get_CurrentColumn
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>
-

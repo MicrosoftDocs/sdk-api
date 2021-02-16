@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_PROVIDER_LBSUPPORT_FLAG
  - VDS_PROVIDER_LBSUPPORT_FLAG
 ---
 
@@ -98,4 +97,3 @@ The provider supports a vendor-specific policy.
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

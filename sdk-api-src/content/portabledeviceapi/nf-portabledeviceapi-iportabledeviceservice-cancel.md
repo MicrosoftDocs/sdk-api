@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::Cancel
+ - IPortableDeviceService.Cancel
 ---
 
 # IPortableDeviceService::Cancel
@@ -67,4 +67,3 @@ If your application invokes the WPD API from multiple threads, each thread shoul
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-

@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - windows.media.streaming
  - windows.media.streaming/windows.media.streaming
-api_name:
- - windows.media.streaming
 ---
 
 # Windows.Media.Streaming.h header

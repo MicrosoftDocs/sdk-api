@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServices::get_Count
+ - IUPnPServices.get_Count
 ---
 
 # IUPnPServices::get_Count
@@ -95,4 +95,3 @@ Failed to subscribe to the event source.
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservices">IUPnPServices</a>
-

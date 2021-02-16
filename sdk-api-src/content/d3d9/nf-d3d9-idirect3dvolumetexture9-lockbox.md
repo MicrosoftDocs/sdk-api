@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolumeTexture9::LockBox
+ - IDirect3DVolumeTexture9.LockBox
 ---
 
 # IDirect3DVolumeTexture9::LockBox
@@ -106,4 +106,3 @@ For performance reasons, dirty regions are only recorded for level zero of a tex
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-unlockbox">UnlockBox</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidDevice::IsEqualDevice
+ - IMSVidDevice.IsEqualDevice
 ---
 
 # IMSVidDevice::IsEqualDevice
@@ -137,4 +137,3 @@ Unexpected error occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
-

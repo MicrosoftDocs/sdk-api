@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeService3::ResolveResource
+ - IVisualTreeService3.ResolveResource
 ---
 
 # IVisualTreeService3::ResolveResource
@@ -83,4 +83,3 @@ Call <a href="/previous-versions/windows/desktop/api/xamlom/nf-xamlom-ivisualtre
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservice3">IVisualTreeService3</a>
-

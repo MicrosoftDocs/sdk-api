@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amsi.h
 api_name:
- - IAmsiStream::GetAttribute
+ - IAmsiStream.GetAttribute
 ---
 
 # IAmsiStream::GetAttribute
@@ -176,4 +176,3 @@ Depending on the attribute requested in <i>attribute</i>, the following data sho
 
 
 <a href="/windows/desktop/api/amsi/nn-amsi-iamsistream">IAmsiStream</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::GetACPFromPoint
+ - ITextStoreACP2.GetACPFromPoint
 ---
 
 # ITextStoreACP2::GetACPFromPoint
@@ -171,4 +171,3 @@ The application has not calculated a text layout.
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

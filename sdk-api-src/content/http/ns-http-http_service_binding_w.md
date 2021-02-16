@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_BINDING_W
- - PHTTP_SERVICE_BINDING_W
  - HTTP_SERVICE_BINDING_W
 ---
 
@@ -71,4 +69,3 @@ A pointer to a buffer that represents the SPN.
 ### -field BufferSize
 
 The length, in bytes, of the string in <b>Buffer</b>.
-

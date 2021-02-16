@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiOpenDeviceInterfaceW
  - setupapi/SetupDiOpenDeviceInterfaceW
- - SetupDiOpenDeviceInterface
- - setupapi/SetupDiOpenDeviceInterface
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiOpenDeviceInterfaceW
- - SetupDiOpenDeviceInterface
+ - SetupDiOpenDeviceInterface - SetupDiOpenDeviceInterfaceW
 ---
 
 # SetupDiOpenDeviceInterfaceW function
@@ -120,4 +117,3 @@ When the application has finished using the information that <b>SetupDiOpenDevic
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdienumdeviceinterfaces">SetupDiEnumDeviceInterfaces</a>
-

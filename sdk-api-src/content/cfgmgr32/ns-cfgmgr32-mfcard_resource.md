@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - MfCard_Resource_s
- - PMFCARD_RESOURCE
  - MFCARD_RESOURCE
 ---
 
@@ -67,4 +65,3 @@ A [MFCARD_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des) structure.
 ## -see-also
 
 [MFCARD_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mfcard_des)
-

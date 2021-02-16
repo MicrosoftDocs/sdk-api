@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::_GetToolbarItem
+ - IBrowserService2._GetToolbarItem
 ---
 
 # IBrowserService2::_GetToolbarItem
@@ -70,4 +70,3 @@ A pointer to a [TOOLBARITEM](./ns-shdeprecated-toolbaritem.md) structure that re
 ## -remarks
 
 This method is implemented by the derived class.
-

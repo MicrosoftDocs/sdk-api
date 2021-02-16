@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMThumbnailGenerator::GenerateThumbnail
+ - IXpsOMThumbnailGenerator.GenerateThumbnail
 ---
 
 # IXpsOMThumbnailGenerator::GenerateThumbnail
@@ -154,4 +154,3 @@ One of the following parameters contains a value that is not valid:
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_thumbnail_size">XPS_THUMBNAIL_SIZE</a>
-

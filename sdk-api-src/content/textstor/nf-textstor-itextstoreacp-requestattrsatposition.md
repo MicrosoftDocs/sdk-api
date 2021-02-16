@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP::RequestAttrsAtPosition
+ - ITextStoreACP.RequestAttrsAtPosition
 ---
 
 # ITextStoreACP::RequestAttrsAtPosition
@@ -87,4 +87,3 @@ This method has no return values.
 
 <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
-

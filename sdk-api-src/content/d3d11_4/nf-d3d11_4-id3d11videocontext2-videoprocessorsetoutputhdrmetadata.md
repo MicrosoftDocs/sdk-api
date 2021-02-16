@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_4.h
 api_name:
- - ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData
+ - ID3D11VideoContext2.VideoProcessorSetOutputHDRMetaData
 ---
 
 # ID3D11VideoContext2::VideoProcessorSetOutputHDRMetaData
@@ -89,4 +89,3 @@ When processing an HDR stream, the driver may use this metadata optimize the vid
 
 
 <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3DVideoContext2</a>
-

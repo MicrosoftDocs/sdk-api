@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityIdentityColl::get_Item
+ - ISecurityIdentityColl.get_Item
 ---
 
 # ISecurityIdentityColl::get_Item
@@ -126,4 +126,3 @@ This collection represents a security identity, which provides information about
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityidentitycoll">ISecurityIdentityColl</a>
-

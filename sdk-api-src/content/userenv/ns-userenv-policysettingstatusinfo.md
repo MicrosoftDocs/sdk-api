@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Userenv.h
 api_name:
- - _POLICYSETTINGSTATUSINFO
- - LPPOLICYSETTINGSTATUSINFO
  - POLICYSETTINGSTATUSINFO
 ---
 
@@ -132,4 +130,3 @@ Specifies a
 
 
 <a href="/windows/desktop/api/userenv/nf-userenv-rsopsetpolicysettingstatus">RSoPSetPolicySettingStatus</a>
-

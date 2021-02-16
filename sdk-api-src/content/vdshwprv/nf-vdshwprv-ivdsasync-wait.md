@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAsync::Wait
+ - IVdsAsync.Wait
 ---
 
 # IVdsAsync::Wait
@@ -109,4 +109,3 @@ This method adds a reference to the contained object produced by the
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_async_output">VDS_ASYNC_OUTPUT</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::SyncDisplayTransform
+ - IDirectManipulationViewport.SyncDisplayTransform
 ---
 
 # IDirectManipulationViewport::SyncDisplayTransform
@@ -82,4 +82,3 @@ This method cannot be called if the viewport status is <b>DIRECTMANIPULATION_RUN
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

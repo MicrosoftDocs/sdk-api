@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame::GetMarshalSizeMax
+ - ICallFrame.GetMarshalSizeMax
 ---
 
 # ICallFrame::GetMarshalSizeMax
@@ -104,4 +104,3 @@ An unexpected error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-

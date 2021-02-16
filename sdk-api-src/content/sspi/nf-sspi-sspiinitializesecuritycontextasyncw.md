@@ -32,12 +32,9 @@ api_location:
  - sspi.h
 api_name:
  - SspiInitializeSecurityContextAsyncW
- - SspiInitializeSecurityContextAsync
 f1_keywords:
  - SspiInitializeSecurityContextAsyncW
  - sspi/SspiInitializeSecurityContextAsyncW
- - SspiInitializeSecurityContextAsync
- - sspi/SspiInitializeSecurityContextAsync
 dev_langs:
  - c++
 ---
@@ -153,4 +150,3 @@ See [InitializeSecurityContext](/windows/win32/secauthn/initializesecuritycontex
 [SspiAcceptSecurityContextAsync](nf-sspi-sspiacceptsecuritycontextasync.md)
 
 [SspiAcquireCredentialsHandleAsync](nf-sspi-sspiacquirecredentialshandleasynca.md)
-

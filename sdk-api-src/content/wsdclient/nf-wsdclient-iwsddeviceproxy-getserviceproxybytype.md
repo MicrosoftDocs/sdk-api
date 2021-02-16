@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy::GetServiceProxyByType
+ - IWSDDeviceProxy.GetServiceProxyByType
 ---
 
 # IWSDDeviceProxy::GetServiceProxyByType
@@ -135,4 +135,3 @@ If the device hosts more than one service of the specified type, a proxy for any
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-

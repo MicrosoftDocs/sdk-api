@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_CALLBACK_FUNCTION_TABLE
- - PCLRES_CALLBACK_FUNCTION_TABLE
 ---
 
 # CLRES_CALLBACK_FUNCTION_TABLE structure
@@ -130,4 +129,3 @@ A pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resap
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-

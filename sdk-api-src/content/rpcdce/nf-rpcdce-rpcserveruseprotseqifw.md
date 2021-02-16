@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcServerUseProtseqIfW
  - rpcdce/RpcServerUseProtseqIfW
- - RpcServerUseProtseqIf
- - rpcdce/RpcServerUseProtseqIf
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcServerUseProtseqIfW
  - RpcServerUseProtseqIf
+ - RpcServerUseProtseqIfA
+ - RpcServerUseProtseqIfW
 ---
 
 # RpcServerUseProtseqIfW function
@@ -244,4 +243,3 @@ For more information, see
 
 
 Writing a Secure RPC Client or Server
-

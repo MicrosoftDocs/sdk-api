@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamList::AddStream
+ - IWMStreamList.AddStream
 ---
 
 # IWMStreamList::AddStream
@@ -101,4 +101,3 @@ There is not enough available memory.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamlist-removestream">IWMStreamList::RemoveStream</a>
-

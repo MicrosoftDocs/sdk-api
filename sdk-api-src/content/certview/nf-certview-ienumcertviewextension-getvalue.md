@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION::GetValue
+ - IEnumCERTVIEWEXTENSION.GetValue
+ - IEnumCERTVIEWEXTENSION.GetValue
 ---
 
 # IEnumCERTVIEWEXTENSION::GetValue
@@ -310,4 +311,3 @@ VariantClear( &var );
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-skip">IEnumCERTVIEWEXTENSION::Skip</a>
-

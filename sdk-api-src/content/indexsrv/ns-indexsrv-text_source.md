@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - tagTEXT_SOURCE
  - TEXT_SOURCE
 ---
 
@@ -102,4 +101,3 @@ The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information abo
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a>
-

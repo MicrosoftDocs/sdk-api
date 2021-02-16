@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemBackupRestoreEx::Resume
+ - IWbemBackupRestoreEx.Resume
 ---
 
 # IWbemBackupRestoreEx::Resume
@@ -78,4 +78,3 @@ pInt->Resume();
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackupRestoreEx</a>
-

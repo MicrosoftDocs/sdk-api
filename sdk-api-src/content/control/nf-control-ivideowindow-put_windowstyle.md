@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::put_WindowStyle
+ - IVideoWindow.put_WindowStyle
 ---
 
 # IVideoWindow::put_WindowStyle
@@ -120,4 +120,3 @@ This method is a thin wrapper over the <b>SetWindowLong</b> function and must be
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_windowstyleex">IVideoWindow::put_WindowStyleEx</a>
-

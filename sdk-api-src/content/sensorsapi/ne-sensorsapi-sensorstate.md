@@ -44,7 +44,6 @@ api_type:
 api_location:
  - sensorsapi.h
 api_name:
- - __MIDL___MIDL_itf_sensorsapi_0000_0000_0001
  - SensorState
 ---
 
@@ -88,4 +87,3 @@ The sensor has raised an error.
 ### -field SENSOR_STATE_MAX
 
 Maximum enumerated sensor state. Not a valid value.
-

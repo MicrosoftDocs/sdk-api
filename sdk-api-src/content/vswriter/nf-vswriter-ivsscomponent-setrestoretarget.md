@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::SetRestoreTarget
+ - IVssComponent.SetRestoreTarget
 ---
 
 # IVssComponent::SetRestoreTarget
@@ -127,4 +127,3 @@ The restore target set by
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-

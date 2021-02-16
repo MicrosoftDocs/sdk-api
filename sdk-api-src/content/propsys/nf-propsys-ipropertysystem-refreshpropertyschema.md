@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.dll
 api_name:
- - IPropertySystem::RefreshPropertySchema
+ - IPropertySystem.RefreshPropertySchema
 ---
 
 # IPropertySystem::RefreshPropertySchema
@@ -92,4 +92,3 @@ Indicates calling context does not have proper privileges.
 ## -see-also
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
-

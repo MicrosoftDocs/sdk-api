@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrEnumItems::Reset
+ - ISyncMgrEnumItems.Reset
 ---
 
 # ISyncMgrEnumItems::Reset

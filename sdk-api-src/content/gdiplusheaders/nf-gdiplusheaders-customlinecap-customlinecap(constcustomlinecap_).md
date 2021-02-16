@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::CustomLineCap
+ - CustomLineCap.CustomLineCap
 ---
 
 ## -description
@@ -65,4 +65,3 @@ The
 
 The <b>CustomLineCap::CustomLineCap</b> class uses the winding fill mode regardless of the fill mode that is set for the 
 				<b>GraphicsPath</b> object passed to the <b>CustomLineCap::CustomLineCap</b> constructor.
-

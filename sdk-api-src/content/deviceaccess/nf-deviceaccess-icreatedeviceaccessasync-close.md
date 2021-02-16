@@ -43,7 +43,7 @@ api_location:
  - Deviceaccess.lib
  - Deviceaccess.dll
 api_name:
- - ICreateDeviceAccessAsync::Close
+ - ICreateDeviceAccessAsync.Close
 ---
 
 # ICreateDeviceAccessAsync::Close
@@ -97,4 +97,3 @@ It isn't strictly necessary to call this method, because resources are cleaned u
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/deviceaccess/nn-deviceaccess-icreatedeviceaccessasync">ICreateDeviceAccessAsync</a>
-

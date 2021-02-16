@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_IP_CLUSTER
- - LPDHCP_IP_CLUSTER
  - DHCP_IP_CLUSTER
 ---
 
@@ -67,4 +65,3 @@ The <b>DHCP_IP_CLUSTER</b> structure defines the address and mast for a network 
 ### -field ClusterMask
 
 Specifies the mask value for a cluster. This value should be set to  0xFFFFFFFF if the cluster is full.
-

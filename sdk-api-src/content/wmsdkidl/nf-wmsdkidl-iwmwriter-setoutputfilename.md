@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::SetOutputFilename
+ - IWMWriter.SetOutputFilename
 ---
 
 # IWMWriter::SetOutputFilename
@@ -118,4 +118,3 @@ You can obtain a pointer to the <a href="/windows/desktop/api/wmsdkidl/nn-wmsdki
 
 
 <a href="/windows/desktop/wmformat/using-file-sinks">Using File Sinks</a>
-

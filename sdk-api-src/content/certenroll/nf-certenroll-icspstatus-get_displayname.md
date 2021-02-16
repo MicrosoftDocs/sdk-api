@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatus::get_DisplayName
+ - ICspStatus.DisplayName
+ - ICspStatus.get_DisplayName
 ---
 
 # ICspStatus::get_DisplayName
@@ -70,4 +71,3 @@ The format of the string returned by this property depends on whether the provid
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
-

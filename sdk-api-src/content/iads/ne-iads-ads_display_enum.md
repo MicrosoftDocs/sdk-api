@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0001_0078_0003
  - ADS_DISPLAY_ENUM
 ---
 
@@ -79,4 +78,3 @@ This enumeration is used in  <a href="/windows/desktop/api/iads/nf-iads-iadspath
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspathname-setdisplaytype">IADsPathname::SetDisplayType</a>
-

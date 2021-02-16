@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::QueryProviders
+ - IVdsService.QueryProviders
 ---
 
 # IVdsService::QueryProviders
@@ -118,4 +118,3 @@ To determine the provider type for hardware providers, call the <a href="/window
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_query_provider_flag">VDS_QUERY_PROVIDER_FLAG</a>
-

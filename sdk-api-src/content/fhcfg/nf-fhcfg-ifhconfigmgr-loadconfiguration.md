@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr::LoadConfiguration
+ - IFhConfigMgr.LoadConfiguration
+ - FhConfigMgr.LoadConfiguration
 ---
 
 # IFhConfigMgr::LoadConfiguration
@@ -80,4 +81,3 @@ This method or the <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-cre
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-saveconfiguration">IFhConfigMgr::SaveConfiguration</a>
-

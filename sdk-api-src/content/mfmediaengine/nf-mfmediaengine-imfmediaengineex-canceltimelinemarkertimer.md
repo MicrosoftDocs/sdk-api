@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::CancelTimelineMarkerTimer
+ - IMFMediaEngineEx.CancelTimelineMarkerTimer
 ---
 
 # IMFMediaEngineEx::CancelTimelineMarkerTimer
@@ -65,4 +65,3 @@ Call this method to cancel the <a href="/windows/desktop/api/mfmediaengine/nf-mf
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

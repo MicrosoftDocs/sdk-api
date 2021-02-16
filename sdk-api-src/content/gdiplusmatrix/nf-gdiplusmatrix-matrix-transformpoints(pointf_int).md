@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusmatrix.h
 api_name:
- - Matrix::TransformPoints
+ - Matrix.TransformPoints
 ---
 
 # Matrix::TransformPoints
@@ -77,4 +77,3 @@ The <a href="/previous-versions/ms535321(v=vs.85)">Matrix::TransformPoints</a> m
 </table>
 
 ## -parameters
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ntlsa.h
 api_name:
- - LSA_FREE_LSA_HEAP
+ - FreeLsaHeap
 ---
 
 # LSA_FREE_LSA_HEAP callback function
@@ -70,4 +70,3 @@ This function does not return a value. However, if the function sets <i>Base</i>
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-

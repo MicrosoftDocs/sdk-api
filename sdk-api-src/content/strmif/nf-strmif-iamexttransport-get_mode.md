@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::get_Mode
+ - IAMExtTransport.get_Mode
 ---
 
 # IAMExtTransport::get_Mode
@@ -70,4 +70,3 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-

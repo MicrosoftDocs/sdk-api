@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_SYSTEM_RECOGNITION_INFORMATION
- - PFILE_SYSTEM_RECOGNITION_INFORMATION
  - FILE_SYSTEM_RECOGNITION_INFORMATION
 ---
 
@@ -71,4 +69,3 @@ The file system name stored on the disk. This is a null-terminated string of 8 A
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_file_system_recognition">FSCTL_QUERY_FILE_SYSTEM_RECOGNITION</a>
-

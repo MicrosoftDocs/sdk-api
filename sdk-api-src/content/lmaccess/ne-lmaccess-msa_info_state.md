@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _MSA_INFO_STATE
- - PMSA_INFO_STATE
  - MSA_INFO_STATE
 ---
 
@@ -97,4 +95,3 @@ Service accounts  can be group managed and are called group managed service acco
 ## -see-also
 
 <a href="/windows/desktop/api/lmaccess/ns-lmaccess-msa_info_0">MSA_INFO_0</a>
-

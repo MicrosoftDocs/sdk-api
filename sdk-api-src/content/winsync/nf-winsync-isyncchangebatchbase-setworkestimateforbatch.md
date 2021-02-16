@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase::SetWorkEstimateForBatch
+ - ISyncChangeBatchBase.SetWorkEstimateForBatch
 ---
 
 # ISyncChangeBatchBase::SetWorkEstimateForBatch
@@ -93,4 +93,3 @@ This value is reported in the <a href="/previous-versions/windows/desktop/api/wi
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ColorContext::GetProfileSize
+ - ID2D1ColorContext.GetProfileSize
 ---
 
 # ID2D1ColorContext::GetProfileSize
@@ -79,4 +79,3 @@ This can be used to allocate a buffer to receive the color profile bytes associa
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofile">ID2D1ColorContext::GetProfile</a>
-

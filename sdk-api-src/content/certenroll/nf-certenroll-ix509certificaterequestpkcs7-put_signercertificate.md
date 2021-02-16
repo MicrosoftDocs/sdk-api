@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs7::put_SignerCertificate
+ - IX509CertificateRequestPkcs7.SignerCertificate
+ - IX509CertificateRequestPkcs7.get_SignerCertificate
+ - IX509CertificateRequestPkcs7.put_SignerCertificate
 ---
 
 # IX509CertificateRequestPkcs7::put_SignerCertificate
@@ -79,4 +81,3 @@ You must initialize the PKCS #7 request object before calling this property. For
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs7">IX509CertificateRequestPkcs7</a>
-

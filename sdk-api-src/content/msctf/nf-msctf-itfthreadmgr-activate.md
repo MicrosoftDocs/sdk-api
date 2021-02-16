@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr::Activate
+ - ITfThreadMgr.Activate
 ---
 
 # ITfThreadMgr::Activate
@@ -119,4 +119,3 @@ This method can be called more than once from a thread, but each call must be ma
 
 <a href="/windows/desktop/TSF/tfclientid">TfClientId
       </a>
-

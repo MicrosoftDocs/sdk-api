@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_add_ext_sW
  - winldap/ldap_add_ext_sW
- - ldap_add_ext_s
- - winldap/ldap_add_ext_s
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_add_ext_sW
  - ldap_add_ext_s
+ - ldap_add_ext_sA
+ - ldap_add_ext_sW
 ---
 
 # ldap_add_ext_sW function
@@ -145,4 +144,3 @@ Multithreading: Calls to <b>ldap_add_ext_s</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

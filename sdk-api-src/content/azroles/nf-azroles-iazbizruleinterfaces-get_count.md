@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleInterfaces::get_Count
+ - IAzBizRuleInterfaces.Count
+ - IAzBizRuleInterfaces.get_Count
 ---
 
 # IAzBizRuleInterfaces::get_Count
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
-

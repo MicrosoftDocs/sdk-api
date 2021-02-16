@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain::GetFullscreenState
+ - IDXGISwapChain.GetFullscreenState
 ---
 
 # IDXGISwapChain::GetFullscreenState
@@ -86,4 +86,3 @@ When the swap chain is in full-screen mode, a pointer to the  target output will
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
-

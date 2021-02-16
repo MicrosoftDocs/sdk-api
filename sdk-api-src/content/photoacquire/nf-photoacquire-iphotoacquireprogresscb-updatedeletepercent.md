@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB::UpdateDeletePercent
+ - IPhotoAcquireProgressCB.UpdateDeletePercent
 ---
 
 # IPhotoAcquireProgressCB::UpdateDeletePercent
@@ -95,4 +95,3 @@ The method is not implemented
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-

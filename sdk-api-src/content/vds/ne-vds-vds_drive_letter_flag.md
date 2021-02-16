@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DRIVE_LETTER_FLAG
  - VDS_DRIVE_LETTER_FLAG
 ---
 
@@ -73,4 +72,3 @@ This enumeration provides the values for the <i>ulFlags</i> member of the <a hre
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

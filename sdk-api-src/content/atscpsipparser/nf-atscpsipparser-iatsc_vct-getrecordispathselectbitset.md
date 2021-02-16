@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_VCT::GetRecordIsPathSelectBitSet
+ - IATSC_VCT.GetRecordIsPathSelectBitSet
 ---
 
 # IATSC_VCT::GetRecordIsPathSelectBitSet
@@ -129,4 +129,3 @@ This bit applies only to cable VCTs. If the VCT is a terrestrial VCT, the method
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11Device4::UnregisterDeviceRemoved
+ - ID3D11Device4.UnregisterDeviceRemoved
 ---
 
 # ID3D11Device4::UnregisterDeviceRemoved
@@ -73,4 +73,3 @@ See <a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-registerdevic
 
 
 <a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11device4-registerdeviceremovedevent">RegisterDeviceRemovedEvent</a>
-

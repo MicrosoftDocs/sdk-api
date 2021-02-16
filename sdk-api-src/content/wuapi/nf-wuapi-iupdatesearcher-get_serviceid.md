@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher::get_ServiceID
+ - IUpdateSearcher.ServiceID
+ - IUpdateSearcher.get_ServiceID
+ - IUpdateSearcher.put_ServiceID
 ---
 
 # IUpdateSearcher::get_ServiceID
@@ -63,4 +65,3 @@ The site that is not a Windows Update site that is specified by the value of the
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-

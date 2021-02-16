@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - PDHCPV6_STATELESS_PARAMS
  - DHCPV6_STATELESS_PARAMS
 ---
 
@@ -76,4 +75,3 @@ Integer that specifies the maximum time interval, in hours, that stateless IPv6 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6setstatelessstoreparams">Dhcpv6SetStatelessStoreParams</a>
-

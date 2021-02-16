@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator::PrepareSurface
+ - IVMRSurfaceAllocator.PrepareSurface
 ---
 
 # IVMRSurfaceAllocator::PrepareSurface
@@ -82,4 +82,3 @@ The only flag that the VMR currently checks here is AM_GBF_NOTASYNCPOINT (0x0000
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

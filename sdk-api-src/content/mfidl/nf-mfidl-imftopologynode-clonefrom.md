@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::CloneFrom
+ - IMFTopologyNode.CloneFrom
 ---
 
 # IMFTopologyNode::CloneFrom
@@ -111,4 +111,3 @@ The purpose of this method is to copy nodes from one topology to another. Do not
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

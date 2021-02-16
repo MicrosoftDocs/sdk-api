@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataCopier::CopyMetadataForFrames
+ - ISpatialAudioMetadataCopier.CopyMetadataForFrames
 ---
 
 # ISpatialAudioMetadataCopier::CopyMetadataForFrames
@@ -106,4 +106,3 @@ One of the provided pointers is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatacopier">ISpatialAudioMetadataCopier</a>
-

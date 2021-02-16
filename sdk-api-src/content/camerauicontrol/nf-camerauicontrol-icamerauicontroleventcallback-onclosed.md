@@ -42,7 +42,7 @@ api_type:
 api_location:
  - camerauicontrol.h
 api_name:
- - ICameraUIControlEventCallback::OnClosed
+ - ICameraUIControlEventCallback.OnClosed
 ---
 
 # ICameraUIControlEventCallback::OnClosed
@@ -57,4 +57,3 @@ Occurs when the camera UI control is closed.
 ## -see-also
 
 <a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback">ICameraUIControlEventCallback</a>
-

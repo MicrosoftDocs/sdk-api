@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack::AddDisk
+ - IVdsPack.AddDisk
 ---
 
 # IVdsPack::AddDisk
@@ -214,4 +214,3 @@ If you add the disk to a dynamic pack, the operation does not create a MSR parti
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_partition_style">VDS_PARTITION_STYLE</a>
-

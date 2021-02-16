@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::SetPoint
+ - ITextRange.SetPoint
 ---
 
 # ITextRange::SetPoint
@@ -119,4 +119,3 @@ An application can use the specified point in the <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

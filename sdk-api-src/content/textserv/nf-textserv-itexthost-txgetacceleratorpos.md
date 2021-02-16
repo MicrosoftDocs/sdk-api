@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxGetAcceleratorPos
+ - ITextHost.TxGetAcceleratorPos
 ---
 
 # ITextHost::TxGetAcceleratorPos
@@ -98,4 +98,3 @@ This method is typically only called if the TXTBIT_SHOWACCELERATOR bit is set in
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

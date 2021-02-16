@@ -42,7 +42,9 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor::put_InitialAngularVelocity
+ - IInertiaProcessor.InitialAngularVelocity
+ - IInertiaProcessor.get_InitialAngularVelocity
+ - IInertiaProcessor.put_InitialAngularVelocity
 ---
 
 # IInertiaProcessor::put_InitialAngularVelocity
@@ -94,4 +96,3 @@ Call this function to set the initial state of inertia. You would call this func
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
-

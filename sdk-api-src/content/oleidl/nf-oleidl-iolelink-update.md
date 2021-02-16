@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::Update
+ - IOleLink.Update
 ---
 
 # IOleLink::Update
@@ -141,4 +141,3 @@ The current caches are left intact if the link source cannot be bound.
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
-

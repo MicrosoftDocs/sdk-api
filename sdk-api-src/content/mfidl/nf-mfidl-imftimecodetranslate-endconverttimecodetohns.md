@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTimecodeTranslate::EndConvertTimecodeToHNS
+ - IMFTimecodeTranslate.EndConvertTimecodeToHNS
 ---
 
 # IMFTimecodeTranslate::EndConvertTimecodeToHNS
@@ -81,4 +81,3 @@ Call this method after the <a href="/windows/desktop/api/mfidl/nf-mfidl-imftimec
 
 
 <a href="/windows/desktop/medfound/mftime">MFTIME</a>
-

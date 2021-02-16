@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LsaLookup.h
 api_name:
- - _LSA_TRANSLATED_SID2
- - PLSA_TRANSLATED_SID2
  - LSA_TRANSLATED_SID2
 ---
 
@@ -79,4 +77,3 @@ The index of an entry in a related
 ### -field Flags
 
 Not used.
-

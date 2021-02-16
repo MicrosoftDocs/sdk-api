@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiRecordSetStringA
  - msiquery/MsiRecordSetStringA
- - MsiRecordSetString
- - msiquery/MsiRecordSetString
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiRecordSetStringA
  - MsiRecordSetString
+ - MsiRecordSetStringA
+ - MsiRecordSetStringW
 ---
 
 # MsiRecordSetStringA function
@@ -92,4 +91,3 @@ To set a record string field to null, set szValue to either a null string or an 
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-

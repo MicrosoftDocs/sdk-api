@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IInitiateWinSATAssessment::CancelAssessment
+ - IInitiateWinSATAssessment.CancelAssessment
 ---
 
 # IInitiateWinSATAssessment::CancelAssessment
@@ -94,4 +94,3 @@ This method sends WinSAT a request to cancel the assessment. To determine if the
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iinitiatewinsatassessment-initiateformalassessment">IInitiateWinSATAssessment::InitiateFormalAssessment</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_EVENT_PROPERTY_ID
  - EVT_EVENT_PROPERTY_ID
 ---
 
@@ -72,4 +71,3 @@ This enumeration value marks the end of the enumeration values. It can be used t
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtgeteventinfo">EvtGetEventInfo</a>
-

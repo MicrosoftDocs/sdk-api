@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessibleWindowlessSite::AcquireObjectIdRange
+ - IAccessibleWindowlessSite.AcquireObjectIdRange
 ---
 
 # IAccessibleWindowlessSite::AcquireObjectIdRange
@@ -85,4 +85,3 @@ When the window that contains the Microsoft ActiveX control receives a <a href="
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-releaseobjectidrange">IAccessibleWindowlessSite::ReleaseObjectIdRange</a>
-

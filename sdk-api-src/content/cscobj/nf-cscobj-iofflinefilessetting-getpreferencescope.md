@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSetting::GetPreferenceScope
+ - IOfflineFilesSetting.GetPreferenceScope
 ---
 
 # IOfflineFilesSetting::GetPreferenceScope
@@ -82,4 +82,3 @@ Note that this is an indication of the supported scopes, not of the applied scop
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
-

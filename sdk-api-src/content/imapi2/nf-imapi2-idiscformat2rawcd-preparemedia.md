@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD::PrepareMedia
+ - IDiscFormat2RawCD.PrepareMedia
 ---
 
 # IDiscFormat2RawCD::PrepareMedia
@@ -457,4 +457,3 @@ After the write is complete or you cancel the write operation, you must call the
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-releasemedia">IDiscFormat2RawCD::ReleaseMedia</a>
-

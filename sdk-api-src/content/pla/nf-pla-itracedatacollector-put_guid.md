@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::put_Guid
+ - ITraceDataCollector.Guid
+ - ITraceDataCollector.get_Guid
+ - ITraceDataCollector.put_Guid
 ---
 
 # ITraceDataCollector::put_Guid
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
-

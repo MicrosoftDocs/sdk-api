@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - IHandwrittenTextInsertion
+ - IHandWrittenTextInsertion
 ---
 
 # IHandwrittenTextInsertion interface
@@ -62,4 +62,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IHandWrittenTextInsertion</b>
 ## -remarks
 
 This element is declared in Peninputpanel.h.
-

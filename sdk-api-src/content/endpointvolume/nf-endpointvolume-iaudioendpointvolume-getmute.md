@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::GetMute
+ - IAudioEndpointVolume.GetMute
 ---
 
 # IAudioEndpointVolume::GetMute
@@ -87,4 +87,3 @@ For a code example that calls <b>GetMute</b>, see <a href="/windows/desktop/Core
 ## -see-also
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
-

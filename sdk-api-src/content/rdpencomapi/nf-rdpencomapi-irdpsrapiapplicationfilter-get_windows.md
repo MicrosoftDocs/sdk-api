@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplicationFilter::get_Windows
+ - IRDPSRAPIApplicationFilter.Windows
+ - IRDPSRAPIApplicationFilter.get_Windows
+ - RDPSRAPIApplicationFilter.Windows
 ---
 
 # IRDPSRAPIApplicationFilter::get_Windows
@@ -63,4 +65,3 @@ The window objects are also available through the list returned by <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a>
-

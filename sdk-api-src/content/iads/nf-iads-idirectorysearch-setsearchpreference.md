@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::SetSearchPreference
+ - IDirectorySearch.SetSearchPreference
 ---
 
 # IDirectorySearch::SetSearchPreference
@@ -81,4 +81,3 @@ For more information and other return values, see  <a href="/windows/desktop/ADS
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
-

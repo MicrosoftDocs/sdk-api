@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::AddFile
+ - IBackgroundCopyJob.AddFile
 ---
 
 # IBackgroundCopyJob::AddFile
@@ -184,4 +184,3 @@ For an example that adds a single file to a job, see
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
-

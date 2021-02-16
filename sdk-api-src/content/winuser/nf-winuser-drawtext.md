@@ -29,7 +29,6 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - DrawText
  - winuser/DrawText
@@ -51,6 +50,9 @@ api_location:
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
  - DrawText
+ - DrawTextA
+ - DrawTextW
+req.apiset: ext-ms-win-ntuser-misc-l1-1-0 (introduced in Windows 8)
 ---
 
 # DrawText function
@@ -421,4 +423,3 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut
       </a>
-

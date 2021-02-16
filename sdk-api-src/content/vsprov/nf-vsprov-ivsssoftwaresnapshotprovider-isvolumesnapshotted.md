@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
+ - IVssSoftwareSnapshotProvider.IsVolumeSnapshotted
 ---
 
 # IVssSoftwareSnapshotProvider::IsVolumeSnapshotted
@@ -176,4 +176,3 @@ If no volume control or file I/O operations are disabled for the selected volume
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
-

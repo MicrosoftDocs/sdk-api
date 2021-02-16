@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0000_0001
  - UI_ANIMATION_UPDATE_RESULT
 ---
 
@@ -72,4 +71,3 @@ One or more animation variables has changed.
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerupdatehandler-onupdate">IUIAnimationTimerUpdateHandler::OnUpdate</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_CREATESURFACEEX
+ - D3dCreateSurfaceEx
 ---
 
 ## -description
@@ -270,4 +270,3 @@ void MyCreateSurfaceExHelper(LPDDRAWI_DDRAWSURFACE_LCL pLcl)
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_destroysurface">DdDestroySurface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMIPADDRESS
- - LPNMIPADDRESS
  - NMIPADDRESS
 ---
 
@@ -78,4 +76,3 @@ Type: <b>int</b>
 
 The new value of the field specified in the 
 					<b>iField</b> member. While processing the <a href="/windows/desktop/Controls/ipn-fieldchanged">IPN_FIELDCHANGED</a> notification, this member can be set to any value that is within the range of the field and the control will place this new value in the field.
-

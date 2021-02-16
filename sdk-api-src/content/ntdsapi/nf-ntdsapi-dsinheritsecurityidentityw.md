@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsInheritSecurityIdentityW
  - ntdsapi/DsInheritSecurityIdentityW
- - DsInheritSecurityIdentity
- - ntdsapi/DsInheritSecurityIdentity
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsInheritSecurityIdentityW
  - DsInheritSecurityIdentity
+ - DsInheritSecurityIdentityA
+ - DsInheritSecurityIdentityW
 ---
 
 # DsInheritSecurityIdentityW function
@@ -119,4 +118,3 @@ A <b>DsInheritSecurityIdentity</b> implementation:
 
 
 <a href="/windows/desktop/AD/dc-and-replication-management-functions">Domain Controller and Replication Management Functions</a>
-

@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivityMonitor::Start
+ - IMFSensorActivityMonitor.Start
 ---
 
 # IMFSensorActivityMonitor::Start
@@ -95,4 +95,3 @@ The sensor activity monitor has already been started.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitymonitor">IMFSensorActivityMonitor</a>
-

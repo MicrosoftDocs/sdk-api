@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::GetItemObject
+ - IShellView.GetItemObject
 ---
 
 # IShellView::GetItemObject
@@ -85,4 +85,3 @@ Used by the common dialog boxes to retrieve the selected items from the view.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

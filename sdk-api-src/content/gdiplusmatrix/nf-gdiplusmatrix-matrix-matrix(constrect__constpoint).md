@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::Matrix
+ - Matrix.Matrix
 ---
 
 # Matrix::Matrix(IN const Rect &,IN const Point)
@@ -94,4 +94,3 @@ Pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">P
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

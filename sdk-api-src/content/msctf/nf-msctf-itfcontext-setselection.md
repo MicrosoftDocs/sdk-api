@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext::SetSelection
+ - ITfContext.SetSelection
 ---
 
 # ITfContext::SetSelection
@@ -121,4 +121,3 @@ The caller can set the <b>fInterimChar</b> flag only if one selection is set. In
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [TF_SELECTION structure](ns-msctf-tf_selection.md), [ITfContext::GetSelection](nf-msctf-itfcontext-getselection.md)
-

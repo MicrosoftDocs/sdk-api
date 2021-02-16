@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal::get_Id
+ - IPrincipal.Id
+ - IPrincipal.get_Id
+ - IPrincipal.put_Id
 ---
 
 # IPrincipal::get_Id
@@ -73,4 +75,3 @@ When reading or writing XML for a task, the identifier of the principal is speci
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

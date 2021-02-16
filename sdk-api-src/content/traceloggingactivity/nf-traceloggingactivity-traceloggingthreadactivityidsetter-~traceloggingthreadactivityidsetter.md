@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingThreadActivityIdSetter::~TraceLoggingThreadActivityIdSetter
+ - TraceLoggingThreadActivityIdSetter.~TraceLoggingThreadActivityIdSetter
 ---
 
 # TraceLoggingThreadActivityIdSetter::~TraceLoggingThreadActivityIdSetter
@@ -57,4 +57,3 @@ Restores the original activity ID to the thread.
 ## -see-also
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingthreadactivityidsetter">TraceLoggingThreadActivityIdSetter</a>
-

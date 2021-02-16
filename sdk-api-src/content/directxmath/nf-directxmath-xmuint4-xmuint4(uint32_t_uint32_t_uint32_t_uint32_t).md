@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMUINT4::XMUINT4
+ - XMUINT4.XMUINT4
 ---
 
 # XMUINT4::XMUINT4(uint32_t,uint32_t,uint32_t,uint32_t)
@@ -109,4 +109,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmuint4-xmuint4(constuint32_t)">XMUINT4 Constructors</a>
-

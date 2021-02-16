@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_ACTION_TYPE
  - MMC_ACTION_TYPE
 ---
 
@@ -82,4 +81,3 @@ MMC_TASK structure.
 
 When the user clicks the task, MMC executes the script contained in the szScript member of 
 MMC_TASK using the window.execScript method on the taskpad DHTML page.
-

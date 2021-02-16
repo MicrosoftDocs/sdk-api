@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - _VMR9_SampleFormat
  - VMR9_SampleFormat
 ---
 
@@ -92,4 +91,3 @@ The sample contains a single field, and each line in the sample corresponds to t
 
 
 <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9videostreaminfo">VMR9VideoStreamInfo</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice::Close
+ - IPortableDevice.Close
 ---
 
 # IPortableDevice::Close
@@ -89,4 +89,3 @@ You should not usually need to call this method yourself. When the last referenc
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevice-open">IPortableDevice::Open</a>
-

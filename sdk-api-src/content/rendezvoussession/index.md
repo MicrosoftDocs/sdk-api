@@ -9,8 +9,6 @@ tech.root: remoteassist
 f1_keywords:
  - rendezvoussession
  - rendezvoussession/rendezvoussession
-api_name:
- - rendezvoussession
 ---
 
 # Rendezvoussession.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_GETFLIPSTATUSDATA
- - PDD_GETFLIPSTATUSDATA
  - DD_GETFLIPSTATUSDATA
 ---
 
@@ -110,4 +108,3 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_getflipstatus">DdGetFlipStatus</a>
-

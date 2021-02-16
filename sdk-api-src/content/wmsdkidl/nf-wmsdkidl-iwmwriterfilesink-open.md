@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink::Open
+ - IWMWriterFileSink.Open
 ---
 
 # IWMWriterFileSink::Open
@@ -103,4 +103,3 @@ See the Remarks and Example Code sections for <a href="/windows/desktop/api/wmsd
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink">IWMWriterFileSink Interface</a>
-

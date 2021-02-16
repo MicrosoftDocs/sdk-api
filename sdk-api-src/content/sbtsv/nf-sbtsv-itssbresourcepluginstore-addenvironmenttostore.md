@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::AddEnvironmentToStore
+ - ITsSbResourcePluginStore.AddEnvironmentToStore
+ - ITsSbResourcePluginStoreEx.AddEnvironmentToStore
 ---
 
 # ITsSbResourcePluginStore::AddEnvironmentToStore
@@ -77,4 +78,3 @@ Resource plug-ins can use this  method to add an environment to the resource plu
 
 
 <a href="/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>
-

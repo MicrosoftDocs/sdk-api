@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows::Item
+ - IShellWindows.Item
 ---
 
 # IShellWindows::Item
@@ -113,4 +113,3 @@ The specified window was not found.
 
 
 <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-get_count">IShellWindows::get_Count</a>
-

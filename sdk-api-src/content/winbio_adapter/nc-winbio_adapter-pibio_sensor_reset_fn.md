@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_SENSOR_RESET_FN
+ - SensorAdapterReset
 ---
 
 # PIBIO_SENSOR_RESET_FN callback function
@@ -94,4 +94,3 @@ There was a hardware failure.
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

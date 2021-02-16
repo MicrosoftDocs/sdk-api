@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _ABCFLOAT
- - PABCFLOAT
  - ABCFLOAT
 ---
 
@@ -89,4 +87,3 @@ The character increment (total width) of a character is the sum of the A, B, and
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsfloata">GetCharABCWidthsFloat</a>
-

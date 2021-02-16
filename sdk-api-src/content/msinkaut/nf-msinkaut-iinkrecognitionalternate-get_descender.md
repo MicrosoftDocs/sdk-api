@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate::get_Descender
+ - IInkRecognitionAlternate.Descender
+ - IInkRecognitionAlternate.get_Descender
+ - IInkRecognitionAlternate.get_Descender
 ---
 
 # IInkRecognitionAlternate::get_Descender
@@ -95,4 +97,3 @@ For western languages, the descender corresponds to the portion of a lowercase l
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline">Midline Property [IInkRecognitionAlternate Interface]</a>
-

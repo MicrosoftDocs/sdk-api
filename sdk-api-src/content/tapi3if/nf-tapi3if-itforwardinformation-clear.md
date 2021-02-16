@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation::Clear
+ - ITForwardInformation.Clear
 ---
 
 # ITForwardInformation::Clear
@@ -111,4 +111,3 @@ This method does not clear forwarding information in the service provider.
 
 
 <a href="/windows/desktop/Tapi/terminal-object">Terminal Object</a>
-

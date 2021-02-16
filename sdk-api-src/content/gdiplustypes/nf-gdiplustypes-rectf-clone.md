@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RectF::Clone
+ - RectF.Clone
 ---
 
 # RectF::Clone
@@ -79,4 +79,3 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-

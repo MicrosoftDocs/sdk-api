@@ -9,8 +9,6 @@ tech.root: eaphost
 f1_keywords:
  - eappapis
  - eappapis/eappapis
-api_name:
- - eappapis
 ---
 
 # Eappapis.h header

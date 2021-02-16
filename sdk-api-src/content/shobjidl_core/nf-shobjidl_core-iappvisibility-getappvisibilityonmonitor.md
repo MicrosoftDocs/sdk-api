@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IAppVisibility::GetAppVisibilityOnMonitor
+ - IAppVisibility.GetAppVisibilityOnMonitor
 ---
 
 # IAppVisibility::GetAppVisibilityOnMonitor
@@ -91,4 +91,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-monitor_app_visibility">MONITOR_APP_VISIBILITY</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - amva.h
 api_name:
- - _tag_AMVAUncompBufferInfo
- - LPAMVAUncompBufferInfo
  - AMVAUncompBufferInfo
 ---
 
@@ -89,4 +87,3 @@ Initially, the decoder should set <b>dwMinNumSurfaces</b> equal to the optimal n
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoacceleratornotify-getuncompsurfacesinfo">IAMVideoAcceleratorNotify::GetUncompSurfacesInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - certpol.h
 api_name:
- - INDESPolicy::Uninitialize
+ - INDESPolicy.Uninitialize
 ---
 
 # INDESPolicy::Uninitialize
@@ -61,4 +61,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/certpol/nn-certpol-indespolicy">INDESPolicy</a>
-

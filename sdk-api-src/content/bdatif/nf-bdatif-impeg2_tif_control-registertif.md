@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL::RegisterTIF
+ - IMPEG2_TIF_CONTROL.RegisterTIF
 ---
 
 # IMPEG2_TIF_CONTROL::RegisterTIF
@@ -128,4 +128,3 @@ Call this method immediately after the TIF's input pin is connected to the Demux
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
+ - IShellIconOverlayManager.LoadNonloadedOverlayIdentifiers
 ---
 
 # IShellIconOverlayManager::LoadNonloadedOverlayIdentifiers
@@ -92,4 +92,3 @@ Out of memory.
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>
-

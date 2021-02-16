@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidRect::get_Height
+ - IMSVidRect.get_Height
 ---
 
 # IMSVidRect::get_Height
@@ -73,4 +73,3 @@ Calling the <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_top"
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidrect-put_height">IMSVidRect::put_Height</a>
-

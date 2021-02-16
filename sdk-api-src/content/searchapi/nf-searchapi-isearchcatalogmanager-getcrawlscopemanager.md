@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCatalogManager::GetCrawlScopeManager
+ - ISearchCatalogManager.GetCrawlScopeManager
 ---
 
 # ISearchCatalogManager::GetCrawlScopeManager
@@ -65,4 +65,3 @@ Receives a pointer to a new <a href="/windows/desktop/api/searchapi/nn-searchapi
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.core.interop.h
 api_name:
- - IVideoFrameNative::GetDevice
+ - IVideoFrameNative.GetDevice
 ---
 
 # IVideoFrameNative::core
@@ -69,4 +69,3 @@ Returns S_OK on successful completion.
 ## -see-also
 
 <a href="/windows/desktop/api/windows.media.core.interop/nn-windows-media-core-interop-ivideoframenative">IVideoFrameNative</a>
-

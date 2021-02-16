@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhExpandCounterPathW
  - pdh/PdhExpandCounterPathW
- - PdhExpandCounterPath
- - pdh/PdhExpandCounterPath
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhExpandCounterPathW
  - PdhExpandCounterPath
+ - PdhExpandCounterPathA
+ - PdhExpandCounterPathW
 ---
 
 # PdhExpandCounterPathW function
@@ -242,4 +241,3 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhmakecounterpatha">PdhMakeCounterPath</a>
-

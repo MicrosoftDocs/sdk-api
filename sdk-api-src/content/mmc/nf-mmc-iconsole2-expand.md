@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole2::Expand
+ - IConsole2.Expand
 ---
 
 # IConsole2::Expand
@@ -93,4 +93,3 @@ To enumerate the child items of an item in the namespace without visibly expandi
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iconsolenamespace2-expand">IConsoleNameSpace2::Expand</a>
-

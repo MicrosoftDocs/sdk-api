@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - holographicspaceinterop
  - holographicspaceinterop/holographicspaceinterop
-api_name:
- - holographicspaceinterop
 ---
 
 # Holographicspaceinterop.h header

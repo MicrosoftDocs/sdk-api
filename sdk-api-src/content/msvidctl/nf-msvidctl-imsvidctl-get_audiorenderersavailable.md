@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::get_AudioRenderersAvailable
+ - IMSVidCtl.get_AudioRenderersAvailable
 ---
 
 # IMSVidCtl::get_AudioRenderersAvailable
@@ -73,4 +73,3 @@ This method returns a read-only collection of input devices. Use the returned <a
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_audiorendereractive">IMSVidCtl::get_AudioRendererActive</a>
-

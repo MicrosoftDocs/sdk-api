@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fdi.h
 api_name:
- - PFDINOTIFICATION
  - FDINOTIFICATION
 ---
 
@@ -289,4 +288,3 @@ FDI aborted.
 ## -see-also
 
 <a href="/windows/desktop/api/fdi/nf-fdi-fnfdinotify">FNFDINOTIFY</a>
-

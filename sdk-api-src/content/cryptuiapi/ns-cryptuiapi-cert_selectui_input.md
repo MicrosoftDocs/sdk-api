@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
- - PCERT_SELECTUI_INPUT
  - CERT_SELECTUI_INPUT
 ---
 
@@ -68,4 +67,3 @@ An array of pointers to <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_
 ### -field cChain
 
 The number of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_context">CERT_CHAIN_CONTEXT</a> structures that are in the array pointed to by the <b>prgpChain</b> member.
-

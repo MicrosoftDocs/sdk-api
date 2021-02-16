@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr::SelectDeviceDlg
+ - IWiaDevMgr.SelectDeviceDlg
 ---
 
 # IWiaDevMgr::SelectDeviceDlg
@@ -137,4 +137,3 @@ If more than one WIA device matches the specification, all matching devices are 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppItemRoot</i> parameter.
 
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRemoteDesktopPlugin::UpdateTopology
+ - IMFRemoteDesktopPlugin.UpdateTopology
 ---
 
 # IMFRemoteDesktopPlugin::UpdateTopology
@@ -88,4 +88,3 @@ If the application is running in a Terminal Services client session, call this m
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfremotedesktopplugin">IMFRemoteDesktopPlugin</a>
-

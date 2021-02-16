@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern::get_CurrentState
+ - IUIAutomationLegacyIAccessiblePattern.CurrentState
+ - IUIAutomationLegacyIAccessiblePattern.get_CurrentState
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentState
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>
-

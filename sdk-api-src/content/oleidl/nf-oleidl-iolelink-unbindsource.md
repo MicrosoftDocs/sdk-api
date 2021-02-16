@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::UnbindSource
+ - IOleLink.UnbindSource
 ---
 
 # IOleLink::UnbindSource
@@ -88,4 +88,3 @@ The linked object's implementation of <b>UnbindSource</b> does nothing if the li
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a>
-

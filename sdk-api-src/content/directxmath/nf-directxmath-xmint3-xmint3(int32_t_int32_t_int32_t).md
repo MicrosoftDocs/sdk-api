@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMINT3::XMINT3
+ - XMINT3.XMINT3
 ---
 
 # XMINT3::XMINT3(int32_t,int32_t,int32_t)
@@ -97,4 +97,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmint3-xmint3(constint32_t)">XMINT3 Constructors</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_QUERY_TKT_CACHE_RESPONSE
- - PKERB_QUERY_TKT_CACHE_RESPONSE
  - KERB_QUERY_TKT_CACHE_RESPONSE
 ---
 
@@ -80,4 +78,3 @@ Array of length <b>CountOfTickets</b> of
 
 This buffer is allocated by the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package and should be deleted by the application that called <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>, using 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsafreereturnbuffer">LsaFreeReturnBuffer</a>.
-

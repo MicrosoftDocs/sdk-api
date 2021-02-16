@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue::AddMessage
+ - ID3D12InfoQueue.AddMessage
 ---
 
 # ID3D12InfoQueue::AddMessage
@@ -91,4 +91,3 @@ This method is used by the runtime's internal mechanisms to add debug messages t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
-

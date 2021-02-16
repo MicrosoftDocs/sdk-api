@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectControl::CanBePooled
+ - ObjectControl.CanBePooled
 ---
 
 # ObjectControl::CanBePooled
@@ -85,4 +85,3 @@ The <a href="/windows/desktop/api/comsvcs/nf-comsvcs-objectcontrol-activate">Act
 
 
 <a href="/windows/desktop/cossdk/requirements-for-poolable-objects">Requirements for Poolable Objects</a>
-

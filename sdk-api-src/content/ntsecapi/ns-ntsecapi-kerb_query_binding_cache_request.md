@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_QUERY_BINDING_CACHE_REQUEST
- - PKERB_QUERY_BINDING_CACHE_REQUEST
  - KERB_QUERY_BINDING_CACHE_REQUEST
 ---
 
@@ -65,4 +63,3 @@ Contains information used to query the binding cache. You must have the <b>SeTcb
 A 
 						value of the <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-kerb_protocol_message_type">KERB_PROTOCOL_MESSAGE_TYPE</a> enumeration that lists the types of messages that can be sent to the <a href="/windows/desktop/SecGloss/k-gly">Kerberos</a> authentication package by calling 
 the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a> function. This member must be set to <b>KerbQueryBindingCacheMessage</b>.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiFileItem2::get_IsRealTime
+ - IFsiFileItem2.get_IsRealTime
 ---
 
 # IFsiFileItem2::get_IsRealTime
@@ -105,4 +105,3 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem2">IFsiFileItem2</a>
-

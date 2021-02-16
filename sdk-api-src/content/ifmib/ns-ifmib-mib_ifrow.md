@@ -47,8 +47,6 @@ api_location:
  - Ifmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IFROW
- - PMIB_IFROW
  - MIB_IFROW
 ---
 
@@ -471,4 +469,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_0">MPR_INTERFACE_0</a>
-

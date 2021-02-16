@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer::get_Bass
+ - IAMAudioInputMixer.get_Bass
 ---
 
 # IAMAudioInputMixer::get_Bass
@@ -74,4 +74,3 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-put_bass">IAMAudioInputMixer::put_Bass</a>
-

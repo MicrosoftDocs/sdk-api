@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Resource::Map
+ - ID3D12Resource.Map
 ---
 
 # ID3D12Resource::Map
@@ -202,4 +202,3 @@ Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example
 
 
 <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12resource-unmap">Unmap</a>
-

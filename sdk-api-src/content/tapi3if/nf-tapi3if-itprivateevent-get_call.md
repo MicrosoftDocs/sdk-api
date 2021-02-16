@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPrivateEvent::get_Call
+ - ITPrivateEvent.get_Call
 ---
 
 # ITPrivateEvent::get_Call
@@ -112,4 +112,3 @@ The <i>ppCallInfo</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent">ITPrivateEvent</a>
-

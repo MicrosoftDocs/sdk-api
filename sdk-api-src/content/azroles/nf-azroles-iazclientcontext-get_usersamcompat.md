@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::get_UserSamCompat
+ - IAzClientContext.UserSamCompat
+ - IAzClientContext.get_UserSamCompat
+ - AzClientContext.UserSamCompat
 ---
 
 # IAzClientContext::get_UserSamCompat
@@ -61,4 +63,3 @@ This property is read-only.
 The SAM-compatible client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameSamCompatible</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in SAM-compatible format is "ExampleDomain\UserName".
-

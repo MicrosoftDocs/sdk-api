@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileGroupImported::get_OverwriteOnCommit
+ - IFsrmFileGroupImported.OverwriteOnCommit
+ - IFsrmFileGroupImported.get_OverwriteOnCommit
+ - IFsrmFileGroupImported.put_OverwriteOnCommit
 ---
 
 # IFsrmFileGroupImported::get_OverwriteOnCommit
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
-

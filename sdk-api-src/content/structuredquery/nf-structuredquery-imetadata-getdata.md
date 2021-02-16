@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IMetaData::GetData
+ - IMetaData.GetData
 ---
 
 # IMetaData::GetData
@@ -71,4 +71,3 @@ Receives the value of the metadata pair as a Unicode string. The calling applica
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

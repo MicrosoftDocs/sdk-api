@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ReplaceFileW
  - winbase/ReplaceFileW
- - ReplaceFile
- - winbase/ReplaceFile
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - ReplaceFileW
  - ReplaceFile
+ - ReplaceFileA
+ - ReplaceFileW
 ---
 
 # ReplaceFileW function
@@ -310,4 +309,3 @@ To delete or rename a file, you must have either delete permission on the file o
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWEExtendWizard::CreateWizardPages
+ - IWEExtendWizard.CreateWizardPages
 ---
 
 # IWEExtendWizard::CreateWizardPages
@@ -236,4 +236,3 @@ To create the page, call the function
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendwizard97-createwizard97pages">IWEExtendWizard97::CreateWizard97Pages</a>
-

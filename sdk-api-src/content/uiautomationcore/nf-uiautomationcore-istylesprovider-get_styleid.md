@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IStylesProvider::get_StyleId
+ - IStylesProvider.StyleId
+ - IStylesProvider.get_StyleId
 ---
 
 # IStylesProvider::get_StyleId
@@ -80,4 +81,3 @@ When nested lists contain bullets also (perhaps of a different type than the mai
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

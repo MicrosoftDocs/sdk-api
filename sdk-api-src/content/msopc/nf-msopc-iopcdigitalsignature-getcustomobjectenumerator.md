@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcDigitalSignature::GetCustomObjectEnumerator
+ - IOpcDigitalSignature.GetCustomObjectEnumerator
 ---
 
 # IOpcDigitalSignature::GetCustomObjectEnumerator
@@ -142,4 +142,3 @@ The <i>customObjectEnumerator</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
-

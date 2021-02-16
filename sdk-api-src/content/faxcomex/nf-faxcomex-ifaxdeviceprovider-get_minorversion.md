@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDeviceProvider::get_MinorVersion
+ - IFaxDeviceProvider.MinorVersion
+ - IFaxDeviceProvider.get_MinorVersion
+ - IFaxDeviceProvider.get_MinorVersion
 ---
 
 # IFaxDeviceProvider::get_MinorVersion
@@ -71,4 +73,3 @@ The standard format for version numbers is MajorVersion.MinorVersion.MajorBuild.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_IPV6Filter::GetMulticastListSize
+ - IBDA_IPV6Filter.GetMulticastListSize
 ---
 
 # IBDA_IPV6Filter::GetMulticastListSize
@@ -73,4 +73,3 @@ This method is used by the <a href="/previous-versions/windows/desktop/mstv/bda-
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipv6filter">IBDA_IPV6Filter Interface</a>
-

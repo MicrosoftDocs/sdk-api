@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider::Resolve
+ - ITraceDataProvider.Resolve
 ---
 
 # ITraceDataProvider::Resolve
@@ -69,4 +69,3 @@ You can specify an interface of a provider or a collection that contains the pro
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
-

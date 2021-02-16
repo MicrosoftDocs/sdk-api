@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNETSOURCE_TRANSPORT_TYPE
  - MFNETSOURCE_TRANSPORT_TYPE
 ---
 
@@ -72,4 +71,3 @@ The data transport type is TCP.
 
 
 <a href="/windows/desktop/medfound/supported-protocols">Supported Protocols</a>
-

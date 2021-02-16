@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3dcommon.h
 api_name:
- - ID3D10Blob::GetBufferPointer
+ - ID3D10Blob.GetBufferPointer
 ---
 
 # ID3D10Blob::GetBufferPointer
@@ -63,4 +63,3 @@ Returns a pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob">ID3D10Blob</a>
-

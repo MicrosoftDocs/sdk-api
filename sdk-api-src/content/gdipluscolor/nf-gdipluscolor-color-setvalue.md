@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color::SetValue
+ - Color.SetValue
 ---
 
 # Color::SetValue
@@ -72,4 +72,3 @@ Thirty-two bit <b>ARGB</b> value that specifies the color. An <b>ARGB</b> value 
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
-

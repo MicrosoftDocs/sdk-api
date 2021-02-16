@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - stralign
  - stralign/stralign
-api_name:
- - stralign
 ---
 
 # Stralign.h header

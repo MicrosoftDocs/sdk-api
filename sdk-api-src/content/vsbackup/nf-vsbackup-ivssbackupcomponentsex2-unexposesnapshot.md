@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponentsEx2::UnexposeSnapshot
+ - IVssBackupComponentsEx2.UnexposeSnapshot
 ---
 
 # IVssBackupComponentsEx2::UnexposeSnapshot
@@ -184,4 +184,3 @@ An unexpected provider error has occurred. The error code is logged in the error
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex2">IVssBackupComponentsEx2</a>
-

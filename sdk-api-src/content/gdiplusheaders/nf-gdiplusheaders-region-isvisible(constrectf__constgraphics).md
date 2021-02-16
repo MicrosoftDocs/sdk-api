@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::IsVisible
+ - Region.IsVisible
 ---
 
 # Region::IsVisible(IN const RectF &,IN const Graphics)
@@ -89,4 +89,3 @@ If the rectangle intersects this region, this method returns <b>TRUE</b>; otherw
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
-

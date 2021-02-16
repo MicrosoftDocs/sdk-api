@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - IImeSpecifyApplets::GetAppletIIDList
+ - IImeSpecifyApplets.GetAppletIIDList
 ---
 
 # IImeSpecifyApplets::GetAppletIIDList
@@ -69,4 +69,3 @@ Pointer to a APPLETIIDLIST structure. Sets the applet's IID list and count.
 ## -see-also
 
 <a href="/windows/desktop/api/imepad/nn-imepad-iimespecifyapplets">IImeSpecifyApplets</a>
-

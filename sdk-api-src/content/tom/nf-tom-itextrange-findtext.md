@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::FindText
+ - ITextRange.FindText
 ---
 
 # ITextRange::FindText
@@ -251,4 +251,3 @@ To do this for all such occurrences, change the If into a While/Wend loop in the
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

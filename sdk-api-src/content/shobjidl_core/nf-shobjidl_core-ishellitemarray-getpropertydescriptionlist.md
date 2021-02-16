@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemArray::GetPropertyDescriptionList
+ - IShellItemArray.GetPropertyDescriptionList
 ---
 
 # IShellItemArray::GetPropertyDescriptionList
@@ -107,4 +107,3 @@ If the shell item array contains more than one item, then this method will obtai
 
 
 <a href="/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>
-

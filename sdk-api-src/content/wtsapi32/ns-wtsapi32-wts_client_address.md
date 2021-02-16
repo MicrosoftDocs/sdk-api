@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTS_CLIENT_ADDRESS
- - PWTS_CLIENT_ADDRESS
  - WTS_CLIENT_ADDRESS
 ---
 
@@ -85,4 +83,3 @@ The client network address is also not available in the following cases:
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderPublishing::RemoveInstance
+ - IProviderPublishing.RemoveInstance
 ---
 
 # IProviderPublishing::RemoveInstance
@@ -115,4 +115,3 @@ The <i>pSiteInfo</i>, <i>pszSubCategory</i>, or <i>pszProviderInstanceIdentity</
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderpublishing">IProviderPublishing</a>
-

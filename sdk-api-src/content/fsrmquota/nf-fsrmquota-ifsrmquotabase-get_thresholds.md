@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaBase::get_Thresholds
+ - IFsrmQuotaBase.Thresholds
+ - IFsrmQuotaBase.get_Thresholds
 ---
 
 # IFsrmQuotaBase::get_Thresholds
@@ -72,4 +73,3 @@ To set a threshold, call the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource3::FindProxyForURLEx2
+ - IWMSInternalAdminNetSource3.FindProxyForURLEx2
 ---
 
 # IWMSInternalAdminNetSource3::FindProxyForURLEx2
@@ -123,4 +123,3 @@ When calling this method multiple times to find all proxies configured, this val
 ## -see-also
 
 <a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource3">IWMSInternalAdminNetSource3 Interface</a>
-

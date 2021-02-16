@@ -44,7 +44,6 @@ api_location:
  - 
 api_name:
  - RESOURCE_TERMINAL_FAILURE_INFO_BUFFER
- - PRESOURCE_TERMINAL_FAILURE_INFO_BUFFER
 ---
 
 # RESOURCE_TERMINAL_FAILURE_INFO_BUFFER structure
@@ -67,4 +66,3 @@ The amount of time remaining for the TBD, in seconds.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

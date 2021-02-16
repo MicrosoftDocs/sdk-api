@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::SetWindowPosition
+ - IVideoWindow.SetWindowPosition
 ---
 
 # IVideoWindow::SetWindowPosition
@@ -128,4 +128,3 @@ If resizing the window to the specified dimensions is impossible, this method mo
 
 
 <a href="/windows/desktop/api/control/nn-control-ivideowindow">IVideoWindow Interface</a>
-

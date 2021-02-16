@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
+ - IMultiInterfaceEventControl.SetMultiInterfacePublisherFilter
 ---
 
 # IMultiInterfaceEventControl::SetMultiInterfacePublisherFilter
@@ -111,4 +111,3 @@ An event publisher can install a publisher filter at run time to fire an event o
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
-

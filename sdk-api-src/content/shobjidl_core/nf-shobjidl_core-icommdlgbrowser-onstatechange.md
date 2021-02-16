@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICommDlgBrowser::OnStateChange
+ - ICommDlgBrowser.OnStateChange
 ---
 
 # ICommDlgBrowser::OnStateChange
@@ -112,4 +112,3 @@ When items in the view are selected, or when the view loses the focus, it needs 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icommdlgbrowser">ICommDlgBrowser</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertySetStorage::Enum
+ - IPropertySetStorage.Enum
 ---
 
 # IPropertySetStorage::Enum
@@ -90,4 +90,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/Stg/samples">Samples</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder::get_VCRHorizontalLocking
+ - IAMAnalogVideoDecoder.get_VCRHorizontalLocking
 ---
 
 # IAMAnalogVideoDecoder::get_VCRHorizontalLocking
@@ -120,4 +120,3 @@ The timing accuracy of synchronization pulses is typically poorer from a tape so
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
-

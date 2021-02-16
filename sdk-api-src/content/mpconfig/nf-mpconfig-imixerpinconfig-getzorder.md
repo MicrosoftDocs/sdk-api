@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::GetZOrder
+ - IMixerPinConfig.GetZOrder
 ---
 
 # IMixerPinConfig::GetZOrder
@@ -82,4 +82,3 @@ Images with larger z-values are always in front of images with smaller z-values.
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setzorder">IMixerPinConfig::SetZOrder</a>
-

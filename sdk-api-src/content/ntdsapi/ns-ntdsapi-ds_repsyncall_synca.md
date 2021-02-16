@@ -44,8 +44,9 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - PDS_REPSYNCALL_SYNCA
+ - DS_REPSYNCALL_SYNC
  - DS_REPSYNCALL_SYNCA
+ - DS_REPSYNCALL_SYNCW
 ---
 
 # DS_REPSYNCALL_SYNCA structure
@@ -88,4 +89,3 @@ Pointer to a null-terminated string that specifies the DNS GUID of the destinati
 
 > [!NOTE]
 > The ntdsapi.h header defines DS_REPSYNCALL_SYNC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

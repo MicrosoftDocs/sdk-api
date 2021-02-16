@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily::Clone
+ - FontFamily.Clone
 ---
 
 # FontFamily::Clone
@@ -72,4 +72,3 @@ This method returns a pointer to the new <a href="/windows/desktop/api/gdiplushe
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

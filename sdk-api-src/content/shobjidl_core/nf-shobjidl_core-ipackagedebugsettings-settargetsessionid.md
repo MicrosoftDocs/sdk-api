@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::SetTargetSessionId
+ - IPackageDebugSettings.SetTargetSessionId
 ---
 
 # IPackageDebugSettings::SetTargetSessionId
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
-

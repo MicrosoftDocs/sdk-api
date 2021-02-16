@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetRestoreType
+ - CVssWriter.GetRestoreType
 ---
 
 # CVssWriter::GetRestoreType
@@ -102,4 +102,3 @@ A requester can call <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssback
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a>
-

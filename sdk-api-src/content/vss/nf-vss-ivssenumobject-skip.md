@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssEnumObject::Skip
+ - IVssEnumObject.Skip
 ---
 
 # IVssEnumObject::Skip
@@ -107,4 +107,3 @@ There was an internal error in the enumerator.
 ## -see-also
 
 <a href="/windows/desktop/api/vss/nn-vss-ivssenumobject">IVssEnumObject</a>
-

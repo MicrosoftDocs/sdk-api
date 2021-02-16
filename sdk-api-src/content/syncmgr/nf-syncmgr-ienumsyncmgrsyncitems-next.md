@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - IEnumSyncMgrSyncItems::Next
+ - IEnumSyncMgrSyncItems.Next
 ---
 
 # IEnumSyncMgrSyncItems::Next
@@ -77,4 +77,3 @@ A pointer to the number of items fetched.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

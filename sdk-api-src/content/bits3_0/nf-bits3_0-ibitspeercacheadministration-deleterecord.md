@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration::DeleteRecord
+ - IBitsPeerCacheAdministration.DeleteRecord
 ---
 
 # IBitsPeerCacheAdministration::DeleteRecord
@@ -107,4 +107,3 @@ The cache record is not removed until all current activity with the cache record
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-getrecord">IBitsPeerCacheAdministration::GetRecord</a>
-

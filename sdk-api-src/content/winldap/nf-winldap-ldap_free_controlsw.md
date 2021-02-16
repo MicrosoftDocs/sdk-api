@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_free_controlsW
  - winldap/ldap_free_controlsW
- - ldap_free_controls
- - winldap/ldap_free_controls
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_free_controlsW
  - ldap_free_controls
+ - ldap_free_controlsA
+ - ldap_free_controlsW
 ---
 
 # ldap_free_controlsW function
@@ -78,4 +77,3 @@ If the function fails, an error code is returned. For more information, see
 
 > [!NOTE]
 > The winldap.h header defines ldap_free_controls as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

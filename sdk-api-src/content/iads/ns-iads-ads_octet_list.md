@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - _ADS_OCTET_LIST
- - PADS_OCTET_LIST
  - ADS_OCTET_LIST
 ---
 
@@ -79,4 +77,3 @@ For more information, see Novell NetWare Directory Services Schema Specification
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

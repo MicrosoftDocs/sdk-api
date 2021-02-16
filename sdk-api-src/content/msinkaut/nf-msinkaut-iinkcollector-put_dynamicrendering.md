@@ -43,7 +43,13 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::put_DynamicRendering
+ - IInkCollector.DynamicRendering
+ - IInkCollector.get_DynamicRendering
+ - IInkCollector.put_DynamicRendering
+ - put_DynamicRendering
+ - IInkCollector.put_DynamicRendering
+ - InkCollector.get_DynamicRendering
+ - InkCollector.put_DynamicRendering
 ---
 
 # IInkCollector::put_DynamicRendering
@@ -66,4 +72,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
-

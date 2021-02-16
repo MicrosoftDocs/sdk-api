@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession::Identify
+ - IWSManSession.Identify
 ---
 
 # IWSManSession::Identify
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/session-identify">Session.Identify</a>
-

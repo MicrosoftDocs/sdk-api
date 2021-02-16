@@ -36,7 +36,6 @@ api_location:
  - heapapi.h
 api_name:
  - _HEAP_SUMMARY
- - PHEAP_SUMMARY
  - HEAP_SUMMARY
 ---
 

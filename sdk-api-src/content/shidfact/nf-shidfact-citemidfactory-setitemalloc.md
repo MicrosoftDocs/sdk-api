@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
- - CItemIDFactory::SetItemAlloc
+ - CItemIDFactory.SetItemAlloc
 ---
 
 # CItemIDFactory::SetItemAlloc
@@ -69,4 +69,3 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRES
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idelegatefolder">IDelegateFolder</a>
-

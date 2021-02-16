@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::GetLoggingUrl
+ - IWMReaderNetworkConfig.GetLoggingUrl
 ---
 
 # IWMReaderNetworkConfig::GetLoggingUrl
@@ -124,4 +124,3 @@ You should make two calls to <b>GetLoggingUrl</b>. On the first call, pass <b>NU
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-

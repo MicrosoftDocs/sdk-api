@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::MakeUpper
+ - CHString.MakeUpper
+ - ?MakeUpper@CHString@@QAEXXZ
+ - ?MakeUpper@CHString@@QEAAXXZ
 ---
 
 # CHString::MakeUpper
@@ -72,4 +74,3 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-makelower">CHString::MakeLower</a>
-

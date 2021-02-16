@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
- - _FILEMUIINFO
- - PFILEMUIINFO
  - FILEMUIINFO
 ---
 
@@ -192,4 +190,3 @@ unsafe public struct FILEMUIINFO
 
 
 <a href="/windows/desktop/Intl/multilingual-user-interface-structures">Multilingual User Interface Structures</a>
-

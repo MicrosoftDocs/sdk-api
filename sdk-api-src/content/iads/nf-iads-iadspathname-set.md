@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname::Set
+ - IADsPathname.Set
 ---
 
 # IADsPathname::Set
@@ -136,4 +136,3 @@ hr = pPathname->Set(CComBSTR("LDAP://CN=pencil/desk"),
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
-

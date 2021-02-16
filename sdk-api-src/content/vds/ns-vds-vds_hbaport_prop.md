@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_HBAPORT_PROP
  - VDS_HBAPORT_PROP
 ---
 
@@ -109,4 +108,3 @@ The set of supported speeds of the HBA port, one bit set for each of the support
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_wwn">VDS_WWN</a>
-

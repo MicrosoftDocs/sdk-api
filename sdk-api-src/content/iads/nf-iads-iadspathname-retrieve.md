@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname::Retrieve
+ - IADsPathname.Retrieve
 ---
 
 # IADsPathname::Retrieve
@@ -83,4 +83,3 @@ For more information and other return values, see  <a href="/windows/desktop/ADS
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

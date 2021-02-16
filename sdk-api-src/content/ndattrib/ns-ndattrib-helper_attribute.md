@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - tagHELPER_ATTRIBUTE
- - PHELPER_ATTRIBUTE
  - HELPER_ATTRIBUTE
 ---
 
@@ -167,4 +165,3 @@ A byte array for undefined types. Used when <b>type</b> is <b>AT_OCTET_STRING</b
 
 
 <a href="/windows/desktop/NDF/freehelperattributes">FreeHelperAttributes</a>
-

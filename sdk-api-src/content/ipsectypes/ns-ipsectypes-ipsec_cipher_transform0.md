@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_CIPHER_TRANSFORM0_
  - IPSEC_CIPHER_TRANSFORM0
 ---
 
@@ -187,4 +186,3 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

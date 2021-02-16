@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups::Next
+ - IEnumBackgroundCopyGroups.Next
 ---
 
 # IEnumBackgroundCopyGroups::Next
@@ -104,4 +104,3 @@ Returned less than the number of requested elements.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopygroups">IEnumBackgroundCopyGroups</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate3::get_BrowseOnly
+ - IUpdate3.BrowseOnly
+ - IUpdate3.get_BrowseOnly
 ---
 
 # IUpdate3::get_BrowseOnly
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate3">IUpdate3</a>
-

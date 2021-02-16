@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _LOCALGROUP_MEMBERS_INFO_0
- - PLOCALGROUP_MEMBERS_INFO_0
  - LOCALGROUP_MEMBERS_INFO_0
 ---
 
@@ -106,4 +104,3 @@ Pointer to a
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

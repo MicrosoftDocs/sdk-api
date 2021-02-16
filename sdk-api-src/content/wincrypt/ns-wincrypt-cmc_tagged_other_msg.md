@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMC_TAGGED_OTHER_MSG
- - PCMC_TAGGED_OTHER_MSG
  - CMC_TAGGED_OTHER_MSG
 ---
 
@@ -73,4 +71,3 @@ Object identifier (OID) of the other message.
 ### -field Value
 
 A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OBJID_BLOB</a> structure that contains the encoded other message information.
-

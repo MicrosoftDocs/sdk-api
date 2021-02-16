@@ -9,8 +9,6 @@ tech.root: winsock
 f1_keywords:
  - ws2tcpip
  - ws2tcpip/ws2tcpip
-api_name:
- - ws2tcpip
 ---
 
 # Ws2Tcpip.h header

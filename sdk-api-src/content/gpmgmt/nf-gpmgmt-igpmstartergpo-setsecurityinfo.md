@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMStarterGPO::SetSecurityInfo
+ - IGPMStarterGPO.SetSecurityInfo
 ---
 
 # IGPMStarterGPO::SetSecurityInfo
@@ -70,4 +70,3 @@ For more information about policy-related permissions, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_SENSOR_QUERY_STATUS_FN
+ - SensorAdapterQueryStatus
 ---
 
 # PIBIO_SENSOR_QUERY_STATUS_FN callback function
@@ -98,4 +98,3 @@ The <b>SensorContext</b> member of the <a href="/windows/desktop/api/winbio_adap
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

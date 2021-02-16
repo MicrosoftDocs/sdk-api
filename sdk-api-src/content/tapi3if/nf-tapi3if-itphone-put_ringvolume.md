@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::put_RingVolume
+ - ITPhone.put_RingVolume
 ---
 
 # ITPhone::put_RingVolume
@@ -77,4 +77,3 @@ If the phone is currently ringing (RingMode != 0), the new volume takes effect i
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_ringvolume">get_RingVolume</a>
-

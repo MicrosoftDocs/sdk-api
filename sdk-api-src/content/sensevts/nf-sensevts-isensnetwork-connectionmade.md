@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensNetwork::ConnectionMade
+ - ISensNetwork.ConnectionMade
 ---
 
 # ISensNetwork::ConnectionMade
@@ -121,4 +121,3 @@ Filtering can be performed on the publisher property <i>ulConnectionMadeType</i>
 
 
 <a href="/windows/desktop/api/sensevts/ns-sensevts-sens_qocinfo">SENS_QOCINFO</a>
-

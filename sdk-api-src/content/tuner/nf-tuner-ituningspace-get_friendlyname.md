@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace::get_FriendlyName
+ - ITuningSpace.get_FriendlyName
 ---
 
 # ITuningSpace::get_FriendlyName
@@ -69,4 +69,3 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-

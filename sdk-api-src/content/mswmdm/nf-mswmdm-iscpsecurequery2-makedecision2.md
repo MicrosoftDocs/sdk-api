@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery2::MakeDecision2
+ - ISCPSecureQuery2.MakeDecision2
 ---
 
 # ISCPSecureQuery2::MakeDecision2
@@ -206,4 +206,3 @@ The application certificate that the secure content provider uses to talk to the
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecurequery-makedecision">ISCPSecureQuery::MakeDecision</a>
-

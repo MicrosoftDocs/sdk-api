@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::Provider
+ - Provider.Provider
+ - ??0Provider@@QAE@PBG0@Z
+ - ??0Provider@@QEAA@PEBG0@Z
 ---
 
 # Provider::Provider
@@ -72,4 +74,3 @@ Name of the provider to be instantiated.
 ## -remarks
 
 The destructor for the <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class is <b>Provider::~Provider</b>.
-

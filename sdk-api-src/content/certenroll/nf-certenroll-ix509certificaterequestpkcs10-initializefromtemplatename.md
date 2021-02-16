@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::InitializeFromTemplateName
+ - IX509CertificateRequestPkcs10.InitializeFromTemplateName
 ---
 
 # IX509CertificateRequestPkcs10::InitializeFromTemplateName
@@ -143,4 +143,3 @@ If the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificatere
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

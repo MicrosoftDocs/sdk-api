@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents::NotifyTrackProgress
+ - IDiscMasterProgressEvents.NotifyTrackProgress
 ---
 
 # IDiscMasterProgressEvents::NotifyTrackProgress
@@ -73,4 +73,3 @@ The notification for zero out of <i>nTotalTracks</i> indicates the start of trac
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
-

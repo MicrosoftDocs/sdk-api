@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - _CMINVOKECOMMANDINFOEX
  - CMINVOKECOMMANDINFOEX
 ---
 
@@ -288,4 +287,3 @@ By default, all 16-bit Windows-based applications run as threads in a single, sh
 
 <div class="alert"><b>Note</b>  Prior to Windows Vista, this structure was declared in Shlobj.h.</div>
 <div> </div>
-

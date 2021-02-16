@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - GetClassLongW
  - winuser/GetClassLongW
- - GetClassLong
- - winuser/GetClassLong
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +44,10 @@ api_location:
  - Ext-MS-Win-NTUser-Windowclass-l1-1-1.dll
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetClassLongW
  - GetClassLong
+ - GetClassLongA
+ - GetClassLongW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # GetClassLongW function
@@ -253,4 +252,3 @@ Reserve extra class memory by specifying a nonzero value in the
 
 
 <a href="/windows/desktop/winmsg/window-classes">Window Classes</a>
-

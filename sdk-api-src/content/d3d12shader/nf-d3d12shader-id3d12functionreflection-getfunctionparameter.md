@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - ID3D12FunctionReflection::GetFunctionParameter
+ - ID3D12FunctionReflection.GetFunctionParameter
 ---
 
 # ID3D12FunctionReflection::GetFunctionParameter
@@ -69,4 +69,3 @@ A pointer to a <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12fu
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>
-

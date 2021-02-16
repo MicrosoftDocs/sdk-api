@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1ComputeTransform::SetComputeInfo
+ - ID2D1ComputeTransform.SetComputeInfo
 ---
 
 # ID2D1ComputeTransform::SetComputeInfo
@@ -78,4 +78,3 @@ If this method fails, <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effe
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadcomputeshader">ID2D1EffectContext::LoadComputeShader</a>
-

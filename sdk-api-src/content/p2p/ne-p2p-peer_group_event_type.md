@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_group_event_type_tag
  - PEER_GROUP_EVENT_TYPE
 ---
 
@@ -98,4 +97,3 @@ The connection to the peer group has failed. No data is provided when this peer 
 
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_group_event_registration">PEER_GROUP_EVENT_REGISTRATION</a>
-

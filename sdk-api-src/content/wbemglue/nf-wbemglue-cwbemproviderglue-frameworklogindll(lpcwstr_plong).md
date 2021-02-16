@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue::FrameworkLoginDLL
+ - CWbemProviderGlue.FrameworkLoginDLL
+ - ?FrameworkLoginDLL@CWbemProviderGlue@@SAHPEBG@Z
+ - ?FrameworkLoginDLL@CWbemProviderGlue@@SGHPBG@Z
 ---
 
 # CWbemProviderGlue::FrameworkLoginDLL(LPCWSTR,PLONG)
@@ -76,4 +78,3 @@ The method returns <b>TRUE</b> if the server can be loaded and <b>FALSE</b> if t
 ## -remarks
 
 The <b>FrameworkLoginDLL</b> method should be called from DllMain when the <i>fdwReason</i> parameter has the value DLL_PROCESS_ATTACH. If <b>FrameworkLoginDLL</b> returns <b>FALSE</b>, the server should return <b>FALSE</b> from DllMain to fail the load.
-

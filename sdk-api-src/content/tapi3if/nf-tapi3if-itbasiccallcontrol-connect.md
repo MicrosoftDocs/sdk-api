@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::Connect
+ - ITBasicCallControl.Connect
 ---
 
 # ITBasicCallControl::Connect
@@ -139,4 +139,3 @@ If the call is synchronous, this method will not return until the call is in the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol">ITBasicCallControl</a>
-

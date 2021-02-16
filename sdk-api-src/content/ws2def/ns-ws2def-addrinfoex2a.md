@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Ws2def.h
 api_name:
+ - ADDRINFOEX2
  - addrinfoex2A
- - PADDRINFOEX2A
- - ADDRINFOEX2A
+ - addrinfoex2W
 ---
 
 # ADDRINFOEX2A structure
@@ -532,4 +532,3 @@ Upon a successful call to <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-get
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
-

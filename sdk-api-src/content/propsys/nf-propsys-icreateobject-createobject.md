@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - ICreateObject::CreateObject
+ - ICreateObject.CreateObject
 ---
 
 # ICreateObject::CreateObject
@@ -87,4 +87,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method can be used with <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem2-getpropertystorewithcreateobject">GetPropertyStoreWithCreateObject</a>.
-

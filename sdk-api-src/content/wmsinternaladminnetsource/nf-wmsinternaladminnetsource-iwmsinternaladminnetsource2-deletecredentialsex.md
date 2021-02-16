@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSInternalAdminNetSource2::DeleteCredentialsEx
+ - IWMSInternalAdminNetSource2.DeleteCredentialsEx
 ---
 
 # IWMSInternalAdminNetSource2::DeleteCredentialsEx
@@ -76,4 +76,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsinternaladminnetsource/nn-wmsinternaladminnetsource-iwmsinternaladminnetsource2">IWMSInternalAdminNetSource2 Interface</a>
-

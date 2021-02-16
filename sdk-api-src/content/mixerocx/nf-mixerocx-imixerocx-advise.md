@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::Advise
+ - IMixerOCX.Advise
 ---
 
 # IMixerOCX::Advise
@@ -74,4 +74,3 @@ Call this method if you wish to receive callbacks from the Overlay Mixer.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

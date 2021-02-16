@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::GetLastStatus
+ - CustomLineCap.GetLastStatus
 ---
 
 # CustomLineCap::GetLastStatus
@@ -71,4 +71,3 @@ If at least one method invoked on this <a href="/windows/desktop/api/gdiplushead
 You can call <b>CustomLineCap::GetLastStatus</b> immediately after constructing a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object to determine whether the constructor succeeded.
 
 The first time you call the <b>CustomLineCap::GetLastStatus</b> method of a <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-customlinecap">CustomLineCap</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the <b>CustomLineCap</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
-

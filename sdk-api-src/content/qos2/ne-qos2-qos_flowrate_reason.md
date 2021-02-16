@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
- - _QOS_FLOWRATE_REASON
- - PQOS_FLOWRATE_REASON
  - QOS_FLOWRATE_REASON
 ---
 
@@ -85,4 +83,3 @@ Indicates that the user has caused the flow to change.
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-

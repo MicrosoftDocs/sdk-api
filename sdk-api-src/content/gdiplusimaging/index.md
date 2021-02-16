@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusimaging
  - gdiplusimaging/gdiplusimaging
-api_name:
- - gdiplusimaging
 ---
 
 # Gdiplusimaging.h header

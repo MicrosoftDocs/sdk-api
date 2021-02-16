@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSource::SetCurrentDeviceMediaType
+ - IMFCaptureSource.SetCurrentDeviceMediaType
 ---
 
 # IMFCaptureSource::SetCurrentDeviceMediaType
@@ -153,4 +153,3 @@ This method sets the native output type on the capture device. The device must s
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-

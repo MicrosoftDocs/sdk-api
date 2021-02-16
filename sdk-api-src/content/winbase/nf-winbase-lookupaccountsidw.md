@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LookupAccountSidW
  - winbase/LookupAccountSidW
- - LookupAccountSid
- - winbase/LookupAccountSid
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Security-LSALookup-L2-1-2.dll
  - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupAccountSidW
  - LookupAccountSid
+ - LookupAccountSidA
+ - LookupAccountSidW
 ---
 
 # LookupAccountSidW function
@@ -151,4 +150,3 @@ For an example that uses this function, see <a href="/windows/desktop/SecAuthZ/s
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
-

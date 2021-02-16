@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassImageListExW
  - setupapi/SetupDiGetClassImageListExW
- - SetupDiGetClassImageListEx
- - setupapi/SetupDiGetClassImageListEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassImageListExW
- - SetupDiGetClassImageListEx
+ - SetupDiGetClassImageListEx - SetupDiGetClassImageListExW
 ---
 
 # SetupDiGetClassImageListExW function
@@ -94,4 +91,3 @@ The image list built by this function should be destroyed by calling <a href="/w
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassimagelist">SetupDiGetClassImageList</a>
-

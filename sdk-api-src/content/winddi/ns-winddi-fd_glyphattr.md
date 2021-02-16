@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FD_GLYPHATTR
- - PFD_GLYPHATTR
  - FD_GLYPHATTR
 ---
 
@@ -102,4 +100,3 @@ If <b>iMode</b> is FO_ATTR_MODE_ROTATE (the only flag currently defined), a prin
 BYTE glyphBits[8] = {0x80, 0x40, 0x20, 0x10, 0x8, 0x4, 0x2, 0x1};
 result = (pga->aGlyphAttr[hg / 8]) & (glyphBits[hg % 8]);
 ```
-

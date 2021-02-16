@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBSLocator2::put_DiseqLNBSource
+ - IDVBSLocator2.DiseqLNBSource
+ - IDVBSLocator2.get_DiseqLNBSource
+ - IDVBSLocator2.put_DiseqLNBSource
 ---
 
 # IDVBSLocator2::put_DiseqLNBSource
@@ -64,4 +66,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/mstv/lnb-source">LNB_Source</a>
-

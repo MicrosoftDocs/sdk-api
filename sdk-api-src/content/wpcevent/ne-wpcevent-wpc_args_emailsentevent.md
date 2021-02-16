@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wpcevent.h
 api_name:
- - tagWPC_ARGS_EMAILSENTEVENT
  - WPC_ARGS_EMAILSENTEVENT
 ---
 

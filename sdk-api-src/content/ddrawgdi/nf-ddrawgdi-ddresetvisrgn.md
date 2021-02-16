@@ -46,6 +46,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdResetVisrgn
+ - GdiEntry6
 ---
 
 # DdResetVisrgn function
@@ -85,4 +86,3 @@ Applications are advised to use the <a href="/previous-versions/aa919448(v=msdn.
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControl::OnAmbientPropertyChange
+ - IOleControl.OnAmbientPropertyChange
 ---
 
 # IOleControl::OnAmbientPropertyChange
@@ -70,4 +70,3 @@ S_OK is returned in all cases even when the control does not support ambient pro
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
-

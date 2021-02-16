@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - _MF3DVideoOutputType
  - MF3DVideoOutputType
 ---
 
@@ -72,4 +71,3 @@ This enumeration is used with the <a href="/windows/desktop/medfound/mf-enable-3
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

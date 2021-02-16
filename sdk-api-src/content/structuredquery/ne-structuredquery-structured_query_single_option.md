@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - tagSTRUCTURED_QUERY_SINGLE_OPTION
  - STRUCTURED_QUERY_SINGLE_OPTION
 ---
 
@@ -104,4 +103,3 @@ The option value must be a <b>VT_I4</b> that is a valid LANGID. The LANGID indic
 ## -remarks
 
 Windows 7 adds new constants that help refine query condition trees parsed by the <a href="/windows/desktop/api/structuredquery/nn-structuredquery-iqueryparser">IQueryParser</a> interface.
-

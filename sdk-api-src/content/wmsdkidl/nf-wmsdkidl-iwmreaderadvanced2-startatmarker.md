@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2::StartAtMarker
+ - IWMReaderAdvanced2.StartAtMarker
 ---
 
 # IWMReaderAdvanced2::StartAtMarker
@@ -143,4 +143,3 @@ This method is very similar to <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkid
 
 
 <a href="/windows/desktop/wmformat/using-markers">Using Markers</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_ObjectDecl
  - MI_ObjectDecl
 ---
 
@@ -107,4 +106,3 @@ Size of the structure.
 
 
 <a href="/windows/desktop/api/mi/ns-mi-mi_qualifier">MI_Qualifier</a>
-

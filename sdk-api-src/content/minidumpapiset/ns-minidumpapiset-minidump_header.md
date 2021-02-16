@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_HEADER
- - PMINIDUMP_HEADER
  - MINIDUMP_HEADER
 ---
 
@@ -101,4 +99,3 @@ One or more values from the
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type">MINIDUMP_TYPE</a>
-

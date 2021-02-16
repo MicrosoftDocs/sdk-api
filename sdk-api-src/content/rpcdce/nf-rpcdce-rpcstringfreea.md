@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcStringFreeA
  - rpcdce/RpcStringFreeA
- - RpcStringFree
- - rpcdce/RpcStringFree
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcStringFreeA
  - RpcStringFree
+ - RpcStringFreeA
+ - RpcStringFreeW
 ---
 
 # RpcStringFreeA function
@@ -110,4 +109,3 @@ An application is responsible for calling
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingparse">RpcStringBindingParse</a>
-

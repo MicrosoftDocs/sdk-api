@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceCollection::Add
+ - IFunctionInstanceCollection.Add
 ---
 
 # IFunctionInstanceCollection::Add
@@ -107,4 +107,3 @@ The method is unable to allocate the memory required to perform this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
-

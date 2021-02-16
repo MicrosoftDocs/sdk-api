@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: f2156dbe-88b5-4ab1-a310-13a38ebdbb4b
 ms.date: 12/05/2018
 ms.keywords: GetClipper, GetClipper method [DirectDraw], GetClipper method [DirectDraw],IDirectDrawSurface7 interface, IDirectDrawSurface7 interface [DirectDraw],GetClipper method, IDirectDrawSurface7.GetClipper, IDirectDrawSurface7::GetClipper, ddraw/IDirectDrawSurface7::GetClipper, directdraw.idirectdrawsurface7_getclipper
+f1_keywords:
+- ddraw/IDirectDrawSurface7.GetClipper
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDrawSurface7.GetClipper
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDrawSurface7::GetClipper
- - ddraw/IDirectDrawSurface7::GetClipper
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDrawSurface7::GetClipper
 ---
 
 ## -description
@@ -74,4 +73,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-

@@ -38,9 +38,6 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapter::GetFactory
-f1_keywords:
- - IDXCoreAdapter::GetFactory
- - dxcore_interface/IDXCoreAdapter::GetFactory
 ---
 
 ## -description
@@ -79,4 +76,3 @@ For the duration of time that a reference exists on an [IDXCoreAdapterFactory](/
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

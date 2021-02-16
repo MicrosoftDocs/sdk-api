@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - DMA_Des_s
- - PDMA_DES
  - DMA_DES
 ---
 
@@ -271,4 +269,3 @@ The DMA channel allocated to the device.
 
 
 [DMA_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_resource)
-

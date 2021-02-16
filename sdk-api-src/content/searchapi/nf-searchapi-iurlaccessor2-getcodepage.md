@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor2::GetCodePage
+ - IUrlAccessor2.GetCodePage
+ - IUrlAccessor4.GetCodePage
 ---
 
 # IUrlAccessor2::GetCodePage

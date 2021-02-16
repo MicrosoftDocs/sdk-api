@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Olectl.h
 api_name:
- - tagFONTDESC
- - LPFONTDESC
  - FONTDESC
 ---
 
@@ -97,4 +95,3 @@ Initial strikethrough state of the font.
 ## -see-also
 
 <a href="/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>
-

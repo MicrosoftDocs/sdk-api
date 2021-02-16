@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1TransformGraph::SetOutputNode
+ - ID2D1TransformGraph.SetOutputNode
 ---
 
 # ID2D1TransformGraph::SetOutputNode
@@ -89,4 +89,3 @@ The node must already exist in the graph; otherwise, the call fails with <b>D2DE
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
-

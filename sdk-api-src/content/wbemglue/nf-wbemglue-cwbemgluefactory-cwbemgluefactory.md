@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemGlueFactory::CWbemGlueFactory
+ - CWbemGlueFactory.CWbemGlueFactory
+ - ??0CWbemGlueFactory@@QAE@XZ
+ - ??0CWbemGlueFactory@@QEAA@XZ
 ---
 
 # CWbemGlueFactory::CWbemGlueFactory
@@ -72,4 +74,3 @@ The destructor for the class is <b>CWbemGlueFactory::~CWbemGlueFactory.</b>
 ## -see-also
 
 <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemgluefactory">CWbemGlueFactory</a>
-

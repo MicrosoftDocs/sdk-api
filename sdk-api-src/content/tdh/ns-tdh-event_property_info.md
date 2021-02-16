@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _EVENT_PROPERTY_INFO
  - EVENT_PROPERTY_INFO
 ---
 
@@ -157,4 +156,3 @@ Filters do not support maps, structures, or arrays.
 
 
 <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
-

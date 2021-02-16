@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice::SendCommand
+ - IPortableDevice.SendCommand
 ---
 
 # IPortableDevice::SendCommand
@@ -212,4 +212,3 @@ void ResetDevice(IPortableDevice* pDevice)
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevice">IPortableDevice Interface</a>
-

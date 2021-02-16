@@ -47,8 +47,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPMCAST_IF_TABLE
- - PMIB_IPMCAST_IF_TABLE
  - MIB_IPMCAST_IF_TABLE
 ---
 
@@ -78,4 +76,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_if_entry">MIB_IPMCAST_IF_ENTRY</a>
-

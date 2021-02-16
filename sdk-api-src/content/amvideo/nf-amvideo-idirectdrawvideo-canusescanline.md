@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::CanUseScanLine
+ - IDirectDrawVideo.CanUseScanLine
 ---
 
 # IDirectDrawVideo::CanUseScanLine
@@ -74,4 +74,3 @@ For a description of the use of scan line detection in the DirectShow video rend
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

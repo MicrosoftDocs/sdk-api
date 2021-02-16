@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransformCallback::OnBufferSent
+ - IMFDeviceTransformCallback.OnBufferSent
 ---
 
 # IMFDeviceTransformCallback::OnBufferSent
@@ -75,4 +75,3 @@ The frame buffer header information provided by this callback is read-only. You 
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransformcallback">IMFDeviceTransformCallback</a>
-

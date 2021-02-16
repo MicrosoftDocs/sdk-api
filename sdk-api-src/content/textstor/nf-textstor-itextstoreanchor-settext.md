@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::SetText
+ - ITextStoreAnchor.SetText
 ---
 
 # ITextStoreAnchor::SetText
@@ -194,4 +194,3 @@ This method will fail if the range of text replaced covers any region boundary. 
 
 <a href="/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
-

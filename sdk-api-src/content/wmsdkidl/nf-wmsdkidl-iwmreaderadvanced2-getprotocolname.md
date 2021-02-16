@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2::GetProtocolName
+ - IWMReaderAdvanced2.GetProtocolName
 ---
 
 # IWMReaderAdvanced2::GetProtocolName
@@ -131,4 +131,3 @@ This method can return an empty string if the protocol name cannot be determined
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
-

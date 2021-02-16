@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder::GetThumbnail
+ - IWICBitmapDecoder.GetThumbnail
 ---
 
 # IWICBitmapDecoder::GetThumbnail
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The returned thumbnail can be of any size, so the caller should scale the thumbnail to the desired size. The only Windows provided image formats that support thumbnails are JPEG, TIFF, and JPEG-XR. If the thumbnail is not available, this will return <a href="/windows/desktop/wic/-wic-codec-error-codes">WINCODEC_ERR_CODECNOTHUMBNAIL</a>.
-

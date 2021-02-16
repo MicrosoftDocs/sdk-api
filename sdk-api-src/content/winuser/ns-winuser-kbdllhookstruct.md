@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagKBDLLHOOKSTRUCT
- - LPKBDLLHOOKSTRUCT
  - KBDLLHOOKSTRUCT
 ---
 
@@ -209,4 +207,3 @@ Additional information associated with the message.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-

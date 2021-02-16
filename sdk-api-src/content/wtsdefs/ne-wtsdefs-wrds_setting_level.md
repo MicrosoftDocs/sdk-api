@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_SETTING_LEVEL
- - PWRDS_SETTING_LEVEL
  - WRDS_SETTING_LEVEL
 ---
 
@@ -67,4 +65,3 @@ The type of structure is not defined.
 ### -field WRDS_SETTING_LEVEL_1
 
 The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTINGS_1</a> structure.
-

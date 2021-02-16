@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::GetVolumeRange
+ - IAudioEndpointVolume.GetVolumeRange
 ---
 
 # IAudioEndpointVolume::GetVolumeRange
@@ -132,4 +132,3 @@ If the volume control is implemented in hardware, <b>GetVolumeRange</b> describe
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IEndpointVolume::VolumeStepUp</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XAudio2.h
 api_name:
- - IXAudio2Voice::GetFilterParameters
+ - IXAudio2Voice.GetFilterParameters
 ---
 
 # IXAudio2Voice::GetFilterParameters
@@ -80,4 +80,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 ## -see-also
 
 <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
-

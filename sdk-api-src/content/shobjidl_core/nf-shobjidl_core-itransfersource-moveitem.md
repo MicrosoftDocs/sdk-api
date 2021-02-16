@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource::MoveItem
+ - ITransferSource.MoveItem
 ---
 
 # ITransferSource::MoveItem
@@ -162,4 +162,3 @@ When moving a folder, the caller should convert the move operation into a copy a
 </td>
 </tr>
 </table>
-

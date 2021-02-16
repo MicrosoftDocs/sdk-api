@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnection::GetConnectionState
+ - IMbnConnection.GetConnectionState
 ---
 
 # IMbnConnection::GetConnectionState
@@ -140,4 +140,3 @@ This method can return S_OK when <i>ProfileName</i> is <b>NULL</b>. Make sure th
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-

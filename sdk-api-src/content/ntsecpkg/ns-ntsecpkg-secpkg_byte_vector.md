@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_BYTE_VECTOR
- - PSECPKG_BYTE_VECTOR
  - SECPKG_BYTE_VECTOR
 ---
 

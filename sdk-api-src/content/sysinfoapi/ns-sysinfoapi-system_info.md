@@ -46,8 +46,6 @@ api_type:
 api_location:
  - sysinfoapi.h
 api_name:
- - _SYSTEM_INFO
- - LPSYSTEM_INFO
  - SYSTEM_INFO
 ---
 
@@ -268,4 +266,3 @@ If <i>xx</i> is not equal to 0xFF, <i>xx</i> + 'A' is the stepping letter and <i
 
 
 <a href="/windows/desktop/api/memoryapi/nf-memoryapi-mapviewoffileex">MapViewOfFileEx</a>
-

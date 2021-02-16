@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser::GetCurrentView
+ - IExplorerBrowser.GetCurrentView
 ---
 
 # IExplorerBrowser::GetCurrentView
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Use the <b>IID_PPV_ARGS</b> macro.
-

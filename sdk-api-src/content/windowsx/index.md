@@ -9,8 +9,6 @@ tech.root: controls
 f1_keywords:
  - windowsx
  - windowsx/windowsx
-api_name:
- - windowsx
 ---
 
 # Windowsx.h header

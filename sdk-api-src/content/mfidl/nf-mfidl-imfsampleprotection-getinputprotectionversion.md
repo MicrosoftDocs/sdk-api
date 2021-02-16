@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleProtection::GetInputProtectionVersion
+ - IMFSampleProtection.GetInputProtectionVersion
 ---
 
 # IMFSampleProtection::GetInputProtectionVersion
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PointF::operator-
+ - PointF.operator-
 ---
 
 # PointF::operator-sub
@@ -102,4 +102,3 @@ PointF point3 = point1 - point2;
 
 
 <a href="/previous-versions/ms535008(v=vs.85)">operator+</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SUPER_SCOPE_TABLE_ENTRY
- - LPDHCP_SUPER_SCOPE_TABLE_ENTRY
  - DHCP_SUPER_SCOPE_TABLE_ENTRY
 ---
 
@@ -79,4 +77,3 @@ Unicode string that contains the name assigned to this subnet entry within the s
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_super_scope_table">DHCP_SUPER_SCOPE_TABLE</a>
-

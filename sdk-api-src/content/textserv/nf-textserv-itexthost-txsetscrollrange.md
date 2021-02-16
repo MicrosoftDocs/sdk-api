@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxSetScrollRange
+ - ITextHost.TxSetScrollRange
 ---
 
 # ITextHost::TxSetScrollRange
@@ -97,4 +97,3 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-

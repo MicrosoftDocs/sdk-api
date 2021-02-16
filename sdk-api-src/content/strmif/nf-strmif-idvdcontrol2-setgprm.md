@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2::SetGPRM
+ - IDvdControl2.SetGPRM
 ---
 
 # IDvdControl2::SetGPRM
@@ -138,4 +138,3 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-getallgprms">IDvdInfo2::GetAllGPRMs</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AvRtCreateThreadOrderingGroupExW
  - avrt/AvRtCreateThreadOrderingGroupExW
- - AvRtCreateThreadOrderingGroupEx
- - avrt/AvRtCreateThreadOrderingGroupEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avrt.dll
 api_name:
- - AvRtCreateThreadOrderingGroupExW
  - AvRtCreateThreadOrderingGroupEx
+ - AvRtCreateThreadOrderingGroupExA
+ - AvRtCreateThreadOrderingGroupExW
 ---
 
 # AvRtCreateThreadOrderingGroupExW function
@@ -164,4 +163,3 @@ int main( void )
 ## -see-also
 
 <a href="/windows/desktop/ProcThread/thread-ordering-service">Thread Ordering Service</a>
-

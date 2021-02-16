@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
- - _EAPHOST_AUTH_STATUS
  - EAPHOST_AUTH_STATUS
 ---
 
@@ -102,4 +101,3 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus">EapHostPeerGetAuthStatus</a>
-

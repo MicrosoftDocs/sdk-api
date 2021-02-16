@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IKsTopologyInfo::get_NodeName
+ - IKsTopologyInfo.get_NodeName
 ---
 
 # IKsTopologyInfo::get_NodeName
@@ -144,4 +144,3 @@ if (hr == HRESULT_FROM_WIN32(ERROR_MORE_DATA))
 
 
 <a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
-

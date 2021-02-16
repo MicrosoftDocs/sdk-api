@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace::CreateTuneRequest
+ - ITuningSpace.CreateTuneRequest
 ---
 
 # ITuningSpace::CreateTuneRequest
@@ -69,4 +69,3 @@ You can query the returned <b>ITuneRequest</b> pointer for derived interfaces. F
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-

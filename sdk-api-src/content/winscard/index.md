@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - winscard
  - winscard/winscard
-api_name:
- - winscard
 ---
 
 # Winscard.h header

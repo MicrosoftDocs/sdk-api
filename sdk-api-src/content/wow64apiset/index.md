@@ -9,8 +9,6 @@ tech.root: fs
 f1_keywords:
  - wow64apiset
  - wow64apiset/wow64apiset
-api_name:
- - wow64apiset
 ---
 
 # Wow64Apiset.h header

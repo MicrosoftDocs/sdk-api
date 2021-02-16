@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpmib.h
 api_name:
- - _MIB_TCP6TABLE2
- - PMIB_TCP6TABLE2
  - MIB_TCP6TABLE2
 ---
 
@@ -123,4 +121,3 @@ The <b>MIB_TCP6TABLE2</b> structure may contain padding for alignment between th
 
 
 <a href="/windows/desktop/api/tcpmib/ns-tcpmib-mib_tcptable2">MIB_TCPTABLE2</a>
-

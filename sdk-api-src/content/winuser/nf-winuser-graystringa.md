@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GrayStringA
  - winuser/GrayStringA
- - GrayString
- - winuser/GrayString
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - user32.dll
 api_name:
- - GrayStringA
  - GrayString
+ - GrayStringA
+ - GrayStringW
 ---
 
 # GrayStringA function
@@ -143,4 +142,3 @@ Without calling <b>GrayString</b>, an application can draw grayed strings on dev
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
-

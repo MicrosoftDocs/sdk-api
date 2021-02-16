@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
- - _RADIUS_EXTENSION_POINT
  - RADIUS_EXTENSION_POINT
 ---
 
@@ -97,4 +96,3 @@ See
 
 
 <a href="/windows/desktop/api/authif/nc-authif-pradius_extension_process_2">RadiusExtensionProcess2</a>
-

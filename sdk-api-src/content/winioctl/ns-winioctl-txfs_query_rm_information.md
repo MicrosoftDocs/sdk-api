@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_QUERY_RM_INFORMATION
- - PTXFS_QUERY_RM_INFORMATION
  - TXFS_QUERY_RM_INFORMATION
 ---
 
@@ -375,4 +373,3 @@ The offset from the beginning of this structure to a <b>NULL</b>-terminated Unic
 
 
 <a href="/windows/desktop/FileIO/transactional-ntfs-structures">TxF Structures</a>
-

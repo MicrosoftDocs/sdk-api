@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_SET_RETURN_DESKTOP
+ - WlxSetReturnDesktop
 ---
 
 # PWLX_SET_RETURN_DESKTOP callback function
@@ -123,4 +123,3 @@ If a handle to the desktop is provided, Winlogon will duplicate the handle. If n
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxwkstalockedsas">WlxWkstaLockedSAS</a>
-

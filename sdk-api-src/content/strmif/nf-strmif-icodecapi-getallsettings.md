@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI::GetAllSettings
+ - ICodecAPI.GetAllSettings
 ---
 
 # ICodecAPI::GetAllSettings
@@ -111,4 +111,3 @@ The format of the data that is written to the stream depends on the implementati
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-

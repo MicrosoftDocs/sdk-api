@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PSYM_ENUMPROCESSES_CALLBACK
+ - SymEnumProcessesProc
 ---
 
 # PSYM_ENUMPROCESSES_CALLBACK callback function
@@ -76,4 +76,3 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumprocesses">SymEnumProcesses</a>
-

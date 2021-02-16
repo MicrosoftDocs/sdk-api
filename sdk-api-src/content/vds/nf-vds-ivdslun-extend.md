@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::Extend
+ - IVdsLun.Extend
 ---
 
 # IVdsLun::Extend
@@ -240,4 +240,3 @@ If the <i>ullNumberOfBytesToAdd</i> parameter is greater than the number of byte
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlun">IVdsSubSystem::CreateLun</a>
-

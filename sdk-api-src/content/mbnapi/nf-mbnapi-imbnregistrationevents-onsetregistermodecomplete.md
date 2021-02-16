@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistrationEvents::OnSetRegisterModeComplete
+ - IMbnRegistrationEvents.OnSetRegisterModeComplete
 ---
 
 # IMbnRegistrationEvents::OnSetRegisterModeComplete
@@ -167,4 +167,3 @@ This method must return <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
-

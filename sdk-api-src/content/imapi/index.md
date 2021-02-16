@@ -9,8 +9,6 @@ tech.root: imapi
 f1_keywords:
  - imapi
  - imapi/imapi
-api_name:
- - imapi
 ---
 
 # Imapi.h header

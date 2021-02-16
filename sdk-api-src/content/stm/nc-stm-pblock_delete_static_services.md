@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - PBLOCK_DELETE_STATIC_SERVICES
+ - BlockDeleteStaticServices
 ---
 
 # PBLOCK_DELETE_STATIC_SERVICES callback function
@@ -109,4 +109,3 @@ The parameter is invalid.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetDeviceInterfaceDetailA
  - setupapi/SetupDiGetDeviceInterfaceDetailA
- - SetupDiGetDeviceInterfaceDetail
- - setupapi/SetupDiGetDeviceInterfaceDetail
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetDeviceInterfaceDetailA
- - SetupDiGetDeviceInterfaceDetail
+ - SetupDiGetDeviceInterfaceDetail - SetupDiGetDeviceInterfaceDetailA
 ---
 
 # SetupDiGetDeviceInterfaceDetailA function
@@ -120,4 +117,3 @@ The interface detail returned by this function consists of a device path that ca
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
-

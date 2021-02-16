@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_NIT::Initialize
+ - IDVB_NIT.Initialize
 ---
 
 # IDVB_NIT::Initialize
@@ -125,4 +125,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_nit">IDVB_NIT Interface</a>
-

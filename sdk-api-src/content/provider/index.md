@@ -9,8 +9,6 @@ tech.root: lwef
 f1_keywords:
  - provider
  - provider/provider
-api_name:
- - provider
 ---
 
 # Provider.h header

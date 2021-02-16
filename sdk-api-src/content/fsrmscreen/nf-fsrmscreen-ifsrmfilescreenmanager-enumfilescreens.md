@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager::EnumFileScreens
+ - IFsrmFileScreenManager.EnumFileScreens
+ - FsrmFileScreenManager.EnumFileScreens
 ---
 
 # IFsrmFileScreenManager::EnumFileScreens
@@ -91,4 +92,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dbt.h
 api_name:
- - _DEV_BROADCAST_HDR
  - DEV_BROADCAST_HDR
 ---
 
@@ -171,4 +170,3 @@ Reserved; do not use.
 
 
 <a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-

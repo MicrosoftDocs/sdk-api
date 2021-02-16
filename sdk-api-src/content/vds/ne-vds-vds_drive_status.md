@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_DRIVE_STATUS
- - PVDS_DRIVE_STATUS
  - VDS_DRIVE_STATUS
 ---
 
@@ -113,4 +111,3 @@ If your application encounters a <b>VDS_DRIVE_STATUS</b> value that it does not 
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
-

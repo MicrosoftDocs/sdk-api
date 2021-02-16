@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmPropertyDefinitionType
  - FsrmPropertyDefinitionType
 ---
 
@@ -168,4 +167,3 @@ You can use the following comparison operators with this type (see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertydefinition-get_type">IFsrmPropertyDefinition.Type</a>
-

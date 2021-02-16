@@ -9,8 +9,6 @@ tech.root: wds
 f1_keywords:
  - wdsclientapi
  - wdsclientapi/wdsclientapi
-api_name:
- - wdsclientapi
 ---
 
 # Wdsclientapi.h header

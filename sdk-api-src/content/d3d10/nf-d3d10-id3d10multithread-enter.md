@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Multithread::Enter
+ - ID3D10Multithread.Enter
 ---
 
 # ID3D10Multithread::Enter
@@ -68,4 +68,3 @@ This function should be used in multithreaded applications when there is a serie
 
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10multithread">ID3D10Multithread</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsFreeNameResultA
  - ntdsapi/DsFreeNameResultA
- - DsFreeNameResult
- - ntdsapi/DsFreeNameResult
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - KernelBase.dll
  - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsFreeNameResultA
  - DsFreeNameResult
+ - DsFreeNameResultA
+ - DsFreeNameResultW
 ---
 
 # DsFreeNameResultA function
@@ -82,4 +81,3 @@ Pointer to the <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_name_resulta"
 
 > [!NOTE]
 > The ntdsapi.h header defines DsFreeNameResult as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassInstallParamsW
  - setupapi/SetupDiGetClassInstallParamsW
- - SetupDiGetClassInstallParams
- - setupapi/SetupDiGetClassInstallParams
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassInstallParamsW
- - SetupDiGetClassInstallParams
+ - SetupDiGetClassInstallParams - SetupDiGetClassInstallParamsW
 ---
 
 # SetupDiGetClassInstallParamsW function
@@ -96,4 +93,3 @@ The class install parameters are specific to a particular <a href="/previous-ver
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassinstallparamsa">SetupDiSetClassInstallParams</a>
-

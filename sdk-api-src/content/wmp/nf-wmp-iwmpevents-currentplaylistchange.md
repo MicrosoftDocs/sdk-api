@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::CurrentPlaylistChange
+ - IWMPEvents.CurrentPlaylistChange
 ---
 
 # IWMPEvents::CurrentPlaylistChange
@@ -69,4 +69,3 @@ This event does not occur when a different playlist becomes the current playlist
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-playlistchange">PlaylistChange</a>
-

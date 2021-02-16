@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback::ReportManualSync
+ - ISyncMgrSyncCallback.ReportManualSync
 ---
 
 # ISyncMgrSyncCallback::ReportManualSync

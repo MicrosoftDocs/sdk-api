@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::IsStereo3D
+ - IMFMediaEngineEx.IsStereo3D
 ---
 
 # IMFMediaEngineEx::IsStereo3D
@@ -61,4 +61,3 @@ Returns <b>TRUE</b> if the media resource contains 3D video, or <b>FALSE</b> oth
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

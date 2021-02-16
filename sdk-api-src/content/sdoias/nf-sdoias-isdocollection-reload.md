@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoCollection::Reload
+ - ISdoCollection.Reload
 ---
 
 # ISdoCollection::Reload
@@ -64,4 +64,3 @@ If the method fails, the return value is one of the following error codes.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdocollection">ISdoCollection</a>
-

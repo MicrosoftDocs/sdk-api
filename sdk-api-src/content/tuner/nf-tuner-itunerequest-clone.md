@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuneRequest::Clone
+ - ITuneRequest.Clone
 ---
 
 # ITuneRequest::Clone
@@ -69,4 +69,3 @@ This method performs a "deep copy" of the object; in other words it copies all s
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>
-

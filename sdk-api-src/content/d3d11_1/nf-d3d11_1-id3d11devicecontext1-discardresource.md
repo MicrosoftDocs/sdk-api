@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext1::DiscardResource
+ - ID3D11DeviceContext1.DiscardResource
 ---
 
 # ID3D11DeviceContext1::DiscardResource
@@ -68,4 +68,3 @@ A pointer to the <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
-

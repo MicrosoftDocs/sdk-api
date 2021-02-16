@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _compcolor
  - COMPCOLOR
 ---
 
@@ -95,4 +94,3 @@ Character effect values as described for the
 
 
 <b>Reference</b>
-

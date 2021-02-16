@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionEventLog::get_MessageText
+ - IFsrmActionEventLog.MessageText
+ - IFsrmActionEventLog.get_MessageText
+ - IFsrmActionEventLog.put_MessageText
 ---
 
 # IFsrmActionEventLog::get_MessageText
@@ -78,4 +80,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

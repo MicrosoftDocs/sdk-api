@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfile::UpdateProfile
+ - IMbnConnectionProfile.UpdateProfile
 ---
 
 # IMbnConnectionProfile::UpdateProfile
@@ -138,4 +138,3 @@ This is a synchronous operation.  If successful, the Mobile Broadband service wi
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile">IMbnConnectionProfile</a>
-

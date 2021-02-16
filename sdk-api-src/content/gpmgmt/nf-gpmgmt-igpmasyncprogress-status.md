@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMAsyncProgress::Status
+ - IGPMAsyncProgress.Status
 ---
 
 # IGPMAsyncProgress::Status
@@ -92,4 +92,3 @@ This method must be implemented by the client.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmasyncprogress">IGPMAsyncProgress</a>
-

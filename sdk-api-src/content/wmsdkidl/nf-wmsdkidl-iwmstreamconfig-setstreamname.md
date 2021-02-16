@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig::SetStreamName
+ - IWMStreamConfig.SetStreamName
 ---
 
 # IWMStreamConfig::SetStreamName
@@ -107,4 +107,3 @@ The new value will not take effect in the profile until you call <a href="/windo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-getstreamname">IWMStreamConfig::GetStreamName</a>
-

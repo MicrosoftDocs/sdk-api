@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::GetStreamCount
+ - IMFASFProfile.GetStreamCount
 ---
 
 # IMFASFProfile::GetStreamCount
@@ -96,4 +96,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-setstream">IMFASFProfile::SetStream</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhGetRawCounterArrayA
  - pdh/PdhGetRawCounterArrayA
- - PdhGetRawCounterArray
- - pdh/PdhGetRawCounterArray
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhGetRawCounterArrayA
  - PdhGetRawCounterArray
+ - PdhGetRawCounterArrayA
+ - PdhGetRawCounterArrayW
 ---
 
 # PdhGetRawCounterArrayA function
@@ -154,4 +153,3 @@ The data for the counter is locked for the duration of the call to
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetformattedcountervalue">PdhGetFormattedCounterValue</a>
-

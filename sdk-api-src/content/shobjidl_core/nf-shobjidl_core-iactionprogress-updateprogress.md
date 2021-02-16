@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.idl
 api_name:
- - IActionProgress::UpdateProgress
+ - IActionProgress.UpdateProgress
 ---
 
 # IActionProgress::UpdateProgress

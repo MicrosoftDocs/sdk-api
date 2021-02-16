@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - _PERSIST_FOLDER_TARGET_INFO
  - PERSIST_FOLDER_TARGET_INFO
 ---
 
@@ -106,4 +105,3 @@ Any or all of the <b>pidlTargetFolder</b>, <b>szTargetParsingName</b>, and <b>cs
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder3">IPersistFolder3</a>
-

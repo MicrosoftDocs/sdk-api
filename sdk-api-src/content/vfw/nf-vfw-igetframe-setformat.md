@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IGetFrame::SetFormat
+ - IGetFrame.SetFormat
 ---
 
 # IGetFrame::SetFormat
@@ -110,4 +110,3 @@ HRESULT SetFormat(LPBITMAPINFOHEADER lpbi, LPVOID lpBits, int x,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

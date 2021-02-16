@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkLineInfo::GetFormat
+ - IInkLineInfo.GetFormat
 ---
 
 # IInkLineInfo::GetFormat
@@ -107,4 +107,3 @@ The <i>pim</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
-

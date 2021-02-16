@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog::Create
+ - IPhotoAcquireOptionsDialog.Create
 ---
 
 # IPhotoAcquireOptionsDialog::Create
@@ -94,4 +94,3 @@ The parent window indicated by <i>hWndParent</i> provides <b>OK</b> and <b>Cance
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
-

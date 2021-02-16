@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcndr.h
 api_name:
- - _NDR_USER_MARSHAL_INFO
  - NDR_USER_MARSHAL_INFO
 ---
 
@@ -78,4 +77,3 @@ The function
 <a href="/windows/desktop/Midl/user-marshal">user_marshal</a> and 
 <a href="/windows/desktop/Midl/wire-marshal">wire_marshal</a> helper functions &lt;type&gt;_UserSize, &lt;type&gt;_UserMarshal, &lt;type&gt;_UserUnmarshal, and &lt;type&gt;_UserFree. This information supplements the <i>pFlags</i> parameter that is passed to these helper functions. Not all of these fields will contain valid information in all contexts. Level1.pRpcChannelBuffer is only valid for COM interfaces, and the buffer fields are only valid when 
 <b>NdrGetUserMarshalInfo</b> is called from &lt;type&gt;_UserMarshal or &lt;type&gt;_UserUnmarshal.
-

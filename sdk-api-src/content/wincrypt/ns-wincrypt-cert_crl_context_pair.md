@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_CRL_CONTEXT_PAIR
- - PCERT_CRL_CONTEXT_PAIR
  - CERT_CRL_CONTEXT_PAIR
 ---
 

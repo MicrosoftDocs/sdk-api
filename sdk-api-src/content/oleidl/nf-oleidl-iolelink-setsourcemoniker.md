@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::SetSourceMoniker
+ - IOleLink.SetSourceMoniker
 ---
 
 # IOleLink::SetSourceMoniker
@@ -105,4 +105,3 @@ The linked object's implementation of <a href="/windows/desktop/api/objidl/nf-ob
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
-

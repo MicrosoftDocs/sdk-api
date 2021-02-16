@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocument::Load
+ - IUPnPDescriptionDocument.Load
 ---
 
 # IUPnPDescriptionDocument::Load
@@ -207,4 +207,3 @@ If this method is called from a Web page, the URL the caller specifies must refe
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>
-

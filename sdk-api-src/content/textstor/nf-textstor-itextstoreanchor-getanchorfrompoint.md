@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::GetAnchorFromPoint
+ - ITextStoreAnchor.GetAnchorFromPoint
 ---
 
 # ITextStoreAnchor::GetAnchorFromPoint
@@ -221,4 +221,3 @@ For the point 2 screen coordinates, the method returns <b>TF_E_INVALIDPOINT</b> 
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

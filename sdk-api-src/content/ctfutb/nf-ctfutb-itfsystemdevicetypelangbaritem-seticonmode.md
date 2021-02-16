@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSystemDeviceTypeLangBarItem::SetIconMode
+ - ITfSystemDeviceTypeLangBarItem.SetIconMode
 ---
 
 # ITfSystemDeviceTypeLangBarItem::SetIconMode
@@ -125,4 +125,3 @@ The system language bar item does not support this method.
 
 
 <a href="/windows/desktop/TSF/miscellaneous-language-bar-constants">Miscellaneous Language Bar Constants</a>
-

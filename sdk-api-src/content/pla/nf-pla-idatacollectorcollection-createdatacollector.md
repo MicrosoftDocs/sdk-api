@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorCollection::CreateDataCollector
+ - IDataCollectorCollection.CreateDataCollector
 ---
 
 # IDataCollectorCollection::CreateDataCollector
@@ -114,4 +114,3 @@ Use one of the following interface identifiers to query the <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-createdatacollectorfromxml">IDataCollectorCollection::CreateDataCollectorFromXml</a>
-

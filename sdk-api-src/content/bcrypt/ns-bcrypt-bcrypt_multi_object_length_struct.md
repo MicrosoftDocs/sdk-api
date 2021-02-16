@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
  - BCRYPT_MULTI_OBJECT_LENGTH_STRUCT
 ---
 
@@ -72,4 +71,3 @@ The size of the <i>pbHashObject</i> buffer for the <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptcreatemultihash">BCryptCreateMultiHash</a>
-

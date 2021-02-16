@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::AdviseSink
+ - ITextStoreACP2.AdviseSink
 ---
 
 # ITextStoreACP2::AdviseSink
@@ -124,4 +124,3 @@ The specified sink object could not be obtained.
 ## -see-also
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-

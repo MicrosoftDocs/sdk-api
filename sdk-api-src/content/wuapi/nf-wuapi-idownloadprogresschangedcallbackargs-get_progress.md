@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadProgressChangedCallbackArgs::get_Progress
+ - IDownloadProgressChangedCallbackArgs.Progress
+ - IDownloadProgressChangedCallbackArgs.get_Progress
 ---
 
 # IDownloadProgressChangedCallbackArgs::get_Progress
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogresschangedcallbackargs">IDownloadProgressChangedCallbackArgs</a>
-

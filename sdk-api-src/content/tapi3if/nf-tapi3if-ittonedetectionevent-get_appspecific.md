@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITToneDetectionEvent::get_AppSpecific
+ - ITToneDetectionEvent.get_AppSpecific
 ---
 
 # ITToneDetectionEvent::get_AppSpecific
@@ -101,4 +101,3 @@ The <i>plAppSpecific</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-linemonitortone">LINEMONITORTONE</a>
-

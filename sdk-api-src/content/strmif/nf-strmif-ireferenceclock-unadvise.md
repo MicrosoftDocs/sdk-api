@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IReferenceClock::Unadvise
+ - IReferenceClock.Unadvise
 ---
 
 # IReferenceClock::Unadvise
@@ -99,4 +99,3 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_STRONG_SIGN_PARA
- - PCERT_STRONG_SIGN_PARA
  - CERT_STRONG_SIGN_PARA
 ---
 
@@ -197,4 +195,3 @@ Finally, the <b>CERT_STRONG_SIGN_PARA</b> structure is directly referenced by th
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign_serialized_info">CERT_STRONG_SIGN_SERIALIZED_INFO</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_USAGE_DATA
- - PWCM_USAGE_DATA
  - WCM_USAGE_DATA
 ---
 

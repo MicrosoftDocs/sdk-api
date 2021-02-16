@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
- - tagPXE_ADDRESS
- - PPXE_ADDRESS
  - PXE_ADDRESS
 ---
 
@@ -164,4 +162,3 @@ Port number for the packet. For more information, see the description for the
 
 
 <a href="/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_BYTE_ARRAY6_
  - FWP_BYTE_ARRAY6
 ---
 
@@ -68,4 +67,3 @@ This structure is reserved.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

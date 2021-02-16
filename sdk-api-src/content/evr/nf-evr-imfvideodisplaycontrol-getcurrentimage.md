@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl::GetCurrentImage
+ - IMFVideoDisplayControl.GetCurrentImage
 ---
 
 # IMFVideoDisplayControl::GetCurrentImage
@@ -134,4 +134,3 @@ In windowed mode, the bitmap is the size of the destination rectangle specified 
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-

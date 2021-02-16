@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPMPHost::LockProcess
+ - IMFPMPHost.LockProcess
 ---
 
 # IMFPMPHost::LockProcess
@@ -74,4 +74,3 @@ When this method is called, it increments the lock count on the PMP process. For
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-

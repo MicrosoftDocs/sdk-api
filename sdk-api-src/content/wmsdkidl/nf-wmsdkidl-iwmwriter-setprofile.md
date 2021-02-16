@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::SetProfile
+ - IWMWriter.SetProfile
 ---
 
 # IWMWriter::SetProfile
@@ -203,4 +203,3 @@ The maximum number of streams in a profile is 63, as defined by the constant WM_
 
 
 <a href="/windows/desktop/wmformat/to-use-profiles-with-the-writer">To Use Profiles with the Writer</a>
-

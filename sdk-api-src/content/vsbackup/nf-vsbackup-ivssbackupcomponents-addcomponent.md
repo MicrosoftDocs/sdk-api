@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::AddComponent
+ - IVssBackupComponents.AddComponent
 ---
 
 # IVssBackupComponents::AddComponent
@@ -247,4 +247,3 @@ The requester must call <b>AddComponent</b> to add the required components to th
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMWriter::GenerateKeyID
+ - IWMDRMWriter.GenerateKeyID
 ---
 
 # IWMDRMWriter::GenerateKeyID
@@ -80,4 +80,3 @@ Each file should have its own key ID.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
-

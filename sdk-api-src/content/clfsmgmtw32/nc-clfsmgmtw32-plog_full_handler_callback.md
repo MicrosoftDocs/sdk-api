@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Clfsmgmtw32.h
 api_name:
- - PLOG_FULL_HANDLER_CALLBACK
+ - LOG_FULL_HANDLER_CALLBACK
 ---
 
 # PLOG_FULL_HANDLER_CALLBACK callback function
@@ -78,4 +78,3 @@ The client application determines which actions this callback function performs.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_unpinned_callback">LOG_UNPINNED_CALLBACK</a>
-

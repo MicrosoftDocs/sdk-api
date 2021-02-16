@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _IFIEXTRA
- - PIFIEXTRA
  - IFIEXTRA
 ---
 
@@ -99,4 +97,3 @@ When used, this structure lies below the <a href="/windows/desktop/api/winddi/ns
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
-

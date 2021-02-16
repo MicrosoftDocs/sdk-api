@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_SelStart
+ - IInkEdit.SelStart
+ - IInkEdit.get_SelStart
+ - IInkEdit.put_SelStart
+ - InkEdit.get_SelStart
+ - InkEdit.put_SelStart
 ---
 
 # IInkEdit::get_SelStart
@@ -68,4 +72,3 @@ Setting <b>SelStart</b> greater than the text length sets the property to the ex
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

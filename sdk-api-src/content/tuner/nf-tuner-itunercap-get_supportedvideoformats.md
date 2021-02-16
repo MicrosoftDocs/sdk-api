@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITunerCap::get_SupportedVideoFormats
+ - ITunerCap.get_SupportedVideoFormats
 ---
 
 # ITunerCap::get_SupportedVideoFormats
@@ -74,4 +74,3 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercap">ITunerCap Interface</a>
-

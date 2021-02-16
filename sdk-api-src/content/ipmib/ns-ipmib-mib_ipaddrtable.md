@@ -47,8 +47,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPADDRTABLE
- - PMIB_IPADDRTABLE
  - MIB_IPADDRTABLE
 ---
 
@@ -96,4 +94,3 @@ To view an example that retrieves the <b>MIB_IPADDRTABLE</b> structure and then 
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrrow_w2k">MIB_IPADDRROW</a>
-

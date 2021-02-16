@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioPeakMeter::GetLevel
+ - IAudioPeakMeter.GetLevel
 ---
 
 # IAudioPeakMeter::GetLevel
@@ -102,4 +102,3 @@ Pointer <i>pfLevel</i> is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iaudiopeakmeter-getchannelcount">IAudioPeakMeter::GetChannelCount</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IMultiInterfaceEventControl::SetDefaultQuery
+ - IMultiInterfaceEventControl.SetDefaultQuery
 ---
 
 # IMultiInterfaceEventControl::SetDefaultQuery
@@ -157,4 +157,3 @@ Following are some examples of valid query criteria:
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
-

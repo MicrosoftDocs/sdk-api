@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFCollection::GetElementCount
+ - IMFCollection.GetElementCount
 ---
 
 # IMFCollection::GetElementCount
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfcollection">IMFCollection</a>
-

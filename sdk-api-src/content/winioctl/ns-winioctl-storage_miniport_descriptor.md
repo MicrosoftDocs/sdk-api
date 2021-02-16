@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_MINIPORT_DESCRIPTOR
- - PSTORAGE_MINIPORT_DESCRIPTOR
  - STORAGE_MINIPORT_DESCRIPTOR
 ---
 
@@ -137,4 +135,3 @@ Indicates whether a target reset is supported.
 
 
 <a href="/windows/desktop/api/winioctl/ne-winioctl-storage_port_code_set">STORAGE_PORT_CODE_SET</a>
-

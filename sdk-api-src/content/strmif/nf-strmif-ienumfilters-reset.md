@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumFilters::Reset
+ - IEnumFilters.Reset
 ---
 
 # IEnumFilters::Reset
@@ -66,4 +66,3 @@ Returns S_OK.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>
-

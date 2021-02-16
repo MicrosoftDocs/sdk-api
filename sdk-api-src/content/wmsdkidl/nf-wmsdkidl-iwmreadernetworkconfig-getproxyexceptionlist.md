@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::GetProxyExceptionList
+ - IWMReaderNetworkConfig.GetProxyExceptionList
 ---
 
 # IWMReaderNetworkConfig::GetProxyExceptionList
@@ -126,4 +126,3 @@ For more information, see the Remarks for <a href="/windows/desktop/api/wmsdkidl
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxyexceptionlist">IWMReaderNetworkConfig::SetProxyExceptionList</a>
-

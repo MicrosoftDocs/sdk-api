@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineAddProviderW
  - tapi/lineAddProviderW
- - lineAddProvider
- - tapi/lineAddProvider
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineAddProviderW
  - lineAddProvider
+ - lineAddProviderA
+ - lineAddProviderW
 ---
 
 # lineAddProviderW function
@@ -126,4 +125,3 @@ This function copies no files—not the service provider DLL itself nor any supp
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-

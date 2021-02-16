@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumACDGroup::Reset
+ - IEnumACDGroup.Reset
 ---
 
 # IEnumACDGroup::Reset
@@ -95,4 +95,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itacdgroup">ITACDGroup</a>
-

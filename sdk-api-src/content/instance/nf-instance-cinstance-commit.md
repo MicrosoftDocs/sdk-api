@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::Commit
+ - CInstance.Commit
+ - ?Commit@CInstance@@QAEJXZ
+ - ?Commit@CInstance@@QEAAJXZ
 ---
 
 # CInstance::Commit
@@ -70,4 +72,3 @@ Use the <b>SUCCEEDED</b> or <b>FAILED</b> macro on the returned <b>HRESULT</b> t
 If the client cancels the query, the <b>Commit</b> method returns an error. A provider writer can use this fact to terminate an enumeration.
 
 Also, framework providers should call this method to commit rather than <a href="/windows/desktop/api/provider/nf-provider-provider-commit">Provider::Commit</a>.  <b>Provider::Commit</b> calls <b>CInstance::Release</b> automatically. Smart <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a> pointers cannot be used in this case because the smart <b>CInstance</b> pointer would call <b>CInstance::Release</b> in its destructor. If the release has already occurred, an exception will result. Issues of this type are best resolved by allowing the <b>CInstance</b> instance, or a smart pointer to it, to call <b>CInstance::Release</b> when it is appropriate.
-

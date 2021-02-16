@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_ID
- - PHTTP_SERVICE_CONFIG_ID
  - HTTP_SERVICE_CONFIG_ID
 ---
 
@@ -126,4 +124,3 @@ Terminates the enumeration; is not used to define a service configuration option
 
 
 <a href="/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
-

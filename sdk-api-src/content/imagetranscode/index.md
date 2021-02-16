@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - imagetranscode
  - imagetranscode/imagetranscode
-api_name:
- - imagetranscode
 ---
 
 # Imagetranscode.h header

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::GetProxyBypassForLocal
+ - IWMReaderNetworkConfig.GetProxyBypassForLocal
 ---
 
 # IWMReaderNetworkConfig::GetProxyBypassForLocal
@@ -116,4 +116,3 @@ Insufficient memory to complete task
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxybypassforlocal">IWMReaderNetworkConfig::SetProxyBypassForLocal</a>
-

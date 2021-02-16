@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ContextInfo::GetTransaction
+ - ContextInfo.GetTransaction
 ---
 
 # ContextInfo::GetTransaction
@@ -94,4 +94,3 @@ The object is not executing in a transaction. The <i>ppTx</i> parameter is <b>NU
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IBandSite::QueryBand
+ - IBandSite.QueryBand
 ---
 
 # IBandSite::QueryBand
@@ -89,4 +89,3 @@ The size of the <i>pszName</i> buffer, in characters.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

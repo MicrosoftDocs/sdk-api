@@ -35,7 +35,6 @@ api_location:
 api_name:
  - ID3D12Device8::GetCopyableFootprints1
 f1_keywords:
- - ID3D12Device8::GetCopyableFootprints1
  - d3d12/ID3D12Device8::GetCopyableFootprints1
 dev_langs:
  - c++
@@ -112,4 +111,3 @@ For remarks and examples, see [ID3D12Device::GetCopyableFootprints](./nf-d3d12-i
 * <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
 
 * [Sampler feedback specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html)
-

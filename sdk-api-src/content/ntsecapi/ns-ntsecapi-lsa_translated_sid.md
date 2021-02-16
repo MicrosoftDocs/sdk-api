@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _LSA_TRANSLATED_SID
- - PLSA_TRANSLATED_SID
  - LSA_TRANSLATED_SID
 ---
 
@@ -134,4 +132,3 @@ If there is no corresponding domain for an account, this member contains a negat
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
-

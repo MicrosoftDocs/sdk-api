@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Madcapcl.h
 api_name:
- - _MCAST_CLIENT_UID
- - LPMCAST_CLIENT_UID
  - MCAST_CLIENT_UID
 ---
 
@@ -104,4 +102,3 @@ Size of the <b>ClientUID</b> member, in bytes.
 
 
 <a href="/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
-

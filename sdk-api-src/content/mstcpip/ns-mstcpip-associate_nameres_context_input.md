@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _ASSOCIATE_NAMERES_CONTEXT_INPUT
- - PASSOCIATE_NAMERES_CONTEXT_INPUT
  - ASSOCIATE_NAMERES_CONTEXT_INPUT
 ---
 
@@ -220,4 +218,3 @@ Exit:
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex4">addrinfoex4</a>
-

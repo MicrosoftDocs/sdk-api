@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
- - tagRPC_EXTENDED_ERROR_INFO
  - RPC_EXTENDED_ERROR_INFO
 ---
 
@@ -168,4 +167,3 @@ The
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcerrorstartenumeration">RpcErrorStartEnumeration</a>
-

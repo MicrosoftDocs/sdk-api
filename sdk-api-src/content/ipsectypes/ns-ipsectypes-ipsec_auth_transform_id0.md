@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_AUTH_TRANSFORM_ID0_
  - IPSEC_AUTH_TRANSFORM_ID0
 ---
 
@@ -161,4 +160,3 @@ AES data integrity and data origin authentication  algorithm, with 256-bit key.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

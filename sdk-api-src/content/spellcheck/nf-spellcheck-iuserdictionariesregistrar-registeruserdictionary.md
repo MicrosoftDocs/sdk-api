@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IUserDictionariesRegistrar::RegisterUserDictionary
+ - IUserDictionariesRegistrar.RegisterUserDictionary
 ---
 
 # IUserDictionariesRegistrar::RegisterUserDictionary
@@ -127,4 +127,3 @@ A file registered for a language subtag will be picked up for all languages that
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-iuserdictionariesregistrar">IUserDictionariesRegistrar</a>
-

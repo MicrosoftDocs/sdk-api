@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1ImageSourceFromWic::EnsureCached
+ - ID2D1ImageSourceFromWic.EnsureCached
 ---
 
 # ID2D1ImageSourceFromWic::EnsureCached(const D2D1_RECT_U)
@@ -83,4 +83,3 @@ This operation is only supported when the image source has been initialized usin
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesourcefromwic">ID2D1ImageSourceFromWic</a>
-

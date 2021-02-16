@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredentialCache::GetCredential
+ - IMFNetCredentialCache.GetCredential
 ---
 
 # IMFNetCredentialCache::GetCredential
@@ -100,4 +100,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredentialcache">IMFNetCredentialCache</a>
-

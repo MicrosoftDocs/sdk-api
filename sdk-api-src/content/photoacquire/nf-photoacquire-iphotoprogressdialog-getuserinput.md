@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog::GetUserInput
+ - IPhotoProgressDialog.GetUserInput
 ---
 
 # IPhotoProgressDialog::GetUserInput
@@ -115,4 +115,3 @@ If the progress dialog box has been suppressed in <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
-

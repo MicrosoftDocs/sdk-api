@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_simple_bind_s
+ - ldap_simple_bind_sA
+ - ldap_simple_bind_sW
 ---
 
 # ldap_simple_bind_s function
@@ -115,4 +117,3 @@ When all of the operations on the session handle are completed, terminate the se
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-

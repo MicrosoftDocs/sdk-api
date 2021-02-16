@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator::GetDependencies
+ - IUIAnimationInterpolator.GetDependencies
 ---
 
 # IUIAnimationInterpolator::GetDependencies
@@ -92,4 +92,3 @@ It is important that an interpolator return correct set of flags. If a flag is n
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_dependencies">UI_ANIMATION_DEPENDENCIES</a>
-

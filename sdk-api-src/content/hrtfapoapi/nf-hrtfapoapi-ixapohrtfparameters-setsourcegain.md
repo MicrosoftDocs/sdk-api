@@ -42,7 +42,7 @@ api_type:
 api_location:
  - HrtfApo.dll
 api_name:
- - IXAPOHrtfParameters::SetSourceGain
+ - IXAPOHrtfParameters.SetSourceGain
 ---
 
 # IXAPOHrtfParameters::SetSourceGain
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/hrtfapoapi/nn-hrtfapoapi-ixapohrtfparameters">IXAPOHrtfParameters</a>
-

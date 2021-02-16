@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection::get_FarmName
+ - ITsSbClientConnection.FarmName
+ - ITsSbClientConnection.get_FarmName
 ---
 
 # ITsSbClientConnection::get_FarmName
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
-

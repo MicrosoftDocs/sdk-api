@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDServiceProxy::UnsubscribeToOperation
+ - IWSDServiceProxy.UnsubscribeToOperation
 ---
 
 # IWSDServiceProxy::UnsubscribeToOperation
@@ -105,4 +105,3 @@ The proxy is not subscribed to the notification specified by <i>pOperation</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
-

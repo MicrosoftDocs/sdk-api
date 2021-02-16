@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1DrawInfo::SetVertexProcessing
+ - ID2D1DrawInfo.SetVertexProcessing
 ---
 
 # ID2D1DrawInfo::SetVertexProcessing
@@ -131,4 +131,3 @@ If this call fails, the corresponding <a href="/windows/desktop/api/d2d1_1/nn-d2
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-loadvertexshader">ID2D1EffectContext::LoadVertexShader</a>
-

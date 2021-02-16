@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_STREAM_INFO
- - PFILE_STREAM_INFO
  - FILE_STREAM_INFO
 ---
 
@@ -100,4 +98,3 @@ The <b>FILE_STREAM_INFO</b> structure must be aligned on a <b>LONGLONG</b> (8-by
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

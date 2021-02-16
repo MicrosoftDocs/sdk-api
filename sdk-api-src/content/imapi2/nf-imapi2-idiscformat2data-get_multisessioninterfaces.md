@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data::get_MultisessionInterfaces
+ - IDiscFormat2Data.get_MultisessionInterfaces
 ---
 
 # IDiscFormat2Data::get_MultisessionInterfaces
@@ -106,4 +106,3 @@ The array will always contain at least one element.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-

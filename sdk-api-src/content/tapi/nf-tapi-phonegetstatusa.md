@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - phoneGetStatusA
  - tapi/phoneGetStatusA
- - phoneGetStatus
- - tapi/phoneGetStatus
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - phoneGetStatusA
  - phoneGetStatus
+ - phoneGetStatusA
+ - phoneGetStatusW
 ---
 
 # phoneGetStatusA function
@@ -95,4 +94,3 @@ An application can use this function to determine the current state of an open p
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-

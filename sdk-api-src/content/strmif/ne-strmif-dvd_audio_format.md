@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_AUDIO_FORMAT
  - DVD_AUDIO_FORMAT
 ---
 
@@ -100,4 +99,3 @@ This enumeration is a member of the [DVD_AudioAttributes](/windows/desktop/api/s
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

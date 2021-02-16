@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_search_extA
  - winldap/ldap_search_extA
- - ldap_search_ext
- - winldap/ldap_search_ext
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_search_extA
  - ldap_search_ext
+ - ldap_search_extA
+ - ldap_search_extW
 ---
 
 # ldap_search_extA function
@@ -195,4 +194,3 @@ Multithreading: Calls to <b>ldap_search_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
-

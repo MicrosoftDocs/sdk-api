@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::FreeExtra
+ - CHString.FreeExtra
 ---
 
 # CHString::FreeExtra
@@ -64,4 +64,3 @@ The <b>FreeExtra</b> method frees any extra memory that was previously allocated
 ## -returns
 
 This method does not return a value.
-

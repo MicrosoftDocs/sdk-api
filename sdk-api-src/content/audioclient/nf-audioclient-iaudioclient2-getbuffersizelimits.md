@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient2::GetBufferSizeLimits
+ - IAudioClient2.GetBufferSizeLimits
 ---
 
 # IAudioClient2::GetBufferSizeLimits
@@ -84,4 +84,3 @@ and does not require prior audio stream initialization.
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList::AbortList
+ - ICustomDestinationList.AbortList
 ---
 
 # ICustomDestinationList::AbortList
@@ -71,4 +71,3 @@ This method allows an application to use a single <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

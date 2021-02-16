@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::get_PolicyAdministratorsName
+ - IAzApplication.PolicyAdministratorsName
+ - IAzApplication.get_PolicyAdministratorsName
+ - AzApplication.PolicyAdministratorsName
 ---
 
 # IAzApplication::get_PolicyAdministratorsName
@@ -70,4 +72,3 @@ Policy administrators for an object can perform the following tasks:
 <li>Create child objects of the object</li>
 </ul>
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
-

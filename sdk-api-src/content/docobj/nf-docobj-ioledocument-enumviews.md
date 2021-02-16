@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocument::EnumViews
+ - IOleDocument.EnumViews
 ---
 
 # IOleDocument::EnumViews
@@ -114,4 +114,3 @@ If the document object supports only a single view, <b>IOleDocument::EnumViews</
 
 
 <a href="/windows/desktop/api/docobj/nn-docobj-ioledocumentview">IOleDocumentView</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _PUBKEY
  - DHPUBKEY
 ---
 
@@ -77,4 +76,3 @@ Number of bits in the prime modulus, P.
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-publickeystruc">PUBLICKEYSTRUC</a>
-

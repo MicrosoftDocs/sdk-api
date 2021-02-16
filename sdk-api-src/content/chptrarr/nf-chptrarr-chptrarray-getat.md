@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHPtrArray::GetAt
+ - CHPtrArray.GetAt
+ - ?GetAt@CHPtrArray@@QBEPAXH@Z
 ---
 
 # CHPtrArray::GetAt
@@ -76,4 +77,3 @@ If the <b>GetAt</b> method is successful, it returns the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
-

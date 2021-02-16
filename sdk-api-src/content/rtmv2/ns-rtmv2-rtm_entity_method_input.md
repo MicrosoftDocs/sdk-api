@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_ENTITY_METHOD_INPUT
- - PRTM_ENTITY_METHOD_INPUT
  - RTM_ENTITY_METHOD_INPUT
 ---
 
@@ -76,4 +74,3 @@ Buffer for input data for the method.
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtminvokemethod">RtmInvokeMethod</a>
-

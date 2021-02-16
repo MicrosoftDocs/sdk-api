@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMXDECN4::operator uint32_t
+ - XMXDECN4.operator uint32_t
 ---
 
 # XMXDECN4::operator uint32_t
@@ -105,4 +105,3 @@ The last 2 bits (bits 30-31) of the return value are the <b>w</b> component
 
 
 <a href="/windows/desktop/dxmath/ovw-xmxdecn4-operators">XMXDECN4 Operators</a>
-

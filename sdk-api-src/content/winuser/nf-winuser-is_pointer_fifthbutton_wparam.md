@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - IS_POINTER_FIFTHBUTTON_WPARAM
+ - IS_POINTER_SECONDBUTTON_WPARAM
 ---
 
 # IS_POINTER_FIFTHBUTTON_WPARAM macro
@@ -61,4 +61,3 @@ The value to be converted.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/inputmsg/macros">Macros</a>
-

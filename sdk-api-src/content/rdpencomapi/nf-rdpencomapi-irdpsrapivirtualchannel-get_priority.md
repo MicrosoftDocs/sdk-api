@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannel::get_Priority
+ - IRDPSRAPIVirtualChannel.Priority
+ - IRDPSRAPIVirtualChannel.get_Priority
+ - RDPSRAPIVirtualChannel.Priority
 ---
 
 # IRDPSRAPIVirtualChannel::get_Priority
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannel">IRDPSRAPIVirtualChannel</a>
-

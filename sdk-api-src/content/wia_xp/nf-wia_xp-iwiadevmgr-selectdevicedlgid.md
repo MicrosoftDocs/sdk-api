@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr::SelectDeviceDlgID
+ - IWiaDevMgr.SelectDeviceDlgID
 ---
 
 # IWiaDevMgr::SelectDeviceDlgID
@@ -131,4 +131,3 @@ Particular types of devices may be displayed to the user by specifying the devic
 If more than one WIA device matches the specification, all matching devices are displayed in the <b>Select Device</b> dialog box so the user may choose one.
 
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
-

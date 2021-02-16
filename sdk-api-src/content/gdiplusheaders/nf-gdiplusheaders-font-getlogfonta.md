@@ -43,7 +43,8 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::GetLogFontA
+ - Font.GetLogFontA
+ - getlogfonta
 ---
 
 # Font::GetLogFontA
@@ -91,4 +92,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

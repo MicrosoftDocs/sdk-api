@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12StateObjectProperties::SetPipelineStackSize
+ - ID3D12StateObjectProperties.SetPipelineStackSize
 ---
 
 # ID3D12StateObjectProperties::SetPipelineStackSize
@@ -69,4 +69,3 @@ The runtime drops calls to state objects other than raytracing pipelines, such a
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847466(v=VS.85).aspx">ID3D12StateObjectProperties</a>
-

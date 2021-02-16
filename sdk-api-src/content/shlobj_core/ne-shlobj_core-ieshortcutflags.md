@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - tagIESHORTCUTFLAGS
  - IESHORTCUTFLAGS
 ---
 

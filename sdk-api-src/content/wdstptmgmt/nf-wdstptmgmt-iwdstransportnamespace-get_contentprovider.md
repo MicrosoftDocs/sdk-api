@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace::get_ContentProvider
+ - IWdsTransportNamespace.ContentProvider
+ - IWdsTransportNamespace.get_ContentProvider
+ - IWdsTransportNamespace.put_ContentProvider
 ---
 
 # IWdsTransportNamespace::get_ContentProvider
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
-

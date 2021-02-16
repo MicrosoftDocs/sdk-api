@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
- - _RDV_TASK_STATUS
  - RDV_TASK_STATUS
 ---
 
@@ -96,4 +95,3 @@ Task did not finish in the allotted time.
 ## -see-also
 
 <a href="/windows/desktop/TermServ/irdvtaskpluginnotifysink-ontaskstatechange">IRDVTaskPluginNotifySink::OnTaskStateChange</a>
-

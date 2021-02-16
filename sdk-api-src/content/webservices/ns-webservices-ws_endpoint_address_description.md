@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_ENDPOINT_ADDRESS_DESCRIPTION
  - WS_ENDPOINT_ADDRESS_DESCRIPTION
 ---
 
@@ -60,4 +59,3 @@ Information about a mapping between an <a href="/windows/desktop/api/webservices
 ### -field addressingVersion
 
 The WS-Addressing version to use when serializing the endpoint address.
-

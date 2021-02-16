@@ -9,8 +9,6 @@ tech.root: hid
 f1_keywords:
  - dinputd
  - dinputd/dinputd
-api_name:
- - dinputd
 ---
 
 # Dinputd.h header

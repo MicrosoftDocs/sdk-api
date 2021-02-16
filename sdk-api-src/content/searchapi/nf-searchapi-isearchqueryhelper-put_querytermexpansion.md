@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchQueryHelper::put_QueryTermExpansion
+ - ISearchQueryHelper.put_QueryTermExpansion
 ---
 
 # ISearchQueryHelper::put_QueryTermExpansion
@@ -93,4 +93,3 @@ Checkout the <a href="/windows/win32/search/-search-sample-dsearch">DSearch code
 
 
 <a href="/windows/desktop/api/searchapi/ne-searchapi-search_term_expansion">SEARCH_TERM_EXPANSION</a>
-

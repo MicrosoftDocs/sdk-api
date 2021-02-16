@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice2::GetStorage
+ - IWMDMDevice2.GetStorage
 ---
 
 # IWMDMDevice2::GetStorage
@@ -131,4 +131,3 @@ HRESULT myFindStorageRecursively(LPCWSTR storageName, IWMDMStorage* pCurrentStor
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice2">IWMDMDevice2 Interface</a>
-

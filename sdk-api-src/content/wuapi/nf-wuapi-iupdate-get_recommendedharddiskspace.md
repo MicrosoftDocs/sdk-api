@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_RecommendedHardDiskSpace
+ - IUpdate.RecommendedHardDiskSpace
+ - IUpdate.get_RecommendedHardDiskSpace
 ---
 
 # IUpdate::get_RecommendedHardDiskSpace
@@ -73,4 +74,3 @@ The following properties of the <a href="/windows/desktop/api/wuapi/nn-wuapi-iup
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

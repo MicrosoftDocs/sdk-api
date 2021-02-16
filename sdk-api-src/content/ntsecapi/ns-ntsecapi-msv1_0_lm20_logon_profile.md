@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _MSV1_0_LM20_LOGON_PROFILE
- - PMSV1_0_LM20_LOGON_PROFILE
  - MSV1_0_LM20_LOGON_PROFILE
 ---
 
@@ -215,4 +213,3 @@ Contains the Lanman session key. This string is MSV1_0_LANMAN_SESSION_KEY_LENGTH
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_profile_buffer_type">MSV1_0_PROFILE_BUFFER_TYPE</a>
-

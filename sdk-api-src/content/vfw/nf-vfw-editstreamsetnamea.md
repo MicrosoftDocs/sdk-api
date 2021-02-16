@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EditStreamSetNameA
  - vfw/EditStreamSetNameA
- - EditStreamSetName
- - vfw/EditStreamSetName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - EditStreamSetNameA
  - EditStreamSetName
+ - EditStreamSetNameA
+ - EditStreamSetNameW
 ---
 
 # EditStreamSetNameA function
@@ -87,4 +86,3 @@ This function updates the <b>szName</b> member of the <b>AVISTREAMINFO</b> struc
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-

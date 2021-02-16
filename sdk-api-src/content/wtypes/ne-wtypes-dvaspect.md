@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
- - tagDVASPECT
  - DVASPECT
 ---
 
@@ -116,4 +115,3 @@ The default value of <b>MiscStatus</b> is used if a subkey corresponding to the 
 
 
 <a href="/windows/desktop/api/ole/nf-ole-oledraw">OleDraw</a>
-

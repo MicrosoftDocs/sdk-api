@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferAdviseSink::ConfirmEncryptionLoss
+ - ITransferAdviseSink.ConfirmEncryptionLoss
 ---
 
 # ITransferAdviseSink::ConfirmEncryptionLoss
@@ -105,4 +105,3 @@ Error has been queued and will display later. Operation on this file will be ski
 </td>
 </tr>
 </table>
-

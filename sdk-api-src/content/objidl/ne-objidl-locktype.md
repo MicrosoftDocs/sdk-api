@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
- - tagLOCKTYPE
  - LOCKTYPE
 ---
 
@@ -71,4 +70,3 @@ If this lock is granted, writing to the specified range of bytes is prohibited e
 ### -field LOCK_ONLYONCE
 
 If this lock is granted, no other <b>LOCK_ONLYONCE</b> lock can be obtained on the range. Usually this lock type is an alias for some other lock type. Thus, specific implementations can have additional behavior associated with this lock type.
-

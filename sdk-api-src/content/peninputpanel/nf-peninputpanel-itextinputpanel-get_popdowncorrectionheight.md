@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel::get_PopDownCorrectionHeight
+ - ITextInputPanel.PopDownCorrectionHeight
+ - ITextInputPanel.get_PopDownCorrectionHeight
+ - ITextInputPanel.get_PopDownCorrectionHeight
 ---
 
 # ITextInputPanel::get_PopDownCorrectionHeight
@@ -155,4 +157,3 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPAUTO_PROXY_SCRIPT_BUFFER
  - AUTO_PROXY_SCRIPT_BUFFER
 ---
 
@@ -77,4 +76,3 @@ Size of the script buffer pointed to by <b>lpszScriptBuffer</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetinitializeautoproxydll">InternetInitializeAutoProxyDll</a>
-

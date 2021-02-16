@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtensions::get__NewEnum
+ - IFaxInboundRoutingExtensions.get__NewEnum
 ---
 
 # IFaxInboundRoutingExtensions::get__NewEnum
@@ -73,4 +73,3 @@ In Microsoft Visual Basic, you do not need to use the <b>_NewEnum</b> property b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxinboundroutingextensions">IFaxInboundRoutingExtensions</a>
-

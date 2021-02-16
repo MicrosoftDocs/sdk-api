@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex::ReadDvdStructure
+ - IDiscRecorder2Ex.ReadDvdStructure
 ---
 
 # IDiscRecorder2Ex::ReadDvdStructure
@@ -419,4 +419,3 @@ This method removes the complexity of working with the READ DISC STRUCTURE comma
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-senddvdstructure">IDiscRecorder2Ex::SendDvdStructure</a>
-

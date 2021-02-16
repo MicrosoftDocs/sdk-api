@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolListener::GetSettings
+ - IWRdsProtocolListener.GetSettings
 ---
 
 # IWRdsProtocolListener::GetSettings
@@ -71,4 +71,3 @@ see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Va
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a>
-

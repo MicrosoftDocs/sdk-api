@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::Stop
+ - IMSVidCtl.Stop
 ---
 
 # IMSVidCtl::Stop
@@ -65,4 +65,3 @@ This method leaves the filter graph intact and ready to pause or run. To tear do
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
-

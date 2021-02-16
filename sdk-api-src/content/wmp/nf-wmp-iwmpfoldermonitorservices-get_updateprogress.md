@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices::get_updateProgress
+ - IWMPFolderMonitorServices.get_updateProgress
 ---
 
 # IWMPFolderMonitorServices::get_updateProgress
@@ -107,4 +107,3 @@ A scanning operation consists of two phases: scanning and updating. This method 
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate">WMPFolderScanState</a>
-

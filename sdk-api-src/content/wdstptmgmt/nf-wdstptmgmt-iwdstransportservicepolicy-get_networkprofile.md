@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy::get_NetworkProfile
+ - IWdsTransportServicePolicy.NetworkProfile
+ - IWdsTransportServicePolicy.get_NetworkProfile
+ - IWdsTransportServicePolicy.put_NetworkProfile
 ---
 
 # IWdsTransportServicePolicy::get_NetworkProfile
@@ -65,4 +67,3 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_network_profile_type">WDSTRANSPORT_NETWORK_PROFILE_TYPE</a>
-

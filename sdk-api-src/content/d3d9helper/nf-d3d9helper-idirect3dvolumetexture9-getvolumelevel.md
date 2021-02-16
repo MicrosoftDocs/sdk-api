@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolumeTexture9::GetVolumeLevel
+ - IDirect3DVolumeTexture9.GetVolumeLevel
 ---
 
 # IDirect3DVolumeTexture9::GetVolumeLevel
@@ -80,4 +80,3 @@ Calling this method will increase the internal reference count on the <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9">IDirect3DVolumeTexture9</a>
-

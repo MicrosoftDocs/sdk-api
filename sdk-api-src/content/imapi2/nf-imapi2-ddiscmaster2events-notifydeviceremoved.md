@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - DDiscMaster2Events::NotifyDeviceRemoved
+ - DDiscMaster2Events.NotifyDeviceRemoved
 ---
 
 # DDiscMaster2Events::NotifyDeviceRemoved
@@ -75,4 +75,3 @@ Return values are ignored.
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscmaster2">IDiscMaster2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - http.h
 api_name:
- - HTTPAPI_VERSION_GREATER_OR_EQUAL
+ - HTTP_GREATER_EQUAL_VERSION
 ---
 
 # HTTPAPI_VERSION_GREATER_OR_EQUAL macro
@@ -71,4 +71,3 @@ The minor portion of the version to be compared.
 ## -see-also
 
 <a href="/windows/desktop/Http/http-server-api-version-1-0-macros">HTTP Server API Version 1.0 Macros</a>
-

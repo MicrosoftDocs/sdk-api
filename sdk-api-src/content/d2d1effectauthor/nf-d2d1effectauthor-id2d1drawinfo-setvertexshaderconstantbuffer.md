@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1DrawInfo::SetVertexShaderConstantBuffer
+ - ID2D1DrawInfo.SetVertexShaderConstantBuffer
 ---
 
 # ID2D1DrawInfo::SetVertexShaderConstantBuffer
@@ -76,4 +76,3 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>
-

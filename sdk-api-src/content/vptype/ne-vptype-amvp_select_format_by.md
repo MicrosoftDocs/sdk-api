@@ -44,7 +44,6 @@ api_type:
 api_location:
  - vptype.h
 api_name:
- - _AMVP_SELECT_FORMAT_BY
  - AMVP_SELECT_FORMAT_BY
 ---
 
@@ -72,4 +71,3 @@ Use the same input format as output format.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

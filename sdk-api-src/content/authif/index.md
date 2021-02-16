@@ -9,8 +9,6 @@ tech.root: nps
 f1_keywords:
  - authif
  - authif/authif
-api_name:
- - authif
 ---
 
 # Authif.h header

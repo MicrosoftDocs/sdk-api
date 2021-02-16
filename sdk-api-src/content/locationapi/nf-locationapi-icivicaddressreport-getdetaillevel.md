@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ICivicAddressReport::GetDetailLevel
+ - ICivicAddressReport.GetDetailLevel
 ---
 
 # ICivicAddressReport::GetDetailLevel
@@ -72,4 +72,3 @@ To determine whether a civic address report contains valid data for a particular
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-icivicaddressreport">ICivicAddressReport</a>
-

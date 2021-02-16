@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_SerialNumber
+ - IDataCollectorSet.SerialNumber
+ - IDataCollectorSet.get_SerialNumber
+ - IDataCollectorSet.put_SerialNumber
 ---
 
 # IDataCollectorSet::get_SerialNumber
@@ -65,4 +67,3 @@ PLA increments the serial number after using it.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
-

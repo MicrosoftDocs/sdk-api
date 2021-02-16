@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocParser::Init
+ - ITocParser.Init
 ---
 
 # ITocParser::Init
@@ -89,4 +89,3 @@ The path that you pass in <i>pwszFileName</i> must be a long Universal Naming Co
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocparser">ITocParser</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::get_PrivateKey
+ - IX509CertificateRequestPkcs10.PrivateKey
+ - IX509CertificateRequestPkcs10.get_PrivateKey
 ---
 
 # IX509CertificateRequestPkcs10::get_PrivateKey
@@ -79,4 +80,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

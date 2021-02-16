@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumAddress::Clone
+ - IEnumAddress.Clone
 ---
 
 # IEnumAddress::Clone
@@ -128,4 +128,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color::Color
+ - Color.Color
 ---
 
 # Color::Color(IN ARGB)
@@ -79,4 +79,3 @@ An
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-makeargb">Color::MakeARGB</a>
-

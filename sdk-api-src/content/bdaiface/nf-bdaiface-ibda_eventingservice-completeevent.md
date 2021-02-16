@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_EventingService::CompleteEvent
+ - IBDA_EventingService.CompleteEvent
 ---
 
 # IBDA_EventingService::CompleteEvent
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_eventingservice">IBDA_EventingService</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PEXTEND_RES_CONTROL_CALL
+ - ExtendControlCall
 ---
 
 # PEXTEND_RES_CONTROL_CALL callback function
@@ -73,4 +73,3 @@ The new timeout, in milliseconds.
 
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVPConfig::IsVPDecimationAllowed
+ - IVPConfig.IsVPDecimationAllowed
 ---
 
 # IVPConfig::IsVPDecimationAllowed
@@ -76,4 +76,3 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpconfig">IVPConfig Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_MATCH_TYPE_
  - FWP_MATCH_TYPE
 ---
 
@@ -151,4 +150,3 @@ Exceptions to this rule are as follows.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

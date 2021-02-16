@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_CERTIFICATE_HASHINFO
- - PKERB_CERTIFICATE_HASHINFO
  - KERB_CERTIFICATE_HASHINFO
 ---
 

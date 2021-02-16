@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - dsgetdc
  - dsgetdc/dsgetdc
-api_name:
- - dsgetdc
 ---
 
 # Dsgetdc.h header

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_FileNamePattern
+ - IFsrmFileManagementJob.FileNamePattern
+ - IFsrmFileManagementJob.get_FileNamePattern
+ - IFsrmFileManagementJob.put_FileNamePattern
 ---
 
 # IFsrmFileManagementJob::get_FileNamePattern
@@ -76,4 +78,3 @@ A file name pattern is a string expression that defines a set of file names. The
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

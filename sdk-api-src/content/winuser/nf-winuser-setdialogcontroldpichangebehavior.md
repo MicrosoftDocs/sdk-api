@@ -42,7 +42,7 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - SetDialogControlDpiChangeBehavior
+ - SetDialogResizeBehavior
 ---
 
 # SetDialogControlDpiChangeBehavior function
@@ -87,4 +87,3 @@ This API influences individual controls within dialogs. The dialog-wide per-moni
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-getdialogcontroldpichangebehavior">GetDialogControlDpiChangeBehavior</a>
-

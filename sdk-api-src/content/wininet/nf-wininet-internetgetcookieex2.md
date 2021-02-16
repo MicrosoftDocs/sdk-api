@@ -17,7 +17,7 @@ req.include-header:
 req.irql: 
 req.kmdf-ver: 
 req.lib: Wininet.lib
-req.dll: Wininet.dll
+req.dll: Wininet.dll 
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -29,9 +29,6 @@ req.umdf-ver:
 req.unicode-ansi: 
 f1_keywords:
  - InternetGetCookieEx2
- - wininet/InternetGetCookieEx2
- - InternetGetCookieEx
- - wininet/InternetGetCookieEx
 topic_type:
  - apiref
 api_type:
@@ -40,7 +37,6 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetGetCookieEx2
- - InternetGetCookieEx
 ---
 
 ## -description
@@ -96,4 +92,3 @@ Returns ERROR_SUCCESS if successful, or a [system error code](/windows/desktop/d
 [InternetFreeCookies](nf-wininet-internetfreecookies.md)
 
 [WinINet Functions](/windows/win32/wininet/wininet-functions)
-

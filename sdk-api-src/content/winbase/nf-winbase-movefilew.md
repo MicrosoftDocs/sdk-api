@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MoveFileW
  - winbase/MoveFileW
- - MoveFile
- - winbase/MoveFile
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - MoveFileW
  - MoveFile
+ - MoveFileA
+ - MoveFileW
 ---
 
 # MoveFileW function
@@ -206,4 +205,3 @@ SMB 3.0 does not support rename of alternate data streams on file shares with co
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-movefilewithprogressa">MoveFileWithProgress</a>
-

@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcEpRegisterNoReplace
+ - RpcEpRegisterNoReplaceA
+ - RpcEpRegisterNoReplaceW
 ---
 
 # RpcEpRegisterNoReplace function
@@ -235,4 +237,3 @@ Each element added to the endpoint-map database logically contains the following
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
-

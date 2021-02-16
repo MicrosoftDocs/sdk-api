@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCustomTone::get_CadenceOff
+ - ITCustomTone.get_CadenceOff
 ---
 
 # ITCustomTone::get_CadenceOff
@@ -99,4 +99,3 @@ The <i>plCadenceOff</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-put_cadenceoff">put_CadenceOff</a>
-

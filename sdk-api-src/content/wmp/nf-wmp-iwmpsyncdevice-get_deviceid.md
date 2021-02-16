@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::get_deviceId
+ - IWMPSyncDevice.get_deviceId
 ---
 
 # IWMPSyncDevice::get_deviceId
@@ -108,4 +108,3 @@ The device identifier is the serial number for the device. This value is not gua
 
 
 <a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
-

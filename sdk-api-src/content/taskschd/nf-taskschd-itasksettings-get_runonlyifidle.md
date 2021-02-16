@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings::get_RunOnlyIfIdle
+ - ITaskSettings.RunOnlyIfIdle
+ - ITaskSettings.get_RunOnlyIfIdle
+ - ITaskSettings.put_RunOnlyIfIdle
 ---
 
 # ITaskSettings::get_RunOnlyIfIdle
@@ -67,4 +69,3 @@ When reading or writing  XML for a task, this setting is specified in the  <a hr
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

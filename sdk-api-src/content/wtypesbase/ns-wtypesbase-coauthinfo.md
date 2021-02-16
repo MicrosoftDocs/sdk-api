@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wtypesbase.h
 api_name:
- - _COAUTHINFO
  - COAUTHINFO
 ---
 
@@ -107,4 +106,3 @@ If you set <b>dwAuthzSvc</b>, <b>pwszServerPrincName</b>, <b>dwImpersonationLeve
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/ns-objidl-coserverinfo">COSERVERINFO</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_ADAPTER_DESCRIPTOR
- - PSTORAGE_ADAPTER_DESCRIPTOR
  - STORAGE_ADAPTER_DESCRIPTOR
 ---
 
@@ -253,4 +251,3 @@ This member is valid starting with Windows 8.
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_device_id_descriptor">STORAGE_DEVICE_ID_DESCRIPTOR</a>
-

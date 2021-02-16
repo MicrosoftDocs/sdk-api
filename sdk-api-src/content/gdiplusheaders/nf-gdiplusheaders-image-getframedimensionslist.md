@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetFrameDimensionsList
+ - Image.GetFrameDimensionsList
 ---
 
 # Image::GetFrameDimensionsList
@@ -187,4 +187,3 @@ You can look up the displayed GUID in Gdiplusimaging.h and see that it is the id
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-saveadd(inimage_inconstencoderparameters)">Image::SaveAdd Methods</a>
-

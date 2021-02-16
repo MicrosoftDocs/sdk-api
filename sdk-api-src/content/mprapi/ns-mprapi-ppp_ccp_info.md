@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _PPP_CCP_INFO
  - PPP_CCP_INFO
 ---
 
@@ -277,4 +276,3 @@ MPPE using 128-bit keys.
 ## -see-also
 
 <a href="/windows/desktop/api/mprapi/ns-mprapi-ppp_lcp_info">PPP_LCP_INFO</a>
-

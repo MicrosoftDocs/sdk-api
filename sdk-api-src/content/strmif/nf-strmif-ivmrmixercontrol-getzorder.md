@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerControl::GetZOrder
+ - IVMRMixerControl.GetZOrder
 ---
 
 # IVMRMixerControl::GetZOrder
@@ -115,4 +115,3 @@ The default Z-order is the order in which the pins were created.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

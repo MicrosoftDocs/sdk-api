@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleInterfaces::Remove
+ - IAzBizRuleInterfaces.Remove
 ---
 
 # IAzBizRuleInterfaces::Remove
@@ -71,4 +71,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
-

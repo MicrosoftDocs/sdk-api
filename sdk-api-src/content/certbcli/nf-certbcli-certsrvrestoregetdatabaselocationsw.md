@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CertSrvRestoreGetDatabaseLocationsW
  - certbcli/CertSrvRestoreGetDatabaseLocationsW
- - CertSrvRestoreGetDatabaseLocations
- - certbcli/CertSrvRestoreGetDatabaseLocations
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - CertSrvRestoreGetDatabaseLocationsW
  - CertSrvRestoreGetDatabaseLocations
+ - CertSrvRestoreGetDatabaseLocationsW
 ---
 
 # CertSrvRestoreGetDatabaseLocationsW function
@@ -180,4 +178,3 @@ else
 
 
 <a href="/windows/desktop/SecCrypto/using-the-certificate-services-backup-and-restore-functions">Using the Certificate Services Backup and Restore Functions</a>
-

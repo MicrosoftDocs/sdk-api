@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::DrawIndexedInstanced
+ - ID3D11DeviceContext.DrawIndexedInstanced
 ---
 
 # ID3D11DeviceContext::DrawIndexedInstanced
@@ -96,4 +96,3 @@ The second buffer is needed only if the input layout that you use has elements t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

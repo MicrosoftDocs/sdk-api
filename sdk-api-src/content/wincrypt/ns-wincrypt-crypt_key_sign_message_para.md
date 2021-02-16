@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_KEY_SIGN_MESSAGE_PARA
- - PCRYPT_KEY_SIGN_MESSAGE_PARA
  - CRYPT_KEY_SIGN_MESSAGE_PARA
 ---
 
@@ -148,4 +146,3 @@ This member is not used and must be set to <b>NULL</b>.
 ### -field PubKeyAlgorithm
 
 A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a> structure that specifies the algorithm to use to sign the message. This must be either a public key or a signature algorithm.
-

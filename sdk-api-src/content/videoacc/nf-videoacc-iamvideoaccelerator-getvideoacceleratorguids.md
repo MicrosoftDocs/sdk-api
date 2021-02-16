@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator::GetVideoAcceleratorGUIDs
+ - IAMVideoAccelerator.GetVideoAcceleratorGUIDs
 ---
 
 # IAMVideoAccelerator::GetVideoAcceleratorGUIDs
@@ -158,4 +158,3 @@ Call this method twice. On the first call, set <i>pGuidsSupported</i> to <b>NULL
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-

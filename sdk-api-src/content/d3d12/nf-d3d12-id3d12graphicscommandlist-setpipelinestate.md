@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList::SetPipelineState
+ - ID3D12GraphicsCommandList.SetPipelineState
 ---
 
 # ID3D12GraphicsCommandList::SetPipelineState
@@ -63,4 +63,3 @@ Pointer to the <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12pipelinestate"
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-

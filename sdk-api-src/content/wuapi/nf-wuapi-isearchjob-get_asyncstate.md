@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ISearchJob::get_AsyncState
+ - ISearchJob.AsyncState
+ - ISearchJob.get_AsyncState
 ---
 
 # ISearchJob::get_AsyncState
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchjob">ISearchJob</a>
-

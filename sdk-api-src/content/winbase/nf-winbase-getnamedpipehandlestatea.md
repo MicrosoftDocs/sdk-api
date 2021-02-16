@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetNamedPipeHandleStateA
  - winbase/GetNamedPipeHandleStateA
- - GetNamedPipeHandleState
- - winbase/GetNamedPipeHandleState
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
  - API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - GetNamedPipeHandleStateA
  - GetNamedPipeHandleState
+ - GetNamedPipeHandleStateA
+ - GetNamedPipeHandleStateW
 ---
 
 # GetNamedPipeHandleStateA function
@@ -161,4 +160,3 @@ To set the pipe handle state, use the
 
 
 <a href="/windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate">SetNamedPipeHandleState</a>
-

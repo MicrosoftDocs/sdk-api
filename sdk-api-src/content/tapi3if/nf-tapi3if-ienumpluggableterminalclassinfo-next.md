@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPluggableTerminalClassInfo::Next
+ - IEnumPluggableTerminalClassInfo.Next
 ---
 
 # IEnumPluggableTerminalClassInfo::Next
@@ -140,4 +140,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/Tapi/terminal-class">Terminal Class</a>
-

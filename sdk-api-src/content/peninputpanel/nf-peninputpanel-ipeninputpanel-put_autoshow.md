@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::put_AutoShow
+ - IPenInputPanel.AutoShow
+ - IPenInputPanel.get_AutoShow
+ - IPenInputPanel.put_AutoShow
+ - PenInputPanel.get_AutoShow
+ - PenInputPanel.put_AutoShow
 ---
 
 # IPenInputPanel::put_AutoShow
@@ -72,4 +76,3 @@ When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Inpu
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

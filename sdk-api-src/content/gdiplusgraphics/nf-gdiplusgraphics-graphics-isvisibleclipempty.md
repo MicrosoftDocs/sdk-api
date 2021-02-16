@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::IsVisibleClipEmpty
+ - Graphics.IsVisibleClipEmpty
 ---
 
 # Graphics::IsVisibleClipEmpty
@@ -85,4 +85,3 @@ VOID Example_IsVisibleClipEmpty(HDC hdc)
    }
 }
 ```
-

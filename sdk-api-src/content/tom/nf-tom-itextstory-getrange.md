@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory::GetRange
+ - ITextStory.GetRange
 ---
 
 # ITextStory::GetRange
@@ -110,4 +110,3 @@ Insufficient memory.
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
-

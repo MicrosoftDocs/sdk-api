@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual3::get_GroupBy
+ - IShellFolderViewDual3.get_GroupBy
 ---
 
 # IShellFolderViewDual3::get_GroupBy
@@ -65,4 +65,3 @@ When this method returns, contains a pointer to the column name.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

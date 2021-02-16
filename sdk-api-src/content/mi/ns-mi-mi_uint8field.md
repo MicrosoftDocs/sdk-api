@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_Uint8Field
  - MI_Uint8Field
 ---
 

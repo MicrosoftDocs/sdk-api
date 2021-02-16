@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_USER_FUNCTION_TABLE
- - PSECPKG_USER_FUNCTION_TABLE
  - SECPKG_USER_FUNCTION_TABLE
 ---
 
@@ -116,4 +114,3 @@ Pointer to the <b>ExportContext</b> function.
 ### -field ImportContext
 
 Pointer to the <b>ImportContext</b> function.
-

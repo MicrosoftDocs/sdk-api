@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - _COLORMAP
- - LPCOLORMAP
  - COLORMAP
 ---
 
@@ -71,4 +69,3 @@ Color to map from.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
 Color to map to.
-

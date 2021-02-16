@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSession::BeginSession
+ - ISCPSession.BeginSession
 ---
 
 # ISCPSession::BeginSession
@@ -74,4 +74,3 @@ If the method succeeds, it returns S_OK. If the method fails, it returns an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsession">ISCPSession Interface</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoctl.h
 api_name:
- - _FSCTL_QUERY_REGION_INFO_OUTPUT
- - PFSCTL_QUERY_REGION_INFO_OUTPUT
  - FSCTL_QUERY_REGION_INFO_OUTPUT
 ---
 
@@ -90,4 +88,3 @@ Number of regions that fit in the output.
 ### -field Regions
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier_region">FILE_STORAGE_TIER_REGION</a> struct that contains detailed information for each region.
-

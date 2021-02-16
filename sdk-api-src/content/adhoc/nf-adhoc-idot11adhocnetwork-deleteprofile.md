@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork::DeleteProfile
+ - IDot11AdHocNetwork.DeleteProfile
 ---
 
 # IDot11AdHocNetwork::DeleteProfile
@@ -105,4 +105,3 @@ The method could not allocate the memory required to perform this operation.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-hasprofile">IDot11AdHocNetwork::HasProfile</a>
-

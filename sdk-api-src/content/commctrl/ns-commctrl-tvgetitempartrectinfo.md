@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagTVGETITEMPARTRECTINFO
  - TVGETITEMPARTRECTINFO
 ---
 
@@ -74,4 +73,3 @@ Pointer to a <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> struc
 Type: <b>TVITEMPART</b>
 
 ID of the item part. This value must be <b>TVGIPR_BUTTON</b> (0x0001).
-

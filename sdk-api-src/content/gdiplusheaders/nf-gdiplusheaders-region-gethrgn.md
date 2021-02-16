@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::GetHRGN
+ - Region.GetHRGN
 ---
 
 # Region::GetHRGN
@@ -127,4 +127,3 @@ VOID Example_GetHRGN(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
-

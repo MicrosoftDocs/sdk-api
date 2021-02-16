@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify::OnAbort
+ - IMFSourceBufferNotify.OnAbort
 ---
 
 # IMFSourceBufferNotify::OnAbort
@@ -57,4 +57,3 @@ Used to indicate that the source buffer has been aborted.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
-

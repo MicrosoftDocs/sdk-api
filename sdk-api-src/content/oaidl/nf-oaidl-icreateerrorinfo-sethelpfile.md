@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateErrorInfo::SetHelpFile
+ - ICreateErrorInfo.SetHelpFile
 ---
 
 # ICreateErrorInfo::SetHelpFile
@@ -99,4 +99,3 @@ This method sets the fully qualified path of the Help file that describes the cu
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
-

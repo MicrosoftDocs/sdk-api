@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::BlindTransfer
+ - ITBasicCallControl.BlindTransfer
 ---
 
 # ITBasicCallControl::BlindTransfer
@@ -165,4 +165,3 @@ In some cases, the application may need to use the address translation interface
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineblindtransfer">lineBlindTransfer</a>
-

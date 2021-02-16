@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
  - WS_XML_TOKEN_MESSAGE_SECURITY_BINDING
 ---
 
@@ -122,4 +121,3 @@ used for creating a channel, a copy of the supplied token is made and
 kept for internal use -- the application continues to own the supplied
 token and is responsible for deleting it with <a href="/windows/desktop/api/webservices/nf-webservices-wsfreesecuritytoken">WsFreeSecurityToken</a> any time after the channel creation call
 returns.
-

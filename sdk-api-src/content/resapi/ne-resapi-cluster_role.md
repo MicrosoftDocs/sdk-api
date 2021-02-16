@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - _CLUSTER_ROLE
  - CLUSTER_ROLE
 ---
 
@@ -192,4 +191,3 @@ The virtual machine replica broker role.
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetclusterrolestate">ResUtilGetClusterRoleState</a>
-

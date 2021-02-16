@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler::OnDragLeave
+ - INameSpaceTreeControlDropHandler.OnDragLeave
 ---
 
 # INameSpaceTreeControlDropHandler::OnDragLeave
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontroldrophandler">INameSpaceTreeControlDropHandler</a>
-

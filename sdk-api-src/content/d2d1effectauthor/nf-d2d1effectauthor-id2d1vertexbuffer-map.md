@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1VertexBuffer::Map
+ - ID2D1VertexBuffer.Map
 ---
 
 # ID2D1VertexBuffer::Map
@@ -103,4 +103,3 @@ If <i>data</i> is larger than <i>bufferSize</i>, this method fails.
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1vertexbuffer">ID2D1VertexBuffer</a>
-

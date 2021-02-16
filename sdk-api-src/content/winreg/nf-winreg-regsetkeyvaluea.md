@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegSetKeyValueA
  - winreg/RegSetKeyValueA
- - RegSetKeyValue
- - winreg/RegSetKeyValue
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - KernelBase.dll
  - MinKernelBase.dll
 api_name:
- - RegSetKeyValueA
  - RegSetKeyValue
+ - RegSetKeyValueA
+ - RegSetKeyValueW
 ---
 
 # RegSetKeyValueA function
@@ -132,4 +131,3 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-

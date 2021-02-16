@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevices::get__NewEnum
+ - IFaxDevices.get__NewEnum
 ---
 
 # IFaxDevices::get__NewEnum
@@ -81,4 +81,3 @@ In Microsoft Visual Basic, you do not need to use the <b>_NewEnum</b> property, 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>
-

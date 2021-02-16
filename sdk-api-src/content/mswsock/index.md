@@ -9,8 +9,6 @@ tech.root: winsock
 f1_keywords:
  - mswsock
  - mswsock/mswsock
-api_name:
- - mswsock
 ---
 
 # Mswsock.h header

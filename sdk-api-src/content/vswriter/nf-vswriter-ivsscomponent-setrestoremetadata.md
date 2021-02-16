@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::SetRestoreMetadata
+ - IVssComponent.SetRestoreMetadata
 ---
 
 # IVssComponent::SetRestoreMetadata
@@ -147,4 +147,3 @@ The format need not conform to any VSS metadata specification.
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>
-

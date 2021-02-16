@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwMgr::RestoreDefaults
+ - INetFwMgr.RestoreDefaults
 ---
 
 # INetFwMgr::RestoreDefaults
@@ -139,4 +139,3 @@ This method deletes all user and application-added applications and ports that r
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwmgr-isportallowed">INetFwMgr::IsPortAllowed</a>
-

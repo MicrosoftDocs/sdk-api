@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUSHORT4::XMUSHORT4
+ - XMUSHORT4.XMUSHORT4
 ---
 
 # XMUSHORT4::XMUSHORT4(const float)
@@ -82,4 +82,3 @@ instance.w = (uint16_t)min( max( pArray[3] 0.0 ), 65535.0 );
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmushort4">XMUSHORT4</a>
 
 <a href="/windows/desktop/dxmath/xmushort4-ctor">XMUSHORT4 Constructors</a>
-

@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput::GetFrameStatistics
+ - IDXGIOutput.GetFrameStatistics
 ---
 
 # IDXGIOutput::GetFrameStatistics
@@ -78,4 +78,3 @@ This API is similar to <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
-

@@ -43,7 +43,8 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile::get_RemoteAdminSettings
+ - INetFwProfile.RemoteAdminSettings
+ - INetFwProfile.get_RemoteAdminSettings
 ---
 
 # INetFwProfile::get_RemoteAdminSettings
@@ -66,4 +67,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
-

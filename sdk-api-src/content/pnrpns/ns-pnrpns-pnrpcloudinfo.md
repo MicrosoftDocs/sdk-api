@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Pnrpns.h
 api_name:
- - _PNRPCLOUDINFO
- - PPNRPCLOUDINFO
  - PNRPCLOUDINFO
 ---
 
@@ -107,4 +105,3 @@ Indicates if the cloud name is valid on the network or only valid on the current
 
 
 <a href="/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>
-

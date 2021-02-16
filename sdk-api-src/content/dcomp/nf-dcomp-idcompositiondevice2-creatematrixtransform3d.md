@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2::CreateMatrixTransform3D
+ - IDCompositionDevice2.CreateMatrixTransform3D
 ---
 
 # IDCompositionDevice2::CreateMatrixTransform3D
@@ -81,4 +81,3 @@ When an identity transform is applied to an object, it does not change the posit
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
-

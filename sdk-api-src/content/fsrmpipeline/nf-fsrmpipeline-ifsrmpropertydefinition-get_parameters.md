@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition::get_Parameters
+ - IFsrmPropertyDefinition.Parameters
+ - IFsrmPropertyDefinition.get_Parameters
+ - IFsrmPropertyDefinition.put_Parameters
 ---
 
 # IFsrmPropertyDefinition::get_Parameters
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
-

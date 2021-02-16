@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - __MIDL_IWTSSBPlugin_0003
  - WTSSBX_ADDRESS_FAMILY
 ---
 

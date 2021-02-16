@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::GetStoryLength
+ - ITextRange.GetStoryLength
 ---
 
 # ITextRange::GetStoryLength
@@ -81,4 +81,3 @@ The method returns an <b>HRESULT</b> value. If the method succeeds, it returns <
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
+ - IExtractIcon.GetIconLocation
  - IExtractIconA::GetIconLocation
+ - IExtractIconW::GetIconLocation
 ---
 
 # IExtractIconA::GetIconLocation
@@ -175,4 +177,3 @@ Returns S_OK if the function returned a valid location, or S_FALSE if the Shell 
 When a client sets the <b>GIL_ASYNC</b> flag in <i>uFlags</i> and receives E_PENDING as a return value, it typically creates a background thread to extract the icon. It calls <b>GetIconLocation</b> from that thread, without the <b>GIL_ASYNC</b> flag, to retrieve the icon location. It then calls <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract">IExtractIcon::Extract</a> to extract the icon. Returning E_PENDING implies that the object is free threaded. In other words, it can safely be called concurrently by multiple threads.
 
 The <b>GIL_DEFAULTICON</b> flag is usually set in the case where the desired icon is found, but that icon is not present in the icon cache. Icon extraction is a low priority background process, and as such may be delayed by other processes. The default icon will be displayed in place of the final icon during the time that it takes for that final icon to be extracted, added to the cache, and made available.
-

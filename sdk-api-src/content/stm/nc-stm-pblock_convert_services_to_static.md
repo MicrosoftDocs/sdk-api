@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - PBLOCK_CONVERT_SERVICES_TO_STATIC
+ - BlockConvertServicesToStatic
 ---
 
 # PBLOCK_CONVERT_SERVICES_TO_STATIC callback function
@@ -109,4 +109,3 @@ The parameter is invalid.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-

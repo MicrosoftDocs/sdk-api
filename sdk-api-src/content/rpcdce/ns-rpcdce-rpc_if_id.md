@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - _RPC_IF_ID
  - RPC_IF_ID
 ---
 
@@ -79,4 +78,3 @@ An interface identification is a subset of the data contained in the interface-s
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcifinqid">RpcIfInqId</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsSecurityDescriptor::CopySecurityDescriptor
+ - IADsSecurityDescriptor.CopySecurityDescriptor
 ---
 
 # IADsSecurityDescriptor::CopySecurityDescriptor
@@ -73,4 +73,3 @@ This method returns the standard return values, including <b>E_INVALIDARG</b>, <
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor">IADsSecurityDescriptor</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAnnotationProvider::get_AnnotationTypeId
+ - IAnnotationProvider.AnnotationTypeId
+ - IAnnotationProvider.get_AnnotationTypeId
 ---
 
 # IAnnotationProvider::get_AnnotationTypeId
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iannotationprovider">IAnnotationProvider</a>
-

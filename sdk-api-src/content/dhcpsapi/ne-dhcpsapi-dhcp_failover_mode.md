@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - _DHCP_FAILOVER_MODE
- - LPDHCP_FAILOVER_MODE
  - DHCP_FAILOVER_MODE
 ---
 
@@ -71,4 +69,3 @@ The DHCPv4 server failover relationship is in <i>Hot Standby</i> mode.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_failover_relationship">DHCP_FAILOVER_RELATIONSHIP</a>
-

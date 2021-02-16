@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_Bindings
- - PSecPkgContext_Bindings
  - SecPkgContext_Bindings
 ---
 
@@ -71,4 +69,3 @@ A pointer to a <a href="/windows/desktop/api/sspi/ns-sspi-sec_channel_bindings">
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
-

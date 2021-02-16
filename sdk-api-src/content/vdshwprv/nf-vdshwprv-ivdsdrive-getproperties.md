@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDrive::GetProperties
+ - IVdsDrive.GetProperties
 ---
 
 # IVdsDrive::GetProperties
@@ -132,4 +132,3 @@ The drive object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_prop">VDS_DRIVE_PROP</a>
-

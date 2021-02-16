@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope2::get_RoleAssignments
+ - IAzScope2.RoleAssignments
+ - IAzScope2.get_RoleAssignments
 ---
 
 # IAzScope2::get_RoleAssignments
@@ -55,4 +56,3 @@ The <b>RoleAssignments</b> property retrieves an <a href="/windows/desktop/api/a
 This property is read-only.
 
 ## -parameters
-

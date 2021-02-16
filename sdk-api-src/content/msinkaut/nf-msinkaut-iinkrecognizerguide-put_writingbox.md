@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide::put_WritingBox
+ - IInkRecognizerGuide.WritingBox
+ - IInkRecognizerGuide.get_WritingBox
+ - IInkRecognizerGuide.put_WritingBox
+ - InkRecognizerGuide.get_WritingBox
+ - InkRecognizerGuide.put_WritingBox
 ---
 
 # IInkRecognizerGuide::put_WritingBox
@@ -78,4 +82,3 @@ The writing box provides a margin of error to users who write outside the drawn 
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-

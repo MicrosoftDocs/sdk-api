@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::Reboot
+ - IVdsService.Reboot
 ---
 
 # IVdsService::Reboot
@@ -102,4 +102,3 @@ VDS prompts the user to save their current work and exit before the system shuts
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsservice">IVdsService</a>
-

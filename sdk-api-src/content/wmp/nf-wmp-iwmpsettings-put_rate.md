@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::put_rate
+ - IWMPSettings.put_rate
 ---
 
 # IWMPSettings::put_rate
@@ -131,4 +131,3 @@ The playback rate of some digital media formats cannot be altered. Use the <b>IW
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetDllDirectoryW
  - winbase/GetDllDirectoryW
- - GetDllDirectory
- - winbase/GetDllDirectory
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - Kernel32Legacy.dll
 api_name:
- - GetDllDirectoryW
  - GetDllDirectory
+ - GetDllDirectoryA
+ - GetDllDirectoryW
 ---
 
 # GetDllDirectoryW function
@@ -98,4 +97,3 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setdlldirectorya">SetDllDirectory</a>
-

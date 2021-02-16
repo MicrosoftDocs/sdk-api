@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RendezvousSession.tlb
 api_name:
- - IRendezvousSession::SendContextData
+ - IRendezvousSession.SendContextData
 ---
 
 # IRendezvousSession::SendContextData
@@ -101,4 +101,3 @@ There is not enough memory available to send the context data.
 </td>
 </tr>
 </table>
-

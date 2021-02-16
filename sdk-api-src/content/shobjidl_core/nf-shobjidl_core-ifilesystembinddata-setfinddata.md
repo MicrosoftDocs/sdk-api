@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileSystemBindData::SetFindData
+ - IFileSystemBindData.SetFindData
 ---
 
 # IFileSystemBindData::SetFindData
@@ -69,4 +69,3 @@ Always returns <b>S_OK</b>.
 ## -remarks
 
 After the client stores the file information, the instance of the object itself must be stored in a bind context by using the <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-registerobjectparam">IBindCtx::RegisterObjectParam</a> method with the <i>pszKey</i> parameter set to <code>L"File System Bind Data"</code>.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mswsockdef.h
 api_name:
- - _RIORESULT
- - PRIORESULT
  - RIORESULT
 ---
 
@@ -107,4 +105,3 @@ The <b>RIORESULT</b> structure is defined in the <i>Mswsockdef.h</i> header file
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh437216(v=vs.85)">RIOSendEx</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - TreeView_MapHTREEITEMToAccID
+ - TreeView_MapHTREEITEMtoAccID
 ---
 
 # TreeView_MapHTREEITEMToAccID macro
@@ -73,4 +73,3 @@ To use <b>TreeView_MapHTREEITEMtoAccID</b>, specify Comctl32.dll version 6 in th
 <div class="alert"><b>Note</b>  The accessibility ID is not the same as that mentioned in <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibleobject">IAccessibleObject</a>. This is a unique ID used for treeview items as long as treeitems do not exceed the max limit of <b>UINT</b>.
 </div>
 <div> </div>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - D3D11Shader.h
 api_name:
- - _D3D11_SHADER_BUFFER_DESC
  - D3D11_SHADER_BUFFER_DESC
 ---
 
@@ -94,4 +93,3 @@ Constants are supplied to shaders in a shader-constant buffer. Get the descripti
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-structures">Shader Structures</a>
-

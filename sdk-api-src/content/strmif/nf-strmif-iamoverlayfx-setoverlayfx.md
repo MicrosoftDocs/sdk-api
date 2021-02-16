@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMOverlayFX::SetOverlayFX
+ - IAMOverlayFX.SetOverlayFX
 ---
 
 # IAMOverlayFX::SetOverlayFX
@@ -114,4 +114,3 @@ The application must call this method while the filter graph is running. The eff
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamoverlayfx">IAMOverlayFX Interface</a>
-

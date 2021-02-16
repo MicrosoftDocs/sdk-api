@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase::SetLastBatch
+ - ISyncChangeBatchBase.SetLastBatch
 ---
 
 # ISyncChangeBatchBase::SetLastBatch
@@ -87,4 +87,3 @@ When returning a change batch in response to the <a href="/previous-versions/win
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-

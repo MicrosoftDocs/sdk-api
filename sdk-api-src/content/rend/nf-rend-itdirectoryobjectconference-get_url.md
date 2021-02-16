@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference::get_Url
+ - ITDirectoryObjectConference.get_Url
 ---
 
 # ITDirectoryObjectConference::get_Url
@@ -140,4 +140,3 @@ The application must use
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_url">ITDirectoryObjectConference::put_Url</a>
-

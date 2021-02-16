@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS::GetNatureOfActivationText
+ - ISCTE_EAS.GetNatureOfActivationText
 ---
 
 # ISCTE_EAS::GetNatureOfActivationText
@@ -106,4 +106,3 @@ The returned string is taken from the nature_of_activation_text field, as define
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: wmi
 f1_keywords:
  - chstrarr
  - chstrarr/chstrarr
-api_name:
- - chstrarr
 ---
 
 # Chstrarr.h header

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetNamedPipeClientComputerNameA
  - winbase/GetNamedPipeClientComputerNameA
- - GetNamedPipeClientComputerName
- - winbase/GetNamedPipeClientComputerName
 dev_langs:
  - c++
 topic_type:
@@ -54,8 +52,9 @@ api_location:
  - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
  - API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - GetNamedPipeClientComputerNameA
  - GetNamedPipeClientComputerName
+ - GetNamedPipeClientComputerNameA
+ - GetNamedPipeClientComputerNameW
 ---
 
 # GetNamedPipeClientComputerNameA function
@@ -102,4 +101,3 @@ the <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror"
 
 
 <a href="/windows/desktop/ipc/pipes">Pipes Overview</a>
-

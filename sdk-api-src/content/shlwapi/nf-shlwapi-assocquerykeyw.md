@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AssocQueryKeyW
  - shlwapi/AssocQueryKeyW
- - AssocQueryKey
- - shlwapi/AssocQueryKey
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Shlwapi.dll
  - API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
- - AssocQueryKeyW
  - AssocQueryKey
+ - AssocQueryKeyA
+ - AssocQueryKeyW
 ---
 
 # AssocQueryKeyW function
@@ -147,4 +146,3 @@ This function is a wrapper for the <a href="/windows/desktop/api/shlwapi/nn-shlw
 
 > [!NOTE]
 > The shlwapi.h header defines AssocQueryKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

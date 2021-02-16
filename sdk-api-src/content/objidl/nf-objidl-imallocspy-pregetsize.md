@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy::PreGetSize
+ - IMallocSpy.PreGetSize
 ---
 
 # IMallocSpy::PreGetSize
@@ -86,4 +86,3 @@ The size determined by <a href="/windows/desktop/api/objidl/nf-objidl-imalloc-ge
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postgetsize">IMallocSpy::PostGetSize</a>
-

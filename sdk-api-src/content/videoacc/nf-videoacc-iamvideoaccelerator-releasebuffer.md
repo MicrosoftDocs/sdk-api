@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator::ReleaseBuffer
+ - IAMVideoAccelerator.ReleaseBuffer
 ---
 
 # IAMVideoAccelerator::ReleaseBuffer
@@ -170,4 +170,3 @@ The buffer pointer obtained from <a href="/windows/desktop/api/videoacc/nf-video
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-

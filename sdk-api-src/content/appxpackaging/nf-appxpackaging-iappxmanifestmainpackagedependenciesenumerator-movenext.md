@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestMainPackageDependenciesEnumerator::MoveNext
+ - IAppxManifestMainPackageDependenciesEnumerator.MoveNext
 ---
 
 # IAppxManifestMainPackageDependenciesEnumerator::MoveNext
@@ -74,4 +74,3 @@ If the method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an error c
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestmainpackagedependenciesenumerator">IAppxManifestMainPackageDependenciesEnumerator</a>
-

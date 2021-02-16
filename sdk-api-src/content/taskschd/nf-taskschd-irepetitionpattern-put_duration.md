@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRepetitionPattern::put_Duration
+ - IRepetitionPattern.Duration
+ - IRepetitionPattern.get_Duration
+ - IRepetitionPattern.put_Duration
 ---
 
 # IRepetitionPattern::put_Duration
@@ -69,4 +71,3 @@ When reading or writing XML for a task, the repetition duration is specified in 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

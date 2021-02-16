@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - wsprintfA
  - winuser/wsprintfA
- - wsprintf
- - winuser/wsprintf
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - wsprintfA
  - wsprintf
+ - wsprintfA
+ - wsprintfW
 ---
 
 # wsprintfA function
@@ -310,4 +309,3 @@ To use buffers larger than 1024 bytes, use <b>_snwprintf</b>. For more informati
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-wvsprintfa">wvsprintf</a>
-

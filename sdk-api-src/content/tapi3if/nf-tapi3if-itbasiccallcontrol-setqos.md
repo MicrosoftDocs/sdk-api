@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::SetQOS
+ - ITBasicCallControl.SetQOS
 ---
 
 # ITBasicCallControl::SetQOS
@@ -118,4 +118,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-qos_service_level">QOS_SERVICE_LEVEL</a>
-

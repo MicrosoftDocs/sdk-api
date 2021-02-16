@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateExceptionCollection::get__NewEnum
+ - IUpdateExceptionCollection._NewEnum
+ - IUpdateExceptionCollection.get__NewEnum
 ---
 
 # IUpdateExceptionCollection::get__NewEnum
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexceptioncollection">IUpdateExceptionCollection</a>
-

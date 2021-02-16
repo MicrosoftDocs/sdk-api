@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::CreateStorage
+ - IStorage.CreateStorage
 ---
 
 # IStorage::CreateStorage
@@ -100,4 +100,3 @@ If a storage object with the same name already exists and <i>grfMode</i> is set 
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-openstorage">IStorage::OpenStorage</a>
-

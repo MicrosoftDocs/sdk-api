@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusenums
  - gdiplusenums/gdiplusenums
-api_name:
- - gdiplusenums
 ---
 
 # Gdiplusenums.h header

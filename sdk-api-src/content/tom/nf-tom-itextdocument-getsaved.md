@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument::GetSaved
+ - ITextDocument.GetSaved
 ---
 
 # ITextDocument::GetSaved
@@ -107,4 +107,3 @@ To set the saved property, call the <a href="/windows/desktop/api/tom/nf-tom-ite
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

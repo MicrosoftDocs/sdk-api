@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::DrawAuto
+ - ID3D10Device.DrawAuto
 ---
 
 # ID3D10Device::DrawAuto
@@ -78,4 +78,3 @@ Example of using DrawAuto can be found in the <a href="https://msdn.microsoft.co
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

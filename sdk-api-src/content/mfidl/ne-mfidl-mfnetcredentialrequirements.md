@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNetCredentialRequirements
  - MFNetCredentialRequirements
 ---
 
@@ -86,4 +85,3 @@ The credential cache object sets the <b>REQUIRE_PROMPT</b> flag if the cache doe
 
 
 <a href="/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
-

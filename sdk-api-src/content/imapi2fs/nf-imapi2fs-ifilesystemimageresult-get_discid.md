@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImageResult::get_DiscId
+ - IFileSystemImageResult.get_DiscId
 ---
 
 # IFileSystemImageResult::get_DiscId
@@ -89,4 +89,3 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
-

@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMConstants
+ - GPMConstants
 ---
 
 # IGPMConstants interface
@@ -75,4 +76,3 @@ For more information about policy-related permissions, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioclient.h
 api_name:
- - IAudioClockAdjustment::SetSampleRate
+ - IAudioClockAdjustment.SetSampleRate
 ---
 
 # IAudioClockAdjustment::SetSampleRate
@@ -107,4 +107,3 @@ The new sample rate will take effect after the current frame is done processing 
 
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclockadjustment">IAudioClockAdjustment</a>
-

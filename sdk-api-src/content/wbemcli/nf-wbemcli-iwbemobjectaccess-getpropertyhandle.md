@@ -44,7 +44,7 @@ api_location:
  - Fastprox.dll
  - Wbemess.dll
 api_name:
- - IWbemObjectAccess::GetPropertyHandle
+ - IWbemObjectAccess.GetPropertyHandle
 ---
 
 # IWbemObjectAccess::GetPropertyHandle
@@ -81,4 +81,3 @@ Handles can be retrieved for all data types other than CIM_OBJECT and CIM_ARRAY.
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemobjectaccess">IWbemObjectAccess</a>
-

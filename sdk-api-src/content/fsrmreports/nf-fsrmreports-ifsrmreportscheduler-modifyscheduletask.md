@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportScheduler::ModifyScheduleTask
+ - IFsrmReportScheduler.ModifyScheduleTask
+ - FsrmReportScheduler.ModifyScheduleTask
 ---
 
 # IFsrmReportScheduler::ModifyScheduleTask
@@ -93,4 +94,3 @@ Specify the same namespaces for this method that you specified for the
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportscheduler">IFsrmReportScheduler</a>
-

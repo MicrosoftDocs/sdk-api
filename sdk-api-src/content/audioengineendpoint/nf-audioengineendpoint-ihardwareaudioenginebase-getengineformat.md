@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioengineendpoint.h
 api_name:
- - IHardwareAudioEngineBase::GetEngineFormat
+ - IHardwareAudioEngineBase.GetEngineFormat
 ---
 
 # IHardwareAudioEngineBase::GetEngineFormat
@@ -81,4 +81,3 @@ The <b>GetEngineFormat</b> method returns <b>S_OK</b> to indicate that it has co
 
 
 <a href="/windows/win32/api/mmreg/ns-mmreg-waveformatex">WAVEFORMATEX</a>
-

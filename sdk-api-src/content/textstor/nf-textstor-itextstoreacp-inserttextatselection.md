@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP::InsertTextAtSelection
+ - ITextStoreACP.InsertTextAtSelection
 ---
 
 # ITextStoreACP::InsertTextAtSelection
@@ -226,4 +226,3 @@ Applications should not call the <a href="/windows/desktop/api/textstor/nf-texts
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::PlayerDockedStateChange
+ - IWMPEvents.PlayerDockedStateChange
 ---
 
 # IWMPEvents::PlayerDockedStateChange
@@ -63,4 +63,3 @@ This event occurs only when remoting the Windows Media Player control.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

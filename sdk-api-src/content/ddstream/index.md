@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - ddstream
  - ddstream/ddstream
-api_name:
- - ddstream
 ---
 
 # Ddstream.h header

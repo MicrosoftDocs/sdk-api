@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - ICCompressGetFormatSize
+ - ICCompressGetFormat
 ---
 
 # ICCompressGetFormatSize macro
@@ -69,4 +69,3 @@ Pointer to a <b>BITMAPINFO</b> structure containing the input format.
 
 
 <a href="/windows/desktop/Multimedia/video-compression-manager">Video Compression Manager</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Effect::GetAuxDataSize
+ - Effect.GetAuxDataSize
 ---
 
 # Effect::GetAuxDataSize
@@ -68,4 +68,3 @@ This method returns the size, in bytes, of the auxiliary data.
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdata">Effect::GetAuxData</a>
-

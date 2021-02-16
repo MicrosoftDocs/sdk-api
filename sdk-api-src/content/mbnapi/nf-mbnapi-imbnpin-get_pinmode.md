@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPin::get_PinMode
+ - IMbnPin.PinMode
+ - IMbnPin.get_PinMode
 ---
 
 # IMbnPin::get_PinMode
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a>
-

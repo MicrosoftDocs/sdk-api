@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_EVENTING_DELIVERY_MODE_PUSH
  - WSD_EVENTING_DELIVERY_MODE_PUSH
 ---
 
@@ -60,4 +59,3 @@ Represents the endpoint reference  used for push delivery of events in a WS-Even
 ### -field NotifyTo
 
 Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_endpoint_reference">WSD_ENDPOINT_REFERENCE</a> structure that specifies the endpoint reference to which notifications should be sent.
-

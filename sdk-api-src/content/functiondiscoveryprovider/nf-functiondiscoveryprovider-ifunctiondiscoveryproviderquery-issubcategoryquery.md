@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
+ - IFunctionDiscoveryProviderQuery.IsSubcategoryQuery
 ---
 
 # IFunctionDiscoveryProviderQuery::IsSubcategoryQuery
@@ -75,4 +75,3 @@ If the provider does not support subcategories, the provider should return an <a
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>
-

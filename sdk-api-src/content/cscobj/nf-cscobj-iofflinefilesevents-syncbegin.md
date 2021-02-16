@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents::SyncBegin
+ - IOfflineFilesEvents.SyncBegin
 ---
 
 # IOfflineFilesEvents::SyncBegin
@@ -70,4 +70,3 @@ The synchronization engine is also used to encrypt the Offline Files cache.  The
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
-

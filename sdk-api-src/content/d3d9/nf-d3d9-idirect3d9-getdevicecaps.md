@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::GetDeviceCaps
+ - IDirect3D9.GetDeviceCaps
 ---
 
 # IDirect3D9::GetDeviceCaps
@@ -86,4 +86,3 @@ The application should not assume the persistence of vertex processing capabilit
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

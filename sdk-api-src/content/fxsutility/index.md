@@ -9,8 +9,6 @@ tech.root: fax
 f1_keywords:
  - fxsutility
  - fxsutility/fxsutility
-api_name:
- - fxsutility
 ---
 
 # Fxsutility.h header

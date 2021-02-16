@@ -42,7 +42,8 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog::get_MinorVersion
+ - ICOMAdminCatalog.MinorVersion
+ - ICOMAdminCatalog.get_MinorVersion
 ---
 
 # ICOMAdminCatalog::get_MinorVersion
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-

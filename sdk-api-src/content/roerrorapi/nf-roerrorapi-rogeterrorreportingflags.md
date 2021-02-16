@@ -45,6 +45,7 @@ api_location:
  - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
  - RoGetErrorReportingFlags
+ - WinRTGetErrorReportingFlags
 ---
 
 # RoGetErrorReportingFlags function
@@ -116,4 +117,3 @@ Set the reporting behavior of   Windows Runtime error functions by calling the  
 
 
 <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformError</a>
-

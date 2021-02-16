@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer::SetPosition
+ - IMFPMediaPlayer.SetPosition
 ---
 
 # IMFPMediaPlayer::SetPosition
@@ -172,4 +172,3 @@ If you make two consecutive calls to <b>SetPosition</b> with <i>guidPositionType
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

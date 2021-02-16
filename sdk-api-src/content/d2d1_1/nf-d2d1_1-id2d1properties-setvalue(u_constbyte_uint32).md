@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties::SetValue
+ - ID2D1Properties.SetValue
 ---
 
 # ID2D1Properties::SetValue(U,const BYTE,UINT32)
@@ -130,4 +130,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 �
 
 �
-

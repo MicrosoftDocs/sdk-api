@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceUnitsStream::SeekInUnits
+ - IPortableDeviceUnitsStream.SeekInUnits
 ---
 
 # IPortableDeviceUnitsStream::SeekInUnits
@@ -123,4 +123,3 @@ The <i>dwUnits</i> or <i>dwOrigin</i> parameter contains an invalid value, or th
 
 
 <a href="/windows/desktop/wpd_sdk/wpd-stream-units">WPD_STREAM_UNITS</a>
-

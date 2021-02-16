@@ -44,7 +44,6 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
- - _RM_FILTER_TRIGGER
  - RM_FILTER_TRIGGER
 ---
 
@@ -76,4 +75,3 @@ Modifies the shutdown or restart actions for a service identified by a service s
 ## -see-also
 
 <a href="/windows/desktop/api/restartmanager/ns-restartmanager-rm_filter_info">RM_FILTER_INFO</a>
-

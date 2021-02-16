@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2::ScheduleTransition
+ - IUIAnimationManager2.ScheduleTransition
 ---
 
 # IUIAnimationManager2::ScheduleTransition
@@ -113,4 +113,3 @@ This method schedules a new storyboard by creating the storyboard, applying the 
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
-

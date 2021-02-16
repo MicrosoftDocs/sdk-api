@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget::GetSubSystem
+ - IVdsIscsiTarget.GetSubSystem
 ---
 
 # IVdsIscsiTarget::GetSubSystem
@@ -120,4 +120,3 @@ The target object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
-

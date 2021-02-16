@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_VIDEO_PROCESSOR_MIRROR
  - MF_VIDEO_PROCESSOR_MIRROR
 ---
 
@@ -76,4 +75,3 @@ Flip the image vertically.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

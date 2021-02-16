@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::CreateCommittedResource
+ - ID3D12Device.CreateCommittedResource
 ---
 
 ## -description
@@ -156,4 +156,3 @@ See [Example code in the Direct3D 12 reference](/windows/win32/direct3d12/notes-
 <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_flags">D3D12_HEAP_FLAGS</a>
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView::GetRect
+ - IOleDocumentView.GetRect
 ---
 
 # IOleDocumentView::GetRect
@@ -99,4 +99,3 @@ A document view must implement this method completely; E_NOTIMPL is not an accep
 
 
 <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-setrectcomplex">IOleDocumentView::SetRectComplex</a>
-

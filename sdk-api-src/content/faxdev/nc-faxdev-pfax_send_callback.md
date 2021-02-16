@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxDev.h
 api_name:
- - PFAX_SEND_CALLBACK
+ - FaxSendCallback
 ---
 
 # PFAX_SEND_CALLBACK callback function
@@ -113,4 +113,3 @@ A virtual FSP does not need the <i>FaxSendCallback</i> function.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
-

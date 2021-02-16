@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdGraphBuilder::RenderDvdVideoVolume
+ - IDvdGraphBuilder.RenderDvdVideoVolume
 ---
 
 # IDvdGraphBuilder::RenderDvdVideoVolume
@@ -183,4 +183,3 @@ This method builds the graph without any knowledge of the DVD-Video file or volu
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder">IDvdGraphBuilder Interface</a>
-

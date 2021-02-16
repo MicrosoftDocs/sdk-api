@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern::RangeFromChild
+ - IUIAutomationTextPattern.RangeFromChild
 ---
 
 # IUIAutomationTextPattern::RangeFromChild
@@ -85,4 +85,3 @@ The <i>child</i> parameter is either a child of the element associated with a <a
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

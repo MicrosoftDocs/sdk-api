@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_VPORTCB_GETLINE
+ - DdVideoPortGetLine
 ---
 
 ## -description
@@ -74,4 +74,3 @@ If the device is in a vertical blank, the driver should set DDERR_VERTICALBLANKI
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportlinedata">DD_GETVPORTLINEDATA</a>
-

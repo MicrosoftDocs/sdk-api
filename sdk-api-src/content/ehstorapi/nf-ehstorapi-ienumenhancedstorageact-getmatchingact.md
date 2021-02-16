@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnumEnhancedStorageACT::GetMatchingACT
+ - IEnumEnhancedStorageACT.GetMatchingACT
 ---
 
 # IEnumEnhancedStorageACT::GetMatchingACT
@@ -135,4 +135,3 @@ This method can also be utilized by the client to determine if the specified vol
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienumenhancedstorageact">IEnumEnhancedStorageACT</a>
-

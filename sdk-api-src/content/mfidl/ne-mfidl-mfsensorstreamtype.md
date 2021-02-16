@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - __MIDL___MIDL_itf_mfidl_0000_0110_0002
  - MFSensorStreamType
 ---
 
@@ -68,4 +67,3 @@ The sensor stream is an input stream.
 ### -field MFSensorStreamType_Output
 
 The sensor stream is an output stream.
-

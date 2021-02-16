@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadJob::get_AsyncState
+ - IDownloadJob.AsyncState
+ - IDownloadJob.get_AsyncState
 ---
 
 # IDownloadJob::get_AsyncState
@@ -63,4 +64,3 @@ This state object can be used by the caller to identify a particular download. O
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a>
-

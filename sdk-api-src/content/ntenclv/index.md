@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - ntenclv
  - ntenclv/ntenclv
-api_name:
- - ntenclv
 ---
 
 # Ntenclv.h header

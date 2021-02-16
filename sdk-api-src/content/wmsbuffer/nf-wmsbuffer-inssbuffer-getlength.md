@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSSBuffer::GetLength
+ - INSSBuffer.GetLength
 ---
 
 # INSSBuffer::GetLength
@@ -109,4 +109,3 @@ The allocated buffer may be larger than the used portion. To find the total size
 
 
 <a href="/windows/desktop/api/wmsbuffer/nf-wmsbuffer-inssbuffer-setlength">INSSBuffer::SetLength</a>
-

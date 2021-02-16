@@ -9,8 +9,6 @@ tech.root: direct3d10
 f1_keywords:
  - d3d10sdklayers
  - d3d10sdklayers/d3d10sdklayers
-api_name:
- - d3d10sdklayers
 ---
 
 # D3D10Sdklayers.h header

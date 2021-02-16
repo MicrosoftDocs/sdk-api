@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - tagOLECONTF
  - OLECONTF
 ---
 
@@ -92,4 +91,3 @@ Enumerates only those linked or embedded objects that are currently in the runni
 
 
 <a href="/windows/desktop/api/vbinterf/nf-vbinterf-ivbgetcontrol-enumcontrols">IVBGetControl::EnumControls</a>
-

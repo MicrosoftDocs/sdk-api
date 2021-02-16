@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - _DDCAPS_DX3
- - DDCAPS_DX3
+ - DDCAPS
 ---
 
 ## -description
@@ -775,4 +774,3 @@ Reserved
 ## -remarks
 
 For backward compatibility, the Ddraw.h header file contains multiple definitions of the DDCAPS structure. The version that passes the preprocessor is determined by the value of the DIRECTDRAW_VERSION constant.
-

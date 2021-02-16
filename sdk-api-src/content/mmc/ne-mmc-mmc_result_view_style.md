@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_RESULT_VIEW_STYLE
  - MMC_RESULT_VIEW_STYLE
 ---
 
@@ -72,4 +71,3 @@ Always show the selection, if any, even if the control does not have the focus.
 A value that specifies that column headers do not work like buttons. This style is useful if clicking a column header in report view does not carry out an action, such as sorting.
 
 ### -field MMC_ENSUREFOCUSVISIBLE
-

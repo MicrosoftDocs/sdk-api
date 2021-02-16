@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Asynchronous::Begin
+ - ID3D10Asynchronous.Begin
 ---
 
 # ID3D10Asynchronous::Begin
@@ -63,4 +63,3 @@ Calling Begin starts the asynchronous collection of GPU data. Calling <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10asynchronous">ID3D10Asynchronous Interface</a>
-

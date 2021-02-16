@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping::GetPageSize
+ - ISimilarityTraitsMapping.GetPageSize
 ---
 
 # ISimilarityTraitsMapping::GetPageSize
@@ -61,4 +61,3 @@ Pointer to a location that receives the page size, in bytes. This page size must
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>
-

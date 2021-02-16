@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagPOINTER_TOUCH_INFO
  - POINTER_TOUCH_INFO
 ---
 
@@ -108,4 +107,3 @@ Type: <b>UINT32</b>
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/inputmsg/structures">Structures</a>
-

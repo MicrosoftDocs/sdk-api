@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMediaStream::GetMultiMediaStream
+ - IMediaStream.GetMultiMediaStream
 ---
 
 # IMediaStream::GetMultiMediaStream
@@ -71,4 +71,3 @@ This method increments the reference count of the retrieved object pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_PASSKEY_INFO
- - PBLUETOOTH_PASSKEY_INFO
  - BLUETOOTH_PASSKEY_INFO
 ---
 
@@ -75,4 +73,3 @@ The passkey used for authentication.
 
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedeviceex">BluetoothAuthenticateDeviceEx</a>
-

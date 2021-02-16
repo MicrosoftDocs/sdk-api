@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor::GetDeviceFontName
+ - IXpsOMGlyphsEditor.GetDeviceFontName
 ---
 
 # IXpsOMGlyphsEditor::GetDeviceFontName
@@ -102,4 +102,3 @@ This method allocates the memory used by the string that is returned in <i>devic
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphseditor">IXpsOMGlyphsEditor</a>
-

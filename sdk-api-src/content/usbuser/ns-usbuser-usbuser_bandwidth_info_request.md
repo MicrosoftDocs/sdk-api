@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USBUSER_BANDWIDTH_INFO_REQUEST
- - PUSBUSER_BANDWIDTH_INFO_REQUEST
  - USBUSER_BANDWIDTH_INFO_REQUEST
 ---
 
@@ -87,4 +85,3 @@ The <b>USBUSER_BANDWIDTH_INFO_REQUEST</b> structure is used with the USBUSER_GET
 
 
 <a href="/windows/desktop/api/usbuser/ns-usbuser-usb_bandwidth_info">USB_BANDWIDTH_INFO</a>
-

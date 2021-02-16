@@ -46,9 +46,8 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - _SP_ORIGINAL_FILE_INFO_W
- - PSP_ORIGINAL_FILE_INFO_W
- - SP_ORIGINAL_FILE_INFO_W
+ - SP_ORIGINAL_FILE_INFO
+ - sp_original_file_info_w
 ---
 
 # SP_ORIGINAL_FILE_INFO_W structure
@@ -86,4 +85,3 @@ Catalog name of the INF file stored in array of size MAX_PATH.
 
 > [!NOTE]
 > The setupapi.h header defines SP_ORIGINAL_FILE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

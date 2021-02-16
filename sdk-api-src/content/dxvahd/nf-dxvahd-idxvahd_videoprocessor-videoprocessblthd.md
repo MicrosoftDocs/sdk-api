@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - IDXVAHD_VideoProcessor::VideoProcessBltHD
+ - IDXVAHD_VideoProcessor.VideoProcessBltHD
 ---
 
 # IDXVAHD_VideoProcessor::VideoProcessBltHD
@@ -92,4 +92,3 @@ The maximum value of <i>StreamCount</i> is given in the <b>MaxStreamStates</b> m
 
 
 <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor">IDXVAHD_VideoProcessor</a>
-

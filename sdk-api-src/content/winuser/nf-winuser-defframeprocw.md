@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DefFrameProcW
  - winuser/DefFrameProcW
- - DefFrameProc
- - winuser/DefFrameProc
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DefFrameProcW
  - DefFrameProc
+ - DefFrameProcA
+ - DefFrameProcW
 ---
 
 # DefFrameProcW function
@@ -161,4 +160,3 @@ When an application's window procedure does not handle a message, it typically p
 
 
 <a href="/windows/desktop/winmsg/wm-settext">WM_SETTEXT</a>
-

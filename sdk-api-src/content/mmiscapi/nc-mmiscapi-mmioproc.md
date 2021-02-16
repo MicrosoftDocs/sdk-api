@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmsystem.h
 api_name:
- - MMIOPROC
+ - MMIOProc
 ---
 
 # MMIOPROC callback function
@@ -88,4 +88,3 @@ If an application calls <a href="/previous-versions/dd757323(v=vs.85)">mmioInsta
 <a href="/previous-versions/dd757323(v=vs.85)">mmioInstallIOProc</a> will not prevent an application from installing two different I/O procedures with the same identifier, or installing an I/O procedure with one of the predefined identifiers ("DOS ", "MEM "). The most recently installed procedure takes precedence, and the most recently installed procedure is the first one to be removed.
 
 When searching for a specified I/O procedure, local procedures are searched first, then global procedures.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFVideoInterlaceMode
  - MFVideoInterlaceMode
 ---
 
@@ -118,4 +117,3 @@ If the interlace mode is MFVideoInterlace_FieldSingleUpper or MFVideoInterlace_F
 
 
 <a href="/windows/desktop/medfound/video-media-types">Video Media Types</a>
-

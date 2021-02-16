@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfPreservedKeyNotifySink::OnUpdated
+ - ITfPreservedKeyNotifySink.OnUpdated
 ---
 
 # ITfPreservedKeyNotifySink::OnUpdated
@@ -89,4 +89,3 @@ To determine if the key is unpreserved, call <a href="/windows/desktop/api/msctf
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY
       </a>
-

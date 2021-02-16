@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
+ - IVssExamineWriterMetadataEx2.GetExcludeFromSnapshotCount
 ---
 
 # IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotCount
@@ -128,4 +128,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
-

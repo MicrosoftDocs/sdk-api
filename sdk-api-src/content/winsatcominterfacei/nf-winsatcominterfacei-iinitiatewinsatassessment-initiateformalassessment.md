@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IInitiateWinSATAssessment::InitiateFormalAssessment
+ - IInitiateWinSATAssessment.InitiateFormalAssessment
 ---
 
 # IInitiateWinSATAssessment::InitiateFormalAssessment
@@ -283,4 +283,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iqueryrecentwinsatassessment">IQueryRecentWinSATAssessment</a>
-

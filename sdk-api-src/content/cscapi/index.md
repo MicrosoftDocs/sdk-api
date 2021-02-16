@@ -9,8 +9,6 @@ tech.root: of
 f1_keywords:
  - cscapi
  - cscapi/cscapi
-api_name:
- - cscapi
 ---
 
 # Cscapi.h header

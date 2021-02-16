@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumFilters::Next
+ - IEnumFilters.Next
 ---
 
 # IEnumFilters::Next
@@ -111,4 +111,3 @@ If the filter graph changes (for example, the application removes a filter), the
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumfilters">IEnumFilters Interface</a>
-

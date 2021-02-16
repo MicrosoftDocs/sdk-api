@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
- - _INSTALLSPECTYPE
  - INSTALLSPECTYPE
 ---
 
@@ -88,4 +87,3 @@ The application is specified by its file name extension, for example, .jpg.
 
 
 <a href="/windows/desktop/api/appmgmt/nf-appmgmt-uninstallapplication">UninstallApplication</a>
-

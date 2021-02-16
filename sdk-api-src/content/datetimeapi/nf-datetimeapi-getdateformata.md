@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetDateFormatA
  - datetimeapi/GetDateFormatA
- - GetDateFormat
- - datetimeapi/GetDateFormat
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-DateTime-L1-1-2.dll
 api_name:
- - GetDateFormatA
  - GetDateFormat
+ - GetDateFormatA
+ - GetDateFormatW
 ---
 
 # GetDateFormatA function
@@ -177,4 +176,3 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

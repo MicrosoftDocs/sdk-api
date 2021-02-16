@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - PFN_DrvQueryGlyphAttrs
+ - DrvQueryGlyphAttrs
 ---
 
 # PFN_DrvQueryGlyphAttrs callback function
@@ -108,4 +108,3 @@ GDI calls the appropriate font driver's <b>DrvQueryGlyphAttrs</b> function when 
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-fontobj_pqueryglyphattrs">FONTOBJ_pQueryGlyphAttrs</a>
-

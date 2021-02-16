@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee::TerminateConnection
+ - IRDPSRAPIAttendee.TerminateConnection
 ---
 
 # IRDPSRAPIAttendee::TerminateConnection
@@ -69,4 +69,3 @@ This call is not blocking. However, termination is not immediate and can be dela
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
-

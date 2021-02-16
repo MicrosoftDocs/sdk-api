@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
- - _PSAPI_WORKING_SET_EX_INFORMATION
- - PPSAPI_WORKING_SET_EX_INFORMATION
  - PSAPI_WORKING_SET_EX_INFORMATION
 ---
 
@@ -75,4 +73,3 @@ A <a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_ex_block">PSAPI
 
 
 <a href="/windows/desktop/api/psapi/nf-psapi-queryworkingsetex">QueryWorkingSetEx</a>
-

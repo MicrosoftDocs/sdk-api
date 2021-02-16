@@ -46,8 +46,6 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - _IMAPI_FORMAT2_DATA_MEDIA_STATE
- - PIMAPI_FORMAT2_DATA_MEDIA_STATE
  - IMAPI_FORMAT2_DATA_MEDIA_STATE
 ---
 
@@ -126,4 +124,3 @@ This enumeration should be treated as a bitmask. Nearly all of the values set on
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_currentmediastatus">IDiscFormat2Data::get_CurrentMediaStatus</a>
-

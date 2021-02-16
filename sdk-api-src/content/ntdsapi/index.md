@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - ntdsapi
  - ntdsapi/ntdsapi
-api_name:
- - ntdsapi
 ---
 
 # Ntdsapi.h header

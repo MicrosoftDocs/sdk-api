@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings2::get_mediaAccessRights
+ - IWMPSettings2.get_mediaAccessRights
 ---
 
 # IWMPSettings2::get_mediaAccessRights
@@ -116,4 +116,3 @@ Applications running on the user's computer always have full access rights.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights">IWMPSettings2::requestMediaAccessRights</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::CanPaste
+ - ITextRange.CanPaste
 ---
 
 # ITextRange::CanPaste
@@ -137,4 +137,3 @@ The clipboard contents or <a href="/windows/desktop/api/objidl/nn-objidl-idataob
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

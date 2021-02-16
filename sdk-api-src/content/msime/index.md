@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - msime
  - msime/msime
-api_name:
- - msime
 ---
 
 # Msime.h header

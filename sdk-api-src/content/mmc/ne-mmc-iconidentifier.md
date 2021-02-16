@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - tagIconIdentifier
  - IconIdentifier
 ---
 
@@ -97,4 +96,3 @@ Used internally by MMC.
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextCue::GetLineCount
+ - IMFTimedTextCue.GetLineCount
 ---
 
 # IMFTimedTextCue::GetLineCount
@@ -63,4 +63,3 @@ Returns the number of lines of text.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
-

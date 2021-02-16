@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::GetLineAlignment
+ - StringFormat.GetLineAlignment
 ---
 
 # StringFormat::GetLineAlignment
@@ -73,4 +73,3 @@ This method returns an element of the <a href="/windows/desktop/api/gdiplusenums
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
-

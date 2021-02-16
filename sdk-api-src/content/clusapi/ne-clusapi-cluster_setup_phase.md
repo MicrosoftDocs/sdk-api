@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_SETUP_PHASE
  - CLUSTER_SETUP_PHASE
 ---
 
@@ -178,4 +177,3 @@ Return failed resource to pre-clustered state.
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

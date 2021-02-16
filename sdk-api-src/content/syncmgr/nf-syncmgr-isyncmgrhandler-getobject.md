@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandler::GetObject
+ - ISyncMgrHandler.GetObject
 ---
 
 # ISyncMgrHandler::GetObject
@@ -209,4 +209,3 @@ STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID,
 }
 
 ```
-

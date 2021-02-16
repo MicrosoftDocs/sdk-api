@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendPropertySheet2::GetWatermarks
+ - IExtendPropertySheet2.GetWatermarks
 ---
 
 # IExtendPropertySheet2::GetWatermarks
@@ -121,4 +121,3 @@ To prevent distortion of the image, it is recommended that the watermark and hea
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendpropertysheet2">IExtendPropertySheet2</a>
-

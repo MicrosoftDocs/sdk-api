@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _LSA_TOKEN_INFORMATION_TYPE
- - PLSA_TOKEN_INFORMATION_TYPE
  - LSA_TOKEN_INFORMATION_TYPE
 ---
 
@@ -86,4 +84,3 @@ The token information is stored in a
 ### -field LsaTokenInformationV2
 
 ### -field LsaTokenInformationV3
-

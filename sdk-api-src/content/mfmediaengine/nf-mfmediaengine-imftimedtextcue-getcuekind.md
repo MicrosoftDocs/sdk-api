@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextCue::GetCueKind
+ - IMFTimedTextCue.GetCueKind
 ---
 
 # IMFTimedTextCue::GetCueKind
@@ -63,4 +63,3 @@ Returns a <a href="/windows/desktop/api/mfmediaengine/ne-mfmediaengine-mf_timed_
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
-

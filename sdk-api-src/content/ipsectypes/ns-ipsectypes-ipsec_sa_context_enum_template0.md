@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT_ENUM_TEMPLATE0_
  - IPSEC_SA_CONTEXT_ENUM_TEMPLATE0
 ---
 
@@ -76,4 +75,3 @@ Acceptable type values for this member are: [FWP_V6_ADDR_AND_MASK](/windows/desk
 ## -see-also
 
 [FWP_CONDITION_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_condition_value0)
-

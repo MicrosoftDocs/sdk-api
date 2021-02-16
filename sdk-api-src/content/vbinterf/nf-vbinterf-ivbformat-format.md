@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VbInterf.h
 api_name:
- - IVBFormat::Format
+ - IVBFormat.Format
 ---
 
 # IVBFormat::Format
@@ -239,4 +239,3 @@ When migrating a VBX control to an OLE control,
 ## -see-also
 
 <a href="/windows/desktop/api/vbinterf/nn-vbinterf-ivbformat">IVBFormat</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SESSION_INFO_10
- - PSESSION_INFO_10
  - SESSION_INFO_10
 ---
 
@@ -95,4 +93,3 @@ Specifies the number of seconds the session has been idle.
 
 
 <a href="/windows/desktop/NetShare/session-functions">Session Functions</a>
-

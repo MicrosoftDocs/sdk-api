@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetNameInfoW
  - ws2tcpip/GetNameInfoW
- - GetNameInfo
- - ws2tcpip/GetNameInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - Ws2_32.dll
 api_name:
  - GetNameInfoW
- - GetNameInfo
 ---
 
 # GetNameInfoW function
@@ -335,4 +332,3 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

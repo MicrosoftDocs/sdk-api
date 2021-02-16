@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SHARE_INFO_1005
- - PSHARE_INFO_1005
  - SHARE_INFO_1005
 ---
 
@@ -297,4 +295,3 @@ This structure can be retrieved by calling the
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-

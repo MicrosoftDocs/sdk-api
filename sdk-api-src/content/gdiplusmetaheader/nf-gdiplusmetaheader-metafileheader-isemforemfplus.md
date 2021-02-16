@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader::IsEmfOrEmfPlus
+ - MetafileHeader.IsEmfOrEmfPlus
 ---
 
 # MetafileHeader::IsEmfOrEmfPlus
@@ -76,4 +76,3 @@ If the associated metafile is in the EMF or EMF+ format, this method returns <b>
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-

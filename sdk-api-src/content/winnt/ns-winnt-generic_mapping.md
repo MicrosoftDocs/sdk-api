@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _GENERIC_MAPPING
  - GENERIC_MAPPING
 ---
 
@@ -96,4 +95,3 @@ Specifies an access mask defining all possible types of access to an object.
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setprivateobjectsecurity">SetPrivateObjectSecurity</a>
-

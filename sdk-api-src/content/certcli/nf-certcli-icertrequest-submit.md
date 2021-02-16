@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest::Submit
+ - ICertRequest3.Submit
+ - ICertRequest2.Submit
+ - ICertRequest.Submit
+ - CCertRequest.Submit
 ---
 
 # ICertRequest::Submit
@@ -528,4 +531,3 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-

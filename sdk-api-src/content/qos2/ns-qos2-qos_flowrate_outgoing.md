@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
- - _QOS_FLOWRATE_OUTGOING
- - PQOS_FLOWRATE_OUTGOING
  - QOS_FLOWRATE_OUTGOING
 ---
 
@@ -82,4 +80,3 @@ A <a href="/windows/desktop/api/qos2/ne-qos2-qos_flowrate_reason">QOS_FLOWRATE_R
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-

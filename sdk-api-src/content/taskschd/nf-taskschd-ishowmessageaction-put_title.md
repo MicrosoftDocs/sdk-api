@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IShowMessageAction::put_Title
+ - IShowMessageAction.Title
+ - IShowMessageAction.get_Title
+ - IShowMessageAction.put_Title
 ---
 
 # IShowMessageAction::put_Title
@@ -67,4 +69,3 @@ When setting this property value, the value can be text that is retrieved from a
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction">IShowMessageAction</a>
-

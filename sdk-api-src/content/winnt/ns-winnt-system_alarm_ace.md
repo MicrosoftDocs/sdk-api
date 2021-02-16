@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SYSTEM_ALARM_ACE
  - SYSTEM_ALARM_ACE
 ---
 

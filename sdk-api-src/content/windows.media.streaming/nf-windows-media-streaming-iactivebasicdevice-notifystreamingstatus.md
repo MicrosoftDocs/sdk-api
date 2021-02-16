@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PlayToDevice.dll
 api_name:
- - IActiveBasicDevice::NotifyStreamingStatus
+ - IActiveBasicDevice.NotifyStreamingStatus
 ---
 
 # IActiveBasicDevice::streaming
@@ -73,4 +73,3 @@ In response to this notification, the <a href="/previous-versions/windows/deskto
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/windows.media.streaming/nn-windows-media-streaming-iactivebasicdevice">IActiveBasicDevice</a>
-

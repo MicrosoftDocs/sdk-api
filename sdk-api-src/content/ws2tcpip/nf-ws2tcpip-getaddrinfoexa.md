@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetAddrInfoExA
  - ws2tcpip/GetAddrInfoExA
- - GetAddrInfoEx
- - ws2tcpip/GetAddrInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - GetAddrInfoExA
  - GetAddrInfoEx
+ - GetAddrInfoExA
+ - GetAddrInfoExW
 ---
 
 # GetAddrInfoExA function
@@ -1361,4 +1360,3 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 
 <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
-

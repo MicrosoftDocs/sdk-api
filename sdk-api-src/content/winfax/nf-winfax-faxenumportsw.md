@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxEnumPortsW
  - winfax/FaxEnumPortsW
- - FaxEnumPorts
- - winfax/FaxEnumPorts
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxEnumPortsW
  - FaxEnumPorts
+ - FaxEnumPortsA
+ - FaxEnumPortsW
 ---
 
 # FaxEnumPortsW function
@@ -160,4 +159,3 @@ The <b>FaxEnumPorts</b> function allocates the memory required for the <a href="
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetjoba">FaxGetJob</a>
-

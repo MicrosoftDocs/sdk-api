@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteBitmapRenderTarget1::GetTextAntialiasMode
+ - IDWriteBitmapRenderTarget1.GetTextAntialiasMode
 ---
 
 # IDWriteBitmapRenderTarget1::GetTextAntialiasMode

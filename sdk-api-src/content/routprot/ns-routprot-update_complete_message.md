@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - _UPDATE_COMPLETE_MESSAGE
- - PUPDATE_COMPLETE_MESSAGE
  - UPDATE_COMPLETE_MESSAGE
 ---
 
@@ -145,4 +143,3 @@ The update was unsuccessful.
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
-

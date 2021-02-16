@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory::GetDisplay
+ - ITextStory.GetDisplay
 ---
 
 # ITextStory::GetDisplay
@@ -73,4 +73,3 @@ A story can be displayed by calling <a href="/windows/desktop/api/tom/nf-tom-ite
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstory">ITextStory</a>
-

@@ -42,7 +42,11 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel::put_ExpandPostInsertionCorrection
+ - ITextInputPanel.ExpandPostInsertionCorrection
+ - ITextInputPanel.get_ExpandPostInsertionCorrection
+ - ITextInputPanel.put_ExpandPostInsertionCorrection
+ - ITextInputPanel.get_ExpandPostInsertionCorrection
+ - ITextInputPanel.put_ExpandPostInsertionCorrection
 ---
 
 # ITextInputPanel::put_ExpandPostInsertionCorrection
@@ -121,4 +125,3 @@ if (SUCCEEDED(CoInitialize(NULL)))
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-

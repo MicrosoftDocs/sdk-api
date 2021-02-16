@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IChannelTuneRequest::put_Channel
+ - IChannelTuneRequest.put_Channel
 ---
 
 # IChannelTuneRequest::put_Channel
@@ -69,4 +69,3 @@ If the value specified for <i>Channel</i> is less than the minimum channel set f
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ichanneltunerequest">IChannelTuneRequest Interface</a>
-

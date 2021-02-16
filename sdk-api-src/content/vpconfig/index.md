@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - vpconfig
  - vpconfig/vpconfig
-api_name:
- - vpconfig
 ---
 
 # Vpconfig.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname::GetElement
+ - IADsPathname.GetElement
 ---
 
 # IADsPathname::GetElement
@@ -75,4 +75,3 @@ For more information and other return values, see  <a href="/windows/desktop/ADS
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
-

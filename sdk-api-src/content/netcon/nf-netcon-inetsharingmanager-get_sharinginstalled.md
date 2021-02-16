@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingManager::get_SharingInstalled
+ - INetSharingManager.get_SharingInstalled
 ---
 
 # INetSharingManager::get_SharingInstalled
@@ -187,4 +187,3 @@ To determine whether sharing is enable for a particular connection, call
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-

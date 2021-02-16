@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::SetClass
+ - IPropertyStorage.SetClass
 ---
 
 # IPropertyStorage::SetClass
@@ -84,4 +84,3 @@ Setting the CLSID on a nonsimple property set (one that can legally contain stor
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>
-

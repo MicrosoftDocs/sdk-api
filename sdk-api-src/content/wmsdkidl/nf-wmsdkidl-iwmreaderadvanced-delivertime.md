@@ -46,7 +46,8 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMReaderAdvanced::DeliverTime
+ - IWMReaderAdvanced.DeliverTime
+ - IWMReaderAdvanced2.DeliverTime
 ---
 
 # IWMReaderAdvanced::DeliverTime
@@ -114,4 +115,3 @@ In general, the value of <i>cnsTime</i> should increase each time the method is 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2</a>
-

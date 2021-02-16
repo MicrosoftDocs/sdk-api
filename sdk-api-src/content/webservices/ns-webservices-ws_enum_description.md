@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_ENUM_DESCRIPTION
  - WS_ENUM_DESCRIPTION
 ---
 
@@ -140,4 +139,3 @@ enumDescription.values = valueArray;
 enumDescription.valueCount = 3;
 enumDescription.nameIndices = nameIndices;
 </code></pre>
-

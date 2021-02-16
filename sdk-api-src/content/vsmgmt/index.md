@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vsmgmt
  - vsmgmt/vsmgmt
-api_name:
- - vsmgmt
 ---
 
 # Vsmgmt.h header

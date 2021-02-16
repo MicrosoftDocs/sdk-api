@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CertNameToStrA
  - wincrypt/CertNameToStrA
- - CertNameToStr
- - wincrypt/CertNameToStr
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Crypt32.dll
 api_name:
- - CertNameToStrA
  - CertNameToStr
+ - CertNameToStrA
+ - CertNameToStrW
 ---
 
 # CertNameToStrA function
@@ -380,4 +379,3 @@ For an example that uses this function, see
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Data Conversion Functions</a>
-

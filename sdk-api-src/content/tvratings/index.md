@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - tvratings
  - tvratings/tvratings
-api_name:
- - tvratings
 ---
 
 # Tvratings.h header

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationBehavior::get_RebootBehavior
+ - IInstallationBehavior.RebootBehavior
+ - IInstallationBehavior.get_RebootBehavior
 ---
 
 # IInstallationBehavior::get_RebootBehavior
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationbehavior">IInstallationBehavior</a>
-

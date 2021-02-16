@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - tagOLEMISC
  - OLEMISC
 ---
 
@@ -152,4 +151,3 @@ A control that supports multi-level undo sets this value.
 
 
 <a href="/windows/desktop/api/oleidl/ns-oleidl-objectdescriptor">OBJECTDESCRIPTOR</a>
-

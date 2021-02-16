@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::FromHDC
+ - Graphics.FromHDC
 ---
 
 # Graphics::FromHDC(IN HDC,IN HANDLE)
@@ -114,4 +114,3 @@ When you use this method to create a
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-optimizing-printing-by-providing-a-printer-handle-use">Optimizing Printing by Providing a Printer Handle</a>
-

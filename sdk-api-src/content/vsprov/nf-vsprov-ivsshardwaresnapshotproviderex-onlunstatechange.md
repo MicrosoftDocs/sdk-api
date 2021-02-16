@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProviderEx::OnLunStateChange
+ - IVssHardwareSnapshotProviderEx.OnLunStateChange
 ---
 
 # IVssHardwareSnapshotProviderEx::OnLunStateChange
@@ -185,4 +185,3 @@ An unexpected provider error occurred. If this is returned, the error must be de
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsshardwaresnapshotproviderex">IVssHardwareSnapshotProviderEx</a>
-

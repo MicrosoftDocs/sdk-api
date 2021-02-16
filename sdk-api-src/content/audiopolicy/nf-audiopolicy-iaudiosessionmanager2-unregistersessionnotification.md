@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionManager2::UnregisterSessionNotification
+ - IAudioSessionManager2.UnregisterSessionNotification
 ---
 
 # IAudioSessionManager2::UnregisterSessionNotification
@@ -90,4 +90,3 @@ The application calls this method when it no longer needs to receive notificatio
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager2">IAudioSessionManager2</a>
-

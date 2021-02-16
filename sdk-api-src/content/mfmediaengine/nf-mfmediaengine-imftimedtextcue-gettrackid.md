@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextCue::GetTrackId
+ - IMFTimedTextCue.GetTrackId
 ---
 
 # IMFTimedTextCue::GetTrackId
@@ -63,4 +63,3 @@ Returns the identifier of the timed-text cue.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue">IMFTimedTextCue</a>
-

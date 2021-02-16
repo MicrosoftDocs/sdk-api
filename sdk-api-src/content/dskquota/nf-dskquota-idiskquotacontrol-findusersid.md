@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl::FindUserSid
+ - IDiskQuotaControl.FindUserSid
 ---
 
 # IDiskQuotaControl::FindUserSid
@@ -226,4 +226,3 @@ This method will return a user object even if there is no quota record for the u
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
-

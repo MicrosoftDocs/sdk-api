@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager::CreateFileScreenException
+ - IFsrmFileScreenManager.CreateFileScreenException
+ - FsrmFileScreenManager.CreateFileScreenException
 ---
 
 # IFsrmFileScreenManager::CreateFileScreenException
@@ -84,4 +85,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
-

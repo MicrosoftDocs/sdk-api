@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetCallback::AddPage
+ - IPropertySheetCallback.AddPage
 ---
 
 # IPropertySheetCallback::AddPage
@@ -81,4 +81,3 @@ Pages are added to the sheet in the order in which they are presented. The prima
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
-

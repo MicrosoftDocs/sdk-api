@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList::PutPropertyItem
+ - IADsPropertyList.PutPropertyItem
 ---
 
 # IADsPropertyList::PutPropertyItem
@@ -295,4 +295,3 @@ Fail:
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

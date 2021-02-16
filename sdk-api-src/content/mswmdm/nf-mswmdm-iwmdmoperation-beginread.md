@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation::BeginRead
+ - IWMDMOperation.BeginRead
 ---
 
 # IWMDMOperation::BeginRead
@@ -138,4 +138,3 @@ HRESULT BeginRead()
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-beginwrite">IWMDMOperation::BeginWrite</a>
-

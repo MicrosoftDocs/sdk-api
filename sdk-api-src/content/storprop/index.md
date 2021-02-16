@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - storprop
  - storprop/storprop
-api_name:
- - storprop
 ---
 
 # Storprop.h header

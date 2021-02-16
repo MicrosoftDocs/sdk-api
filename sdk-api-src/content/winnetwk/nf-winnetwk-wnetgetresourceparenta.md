@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WNetGetResourceParentA
  - winnetwk/WNetGetResourceParentA
- - WNetGetResourceParent
- - winnetwk/WNetGetResourceParent
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetGetResourceParentA
  - WNetGetResourceParent
+ - WNetGetResourceParentA
+ - WNetGetResourceParentW
 ---
 
 # WNetGetResourceParentA function
@@ -258,4 +257,3 @@ An example of an inappropriate use of
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

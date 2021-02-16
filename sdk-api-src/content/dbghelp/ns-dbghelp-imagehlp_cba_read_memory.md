@@ -46,8 +46,6 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _IMAGEHLP_CBA_READ_MEMORY
- - PIMAGEHLP_CBA_READ_MEMORY
  - IMAGEHLP_CBA_READ_MEMORY
 ---
 
@@ -79,4 +77,3 @@ A pointer to a variable that receives the number of bytes read.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_registered_callback">SymRegisterCallbackProc64</a>
-

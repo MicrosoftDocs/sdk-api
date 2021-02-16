@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::SetPageDimensions
+ - IXpsOMPage.SetPageDimensions
 ---
 
 # IXpsOMPage::SetPageDimensions
@@ -129,4 +129,3 @@ The page size specified in <i>pageDimensions</i> contains one or more  values th
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_size">XPS_SIZE</a>
-

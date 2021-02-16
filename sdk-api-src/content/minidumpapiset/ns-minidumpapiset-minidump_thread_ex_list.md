@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_THREAD_EX_LIST
- - PMINIDUMP_THREAD_EX_LIST
  - MINIDUMP_THREAD_EX_LIST
 ---
 
@@ -76,4 +74,3 @@ An array of
 
 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_ex">MINIDUMP_THREAD_EX</a>
-

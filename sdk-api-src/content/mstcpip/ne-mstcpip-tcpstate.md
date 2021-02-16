@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _TCPSTATE
  - TCPSTATE
 ---
 
@@ -133,4 +132,3 @@ For more information about TCP connection states, see <a href="https://tools.iet
 
 
 <a href="/windows/desktop/api/mstcpip/ns-mstcpip-tcp_info_v0">TCP_INFO_v0</a>
-

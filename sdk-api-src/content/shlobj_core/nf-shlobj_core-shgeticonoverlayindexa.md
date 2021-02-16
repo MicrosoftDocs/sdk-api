@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHGetIconOverlayIndexA
  - shlobj_core/SHGetIconOverlayIndexA
- - SHGetIconOverlayIndex
- - shlobj_core/SHGetIconOverlayIndex
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHGetIconOverlayIndexA
  - SHGetIconOverlayIndex
+ - SHGetIconOverlayIndexA
+ - SHGetIconOverlayIndexW
 ---
 
 # SHGetIconOverlayIndexA function
@@ -119,4 +118,3 @@ Icon overlays are part of the system image list. They have two identifiers. The 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelliconoverlayidentifier">IShellIconOverlayIdentifier</a>
-

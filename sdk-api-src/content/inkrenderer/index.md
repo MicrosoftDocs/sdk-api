@@ -9,8 +9,6 @@ tech.root: input_ink
 f1_keywords:
  - inkrenderer
  - inkrenderer/inkrenderer
-api_name:
- - inkrenderer
 ---
 
 # Inkrenderer.h header

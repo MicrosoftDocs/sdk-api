@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IConnectionPointContainer::FindConnectionPoint
+ - IConnectionPointContainer.FindConnectionPoint
 ---
 
 # IConnectionPointContainer::FindConnectionPoint
@@ -123,4 +123,3 @@ E_NOTIMPL is not allowed as a return value for this method. Any implementation o
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpointcontainer">IConnectionPointContainer</a>
-

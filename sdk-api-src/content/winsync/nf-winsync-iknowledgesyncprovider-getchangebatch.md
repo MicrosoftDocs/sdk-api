@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider::GetChangeBatch
+ - IKnowledgeSyncProvider.GetChangeBatch
 ---
 
 # IKnowledgeSyncProvider::GetChangeBatch
@@ -111,4 +111,3 @@ Be aware that <i>dwBatchSize</i> is a requested number only. A smaller or larger
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
-

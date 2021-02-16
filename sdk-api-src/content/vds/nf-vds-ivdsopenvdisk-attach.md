@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsOpenVDisk::Attach
+ - IVdsOpenVDisk.Attach
 ---
 
 # IVdsOpenVDisk::Attach
@@ -176,4 +176,3 @@ Applications must initialize process-wide security by calling the <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a>
-

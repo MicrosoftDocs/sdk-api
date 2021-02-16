@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Dbt.h
 api_name:
- - _DEV_BROADCAST_PORT_A
- - PDEV_BROADCAST_PORT_A
- - DEV_BROADCAST_PORT_A
+ - DEV_BROADCAST_PORT - dev_broadcast_port_a
 ---
 
 # DEV_BROADCAST_PORT_A structure
@@ -96,4 +94,3 @@ A null-terminated string specifying the friendly name of the port or the device 
 
 > [!NOTE]
 > The dbt.h header defines DEV_BROADCAST_PORT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

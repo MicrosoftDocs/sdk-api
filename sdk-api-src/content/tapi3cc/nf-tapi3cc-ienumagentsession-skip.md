@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumAgentSession::Skip
+ - IEnumAgentSession.Skip
 ---
 
 # IEnumAgentSession::Skip
@@ -106,4 +106,3 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
-

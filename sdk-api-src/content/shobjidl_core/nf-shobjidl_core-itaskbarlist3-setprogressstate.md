@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3::SetProgressState
+ - ITaskbarList3.SetProgressState
 ---
 
 # ITaskbarList3::SetProgressState
@@ -187,4 +187,3 @@ Note that a call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

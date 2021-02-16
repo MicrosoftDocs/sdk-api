@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::CreateCacheRequest
+ - IUIAutomation.CreateCacheRequest
 ---
 
 # IUIAutomation::CreateCacheRequest
@@ -97,4 +97,3 @@ After obtaining the <a href="/windows/desktop/api/uiautomationclient/nn-uiautoma
 
 
 <b>Reference</b>
-

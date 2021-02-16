@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_FILTER
  - DXVAHD_FILTER
 ---
 
@@ -96,4 +95,3 @@ Performs <i>anamorphic scaling</i>. Anamorphic scaling can be used to stretch 4:
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

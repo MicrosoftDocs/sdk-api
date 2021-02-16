@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_MODALS_INFO_1006
- - PUSER_MODALS_INFO_1006
  - USER_MODALS_INFO_1006
 ---
 
@@ -129,4 +127,3 @@ Logon server is a domain controller.
 
 
 <a href="/windows/desktop/NetMgmt/user-modal-functions">User Modal Functions</a>
-

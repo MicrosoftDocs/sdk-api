@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::Region
+ - Region.Region
 ---
 
 # Region::Region(IN const BYTE,IN INT)
@@ -68,4 +68,3 @@ Type: <b>INT</b>
 
 Integer that specifies the number of bytes in the 
 					<i>regionData</i> array.
-

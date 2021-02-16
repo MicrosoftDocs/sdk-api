@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression::GetInfo
+ - IAMVideoCompression.GetInfo
 ---
 
 # IAMVideoCompression::GetInfo
@@ -138,4 +138,3 @@ The remaining parameters receive default values for the compression properties. 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocompression">IAMVideoCompression Interface</a>
-

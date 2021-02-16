@@ -46,8 +46,6 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
- - _PROCESS_LEAP_SECOND_INFO
- - PPROCESS_LEAP_SECOND_INFO
  - PROCESS_LEAP_SECOND_INFO
 ---
 

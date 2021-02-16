@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::FlushOutputStream
+ - IMFDeviceTransform.FlushOutputStream
 ---
 
 # IMFDeviceTransform::FlushOutputStream
@@ -129,4 +129,3 @@ When the output stream needs to be reset, device transform manager (DTM) would c
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

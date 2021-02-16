@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
- - PSR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
  - SR_RESOURCE_TYPE_REPLICATED_PARTITION_ARRAY
 ---
 
@@ -71,4 +69,3 @@ A variable size array of all replicated partitions on the disk.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-

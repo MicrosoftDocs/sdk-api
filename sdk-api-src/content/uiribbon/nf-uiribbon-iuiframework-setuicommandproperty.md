@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIFramework::SetUICommandProperty
+ - IUIFramework.SetUICommandProperty
 ---
 
 # IUIFramework::SetUICommandProperty
@@ -109,4 +109,3 @@ For more information on how to set a property key for a specific control, see th
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

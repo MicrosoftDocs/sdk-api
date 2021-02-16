@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0010_0001
  - UI_ANIMATION_DEPENDENCIES
 ---
 
@@ -84,4 +83,3 @@ Multiple <b>UI_ANIMATION_DEPENDENCIES</b> values can be combined using a bitwise
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationinterpolator-getdependencies">IUIAnimationInterpolator::GetDependencies</a>
-

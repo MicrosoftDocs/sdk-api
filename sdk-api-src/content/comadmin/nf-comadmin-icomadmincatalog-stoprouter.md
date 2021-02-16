@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog::StopRouter
+ - ICOMAdminCatalog.StopRouter
 ---
 
 # ICOMAdminCatalog::StopRouter
@@ -105,4 +105,3 @@ When called on a computer acting as the component load balancing (CLB) server, t
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-

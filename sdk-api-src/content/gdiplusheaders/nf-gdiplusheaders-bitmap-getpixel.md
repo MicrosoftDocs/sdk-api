@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::GetPixel
+ - Bitmap.GetPixel
 ---
 
 # Bitmap::GetPixel
@@ -145,4 +145,3 @@ VOID Example_GetPixel(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

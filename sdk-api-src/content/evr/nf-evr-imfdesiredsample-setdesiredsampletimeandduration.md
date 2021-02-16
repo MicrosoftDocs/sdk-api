@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFDesiredSample::SetDesiredSampleTimeAndDuration
+ - IMFDesiredSample.SetDesiredSampleTimeAndDuration
 ---
 
 # IMFDesiredSample::SetDesiredSampleTimeAndDuration
@@ -74,4 +74,3 @@ This value should be set prior to passing the buffer to the mixer for a Mix oper
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
-

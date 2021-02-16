@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack2::CreateVolume2
+ - IVdsPack2.CreateVolume2
 ---
 
 # IVdsPack2::CreateVolume2
@@ -435,4 +435,3 @@ The volume size is too small.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdspack-createvolume">IVdsPack::CreateVolume</a>
-

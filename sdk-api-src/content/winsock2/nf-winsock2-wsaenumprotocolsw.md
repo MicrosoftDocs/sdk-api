@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSAEnumProtocolsW
  - winsock2/WSAEnumProtocolsW
- - WSAEnumProtocols
- - winsock2/WSAEnumProtocols
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAEnumProtocolsW
  - WSAEnumProtocols
+ - WSAEnumProtocolsA
+ - WSAEnumProtocolsW
 ---
 
 # WSAEnumProtocolsW function
@@ -379,4 +378,3 @@ int wmain()
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-

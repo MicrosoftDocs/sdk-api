@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged
+ - IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged
 ---
 
 # IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged
@@ -77,4 +77,3 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an  <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationloopiterationchangehandler2">IUIAnimationLoopIterationChangeHandler2</a>
-

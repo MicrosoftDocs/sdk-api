@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_presence_status_tag
  - PEER_PRESENCE_STATUS
 ---
 
@@ -92,4 +91,3 @@ The user is actively participating in the peer collaboration network.
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
-

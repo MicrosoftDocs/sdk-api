@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::get_imageSourceWidth
+ - IWMPMedia.get_imageSourceWidth
+ - IWMPMedia2.get_imageSourceWidth
+ - IWMPMedia3.get_imageSourceWidth
 ---
 
 # IWMPMedia::get_imageSourceWidth
@@ -89,4 +91,3 @@ Before calling this method, you must have read access to the library. For more i
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
-

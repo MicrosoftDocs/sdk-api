@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - powerbase
  - powerbase/powerbase
-api_name:
- - powerbase
 ---
 
 # Powerbase.h header

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CommConfigDialogW
  - winbase/CommConfigDialogW
- - CommConfigDialog
- - winbase/CommConfigDialog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - CommConfigDialogW
  - CommConfigDialog
+ - CommConfigDialogA
+ - CommConfigDialogW
 ---
 
 # CommConfigDialogW function
@@ -100,4 +99,3 @@ The
 
 
 <a href="/windows/desktop/DevIO/communications-resources">Communications Resources</a>
-

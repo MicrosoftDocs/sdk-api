@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI::get_Addresses
+ - ITTAPI.get_Addresses
 ---
 
 # ITTAPI::get_Addresses
@@ -146,4 +146,3 @@ TAPI calls the <b>Addref</b> method on the
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsGroupMbrRemoveW
  - rpcnsi/RpcNsGroupMbrRemoveW
- - RpcNsGroupMbrRemove
- - rpcnsi/RpcNsGroupMbrRemove
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsGroupMbrRemoveW
  - RpcNsGroupMbrRemove
+ - RpcNsGroupMbrRemoveA
+ - RpcNsGroupMbrRemoveW
 ---
 
 # RpcNsGroupMbrRemoveW function
@@ -193,4 +192,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsgroupmbradda">RpcNsGroupMbrAdd</a>
-

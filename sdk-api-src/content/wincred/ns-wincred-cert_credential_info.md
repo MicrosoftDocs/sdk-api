@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinCred.h
 api_name:
- - _CERT_CREDENTIAL_INFO
- - PCERT_CREDENTIAL_INFO
  - CERT_CREDENTIAL_INFO
 ---
 

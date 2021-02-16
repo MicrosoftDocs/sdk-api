@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACCESS_DENIED_CALLBACK_OBJECT_ACE
- - PACCESS_DENIED_CALLBACK_OBJECT_ACE
  - ACCESS_DENIED_CALLBACK_OBJECT_ACE
 ---
 
@@ -243,4 +241,3 @@ When an <b>ACCESS_DENIED_CALLBACK_OBJECT_ACE</b> structure is created, sufficien
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-

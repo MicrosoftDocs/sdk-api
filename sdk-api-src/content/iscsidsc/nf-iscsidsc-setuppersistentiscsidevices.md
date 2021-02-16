@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - SetupPersistentIScsiDevices
+ - SetupPersistentIscsiDevices
 ---
 
 # SetupPersistentIScsiDevices function

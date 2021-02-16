@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus::RemoveStylusSyncPlugin
+ - IRealTimeStylus.RemoveStylusSyncPlugin
 ---
 
 # IRealTimeStylus::RemoveStylusSyncPlugin
@@ -120,4 +120,3 @@ void CCOMRTSDlg::OnBnClickedCheckPacketFilter()
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-

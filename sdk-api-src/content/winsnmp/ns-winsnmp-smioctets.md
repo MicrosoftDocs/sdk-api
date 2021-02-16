@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winsnmp.h
 api_name:
- - smiLPOCTETS
  - smiOCTETS
 ---
 
@@ -113,4 +112,3 @@ Because the WinSNMP application allocates memory for input descriptor objects wi
 
 
 <a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
-

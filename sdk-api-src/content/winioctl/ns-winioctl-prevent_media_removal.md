@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _PREVENT_MEDIA_REMOVAL
- - PPREVENT_MEDIA_REMOVAL
  - PREVENT_MEDIA_REMOVAL
 ---
 
@@ -67,4 +65,3 @@ If this member is <b>TRUE</b>, the media is to be locked. Otherwise, it is not.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_media_removal">IOCTL_STORAGE_MEDIA_REMOVAL</a>
-

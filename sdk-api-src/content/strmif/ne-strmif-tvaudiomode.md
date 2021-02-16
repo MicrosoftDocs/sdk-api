@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - tagTVAudioMode
  - TVAudioMode
 ---
 
@@ -177,4 +176,3 @@ DWORD PresetFlags(DWORD AudioMode)
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
-

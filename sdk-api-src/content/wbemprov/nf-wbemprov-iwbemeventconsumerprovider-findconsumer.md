@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventConsumerProvider::FindConsumer
+ - IWbemEventConsumerProvider.FindConsumer
 ---
 
 # IWbemEventConsumerProvider::FindConsumer
@@ -171,4 +171,3 @@ HRESULT MyEventConsumerClass::FindConsumer(
 
 
 <a href="/windows/desktop/WmiSdk/receiving-events-for-the-duration-of-your-application">Receiving Events for the Duration of your Application</a>
-

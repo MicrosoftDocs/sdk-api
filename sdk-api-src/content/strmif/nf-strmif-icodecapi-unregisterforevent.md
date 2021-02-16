@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI::UnregisterForEvent
+ - ICodecAPI.UnregisterForEvent
 ---
 
 # ICodecAPI::UnregisterForEvent
@@ -78,4 +78,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-registerforevent">ICodecAPI::RegisterForEvent</a>
-

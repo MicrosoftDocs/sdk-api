@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - ISnapinAbout::GetSnapinVersion
+ - ISnapinAbout.GetSnapinVersion
 ---
 
 # ISnapinAbout::GetSnapinVersion
@@ -70,4 +70,3 @@ Memory for out parameters must be allocated using the COM function
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
-

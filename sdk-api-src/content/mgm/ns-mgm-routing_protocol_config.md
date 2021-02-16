@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mgm.h
 api_name:
- - _ROUTING_PROTOCOL_CONFIG
- - PROUTING_PROTOCOL_CONFIG
  - ROUTING_PROTOCOL_CONFIG
 ---
 
@@ -104,4 +102,3 @@ Callback into IGMP to notify IGMP that a protocol has finished taking or releasi
 ## -see-also
 
 <a href="/windows/desktop/api/mgm/nf-mgm-mgmregistermprotocol">MgmRegisterMProtocol</a>
-

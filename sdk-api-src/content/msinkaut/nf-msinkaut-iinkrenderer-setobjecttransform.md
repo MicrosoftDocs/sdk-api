@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::SetObjectTransform
+ - IInkRenderer.SetObjectTransform
 ---
 
 # IInkRenderer::SetObjectTransform
@@ -144,4 +144,3 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>
-

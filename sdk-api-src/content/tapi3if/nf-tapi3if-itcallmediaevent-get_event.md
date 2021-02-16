@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallMediaEvent::get_Event
+ - ITCallMediaEvent.get_Event
 ---
 
 # ITCallMediaEvent::get_Event
@@ -122,4 +122,3 @@ Call media events are a crucial indicator of whether certain operations can be p
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent">ITCallMediaEvent</a>
-

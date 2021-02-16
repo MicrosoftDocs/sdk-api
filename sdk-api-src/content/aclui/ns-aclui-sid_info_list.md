@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _SID_INFO_LIST
- - PSID_INFO_LIST
  - SID_INFO_LIST
 ---
 
@@ -78,4 +76,3 @@ A pointer to a list of <a href="/windows/desktop/api/aclui/ns-aclui-sid_info">SI
 
 
 <a href="/windows/desktop/api/aclui/ns-aclui-sid_info">SID_INFO</a>
-

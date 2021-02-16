@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_USAGE
- - PCTL_USAGE
  - CTL_USAGE
 ---
 
@@ -95,4 +93,3 @@ Array of object identifiers (OIDs) of CTL extensions.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
-

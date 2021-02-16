@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::get_ServiceProviderName
+ - ITAddress.get_ServiceProviderName
 ---
 
 # ITAddress::get_ServiceProviderName
@@ -139,4 +139,3 @@ You can retrieve the name of the provider in a TSP-dependent format using
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-linedevcaps">LINEDEVCAPS</a>
-

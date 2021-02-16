@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServicePool::Shutdown
+ - IServicePool.Shutdown
 ---
 
 # IServicePool::Shutdown
@@ -61,4 +61,3 @@ This method returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicepool">IServicePool</a>
-

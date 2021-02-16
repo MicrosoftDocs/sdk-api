@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_endpoint_tag
- - PPEER_ENDPOINT
  - PEER_ENDPOINT
 ---
 
@@ -81,4 +79,3 @@ A peer watching a contact can query any of the endpoints associated with that co
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

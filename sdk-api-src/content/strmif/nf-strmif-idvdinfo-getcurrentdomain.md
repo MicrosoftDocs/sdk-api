@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentDomain
+ - IDvdInfo.GetCurrentDomain
 ---
 
 # IDvdInfo::GetCurrentDomain
@@ -104,4 +104,3 @@ This method is valid in any domain. For more information, see <a href="/windows/
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

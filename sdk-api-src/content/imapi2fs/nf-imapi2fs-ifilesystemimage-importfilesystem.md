@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::ImportFileSystem
+ - IFileSystemImage.ImportFileSystem
 ---
 
 # IFileSystemImage::ImportFileSystem
@@ -226,4 +226,3 @@ This method returns <b>IMAPI_E_NO_SUPPORTED_FILE_SYSTEM</b> if a supported file 
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-

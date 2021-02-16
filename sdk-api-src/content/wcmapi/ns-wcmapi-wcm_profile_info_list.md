@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_PROFILE_INFO_LIST
- - PWCM_PROFILE_INFO_LIST
  - WCM_PROFILE_INFO_LIST
 ---
 
@@ -81,4 +79,3 @@ Information about each profile.
 ## -see-also
 
 <a href="/windows/desktop/api/wcmapi/ns-wcmapi-wcm_profile_info">WCM_PROFILE_INFO</a>
-

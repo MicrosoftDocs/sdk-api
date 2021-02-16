@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOleCallback::GetClipboardData
+ - IRichEditOleCallback.GetClipboardData
 ---
 
 # IRichEditOleCallback::GetClipboardData
@@ -119,4 +119,3 @@ Returns <b>S_OK</b> on success. If the return value is <b>E_NOTIMPL</b>, the ric
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::get_FileSystemsToCreate
+ - IFileSystemImage.get_FileSystemsToCreate
 ---
 
 # IFileSystemImage::get_FileSystemsToCreate
@@ -99,4 +99,3 @@ To retrieve a list of supported file system types, call the <a href="/windows/de
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_filesystemstocreate">IFileSystemImage::put_FileSystemsToCreate</a>
-

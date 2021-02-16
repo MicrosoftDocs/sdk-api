@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem::get_FullPath
+ - IFsiItem.get_FullPath
 ---
 
 # IFsiItem::get_FullPath
@@ -89,4 +89,3 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_name">IFsiItem::get_Name</a>
-

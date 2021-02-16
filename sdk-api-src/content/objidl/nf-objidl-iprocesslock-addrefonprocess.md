@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IProcessLock::AddRefOnProcess
+ - IProcessLock.AddRefOnProcess
 ---
 
 # IProcessLock::AddRefOnProcess
@@ -61,4 +61,3 @@ This method returns the new reference count.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iprocesslock">IProcessLock</a>
-

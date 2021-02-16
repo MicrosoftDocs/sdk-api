@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDetectTone::put_Frequency
+ - ITDetectTone.put_Frequency
 ---
 
 # ITDetectTone::put_Frequency
@@ -96,4 +96,3 @@ You can set up to three frequencies that make up the components of a tone. If fe
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_frequency">get_Frequency</a>
-

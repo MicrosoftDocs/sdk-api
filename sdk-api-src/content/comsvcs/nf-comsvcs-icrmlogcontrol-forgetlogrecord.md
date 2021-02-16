@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmLogControl::ForgetLogRecord
+ - ICrmLogControl.ForgetLogRecord
 ---
 
 # ICrmLogControl::ForgetLogRecord
@@ -116,4 +116,3 @@ This method can be used to forget only the last record because there is no conce
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
-

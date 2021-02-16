@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntryCollection::get_Item
+ - IUpdateHistoryEntryCollection.Item
+ - IUpdateHistoryEntryCollection.get_Item
 ---
 
 # IUpdateHistoryEntryCollection::get_Item
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentrycollection">IUpdateHistoryEntryCollection</a>
-

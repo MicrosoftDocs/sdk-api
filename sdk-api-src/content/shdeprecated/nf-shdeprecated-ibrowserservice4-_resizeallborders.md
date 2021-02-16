@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService4::_ResizeAllBorders
+ - IBrowserService4._ResizeAllBorders
 ---
 
 # IBrowserService4::_ResizeAllBorders

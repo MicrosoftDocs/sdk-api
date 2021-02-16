@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_COUNTERSET_INFO
- - PPERF_COUNTERSET_INFO
- - PERF_COUNTERSET_INFO
+ - PERF_COUNTERSET_INFO, *PPERF_COUNTERSET_INFO
 ---
 
 # PERF_COUNTERSET_INFO structure
@@ -168,4 +166,3 @@ The memory block for this structure also contains one or more <a href="/windows/
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfsetcountersetinfo">PerfSetCounterSetInfo</a>
-

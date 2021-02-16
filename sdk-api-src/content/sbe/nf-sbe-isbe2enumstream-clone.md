@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2EnumStream::Clone
+ - ISBE2EnumStream.Clone
 ---
 
 # ISBE2EnumStream::Clone
@@ -105,4 +105,3 @@ Out of memory for enumeration object.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
-

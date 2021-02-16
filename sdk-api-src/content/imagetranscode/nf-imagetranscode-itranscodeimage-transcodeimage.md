@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imagetranscode.h
 api_name:
- - ITranscodeImage::TranscodeImage
+ - ITranscodeImage.TranscodeImage
 ---
 
 # ITranscodeImage::TranscodeImage
@@ -125,4 +125,3 @@ The aspect ratio of the original image is preserved.
 The image size will not be changed if the original image already fits in this bounding box.
 
 If both uiMaxWidth and uiMaxHeight are zero, the returned image will be the same size as the original.
-

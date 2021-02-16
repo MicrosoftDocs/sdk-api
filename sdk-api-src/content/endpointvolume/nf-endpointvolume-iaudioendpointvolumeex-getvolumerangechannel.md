@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolumeEx::GetVolumeRangeChannel
+ - IAudioEndpointVolumeEx.GetVolumeRangeChannel
 ---
 
 # IAudioEndpointVolumeEx::GetVolumeRangeChannel
@@ -95,4 +95,3 @@ Parameter <i>pfLevelMinDB</i>, <i>pfLevelMaxDB</i>, or <i>pfVolumeIncrementDB</i
 ## -see-also
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumeex">IAudioEndpointVolumeEx</a>
-

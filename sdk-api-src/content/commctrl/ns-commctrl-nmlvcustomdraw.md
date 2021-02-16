@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMLVCUSTOMDRAW
- - LPNMLVCUSTOMDRAW
  - NMLVCUSTOMDRAW
 ---
 
@@ -228,4 +226,3 @@ Align the group on the right.
 
 <div class="alert"><b>Note</b>  Comctl32.dll version 6 is not redistributable but it is included in Windows or later. To use Comctl32.dll version 6, specify it in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.</div>
 <div> </div>
-

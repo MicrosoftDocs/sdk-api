@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InstallPerfDllW
  - loadperf/InstallPerfDllW
- - InstallPerfDll
- - loadperf/InstallPerfDll
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - Loadperf.dll
 api_name:
- - InstallPerfDllW
  - InstallPerfDll
+ - InstallPerfDllW
 ---
 
 # InstallPerfDllW function
@@ -88,4 +86,3 @@ This function has no associated import library; you must call it using the <a hr
 ## -see-also
 
 <a href="/windows/desktop/api/loadperf/nf-loadperf-loadperfcountertextstringsa">LoadPerfCounterTextStrings</a>
-

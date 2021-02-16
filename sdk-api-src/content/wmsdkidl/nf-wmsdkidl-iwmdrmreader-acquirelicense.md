@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader::AcquireLicense
+ - IWMDRMReader.AcquireLicense
 ---
 
 # IWMDRMReader::AcquireLicense
@@ -137,4 +137,3 @@ This is an asynchronous call that returns immediately.
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_status">WMT_STATUS</a>
-

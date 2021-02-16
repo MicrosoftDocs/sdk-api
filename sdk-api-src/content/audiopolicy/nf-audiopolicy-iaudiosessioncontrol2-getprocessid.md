@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionControl2::GetProcessId
+ - IAudioSessionControl2.GetProcessId
 ---
 
 # IAudioSessionControl2::GetProcessId
@@ -116,4 +116,3 @@ This method overwrites the value that was passed by the application in <i>pRetVa
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
-

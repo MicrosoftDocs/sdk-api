@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplateWritable::get_Property
+ - IX509CertificateTemplateWritable.Property
+ - IX509CertificateTemplateWritable.get_Property
+ - IX509CertificateTemplateWritable.put_Property
 ---
 
 # IX509CertificateTemplateWritable::get_Property
@@ -63,4 +65,3 @@ Currently, TemplatePropSecurityDescriptor is the only property that you can set.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
-

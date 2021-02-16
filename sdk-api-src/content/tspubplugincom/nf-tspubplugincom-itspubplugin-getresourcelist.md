@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tspubplugincom.h
 api_name:
- - ItsPubPlugin::GetResourceList
+ - ItsPubPlugin.GetResourceList
 ---
 
 # ItsPubPlugin::GetResourceList
@@ -78,4 +78,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>
-

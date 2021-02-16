@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiavideo.dll
 api_name:
- - IWiaVideo::TakePicture
+ - IWiaVideo.TakePicture
 ---
 
 # IWiaVideo::TakePicture
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The path and directory where the image file is saved are specified by the <a href="/windows/desktop/api/wiavideo/nf-wiavideo-iwiavideo-get_imagesdirectory">IWiaVideo::ImagesDirectory</a> property.
-

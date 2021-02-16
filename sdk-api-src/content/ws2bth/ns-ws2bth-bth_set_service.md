@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ws2bth.h
 api_name:
- - _BTH_SET_SERVICE
- - PBTH_SET_SERVICE
  - BTH_SET_SERVICE
 ---
 
@@ -150,4 +148,3 @@ Bluetooth implements a one-to-one correlation between SDP records and server soc
 
 
 <a href="/windows/desktop/Bluetooth/bluetooth-and-wsaqueryset-for-service-inquiry">WSAQUERYSET</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2::CloseTray
+ - IDiscRecorder2.CloseTray
 ---
 
 # IDiscRecorder2::CloseTray
@@ -350,4 +350,3 @@ Value: 0xC0AA0210
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-ejectmedia">IDiscRecorder2::EjectMedia</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _imecomptext
  - IMECOMPTEXT
 ---
 
@@ -93,4 +92,3 @@ This structure is used with the <a href="https://msdn.microsoft.com/1516305c-5f8
 ## -see-also
 
 <a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a>
-

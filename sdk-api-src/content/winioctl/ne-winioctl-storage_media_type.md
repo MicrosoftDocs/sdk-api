@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_MEDIA_TYPE
- - PSTORAGE_MEDIA_TYPE
  - STORAGE_MEDIA_TYPE
 ---
 

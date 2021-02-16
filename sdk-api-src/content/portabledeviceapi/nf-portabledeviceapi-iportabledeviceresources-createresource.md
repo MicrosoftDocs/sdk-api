@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources::CreateResource
+ - IPortableDeviceResources.CreateResource
 ---
 
 # IPortableDeviceResources::CreateResource
@@ -138,4 +138,3 @@ To cancel the data transfer to a resource, the application must call the <b>Reve
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
-

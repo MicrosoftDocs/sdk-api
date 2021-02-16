@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQueueEvent::get_Queue
+ - ITQueueEvent.get_Queue
 ---
 
 # ITQueueEvent::get_Queue
@@ -117,4 +117,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueueevent">ITQueueEvent</a>
-

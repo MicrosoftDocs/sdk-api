@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPropertyUI::ParsePropertyName
+ - IPropertyUI.ParsePropertyName
 ---
 
 # IPropertyUI::ParsePropertyName
@@ -83,4 +83,3 @@ The number of characters that were consumed in parsing <i>pszName</i>.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

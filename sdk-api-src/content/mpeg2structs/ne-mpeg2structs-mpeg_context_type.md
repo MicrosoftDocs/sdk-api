@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0027
  - MPEG_CONTEXT_TYPE
 ---
 
@@ -72,4 +71,3 @@ Reserved. Do not use.
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT</a>
-

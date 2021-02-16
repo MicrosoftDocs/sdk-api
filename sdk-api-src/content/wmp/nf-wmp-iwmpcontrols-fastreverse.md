@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls::fastReverse
+ - IWMPControls.fastReverse
 ---
 
 # IWMPControls::fastReverse
@@ -109,4 +109,3 @@ This method does not work for live broadcasts and certain digital media types. T
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_rate">IWMPSettings::put_rate</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileGroupManager::ExportFileGroups
+ - IFsrmFileGroupManager.ExportFileGroups
+ - FsrmFileGroupManager.ExportFileGroups
 ---
 
 # IFsrmFileGroupManager::ExportFileGroups
@@ -89,4 +90,3 @@ Typically, you use this method to save the file groups information to a file. Yo
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
-

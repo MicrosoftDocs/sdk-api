@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::put_name
+ - IWMPMedia.put_name
+ - IWMPMedia2.put_name
+ - IWMPMedia3.put_name
 ---
 
 # IWMPMedia::put_name
@@ -93,4 +95,3 @@ Before calling this method, you must have full access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_name">IWMPMedia::get_name</a>
-

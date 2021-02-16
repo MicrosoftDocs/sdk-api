@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2::PlayAtTime
+ - IDvdControl2.PlayAtTime
 ---
 
 # IDvdControl2::PlayAtTime
@@ -145,4 +145,3 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
-

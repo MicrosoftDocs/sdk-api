@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1DrawInfo::SetPixelShader
+ - ID2D1DrawInfo.SetPixelShader
 ---
 
 # ID2D1DrawInfo::SetPixelShader
@@ -84,4 +84,3 @@ Specifying <i>pixelOptions</i> other than D2D1_PIXEL_OPTIONS_NONE can enable the
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1drawinfo">ID2D1DrawInfo</a>
-

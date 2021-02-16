@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_VDISK_STATE
  - VDS_VDISK_STATE
 ---
 
@@ -115,4 +114,3 @@ This value is reserved for system use.
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

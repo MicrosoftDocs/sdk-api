@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::GetViewTransform
+ - IInkRenderer.GetViewTransform
 ---
 
 # IInkRenderer::GetViewTransform
@@ -130,4 +130,3 @@ View transformation occurs after object transformation.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>
-

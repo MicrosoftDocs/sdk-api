@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner::get_TuningSpace
+ - IAMTuner.get_TuningSpace
 ---
 
 # IAMTuner::get_TuningSpace
@@ -74,4 +74,3 @@ The application defines the value retrieved by this method; it is set through a 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-

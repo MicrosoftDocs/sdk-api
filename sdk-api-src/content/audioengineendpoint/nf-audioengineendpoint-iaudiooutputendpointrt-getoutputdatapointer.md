@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioOutputEndpointRT::GetOutputDataPointer
+ - IAudioOutputEndpointRT.GetOutputDataPointer
 ---
 
 # IAudioOutputEndpointRT::GetOutputDataPointer
@@ -84,4 +84,3 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt">IAudioOutputEndpointRT</a>
-

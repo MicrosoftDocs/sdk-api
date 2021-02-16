@@ -9,8 +9,6 @@ tech.root: wer
 f1_keywords:
  - werapi
  - werapi/werapi
-api_name:
- - werapi
 ---
 
 # Werapi.h header

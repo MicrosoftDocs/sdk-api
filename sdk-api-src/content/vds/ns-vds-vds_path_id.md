@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_PATH_ID
  - VDS_PATH_ID
 ---
 
@@ -77,4 +76,3 @@ The ID of the path given by the MPIO DSM.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a>
-

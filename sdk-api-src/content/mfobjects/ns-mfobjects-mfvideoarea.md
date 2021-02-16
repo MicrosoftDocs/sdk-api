@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFVideoArea
  - MFVideoArea
 ---
 
@@ -76,4 +75,3 @@ A <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a> structure that contain
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext3::Flush1
+ - ID3D11DeviceContext3.Flush1
 ---
 
 # ID3D11DeviceContext3::Flush1
@@ -87,4 +87,3 @@ An optional event handle. When specified, this method creates an event query.
 
 
 <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-flush">ID3D11DeviceContext::Flush</a>
-

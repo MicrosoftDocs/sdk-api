@@ -45,7 +45,6 @@ api_location:
  - WebServices.h
 api_name:
  - _WS_NETPIPE_URL
- - WS_NETPIPE_URL
 ---
 
 # WS_NETPIPE_URL structure
@@ -104,4 +103,3 @@ If used with the <a href="/windows/desktop/api/webservices/nf-webservices-wsdeco
 
 
 <a href="/windows/desktop/api/webservices/ns-webservices-ws_soapudp_url">WS_SOAPUDP_URL</a>
-

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue::IsDerivedFrom
+ - CWbemProviderGlue.IsDerivedFrom
 ---
 
 # CWbemProviderGlue::IsDerivedFrom
@@ -80,4 +80,3 @@ Namespace that contains <i>pszBaseClassName</i> and <i>pszDerivedClassname</i>. 
 ## -returns
 
 The method returns <b>TRUE</b> if the class pointed to by <i>pszDerivedClassName</i> is a subclass of the class pointed to by <i>pszBaseClassName</i> and <b>FALSE</b> if <i>pszDerivedClassName</i> does not derive from <i>pszBaseClassName</i>. If asked if a class is derived from itself, this method returns <b>FALSE</b>.
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedDescribedBy
+ - IUIAutomationElement.CachedDescribedBy
+ - IUIAutomationElement.get_CachedDescribedBy
 ---
 
 # IUIAutomationElement::get_CachedDescribedBy
@@ -75,4 +76,3 @@ This property maps to the Accessible Rich Internet Applications (ARIA) <b>descri
 
 
 <b>Reference</b>
-

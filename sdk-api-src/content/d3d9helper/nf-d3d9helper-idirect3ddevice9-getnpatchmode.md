@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::GetNPatchMode
+ - IDirect3DDevice9.GetNPatchMode
 ---
 
 # IDirect3DDevice9::GetNPatchMode
@@ -68,4 +68,3 @@ Specifies the number of subdivision segments. If the number of segments is less 
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode">IDirect3DDevice9::SetNPatchMode</a>
-

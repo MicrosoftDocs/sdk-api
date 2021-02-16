@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFQualityManager::NotifyTopology
+ - IMFQualityManager.NotifyTopology
 ---
 
 # IMFQualityManager::NotifyTopology
@@ -104,4 +104,3 @@ The quality manager can then use the <a href="/windows/desktop/api/mfidl/nn-mfid
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
-

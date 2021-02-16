@@ -46,6 +46,7 @@ api_location:
  - API-MS-Win-DX-D3DKMT-L1-1-2.dll
 api_name:
  - DdQueryDisplaySettingsUniqueness
+ - GdiEntry13
 ---
 
 # DdQueryDisplaySettingsUniqueness function
@@ -74,4 +75,3 @@ The current value of the mode switch integer is returned.
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-

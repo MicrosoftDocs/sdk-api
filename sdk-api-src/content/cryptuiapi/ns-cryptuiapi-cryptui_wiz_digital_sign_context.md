@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
- - _CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
- - PCRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
  - CRYPTUI_WIZ_DIGITAL_SIGN_CONTEXT
 ---
 
@@ -77,4 +75,3 @@ A pointer to the signed BLOB.
 ## -see-also
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
-

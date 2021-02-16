@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl::SetVideoPosition
+ - IMFVideoDisplayControl.SetVideoPosition
 ---
 
 # IMFVideoDisplayControl::SetVideoPosition
@@ -128,4 +128,3 @@ Before setting the destination rectangle (<i>prcDest</i>), you must set the vide
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-

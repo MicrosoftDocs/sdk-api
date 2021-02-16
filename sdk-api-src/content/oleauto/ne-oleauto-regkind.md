@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OleAuto.h
 api_name:
- - tagREGKIND
  - REGKIND
 ---
 

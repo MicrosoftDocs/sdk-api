@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - OpenEventLogA
  - winbase/OpenEventLogA
- - OpenEventLog
- - winbase/OpenEventLog
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +45,10 @@ api_location:
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-L1-1-1.dll
 api_name:
- - OpenEventLogA
  - OpenEventLog
+ - OpenEventLogA
+ - OpenEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OpenEventLogA function
@@ -121,4 +120,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-reporteventa">ReportEvent</a>
-

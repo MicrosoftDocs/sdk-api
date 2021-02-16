@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::Disconnect
+ - IPin.Disconnect
 ---
 
 # IPin::Disconnect
@@ -120,4 +120,3 @@ This method does not disconnect the other pin in the pin connection.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

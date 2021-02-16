@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - amva
  - amva/amva
-api_name:
- - amva
 ---
 
 # Amva.h header

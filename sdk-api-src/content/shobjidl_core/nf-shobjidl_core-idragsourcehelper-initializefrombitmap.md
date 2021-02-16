@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDragSourceHelper::InitializeFromBitmap
+ - IDragSourceHelper.InitializeFromBitmap
 ---
 
 # IDragSourceHelper::InitializeFromBitmap
@@ -79,4 +79,3 @@ Because <b>InitializeFromBitmap</b> always performs the RGB multiplication step 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idragsourcehelper">IDragSourceHelper</a>
-

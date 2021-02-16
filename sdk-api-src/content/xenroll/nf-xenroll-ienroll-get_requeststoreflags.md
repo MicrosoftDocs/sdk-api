@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_RequestStoreFlags
+ - IEnroll.RequestStoreFlags
+ - IEnroll.get_RequestStoreFlags
+ - IEnroll.put_RequestStoreFlags
 ---
 
 # IEnroll::get_RequestStoreFlags
@@ -88,4 +90,3 @@ The <b>RequestStoreFlags</b> property should be set before using the following m
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

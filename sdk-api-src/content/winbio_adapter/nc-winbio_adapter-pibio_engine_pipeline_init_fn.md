@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_PIPELINE_INIT_FN
+ - EngineAdapterPipelineInit
 ---
 
 # PIBIO_ENGINE_PIPELINE_INIT_FN callback function
@@ -87,4 +87,3 @@ The Engine Adapter should return <b>S_OK</b> if it doesn’t need to perform any
 When this routine is called, the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_attach_fn">SensorAdapterAttach</a>, <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn">EngineAdapterAttach</a>, and,<a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_attach_fn">StorageAdapterAttach</a> routines have completed normally, the template database is open, and the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_init_fn">StorageAdapterPipelineInit</a> routine has completed normally.
 
 This method executes in the context of an arbitrary RPC server thread.
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Size::operator+
+ - Size.operator+
 ---
 
 # Size::operator-add
@@ -105,4 +105,3 @@ VOID Example_OperatorPlus(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
-

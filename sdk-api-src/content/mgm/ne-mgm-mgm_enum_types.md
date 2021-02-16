@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mgm.h
 api_name:
- - _MGM_ENUM_TYPES
  - MGM_ENUM_TYPES
 ---
 
@@ -70,4 +69,3 @@ Enumerate all source entries for a group.
 ## -see-also
 
 <a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
-

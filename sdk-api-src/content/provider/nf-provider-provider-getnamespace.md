@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::GetNamespace
+ - Provider.GetNamespace
 ---
 
 # Provider::GetNamespace
@@ -64,4 +64,3 @@ The <b>GetNamespace</b> method returns a constant reference to the namespace nam
 ## -returns
 
 Returns a constant reference to the namespace.
-

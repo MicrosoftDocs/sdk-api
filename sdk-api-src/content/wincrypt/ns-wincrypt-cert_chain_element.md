@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_CHAIN_ELEMENT
- - PCERT_CHAIN_ELEMENT
  - CERT_CHAIN_ELEMENT
 ---
 
@@ -99,4 +97,3 @@ A pointer to a <b>null</b>-terminated wide character string that contains extend
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_trust_status">CERT_TRUST_STATUS</a>
-

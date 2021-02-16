@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::get_ContentViewCondition
+ - IUIAutomation.ContentViewCondition
+ - IUIAutomation.get_ContentViewCondition
 ---
 
 # IUIAutomation::get_ContentViewCondition
@@ -71,4 +72,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

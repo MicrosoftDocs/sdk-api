@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponentsEx::SetSelectedForRestoreEx
+ - IVssBackupComponentsEx.SetSelectedForRestoreEx
 ---
 
 # IVssBackupComponentsEx::SetSelectedForRestoreEx
@@ -237,4 +237,3 @@ A writer's class identifier, instance identifier, and instance name can be found
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex-getidentityex">IVssExamineWriterMetadataEx::GetIdentityEx</a>
-

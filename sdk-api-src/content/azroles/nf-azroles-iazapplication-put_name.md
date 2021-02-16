@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::put_Name
+ - IAzApplication.Name
+ - IAzApplication.get_Name
+ - IAzApplication.put_Name
+ - AzApplication.Name
 ---
 
 # IAzApplication::put_Name

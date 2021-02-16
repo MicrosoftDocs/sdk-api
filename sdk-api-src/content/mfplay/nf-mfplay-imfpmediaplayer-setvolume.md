@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer::SetVolume
+ - IMFPMediaPlayer.SetVolume
 ---
 
 # IMFPMediaPlayer::SetVolume
@@ -108,4 +108,3 @@ This method does not change the master volume level for the player's audio sessi
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

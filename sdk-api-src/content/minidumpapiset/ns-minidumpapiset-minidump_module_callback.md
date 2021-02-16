@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_MODULE_CALLBACK
- - PMINIDUMP_MODULE_CALLBACK
  - MINIDUMP_MODULE_CALLBACK
 ---
 
@@ -114,4 +112,3 @@ The size of the miscellaneous record of the module in the <b>MiscRecord</b> memb
 
 
 <a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a>
-

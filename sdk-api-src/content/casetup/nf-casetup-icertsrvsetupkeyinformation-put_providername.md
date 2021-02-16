@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation::put_ProviderName
+ - ICertSrvSetupKeyInformation.ProviderName
+ - ICertSrvSetupKeyInformation.get_ProviderName
+ - ICertSrvSetupKeyInformation.put_ProviderName
 ---
 
 # ICertSrvSetupKeyInformation::put_ProviderName
@@ -63,4 +65,3 @@ For a KSP, the <b>ProviderName</b> property value must be formatted as <i>Public
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::QueryHardwareSupport
+ - IAudioEndpointVolume.QueryHardwareSupport
 ---
 
 # IAudioEndpointVolume::QueryHardwareSupport
@@ -94,4 +94,3 @@ The system automatically substitutes a software implementation for any function 
 ## -see-also
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume">IAudioEndpointVolume Interface</a>
-

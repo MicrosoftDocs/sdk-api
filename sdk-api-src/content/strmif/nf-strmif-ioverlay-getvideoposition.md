@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay::GetVideoPosition
+ - IOverlay.GetVideoPosition
 ---
 
 # IOverlay::GetVideoPosition
@@ -74,4 +74,3 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-

@@ -45,7 +45,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUS_CSV_MAINTENANCE_MODE_INFO
- - PCLUS_CSV_MAINTENANCE_MODE_INFO
 ---
 
 # CLUS_CSV_MAINTENANCE_MODE_INFO structure
@@ -75,4 +74,3 @@ The volume <b>GUID</b> path of the CSV.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

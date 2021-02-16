@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemArray::GetItemAt
+ - IShellItemArray.GetItemAt
 ---
 
 # IShellItemArray::GetItemAt
@@ -87,4 +87,3 @@ This function returns E_FAIL if the requested index is out of bounds of the <a h
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitemarray-getcount">IShellItemArray::GetCount</a>
-

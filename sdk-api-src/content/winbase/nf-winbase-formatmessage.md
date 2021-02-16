@@ -50,6 +50,8 @@ api_location:
  - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
  - FormatMessage
+ - FormatMessageA
+ - FormatMessageW
 ---
 
 # FormatMessage function
@@ -588,4 +590,3 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 Message Tables
-

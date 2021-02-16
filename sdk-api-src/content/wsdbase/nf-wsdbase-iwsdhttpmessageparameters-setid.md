@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters::SetID
+ - IWSDHttpMessageParameters.SetID
 ---
 
 # IWSDHttpMessageParameters::SetID
@@ -105,4 +105,3 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
-

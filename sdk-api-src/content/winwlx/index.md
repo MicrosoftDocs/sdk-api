@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - winwlx
  - winwlx/winwlx
-api_name:
- - winwlx
 ---
 
 # Winwlx.h header

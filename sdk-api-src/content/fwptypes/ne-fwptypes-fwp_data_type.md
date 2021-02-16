@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_DATA_TYPE_
  - FWP_DATA_TYPE
 ---
 
@@ -189,4 +188,3 @@ in each structure to determine which are allowed.
 
 
 [FWP_VALUE0](/windows/desktop/api/fwptypes/ns-fwptypes-fwp_value0)
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache::InitCache
+ - IOleCache.InitCache
 ---
 
 # IOleCache::InitCache
@@ -135,4 +135,3 @@ Only some of the existing caches were updated.
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
-

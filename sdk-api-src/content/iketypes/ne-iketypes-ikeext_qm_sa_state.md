@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_QM_SA_STATE_
  - IKEEXT_QM_SA_STATE
 ---
 
@@ -80,4 +79,3 @@ Maximum value for testing purposes.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-

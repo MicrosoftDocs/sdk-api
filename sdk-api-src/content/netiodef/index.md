@@ -9,8 +9,6 @@ tech.root: fwp
 f1_keywords:
  - netiodef
  - netiodef/netiodef
-api_name:
- - netiodef
 ---
 
 # Netiodef.h header

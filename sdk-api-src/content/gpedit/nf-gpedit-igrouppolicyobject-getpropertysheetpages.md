@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject::GetPropertySheetPages
+ - IGroupPolicyObject.GetPropertySheetPages
 ---
 
 # IGroupPolicyObject::GetPropertySheetPages
@@ -86,4 +86,3 @@ This method allocates memory for the array with the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
-

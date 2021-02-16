@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - dsadmin
  - dsadmin/dsadmin
-api_name:
- - dsadmin
 ---
 
 # Dsadmin.h header

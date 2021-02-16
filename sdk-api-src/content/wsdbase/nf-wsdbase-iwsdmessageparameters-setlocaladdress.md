@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDMessageParameters::SetLocalAddress
+ - IWSDMessageParameters.SetLocalAddress
 ---
 
 # IWSDMessageParameters::SetLocalAddress
@@ -88,4 +88,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
-

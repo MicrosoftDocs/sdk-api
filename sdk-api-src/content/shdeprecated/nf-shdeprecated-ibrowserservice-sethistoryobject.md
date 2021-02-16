@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService::SetHistoryObject
+ - IBrowserService.SetHistoryObject
 ---
 
 # IBrowserService::SetHistoryObject
@@ -76,4 +76,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method will fail if the browser already has a history object.
-

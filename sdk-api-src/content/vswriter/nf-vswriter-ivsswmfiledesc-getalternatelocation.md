@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMFiledesc::GetAlternateLocation
+ - IVssWMFiledesc.GetAlternateLocation
 ---
 
 # IVssWMFiledesc::GetAlternateLocation
@@ -179,4 +179,3 @@ For more information, see
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswmfiledesc">IVssWMFiledesc</a>
-

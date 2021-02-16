@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder::GetUIObjectOf
+ - IShellFolder.GetUIObjectOf
+ - IShellFolder2.GetUIObjectOf
 ---
 
 # IShellFolder::GetUIObjectOf
@@ -155,4 +156,3 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a>
-

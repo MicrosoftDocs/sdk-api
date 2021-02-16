@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
- - SIP_SUBJECTINFO_
- - LPSIP_SUBJECTINFO
  - SIP_SUBJECTINFO
 ---
 
@@ -209,4 +207,3 @@ A pointer to SIP-specific data.
 Upon first use of the <b>SIP_SUBJECTINFO</b> structure, initialize the entire structure to binary zero. Do not initialize the structure between SIP function calls.
 
 Subjects include, but are not limited to, portable executable images (.exe), cabinet (.cab) images, flat files, and catalog files. Each subject type uses a different subset of its data for hash calculation and requires a different procedure for storage and retrieval. Therefore each subject type has a unique subject interface package specification.
-

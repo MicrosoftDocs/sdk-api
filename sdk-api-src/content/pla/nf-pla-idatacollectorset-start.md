@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::Start
+ - IDataCollectorSet.Start
 ---
 
 # IDataCollectorSet::Start
@@ -127,4 +127,3 @@ If you start the set asynchronously, an event is written to the Microsoft-Window
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-stop">IDataCollectorSet::Stop</a>
-

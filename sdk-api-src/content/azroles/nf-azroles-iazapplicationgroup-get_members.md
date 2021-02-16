@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::get_Members
+ - IAzApplicationGroup.Members
+ - IAzApplicationGroup.get_Members
+ - AzApplicationGroup.Members
 ---
 
 # IAzApplicationGroup::get_Members
@@ -61,4 +63,3 @@ This property is read-only.
 This property is ignored unless the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_type">Type</a> property is AZ_GROUPTYPE_BASIC.
 
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
-

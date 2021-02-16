@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl::ChapterPlayAutoStop
+ - IDvdControl.ChapterPlayAutoStop
 ---
 
 # IDvdControl::ChapterPlayAutoStop
@@ -85,4 +85,3 @@ Chapters range from 1 through 999. See EC_DVD_CHAPTER_AUTOSTOP in <a href="/wind
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
-

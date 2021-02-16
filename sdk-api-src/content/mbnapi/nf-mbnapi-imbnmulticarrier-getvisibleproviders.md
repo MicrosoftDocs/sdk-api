@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrier::GetVisibleProviders
+ - IMbnMultiCarrier.GetVisibleProviders
 ---
 
 # IMbnMultiCarrier::GetVisibleProviders
@@ -137,4 +137,3 @@ This list contains all the currently visible networks available at the user’s 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
-

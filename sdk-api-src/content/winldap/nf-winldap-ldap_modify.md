@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_modify
+ - ldap_modifyA
+ - ldap_modifyW
 ---
 
 # ldap_modify function
@@ -137,4 +139,3 @@ Multithreading: Calls to <b>ldap_modify</b> are thread-safe, provided that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

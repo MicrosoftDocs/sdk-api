@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IDTFilter::get_BlockUnRatedDelay
+ - IDTFilter.get_BlockUnRatedDelay
 ---
 
 # IDTFilter::get_BlockUnRatedDelay
@@ -102,4 +102,3 @@ Regardless of the value of this property, the filter does not block unrated cont
 
 
 <a href="/previous-versions/windows/desktop/api/encdec/nf-encdec-idtfilter-get_blockunrated">IDTFilter::get_BlockUnRated</a>
-

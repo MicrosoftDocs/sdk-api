@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::put_ProviderType
+ - IX509PrivateKey.ProviderType
+ - IX509PrivateKey.get_ProviderType
+ - IX509PrivateKey.put_ProviderType
 ---
 
 # IX509PrivateKey::put_ProviderType
@@ -89,4 +91,3 @@ Because  a previously specified <a href="/windows/desktop/api/certenroll/nf-cert
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

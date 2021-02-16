@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12SharingContract::SharedFenceSignal
+ - ID3D12SharingContract.SharedFenceSignal
 ---
 
 # ID3D12SharingContract::SharedFenceSignal
@@ -69,4 +69,3 @@ An unsigned 64bit value to signal the shared fence with.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12sharingcontract">ID3D12SharingContract</a>
-

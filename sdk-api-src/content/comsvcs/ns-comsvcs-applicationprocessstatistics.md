@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - _ApplicationProcessStatistics
  - ApplicationProcessStatistics
 ---
 
@@ -92,4 +91,3 @@ This member is reserved and set to DATA_NOT_AVAILABLE (0xFFFFFFFF).
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-

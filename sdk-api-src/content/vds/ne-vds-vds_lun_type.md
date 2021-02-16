@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_LUN_TYPE
- - PVDS_LUN_TYPE
  - VDS_LUN_TYPE
 ---
 
@@ -224,4 +222,3 @@ If the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-createlu
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a>
-

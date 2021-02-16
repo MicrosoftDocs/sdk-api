@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutput2::SupportsOverlays
+ - IDXGIOutput2.SupportsOverlays
 ---
 
 # IDXGIOutput2::SupportsOverlays
@@ -66,4 +66,3 @@ See <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgifactory2-createswapcha
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgioutput2">IDXGIOutput2</a>
-

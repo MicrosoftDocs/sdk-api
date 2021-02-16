@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::get_Cursors
+ - IInkCollector.Cursors
+ - IInkCollector.get_Cursors
+ - InkCollector.get_Cursors
 ---
 
 # IInkCollector::get_Cursors
@@ -103,4 +105,3 @@ The <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors<
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setsingletabletintegratedmode">SetSingleTabletIntegratedMode Method</a>
-

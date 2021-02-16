@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_LAYER_STATISTICS0_
  - FWPM_LAYER_STATISTICS0
 ---
 
@@ -92,4 +91,3 @@ Type: <b>UINT32</b>
 ## -see-also
 
 [FWPM_STATISTICS0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_statistics0)
-

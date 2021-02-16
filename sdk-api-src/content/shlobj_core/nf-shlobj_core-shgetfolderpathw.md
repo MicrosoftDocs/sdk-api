@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHGetFolderPathW
  - shlobj_core/SHGetFolderPathW
- - SHGetFolderPath
- - shlobj_core/SHGetFolderPath
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - Windows.Storage.dll
  - bcrypt.dll
 api_name:
- - SHGetFolderPathW
  - SHGetFolderPath
+ - SHGetFolderPathA
+ - SHGetFolderPathW
 ---
 
 # SHGetFolderPathW function
@@ -235,4 +234,3 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getpath">IKnownFolder::GetPath</a>
-

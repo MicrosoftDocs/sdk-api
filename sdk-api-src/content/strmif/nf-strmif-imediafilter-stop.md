@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaFilter::Stop
+ - IMediaFilter.Stop
 ---
 
 # IMediaFilter::Stop
@@ -107,4 +107,3 @@ This method always sets the filter's state to State_Stopped, even if the method 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
-

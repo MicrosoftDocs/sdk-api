@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_VIEWPORT::CD3D11_VIEWPORT
+ - CD3D11_VIEWPORT.CD3D11_VIEWPORT
 ---
 
 # CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT &)
@@ -64,4 +64,3 @@ Address of the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d11_viewport">D3D1
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Rect::Rect
+ - Rect.Rect
 ---
 
 # Rect::Rect
@@ -74,4 +74,3 @@ Creates a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect<
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-

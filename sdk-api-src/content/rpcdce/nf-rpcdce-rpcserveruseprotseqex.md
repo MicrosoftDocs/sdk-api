@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerUseProtseqEx
+ - RpcServerUseProtseqExA
+ - RpcServerUseProtseqExW
 ---
 
 # RpcServerUseProtseqEx function
@@ -190,4 +192,3 @@ For more information, see
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
-

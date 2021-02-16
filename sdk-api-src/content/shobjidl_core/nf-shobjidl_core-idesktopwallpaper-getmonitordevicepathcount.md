@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDesktopWallpaper::GetMonitorDevicePathCount
+ - IDesktopWallpaper.GetMonitorDevicePathCount
 ---
 
 # IDesktopWallpaper::GetMonitorDevicePathCount
@@ -91,4 +91,3 @@ The count retrieved through this method includes monitors that are currently det
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathat">IDesktopWallpaper::GetMonitorDevicePathAt</a>
-

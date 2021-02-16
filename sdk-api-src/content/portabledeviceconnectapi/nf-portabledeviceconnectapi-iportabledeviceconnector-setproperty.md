@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector::SetProperty
+ - IPortableDeviceConnector.SetProperty
 ---
 
 # IPortableDeviceConnector::SetProperty
@@ -111,4 +111,3 @@ Before calling this method, an application must verify that it has Administrator
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
-

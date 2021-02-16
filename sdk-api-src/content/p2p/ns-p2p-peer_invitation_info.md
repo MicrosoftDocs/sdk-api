@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_invitation_info_tag
- - PPEER_INVITATION_INFO
  - PEER_INVITATION_INFO
 ---
 
@@ -232,4 +230,3 @@ Pointer to a <b>CERT_PUBLIC_KEY_INFO</b> structure that contains the recipient's
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupparseinvitation">PeerGroupParseInvitation</a>
-

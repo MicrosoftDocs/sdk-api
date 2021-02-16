@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetAggregationType
+ - IPropertyDescription.GetAggregationType
 ---
 
 # IPropertyDescription::GetAggregationType
@@ -76,4 +76,3 @@ The information retrieved by this method comes from the <i>aggregationType</i> a
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

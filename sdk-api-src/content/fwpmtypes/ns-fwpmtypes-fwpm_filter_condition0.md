@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_FILTER_CONDITION0_
  - FWPM_FILTER_CONDITION0
 ---
 
@@ -155,4 +154,3 @@ void main()
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

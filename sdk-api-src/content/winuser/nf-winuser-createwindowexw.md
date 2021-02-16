@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: snippet-project
-req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CreateWindowExW
  - winuser/CreateWindowExW
- - CreateWindowEx
- - winuser/CreateWindowEx
 dev_langs:
  - c++
 topic_type:
@@ -55,8 +52,10 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - CreateWindowExW
  - CreateWindowEx
+ - CreateWindowExA
+ - CreateWindowExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateWindowExW function
@@ -392,4 +391,3 @@ BOOL Create(
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

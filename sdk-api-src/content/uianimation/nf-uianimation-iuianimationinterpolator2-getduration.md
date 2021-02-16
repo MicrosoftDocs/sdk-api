@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationInterpolator2::GetDuration
+ - IUIAnimationInterpolator2.GetDuration
 ---
 
 # IUIAnimationInterpolator2::GetDuration
@@ -71,4 +71,3 @@ Windows Animation can call <a href="/windows/desktop/api/uianimation/nf-uianimat
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationinterpolator2">IUIAnimationInterpolator2</a>
-

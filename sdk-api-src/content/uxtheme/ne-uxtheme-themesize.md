@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
- - THEMESIZE
+ - THEME_SIZE
 ---
 
 # THEMESIZE enumeration
@@ -69,4 +69,3 @@ Receives the size that the theme manager uses to draw a part.
 ## -remarks
 
 A value from the <b>THEMESIZE</b> enumeration is used with the <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthemepartsize">GetThemePartSize</a> function to specify the type of size value to retrieve for a particular visual style part.
-

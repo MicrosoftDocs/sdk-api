@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingPortMapping::Enable
+ - INetSharingPortMapping.Enable
 ---
 
 # INetSharingPortMapping::Enable
@@ -179,4 +179,3 @@ When first added, a new mapping is in a disabled state. Use the
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-

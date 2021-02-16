@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo::GetResources
+ - IAppxBundleManifestPackageInfo.GetResources
 ---
 
 # IAppxBundleManifestPackageInfo::GetResources
@@ -69,4 +69,3 @@ If the method succeeds, it returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::IsSmartCard
+ - IX509CertificateRequestPkcs10.IsSmartCard
 ---
 
 # IX509CertificateRequestPkcs10::IsSmartCard
@@ -120,4 +120,3 @@ The <b>IsSmartCard</b> method first checks the provider associated with the priv
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

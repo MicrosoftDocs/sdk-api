@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup::CreateJob
+ - IBackgroundCopyGroup.CreateJob
 ---
 
 # IBackgroundCopyGroup::CreateJob
@@ -111,4 +111,3 @@ Only one job allowed per group.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
-

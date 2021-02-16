@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - ifdef
  - ifdef/ifdef
-api_name:
- - ifdef
 ---
 
 # Ifdef.h header

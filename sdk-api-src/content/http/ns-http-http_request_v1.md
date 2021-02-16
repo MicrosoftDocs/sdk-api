@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_REQUEST_V1
- - PHTTP_REQUEST_V1
  - HTTP_REQUEST_V1
 ---
 
@@ -244,4 +242,3 @@ The unprocessed URL contained in the <b>pRawUrl</b> member is for tracking and s
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
-

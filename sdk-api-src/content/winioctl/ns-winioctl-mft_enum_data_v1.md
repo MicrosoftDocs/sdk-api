@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PMFT_ENUM_DATA_V1
  - MFT_ENUM_DATA_V1
 ---
 
@@ -127,4 +126,3 @@ The data returned from the <a href="/windows/desktop/api/winioctl/ni-winioctl-fs
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

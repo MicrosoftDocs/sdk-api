@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - GetIScsiVersionInformation
+ - GetIscsiVersionInformation
 ---
 
 # GetIScsiVersionInformation function
@@ -65,4 +65,3 @@ Returns <b>ERROR_SUCCESS</b> if the operation is successful. If the operation fa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_version_info">ISCSI_VERSION_INFO</a>
-

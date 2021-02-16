@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_Topology::GetNodeTypes
+ - IBDA_Topology.GetNodeTypes
 ---
 
 # IBDA_Topology::GetNodeTypes
@@ -81,4 +81,3 @@ The <b>IBDA_Topology</b> interface is implemented by a BDA Device Filter. It is 
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_topology">IBDA_Topology Interface</a>
-

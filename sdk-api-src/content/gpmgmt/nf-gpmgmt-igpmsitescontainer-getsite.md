@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSitesContainer::GetSite
+ - IGPMSitesContainer.GetSite
+ - GPMSitesContainer.GetSite
 ---
 
 # IGPMSitesContainer::GetSite
@@ -81,4 +82,3 @@ Returns a reference to a <b>GPMSOM</b> object.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsitescontainer">IGPMSitesContainer</a>
-

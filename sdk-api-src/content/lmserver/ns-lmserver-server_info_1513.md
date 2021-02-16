@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1513
- - PSERVER_INFO_1513
  - SERVER_INFO_1513
 ---
 
@@ -80,4 +78,3 @@ Specifies the maximum size of pageable memory that the server allocates at any p
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

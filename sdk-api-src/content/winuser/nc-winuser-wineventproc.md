@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - WINEVENTPROC
+ - WinEventProc
 ---
 
 # WINEVENTPROC callback function
@@ -112,4 +112,3 @@ Create multiple callback functions to handle different events. For more informat
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwineventhook">SetWinEventHook</a>
-

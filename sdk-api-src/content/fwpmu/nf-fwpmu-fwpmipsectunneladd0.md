@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fwpuclnt.dll
 api_name:
- - FwpmIPsecTunnelAdd0
+ - FwpmIpsecTunnelAdd0
 ---
 
 # FwpmIPsecTunnelAdd0 function
@@ -186,4 +186,3 @@ with <b>FWP_E_INCOMPATIBLE_TXN</b>. See <a href="/windows/desktop/FWP/object-man
 
 
 [FWPM_PROVIDER_CONTEXT0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context0)
-

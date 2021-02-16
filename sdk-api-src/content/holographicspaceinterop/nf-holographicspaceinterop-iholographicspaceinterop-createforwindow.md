@@ -41,7 +41,7 @@ api_type:
 api_location:
  - HolographicSpaceInterop.h
 api_name:
- - IHolographicSpaceInterop::CreateForWindow
+ - IHolographicSpaceInterop.CreateForWindow
 ---
 
 # IHolographicSpaceInterop::CreateForWindow

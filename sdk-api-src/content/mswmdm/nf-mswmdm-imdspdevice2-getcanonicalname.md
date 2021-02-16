@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice2::GetCanonicalName
+ - IMDSPDevice2.GetCanonicalName
 ---
 
 # IMDSPDevice2::GetCanonicalName
@@ -84,4 +84,3 @@ This is optional. For more information, see <a href="/windows/desktop/WMDM/manda
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice">IMDServiceProvider2::CreateDevice</a>
-

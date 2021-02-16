@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWIA_FORMAT_INFO::Reset
+ - IEnumWIA_FORMAT_INFO.Reset
 ---
 
 # IEnumWIA_FORMAT_INFO::Reset
@@ -60,4 +60,3 @@ The <b>IEnumWIA_FORMAT_INFO::Reset</b> method sets the enumeration back to the f
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

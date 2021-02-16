@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFontFace2::GetPaletteEntries
+ - IDWriteFontFace2.GetPaletteEntries
 ---
 
 # IDWriteFontFace2::GetPaletteEntries

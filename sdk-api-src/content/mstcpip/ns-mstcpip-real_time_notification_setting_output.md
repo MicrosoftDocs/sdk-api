@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _REAL_TIME_NOTIFICATION_SETTING_OUTPUT
- - PREAL_TIME_NOTIFICATION_SETTING_OUTPUT
  - REAL_TIME_NOTIFICATION_SETTING_OUTPUT
 ---
 
@@ -90,4 +88,3 @@ The <a href="/windows/win32/api/mstcpip/ns-mstcpip-real_time_notification_settin
 
 
 <a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a>
-

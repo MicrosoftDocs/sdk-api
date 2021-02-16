@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetAddressCapsA
  - tapi/lineGetAddressCapsA
- - lineGetAddressCaps
- - tapi/lineGetAddressCaps
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetAddressCapsA
  - lineGetAddressCaps
+ - lineGetAddressCapsA
+ - lineGetAddressCapsW
 ---
 
 # lineGetAddressCapsA function
@@ -130,4 +129,3 @@ Valid address identifiers range from zero to one less than the number of address
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-

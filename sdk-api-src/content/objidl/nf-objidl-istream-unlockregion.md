@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream::UnlockRegion
+ - IStream.UnlockRegion
 ---
 
 # IStream::UnlockRegion
@@ -87,4 +87,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMediaStream::SetSameFormat
+ - IMediaStream.SetSameFormat
 ---
 
 # IMediaStream::SetSameFormat
@@ -71,4 +71,3 @@ Returns S_OK if successful or E_POINTER if one of the parameters is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
-

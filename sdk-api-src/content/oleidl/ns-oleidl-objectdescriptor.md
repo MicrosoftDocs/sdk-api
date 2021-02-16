@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - tagOBJECTDESCRIPTOR
- - POBJECTDESCRIPTOR
  - OBJECTDESCRIPTOR
 ---
 
@@ -99,4 +97,3 @@ The offset, in bytes, from the beginning of the data structure to the null-termi
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

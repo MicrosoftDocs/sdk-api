@@ -42,7 +42,7 @@ api_type:
 api_location:
  - filtereg.h
 api_name:
- - ILoadFilter::LoadIFilter
+ - ILoadFilter.LoadIFilter
 ---
 
 # ILoadFilter::LoadIFilter
@@ -99,4 +99,3 @@ A filter, also known as a filter handler, is an implementation of the <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/filtereg/nn-filtereg-iloadfilter">ILoadFilter</a>
-

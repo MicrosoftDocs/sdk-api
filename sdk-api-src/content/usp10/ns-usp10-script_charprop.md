@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
- - script_charprop
  - SCRIPT_CHARPROP
 ---
 
@@ -123,4 +122,3 @@ I like flying fish
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-

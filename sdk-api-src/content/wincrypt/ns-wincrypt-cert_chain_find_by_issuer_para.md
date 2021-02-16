@@ -47,8 +47,6 @@ api_location:
  - Wincrypt.h
 api_name:
  - _CERT_CHAIN_FIND_BY_ISSUER_PARA
- - PCERT_CHAIN_FIND_ISSUER_PARA
- - CERT_CHAIN_FIND_BY_ISSUER_PARA
 ---
 
 # CERT_CHAIN_FIND_BY_ISSUER_PARA structure
@@ -198,4 +196,3 @@ if(pChainContext)
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecertificateprivatekey">CryptAcquireCertificatePrivateKey</a>
-

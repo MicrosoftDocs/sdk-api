@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagTunerInputType
  - TunerInputType
 ---
 
@@ -68,4 +67,3 @@ Indicates broadcast antenna frequency.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

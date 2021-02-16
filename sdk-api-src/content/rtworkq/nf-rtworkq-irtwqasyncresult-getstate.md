@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult::GetState
+ - IRtwqAsyncResult.GetState
 ---
 
 # IRtwqAsyncResult::GetState
@@ -94,4 +94,3 @@ There is no state object associated with this asynchronous result.
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensOnNow::OnBatteryPower
+ - ISensOnNow.OnBatteryPower
 ---
 
 # ISensOnNow::OnBatteryPower
@@ -108,4 +108,3 @@ SENS calls this method to notify an application that a computer is using battery
 
 
 <a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onacpower">ISensOnNow::OnACPower</a>
-

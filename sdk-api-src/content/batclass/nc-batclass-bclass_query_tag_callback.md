@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - BCLASS_QUERY_TAG_CALLBACK
+ - BatteryMiniQueryTag
 ---
 
 # BCLASS_QUERY_TAG_CALLBACK callback function

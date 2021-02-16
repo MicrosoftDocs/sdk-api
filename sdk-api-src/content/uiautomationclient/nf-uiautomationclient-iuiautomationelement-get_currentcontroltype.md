@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentControlType
+ - IUIAutomationElement.CurrentControlType
+ - IUIAutomationElement.get_CurrentControlType
 ---
 
 # IUIAutomationElement::get_CurrentControlType
@@ -76,4 +77,3 @@ This property cannot change at run time unless the control supports the <a href=
 
 
 <b>Reference</b>
-

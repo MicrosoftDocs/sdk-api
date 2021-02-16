@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mofd.dll
 api_name:
- - IMofCompiler::CompileFile
+ - IMofCompiler.CompileFile
 ---
 
 # IMofCompiler::CompileFile
@@ -209,4 +209,3 @@ If the <i>User</i> parameter is in the form of &lt;<i>domain\user</i>&gt;, the <
 
 
 <a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
-

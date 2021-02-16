@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - IDXVAHD_Device::GetVideoProcessorCaps
+ - IDXVAHD_Device.GetVideoProcessorCaps
 ---
 
 # IDXVAHD_Device::GetVideoProcessorCaps
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
-

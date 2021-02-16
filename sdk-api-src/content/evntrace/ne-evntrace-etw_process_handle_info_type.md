@@ -44,7 +44,6 @@ api_type:
 api_location:
  - evntrace.h
 api_name:
- - _ETW_PROCESS_HANDLE_INFO_TYPE
  - ETW_PROCESS_HANDLE_INFO_TYPE
 ---
 
@@ -66,4 +65,3 @@ Used to query partition identifying information.  <i>InBuffer</i> should be Null
 ### -field EtwQueryProcessHandleInfoMax
 
 Marks the last value in the enumeration for testing purposes.  Should not be used.
-

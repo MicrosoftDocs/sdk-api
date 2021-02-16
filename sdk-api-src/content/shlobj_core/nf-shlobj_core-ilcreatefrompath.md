@@ -29,7 +29,6 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - ILCreateFromPath
  - shlobj_core/ILCreateFromPath
@@ -46,6 +45,9 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
  - ILCreateFromPath
+ - ILCreateFromPathA
+ - ILCreateFromPathW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ILCreateFromPath function
@@ -72,4 +74,3 @@ Returns a pointer to an <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidl
 ## -remarks
 
 Call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to release the <a href="/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> when you are finished with it.
-

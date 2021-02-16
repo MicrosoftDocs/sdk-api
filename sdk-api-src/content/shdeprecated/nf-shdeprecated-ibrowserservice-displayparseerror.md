@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService::DisplayParseError
+ - IBrowserService.DisplayParseError
 ---
 
 # IBrowserService::DisplayParseError
@@ -76,4 +76,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The <b>HRESULT</b> returned by <a href="/windows/desktop/api/shdeprecated/nf-shdeprecated-ibrowserservice-ieparsedisplayname">IBrowserService::IEParseDisplayName</a> can be passed to <b>IBrowserService::DisplayParseError</b> without first checking for success or failure.
-

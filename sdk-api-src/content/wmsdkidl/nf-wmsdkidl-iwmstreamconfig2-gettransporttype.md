@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig2::GetTransportType
+ - IWMStreamConfig2.GetTransportType
 ---
 
 # IWMStreamConfig2::GetTransportType
@@ -101,4 +101,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-settransporttype">IWMStreamConfig2::SetTransportType</a>
-

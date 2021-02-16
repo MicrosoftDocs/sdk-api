@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent::GetContentRect
+ - IDirectManipulationContent.GetContentRect
 ---
 
 # IDirectManipulationContent::GetContentRect
@@ -69,4 +69,3 @@ If the bounding rectangle  has not been set using <a href="/previous-versions/wi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
-

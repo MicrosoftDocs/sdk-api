@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpClient::get_IpAddress
+ - IWdsTransportTftpClient.IpAddress
+ - IWdsTransportTftpClient.get_IpAddress
 ---
 
 # IWdsTransportTftpClient::get_IpAddress
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpclient">IWdsTransportTftpClient</a>
-

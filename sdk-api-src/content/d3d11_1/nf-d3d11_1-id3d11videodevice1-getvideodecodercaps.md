@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_1.h
 api_name:
- - ID3D11VideoDevice1::GetVideoDecoderCaps
+ - ID3D11VideoDevice1.GetVideoDecoderCaps
 ---
 
 # ID3D11VideoDevice1::GetVideoDecoderCaps
@@ -116,4 +116,3 @@ This method returns one of the following error codes.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videodevice1">ID3D11VideoDevice1</a>
-

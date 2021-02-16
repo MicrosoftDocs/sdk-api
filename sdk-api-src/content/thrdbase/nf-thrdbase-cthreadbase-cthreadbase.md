@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CThreadBase::CThreadBase
+ - CThreadBase.CThreadBase
+ - ??0CThreadBase@@QAE@W4THREAD_SAFETY_MECHANISM@0@@Z
 ---
 
 # CThreadBase::CThreadBase
@@ -74,4 +75,3 @@ The thread safety mechanism. The possible values are:
 ## -remarks
 
 The destructor for the class is <b>CThreadBase::~CThreadBase</b>.
-

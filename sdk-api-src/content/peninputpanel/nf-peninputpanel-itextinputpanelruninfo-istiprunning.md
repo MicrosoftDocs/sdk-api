@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelRunInfo::IsTipRunning
+ - ITextInputPanelRunInfo.IsTipRunning
 ---
 
 # ITextInputPanelRunInfo::IsTipRunning
@@ -94,4 +94,3 @@ The <i>pfRunning</i> parameter was <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanelruninfo">ITextInputPanelRunInfo Interface</a>
-

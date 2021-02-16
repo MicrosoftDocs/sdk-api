@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher::QueryHistory
+ - IUpdateSearcher.QueryHistory
 ---
 
 # IUpdateSearcher::QueryHistory
@@ -108,4 +108,3 @@ This method returns <b>WU_E_INVALIDINDEX</b> if  the <i>startIndex</i> parameter
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::AddStreamForRecord
+ - IWMMutualExclusion2.AddStreamForRecord
 ---
 
 # IWMMutualExclusion2::AddStreamForRecord
@@ -131,4 +131,3 @@ Record numbers are assigned sequentially.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-removestreamforrecord">IWMMutualExclusion2::RemoveStreamForRecord</a>
-

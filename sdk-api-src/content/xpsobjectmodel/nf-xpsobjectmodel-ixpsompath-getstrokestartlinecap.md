@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::GetStrokeStartLineCap
+ - IXpsOMPath.GetStrokeStartLineCap
 ---
 
 # IXpsOMPath::GetStrokeStartLineCap
@@ -110,4 +110,3 @@ For more information about the shapes of line caps, see <a href="/windows/win32/
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectImpl::SetParentEffect
+ - IMILBitmapEffectImpl.SetParentEffect
 ---
 
 # IMILBitmapEffectImpl::SetParentEffect
@@ -65,4 +65,3 @@ The <a href="/previous-versions/windows/desktop/api/mileffects/nn-mileffects-imi
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

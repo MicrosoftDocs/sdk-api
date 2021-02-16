@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname::GetEscapedElement
+ - IADsPathname.GetEscapedElement
 ---
 
 # IADsPathname::GetEscapedElement
@@ -120,4 +120,3 @@ pPath->Release();
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
-

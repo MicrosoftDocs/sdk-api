@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_NEXT_RECORD_FN
+ - StorageAdapterNextRecord
 ---
 
 # PIBIO_STORAGE_NEXT_RECORD_FN callback function
@@ -120,4 +120,3 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b> or the <b
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_first_record_fn">StorageAdapterFirstRecord</a>
-

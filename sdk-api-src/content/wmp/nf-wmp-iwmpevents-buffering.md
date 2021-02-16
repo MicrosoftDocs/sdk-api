@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::Buffering
+ - IWMPEvents.Buffering
 ---
 
 # IWMPEvents::Buffering
@@ -73,4 +73,3 @@ Use this event to determine when buffering or downloading starts or stops. You c
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_downloadprogress">IWMPNetwork::get_downloadProgress</a>
-

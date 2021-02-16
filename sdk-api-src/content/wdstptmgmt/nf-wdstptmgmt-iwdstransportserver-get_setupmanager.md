@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServer::get_SetupManager
+ - IWdsTransportServer.SetupManager
+ - IWdsTransportServer.get_SetupManager
 ---
 
 # IWdsTransportServer::get_SetupManager
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsetupmanager">IWdsTransportSetupManager</a>
-

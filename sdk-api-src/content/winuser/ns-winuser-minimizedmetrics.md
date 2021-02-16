@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMINIMIZEDMETRICS
- - PMINIMIZEDMETRICS
  - MINIMIZEDMETRICS
 ---
 
@@ -202,4 +200,3 @@ Hide minimized windows by moving them off the visible area of the screen.
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-

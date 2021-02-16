@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasEnumEntriesA
  - ras/RasEnumEntriesA
- - RasEnumEntries
- - ras/RasEnumEntries
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasEnumEntriesA
  - RasEnumEntries
+ - RasEnumEntriesA
+ - RasEnumEntriesW
 ---
 
 # RasEnumEntriesA function
@@ -236,4 +235,3 @@ DWORD __cdecl wmain(){
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

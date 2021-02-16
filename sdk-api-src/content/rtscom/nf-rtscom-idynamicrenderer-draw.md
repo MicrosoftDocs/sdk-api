@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer::Draw
+ - IDynamicRenderer.Draw
 ---
 
 # IDynamicRenderer::Draw
@@ -84,4 +84,3 @@ You can use <b>IDynamicRenderer::Draw Method</b> for tasks such as double buffer
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-idynamicrenderer-releasecacheddata">IDynamicRenderer::ReleaseCachedData Method</a>
-

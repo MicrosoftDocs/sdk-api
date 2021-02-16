@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNetCredentialOptions
  - MFNetCredentialOptions
 ---
 
@@ -88,4 +87,3 @@ Do not set this flag without notifying the user that credentials might be sent i
 
 
 <a href="/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
-

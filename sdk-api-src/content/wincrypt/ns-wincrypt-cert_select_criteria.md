@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_SELECT_CRITERIA
- - PCERT_SELECT_CRITERIA
  - CERT_SELECT_CRITERIA
 ---
 
@@ -217,4 +215,3 @@ A <b>DWORD</b> value that specifies the number of search attributes specified in
 ### -field ppPara
 
 A pointer to a pointer to one or more selection values.  The data type depends on the selection type specified by the <b>dwType</b> member. If more than one selection value is present, an application must match only one value.
-

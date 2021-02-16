@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pnrpdef.h
 api_name:
- - _PNRP_CLOUD_STATE
  - PNRP_CLOUD_STATE
 ---
 
@@ -95,4 +94,3 @@ The local node bootstrapped, but found no other nodes in the cloud. This can als
 
 
 <a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
-

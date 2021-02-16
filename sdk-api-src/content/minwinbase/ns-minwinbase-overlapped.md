@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - minWinBase.h
 api_name:
- - _OVERLAPPED
- - LPOVERLAPPED
  - OVERLAPPED
 ---
 
@@ -168,4 +166,3 @@ For an example, see <a href="/windows/desktop/ipc/named-pipe-server-using-overla
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
-

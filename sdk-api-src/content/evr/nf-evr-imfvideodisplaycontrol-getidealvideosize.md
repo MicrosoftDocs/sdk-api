@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl::GetIdealVideoSize
+ - IMFVideoDisplayControl.GetIdealVideoSize
 ---
 
 # IMFVideoDisplayControl::GetIdealVideoSize
@@ -122,4 +122,3 @@ You can set <i>pszMin</i> or <i>pszMax</i> to <b>NULL</b>, but not both.
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-

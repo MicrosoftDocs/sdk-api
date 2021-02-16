@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::AccessCheck
+ - IAzClientContext.AccessCheck
+ - AzClientContext.AccessCheck
 ---
 
 # IAzClientContext::AccessCheck
@@ -136,4 +137,3 @@ If the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-get_rol
 When this method is called, the application group membership is added to the client context so that it does not need to be recomputed for subsequent access checks on the same client context.
 
 This method cannot be called by a BizRule.
-

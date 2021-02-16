@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPersistMediaPropertyBag::InitNew
+ - IPersistMediaPropertyBag.InitNew
 ---
 
 # IPersistMediaPropertyBag::InitNew
@@ -72,4 +72,3 @@ Calling this method on the <a href="/windows/desktop/DirectShow/avi-splitter-fil
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipersistmediapropertybag">IPersistMediaPropertyBag Interface</a>
-

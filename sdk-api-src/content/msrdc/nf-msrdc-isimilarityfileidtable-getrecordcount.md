@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityFileIdTable::GetRecordCount
+ - ISimilarityFileIdTable.GetRecordCount
 ---
 
 # ISimilarityFileIdTable::GetRecordCount
@@ -67,4 +67,3 @@ This method can also return the following error code.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarityfileidtable">ISimilarityFileIdTable</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolderViewCB::MessageSFVCB
+ - IShellFolderViewCB.MessageSFVCB
 ---
 
 # IShellFolderViewCB::MessageSFVCB
@@ -289,4 +289,3 @@ The message has not been handled and the system folder view object should perfor
 </td>
 </tr>
 </table>
-

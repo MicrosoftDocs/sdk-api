@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_HMSF_TIMECODE
  - DVD_HMSF_TIMECODE
 ---
 
@@ -80,4 +79,3 @@ A <code>DVD_HMSF_TIMECODE</code> structure is used in various <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

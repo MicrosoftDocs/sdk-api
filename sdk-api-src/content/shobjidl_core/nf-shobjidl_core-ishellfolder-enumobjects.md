@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder::EnumObjects
+ - IShellFolder.EnumObjects
+ - IShellFolder2.EnumObjects
 ---
 
 # IShellFolder::EnumObjects
@@ -99,4 +100,3 @@ If the folder contains no suitable subobjects, then the <b>IShellFolder::EnumObj
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder">SHGetDesktopFolder</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMEASUREITEMSTRUCT
- - PMEASUREITEMSTRUCT
  - MEASUREITEMSTRUCT
 ---
 
@@ -197,4 +195,3 @@ If an application does not fill the appropriate members of <b>MEASUREITEMSTRUCT<
 
 
 <a href="/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
-

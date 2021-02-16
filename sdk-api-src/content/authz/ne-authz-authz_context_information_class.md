@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_CONTEXT_INFORMATION_CLASS
  - AUTHZ_CONTEXT_INFORMATION_CLASS
 ---
 
@@ -168,4 +167,3 @@ Retrieves a <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GRO
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user_claims">TOKEN_USER_CLAIMS</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter::StartNewDocument
+ - IXpsOMPackageWriter.StartNewDocument
+ - IXpsOMPackageWriter3D.StartNewDocument
 ---
 
 # IXpsOMPackageWriter::StartNewDocument
@@ -175,4 +176,3 @@ If <i>documentPrintTicket</i> contains a <b>NULL</b> pointer and the package wri
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

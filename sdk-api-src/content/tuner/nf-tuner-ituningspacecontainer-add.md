@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer::Add
+ - ITuningSpaceContainer.Add
 ---
 
 # ITuningSpaceContainer::Add
@@ -75,4 +75,3 @@ The tuning space must have a unique name that does not clash with any of the tun
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-

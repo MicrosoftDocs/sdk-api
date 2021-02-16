@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineinitializeexparams_tag
- - LPLINEINITIALIZEEXPARAMS
  - LINEINITIALIZEEXPARAMS
 ---
 
@@ -102,4 +100,3 @@ See
 ## -see-also
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-

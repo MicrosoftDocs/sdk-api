@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_AUTH_TYPE_
  - IPSEC_AUTH_TYPE
 ---
 

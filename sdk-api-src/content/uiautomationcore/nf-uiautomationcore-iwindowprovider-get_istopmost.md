@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider::get_IsTopmost
+ - IWindowProvider.IsTopmost
+ - IWindowProvider.get_IsTopmost
 ---
 
 # IWindowProvider::get_IsTopmost
@@ -64,4 +65,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

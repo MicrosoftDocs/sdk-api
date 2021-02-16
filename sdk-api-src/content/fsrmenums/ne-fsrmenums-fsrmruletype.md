@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmRuleType
  - FsrmRuleType
 ---
 
@@ -84,4 +83,3 @@ For internal use only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmrule-get_ruletype">IFsrmRule.RuleType</a>
-

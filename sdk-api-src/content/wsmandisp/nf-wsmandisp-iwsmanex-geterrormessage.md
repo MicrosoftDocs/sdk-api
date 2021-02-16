@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx::GetErrorMessage
+ - IWSManEx.GetErrorMessage
 ---
 
 # IWSManEx::GetErrorMessage
@@ -77,4 +77,3 @@ The corresponding scripting method is <a href="/windows/desktop/WinRM/wsman-gete
 
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmansession">IWSManSession</a>
-

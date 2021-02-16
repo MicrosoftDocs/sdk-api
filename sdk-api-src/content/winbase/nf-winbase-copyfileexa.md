@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CopyFileExA
  - winbase/CopyFileExA
- - CopyFileEx
- - winbase/CopyFileEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CopyFileExA
  - CopyFileEx
+ - CopyFileExA
+ - CopyFileExW
 ---
 
 # CopyFileExA function
@@ -386,4 +385,3 @@ Yes
 
 
 <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>
-

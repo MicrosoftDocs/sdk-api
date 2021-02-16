@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsdbase.h
 api_name:
- - _WSDUdpMessageType
  - WSDUdpMessageType
 ---
 

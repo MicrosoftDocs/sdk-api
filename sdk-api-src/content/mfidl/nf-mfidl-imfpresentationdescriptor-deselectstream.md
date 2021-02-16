@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationDescriptor::DeselectStream
+ - IMFPresentationDescriptor.DeselectStream
 ---
 
 # IMFPresentationDescriptor::DeselectStream
@@ -116,4 +116,3 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
-

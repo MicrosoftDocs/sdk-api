@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IOpLockStatus::IsOplockBroken
+ - IOpLockStatus.IsOplockBroken
 ---
 
 # IOpLockStatus::IsOplockBroken

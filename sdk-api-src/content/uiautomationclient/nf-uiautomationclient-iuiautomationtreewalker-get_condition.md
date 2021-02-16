@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker::get_Condition
+ - IUIAutomationTreeWalker.Condition
+ - IUIAutomationTreeWalker.get_Condition
 ---
 
 # IUIAutomationTreeWalker::get_Condition

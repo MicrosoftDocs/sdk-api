@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_Frequency
  - DXVA2_Frequency
 ---
 
@@ -72,4 +71,3 @@ The value 0/0 indicates an unknown frequency. Values of the form <i>n</i>/0, whe
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

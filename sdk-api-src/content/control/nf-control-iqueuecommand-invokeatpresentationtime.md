@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQueueCommand::InvokeAtPresentationTime
+ - IQueueCommand.InvokeAtPresentationTime
 ---
 
 # IQueueCommand::InvokeAtPresentationTime
@@ -108,4 +108,3 @@ For a code example, see <a href="/windows/desktop/api/control/nf-control-iqueuec
 
 
 <a href="/windows/desktop/api/control/nn-control-iqueuecommand">IQueueCommand Interface</a>
-

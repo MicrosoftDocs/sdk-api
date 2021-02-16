@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::get_NameValuePairs
+ - IX509Enrollment.NameValuePairs
+ - IX509Enrollment.get_NameValuePairs
 ---
 
 # IX509Enrollment::get_NameValuePairs
@@ -73,4 +74,3 @@ name-value pairs are passed to the certification authority (CA) with the request
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

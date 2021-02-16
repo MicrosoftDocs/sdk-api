@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD::WriteMedia2
+ - IDiscFormat2RawCD.WriteMedia2
 ---
 
 # IDiscFormat2RawCD::WriteMedia2
@@ -443,4 +443,3 @@ This method is identical in function to the <b>IDiscFormat2RawCD::WriteMedia</b>
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-writemedia">IDiscFormat2RawCD::WriteMedia</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaFilter::GetSyncSource
+ - IMediaFilter.GetSyncSource
 ---
 
 # IMediaFilter::GetSyncSource
@@ -105,4 +105,3 @@ You can also call this method on the Filter Graph Manager to determine the curre
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
-

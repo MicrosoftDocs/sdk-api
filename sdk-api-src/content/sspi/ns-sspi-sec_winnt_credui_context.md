@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SEC_WINNT_CREDUI_CONTEXT
- - PSEC_WINNT_CREDUI_CONTEXT
  - SEC_WINNT_CREDUI_CONTEXT
 ---
 
@@ -85,4 +83,3 @@ The opaque authentication identity data.
 ### -field TargetName
 
 The name of the target.
-

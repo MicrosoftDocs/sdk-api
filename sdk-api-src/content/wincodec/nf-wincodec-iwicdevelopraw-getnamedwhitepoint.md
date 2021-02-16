@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw::GetNamedWhitePoint
+ - IWICDevelopRaw.GetNamedWhitePoint
 ---
 
 # IWICDevelopRaw::GetNamedWhitePoint
@@ -73,4 +73,3 @@ If the named white points are not supported by the raw image or the raw file con
 If the named white points are not supported by the raw image, a best effort should be made to adjust the image to the named white point even when it isn't a pre-defined white point of the raw file.
 
 If the raw file containes named white points not supported by this API, the codec implementer should support the named white points in <a href="/windows/desktop/api/wincodec/ne-wincodec-wicnamedwhitepoint">WICNamedWhitePoint</a>.
-

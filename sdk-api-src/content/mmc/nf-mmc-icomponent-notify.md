@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent::Notify
+ - IComponent.Notify
 ---
 
 # IComponent::Notify
@@ -192,4 +192,3 @@ For more information, see the individual notifications. The snap-in should retur
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iextendcontrolbar-controlbarnotify">IExtendControlbar::ControlbarNotify</a>
-

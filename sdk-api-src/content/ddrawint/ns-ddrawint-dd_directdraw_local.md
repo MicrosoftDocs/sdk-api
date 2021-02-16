@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_DIRECTDRAW_LOCAL
- - PDD_DIRECTDRAW_LOCAL
  - DD_DIRECTDRAW_LOCAL
 ---
 
@@ -63,4 +61,3 @@ The DD_DIRECTDRAW_LOCAL structure contains driver information that is relevant t
 ### -field lpGbl
 
 Points to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a> structure that describes the driver's device.
-

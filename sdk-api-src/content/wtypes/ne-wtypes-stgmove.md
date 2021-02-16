@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
- - tagSTGMOVE
  - STGMOVE
 ---
 
@@ -74,4 +73,3 @@ Not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-moveelementto">IStorage::MoveElementTo</a>
-

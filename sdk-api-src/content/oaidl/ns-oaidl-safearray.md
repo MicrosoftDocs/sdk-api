@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagSAFEARRAY
  - SAFEARRAY
 ---
 
@@ -248,4 +247,3 @@ All public static members of the <b>SAFEARRAY</b> data type are thread safe. Ins
 
 
 For example, consider an application that uses the <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearraylock">SafeArrayLock</a> and <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-safearrayunlock">SafeArrayUnlock</a> functions. If these functions are called concurrently from different threads on the same <b>SAFEARRAY</b> data type instance, an inconsistent lock count may be created. This will eventually cause the <b>SafeArrayUnlock</b> function to return E_UNEXPECTED. You can prevent this by providing your own synchronization code.
-

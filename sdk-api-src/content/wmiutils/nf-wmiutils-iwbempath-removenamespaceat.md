@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::RemoveNamespaceAt
+ - IWbemPath.RemoveNamespaceAt
 ---
 
 # IWbemPath::RemoveNamespaceAt
@@ -70,4 +70,3 @@ This method returns an <b>HRESULT</b> with one of the following values.
 
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
-

@@ -47,9 +47,7 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _ADRLIST
- - LPADRLIST
- - ADRLIST
+ - Gender
 ---
 
 # ADRLIST structure
@@ -72,4 +70,3 @@ Variable of type <b>ULONG</b> that specifies the entry count in the array specif
 Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a>[MAPI_DIM]</b>
 
 Variable of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-adrentry">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
-

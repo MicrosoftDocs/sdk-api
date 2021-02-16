@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_SERVER_0
- - PMPR_SERVER_0
  - MPR_SERVER_0
 ---
 
@@ -100,4 +98,3 @@ Specifies the number of ports currently in use on the device.
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

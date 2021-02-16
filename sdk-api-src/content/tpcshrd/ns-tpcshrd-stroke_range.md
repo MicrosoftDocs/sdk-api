@@ -44,7 +44,6 @@ api_type:
 api_location:
  - tpcshrd.h
 api_name:
- - tagSTROKE_RANGE
  - STROKE_RANGE
 ---
 
@@ -64,4 +63,3 @@ Index of the first stroke in the range, inclusive.
 ### -field iStrokeEnd
 
 Index of the last stroke in the range, inclusive.
-

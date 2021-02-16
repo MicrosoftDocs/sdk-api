@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
- - _MIB_IPINTERFACE_TABLE
- - PMIB_IPINTERFACE_TABLE
  - MIB_IPINTERFACE_TABLE
 ---
 
@@ -98,4 +96,3 @@ To view an example that retrieves the <b>MIB_IPINTERFACE_TABLE</b> structure and
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
-

@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_PARTITION_NOTIFICATION
  - VDS_PARTITION_NOTIFICATION
 ---
 
@@ -142,4 +141,3 @@ An application can receive partition events by implementing the
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
-

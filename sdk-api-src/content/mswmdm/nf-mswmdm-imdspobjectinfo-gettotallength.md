@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObjectInfo::GetTotalLength
+ - IMDSPObjectInfo.GetTotalLength
 ---
 
 # IMDSPObjectInfo::GetTotalLength
@@ -81,4 +81,3 @@ For folders or file systems containing playable files, the value returned indica
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
-

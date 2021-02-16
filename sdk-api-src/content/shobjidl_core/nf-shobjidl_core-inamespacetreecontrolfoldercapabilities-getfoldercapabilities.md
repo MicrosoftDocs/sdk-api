@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
+ - INameSpaceTreeControlFolderCapabilities.GetFolderCapabilities
 ---
 
 # INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
@@ -101,4 +101,3 @@ Pointer to a value that, when this method returns successfully, receives the cap
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

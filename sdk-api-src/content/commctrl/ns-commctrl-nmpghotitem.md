@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMPGHOTITEM
- - LPNMPGHOTITEM
  - NMPGHOTITEM
 ---
 
@@ -113,4 +111,3 @@ If this flag is set, there is no new hot item and <b>idNew</b> does not contain 
 </td>
 </tr>
 </table>
-

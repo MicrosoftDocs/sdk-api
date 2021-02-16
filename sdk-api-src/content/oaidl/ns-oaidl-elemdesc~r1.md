@@ -36,7 +36,6 @@ api_location:
  - oaidl.h
 api_name:
  - tagELEMDESC
- - LPELEMDESC
  - ELEMDESC
 ---
 

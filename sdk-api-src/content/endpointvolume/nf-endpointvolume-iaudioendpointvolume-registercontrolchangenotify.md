@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::RegisterControlChangeNotify
+ - IAudioEndpointVolume.RegisterControlChangeNotify
 ---
 
 # IAudioEndpointVolume::RegisterControlChangeNotify
@@ -103,4 +103,3 @@ For a code example that calls <b>RegisterControlChangeNotify</b>, see <a href="/
 
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback Interface</a>
-

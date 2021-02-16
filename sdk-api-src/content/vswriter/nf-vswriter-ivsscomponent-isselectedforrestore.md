@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::IsSelectedForRestore
+ - IVssComponent.IsSelectedForRestore
 ---
 
 # IVssComponent::IsSelectedForRestore
@@ -131,4 +131,3 @@ If the component defines a component set,
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-

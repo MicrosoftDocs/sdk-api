@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMClientPropertiesEx
  - WM_CLIENT_PROPERTIES_EX
 ---
 
@@ -80,4 +79,3 @@ String containing the client's name on the domain name server (DNS), if known.
 
 
 <a href="/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_client_properties">WM_CLIENT_PROPERTIES</a>
-

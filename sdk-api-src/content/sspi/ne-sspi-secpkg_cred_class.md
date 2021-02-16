@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SECPKG_CRED_CLASS
- - PSECPKG_CRED_CLASS
  - SECPKG_CRED_CLASS
 ---
 
@@ -79,4 +77,3 @@ Indicates saved credentials that are target specific.
 ### -field SecPkgCredClass_Explicit = 40
 
 Indicates credentials explicitly supplied by the user.
-

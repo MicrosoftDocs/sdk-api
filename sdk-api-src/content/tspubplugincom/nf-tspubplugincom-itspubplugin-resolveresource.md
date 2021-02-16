@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tspubplugincom.h
 api_name:
- - ItsPubPlugin::ResolveResource
+ - ItsPubPlugin.ResolveResource
 ---
 
 # ItsPubPlugin::ResolveResource
@@ -99,4 +99,3 @@ RD Connection Broker only calls one plug-in when connecting a user to a resourc
 ## -see-also
 
 <a href="/windows/desktop/api/tspubplugincom/nn-tspubplugincom-itspubplugin">ItsPubPlugin</a>
-

@@ -46,9 +46,7 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - _SP_SELECTDEVICE_PARAMS_W
- - PSP_SELECTDEVICE_PARAMS_W
- - SP_SELECTDEVICE_PARAMS_W
+ - SP_SELECTDEVICE_PARAMS - sp_selectdevice_params_w
 ---
 
 # SP_SELECTDEVICE_PARAMS_W structure
@@ -114,4 +112,3 @@ The following screen shot shows a sample Select Device dialog box and identifies
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiselectdevice">SetupDiSelectDevice</a>
-

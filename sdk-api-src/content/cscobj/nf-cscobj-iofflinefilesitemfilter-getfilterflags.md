@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItemFilter::GetFilterFlags
+ - IOfflineFilesItemFilter.GetFilterFlags
 ---
 
 # IOfflineFilesItemFilter::GetFilterFlags
@@ -96,4 +96,3 @@ This method can be implemented in any filter type (inclusion or exclusion) or fi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemfilter">IOfflineFilesItemFilter</a>
-

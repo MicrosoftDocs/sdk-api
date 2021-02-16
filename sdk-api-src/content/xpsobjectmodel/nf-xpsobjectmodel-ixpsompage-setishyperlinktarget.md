@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::SetIsHyperlinkTarget
+ - IXpsOMPage.SetIsHyperlinkTarget
 ---
 
 # IXpsOMPage::SetIsHyperlinkTarget
@@ -135,4 +135,3 @@ Only those pages that have this property set to <b>TRUE</b> will be included in 
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

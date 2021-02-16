@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_SCSI_ADDRESS
- - PCLUS_SCSI_ADDRESS
 ---
 
 # CLUS_SCSI_ADDRESS structure
@@ -137,4 +136,3 @@ See
 
 
 <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-clusterresourcetypecontrol">ClusterResourceTypeControl</a>
-

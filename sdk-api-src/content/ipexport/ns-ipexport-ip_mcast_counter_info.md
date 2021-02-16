@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
- - _IP_MCAST_COUNTER_INFO
- - PIP_MCAST_COUNTER_INFO
  - IP_MCAST_COUNTER_INFO
 ---
 
@@ -87,4 +85,3 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 <a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
-

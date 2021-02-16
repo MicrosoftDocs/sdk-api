@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::SetViewMode
+ - IResultData.SetViewMode
+ - IResultData2.SetViewMode
 ---
 
 # IResultData::SetViewMode
@@ -112,4 +113,3 @@ This method provides the same functionality for both virtual and non-virtual lis
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultdata-getviewmode">IResultData::GetViewMode</a>
-

@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::PutClass
+ - IWbemServices.PutClass
 ---
 
 # IWbemServices::PutClass
@@ -174,4 +174,3 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-

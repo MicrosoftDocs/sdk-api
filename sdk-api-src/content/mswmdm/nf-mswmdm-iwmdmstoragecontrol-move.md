@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageControl::Move
+ - IWMDMStorageControl.Move
 ---
 
 # IWMDMStorageControl::Move
@@ -142,4 +142,3 @@ If an application uses WMDM_MODE_THREAD and passes a non-null <i>pProgress</i> p
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced::GetReceiveStreamSamples
+ - IWMReaderAdvanced.GetReceiveStreamSamples
 ---
 
 # IWMReaderAdvanced::GetReceiveStreamSamples
@@ -120,4 +120,3 @@ Stream samples are samples received directly from the source file, and are not d
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setreceivestreamsamples">IWMReaderAdvanced::SetReceiveStreamSamples</a>
-

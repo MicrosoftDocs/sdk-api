@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMediaStream::CreateSharedSample
+ - IMediaStream.CreateSharedSample
 ---
 
 # IMediaStream::CreateSharedSample
@@ -130,4 +130,3 @@ This method calls <b>IUnknown::QueryInterface</b> on the existing sample to retr
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
-

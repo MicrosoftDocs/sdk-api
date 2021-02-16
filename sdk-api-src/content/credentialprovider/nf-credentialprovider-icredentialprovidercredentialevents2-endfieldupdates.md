@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CredentialProvider.h
 api_name:
- - ICredentialProviderCredentialEvents2::EndFieldUpdates
+ - ICredentialProviderCredentialEvents2.EndFieldUpdates
 ---
 
 # ICredentialProviderCredentialEvents2::EndFieldUpdates
@@ -73,4 +73,3 @@ A call to this method must be made at the end of the code that updates the crede
 
 
 <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovidercredentialevents2">ICredentialProviderCredentialEvents2</a>
-

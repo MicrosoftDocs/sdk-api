@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::Rotate
+ - IInkRenderer.Rotate
 ---
 
 # IInkRenderer::Rotate
@@ -111,4 +111,3 @@ If no point is specified, the rotation is centered around the origin.
 
 
 <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess::AddProgram
+ - IBDA_ConditionalAccess.AddProgram
 ---
 
 # IBDA_ConditionalAccess::AddProgram
@@ -65,4 +65,3 @@ Returns E_NOTIMPL.
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
-

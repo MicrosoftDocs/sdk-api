@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBaseFilter::FindPin
+ - IBaseFilter.FindPin
 ---
 
 # IBaseFilter::FindPin
@@ -120,4 +120,3 @@ If the method succeeds, the <b>IPin</b> interface that it returns has an outstan
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-

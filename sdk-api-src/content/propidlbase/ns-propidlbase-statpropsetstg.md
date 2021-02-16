@@ -44,7 +44,6 @@ api_type:
 api_location:
  - propidlbase.h
 api_name:
- - tagSTATPROPSETSTG
  - STATPROPSETSTG
 ---
 
@@ -105,4 +104,3 @@ Time in UTC when this property set was last accessed.
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>
-

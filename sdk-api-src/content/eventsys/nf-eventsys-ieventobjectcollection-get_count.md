@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEventObjectCollection::get_Count
+ - IEventObjectCollection.Count
+ - IEventObjectCollection.get_Count
 ---
 
 # IEventObjectCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventobjectcollection">IEventObjectCollection</a>
-

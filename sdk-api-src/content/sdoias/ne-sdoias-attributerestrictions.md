@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _ATTRIBUTERESTRICTIONS
  - ATTRIBUTERESTRICTIONS
 ---
 
@@ -89,4 +88,3 @@ Specifies whether the attribute is allowed in an 8021x connection.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-attributeinfo">ATTRIBUTEINFO</a>
-

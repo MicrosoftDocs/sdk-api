@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject::GetName
+ - IGroupPolicyObject.GetName
 ---
 
 # IGroupPolicyObject::GetName
@@ -92,4 +92,3 @@ To retrieve the display name for a GPO, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
-

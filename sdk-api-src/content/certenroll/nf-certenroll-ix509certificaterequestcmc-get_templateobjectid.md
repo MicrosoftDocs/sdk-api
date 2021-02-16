@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc::get_TemplateObjectId
+ - IX509CertificateRequestCmc.TemplateObjectId
+ - IX509CertificateRequestCmc.get_TemplateObjectId
 ---
 
 # IX509CertificateRequestCmc::get_TemplateObjectId
@@ -82,4 +83,3 @@ The object identifier can be an OID for the Active Directory Common Name (CN) of
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
-

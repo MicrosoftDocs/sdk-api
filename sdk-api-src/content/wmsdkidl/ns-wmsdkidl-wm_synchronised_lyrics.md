@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMSynchronisedLyrics
  - WM_SYNCHRONISED_LYRICS
 ---
 
@@ -138,4 +137,3 @@ The objects of the Windows Media Format SDK do not validate the values of time s
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3::RegisterTab
+ - ITaskbarList3.RegisterTab
 ---
 
 # ITaskbarList3::RegisterTab
@@ -103,4 +103,3 @@ By itself, registering a tab thumbnail alone will not result in its being displa
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

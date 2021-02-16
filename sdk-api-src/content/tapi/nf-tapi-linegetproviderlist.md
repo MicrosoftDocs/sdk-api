@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetProviderList
+ - lineGetProviderListA
+ - lineGetProviderListW
 ---
 
 # lineGetProviderList function
@@ -94,4 +96,3 @@ LINEERR_INCOMPATIBLEAPIVERSION, LINEERR_NOMEM, LINEERR_INIFILECORRUPT, LINEERR_O
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-

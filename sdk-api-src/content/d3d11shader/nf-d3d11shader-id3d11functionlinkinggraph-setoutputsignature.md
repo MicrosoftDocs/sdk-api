@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionLinkingGraph::SetOutputSignature
+ - ID3D11FunctionLinkingGraph.SetOutputSignature
 ---
 
 # ID3D11FunctionLinkingGraph::SetOutputSignature
@@ -81,4 +81,3 @@ Returns S_OK if successful; otherwise, returns one of the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionlinkinggraph">ID3D11FunctionLinkingGraph</a>
-

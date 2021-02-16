@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::GetProperties
+ - IShellImageData.GetProperties
 ---
 
 # IShellImageData::GetProperties
@@ -101,4 +101,3 @@ The <i>ppPropSet</i> pointer is not valid.
 </td>
 </tr>
 </table>
-

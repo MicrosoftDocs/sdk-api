@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallBase::Init
+ - CMSPCallBase.Init
 ---
 
 # CMSPCallBase::Init
@@ -83,4 +83,3 @@ Reserved.
 
 
 <a href="/windows/desktop/api/msp/nf-msp-itmspaddress-createmspcall">CreateMSPCall</a>
-

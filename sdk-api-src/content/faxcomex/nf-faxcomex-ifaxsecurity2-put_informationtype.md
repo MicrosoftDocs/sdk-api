@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSecurity2::put_InformationType
+ - IFaxSecurity2.InformationType
+ - IFaxSecurity2.get_InformationType
+ - IFaxSecurity2.put_InformationType
+ - IFaxSecurity2.get_InformationType
+ - IFaxSecurity2.put_InformationType
 ---
 
 # IFaxSecurity2::put_InformationType
@@ -95,4 +99,3 @@ Set the <b>IFaxSecurity2::InformationType</b> property before you get the <a hre
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity2">IFaxSecurity2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdo::ResetProperty
+ - ISdo.ResetProperty
 ---
 
 # ISdo::ResetProperty
@@ -83,4 +83,3 @@ Very few IAS properties have default values. If you reset a property that does n
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-restore">ISdo::Restore</a>
-

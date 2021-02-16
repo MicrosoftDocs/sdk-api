@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjPrimarySite::Commit
+ - IDsAdminNewObjPrimarySite.Commit
 ---
 
 # IDsAdminNewObjPrimarySite::Commit
@@ -75,4 +75,3 @@ When an object creation wizard contains more than one page, the system implement
 
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjprimarysite-createnew">IDsAdminNewObjPrimarySite::CreateNew</a>
-

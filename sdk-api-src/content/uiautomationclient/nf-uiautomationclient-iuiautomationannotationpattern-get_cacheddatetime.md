@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationAnnotationPattern::get_CachedDateTime
+ - IUIAutomationAnnotationPattern.CachedDateTime
+ - IUIAutomationAnnotationPattern.get_CachedDateTime
 ---
 
 # IUIAutomationAnnotationPattern::get_CachedDateTime
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern">IUIAutomationAnnotationPattern</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmObject::put_Description
+ - IFsrmObject.Description
+ - IFsrmObject.get_Description
+ - IFsrmObject.put_Description
 ---
 
 # IFsrmObject::put_Description
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
-

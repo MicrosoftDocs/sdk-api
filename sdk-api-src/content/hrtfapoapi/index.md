@@ -9,8 +9,6 @@ tech.root: xaudio2
 f1_keywords:
  - hrtfapoapi
  - hrtfapoapi/hrtfapoapi
-api_name:
- - hrtfapoapi
 ---
 
 # Hrtfapoapi.h header

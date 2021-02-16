@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceCollectionQuery::AddQueryConstraint
+ - IFunctionInstanceCollectionQuery.AddQueryConstraint
 ---
 
 # IFunctionInstanceCollectionQuery::AddQueryConstraint
@@ -116,4 +116,3 @@ If multiple constraints are added, all constraints must be supported to satisfy 
 
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollectionquery">IFunctionInstanceCollectionQuery</a>
-

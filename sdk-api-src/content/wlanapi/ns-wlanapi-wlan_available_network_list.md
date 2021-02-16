@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_AVAILABLE_NETWORK_LIST
- - PWLAN_AVAILABLE_NETWORK_LIST
  - WLAN_AVAILABLE_NETWORK_LIST
 ---
 
@@ -85,4 +83,3 @@ An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_netw
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetavailablenetworklist">WlanGetAvailableNetworkList</a>
-

@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _VIRTUAL_STORAGE_TYPE
- - PVIRTUAL_STORAGE_TYPE
  - VIRTUAL_STORAGE_TYPE
 ---
 
@@ -147,4 +145,3 @@ Vendor-unique identifier.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::StringFormat
+ - StringFormat.StringFormat
 ---
 
 # StringFormat::StringFormat(const StringFormat &)
@@ -68,4 +68,3 @@ Pointer to a <a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringf
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringformatflags">StringFormatFlags</a>
-

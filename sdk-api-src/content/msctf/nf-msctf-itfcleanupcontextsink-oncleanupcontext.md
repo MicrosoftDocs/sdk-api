@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfCleanupContextSink::OnCleanupContext
+ - ITfCleanupContextSink.OnCleanupContext
 ---
 
 # ITfCleanupContextSink::OnCleanupContext
@@ -78,4 +78,3 @@ A context cleanup occurs when:
 ## -see-also
 
 [ITfCleanupContextSink interface](nn-msctf-itfcleanupcontextsink.md), [ITfContext interface](nn-msctf-itfcontext.md), [TfEditCookie](/windows/win32/tsf/tfeditcookie)
-

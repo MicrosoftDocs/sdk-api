@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITScriptableAudioFormat::put_FormatTag
+ - ITScriptableAudioFormat.put_FormatTag
 ---
 
 # ITScriptableAudioFormat::put_FormatTag
@@ -90,4 +90,3 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-get_formattag">get_FormatTag</a>
-

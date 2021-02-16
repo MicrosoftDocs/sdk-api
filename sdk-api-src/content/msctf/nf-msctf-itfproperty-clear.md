@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfProperty::Clear
+ - ITfProperty.Clear
 ---
 
 # ITfProperty::Clear
@@ -150,4 +150,3 @@ It is not necessary to call this method when a context is about to be destroyed.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

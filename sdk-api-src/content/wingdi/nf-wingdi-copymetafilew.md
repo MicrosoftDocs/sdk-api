@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CopyMetaFileW
  - wingdi/CopyMetaFileW
- - CopyMetaFile
- - wingdi/CopyMetaFile
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - CopyMetaFileW
  - CopyMetaFile
+ - CopyMetaFileA
+ - CopyMetaFileW
 ---
 
 # CopyMetaFileW function
@@ -98,4 +97,3 @@ When the application no longer needs the Windows-format metafile handle, it shou
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

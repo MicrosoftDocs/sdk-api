@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
- - _CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
- - PCRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
  - CRYPTUI_WIZ_DIGITAL_SIGN_BLOB_INFO
 ---
 
@@ -85,4 +83,3 @@ A pointer to a null-terminated Unicode string that contains the display name of 
 ## -see-also
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizdigitalsign">CryptUIWizDigitalSign</a>
-

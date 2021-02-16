@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymSrvIsStoreW
  - dbghelp/SymSrvIsStoreW
- - SymSrvIsStore
- - dbghelp/SymSrvIsStore
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymSrvIsStoreW
  - SymSrvIsStore
+ - SymSrvIsStore
+ - SymSrvIsStoreW
 ---
 
 # SymSrvIsStoreW function
@@ -90,4 +89,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-

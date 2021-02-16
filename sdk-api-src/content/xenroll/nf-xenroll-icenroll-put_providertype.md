@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_ProviderType
+ - ICEnroll4.ProviderType
+ - ICEnroll4.get_ProviderType
+ - ICEnroll4.put_ProviderType
+ - ICEnroll3.ProviderType
+ - ICEnroll3.get_ProviderType
+ - ICEnroll3.put_ProviderType
+ - ICEnroll2.ProviderType
+ - ICEnroll2.get_ProviderType
+ - ICEnroll2.put_ProviderType
+ - ICEnroll.ProviderType
+ - ICEnroll.get_ProviderType
+ - ICEnroll.put_ProviderType
+ - CEnroll.ProviderType
 ---
 
 # ICEnroll::put_ProviderType
@@ -112,4 +124,3 @@ if (FAILED(hr))
 else
     printf("ProviderType set to %d\n", PROV_MS_EXCHANGE);
 ```
-

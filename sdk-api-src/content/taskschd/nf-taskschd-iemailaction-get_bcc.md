@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::get_Bcc
+ - IEmailAction.Bcc
+ - IEmailAction.get_Bcc
+ - IEmailAction.put_Bcc
 ---
 
 # IEmailAction::get_Bcc
@@ -61,4 +63,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IShellFolderView::SetCallback
+ - IShellFolderView.SetCallback
 ---
 
 # IShellFolderView::SetCallback
@@ -73,4 +73,3 @@ The address of an interface pointer that, when this method returns successfully,
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

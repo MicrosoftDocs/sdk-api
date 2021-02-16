@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wsdbase.h
 api_name:
- - __MIDL___MIDL_itf_wsdbase_0000_0000_0001
  - WSD_CONFIG_PARAM_TYPE
 ---
 
@@ -176,4 +175,3 @@ If this value is expressed in conjunction with WSD_SECURITY_SSL_CERT_FOR_CLIENT_
 
 </li>
 </ul>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
- - NET_FW_ACTION_
  - NET_FW_ACTION
 ---
 
@@ -76,4 +75,3 @@ Maximum traffic.
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PolicyServerListManager::get_Count
+ - IX509PolicyServerListManager.Count
+ - IX509PolicyServerListManager.get_Count
 ---
 
 # IX509PolicyServerListManager::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverlistmanager">IX509PolicyServerListManager</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IModalWindow::Show
+ - IModalWindow.Show
 ---
 
 # IModalWindow::Show
@@ -83,4 +83,3 @@ The user closed the window by cancelling the operation.
 </td>
 </tr>
 </table>
-

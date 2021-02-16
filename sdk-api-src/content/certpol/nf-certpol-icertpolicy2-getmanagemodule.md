@@ -43,7 +43,8 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertPolicy2::GetManageModule
+ - ICertPolicy2.GetManageModule
+ - CCertPolicy.GetManageModule
 ---
 
 # ICertPolicy2::GetManageModule
@@ -74,4 +75,3 @@ The return value is a <b>Variant</b> containing the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
-

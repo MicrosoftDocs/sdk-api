@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCaptureDialogs::HasDialog
+ - IAMVfwCaptureDialogs.HasDialog
 ---
 
 # IAMVfwCaptureDialogs::HasDialog
@@ -74,4 +74,3 @@ This method calls the Video for Windows <b>videoDialog</b> function to query for
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcapturedialogs">IAMVfwCaptureDialogs Interface</a>
-

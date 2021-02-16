@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetGoOnlineW
  - winineti/InternetGoOnlineW
- - InternetGoOnline
- - winineti/InternetGoOnline
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetGoOnlineW
  - InternetGoOnline
+ - InternetGoOnlineA
+ - InternetGoOnlineW
 ---
 
 # InternetGoOnlineW function
@@ -133,4 +132,3 @@ The <i>dwFlags</i> parameter contains a value other than zero or <b>INTERNET_GOO
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

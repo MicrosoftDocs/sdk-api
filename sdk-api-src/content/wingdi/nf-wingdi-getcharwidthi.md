@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetCharWidthI
  - wingdi/GetCharWidthI
- - GetCharWidth
- - wingdi/GetCharWidth
 dev_langs:
  - c++
 topic_type:
@@ -47,7 +45,6 @@ api_location:
  - GDI32Full.dll
 api_name:
  - GetCharWidthI
- - GetCharWidth
 ---
 
 # GetCharWidthI function
@@ -114,4 +111,3 @@ If a character does not exist in the current font, it is assigned the width of t
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>
-

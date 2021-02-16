@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwMgr::IsIcmpTypeAllowed
+ - INetFwMgr.IsIcmpTypeAllowed
 ---
 
 # INetFwMgr::IsIcmpTypeAllowed
@@ -222,4 +222,3 @@ The <a href="/previous-versions/windows/desktop/api/netfw/nf-netfw-inetfwpolicy2
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>
-

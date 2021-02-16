@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus::SetSingleTabletMode
+ - IRealTimeStylus.SetSingleTabletMode
 ---
 
 # IRealTimeStylus::SetSingleTabletMode
@@ -112,4 +112,3 @@ if (SUCCEEDED(g_pRealTimeStylus->SetSingleTabletMode(pInkTablet)))
 
 
 <a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
-

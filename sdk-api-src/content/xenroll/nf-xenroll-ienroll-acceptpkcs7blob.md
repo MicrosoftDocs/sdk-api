@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::acceptPKCS7Blob
+ - IEnroll.acceptPKCS7Blob
 ---
 
 # IEnroll::acceptPKCS7Blob
@@ -89,4 +89,3 @@ By default, the MY, CA, ROOT, and REQUEST system stores are used to store the ce
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

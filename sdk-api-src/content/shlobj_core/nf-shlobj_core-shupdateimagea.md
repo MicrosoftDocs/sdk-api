@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHUpdateImageA
  - shlobj_core/SHUpdateImageA
- - SHUpdateImage
- - shlobj_core/SHUpdateImage
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHUpdateImageA
  - SHUpdateImage
+ - SHUpdateImageA
+ - SHUpdateImageW
 ---
 
 # SHUpdateImageA function
@@ -97,4 +96,3 @@ You must use <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-iextractic
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shchangenotify">SHChangeNotify</a>
-

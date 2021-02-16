@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::SetWorkItemData
+ - IScheduledWorkItem.SetWorkItemData
 ---
 
 # IScheduledWorkItem::SetWorkItemData
@@ -124,4 +124,3 @@ Programs must call the <b>IPersistFile::Save</b> method after calling
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getworkitemdata">IScheduledWorkItem::GetWorkItemData</a>
-

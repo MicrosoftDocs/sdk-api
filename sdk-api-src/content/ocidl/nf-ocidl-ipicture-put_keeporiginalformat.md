@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::put_KeepOriginalFormat
+ - IPicture.put_KeepOriginalFormat
 ---
 
 # IPicture::put_KeepOriginalFormat
@@ -69,4 +69,3 @@ This method returns S_OK on success and E_FAIL otherwise.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_keeporiginalformat">IPicture::get_KeepOriginalFormat</a>
-

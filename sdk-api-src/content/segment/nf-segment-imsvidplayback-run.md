@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback::Run
+ - IMSVidPlayback.Run
 ---
 
 # IMSVidPlayback::Run
@@ -96,4 +96,3 @@ This method allows for direct control of the source. However, if the underlying 
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidplayback">IMSVidPlayback Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
- - FWPS_INBOUND_FRAGMENT_METADATA0_
  - FWPS_INBOUND_FRAGMENT_METADATA0
 ---
 
@@ -87,4 +86,3 @@ The FWPS_INBOUND_FRAGMENT_METADATA0 structure contains valid data only if the
 
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
-

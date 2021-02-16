@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SYSTEM_AUDIT_ACE
  - SYSTEM_AUDIT_ACE
 ---
 
@@ -83,4 +82,3 @@ When a <b>SYSTEM_AUDIT_ACE</b> structure is created, sufficient memory must be a
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-acl">ACL</a>
-

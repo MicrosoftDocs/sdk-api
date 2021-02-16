@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_RequestStoreName
+ - ICEnroll4.RequestStoreName
+ - ICEnroll4.get_RequestStoreName
+ - ICEnroll4.put_RequestStoreName
+ - ICEnroll3.RequestStoreName
+ - ICEnroll3.get_RequestStoreName
+ - ICEnroll3.put_RequestStoreName
+ - ICEnroll2.RequestStoreName
+ - ICEnroll2.get_RequestStoreName
+ - ICEnroll2.put_RequestStoreName
+ - ICEnroll.RequestStoreName
+ - ICEnroll.get_RequestStoreName
+ - ICEnroll.put_RequestStoreName
+ - CEnroll.RequestStoreName
 ---
 
 # ICEnroll::put_RequestStoreName
@@ -117,4 +129,3 @@ if ( FAILED ( hr ) )
 else
     printf( "RequestStoreName was set to : %ws\n", bstrNewName );
 ```
-

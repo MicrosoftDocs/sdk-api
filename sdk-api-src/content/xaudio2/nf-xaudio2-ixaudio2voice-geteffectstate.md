@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XAudio2.h
 api_name:
- - IXAudio2Voice::GetEffectState
+ - IXAudio2Voice.GetEffectState
 ---
 
 # IXAudio2Voice::GetEffectState
@@ -80,4 +80,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
-

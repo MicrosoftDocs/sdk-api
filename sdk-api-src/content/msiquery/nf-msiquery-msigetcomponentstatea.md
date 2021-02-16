@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetComponentStateA
  - msiquery/MsiGetComponentStateA
- - MsiGetComponentState
- - msiquery/MsiGetComponentState
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetComponentStateA
  - MsiGetComponentState
+ - MsiGetComponentStateA
+ - MsiGetComponentStateW
 ---
 
 # MsiGetComponentStateA function
@@ -169,4 +168,3 @@ For more information, see
 
 
 <a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-

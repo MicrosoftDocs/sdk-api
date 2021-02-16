@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::IsACLConsistent
+ - IGPMGPO.IsACLConsistent
+ - GPMGPO.IsACLConsistent
 ---
 
 # IGPMGPO::IsACLConsistent
@@ -77,4 +78,3 @@ For more information about ACLs and the security model for controlling access to
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-

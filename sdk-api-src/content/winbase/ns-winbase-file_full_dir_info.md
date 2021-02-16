@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _FILE_FULL_DIR_INFO
- - PFILE_FULL_DIR_INFO
  - FILE_FULL_DIR_INFO
 ---
 
@@ -185,4 +183,3 @@ To compile an application that uses this structure, define the <b>_WIN32_WINNT</
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

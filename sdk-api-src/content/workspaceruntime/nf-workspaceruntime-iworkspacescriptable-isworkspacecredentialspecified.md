@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspaceScriptable::IsWorkspaceCredentialSpecified
+ - IWorkspaceScriptable.IsWorkspaceCredentialSpecified
+ - IWorkspaceScriptable2.IsWorkspaceCredentialSpecified
+ - IWorkspaceScriptable3.IsWorkspaceCredentialSpecified
+ - Workspace.IsWorkspaceCredentialSpecified
 ---
 
 # IWorkspaceScriptable::IsWorkspaceCredentialSpecified
@@ -81,4 +84,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
-

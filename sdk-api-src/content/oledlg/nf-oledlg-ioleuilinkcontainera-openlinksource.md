@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainerA::OpenLinkSource
+ - IOleUILinkContainer.OpenLinkSource
+ - IOleUILinkContainerA.OpenLinkSource
+ - IOleUILinkContainerW.OpenLinkSource
 ---
 
 # IOleUILinkContainerA::OpenLinkSource
@@ -129,4 +131,3 @@ The <b>IOleUILinkContainer::OpenLinkSource</b> method is called when the <b>Open
 
 
 <a href="/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a>
-

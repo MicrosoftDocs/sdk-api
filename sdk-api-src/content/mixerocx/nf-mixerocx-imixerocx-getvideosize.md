@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::GetVideoSize
+ - IMixerOCX.GetVideoSize
 ---
 
 # IMixerOCX::GetVideoSize
@@ -74,4 +74,3 @@ If the method succeeds, it returns S_OK.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

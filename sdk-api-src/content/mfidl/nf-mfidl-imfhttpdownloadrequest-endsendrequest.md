@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::EndSendRequest
+ - IMFHttpDownloadRequest.EndSendRequest
 ---
 
 # IMFHttpDownloadRequest::EndSendRequest
@@ -87,4 +87,3 @@ The request was successfully sent to the server.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

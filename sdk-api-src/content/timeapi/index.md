@@ -9,8 +9,6 @@ tech.root: multimedia
 f1_keywords:
  - timeapi
  - timeapi/timeapi
-api_name:
- - timeapi
 ---
 
 # Timeapi.h header

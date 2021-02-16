@@ -42,7 +42,9 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor::get_SupportedManipulations
+ - IManipulationProcessor.SupportedManipulations
+ - IManipulationProcessor.get_SupportedManipulations
+ - IManipulationProcessor.put_SupportedManipulations
 ---
 
 # IManipulationProcessor::get_SupportedManipulations
@@ -88,4 +90,3 @@ With this property you can control which manipulations the supports and which it
 
 
 <a href="/windows/desktop/wintouch/mtproperties">Properties</a>
-

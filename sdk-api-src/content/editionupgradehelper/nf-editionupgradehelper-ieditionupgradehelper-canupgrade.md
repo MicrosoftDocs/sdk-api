@@ -42,7 +42,7 @@ api_type:
 api_location:
  - editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper::CanUpgrade
+ - IEditionUpgradeHelper.CanUpgrade
 ---
 
 # IEditionUpgradeHelper::CanUpgrade
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumUserStrings
+ - IMetaDataImport.EnumUserStrings
 ---
 
 # IMetaDataImport::EnumUserStrings
@@ -93,4 +93,3 @@ The number of String tokens returned in <i>rgStrings</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

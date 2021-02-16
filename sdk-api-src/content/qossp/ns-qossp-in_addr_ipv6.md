@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
- - _IN_ADDR_IPV6
- - LPIN_ADDR_IPV6
  - IN_ADDR_IPV6
 ---
 
@@ -71,4 +69,3 @@ When working with IPv4 addresses, use <a href="/windows/desktop/api/qossp/ns-qos
 ## -see-also
 
 <a href="/windows/desktop/api/qossp/ns-qossp-in_addr_ipv4">IN_ADDR_IPV4</a>
-

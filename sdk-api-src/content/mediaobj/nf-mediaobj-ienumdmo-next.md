@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IEnumDMO::Next
+ - IEnumDMO.Next
 ---
 
 # IEnumDMO::Next
@@ -148,4 +148,3 @@ The caller must free the memory allocated for each string returned in the <i>Nam
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-ienumdmo">IEnumDMO Interface</a>
-

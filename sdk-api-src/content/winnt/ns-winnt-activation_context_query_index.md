@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACTIVATION_CONTEXT_QUERY_INDEX
- - PACTIVATION_CONTEXT_QUERY_INDEX
  - ACTIVATION_CONTEXT_QUERY_INDEX
 ---
 
@@ -76,4 +74,3 @@ Calling the
 <a href="/windows/desktop/api/winbase/nf-winbase-queryactctxw">QueryActCtxW</a> function with the FileInformationInAssemblyOfAssemblyInActivationContext option requires that the <i>pvSubInstance</i> parameter point to an 
 <b>ACTIVATION_CONTEXT_QUERY_INDEX</b> structure. See the sample for 
 <a href="/windows/desktop/api/winnt/ns-winnt-assembly_file_detailed_information">ASSEMBLY_FILE_DETAILED_INFORMATION</a> for an example of its use.
-

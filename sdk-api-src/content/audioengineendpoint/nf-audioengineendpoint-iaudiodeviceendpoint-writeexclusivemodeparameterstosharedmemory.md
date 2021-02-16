@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AudioEngineEndpoint.h
 api_name:
- - IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory
+ - IAudioDeviceEndpoint.WriteExclusiveModeParametersToSharedMemory
 ---
 
 # IAudioDeviceEndpoint::WriteExclusiveModeParametersToSharedMemory
@@ -101,4 +101,3 @@ The Remote Desktop Services AudioEndpoint API is for use in Remote Desktop scena
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudiodeviceendpoint">IAudioDeviceEndpoint</a>
-

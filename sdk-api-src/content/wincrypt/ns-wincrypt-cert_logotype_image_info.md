@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_LOGOTYPE_IMAGE_INFO
- - PCERT_LOGOTYPE_IMAGE_INFO
  - CERT_LOGOTYPE_IMAGE_INFO
 ---
 
@@ -161,4 +159,3 @@ The address of a null-terminated IA5 string that contains the RFC 3066 language 
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_logotype_image">CERT_LOGOTYPE_IMAGE</a>
-

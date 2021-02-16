@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice::SetAttributeByName
+ - IWMRegisteredDevice.SetAttributeByName
 ---
 
 # IWMRegisteredDevice::SetAttributeByName
@@ -92,4 +92,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmregistereddevice-getattributebyname">IWMRegisteredDevice::GetAttributeByName</a>
-

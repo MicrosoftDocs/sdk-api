@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpestats.h
 api_name:
- - _TCP_ESTATS_OBS_REC_RW_v0
- - PTCP_ESTATS_OBS_REC_RW_v0
  - TCP_ESTATS_OBS_REC_RW_v0
 ---
 
@@ -97,4 +95,3 @@ The <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_rec_rw_v0">T
 
 
 <a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
-

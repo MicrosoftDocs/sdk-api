@@ -42,7 +42,11 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IDynamicRenderer::get_DrawingAttributes
+ - IDynamicRenderer.DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
+ - IDynamicRenderer.get_DrawingAttributes
+ - IDynamicRenderer.put_DrawingAttributes
 ---
 
 # IDynamicRenderer::get_DrawingAttributes
@@ -190,4 +194,3 @@ Width
 
 
 <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
-

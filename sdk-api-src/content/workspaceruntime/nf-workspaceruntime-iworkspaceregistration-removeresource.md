@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspaceRegistration::RemoveResource
+ - IWorkspaceRegistration.RemoveResource
+ - IWorkspaceRegistration2.RemoveResource
+ - Workspace.RemoveResource
 ---
 
 # IWorkspaceRegistration::RemoveResource
@@ -69,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration2">IWorkspaceRegistration2</a>
-

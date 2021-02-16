@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::GetMutualExclusion
+ - IMFASFProfile.GetMutualExclusion
 ---
 
 # IMFASFProfile::GetMutualExclusion
@@ -114,4 +114,3 @@ To change the configuration of the mutual exclusion object in the profile, you m
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a>
-

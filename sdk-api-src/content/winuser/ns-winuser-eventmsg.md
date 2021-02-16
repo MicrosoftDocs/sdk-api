@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagEVENTMSG
- - PEVENTMSGMSG
  - EVENTMSG
 ---
 
@@ -111,4 +109,3 @@ A handle to the window to which the message was posted.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-

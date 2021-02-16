@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole::DeleteMemberName
+ - IAzRole.DeleteMemberName
+ - AzRole.DeleteMemberName
 ---
 
 # IAzRole::DeleteMemberName
@@ -65,4 +66,3 @@ Reserved for future use.
 ## -remarks
 
 To view the list of account names of accounts that belong to the role, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_membersname">MembersName</a> property.
-

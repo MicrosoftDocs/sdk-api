@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FreeEnvironmentStringsW
  - processenv/FreeEnvironmentStringsW
- - FreeEnvironmentStrings
- - processenv/FreeEnvironmentStrings
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - FreeEnvironmentStringsW
  - FreeEnvironmentStrings
+ - FreeEnvironmentStringsA
+ - FreeEnvironmentStringsW
 ---
 
 # FreeEnvironmentStringsW function
@@ -99,4 +98,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize">GetEnvironmentStrings</a>
-

@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - LoadImageA
  - winuser/LoadImageA
- - LoadImage
- - winuser/LoadImage
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +49,10 @@ api_location:
  - ext-ms-win-ntuser-gui-l1-2-1.dll
  - Ext-MS-Win-NTUser-Gui-L1-3-0.dll
 api_name:
- - LoadImageA
  - LoadImage
+ - LoadImageA
+ - LoadImageW
+req.apiset: ext-ms-win-ntuser-gui-l1-1-0 (introduced in Windows 8)
 ---
 
 # LoadImageA function
@@ -396,4 +395,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
-

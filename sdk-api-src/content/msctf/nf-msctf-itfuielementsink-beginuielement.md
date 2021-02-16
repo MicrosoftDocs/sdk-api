@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfUIElementSink::BeginUIElement
+ - ITfUIElementSink.BeginUIElement
 ---
 
 # ITfUIElementSink::BeginUIElement
@@ -94,4 +94,3 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
-

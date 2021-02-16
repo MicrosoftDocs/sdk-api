@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::Reset
+ - Matrix.Reset
 ---
 
 # Matrix::Reset
@@ -114,4 +114,3 @@ VOID Example_Reset(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

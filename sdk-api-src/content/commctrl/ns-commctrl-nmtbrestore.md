@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMTBRESTORE
- - LPNMTBRESTORE
  - NMTBRESTORE
 ---
 
@@ -110,4 +108,3 @@ Number of bytes needed to hold the data for each button. When the restore starts
 Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a></b>
 
 <a href="/windows/desktop/api/commctrl/ns-commctrl-tbbutton">TBBUTTON</a> structure that contains information about the button currently being restored. Applications must modify this structure as necessary before returning.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_STRING_DESCRIPTION
  - WS_STRING_DESCRIPTION
 ---
 
@@ -66,4 +65,3 @@ Specifies the minimum number of characters.
 ### -field maxCharCount
 
 Specifies the maximum number of characters.
-

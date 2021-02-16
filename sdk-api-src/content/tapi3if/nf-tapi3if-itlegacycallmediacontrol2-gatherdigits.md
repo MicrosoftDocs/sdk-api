@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2::GatherDigits
+ - ITLegacyCallMediaControl2.GatherDigits
 ---
 
 # ITLegacyCallMediaControl2::GatherDigits
@@ -149,4 +149,3 @@ Only one
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
-

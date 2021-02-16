@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11AuthenticatedChannel::GetCertificateSize
+ - ID3D11AuthenticatedChannel.GetCertificateSize
 ---
 
 # ID3D11AuthenticatedChannel::GetCertificateSize
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11authenticatedchannel">ID3D11AuthenticatedChannel</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileConditionProperty::put_PropertyId
+ - IFsrmFileConditionProperty.PropertyId
+ - IFsrmFileConditionProperty.get_PropertyId
+ - IFsrmFileConditionProperty.put_PropertyId
 ---
 
 # IFsrmFileConditionProperty::put_PropertyId
@@ -72,4 +74,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjcondition">MSFT_FSRMFMJCondition</a>
-

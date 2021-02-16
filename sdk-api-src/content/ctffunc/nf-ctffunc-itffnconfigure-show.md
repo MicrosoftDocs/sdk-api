@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imekrcic.dll
 api_name:
- - ITfFnConfigure::Show
+ - ITfFnConfigure.Show
 ---
 
 # ITfFnConfigure::Show
@@ -82,4 +82,3 @@ This method should not return until the user closes the dialog box or property s
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfinputprocessorprofiles-addlanguageprofile">ITfInputProcessorProfiles::AddLanguageProfile
       </a>
-

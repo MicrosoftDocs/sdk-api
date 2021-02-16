@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDXMLContext::AddNamespace
+ - IWSDXMLContext.AddNamespace
 ---
 
 # IWSDXMLContext::AddNamespace
@@ -130,4 +130,3 @@ You can call <b>AddNamespace</b> to retrieve the <a href="/windows/desktop/api/w
 ## -see-also
 
 <a href="/windows/desktop/api/wsdxml/nn-wsdxml-iwsdxmlcontext">IWSDXMLContext</a>
-

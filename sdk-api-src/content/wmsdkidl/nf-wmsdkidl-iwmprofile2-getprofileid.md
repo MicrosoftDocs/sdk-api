@@ -46,7 +46,8 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile2::GetProfileID
+ - IWMProfile2.GetProfileID
+ - IWMProfile3.GetProfileID
 ---
 
 # IWMProfile2::GetProfileID
@@ -77,4 +78,3 @@ System profiles have associated identifiers, but custom profiles do not, therefo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
-

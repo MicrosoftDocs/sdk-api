@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_DIRECTORY
- - PMINIDUMP_DIRECTORY
  - MINIDUMP_DIRECTORY
 ---
 
@@ -85,4 +83,3 @@ In this context, a data stream is a block of data within a minidump file.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpreaddumpstream">MiniDumpReadDumpStream</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPRenderConfig::get_inProcOnly
+ - IWMPRenderConfig.get_inProcOnly
 ---
 
 # IWMPRenderConfig::get_inProcOnly
@@ -89,4 +89,3 @@ Using this method with protected content is not supported.
 ## -see-also
 
 <a href="/windows/desktop/api/wmprealestate/nn-wmprealestate-iwmprenderconfig">IWMPRenderConfig Interface</a>
-

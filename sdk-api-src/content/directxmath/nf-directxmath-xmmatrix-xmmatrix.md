@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMMATRIX::XMMATRIX
+ - XMMATRIX.XMMATRIX
 ---
 
 # XMMATRIX::XMMATRIX
@@ -73,4 +73,3 @@ Default constructor for <a href="/windows/desktop/api/directxmath/ns-directxmath
 
 
 <a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
-

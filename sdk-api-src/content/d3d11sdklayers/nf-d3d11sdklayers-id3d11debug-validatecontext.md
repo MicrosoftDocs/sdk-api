@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Debug::ValidateContext
+ - ID3D11Debug.ValidateContext
 ---
 
 # ID3D11Debug::ValidateContext
@@ -74,4 +74,3 @@ Use validate prior to calling a draw method (for example, <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11debug">ID3D11Debug Interface</a>
-

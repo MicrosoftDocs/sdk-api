@@ -9,8 +9,6 @@ tech.root: ldap
 f1_keywords:
  - winber
  - winber/winber
-api_name:
- - winber
 ---
 
 # Winber.h header

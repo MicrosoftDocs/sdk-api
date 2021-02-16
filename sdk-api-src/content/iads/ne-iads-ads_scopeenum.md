@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0021
  - ADS_SCOPEENUM
 ---
 
@@ -99,4 +98,3 @@ prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;
 
 
 <a href="/windows/desktop/api/iads/ns-iads-ads_searchpref_info">ADS_SEARCHPREF_INFO</a>
-

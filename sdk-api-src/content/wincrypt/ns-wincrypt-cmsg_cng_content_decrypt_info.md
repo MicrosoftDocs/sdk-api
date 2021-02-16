@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CNG_CONTENT_DECRYPT_INFO
- - PCMSG_CNG_CONTENT_DECRYPT_INFO
  - CMSG_CNG_CONTENT_DECRYPT_INFO
 ---
 
@@ -105,4 +103,3 @@ The <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_cng_import_conte
 ### -field pbCNGContentEncryptKeyObject
 
 The <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_cng_import_content_encrypt_key">PFN_CMSG_CNG_IMPORT_CONTENT_ENCRYPT_KEY</a> function must update this member with the memory allocated by the <b>pfnAlloc</b> member to be associated with the <b>hCNGContentEncryptKey</b> member. Even for an error, you must free and zero any allocated memory by using the <b>pfnFree</b> member.
-

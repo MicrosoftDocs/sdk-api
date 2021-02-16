@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasHangUpW
  - ras/RasHangUpW
- - RasHangUp
- - ras/RasHangUp
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasHangUpW
  - RasHangUp
+ - RasHangUpA
+ - RasHangUpW
 ---
 
 # RasHangUpW function
@@ -149,4 +148,3 @@ You can call
 
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-sleep">Sleep</a>
-

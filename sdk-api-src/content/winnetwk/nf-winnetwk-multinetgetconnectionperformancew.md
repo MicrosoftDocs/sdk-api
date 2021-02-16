@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MultinetGetConnectionPerformanceW
  - winnetwk/MultinetGetConnectionPerformanceW
- - MultinetGetConnectionPerformance
- - winnetwk/MultinetGetConnectionPerformance
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - MultinetGetConnectionPerformanceW
  - MultinetGetConnectionPerformance
+ - MultinetGetConnectionPerformanceA
+ - MultinetGetConnectionPerformanceW
 ---
 
 # MultinetGetConnectionPerformanceW function
@@ -269,4 +268,3 @@ A typical way to use this function would be to open a file on a network server (
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

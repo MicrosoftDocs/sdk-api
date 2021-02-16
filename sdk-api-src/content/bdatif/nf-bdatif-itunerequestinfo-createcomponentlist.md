@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - ITuneRequestInfo::CreateComponentList
+ - ITuneRequestInfo.CreateComponentList
 ---
 
 # ITuneRequestInfo::CreateComponentList
@@ -115,4 +115,3 @@ The <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-itunereques
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
-

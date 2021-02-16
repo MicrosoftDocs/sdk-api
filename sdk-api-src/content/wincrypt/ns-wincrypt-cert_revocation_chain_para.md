@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_REVOCATION_CHAIN_PARA
- - PCERT_REVOCATION_CHAIN_PARA
  - CERT_REVOCATION_CHAIN_PARA
 ---
 
@@ -115,4 +113,3 @@ A pointer to a <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">
 A <b>DWORD</b> value that specifies the maximum number of bytes to download from the URL object. A value of 0 specifies no limit.
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This member is not supported.
-

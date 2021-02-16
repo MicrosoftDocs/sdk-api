@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCSettings::GetRestrictions
+ - IWPCSettings.GetRestrictions
 ---
 
 # IWPCSettings::GetRestrictions
@@ -189,4 +189,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
-

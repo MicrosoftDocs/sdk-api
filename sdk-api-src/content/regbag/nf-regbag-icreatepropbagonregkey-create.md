@@ -42,7 +42,7 @@ api_type:
 api_location:
  - regbag.h
 api_name:
- - ICreatePropBagOnRegKey::Create
+ - ICreatePropBagOnRegKey.Create
 ---
 
 # ICreatePropBagOnRegKey::Create
@@ -294,4 +294,3 @@ HRESULT LoadDefaultTuneReq(ITuneRequest **ppTuneReq)
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/regbag/nn-regbag-icreatepropbagonregkey">ICreatePropBagOnRegKey Interface</a>
-

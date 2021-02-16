@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetCurrentSubpicture
+ - IDvdInfo2.GetCurrentSubpicture
 ---
 
 # IDvdInfo2::GetCurrentSubpicture
@@ -130,4 +130,3 @@ DVD content authors can specify that any particular subpicture stream on a disc 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

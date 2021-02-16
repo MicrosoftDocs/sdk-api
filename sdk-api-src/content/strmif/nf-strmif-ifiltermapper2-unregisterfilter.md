@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterMapper2::UnregisterFilter
+ - IFilterMapper2.UnregisterFilter
 ---
 
 # IFilterMapper2::UnregisterFilter
@@ -82,4 +82,3 @@ If the filter was not registered, the method might return an error.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
-

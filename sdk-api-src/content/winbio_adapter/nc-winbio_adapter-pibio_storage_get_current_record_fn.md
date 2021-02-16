@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_GET_CURRENT_RECORD_FN
+ - StorageAdapterGetCurrentRecord
 ---
 
 # PIBIO_STORAGE_GET_CURRENT_RECORD_FN callback function
@@ -324,4 +324,3 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

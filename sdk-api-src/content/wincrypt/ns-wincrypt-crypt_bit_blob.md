@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_BIT_BLOB
- - PCRYPT_BIT_BLOB
  - CRYPT_BIT_BLOB
 ---
 
@@ -99,4 +97,3 @@ Because the smallest chunk of memory that can normally be allocated is a byte, t
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_signed_content_info">CERT_SIGNED_CONTENT_INFO</a>
-

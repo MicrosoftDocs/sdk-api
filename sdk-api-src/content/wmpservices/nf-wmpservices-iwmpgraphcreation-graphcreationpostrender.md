@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPGraphCreation::GraphCreationPostRender
+ - IWMPGraphCreation.GraphCreationPostRender
 ---
 
 # IWMPGraphCreation::GraphCreationPostRender
@@ -74,4 +74,3 @@ There is no guarantee that this method will be invoked for all files.  Only file
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>
-

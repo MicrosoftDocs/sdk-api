@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzAuthorizationStore3::IsUpdateNeeded
+ - IAzAuthorizationStore3.IsUpdateNeeded
 ---
 
 # IAzAuthorizationStore3::IsUpdateNeeded
@@ -63,4 +63,3 @@ The <b>IsUpdateNeeded</b> method checks whether the persisted version of this au
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

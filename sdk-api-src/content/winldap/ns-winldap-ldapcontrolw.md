@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - ldapcontrolW
- - PLDAPControlW
+ - LDAPControl
+ - LDAPControlA
  - LDAPControlW
 ---
 

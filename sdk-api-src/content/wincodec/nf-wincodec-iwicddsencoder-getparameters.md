@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDdsEncoder::GetParameters
+ - IWICDdsEncoder.GetParameters
 ---
 
 # IWICDdsEncoder::GetParameters
@@ -77,4 +77,3 @@ An application can call <b>GetParameters</b> to obtain the default DDS parameter
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicddsparameters">WICDdsParameters</a>
-

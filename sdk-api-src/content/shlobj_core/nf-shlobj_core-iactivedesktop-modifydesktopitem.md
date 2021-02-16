@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IActiveDesktop::ModifyDesktopItem
+ - IActiveDesktop.ModifyDesktopItem
 ---
 
 # IActiveDesktop::ModifyDesktopItem
@@ -135,4 +135,3 @@ The client application must call <a href="/windows/desktop/api/shlobj_core/nf-sh
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-

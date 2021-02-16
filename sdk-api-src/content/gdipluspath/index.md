@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdipluspath
  - gdipluspath/gdipluspath
-api_name:
- - gdipluspath
 ---
 
 # Gdipluspath.h header

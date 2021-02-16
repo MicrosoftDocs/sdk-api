@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1ConcreteTransform::SetCached
+ - ID2D1ConcreteTransform.SetCached
 ---
 
 # ID2D1ConcreteTransform::SetCached
@@ -72,4 +72,3 @@ Type: <b>BOOL</b>
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1concretetransform">ID2D1ConcreteTransform</a>
-

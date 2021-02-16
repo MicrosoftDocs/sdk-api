@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideo::SetCallbackInterface
+ - IDDrawExclModeVideo.SetCallbackInterface
 ---
 
 # IDDrawExclModeVideo::SetCallbackInterface
@@ -107,4 +107,3 @@ An application should use this method to get notification about the overlay size
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
-

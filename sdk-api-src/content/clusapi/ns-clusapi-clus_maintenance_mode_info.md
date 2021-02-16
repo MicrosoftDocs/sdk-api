@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_MAINTENANCE_MODE_INFO
- - PCLUS_MAINTENANCE_MODE_INFO
 ---
 
 # CLUS_MAINTENANCE_MODE_INFO structure
@@ -90,4 +89,3 @@ When using <a href="/previous-versions/windows/desktop/api/clusapi/nf-clusapi-cl
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

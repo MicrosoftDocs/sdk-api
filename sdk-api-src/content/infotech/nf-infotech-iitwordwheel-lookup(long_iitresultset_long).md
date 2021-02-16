@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITWordWheel::Lookup
+ - IITWordWheel.Lookup
 ---
 
 ## -description
@@ -99,4 +99,3 @@ Entry number is out of range.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nldef.h
 api_name:
- - _NL_INTERFACE_OFFLOAD_ROD
- - PNL_INTERFACE_OFFLOAD_ROD
  - NL_INTERFACE_OFFLOAD_ROD
 ---
 
@@ -106,7 +104,11 @@ The network adapter for this network interface supports TCP Large Send Offload V
 
 Type: <b>BOOLEAN</b>
 
-The network adapter for this network interface supports TCP Large Send Offload Version 2. With this capability, TCP can pass a buffer to be transmitted that is bigger than the maximum transmission unit (MTU) supported by the medium.  Version 2 allows TCP to pass a buffer up to 256K to be transmitted.
+The network adapter for this network interface supports TCP Large Send Offload Version 2. With this capability, TCP can pass a buffer to be transmitted that is bigger than the maximum transmission unit (MTU) supported by the medium.  Version 2 allows TCP to pass a buffer up to 256K to be transmitted. 
+
+
+
+
 
 ## -remarks
 
@@ -115,4 +117,3 @@ The <b>NL_INTERFACE_OFFLOAD_ROD</b> structure is defined on Windows Vista and l
 ## -see-also
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_ipinterface_row">MIB_IPINTERFACE_ROW</a>
-

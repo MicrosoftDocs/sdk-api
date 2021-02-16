@@ -45,7 +45,6 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - _DRM_ACTSERV_INFO
  - DRM_ACTSERV_INFO
 ---
 
@@ -92,4 +91,3 @@ This structure has a C++ default constructor that takes no parameters and sets m
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmisactivated">DRMIsActivated</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::MeasureCharacterRanges
+ - Graphics.MeasureCharacterRanges
 ---
 
 # Graphics::MeasureCharacterRanges
@@ -216,4 +216,3 @@ VOID MeasureCharRanges(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
-

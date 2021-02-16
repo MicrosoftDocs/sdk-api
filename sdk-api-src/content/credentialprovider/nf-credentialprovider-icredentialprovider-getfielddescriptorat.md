@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProvider::GetFieldDescriptorAt
+ - ICredentialProvider.GetFieldDescriptorAt
 ---
 
 # ICredentialProvider::GetFieldDescriptorAt

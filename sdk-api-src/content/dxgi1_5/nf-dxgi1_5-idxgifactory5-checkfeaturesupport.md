@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory5::CheckFeatureSupport
+ - IDXGIFactory5.CheckFeatureSupport
 ---
 
 # IDXGIFactory5::CheckFeatureSupport
@@ -86,4 +86,3 @@ Refer to the description of <a href="/windows/desktop/api/dxgi/ne-dxgi-dxgi_swap
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgifactory5">IDXGIFactory5</a>
-

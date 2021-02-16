@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IPrintDialogServices::GetCurrentDevMode
+ - IPrintDialogServices.GetCurrentDevMode
 ---
 
 # IPrintDialogServices::GetCurrentDevMode
@@ -99,4 +99,3 @@ If an error occurs, the return value is a COM error code. For more information, 
 
 
 <b>Reference</b>
-

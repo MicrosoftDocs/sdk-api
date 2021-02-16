@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSETTEXTCOLOR
- - PEMRSETBKCOLOR
  - EMRSETBKCOLOR
 ---
 
@@ -83,4 +81,3 @@ Color value. To make a <a href="/windows/desktop/gdi/colorref">COLORREF</a> valu
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-

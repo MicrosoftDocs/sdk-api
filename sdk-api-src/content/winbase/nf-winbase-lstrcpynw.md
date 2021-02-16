@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lstrcpynW
  - winbase/lstrcpynW
- - lstrcpyn
- - winbase/lstrcpyn
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - KernelBase.dll
  - MinKernelBase.dll
 api_name:
- - lstrcpynW
  - lstrcpyn
+ - lstrcpynA
+ - lstrcpynW
 ---
 
 # lstrcpynW function
@@ -215,4 +214,3 @@ Review <a href="/windows/desktop/AppUIStart/sec-ui">Security Considerations: Win
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
-

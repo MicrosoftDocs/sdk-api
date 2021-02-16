@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbLoadBalancing::GetMostSuitableTarget
+ - ITsSbLoadBalancing.GetMostSuitableTarget
 ---
 
 # ITsSbLoadBalancing::GetMostSuitableTarget
@@ -94,4 +94,3 @@ fewest remote sessions. Your plug-in can use this method to override the default
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbloadbalancingnotifysink">ITsSbLoadBalancingNotifySink</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest::SetIntent
+ - IXpsSignatureRequest.SetIntent
 ---
 
 # IXpsSignatureRequest::SetIntent
@@ -125,4 +125,3 @@ The signature intent string describes what the signature means to the signer. Fo
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

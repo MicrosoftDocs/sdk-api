@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::GetBackupOptions
+ - IVssComponent.GetBackupOptions
 ---
 
 # IVssComponent::GetBackupOptions
@@ -147,4 +147,3 @@ If the call to <b>GetBackupOptions</b> is successful, the caller is responsible 
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getrestoreoptions">IVssComponent::GetRestoreOptions</a>
-

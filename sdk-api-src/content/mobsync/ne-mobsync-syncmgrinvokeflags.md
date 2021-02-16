@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
- - _tagSYNCMGRINVOKEFLAGS
  - SYNCMGRINVOKEFLAGS
 ---
 
@@ -70,4 +69,3 @@ Indicates that the <b>Choice</b> dialog should be minimized by default.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizeinvoke-updateitems">ISyncMgrSynchronizeInvoke::UpdateItems</a>
-

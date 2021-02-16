@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - wmcontainer
  - wmcontainer/wmcontainer
-api_name:
- - wmcontainer
 ---
 
 # Wmcontainer.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder2::GetDefaultSearchGUID
+ - IShellFolder2.GetDefaultSearchGUID
 ---
 
 # IShellFolder2::GetDefaultSearchGUID

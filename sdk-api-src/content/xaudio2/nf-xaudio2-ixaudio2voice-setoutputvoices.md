@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2Voice::SetOutputVoices
+ - IXAudio2Voice.SetOutputVoices
 ---
 
 # IXAudio2Voice::SetOutputVoices
@@ -82,4 +82,3 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 ## -see-also
 
 <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
-

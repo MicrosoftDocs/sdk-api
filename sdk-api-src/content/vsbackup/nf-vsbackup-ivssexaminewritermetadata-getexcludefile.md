@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata::GetExcludeFile
+ - IVssExamineWriterMetadata.GetExcludeFile
 ---
 
 # IVssExamineWriterMetadata::GetExcludeFile
@@ -164,4 +164,3 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getfilecounts">IVssExamineWriterMetadata::GetFileCounts</a>
-

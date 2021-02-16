@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog::DoModal
+ - IPhotoAcquireOptionsDialog.DoModal
 ---
 
 # IPhotoAcquireOptionsDialog::DoModal
@@ -92,4 +92,3 @@ The modal dialog displayed by <b>DoModal</b> will have <b>OK</b> and <b>Cancel</
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
-

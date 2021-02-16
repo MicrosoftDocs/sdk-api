@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - _CLFS_IOSTATS_CLASS
- - PCLFS_IOSTATS_CLASS
  - CLFS_IOSTATS_CLASS
 ---
 
@@ -71,4 +69,3 @@ The log flush rate.
 ## -see-also
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
-

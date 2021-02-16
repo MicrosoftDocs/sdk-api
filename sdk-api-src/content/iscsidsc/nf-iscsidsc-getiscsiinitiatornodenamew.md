@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetIScsiInitiatorNodeNameW
  - iscsidsc/GetIScsiInitiatorNodeNameW
- - GetIScsiInitiatorNodeName
- - iscsidsc/GetIScsiInitiatorNodeName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - GetIScsiInitiatorNodeNameW
- - GetIScsiInitiatorNodeName
+ - GetIscsiInitiatorNodeName
+ - GetIscsiInitiatorNodeNameA
+ - GetIscsiInitiatorNodeNameW
 ---
 
 # GetIScsiInitiatorNodeNameW function

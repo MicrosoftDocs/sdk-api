@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_HASHED_ENCODE_INFO
- - PCMSG_HASHED_ENCODE_INFO
  - CMSG_HASHED_ENCODE_INFO
 ---
 
@@ -87,4 +85,3 @@ This member is currently not used and must be set to <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
-

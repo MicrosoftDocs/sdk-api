@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _LSA_SECPKG_FUNCTION_TABLE
- - PLSA_SECPKG_FUNCTION_TABLE
  - LSA_SECPKG_FUNCTION_TABLE
 ---
 
@@ -334,4 +332,3 @@ Pointer to the <b>GetAppModeInfo</b> function.
 ### -field SetAppModeInfo
 
 Pointer to the <b>SetAppModeInfo</b> function.
-

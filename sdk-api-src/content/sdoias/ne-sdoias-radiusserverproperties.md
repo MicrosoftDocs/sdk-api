@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _RADIUSSERVERPROPERTIES
  - RADIUSSERVERPROPERTIES
 ---
 
@@ -113,4 +112,3 @@ Specifies whether the Message-Authenticator attribute of <a href="https://www.ie
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
-

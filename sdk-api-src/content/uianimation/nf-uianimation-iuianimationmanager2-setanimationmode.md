@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2::SetAnimationMode
+ - IUIAnimationManager2.SetAnimationMode
 ---
 
 # IUIAnimationManager2::SetAnimationMode
@@ -73,4 +73,3 @@ Use this method to enable or disable animation globally. While animation is disa
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_mode">UI_ANIMATION_MODE</a>
-

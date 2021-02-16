@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation::UnregisterForReport
+ - ILocation.UnregisterForReport
 ---
 
 # ILocation::UnregisterForReport
@@ -108,4 +108,3 @@ The caller is not registered to receive events for the specified report type.
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
-

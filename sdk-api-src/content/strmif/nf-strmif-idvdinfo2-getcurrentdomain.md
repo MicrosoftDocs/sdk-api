@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetCurrentDomain
+ - IDvdInfo2.GetCurrentDomain
 ---
 
 # IDvdInfo2::GetCurrentDomain
@@ -122,4 +122,3 @@ You can use this method to test whether the DVD Navigator is finished playing in
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

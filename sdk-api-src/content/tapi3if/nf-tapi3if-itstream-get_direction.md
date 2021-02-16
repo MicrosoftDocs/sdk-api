@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream::get_Direction
+ - ITStream.get_Direction
 ---
 
 # ITStream::get_Direction
@@ -120,4 +120,3 @@ Terminals of either direction can, in general, be selected on any stream whose m
 
 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-terminal_direction">TERMINAL_DIRECTION</a>
-

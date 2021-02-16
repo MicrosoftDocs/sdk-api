@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost::SetMetadata
+ - IWSDDeviceHost.SetMetadata
 ---
 
 # IWSDDeviceHost::SetMetadata
@@ -127,4 +127,3 @@ This method must be called at least once prior to starting any device host which
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-

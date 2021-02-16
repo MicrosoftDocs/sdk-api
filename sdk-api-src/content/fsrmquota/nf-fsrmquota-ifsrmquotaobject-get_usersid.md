@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaObject::get_UserSid
+ - IFsrmQuotaObject.UserSid
+ - IFsrmQuotaObject.get_UserSid
 ---
 
 # IFsrmQuotaObject::get_UserSid
@@ -73,4 +74,3 @@ This method always returns the well-known SID of
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetEncoderParameterListSize
+ - Image.GetEncoderParameterListSize
 ---
 
 # Image::GetEncoderParameterListSize
@@ -94,4 +94,3 @@ The <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getenco
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-image-encoders-and-decoders-use">Using Image Encoders and Decoders</a>
-

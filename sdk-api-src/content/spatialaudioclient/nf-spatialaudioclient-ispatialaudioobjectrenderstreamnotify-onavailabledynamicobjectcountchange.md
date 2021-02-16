@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
+ - ISpatialAudioObjectRenderStreamNotify.OnAvailableDynamicObjectCountChange
 ---
 
 # ISpatialAudioObjectRenderStreamNotify::OnAvailableDynamicObjectCountChange
@@ -79,4 +79,3 @@ Call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreamnotify">ISpatialAudioObjectRenderStreamNotify</a>
-

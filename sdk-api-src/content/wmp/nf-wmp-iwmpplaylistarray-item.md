@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylistArray::item
+ - IWMPPlaylistArray.item
 ---
 
 # IWMPPlaylistArray::item
@@ -95,4 +95,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistarray">IWMPPlaylistArray Interface</a>
-

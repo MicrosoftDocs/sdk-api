@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport2::EnumGenericParamConstraints
+ - IMetaDataImport2.EnumGenericParamConstraints
 ---
 
 # IMetaDataImport2::EnumGenericParamConstraints
@@ -97,4 +97,3 @@ A pointer to the number of tokens placed in <i>rGenericParamConstraints</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
-

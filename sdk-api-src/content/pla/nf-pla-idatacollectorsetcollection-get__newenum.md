@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSetCollection::get__NewEnum
+ - IDataCollectorSetCollection._NewEnum
+ - IDataCollectorSetCollection.get__NewEnum
 ---
 
 # IDataCollectorSetCollection::get__NewEnum
@@ -67,4 +68,3 @@ The items of the enumeration are variants whose type is VT_UNKNOWN.  To query fo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorsetcollection">IDataCollectorSetCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderQuery::GetPropertyConstraints
+ - IFunctionDiscoveryProviderQuery.GetPropertyConstraints
 ---
 
 # IFunctionDiscoveryProviderQuery::GetPropertyConstraints
@@ -73,4 +73,3 @@ Function Discovery will apply all property constraints to the results returned b
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderquery">IFunctionDiscoveryProviderQuery</a>
-

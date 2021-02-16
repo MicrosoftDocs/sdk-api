@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamVolume::GetChannelVolumes
+ - IAudioEndpointOffloadStreamVolume.GetChannelVolumes
 ---
 
 # IAudioEndpointOffloadStreamVolume::GetChannelVolumes
@@ -69,4 +69,3 @@ The <b>GetChannelVolumes</b> method returns <b>S_OK</b> to indicate that it has 
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreamvolume">IAudioEndpointOffloadStreamVolume</a>
-

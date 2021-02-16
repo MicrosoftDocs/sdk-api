@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiBuildClassInfoListExA
  - setupapi/SetupDiBuildClassInfoListExA
- - SetupDiBuildClassInfoListEx
- - setupapi/SetupDiBuildClassInfoListEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiBuildClassInfoListExA
  - SetupDiBuildClassInfoListEx
+ - SetupDiBuildClassInfoListExA
 ---
 
 # SetupDiBuildClassInfoListExA function
@@ -112,4 +110,3 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
 
 > [!NOTE]
 > The setupapi.h header defines SetupDiBuildClassInfoListEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::get_UDFRevision
+ - IFileSystemImage.get_UDFRevision
 ---
 
 # IFileSystemImage::get_UDFRevision
@@ -93,4 +93,3 @@ The value is encoded according to the UDF specification, except the variable siz
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_udfrevision">IFileSystemImage::put_UDFRevision</a>
-

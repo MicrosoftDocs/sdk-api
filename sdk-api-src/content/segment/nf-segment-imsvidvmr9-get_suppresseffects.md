@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVMR9::get_SuppressEffects
+ - IMSVidVMR9.get_SuppressEffects
 ---
 
 # IMSVidVMR9::get_SuppressEffects
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
-

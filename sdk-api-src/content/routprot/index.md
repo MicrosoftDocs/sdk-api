@@ -9,8 +9,6 @@ tech.root: rras
 f1_keywords:
  - routprot
  - routprot/routprot
-api_name:
- - routprot
 ---
 
 # Routprot.h header

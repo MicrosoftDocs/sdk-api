@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - _RESOURCE_EXIT_STATE
  - RESOURCE_EXIT_STATE
 ---
 
@@ -84,4 +83,3 @@ This value is only used for comparisons. All supported values are less than
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pset_resource_status_routine">SetResourceStatus</a>
-

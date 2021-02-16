@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_get_values_len
+ - ldap_get_values_lenA
+ - ldap_get_values_lenW
 ---
 
 # ldap_get_values_len function
@@ -123,4 +125,3 @@ Call
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free_len">ldap_value_free_len</a>
-

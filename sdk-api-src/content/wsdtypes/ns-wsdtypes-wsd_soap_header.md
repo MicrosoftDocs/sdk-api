@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_SOAP_HEADER
  - WSD_SOAP_HEADER
 ---
 
@@ -92,4 +91,3 @@ In discovery messages, a reference to a <a href="/windows/desktop/api/wsdtypes/n
 ### -field AnyHeaders
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies additional headers not encoded by the other members.
-

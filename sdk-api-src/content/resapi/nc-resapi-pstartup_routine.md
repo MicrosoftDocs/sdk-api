@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PSTARTUP_ROUTINE
+ - Startup
 ---
 
 # PSTARTUP_ROUTINE callback function
@@ -151,4 +151,3 @@ See <a href="/previous-versions/windows/desktop/mscs/implementing-startup">Imple
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - tagWMT_INDEX_TYPE
  - WMT_INDEX_TYPE
 ---
 
@@ -72,4 +71,3 @@ The index will associate indexes with the nearest <a href="/windows/desktop/wmfo
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-

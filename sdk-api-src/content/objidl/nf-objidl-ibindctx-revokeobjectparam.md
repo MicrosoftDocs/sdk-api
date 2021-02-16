@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::RevokeObjectParam
+ - IBindCtx.RevokeObjectParam
 ---
 
 # IBindCtx::RevokeObjectParam
@@ -100,4 +100,3 @@ This method is used to remove an entry from the table. If the specified key is f
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-

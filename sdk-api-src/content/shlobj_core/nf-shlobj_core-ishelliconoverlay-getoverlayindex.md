@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlay::GetOverlayIndex
+ - IShellIconOverlay.GetOverlayIndex
 ---
 
 # IShellIconOverlay::GetOverlayIndex
@@ -143,4 +143,3 @@ If you set <i>pIndex</i> to point to OI_ASYNC when you call this method, the She
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlay">IShellIconOverlay</a>
-

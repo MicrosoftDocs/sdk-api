@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView::CloseView
+ - IOleDocumentView.CloseView
 ---
 
 # IOleDocumentView::CloseView
@@ -83,4 +83,3 @@ Because <b>IOleDocumentView::CloseView</b> is called when a container is going t
 
 
 <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-show">IOleDocumentView::Show</a>
-

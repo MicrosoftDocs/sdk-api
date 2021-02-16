@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_1.h
 api_name:
- - ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage
+ - ID3D11VideoContext1.VideoProcessorSetOutputShaderUsage
 ---
 
 # ID3D11VideoContext1::VideoProcessorSetOutputShaderUsage
@@ -69,4 +69,3 @@ True if the surface rendered using <a href="/windows/desktop/api/d3d11/nf-d3d11-
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-

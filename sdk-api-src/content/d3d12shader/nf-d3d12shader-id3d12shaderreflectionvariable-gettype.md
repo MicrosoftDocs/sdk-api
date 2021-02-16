@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - ID3D12ShaderReflectionVariable::GetType
+ - ID3D12ShaderReflectionVariable.GetType
 ---
 
 # ID3D12ShaderReflectionVariable::GetType
@@ -67,4 +67,3 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12shaderreflectionvariable">ID3D12ShaderReflectionVariable</a>
-

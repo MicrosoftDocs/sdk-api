@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeRenewalCertificate::InitializeEncode
+ - IX509AttributeRenewalCertificate.InitializeEncode
 ---
 
 # IX509AttributeRenewalCertificate::InitializeEncode
@@ -87,4 +87,3 @@ You must call either <b>InitializeEncode</b> or <a href="/windows/desktop/api/ce
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributerenewalcertificate">IX509AttributeRenewalCertificate</a>
-

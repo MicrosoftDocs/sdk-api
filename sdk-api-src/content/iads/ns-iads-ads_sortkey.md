@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - _ads_sortkey
- - PADS_SORTKEY
  - ADS_SORTKEY
 ---
 
@@ -81,4 +79,3 @@ When using the LDAP system provider, the <b>pszReserved</b> member corresponds t
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

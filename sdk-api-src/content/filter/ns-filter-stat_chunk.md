@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - tagSTAT_CHUNK
  - STAT_CHUNK
 ---
 
@@ -197,4 +196,3 @@ Information provided by <b>idChunkSource</b>, <b>cwcStartSource</b>, and <b>cwcL
 
 
 <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
-

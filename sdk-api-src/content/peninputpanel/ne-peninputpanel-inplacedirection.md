@@ -44,7 +44,6 @@ api_type:
 api_location:
  - peninputpanel.h
 api_name:
- - __MIDL___MIDL_itf_peninputpanel_0000_0000_0006
  - InPlaceDirection
 ---
 
@@ -76,4 +75,3 @@ An application can specify whether the In-Place Input Panel defaults appear abov
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_preferredinplacedirection">ITextInputPanel::PreferredInPlaceDirection Property</a>
-

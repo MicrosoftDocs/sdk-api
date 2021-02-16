@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - IDXVAHD_Device::GetVideoProcessorOutputFormats
+ - IDXVAHD_Device.GetVideoProcessorOutputFormats
 ---
 
 # IDXVAHD_Device::GetVideoProcessorOutputFormats
@@ -127,4 +127,3 @@ done:
 
 
 <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_device">IDXVAHD_Device</a>
-

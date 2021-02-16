@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IEnumRegFilters::Reset
+ - IEnumRegFilters.Reset
 ---
 
 # IEnumRegFilters::Reset
@@ -67,4 +67,3 @@ Returns S_OK.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumregfilters">IEnumRegFilters Interface</a>
-

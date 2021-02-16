@@ -43,6 +43,8 @@ api_location:
  - DbgHelp.dll
 api_name:
  - SymFromInlineContext
+ - SymFromInlineContext
+ - SymFromInlineContextW
 ---
 
 # SymFromInlineContext function
@@ -86,4 +88,3 @@ If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error 
        information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-

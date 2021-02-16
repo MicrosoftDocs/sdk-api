@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetBreakOnCategory
+ - IDXGIInfoQueue.GetBreakOnCategory
 ---
 
 # IDXGIInfoQueue::GetBreakOnCategory
@@ -74,4 +74,3 @@ Returns a Boolean value that specifies whether this category of breaking conditi
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

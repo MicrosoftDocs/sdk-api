@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1509
- - PSERVER_INFO_1509
  - SERVER_INFO_1509
 ---
 
@@ -80,4 +78,3 @@ Specifies the maximum raw mode buffer size, in bytes.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::Notify
+ - IWMPContentPartnerCallback.Notify
 ---
 
 # IWMPContentPartnerCallback::Notify
@@ -125,4 +125,3 @@ Windows Media Player notifies the online store that a track has been skipped by 
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

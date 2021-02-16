@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IEnumComponentTypes::Clone
+ - IEnumComponentTypes.Clone
 ---
 
 # IEnumComponentTypes::Clone
@@ -65,4 +65,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponenttypes">IEnumComponentTypes Interface</a>
-

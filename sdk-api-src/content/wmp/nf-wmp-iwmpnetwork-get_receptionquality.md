@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_receptionQuality
+ - IWMPNetwork.get_receptionQuality
 ---
 
 # IWMPNetwork::get_receptionQuality
@@ -95,4 +95,3 @@ This method retrieves valid information only during run time when the URL for pl
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
-

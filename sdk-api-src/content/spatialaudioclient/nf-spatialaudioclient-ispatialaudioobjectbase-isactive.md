@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase::IsActive
+ - ISpatialAudioObjectBase.IsActive
 ---
 
 # ISpatialAudioObjectBase::IsActive
@@ -77,4 +77,3 @@ The rendering engine will also deactivate the audio object, setting <b>IsActive<
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_LEVEL_TRIM_RANGE
- - PFILE_LEVEL_TRIM_RANGE
  - FILE_LEVEL_TRIM_RANGE
 ---
 
@@ -84,4 +82,3 @@ Before the trim operation is passed to the underlying storage system the input r
 
 
 <b>FSCTL_FILE_LEVEL_TRIM</b>
-

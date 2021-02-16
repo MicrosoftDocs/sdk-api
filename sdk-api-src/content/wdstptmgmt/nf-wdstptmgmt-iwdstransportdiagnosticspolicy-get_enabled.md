@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportDiagnosticsPolicy::get_Enabled
+ - IWdsTransportDiagnosticsPolicy.Enabled
+ - IWdsTransportDiagnosticsPolicy.get_Enabled
+ - IWdsTransportDiagnosticsPolicy.put_Enabled
 ---
 
 # IWdsTransportDiagnosticsPolicy::get_Enabled
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportdiagnosticspolicy">IWdsTransportDiagnosticsPolicy</a>
-

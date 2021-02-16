@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate::Validate
+ - IValidate.Validate
 ---
 
 # IValidate::Validate
@@ -119,4 +119,3 @@ The method failed.
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-

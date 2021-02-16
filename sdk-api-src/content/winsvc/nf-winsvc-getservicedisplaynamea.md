@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetServiceDisplayNameA
  - winsvc/GetServiceDisplayNameA
- - GetServiceDisplayName
- - winsvc/GetServiceDisplayName
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - SecHost.dll
  - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
 api_name:
- - GetServiceDisplayNameA
  - GetServiceDisplayName
+ - GetServiceDisplayNameA
+ - GetServiceDisplayNameW
 ---
 
 # GetServiceDisplayNameA function
@@ -114,4 +113,3 @@ There are two names for a service: the service name and the display name. The se
 <a href="/windows/desktop/api/winsvc/nf-winsvc-getservicekeynamea">GetServiceKeyName</a>
 <a href="/windows/desktop/api/winsvc/nf-winsvc-openscmanagera">OpenSCManager</a>
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
-

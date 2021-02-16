@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReport::get_LastGeneratedFileNamePrefix
+ - IFsrmReport.LastGeneratedFileNamePrefix
+ - IFsrmReport.get_LastGeneratedFileNamePrefix
 ---
 
 # IFsrmReport::get_LastGeneratedFileNamePrefix
@@ -65,4 +66,3 @@ To determine where the reports are stored, access the <a href="/previous-version
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
-

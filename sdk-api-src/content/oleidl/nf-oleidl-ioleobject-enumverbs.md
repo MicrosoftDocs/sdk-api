@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::EnumVerbs
+ - IOleObject.EnumVerbs
 ---
 
 # IOleObject::EnumVerbs
@@ -102,4 +102,3 @@ Object does not support any verbs.
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleregenumverbs">OleRegEnumVerbs</a>
-

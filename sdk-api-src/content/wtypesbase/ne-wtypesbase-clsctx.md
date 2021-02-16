@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wtypesbase.h
 api_name:
- - tagCLSCTX
  - CLSCTX
 ---
 
@@ -418,4 +417,3 @@ The flags CLSCTX_ACTIVATE_32_BIT_SERVER and CLSCTX_ACTIVATE_64_BIT_SERVER flow a
 
 
 <a href="/windows/desktop/com/registering-a-running-exe-server">Registering a Running EXE Server</a>
-

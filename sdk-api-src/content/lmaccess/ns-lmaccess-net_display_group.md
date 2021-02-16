@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NET_DISPLAY_GROUP
- - PNET_DISPLAY_GROUP
  - NET_DISPLAY_GROUP
 ---
 
@@ -125,4 +123,3 @@ The index of the last entry returned by the
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a>
-

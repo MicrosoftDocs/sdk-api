@@ -46,8 +46,6 @@ api_type:
 api_location:
  - amva.h
 api_name:
- - _tag_AMVAEndFrameInfo
- - LPAMVAEndFrameInfo
  - AMVAEndFrameInfo
 ---
 
@@ -81,4 +79,3 @@ The buffer pointed to by <b>pMiscData</b> cannot contain pointer values, because
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-endframe">IAMVideoAccelerator::EndFrame</a>
-

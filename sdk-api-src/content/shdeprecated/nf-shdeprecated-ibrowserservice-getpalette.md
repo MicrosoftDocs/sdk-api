@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService::GetPalette
+ - IBrowserService.GetPalette
 ---
 
 # IBrowserService::GetPalette
@@ -70,4 +70,3 @@ Returns S_OK if successful, or E_FAIL if there is no palette.
 ## -remarks
 
 The calling application should not call <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> on the palette handle retrieved in <i>hpal</i>.
-

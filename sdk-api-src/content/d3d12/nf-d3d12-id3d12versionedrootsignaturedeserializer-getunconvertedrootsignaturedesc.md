@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc
+ - ID3D12VersionedRootSignatureDeserializer.GetUnconvertedRootSignatureDesc
 ---
 
 # ID3D12VersionedRootSignatureDeserializer::GetUnconvertedRootSignatureDesc
@@ -67,4 +67,3 @@ This method returns a deserialized root signature in a <a href="/windows/desktop
 
 
 <a href="/windows/desktop/direct3d12/root-signature-version-1-1">Root Signature Version 1.1</a>
-

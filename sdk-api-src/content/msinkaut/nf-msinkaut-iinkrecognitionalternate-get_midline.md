@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate::get_Midline
+ - IInkRecognitionAlternate.Midline
+ - IInkRecognitionAlternate.get_Midline
+ - IInkRecognitionAlternate.get_Midline
 ---
 
 # IInkRecognitionAlternate::get_Midline
@@ -95,4 +97,3 @@ The midline corresponds to an imaginary horizontal line with which the top of th
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_linealternates">LineAlternates Property</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor4::ShouldIndexItemContent
+ - IUrlAccessor4.ShouldIndexItemContent
 ---
 
 # IUrlAccessor4::ShouldIndexItemContent

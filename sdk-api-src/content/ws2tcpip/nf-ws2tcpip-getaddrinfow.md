@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetAddrInfoW
  - ws2tcpip/GetAddrInfoW
- - GetAddrInfo
- - ws2tcpip/GetAddrInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - Ws2_32.dll
 api_name:
  - GetAddrInfoW
- - GetAddrInfo
 ---
 
 # GetAddrInfoW function
@@ -853,4 +850,3 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
-

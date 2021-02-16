@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::IsPreroll
+ - IAMMediaTypeSample.IsPreroll
 ---
 
 # IAMMediaTypeSample::IsPreroll
@@ -63,4 +63,3 @@ Returns S_OK if the sample is a preroll sample, or S_FALSE otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

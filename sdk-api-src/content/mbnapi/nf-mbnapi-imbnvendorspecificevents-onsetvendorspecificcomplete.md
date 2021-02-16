@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnVendorSpecificEvents::OnSetVendorSpecificComplete
+ - IMbnVendorSpecificEvents.OnSetVendorSpecificComplete
 ---
 
 # IMbnVendorSpecificEvents::OnSetVendorSpecificComplete
@@ -80,4 +80,3 @@ This byte array contains the byte by byte copy of data returned by underlying mi
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnvendorspecificevents">IMbnVendorSpecificEvents</a>
-

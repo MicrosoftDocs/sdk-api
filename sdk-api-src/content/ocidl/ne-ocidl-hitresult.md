@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagHITRESULT
  - HITRESULT
 ---
 
@@ -80,4 +79,3 @@ The specified location is within the image of the object.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-queryhitrect">IViewObjectEx::QueryHitRect</a>
-

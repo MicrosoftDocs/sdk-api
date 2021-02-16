@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata::AddFilesToFileGroup
+ - IVssCreateExpressWriterMetadata.AddFilesToFileGroup
 ---
 
 # IVssCreateExpressWriterMetadata::AddFilesToFileGroup
@@ -191,4 +191,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
-

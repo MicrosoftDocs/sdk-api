@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3::OnDataUnitEx
+ - IWMWriterFileSink3.OnDataUnitEx
 ---
 
 # IWMWriterFileSink3::OnDataUnitEx
@@ -76,4 +76,3 @@ Applications do not call this method. If you are implementing the <b>IWMWriterFi
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink3">IWMWriterFileSink3 Interface</a>
-

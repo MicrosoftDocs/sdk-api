@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2::FindInterface
+ - ICaptureGraphBuilder2.FindInterface
 ---
 
 # ICaptureGraphBuilder2::FindInterface
@@ -174,4 +174,3 @@ Some video capture filters have a video port pin (PIN_CATEGORY_VIDEOPORT) instea
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-

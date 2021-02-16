@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_PROFILE_INFO_LIST
- - PWLAN_PROFILE_INFO_LIST
  - WLAN_PROFILE_INFO_LIST
 ---
 
@@ -93,4 +91,3 @@ An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_profile_info">
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
-

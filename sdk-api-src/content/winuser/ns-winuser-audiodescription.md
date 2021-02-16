@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagAUDIODESCRIPTION
- - LPAUDIODESCRIPTION
  - AUDIODESCRIPTION
 ---
 
@@ -82,4 +80,3 @@ To compile an application that uses this structure, define _WIN32_WINNT as 0x060
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-

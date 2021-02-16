@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationTextRange2::ShowContextMenu
+ - IUIAutomationTextRange2.ShowContextMenu
 ---
 
 # IUIAutomationTextRange2::ShowContextMenu
@@ -73,4 +73,3 @@ The context menus themselves fire menu opened / closed events when they are invo
 
 
 <a href="/windows/desktop/WinAuto/uiauto-usingtextrangeobjects">Using Text Ranges</a>
-

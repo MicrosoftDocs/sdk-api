@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssEnumObject::Next
+ - IVssEnumObject.Next
 ---
 
 # IVssEnumObject::Next
@@ -156,4 +156,3 @@ In the case of
 
 
 <a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
-

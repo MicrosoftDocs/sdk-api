@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue::put_AgeLimit
+ - IFaxOutgoingQueue.AgeLimit
+ - IFaxOutgoingQueue.get_AgeLimit
+ - IFaxOutgoingQueue.put_AgeLimit
 ---
 
 # IFaxOutgoingQueue::put_AgeLimit
@@ -73,4 +75,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-setting-the-outgoing-queue-properties">Setting the Outgoing Queue Properties</a>
-

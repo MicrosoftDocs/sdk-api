@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpeg2Demultiplexer::DeleteOutputPin
+ - IMpeg2Demultiplexer.DeleteOutputPin
 ---
 
 # IMpeg2Demultiplexer::DeleteOutputPin
@@ -74,4 +74,3 @@ Call this method only when you need to delete a pin while keeping the filter ali
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-impeg2demultiplexer">IMpeg2Demultiplexer Interface</a>
-

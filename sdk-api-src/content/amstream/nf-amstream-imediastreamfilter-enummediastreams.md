@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IMediaStreamFilter::EnumMediaStreams
+ - IMediaStreamFilter.EnumMediaStreams
 ---
 
 # IMediaStreamFilter::EnumMediaStreams
@@ -104,4 +104,3 @@ If the method succeeds, the caller must release the <b>IMediaStream</b> interfac
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
-

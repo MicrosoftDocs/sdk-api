@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0014_0001
  - UI_ANIMATION_TIMER_CLIENT_STATUS
 ---
 
@@ -68,4 +67,3 @@ The client is busy.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimerclienteventhandler-ontimerclientstatuschanged">IUIAnimationTimerClientEventHandler::OnTimerClientStatusChanged</a>
-

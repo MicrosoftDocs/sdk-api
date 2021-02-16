@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winsvc.h
 api_name:
- - _SERVICE_TRIGGER
- - PSERVICE_TRIGGER
  - SERVICE_TRIGGER
 ---
 
@@ -403,4 +401,3 @@ If it is not possible to disable the services, it may be necessary to restart th
 
 
 <a href="/windows/desktop/Services/service-trigger-events">Service Trigger Events</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::QueryMaxLunExtendSize
+ - IVdsLun.QueryMaxLunExtendSize
 ---
 
 # IVdsLun::QueryMaxLunExtendSize
@@ -170,4 +170,3 @@ This operation or combination of parameters is not supported by this provider.
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-extend">IVdsLun::Extend</a>
-

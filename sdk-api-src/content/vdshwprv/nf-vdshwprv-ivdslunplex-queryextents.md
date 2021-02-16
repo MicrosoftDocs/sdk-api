@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunPlex::QueryExtents
+ - IVdsLunPlex.QueryExtents
 ---
 
 # IVdsLunPlex::QueryExtents
@@ -149,4 +149,3 @@ Use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive-queryextent
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a>
-

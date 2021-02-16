@@ -46,8 +46,6 @@ api_type:
 api_location:
  - il21dec.h
 api_name:
- - _AM_LINE21_CCSTATE
- - PAM_LINE21_CCSTATE
  - AM_LINE21_CCSTATE
 ---
 
@@ -79,4 +77,3 @@ Closed captioning on.
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setservicestate">IAMLine21Decoder::SetServiceState</a>
-

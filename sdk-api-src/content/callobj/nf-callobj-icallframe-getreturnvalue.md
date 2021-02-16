@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame::GetReturnValue
+ - ICallFrame.GetReturnValue
 ---
 
 # ICallFrame::GetReturnValue
@@ -61,4 +61,3 @@ This method returns the <b>HRESULT</b> value stored in the call frame.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-

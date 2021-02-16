@@ -43,6 +43,7 @@ api_location:
  - Shell32.dll
 api_name:
  - SHCreateProcessAsUserW
+ - SHCreateProcessAsUserW
 ---
 
 # SHCreateProcessAsUserW function
@@ -101,4 +102,3 @@ For a discussion of how to use the Shell to launch applications, see <a href="/w
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-shellexecuteexa">ShellExecuteEx</a>
-

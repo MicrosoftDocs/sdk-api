@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMXDECN4::operator=
+ - XMXDECN4.operator =
 ---
 
 # XMXDECN4::operator-assign(XMXDECN4 &&)
@@ -69,4 +69,3 @@ The current instance of <code>XMXDECN4</code> whose vector component data has be
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmxdecn4">XMXDECN4</a>
 
 <a href="https://msdn.microsoft.com/d60f196b-281a-428c-bdae-f2d4ad1e206d">operator = </a>
-

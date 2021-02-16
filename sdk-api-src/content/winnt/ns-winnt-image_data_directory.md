@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _IMAGE_DATA_DIRECTORY
- - PIMAGE_DATA_DIRECTORY
  - IMAGE_DATA_DIRECTORY
 ---
 
@@ -150,4 +148,3 @@ The following is a list of the data directories. Offsets are relative to the beg
 
 
 <a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-

@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::get_ReceiptAddress
+ - IFaxDocument.ReceiptAddress
+ - IFaxDocument.get_ReceiptAddress
+ - IFaxDocument.put_ReceiptAddress
+ - IFaxDocument.get_ReceiptAddress
+ - IFaxDocument.put_ReceiptAddress
 ---
 
 # IFaxDocument::get_ReceiptAddress
@@ -71,4 +75,3 @@ This property has meaning only if the <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

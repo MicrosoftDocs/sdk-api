@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidInputDevice::IsViewable
+ - IMSVidInputDevice.IsViewable
 ---
 
 # IMSVidInputDevice::IsViewable
@@ -128,4 +128,3 @@ NULL pointer argument.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice Interface</a>
-

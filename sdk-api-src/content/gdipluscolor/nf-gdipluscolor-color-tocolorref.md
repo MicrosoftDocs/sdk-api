@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color::ToCOLORREF
+ - Color.ToCOLORREF
 ---
 
 # Color::ToCOLORREF
@@ -101,4 +101,3 @@ VOID Example_ToCOLORREF(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
-

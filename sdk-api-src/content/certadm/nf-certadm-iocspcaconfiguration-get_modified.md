@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration::get_Modified
+ - IOCSPCAConfiguration.Modified
+ - IOCSPCAConfiguration.get_Modified
 ---
 
 # IOCSPCAConfiguration::get_Modified
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-

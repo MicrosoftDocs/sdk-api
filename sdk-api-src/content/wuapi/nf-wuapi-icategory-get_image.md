@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategory::get_Image
+ - ICategory.Image
+ - ICategory.get_Image
 ---
 
 # ICategory::get_Image
@@ -73,4 +74,3 @@ If the <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a> int
 
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
- - _COMMCONFIG
- - LPCOMMCONFIG
  - COMMCONFIG
 ---
 
@@ -116,4 +114,3 @@ If the provider subtype is PST_RS232 or PST_PARALLELPORT, the <b>wcProviderData<
 
 
 <a href="/windows/desktop/api/mcx/ns-mcx-modemsettings">MODEMSETTINGS</a>
-

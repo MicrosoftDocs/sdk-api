@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineDial
+ - lineDialA
+ - lineDialW
 ---
 
 # lineDial function
@@ -133,4 +135,3 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linemakecall">lineMakeCall</a>
-

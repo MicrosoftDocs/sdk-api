@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsquery.dll
 api_name:
- - IPersistQuery::Clear
+ - IPersistQuery.Clear
 ---
 
 # IPersistQuery::Clear
@@ -65,4 +65,3 @@ Returns <b>S_OK</b> if successful or a standard  <b>HRESULT</b> value otherwise.
 
 
 <a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
-

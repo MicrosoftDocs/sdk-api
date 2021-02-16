@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute::Prompt
+ - IAttachmentExecute.Prompt
 ---
 
 # IAttachmentExecute::Prompt
@@ -83,4 +83,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 You must call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a> before calling <b>IAttachmentExecute::Prompt</b>.
 
 <b>IAttachmentExecute::Prompt</b> can be called by the application to force UI presentation before the file has been copied to disk.
-

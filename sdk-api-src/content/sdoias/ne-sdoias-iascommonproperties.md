@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _IASCOMMONPROPERTIES
  - IASCOMMONPROPERTIES
 ---
 
@@ -106,4 +105,3 @@ hr = pSdo->GetProperty(PROPERTY_SDO_NAME, &vtItemName);
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-getproperty">ISdo::GetProperty</a>
-

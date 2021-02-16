@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl::Pause
+ - IMediaControl.Pause
 ---
 
 # IMediaControl::Pause
@@ -107,4 +107,3 @@ If the method fails, it stops the graph before returning.
 
 
 <a href="/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">IMediaControl::StopWhenReady</a>
-

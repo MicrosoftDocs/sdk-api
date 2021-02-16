@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl.h
 api_name:
- - IAccessibilityDockingService::DockWindow
+ - IAccessibilityDockingService.DockWindow
 ---
 
 # IAccessibilityDockingService::DockWindow
@@ -155,4 +155,3 @@ The monitor specified by the monitor handle does not support docking.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice">IAccessibilityDockingService</a>
-

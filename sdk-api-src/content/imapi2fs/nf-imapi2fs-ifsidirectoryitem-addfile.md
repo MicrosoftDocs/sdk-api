@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem::AddFile
+ - IFsiDirectoryItem.AddFile
 ---
 
 # IFsiDirectoryItem::AddFile
@@ -159,4 +159,3 @@ The directory that will contain the new file must already exist within the file 
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-remove">IFsiDirectoryItem::Remove</a>
-

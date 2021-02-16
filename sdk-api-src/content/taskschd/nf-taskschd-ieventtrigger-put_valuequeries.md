@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEventTrigger::put_ValueQueries
+ - IEventTrigger.ValueQueries
+ - IEventTrigger.get_ValueQueries
+ - IEventTrigger.put_ValueQueries
 ---
 
 # IEventTrigger::put_ValueQueries
@@ -122,4 +124,3 @@ For more information about writing a query string for certain events, see <a hre
 
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair">ITaskNamedValuePair</a>
-

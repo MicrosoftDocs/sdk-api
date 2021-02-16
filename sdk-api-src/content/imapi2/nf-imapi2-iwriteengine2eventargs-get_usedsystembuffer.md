@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2EventArgs::get_UsedSystemBuffer
+ - IWriteEngine2EventArgs.get_UsedSystemBuffer
 ---
 
 # IWriteEngine2EventArgs::get_UsedSystemBuffer
@@ -97,4 +97,3 @@ This value increases as data is read into the buffer and decreases as data is wr
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_totalsystembuffer">IWriteEngine2EventArgs::get_TotalSystemBuffer</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color::MakeARGB
+ - Color.MakeARGB
 ---
 
 # Color::MakeARGB
@@ -96,4 +96,3 @@ This method returns an <b>ARGB</b> value that holds the specified alpha, red, gr
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-setfromcolorref">Color::SetFromCOLORREF</a>
-

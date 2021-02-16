@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::GetGraphicsPath
+ - PathGradientBrush.GetGraphicsPath
 ---
 
 # PathGradientBrush::GetGraphicsPath
@@ -58,4 +58,3 @@ The <b>PathGradientBrush::GetGraphicsPath</b> method is not implemented in Windo
 ### -param path
 
 Type: <b><a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspath">GraphicsPath</a>*</b>
-

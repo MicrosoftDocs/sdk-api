@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _EVENT_FIELD_TYPE
  - EVENT_FIELD_TYPE
 ---
 
@@ -104,4 +103,3 @@ WMI MOF class supports retrieving keyword and level information only.
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhqueryproviderfieldinformation">TdhQueryProviderFieldInformation</a>
-

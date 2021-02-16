@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgCredentials_Cert
- - PSecPkgCredentials_Cert
  - SecPkgCredentials_Cert
 ---
 
@@ -67,4 +65,3 @@ Size of the encoded certificate.
 ### -field EncodedCert
 
 The encoded certificate.
-

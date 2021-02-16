@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::CVssWriter
+ - CVssWriter.CVssWriter
 ---
 
 # CVssWriter::CVssWriter
@@ -59,4 +59,3 @@ api_name:
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-cvsswriter">CVssWriter::~CVssWriter</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dsquery.h
 api_name:
- - LPDSCOLUMN
  - DSCOLUMN
 ---
 
@@ -114,4 +113,3 @@ Reserved.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-loadstringa">LoadString</a>
-

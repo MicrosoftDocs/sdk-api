@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice::get_HasChildren
+ - IUPnPDevice.get_HasChildren
 ---
 
 # IUPnPDevice::get_HasChildren
@@ -74,4 +74,3 @@ Use this property to determine whether or not the application should access the 
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_children">IUPnPDevice::Children</a>
-

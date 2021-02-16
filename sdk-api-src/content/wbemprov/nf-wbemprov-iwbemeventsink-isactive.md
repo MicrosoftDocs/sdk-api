@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventSink::IsActive
+ - IWbemEventSink.IsActive
 ---
 
 # IWbemEventSink::IsActive
@@ -59,4 +59,3 @@ The
 ## -returns
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
-

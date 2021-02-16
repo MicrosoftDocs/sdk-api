@@ -36,7 +36,6 @@ api_location:
  - winioctl.h
 api_name:
  - _STORAGE_RPMB_DATA_FRAME
- - PSTORAGE_RPMB_DATA_FRAME
  - STORAGE_RPMB_DATA_FRAME
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx3.dll
 api_name:
- - IBackgroundCopyJob3::SetFileACLFlags
+ - IBackgroundCopyJob3.SetFileACLFlags
 ---
 
 # IBackgroundCopyJob3::SetFileACLFlags
@@ -227,4 +227,3 @@ The following example shows how to call the <b>SetFileACLFlags</b> method to spe
 
 
 <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-getfileaclflags">IBackgroundCopyJob3::GetFileACLFlags</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagLOCALESIGNATURE
- - PLOCALESIGNATURE
  - LOCALESIGNATURE
 ---
 
@@ -79,4 +77,3 @@ A code page bitfield that indicates all the code pages in which the locale can b
 
 
 <a href="/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
-

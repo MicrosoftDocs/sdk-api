@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::GetCachedPropertyValueEx
+ - IUIAutomationElement.GetCachedPropertyValueEx
 ---
 
 # IUIAutomationElement::GetCachedPropertyValueEx
@@ -113,4 +113,3 @@ UI Automation properties of the <b>double</b> type support Not a Number (NaN) va
 
 
 <a href="/windows/desktop/WinAuto/uiauto-propertiesoverview">UI Automation Properties Overview</a>
-

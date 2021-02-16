@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
+ - IWdsTransportConfigurationManager.WdsTransportServicesRunning
+ - IWdsTransportConfigurationManager.get_WdsTransportServicesRunning
 ---
 
 # IWdsTransportConfigurationManager::get_WdsTransportServicesRunning
@@ -60,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportconfigurationmanager">IWdsTransportConfigurationManager</a>
-

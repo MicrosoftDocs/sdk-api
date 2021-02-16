@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_ACCESS_REPLY
- - PAUTHZ_ACCESS_REPLY
  - AUTHZ_ACCESS_REPLY
 ---
 
@@ -159,4 +157,3 @@ Includes each of the following:
 ## -see-also
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-accesscheck">AccessCheck</a>
-

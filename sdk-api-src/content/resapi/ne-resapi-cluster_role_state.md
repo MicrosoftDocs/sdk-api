@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - _CLUSTER_ROLE_STATE
  - CLUSTER_ROLE_STATE
 ---
 
@@ -76,4 +75,3 @@ The role is not clustered.
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nf-resapi-resutilgetclusterrolestate">ResUtilGetClusterRoleState</a>
-

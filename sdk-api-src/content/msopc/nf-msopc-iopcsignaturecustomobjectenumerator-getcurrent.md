@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureCustomObjectEnumerator::GetCurrent
+ - IOpcSignatureCustomObjectEnumerator.GetCurrent
 ---
 
 # IOpcSignatureCustomObjectEnumerator::GetCurrent
@@ -169,4 +169,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellDetails::GetDetailsOf
+ - IShellDetails.GetDetailsOf
 ---
 
 # IShellDetails::GetDetailsOf
@@ -120,4 +120,3 @@ Each virtual folder has its own unique set of information fields. Typically, the
 
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
 Folder objects should implement <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder2">IShellFolder2</a> instead of this interface.
-

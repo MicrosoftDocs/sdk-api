@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions::GetSecurityFlags
+ - IBackgroundCopyJobHttpOptions.GetSecurityFlags
 ---
 
 # IBackgroundCopyJobHttpOptions::GetSecurityFlags
@@ -193,4 +193,3 @@ Returns S_OK when successful.
 
 
 <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setsecurityflags">IBackgroundCopyJobHttpOptions::SetSecurityFlags</a>
-

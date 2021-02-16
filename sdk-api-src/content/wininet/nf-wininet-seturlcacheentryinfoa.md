@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetUrlCacheEntryInfoA
  - wininet/SetUrlCacheEntryInfoA
- - SetUrlCacheEntryInfo
- - wininet/SetUrlCacheEntryInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - SetUrlCacheEntryInfoA
  - SetUrlCacheEntryInfo
+ - SetUrlCacheEntryInfoA
+ - SetUrlCacheEntryInfoW
 ---
 
 # SetUrlCacheEntryInfoA function
@@ -219,4 +218,3 @@ The value(s) to be set is invalid.
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

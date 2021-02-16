@@ -48,6 +48,7 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
  - StrCmpLogicalW
+ - StrCmpLogicalW
 ---
 
 # StrCmpLogicalW function
@@ -121,4 +122,3 @@ string3
 
 <div class="alert"><b>Note</b>  Behavior of this function, and therefore the results it returns, can change from release to release. It should not be used for canonical sorting applications.</div>
 <div> </div>
-

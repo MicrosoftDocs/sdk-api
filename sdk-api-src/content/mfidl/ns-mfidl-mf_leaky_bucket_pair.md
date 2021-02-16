@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_LEAKY_BUCKET_PAIR
  - MF_LEAKY_BUCKET_PAIR
 ---
 
@@ -76,4 +75,3 @@ This structure describes the buffering requirements for content encoded at the b
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

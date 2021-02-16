@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityCallContext::IsUserInRole
+ - ISecurityCallContext.IsUserInRole
 ---
 
 # ISecurityCallContext::IsUserInRole
@@ -112,4 +112,3 @@ Because <b>IsUserInRole</b> is <b>TRUE</b> when role-based security is not enabl
 
 
 <a href="/windows/desktop/cossdk/programmatic-component-security">Programmatic Component Security</a>
-

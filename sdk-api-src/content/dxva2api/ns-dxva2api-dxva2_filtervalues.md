@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_FilterValues
  - DXVA2_FilterValues
 ---
 
@@ -76,4 +75,3 @@ Filter radius.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

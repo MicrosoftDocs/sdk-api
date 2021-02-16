@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - UrlCombineA
  - shlwapi/UrlCombineA
- - UrlCombine
- - shlwapi/UrlCombine
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlCombineA
  - UrlCombine
+ - UrlCombineA
+ - UrlCombineW
 ---
 
 # UrlCombineA function
@@ -220,4 +219,3 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-urlcanonicalizea">UrlCanonicalize</a>
-

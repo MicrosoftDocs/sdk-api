@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter::SetIndexMode
+ - IConfigAsfWriter.SetIndexMode
 ---
 
 # IConfigAsfWriter::SetIndexMode
@@ -77,4 +77,3 @@ By default, the WM ASF Writer filter creates temporally indexed ASF files. It pe
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-

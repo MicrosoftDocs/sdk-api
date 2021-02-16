@@ -9,8 +9,6 @@ tech.root: tsf
 f1_keywords:
  - inputscope
  - inputscope/inputscope
-api_name:
- - inputscope
 ---
 
 # Inputscope.h header

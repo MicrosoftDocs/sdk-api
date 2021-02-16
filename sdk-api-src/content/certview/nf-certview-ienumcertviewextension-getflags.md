@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWEXTENSION::GetFlags
+ - IEnumCERTVIEWEXTENSION.GetFlags
+ - IEnumCERTVIEWEXTENSION.GetFlags
 ---
 
 # IEnumCERTVIEWEXTENSION::GetFlags
@@ -233,4 +234,3 @@ else
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-next">IEnumCERTVIEWEXTENSION::Next</a>
-

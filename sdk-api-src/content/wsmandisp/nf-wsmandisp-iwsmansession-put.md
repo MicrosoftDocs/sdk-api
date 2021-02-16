@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession::Put
+ - IWSManSession.Put
 ---
 
 # IWSManSession::Put
@@ -90,4 +90,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/session-put">Session.Put</a>
-

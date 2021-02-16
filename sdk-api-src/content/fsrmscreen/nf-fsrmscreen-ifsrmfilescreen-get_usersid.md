@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreen::get_UserSid
+ - IFsrmFileScreen.UserSid
+ - IFsrmFileScreen.get_UserSid
 ---
 
 # IFsrmFileScreen::get_UserSid
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
-

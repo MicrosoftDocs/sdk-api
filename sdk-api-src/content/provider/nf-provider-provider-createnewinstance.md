@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::CreateNewInstance
+ - Provider.CreateNewInstance
+ - ?CreateNewInstance@Provider@@IAEPAVCInstance@@PAVMethodContext@@@Z
+ - ?CreateNewInstance@Provider@@IEAAPEAVCInstance@@PEAVMethodContext@@@Z
 ---
 
 # Provider::CreateNewInstance
@@ -74,4 +76,3 @@ Returns a pointer to the new instance.
 The caller must call either CInstance::Release or <a href="/windows/desktop/api/provider/nf-provider-provider-commit">Provider::Commit</a> on the returned pointer. Either of these methods may be used, but they are not interchangeable. Refer to the Remarks section on each of these methods to determine which is appropriate.
 
 This method does not return a <b>NULL</b> pointer. If it fails, it throws an exception.
-

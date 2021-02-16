@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_PALCB_DESTROYPALETTE
+ - DdDestroyPalette
 ---
 
 ## -description
@@ -62,4 +62,3 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroypalette
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_destroypalettedata">DD_DESTROYPALETTEDATA</a>
-

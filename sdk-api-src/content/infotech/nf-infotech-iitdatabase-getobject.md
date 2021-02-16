@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITDatabase::GetObject
+ - IITDatabase.GetObject
 ---
 
 # IITDatabase::GetObject
@@ -126,4 +126,3 @@ The memory required for internal structures could not be allocated.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdatabase">IITDatabase</a>
-

@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - radialcontrollerinterop
  - radialcontrollerinterop/radialcontrollerinterop
-api_name:
- - radialcontrollerinterop
 ---
 
 # Radialcontrollerinterop.h header

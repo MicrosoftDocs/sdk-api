@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection::SetErrorInfo
+ - IWTSProtocolConnection.SetErrorInfo
 ---
 
 # IWTSProtocolConnection::SetErrorInfo
@@ -63,4 +63,3 @@ An integer that contains the error code.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-

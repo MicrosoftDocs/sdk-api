@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_maxBandwidth
+ - IWMPNetwork.get_maxBandwidth
 ---
 
 # IWMPNetwork::get_maxBandwidth
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_maxbandwidth">IWMPNetwork::put_maxBandwidth</a>
-

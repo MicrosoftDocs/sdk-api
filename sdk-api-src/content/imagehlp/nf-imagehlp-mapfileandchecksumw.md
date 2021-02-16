@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MapFileAndCheckSumW
  - imagehlp/MapFileAndCheckSumW
- - MapFileAndCheckSum
- - imagehlp/MapFileAndCheckSum
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Imagehlp.dll
 api_name:
- - MapFileAndCheckSumW
  - MapFileAndCheckSum
+ - MapFileAndCheckSumA
+ - MapFileAndCheckSumW
 ---
 
 # MapFileAndCheckSumW function
@@ -157,4 +156,3 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 <a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-

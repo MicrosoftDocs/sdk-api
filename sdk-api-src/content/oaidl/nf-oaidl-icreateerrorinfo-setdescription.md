@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateErrorInfo::SetDescription
+ - ICreateErrorInfo.SetDescription
 ---
 
 # ICreateErrorInfo::SetDescription
@@ -103,4 +103,3 @@ Use of this function is demonstrated in the file Main.cpp of the COM Fundamental
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
-

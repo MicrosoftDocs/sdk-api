@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_MSM_NOTIFICATION_DATA
- - PWLAN_MSM_NOTIFICATION_DATA
  - WLAN_MSM_NOTIFICATION_DATA
 ---
 
@@ -123,4 +121,3 @@ For more information on these notifications, see the <a href="/windows/win32/api
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3SE::XMFLOAT3SE
+ - XMFLOAT3SE.XMFLOAT3SE
 ---
 
 # XMFLOAT3SE::XMFLOAT3SE(uint32_t)
@@ -125,4 +125,3 @@ Bits 27-31 of <b>Packed</b> are the 5 bit <i>exponent</i> used
 
 
 <a href="/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
-

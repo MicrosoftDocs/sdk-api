@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentProcessId
+ - IUIAutomationElement.CurrentProcessId
+ - IUIAutomationElement.get_CurrentProcessId
 ---
 
 # IUIAutomationElement::get_CurrentProcessId
@@ -71,4 +72,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

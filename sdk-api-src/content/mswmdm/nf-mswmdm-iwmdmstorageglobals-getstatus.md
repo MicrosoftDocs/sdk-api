@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageGlobals::GetStatus
+ - IWMDMStorageGlobals.GetStatus
 ---
 
 # IWMDMStorageGlobals::GetStatus
@@ -114,4 +114,3 @@ This method must always be called before the caller attempts to interact with a 
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
-

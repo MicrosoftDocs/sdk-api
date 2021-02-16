@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::GetCachedParent
+ - IUIAutomationElement.GetCachedParent
 ---
 
 # IUIAutomationElement::GetCachedParent
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinAuto/uiauto-treeoverview">UI Automation Tree Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumProperties
+ - IMetaDataImport.EnumProperties
 ---
 
 # IMetaDataImport::EnumProperties
@@ -97,4 +97,3 @@ The number of PropertyDef tokens returned in <i>rgProperties</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

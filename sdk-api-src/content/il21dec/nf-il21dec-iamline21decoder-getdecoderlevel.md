@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder::GetDecoderLevel
+ - IAMLine21Decoder.GetDecoderLevel
 ---
 
 # IAMLine21Decoder::GetDecoderLevel
@@ -103,4 +103,3 @@ TeleCaption I and TeleCaption II are standards for closed caption decoders. The 
 
 
 <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
-

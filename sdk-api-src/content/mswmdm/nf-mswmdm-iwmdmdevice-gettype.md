@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice::GetType
+ - IWMDMDevice.GetType
 ---
 
 # IWMDMDevice::GetType
@@ -134,4 +134,3 @@ The current Microsoft service providers may not provide reliable information abo
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-getname">IWMDMDevice::GetName</a>
-

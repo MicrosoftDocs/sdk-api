@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::get_DoNotDisturb
+ - ITAddress.get_DoNotDisturb
 ---
 
 # ITAddress::get_DoNotDisturb
@@ -143,4 +143,3 @@ For programmers familiar with TAPI 2.<i>x:</i> The DoNotDisturb feature is imple
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-put_donotdisturb">put_DoNotDisturb</a>
-

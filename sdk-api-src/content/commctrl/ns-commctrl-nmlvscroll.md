@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMLVSCROLL
- - LPNMLVSCROLL
  - NMLVSCROLL
 ---
 
@@ -78,4 +76,3 @@ Value of type <b>int</b> that specifies in pixels the horizontal position where 
 Type: <b>int</b>
 
 Value of type <b>int</b> that specifies in pixels the vertical position where a scrolling operation should begin or end.
-

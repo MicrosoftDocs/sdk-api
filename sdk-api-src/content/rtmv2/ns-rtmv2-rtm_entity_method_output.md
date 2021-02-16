@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_ENTITY_METHOD_OUTPUT
- - PRTM_ENTITY_METHOD_OUTPUT
  - RTM_ENTITY_METHOD_OUTPUT
 ---
 
@@ -80,4 +78,3 @@ Buffer for data returned by the method.
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtminvokemethod">RtmInvokeMethod</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObject2::WriteOnClearChannel
+ - IMDSPObject2.WriteOnClearChannel
 ---
 
 # IMDSPObject2::WriteOnClearChannel
@@ -95,4 +95,3 @@ Unlike <b>IMDSPObject::Write</b>, this method does not need to decrypt the data 
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write">IMDSPObject::Write</a>
-

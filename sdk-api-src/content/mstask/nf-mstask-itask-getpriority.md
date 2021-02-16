@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask::GetPriority
+ - ITask.GetPriority
 ---
 
 # ITask::GetPriority
@@ -122,4 +122,3 @@ Not enough memory is available.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itask-setpriority">SetPriority</a>
-

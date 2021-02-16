@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDAsyncResult::GetEvent
+ - IWSDAsyncResult.GetEvent
 ---
 
 # IWSDAsyncResult::GetEvent
@@ -114,4 +114,3 @@ This method should only be called by <a href="/windows/desktop/WsdApi/web-servic
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
-

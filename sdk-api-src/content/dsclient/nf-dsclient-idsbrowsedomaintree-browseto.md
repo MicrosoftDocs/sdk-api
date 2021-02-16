@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsBrowseDomainTree::BrowseTo
+ - IDsBrowseDomainTree.BrowseTo
 ---
 
 # IDsBrowseDomainTree::BrowseTo
@@ -107,4 +107,3 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree">IDsBrowseDomainTree</a>
-

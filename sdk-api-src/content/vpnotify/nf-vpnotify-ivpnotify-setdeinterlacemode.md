@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVPNotify::SetDeinterlaceMode
+ - IVPNotify.SetDeinterlaceMode
 ---
 
 # IVPNotify::SetDeinterlaceMode
@@ -74,4 +74,3 @@ Include Vptype.h before Vpnotify.h.
 
 
 <a href="/windows/desktop/api/vpnotify/nn-vpnotify-ivpnotify">IVPNotify Interface</a>
-

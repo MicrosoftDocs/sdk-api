@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SERVER_SPECIFIC_STRINGS
- - LPDHCP_SERVER_SPECIFIC_STRINGS
  - DHCP_SERVER_SPECIFIC_STRINGS
 ---
 
@@ -71,4 +69,3 @@ Pointer to a Unicode string that specifies the default user class name for the D
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpgetserverspecificstrings">DhcpGetServerSpecificStrings</a>
-

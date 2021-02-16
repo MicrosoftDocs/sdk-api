@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
- - PCMSG_CTRL_MAIL_LIST_DECRYPT_PARA
  - CMSG_CTRL_MAIL_LIST_DECRYPT_PARA
 ---
 
@@ -89,4 +87,3 @@ Handle of the key encryption key. Used with <b>dwKeyChoice</b> set to CMSG_MAIL_
 ### -field DUMMYUNIONNAME.pvKeyEncryptionKey
 
 A pointer to a void. Reserved for future use.
-

@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Userenv.h
 api_name:
- - _GROUP_POLICY_OBJECTW
- - PGROUP_POLICY_OBJECTW
+ - GROUP_POLICY_OBJECT
+ - GROUP_POLICY_OBJECTA
  - GROUP_POLICY_OBJECTW
 ---
 
@@ -225,4 +225,3 @@ First, there is an opening bracket, "[", followed by the <b>GUID</b> of the exte
 
 
 <a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
-

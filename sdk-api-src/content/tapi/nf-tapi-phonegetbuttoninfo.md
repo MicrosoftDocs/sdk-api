@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - phoneGetButtonInfo
+ - phoneGetButtonInfoA
+ - phoneGetButtonInfoW
 ---
 
 # phoneGetButtonInfo function
@@ -85,4 +87,3 @@ PHONEERR_INVALPHONEHANDLE, PHONEERR_NOMEM, PHONEERR_INVALBUTTONLAMPID, PHONEERR_
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-

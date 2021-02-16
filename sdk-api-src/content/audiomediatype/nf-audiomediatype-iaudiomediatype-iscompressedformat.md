@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiomediatype.h
 api_name:
- - IAudioMediaType::IsCompressedFormat
+ - IAudioMediaType.IsCompressedFormat
 ---
 
 # IAudioMediaType::IsCompressedFormat

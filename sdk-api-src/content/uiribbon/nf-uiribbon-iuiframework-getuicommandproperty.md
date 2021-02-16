@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIFramework::GetUICommandProperty
+ - IUIFramework.GetUICommandProperty
 ---
 
 # IUIFramework::GetUICommandProperty
@@ -104,4 +104,3 @@ Returns S_OK if successful; otherwise, an error value from the following list.
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

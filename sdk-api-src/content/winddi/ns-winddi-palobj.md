@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _PALOBJ
  - PALOBJ
 ---
 
@@ -67,4 +66,3 @@ This structure is used in conjunction with the <a href="/windows/desktop/api/win
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-palobj_cgetcolors">PALOBJ_cGetColors</a>
-

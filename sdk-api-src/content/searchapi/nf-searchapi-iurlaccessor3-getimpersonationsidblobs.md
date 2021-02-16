@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor3::GetImpersonationSidBlobs
+ - IUrlAccessor3.GetImpersonationSidBlobs
+ - IUrlAccessor4.GetImpersonationSidBlobs
 ---
 
 # IUrlAccessor3::GetImpersonationSidBlobs
@@ -98,4 +99,3 @@ Impersonating a user does not elevate the caller's privileges. If the caller can
 
 
 <a href="/windows/desktop/search/-search-prth-error-constants">Search Protocol Handler Error Messages</a>
-

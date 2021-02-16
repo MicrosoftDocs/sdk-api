@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVSETINFOTIP
- - PLVSETINFOTIP
  - LVSETINFOTIP
 ---
 
@@ -90,4 +88,3 @@ zero-based index of the item to which this structure refers.
 Type: <b>int</b>
 
 Value of type <b>int</b> that contains the one-based index of the subitem to which this structure refers.
-

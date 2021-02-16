@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagVideoProcAmpProperty
  - VideoProcAmpProperty
 ---
 
@@ -104,4 +103,3 @@ Specifies the gain adjustment. Zero is normal. Positive values are brighter and 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideoprocamp">IAMVideoProcAmp</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRules::get_Count
+ - INetFwRules.Count
+ - INetFwRules.get_Count
 ---
 
 # INetFwRules::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
-

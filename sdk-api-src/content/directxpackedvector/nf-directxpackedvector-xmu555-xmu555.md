@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU555::XMU555
+ - XMU555.XMU555
 ---
 
 # XMU555::XMU555
@@ -75,4 +75,3 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 
 <a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
-

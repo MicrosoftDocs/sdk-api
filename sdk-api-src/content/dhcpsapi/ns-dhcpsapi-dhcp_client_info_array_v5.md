@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_CLIENT_INFO_ARRAY_V5
- - LPDHCP_CLIENT_INFO_ARRAY_V5
  - DHCP_CLIENT_INFO_ARRAY_V5
 ---
 
@@ -79,4 +77,3 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_cli
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnetclientsv5">DhcpEnumSubnetClientsV5</a>
-

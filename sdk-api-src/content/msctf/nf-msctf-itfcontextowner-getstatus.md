@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwner::GetStatus
+ - ITfContextOwner.GetStatus
 ---
 
 # ITfContextOwner::GetStatus
@@ -93,4 +93,3 @@ The method was successful.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

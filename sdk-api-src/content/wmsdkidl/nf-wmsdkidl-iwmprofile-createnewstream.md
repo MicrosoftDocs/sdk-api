@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile::CreateNewStream
+ - IWMProfile.CreateNewStream
+ - IWMProfile2.CreateNewStream
+ - IWMProfile3.CreateNewStream
 ---
 
 # IWMProfile::CreateNewStream
@@ -131,4 +133,3 @@ When <b>CreateNewStream</b> is called, a valid stream number is specified for th
 
 
 <a href="/windows/desktop/wmformat/stream-configuration-object">Stream Configuration Object</a>
-

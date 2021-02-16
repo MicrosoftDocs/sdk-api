@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::get_Charset
+ - IFont.get_Charset
 ---
 
 # IFont::get_Charset
@@ -101,4 +101,3 @@ The address in the <i>pCharset</i> parameter is not valid. For example, it may b
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_charset">IFont::put_Charset</a>
-

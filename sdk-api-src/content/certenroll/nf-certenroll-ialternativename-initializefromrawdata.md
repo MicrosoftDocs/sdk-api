@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeName::InitializeFromRawData
+ - IAlternativeName.InitializeFromRawData
 ---
 
 # IAlternativeName::InitializeFromRawData
@@ -179,4 +179,3 @@ You can use the <a href="/windows/desktop/api/certenroll/nf-certenroll-ialternat
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imagehlp.h
 api_name:
- - DIGEST_FUNCTION
+ - DigestFunction
 ---
 
 # DIGEST_FUNCTION callback function
@@ -86,4 +86,3 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 
 <a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-

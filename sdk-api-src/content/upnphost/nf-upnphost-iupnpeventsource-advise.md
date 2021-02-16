@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPEventSource::Advise
+ - IUPnPEventSource.Advise
 ---
 
 # IUPnPEventSource::Advise
@@ -72,4 +72,3 @@ When implementing this method, return S_OK if the method succeeds. Otherwise, re
 
 
 <a href="/windows/desktop/api/upnphost/nf-upnphost-iupnpeventsource-unadvise">IUPnPEventSource::Unadvise</a>
-

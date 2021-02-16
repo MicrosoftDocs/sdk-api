@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
- - IViewHelper::SetConfiguration
+ - IViewHelper.SetConfiguration
 ---
 
 # IViewHelper::SetConfiguration
@@ -191,4 +191,3 @@ These structures are defined in the <i>Cloneviewhelper.h</i>.
 
 
 <a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a>
-

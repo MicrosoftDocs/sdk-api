@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_PACK_STATUS
  - VDS_PACK_STATUS
 ---
 
@@ -85,4 +84,3 @@ The <a href="/windows/desktop/api/vds/ns-vds-vds_pack_prop">VDS_PACK_PROP</a> st
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_pack_prop">VDS_PACK_PROP</a>
-

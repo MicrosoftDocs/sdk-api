@@ -45,7 +45,6 @@ api_location:
  - Evntrace.h
 api_name:
  - EVENT_INSTANCE_INFO
- - PEVENT_INSTANCE_INFO
 ---
 
 # EVENT_INSTANCE_INFO structure
@@ -77,4 +76,3 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 
 <a href="/windows/desktop/ETW/traceeventinstance">TraceEventInstance</a>
-

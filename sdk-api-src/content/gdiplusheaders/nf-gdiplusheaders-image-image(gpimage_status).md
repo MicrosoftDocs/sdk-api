@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusheaders.h
 api_name:
- - Image::Image
+ - Image.Image
 ---
 
 # Image::Image(GpImage,Status)
@@ -78,4 +78,3 @@ Creates an <a href="/previous-versions/ms535410(v=vs.85)">Image::Image</a> objec
 </table>
 
 ## -parameters
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - PFN_CERT_ENUM_SYSTEM_STORE_LOCATION
+ - CertEnumSystemStoreLocationCallback
 ---
 
 # PFN_CERT_ENUM_SYSTEM_STORE_LOCATION callback function
@@ -78,4 +78,3 @@ A pointer to information passed to the callback function in the <i>pvArg</i>
 If the function succeeds, the function returns <b>TRUE</b>.
 
 If the function fails, it returns <b>FALSE</b>.
-

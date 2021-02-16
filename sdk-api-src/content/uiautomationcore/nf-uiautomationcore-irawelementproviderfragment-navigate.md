@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment::Navigate
+ - IRawElementProviderFragment.Navigate
 ---
 
 # IRawElementProviderFragment::Navigate
@@ -130,4 +130,3 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::Navigate(NavigateDirection direction
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
-

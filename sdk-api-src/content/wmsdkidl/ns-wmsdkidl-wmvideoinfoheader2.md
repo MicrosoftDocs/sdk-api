@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - tagWMVIDEOINFOHEADER2
  - WMVIDEOINFOHEADER2
 ---
 
@@ -112,4 +111,3 @@ This structure is identical to the <b>VIDEOINFOHEADER2</b> structure defined in 
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_EVENT_TYPE
- - PRTM_EVENT_TYPE
  - RTM_EVENT_TYPE
 ---
 

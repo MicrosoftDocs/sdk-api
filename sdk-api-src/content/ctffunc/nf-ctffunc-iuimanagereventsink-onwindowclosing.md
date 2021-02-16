@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - IUIManagerEventSink::OnWindowClosing
+ - IUIManagerEventSink.OnWindowClosing
 ---
 
 # IUIManagerEventSink::OnWindowClosing
@@ -61,4 +61,3 @@ Ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-iuimanagereventsink">IUIManagerEventSink</a>
-

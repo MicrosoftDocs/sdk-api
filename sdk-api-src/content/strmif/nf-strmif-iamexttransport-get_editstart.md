@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::get_EditStart
+ - IAMExtTransport.get_EditStart
 ---
 
 # IAMExtTransport::get_EditStart
@@ -95,4 +95,3 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-put_editstart">IAMExtTransport::put_EditStart</a>
-

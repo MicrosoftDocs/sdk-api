@@ -9,8 +9,6 @@ tech.root: netmgmt
 f1_keywords:
  - lmconfig
  - lmconfig/lmconfig
-api_name:
- - lmconfig
 ---
 
 # Lmconfig.h header

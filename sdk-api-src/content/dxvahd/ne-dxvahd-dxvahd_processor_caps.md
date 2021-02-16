@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_PROCESSOR_CAPS
  - DXVAHD_PROCESSOR_CAPS
 ---
 
@@ -102,4 +101,3 @@ The video processor can convert the frame rate by interpolating frames.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

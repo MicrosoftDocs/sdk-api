@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser::OnViewWindowActive
+ - IShellBrowser.OnViewWindowActive
 ---
 
 # IShellBrowser::OnViewWindowActive
@@ -79,4 +79,3 @@ This method informs the browser that the view is getting the focus (when the mou
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-

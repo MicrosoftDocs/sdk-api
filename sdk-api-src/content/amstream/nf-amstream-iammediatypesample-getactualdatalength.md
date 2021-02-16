@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::GetActualDataLength
+ - IAMMediaTypeSample.GetActualDataLength
 ---
 
 # IAMMediaTypeSample::GetActualDataLength
@@ -63,4 +63,3 @@ Returns the data length of the sample, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

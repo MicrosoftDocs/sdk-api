@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBufferNotify::OnError
+ - IMFSourceBufferNotify.OnError
 ---
 
 # IMFSourceBufferNotify::OnError
@@ -59,4 +59,3 @@ Used to indicate that an error has occurred with the  source buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffernotify">IMFSourceBufferNotify</a>
-

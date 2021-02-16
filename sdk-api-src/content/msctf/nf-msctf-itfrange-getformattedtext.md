@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::GetFormattedText
+ - ITfRange.GetFormattedText
 ---
 
 # ITfRange::GetFormattedText
@@ -142,4 +142,3 @@ The format and storage type of the <b>IDataObject</b> are determined by the appl
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
-

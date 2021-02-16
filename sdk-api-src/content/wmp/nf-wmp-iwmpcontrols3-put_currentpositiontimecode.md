@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls3::put_currentPositionTimecode
+ - IWMPControls3.put_currentPositionTimecode
 ---
 
 # IWMPControls3::put_currentPositionTimecode
@@ -101,4 +101,3 @@ Specifying and retrieving values using <b>put_currentPositionTimecode</b> and <b
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-get_currentpositiontimecode">IWMPControls3::get_currentPositionTimecode</a>
-

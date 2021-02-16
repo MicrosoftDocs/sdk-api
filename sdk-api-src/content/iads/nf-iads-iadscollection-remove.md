@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsCollection::Remove
+ - IADsCollection.Remove
 ---
 
 # IADsCollection::Remove
@@ -140,4 +140,3 @@ Cleanup
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadscollection-add">IADsCollection::Add</a>
-

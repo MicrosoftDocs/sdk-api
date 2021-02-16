@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
- - _EC_SUBSCRIPTION_PROPERTY_ID
  - EC_SUBSCRIPTION_PROPERTY_ID
 ---
 
@@ -187,4 +186,3 @@ The <b>DeniedSubjects</b> property of the subscription that contains the subject
 The <b>AllowedSourceDomainComputers</b> property of the subscription that contains the source computers that are allowed to send events to the collector computer defined by an SDDL string. This property is an <a href="/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeString</a> value.
 
 ### -field EcSubscriptionPropertyIdEND
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxEnumJobsA
  - winfax/FaxEnumJobsA
- - FaxEnumJobs
- - winfax/FaxEnumJobs
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxEnumJobsA
  - FaxEnumJobs
+ - FaxEnumJobsA
+ - FaxEnumJobsW
 ---
 
 # FaxEnumJobsA function
@@ -160,4 +159,3 @@ The <b>FaxEnumJobs</b> function allocates the memory required for the <a href="/
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetjoba">FaxGetJob</a>
-

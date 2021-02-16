@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_RECEIVE_DATA_RESULT
  - WSMAN_RECEIVE_DATA_RESULT
 ---
 
@@ -72,4 +71,3 @@ Specifies the status of the command. If this member is set to <b>WSMAN_COMMAND_S
 ### -field exitCode
 
 Defines the exit code of the command. This value is relevant only if the <b>commandState</b> member is set to <b>WSMAN_COMMAND_STATE_DONE</b>.
-

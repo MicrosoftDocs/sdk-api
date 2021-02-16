@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup::get_GroupID
+ - IBackgroundCopyGroup.get_GroupID
 ---
 
 # IBackgroundCopyGroup::get_GroupID
@@ -85,4 +85,3 @@ Successfully retrieved the GUID that identifies the group.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
-

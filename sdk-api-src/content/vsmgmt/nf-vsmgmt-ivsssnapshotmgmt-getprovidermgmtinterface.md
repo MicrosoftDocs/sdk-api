@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssSnapshotMgmt::GetProviderMgmtInterface
+ - IVssSnapshotMgmt.GetProviderMgmtInterface
 ---
 
 # IVssSnapshotMgmt::GetProviderMgmtInterface
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt">IVssSnapshotMgmt</a>
-

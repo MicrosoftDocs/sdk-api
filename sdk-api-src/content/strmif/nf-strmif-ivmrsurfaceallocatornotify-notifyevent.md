@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocatorNotify::NotifyEvent
+ - IVMRSurfaceAllocatorNotify.NotifyEvent
 ---
 
 # IVMRSurfaceAllocatorNotify::NotifyEvent
@@ -82,4 +82,3 @@ The VMR provides the allocator-presenter with a pointer to this interface in a c
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

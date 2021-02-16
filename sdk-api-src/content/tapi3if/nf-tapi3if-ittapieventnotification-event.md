@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPIEventNotification::Event
+ - ITTAPIEventNotification.Event
 ---
 
 # ITTAPIEventNotification::Event
@@ -127,4 +127,3 @@ You must call the
 
 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapi_event">TAPI_EVENT</a>
-

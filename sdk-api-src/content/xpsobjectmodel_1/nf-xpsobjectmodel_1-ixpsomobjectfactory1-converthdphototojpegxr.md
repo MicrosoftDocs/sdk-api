@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
+ - IXpsOMObjectFactory1.ConvertHDPhotoToJpegXR
 ---
 
 # IXpsOMObjectFactory1::ConvertHDPhotoToJpegXR
@@ -78,4 +78,3 @@ This image referenced by imageResource is changed from an XPS_IMAGE_TYPE_WDP ima
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
-

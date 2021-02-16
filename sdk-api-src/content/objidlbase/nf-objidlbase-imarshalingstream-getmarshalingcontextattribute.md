@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidl.h
 api_name:
- - IMarshalingStream::GetMarshalingContextAttribute
+ - IMarshalingStream.GetMarshalingContextAttribute
 ---
 
 # IMarshalingStream::GetMarshalingContextAttribute
@@ -101,4 +101,3 @@ This attribute is a boolean value, with 0 representing <b>TRUE</b> and nonzero r
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshalingstream">IMarshalingStream</a>
-

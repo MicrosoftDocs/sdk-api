@@ -43,6 +43,7 @@ api_location:
  - Unsecapp.exe
 api_name:
  - IUnsecuredApartment
+ - UnsecuredApartment
 ---
 
 # IUnsecuredApartment interface
@@ -87,4 +88,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnsecuredApartment</b> inter
 
 
 <a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - LPNT_CONSOLE_PROPS
  - NT_CONSOLE_PROPS
 ---
 
@@ -184,4 +183,3 @@ A boolean value that is set to <b>TRUE</b> if old duplicate history lists should
 Type: <b><a href="/windows/desktop/gdi/colorref">COLORREF</a>[16]</b>
 
 An array of <a href="/windows/desktop/gdi/colorref">COLORREF</a> values with the console's color settings.
-

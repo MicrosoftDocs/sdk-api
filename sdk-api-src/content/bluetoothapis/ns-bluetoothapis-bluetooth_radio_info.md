@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_RADIO_INFO
- - PBLUETOOTH_RADIO_INFO
  - BLUETOOTH_RADIO_INFO
 ---
 
@@ -107,4 +105,3 @@ Manufacturer of the Bluetooth radio, expressed as a <b>BTH_MFG_Xxx</b> value. Fo
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsagetlasterror">WSAGetLastError</a>
-

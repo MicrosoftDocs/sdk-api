@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesCache::GetDiskSpaceInformation
+ - IOfflineFilesCache.GetDiskSpaceInformation
 ---
 
 # IOfflineFilesCache::GetDiskSpaceInformation
@@ -86,4 +86,3 @@ The cache space limits may be adjusted by an administrator using <a href="/previ
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilescache">IOfflineFilesCache</a>
-

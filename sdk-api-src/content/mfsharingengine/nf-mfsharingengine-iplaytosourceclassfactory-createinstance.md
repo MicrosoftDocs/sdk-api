@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfsharingengine.h
 api_name:
- - IPlayToSourceClassFactory::CreateInstance
+ - IPlayToSourceClassFactory.CreateInstance
 ---
 
 # IPlayToSourceClassFactory::CreateInstance
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSourceClassFactory</a>
-

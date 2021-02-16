@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device3::CreateTexture2D1
+ - ID3D11Device3.CreateTexture2D1
 ---
 
 # ID3D11Device3::CreateTexture2D1
@@ -111,4 +111,3 @@ For a 32 x 32 texture with a full mipmap chain, the <i>pInitialData</i> array ha
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11device3">ID3D11Device3</a>
-

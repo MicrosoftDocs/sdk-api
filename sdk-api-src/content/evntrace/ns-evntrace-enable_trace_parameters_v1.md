@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _ENABLE_TRACE_PARAMETERS_V1
- - PENABLE_TRACE_PARAMETERS_V1
  - ENABLE_TRACE_PARAMETERS_V1
 ---
 
@@ -150,4 +148,3 @@ Typically, on 64-bit computers, you cannot capture the kernel stack in certain c
 
 
 <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
-

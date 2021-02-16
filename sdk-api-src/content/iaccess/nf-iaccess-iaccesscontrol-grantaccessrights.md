@@ -42,7 +42,7 @@ api_type:
 api_location:
  - IAccess.h
 api_name:
- - IAccessControl::GrantAccessRights
+ - IAccessControl.GrantAccessRights
 ---
 
 # IAccessControl::GrantAccessRights
@@ -79,4 +79,3 @@ The system-supplied implementation of [ACTRL_ACCESS](../accctrl/ns-accctrl-expli
 ## -see-also
 
 <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
-

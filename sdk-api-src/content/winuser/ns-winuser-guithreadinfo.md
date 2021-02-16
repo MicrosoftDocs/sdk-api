@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagGUITHREADINFO
- - PGUITHREADINFO
  - GUITHREADINFO
 ---
 
@@ -195,4 +193,3 @@ This structure is used with the <a href="/windows/desktop/api/winuser/nf-winuser
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

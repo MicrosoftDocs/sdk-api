@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_IP_RESERVATION_V4
- - LPDHCP_IP_RESERVATION_V4
  - DHCP_IP_RESERVATION_V4
 ---
 
@@ -123,4 +121,3 @@ The DHCPv4 client supports both the DHCPv4 and the BOOTP protocols.
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ip_reservation_v6">DHCP_IP_RESERVATION_V6</a>
-

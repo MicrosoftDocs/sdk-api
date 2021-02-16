@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::SetRequestHeader
+ - IXMLHTTPRequest2.SetRequestHeader
 ---
 
 # IXMLHTTPRequest2::SetRequestHeader
@@ -69,4 +69,3 @@ Returns <b>S_OK</b> on success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
-

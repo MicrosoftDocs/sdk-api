@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vpconfig.h
 api_name:
- - IVPBaseConfig::GetMaxPixelRate
+ - IVPBaseConfig.GetMaxPixelRate
 ---
 
 # IVPBaseConfig::GetMaxPixelRate
@@ -79,4 +79,3 @@ Include Dvp.h and Vptype.h before Vpconfig.h.
 
 
 <a href="/windows/desktop/api/vpconfig/nn-vpconfig-ivpbaseconfig">IVPBaseConfig Interface</a>
-

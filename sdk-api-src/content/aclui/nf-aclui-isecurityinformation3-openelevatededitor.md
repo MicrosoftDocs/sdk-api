@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation3::OpenElevatedEditor
+ - ISecurityInformation3.OpenElevatedEditor
 ---
 
 # ISecurityInformation3::OpenElevatedEditor
@@ -75,4 +75,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 <a href="/windows/desktop/api/aclui/nn-aclui-isecurityinformation3">ISecurityInformation3</a>
-

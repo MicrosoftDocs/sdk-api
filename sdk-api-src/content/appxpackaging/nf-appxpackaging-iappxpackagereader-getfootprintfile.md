@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageReader::GetFootprintFile
+ - IAppxPackageReader.GetFootprintFile
 ---
 
 # IAppxPackageReader::GetFootprintFile
@@ -119,4 +119,3 @@ The package does not contain a footprint file of the specified type.
 
 
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles">IAppxPackageReader::GetPayloadFiles</a>
-

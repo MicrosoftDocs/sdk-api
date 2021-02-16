@@ -42,7 +42,7 @@ api_type:
 api_location:
  - restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo::GetLanguageException
+ - ILanguageExceptionErrorInfo.GetLanguageException
 ---
 
 # ILanguageExceptionErrorInfo::GetLanguageException
@@ -69,4 +69,3 @@ Language projections query for the appropriate interface to identify this object
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo">ILanguageExceptionErrorInfo</a>
-

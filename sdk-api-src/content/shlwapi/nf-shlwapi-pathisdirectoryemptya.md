@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathIsDirectoryEmptyA
  - shlwapi/PathIsDirectoryEmptyA
- - PathIsDirectoryEmpty
- - shlwapi/PathIsDirectoryEmpty
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathIsDirectoryEmptyA
  - PathIsDirectoryEmpty
+ - PathIsDirectoryEmptyA
+ - PathIsDirectoryEmptyW
 ---
 
 # PathIsDirectoryEmptyA function
@@ -86,4 +85,3 @@ Returns <b>TRUE</b> if <i>pszPath</i> is an empty directory. Returns <b>FALSE</b
 ## -see-also
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathisdirectorya">PathIsDirectory</a>
-

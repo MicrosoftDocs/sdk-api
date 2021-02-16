@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::accLocation
+ - IAccessible.accLocation
 ---
 
 # IAccessible::accLocation
@@ -197,4 +197,3 @@ HRESULT STDMETHODCALLTYPE AccServer::accLocation(
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-

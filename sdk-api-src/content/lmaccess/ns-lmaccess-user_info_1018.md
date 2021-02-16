@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1018
- - PUSER_INFO_1018
  - USER_INFO_1018
 ---
 
@@ -87,4 +85,3 @@ You must specify USER_MAXSTORAGE_UNLIMITED to indicate that there is no restrict
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

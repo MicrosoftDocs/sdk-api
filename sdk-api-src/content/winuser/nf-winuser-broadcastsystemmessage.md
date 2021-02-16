@@ -43,6 +43,7 @@ api_location:
  - User32.dll
 api_name:
  - BroadcastSystemMessage
+ - BroadcastSystemMessageW
 ---
 
 # BroadcastSystemMessage function
@@ -285,4 +286,3 @@ For an example, see <a href="/windows/desktop/ProcThread/terminating-a-process">
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
-

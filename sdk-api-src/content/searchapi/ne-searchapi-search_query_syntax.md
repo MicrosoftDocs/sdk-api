@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _SEARCH_QUERY_SYNTAX
  - SEARCH_QUERY_SYNTAX
 ---
 
@@ -75,4 +74,3 @@ This enumerated type is used by the <a href="/windows/desktop/api/searchapi/nf-s
 
 <div class="alert"><b>Note</b>   In Windows 7, the names are prefixed with SQS_ instead of SEARCH_.</div>
 <div> </div>
-

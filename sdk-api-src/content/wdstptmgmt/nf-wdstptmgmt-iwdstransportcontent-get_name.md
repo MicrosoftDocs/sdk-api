@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportContent::get_Name
+ - IWdsTransportContent.Name
+ - IWdsTransportContent.get_Name
 ---
 
 # IWdsTransportContent::get_Name
@@ -63,4 +64,3 @@ The format of the object name returned is defined by the content provider and it
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcontent">IWdsTransportContent</a>
-

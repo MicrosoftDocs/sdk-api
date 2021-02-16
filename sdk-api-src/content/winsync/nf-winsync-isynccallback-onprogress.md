@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncCallback::OnProgress
+ - ISyncCallback.OnProgress
 ---
 
 # ISyncCallback::OnProgress
@@ -107,4 +107,3 @@ Exactly when <b>OnProgress</b> is sent and with what values depends on the provi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynccallback">ISyncCallback Interface</a>
-

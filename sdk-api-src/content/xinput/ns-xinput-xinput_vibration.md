@@ -46,8 +46,6 @@ api_type:
 api_location:
  - XInput.h
 api_name:
- - _XINPUT_VIBRATION
- - PXINPUT_VIBRATION
  - XINPUT_VIBRATION
 ---
 
@@ -87,4 +85,3 @@ The left motor is the low-frequency rumble motor. The right motor is the high-fr
 
 
 <a href="/windows/desktop/api/xinput/nf-xinput-xinputsetstate">XInputSetState</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
+ - IVssDifferentialSoftwareSnapshotMgmt3.DeleteUnusedDiffAreas
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::DeleteUnusedDiffAreas
@@ -156,4 +156,3 @@ Unused shadow copy storage area files are found on storage area volumes when the
 ## -see-also
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
-

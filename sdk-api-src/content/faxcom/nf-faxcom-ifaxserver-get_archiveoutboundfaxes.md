@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::get_ArchiveOutboundFaxes
+ - IFaxServer.ArchiveOutboundFaxes
+ - IFaxServer.get_ArchiveOutboundFaxes
+ - IFaxServer.put_ArchiveOutboundFaxes
+ - IFaxServer.get_ArchiveOutboundFaxes
+ - IFaxServer.put_ArchiveOutboundFaxes
 ---
 
 # IFaxServer::get_ArchiveOutboundFaxes
@@ -79,4 +83,3 @@ The fax server ignores this property unless the <a href="/previous-versions/wind
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-archivedirectory-vb">IFaxServer::get_ArchiveDirectory</a>
-

@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - GetWindowTextA
  - winuser/GetWindowTextA
- - GetWindowText
- - winuser/GetWindowText
 dev_langs:
  - c++
 topic_type:
@@ -55,8 +52,10 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - GetWindowTextA
  - GetWindowText
+ - GetWindowTextA
+ - GetWindowTextW
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetWindowTextA function
@@ -136,4 +135,3 @@ To retrieve the text of a control in another process, send a <a href="/windows/d
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext::VideoProcessorGetStreamFrameFormat
+ - ID3D11VideoContext.VideoProcessorGetStreamFrameFormat
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamFrameFormat
@@ -69,4 +69,3 @@ Receives a <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_video_frame_format
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-

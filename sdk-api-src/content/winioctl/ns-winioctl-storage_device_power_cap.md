@@ -45,8 +45,6 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
- - _STORAGE_DEVICE_POWER_CAP
- - PSTORAGE_DEVICE_POWER_CAP
  - STORAGE_DEVICE_POWER_CAP
 ---
 
@@ -74,4 +72,3 @@ The units of the <i>MaxPower</i> value, of type <a href="/windows/desktop/api/wi
 ### -field MaxPower
 
 Contains the value of the actual maximum power consumption level of the device. This may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
-

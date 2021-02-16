@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::Clone
+ - CustomLineCap.Clone
 ---
 
 # CustomLineCap::Clone
@@ -68,4 +68,3 @@ This method returns a pointer to the new <a href="/windows/desktop/api/gdiplushe
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
-

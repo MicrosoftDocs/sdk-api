@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bthdef.h
 api_name:
- - _BTH_DEVICE_INFO
- - PBTH_DEVICE_INFO
  - BTH_DEVICE_INFO
 ---
 
@@ -301,4 +299,3 @@ Name of the remote Bluetooth device, as reported by the device, encoded in UTF8.
 
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothgetdeviceinfo">BluetoothGetDeviceInfo</a>
-

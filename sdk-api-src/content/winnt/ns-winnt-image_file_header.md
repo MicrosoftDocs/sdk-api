@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _IMAGE_FILE_HEADER
- - PIMAGE_FILE_HEADER
  - IMAGE_FILE_HEADER
 ---
 
@@ -312,4 +310,3 @@ The bytes of the word are reversed. This flag is obsolete.
 
 
 <a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-

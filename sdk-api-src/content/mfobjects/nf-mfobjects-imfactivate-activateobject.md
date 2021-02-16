@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFActivate::ActivateObject
+ - IMFActivate.ActivateObject
 ---
 
 # IMFActivate::ActivateObject
@@ -91,4 +91,3 @@ After the first call to <b>ActivateObject</b>, subsequent calls return a pointer
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
-

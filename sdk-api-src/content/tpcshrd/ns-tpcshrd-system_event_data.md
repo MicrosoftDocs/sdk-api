@@ -44,7 +44,6 @@ api_type:
 api_location:
  - tpcshrd.h
 api_name:
- - tagSYSTEM_EVENT_DATA
  - SYSTEM_EVENT_DATA
 ---
 
@@ -88,4 +87,3 @@ State of the buttons at the time of the system event.
 
 
 <a href="/windows/desktop/tablet/itableteventsink-systemevent">ITabletEventSink::SystemEvent Method</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - PEVENT_TRACE_BUFFER_CALLBACKW
+ - BufferCallback
+ - pevent_trace_buffer_callbackw
 ---
 
 ## -description
@@ -86,4 +87,3 @@ For an example implementation of a
 <a href="/windows/desktop/ETW/event-trace-logfile">EVENT_TRACE_LOGFILE</a>
 
 <a href="/windows/desktop/ETW/processtrace">ProcessTrace</a>
-

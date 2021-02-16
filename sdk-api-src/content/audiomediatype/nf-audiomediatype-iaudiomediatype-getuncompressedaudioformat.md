@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiomediatype.h
 api_name:
- - IAudioMediaType::GetUncompressedAudioFormat
+ - IAudioMediaType.GetUncompressedAudioFormat
 ---
 
 # IAudioMediaType::GetUncompressedAudioFormat
@@ -69,4 +69,3 @@ The information that is returned is useful for uncompressed formats. However, th
 ## -see-also
 
 <a href="/windows/desktop/api/audiomediatype/ns-audiomediatype-uncompressedaudioformat">UNCOMPRESSEDAUDIOFORMAT</a>
-

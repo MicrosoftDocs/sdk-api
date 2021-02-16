@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509SCEPEnrollment::CreateRetrieveCertificateMessage
+ - IX509SCEPEnrollment.CreateRetrieveCertificateMessage
 ---
 
 # IX509SCEPEnrollment::CreateRetrieveCertificateMessage
@@ -81,4 +81,3 @@ You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509sc
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
-

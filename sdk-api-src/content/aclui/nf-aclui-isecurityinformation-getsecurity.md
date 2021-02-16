@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation::GetSecurity
+ - ISecurityInformation.GetSecurity
 ---
 
 # ISecurityInformation::GetSecurity
@@ -157,4 +157,3 @@ Returns a nonzero error code if an error occurs. Returns E_ACCESSDENIED if the u
 
 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-

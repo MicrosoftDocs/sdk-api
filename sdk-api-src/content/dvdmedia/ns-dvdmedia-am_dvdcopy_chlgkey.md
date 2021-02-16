@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
- - _AM_DVDCOPY_CHLGKEY
- - PAM_DVDCOPY_CHLGKEY
  - AM_DVDCOPY_CHLGKEY
 ---
 
@@ -77,4 +75,3 @@ A challenge key is used for the DVD CSS key exchange for decryption. Implementor
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
-

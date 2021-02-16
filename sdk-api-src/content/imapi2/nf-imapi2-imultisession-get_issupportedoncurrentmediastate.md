@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisession::get_IsSupportedOnCurrentMediaState
+ - IMultisession.get_IsSupportedOnCurrentMediaState
 ---
 
 # IMultisession::get_IsSupportedOnCurrentMediaState
@@ -373,4 +373,3 @@ Value: 0xC0AA0003
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisession">IMultisession</a>
-

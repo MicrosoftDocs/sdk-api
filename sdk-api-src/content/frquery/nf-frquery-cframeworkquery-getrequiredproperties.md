@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery::GetRequiredProperties
+ - CFrameworkQuery.GetRequiredProperties
 ---
 
 # CFrameworkQuery::GetRequiredProperties
@@ -68,4 +68,3 @@ Array of properties that were included in the query's <a href="/windows/desktop/
 ## -remarks
 
 If the returned <b>saProperties</b> array is empty, then all properties are required.
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreen::get_Path
+ - IFsrmFileScreen.Path
+ - IFsrmFileScreen.get_Path
 ---
 
 # IFsrmFileScreen::get_Path
@@ -80,4 +81,3 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreen">MSFT_FSRMFileScreen</a>
-

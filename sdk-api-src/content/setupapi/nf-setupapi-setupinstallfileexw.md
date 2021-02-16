@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupInstallFileExW
  - setupapi/SetupInstallFileExW
- - SetupInstallFileEx
- - setupapi/SetupInstallFileEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupInstallFileExW
  - SetupInstallFileEx
+ - SetupInstallFileExA
+ - SetupInstallFileExW
 ---
 
 # SetupInstallFileExW function
@@ -325,4 +324,3 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupqueuecopya">SetupQueueCopy</a>
-

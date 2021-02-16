@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::GetBounds
+ - Region.GetBounds
 ---
 
 # Region::GetBounds(OUT RectF,IN const Graphics)
@@ -130,4 +130,3 @@ VOID Example_GetBoundsRectF(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
-

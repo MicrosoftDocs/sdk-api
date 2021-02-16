@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::LockBuffer
+ - CHString.LockBuffer
 ---
 
 # CHString::LockBuffer
@@ -86,4 +86,3 @@ After you have finished with <b>LockBuffer</b>, call <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-unlockbuffer">CHString::UnlockBuffer</a>
-

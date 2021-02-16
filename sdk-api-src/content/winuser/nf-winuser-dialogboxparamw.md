@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - DialogBoxParamW
  - winuser/DialogBoxParamW
- - DialogBoxParam
- - winuser/DialogBoxParam
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +45,10 @@ api_location:
  - Ext-MS-Win-NTUser-DialogBox-l1-1-1.dll
  - ext-ms-win-ntuser-dialogbox-l1-1-2.dll
 api_name:
- - DialogBoxParamW
  - DialogBoxParam
+ - DialogBoxParamA
+ - DialogBoxParamW
+req.apiset: ext-ms-win-ntuser-dialogbox-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # DialogBoxParamW function
@@ -159,4 +158,3 @@ When the dialog box procedure calls the <a href="/windows/desktop/api/winuser/nf
 
 
 <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
-

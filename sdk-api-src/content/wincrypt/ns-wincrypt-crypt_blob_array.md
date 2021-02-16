@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_BLOB_ARRAY
- - PCRYPT_BLOB_ARRAY
  - CRYPT_BLOB_ARRAY
 ---
 
@@ -67,4 +65,3 @@ The number of elements in the <b>rgBlob</b> array.
 ### -field rgBlob
 
 An array of <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> structures that contains the data blobs.
-

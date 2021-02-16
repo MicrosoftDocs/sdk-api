@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::put_UseDeviceTsid
+ - IFaxServer.UseDeviceTsid
+ - IFaxServer.get_UseDeviceTsid
+ - IFaxServer.put_UseDeviceTsid
+ - IFaxServer.get_UseDeviceTsid
+ - IFaxServer.put_UseDeviceTsid
 ---
 
 # IFaxServer::put_UseDeviceTsid
@@ -79,4 +83,3 @@ To ensure that the TSID for a port is associated with outbound faxes, set the <b
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-tsid-vb">Tsid</a>
-

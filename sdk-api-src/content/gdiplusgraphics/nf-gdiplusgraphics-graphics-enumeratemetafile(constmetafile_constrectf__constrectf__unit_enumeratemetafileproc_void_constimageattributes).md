@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::EnumerateMetafile
+ - Graphics.EnumerateMetafile
 ---
 
 # Graphics::EnumerateMetafile(IN const Metafile,IN const RectF &,IN const RectF &,IN Unit,IN EnumerateMetafileProc,IN VOID,IN const ImageAttributes)
@@ -107,4 +107,3 @@ If the method succeeds, it returns <a href="/windows/desktop/api/gdiplustypes/ne
 
 If the method fails, it returns one of the other elements of the 
 						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-

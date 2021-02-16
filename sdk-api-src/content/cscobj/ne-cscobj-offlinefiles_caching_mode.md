@@ -44,7 +44,6 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
- - tagOFFLINEFILES_CACHING_MODE
  - OFFLINEFILES_CACHING_MODE
 ---
 
@@ -92,4 +91,3 @@ The share or shared folder is configured to allow automatic caching of programs 
 
 
 <a href="/windows/desktop/api/lmshare/ns-lmshare-share_info_1005">SHARE_INFO_1005</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTS_CLIENT_DISPLAY
- - PWTS_CLIENT_DISPLAY
  - WTS_CLIENT_DISPLAY
 ---
 
@@ -117,4 +115,3 @@ A 3-byte RGB values for a maximum of 2^24 colors.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
-

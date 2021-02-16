@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBaseFilter::JoinFilterGraph
+ - IBaseFilter.JoinFilterGraph
 ---
 
 # IBaseFilter::JoinFilterGraph
@@ -84,4 +84,3 @@ Applications should never call this method. To add a filter to the graph, call t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-

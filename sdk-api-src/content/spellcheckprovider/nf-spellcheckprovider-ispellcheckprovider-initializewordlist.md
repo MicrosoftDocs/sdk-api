@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider::InitializeWordlist
+ - ISpellCheckProvider.InitializeWordlist
 ---
 
 # ISpellCheckProvider::InitializeWordlist
@@ -114,4 +114,3 @@ This method is called by the system (for example, when the client calls <a href=
 
 
 <a href="/windows/desktop/api/spellcheck/ne-spellcheck-wordlist_type">WORDLIST_TYPE</a>
-

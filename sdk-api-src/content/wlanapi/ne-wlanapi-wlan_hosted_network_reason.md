@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_REASON
- - PWLAN_HOSTED_NETWORK_REASON
  - WLAN_HOSTED_NETWORK_REASON
 ---
 
@@ -241,4 +239,3 @@ On Windows 7 and later, the operating system installs a virtual device if a Hos
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkstopusing">WlanHostedNetworkStopUsing</a>
-

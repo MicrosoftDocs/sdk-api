@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchRoot::put_User
+ - ISearchRoot.put_User
 ---
 
 # ISearchRoot::put_User

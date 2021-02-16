@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistration::SetRegisterMode
+ - IMbnRegistration.SetRegisterMode
 ---
 
 # IMbnRegistration::SetRegisterMode
@@ -151,4 +151,3 @@ Support for manual registration mode is optional and the application should veri
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a>
-

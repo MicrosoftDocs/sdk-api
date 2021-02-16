@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList::CopyResource
+ - ID3D12GraphicsCommandList.CopyResource
 ---
 
 # ID3D12GraphicsCommandList::CopyResource
@@ -158,4 +158,3 @@ The <a href="/windows/desktop/direct3d12/working-samples">D3D12HeterogeneousMult
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-

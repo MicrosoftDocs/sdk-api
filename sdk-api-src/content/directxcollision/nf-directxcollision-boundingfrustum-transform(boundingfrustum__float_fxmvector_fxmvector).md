@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingFrustum::Transform
+ - BoundingFrustum.Transform
 ---
 
 # BoundingFrustum::Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR)
@@ -89,4 +89,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="https://msdn.microsoft.com/fba8da18-1c2e-4231-9d03-1409c733f8c7">Transform</a>
-

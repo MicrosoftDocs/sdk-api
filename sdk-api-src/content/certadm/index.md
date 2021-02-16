@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - certadm
  - certadm/certadm
-api_name:
- - certadm
 ---
 
 # Certadm.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - tMIXERLINECONTROLS
- - PMIXERLINECONTROLS
  - MIXERLINECONTROLS
 ---
 
@@ -107,4 +105,3 @@ Pointer to one or more <a href="/windows/desktop/api/mmeapi/ns-mmeapi-mixercontr
 
 
 <a href="/previous-versions/dd757302(v=vs.85)">mixerGetLineControls</a>
-

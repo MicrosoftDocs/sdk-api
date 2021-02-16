@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingActivity::SetRelatedActivityId
+ - TraceLoggingActivity.SetRelatedActivityId
 ---
 
 # TraceLoggingActivity::SetRelatedActivityId

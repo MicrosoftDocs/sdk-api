@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelperInfo::GetAttributeInfo
+ - INetDiagHelperInfo.GetAttributeInfo
 ---
 
 # INetDiagHelperInfo::GetAttributeInfo
@@ -125,4 +125,3 @@ The key parameter list is used by NDF to determine whether enough information is
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperinfo">INetDiagHelperInfo</a>
-

@@ -48,6 +48,7 @@ api_location:
  - API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
  - GetModuleInformation
+ - K32GetModuleInformation
 ---
 
 # GetModuleInformation function
@@ -125,4 +126,3 @@ Programs that must run on earlier versions of Windows as
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-

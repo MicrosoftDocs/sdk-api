@@ -42,6 +42,7 @@ api_type:
 api_location:
  - DbgHelp.dll
 api_name:
+ - StackWalk64
  - StackWalk
 ---
 
@@ -253,4 +254,3 @@ StackWalk(
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-ptranslate_address_routine">TranslateAddressProc64</a>
-

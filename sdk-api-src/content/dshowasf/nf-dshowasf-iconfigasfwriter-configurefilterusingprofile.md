@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter::ConfigureFilterUsingProfile
+ - IConfigAsfWriter.ConfigureFilterUsingProfile
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfile
@@ -119,4 +119,3 @@ If successful, this method will cause an <a href="/windows/desktop/DirectShow/ec
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-

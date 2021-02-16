@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumUnresolvedMethods
+ - IMetaDataImport.EnumUnresolvedMethods
 ---
 
 # IMetaDataImport::EnumUnresolvedMethods
@@ -101,4 +101,3 @@ The enumeration excludes all methods that are defined either at module scope (gl
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

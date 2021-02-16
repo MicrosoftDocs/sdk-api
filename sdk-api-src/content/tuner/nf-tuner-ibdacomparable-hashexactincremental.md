@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IBDAComparable::HashExactIncremental
+ - IBDAComparable.HashExactIncremental
 ---
 
 # IBDAComparable::HashExactIncremental
@@ -84,4 +84,3 @@ Calling this method with a <i>PartialResult</i> value of 0 yields the same resul
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
-

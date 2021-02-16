@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMTTCUSTOMDRAW
- - LPNMTTCUSTOMDRAW
  - NMTTCUSTOMDRAW
 ---
 
@@ -72,4 +70,3 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Specifies how tooltip text will be formatted when it is displayed. An application may change this field to alter the way text is drawn. This value is passed to the <a href="/windows/desktop/api/winuser/nf-winuser-drawtext">DrawText</a> function internally. All values for the 
 					<i>uFormat</i> parameter of <b>DrawText</b> are valid.
-

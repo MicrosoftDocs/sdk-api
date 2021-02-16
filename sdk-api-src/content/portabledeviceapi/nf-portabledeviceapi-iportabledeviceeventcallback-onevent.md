@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceEventCallback::OnEvent
+ - IPortableDeviceEventCallback.OnEvent
 ---
 
 # IPortableDeviceEventCallback::OnEvent
@@ -81,4 +81,3 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceeventcallback">IPortableDeviceEventCallback Interface</a>
-

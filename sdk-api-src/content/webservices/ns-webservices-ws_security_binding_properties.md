@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SECURITY_BINDING_PROPERTIES
  - WS_SECURITY_BINDING_PROPERTIES
 ---
 

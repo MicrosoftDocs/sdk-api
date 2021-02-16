@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::IsServiceReady
+ - IVdsService.IsServiceReady
 ---
 
 # IVdsService::IsServiceReady
@@ -113,4 +113,3 @@ Callers must wait for the initialization process to complete before invoking oth
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsservice-waitforserviceready">IVdsService::WaitForServiceReady</a>
-

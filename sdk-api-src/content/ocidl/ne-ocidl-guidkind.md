@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagGUIDKIND
  - GUIDKIND
 ---
 
@@ -64,4 +63,3 @@ The interface identifier (IID) of the object's outgoing dispinterface, labeled [
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iprovideclassinfo2">IProvideClassInfo2</a>
-

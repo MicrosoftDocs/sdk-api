@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::GetCurrentInfo
+ - IShellView.GetCurrentInfo
 ---
 
 # IShellView::GetCurrentInfo
@@ -79,4 +79,3 @@ Return as many of the settings as apply. This is intended to maintain the same b
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

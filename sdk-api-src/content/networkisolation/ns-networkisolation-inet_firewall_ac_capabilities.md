@@ -46,8 +46,6 @@ api_type:
 api_location:
  - networkisolation.h
 api_name:
- - _INET_FIREWALL_AC_CAPABILITIES
- - PINET_FIREWALL_AC_CAPABILITIES
  - INET_FIREWALL_AC_CAPABILITIES
 ---
 

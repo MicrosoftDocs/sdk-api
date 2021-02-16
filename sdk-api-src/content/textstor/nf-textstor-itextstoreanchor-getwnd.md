@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::GetWnd
+ - ITextStoreAnchor.GetWnd
 ---
 
 # ITextStoreAnchor::GetWnd
@@ -107,4 +107,3 @@ A document might not have a corresponding window handle if the document is in me
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

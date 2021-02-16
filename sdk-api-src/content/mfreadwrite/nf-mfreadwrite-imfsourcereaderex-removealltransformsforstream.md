@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSourceReaderEx::RemoveAllTransformsForStream
+ - IMFSourceReaderEx.RemoveAllTransformsForStream
 ---
 
 # IMFSourceReaderEx::RemoveAllTransformsForStream
@@ -151,4 +151,3 @@ In asynchronous mode, this method fails if a sample request is pending. In that 
 ## -see-also
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
-

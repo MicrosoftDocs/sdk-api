@@ -46,8 +46,6 @@ api_type:
 api_location:
  - VirtDisk.h
 api_name:
- - _RESIZE_VIRTUAL_DISK_PARAMETERS
- - PRESIZE_VIRTUAL_DISK_PARAMETERS
  - RESIZE_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -87,4 +85,3 @@ Contains the new size of the virtual disk.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-

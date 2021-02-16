@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite::TranslateAccelerator
+ - IOleControlSite.TranslateAccelerator
 ---
 
 # IOleControlSite::TranslateAccelerator
@@ -117,4 +117,3 @@ This method is called by a control that can be UI-active. In such cases, a contr
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator">IOleInPlaceActiveObject::TranslateAccelerator</a>
-

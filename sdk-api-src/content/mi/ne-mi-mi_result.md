@@ -45,7 +45,6 @@ api_location:
  - Mi.h
 api_name:
  - _MI_Result
- - MI_Result
 ---
 
 # MI_Result enumeration
@@ -165,4 +164,3 @@ The operation failed because server limits were exceeded.
 ### -field MI_RESULT_SERVER_IS_SHUTTING_DOWN
 
 The CIM server is shutting down and cannot process the operation.
-

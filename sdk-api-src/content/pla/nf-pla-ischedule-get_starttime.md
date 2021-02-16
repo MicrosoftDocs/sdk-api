@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ISchedule::get_StartTime
+ - ISchedule.StartTime
+ - ISchedule.get_StartTime
+ - ISchedule.put_StartTime
 ---
 
 # ISchedule::get_StartTime
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_startdate">ISchedule::StartDate</a>
-

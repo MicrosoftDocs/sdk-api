@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetUserProfileDirectoryW
  - userenv/GetUserProfileDirectoryW
- - GetUserProfileDirectory
- - userenv/GetUserProfileDirectory
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - GetUserProfileDirectoryW
  - GetUserProfileDirectory
+ - GetUserProfileDirectoryA
+ - GetUserProfileDirectoryW
 ---
 
 # GetUserProfileDirectoryW function
@@ -121,4 +120,3 @@ To obtain the paths of subdirectories of this directory, use the <a href="/windo
 
 
 <a href="/previous-versions/windows/desktop/legacy/bb776901(v=vs.85)">User Profiles Reference</a>
-

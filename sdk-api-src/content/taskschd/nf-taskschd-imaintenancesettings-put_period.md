@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Taskschd.dll
 api_name:
- - IMaintenanceSettings::put_Period
+ - IMaintenanceSettings.Period
+ - IMaintenanceSettings.get_Period
+ - IMaintenanceSettings.put_Period
 ---
 
 # IMaintenanceSettings::put_Period
@@ -65,4 +67,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
-

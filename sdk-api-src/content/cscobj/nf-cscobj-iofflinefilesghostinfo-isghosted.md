@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesGhostInfo::IsGhosted
+ - IOfflineFilesGhostInfo.IsGhosted
 ---
 
 # IOfflineFilesGhostInfo::IsGhosted
@@ -79,4 +79,3 @@ An item is said to be ghosted in the offline files cache if, when the item is of
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilespininfo2-ispartlypinned">IOfflineFilesPinInfo2::IsPartlyPinned</a>
-

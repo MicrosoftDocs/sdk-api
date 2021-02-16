@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleGrabberSinkCallback::OnSetPresentationClock
+ - IMFSampleGrabberSinkCallback.OnSetPresentationClock
 ---
 
 # IMFSampleGrabberSinkCallback::OnSetPresentationClock
@@ -88,4 +88,3 @@ This method should return quickly, or it might interfere with playback. Do not b
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IBDA_TIF_REGISTRATION::RegisterTIFEx
+ - IBDA_TIF_REGISTRATION.RegisterTIFEx
 ---
 
 # IBDA_TIF_REGISTRATION::RegisterTIFEx
@@ -73,4 +73,3 @@ The method returns an <b>HRESULT</b> value.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ibda_tif_registration">IBDA_TIF_REGISTRATION Interface</a>
-

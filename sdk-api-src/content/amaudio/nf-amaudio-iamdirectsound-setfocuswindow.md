@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDirectSound::SetFocusWindow
+ - IAMDirectSound.SetFocusWindow
 ---
 
 # IAMDirectSound::SetFocusWindow
@@ -91,4 +91,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
-

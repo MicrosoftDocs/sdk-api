@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRWindowlessControl::RepaintVideo
+ - IVMRWindowlessControl.RepaintVideo
 ---
 
 # IVMRWindowlessControl::RepaintVideo
@@ -96,4 +96,3 @@ The VMR is not in windowless mode.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

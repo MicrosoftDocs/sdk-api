@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfPropertyValue::Reset
+ - IEnumTfPropertyValue.Reset
 ---
 
 # IEnumTfPropertyValue::Reset

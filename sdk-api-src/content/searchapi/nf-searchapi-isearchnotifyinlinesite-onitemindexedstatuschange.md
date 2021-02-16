@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchNotifyInlineSite::OnItemIndexedStatusChange
+ - ISearchNotifyInlineSite.OnItemIndexedStatusChange
 ---
 
 # ISearchNotifyInlineSite::OnItemIndexedStatusChange
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/search/-search-3x-wds-notifyingofchanges">Notifying the Index of Changes</a>
-

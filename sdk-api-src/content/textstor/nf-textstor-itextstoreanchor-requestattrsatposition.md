@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::RequestAttrsAtPosition
+ - ITextStoreAnchor.RequestAttrsAtPosition
 ---
 
 # ITextStoreAnchor::RequestAttrsAtPosition
@@ -116,4 +116,3 @@ The <i>paPos</i> anchor is invalid.
 
 <a href="/windows/desktop/TSF/ts-attrid">TS_ATTRID
       </a>
-

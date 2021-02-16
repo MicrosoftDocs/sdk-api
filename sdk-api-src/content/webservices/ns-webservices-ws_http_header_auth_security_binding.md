@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_HTTP_HEADER_AUTH_SECURITY_BINDING
  - WS_HTTP_HEADER_AUTH_SECURITY_BINDING
 ---
 
@@ -95,4 +94,3 @@ If the credential used is a <a href="/windows/win32/api/webservices/ns-webservic
                     <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_node_type">WS_HTTP_HEADER_AUTH_SCHEME_NONE</a>, <b>WS_HTTP_HEADER_AUTH_SCHEME_NTLM</b>, 
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_NEGOTIATE</b> or <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b>.
                     <b>WS_HTTP_HEADER_AUTH_SCHEME_PASSPORT</b> defaults to using the Passport keyring.
-

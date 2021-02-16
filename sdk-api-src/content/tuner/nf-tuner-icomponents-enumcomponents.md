@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponents::EnumComponents
+ - IComponents.EnumComponents
 ---
 
 # IComponents::EnumComponents
@@ -69,4 +69,3 @@ If the method succeeds, the <b>IEnumComponents</b> interface has an outstanding 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponents">IComponents Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_Interval
  - MI_Interval
 ---
 
@@ -88,4 +87,3 @@ Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a
 ### -field __padding3
 
 Reserved. The <b>MI_Interval</b> structure is padded to have the same size as <a href="/windows/desktop/api/mi/ns-mi-mi_timestamp">MI_Timestamp</a>.
-

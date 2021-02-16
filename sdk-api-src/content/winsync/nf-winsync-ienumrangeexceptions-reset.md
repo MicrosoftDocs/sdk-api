@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumRangeExceptions::Reset
+ - IEnumRangeExceptions.Reset
 ---
 
 # IEnumRangeExceptions::Reset
@@ -79,4 +79,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>
-

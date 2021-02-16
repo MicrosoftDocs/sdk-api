@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _RAW_SCSI_VIRTUAL_DISK_PARAMETERS
- - PRAW_SCSI_VIRTUAL_DISK_PARAMETERS
  - RAW_SCSI_VIRTUAL_DISK_PARAMETERS
 ---
 

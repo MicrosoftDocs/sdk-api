@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasDeleteSubEntryW
  - ras/RasDeleteSubEntryW
- - RasDeleteSubEntry
- - ras/RasDeleteSubEntry
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasDeleteSubEntryW
  - RasDeleteSubEntry
+ - RasDeleteSubEntryA
+ - RasDeleteSubEntryW
 ---
 
 # RasDeleteSubEntryW function
@@ -92,4 +91,3 @@ If the function fails, the return value is one of the following error codes or a
 
 > [!NOTE]
 > The ras.h header defines RasDeleteSubEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

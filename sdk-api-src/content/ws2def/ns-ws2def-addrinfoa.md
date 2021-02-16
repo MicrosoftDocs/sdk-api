@@ -48,8 +48,6 @@ api_location:
  - ws2def.h
  - Wspiapi.h
 api_name:
- - addrinfo
- - PADDRINFOA
  - ADDRINFOA
 ---
 
@@ -698,4 +696,3 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

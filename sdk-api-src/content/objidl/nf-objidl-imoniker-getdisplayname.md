@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::GetDisplayName
+ - IMoniker.GetDisplayName
 ---
 
 # IMoniker::GetDisplayName
@@ -169,4 +169,3 @@ A moniker that is intended to be part of a generic composite moniker should incl
 
 
 <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
-

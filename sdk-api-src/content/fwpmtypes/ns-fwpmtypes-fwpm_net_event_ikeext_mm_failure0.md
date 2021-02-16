@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_IKEEXT_MM_FAILURE0_
  - FWPM_NET_EVENT_IKEEXT_MM_FAILURE0
 ---
 
@@ -108,4 +107,3 @@ Main mode filter ID.
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
-

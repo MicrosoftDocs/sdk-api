@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::ElementFromIAccessibleBuildCache
+ - IUIAutomation.ElementFromIAccessibleBuildCache
 ---
 
 # IUIAutomation::ElementFromIAccessibleBuildCache
@@ -99,4 +99,3 @@ The method returns E_INVALIDARG if the underlying implementation of the UI Autom
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfromhandlebuildcache">IUIAutomation::ElementFromHandleBuildCache</a>
-

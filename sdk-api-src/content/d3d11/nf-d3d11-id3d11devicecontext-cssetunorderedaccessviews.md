@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::CSSetUnorderedAccessViews
+ - ID3D11DeviceContext.CSSetUnorderedAccessViews
 ---
 
 # ID3D11DeviceContext::CSSetUnorderedAccessViews
@@ -90,4 +90,3 @@ An array of append and consume buffer offsets. A value of -1 indicates to keep t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

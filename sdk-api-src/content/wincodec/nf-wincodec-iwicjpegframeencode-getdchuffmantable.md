@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameEncode::GetDcHuffmanTable
+ - IWICJpegFrameEncode.GetDcHuffmanTable
 ---
 
 # IWICJpegFrameEncode::GetDcHuffmanTable
@@ -113,4 +113,3 @@ Can occur if <i>pTable</i> is NULL or if <i>tableIndex</i> does not point to a v
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframeencode">IWICJpegFrameEncode</a>
-

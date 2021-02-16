@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHPtrArray::GetSize
+ - CHPtrArray.GetSize
+ - ?GetSize@CHPtrArray@@QBEHXZ
 ---
 
 # CHPtrArray::GetSize
@@ -72,4 +73,3 @@ If the <b>GetSize</b> method is successful, it returns the number of elements in
 
 
 <a href="/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
-

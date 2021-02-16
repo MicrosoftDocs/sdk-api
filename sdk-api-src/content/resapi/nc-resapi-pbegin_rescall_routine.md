@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PBEGIN_RESCALL_ROUTINE
+ - BeginResourceControl
 ---
 
 # PBEGIN_RESCALL_ROUTINE callback function
@@ -152,4 +152,3 @@ The requested control code is not supported.
 
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-

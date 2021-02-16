@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _LSA_FOREST_TRUST_INFORMATION
- - PLSA_FOREST_TRUST_INFORMATION
  - LSA_FOREST_TRUST_INFORMATION
 ---
 
@@ -77,4 +75,3 @@ Number of <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_re
 ### -field Entries
 
 Pointer to a pointer to an array of <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-lsa_forest_trust_record">LSA_FOREST_TRUST_RECORD</a> structures, each of which contains one piece of forest trust information.
-

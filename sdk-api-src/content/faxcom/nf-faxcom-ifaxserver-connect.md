@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::Connect
+ - IFaxServer.Connect
+ - IFaxServer.Connect
 ---
 
 # IFaxServer::Connect
@@ -99,4 +100,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-disconnect-client-vb">IFaxServer::Disconnect</a>
-

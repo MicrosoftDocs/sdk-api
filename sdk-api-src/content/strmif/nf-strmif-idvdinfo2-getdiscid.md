@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetDiscID
+ - IDvdInfo2.GetDiscID
 ---
 
 # IDvdInfo2::GetDiscID
@@ -133,4 +133,3 @@ The DVD Navigator calculates an identifier ID based on file sizes, dates, and ot
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

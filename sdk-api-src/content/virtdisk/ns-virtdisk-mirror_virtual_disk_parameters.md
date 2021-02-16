@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _MIRROR_VIRTUAL_DISK_PARAMETERS
- - PMIRROR_VIRTUAL_DISK_PARAMETERS
  - MIRROR_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -88,4 +86,3 @@ This structure is used if the <b>Version</b> member is set to
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323699(v=vs.85)">VHD Functions</a>
-

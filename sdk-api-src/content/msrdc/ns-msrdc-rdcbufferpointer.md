@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
- - __MIDL___MIDL_itf_msrdc_0000_0000_0005
  - RdcBufferPointer
 ---
 
@@ -75,4 +74,3 @@ Pointer to the buffer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-structures">Remote Differential Compression Structures</a>
-

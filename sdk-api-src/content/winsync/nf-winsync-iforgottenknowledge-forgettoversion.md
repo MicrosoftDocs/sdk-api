@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IForgottenKnowledge::ForgetToVersion
+ - IForgottenKnowledge.ForgetToVersion
 ---
 
 # IForgottenKnowledge::ForgetToVersion
@@ -111,4 +111,3 @@ When a replica cleans up the tombstone for an item, its associated provider must
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-

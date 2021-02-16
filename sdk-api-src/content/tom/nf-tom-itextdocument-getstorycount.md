@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument::GetStoryCount
+ - ITextDocument.GetStoryCount
 ---
 
 # ITextDocument::GetStoryCount
@@ -108,4 +108,3 @@ Rich edit controls have only one story and do not implement the <a href="/window
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

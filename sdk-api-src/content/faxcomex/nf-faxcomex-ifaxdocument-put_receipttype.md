@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::put_ReceiptType
+ - IFaxDocument.ReceiptType
+ - IFaxDocument.get_ReceiptType
+ - IFaxDocument.put_ReceiptType
+ - IFaxDocument.get_ReceiptType
+ - IFaxDocument.put_ReceiptType
 ---
 
 # IFaxDocument::put_ReceiptType
@@ -73,4 +77,3 @@ If an email receipt will be sent, an address has to be provided in the <a href="
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

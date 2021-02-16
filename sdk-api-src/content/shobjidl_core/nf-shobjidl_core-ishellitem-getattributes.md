@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellItem::GetAttributes
+ - IShellItem.GetAttributes
 ---
 
 # IShellItem::GetAttributes
@@ -83,4 +83,3 @@ Returns S_OK if the attributes returned exactly match those requested in <i>sfga
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

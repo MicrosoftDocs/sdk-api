@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPersistSerializedPropStorage2::GetPropertyStorageBuffer
+ - IPersistSerializedPropStorage2.GetPropertyStorageBuffer
 ---
 
 # IPersistSerializedPropStorage2::GetPropertyStorageBuffer
@@ -83,4 +83,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This methods returns an error if <i>cb</i> is smaller than the total size of the serialized data.
 
 The <b>SERIALIZEDPROPSTORAGE</b> type is defined in Propsys.h as an incomplete type. It should be treated as an array of <b>BYTE</b> values; the format of the returned data is not specified. The contents of the <b>SERIALIZEDPROPSTORAGE</b> structure are suitable for persisting to disk or other storage and can be used to initialize another property store through <a href="/windows/desktop/api/propsys/nf-propsys-ipersistserializedpropstorage-setpropertystorage">IPersistSerializedPropStorage::SetPropertyStorage</a>.
-

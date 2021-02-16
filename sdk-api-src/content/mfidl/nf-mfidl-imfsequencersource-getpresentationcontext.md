@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSequencerSource::GetPresentationContext
+ - IMFSequencerSource.GetPresentationContext
 ---
 
 # IMFSequencerSource::GetPresentationContext
@@ -122,4 +122,3 @@ The topology returned in <i>ppTopology</i> is the original topology that the app
 
 
 <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
-

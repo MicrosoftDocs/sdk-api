@@ -44,7 +44,6 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0014
  - XPS_OBJECT_TYPE
 ---
 
@@ -100,4 +99,3 @@ The object is an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-
 ## -see-also
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleAdviseHolder::SendOnRename
+ - IOleAdviseHolder.SendOnRename
 ---
 
 # IOleAdviseHolder::SendOnRename
@@ -73,4 +73,3 @@ This method returns S_OK if advise sinks were sent <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
-

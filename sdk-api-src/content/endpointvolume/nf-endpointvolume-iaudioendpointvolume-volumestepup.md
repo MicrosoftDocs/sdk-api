@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::VolumeStepUp
+ - IAudioEndpointVolume.VolumeStepUp
 ---
 
 # IAudioEndpointVolume::VolumeStepUp
@@ -103,4 +103,3 @@ Successive intervals between adjacent steps do not necessarily represent uniform
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
-

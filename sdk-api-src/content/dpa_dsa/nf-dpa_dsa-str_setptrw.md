@@ -42,6 +42,8 @@ api_type:
 api_location:
  - ComCtl32.dll
 api_name:
+ - Str_SetPtr
+ - Str_SetPtrA
  - Str_SetPtrW
 ---
 
@@ -75,4 +77,3 @@ Returns <b>TRUE</b> if successful; otherwise, <b>FALSE</b>.
 ## -remarks
 
 The ANSI version of <b>Str_SetPtrW</b>, <b>Str_SetPtrA</b>, is not exported by name or declared in a public header file. To use it, you must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> and request ordinal 234 from ComCtl32.dll to obtain a function pointer.
-

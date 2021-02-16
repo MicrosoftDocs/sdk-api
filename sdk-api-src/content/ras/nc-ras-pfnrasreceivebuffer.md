@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - PFNRASRECEIVEBUFFER
+ - RasReceiveBuffer
 ---
 
 # PFNRASRECEIVEBUFFER callback function
@@ -141,4 +141,3 @@ The custom-scripting DLL calls
 
 
 <a href="/windows/desktop/api/ras/nc-ras-pfnrassendbuffer">RasSendBuffer</a>
-

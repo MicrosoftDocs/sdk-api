@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::SetContact
+ - IDirectManipulationViewport.SetContact
 ---
 
 # IDirectManipulationViewport::SetContact
@@ -85,4 +85,3 @@ If a contact is associated with one or more viewports using the <b>SetContact</b
 
 
 <a href="/previous-versions/windows/desktop/inputmsg/messages-and-notifications">User Input Messages and Notifications</a>
-

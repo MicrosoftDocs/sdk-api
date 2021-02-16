@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing::SubscribeToMultipleOperations
+ - IWSDServiceProxyEventing.SubscribeToMultipleOperations
 ---
 
 # IWSDServiceProxyEventing::SubscribeToMultipleOperations
@@ -146,4 +146,3 @@ The method is synchronous and will return when the requests have completed or th
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
-

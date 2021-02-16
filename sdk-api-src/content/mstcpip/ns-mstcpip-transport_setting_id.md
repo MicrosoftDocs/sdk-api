@@ -45,7 +45,6 @@ api_location:
  - transportsettingcommon.h
 api_name:
  - TRANSPORT_SETTING_ID
- - PTRANSPORT_SETTING_ID
 ---
 
 # TRANSPORT_SETTING_ID structure
@@ -85,4 +84,3 @@ The only transport setting currently defines is for the <b>REAL_TIME_NOTIFICATIO
 
 
 <a href="/previous-versions/windows/desktop/legacy/jj553483(v=vs.85)">SIO_QUERY_TRANSPORT_SETTING</a>
-

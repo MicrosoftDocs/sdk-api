@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
+ - ITPluggableTerminalSuperclassRegistration.GetTerminalSuperclassInfo
 ---
 
 # ITPluggableTerminalSuperclassRegistration::GetTerminalSuperclassInfo
@@ -91,4 +91,3 @@ Method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
-

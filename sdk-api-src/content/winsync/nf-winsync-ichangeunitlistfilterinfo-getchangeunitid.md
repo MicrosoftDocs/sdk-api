@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IChangeUnitListFilterInfo::GetChangeUnitId
+ - IChangeUnitListFilterInfo.GetChangeUnitId
 ---
 
 # IChangeUnitListFilterInfo::GetChangeUnitId
@@ -136,4 +136,3 @@ The change unit ID to be returned is not valid.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ichangeunitlistfilterinfo">IChangeUnitListFilterInfo Interface</a>
-

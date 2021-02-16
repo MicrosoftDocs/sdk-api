@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _SECURITY_OBJECT
- - PSECURITY_OBJECT
  - SECURITY_OBJECT
 ---
 
@@ -170,4 +168,3 @@ When the <b>Id</b> member the <b>SECURITY_OBJECT</b> structure is set to SECURIT
 
 
 <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation4-getsecondarysecurity">ISecurityInformation4::GetSecondarySecurity</a>
-

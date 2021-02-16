@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine::AuthorizeResource
+ - ITSGPolicyEngine.AuthorizeResource
 ---
 
 # ITSGPolicyEngine::AuthorizeResource
@@ -124,4 +124,3 @@ For a sample that uses the <b>AuthorizeResource</b> method, see the [Remote Desk
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>
-

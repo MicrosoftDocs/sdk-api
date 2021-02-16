@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::GetIsDefaultCEP
+ - IX509EnrollmentPolicyServer.GetIsDefaultCEP
 ---
 
 # IX509EnrollmentPolicyServer::GetIsDefaultCEP
@@ -71,4 +71,3 @@ The default server is set by the <a href="/windows/desktop/api/certenroll/nf-cer
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

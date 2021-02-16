@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbCAServiceDescriptor::GetMessageControl
+ - IIsdbCAServiceDescriptor.GetMessageControl
 ---
 
 # IIsdbCAServiceDescriptor::GetMessageControl
@@ -72,4 +72,3 @@ automatic display message will not be displayed.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcaservicedescriptor">IIsdbCAServiceDescriptor</a>
-

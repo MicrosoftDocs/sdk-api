@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescriptionSearchInfo::GetColumnIndexType
+ - IPropertyDescriptionSearchInfo.GetColumnIndexType
 ---
 
 # IPropertyDescriptionSearchInfo::GetColumnIndexType
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/propsys/ne-propsys-propdesc_columnindex_type">PROPDESC_COLUMNINDEX_TYPE</a>
-

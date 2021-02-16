@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _EXCEPTION_POINTERS
- - PEXCEPTION_POINTERS
  - EXCEPTION_POINTERS
 ---
 
@@ -81,4 +79,3 @@ A pointer to a
 
 
 <a href="/windows/desktop/Debug/getexceptioninformation">GetExceptionInformation</a>
-

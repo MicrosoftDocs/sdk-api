@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_RETRIEVE_TKT_RESPONSE
- - PKERB_RETRIEVE_TKT_RESPONSE
  - KERB_RETRIEVE_TKT_RESPONSE
 ---
 
@@ -66,4 +64,3 @@ It is used by
 ### -field Ticket
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_external_ticket">KERB_EXTERNAL_TICKET</a> structure containing the requested ticket.
-

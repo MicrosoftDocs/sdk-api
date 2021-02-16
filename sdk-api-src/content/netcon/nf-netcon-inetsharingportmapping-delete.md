@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingPortMapping::Delete
+ - INetSharingPortMapping.Delete
 ---
 
 # INetSharingPortMapping::Delete
@@ -177,4 +177,3 @@ Calling this method also removes the name of this port mapping from the list of 
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-

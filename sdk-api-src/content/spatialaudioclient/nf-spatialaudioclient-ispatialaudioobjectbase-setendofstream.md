@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase::SetEndOfStream
+ - ISpatialAudioObjectBase.SetEndOfStream
 ---
 
 # ISpatialAudioObjectBase::SetEndOfStream
@@ -104,4 +104,3 @@ Call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
-

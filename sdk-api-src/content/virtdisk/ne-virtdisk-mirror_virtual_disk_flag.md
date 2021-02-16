@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _MIRROR_VIRTUAL_DISK_FLAG
  - MIRROR_VIRTUAL_DISK_FLAG
 ---
 
@@ -79,4 +78,3 @@ Create the mirror using an existing file.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
-

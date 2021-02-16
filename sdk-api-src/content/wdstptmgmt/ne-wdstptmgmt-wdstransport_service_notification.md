@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wdstptmgmt.h
 api_name:
- - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005
- - PWDSTRANSPORT_SERVICE_NOTIFICATION
  - WDSTRANSPORT_SERVICE_NOTIFICATION
 ---
 

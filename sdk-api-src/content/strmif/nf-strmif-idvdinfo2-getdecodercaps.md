@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetDecoderCaps
+ - IDvdInfo2.GetDecoderCaps
 ---
 
 # IDvdInfo2::GetDecoderCaps
@@ -103,4 +103,3 @@ The filter graph has not been initialized.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

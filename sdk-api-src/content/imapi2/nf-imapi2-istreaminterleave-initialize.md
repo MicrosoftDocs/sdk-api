@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IStreamInterleave::Initialize
+ - IStreamInterleave.Initialize
 ---
 
 # IStreamInterleave::Initialize
@@ -119,4 +119,3 @@ Value: 0x80070057
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-istreaminterleave">IStreamInterleave</a>
-

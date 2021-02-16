@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
- - _SHELLDETAILS
- - LPSHELLDETAILS
  - SHELLDETAILS
 ---
 
@@ -110,4 +108,3 @@ An <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishelldetails-getdetailsof">IShellDetails::GetDetailsOf</a>
-

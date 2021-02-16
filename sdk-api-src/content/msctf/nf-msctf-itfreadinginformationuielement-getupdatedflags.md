@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfReadingInformationUIElement::GetUpdatedFlags
+ - ITfReadingInformationUIElement.GetUpdatedFlags
 ---
 
 # ITfReadingInformationUIElement::GetUpdatedFlags
@@ -158,4 +158,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

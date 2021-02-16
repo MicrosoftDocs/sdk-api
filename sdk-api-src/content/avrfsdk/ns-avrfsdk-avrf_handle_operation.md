@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Avrfsdk.h
 api_name:
- - _AVRF_HANDLE_OPERATION
- - PAVRF_HANDLE_OPERATION
  - AVRF_HANDLE_OPERATION
 ---
 
@@ -91,4 +89,3 @@ Identifies the <a href="/windows/desktop/api/avrfsdk/ns-avrfsdk-avrf_backtrace_i
 
 
 <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_CHANGE0_
  - FWPM_PROVIDER_CHANGE0
 ---
 
@@ -78,4 +77,3 @@ GUID of the provider that changed.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

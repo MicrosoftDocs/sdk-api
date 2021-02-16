@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition::GetConditionType
+ - ICondition.GetConditionType
 ---
 
 # ICondition::GetConditionType
@@ -89,4 +89,3 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 <b>Reference</b>
-

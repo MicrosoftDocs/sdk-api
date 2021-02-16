@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11_3.h
 api_name:
- - CD3D11_UNORDERED_ACCESS_VIEW_DESC1
+ - D3D11_UNORDERED_ACCESS_VIEW_DESC1
 ---
 
 # CD3D11_UNORDERED_ACCESS_VIEW_DESC1 structure
@@ -119,4 +119,3 @@ An unordered-access-view description is passed into <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-resource-structures">Resource Structures</a>
-

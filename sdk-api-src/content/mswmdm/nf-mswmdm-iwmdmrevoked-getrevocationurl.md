@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMRevoked::GetRevocationURL
+ - IWMDMRevoked.GetRevocationURL
 ---
 
 # IWMDMRevoked::GetRevocationURL
@@ -110,4 +110,3 @@ This method retrieves the URL from which updated components can be downloaded. I
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmrevoked">IWMDMRevoked Interface</a>
-

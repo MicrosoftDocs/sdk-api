@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::GetScriptCount
+ - IWMHeaderInfo.GetScriptCount
+ - IWMHeaderInfo2.GetScriptCount
+ - IWMHeaderInfo3.GetScriptCount
 ---
 
 # IWMHeaderInfo::GetScriptCount
@@ -143,4 +145,3 @@ The method failed for an unspecified reason.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-getscript">IWMHeaderInfo::GetScript</a>
-

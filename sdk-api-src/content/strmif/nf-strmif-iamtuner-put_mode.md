@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner::put_Mode
+ - IAMTuner.put_Mode
 ---
 
 # IAMTuner::put_Mode
@@ -76,4 +76,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtuner-getavailablemodes">IAMTuner::GetAvailableModes</a>
-

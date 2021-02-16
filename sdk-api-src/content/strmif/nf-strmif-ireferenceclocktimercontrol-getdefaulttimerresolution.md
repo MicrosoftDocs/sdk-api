@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IReferenceClockTimerControl::GetDefaultTimerResolution
+ - IReferenceClockTimerControl.GetDefaultTimerResolution
 ---
 
 # IReferenceClockTimerControl::GetDefaultTimerResolution
@@ -103,4 +103,3 @@ The value returned in <i>pTimerResolution</i> is the period that the reference c
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclocktimercontrol">IReferenceClockTimerControl Interface</a>
-

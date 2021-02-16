@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusgraphics
  - gdiplusgraphics/gdiplusgraphics
-api_name:
- - gdiplusgraphics
 ---
 
 # Gdiplusgraphics.h header

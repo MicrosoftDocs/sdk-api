@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextRenderer1::DrawUnderline
+ - IDWriteTextRenderer1.DrawUnderline
 ---
 
 # IDWriteTextRenderer1::DrawUnderline

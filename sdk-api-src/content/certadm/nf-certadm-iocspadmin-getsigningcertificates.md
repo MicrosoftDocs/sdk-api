@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin::GetSigningCertificates
+ - IOCSPAdmin.GetSigningCertificates
 ---
 
 # IOCSPAdmin::GetSigningCertificates
@@ -88,4 +88,3 @@ Each signing certificate has the following properties:
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-

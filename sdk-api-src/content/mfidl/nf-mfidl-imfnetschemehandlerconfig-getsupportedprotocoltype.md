@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetSchemeHandlerConfig::GetSupportedProtocolType
+ - IMFNetSchemeHandlerConfig.GetSupportedProtocolType
 ---
 
 # IMFNetSchemeHandlerConfig::GetSupportedProtocolType
@@ -99,4 +99,3 @@ The value passed in the <i>nProtocolIndex</i> parameter was greater than the tot
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetschemehandlerconfig">IMFNetSchemeHandlerConfig</a>
-

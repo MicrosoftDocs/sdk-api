@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk::Clean
+ - IVdsAdvancedDisk.Clean
 ---
 
 # IVdsAdvancedDisk::Clean
@@ -221,4 +221,3 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsasync">IVdsAsync</a>
-

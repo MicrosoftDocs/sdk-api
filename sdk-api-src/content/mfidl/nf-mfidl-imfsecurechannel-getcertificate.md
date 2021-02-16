@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSecureChannel::GetCertificate
+ - IMFSecureChannel.GetCertificate
 ---
 
 # IMFSecureChannel::GetCertificate
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsecurechannel">IMFSecureChannel</a>
-

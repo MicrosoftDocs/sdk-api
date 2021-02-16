@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMap::Remove
+ - IValueMap.Remove
 ---
 
 # IValueMap::Remove
@@ -77,4 +77,3 @@ If the variant type is VT_DISPATCH, pass the <b>IDispatch</b> interface of the <
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemap-clear">IValueMap::Clear</a>
-

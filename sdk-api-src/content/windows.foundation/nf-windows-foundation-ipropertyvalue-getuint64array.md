@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValue::GetUInt64Array
+ - IPropertyValue.GetUInt64Array
 ---
 
 # IPropertyValue::IPropertyValue
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createuint64array">IPropertyValueStatics::CreateUInt64Array</a>
-

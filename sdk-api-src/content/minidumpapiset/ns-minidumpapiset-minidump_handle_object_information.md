@@ -44,7 +44,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_HANDLE_OBJECT_INFORMATION
  - MINIDUMP_HANDLE_OBJECT_INFORMATION
 ---
 

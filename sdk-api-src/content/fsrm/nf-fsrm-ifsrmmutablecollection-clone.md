@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmMutableCollection::Clone
+ - IFsrmMutableCollection.Clone
 ---
 
 # IFsrmMutableCollection::Clone
@@ -66,4 +66,3 @@ The method returns the following return values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>
-

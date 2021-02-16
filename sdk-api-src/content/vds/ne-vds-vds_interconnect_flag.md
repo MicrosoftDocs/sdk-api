@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_INTERCONNECT_FLAG
- - PVDS_INTERCONNECT_FLAG
  - VDS_INTERCONNECT_FLAG
 ---
 
@@ -95,4 +93,3 @@ The subsystem supports a serial attached iSCSI (SAS) interconnect.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
-

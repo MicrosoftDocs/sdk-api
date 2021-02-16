@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCaptureDialogs::SendDriverMessage
+ - IAMVfwCaptureDialogs.SendDriverMessage
 ---
 
 # IAMVfwCaptureDialogs::SendDriverMessage
@@ -88,4 +88,3 @@ This method calls the Video for Windows <b>videoMessage</b> function to send the
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcapturedialogs">IAMVfwCaptureDialogs Interface</a>
-

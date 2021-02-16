@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_STT::GetProtocolVersion
+ - IATSC_STT.GetProtocolVersion
 ---
 
 # IATSC_STT::GetProtocolVersion
@@ -99,4 +99,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_stt">IATSC_STT Interface</a>
-

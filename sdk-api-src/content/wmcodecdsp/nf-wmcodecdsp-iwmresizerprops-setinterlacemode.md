@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMResizerProps::SetInterlaceMode
+ - IWMResizerProps.SetInterlaceMode
 ---
 
 # IWMResizerProps::SetInterlaceMode
@@ -87,4 +87,3 @@ This method is equivalent to setting the <a href="/windows/desktop/medfound/mfpk
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
-

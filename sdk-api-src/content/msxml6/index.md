@@ -9,8 +9,6 @@ tech.root: ixhr2
 f1_keywords:
  - msxml6
  - msxml6/msxml6
-api_name:
- - msxml6
 ---
 
 # Msxml6.h header

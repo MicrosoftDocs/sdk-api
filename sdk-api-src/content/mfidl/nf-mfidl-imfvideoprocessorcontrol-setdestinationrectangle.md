@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFVideoProcessorControl::SetDestinationRectangle
+ - IMFVideoProcessorControl.SetDestinationRectangle
 ---
 
 # IMFVideoProcessorControl::SetDestinationRectangle
@@ -69,4 +69,3 @@ See <a href="/windows/desktop/medfound/video-processor-mft">Video Processor MFT<
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPersistStreamInit::Load
+ - IPersistStreamInit.Load
 ---
 
 # IPersistStreamInit::Load
@@ -111,4 +111,3 @@ This method loads an object from its associated stream. The seek pointer is set 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::GetProperties
+ - ISensor.GetProperties
 ---
 
 # ISensor::GetProperties
@@ -132,4 +132,3 @@ For an example of how to retrieve properties from a sensor,  see <a href="/windo
 
 
 <a href="/windows/desktop/api/sensorsapi/nf-sensorsapi-isensor-setproperties">SetProperties</a>
-

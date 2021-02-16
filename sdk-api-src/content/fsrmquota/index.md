@@ -9,8 +9,6 @@ tech.root: fsrm
 f1_keywords:
  - fsrmquota
  - fsrmquota/fsrmquota
-api_name:
- - fsrmquota
 ---
 
 # Fsrmquota.h header

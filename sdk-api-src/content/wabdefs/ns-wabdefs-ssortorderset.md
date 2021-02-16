@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _SSortOrderSet
- - LPSSortOrderSet
  - SSortOrderSet
 ---
 
@@ -84,4 +82,3 @@ Variable of type <b>ULONG</b> that specifies the number of categories that start
 Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a>[MAPI_DIM]</b>
 
 Array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-ssortorder">SSortOrder</a> that specifies the structures that define a sort order.
-

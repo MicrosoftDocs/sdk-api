@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablets::IsPacketPropertySupported
+ - IInkTablets.IsPacketPropertySupported
 ---
 
 # IInkTablets::IsPacketPropertySupported
@@ -158,4 +158,3 @@ The flag is invalid.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReport::get_Type
+ - IFsrmReport.Type
+ - IFsrmReport.get_Type
 ---
 
 # IFsrmReport::get_Type
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreport">IFsrmReport</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF::DeleteAccessPath
+ - IVdsVolumeMF.DeleteAccessPath
 ---
 
 # IVdsVolumeMF::DeleteAccessPath
@@ -167,4 +167,3 @@ If there are no open handles on the volume, the drive letter is removed immediat
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryaccesspaths">IVdsVolumeMF::QueryAccessPaths</a>
-

@@ -43,7 +43,7 @@ api_location:
  - XAPOBase.lib
  - XAPOBase.dll
 api_name:
- - CXAPOBase::IsLocked
+ - CXAPOBase.IsLocked
 ---
 
 # CXAPOBase::IsLocked
@@ -79,4 +79,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobjectconfiguration-unlockforprocess">IXAPO::UnlockForProcess</a>
-

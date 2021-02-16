@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntprov.h
 api_name:
- - _EVENT_FILTER_LEVEL_KW
- - PEVENT_FILTER_LEVEL_KW
  - EVENT_FILTER_LEVEL_KW
 ---
 
@@ -80,4 +78,3 @@ Defines the severity level of the event to filter on.
 <b>true</b> to filter the events matching the provided names in; <b>false</b> to filter them out.
 
 If set to <b>true</b>, the filtered events will have stacks collected.
-

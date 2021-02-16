@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateSymbolicLinkA
  - winbase/CreateSymbolicLinkA
- - CreateSymbolicLink
- - winbase/CreateSymbolicLink
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CreateSymbolicLinkA
  - CreateSymbolicLink
+ - CreateSymbolicLinkA
+ - CreateSymbolicLinkW
 ---
 
 # CreateSymbolicLinkA function
@@ -253,4 +252,3 @@ CsvFs does not support soft link or any other reparse points.
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-

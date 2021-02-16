@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_VIEW_TYPE
  - MMC_VIEW_TYPE
 ---
 
@@ -74,4 +73,3 @@ The view type is a control view.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/ns-mmc-result_view_type_info">RESULT_VIEW_TYPE_INFO</a>
-

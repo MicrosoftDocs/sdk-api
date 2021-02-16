@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - _VMR9ProcAmpControlRange
  - VMR9ProcAmpControlRange
 ---
 
@@ -88,4 +87,3 @@ Specifies the valid increments from <b>MinValue</b> to <b>MaxValue</b>. The driv
 
 
 <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrmixercontrol9-getprocampcontrolrange">IVMRMixerControl9::GetProcAmpControlRange</a>
-

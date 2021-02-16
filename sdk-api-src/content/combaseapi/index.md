@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - combaseapi
  - combaseapi/combaseapi
-api_name:
- - combaseapi
 ---
 
 # Combaseapi.h header

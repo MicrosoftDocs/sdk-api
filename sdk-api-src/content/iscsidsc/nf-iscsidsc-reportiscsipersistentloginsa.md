@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ReportIScsiPersistentLoginsA
  - iscsidsc/ReportIScsiPersistentLoginsA
- - ReportIScsiPersistentLogins
- - iscsidsc/ReportIScsiPersistentLogins
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - ReportIScsiPersistentLoginsA
- - ReportIScsiPersistentLogins
+ - ReportIscsiPersistentLogins
+ - ReportIscsiPersistentLoginsA
+ - ReportIscsiPersistentLoginsW
 ---
 
 # ReportIScsiPersistentLoginsA function
@@ -113,4 +112,3 @@ The <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-persist
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-setuppersistentiscsidevices">SetupPersistentIscsiDevices</a>
-

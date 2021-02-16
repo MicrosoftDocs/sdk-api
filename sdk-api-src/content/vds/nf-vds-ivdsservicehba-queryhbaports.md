@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - IVdsServiceHba::QueryHbaPorts
+ - IVdsServiceHba.QueryHbaPorts
 ---
 
 # IVdsServiceHba::QueryHbaPorts
@@ -104,4 +104,3 @@ VDS failed to initialize. If an application calls this method before the VDS ser
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsservicehba">IVdsServiceHba</a>
-

@@ -43,7 +43,6 @@ api_type:
 api_location:
  - 
 api_name:
- - _DS_REPL_VALUE_META_DATA_EXT
  - DS_REPL_VALUE_META_DATA_EXT
 ---
 
@@ -123,4 +122,3 @@ TBD
 ### -field dwCurrentLinkState
 
 TBD
-

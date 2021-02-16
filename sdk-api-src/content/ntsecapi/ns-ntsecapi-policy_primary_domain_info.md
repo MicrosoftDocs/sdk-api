@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _POLICY_PRIMARY_DOMAIN_INFO
- - PPOLICY_PRIMARY_DOMAIN_INFO
  - POLICY_PRIMARY_DOMAIN_INFO
 ---
 
@@ -89,4 +87,3 @@ Pointer to the SID of the primary domain.
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-policy_information_class">POLICY_INFORMATION_CLASS</a>
-

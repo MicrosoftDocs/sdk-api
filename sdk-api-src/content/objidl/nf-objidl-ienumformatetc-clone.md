@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IEnumFORMATETC::Clone
+ - IEnumFORMATETC.Clone
 ---
 
 # IEnumFORMATETC::Clone
@@ -107,4 +107,3 @@ Insufficient memory available for this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>
-

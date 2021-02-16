@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath::GetPointCount
+ - GraphicsPath.GetPointCount
 ---
 
 # GraphicsPath::GetPointCount
@@ -142,4 +142,3 @@ VOID GetPointCountExample(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

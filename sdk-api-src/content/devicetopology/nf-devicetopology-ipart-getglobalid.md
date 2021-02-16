@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart::GetGlobalId
+ - IPart.GetGlobalId
 ---
 
 # IPart::GetGlobalId
@@ -98,4 +98,3 @@ A global ID is a string that uniquely identifies a part among all parts in all d
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-

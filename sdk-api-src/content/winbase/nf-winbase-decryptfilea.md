@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - DecryptFileA
  - winbase/DecryptFileA
- - DecryptFile
- - winbase/DecryptFile
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +44,10 @@ api_location:
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-0.dll
  - Ext-MS-Win-AdvAPI32-EncryptedFile-L1-1-1.dll
 api_name:
- - DecryptFileA
  - DecryptFile
+ - DecryptFileA
+ - DecryptFileW
+req.apiset: ext-ms-win-advapi32-encryptedfile-l1-1-0 (introduced in Windows 8)
 ---
 
 # DecryptFileA function
@@ -170,4 +169,3 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-

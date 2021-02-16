@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumSignatures
+ - IMetaDataImport.EnumSignatures
 ---
 
 # IMetaDataImport::EnumSignatures
@@ -93,4 +93,3 @@ The number of Signature tokens returned in <i>rgSignatures</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

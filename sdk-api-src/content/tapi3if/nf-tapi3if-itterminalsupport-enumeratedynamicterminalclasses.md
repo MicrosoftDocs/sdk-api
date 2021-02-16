@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminalSupport::EnumerateDynamicTerminalClasses
+ - ITTerminalSupport.EnumerateDynamicTerminalClasses
 ---
 
 # ITTerminalSupport::EnumerateDynamicTerminalClasses
@@ -138,4 +138,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/Tapi/terminal-class">terminal classes</a>
-

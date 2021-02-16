@@ -45,8 +45,7 @@ api_location:
  - Routprot.h
  - Stm.h
 api_name:
- - _MPR50_SERVICE_CHARACTERISTICS
- - MPR50_SERVICE_CHARACTERISTICS
+ - MPR_SERVICE_CHARACTERISTICS
 ---
 
 # MPR50_SERVICE_CHARACTERISTICS structure
@@ -240,4 +239,3 @@ To use this structure, the user should add -DMPR50=1 to the compiler flags.
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-structures">Routing Protocol Interface Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
+ - EngineAdapterQueryIndexVectorSize
 ---
 
 # PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback function
@@ -142,4 +142,3 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

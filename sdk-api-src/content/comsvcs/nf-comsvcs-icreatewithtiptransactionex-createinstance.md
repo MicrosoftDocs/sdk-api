@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICreateWithTipTransactionEx::CreateInstance
+ - ICreateWithTipTransactionEx.CreateInstance
 ---
 
 # ICreateWithTipTransactionEx::CreateInstance
@@ -79,4 +79,3 @@ This method can return the following values:
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icreatewithtiptransactionex">ICreateWithTipTransactionEx</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RectF::Equals
+ - RectF.Equals
 ---
 
 # RectF::Equals
@@ -118,4 +118,3 @@ VOID Example_Equals(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionScaleTransform::SetCenterX
+ - IDCompositionScaleTransform.SetCenterX
 ---
 
 # IDCompositionScaleTransform::SetCenterX(IDCompositionAnimation)
@@ -81,4 +81,3 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449042(v=vs.85)">IDCompositionScaleTransform::SetCenterY</a>
-

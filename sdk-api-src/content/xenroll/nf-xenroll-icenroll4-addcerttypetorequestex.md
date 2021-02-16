@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::addCertTypeToRequestEx
+ - ICEnroll4.addCertTypeToRequestEx
+ - CEnroll.addCertTypeToRequestEx
 ---
 
 # ICEnroll4::addCertTypeToRequestEx
@@ -144,4 +145,3 @@ This method can be called multiple times to establish multiple certificate templ
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-createpkcs10">ICEnroll::createPKCS10</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort::put_Tsid
+ - IFaxPort.Tsid
+ - IFaxPort.get_Tsid
+ - IFaxPort.put_Tsid
 ---
 
 # IFaxPort::put_Tsid
@@ -83,4 +85,3 @@ The T.30 specification of the International Telecommunication Union (ITU) restri
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
-

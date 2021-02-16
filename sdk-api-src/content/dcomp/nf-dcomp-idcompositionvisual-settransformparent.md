@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual::SetTransformParent
+ - IDCompositionVisual.SetTransformParent
 ---
 
 # IDCompositionVisual::SetTransformParent
@@ -81,4 +81,3 @@ This method fails if the <i>visual</i> parameter is an invalid pointer or if it 
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-

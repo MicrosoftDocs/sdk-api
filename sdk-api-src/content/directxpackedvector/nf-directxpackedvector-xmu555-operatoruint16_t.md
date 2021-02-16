@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU555::operator uint16_t
+ - XMU555.operator uint16_t
 ---
 
 # XMU555::operator uint16_t
@@ -103,4 +103,3 @@ The last 1 bit (bit 15) of the return value are to the <b>w</b>component of the 
 
 
 <a href="/windows/desktop/dxmath/ovw-xmu555-operators">XMU555 Operators</a>
-

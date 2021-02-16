@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPrintQueueOperations::Purge
+ - IADsPrintQueueOperations.Purge
 ---
 
 # IADsPrintQueueOperations::Purge
@@ -61,4 +61,3 @@ This method supports the standard return values. For more information about othe
 ## -see-also
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsprintqueueoperations">IADsPrintQueueOperations</a>
-

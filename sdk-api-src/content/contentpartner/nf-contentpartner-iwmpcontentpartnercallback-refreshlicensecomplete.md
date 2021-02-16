@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::RefreshLicenseComplete
+ - IWMPContentPartnerCallback.RefreshLicenseComplete
 ---
 
 # IWMPContentPartnerCallback::RefreshLicenseComplete
@@ -101,4 +101,3 @@ Windows Media Player requests a license update by calling the plug-in's <a href=
 
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrame::GetStackLocation
+ - ICallFrame.GetStackLocation
 ---
 
 # ICallFrame::GetStackLocation
@@ -61,4 +61,3 @@ This method returns the requested stack location.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframe">ICallFrame</a>
-

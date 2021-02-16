@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - _SHGDNF
+ - SHGDNF
 ---
 
 # _SHGDNF enumeration
@@ -211,4 +211,3 @@ The following table describes the display names as they would be returned.
 <li>C3: File.txt presents only its base name for editing instead of its full name.</li>
 </ul>
 For further discussion of the <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellfolder">IShellFolder</a> interface, see <a href="/windows/desktop/shell/folder-info">Getting Information About the Contents of a Folder</a>.
-

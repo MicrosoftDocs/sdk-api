@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComThreadEvents::OnThreadUnassignApartment
+ - IComThreadEvents.OnThreadUnassignApartment
 ---
 
 # IComThreadEvents::OnThreadUnassignApartment
@@ -69,4 +69,3 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomthreadevents">IComThreadEvents</a>
-

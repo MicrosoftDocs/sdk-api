@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - _CREDENTIAL_PROVIDER_FIELD_STATE
  - CREDENTIAL_PROVIDER_FIELD_STATE
 ---
 
@@ -72,4 +71,3 @@ Show the field when in the deselected state. This value is only valid for a <a h
 ### -field CPFS_DISPLAY_IN_BOTH
 
 Show the field both when the credential tile is selected and when it is not selected.
-

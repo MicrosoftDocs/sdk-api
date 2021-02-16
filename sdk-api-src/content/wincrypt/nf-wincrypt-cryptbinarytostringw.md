@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CryptBinaryToStringW
  - wincrypt/CryptBinaryToStringW
- - CryptBinaryToString
- - wincrypt/CryptBinaryToString
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Crypt32.dll
 api_name:
- - CryptBinaryToStringW
  - CryptBinaryToString
+ - CryptBinaryToStringA
+ - CryptBinaryToStringW
 ---
 
 # CryptBinaryToStringW function
@@ -275,4 +274,3 @@ With the exception of when <b>CRYPT_STRING_BINARY</b> encoding is used, all stri
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptstringtobinarya">CryptStringToBinary</a>
-

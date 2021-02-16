@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10DeviceChild::GetPrivateData
+ - ID3D10DeviceChild.GetPrivateData
 ---
 
 # ID3D10DeviceChild::GetPrivateData
@@ -86,4 +86,3 @@ The data stored in the device child is set with <a href="/windows/desktop/api/d3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10devicechild">ID3D10DeviceChild Interface</a>
-

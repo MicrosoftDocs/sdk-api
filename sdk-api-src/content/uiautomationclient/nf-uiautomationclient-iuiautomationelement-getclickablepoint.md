@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::GetClickablePoint
+ - IUIAutomationElement.GetClickablePoint
 ---
 
 # IUIAutomationElement::GetClickablePoint
@@ -92,4 +92,3 @@ A client application can use this method to simulate clicking the left or right 
 
 
 <b>Reference</b>
-

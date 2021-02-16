@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::get_Root
+ - IFileSystemImage.get_Root
 ---
 
 # IFileSystemImage::get_Root
@@ -102,4 +102,3 @@ Value: 0x8007000E
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObjectInPlace::Clone
+ - IMediaObjectInPlace.Clone
 ---
 
 # IMediaObjectInPlace::Clone
@@ -70,4 +70,3 @@ If the method succeeds, the <b>IMediaObjectInPlace</b> interface that it returns
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>
-

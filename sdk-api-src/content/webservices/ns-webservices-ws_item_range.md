@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_ITEM_RANGE
  - WS_ITEM_RANGE
 ---
 
@@ -69,4 +68,3 @@ The minimum number of elements that must appear.
 ### -field maxItemCount
 
 The maximum number of items that may appear.
-

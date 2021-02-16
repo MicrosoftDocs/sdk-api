@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::DestroyElement
+ - IStorage.DestroyElement
 ---
 
 # IStorage::DestroyElement
@@ -81,4 +81,3 @@ If a storage object is opened in the transacted mode, destruction of an element 
 ## -see-also
 
 <a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
-

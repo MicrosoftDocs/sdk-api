@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PSYM_ENUMLINES_CALLBACK
+ - SymEnumLinesProc
 ---
 
 # PSYM_ENUMLINES_CALLBACK callback function
@@ -85,4 +85,3 @@ If the function returns <b>FALSE</b>, the enumeration will stop.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symenumsourcelines">SymEnumSourceLines</a>
-

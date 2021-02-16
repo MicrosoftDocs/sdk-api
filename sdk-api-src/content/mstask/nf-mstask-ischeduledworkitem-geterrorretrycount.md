@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetErrorRetryCount
+ - IScheduledWorkItem.GetErrorRetryCount
 ---
 
 # IScheduledWorkItem::GetErrorRetryCount
@@ -71,4 +71,3 @@ Not implemented.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-seterrorretrycount">SetErrorRetryCount</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIFramework::FlushPendingInvalidations
+ - IUIFramework.FlushPendingInvalidations
 ---
 
 # IUIFramework::FlushPendingInvalidations
@@ -76,4 +76,3 @@ Returns S_OK if successful; otherwise, an error value.
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

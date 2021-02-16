@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Tint::Tint
+ - Tint.Tint
 ---
 
 # Tint::Tint
@@ -66,4 +66,3 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-tint">T
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-tintparams">TintParams</a>
-

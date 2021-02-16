@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider::get_LocalizedName
+ - ISpellCheckProvider.LocalizedName
+ - ISpellCheckProvider.get_LocalizedName
 ---
 
 # ISpellCheckProvider::get_LocalizedName
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
-

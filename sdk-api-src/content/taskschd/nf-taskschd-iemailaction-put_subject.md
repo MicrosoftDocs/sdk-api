@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_Subject
+ - IEmailAction.Subject
+ - IEmailAction.get_Subject
+ - IEmailAction.put_Subject
 ---
 
 # IEmailAction::put_Subject
@@ -65,4 +67,3 @@ When setting this property value, the value can be text that is retrieved from a
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
-

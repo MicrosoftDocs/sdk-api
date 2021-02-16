@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::HideCursor
+ - IVideoWindow.HideCursor
 ---
 
 # IVideoWindow::HideCursor
@@ -141,4 +141,3 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-iscursorhidden">IVideoWindow::IsCursorHidden</a>
-

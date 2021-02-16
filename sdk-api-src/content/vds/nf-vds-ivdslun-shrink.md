@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::Shrink
+ - IVdsLun.Shrink
 ---
 
 # IVdsLun::Shrink
@@ -159,4 +159,3 @@ Implementers must remove the bytes from the end of the LUN.
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-extend">IVdsLun::Extend</a>
-

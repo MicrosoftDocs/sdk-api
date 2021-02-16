@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush::TextureBrush
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN const RectF &,IN const ImageAttributes)
@@ -96,4 +96,3 @@ Optional. Pointer to an <a href="/windows/desktop/api/gdiplusimageattributes/nl-
 
 
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush">TextureBrush</a>
-

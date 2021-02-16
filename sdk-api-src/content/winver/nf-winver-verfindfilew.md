@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - VerFindFileW
  - winver/VerFindFileW
- - VerFindFile
- - winver/VerFindFile
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Core-Versionansi-L1-1-1.dll
  - API-MS-Win-Core-Version-L1-1-1.dll
 api_name:
- - VerFindFileW
  - VerFindFile
+ - VerFindFileA
+ - VerFindFileW
 ---
 
 # VerFindFileW function
@@ -233,4 +232,3 @@ If the
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
-

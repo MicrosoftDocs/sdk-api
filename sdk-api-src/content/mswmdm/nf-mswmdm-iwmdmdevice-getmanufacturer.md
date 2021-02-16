@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice::GetManufacturer
+ - IWMDMDevice.GetManufacturer
 ---
 
 # IWMDMDevice::GetManufacturer
@@ -81,4 +81,3 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice">IWMDMDevice Interface</a>
-

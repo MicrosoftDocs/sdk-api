@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2Voice::DestroyVoice
+ - IXAudio2Voice.DestroyVoice
 ---
 
 # IXAudio2Voice::DestroyVoice
@@ -81,4 +81,3 @@ Windows 10 (XAudio2.9);
 ## -see-also
 
 <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2voice">IXAudio2Voice</a>
-

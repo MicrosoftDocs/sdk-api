@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::put_CoverpageSubject
+ - IFaxDoc.CoverpageSubject
+ - IFaxDoc.get_CoverpageSubject
+ - IFaxDoc.put_CoverpageSubject
 ---
 
 # IFaxDoc::put_CoverpageSubject
@@ -77,4 +79,3 @@ The <b>get_CoverpageSubject</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

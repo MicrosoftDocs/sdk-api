@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_SSL_KEY
- - PHTTP_SERVICE_CONFIG_SSL_KEY
  - HTTP_SERVICE_CONFIG_SSL_KEY
 ---
 
@@ -84,4 +82,3 @@ If the <b>sin_addr</b> field in <b>IpPort</b> is set to 0.0.0.0, the certificate
 
 
 <a href="/windows/desktop/api/http/ns-http-http_service_config_ssl_set">HTTP_SERVICE_CONFIG_SSL_SET</a>
-

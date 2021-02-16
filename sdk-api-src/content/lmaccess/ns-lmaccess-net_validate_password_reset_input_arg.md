@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
- - PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG
  - NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 ---
 
@@ -95,4 +93,3 @@ BOOLEAN value that can reset the "lockout state" of the user account. If this me
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleProtection::InitInputProtection
+ - IMFSampleProtection.InitInputProtection
 ---
 
 # IMFSampleProtection::InitInputProtection
@@ -96,4 +96,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsampleprotection">IMFSampleProtection</a>
-

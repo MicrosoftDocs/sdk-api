@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winsxs.h
 api_name:
- - _ASSEMBLY_INFO
  - ASSEMBLY_INFO
 ---
 
@@ -93,4 +92,3 @@ A pointer to a null-terminated string that contains the path to the manifest fil
 ### -field cchBuf
 
 The number  of characters, including the null terminator, in the string specified by <i>pszCurrentAssemblyPathBuf</i>.
-

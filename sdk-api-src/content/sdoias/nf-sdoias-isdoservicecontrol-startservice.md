@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoServiceControl::StartService
+ - ISdoServiceControl.StartService
 ---
 
 # ISdoServiceControl::StartService
@@ -83,4 +83,3 @@ Calls to this method return almost immediately. NPS (IAS) takes several minutes 
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdoservicecontrol-stopservice">ISdoServiceControl::StopService</a>
-

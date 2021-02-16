@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::ComposeWith
+ - IMoniker.ComposeWith
 ---
 
 # IMoniker::ComposeWith
@@ -175,4 +175,3 @@ If the <i>pmkRight</i> parameter is not of a class to which you give special tre
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-

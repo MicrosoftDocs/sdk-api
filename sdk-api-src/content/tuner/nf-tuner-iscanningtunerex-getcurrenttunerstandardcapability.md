@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tuner.h
 api_name:
- - IScanningTunerEx::GetCurrentTunerStandardCapability
+ - IScanningTunerEx.GetCurrentTunerStandardCapability
 ---
 
 # IScanningTunerEx::GetCurrentTunerStandardCapability
@@ -78,4 +78,3 @@ When the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
-

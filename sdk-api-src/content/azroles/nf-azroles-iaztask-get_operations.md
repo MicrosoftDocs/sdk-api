@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask::get_Operations
+ - IAzTask.Operations
+ - IAzTask.get_Operations
+ - AzTask.Operations
 ---
 
 # IAzTask::get_Operations
@@ -59,4 +61,3 @@ This property is read-only.
 ## -remarks
 
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
-

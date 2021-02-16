@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _EVENT_TRACE_LOGFILEA
- - PEVENT_TRACE_LOGFILEA
+ - EVENT_TRACE_LOGFILE
  - EVENT_TRACE_LOGFILEA
+ - EVENT_TRACE_LOGFILEW
 ---
 
 # EVENT_TRACE_LOGFILEA structure
@@ -224,4 +224,3 @@ consumer's <a href="/windows/desktop/ETW/buffercallback">BufferCallback</a> func
 
 
 <a href="/windows/desktop/ETW/opentrace">OpenTrace</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _CRYPT_REGISTER_ACTIONID
- - PCRYPT_REGISTER_ACTIONID
  - CRYPT_REGISTER_ACTIONID
 ---
 
@@ -105,4 +103,3 @@ The size, in bytes, of this structure.
 
 
 <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustaddactionid">WintrustAddActionID</a>
-

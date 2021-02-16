@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _ENUMRECTS
  - ENUMRECTS
 ---
 
@@ -64,4 +63,3 @@ Specifies the number of RECTL structures in the <b>arcl</b> array.
 ### -field arcl
 
 Is an array of <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a> structures that specify the coordinates of rectangles in the clip region.
-

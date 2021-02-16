@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation::GetReport
+ - ILocation.GetReport
 ---
 
 # ILocation::GetReport
@@ -191,4 +191,3 @@ if (SUCCEEDED(hr))
 }
 
 ```
-

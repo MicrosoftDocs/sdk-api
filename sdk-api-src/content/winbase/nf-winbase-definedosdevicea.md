@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DefineDosDeviceA
  - winbase/DefineDosDeviceA
- - DefineDosDevice
- - winbase/DefineDosDevice
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - DefineDosDeviceA
  - DefineDosDevice
+ - DefineDosDeviceA
+ - DefineDosDeviceW
 ---
 
 # DefineDosDeviceA function
@@ -269,4 +268,3 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-

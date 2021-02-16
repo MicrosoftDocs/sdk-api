@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CFrameworkQuery::GetQueryClassName
+ - CFrameworkQuery.GetQueryClassName
 ---
 
 # CFrameworkQuery::GetQueryClassName
@@ -68,4 +68,3 @@ Returns the class name if the operation was successful and <b>NULL</b> otherwise
 ## -remarks
 
 It is the developer's responsibility to call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the <b>BSTR</b> returned by this method to avoid a memory leak.
-

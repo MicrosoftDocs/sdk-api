@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FindFirstVolumeMountPointA
  - winbase/FindFirstVolumeMountPointA
- - FindFirstVolumeMountPoint
- - winbase/FindFirstVolumeMountPoint
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FindFirstVolumeMountPointA
  - FindFirstVolumeMountPoint
+ - FindFirstVolumeMountPointA
+ - FindFirstVolumeMountPointW
 ---
 
 # FindFirstVolumeMountPointA function
@@ -193,4 +192,3 @@ SMB does not support volume management functions. CsvFS does not support adding 
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-

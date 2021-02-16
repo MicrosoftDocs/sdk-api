@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Nspapi.h
 api_name:
- - _PROTOCOL_INFOA
- - PPROTOCOL_INFOA
+ - PROTOCOL_INFO
  - PROTOCOL_INFOA
+ - PROTOCOL_INFOW
 ---
 
 # PROTOCOL_INFOA structure
@@ -315,4 +315,3 @@ Pointer to a zero-terminated string that supplies a name for the protocol; for e
 
 > [!NOTE]
 > The nspapi.h header defines PROTOCOL_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shimgvw.dll
 api_name:
- - IHWEventHandler::Initialize
+ - IHWEventHandler.Initialize
 ---
 
 # IHWEventHandler::Initialize
@@ -84,4 +84,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method receives the registry string stored in the InitCmdLine value under the
         
          <b>AutoPlayHandlers</b>&#92;<b>Handlers</b>&#92;<i>HandlerName</i>key. Applications that have registered with AutoPlay as event handlers place this string into the registry as part of the registration process.
-

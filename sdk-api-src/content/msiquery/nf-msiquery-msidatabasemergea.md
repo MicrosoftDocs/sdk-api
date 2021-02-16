@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseMergeA
  - msiquery/MsiDatabaseMergeA
- - MsiDatabaseMerge
- - msiquery/MsiDatabaseMerge
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDatabaseMergeA
  - MsiDatabaseMerge
+ - MsiDatabaseMergeA
+ - MsiDatabaseMergeW
 ---
 
 # MsiDatabaseMergeA function
@@ -202,4 +201,3 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 <a href="/windows/desktop/Msi/database-functions">Database Management Functions</a>
-

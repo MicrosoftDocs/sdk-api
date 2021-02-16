@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsWriter.h
 api_name:
- - IVssExpressWriter::LoadMetadata
+ - IVssExpressWriter.LoadMetadata
 ---
 
 # IVssExpressWriter::LoadMetadata
@@ -101,4 +101,3 @@ The XML document is not valid. Check the event log for details. For more informa
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-

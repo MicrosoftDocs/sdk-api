@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEventEx::SetNotifyFlags
+ - IMediaEventEx.SetNotifyFlags
 ---
 
 # IMediaEventEx::SetNotifyFlags
@@ -93,4 +93,3 @@ If event notifications are disabled, the handle returned by the <a href="/window
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetEffectiveRightsFromAclW
  - aclapi/GetEffectiveRightsFromAclW
- - GetEffectiveRightsFromAcl
- - aclapi/GetEffectiveRightsFromAcl
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-security-trustee-l1-1-1.dll
  - advapi32legacy.dll
 api_name:
- - GetEffectiveRightsFromAclW
  - GetEffectiveRightsFromAcl
+ - GetEffectiveRightsFromAclA
+ - GetEffectiveRightsFromAclW
 ---
 
 # GetEffectiveRightsFromAclW function
@@ -436,4 +435,3 @@ void wmain(int argc, wchar_t *argv[])
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

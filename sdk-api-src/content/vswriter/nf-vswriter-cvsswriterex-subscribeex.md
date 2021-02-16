@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx::SubscribeEx
+ - CVssWriterEx.SubscribeEx
 ---
 
 # CVssWriterEx::SubscribeEx
@@ -147,4 +147,3 @@ The writer has previously called this method.
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
-

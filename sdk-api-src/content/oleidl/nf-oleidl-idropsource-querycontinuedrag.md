@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IDropSource::QueryContinueDrag
+ - IDropSource.QueryContinueDrag
 ---
 
 # IDropSource::QueryContinueDrag
@@ -117,4 +117,3 @@ The <a href="/windows/desktop/api/ole2/nf-ole2-dodragdrop">DoDragDrop</a> functi
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-idropsource">IDropSource</a>
-

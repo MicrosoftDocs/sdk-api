@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_SENSOR_START_CAPTURE_FN
+ - SensorAdapterStartCapture
 ---
 
 # PIBIO_SENSOR_START_CAPTURE_FN callback function
@@ -429,4 +429,3 @@ SensorAdapterStartCapture(
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_finish_capture_fn">SensorAdapterFinishCapture</a>
-

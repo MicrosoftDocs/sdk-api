@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_STT::GetGpsUtcOffset
+ - IATSC_STT.GetGpsUtcOffset
 ---
 
 # IATSC_STT::GetGpsUtcOffset
@@ -103,4 +103,3 @@ GPS time is measured in seconds since January 6, 1980, and is not adjusted for l
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_stt">IATSC_STT Interface</a>
-

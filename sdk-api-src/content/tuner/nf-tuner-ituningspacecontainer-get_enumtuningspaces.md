@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer::get_EnumTuningSpaces
+ - ITuningSpaceContainer.get_EnumTuningSpaces
 ---
 
 # ITuningSpaceContainer::get_EnumTuningSpaces
@@ -69,4 +69,3 @@ C++ applications use this method to get the initial list of tuning spaces define
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-

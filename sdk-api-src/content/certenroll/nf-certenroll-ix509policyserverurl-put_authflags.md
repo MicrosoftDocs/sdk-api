@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::put_AuthFlags
+ - IX509PolicyServerUrl.AuthFlags
+ - IX509PolicyServerUrl.get_AuthFlags
+ - IX509PolicyServerUrl.put_AuthFlags
 ---
 
 # IX509PolicyServerUrl::put_AuthFlags
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

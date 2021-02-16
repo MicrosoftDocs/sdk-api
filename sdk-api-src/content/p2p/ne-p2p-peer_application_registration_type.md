@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_application_registration_type_tag
  - PEER_APPLICATION_REGISTRATION_TYPE
 ---
 
@@ -74,4 +73,3 @@ Applications with the same GUID and registered for the <b>current user</b>  take
 ## -see-also
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-enumerations">Collaboration API Enumerations</a>
-

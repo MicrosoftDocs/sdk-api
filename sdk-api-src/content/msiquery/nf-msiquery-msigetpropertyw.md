@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetPropertyW
  - msiquery/MsiGetPropertyW
- - MsiGetProperty
- - msiquery/MsiGetProperty
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetPropertyW
  - MsiGetProperty
+ - MsiGetPropertyA
+ - MsiGetPropertyW
 ---
 
 # MsiGetPropertyW function
@@ -136,4 +135,3 @@ UINT __stdcall MyCustomAction(MSIHANDLE hInstall)
 
 
 <a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-

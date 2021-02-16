@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::QueryId
+ - IPin.QueryId
 ---
 
 # IPin::QueryId
@@ -122,4 +122,3 @@ The filter allocates the returned string using the <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

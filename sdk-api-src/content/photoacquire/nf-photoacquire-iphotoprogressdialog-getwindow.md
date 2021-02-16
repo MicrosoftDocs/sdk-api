@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog::GetWindow
+ - IPhotoProgressDialog.GetWindow
 ---
 
 # IPhotoProgressDialog::GetWindow
@@ -95,4 +95,3 @@ Pointer passed was <b>NULL</b>
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
-

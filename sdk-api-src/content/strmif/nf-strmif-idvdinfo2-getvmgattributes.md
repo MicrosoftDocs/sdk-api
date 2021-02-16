@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetVMGAttributes
+ - IDvdInfo2.GetVMGAttributes
 ---
 
 # IDvdInfo2::GetVMGAttributes
@@ -118,4 +118,3 @@ The Video Manager Menu is not associated with any particular title number.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

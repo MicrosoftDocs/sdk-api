@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetEnhMetaFileDescriptionW
  - wingdi/GetEnhMetaFileDescriptionW
- - GetEnhMetaFileDescription
- - wingdi/GetEnhMetaFileDescription
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetEnhMetaFileDescriptionW
  - GetEnhMetaFileDescription
+ - GetEnhMetaFileDescriptionA
+ - GetEnhMetaFileDescriptionW
 ---
 
 # GetEnhMetaFileDescriptionW function
@@ -105,4 +104,3 @@ Where text arguments must use Unicode characters, use this function as a wide-ch
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - IEnumGUID::Skip
+ - IEnumGUID.Skip
 ---
 
 # IEnumGUID::Skip
@@ -65,4 +65,3 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumGUID</a>
-

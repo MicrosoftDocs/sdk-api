@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocument::CreateView
+ - IOleDocument.CreateView
 ---
 
 # IOleDocument::CreateView
@@ -155,4 +155,3 @@ Calling <b>CreateView</b> does not cause the new view to display itself. To do s
 
 
 <a href="/windows/desktop/api/docobj/nf-docobj-ioledocumentview-uiactivate">IOleDocumentView::UIActivate</a>
-

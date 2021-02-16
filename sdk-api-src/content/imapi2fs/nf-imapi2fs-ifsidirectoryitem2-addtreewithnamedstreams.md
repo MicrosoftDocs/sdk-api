@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem2::AddTreeWithNamedStreams
+ - IFsiDirectoryItem2.AddTreeWithNamedStreams
 ---
 
 # IFsiDirectoryItem2::AddTreeWithNamedStreams
@@ -217,4 +217,3 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem2">IFsiDirectoryItem2</a>
-

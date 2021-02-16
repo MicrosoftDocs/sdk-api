@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetAudioAttributes
+ - IDvdInfo2.GetAudioAttributes
 ---
 
 # IDvdInfo2::GetAudioAttributes
@@ -161,4 +161,3 @@ The use of this method is demonstrated in the DVDSample application in <b>CDvdCo
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

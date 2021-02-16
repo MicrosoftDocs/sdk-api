@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader::SyncRead
+ - IAsyncReader.SyncRead
 ---
 
 # IAsyncReader::SyncRead
@@ -115,4 +115,3 @@ This method works even if the filter is stopped.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iasyncreader-syncreadaligned">IAsyncReader::SyncReadAligned</a>
-

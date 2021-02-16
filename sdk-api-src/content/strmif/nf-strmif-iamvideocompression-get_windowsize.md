@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression::get_WindowSize
+ - IAMVideoCompression.get_WindowSize
 ---
 
 # IAMVideoCompression::get_WindowSize
@@ -120,4 +120,3 @@ Not implemented.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_windowsize">IAMVideoCompression::put_WindowSize</a>
-

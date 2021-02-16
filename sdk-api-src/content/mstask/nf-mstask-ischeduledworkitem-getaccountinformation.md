@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetAccountInformation
+ - IScheduledWorkItem.GetAccountInformation
 ---
 
 # IScheduledWorkItem::GetAccountInformation
@@ -151,4 +151,3 @@ For more information and an example of how to retrieve the account information o
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setaccountinformation">IScheduledWorkItem::SetAccountInformation</a>
-

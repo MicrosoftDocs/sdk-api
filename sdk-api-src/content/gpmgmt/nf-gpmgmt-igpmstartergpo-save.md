@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMStarterGPO::Save
+ - IGPMStarterGPO.Save
 ---
 
 # IGPMStarterGPO::Save
@@ -105,4 +105,3 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO</a>
-

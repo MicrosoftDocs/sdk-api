@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IControlChangeNotify::OnNotify
+ - IControlChangeNotify.OnNotify
 ---
 
 # IControlChangeNotify::OnNotify
@@ -73,4 +73,3 @@ A client can use this method to keep track of control changes made by other proc
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolchangenotify">IControlChangeNotify Interface</a>
-

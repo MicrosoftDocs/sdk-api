@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRules::RemoveByCountryAndArea
+ - IFaxOutboundRoutingRules.RemoveByCountryAndArea
+ - IFaxOutboundRoutingRules.RemoveByCountryAndArea
 ---
 
 # IFaxOutboundRoutingRules::RemoveByCountryAndArea
@@ -87,4 +88,3 @@ You cannot set both <i>lCountryCode</i> and <i>lAreaCode</i> to <a href="/previo
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-creating-and-managing-outbound-routing-rules">Visual Basic Example</a>
-

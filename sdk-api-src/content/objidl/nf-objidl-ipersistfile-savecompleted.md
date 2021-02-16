@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistFile::SaveCompleted
+ - IPersistFile.SaveCompleted
 ---
 
 # IPersistFile::SaveCompleted
@@ -72,4 +72,3 @@ OLE does not call the <b>SaveCompleted</b> method. Typically, applications would
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
-

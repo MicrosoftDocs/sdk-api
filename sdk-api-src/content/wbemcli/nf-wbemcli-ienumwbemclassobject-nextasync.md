@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IEnumWbemClassObject::NextAsync
+ - IEnumWbemClassObject.NextAsync
 ---
 
 # IEnumWbemClassObject::NextAsync
@@ -93,4 +93,3 @@ If there are no available objects, <a href="/windows/desktop/api/wbemcli/nf-wbem
 Because the callback might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication. If you require asynchronous communication, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
 
 For more information about using methods semisynchronously, see <a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a> and <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.
-

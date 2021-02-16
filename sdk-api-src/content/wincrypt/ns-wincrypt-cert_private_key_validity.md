@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_PRIVATE_KEY_VALIDITY
- - PCERT_PRIVATE_KEY_VALIDITY
  - CERT_PRIVATE_KEY_VALIDITY
 ---
 
@@ -74,4 +72,3 @@ Date and time after which the certificate is not valid. For dates between 1950 a
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_attributes_info">CERT_KEY_ATTRIBUTES_INFO</a>
-

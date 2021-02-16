@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMRegisteredDevice::IsApproved
+ - IWMRegisteredDevice.IsApproved
 ---
 
 # IWMRegisteredDevice::IsApproved
@@ -94,4 +94,3 @@ Use this method to discover whether the device is approved. To approve the devic
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmregistereddevice">IWMRegisteredDevice Interface</a>
-

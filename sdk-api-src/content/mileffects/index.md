@@ -9,8 +9,6 @@ tech.root: wibe
 f1_keywords:
  - mileffects
  - mileffects/mileffects
-api_name:
- - mileffects
 ---
 
 # Mileffects.h header

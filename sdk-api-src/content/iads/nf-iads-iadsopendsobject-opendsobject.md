@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsOpenDSObject::OpenDSObject
+ - IADsOpenDSObject.OpenDSObject
 ---
 
 # IADsOpenDSObject::OpenDSObject
@@ -263,4 +263,3 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnection2a">WNetAddConnetion2</a>
-

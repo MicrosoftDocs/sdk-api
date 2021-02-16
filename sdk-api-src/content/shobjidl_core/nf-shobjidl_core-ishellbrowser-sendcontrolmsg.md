@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser::SendControlMsg
+ - IShellBrowser.SendControlMsg
 ---
 
 # IShellBrowser::SendControlMsg
@@ -104,4 +104,3 @@ If your Windows Explorer does not have these controls, you can return <b>E_NOTIM
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchPersistentItemsChangedSink::OnItemsChanged
+ - ISearchPersistentItemsChangedSink.OnItemsChanged
 ---
 
 # ISearchPersistentItemsChangedSink::OnItemsChanged
@@ -77,4 +77,3 @@ Indicates whether each URL was accepted for indexing.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - ICommandTree::GetCommandTree
+ - ICommandTree.GetCommandTree
 ---
 
 # ICommandTree::GetCommandTree
@@ -147,4 +147,3 @@ This method does not reveal a provider's internal, optimized translation (which 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cmdtree/nn-cmdtree-icommandtree">ICommandTree</a>
-

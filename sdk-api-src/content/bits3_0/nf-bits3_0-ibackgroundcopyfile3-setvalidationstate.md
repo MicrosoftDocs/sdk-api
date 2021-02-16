@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyFile3::SetValidationState
+ - IBackgroundCopyFile3.SetValidationState
 ---
 
 # IBackgroundCopyFile3::SetValidationState
@@ -128,4 +128,3 @@ If you validate a file in the cache and then call <a href="/windows/desktop/api/
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacherecord-isfilevalidated">IBitsPeerCacheRecord::IsFileValidated</a>
-

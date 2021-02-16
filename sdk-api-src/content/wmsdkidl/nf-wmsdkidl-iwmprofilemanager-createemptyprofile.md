@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager::CreateEmptyProfile
+ - IWMProfileManager.CreateEmptyProfile
 ---
 
 # IWMProfileManager::CreateEmptyProfile
@@ -120,4 +120,3 @@ Use this method to create any profile that uses the Windows Media® Audio and Vi
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_version">WMT_VERSION</a>
-

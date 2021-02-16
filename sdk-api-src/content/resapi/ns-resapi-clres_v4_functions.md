@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_V4_FUNCTIONS
- - PCLRES_V4_FUNCTIONS
 ---
 
 # CLRES_V4_FUNCTIONS structure
@@ -119,4 +118,3 @@ Pointer to the <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-

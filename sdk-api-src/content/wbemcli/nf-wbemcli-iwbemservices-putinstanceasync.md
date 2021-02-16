@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::PutInstanceAsync
+ - IWbemServices.PutInstanceAsync
 ---
 
 # IWbemServices::PutInstanceAsync
@@ -285,4 +285,3 @@ HRESULT CStdProvider::PutInstanceAsync(
 
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices">IWbemServices</a>
-

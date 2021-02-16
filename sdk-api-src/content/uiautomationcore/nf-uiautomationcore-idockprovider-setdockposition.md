@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IDockProvider::SetDockPosition
+ - IDockProvider.SetDockPosition
 ---
 
 # IDockProvider::SetDockPosition
@@ -77,4 +77,3 @@ A docking container is a control that allows the arrangement of child elements, 
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

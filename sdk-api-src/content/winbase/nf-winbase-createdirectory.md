@@ -50,6 +50,8 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - CreateDirectory
+ - CreateDirectoryA
+ - CreateDirectoryW
 ---
 
 # CreateDirectory function
@@ -246,4 +248,3 @@ For an example, see
 
 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-

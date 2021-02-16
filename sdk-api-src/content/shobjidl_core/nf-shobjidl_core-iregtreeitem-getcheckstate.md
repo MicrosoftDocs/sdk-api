@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IRegTreeItem::GetCheckState
+ - IRegTreeItem.GetCheckState
 ---
 
 # IRegTreeItem::GetCheckState
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/Controls/tree-view-controls">Tree-View Controls</a>
-

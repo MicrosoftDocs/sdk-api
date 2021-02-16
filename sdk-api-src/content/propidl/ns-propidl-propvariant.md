@@ -46,8 +46,6 @@ api_type:
 api_location:
  - propidlbase.h
 api_name:
- - tagPROPVARIANT
- - LPPROPVARIANT
  - PROPVARIANT
 ---
 
@@ -381,6 +379,7 @@ Reserved for future use.
 ### -field decVal
 
  <b>VT_BYREF</b> | <b>VT_DECIMAL</b>, Version 1
+
 
 ## -remarks
 
@@ -765,4 +764,3 @@ If the value of the <b>ulClipFmt</b> member is -1, the data is in the form of a 
 After the <b>METAFILEPICT</b> structure is the metafile data, suitable to be passed to the <b>SetMetaFileBitsEx</b> function. This function creates a memory-based, Windows-format metafile from the supplied data. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the <b>SetEnhMetaFileBits</b> function. This function retrieves the contents of the specified enhanced-format metafile and copies them into a buffer. If the function succeeds and the buffer pointer is <b>NULL</b>, the return value is the size of the enhanced metafile in bytes. If the function succeeds and the buffer pointer is a valid pointer, the return value is the number of bytes copied to the buffer. If the function fails, the return value is zero.
 
 When register clipboard formats are placed on or retrieved from the clipboard, they must be in the form of an <b>HGLOBAL</b> value.
-

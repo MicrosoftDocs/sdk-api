@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayerApplication::switchToControl
+ - IWMPPlayerApplication.switchToControl
 ---
 
 # IWMPPlayerApplication::switchToControl
@@ -91,4 +91,3 @@ You should avoid keeping a remoted instance of the Player running in the backgro
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
-

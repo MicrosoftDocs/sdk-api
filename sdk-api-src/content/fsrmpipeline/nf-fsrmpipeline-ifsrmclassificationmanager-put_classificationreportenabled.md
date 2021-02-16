@@ -42,7 +42,12 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::put_ClassificationReportEnabled
+ - IFsrmClassificationManager.ClassificationReportEnabled
+ - IFsrmClassificationManager.get_ClassificationReportEnabled
+ - IFsrmClassificationManager.put_ClassificationReportEnabled
+ - IFsrmClassificationManager2.ClassificationReportEnabled
+ - IFsrmClassificationManager2.get_ClassificationReportEnabled
+ - IFsrmClassificationManager2.put_ClassificationReportEnabled
 ---
 
 # IFsrmClassificationManager::put_ClassificationReportEnabled
@@ -93,4 +98,3 @@ Controls reporting regardless of whether classification was scheduled (using the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

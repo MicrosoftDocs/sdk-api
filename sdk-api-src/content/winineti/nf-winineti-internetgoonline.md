@@ -43,6 +43,8 @@ api_location:
  - Wininet.dll
 api_name:
  - InternetGoOnline
+ - InternetGoOnlineA
+ - InternetGoOnlineW
 ---
 
 # InternetGoOnline function
@@ -124,4 +126,3 @@ The <i>dwFlags</i> parameter contains a value other than zero or <b>INTERNET_GOO
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

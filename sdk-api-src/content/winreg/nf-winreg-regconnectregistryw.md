@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegConnectRegistryW
  - winreg/RegConnectRegistryW
- - RegConnectRegistry
- - winreg/RegConnectRegistry
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegConnectRegistryW
  - RegConnectRegistry
+ - RegConnectRegistryA
+ - RegConnectRegistryW
 ---
 
 # RegConnectRegistryW function
@@ -132,4 +131,3 @@ If the current user does not have proper access to the remote computer, the call
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
-

@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dxcore.dll
 api_name:
- - IDXCoreAdapterFactory::RegisterEventNotification
-f1_keywords:
- - IDXCoreAdapterFactory::RegisterEventNotification
- - dxcore_interface/IDXCoreAdapterFactory::RegisterEventNotification
+ - IDXCoreAdapterFactory.RegisterEventNotification
 ---
 
 ## -description
@@ -114,4 +111,3 @@ Callbacks may occur at any time until you call [UnregisterEventNotification](/wi
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [IDXCoreAdapterFactory::UnregisterEventNotification](/windows/win32/api/dxcore_interface/nf-dxcore_interface-idxcoreadapterfactory-unregistereventnotification), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

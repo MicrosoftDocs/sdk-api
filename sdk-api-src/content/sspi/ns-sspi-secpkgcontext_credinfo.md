@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_CredInfo
- - PSecPkgContext_CredInfo
  - SecPkgContext_CredInfo
 ---
 
@@ -71,4 +69,3 @@ A nonzero value indicates that the application must prompt the user for credenti
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spquerycontextattributesfn">SpQueryContextAttributes</a>
-

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagAXISINFOA
- - PAXISINFOA
+ - AXISINFO
  - AXISINFOA
+ - AXISINFOW
 ---
 
 # AXISINFOA structure
@@ -102,4 +102,3 @@ For the ANSI version of this structure, <b>axAxisName</b> must be an array of by
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-

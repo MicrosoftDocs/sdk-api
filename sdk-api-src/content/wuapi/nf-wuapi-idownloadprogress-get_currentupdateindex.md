@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadProgress::get_CurrentUpdateIndex
+ - IDownloadProgress.CurrentUpdateIndex
+ - IDownloadProgress.get_CurrentUpdateIndex
 ---
 
 # IDownloadProgress::get_CurrentUpdateIndex
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
-

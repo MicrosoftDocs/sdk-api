@@ -42,7 +42,10 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting::put_AdminEmail
+ - IFsrmSetting.AdminEmail
+ - IFsrmSetting.get_AdminEmail
+ - IFsrmSetting.put_AdminEmail
+ - FsrmSetting.AdminEmail
 ---
 
 # IFsrmSetting::put_AdminEmail
@@ -74,4 +77,3 @@ For an example, see <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
-

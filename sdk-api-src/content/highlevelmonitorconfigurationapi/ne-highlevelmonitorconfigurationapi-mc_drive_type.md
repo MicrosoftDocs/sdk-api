@@ -44,7 +44,6 @@ api_type:
 api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
- - _MC_DRIVE_TYPE
  - MC_DRIVE_TYPE
 ---
 
@@ -80,4 +79,3 @@ Blue drive.
 
 
 <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluedrive">SetMonitorRedGreenOrBlueDrive</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - IOPMVideoOutput::COPPCompatibleGetInformation
+ - IOPMVideoOutput.COPPCompatibleGetInformation
 ---
 
 # IOPMVideoOutput::COPPCompatibleGetInformation
@@ -108,4 +108,3 @@ The <a href="/windows/desktop/api/opmapi/nn-opmapi-iopmvideooutput">IOPMVideoOut
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-

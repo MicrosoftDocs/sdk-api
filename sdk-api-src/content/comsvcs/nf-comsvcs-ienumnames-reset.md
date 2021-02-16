@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IEnumNames::Reset
+ - IEnumNames.Reset
 ---
 
 # IEnumNames::Reset
@@ -96,4 +96,3 @@ A call to this method, resetting the sequence, does not guarantee that the same 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
-

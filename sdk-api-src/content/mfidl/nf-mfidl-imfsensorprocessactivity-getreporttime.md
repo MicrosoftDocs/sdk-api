@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorProcessActivity::GetReportTime
+ - IMFSensorProcessActivity.GetReportTime
 ---
 
 # IMFSensorProcessActivity::GetReportTime
@@ -99,4 +99,3 @@ The <i>pft</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprocessactivity">IMFSensorProcessActivity</a>
-

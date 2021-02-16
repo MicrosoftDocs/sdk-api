@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFVideoSrcContentHintFlags
  - MFVideoSrcContentHintFlags
 ---
 
@@ -76,4 +75,3 @@ Use these flags with the <a href="/windows/desktop/medfound/mf-mt-source-content
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

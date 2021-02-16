@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions::RemoveClientCertificate
+ - IBackgroundCopyJobHttpOptions.RemoveClientCertificate
 ---
 
 # IBackgroundCopyJobHttpOptions::RemoveClientCertificate
@@ -118,4 +118,3 @@ You use the <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobh
 
 
 <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyname">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
-

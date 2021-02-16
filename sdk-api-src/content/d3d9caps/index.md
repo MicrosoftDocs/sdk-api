@@ -9,8 +9,6 @@ tech.root: direct3d9
 f1_keywords:
  - d3d9caps
  - d3d9caps/d3d9caps
-api_name:
- - d3d9caps
 ---
 
 # D3D9Caps.h header

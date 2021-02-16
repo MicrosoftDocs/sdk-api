@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth::GetLatencyClock
+ - IDirectMusicSynth.GetLatencyClock
 ---
 
 # IDirectMusicSynth::GetLatencyClock
@@ -132,4 +132,3 @@ The <i>ppClock</i> parameter follows the <a href="/windows-hardware/drivers/audi
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setmasterclock">IDirectMusicSynthSink::SetMasterClock</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0026
  - MPEG_DATE_AND_TIME
 ---
 
@@ -68,4 +67,3 @@ Specifies the time, as an <a href="/previous-versions/windows/desktop/api/mpeg2s
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

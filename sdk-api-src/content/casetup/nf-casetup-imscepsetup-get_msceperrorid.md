@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup::get_MSCEPErrorId
+ - IMSCEPSetup.MSCEPErrorId
+ - IMSCEPSetup.get_MSCEPErrorId
 ---
 
 # IMSCEPSetup::get_MSCEPErrorId
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsProperty::Qualifiers
+ - IADsProperty.Qualifiers
 ---
 
 # IADsProperty::Qualifiers
@@ -79,4 +79,3 @@ This method is not currently supported by any of the providers supplied by Micro
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsproperty">IADsProperty</a>
-

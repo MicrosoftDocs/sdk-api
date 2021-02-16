@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::CompareEnd
+ - ITfRange.CompareEnd
 ---
 
 # ITfRange::CompareEnd
@@ -227,4 +227,3 @@ This method is identical to <a href="/windows/desktop/api/msctf/nf-msctf-itfrang
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfanchor">TfAnchor
       </a>
-

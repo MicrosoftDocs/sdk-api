@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IAudioStreamSample::GetAudioData
+ - IAudioStreamSample.GetAudioData
 ---
 
 # IAudioStreamSample::GetAudioData
@@ -67,4 +67,3 @@ Returns S_OK if successful or E_POINTER if the parameter is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/austream/nn-austream-iaudiostreamsample">IAudioStreamSample Interface</a>
-

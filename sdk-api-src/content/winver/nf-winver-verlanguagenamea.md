@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - VerLanguageNameA
  - winver/VerLanguageNameA
- - VerLanguageName
- - winver/VerLanguageName
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Localization-L1-2-2.dll
  - kernel32.dll
 api_name:
- - VerLanguageNameA
  - VerLanguageName
+ - VerLanguageNameA
+ - VerLanguageNameW
 ---
 
 # VerLanguageNameA function
@@ -109,4 +108,3 @@ Typically, an installation program uses this function to translate a language id
 ## -see-also
 
 <a href="/windows/desktop/menurc/version-information">Version Information Overview</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice::get_UsedRoutingMethods
+ - IFaxDevice.UsedRoutingMethods
+ - IFaxDevice.get_UsedRoutingMethods
+ - IFaxDevice.get_UsedRoutingMethods
 ---
 
 # IFaxDevice::get_UsedRoutingMethods
@@ -77,4 +79,3 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
-

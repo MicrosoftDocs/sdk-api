@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder::AllocResource
+ - IHolder.AllocResource
 ---
 
 # IHolder::AllocResource
@@ -128,4 +128,3 @@ If the caller does not have a current transaction, the enlistment is skipped. Or
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
-

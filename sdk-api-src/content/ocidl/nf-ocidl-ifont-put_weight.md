@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::put_Weight
+ - IFont.put_Weight
 ---
 
 # IFont::put_Weight
@@ -107,4 +107,3 @@ This property may
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_weight">IFont::get_Weight</a>
-

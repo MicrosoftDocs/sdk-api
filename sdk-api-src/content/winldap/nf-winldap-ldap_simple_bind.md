@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_simple_bind
+ - ldap_simple_bindA
+ - ldap_simple_bindW
 ---
 
 # ldap_simple_bind function
@@ -126,4 +128,3 @@ The <b>ldap_simple_bind</b> function is designed to bind to the local domain. Th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList::Item
+ - IADsPropertyList.Item
 ---
 
 # IADsPropertyList::Item
@@ -206,4 +206,3 @@ if(pEntry)
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

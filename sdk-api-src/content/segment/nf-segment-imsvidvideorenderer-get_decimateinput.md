@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::get_DecimateInput
+ - IMSVidVideoRenderer.get_DecimateInput
 ---
 
 # IMSVidVideoRenderer::get_DecimateInput
@@ -96,4 +96,3 @@ This property should be set to true when the native video stream is HDTV but the
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

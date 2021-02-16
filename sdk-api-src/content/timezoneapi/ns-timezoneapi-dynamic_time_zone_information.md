@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _TIME_DYNAMIC_ZONE_INFORMATION
- - PDYNAMIC_TIME_ZONE_INFORMATION
  - DYNAMIC_TIME_ZONE_INFORMATION
 ---
 
@@ -262,4 +260,3 @@ For more information on other values in the <b>Time Zones</b> key, see
 
 
 <a href="/windows/desktop/api/timezoneapi/nf-timezoneapi-setdynamictimezoneinformation">SetDynamicTimeZoneInformation</a>
-

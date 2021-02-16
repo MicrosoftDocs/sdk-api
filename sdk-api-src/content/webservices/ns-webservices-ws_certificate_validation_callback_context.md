@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
  - WS_CERTIFICATE_VALIDATION_CALLBACK_CONTEXT
 ---
 
@@ -68,4 +67,3 @@ Application specific state that is made available to the callback when invoked.
 ## -see-also
 
 <a href="/windows/desktop/api/webservices/nc-webservices-ws_certificate_validation_callback">WS_CERTIFICATE_VALIDATION_CALLBACK</a>
-

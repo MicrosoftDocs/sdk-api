@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPRemoteMediaServices::GetCustomUIMode
+ - IWMPRemoteMediaServices.GetCustomUIMode
 ---
 
 # IWMPRemoteMediaServices::GetCustomUIMode
@@ -96,4 +96,3 @@ The embedded Windows Media Player control does not have to be remoted to use thi
 
 
 <a href="/windows/desktop/WMP/using-skins-with-the-windows-media-player-control">Using Skins with the Windows Media Player Control</a>
-

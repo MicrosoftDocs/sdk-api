@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_FILTER_RANGE_DATA
  - DXVAHD_FILTER_RANGE_DATA
 ---
 
@@ -99,4 +98,3 @@ The device should use  a multiplier that can be represented exactly as a base-2 
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_SETCOLORKEY
+ - DdSetColorKey
 ---
 
 ## -description
@@ -66,4 +66,3 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setcolorkeydat
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setcolorkeydata">DD_SETCOLORKEYDATA</a>
-

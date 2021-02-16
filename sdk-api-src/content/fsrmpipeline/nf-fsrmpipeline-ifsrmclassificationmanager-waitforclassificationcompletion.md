@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::WaitForClassificationCompletion
+ - IFsrmClassificationManager.WaitForClassificationCompletion
+ - IFsrmClassificationManager2.WaitForClassificationCompletion
+ - FsrmClassificationManager.WaitForClassificationCompletion
 ---
 
 # IFsrmClassificationManager::WaitForClassificationCompletion
@@ -104,4 +106,3 @@ After
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecComp::AppendEx
+ - IStreamBufferRecComp.AppendEx
 ---
 
 # IStreamBufferRecComp::AppendEx
@@ -99,4 +99,3 @@ The caller must validate <i>rtStart</i> and <i>rtStop</i> before calling this me
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-

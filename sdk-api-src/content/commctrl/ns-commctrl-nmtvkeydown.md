@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagTVKEYDOWN
- - LPNMTVKEYDOWN
  - NMTVKEYDOWN
 ---
 
@@ -83,4 +81,3 @@ Always zero.
 ## -see-also
 
 <a href="/windows/desktop/Controls/wm-notify">WM_NOTIFY</a>
-

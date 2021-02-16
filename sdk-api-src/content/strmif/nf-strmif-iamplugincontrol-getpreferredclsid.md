@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMPluginControl::GetPreferredClsid
+ - IAMPluginControl.GetPreferredClsid
 ---
 
 # IAMPluginControl::GetPreferredClsid
@@ -104,4 +104,3 @@ No CLSID matching this subtype was found.
 
 
 <a href="/windows/desktop/DirectShow/intelligent-connect">Intelligent Connect</a>
-

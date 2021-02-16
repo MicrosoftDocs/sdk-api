@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase::Serialize
+ - ISyncChangeBatchBase.Serialize
 ---
 
 # ISyncChangeBatchBase::Serialize
@@ -132,4 +132,3 @@ The last group added to the batch was not ended.
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
-

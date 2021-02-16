@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfigurationCollection::CreateCAConfiguration
+ - IOCSPCAConfigurationCollection.CreateCAConfiguration
 ---
 
 # IOCSPCAConfigurationCollection::CreateCAConfiguration
@@ -83,4 +83,3 @@ An
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfigurationcollection">IOCSPCAConfigurationCollection</a>
-

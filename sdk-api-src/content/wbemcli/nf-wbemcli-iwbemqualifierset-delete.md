@@ -45,7 +45,7 @@ api_location:
  - Ncprov.dll
  - Wbemcore.dll
 api_name:
- - IWbemQualifierSet::Delete
+ - IWbemQualifierSet.Delete
 ---
 
 # IWbemQualifierSet::Delete
@@ -69,4 +69,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -see-also
 
 <a href="/windows/desktop/WmiSdk/qualifier-flavors">Qualifier Flavors</a>
-

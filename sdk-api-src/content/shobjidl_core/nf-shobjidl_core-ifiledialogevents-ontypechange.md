@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogEvents::OnTypeChange
+ - IFileDialogEvents.OnTypeChange
 ---
 
 # IFileDialogEvents::OnTypeChange
@@ -77,4 +77,3 @@ This method is called when the dialog is opened to notify the application of the
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialogevents">IFileDialogEvents</a>
-

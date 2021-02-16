@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::GetSequencePaddingWidth
+ - IPhotoAcquireSettings.GetSequencePaddingWidth
 ---
 
 # IPhotoAcquireSettings::GetSequencePaddingWidth
@@ -105,4 +105,3 @@ If the format string does not contain a sequential token, the value returned by 
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencepaddingwidth">SetSequencePaddingWidth</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comctl32.dll
 api_name:
- - IImageList::GetIcon
+ - IImageList.GetIcon
 ---
 
 # IImageList::GetIcon
@@ -84,4 +84,3 @@ The calling application must destroy the icon returned from this method using <a
 		
 
 To use <b>IImageList::GetIcon</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-

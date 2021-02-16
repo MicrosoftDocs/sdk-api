@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo::get_AssessmentDateTime
+ - IProvideWinSATResultsInfo.AssessmentDateTime
+ - IProvideWinSATResultsInfo.get_AssessmentDateTime
 ---
 
 # IProvideWinSATResultsInfo::get_AssessmentDateTime
@@ -61,4 +62,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iprovidewinsatresultsinfo">IProvideWinSATResultsInfo</a>
-

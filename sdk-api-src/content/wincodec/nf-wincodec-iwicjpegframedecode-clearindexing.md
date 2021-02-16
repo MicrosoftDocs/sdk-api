@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode::ClearIndexing
+ - IWICJpegFrameDecode.ClearIndexing
 ---
 
 # IWICJpegFrameDecode::ClearIndexing
@@ -67,4 +67,3 @@ Returns S_OK upons successful completion.
 
 
 <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-setindexing">IWICJpegFrameDecode::SetIndexing</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DResource9::GetPrivateData
+ - IDirect3DResource9.GetPrivateData
 ---
 
 # IDirect3DResource9::GetPrivateData
@@ -101,4 +101,3 @@ This method is inherited by the following interfaces:
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
-

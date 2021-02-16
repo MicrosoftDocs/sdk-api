@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmCompensatorVariants::AbortRecordVariants
+ - ICrmCompensatorVariants.AbortRecordVariants
 ---
 
 # ICrmCompensatorVariants::AbortRecordVariants
@@ -75,4 +75,3 @@ The CRM Compensator can choose to forget the record that is delivered to it duri
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>
-

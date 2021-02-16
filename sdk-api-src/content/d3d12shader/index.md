@@ -9,8 +9,6 @@ tech.root: direct3d12
 f1_keywords:
  - d3d12shader
  - d3d12shader/d3d12shader
-api_name:
- - d3d12shader
 ---
 
 # D3D12Shader.h header

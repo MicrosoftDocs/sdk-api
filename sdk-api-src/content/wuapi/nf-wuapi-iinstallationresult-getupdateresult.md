@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationResult::GetUpdateResult
+ - IInstallationResult.GetUpdateResult
 ---
 
 # IInstallationResult::GetUpdateResult
@@ -71,4 +71,3 @@ error code.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a>
-

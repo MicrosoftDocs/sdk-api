@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_BSS_ENTRY
- - PWLAN_BSS_ENTRY
  - WLAN_BSS_ENTRY
 ---
 
@@ -298,4 +296,3 @@ Since the information is returned by the access point for an infrastructure BSS 
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetnetworkbsslist">WlanGetNetworkBssList</a>
-

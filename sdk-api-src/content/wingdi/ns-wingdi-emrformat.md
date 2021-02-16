@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRFORMAT
- - PEMRFORMAT
  - EMRFORMAT
 ---
 
@@ -117,4 +115,3 @@ The reference page for <a href="/windows/desktop/api/wingdi/nf-wingdi-gdicomment
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

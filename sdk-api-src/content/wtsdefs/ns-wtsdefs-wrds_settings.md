@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_SETTINGS
- - PWRDS_SETTINGS
  - WRDS_SETTINGS
 ---
 
@@ -75,4 +73,5 @@ The setting level.
 A structure that contains the policy setting states and values.
 
 A structure that contains the policy setting states and values.
+
 

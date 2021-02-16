@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::GetChildren
+ - ITextRangeProvider.GetChildren
 ---
 
 # ITextRangeProvider::GetChildren
@@ -120,4 +120,3 @@ Each element retrieved with [ITextRangeProvider::GetChildren]() has a valid text
 ## -see-also
 
 [ITextProvider](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider](nn-uiautomationcore-itextrangeprovider.md), [GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md), [ITextProvider::RangeFromChild](nf-uiautomationcore-itextprovider-rangefromchild.md), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview), [Best Practices for Using Safe Arrays](/windows/desktop/WinAuto/uiauto-workingwithsafearrays)
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0_
  - IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0
 ---
 
@@ -129,4 +128,3 @@ Total number of successful extended mode negotiations that used impersonation.
 ### -field totalImpersonationMainModes
 
 Total number of successful Main Mode mode negotiations that used impersonation.
-

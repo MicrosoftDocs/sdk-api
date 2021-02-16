@@ -7,6 +7,10 @@ tech.root: fwp
 ms.assetid: 2D71C44C-B553-46DD-8943-DCC979A7DC6B
 ms.date: 12/05/2018
 ms.keywords: FWPM_NET_EVENT3, FWPM_NET_EVENT3 structure [Filtering], fwp.fwpm_net_event3, fwpmtypes/FWPM_NET_EVENT3
+f1_keywords:
+- fwpmtypes/FWPM_NET_EVENT3
+dev_langs:
+- c++
 req.header: fwpmtypes.h
 req.include-header: 
 req.target-type: Windows
@@ -24,33 +28,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- Fwpmtypes.h
+api_name:
+- FWPM_NET_EVENT3
 targetos: Windows
 req.typenames: FWPM_NET_EVENT3
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - FWPM_NET_EVENT3_
- - fwpmtypes/FWPM_NET_EVENT3_
- - FWPM_NET_EVENT3
- - fwpmtypes/FWPM_NET_EVENT3
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - HeaderDef
-api_location:
- - Fwpmtypes.h
-api_name:
- - FWPM_NET_EVENT3_
- - FWPM_NET_EVENT3
 ---
 
 # FWPM_NET_EVENT3 structure
 
 
 ## -description
+
 
 The **FWPM_NET_EVENT3** structure contains information about all event types.
 [FWPM_NET_EVENT2](ns-fwpmtypes-fwpm_net_event2.md) is available. For Windows 7, [FWPM_NET_EVENT1](ns-fwpmtypes-fwpm_net_event1.md) is available. For Windows Vista, [FWPM_NET_EVENT0](ns-fwpmtypes-fwpm_net_event0.md) is available.
@@ -120,4 +117,3 @@ Information about a MAC layer drop event.
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_PROTOCOL_CACHE
- - PWTS_PROTOCOL_CACHE
  - WTS_PROTOCOL_CACHE
 ---
 

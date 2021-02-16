@@ -43,7 +43,7 @@ api_location:
  - Vscmgr.lib
  - Vscmgr.dll
 api_name:
- - ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
+ - ITpmVirtualSmartCardManager.DestroyVirtualSmartCard
 ---
 
 # ITpmVirtualSmartCardManager::DestroyVirtualSmartCard
@@ -76,4 +76,3 @@ If the method fails, it returns a Win32 error code.
 ## -see-also
 
 <a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanager">ITpmVirtualSmartCardManager</a>
-

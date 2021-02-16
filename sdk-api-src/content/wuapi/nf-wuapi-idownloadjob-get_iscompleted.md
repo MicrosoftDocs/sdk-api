@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadJob::get_IsCompleted
+ - IDownloadJob.IsCompleted
+ - IDownloadJob.get_IsCompleted
 ---
 
 # IDownloadJob::get_IsCompleted
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadjob">IDownloadJob</a>
-

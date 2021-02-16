@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dsattrib.h
 api_name:
- - IAttributeGet::GetAttrib
+ - IAttributeGet.GetAttrib
 ---
 
 # IAttributeGet::GetAttrib
@@ -118,4 +118,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeget">IAttributeGet Interface</a>
-

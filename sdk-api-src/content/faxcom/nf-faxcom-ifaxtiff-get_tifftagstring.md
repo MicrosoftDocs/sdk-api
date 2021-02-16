@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff::get_TiffTagString
+ - IFaxTiff.TiffTagString
+ - IFaxTiff.get_TiffTagString
+ - IFaxTiff.put_TiffTagString
 ---
 
 # IFaxTiff::get_TiffTagString
@@ -87,4 +89,3 @@ The <b>get_TiffTagString</b> method allocates the memory required for the buffer
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceUIWindow::SetBorderSpace
+ - IOleInPlaceUIWindow.SetBorderSpace
 ---
 
 # IOleInPlaceUIWindow::SetBorderSpace
@@ -107,4 +107,3 @@ If an object must renegotiate space on the border, it can call <b>IOleInPlaceUIW
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-requestborderspace">IOleInPlaceUIWindow::RequestBorderSpace</a>
-

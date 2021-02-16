@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AddERExcludedApplicationW
  - errorrep/AddERExcludedApplicationW
- - AddERExcludedApplication
- - errorrep/AddERExcludedApplication
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Faultrep.dll
 api_name:
- - AddERExcludedApplicationW
  - AddERExcludedApplication
+ - AddERExcludedApplicationA
+ - AddERExcludedApplicationW
 ---
 
 ## -description
@@ -76,4 +75,3 @@ This function stores the excluded application list under the **HKEY_LOCAL_MACHIN
 ## -see-also
 
 [ReportFault function](nf-errorrep-reportfault.md), [ER Functions](/windows/desktop/wer/wer-functions), [Windows Error Reporting](/windows/desktop/wer/windows-error-reporting)
-

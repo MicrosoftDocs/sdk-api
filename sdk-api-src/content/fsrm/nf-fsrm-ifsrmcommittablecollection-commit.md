@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmCommittableCollection::Commit
+ - IFsrmCommittableCollection.Commit
 ---
 
 # IFsrmCommittableCollection::Commit
@@ -93,4 +93,3 @@ A collection of imported objects would be considered a collection of modified ob
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcommittablecollection">IFsrmCommittableCollection</a>
-

@@ -44,6 +44,8 @@ api_location:
  - Ext-MS-Win-ras-tapi32-l1-1-0.dll
 api_name:
  - lineTranslateAddress
+ - lineTranslateAddressA
+ - lineTranslateAddressW
 ---
 
 # lineTranslateAddress function
@@ -136,4 +138,3 @@ LINEERR_BADDEVICEID, LINEERR_INVALPOINTER, LINEERR_INCOMPATIBLEAPIVERSION, LINEE
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-

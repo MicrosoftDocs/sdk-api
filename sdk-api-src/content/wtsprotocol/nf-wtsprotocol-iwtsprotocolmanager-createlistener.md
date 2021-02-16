@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolManager::CreateListener
+ - IWTSProtocolManager.CreateListener
 ---
 
 # IWTSProtocolManager::CreateListener
@@ -85,4 +85,3 @@ The <b>CreateListener</b> method is the first call the Remote Desktop Services s
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolmanager">IWTSProtocolManager</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem::GetValueRaw
+ - ISettingsItem.GetValueRaw
 ---
 
 # ISettingsItem::GetValueRaw
@@ -123,4 +123,3 @@ Indicates that there is no value for the item.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDetectTone::put_Duration
+ - ITDetectTone.put_Duration
 ---
 
 # ITDetectTone::put_Duration
@@ -88,4 +88,3 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_duration">get_Duration</a>
-

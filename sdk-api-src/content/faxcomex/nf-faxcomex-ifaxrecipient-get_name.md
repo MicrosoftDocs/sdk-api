@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxRecipient::get_Name
+ - IFaxRecipient.Name
+ - IFaxRecipient.get_Name
+ - IFaxRecipient.put_Name
+ - IFaxRecipient.get_Name
+ - IFaxRecipient.put_Name
 ---
 
 # IFaxRecipient::get_Name
@@ -69,4 +73,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxrecipient">IFaxRecipient</a>
-

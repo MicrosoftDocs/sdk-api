@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winnetwk.h
 api_name:
- - _CONNECTDLGSTRUCTA
- - LPCONNECTDLGSTRUCTA
+ - CONNECTDLGSTRUCT
  - CONNECTDLGSTRUCTA
+ - CONNECTDLGSTRUCTW
 ---
 
 # CONNECTDLGSTRUCTA structure
@@ -223,4 +223,3 @@ The CONNDLG_PERSIST and CONNDLG_NOT_PERSIST values cannot both be set. If neithe
 
 
 <a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPerChannelDbLevel::SetLevelUniform
+ - IPerChannelDbLevel.SetLevelUniform
 ---
 
 # IPerChannelDbLevel::SetLevelUniform
@@ -99,4 +99,3 @@ If the specified uniform level is beyond the range that the <a href="/windows/de
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iperchanneldblevel-getlevelrange">IPerChannelDbLevel::GetLevelRange</a>
-

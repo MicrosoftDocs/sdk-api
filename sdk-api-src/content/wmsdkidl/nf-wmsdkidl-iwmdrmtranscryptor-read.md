@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMTranscryptor::Read
+ - IWMDRMTranscryptor.Read
 ---
 
 # IWMDRMTranscryptor::Read
@@ -125,4 +125,3 @@ The <b>HRESULT</b> sent with the WMT_TRANSCRYPTOR_READ message contains the retu
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-seek">IWMDRMTranscryptor::Seek</a>
-

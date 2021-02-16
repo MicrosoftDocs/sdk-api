@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::put_SelFontSize
+ - IInkEdit.SelFontSize
+ - IInkEdit.get_SelFontSize
+ - IInkEdit.put_SelFontSize
+ - InkEdit.get_SelFontSize
+ - InkEdit.put_SelFontSize
 ---
 
 # IInkEdit::put_SelFontSize
@@ -68,4 +72,3 @@ The <b>SelFontSize</b> property returns Null if the selected text contains diffe
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

@@ -9,8 +9,6 @@ tech.root: tapi3
 f1_keywords:
  - tapi3ds
  - tapi3ds/tapi3ds
-api_name:
- - tapi3ds
 ---
 
 # Tapi3Ds.h header

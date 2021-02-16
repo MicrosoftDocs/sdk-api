@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - MFASF_STREAMSELECTORFLAGS
  - MFASF_STREAMSELECTOR_FLAGS
 ---
 
@@ -68,4 +67,3 @@ The stream selector will use the average bit rate of streams when selecting stre
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

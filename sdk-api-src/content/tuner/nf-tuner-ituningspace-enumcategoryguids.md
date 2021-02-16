@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpace::EnumCategoryGUIDs
+ - ITuningSpace.EnumCategoryGUIDs
 ---
 
 # ITuningSpace::EnumCategoryGUIDs
@@ -74,4 +74,3 @@ This method is hidden from automation languages.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspace">ITuningSpace Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue::AddStorageFilterEntries
+ - ID3D11InfoQueue.AddStorageFilterEntries
 ---
 
 # ID3D11InfoQueue::AddStorageFilterEntries
@@ -70,4 +70,3 @@ This method returns one of the following <a href="/windows/desktop/direct3d11/d3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
-

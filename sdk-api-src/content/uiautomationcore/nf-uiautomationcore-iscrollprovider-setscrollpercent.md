@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IScrollProvider::SetScrollPercent
+ - IScrollProvider.SetScrollPercent
 ---
 
 # IScrollProvider::SetScrollPercent
@@ -84,4 +84,3 @@ This method is only useful when the content area of the control is
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

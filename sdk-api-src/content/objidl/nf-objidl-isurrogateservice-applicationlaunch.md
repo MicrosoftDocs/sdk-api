@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - ISurrogateService::ApplicationLaunch
+ - ISurrogateService.ApplicationLaunch
 ---
 
 # ISurrogateService::ApplicationLaunch
@@ -99,4 +99,3 @@ The application type is defined by the following enum.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
-

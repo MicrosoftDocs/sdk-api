@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::createFilePKCS10
+ - ICEnroll4.createFilePKCS10
+ - ICEnroll3.createFilePKCS10
+ - ICEnroll2.createFilePKCS10
+ - ICEnroll.createFilePKCS10
+ - CEnroll.createFilePKCS10
 ---
 
 # ICEnroll::createFilePKCS10
@@ -173,4 +177,3 @@ if ( pEnroll )
 CoUninitialize();
 
 ```
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection::AuthenticateClientToSession
+ - IWRdsProtocolConnection.AuthenticateClientToSession
 ---
 
 # IWRdsProtocolConnection::AuthenticateClientToSession
@@ -67,4 +67,3 @@ Upon receiving an error, the Remote Desktop Services service continues the conne
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
-

@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vss
  - vss/vss
-api_name:
- - vss
 ---
 
 # Vss.h header

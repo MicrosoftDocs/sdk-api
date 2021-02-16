@@ -25,6 +25,7 @@ api_type:
 api_location:
  - windows.graphics.holographic.interop.h
 api_name:
+ - interop::IHolographicCameraRenderingParametersInterop
  - IHolographicCameraRenderingParametersInterop
 f1_keywords:
  - IHolographicCameraRenderingParametersInterop
@@ -69,4 +70,3 @@ Microsoft::WRL::ComPtr<IHolographicCameraRenderingParametersInterop>
 ```
 
 ## -see-also
-

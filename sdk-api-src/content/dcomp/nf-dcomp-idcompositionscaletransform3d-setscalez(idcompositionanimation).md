@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionScaleTransform3D::SetScaleZ
+ - IDCompositionScaleTransform3D.SetScaleZ
 ---
 
 # IDCompositionScaleTransform3D::SetScaleZ(IDCompositionAnimation)
@@ -85,4 +85,3 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionscaletransform3d-setscaley(float)">IDCompositionScaleTransform3D::SetScaleY</a>
-

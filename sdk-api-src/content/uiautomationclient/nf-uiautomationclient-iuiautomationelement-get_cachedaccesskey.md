@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedAccessKey
+ - IUIAutomationElement.CachedAccessKey
+ - IUIAutomationElement.get_CachedAccessKey
 ---
 
 # IUIAutomationElement::get_CachedAccessKey
@@ -75,4 +76,3 @@ An access key is a character in the text of a menu, menu item, or label of a con
 
 
 <b>Reference</b>
-

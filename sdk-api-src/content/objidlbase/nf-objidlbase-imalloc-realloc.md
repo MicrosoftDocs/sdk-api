@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMalloc::Realloc
+ - IMalloc.Realloc
 ---
 
 # IMalloc::Realloc
@@ -81,4 +81,3 @@ The storage space pointed to by the return value is guaranteed to be suitably al
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-

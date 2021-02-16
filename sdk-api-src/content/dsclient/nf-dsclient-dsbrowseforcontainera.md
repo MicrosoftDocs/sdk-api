@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsBrowseForContainerA
  - dsclient/DsBrowseForContainerA
- - DsBrowseForContainer
- - dsclient/DsBrowseForContainer
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dsuiext.dll
 api_name:
- - DsBrowseForContainerA
  - DsBrowseForContainer
+ - DsBrowseForContainerA
+ - DsBrowseForContainerW
 ---
 
 # DsBrowseForContainerA function
@@ -127,4 +126,3 @@ void PickContainer(void)
 
 
 <a href="/windows/desktop/api/dsclient/ns-dsclient-dsbrowseinfoa">DSBROWSEINFO</a>
-

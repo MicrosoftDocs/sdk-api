@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IKnownFolderManager::GetFolderByName
+ - IKnownFolderManager.GetFolderByName
 ---
 
 # IKnownFolderManager::GetFolderByName
@@ -84,4 +84,3 @@ Use this method when you know exactly which known folder you are looking for and
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

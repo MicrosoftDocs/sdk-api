@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::AddLoggingUrl
+ - IWMReaderNetworkConfig.AddLoggingUrl
 ---
 
 # IWMReaderNetworkConfig::AddLoggingUrl
@@ -116,4 +116,3 @@ When the reader streams content from a server, it automatically sends logging in
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadernetworkconfig">IWMReaderNetworkConfig Interface</a>
-

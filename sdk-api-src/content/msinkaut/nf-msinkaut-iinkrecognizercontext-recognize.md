@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext::Recognize
+ - IInkRecognizerContext.Recognize
 ---
 
 # IInkRecognizerContext::Recognize
@@ -162,4 +162,3 @@ You must use a try/catch block when calling <b>Recognize</b> because an exceptio
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

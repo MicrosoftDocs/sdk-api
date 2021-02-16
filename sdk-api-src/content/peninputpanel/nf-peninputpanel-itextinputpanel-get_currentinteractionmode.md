@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel::get_CurrentInteractionMode
+ - ITextInputPanel.CurrentInteractionMode
+ - ITextInputPanel.get_CurrentInteractionMode
+ - ITextInputPanel.get_CurrentInteractionMode
 ---
 
 # ITextInputPanel::get_CurrentInteractionMode
@@ -150,4 +152,3 @@ void CCOMTIPDlg::OnEnSetFocusEdit3()
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-

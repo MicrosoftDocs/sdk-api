@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceScheduledCast::StartTransmission
+ - IWdsTransportNamespaceScheduledCast.StartTransmission
 ---
 
 # IWdsTransportNamespaceScheduledCast::StartTransmission
@@ -61,4 +61,3 @@ Standard HRESULT error values are used: S_OK for success; others for failure.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcast">IWdsTransportNamespaceScheduledCast</a>
-

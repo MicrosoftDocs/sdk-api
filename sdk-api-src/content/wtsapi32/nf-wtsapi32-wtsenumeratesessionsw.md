@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - WTSEnumerateSessionsW
  - wtsapi32/WTSEnumerateSessionsW
- - WTSEnumerateSessions
- - wtsapi32/WTSEnumerateSessions
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - Wtsapi32.dll
  - Ext-MS-Win-Session-WtsApi32-l1-1-0.dll
 api_name:
- - WTSEnumerateSessionsW
  - WTSEnumerateSessions
+ - WTSEnumerateSessionsA
+ - WTSEnumerateSessionsW
+req.apiset: ext-ms-win-session-wtsapi32-l1-1-0 (introduced in Windows 8)
 ---
 
 # WTSEnumerateSessionsW function
@@ -113,4 +112,3 @@ For more information, and an extended example on how to use this function, see t
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>
-

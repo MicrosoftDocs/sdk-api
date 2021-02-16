@@ -46,8 +46,6 @@ api_type:
 api_location:
  - relogger.h
 api_name:
- - _EVENT_HEADER_EXTENDED_DATA_ITEM
- - PEVENT_HEADER_EXTENDED_DATA_ITEM
  - EVENT_HEADER_EXTENDED_DATA_ITEM
 ---
 
@@ -199,4 +197,3 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
-

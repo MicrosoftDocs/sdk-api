@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SECURITY_INTEGER
- - PSECURITY_INTEGER
  - SECURITY_INTEGER
 ---
 

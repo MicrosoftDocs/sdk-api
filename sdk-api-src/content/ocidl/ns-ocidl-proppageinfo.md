@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagPROPPAGEINFO
- - LPPROPPAGEINFO
  - PROPPAGEINFO
 ---
 
@@ -99,4 +97,3 @@ The <b>pszTitle</b>, <b>pszDocString</b>, and the <b>pszHelpFile</b> members spe
 
 
 <a href="/windows/desktop/api/wtypesbase/nf-wtypesbase-olestr">OLESTR</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector::put_TaskUserTextArguments
+ - IAlertDataCollector.TaskUserTextArguments
+ - IAlertDataCollector.get_TaskUserTextArguments
+ - IAlertDataCollector.put_TaskUserTextArguments
 ---
 
 # IAlertDataCollector::put_TaskUserTextArguments
@@ -92,4 +94,3 @@ PLA provides the following substitution variables that you can include in your a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
-

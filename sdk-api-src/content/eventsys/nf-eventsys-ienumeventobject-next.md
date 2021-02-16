@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEnumEventObject::Next
+ - IEnumEventObject.Next
 ---
 
 # IEnumEventObject::Next
@@ -102,4 +102,3 @@ Not all elements requested were obtained. The number of elements obtained was wr
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
-

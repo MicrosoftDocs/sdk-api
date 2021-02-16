@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IFolderActionCollection::Add
+ - IFolderActionCollection.Add
 ---
 
 # IFolderActionCollection::Add
@@ -73,4 +73,3 @@ Returns S_OK if successful.
 
 
 <b>IFolderActionCollection::Remove</b>
-

@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameDecode::GetColorContexts
+ - IWICBitmapFrameDecode.GetColorContexts
 ---
 
 # IWICBitmapFrameDecode::GetColorContexts
@@ -88,4 +88,3 @@ If NULL is passed for <i>ppIColorContexts</i>, and 0 is passed for <i>cCount</i>
 
 
 The <i>ppIColorContexts</i> array must be filled with valid data: each <a href="/windows/desktop/api/wincodec/nn-wincodec-iwiccolorcontext">IWICColorContext*</a> in the array must have been created using <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicimagingfactory-createcolorcontext">IWICImagingFactory::CreateColorContext</a>.
-

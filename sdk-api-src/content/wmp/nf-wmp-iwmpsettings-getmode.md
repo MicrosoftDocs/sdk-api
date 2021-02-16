@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::getMode
+ - IWMPSettings.getMode
 ---
 
 # IWMPSettings::getMode
@@ -116,4 +116,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-setmode">IWMPSettings::setMode</a>
-

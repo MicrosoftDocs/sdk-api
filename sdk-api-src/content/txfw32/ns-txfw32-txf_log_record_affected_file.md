@@ -46,8 +46,6 @@ api_type:
 api_location:
  - TxfW32.h
 api_name:
- - _TXF_LOG_RECORD_AFFECTED_FILE
- - PTXF_LOG_RECORD_AFFECTED_FILE
  - TXF_LOG_RECORD_AFFECTED_FILE
 ---
 
@@ -101,4 +99,3 @@ The offset of the file name from the beginning of this record.
 
 
 <a href="/windows/desktop/api/txfw32/ns-txfw32-txf_log_record_base">TXF_LOG_RECORD_BASE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - ICertificateAttestationChallenge::Initialize
+ - ICertificateAttestationChallenge.Initialize
 ---
 
 # ICertificateAttestationChallenge::Initialize
@@ -73,4 +73,3 @@ The CA should have returned a pending CMC response. The content of the CMC respo
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificateattestationchallenge">ICertificateAttestationChallenge</a>
-

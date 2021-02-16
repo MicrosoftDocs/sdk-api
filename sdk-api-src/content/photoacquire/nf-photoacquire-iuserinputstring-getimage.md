@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IUserInputString::GetImage
+ - IUserInputString.GetImage
 ---
 
 # IUserInputString::GetImage
@@ -103,4 +103,3 @@ A <b>NULL</b> pointer was passed where a non-<b>NULL</b> pointer is expected.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
-

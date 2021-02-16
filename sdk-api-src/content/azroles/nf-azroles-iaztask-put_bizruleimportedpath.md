@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask::put_BizRuleImportedPath
+ - IAzTask.BizRuleImportedPath
+ - IAzTask.get_BizRuleImportedPath
+ - IAzTask.put_BizRuleImportedPath
+ - AzTask.BizRuleImportedPath
 ---
 
 # IAzTask::put_BizRuleImportedPath
@@ -73,4 +76,3 @@ The maximum length of this property is 512 characters.
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iaztask">IAzTask</a>
-

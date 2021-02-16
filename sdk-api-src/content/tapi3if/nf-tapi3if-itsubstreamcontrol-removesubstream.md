@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITSubStreamControl::RemoveSubStream
+ - ITSubStreamControl.RemoveSubStream
 ---
 
 # ITSubStreamControl::RemoveSubStream
@@ -126,4 +126,3 @@ Some MSPs may not support the advanced concept of creating and removing substrea
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

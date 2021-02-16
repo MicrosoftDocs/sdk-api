@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::SystemEvent
+ - IStylusPlugin.SystemEvent
 ---
 
 # IStylusPlugin::SystemEvent
@@ -112,4 +112,3 @@ Use the <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-getdesire
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-

@@ -43,6 +43,7 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsADSystemInfo
+ - ADSystemInfo
 ---
 
 # IADsADSystemInfo interface
@@ -95,4 +96,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsADSystemInfo</b> interfac
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - tagINPUT_MESSAGE_DEVICE_TYPE
  - INPUT_MESSAGE_DEVICE_TYPE
 ---
 
@@ -84,4 +83,3 @@ Touchpad input (Windows 8.1 and later).
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_sourceid/enumerations">Enumerations</a>
-

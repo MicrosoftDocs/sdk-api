@@ -43,6 +43,9 @@ api_location:
  - Dbghelp.dll
  - imagehlp.dll
 api_name:
+ - SymGetLineFromAddr64
+ - SymGetLineFromAddr64
+ - SymGetLineFromAddrW64
  - SymGetLineFromAddr
 ---
 
@@ -170,4 +173,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

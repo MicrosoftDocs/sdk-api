@@ -42,7 +42,8 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMBackupDirEx::SearchBackups
+ - IGPMBackupDirEx.SearchBackups
+ - GPMBackupDirEx.SearchBackups
 ---
 
 ## -description
@@ -96,4 +97,3 @@ information in the <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpm
 
 
 <b>IGPMStarterGPOBackupCollection</b>
-

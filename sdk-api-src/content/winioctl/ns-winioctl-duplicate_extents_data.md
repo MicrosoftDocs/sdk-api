@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DUPLICATE_EXTENTS_DATA
- - PDUPLICATE_EXTENTS_DATA
  - DUPLICATE_EXTENTS_DATA
 ---
 
@@ -91,4 +89,3 @@ The length, in bytes, of the range to copy.
 
 
 <a href="/windows/desktop/FileIO/file-management-control-codes">File Management Control Codes</a>
-

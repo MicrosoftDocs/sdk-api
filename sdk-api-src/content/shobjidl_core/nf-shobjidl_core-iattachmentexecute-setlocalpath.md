@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute::SetLocalPath
+ - IAttachmentExecute.SetLocalPath
 ---
 
 # IAttachmentExecute::SetLocalPath
@@ -81,4 +81,3 @@ When the attachment is approved for execution by the user (either through policy
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a>
-

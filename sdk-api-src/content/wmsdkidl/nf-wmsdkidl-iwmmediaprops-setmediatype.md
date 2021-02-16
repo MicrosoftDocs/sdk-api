@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMediaProps::SetMediaType
+ - IWMMediaProps.SetMediaType
 ---
 
 # IWMMediaProps::SetMediaType
@@ -116,4 +116,3 @@ It is possible to successfully set a media type in this method that will ultimat
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmediaprops-getmediatype">IWMMediaProps::GetMediaType</a>
-

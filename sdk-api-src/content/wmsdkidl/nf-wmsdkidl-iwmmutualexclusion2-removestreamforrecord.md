@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::RemoveStreamForRecord
+ - IWMMutualExclusion2.RemoveStreamForRecord
 ---
 
 # IWMMutualExclusion2::RemoveStreamForRecord
@@ -131,4 +131,3 @@ Do not pass <b>NULL</b> for either argument. It will result in exception errors.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-addstreamforrecord">IWMMutualExclusion2::AddStreamForRecord</a>
-

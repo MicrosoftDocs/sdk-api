@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PFIND_BY_SID_OUTPUT
  - FIND_BY_SID_OUTPUT
 ---
 
@@ -71,4 +70,3 @@ A pointer to a null-terminated string that specifies the file name.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_find_files_by_sid">FSCTL_FIND_FILES_BY_SID</a>
-

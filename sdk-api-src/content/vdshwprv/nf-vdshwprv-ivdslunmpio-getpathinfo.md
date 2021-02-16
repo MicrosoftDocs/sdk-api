@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunMpio::GetPathInfo
+ - IVdsLunMpio.GetPathInfo
 ---
 
 # IVdsLunMpio::GetPathInfo
@@ -163,4 +163,3 @@ Hardware providers do not need to return the <b>VDS_OBJECT_ID</b> at hbaPortProp
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_info">VDS_PATH_INFO</a>
-

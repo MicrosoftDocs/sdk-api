@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
- - _WNV_IP_ADDRESS
- - PWNV_IP_ADDRESS
  - WNV_IP_ADDRESS
 ---
 

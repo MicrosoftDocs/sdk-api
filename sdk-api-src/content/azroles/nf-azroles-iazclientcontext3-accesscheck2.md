@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3::AccessCheck2
+ - IAzClientContext3.AccessCheck2
 ---
 
 # IAzClientContext3::AccessCheck2
@@ -77,4 +77,3 @@ A pointer to a value that indicates whether the principal represented by the cur
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

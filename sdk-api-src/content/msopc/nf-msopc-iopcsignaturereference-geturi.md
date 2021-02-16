@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureReference::GetUri
+ - IOpcSignatureReference.GetUri
 ---
 
 # IOpcSignatureReference::GetUri
@@ -172,4 +172,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
-

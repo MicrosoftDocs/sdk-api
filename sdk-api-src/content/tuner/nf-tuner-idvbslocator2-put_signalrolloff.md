@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBSLocator2::put_SignalRollOff
+ - IDVBSLocator2.SignalRollOff
+ - IDVBSLocator2.get_SignalRollOff
+ - IDVBSLocator2.put_SignalRollOff
 ---
 
 # IDVBSLocator2::put_SignalRollOff
@@ -64,4 +66,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/mstv/rolloff">RollOff</a>
-

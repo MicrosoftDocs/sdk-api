@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMREOF
- - PEMREOF
  - EMREOF
 ---
 
@@ -91,4 +89,3 @@ The same size as the <b>nSize</b> member of the <a href="/windows/desktop/api/wi
 
 
 <a href="/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::SetCertificateProperty
+ - ICertServerPolicy.SetCertificateProperty
+ - CCertServerPolicy.SetCertificateProperty
 ---
 
 # ICertServerPolicy::SetCertificateProperty
@@ -294,4 +295,3 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>
-

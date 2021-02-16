@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties::GetValueByName
+ - ID2D1Properties.GetValueByName
 ---
 
 # ID2D1Properties::GetValueByName(PCWSTR,T)
@@ -128,4 +128,3 @@ Any error not in the standard set returned by a property implementation will be 
 �
 
 �
-

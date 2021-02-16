@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetSearchPath
+ - SymGetSearchPath
+ - SymGetSearchPathW
 ---
 
 # SymGetSearchPath function
@@ -97,4 +99,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
-

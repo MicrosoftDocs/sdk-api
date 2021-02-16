@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::Close
+ - IOleObject.Close
 ---
 
 # IOleObject::Close
@@ -138,4 +138,3 @@ Calling <b>IOleObject::Close</b> on a linked object disconnects it from, but doe
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleflushclipboard">OleFlushClipboard</a>
-

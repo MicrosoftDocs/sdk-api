@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _OCSP_BASIC_REVOKED_INFO
- - POCSP_BASIC_REVOKED_INFO
  - OCSP_BASIC_REVOKED_INFO
 ---
 
@@ -170,4 +168,3 @@ The certificate has been removed from the <a href="/windows/desktop/SecGloss/c-g
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_basic_response_entry">OCSP_BASIC_RESPONSE_ENTRY</a>
-

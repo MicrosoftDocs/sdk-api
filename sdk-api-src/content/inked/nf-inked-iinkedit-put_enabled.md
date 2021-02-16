@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::put_Enabled
+ - IInkEdit.Enabled
+ - IInkEdit.get_Enabled
+ - IInkEdit.put_Enabled
+ - InkEdit.get_Enabled
+ - InkEdit.put_Enabled
 ---
 
 # IInkEdit::put_Enabled
@@ -69,4 +73,3 @@ The <b>Enabled</b> property allows objects to be enabled or disabled at run time
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

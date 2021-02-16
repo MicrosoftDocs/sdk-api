@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSETPIXELV
- - PEMRSETPIXELV
  - EMRSETPIXELV
 ---
 
@@ -95,4 +93,3 @@ Color value. To make a <a href="/windows/desktop/gdi/colorref">COLORREF</a> valu
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setpixelv">SetPixelV</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::SetHotkeyPrefix
+ - StringFormat.SetHotkeyPrefix
 ---
 
 # StringFormat::SetHotkeyPrefix
@@ -132,4 +132,3 @@ VOID Example_SetHotkeyPrefix(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-gethotkeyprefix">StringFormat::GetHotkeyPrefix</a>
-

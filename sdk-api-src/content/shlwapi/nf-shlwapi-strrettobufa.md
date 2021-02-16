@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StrRetToBufA
  - shlwapi/StrRetToBufA
- - StrRetToBuf
- - shlwapi/StrRetToBuf
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Shlwapi.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - StrRetToBufA
  - StrRetToBuf
+ - StrRetToBufA
+ - StrRetToBufW
 ---
 
 # StrRetToBufA function
@@ -106,4 +105,3 @@ If the <b>uType</b> member of the structure pointed to by <i>pstr</i> is set to 
 
 
 <a href="/windows/desktop/shell/consts-enums-flags">StrRetToStrN</a>
-

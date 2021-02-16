@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - _IMEWRD
- - PIMEWRD
  - IMEWRD
 ---
 
@@ -115,4 +113,3 @@ Comment string.
 
 
 <a href="/windows/desktop/api/msime/ne-msime-imeuct">IMEUCT</a>
-

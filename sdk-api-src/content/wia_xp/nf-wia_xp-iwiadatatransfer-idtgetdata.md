@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDataTransfer::idtGetData
+ - IWiaDataTransfer.idtGetData
 ---
 
 # IWiaDataTransfer::idtGetData
@@ -121,4 +121,3 @@ Unlike the <a href="/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatatransfer-idtge
 Pass <b>NULL</b> as the value of the <b>lpszFileName</b> member of the <i>pMedium</i> structure to allow WIA to determine the file name and location for the new file. Upon return, the <b>lpszFileName</b> member of the <i>pMedium</i> structure contains the location and name of the new file.
 
 If the value returned by this method is a COM SUCCESS value or the transfer is a multipage file transfer, and the error code returned is WIA_ERROR_PAPER_JAM, WIA_ERROR_PAPER_EMPTY, or WIA_ERROR_PAPER_PROBLEM, WIA does not delete the file.
-

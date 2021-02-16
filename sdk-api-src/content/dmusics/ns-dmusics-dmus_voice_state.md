@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dmusics.h
 api_name:
- - _DMUS_VOICE_STATE
  - DMUS_VOICE_STATE
 ---
 

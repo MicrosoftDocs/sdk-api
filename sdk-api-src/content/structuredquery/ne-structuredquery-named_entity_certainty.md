@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - __MIDL___MIDL_itf_structuredquery_0000_0012_0001
  - NAMED_ENTITY_CERTAINTY
 ---
 

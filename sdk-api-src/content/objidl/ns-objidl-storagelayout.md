@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
- - tagStorageLayout
  - StorageLayout
 ---
 
@@ -128,4 +127,3 @@ StorageLayout arrScript[]=
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-layoutscript">ILayoutStorage::LayoutScript</a>
-

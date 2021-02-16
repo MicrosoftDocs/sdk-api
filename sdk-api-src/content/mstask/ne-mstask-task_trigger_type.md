@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
- - _TASK_TRIGGER_TYPE
- - PTASK_TRIGGER_TYPE
  - TASK_TRIGGER_TYPE
 ---
 
@@ -170,4 +168,3 @@ The constants defined here are used in the <b>TriggerType</b> member of the
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

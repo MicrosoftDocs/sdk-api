@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Wdstpdi.h
 api_name:
- - _TRANSPORTPROVIDER_CALLBACK_ID
- - PTRANSPORTPROVIDER_CALLBACK_ID
- - TRANSPORTPROVIDER_CALLBACK_ID
+ - TRANSPORTPROVIDER_CALLBACK_ID, *PTRANSPORTPROVIDER_CALLBACK_ID
 ---
 
 # TRANSPORTPROVIDER_CALLBACK_ID enumeration
@@ -111,4 +109,3 @@ Identifies the <a href="/windows/desktop/api/wdstpdi/nf-wdstpdi-wdstransportprov
 ### -field WDS_TRANSPORTPROVIDER_MAX_CALLBACKS
 
 Used for validation checking.
-

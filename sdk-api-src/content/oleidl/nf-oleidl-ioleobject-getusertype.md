@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::GetUserType
+ - IOleObject.GetUserType
 ---
 
 # IOleObject::GetUserType
@@ -122,4 +122,3 @@ You can call the OLE helper function <a href="/windows/desktop/api/ole2/nf-ole2-
 
 
 <a href="/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a>
-

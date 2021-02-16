@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellItem::GetDisplayName
+ - IShellItem.GetDisplayName
 ---
 
 # IShellItem::GetDisplayName
@@ -83,4 +83,3 @@ It is the responsibility of the caller to free the string pointed to by <i>ppszN
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

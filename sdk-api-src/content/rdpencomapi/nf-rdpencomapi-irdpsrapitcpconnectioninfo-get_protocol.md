@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPITcpConnectionInfo::get_Protocol
+ - IRDPSRAPITcpConnectionInfo.Protocol
+ - IRDPSRAPITcpConnectionInfo.get_Protocol
+ - RDPSRAPITcpConnectionInfo.Protocol
 ---
 
 # IRDPSRAPITcpConnectionInfo::get_Protocol
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitcpconnectioninfo">IRDPSRAPITcpConnectionInfo</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageGlobals::Initialize
+ - IWMDMStorageGlobals.Initialize
 ---
 
 # IWMDMStorageGlobals::Initialize
@@ -102,4 +102,3 @@ If an application uses WMDM_MODE_THREAD and passes a non-null <i>pProgress</i> p
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorageglobals">IWMDMStorageGlobals Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_OPERATION
  - WSD_OPERATION
 ---
 
@@ -68,4 +67,3 @@ Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_type"
 ### -field RequestStubFunction
 
 Reference to a <a href="/windows/desktop/api/wsdtypes/nc-wsdtypes-wsd_stub_function">WSD_STUB_FUNCTION</a> function that specifies the address of a stub function which translates a generic SOAP message structure into a method call with a signature specific to the incoming message of the operation.
-

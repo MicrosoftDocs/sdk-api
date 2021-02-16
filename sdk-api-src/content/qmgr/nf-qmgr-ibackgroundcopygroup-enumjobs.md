@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup::EnumJobs
+ - IBackgroundCopyGroup.EnumJobs
 ---
 
 # IBackgroundCopyGroup::EnumJobs
@@ -100,4 +100,3 @@ The <i>dwFlags</i> parameter must be 0.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
-

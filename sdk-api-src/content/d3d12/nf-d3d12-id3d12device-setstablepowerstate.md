@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::SetStablePowerState
+ - ID3D12Device.SetStablePowerState
 ---
 
 # ID3D12Device::SetStablePowerState
@@ -77,4 +77,3 @@ A stable power state typically fixes GPU clock rates at a slower setting that is
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-

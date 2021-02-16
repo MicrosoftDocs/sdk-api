@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties::DeleteArrayNode
+ - IContactProperties.DeleteArrayNode
 ---
 
 # IContactProperties::DeleteArrayNode
@@ -106,4 +106,3 @@ Property name doesn't exist for delete.
 <div class="alert"><b>Note</b>  Element indexes are unchanged for the entire set. Array node element ID, 
 		modification and version data can still be enumerated with <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactpropertycollection">IContactPropertyCollection</a>.</div>
 <div> </div>
-

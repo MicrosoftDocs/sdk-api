@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
- - arp_send_reply
- - PARP_SEND_REPLY
  - ARP_SEND_REPLY
 ---
 
@@ -79,4 +77,3 @@ The source IPv4 address from which the ARP message is being transmitted, in the 
 
 
 <a href="/windows/desktop/api/inaddr/ns-inaddr-in_addr">IPAddr</a>
-

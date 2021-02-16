@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_LOGOTYPE_REFERENCE
- - PCERT_LOGOTYPE_REFERENCE
  - CERT_LOGOTYPE_REFERENCE
 ---
 
@@ -67,4 +65,3 @@ The number of elements in the <b>rgHashedUrl</b> array.
 ### -field rgHashedUrl
 
 An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_hashed_url">CERT_HASHED_URL</a> structures that contain the hashed URL of the logotype. The <b>cHashedUrl</b> member contains the number of elements in this array.
-

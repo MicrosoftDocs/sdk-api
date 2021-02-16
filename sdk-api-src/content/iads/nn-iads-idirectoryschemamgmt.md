@@ -43,6 +43,14 @@ api_location:
  - Activeds.dll
 api_name:
  - IDirectorySchemaMgmt
+ - IDirectorySchemaMgmt.EnumAttributes
+ - IDirectorySchemaMgmt.CreateAttributeDefinition
+ - IDirectorySchemaMgmt.WriteAttributeDefinition
+ - IDirectorySchemaMgmt.DeleteAttributeDefinition
+ - IDirectorySchemaMgmt.EnumClasses
+ - IDirectorySchemaMgmt.CreateClassDefinition
+ - IDirectorySchemaMgmt.WriteClassDefinition
+ - IDirectorySchemaMgmt.DeleteClassDefinition
 ---
 
 # IDirectorySchemaMgmt interface
@@ -62,4 +70,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirectorySchemaMgmt</b> inte
 ## -remarks
 
 The methods for this interface are not fully implemented at this time.
-

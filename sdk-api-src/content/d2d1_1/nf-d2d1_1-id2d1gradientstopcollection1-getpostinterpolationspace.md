@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1GradientStopCollection1::GetPostInterpolationSpace
+ - ID2D1GradientStopCollection1.GetPostInterpolationSpace
 ---
 
 # ID2D1GradientStopCollection1::GetPostInterpolationSpace
@@ -79,4 +79,3 @@ If you create using <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-c
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_d2d1_gamma_d2d1_extend_mode_id2d1gradientstopcollection)">ID2D1RenderTarget::CreateGradientStopCollection</a>
-

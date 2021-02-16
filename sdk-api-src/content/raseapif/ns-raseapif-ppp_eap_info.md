@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Raseapif.h
 api_name:
- - _PPP_EAP_INFO
- - PPPP_EAP_INFO
  - PPP_EAP_INFO
 ---
 
@@ -185,4 +183,3 @@ A given EAP DLL may implement more than one authentication protocol. Use the <b>
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)">RasEapMakeMessage</a>
-

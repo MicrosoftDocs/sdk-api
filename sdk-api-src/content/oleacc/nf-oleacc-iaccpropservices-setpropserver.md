@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices::SetPropServer
+ - IAccPropServices.SetPropServer
 ---
 
 # IAccPropServices::SetPropServer
@@ -107,4 +107,3 @@ May return other error codes under exceptional error conditions such as low memo
 See the support section for a list of supported properties and their expected types.
 
 The annotation run time will use <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> to increment the reference counter for the <i>pServer</i> callback object appropriately. The caller is free to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> it after calling this method. The annotation run time will automatically release the callback object after the accessible element being annotated is no longer being used.
-

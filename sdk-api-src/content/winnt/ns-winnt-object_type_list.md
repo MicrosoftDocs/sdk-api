@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _OBJECT_TYPE_LIST
- - POBJECT_TYPE_LIST
  - OBJECT_TYPE_LIST
 ---
 
@@ -130,4 +128,3 @@ A pointer to the GUID for the object or subobject.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-accesscheckbytyperesultlistandauditalarma">AccessCheckByTypeResultListAndAuditAlarm</a>
-

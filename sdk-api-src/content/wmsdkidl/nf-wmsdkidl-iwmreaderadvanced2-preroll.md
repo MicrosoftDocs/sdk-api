@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2::Preroll
+ - IWMReaderAdvanced2.Preroll
 ---
 
 # IWMReaderAdvanced2::Preroll
@@ -82,4 +82,3 @@ It is important to allow sufficient time for the prerolling (buffering data) for
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
-

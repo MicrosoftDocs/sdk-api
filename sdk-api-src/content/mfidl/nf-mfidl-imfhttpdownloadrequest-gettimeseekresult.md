@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::GetTimeSeekResult
+ - IMFHttpDownloadRequest.GetTimeSeekResult
 ---
 
 # IMFHttpDownloadRequest::GetTimeSeekResult
@@ -121,4 +121,3 @@ The values of all the parameters should be set to 0 if <b>GetTimeSeekResult</b> 
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

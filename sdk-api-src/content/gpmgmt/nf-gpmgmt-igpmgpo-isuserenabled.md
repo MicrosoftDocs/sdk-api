@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::IsUserEnabled
+ - IGPMGPO.IsUserEnabled
+ - GPMGPO.IsUserEnabled
 ---
 
 # IGPMGPO::IsUserEnabled
@@ -72,4 +73,3 @@ Value that indicates whether the user policies in the GPO are enabled. If <b>VAR
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-

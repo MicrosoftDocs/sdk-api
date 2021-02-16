@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetSubpictureLanguage
+ - IDvdInfo2.GetSubpictureLanguage
 ---
 
 # IDvdInfo2::GetSubpictureLanguage
@@ -147,4 +147,3 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
  - WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
 ---
 
@@ -82,4 +81,3 @@ The cryptographic provider.
 ### -field keySpec
 
 The key specification.
-

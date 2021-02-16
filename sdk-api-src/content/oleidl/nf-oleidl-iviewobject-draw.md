@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IViewObject::Draw
+ - IViewObject.Draw
 ---
 
 # IViewObject::Draw
@@ -219,4 +219,3 @@ An object's extent depends on the drawing aspect. For non-rectangular objects, t
 
 
 <a href="/windows/desktop/api/ole/nf-ole-oledraw">OleDraw</a>
-

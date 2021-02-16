@@ -42,7 +42,8 @@ api_type:
 api_location:
  - uiautomationclient.h
 api_name:
- - IUIAutomationElement6::get_CachedFullDescription
+ - IUIAutomationElement6.CachedFullDescription
+ - IUIAutomationElement6.get_CachedFullDescription
 ---
 
 # IUIAutomationElement6::get_CachedFullDescription
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement6">IUIAutomationElement6</a>
-

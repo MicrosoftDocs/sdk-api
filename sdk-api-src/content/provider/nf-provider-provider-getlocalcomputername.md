@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::GetLocalComputerName
+ - Provider.GetLocalComputerName
 ---
 
 # Provider::GetLocalComputerName
@@ -64,4 +64,3 @@ The <b>GetLocalComputerName</b> method returns a constant reference to the compu
 ## -returns
 
 Returns a constant reference to the name of the computer.
-

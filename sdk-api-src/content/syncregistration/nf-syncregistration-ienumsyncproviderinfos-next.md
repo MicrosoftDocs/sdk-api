@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IEnumSyncProviderInfos::Next
+ - IEnumSyncProviderInfos.Next
 ---
 
 # IEnumSyncProviderInfos::Next
@@ -128,4 +128,3 @@ This method will attempt to return the number of items specified by the <i>cInst
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-ienumsyncproviderinfos">IEnumSyncProviderInfos Interface</a>
-

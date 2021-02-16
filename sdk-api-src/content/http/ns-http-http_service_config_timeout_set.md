@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_TIMEOUT_SET
- - PHTTP_SERVICE_CONFIG_TIMEOUT_SET
  - HTTP_SERVICE_CONFIG_TIMEOUT_SET
 ---
 
@@ -95,4 +93,3 @@ The HTTP Server API timeout value is deleted by calling <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HTTPSetServiceConfiguration</a>
-

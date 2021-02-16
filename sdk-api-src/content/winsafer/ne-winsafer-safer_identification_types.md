@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
- - _SAFER_IDENTIFICATION_TYPES
  - SAFER_IDENTIFICATION_TYPES
 ---
 
@@ -80,4 +79,3 @@ The header is for a <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_pat
 ## -remarks
 
 The <b>SAFER_IDENTIFICATION_TYPES</b> enumeration type is used by the <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure.
-

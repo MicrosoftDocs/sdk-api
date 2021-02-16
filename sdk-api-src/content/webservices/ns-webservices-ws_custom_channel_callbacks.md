@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CUSTOM_CHANNEL_CALLBACKS
  - WS_CUSTOM_CHANNEL_CALLBACKS
 ---
 
@@ -137,4 +136,3 @@ This structure is specified when a channel is created using
 Except where noted, each callback is responsible for validating all parameters and
                 that the operation requested is acceptable given the current
                 <a href="/windows/desktop/api/webservices/ne-webservices-ws_channel_state">WS_CHANNEL_STATE</a>.
-

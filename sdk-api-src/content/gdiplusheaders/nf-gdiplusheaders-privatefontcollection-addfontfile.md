@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PrivateFontCollection::AddFontFile
+ - PrivateFontCollection.AddFontFile
 ---
 
 # PrivateFontCollection::AddFontFile
@@ -150,4 +150,3 @@ VOID Example_AddFontFile(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMHALF2::XMHALF2
+ - XMHALF2.XMHALF2
 ---
 
 # XMHALF2::XMHALF2(XMHALF2 &&)
@@ -69,4 +69,3 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf2">XMHALF2</a>
 
 <a href="/windows/desktop/dxmath/xmhalf2-ctor">XMHALF2 Constructors</a>
-

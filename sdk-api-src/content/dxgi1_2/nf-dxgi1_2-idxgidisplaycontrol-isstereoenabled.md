@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDisplayControl::IsStereoEnabled
+ - IDXGIDisplayControl.IsStereoEnabled
 ---
 
 # IDXGIDisplayControl::IsStereoEnabled
@@ -68,4 +68,3 @@ You pass a Boolean value to the  <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidisplaycontrol">IDXGIDisplayControl</a>
-

@@ -44,8 +44,9 @@ api_type:
 api_location:
  - TlHelp32.h
 api_name:
- - tagPROCESSENTRY32
  - PROCESSENTRY32
+ - PROCESSENTRY32
+ - PROCESSENTRY32W
 ---
 
 # PROCESSENTRY32 structure
@@ -106,4 +107,3 @@ The name of the executable file for the process. To retrieve the full path to th
 
 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-process32next">Process32Next</a>
-

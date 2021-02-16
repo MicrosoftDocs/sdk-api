@@ -43,6 +43,11 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMCSECollection
+ - IGPMCSECollection.Count
+ - IGPMCSECollection.get_Count
+ - IGPMCSECollection.Item
+ - IGPMCSECollection.get_Item
+ - GPMCSECollection
 ---
 
 # IGPMCSECollection interface
@@ -73,4 +78,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMCSECollection</b> interfa
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmclientsideextension">IGPMClientSideExtension</a>
-

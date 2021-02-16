@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::get_UserDnsSamCompat
+ - IAzClientContext.UserDnsSamCompat
+ - IAzClientContext.get_UserDnsSamCompat
+ - AzClientContext.UserDnsSamCompat
 ---
 
 # IAzClientContext::get_UserDnsSamCompat
@@ -61,4 +63,3 @@ This property is read-only.
 The SAM-compatible DNS client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameDnsDomain</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in SAM-compatible DNS format is "example.fourthcoffee.com\Username".
-

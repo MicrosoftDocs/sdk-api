@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetTitleParentalLevels
+ - IDvdInfo2.GetTitleParentalLevels
 ---
 
 # IDvdInfo2::GetTitleParentalLevels
@@ -126,4 +126,3 @@ A title can contain different parental levels for different sections.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidDevice::get_Power
+ - IMSVidDevice.get_Power
 ---
 
 # IMSVidDevice::get_Power
@@ -131,4 +131,3 @@ Not all device types implement this method.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsviddevice-put_power">IMSVidDevice::put_Power</a>
-

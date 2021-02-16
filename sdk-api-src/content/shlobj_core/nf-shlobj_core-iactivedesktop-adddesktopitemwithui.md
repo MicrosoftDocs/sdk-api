@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktop::AddDesktopItemWithUI
+ - IActiveDesktop.AddDesktopItemWithUI
 ---
 
 # IActiveDesktop::AddDesktopItemWithUI
@@ -147,4 +147,3 @@ This method creates a second instance of the <a href="/windows/desktop/lwef/acti
 
 
 <a href="/windows/desktop/lwef/active-desktop-interface">Using the Active Desktop Object</a>
-

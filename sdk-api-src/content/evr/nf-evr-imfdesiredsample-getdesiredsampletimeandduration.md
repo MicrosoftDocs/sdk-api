@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFDesiredSample::GetDesiredSampleTimeAndDuration
+ - IMFDesiredSample.GetDesiredSampleTimeAndDuration
 ---
 
 # IMFDesiredSample::GetDesiredSampleTimeAndDuration
@@ -103,4 +103,3 @@ No time stamp was set for this sample. See <a href="/windows/desktop/api/evr/nf-
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfdesiredsample">IMFDesiredSample</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetIScsiInitiatorNodeNameA
  - iscsidsc/SetIScsiInitiatorNodeNameA
- - SetIScsiInitiatorNodeName
- - iscsidsc/SetIScsiInitiatorNodeName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - SetIScsiInitiatorNodeNameA
- - SetIScsiInitiatorNodeName
+ - SetIscsiInitiatorNodeName
+ - SetIscsiInitiatorNodeNameA
+ - SetIscsiInitiatorNodeNameW
 ---
 
 # SetIScsiInitiatorNodeNameA function

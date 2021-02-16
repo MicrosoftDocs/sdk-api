@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureRelationshipReferenceSet::GetEnumerator
+ - IOpcSignatureRelationshipReferenceSet.GetEnumerator
 ---
 
 # IOpcSignatureRelationshipReferenceSet::GetEnumerator
@@ -134,4 +134,3 @@ The <i>relationshipReferenceEnumerator</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IInitializeWithStream::Initialize
+ - IInitializeWithStream.Initialize
 ---
 
 # IInitializeWithStream::Initialize
@@ -93,4 +93,3 @@ The stream pointed to by <i>pstream</i> must remain open for the lifetime of the
 When first opened, the source stream reference points to the beginning of the stream. The handler can seek and read from the stream at any time. A handler can be implemented to read all properties from the stream during <b>Initialize</b> or it can wait until the calling process attempts to enumerate or read properties before fetching them from the stream.
 
 A handler instance should be initialized only once in its lifetime. Attempts by the caller to reinitialize the handler should result in the error <code>HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)</code>.
-

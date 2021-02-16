@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivitiesReportCallback::OnActivitiesReport
+ - IMFSensorActivitiesReportCallback.OnActivitiesReport
 ---
 
 # IMFSensorActivitiesReportCallback::OnActivitiesReport
@@ -68,4 +68,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivitiesreportcallback">IMFSensorActivitiesReportCallback</a>
-

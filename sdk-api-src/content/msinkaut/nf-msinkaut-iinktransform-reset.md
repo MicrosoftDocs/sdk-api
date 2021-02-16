@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform::Reset
+ - IInkTransform.Reset
 ---
 
 # IInkTransform::Reset
@@ -66,4 +66,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-

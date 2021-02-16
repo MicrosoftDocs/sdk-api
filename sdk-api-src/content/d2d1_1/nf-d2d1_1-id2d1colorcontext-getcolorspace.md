@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1.dll
 api_name:
- - ID2D1ColorContext::GetColorSpace
+ - ID2D1ColorContext.GetColorSpace
 ---
 
 # ID2D1ColorContext::GetColorSpace
@@ -63,4 +63,3 @@ This method returns the color space of the contained ICC profile.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1colorcontext">ID2D1ColorContext</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - peerdist.h
 api_name:
- - peerdist_retrieval_options_tag
- - PPEERDIST_RETRIEVAL_OPTIONS
  - PEERDIST_RETRIEVAL_OPTIONS
 ---
 
@@ -115,4 +113,3 @@ Reserved. The <b>dwReserved</b> member should be set to 0.
 ## -see-also
 
 <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistserveropencontentinformationex">PeerDistServerOpenContentInformationEx</a>
-

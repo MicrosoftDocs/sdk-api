@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain::GetLastPresentCount
+ - IDXGISwapChain.GetLastPresentCount
 ---
 
 # IDXGISwapChain::GetLastPresentCount
@@ -74,4 +74,3 @@ For info about presentation statistics for a frame, see <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_NONLOCALVIDMEMCAPS
- - PDD_NONLOCALVIDMEMCAPS
  - DD_NONLOCALVIDMEMCAPS
 ---
 
@@ -93,4 +91,3 @@ Normally, the <b>dwNLVBCaps</b>, <b>dwNLVBCaps2</b>, <b>dwNFLBCKeyCaps</b>, <b>d
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawi/ns-ddrawi-ddcorecaps">DDCORECAPS</a>
-

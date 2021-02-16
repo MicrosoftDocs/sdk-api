@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - __MIDL_IWTSSBPlugin_0001
  - WTSSBX_MACHINE_DRAIN
 ---
 

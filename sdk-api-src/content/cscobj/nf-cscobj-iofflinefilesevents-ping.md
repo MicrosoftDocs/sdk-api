@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents::Ping
+ - IOfflineFilesEvents.Ping
 ---
 
 # IOfflineFilesEvents::Ping
@@ -68,4 +68,3 @@ This event cannot be filtered out by using the <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption::put_captioningId
+ - IWMPClosedCaption.put_captioningId
 ---
 
 # IWMPClosedCaption::put_captioningId
@@ -97,4 +97,3 @@ The element name specified can be any HTML element in the webpage as long as it 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_captioningid">IWMPClosedCaption::get_captioningId</a>
-

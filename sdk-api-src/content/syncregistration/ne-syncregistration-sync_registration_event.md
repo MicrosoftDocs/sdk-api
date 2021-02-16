@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - __MIDL___MIDL_itf_syncregistration_0000_0007_0001
  - SYNC_REGISTRATION_EVENT
 ---
 
@@ -88,4 +87,3 @@ A synchronization provider configuration UI has been updated.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-enumerations">Windows Sync Registration Enumerations</a>
-

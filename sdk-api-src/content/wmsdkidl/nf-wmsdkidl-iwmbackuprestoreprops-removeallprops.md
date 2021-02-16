@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps::RemoveAllProps
+ - IWMBackupRestoreProps.RemoveAllProps
 ---
 
 # IWMBackupRestoreProps::RemoveAllProps
@@ -68,4 +68,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmbackuprestoreprops">IWMBackupRestoreProps Interface</a>
-

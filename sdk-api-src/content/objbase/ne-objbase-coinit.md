@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Objbase.h
 api_name:
- - tagCOINIT
  - COINIT
 ---
 
@@ -102,4 +101,3 @@ Multi-threading (also called free-threading) allows calls to methods of objects 
 
 
 <a href="/windows/desktop/com/processes--threads--and-apartments">Processes, Threads, and Apartments</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USBUSER_BUS_STATISTICS_0_REQUEST
- - PUSBUSER_BUS_STATISTICS_0_REQUEST
  - USBUSER_BUS_STATISTICS_0_REQUEST
 ---
 
@@ -87,4 +85,3 @@ The <b>USBUSER_BUS_STATISTICS_0_REQUEST</b> structure is used with the USBUSER_G
 
 
 <a href="/windows/desktop/api/usbuser/ns-usbuser-usb_bus_statistics_0">USB_BUS_STATISTICS_0</a>
-

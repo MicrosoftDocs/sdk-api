@@ -43,6 +43,7 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsAccessControlList
+ - AccessControlList
 ---
 
 # IADsAccessControlList interface
@@ -261,4 +262,3 @@ Cleanup:
 
 
 <a href="/windows/desktop/AD/null-dacls-and-empty-dacls">Null DACLs and Empty DACLs</a>
-

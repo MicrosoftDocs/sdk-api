@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - _INTERNET_CACHE_ENTRY_INFOA
- - LPINTERNET_CACHE_ENTRY_INFOA
+ - INTERNET_CACHE_ENTRY_INFO
  - INTERNET_CACHE_ENTRY_INFOA
+ - INTERNET_CACHE_ENTRY_INFOW
 ---
 
 # INTERNET_CACHE_ENTRY_INFOA structure
@@ -275,4 +275,3 @@ There is no cache entry size limit, so applications that need to enumerate the c
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-seturlcacheentryinfoa">SetUrlCacheEntryInfo</a>
-

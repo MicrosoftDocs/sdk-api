@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
- - __MIDL___MIDL_itf_msrdc_0000_0000_0002
  - GeneratorParametersType
 ---
 
@@ -81,4 +80,3 @@ The FilterMax generator was used to generate the parameters.
 
 
 <a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>
-

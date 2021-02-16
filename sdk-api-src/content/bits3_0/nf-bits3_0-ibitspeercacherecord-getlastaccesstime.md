@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheRecord::GetLastAccessTime
+ - IBitsPeerCacheRecord.GetLastAccessTime
 ---
 
 # IBitsPeerCacheRecord::GetLastAccessTime
@@ -85,4 +85,3 @@ Success
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport::EnumFiles
+ - IMetaDataAssemblyImport.EnumFiles
 ---
 
 # IMetaDataAssemblyImport::EnumFiles
@@ -93,4 +93,3 @@ The number of <b>mdFile</b> tokens actually placed in <i>rFiles</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-

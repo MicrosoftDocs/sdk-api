@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspstrm.h
 api_name:
- - CMSPStream::GetState
+ - CMSPStream.GetState
 ---
 
 # CMSPStream::GetState
@@ -62,4 +62,3 @@ Pointer to indication of stream's state. The precise return value is implementat
 ## -see-also
 
 <a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
-

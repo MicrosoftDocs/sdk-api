@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WMIUtils.h
 api_name:
- - __MIDL___MIDL_itf_wmiutils_0000_0001_0002
  - WMIQ_RPN_TOKEN_FLAGS
 ---
 
@@ -188,4 +187,3 @@ FROM clause contains a list of classes.
 ### -field WMIQ_RPN_FROM_MULTIPLE
 
 Reserved for future use.
-

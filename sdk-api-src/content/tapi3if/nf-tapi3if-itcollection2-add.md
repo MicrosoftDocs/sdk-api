@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCollection2::Add
+ - ITCollection2.Add
 ---
 
 # ITCollection2::Add
@@ -125,4 +125,3 @@ There is not enough memory to reallocate the collection.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcollection2-remove">Remove</a>
-

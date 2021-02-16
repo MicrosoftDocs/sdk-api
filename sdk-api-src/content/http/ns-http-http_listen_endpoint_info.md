@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_LISTEN_ENDPOINT_INFO
- - PHTTP_LISTEN_ENDPOINT_INFO
  - HTTP_LISTEN_ENDPOINT_INFO
 ---
 
@@ -71,4 +69,3 @@ A Boolean value that specifies whether sharing is enabled.
 ## -see-also
 
 <a href="/windows/desktop/api/http/ns-http-http_property_flags">HTTP_PROPERTY_FLAGS</a>
-

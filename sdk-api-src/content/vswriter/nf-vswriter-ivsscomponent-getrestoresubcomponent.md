@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::GetRestoreSubcomponent
+ - IVssComponent.GetRestoreSubcomponent
 ---
 
 # IVssComponent::GetRestoreSubcomponent
@@ -150,4 +150,3 @@ The caller should free the memory held by the <i>pbstrLogicalPath</i> and <i>pbs
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-

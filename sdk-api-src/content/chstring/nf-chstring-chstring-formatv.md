@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::FormatV
+ - CHString.FormatV
+ - ?FormatV@CHString@@QAEXPBGPAD@Z
+ - ?FormatV@CHString@@QEAAXPEBGPEAD@Z
 ---
 
 # CHString::FormatV
@@ -85,4 +87,3 @@ If the string object is offered as a parameter to <b>FormatV</b>, the call fails
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-format(uint_---)">CHString::Format</a>
-

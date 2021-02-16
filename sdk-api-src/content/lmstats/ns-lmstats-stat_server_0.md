@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmstats.h
 api_name:
- - _STAT_SERVER_0
- - PSTAT_SERVER_0
  - STAT_SERVER_0
 ---
 
@@ -143,4 +141,3 @@ Specifies a DWORD value that indicates the number of times the server required a
 
 
 <a href="/windows/desktop/NetShare/statistics-functions">Statistics Functions</a>
-

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide::get_Rows
+ - IInkRecognizerGuide.Rows
+ - IInkRecognizerGuide.get_Rows
+ - IInkRecognizerGuide.put_Rows
+ - InkRecognizerGuide.get_Rows
+ - InkRecognizerGuide.put_Rows
 ---
 
 # IInkRecognizerGuide::get_Rows
@@ -196,4 +200,3 @@ z
 
 
 <a href="/windows/desktop/tablet/inkrecognizerguide-class">InkRecognizerGuide Class</a>
-

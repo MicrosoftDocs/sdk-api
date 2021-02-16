@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfLangBarItems::Clone
+ - IEnumTfLangBarItems.Clone
 ---
 
 # IEnumTfLangBarItems::Clone
@@ -95,4 +95,3 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-ienumtflangbaritems">IEnumTfLangBarItems
       </a>
-

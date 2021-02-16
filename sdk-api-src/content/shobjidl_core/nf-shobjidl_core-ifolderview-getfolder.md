@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IFolderView::GetFolder
+ - IFolderView.GetFolder
 ---
 
 # IFolderView::GetFolder
@@ -71,4 +71,3 @@ When this method returns, contains the interface pointer requested in <i>riid</i
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

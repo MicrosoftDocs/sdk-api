@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RemoveDirectoryW
  - fileapi/RemoveDirectoryW
- - RemoveDirectory
- - fileapi/RemoveDirectory
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - RemoveDirectoryW
  - RemoveDirectory
+ - RemoveDirectoryA
+ - RemoveDirectoryW
 ---
 
 # RemoveDirectoryW function
@@ -182,4 +181,3 @@ Yes
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-removedirectorytransacteda">RemoveDirectoryTransacted</a>
-

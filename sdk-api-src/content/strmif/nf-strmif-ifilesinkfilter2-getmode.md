@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFileSinkFilter2::GetMode
+ - IFileSinkFilter2.GetMode
 ---
 
 # IFileSinkFilter2::GetMode
@@ -70,4 +70,3 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilesinkfilter2">IFileSinkFilter2 Interface</a>
-

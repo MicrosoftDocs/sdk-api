@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextView::GetScreenExt
+ - ITfContextView.GetScreenExt
 ---
 
 # ITfContextView::GetScreenExt
@@ -102,4 +102,3 @@ The <i>prc</i> parameter is cleared to {0,0,0,0} if the document is not currentl
 
 <a href="/windows/desktop/TSF/tsviewcookie">TsViewCookie
       </a>
-

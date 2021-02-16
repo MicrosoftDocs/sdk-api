@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_MISCELLANEOUS2CALLBACKS
- - PDD_MISCELLANEOUS2CALLBACKS
  - DD_MISCELLANEOUS2CALLBACKS
 ---
 
@@ -106,4 +104,3 @@ Points to the driver's <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_de
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
-

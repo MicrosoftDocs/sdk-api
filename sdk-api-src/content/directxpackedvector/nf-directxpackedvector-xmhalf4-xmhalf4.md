@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMHALF4::XMHALF4
+ - XMHALF4.XMHALF4
 ---
 
 # XMHALF4::XMHALF4
@@ -75,4 +75,3 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 
 <a href="/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>
-

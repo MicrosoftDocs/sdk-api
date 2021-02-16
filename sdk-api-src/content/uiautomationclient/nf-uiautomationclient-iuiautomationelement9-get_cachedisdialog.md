@@ -41,7 +41,8 @@ api_type:
 api_location:
  - uiautomationclient.h
 api_name:
- - IUIAutomationElement9::get_CachedIsDialog
+ - IUIAutomationElement9.CachedIsDialog
+ - IUIAutomationElement9.get_CachedIsDialog
 ---
 
 # IUIAutomationElement9::get_CachedIsDialog

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStorage::Save
+ - IPersistStorage.Save
 ---
 
 # IPersistStorage::Save
@@ -139,4 +139,3 @@ If an embedded object passes the <b>IPersistStorage::Save</b> method to its nest
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
-

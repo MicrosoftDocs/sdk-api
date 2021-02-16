@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice::get_RootDevice
+ - IUPnPDevice.get_RootDevice
 ---
 
 # IUPnPDevice::get_RootDevice
@@ -71,4 +71,3 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_isrootdevice">IUPnPDevice::IsRootDevice</a>
-

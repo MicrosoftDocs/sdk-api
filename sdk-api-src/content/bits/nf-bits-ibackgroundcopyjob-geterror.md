@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetError
+ - IBackgroundCopyJob.GetError
 ---
 
 # IBackgroundCopyJob::GetError
@@ -145,4 +145,3 @@ See the example code in the
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
-

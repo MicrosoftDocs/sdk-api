@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCPV6_IP_ARRAY
- - LPDHCPV6_IP_ARRAY
  - DHCPV6_IP_ARRAY
 ---
 
@@ -71,4 +69,3 @@ An array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address
 ### -field Elements.size_is
 
 ### -field Elements.size_is.NumElements
-

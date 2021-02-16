@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUIObjInfoW::GetViewInfo
+ - IOleUIObjInfo.GetViewInfo
+ - IOleUIObjInfoW.GetViewInfo
+ - IOleUIObjInfoA.GetViewInfo
 ---
 
 # IOleUIObjInfoW::GetViewInfo
@@ -137,4 +139,3 @@ You must fill in the object's current icon, aspect, and scale.
 
 
 <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
-

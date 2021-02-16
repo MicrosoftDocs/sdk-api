@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequest::SetRequestedSigner
+ - IXpsSignatureRequest.SetRequestedSigner
 ---
 
 # IXpsSignatureRequest::SetRequestedSigner
@@ -121,4 +121,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

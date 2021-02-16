@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTrustedOutput::IsFinal
+ - IMFTrustedOutput.IsFinal
 ---
 
 # IMFTrustedOutput::IsFinal
@@ -88,4 +88,3 @@ A trusted output is generally considered to be a policy sink if it does not pass
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftrustedoutput">IMFTrustedOutput</a>
-

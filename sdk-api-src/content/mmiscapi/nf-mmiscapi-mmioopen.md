@@ -46,6 +46,8 @@ api_location:
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
  - mmioOpen
+ - mmioOpenA
+ - mmioOpenW
 ---
 
 # mmioOpen function
@@ -261,4 +263,3 @@ If <i>lpmmioinfo</i> points to an <a href="/previous-versions/dd757322(v=vs.85)"
 <li>To use a currently open standard file handle (that is, a file handle that does not have the <b>HMMIO</b> type) with multimedia file I/O services, set <b>fccIOProc</b> to FOURCC_DOS, <b>pchBuffer</b> to <b>NULL</b>, and <b>adwInfo</b> to the standard file handle. Offsets within the file will be relative to the beginning of the file and are not related to the position in the standard file at the time <b>mmioOpen</b> is called; the initial multimedia file I/O offset will be the same as the offset in the standard file when <b>mmioOpen</b> is called. To close the multimedia file I/O file handle without closing the standard file handle, pass the MMIO_FHOPEN flag to <a href="/previous-versions/dd757316(v=vs.85)">mmioClose</a>.</li>
 </ul>
 You must call <a href="/previous-versions/dd757316(v=vs.85)">mmioClose</a> to close a file opened by using <b>mmioOpen</b>. Open files are not automatically closed when an application exits.
-

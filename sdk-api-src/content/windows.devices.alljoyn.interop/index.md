@@ -9,8 +9,6 @@ tech.root: alljoyn
 f1_keywords:
  - windows.devices.alljoyn.interop
  - windows.devices.alljoyn.interop/windows.devices.alljoyn.interop
-api_name:
- - windows.devices.alljoyn.interop
 ---
 
 # Windows.Devices.Alljoyn.Interop.h header

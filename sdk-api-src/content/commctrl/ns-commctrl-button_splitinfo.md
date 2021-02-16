@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagBUTTON_SPLITINFO
- - PBUTTON_SPLITINFO
  - BUTTON_SPLITINFO
 ---
 
@@ -185,4 +183,3 @@ The glyph is the image that appears on the part of the button that activates the
 ## -see-also
 
 <a href="/windows/desktop/Controls/buttons">Buttons Overview</a>
-

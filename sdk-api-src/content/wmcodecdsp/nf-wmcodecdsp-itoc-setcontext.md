@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc::SetContext
+ - IToc.SetContext
 ---
 
 # IToc::SetContext
@@ -95,4 +95,3 @@ You can use this method to associate any information with the table of contents.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-

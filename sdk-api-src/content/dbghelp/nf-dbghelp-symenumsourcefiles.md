@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymEnumSourceFiles
+ - SymEnumSourceFiles
+ - SymEnumSourceFilesW
 ---
 
 # SymEnumSourceFiles function
@@ -98,4 +100,3 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumsourcefiles_callback">SymEnumSourceFilesProc</a>
-

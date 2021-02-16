@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated
+ - ITfTransitoryExtensionSink.OnTransitoryExtensionUpdated
 ---
 
 # ITfTransitoryExtensionSink::OnTransitoryExtensionUpdated
@@ -106,4 +106,3 @@ An unspecified error occurred.
 </td>
 </tr>
 </table>
-

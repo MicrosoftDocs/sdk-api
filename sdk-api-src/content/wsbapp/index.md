@@ -9,8 +9,6 @@ tech.root: wsb
 f1_keywords:
  - wsbapp
  - wsbapp/wsbapp
-api_name:
- - wsbapp
 ---
 
 # Wsbapp.h header

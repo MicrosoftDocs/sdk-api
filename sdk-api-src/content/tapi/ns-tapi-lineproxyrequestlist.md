@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineproxyrequestlist_tag
- - LPLINEPROXYREQUESTLIST
  - LINEPROXYREQUESTLIST
 ---
 
@@ -99,4 +97,3 @@ Offset from the beginning of the structure to an array of <b>DWORD</b> elements 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetproxystatus">lineGetProxyStatus</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinEvents::OnEnterComplete
+ - IMbnPinEvents.OnEnterComplete
 ---
 
 # IMbnPinEvents::OnEnterComplete
@@ -159,4 +159,3 @@ If repeated attempts with the wrong PIN causes <b>attemptsRemaining</b> to becom
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents">IMbnPinEvents</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog::IsCancelled
+ - IPhotoProgressDialog.IsCancelled
 ---
 
 # IPhotoProgressDialog::IsCancelled
@@ -95,4 +95,3 @@ A <b>NULL</b> pointer was passed
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls::playItem
+ - IWMPControls.playItem
 ---
 
 # IWMPControls::playItem
@@ -116,4 +116,3 @@ Note
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_autostart">IWMPSettings::put_autoStart</a>
-

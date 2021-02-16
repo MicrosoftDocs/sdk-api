@@ -9,8 +9,6 @@ tech.root: fsrm
 f1_keywords:
  - fsrmreports
  - fsrmreports/fsrmreports
-api_name:
- - fsrmreports
 ---
 
 # Fsrmreports.h header

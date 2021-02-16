@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadata::SetProperty
+ - IMFMetadata.SetProperty
 ---
 
 # IMFMetadata::SetProperty
@@ -74,4 +74,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
-

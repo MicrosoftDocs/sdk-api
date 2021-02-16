@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynthSink::Init
+ - IDirectMusicSynthSink.Init
 ---
 
 # IDirectMusicSynthSink::Init
@@ -93,4 +93,3 @@ For more information, see <a href="/windows-hardware/drivers/audio/synthesizers-
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-activate">IDirectMusicSynthSink::Activate</a>
-

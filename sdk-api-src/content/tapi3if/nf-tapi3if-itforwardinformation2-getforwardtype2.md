@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation2::GetForwardType2
+ - ITForwardInformation2.GetForwardType2
 ---
 
 # ITForwardInformation2::GetForwardType2
@@ -141,4 +141,3 @@ The <i>ppDestinationAddress</i>, <i>pDestAddressType</i>, <i>pCallerAddressType<
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-getforwardtype">ITForwardInformation::GetForwardType</a>
-

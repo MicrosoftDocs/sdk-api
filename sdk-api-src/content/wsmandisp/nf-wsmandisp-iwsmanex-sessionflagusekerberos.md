@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx::SessionFlagUseKerberos
+ - IWSManEx.SessionFlagUseKerberos
 ---
 
 # IWSManEx::SessionFlagUseKerberos
@@ -71,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinRM/wsman-sessionflagusekerberos">WSMan.WSMan.SessionFlagUseKerberos</a>
-

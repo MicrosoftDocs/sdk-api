@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IValueProvider::get_Value
+ - IValueProvider.Value
+ - IValueProvider.get_Value
 ---
 
 # IValueProvider::get_Value
@@ -74,4 +75,3 @@ To retrieve the textual contents of multi-line edit controls, the controls must 
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

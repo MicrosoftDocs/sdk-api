@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtDevice::put_DevicePort
+ - IAMExtDevice.put_DevicePort
 ---
 
 # IAMExtDevice::put_DevicePort
@@ -127,4 +127,3 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamextdevice-get_deviceport">IAMExtDevice::get_DevicePort</a>
-

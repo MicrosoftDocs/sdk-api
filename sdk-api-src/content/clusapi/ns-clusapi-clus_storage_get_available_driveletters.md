@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
- - PCLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
  - CLUS_STORAGE_GET_AVAILABLE_DRIVELETTERS
 ---
 
@@ -67,4 +65,3 @@ The least significant bit represents the letter 'A' and is set to zero if any pa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-storage-get-driveletters">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor::GetElementStreamType
+ - IServiceLocationDescriptor.GetElementStreamType
 ---
 
 # IServiceLocationDescriptor::GetElementStreamType
@@ -171,4 +171,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iservicelocationdescriptor-getnumberofelements">IServiceLocationDescriptor::GetNumberOfElements</a>
-

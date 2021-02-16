@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::GetStatus
+ - IMixerOCX.GetStatus
 ---
 
 # IMixerOCX::GetStatus
@@ -70,4 +70,3 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _WNDOBJ
- - PWNDOBJ
  - WNDOBJ
 ---
 
@@ -113,4 +111,3 @@ The driver should use the SURFOBJ to which <b>psoOwner</b> points to retrieve dr
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-wndobj_vsetconsumer">WNDOBJ_vSetConsumer</a>
-

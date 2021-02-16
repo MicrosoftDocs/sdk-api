@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMLanguageList::GetLanguageDetails
+ - IWMLanguageList.GetLanguageDetails
 ---
 
 # IWMLanguageList::GetLanguageDetails
@@ -98,4 +98,3 @@ For a list of common RFC 1766-compliant language identifiers, see <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist">IWMLanguageList Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _SOCKET_USAGE_TYPE
  - SOCKET_USAGE_TYPE
 ---
 

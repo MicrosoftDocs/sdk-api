@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CertStrToNameA
  - wincrypt/CertStrToNameA
- - CertStrToName
- - wincrypt/CertStrToName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Crypt32.dll
 api_name:
- - CertStrToNameA
  - CertStrToName
+ - CertStrToNameA
+ - CertStrToNameW
 ---
 
 # CertStrToNameA function
@@ -675,4 +674,3 @@ For an example that uses this function, see
 
 
 <a href="/windows/desktop/SecCrypto/retrieving-data-of-unknown-length">Retrieving Data of Unknown Length</a>
-

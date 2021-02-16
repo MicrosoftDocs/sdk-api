@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF::Dismount
+ - IVdsVolumeMF.Dismount
 ---
 
 # IVdsVolumeMF::Dismount
@@ -158,4 +158,3 @@ The volume is in use and cannot be dismounted.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-mount">IVdsVolumeMF::Mount</a>
-

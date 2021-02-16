@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRFilterConfig9::GetRenderingPrefs
+ - IVMRFilterConfig9.GetRenderingPrefs
 ---
 
 # IVMRFilterConfig9::GetRenderingPrefs
@@ -107,4 +107,3 @@ If the VMR-9 has not yet created the allocator-presenter, or if a custom allocat
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

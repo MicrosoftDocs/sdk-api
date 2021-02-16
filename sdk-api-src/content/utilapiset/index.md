@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - utilapiset
  - utilapiset/utilapiset
-api_name:
- - utilapiset
 ---
 
 # Utilapiset.h header

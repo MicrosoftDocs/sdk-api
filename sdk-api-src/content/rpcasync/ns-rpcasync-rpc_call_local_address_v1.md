@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
- - _RPC_CALL_LOCAL_ADDRESS_V1
- - PRPC_CALL_LOCAL_ADDRESS_V1
  - RPC_CALL_LOCAL_ADDRESS_V1
+ - RPC_CALL_LOCAL_ADDRESS_V1_A
+ - RPC_CALL_LOCAL_ADDRESS_V1_W
 ---
 
 # RPC_CALL_LOCAL_ADDRESS_V1 structure
@@ -79,4 +79,3 @@ On input, this member contains the size of the buffer pointed to by the <b>Buffe
 ## -see-also
 
 <a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_call_attributes_v2_a">RPC_CALL_ATTRIBUTES_V2</a>
-

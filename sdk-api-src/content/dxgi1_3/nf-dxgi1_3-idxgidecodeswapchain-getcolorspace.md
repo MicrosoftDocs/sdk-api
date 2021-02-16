@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain::GetColorSpace
+ - IDXGIDecodeSwapChain.GetColorSpace
 ---
 
 # IDXGIDecodeSwapChain::GetColorSpace
@@ -62,4 +62,3 @@ A combination of <a href="/windows/desktop/api/dxgi1_3/ne-dxgi1_3-dxgi_multiplan
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>
-

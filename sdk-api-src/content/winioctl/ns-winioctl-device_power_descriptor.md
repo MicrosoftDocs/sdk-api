@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_POWER_DESCRIPTOR
- - PDEVICE_POWER_DESCRIPTOR
  - DEVICE_POWER_DESCRIPTOR
 ---
 
@@ -114,4 +112,3 @@ The idle timeout value in milliseconds. This member is ignored unless
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
-

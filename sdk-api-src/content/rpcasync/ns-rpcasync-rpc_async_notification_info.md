@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
- - _RPC_ASYNC_NOTIFICATION_INFO
- - PRPC_ASYNC_NOTIFICATION_INFO
  - RPC_ASYNC_NOTIFICATION_INFO
 ---
 
@@ -132,4 +130,3 @@ Prior to Windows Vista and earlier versions of Windows, the <b>RPC_ASYNC_NOTIFI
 ## -see-also
 
 <a href="/windows/desktop/api/rpcasync/ns-rpcasync-rpc_async_state">RPC_ASYNC_STATE</a>
-

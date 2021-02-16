@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DISK_CACHE_INFORMATION
- - PDISK_CACHE_INFORMATION
  - DISK_CACHE_INFORMATION
 ---
 
@@ -162,4 +160,3 @@ The maximum amount of data  that can be prefetched into the cache on a disk oper
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_set_cache_information">IOCTL_DISK_SET_CACHE_INFORMATION</a>
-

@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::getCertFromPKCS7
+ - ICEnroll4.getCertFromPKCS7
+ - ICEnroll3.getCertFromPKCS7
+ - ICEnroll2.getCertFromPKCS7
+ - ICEnroll.getCertFromPKCS7
+ - CEnroll.getCertFromPKCS7
 ---
 
 # ICEnroll::getCertFromPKCS7
@@ -75,4 +79,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 <h3>VB</h3>
  The string that contains the issued certificate.
-

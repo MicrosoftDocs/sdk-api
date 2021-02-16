@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList::ClearState
+ - ID3D12GraphicsCommandList.ClearState
 ---
 
 # ID3D12GraphicsCommandList::ClearState
@@ -73,4 +73,3 @@ The app-provided pipeline state object becomes bound as the currently set pipeli
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-

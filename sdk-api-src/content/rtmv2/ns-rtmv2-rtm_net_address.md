@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_NET_ADDRESS
- - PRTM_NET_ADDRESS
  - RTM_NET_ADDRESS
 ---
 
@@ -117,4 +115,3 @@ If the client specifies an address and a mask length that do not correspond to e
 
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmgetrouteinfo">RtmGetRouteInfo</a>
-

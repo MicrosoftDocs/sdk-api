@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetNativeVideoSize
+ - IMFMediaEngine.GetNativeVideoSize
 ---
 
 # IMFMediaEngine::GetNativeVideoSize
@@ -78,4 +78,3 @@ For example, if the encoded frame is 720 × 420 and the picture aspect ratio is 
 
 
 <a href="/windows/desktop/medfound/picture-aspect-ratio">Picture Aspect Ratio</a>
-

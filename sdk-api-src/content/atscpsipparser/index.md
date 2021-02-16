@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - atscpsipparser
  - atscpsipparser/atscpsipparser
-api_name:
- - atscpsipparser
 ---
 
 # Atscpsipparser.h header

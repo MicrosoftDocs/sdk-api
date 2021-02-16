@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IEnumDiskQuotaUsers::Next
+ - IEnumDiskQuotaUsers.Next
 ---
 
 # IEnumDiskQuotaUsers::Next
@@ -81,4 +81,3 @@ The return value is <b>S_OK</b> if the number of elements supplied is <i>cUsers<
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-ienumdiskquotausers">IEnumDiskQuotaUsers</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmp2dlna.h
 api_name:
- - IMFDLNASinkInit::Initialize
+ - IMFDLNASinkInit.Initialize
 ---
 
 # IMFDLNASinkInit::Initialize
@@ -109,4 +109,3 @@ The media sink's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasink-shutd
 ## -see-also
 
 <a href="/windows/desktop/api/mfmp2dlna/nn-mfmp2dlna-imfdlnasinkinit">IMFDLNASinkInit</a>
-

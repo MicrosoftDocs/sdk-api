@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn::startBurn
+ - IWMPCdromBurn.startBurn
 ---
 
 # IWMPCdromBurn::startBurn
@@ -95,4 +95,3 @@ This method will not work if the CD drive is not a burner, or if the disc in the
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-stopburn">IWMPCdromBurn::stopBurn</a>
-

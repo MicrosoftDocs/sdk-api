@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::EndReceiveResponse
+ - IMFHttpDownloadRequest.EndReceiveResponse
 ---
 
 # IMFHttpDownloadRequest::EndReceiveResponse
@@ -91,4 +91,3 @@ If the server failed the request but responded with a specific HTTP status code,
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

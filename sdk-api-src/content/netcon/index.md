@@ -9,8 +9,6 @@ tech.root: ics
 f1_keywords:
  - netcon
  - netcon/netcon
-api_name:
- - netcon
 ---
 
 # Netcon.h header

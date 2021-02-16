@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineClassFactory2::CreateMediaKeys2
+ - IMFMediaEngineClassFactory2.CreateMediaKeys2
 ---
 
 # IMFMediaEngineClassFactory2::CreateMediaKeys2
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeys">IMFMediaKeys</a>
-

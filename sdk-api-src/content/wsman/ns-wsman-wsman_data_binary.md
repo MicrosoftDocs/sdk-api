@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_DATA_BINARY
  - WSMAN_DATA_BINARY
 ---
 
@@ -64,4 +63,3 @@ Represents the number of BYTEs stored in the data field.
 ### -field data
 
 Specifies the storage location for the binary data.
-

@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionResult::get_TopString
+ - IInkRecognitionResult.TopString
+ - IInkRecognitionResult.get_TopString
+ - IInkRecognitionResult.get_TopString
 ---
 
 # IInkRecognitionResult::get_TopString
@@ -75,4 +77,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionresult-get_topalternate">TopAlternate Property</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm::get_Name
+ - ICspAlgorithm.Name
+ - ICspAlgorithm.get_Name
 ---
 
 # ICspAlgorithm::get_Name
@@ -114,4 +115,3 @@ The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-

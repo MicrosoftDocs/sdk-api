@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
+ - IKnowledgeSyncProvider.ProcessFullEnumerationChangeBatch
 ---
 
 # IKnowledgeSyncProvider::ProcessFullEnumerationChangeBatch
@@ -119,4 +119,3 @@ This method is called during forgotten knowledge recovery.
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_range">SYNC RANGE Structure</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentProtectionManager::EndEnableContent
+ - IMFContentProtectionManager.EndEnableContent
 ---
 
 # IMFContentProtectionManager::EndEnableContent
@@ -90,4 +90,3 @@ The application must return the success or failure code of the asynchronous proc
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a>
-

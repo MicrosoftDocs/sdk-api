@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISurface1::GetDC
+ - IDXGISurface1.GetDC
 ---
 
 # IDXGISurface1::GetDC
@@ -120,4 +120,3 @@ g_pSurface1->ReleaseDC( NULL );
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface1">IDXGISurface1</a>
-

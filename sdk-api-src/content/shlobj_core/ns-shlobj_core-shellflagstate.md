@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - LPSHELLFLAGSTATE
  - SHELLFLAGSTATE
 ---
 
@@ -155,4 +154,3 @@ Type: <b>BOOL</b>
 Type: <b>UINT</b>
 
 For Windows Vista this bitfield is 1, otherwise member this is not used.
-

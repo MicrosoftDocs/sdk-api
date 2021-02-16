@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator::Enumerate
+ - GraphicsPathIterator.Enumerate
 ---
 
 # GraphicsPathIterator::Enumerate
@@ -166,4 +166,3 @@ delete[] pTypes;
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

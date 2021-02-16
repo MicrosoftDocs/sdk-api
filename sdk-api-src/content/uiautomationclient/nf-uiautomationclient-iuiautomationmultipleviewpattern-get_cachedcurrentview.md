@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationMultipleViewPattern::get_CachedCurrentView
+ - IUIAutomationMultipleViewPattern.CachedCurrentView
+ - IUIAutomationMultipleViewPattern.get_CachedCurrentView
 ---
 
 # IUIAutomationMultipleViewPattern::get_CachedCurrentView

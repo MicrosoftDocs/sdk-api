@@ -42,7 +42,10 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplication::get_Shared
+ - IRDPSRAPIApplication.Shared
+ - IRDPSRAPIApplication.get_Shared
+ - IRDPSRAPIApplication.put_Shared
+ - RDPSRAPIApplication.Shared
 ---
 
 # IRDPSRAPIApplication::get_Shared
@@ -59,4 +62,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplication">IRDPSRAPIApplication</a>
-

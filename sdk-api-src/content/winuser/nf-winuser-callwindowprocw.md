@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - CallWindowProcW
  - winuser/CallWindowProcW
- - CallWindowProc
- - winuser/CallWindowProc
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +47,10 @@ api_location:
  - minuser.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - CallWindowProcW
  - CallWindowProc
+ - CallWindowProcA
+ - CallWindowProcW
+req.apiset: ext-ms-win-ntuser-window-l1-1-4 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # CallWindowProcW function
@@ -161,4 +160,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-procedures">Su
 
 
 <a href="/windows/desktop/winmsg/window-procedures">Window Procedures</a>
-

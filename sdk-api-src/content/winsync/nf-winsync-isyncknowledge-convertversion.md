@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge::ConvertVersion
+ - ISyncKnowledge.ConvertVersion
 ---
 
 # ISyncKnowledge::ConvertVersion
@@ -134,4 +134,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-

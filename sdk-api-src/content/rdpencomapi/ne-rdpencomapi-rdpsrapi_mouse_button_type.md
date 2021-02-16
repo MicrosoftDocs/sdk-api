@@ -44,7 +44,6 @@ api_type:
 api_location:
  - RdpEncomAPI.tlb
 api_name:
- - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0009
  - RDPSRAPI_MOUSE_BUTTON_TYPE
 ---
 
@@ -72,4 +71,3 @@ Defines values for the type of mouse buttons.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tiptsf.dll
 api_name:
- - ITfCandidateList::EnumCandidates
+ - ITfCandidateList.EnumCandidates
 ---
 
 # ITfCandidateList::EnumCandidates
@@ -110,4 +110,3 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfcandidatelist">ITfCandidateList</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls3::get_currentAudioLanguageIndex
+ - IWMPControls3.get_currentAudioLanguageIndex
 ---
 
 # IWMPControls3::get_currentAudioLanguageIndex
@@ -115,4 +115,3 @@ Use the <b>get_audioLanguageCount</b> method to retrieve the number of supported
 
 
 <a href="/previous-versions/aa388723(v=vs.85)">IWMPControls3::put_currentAudioLanguageIndex</a>
-

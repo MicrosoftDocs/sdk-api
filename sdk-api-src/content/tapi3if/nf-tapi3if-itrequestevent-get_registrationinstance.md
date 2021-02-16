@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITRequestEvent::get_RegistrationInstance
+ - ITRequestEvent.get_RegistrationInstance
 ---
 
 # ITRequestEvent::get_RegistrationInstance
@@ -106,4 +106,3 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent">ITRequestEvent</a>
-

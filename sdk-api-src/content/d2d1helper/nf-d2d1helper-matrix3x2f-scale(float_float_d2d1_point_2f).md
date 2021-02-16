@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - Matrix3x2F::Scale
+ - Matrix3x2F.Scale
 ---
 
 # Matrix3x2F::Scale(FLOAT,FLOAT,D2D1_POINT_2F)
@@ -95,4 +95,3 @@ The following illustration shows the size of the square increased
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-

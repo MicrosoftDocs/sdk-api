@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter::ConfigureFilterUsingProfileId
+ - IConfigAsfWriter.ConfigureFilterUsingProfileId
 ---
 
 # IConfigAsfWriter::ConfigureFilterUsingProfileId
@@ -117,4 +117,3 @@ This method is now obsolete because it assumes version 4.0 Windows Media Format 
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-

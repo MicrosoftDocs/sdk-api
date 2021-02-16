@@ -42,7 +42,7 @@ api_type:
 api_location:
  - stdole.dll
 api_name:
- - IEnumVARIANT::Skip
+ - IEnumVARIANT.Skip
 ---
 
 # IEnumVARIANT::Skip
@@ -95,4 +95,3 @@ The end of the sequence was reached before skipping the requested number of elem
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
-

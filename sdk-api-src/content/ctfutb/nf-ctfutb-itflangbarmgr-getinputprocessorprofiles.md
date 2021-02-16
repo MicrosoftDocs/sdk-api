@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr::GetInputProcessorProfiles
+ - ITfLangBarMgr.GetInputProcessorProfiles
 ---
 
 # ITfLangBarMgr::GetInputProcessorProfiles
@@ -72,4 +72,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
-

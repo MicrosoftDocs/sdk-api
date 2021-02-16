@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor::GetListCountOfRecords
+ - IDvbLogicalChannel2Descriptor.GetListCountOfRecords
 ---
 
 # IDvbLogicalChannel2Descriptor::GetListCountOfRecords
@@ -74,4 +74,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvblogicalchanneldescriptor-getcountofrecords">IDvbLogicalChannel2Descriptor::GetCountOfLists</a>
-

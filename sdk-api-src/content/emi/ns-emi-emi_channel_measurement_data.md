@@ -42,7 +42,7 @@ api_type:
 api_location:
  - emi.h
 api_name:
- - EMI_CHANNEL_MEASUREMENT_DATA
+ - EMI_MEASUREMENT_DATA
 ---
 
 # EMI_CHANNEL_MEASUREMENT_DATA structure
@@ -73,4 +73,3 @@ This structure is returned through a successful completion of an <a href="/windo
 
 
 <a href="/windows/desktop/api/emi/ni-emi-ioctl_emi_get_measurement">IOCTL_EMI_GET_MEASUREMENT</a>
-

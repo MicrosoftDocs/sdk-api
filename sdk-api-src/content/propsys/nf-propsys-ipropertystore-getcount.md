@@ -43,7 +43,7 @@ api_location:
  - Propsys.idl
  - Propsys.idl.dll
 api_name:
- - IPropertyStore::GetCount
+ - IPropertyStore.GetCount
 ---
 
 # IPropertyStore::GetCount
@@ -78,4 +78,3 @@ In the case of failures such as E_OUTOFMEMORY, you should set cProps to zero. It
 
 
 <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getat">IPropertyStore::GetAt</a>
-

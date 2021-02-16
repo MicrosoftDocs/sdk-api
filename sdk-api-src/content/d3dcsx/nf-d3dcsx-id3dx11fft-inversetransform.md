@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11FFT::InverseTransform
+ - ID3DX11FFT.InverseTransform
 ---
 
 # ID3DX11FFT::InverseTransform
@@ -78,4 +78,3 @@ Returns one of the return codes described in the topic <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>
-

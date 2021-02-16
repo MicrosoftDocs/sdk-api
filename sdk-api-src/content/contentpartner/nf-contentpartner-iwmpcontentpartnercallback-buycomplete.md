@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::BuyComplete
+ - IWMPContentPartnerCallback.BuyComplete
 ---
 
 # IWMPContentPartnerCallback::BuyComplete
@@ -95,4 +95,3 @@ Return a success code only after all licenses related to the purchase have been 
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationProgressChangedCallback::Invoke
+ - IInstallationProgressChangedCallback.Invoke
 ---
 
 # IInstallationProgressChangedCallback::Invoke
@@ -73,4 +73,3 @@ Returns <b>S_OK</b> if successful. Otherwise, returns  a COM or Windows error co
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a>
-

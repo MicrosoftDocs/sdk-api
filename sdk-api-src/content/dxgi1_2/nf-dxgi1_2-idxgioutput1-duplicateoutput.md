@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutput1::DuplicateOutput
+ - IDXGIOutput1.DuplicateOutput
 ---
 
 # IDXGIOutput1::DuplicateOutput
@@ -102,4 +102,3 @@ For improved performance, consider using <a href="/windows/desktop/api/dxgi1_5/n
 
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutput1">IDXGIOutput1</a>
-

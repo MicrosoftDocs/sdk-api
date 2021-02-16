@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchProtocol::ShutDown
+ - ISearchProtocol.ShutDown
 ---
 
 # ISearchProtocol::ShutDown
@@ -66,4 +66,3 @@ This method is called by the protocol host to enable the protocol handler to cle
           
 
 The protocol host makes one call to this method before it exits. After this method is called, this instance will not be used any more. However, it is also possible for the protocol host process to terminate abruptly without calling this method. Protocol handlers that have persisted global states, such as registry entries and temporary files, should verify that those resources are cleaned up in the <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-init">ISearchProtocol::Init</a> method before initialization.
-

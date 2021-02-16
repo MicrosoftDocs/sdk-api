@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tsvirtualchannels.h
 api_name:
- - IWTSBitmapRendererCallback::OnTargetSizeChanged
+ - IWTSBitmapRendererCallback.OnTargetSizeChanged
 ---
 
 # IWTSBitmapRendererCallback::OnTargetSizeChanged
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsbitmaprenderercallback">IWTSBitmapRendererCallback</a>
-

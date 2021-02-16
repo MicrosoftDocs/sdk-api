@@ -9,8 +9,6 @@ tech.root: secbiomet
 f1_keywords:
  - winbio
  - winbio/winbio
-api_name:
- - winbio
 ---
 
 # Winbio.h header

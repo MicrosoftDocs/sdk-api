@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_SIGNED_ENCODE_INFO
- - PCMSG_SIGNED_ENCODE_INFO
  - CMSG_SIGNED_ENCODE_INFO
 ---
 
@@ -110,4 +108,3 @@ Array of encoded attribute certificates.
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-

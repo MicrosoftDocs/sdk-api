@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities::GetSupportedEvents
+ - IPortableDeviceServiceCapabilities.GetSupportedEvents
 ---
 
 # IPortableDeviceServiceCapabilities::GetSupportedEvents
@@ -65,4 +65,3 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
-

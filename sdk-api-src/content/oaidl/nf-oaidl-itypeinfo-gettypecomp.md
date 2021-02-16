@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo::GetTypeComp
+ - ITypeInfo.GetTypeComp
 ---
 
 # ITypeInfo::GetTypeComp
@@ -112,4 +112,3 @@ A client compiler can use the <a href="/previous-versions/windows/desktop/api/oa
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-

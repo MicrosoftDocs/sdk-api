@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_NetworkProvider::RegisterDeviceFilter
+ - IBDA_NetworkProvider.RegisterDeviceFilter
 ---
 
 # IBDA_NetworkProvider::RegisterDeviceFilter
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_networkprovider">IBDA_NetworkProvider Interface</a>
-

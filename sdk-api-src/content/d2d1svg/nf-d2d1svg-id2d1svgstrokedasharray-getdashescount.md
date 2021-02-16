@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgStrokeDashArray::GetDashesCount
+ - ID2D1SvgStrokeDashArray.GetDashesCount
 ---
 
 # ID2D1SvgStrokeDashArray::GetDashesCount
@@ -63,4 +63,3 @@ Returns the number of the dashes in the array.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgstrokedasharray">ID2D1SvgStrokeDashArray</a>
-

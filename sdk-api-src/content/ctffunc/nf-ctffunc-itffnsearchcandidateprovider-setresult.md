@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfFnSearchCandidateProvider::SetResult
+ - ITfFnSearchCandidateProvider.SetResult
 ---
 
 # ITfFnSearchCandidateProvider::SetResult
@@ -101,4 +101,3 @@ A text service or IME can return <b>E_PENDING</b> if no corresponding call to <a
 
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnsearchcandidateprovider">ITfFnSearchCandidateProvider</a>
-

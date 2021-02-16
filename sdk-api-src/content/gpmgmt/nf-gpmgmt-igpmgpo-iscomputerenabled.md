@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::IsComputerEnabled
+ - IGPMGPO.IsComputerEnabled
+ - GPMGPO.IsComputerEnabled
 ---
 
 # IGPMGPO::IsComputerEnabled
@@ -72,4 +73,3 @@ Value that indicates whether the computer policies in the GPO are enabled. If <b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-

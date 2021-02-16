@@ -44,7 +44,6 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
- - IKEEXT_CREDENTIAL_PAIR2_
  - IKEEXT_CREDENTIAL_PAIR2
 ---
 
@@ -77,4 +76,3 @@ Peer credentials used for authentication.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

@@ -9,8 +9,6 @@ tech.root: lwef
 f1_keywords:
  - reconcil
  - reconcil/reconcil
-api_name:
- - reconcil
 ---
 
 # Reconcil.h header

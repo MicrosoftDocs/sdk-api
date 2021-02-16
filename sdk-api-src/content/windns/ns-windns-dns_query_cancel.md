@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - _DNS_QUERY_CANCEL
- - PDNS_QUERY_CANCEL
  - DNS_QUERY_CANCEL
 ---
 
@@ -79,4 +77,3 @@ This structure is returned in the <i>pCancelHandle</i> parameter from a previous
 
 
 <a href="/windows/desktop/api/windns/ns-windns-dns_query_result">DNS_QUERY_RESULT</a>
-

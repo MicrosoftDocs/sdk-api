@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::GetHistogram
+ - Bitmap.GetHistogram
 ---
 
 # Bitmap::GetHistogram
@@ -139,4 +139,3 @@ delete ch2;
 ## -see-also
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
-

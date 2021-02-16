@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
+ - IMbnDeviceServicesEvents.OnQuerySupportedCommandsComplete
 ---
 
 # IMbnDeviceServicesEvents::OnQuerySupportedCommandsComplete
@@ -102,4 +102,3 @@ The Mobile Broadband service will free the memory for <i>commandIDList</i> after
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_PROFILE_INFO
- - PWCM_PROFILE_INFO
  - WCM_PROFILE_INFO
 ---
 
@@ -81,4 +79,3 @@ The media type for the profile.
 ## -see-also
 
 <a href="/windows/desktop/api/wcmapi/ne-wcmapi-wcm_media_type">WCM_MEDIA_TYPE</a>
-

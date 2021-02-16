@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink::RemoveStreamSink
+ - IMFMediaSink.RemoveStreamSink
 ---
 
 # IMFMediaSink::RemoveStreamSink
@@ -151,4 +151,3 @@ In some cases, the media sink supports this method but does not allow every stre
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

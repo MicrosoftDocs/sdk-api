@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationship::GetId
+ - IOpcRelationship.GetId
 ---
 
 # IOpcRelationship::GetId
@@ -165,4 +165,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <a href="https://www.w3.org/TR/xmlschema-2/#ID">W3C Recommendation, XML Schema Part 2: Datatypes Second Edition</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSNetSourceCreator::Initialize
+ - INSNetSourceCreator.Initialize
 ---
 
 # INSNetSourceCreator::Initialize
@@ -101,4 +101,3 @@ When you are finished using the network source creator, you must call the <a hre
 
 
 <a href="/windows/desktop/api/wmnetsourcecreator/nf-wmnetsourcecreator-insnetsourcecreator-shutdown">INSNetSourceCreator::Shutdown</a>
-

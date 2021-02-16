@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorMatrixEffect::ColorMatrixEffect
+ - ColorMatrixEffect.ColorMatrixEffect
 ---
 
 # ColorMatrixEffect::ColorMatrixEffect
@@ -66,4 +66,3 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-colorma
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-colormatrixeffect-setparameters">ColorMatrixEffect::SetParameters</a>
-

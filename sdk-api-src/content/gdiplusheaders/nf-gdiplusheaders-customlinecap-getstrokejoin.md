@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::GetStrokeJoin
+ - CustomLineCap.GetStrokeJoin
 ---
 
 # CustomLineCap::GetStrokeJoin
@@ -114,4 +114,3 @@ VOID Example_GetStrokeJoin(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linejoin">LineJoin</a>
-

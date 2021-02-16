@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _devicemodeA
- - PDEVMODEA
- - DEVMODEA
+ - DEVMODE
+ - _DEVMODEA
+ - _DEVMODEW
 ---
 
 # DEVMODEA structure
@@ -1270,4 +1270,3 @@ A device driver's private data follows the public portion of the <b>DEVMODE</b> 
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::GetChar2
+ - ITextRange2.GetChar2
 ---
 
 # ITextRange2::GetChar2
@@ -107,4 +107,3 @@ If <i>Offset</i> specifies a character before the start of the story or at the e
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionProvider2::get_FirstSelectedItem
+ - ISelectionProvider2.FirstSelectedItem
+ - ISelectionProvider2.get_FirstSelectedItem
 ---
 
 # ISelectionProvider2::get_FirstSelectedItem
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iselectionprovider2">ISelectionProvider2</a>
-

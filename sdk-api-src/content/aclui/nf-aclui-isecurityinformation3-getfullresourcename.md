@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation3::GetFullResourceName
+ - ISecurityInformation3.GetFullResourceName
 ---
 
 # ISecurityInformation3::GetFullResourceName
@@ -71,4 +71,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation3-openelevatededitor">OpenElevatedEditor</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::GetStrokeLineJoin
+ - IXpsOMPath.GetStrokeLineJoin
 ---
 
 # IXpsOMPath::GetStrokeLineJoin
@@ -110,4 +110,3 @@ For more information about the line join styles, see <a href="/windows/win32/api
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN</a>
-

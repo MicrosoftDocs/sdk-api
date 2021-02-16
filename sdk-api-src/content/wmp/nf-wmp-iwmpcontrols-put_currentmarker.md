@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls::put_currentMarker
+ - IWMPControls.put_currentMarker
 ---
 
 # IWMPControls::put_currentMarker
@@ -105,4 +105,3 @@ Until the current media item is set (using <b>IWMPCore::put_URL</b> or <b>IWMPCo
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_markercount">IWMPMedia::get_markerCount</a>
-

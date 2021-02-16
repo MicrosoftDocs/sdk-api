@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device2::GetImmediateContext2
+ - ID3D11Device2.GetImmediateContext2
 ---
 
 # ID3D11Device2::GetImmediateContext2
@@ -70,4 +70,3 @@ The <b>GetImmediateContext2</b> method increments the reference count of the imm
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>
-

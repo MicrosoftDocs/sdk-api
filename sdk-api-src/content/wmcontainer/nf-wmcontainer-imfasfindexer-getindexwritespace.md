@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::GetIndexWriteSpace
+ - IMFASFIndexer.GetIndexWriteSpace
 ---
 
 # IMFASFIndexer::GetIndexWriteSpace
@@ -109,4 +109,3 @@ You cannot use this method in a reading scenario.  You can only use this method 
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-

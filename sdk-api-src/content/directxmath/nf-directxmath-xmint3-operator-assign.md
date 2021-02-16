@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMINT3::operator=
+ - XMINT3.operator =
 ---
 
 # XMINT3::operator-assign

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties::GetLastPrinted
+ - IXpsOMCoreProperties.GetLastPrinted
 ---
 
 # IXpsOMCoreProperties::GetLastPrinted
@@ -114,4 +114,3 @@ The <b>lastPrinted</b> property contains the date and time the package was last 
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

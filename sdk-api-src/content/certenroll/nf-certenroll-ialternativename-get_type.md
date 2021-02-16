@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeName::get_Type
+ - IAlternativeName.Type
+ - IAlternativeName.get_Type
 ---
 
 # IAlternativeName::get_Type
@@ -106,4 +107,3 @@ The following values from the <a href="/windows/desktop/api/certenroll/ne-certen
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-

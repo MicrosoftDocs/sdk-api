@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIDevice4::OfferResources1
+ - IDXGIDevice4.OfferResources1
 ---
 
 # IDXGIDevice4::OfferResources1
@@ -167,4 +167,3 @@ void Application::ReclaimInterfaceResources (ID3D11Device* pD3D11Device)
 
 
 <a href="/windows/desktop/api/dxgi1_5/nn-dxgi1_5-idxgidevice4">IDXGIDevice4</a>
-

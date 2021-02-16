@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IUIAutomationRegistrar::RegisterEvent
+ - IUIAutomationRegistrar.RegisterEvent
 ---
 
 # IUIAutomationRegistrar::RegisterEvent
@@ -79,4 +79,3 @@ The event ID can be used in various event methods, and as a WinEvent value for e
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iuiautomationregistrar">IUIAutomationRegistrar</a>
-

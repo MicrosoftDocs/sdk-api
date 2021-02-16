@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMMigrationTable::Validate
+ - IGPMMigrationTable.Validate
+ - GPMMigrationTable.Validate
 ---
 
 # IGPMMigrationTable::Validate
@@ -72,4 +73,3 @@ Returns a <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
-

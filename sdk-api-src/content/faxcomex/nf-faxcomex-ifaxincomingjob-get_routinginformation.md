@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob::get_RoutingInformation
+ - IFaxIncomingJob.RoutingInformation
+ - IFaxIncomingJob.get_RoutingInformation
+ - IFaxIncomingJob.get_RoutingInformation
 ---
 
 # IFaxIncomingJob::get_RoutingInformation
@@ -71,4 +73,3 @@ For more information about routing information, see the <a href="/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
-

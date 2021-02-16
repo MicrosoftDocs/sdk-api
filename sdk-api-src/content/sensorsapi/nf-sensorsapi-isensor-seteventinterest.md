@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::SetEventInterest
+ - ISensor.SetEventInterest
 ---
 
 # ISensor::SetEventInterest
@@ -102,4 +102,3 @@ For an example of how to set event interest, see <a href="/windows/desktop/Senso
 
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-

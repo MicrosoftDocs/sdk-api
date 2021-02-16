@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup::Install
+ - IMSCEPSetup.Install
 ---
 
 # IMSCEPSetup::Install
@@ -57,4 +57,3 @@ api_name:
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-

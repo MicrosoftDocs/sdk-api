@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCchPrintfA
  - strsafe/StringCchPrintfA
- - StringCchPrintf
- - strsafe/StringCchPrintf
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCchPrintfA
  - StringCchPrintf
+ - StringCchPrintfA
+ - StringCchPrintfW
 ---
 
 # StringCchPrintfA function
@@ -215,4 +214,3 @@ HRESULT hr = StringCchPrintf(pszDest, cchDest, pszFormat, pszTxt, 1, 2, 3);
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>
-

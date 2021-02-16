@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::GetVariableFromTag
+ - IUIAnimationManager.GetVariableFromTag
 ---
 
 # IUIAnimationManager::GetVariableFromTag
@@ -92,4 +92,3 @@ Tags are not necessarily unique; this method returns <b>UI_E_AMBIGUOUS_MATCH</b>
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-settag">IUIAnimationVariable::SetTag</a>
-

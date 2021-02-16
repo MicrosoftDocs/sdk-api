@@ -46,8 +46,6 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - _IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
- - PIMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
  - IMAPI_FORMAT2_RAW_CD_DATA_SECTOR_TYPE
 ---
 
@@ -79,4 +77,3 @@ For details on the format of the sub-channel data, see Sub-Channel Field Formats
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2rawcd-get_supportedsectortypes">IDiscFormat2RawCD::get_SupportedSectorTypes</a>
-

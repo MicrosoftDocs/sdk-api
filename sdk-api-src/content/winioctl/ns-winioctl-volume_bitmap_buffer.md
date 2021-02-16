@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PVOLUME_BITMAP_BUFFER
  - VOLUME_BITMAP_BUFFER
 ---
 
@@ -80,4 +79,3 @@ The <b>BitmapSize</b> member is the number of clusters on the volume starting fr
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
-

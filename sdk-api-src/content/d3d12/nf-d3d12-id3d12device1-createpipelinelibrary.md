@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device1::CreatePipelineLibrary
+ - ID3D12Device1.CreatePipelineLibrary
 ---
 
 ## -description
@@ -148,4 +148,3 @@ Create a PSO library using data loaded off of disk and retrieve PSOs out of it. 
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device1">ID3D12Device1</a>, <a href="https://github.com/Microsoft/DirectX-Graphics-Samples/tree/master/Samples/Desktop/D3D12PipelineStateCache">Pipleline State Cache sample</a>
-

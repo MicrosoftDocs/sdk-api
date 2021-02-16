@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qos.h
 api_name:
- - _QOS_SD_MODE
- - LPQOS_SD_MODE
  - QOS_SD_MODE
 ---
 
@@ -125,4 +123,3 @@ Instructs the packet shaper to discard all nonconforming packets. TC_NONCONF_DIS
 
 
 <a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-

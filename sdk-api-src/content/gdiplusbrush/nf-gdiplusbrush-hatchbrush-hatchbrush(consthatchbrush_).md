@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - HatchBrush::HatchBrush
+ - HatchBrush.HatchBrush
 ---
 
 ## -description
@@ -67,4 +67,3 @@ The **HatchBrush** object to copy into this object.
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-hatchstyle">HatchStyle</a>
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

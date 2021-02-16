@@ -47,6 +47,7 @@ api_location:
  - KernelBase.dll
 api_name:
  - GetPerformanceInfo
+ - K32GetPerformanceInfo
 ---
 
 # GetPerformanceInfo function
@@ -106,4 +107,3 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetIndices
+ - IDirect3DDevice9.SetIndices
 ---
 
 # IDirect3DDevice9::SetIndices
@@ -100,4 +100,3 @@ The <b>IDirect3DDevice9::SetIndices</b> method sets the current index array to a
 
 
 <a href="/windows/desktop/direct3d9/index-buffers">Index Buffers (Direct3D 9)</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SAML_AUTHENTICATOR
  - WS_SAML_AUTHENTICATOR
 ---
 

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
- - _TASK_ENUM_FLAGS
  - TASK_ENUM_FLAGS
 ---
 
@@ -68,4 +67,3 @@ Enumerates all tasks, including tasks that are hidden.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-

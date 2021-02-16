@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AccessCheckAndAuditAlarmA
  - winbase/AccessCheckAndAuditAlarmA
- - AccessCheckAndAuditAlarm
- - winbase/AccessCheckAndAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - AccessCheckAndAuditAlarmA
  - AccessCheckAndAuditAlarm
+ - AccessCheckAndAuditAlarmA
+ - AccessCheckAndAuditAlarmW
 ---
 
 # AccessCheckAndAuditAlarmA function
@@ -185,4 +184,3 @@ The <b>AccessCheckAndAuditAlarm</b> function fails if the calling thread is not 
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
-

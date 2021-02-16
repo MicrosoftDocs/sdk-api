@@ -42,7 +42,9 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbEnvironment::get_EnvironmentPropertySet
+ - ITsSbEnvironment.EnvironmentPropertySet
+ - ITsSbEnvironment.get_EnvironmentPropertySet
+ - ITsSbEnvironment.put_EnvironmentPropertySet
 ---
 
 # ITsSbEnvironment::get_EnvironmentPropertySet
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment">ITsSbEnvironment</a>
-

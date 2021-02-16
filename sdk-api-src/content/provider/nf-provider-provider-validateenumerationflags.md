@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::ValidateEnumerationFlags
+ - Provider.ValidateEnumerationFlags
+ - ?ValidateEnumerationFlags@Provider@@MAEJJ@Z
+ - ?ValidateEnumerationFlags@Provider@@MEAAJJ@Z
 ---
 
 # Provider::ValidateEnumerationFlags
@@ -74,4 +76,3 @@ Returns <b>WBEM_S_NO_ERROR</b> if the flags are valid and <b>WBEM_E_UNSUPPORTED_
 At present, the <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class does not support any enumeration flags. Therefore, if <i>lFlags</i> is set to a value other than zero,  <b>Provider::ValidateEnumerationFlags</b> automatically returns <b>WBEM_E_UNSUPPORTED_PARAMETER</b>.
 
 Framework providers must override this method to validate flags that are unknown to the base <a href="/windows/desktop/api/provider/nl-provider-provider">Provider</a> class.
-

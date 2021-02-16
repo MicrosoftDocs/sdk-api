@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_PUBLIC_KEY_INFO
- - PCERT_PUBLIC_KEY_INFO
  - CERT_PUBLIC_KEY_INFO
 ---
 
@@ -95,4 +93,3 @@ BLOB containing an encoded public key.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptimportpublickeyinfoex">CryptImportPublicKeyInfoEx</a>
-

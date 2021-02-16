@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetEmbeddedObject
+ - CInstance.GetEmbeddedObject
+ - ?GetEmbeddedObject@CInstance@@QBE_NPBGPAPAV1@PAVMethodContext@@@Z
 ---
 
 # CInstance::GetEmbeddedObject
@@ -76,4 +77,3 @@ Additional information communicated to the provider.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a property that is not a <a href="/windows/desktop/api/instance/nl-instance-cinstance">CInstance</a>-compatible type or a property that does not exist. More information is available in the log file, Framework.log.
-

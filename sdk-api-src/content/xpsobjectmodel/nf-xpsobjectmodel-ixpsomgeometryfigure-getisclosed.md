@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure::GetIsClosed
+ - IXpsOMGeometryFigure.GetIsClosed
 ---
 
 # IXpsOMGeometryFigure::GetIsClosed
@@ -137,4 +137,3 @@ This value corresponds to that of the <b>IsClosed</b> element   of the <b>PathFi
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

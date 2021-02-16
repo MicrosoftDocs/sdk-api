@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue::FrameworkLogoffDLL
+ - CWbemProviderGlue.FrameworkLogoffDLL
+ - ?FrameworkLogoffDLL@CWbemProviderGlue@@SAHPEBG@Z
+ - ?FrameworkLogoffDLL@CWbemProviderGlue@@SGHPBG@Z
 ---
 
 # CWbemProviderGlue::FrameworkLogoffDLL
@@ -72,4 +74,3 @@ The method returns <b>TRUE</b> if the server is not in use and can be unloaded a
 ## -remarks
 
 For now,  <b>FrameworkLogoffDLL</b> returns <b>FALSE</b> until the refcount for <a href="/windows/desktop/api/wbemglue/nl-wbemglue-cwbemproviderglue">CWbemProviderGlue</a> is zero. This approach prevents unloading any client DLL while instances of <b>CWbemProviderGlue</b> still exist.
-

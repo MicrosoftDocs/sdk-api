@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
- - _PERF_COUNTER_DEFINITION
- - PPERF_COUNTER_DEFINITION
  - PERF_COUNTER_DEFINITION
 ---
 
@@ -175,4 +173,3 @@ Providers should provide their counters in the same order each time their counte
 
 
 <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
-

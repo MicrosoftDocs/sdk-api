@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - INSNetSourceCreator::GetNetSourceAdminInterface
+ - INSNetSourceCreator.GetNetSourceAdminInterface
 ---
 
 # INSNetSourceCreator::GetNetSourceAdminInterface
@@ -123,4 +123,3 @@ The protocol specified by <i>pwszStreamName</i> is not supported.
 ## -see-also
 
 <a href="/windows/desktop/api/wmnetsourcecreator/nn-wmnetsourcecreator-insnetsourcecreator">INSNetSourceCreator Interface</a>
-

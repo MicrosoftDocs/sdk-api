@@ -46,8 +46,6 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
- - _USER_POWER_POLICY
- - PUSER_POWER_POLICY
  - USER_POWER_POLICY
 ---
 
@@ -164,4 +162,3 @@ The processor throttle level to be imposed by the system while the computer is r
 
 
 <a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
-

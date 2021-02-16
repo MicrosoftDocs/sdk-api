@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::EnableExtendedButtons
+ - IMathInputControl.EnableExtendedButtons
 ---
 
 # IMathInputControl::EnableExtendedButtons
@@ -95,4 +95,3 @@ The following image shows the Math Input Control with extended buttons disabled.
 
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-

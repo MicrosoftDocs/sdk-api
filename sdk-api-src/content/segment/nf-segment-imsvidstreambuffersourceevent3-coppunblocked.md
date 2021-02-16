@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent3::COPPUnblocked
+ - IMSVidStreamBufferSourceEvent3.COPPUnblocked
 ---
 
 # IMSVidStreamBufferSourceEvent3::COPPUnblocked
@@ -92,4 +92,3 @@ None.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidstreambuffersourceevent3-coppblocked">IMSVidStreamBufferSourceEvent3::COPPBlocked</a>
-

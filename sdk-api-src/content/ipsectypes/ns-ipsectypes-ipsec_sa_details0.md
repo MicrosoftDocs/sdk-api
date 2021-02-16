@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_DETAILS0_
  - IPSEC_SA_DETAILS0
 ---
 
@@ -88,4 +87,3 @@ The transport layer filter corresponding to this IPsec SA as specified by [FWPM_
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

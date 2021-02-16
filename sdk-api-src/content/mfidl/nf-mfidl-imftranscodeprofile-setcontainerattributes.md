@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeProfile::SetContainerAttributes
+ - IMFTranscodeProfile.SetContainerAttributes
 ---
 
 # IMFTranscodeProfile::SetContainerAttributes
@@ -100,4 +100,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/transcode-api">Transcode API</a>
-

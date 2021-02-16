@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CObjectPathParser::Parse
+ - CObjectPathParser.Parse
+ - ?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z
+ - ?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z
 ---
 
 # CObjectPathParser::Parse
@@ -72,4 +74,3 @@ A structure that contains the parsed path parts.
 ## -see-also
 
 <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
-

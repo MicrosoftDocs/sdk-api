@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeStream::GetFormat
+ - IAMMediaTypeStream.GetFormat
 ---
 
 # IAMMediaTypeStream::GetFormat
@@ -100,4 +100,3 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
-

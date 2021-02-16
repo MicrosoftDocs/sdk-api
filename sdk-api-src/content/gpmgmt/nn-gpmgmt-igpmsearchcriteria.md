@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMSearchCriteria
+ - GPMSearchCriteria
 ---
 
 # IGPMSearchCriteria interface
@@ -68,4 +69,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMSearchCriteria</b> interf
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-

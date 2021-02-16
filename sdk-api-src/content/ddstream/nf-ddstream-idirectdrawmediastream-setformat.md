@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawMediaStream::SetFormat
+ - IDirectDrawMediaStream.SetFormat
 ---
 
 # IDirectDrawMediaStream::SetFormat
@@ -115,4 +115,3 @@ If the stream already has allocated samples and the sample format doesn't match 
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-

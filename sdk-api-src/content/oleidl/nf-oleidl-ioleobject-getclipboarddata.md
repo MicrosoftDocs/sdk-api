@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::GetClipboardData
+ - IOleObject.GetClipboardData
 ---
 
 # IOleObject::GetClipboardData
@@ -121,4 +121,3 @@ If you implement this function, you must return an <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
-

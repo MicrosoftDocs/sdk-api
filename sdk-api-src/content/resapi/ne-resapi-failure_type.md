@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - _FAILURE_TYPE
- - PFAILURE_TYPE
  - FAILURE_TYPE
 ---
 
@@ -75,4 +73,3 @@ A network failure.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

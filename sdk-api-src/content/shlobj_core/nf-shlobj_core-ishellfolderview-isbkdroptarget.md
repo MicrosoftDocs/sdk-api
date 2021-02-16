@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::IsBkDropTarget
+ - IShellFolderView.IsBkDropTarget
 ---
 
 # IShellFolderView::IsBkDropTarget
@@ -67,4 +67,3 @@ A pointer to the target of the drag-and-drop operation.
 Type: <b>HRESULT</b>
 
 Returns S_OK if the target of the drag-and-drop operation is to the background of the view, S_FALSE otherwise.
-

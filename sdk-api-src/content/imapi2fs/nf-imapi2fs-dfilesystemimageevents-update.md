@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - DFileSystemImageEvents::Update
+ - DFileSystemImageEvents.Update
 ---
 
 # DFileSystemImageEvents::Update
@@ -112,4 +112,3 @@ Notification is sent:
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-dfilesystemimageevents">DFileSystemImageEvents</a>
-

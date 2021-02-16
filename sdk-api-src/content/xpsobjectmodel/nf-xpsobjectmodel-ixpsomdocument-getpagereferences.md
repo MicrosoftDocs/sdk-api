@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDocument::GetPageReferences
+ - IXpsOMDocument.GetPageReferences
 ---
 
 # IXpsOMDocument::GetPageReferences
@@ -122,4 +122,3 @@ For an example of how this method can be used in a program, see <a href="/previo
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

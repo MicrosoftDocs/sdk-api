@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtDevice::Calibrate
+ - IAMExtDevice.Calibrate
 ---
 
 # IAMExtDevice::Calibrate
@@ -129,4 +129,3 @@ The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers d
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
-

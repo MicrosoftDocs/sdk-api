@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _PROV_ENUMALGS
  - PROV_ENUMALGS
 ---
 
@@ -72,4 +71,3 @@ The length, in <b>CHAR</b>s, of the <b>szName</b> string. This length includes t
 ### -field szName
 
 A null-terminated ANSI string that contains the name of the algorithm.
-

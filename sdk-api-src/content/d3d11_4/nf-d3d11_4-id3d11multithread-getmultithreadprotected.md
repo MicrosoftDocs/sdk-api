@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_4.dll
 api_name:
- - ID3D11Multithread::GetMultithreadProtected
+ - ID3D11Multithread.GetMultithreadProtected
 ---
 
 # ID3D11Multithread::GetMultithreadProtected
@@ -67,4 +67,3 @@ Returns true if multithread protection is turned on, false otherwise.
 
 
 <a href="/windows/desktop/api/d3d11_4/nf-d3d11_4-id3d11multithread-setmultithreadprotected">SetMultithreadProtected</a>
-

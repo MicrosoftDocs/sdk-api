@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::Reset
+ - IAudioClient.Reset
 ---
 
 # IAudioClient::Reset
@@ -122,4 +122,3 @@ This method requires prior initialization of the <a href="/windows/desktop/api/a
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-

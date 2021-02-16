@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPinFlowControl::Block
+ - IPinFlowControl.Block
 ---
 
 # IPinFlowControl::Block
@@ -143,4 +143,3 @@ This method can be synchronous or asynchronous:
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipinflowcontrol">IPinFlowControl Interface</a>
-

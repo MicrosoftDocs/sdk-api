@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI::GetDefaultValue
+ - ICodecAPI.GetDefaultValue
 ---
 
 # ICodecAPI::GetDefaultValue
@@ -107,4 +107,3 @@ The specified property does not have a default value.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-

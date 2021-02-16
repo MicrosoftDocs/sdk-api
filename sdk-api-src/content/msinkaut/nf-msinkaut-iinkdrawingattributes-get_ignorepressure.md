@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes::get_IgnorePressure
+ - IInkDrawingAttributes.IgnorePressure
+ - IInkDrawingAttributes.get_IgnorePressure
+ - IInkDrawingAttributes.put_IgnorePressure
+ - InkDrawingAttributes.get_IgnorePressure
+ - InkDrawingAttributes.put_IgnorePressure
 ---
 
 # IInkDrawingAttributes::get_IgnorePressure
@@ -70,4 +74,3 @@ The greater the pressure on the pen tip, the more ink that is drawn. Set this pr
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
-

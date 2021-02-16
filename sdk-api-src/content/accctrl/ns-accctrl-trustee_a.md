@@ -46,9 +46,9 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - _TRUSTEE_A
- - PTRUSTEE_A
+ - TRUSTEE
  - TRUSTEE_A
+ - TRUSTEE_W
 ---
 
 # TRUSTEE_A structure
@@ -104,6 +104,8 @@ A value from the
 ### -field pObjectsAndName.case
 
 ### -field pObjectsAndName.case.TRUSTEE_IS_OBJECTS_AND_NAME
+
+
 
 ### -field ptstrName
 
@@ -242,4 +244,3 @@ A trustee SID can be any user or group SID. It can also be any of the <a href="/
 
 
 <a href="/windows/desktop/api/accctrl/ne-accctrl-trustee_type">TRUSTEE_TYPE</a>
-

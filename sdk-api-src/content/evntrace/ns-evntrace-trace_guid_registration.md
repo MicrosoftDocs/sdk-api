@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _TRACE_GUID_REGISTRATION
- - PTRACE_GUID_REGISTRATION
  - TRACE_GUID_REGISTRATION
 ---
 
@@ -82,4 +80,3 @@ Be sure to initialize the memory for this structure to zero before setting any m
 
 
 <a href="/windows/desktop/ETW/registertraceguids">RegisterTraceGuids</a>
-

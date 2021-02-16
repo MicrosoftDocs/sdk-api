@@ -44,7 +44,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USB_USER_ERROR_CODE
  - USB_USER_ERROR_CODE
 ---
 
@@ -104,4 +103,3 @@ The device was not connected.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Constants and Enumerations</a>
-

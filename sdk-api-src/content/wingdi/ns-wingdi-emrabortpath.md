@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagABORTPATH
- - PEMRABORTPATH
  - EMRABORTPATH
 ---
 
@@ -71,4 +69,3 @@ The base structure for all record types.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

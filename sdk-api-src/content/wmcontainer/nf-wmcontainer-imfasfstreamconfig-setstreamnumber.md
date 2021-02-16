@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::SetStreamNumber
+ - IMFASFStreamConfig.SetStreamNumber
 ---
 
 # IMFASFStreamConfig::SetStreamNumber
@@ -88,4 +88,3 @@ Stream numbers start from 1 and do not need to be sequential.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-

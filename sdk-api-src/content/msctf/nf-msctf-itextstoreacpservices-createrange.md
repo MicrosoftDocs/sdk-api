@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPServices::CreateRange
+ - ITextStoreACPServices.CreateRange
 ---
 
 # ITextStoreACPServices::CreateRange
@@ -113,4 +113,3 @@ An unspecified error occurred.
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITfRangeACP interface](nn-msctf-itfrangeacp.md)
-

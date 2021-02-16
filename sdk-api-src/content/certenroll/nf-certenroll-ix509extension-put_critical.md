@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Extension::put_Critical
+ - IX509Extension.Critical
+ - IX509Extension.get_Critical
+ - IX509Extension.put_Critical
 ---
 
 # IX509Extension::put_Critical
@@ -63,4 +65,3 @@ A certificate extension consists of an <a href="/windows/desktop/SecGloss/o-gly"
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-

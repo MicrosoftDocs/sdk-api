@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl::StartRinger
+ - ITAutomatedPhoneControl.StartRinger
 ---
 
 # ITAutomatedPhoneControl::StartRinger
@@ -76,4 +76,3 @@ If you specify the value zero in the <i>lRingMode</i> parameter, and the phone d
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol">ITAutomatedPhoneControl</a>
-

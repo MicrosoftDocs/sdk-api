@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::ExecQuery
+ - IWbemServices.ExecQuery
 ---
 
 # IWbemServices::ExecQuery
@@ -167,4 +167,3 @@ There are limits to the number of "AND" and "OR" keywords that can be used in WQ
 
 
 <a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - _NSPV2_ROUTINE
- - PNSPV2_ROUTINE
  - NSPV2_ROUTINE
 ---
 

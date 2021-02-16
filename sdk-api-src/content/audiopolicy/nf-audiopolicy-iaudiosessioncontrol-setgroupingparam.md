@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl::SetGroupingParam
+ - IAudioSessionControl.SetGroupingParam
 ---
 
 # IAudioSessionControl::SetGroupingParam
@@ -125,4 +125,3 @@ If a client has never called <b>SetGroupingParam</b> to assign a grouping parame
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
-

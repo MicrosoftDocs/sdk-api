@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mcx.h
 api_name:
- - _MODEMSETTINGS
- - PMODEMSETTINGS
  - MODEMSETTINGS
 ---
 
@@ -223,4 +221,3 @@ Optional provider-defined information.
 ## -see-also
 
 <a href="/windows/desktop/api/mcx/ns-mcx-modemdevcaps">MODEMDEVCAPS</a>
-

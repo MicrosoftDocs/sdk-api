@@ -42,7 +42,8 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationHost::get_Document
+ - IWebApplicationHost.Document
+ - IWebApplicationHost.get_Document
 ---
 
 # IWebApplicationHost::get_Document
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
-

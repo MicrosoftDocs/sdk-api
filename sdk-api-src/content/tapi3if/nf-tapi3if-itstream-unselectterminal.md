@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream::UnselectTerminal
+ - ITStream.UnselectTerminal
 ---
 
 # ITStream::UnselectTerminal
@@ -141,4 +141,3 @@ Reselection onto a stream with a different terminal, or a newly created one, can
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

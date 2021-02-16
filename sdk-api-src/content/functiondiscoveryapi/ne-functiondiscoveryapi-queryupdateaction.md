@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FunctionDiscoveryAPI.h
 api_name:
- - tagQueryUpdateAction
  - QueryUpdateAction
 ---
 
@@ -74,4 +73,3 @@ Function Discovery is modifying the specified function instance.
 ## -remarks
 
 When a client program implements the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a> interface and passes the address of the interface to one of the Query methods, Function Discovery calls the client program's <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctiondiscoverynotification-onupdate">IFunctionDiscoveryNotification::OnUpdate</a> method to notify the client program when a function instance which meets the query parameters has been added, removed, or modified.
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::SetInputProps
+ - IWMWriter.SetInputProps
 ---
 
 # IWMWriter::SetInputProps
@@ -141,4 +141,3 @@ Specify <b>NULL</b> for <i>pInput</i> if the input contains compressed samples t
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-getinputprops">IWMWriter::GetInputProps</a>
-

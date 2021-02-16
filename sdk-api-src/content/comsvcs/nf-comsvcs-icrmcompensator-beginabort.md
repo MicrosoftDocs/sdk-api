@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmCompensator::BeginAbort
+ - ICrmCompensator.BeginAbort
 ---
 
 # ICrmCompensator::BeginAbort
@@ -71,4 +71,3 @@ The CRM Compensator should not depend on any state to be maintained between the 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
-

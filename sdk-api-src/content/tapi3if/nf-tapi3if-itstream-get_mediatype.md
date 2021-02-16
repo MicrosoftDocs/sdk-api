@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream::get_MediaType
+ - ITStream.get_MediaType
 ---
 
 # ITStream::get_MediaType
@@ -111,4 +111,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

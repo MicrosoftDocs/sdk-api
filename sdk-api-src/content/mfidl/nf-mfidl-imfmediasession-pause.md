@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession::Pause
+ - IMFMediaSession.Pause
 ---
 
 # IMFMediaSession::Pause
@@ -125,4 +125,3 @@ This method fails if the Media Session is stopped.
 
 
 <a href="/windows/desktop/medfound/mesessionpaused">MESessionPaused</a>
-

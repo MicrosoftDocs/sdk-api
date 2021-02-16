@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WNetAddConnection2W
  - winnetwk/WNetAddConnection2W
- - WNetAddConnection2
- - winnetwk/WNetAddConnection2
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetAddConnection2W
  - WNetAddConnection2
+ - WNetAddConnection2A
+ - WNetAddConnection2W
 ---
 
 # WNetAddConnection2W function
@@ -706,4 +705,3 @@ For other code samples that illustrates how to make a connection to a network re
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

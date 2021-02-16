@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_104
- - PDFS_INFO_104
  - DFS_INFO_104
 ---
 
@@ -79,4 +77,3 @@ Contains the priority of a DFS root target or link target. This structure is onl
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

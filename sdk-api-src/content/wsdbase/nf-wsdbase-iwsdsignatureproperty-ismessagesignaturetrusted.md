@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDSignatureProperty::IsMessageSignatureTrusted
+ - IWSDSignatureProperty.IsMessageSignatureTrusted
 ---
 
 # IWSDSignatureProperty::IsMessageSignatureTrusted
@@ -87,4 +87,3 @@ A message is trusted if the signing certificate is among one of the certificates
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
-

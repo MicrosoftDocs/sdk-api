@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - IO_Des_s
- - PIO_DES
  - IO_DES
 ---
 
@@ -221,4 +219,3 @@ Bitmask for the bits within <b>IOD_DesFlags</b> that specify the decode value.
 
 
 [IO_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-io_resource)
-

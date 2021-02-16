@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - IRDPSRAPITransportStreamBuffer::put_PayloadSize
+ - IRDPSRAPITransportStreamBuffer::PayloadSize
 ---
 
 # IRDPSRAPITransportStreamBuffer::put_PayloadSize
@@ -58,4 +58,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
-

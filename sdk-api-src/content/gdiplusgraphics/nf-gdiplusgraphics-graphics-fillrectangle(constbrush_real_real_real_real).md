@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::FillRectangle
+ - Graphics.FillRectangle
 ---
 
 # Graphics::FillRectangle(IN const Brush,IN REAL,IN REAL,IN REAL,IN REAL)
@@ -108,4 +108,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IEnumBitsPeerCacheRecords::GetCount
+ - IEnumBitsPeerCacheRecords.GetCount
 ---
 
 # IEnumBitsPeerCacheRecords::GetCount
@@ -66,4 +66,3 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeercacherecords">IEnumBitsPeerCacheRecords</a>
-

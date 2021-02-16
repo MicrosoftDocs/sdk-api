@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager::SetOption
+ - IUpdateServiceManager.SetOption
 ---
 
 # IUpdateServiceManager::SetOption
@@ -106,4 +106,3 @@ An argument of the method is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager">IUpdateServiceManager</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassDevsExA
  - setupapi/SetupDiGetClassDevsExA
- - SetupDiGetClassDevsEx
- - setupapi/SetupDiGetClassDevsEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassDevsExA
- - SetupDiGetClassDevsEx
+ - SetupDiGetClassDevsEx - SetupDiGetClassDevsExA
 ---
 
 # SetupDiGetClassDevsExA function
@@ -262,4 +259,3 @@ In an operation of this type, <b>SetupDiGetClassDevsEx</b> returns a device if t
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetclassdevsw">SetupDiGetClassDevs</a>
-

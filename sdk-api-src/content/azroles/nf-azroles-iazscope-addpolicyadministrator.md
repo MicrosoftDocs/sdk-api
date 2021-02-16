@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope::AddPolicyAdministrator
+ - IAzScope.AddPolicyAdministrator
+ - AzScope.AddPolicyAdministrator
 ---
 
 # IAzScope::AddPolicyAdministrator
@@ -78,4 +79,3 @@ Policy administrators for an object can perform the following tasks:
 To view the list of policy administrators, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-get_policyadministrators">PolicyAdministrators</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazscope-submit">Submit</a> method to persist any changes made by this method.
-

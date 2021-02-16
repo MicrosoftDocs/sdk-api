@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - PPOWER_ACTION_POLICY
  - POWER_ACTION_POLICY
 ---
 
@@ -249,4 +248,3 @@ Indicates a power action of shutdown/off.
 
 
 <a href="/windows/desktop/Power/wm-powerbroadcast">WM_POWERBROADCAST</a>
-

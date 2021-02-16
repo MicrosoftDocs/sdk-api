@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2::GetTag
+ - IUIAnimationVariable2.GetTag
 ---
 
 # IUIAnimationVariable2::GetTag
@@ -75,4 +75,3 @@ The parameters are optional, so that the method can return both portions of the 
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IEnumDot11AdHocSecuritySettings::Skip
+ - IEnumDot11AdHocSecuritySettings.Skip
 ---
 
 # IEnumDot11AdHocSecuritySettings::Skip
@@ -94,4 +94,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocsecuritysettings">IEnumDot11AdHocSecuritySettings</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfReadOnlyProperty::GetValue
+ - ITfReadOnlyProperty.GetValue
 ---
 
 # ITfReadOnlyProperty::GetValue
@@ -169,4 +169,3 @@ TEXT:  this is some colored text
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_CANCEL_NOTIFICATION
+ - CancelNotification
 ---
 
 # LSA_CANCEL_NOTIFICATION callback function
@@ -103,4 +103,3 @@ A pointer to the <b>CancelNotification</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

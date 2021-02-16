@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration::EnumerateSyncProviders
+ - ISyncProviderRegistration.EnumerateSyncProviders
 ---
 
 # ISyncProviderRegistration::EnumerateSyncProviders
@@ -145,4 +145,3 @@ There was not enough memory available to return the enumeration interface.
 
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
- - PHTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
  - HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
 ---
 
@@ -84,4 +82,3 @@ To specify an IPv6 address, use a <a href="/previous-versions/aa915715(v=msdn.10
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
-

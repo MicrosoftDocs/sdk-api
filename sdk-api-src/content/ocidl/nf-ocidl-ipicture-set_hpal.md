@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::set_hPal
+ - IPicture.set_hPal
 ---
 
 # IPicture::set_hPal
@@ -70,4 +70,3 @@ Ownership of the palette passed to this method depends on how the picture object
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-

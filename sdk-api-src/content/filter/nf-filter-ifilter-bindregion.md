@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - IFilter::BindRegion
+ - IFilter.BindRegion
 ---
 
 # IFilter::BindRegion
@@ -127,4 +127,3 @@ This method is currently reserved for future use. Always return E_NOTIMPL.
 ## -see-also
 
 <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>
-

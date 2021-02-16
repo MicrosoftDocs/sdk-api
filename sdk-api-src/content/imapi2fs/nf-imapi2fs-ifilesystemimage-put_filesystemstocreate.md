@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_FileSystemsToCreate
+ - IFileSystemImage.put_FileSystemsToCreate
 ---
 
 # IFileSystemImage::put_FileSystemsToCreate
@@ -164,4 +164,3 @@ You can change the file system only when the result stream is not active.
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemstocreate">IFileSystemImage::get_FileSystemsToCreate</a>
-

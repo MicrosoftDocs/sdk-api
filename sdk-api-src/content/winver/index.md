@@ -9,8 +9,6 @@ tech.root: menurc
 f1_keywords:
  - winver
  - winver/winver
-api_name:
- - winver
 ---
 
 # Winver.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary::CreateSmoothStopTransition
+ - IUIAnimationTransitionLibrary.CreateSmoothStopTransition
 ---
 
 # IUIAnimationTransitionLibrary::CreateSmoothStopTransition
@@ -85,4 +85,3 @@ The figure below shows the effect on an animation variable over time during a sm
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary">IUIAnimationTransitionLibrary</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetFileCompressionInfoA
  - setupapi/SetupGetFileCompressionInfoA
- - SetupGetFileCompressionInfo
- - setupapi/SetupGetFileCompressionInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetFileCompressionInfoA
  - SetupGetFileCompressionInfo
+ - SetupGetFileCompressionInfoA
+ - SetupGetFileCompressionInfoW
 ---
 
 # SetupGetFileCompressionInfoA function
@@ -160,4 +159,3 @@ The following is an example of how to obtain the <b>MyFree</b> function from the
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdecompressorcopyfilea">SetupDecompressOrCopyFile</a>
-

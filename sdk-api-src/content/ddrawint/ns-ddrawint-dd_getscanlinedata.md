@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_GETSCANLINEDATA
- - PDD_GETSCANLINEDATA
  - DD_GETSCANLINEDATA
 ---
 
@@ -83,4 +81,3 @@ The returned scan line value in <b>dwScanLine</b> must be greater than or equal 
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getscanline">DdGetScanLine</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_CALL_INFO
- - PSECPKG_CALL_INFO
  - SECPKG_CALL_INFO
 ---
 
@@ -277,4 +275,3 @@ The buffer passed is marshaled by RPC.
 The call count.
 
 ### -field MechOid
-

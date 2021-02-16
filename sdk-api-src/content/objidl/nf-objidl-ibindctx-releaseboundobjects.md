@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::ReleaseBoundObjects
+ - IBindCtx.ReleaseBoundObjects
 ---
 
 # IBindCtx::ReleaseBoundObjects
@@ -67,4 +67,3 @@ If the same object has been registered more than once, this method calls the <a 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCtx</a>
-

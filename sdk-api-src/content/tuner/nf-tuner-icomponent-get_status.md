@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponent::get_Status
+ - IComponent.get_Status
 ---
 
 # IComponent::get_Status
@@ -69,4 +69,3 @@ When the TIF adds a component to the <a href="/previous-versions/windows/desktop
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
-

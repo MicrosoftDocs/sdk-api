@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfTextInputProcessorEx::ActivateEx
+ - ITfTextInputProcessorEx.ActivateEx
 ---
 
 # ITfTextInputProcessorEx::ActivateEx
@@ -116,4 +116,3 @@ A text service is activated for console usage.
 ## -returns
 
 The TSF manager ignores the return value of this method.
-

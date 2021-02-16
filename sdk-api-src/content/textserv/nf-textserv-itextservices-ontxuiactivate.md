@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices::OnTxUIActivate
+ - ITextServices.OnTxUIActivate
 ---
 
 # ITextServices::OnTxUIActivate
@@ -83,4 +83,3 @@ See <a href="/windows/desktop/api/textserv/nf-textserv-itextservices-ontxinplace
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

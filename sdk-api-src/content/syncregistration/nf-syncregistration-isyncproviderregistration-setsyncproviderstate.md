@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration::SetSyncProviderState
+ - ISyncProviderRegistration.SetSyncProviderState
 ---
 
 # ISyncProviderRegistration::SetSyncProviderState
@@ -127,4 +127,3 @@ To get the synchronization provider state, call the <a href="/previous-versions/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::FindFirstItem
+ - Image.FindFirstItem
 ---
 
 # Image::FindFirstItem
@@ -82,4 +82,3 @@ Use <b>Image::FindFirstItem</b> along with <a href="/windows/desktop/api/gdiplus
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-getitemdata">Image::GetItemData</a>
-

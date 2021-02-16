@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference::GetPrintTicketResource
+ - IXpsOMPageReference.GetPrintTicketResource
 ---
 
 # IXpsOMPageReference::GetPrintTicketResource
@@ -113,4 +113,3 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

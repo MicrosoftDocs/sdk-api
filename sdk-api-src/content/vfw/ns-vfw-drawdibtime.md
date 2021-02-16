@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - LPDRAWDIBTIME
  - DRAWDIBTIME
 ---
 
@@ -109,4 +108,3 @@ Time to transfer bitmaps by using the <a href="/previous-versions//ms532281(v=vs
 
 
 <a href="/previous-versions//ms532281(v=vs.85)">SetDIBits</a>
-

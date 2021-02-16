@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::IsRunning
+ - IMoniker.IsRunning
 ---
 
 # IMoniker::IsRunning
@@ -190,4 +190,3 @@ Returns S_OK if this moniker is currently running. Otherwise, it returns S_FALSE
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-isrunning">IRunningObjectTable::IsRunning</a>
-

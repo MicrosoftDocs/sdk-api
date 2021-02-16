@@ -9,8 +9,6 @@ tech.root: automat
 f1_keywords:
  - wtypes
  - wtypes/wtypes
-api_name:
- - wtypes
 ---
 
 # Wtypes.h header

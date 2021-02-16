@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - ip_interface_name_info_w2ksp1
- - PIP_INTERFACE_NAME_INFO_W2KSP1
- - IP_INTERFACE_NAME_INFO_W2KSP1
+ - IP_INTERFACE_NAME_INFO
 ---
 
 # IP_INTERFACE_NAME_INFO_W2KSP1 structure
@@ -335,4 +333,3 @@ The optional <b>InterfaceGuid</b> member is often set for dial-up interfaces, an
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-nhpallocateandgetinterfaceinfofromstack">NhpAllocateAndGetInterfaceInfoFromStack</a>
-

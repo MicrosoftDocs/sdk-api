@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xamlom.h
 api_name:
- - IVisualTreeServiceCallback2::OnElementStateChanged
+ - IVisualTreeServiceCallback2.OnElementStateChanged
 ---
 
 # IVisualTreeServiceCallback2::OnElementStateChanged
@@ -77,4 +77,3 @@ When any XAML diagnostics API results in a resource reference becoming invalid, 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xamlom/nn-xamlom-ivisualtreeservicecallback2">IVisualTreeServiceCallback2</a>
-

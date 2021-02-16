@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BroadcastSystemMessageW
  - winuser/BroadcastSystemMessageW
- - BroadcastSystemMessage
- - winuser/BroadcastSystemMessage
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - BroadcastSystemMessageW
  - BroadcastSystemMessage
+ - BroadcastSystemMessageW
 ---
 
 # BroadcastSystemMessageW function
@@ -294,4 +292,3 @@ For an example, see <a href="/windows/desktop/ProcThread/terminating-a-process">
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendnotifymessagea">SendNotifyMessage</a>
-

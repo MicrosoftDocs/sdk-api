@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcBindingToStringBindingA
  - rpcdce/RpcBindingToStringBindingA
- - RpcBindingToStringBinding
- - rpcdce/RpcBindingToStringBinding
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcBindingToStringBindingA
  - RpcBindingToStringBinding
+ - RpcBindingToStringBindingA
+ - RpcBindingToStringBindingW
 ---
 
 # RpcBindingToStringBindingA function
@@ -143,4 +142,3 @@ To parse the returned <i>StringBinding</i> parameter, call the
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

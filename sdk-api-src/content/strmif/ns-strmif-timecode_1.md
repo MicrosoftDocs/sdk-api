@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _timecode
  - TIMECODE
 ---
 
@@ -125,4 +124,3 @@ Fractional frame can be used to indicate temporal offset into frame when timecod
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

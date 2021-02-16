@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - _FAX_DEVICE_STATUSW
- - PFAX_DEVICE_STATUSW
+ - FAX_DEVICE_STATUS
+ - FAX_DEVICE_STATUSA
  - FAX_DEVICE_STATUSW
 ---
 
@@ -489,4 +489,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetdevicestatusa">FaxGetDeviceStatus</a>
-

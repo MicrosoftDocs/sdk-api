@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemProviderInitSink::SetStatus
+ - IWbemProviderInitSink.SetStatus
 ---
 
 # IWbemProviderInitSink::SetStatus
@@ -93,4 +93,3 @@ If <i>lStatus</i> is set to <b>WBEM_S_INITIALIZED</b>, Windows Management expect
 
 
 <a href="/windows/desktop/WmiSdk/initializing-a-provider">Initializing a Provider</a>
-

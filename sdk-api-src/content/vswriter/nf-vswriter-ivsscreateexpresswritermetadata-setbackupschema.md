@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata::SetBackupSchema
+ - IVssCreateExpressWriterMetadata.SetBackupSchema
 ---
 
 # IVssCreateExpressWriterMetadata::SetBackupSchema
@@ -128,4 +128,3 @@ Requesters call
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
-

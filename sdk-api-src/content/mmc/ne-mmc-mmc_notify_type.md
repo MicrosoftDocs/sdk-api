@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_NOTIFY_TYPE
  - MMC_NOTIFY_TYPE
 ---
 
@@ -205,4 +204,3 @@ Sent by MMC to determine whether the snap-in supports paste operations from anot
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mmc/mmc-notifications">MMC Notifications</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Elscore.h
 api_name:
- - _MAPPING_OPTIONS
- - PMAPPING_OPTIONS
  - MAPPING_OPTIONS
 ---
 
@@ -156,4 +154,3 @@ call to <b>MappingRecognizeText</b>.</div>
 
 
 <a href="/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>
-

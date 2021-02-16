@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_INTEGRITY_TYPE_
  - IKEEXT_INTEGRITY_TYPE
 ---
 
@@ -86,4 +85,3 @@ Maximum value for testing purposes.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-

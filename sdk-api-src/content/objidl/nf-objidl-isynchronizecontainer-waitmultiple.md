@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISynchronizeContainer::WaitMultiple
+ - ISynchronizeContainer.WaitMultiple
 ---
 
 # ISynchronizeContainer::WaitMultiple
@@ -121,4 +121,3 @@ If the caller is waiting in a single-thread apartment, <b>WaitMultiple</b> enter
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronizecontainer">ISynchronizeContainer</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
- - PFSCTL_SET_INTEGRITY_INFORMATION_BUFFER
  - FSCTL_SET_INTEGRITY_INFORMATION_BUFFER
 ---
 
@@ -162,4 +160,3 @@ If <b>FSCTL_INTEGRITY_FLAG_CHECKSUM_ENFORCEMENT_OFF</b> is specified and the fil
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

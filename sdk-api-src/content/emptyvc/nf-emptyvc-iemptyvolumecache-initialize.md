@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEmptyVolumeCache::Initialize
+ - IEmptyVolumeCache.Initialize
 ---
 
 # IEmptyVolumeCache::Initialize
@@ -196,4 +196,3 @@ The cleanup operation failed.
 This method is used by the Windows 98 disk cleanup manager. Windows 2000 uses the <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex">InitializeEx</a> method exported by <a href="/windows/desktop/api/emptyvc/nn-emptyvc-iemptyvolumecache2">IEmptyVolumeCache2</a>. 
 
 Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> to allocate memory for the strings returned through <i>ppwszDisplayName</i> and <i>ppwszDescription</i>. The disk cleanup manager will free the memory when it is no longer needed.
-

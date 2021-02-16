@@ -9,8 +9,6 @@ tech.root: ifsk
 f1_keywords:
  - fltuser
  - fltuser/fltuser
-api_name:
- - fltuser
 ---
 
 # Fltuser.h header

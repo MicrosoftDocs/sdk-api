@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_modrdn
+ - ldap_modrdnA
+ - ldap_modrdnW
 ---
 
 # ldap_modrdn function
@@ -138,4 +140,3 @@ Multithreading: Calls to <b>ldap_modrdn</b> are thread-safe, provided that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

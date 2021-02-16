@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetNull
+ - CInstance.SetNull
+ - ?SetNull@CInstance@@QAE_NPBG@Z
 ---
 
 # CInstance::SetNull
@@ -68,4 +69,3 @@ Name of the property to set to <b>NULL</b>.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent property. More information is available in the log file, Framework.log.
-

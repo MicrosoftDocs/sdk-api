@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::Reenumerate
+ - IVdsService.Reenumerate
 ---
 
 # IVdsService::Reenumerate
@@ -102,4 +102,3 @@ This method returns immediately after a bus rescan request is issued. The operat
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdssubsystem-reenumerate">IVdsSubSystem::Reenumerate</a>
-

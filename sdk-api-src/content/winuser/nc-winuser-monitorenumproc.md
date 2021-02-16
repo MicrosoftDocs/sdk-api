@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - MONITORENUMPROC
+ - MonitorEnumProc
 ---
 
 # MONITORENUMPROC callback function
@@ -107,4 +107,3 @@ If the <i>hdc</i> parameter of <a href="/windows/desktop/api/winuser/nf-winuser-
 
 
 <a href="/windows/desktop/gdi/multiple-display-monitors">Multiple Display Monitors Overview</a>
-

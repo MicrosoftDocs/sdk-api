@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider::RangeFromPoint
+ - ITextProvider.RangeFromPoint
 ---
 
 # ITextProvider::RangeFromPoint
@@ -103,4 +103,3 @@ The property never returns <b>NULL</b>.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

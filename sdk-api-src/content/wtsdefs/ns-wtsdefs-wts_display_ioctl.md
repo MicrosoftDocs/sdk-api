@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_DISPLAY_IOCTL
- - PWTS_DISPLAY_IOCTL
  - WTS_DISPLAY_IOCTL
 ---
 

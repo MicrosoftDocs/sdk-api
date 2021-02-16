@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::QueryInsert
+ - ITextStoreACP2.QueryInsert
 ---
 
 # ITextStoreACP2::QueryInsert
@@ -125,4 +125,3 @@ The values of <i>pacpResultStart</i> and <i>pacpResultEnd</i> depend upon how th
 ## -see-also
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-

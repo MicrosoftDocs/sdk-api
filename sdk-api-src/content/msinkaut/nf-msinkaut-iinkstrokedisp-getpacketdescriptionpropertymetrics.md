@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::GetPacketDescriptionPropertyMetrics
+ - IInkStrokeDisp.GetPacketDescriptionPropertyMetrics
 ---
 
 # IInkStrokeDisp::GetPacketDescriptionPropertyMetrics
@@ -173,4 +173,3 @@ An exception occurred while processing.
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-tabletpropertymetricunit">TabletPropertyMetricUnit Enumeration</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::CreateDirectoryItem
+ - IFileSystemImage.CreateDirectoryItem
 ---
 
 # IFileSystemImage::CreateDirectoryItem
@@ -123,4 +123,3 @@ After setting properties on the <a href="/windows/desktop/api/imapi2fs/nn-imapi2
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsidirectoryitem">IFsiDirectoryItem</a>
-

@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_ADHOC_NETWORK_STATE
- - PWLAN_ADHOC_NETWORK_STATE
  - WLAN_ADHOC_NETWORK_STATE
 ---
 
@@ -66,4 +65,3 @@ A client or host is connected to the ad hoc network.
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
-

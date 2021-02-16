@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ExtractAssociatedIconExA
  - shellapi/ExtractAssociatedIconExA
- - ExtractAssociatedIconEx
- - shellapi/ExtractAssociatedIconEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ExtractAssociatedIconExA
  - ExtractAssociatedIconEx
+ - ExtractAssociatedIconExA
+ - ExtractAssociatedIconExW
 ---
 
 # ExtractAssociatedIconExA function
@@ -123,4 +122,3 @@ The icon handle returned by this function must be released by calling <a href="/
 
 
 <a href="/windows/desktop/api/shellapi/nf-shellapi-extracticonexa">ExtractIconEx</a>
-

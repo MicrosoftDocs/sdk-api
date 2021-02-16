@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - minwinbase
  - minwinbase/minwinbase
-api_name:
- - minwinbase
 ---
 
 # Minwinbase.h header

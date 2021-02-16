@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideo::GetDDrawObject
+ - IDDrawExclModeVideo.GetDDrawObject
 ---
 
 # IDDrawExclModeVideo::GetDDrawObject
@@ -118,4 +118,3 @@ If the filter graph has not set a DirectDraw object and the Overlay Mixer has no
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
-

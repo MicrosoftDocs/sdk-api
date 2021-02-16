@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole::SetHeader
+ - IConsole.SetHeader
 ---
 
 # IConsole::SetHeader
@@ -77,4 +77,3 @@ The best time to release the
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
-

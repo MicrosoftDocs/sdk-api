@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_COUNTER_REG_INFO
- - PPERF_COUNTER_REG_INFO
  - PERF_COUNTER_REG_INFO
 ---
 
@@ -492,4 +490,3 @@ The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistra
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycountersetregistrationinfo">PerfQueryCounterSetRegistrationInfo</a>
-

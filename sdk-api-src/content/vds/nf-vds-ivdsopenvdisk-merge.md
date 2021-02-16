@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsOpenVDisk::Merge
+ - IVdsOpenVDisk.Merge
 ---
 
 # IVdsOpenVDisk::Merge
@@ -102,4 +102,3 @@ The virtual disk must have been opened with read/write access.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a>
-

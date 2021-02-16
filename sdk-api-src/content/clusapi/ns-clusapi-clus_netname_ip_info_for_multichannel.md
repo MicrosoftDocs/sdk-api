@@ -45,7 +45,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
- - PCLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL
 ---
 
 # CLUS_NETNAME_IP_INFO_FOR_MULTICHANNEL structure
@@ -72,4 +71,3 @@ An array of <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-c
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

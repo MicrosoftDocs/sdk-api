@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_PROPOSAL0_
  - IKEEXT_PROPOSAL0
 ---
 
@@ -101,4 +100,3 @@ from this proposal.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

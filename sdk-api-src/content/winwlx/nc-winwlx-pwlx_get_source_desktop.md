@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_GET_SOURCE_DESKTOP
+ - WlxGetSourceDesktop
 ---
 
 # PWLX_GET_SOURCE_DESKTOP callback function
@@ -112,4 +112,3 @@ The call failed.
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

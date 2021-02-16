@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::put_Selection
+ - IInkOverlay.Selection
+ - IInkOverlay.get_Selection
+ - IInkOverlay.put_Selection
+ - InkOverlay.get_Selection
+ - InkOverlay.put_Selection
 ---
 
 # IInkOverlay::put_Selection
@@ -86,4 +90,3 @@ To get the bounding rectangle of the <a href="/previous-versions/windows/desktop
 
 
 <a href="/windows/desktop/tablet/inkpicture-selectionresized">SelectionResized Event [InkPicture Control]</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey::Open
+ - IX509EndorsementKey.Open
 ---
 
 # IX509EndorsementKey::Open
@@ -61,4 +61,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
-

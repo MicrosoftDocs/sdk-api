@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetNetworkState
+ - IMFMediaEngine.GetNetworkState
 ---
 
 # IMFMediaEngine::GetNetworkState
@@ -65,4 +65,3 @@ This method corresponds to the <b>networkState</b> attribute of the <b>HTMLMedia
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

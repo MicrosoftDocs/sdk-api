@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _MAT2
- - LPMAT2
  - MAT2
 ---
 
@@ -91,4 +89,3 @@ The identity matrix produces a transformation in which the transformed graphical
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a>
-

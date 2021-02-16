@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcEpRegisterA
  - rpcdce/RpcEpRegisterA
- - RpcEpRegister
- - rpcdce/RpcEpRegister
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcEpRegisterA
  - RpcEpRegister
+ - RpcEpRegisterA
+ - RpcEpRegisterW
 ---
 
 # RpcEpRegisterA function
@@ -232,4 +231,3 @@ If a protocol sequence is used without specifying an endpoint, the RPC run-time 
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqif">RpcServerUseProtseqIf</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsReplicaUpdateRefsA
  - ntdsapi/DsReplicaUpdateRefsA
- - DsReplicaUpdateRefs
- - ntdsapi/DsReplicaUpdateRefs
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsReplicaUpdateRefsA
  - DsReplicaUpdateRefs
+ - DsReplicaUpdateRefsA
+ - DsReplicaUpdateRefsW
 ---
 
 # DsReplicaUpdateRefsA function
@@ -139,4 +138,3 @@ If both <b>DS_REPUPD_ADD_REFERENCE</b> and <b>DS_REPUPD_DELETE_REFERENCE</b> are
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicasynca">DsReplicaSync</a>
-

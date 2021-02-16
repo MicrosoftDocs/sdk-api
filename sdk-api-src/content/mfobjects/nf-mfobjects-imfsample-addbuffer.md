@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSample::AddBuffer
+ - IMFSample.AddBuffer
 ---
 
 # IMFSample::AddBuffer
@@ -110,4 +110,3 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/media-samples">Media Samples</a>
-

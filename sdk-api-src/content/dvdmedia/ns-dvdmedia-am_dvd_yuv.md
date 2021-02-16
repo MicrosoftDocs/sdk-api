@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
- - _AM_DVD_YUV
- - PAM_DVD_YUV
  - AM_DVD_YUV
 ---
 
@@ -83,4 +81,3 @@ This structure is contained within the <a href="/previous-versions/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-subpicture-property-set">DVD Subpicture Property Set</a>
-

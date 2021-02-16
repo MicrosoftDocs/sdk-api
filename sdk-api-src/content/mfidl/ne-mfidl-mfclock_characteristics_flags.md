@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFCLOCK_CHARACTERISTICS_FLAGS
  - MFCLOCK_CHARACTERISTICS_FLAGS
 ---
 
@@ -72,4 +71,3 @@ The clock times are generated from the system clock.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _enlink
  - ENLINK
 ---
 
@@ -102,4 +101,3 @@ The range of consecutive characters in the rich edit control that have the CFE_L
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::get_Weight
+ - IFont.get_Weight
 ---
 
 # IFont::get_Weight
@@ -98,4 +98,3 @@ The address in the <i>pWeight</i> parameter is not valid. For example, it may be
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_weight">IFont::put_Weight</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Casetup.h
 api_name:
- - __MIDL___MIDL_itf_casetup_0000_0004_0001
  - CESSetupProperty
 ---
 
@@ -94,4 +93,3 @@ The property value specifies whether CES can process only certificate renewals.
 
 
 <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentserversetup-setproperty">SetProperty</a>
-

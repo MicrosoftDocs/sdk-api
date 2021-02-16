@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDeferredCommand::Confidence
+ - IDeferredCommand.Confidence
 ---
 
 # IDeferredCommand::Confidence
@@ -74,4 +74,3 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/control/nn-control-ideferredcommand">IDeferredCommand Interface</a>
-

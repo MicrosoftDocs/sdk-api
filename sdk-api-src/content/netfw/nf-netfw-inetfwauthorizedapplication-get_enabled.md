@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication::get_Enabled
+ - INetFwAuthorizedApplication.Enabled
+ - INetFwAuthorizedApplication.get_Enabled
+ - INetFwAuthorizedApplication.put_Enabled
 ---
 
 # INetFwAuthorizedApplication::get_Enabled
@@ -72,4 +74,3 @@ The default value is true (<b>VARIANT_TRUE</b>) for new applications.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDServiceMessaging::FaultRequest
+ - IWSDServiceMessaging.FaultRequest
 ---
 
 # IWSDServiceMessaging::FaultRequest
@@ -135,4 +135,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsdservicemessaging">IWSDServiceMessaging</a>
-

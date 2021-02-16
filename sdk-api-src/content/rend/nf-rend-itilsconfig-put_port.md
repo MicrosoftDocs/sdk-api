@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITILSConfig::put_Port
+ - ITILSConfig.put_Port
 ---
 
 # ITILSConfig::put_Port
@@ -119,4 +119,3 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itilsconfig-get_port">ITILSConfig::get_Port</a>
-

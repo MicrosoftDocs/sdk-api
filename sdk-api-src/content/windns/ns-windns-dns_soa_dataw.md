@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - PDNS_SOA_DATAW
- - DNS_SOA_DATAW
+ - DNS_SOA_DATA
 ---
 
 # DNS_SOA_DATAW structure

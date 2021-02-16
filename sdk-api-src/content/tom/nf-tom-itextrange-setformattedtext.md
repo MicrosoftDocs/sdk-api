@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::SetFormattedText
+ - ITextRange.SetFormattedText
 ---
 
 # ITextRange::SetFormattedText
@@ -137,4 +137,3 @@ Among the formats typically supported by the <a href="/windows/desktop/api/objid
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

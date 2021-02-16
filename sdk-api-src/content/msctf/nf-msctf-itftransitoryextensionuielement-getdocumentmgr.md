@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfTransitoryExtensionUIElement::GetDocumentMgr
+ - ITfTransitoryExtensionUIElement.GetDocumentMgr
 ---
 
 # ITfTransitoryExtensionUIElement::GetDocumentMgr
@@ -101,4 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

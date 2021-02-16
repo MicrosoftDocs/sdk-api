@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr::GetIncludeExcludeRules
+ - IFhConfigMgr.GetIncludeExcludeRules
+ - FhConfigMgr.GetIncludeExcludeRules
 ---
 
 # IFhConfigMgr::GetIncludeExcludeRules
@@ -104,4 +105,3 @@ The <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-addremoveexcluderu
 
 
 <a href="/windows/desktop/api/fhcfg/nn-fhcfg-ifhscopeiterator">IFhScopeIterator</a>
-

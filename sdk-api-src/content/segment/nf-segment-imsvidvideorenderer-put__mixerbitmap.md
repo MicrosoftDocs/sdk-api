@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::put__MixerBitmap
+ - IMSVidVideoRenderer.put__MixerBitmap
 ---
 
 # IMSVidVideoRenderer::put__MixerBitmap
@@ -77,4 +77,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/previous-versions/windows/desktop/mstv/mixing-an-image-onto-the-video-window-in-c-">Mixing an Image Onto the Video Window in C++</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IEVRTrustedVideoPlugin::DisableImageExport
+ - IEVRTrustedVideoPlugin.DisableImageExport
 ---
 
 # IEVRTrustedVideoPlugin::DisableImageExport
@@ -102,4 +102,3 @@ While image exporting is disabled, any associated export method, such as <a href
 
 
 <a href="/windows/desktop/medfound/protected-media-path">Protected Media Path</a>
-

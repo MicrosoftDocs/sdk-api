@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _LSA_FOREST_TRUST_RECORD
- - PLSA_FOREST_TRUST_RECORD
  - LSA_FOREST_TRUST_RECORD
 ---
 
@@ -131,6 +129,10 @@ Time stamp of the record.
 
 ### -field ForestTrustData.Data.default
 
+
+
+
+
 ### -field ForestTrustData
 
 ### -field ForestTrustData.TopLevelName
@@ -144,4 +146,3 @@ Domain information. This member is used only if the <b>ForestTrustType</b> membe
 ### -field ForestTrustData.Data
 
 Binary data. This member is used for unrecognized entries after ForestTrustRecordTypeLast.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCchLengthW
  - strsafe/StringCchLengthW
- - StringCchLength
- - strsafe/StringCchLength
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCchLengthW
  - StringCchLength
+ - StringCchLengthA
+ - StringCchLengthW
 ---
 
 # StringCchLengthW function
@@ -161,4 +160,3 @@ Compared to  the functions it replaces, <b>StringCchLength</b> is an additional 
 ## -see-also
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcblengtha">StringCbLength</a>
-

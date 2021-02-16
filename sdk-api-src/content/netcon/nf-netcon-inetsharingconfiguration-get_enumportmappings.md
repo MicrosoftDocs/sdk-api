@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingConfiguration::get_EnumPortMappings
+ - INetSharingConfiguration.get_EnumPortMappings
 ---
 
 # INetSharingConfiguration::get_EnumPortMappings
@@ -201,4 +201,3 @@ Use the
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-

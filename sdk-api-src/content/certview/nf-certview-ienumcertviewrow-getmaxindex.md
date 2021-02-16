@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWROW::GetMaxIndex
+ - IEnumCERTVIEWROW.GetMaxIndex
+ - IEnumCERTVIEWROW.GetMaxIndex
 ---
 
 # IEnumCERTVIEWROW::GetMaxIndex
@@ -137,4 +138,3 @@ else
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-skip">IEnumCERTVIEWROW::Skip</a>
-

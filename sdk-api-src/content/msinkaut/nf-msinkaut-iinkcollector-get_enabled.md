@@ -43,7 +43,13 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::get_Enabled
+ - IInkCollector.Enabled
+ - IInkCollector.get_Enabled
+ - IInkCollector.put_Enabled
+ - put_Enabled
+ - IInkCollector.put_Enabled
+ - InkCollector.get_Enabled
+ - InkCollector.put_Enabled
 ---
 
 # IInkCollector::get_Enabled
@@ -156,4 +162,3 @@ Methods
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_hwnd">hWnd Property</a>
-

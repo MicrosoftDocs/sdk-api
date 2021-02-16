@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_AUTHORITY_INFO_ACCESS
- - PCERT_AUTHORITY_INFO_ACCESS
  - CERT_AUTHORITY_INFO_ACCESS
 ---
 
@@ -90,4 +88,3 @@ An instance of this structure can be used as input to the <a href="/windows/desk
 
 
 <a href="https://www.ietf.org/rfc/rfc3280.txt">RFC 3280</a>
-

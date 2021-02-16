@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFMuxStreamSampleManager::GetSample
+ - IMFMuxStreamSampleManager.GetSample
 ---
 
 # IMFMuxStreamSampleManager::GetSample
@@ -114,4 +114,3 @@ The stream data for the sample is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _JOBOBJECT_BASIC_LIMIT_INFORMATION
- - PJOBOBJECT_BASIC_LIMIT_INFORMATION
  - JOBOBJECT_BASIC_LIMIT_INFORMATION
 ---
 
@@ -386,4 +384,3 @@ The system increments the active process count when you attempt to associate a p
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setprocessworkingsetsize">SetProcessWorkingSetSize</a>
-

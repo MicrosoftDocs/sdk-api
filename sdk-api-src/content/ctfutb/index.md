@@ -9,8 +9,6 @@ tech.root: tsf
 f1_keywords:
  - ctfutb
  - ctfutb/ctfutb
-api_name:
- - ctfutb
 ---
 
 # Ctfutb.h header

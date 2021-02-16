@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference::get_Protocol
+ - ITDirectoryObjectConference.get_Protocol
 ---
 
 # ITDirectoryObjectConference::get_Protocol
@@ -136,4 +136,3 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectoryobjectconference">ITDirectoryObjectConference</a>
-

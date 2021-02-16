@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Authui.dll
 api_name:
- - ICredentialProviderUserArray::GetAccountOptions
+ - ICredentialProviderUserArray.GetAccountOptions
 ---
 
 # ICredentialProviderUserArray::GetAccountOptions
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
-

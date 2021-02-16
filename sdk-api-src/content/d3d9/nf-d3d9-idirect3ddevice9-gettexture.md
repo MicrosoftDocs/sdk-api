@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::GetTexture
+ - IDirect3DDevice9.GetTexture
 ---
 
 # IDirect3DDevice9::GetTexture
@@ -94,4 +94,3 @@ Calling this method will increase the internal reference count on the <a href="/
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settexturestagestate">IDirect3DDevice9::SetTextureStageState</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d10effect.h
 api_name:
- - ID3D10EffectRenderTargetViewVariable::SetRenderTarget
+ - ID3D10EffectRenderTargetViewVariable.SetRenderTarget
 ---
 
 # ID3D10EffectRenderTargetViewVariable::SetRenderTarget
@@ -69,4 +69,3 @@ Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectrendertargetviewvariable">ID3D10EffectRenderTargetViewVariable Interface</a>
-

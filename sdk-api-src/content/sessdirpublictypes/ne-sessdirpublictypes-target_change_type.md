@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
- - _TARGET_CHANGE_TYPE
  - TARGET_CHANGE_TYPE
 ---
 
@@ -100,4 +99,3 @@ The target is not hosting any sessions currently.
 
 
 <a href="/windows/desktop/TermServ/terminal-services-virtualization-api-reference">Remote Desktop Virtualization API reference</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF::QueryReparsePoints
+ - IVdsVolumeMF.QueryReparsePoints
 ---
 
 # IVdsVolumeMF::QueryReparsePoints
@@ -122,4 +122,3 @@ A reparse point is represented by a tuple consisting of the source volume identi
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_reparse_point_prop">VDS_REPARSE_POINT_PROP</a>
-

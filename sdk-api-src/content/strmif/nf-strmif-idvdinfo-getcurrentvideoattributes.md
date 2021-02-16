@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentVideoAttributes
+ - IDvdInfo.GetCurrentVideoAttributes
 ---
 
 # IDvdInfo::GetCurrentVideoAttributes
@@ -128,4 +128,3 @@ For information about DVD_VideoATR, see the DVD-Video specification.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

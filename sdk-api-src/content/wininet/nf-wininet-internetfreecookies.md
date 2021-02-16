@@ -29,7 +29,6 @@ req.umdf-ver:
 req.unicode-ansi: 
 f1_keywords:
  - InternetFreeCookies
- - wininet/InternetFreeCookies
 topic_type:
  - apiref
 api_type:
@@ -70,4 +69,3 @@ The number of structures in the array.
 [InternetSetCookieEx2](nf-wininet-internetsetcookieex2.md)
 
 [WinINet Functions](/windows/win32/wininet/wininet-functions)
-

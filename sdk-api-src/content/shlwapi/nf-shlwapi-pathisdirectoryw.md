@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathIsDirectoryW
  - shlwapi/PathIsDirectoryW
- - PathIsDirectory
- - shlwapi/PathIsDirectory
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
  - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
- - PathIsDirectoryW
  - PathIsDirectory
+ - PathIsDirectoryA
+ - PathIsDirectoryW
 ---
 
 # PathIsDirectoryW function

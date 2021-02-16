@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbCopyExW
  - strsafe/StringCbCopyExW
- - StringCbCopyEx
- - strsafe/StringCbCopyEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCbCopyExW
  - StringCbCopyEx
+ - StringCbCopyExA
+ - StringCbCopyExW
 ---
 
 # StringCbCopyExW function
@@ -269,4 +268,3 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
-

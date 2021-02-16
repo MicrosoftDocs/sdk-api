@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagTCKEYDOWN
  - NMTCKEYDOWN
 ---
 
@@ -77,4 +76,3 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 Value that is identical to the 
 					<i>lParam</i> parameter of the <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> message.
-

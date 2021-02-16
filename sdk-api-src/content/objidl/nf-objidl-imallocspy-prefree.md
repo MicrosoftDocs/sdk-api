@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy::PreFree
+ - IMallocSpy.PreFree
 ---
 
 # IMallocSpy::PreFree
@@ -81,4 +81,3 @@ If <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prealloc">IMallocSp
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postfree">IMallocSpy::PostFree</a>
-

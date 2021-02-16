@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiConfigureProductExW
  - msi/MsiConfigureProductExW
- - MsiConfigureProductEx
- - msi/MsiConfigureProductEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiConfigureProductExW
  - MsiConfigureProductEx
+ - MsiConfigureProductExA
+ - MsiConfigureProductExW
 ---
 
 # MsiConfigureProductExW function
@@ -264,4 +263,3 @@ The
 
 
 <a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
-

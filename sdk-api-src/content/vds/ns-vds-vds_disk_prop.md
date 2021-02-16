@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DISK_PROP
- - PVDS_DISK_PROP
  - VDS_DISK_PROP
 ---
 
@@ -232,4 +230,3 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk-getproperties">IVdsDisk::G
 
 
 <a href="/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
-

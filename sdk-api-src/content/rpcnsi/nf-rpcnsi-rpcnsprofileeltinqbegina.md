@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsProfileEltInqBeginA
  - rpcnsi/RpcNsProfileEltInqBeginA
- - RpcNsProfileEltInqBegin
- - rpcnsi/RpcNsProfileEltInqBegin
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsProfileEltInqBeginA
  - RpcNsProfileEltInqBegin
+ - RpcNsProfileEltInqBeginA
+ - RpcNsProfileEltInqBeginW
 ---
 
 # RpcNsProfileEltInqBeginA function
@@ -367,4 +366,3 @@ When finished viewing the profile elements, the application calls the
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta">RpcNsProfileEltInqNext</a>
-

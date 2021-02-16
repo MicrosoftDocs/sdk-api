@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::Load
+ - IInkDisp.Load
 ---
 
 # IInkDisp::Load
@@ -149,4 +149,3 @@ The <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save</a> m
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save">Save Method</a>
-

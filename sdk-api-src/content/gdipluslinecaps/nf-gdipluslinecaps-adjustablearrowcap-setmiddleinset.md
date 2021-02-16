@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - AdjustableArrowCap::SetMiddleInset
+ - AdjustableArrowCap.SetMiddleInset
 ---
 
 # AdjustableArrowCap::SetMiddleInset
@@ -106,4 +106,3 @@ VOID Example_SetMiddleInset(HDC hdc)
    graphics.DrawLine(&arrowPen, Point(0, 0), Point(100, 100));
 }
 ```
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsAccessControlList::get__NewEnum
+ - IADsAccessControlList.get__NewEnum
 ---
 
 # IADsAccessControlList::get__NewEnum
@@ -175,4 +175,3 @@ HRESULT ListTrustees(IADsAccessControlList *pACL)
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
-

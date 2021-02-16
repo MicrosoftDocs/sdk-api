@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagDESCKIND
  - DESCKIND
 ---
 
@@ -80,4 +79,3 @@ An IMPLICITAPPOBJ was returned.
 ### -field DESCKIND_MAX
 
 The end of the enum.
-

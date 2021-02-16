@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificate::get_UIContextMessage
+ - ISignerCertificate.UIContextMessage
+ - ISignerCertificate.get_UIContextMessage
+ - ISignerCertificate.put_UIContextMessage
 ---
 
 # ISignerCertificate::get_UIContextMessage
@@ -84,4 +86,3 @@ Call this property to specify a value before calling the <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
-

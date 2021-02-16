@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - LPNSPV2STARTUP
+ - NSPv2Startup
 ---
 
 # LPNSPV2STARTUP callback function

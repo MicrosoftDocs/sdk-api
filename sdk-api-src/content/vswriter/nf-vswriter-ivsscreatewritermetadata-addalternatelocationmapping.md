@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata::AddAlternateLocationMapping
+ - IVssCreateWriterMetadata.AddAlternateLocationMapping
 ---
 
 # IVssCreateWriterMetadata::AddAlternateLocationMapping
@@ -223,4 +223,3 @@ For more information on backup and restore file locations under VSS, see
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadata">IVssCreateWriterMetadata</a>
-

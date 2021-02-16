@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::SetSize
+ - CHStringArray.SetSize
 ---
 
 # CHStringArray::SetSize
@@ -101,4 +101,3 @@ See the example for <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringa
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-getupperbound">CHStringArray::GetUpperBound</a>
-

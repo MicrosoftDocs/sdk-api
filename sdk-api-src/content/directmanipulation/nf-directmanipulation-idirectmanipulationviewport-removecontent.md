@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::RemoveContent
+ - IDirectManipulationViewport.RemoveContent
 ---
 
 # IDirectManipulationViewport::RemoveContent
@@ -69,4 +69,3 @@ Secondary content can be removed from the viewport at any time.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

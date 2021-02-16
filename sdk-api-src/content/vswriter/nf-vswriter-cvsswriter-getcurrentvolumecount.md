@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetCurrentVolumeCount
+ - CVssWriter.GetCurrentVolumeCount
 ---
 
 # CVssWriter::GetCurrentVolumeCount
@@ -83,4 +83,3 @@ This method returns the number of volumes returned in the shadow copy set. This 
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
-

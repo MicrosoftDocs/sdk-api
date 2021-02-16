@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::createRequest
+ - ICEnroll4.createRequest
+ - CEnroll.createRequest
 ---
 
 # ICEnroll4::createRequest
@@ -196,4 +197,3 @@ if ( pEnroll4 )
 CoUninitialize();
 
 ```
-

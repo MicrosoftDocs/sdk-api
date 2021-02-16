@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFCLOCK_RELATIONAL_FLAGS
  - MFCLOCK_RELATIONAL_FLAGS
 ---
 
@@ -68,4 +67,3 @@ Jitter values are always negative. In other words, the time returned by <a href=
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

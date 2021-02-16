@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::SetSequencePaddingWidth
+ - IPhotoAcquireSettings.SetSequencePaddingWidth
 ---
 
 # IPhotoAcquireSettings::SetSequencePaddingWidth
@@ -96,4 +96,3 @@ If the value passed to <code>SetSequencePaddingWidth</code> is nonzero and the f
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>
-

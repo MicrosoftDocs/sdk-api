@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winnt.h
 api_name:
- - _MEM_ADDRESS_REQUIREMENTS
- - PMEM_ADDRESS_REQUIREMENTS
  - MEM_ADDRESS_REQUIREMENTS
 ---
 
@@ -75,4 +73,3 @@ Specifies power-of-2 alignment. Specifying 0 aligns the returned address on the 
 ## -remarks
 
 Specifying a <b>MEM_ADDRESS_REQUIREMENTS</b> structure with all fields set to 0 is the same as not specifying one at all.
-

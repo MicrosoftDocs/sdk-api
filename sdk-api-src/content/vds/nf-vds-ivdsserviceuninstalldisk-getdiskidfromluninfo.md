@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
+ - IVdsServiceUninstallDisk.GetDiskIdFromLunInfo
 ---
 
 # IVdsServiceUninstallDisk::GetDiskIdFromLunInfo
@@ -122,4 +122,3 @@ VDS implements this method. This method is called by VDS applications that need 
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
-

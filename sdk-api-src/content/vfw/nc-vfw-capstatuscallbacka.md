@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
+ - capStatusCallback
  - CAPSTATUSCALLBACKA
+ - CAPSTATUSCALLBACKW
 ---
 
 # CAPSTATUSCALLBACKA callback function
@@ -88,4 +90,3 @@ During capture operations, the first message sent to the callback function is al
 
 
 <a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-

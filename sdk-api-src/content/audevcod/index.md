@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - audevcod
  - audevcod/audevcod
-api_name:
- - audevcod
 ---
 
 # Audevcod.h header

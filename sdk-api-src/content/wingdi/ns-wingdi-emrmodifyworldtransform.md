@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRMODIFYWORLDTRANSFORM
- - PEMRMODIFYWORLDTRANSFORM
  - EMRMODIFYWORLDTRANSFORM
 ---
 
@@ -91,4 +89,3 @@ Indicates how the transformation data modifies the current world transformation.
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a>
-

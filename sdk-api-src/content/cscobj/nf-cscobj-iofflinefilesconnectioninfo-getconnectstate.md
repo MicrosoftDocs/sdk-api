@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesConnectionInfo::GetConnectState
+ - IOfflineFilesConnectionInfo.GetConnectState
 ---
 
 # IOfflineFilesConnectionInfo::GetConnectState
@@ -80,4 +80,3 @@ This method requires that the item have connection state information.  If that i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesconnectioninfo">IOfflineFilesConnectionInfo</a>
-

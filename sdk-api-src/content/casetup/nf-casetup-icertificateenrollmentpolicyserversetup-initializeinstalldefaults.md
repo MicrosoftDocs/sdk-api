@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults
+ - ICertificateEnrollmentPolicyServerSetup.InitializeInstallDefaults
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::InitializeInstallDefaults
@@ -131,4 +131,3 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
-

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata::AddComponentDependency
+ - IVssCreateWriterMetadata.AddComponentDependency
 ---
 
 # IVssCreateWriterMetadata::AddComponentDependency
@@ -173,4 +173,3 @@ If the remote component resides on a cluster, the writer must report the virtual
 To determine whether a dependency is local or remote, the requester must examine the component name returned in the <i>pbstrComponentName</i> parameter. If the component name begins with "\\", the requester must assume that it specifies a remote dependency and that the first component following "\\" is the <i>RemoteComputerName</i> that was specified by the writer. If the component name does not begin with "\\", the requester should assume that it specifies a local dependency.
 
 <b>Windows Server 2003:  </b>This method cannot be used to declare remote dependencies until Windows Server 2003 with Service Pack 1 (SP1).
-

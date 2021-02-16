@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::GetDevicePeriod
+ - IAudioClient.GetDevicePeriod
 ---
 
 # IAudioClient::GetDevicePeriod
@@ -131,4 +131,3 @@ If the client chooses to run its periodic processing thread less often, at the c
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-

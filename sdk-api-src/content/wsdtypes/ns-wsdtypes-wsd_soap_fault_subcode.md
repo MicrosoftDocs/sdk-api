@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_SOAP_FAULT_SUBCODE
  - WSD_SOAP_FAULT_SUBCODE
 ---
 
@@ -68,4 +67,3 @@ A <b>WSD_SOAP_FAULT_SUBCODE</b> structure that contains a fault subcode.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault_code">WSD_SOAP_FAULT_CODE</a>
-

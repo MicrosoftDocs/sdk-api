@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mscat.h
 api_name:
- - CRYPTCATSTORE_
  - CRYPTCATSTORE
 ---
 
@@ -171,4 +170,3 @@ A handle to the decoded bytes. This member is only set if the file was opened wi
 ### -field hSorted
 
 This member is reserved and must be <b>NULL</b>.
-

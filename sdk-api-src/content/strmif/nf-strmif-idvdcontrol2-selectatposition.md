@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2::SelectAtPosition
+ - IDvdControl2.SelectAtPosition
 ---
 
 # IDvdControl2::SelectAtPosition
@@ -148,4 +148,3 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::OnMouse
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage::SendOpaqueCommand
+ - IWMDMStorage.SendOpaqueCommand
 ---
 
 # IWMDMStorage::SendOpaqueCommand
@@ -163,4 +163,3 @@ The following C++ code calls <b>SendOpaqueCommand</b> to perform a simple custom
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
-

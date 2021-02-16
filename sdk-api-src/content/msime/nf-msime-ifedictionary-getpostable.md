@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFEDictionary::GetPosTable
+ - IFEDictionary.GetPosTable
 ---
 
 # IFEDictionary::GetPosTable
@@ -73,4 +73,3 @@ Pointer to the number of <a href="/windows/desktop/api/msime/ns-msime-postbl">PO
 
 
 <a href="/windows/desktop/api/msime/ns-msime-postbl">POSTBL</a>
-

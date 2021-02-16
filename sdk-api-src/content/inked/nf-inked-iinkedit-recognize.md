@@ -43,7 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::Recognize
+ - IInkEdit.Recognize
 ---
 
 # IInkEdit::Recognize
@@ -95,4 +95,3 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

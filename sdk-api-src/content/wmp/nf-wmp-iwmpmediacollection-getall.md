@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection::getAll
+ - IWMPMediaCollection.getAll
 ---
 
 # IWMPMediaCollection::getAll
@@ -93,4 +93,3 @@ There are two ways you ways you can retrieve an <b>IWMPMediaCollection</b> inter
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-

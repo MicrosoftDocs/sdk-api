@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
- - SIP_ADD_NEWPROVIDER_
- - PSIP_ADD_NEWPROVIDER
  - SIP_ADD_NEWPROVIDER
 ---
 
@@ -113,4 +111,3 @@ Pointer to a null-terminated string that contains the name  of the function that
 ## -see-also
 
 <a href="/windows/desktop/api/mssip/nf-mssip-cryptsipaddprovider">CryptSIPAddProvider</a>
-

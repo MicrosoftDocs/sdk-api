@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_EXCEPTION
- - PMINIDUMP_EXCEPTION
  - MINIDUMP_EXCEPTION
 ---
 
@@ -334,4 +332,3 @@ The second array element specifies the virtual address of the inaccessible data.
 
 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-raiseexception">RaiseException</a>
-

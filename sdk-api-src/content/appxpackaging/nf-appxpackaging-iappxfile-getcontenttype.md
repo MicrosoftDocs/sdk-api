@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxFile::GetContentType
+ - IAppxFile.GetContentType
 ---
 
 # IAppxFile::GetContentType
@@ -80,4 +80,3 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-extract-content-fro
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfile">IAppxFile</a>
-

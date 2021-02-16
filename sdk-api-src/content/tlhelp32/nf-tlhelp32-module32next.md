@@ -50,6 +50,8 @@ api_location:
  - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
  - Module32Next
+ - Module32Next
+ - Module32NextW
 ---
 
 # Module32Next function
@@ -108,4 +110,3 @@ For an example, see
 
 
 <a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-

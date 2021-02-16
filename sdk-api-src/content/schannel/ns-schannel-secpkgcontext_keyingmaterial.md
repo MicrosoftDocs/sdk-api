@@ -46,9 +46,9 @@ api_type:
 api_location:
  - schannel.h
 api_name:
- - _SecPkgContext_KeyingMaterial
- - PSecPkgContext_KeyingMaterial
  - SecPkgContext_KeyingMaterial
+ - SecPkgContext_KeyingMaterialA
+ - SecPkgContext_KeyingMaterialW
 ---
 
 # SecPkgContext_KeyingMaterial structure
@@ -67,4 +67,3 @@ The length, in bytes, of the keying material to be exported. Must be greater tha
 ### -field pbKeyingMaterial
 
 A pointer to the buffer containing the exported keying material. After use, deallocate the buffer by calling <a href="/windows/desktop/api/sspi/nf-sspi-freecontextbuffer">FreeContextBuffer</a>.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
- - tag_SCRIPT_TABDEF
  - SCRIPT_TABDEF
 ---
 
@@ -107,4 +106,3 @@ This structure is ignored unless the <i>dwFlags</i> parameter is set to SSA_TAB 
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_GETFLIPSTATUS
+ - DdGetFlipStatus
 ---
 
 ## -description
@@ -77,4 +77,3 @@ If the flag is DDGFS_ISFLIPDONE, the driver should set <b>ddRVal</b> to DDERR_WA
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getflipstatusdata">DD_GETFLIPSTATUSDATA</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTuner::get_CountryCode
+ - IAMTuner.get_CountryCode
 ---
 
 # IAMTuner::get_CountryCode
@@ -76,4 +76,3 @@ Override the country/region code when a country/region wants to receive broadcas
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-

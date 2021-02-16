@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_FeatureDecl
  - MI_FeatureDecl
 ---
 
@@ -77,4 +76,3 @@ Describes metadata for classes, properties, methods, and parameters.
 ### -field numQualifiers
 
 Length of <b>qualifiers</b> array.
-

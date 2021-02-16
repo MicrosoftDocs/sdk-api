@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_CancellationReason
  - MI_CancellationReason
 ---
 
@@ -76,4 +75,3 @@ The service is being stopped.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/dn792316(v=vs.85)">MI_CancelCallback</a>
-

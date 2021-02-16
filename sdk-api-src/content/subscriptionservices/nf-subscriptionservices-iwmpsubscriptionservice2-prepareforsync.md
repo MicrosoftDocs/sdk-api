@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService2::prepareForSync
+ - IWMPSubscriptionService2.prepareForSync
 ---
 
 # IWMPSubscriptionService2::prepareForSync
@@ -112,4 +112,3 @@ When you call <a href="/windows/desktop/api/subscriptionservices/nf-subscription
 
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservicecallback">IWMPSubscriptionServiceCallback Interface</a>
-

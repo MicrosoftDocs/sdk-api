@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITransformProvider2::get_CanZoom
+ - ITransformProvider2.CanZoom
+ - ITransformProvider2.get_CanZoom
 ---
 
 # ITransformProvider2::get_CanZoom
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-itransformprovider2">ITransformProvider2</a>
-

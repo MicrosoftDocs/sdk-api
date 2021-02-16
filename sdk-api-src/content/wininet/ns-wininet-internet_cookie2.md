@@ -25,7 +25,6 @@ req.umdf-ver:
 req.unicode-ansi: 
 f1_keywords:
  - INTERNET_COOKIE2
- - wininet/INTERNET_COOKIE2
 topic_type:
  - apiref
 api_type:
@@ -33,6 +32,7 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
+ - __unnamed_struct_37
  - INTERNET_COOKIE2
 ---
 
@@ -93,4 +93,3 @@ Whether or not the expiry time is set.
 [InternetSetCookieEx2](nf-wininet-internetsetcookieex2.md)
 
 [InternetFreeCookies](nf-wininet-internetfreecookies.md)
-

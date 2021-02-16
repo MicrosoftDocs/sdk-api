@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1.dll
 api_name:
- - ID2D1EffectContext::CreateColorContextFromFilename
+ - ID2D1EffectContext.CreateColorContextFromFilename
 ---
 
 # ID2D1EffectContext::CreateColorContextFromFilename
@@ -94,4 +94,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1effectcontext">ID2D1EffectContext</a>
-

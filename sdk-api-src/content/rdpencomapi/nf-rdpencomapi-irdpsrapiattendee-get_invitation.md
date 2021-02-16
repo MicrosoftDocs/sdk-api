@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendee::get_Invitation
+ - IRDPSRAPIAttendee.Invitation
+ - IRDPSRAPIAttendee.get_Invitation
+ - RDPSRAPIAttendee.Invitation
 ---
 
 # IRDPSRAPIAttendee::get_Invitation
@@ -65,4 +67,3 @@ If this property is accessed on the viewer side, it returns a dummy invitation.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>
-

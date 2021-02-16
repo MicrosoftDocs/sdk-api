@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage::Help
+ - IPropertyPage.Help
 ---
 
 # IPropertyPage::Help
@@ -106,4 +106,3 @@ If the page fails this method (such as E_NOTIMPL), then the frame will attempt t
 
 
 <a href="/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
-

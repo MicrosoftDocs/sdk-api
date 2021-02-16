@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleAdviseHolder::EnumAdvise
+ - IOleAdviseHolder.EnumAdvise
 ---
 
 # IOleAdviseHolder::EnumAdvise
@@ -121,4 +121,3 @@ For this method, the only relevant structure members are <b>pAdvise</b> and <b>d
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-statdata">STATDATA</a>
-

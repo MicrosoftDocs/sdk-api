@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorStream::GetMediaTypeCount
+ - IMFSensorStream.GetMediaTypeCount
 ---
 
 # IMFSensorStream::GetMediaTypeCount
@@ -99,4 +99,3 @@ The <i>pdwCount</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorstream">IMFSensorStream</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPluggableSuperclassInfo::Reset
+ - IEnumPluggableSuperclassInfo.Reset
 ---
 
 # IEnumPluggableSuperclassInfo::Reset
@@ -91,4 +91,3 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo">IEnumPluggableSuperclassInfo</a>
-

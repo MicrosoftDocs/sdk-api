@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dsrole.h
 api_name:
- - _DSROLE_OPERATION_STATE_INFO
- - PDSROLE_OPERATION_STATE_INFO
  - DSROLE_OPERATION_STATE_INFO
 ---
 
@@ -75,4 +73,3 @@ Contains one of the <a href="/windows/desktop/api/dsrole/ne-dsrole-dsrole_operat
 
 
 <a href="/windows/desktop/AD/enumerations-in-active-directory-domain-services">Enumerations in Active Directory Domain Services</a>
-

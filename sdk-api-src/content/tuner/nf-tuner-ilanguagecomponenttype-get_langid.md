@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ILanguageComponentType::get_LangID
+ - ILanguageComponentType.get_LangID
 ---
 
 # ILanguageComponentType::get_LangID
@@ -73,4 +73,3 @@ The <i>pLangID</i> parameter is a pointer to a Win32 LCID. Use this method to de
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-put_langid">ILanguageComponentType::put_LangID</a>
-

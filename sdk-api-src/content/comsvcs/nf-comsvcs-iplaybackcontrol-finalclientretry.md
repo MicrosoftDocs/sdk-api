@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IPlaybackControl::FinalClientRetry
+ - IPlaybackControl.FinalClientRetry
 ---
 
 # IPlaybackControl::FinalClientRetry
@@ -69,4 +69,3 @@ If this method is not successful, the message is left on the Xact dead letter qu
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iplaybackcontrol">IPlaybackControl</a>
-

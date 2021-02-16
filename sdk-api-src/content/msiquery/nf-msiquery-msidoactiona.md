@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDoActionA
  - msiquery/MsiDoActionA
- - MsiDoAction
- - msiquery/MsiDoAction
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDoActionA
  - MsiDoAction
+ - MsiDoActionA
+ - MsiDoActionW
 ---
 
 # MsiDoActionA function
@@ -97,4 +96,3 @@ Actions that update the system, such as the
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Installer Action Functions</a>
-

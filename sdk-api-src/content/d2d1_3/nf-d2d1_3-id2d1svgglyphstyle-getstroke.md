@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1SvgGlyphStyle::GetStroke
+ - ID2D1SvgGlyphStyle.GetStroke
 ---
 
 # ID2D1SvgGlyphStyle::GetStroke
@@ -88,4 +88,3 @@ The 'context-value' for the 'stroke-dashoffset' property.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1svgglyphstyle">ID2D1SvgGlyphStyle</a>
-

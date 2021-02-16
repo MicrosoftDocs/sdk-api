@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocManager::GetNetwork
+ - IDot11AdHocManager.GetNetwork
 ---
 
 # IDot11AdHocManager::GetNetwork
@@ -98,4 +98,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
-

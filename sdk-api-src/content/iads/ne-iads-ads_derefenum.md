@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0020
  - ADS_DEREFENUM
 ---
 
@@ -103,4 +102,3 @@ hr = m_pSearch->SetSearchPreference(prefInfo, 1);
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectorysearch">IDirectorySearch</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PREAD_PROCESS_MEMORY_ROUTINE64
+ - ReadProcessMemoryProc64
 ---
 
 ## -description
@@ -117,4 +117,3 @@ BOOL
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
-

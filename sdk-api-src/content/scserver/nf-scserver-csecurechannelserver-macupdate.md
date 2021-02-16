@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer::MACUpdate
+ - CSecureChannelServer.MACUpdate
 ---
 
 # CSecureChannelServer::MACUpdate
@@ -121,4 +121,3 @@ See the example code for <a href="/previous-versions/ms868514(v=msdn.10)">MACIni
 
 
 <a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-

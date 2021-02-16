@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::GetStatus
+ - ITextStoreAnchor.GetStatus
 ---
 
 # ITextStoreAnchor::GetStatus
@@ -110,4 +110,3 @@ The pointer to the TS_STATUS parameter is invalid.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

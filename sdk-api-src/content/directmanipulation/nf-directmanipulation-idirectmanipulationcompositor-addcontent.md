@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor::AddContent
+ - IDirectManipulationCompositor.AddContent
 ---
 
 # IDirectManipulationCompositor::AddContent
@@ -110,4 +110,3 @@ If the application uses a custom implementation of <a href="/previous-versions/w
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
-

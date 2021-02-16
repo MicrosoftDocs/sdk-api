@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaBase::put_QuotaLimit
+ - IFsrmQuotaBase.QuotaLimit
+ - IFsrmQuotaBase.get_QuotaLimit
+ - IFsrmQuotaBase.put_QuotaLimit
 ---
 
 # IFsrmQuotaBase::put_QuotaLimit
@@ -79,4 +81,3 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

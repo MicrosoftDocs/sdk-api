@@ -45,7 +45,6 @@ api_location:
  - Routprot.h
 api_name:
  - IP_ADAPTER_BINDING_INFO
- - PIP_ADAPTER_BINDING_INFO
 ---
 
 # IP_ADAPTER_BINDING_INFO structure
@@ -96,4 +95,3 @@ Since an adapter can have more than one IP address, the
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

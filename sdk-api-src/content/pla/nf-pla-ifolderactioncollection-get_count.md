@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IFolderActionCollection::get_Count
+ - IFolderActionCollection.Count
+ - IFolderActionCollection.get_Count
 ---
 
 # IFolderActionCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderactioncollection">IFolderActionCollection</a>
-

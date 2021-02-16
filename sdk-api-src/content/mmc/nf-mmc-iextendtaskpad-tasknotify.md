@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendTaskPad::TaskNotify
+ - IExtendTaskPad.TaskNotify
 ---
 
 # IExtendTaskPad::TaskNotify
@@ -106,4 +106,3 @@ A custom taskpad can pass any values that it determines should be sent in the ar
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
-

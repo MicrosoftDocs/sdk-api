@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dbt.h
 api_name:
- - _DEV_BROADCAST_OEM
  - DEV_BROADCAST_OEM
 ---
 
@@ -84,4 +83,3 @@ The OEM-specific function value. Possible values depend on the device.
 
 
 <a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-

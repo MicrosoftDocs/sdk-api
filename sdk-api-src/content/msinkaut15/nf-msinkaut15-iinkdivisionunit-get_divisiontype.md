@@ -43,7 +43,9 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivisionUnit::get_DivisionType
+ - IInkDivisionUnit.DivisionType
+ - IInkDivisionUnit.get_DivisionType
+ - IInkDivisionUnit.get_DivisionType
 ---
 
 # IInkDivisionUnit::get_DivisionType
@@ -66,4 +68,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/msinkaut15/ne-msinkaut15-inkdivisiontype">InkDivisionType Enumeration</a>
-

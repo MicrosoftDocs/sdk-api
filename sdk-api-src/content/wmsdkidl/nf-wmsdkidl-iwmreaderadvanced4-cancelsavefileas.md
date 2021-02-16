@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4::CancelSaveFileAs
+ - IWMReaderAdvanced4.CancelSaveFileAs
 ---
 
 # IWMReaderAdvanced4::CancelSaveFileAs
@@ -82,4 +82,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
-

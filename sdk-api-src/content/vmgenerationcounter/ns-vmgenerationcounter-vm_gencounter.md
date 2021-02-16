@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vmgenerationcounter.h
 api_name:
- - _VM_GENCOUNTER
- - PVM_GENCOUNTER
  - VM_GENCOUNTER
 ---
 
@@ -75,4 +73,3 @@ For info about the virtual machine generation identifier, see <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/vmgenerationcounter/ni-vmgenerationcounter-ioctl_vmgencounter_read">IOCTL_VMGENCOUNTER_READ</a>
-

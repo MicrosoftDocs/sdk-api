@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer::Flush
+ - IMFASFMultiplexer.Flush
 ---
 
 # IMFASFMultiplexer::Flush
@@ -88,4 +88,3 @@ You must call <b>Flush</b> after the last sample has been passed into the ASF mu
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure2::SetMultiplexedPacketSize
+ - IStreamBufferConfigure2.SetMultiplexedPacketSize
 ---
 
 # IStreamBufferConfigure2::SetMultiplexedPacketSize
@@ -87,4 +87,3 @@ For low-bit-rate streams, the default packet size may be unnecessarily large. Yo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure2">IStreamBufferConfigure2 Interface</a>
-

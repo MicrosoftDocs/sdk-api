@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetSiteNameW
  - dsgetdc/DsGetSiteNameW
- - DsGetSiteName
- - dsgetdc/DsGetSiteName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Netapi32.dll
 api_name:
- - DsGetSiteNameW
  - DsGetSiteName
+ - DsGetSiteNameA
+ - DsGetSiteNameW
 ---
 
 # DsGetSiteNameW function
@@ -98,4 +97,3 @@ The <b>DsGetSiteName</b> function does not require any particular access to the 
 
 
 <a href="/windows/desktop/api/lmapibuf/nf-lmapibuf-netapibufferfree">NetApiBufferFree</a>
-

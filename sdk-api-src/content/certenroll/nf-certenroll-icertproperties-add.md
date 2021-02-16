@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperties::Add
+ - ICertProperties.Add
 ---
 
 # ICertProperties::Add
@@ -90,4 +90,3 @@ An item in the collection has the same ID as the property you specified.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-

@@ -47,9 +47,7 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPADDRROW_W2K
- - PMIB_IPADDRROW_W2K
- - MIB_IPADDRROW_W2K
+ - MIB_IPADDRROW
 ---
 
 ## -description
@@ -102,7 +100,7 @@ This member is reserved.
 Type: <b>unsigned short</b>
 
 This member is reserved.
-
+ 
 ## -remarks
 
 On Windows XP and later, the <b>dwIndex</b> member of the <b>MIB_IPADDRROW</b> structure has a data type of <b>IF_INDEX</b>. The <b>wType</b> member is only available  on Windows XP and later. On Windows 2000 and earlier, this member is defined as <b>Unused2</b>.
@@ -120,4 +118,3 @@ To view an example that retrieves the <a href="/windows/desktop/api/ipmib/ns-ipm
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getipaddrtable">GetIpAddrTable</a>
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipaddrtable">MIB_IPADDRTABLE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth::SetChannelPriority
+ - IDirectMusicSynth.SetChannelPriority
 ---
 
 # IDirectMusicSynth::SetChannelPriority
@@ -79,4 +79,3 @@ For more information, see the description of the <b>IDirectMusicPort::GetChannel
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-getchannelpriority">IDirectMusicSynth::GetChannelPriority</a>
-

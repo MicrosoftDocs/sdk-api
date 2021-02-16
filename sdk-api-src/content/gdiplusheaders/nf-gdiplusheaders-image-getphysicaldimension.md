@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetPhysicalDimension
+ - Image.GetPhysicalDimension
 ---
 
 # Image::GetPhysicalDimension
@@ -103,4 +103,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-improving-performance-by-avoiding-automatic-scaling-use">Improving Performance by Avoiding Automatic Scaling</a>
-

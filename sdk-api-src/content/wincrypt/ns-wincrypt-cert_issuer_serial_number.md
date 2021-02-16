@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_ISSUER_SERIAL_NUMBER
- - PCERT_ISSUER_SERIAL_NUMBER
  - CERT_ISSUER_SERIAL_NUMBER
 ---
 
@@ -67,4 +65,3 @@ A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> structure that contains the
 ### -field SerialNumber
 
 A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a> structure that contains the serial number of the certificate. The combination of the issuer name and the serial number is a unique identifier of a certificate.
-

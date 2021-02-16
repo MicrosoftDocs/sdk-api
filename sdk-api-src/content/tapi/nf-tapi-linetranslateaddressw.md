@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineTranslateAddressW
  - tapi/lineTranslateAddressW
- - lineTranslateAddress
- - tapi/lineTranslateAddress
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Tapi32.dll
  - Ext-MS-Win-ras-tapi32-l1-1-0.dll
 api_name:
- - lineTranslateAddressW
  - lineTranslateAddress
+ - lineTranslateAddressA
+ - lineTranslateAddressW
 ---
 
 # lineTranslateAddressW function
@@ -144,4 +143,3 @@ LINEERR_BADDEVICEID, LINEERR_INVALPOINTER, LINEERR_INCOMPATIBLEAPIVERSION, LINEE
 
 > [!NOTE]
 > The tapi.h header defines lineTranslateAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITASRTerminalEvent::get_Terminal
+ - ITASRTerminalEvent.get_Terminal
 ---
 
 # ITASRTerminalEvent::get_Terminal
@@ -72,4 +72,3 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-

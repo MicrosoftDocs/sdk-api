@@ -9,8 +9,6 @@ tech.root: netshell
 f1_keywords:
  - netsh
  - netsh/netsh
-api_name:
- - netsh
 ---
 
 # Netsh.h header

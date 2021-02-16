@@ -34,8 +34,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreatePrivateNamespaceA
  - winbase/CreatePrivateNamespaceA
- - CreatePrivateNamespace
- - winbase/CreatePrivateNamespace
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,8 +47,9 @@ api_location:
  - API-Ms-Win-Core-Namespace-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CreatePrivateNamespaceA
  - CreatePrivateNamespace
+ - CreatePrivateNamespaceA
+ - CreatePrivateNamespaceW
 ---
 
 # CreatePrivateNamespaceA function
@@ -102,4 +101,3 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegQueryValueA
  - winreg/RegQueryValueA
- - RegQueryValue
- - winreg/RegQueryValue
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegQueryValueA
  - RegQueryValue
+ - RegQueryValueA
+ - RegQueryValueW
 ---
 
 # RegQueryValueA function
@@ -163,4 +162,3 @@ Note that operations that access certain registry keys are redirected. For more 
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
-

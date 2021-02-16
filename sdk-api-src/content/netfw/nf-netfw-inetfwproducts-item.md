@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwProducts::Item
+ - INetFwProducts.Item
 ---
 
 # INetFwProducts::Item
@@ -137,4 +137,3 @@ The requested item does not exist.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproducts">INetFwProducts</a>
-

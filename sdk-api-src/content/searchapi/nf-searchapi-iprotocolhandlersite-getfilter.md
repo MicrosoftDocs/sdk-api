@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IProtocolHandlerSite::GetFilter
+ - IProtocolHandlerSite.GetFilter
 ---
 
 # IProtocolHandlerSite::GetFilter
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method queries the Filter Host to identify the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>object to use for the URL item.
 
 The choice of filter is based on the file name extension, a CLSID that identifies the file's content type in the registry, or on the MIME content type. You need to provide only one of the three parameters to this method. If you provide multiple parameters, they are tested in the following order: <i>pcwszContentType</i>, <i>pclsidObj</i>, <i>pcwszExtension</i>. The first valid parameter is used to select the appropriate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>; the others are ignored.
-

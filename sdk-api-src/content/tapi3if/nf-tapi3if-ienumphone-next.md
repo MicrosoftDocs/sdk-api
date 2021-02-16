@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPhone::Next
+ - IEnumPhone.Next
 ---
 
 # IEnumPhone::Next
@@ -136,4 +136,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itphone">ITPhone</a>
-

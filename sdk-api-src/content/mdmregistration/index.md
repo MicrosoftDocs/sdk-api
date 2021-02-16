@@ -9,8 +9,6 @@ tech.root: mdmreg
 f1_keywords:
  - mdmregistration
  - mdmregistration/mdmregistration
-api_name:
- - mdmregistration
 ---
 
 # Mdmregistration.h header

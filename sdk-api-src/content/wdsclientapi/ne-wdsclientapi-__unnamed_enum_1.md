@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdsclientapi.h
 api_name:
- - __unnamed_enum_1
+ - WDS_LOG_TYPE_CLIENT
 ---
 
 # __unnamed_enum_1 enumeration
@@ -117,4 +117,3 @@ A generic message.
 ### -field WDS_LOG_TYPE_CLIENT_MAX_CODE
 
 Used to determine an out-of-range index. Values greater than or equal to WDS_LOG_TYPE_CLIENT_MAX_CODE are not valid.
-

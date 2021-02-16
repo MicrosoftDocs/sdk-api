@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnBeforeContextMenu
+ - INameSpaceTreeControlEvents.OnBeforeContextMenu
 ---
 
 # INameSpaceTreeControlEvents::OnBeforeContextMenu
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontrolevents">INameSpaceTreeControlEvents</a>
-

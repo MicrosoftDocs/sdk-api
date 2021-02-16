@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0001_0001
  - UI_ANIMATION_ROUNDING_MODE
 ---
 
@@ -72,4 +71,3 @@ Round up.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
-

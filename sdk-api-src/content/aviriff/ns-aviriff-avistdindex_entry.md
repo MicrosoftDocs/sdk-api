@@ -44,7 +44,6 @@ api_type:
 api_location:
  - aviriff.h
 api_name:
- - _avistdindex_entry
  - AVISTDINDEX_ENTRY
 ---
 
@@ -82,4 +81,3 @@ and countries.)
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

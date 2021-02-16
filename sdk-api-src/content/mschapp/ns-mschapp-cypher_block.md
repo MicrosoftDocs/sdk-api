@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsChapp.h
 api_name:
- - _CYPHER_BLOCK
  - CYPHER_BLOCK
 ---
 
@@ -64,4 +63,3 @@ An array of CHAR used to store the password hashes and cipher text passed by the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mschap/ms-chap-password-management-structures">MS-CHAP Password Management Structures</a>
-

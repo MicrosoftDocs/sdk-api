@@ -42,7 +42,9 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor::get_PivotRadius
+ - IManipulationProcessor.PivotRadius
+ - IManipulationProcessor.get_PivotRadius
+ - IManipulationProcessor.put_PivotRadius
 ---
 
 # IManipulationProcessor::get_PivotRadius
@@ -81,4 +83,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/wintouch/single-finger-rotation">Single Finger Rotation</a>
-

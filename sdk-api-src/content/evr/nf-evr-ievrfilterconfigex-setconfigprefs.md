@@ -42,7 +42,7 @@ api_type:
 api_location:
  - evr.h
 api_name:
- - IEVRFilterConfigEx::SetConfigPrefs
+ - IEVRFilterConfigEx.SetConfigPrefs
 ---
 
 # IEVRFilterConfigEx::SetConfigPrefs
@@ -102,4 +102,3 @@ Invalid argument.
 
 
 <a href="/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
-

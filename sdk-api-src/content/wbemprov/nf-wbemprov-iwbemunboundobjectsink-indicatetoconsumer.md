@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IWbemUnboundObjectSink::IndicateToConsumer
+ - IWbemUnboundObjectSink.IndicateToConsumer
 ---
 
 # IWbemUnboundObjectSink::IndicateToConsumer
@@ -97,4 +97,3 @@ Most implementations of
 
 
 <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemunboundobjectsink">IWbemUnboundObjectSink</a>
-

@@ -46,8 +46,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _tagADDRESS
- - LPADDRESS
+ - ADDRESS64
  - ADDRESS
 ---
 
@@ -151,4 +150,3 @@ typedef struct _tagADDRESS {
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-stackframe">STACKFRAME64</a>
-

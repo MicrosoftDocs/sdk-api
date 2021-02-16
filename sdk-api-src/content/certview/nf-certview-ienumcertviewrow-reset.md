@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWROW::Reset
+ - IEnumCERTVIEWROW.Reset
+ - IEnumCERTVIEWROW.Reset
 ---
 
 # IEnumCERTVIEWROW::Reset
@@ -117,4 +118,3 @@ else
 
 
 <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewrow">IEnumCERTVIEWROW</a>
-

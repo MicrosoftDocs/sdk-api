@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIImageFromBitmap::CreateImage
+ - IUIImageFromBitmap.CreateImage
 ---
 
 # IUIImageFromBitmap::CreateImage
@@ -140,4 +140,3 @@ Specify <b>UI_OWNERSHIP_TRANSFER</b> as the value for <i>options</i> to minimize
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

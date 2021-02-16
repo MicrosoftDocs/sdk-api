@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::CanEdit
+ - ITextRange.CanEdit
 ---
 
 # ITextRange::CanEdit
@@ -85,4 +85,3 @@ The range cannot be edited if any part of it is protected or if the document is 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

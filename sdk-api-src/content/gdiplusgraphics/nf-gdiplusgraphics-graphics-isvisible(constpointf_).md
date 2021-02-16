@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::IsVisible
+ - Graphics.IsVisible
 ---
 
 # Graphics::IsVisible(IN const PointF &)
@@ -80,4 +80,3 @@ If the specified point is inside the visible clipping region, this method return
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
-

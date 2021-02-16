@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::CreateAdditionalSwapChain
+ - IDirect3DDevice9.CreateAdditionalSwapChain
 ---
 
 # IDirect3DDevice9::CreateAdditionalSwapChain
@@ -95,4 +95,3 @@ D3DFMT_UNKNOWN can be specified for the windowed mode back buffer format when ca
 
 
 <a href="/windows/desktop/direct3d9/presenting-multiple-views-in-windowed-mode">Presenting Multiple Views in Windowed Mode (Direct3D 9)</a>
-

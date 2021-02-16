@@ -9,8 +9,6 @@ tech.root: taskschd
 f1_keywords:
  - taskschd
  - taskschd/taskschd
-api_name:
- - taskschd
 ---
 
 # Taskschd.h header

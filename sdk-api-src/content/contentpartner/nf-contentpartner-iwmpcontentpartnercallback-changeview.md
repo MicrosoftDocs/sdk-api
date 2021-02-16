@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::ChangeView
+ - IWMPContentPartnerCallback.ChangeView
 ---
 
 # IWMPContentPartnerCallback::ChangeView
@@ -97,4 +97,3 @@ This method must be called only in response to a user request, such as when the 
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

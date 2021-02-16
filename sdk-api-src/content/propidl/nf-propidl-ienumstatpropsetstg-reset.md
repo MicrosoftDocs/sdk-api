@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATPROPSETSTG::Reset
+ - IEnumSTATPROPSETSTG.Reset
 ---
 
 # IEnumSTATPROPSETSTG::Reset
@@ -75,4 +75,3 @@ The enumeration sequence was successfully reset to the beginning of the enumerat
 </td>
 </tr>
 </table>
-

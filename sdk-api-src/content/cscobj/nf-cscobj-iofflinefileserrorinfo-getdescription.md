@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesErrorInfo::GetDescription
+ - IOfflineFilesErrorInfo.GetDescription
 ---
 
 # IOfflineFilesErrorInfo::GetDescription
@@ -70,4 +70,3 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefileserrorinfo">IOfflineFilesErrorInfo</a>
-

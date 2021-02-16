@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Object::SetName
+ - ID3D12Object.SetName
 ---
 
 # ID3D12Object::SetName
@@ -82,4 +82,3 @@ Additionally, D3D12 supports narrow strings for names, using the **WKPDID_D3DDeb
 
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12object">ID3D12Object</a>
-

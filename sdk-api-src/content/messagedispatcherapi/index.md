@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - messagedispatcherapi
  - messagedispatcherapi/messagedispatcherapi
-api_name:
- - messagedispatcherapi
 ---
 
 # Messagedispatcherapi.h header

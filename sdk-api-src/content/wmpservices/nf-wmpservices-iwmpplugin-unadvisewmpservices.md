@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPlugin::UnAdviseWMPServices
+ - IWMPPlugin.UnAdviseWMPServices
 ---
 
 # IWMPPlugin::UnAdviseWMPServices
@@ -69,4 +69,3 @@ Windows Media Player calls this method when the pointer provided by <b>AdviseWMP
 
 
 <a href="/windows/desktop/api/wmpservices/nf-wmpservices-iwmpplugin-advisewmpservices">IWMPPlugin::AdviseWMPServices</a>
-

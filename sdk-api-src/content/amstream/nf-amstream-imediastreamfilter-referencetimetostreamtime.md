@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IMediaStreamFilter::ReferenceTimeToStreamTime
+ - IMediaStreamFilter.ReferenceTimeToStreamTime
 ---
 
 # IMediaStreamFilter::ReferenceTimeToStreamTime
@@ -100,4 +100,3 @@ Stream time equals the current reference time minus the reference time when the 
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
-

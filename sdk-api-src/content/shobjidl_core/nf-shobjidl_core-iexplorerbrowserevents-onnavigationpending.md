@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowserEvents::OnNavigationPending
+ - IExplorerBrowserEvents.OnNavigationPending
 ---
 
 # IExplorerBrowserEvents::OnNavigationPending
@@ -72,4 +72,3 @@ Explorer browser calls this method before it navigates to a folder, that is, bef
 
 
 Returning any failure code from this method, including E_NOTIMPL, will cancel the navigation.
-

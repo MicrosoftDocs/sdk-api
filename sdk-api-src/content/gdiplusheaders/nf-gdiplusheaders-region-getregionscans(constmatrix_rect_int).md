@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::GetRegionScans
+ - Region.GetRegionScans
 ---
 
 # Region::GetRegionScans(IN const Matrix,OUT Rect,OUT INT)
@@ -156,4 +156,3 @@ VOID Example_GetRegionScansRect(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-

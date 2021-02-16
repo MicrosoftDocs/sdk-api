@@ -9,8 +9,6 @@ tech.root: audio
 f1_keywords:
  - baseaudioprocessingobject
  - baseaudioprocessingobject/baseaudioprocessingobject
-api_name:
- - baseaudioprocessingobject
 ---
 
 # Baseaudioprocessingobject.h header

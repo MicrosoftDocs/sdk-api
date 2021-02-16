@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_DOSP_STATE0_
  - IPSEC_DOSP_STATE0
 ---
 
@@ -84,4 +83,3 @@ The duration, in seconds, since the state entry was created.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

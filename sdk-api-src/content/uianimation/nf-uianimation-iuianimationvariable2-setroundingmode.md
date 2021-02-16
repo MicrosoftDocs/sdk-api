@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2::SetRoundingMode
+ - IUIAnimationVariable2.SetRoundingMode
 ---
 
 # IUIAnimationVariable2::SetRoundingMode
@@ -86,4 +86,3 @@ An animation variable's rounding mode determines how a floating-point value is c
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE</a>
-

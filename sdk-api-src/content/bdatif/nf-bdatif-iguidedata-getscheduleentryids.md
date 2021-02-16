@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideData::GetScheduleEntryIDs
+ - IGuideData.GetScheduleEntryIDs
 ---
 
 # IGuideData::GetScheduleEntryIDs
@@ -95,4 +95,3 @@ The returned <b>IEnumVARIANT</b> interface is not thread safe. Clients should no
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedata">IGuideData Interface</a>
-

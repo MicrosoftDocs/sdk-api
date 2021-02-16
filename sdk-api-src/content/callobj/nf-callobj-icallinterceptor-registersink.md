@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallInterceptor::RegisterSink
+ - ICallInterceptor.RegisterSink
 ---
 
 # ICallInterceptor::RegisterSink
@@ -96,4 +96,3 @@ An unexpected error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallinterceptor">ICallInterceptor</a>
-

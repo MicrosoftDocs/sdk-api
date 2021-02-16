@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RemoveIScsiPersistentTargetW
  - iscsidsc/RemoveIScsiPersistentTargetW
- - RemoveIScsiPersistentTarget
- - iscsidsc/RemoveIScsiPersistentTarget
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - RemoveIScsiPersistentTargetW
- - RemoveIScsiPersistentTarget
+ - RemoveIscsiPersistentTarget
+ - RemoveIscsiPersistentTargetA
+ - RemoveIscsiPersistentTargetW
 ---
 
 # RemoveIScsiPersistentTargetW function
@@ -105,4 +104,3 @@ Returns ERROR_SUCCESS if the operation succeeds. Otherwise, it returns the appro
 
 > [!NOTE]
 > The iscsidsc.h header defines RemoveIScsiPersistentTarget as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

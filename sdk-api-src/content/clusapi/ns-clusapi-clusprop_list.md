@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_LIST
- - PCLUSPROP_LIST
 ---
 
 # CLUSPROP_LIST structure
@@ -68,4 +67,3 @@ Structure describing the name of the first property in the list.
 ## -remarks
 
 For information about property lists, see  <a href="/previous-versions/windows/desktop/mscs/property-lists">Property Lists</a>.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegDeleteValueW
  - winreg/RegDeleteValueW
- - RegDeleteValue
- - winreg/RegDeleteValue
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegDeleteValueW
  - RegDeleteValue
+ - RegDeleteValueA
+ - RegDeleteValueW
 ---
 
 # RegDeleteValueW function
@@ -119,4 +118,3 @@ If the function fails, the return value is a nonzero error code defined in Winer
 
 > [!NOTE]
 > The winreg.h header defines RegDeleteValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

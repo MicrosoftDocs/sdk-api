@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetDVDTextStringAsUnicode
+ - IDvdInfo2.GetDVDTextStringAsUnicode
 ---
 
 # IDvdInfo2::GetDVDTextStringAsUnicode
@@ -155,4 +155,3 @@ The returned string always includes a terminating <b>NULL</b>. If the buffer is 
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
-

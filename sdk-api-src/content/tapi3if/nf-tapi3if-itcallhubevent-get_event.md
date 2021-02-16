@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallHubEvent::get_Event
+ - ITCallHubEvent.get_Event
 ---
 
 # ITCallHubEvent::get_Event
@@ -116,4 +116,3 @@ The <i>pEvent</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent">ITCallHubEvent</a>
-

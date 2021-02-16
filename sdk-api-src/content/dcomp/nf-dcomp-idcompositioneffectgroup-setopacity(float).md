@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionEffectGroup::SetOpacity
+ - IDCompositionEffectGroup.SetOpacity
 ---
 
 # IDCompositionEffectGroup::SetOpacity(float)
@@ -81,4 +81,3 @@ If the Opacity property was previously animated, this method removes the animati
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositioneffectgroup">IDCompositionEffectGroup</a>
-

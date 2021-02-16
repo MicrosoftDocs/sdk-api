@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tuner.h
 api_name:
- - IScanningTunerEx::GetTunerScanningCapability
+ - IScanningTunerEx.GetTunerScanningCapability
 ---
 
 # IScanningTunerEx::GetTunerScanningCapability
@@ -106,4 +106,3 @@ The following broadcast standard GUIDs are defined in Bdamedia.h.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtunerex">IScanningTunerEx Interface</a>
-

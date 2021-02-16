@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage::GetAttributes
+ - IWMDMStorage.GetAttributes
 ---
 
 # IWMDMStorage::GetAttributes
@@ -210,4 +210,3 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/WMDM/-waveformatex">_WAVEFORMATEX</a>
-

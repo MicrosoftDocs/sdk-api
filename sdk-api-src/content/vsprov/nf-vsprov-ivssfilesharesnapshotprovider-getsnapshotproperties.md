@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider::GetSnapshotProperties
+ - IVssFileShareSnapshotProvider.GetSnapshotProperties
 ---
 
 # IVssFileShareSnapshotProvider::GetSnapshotProperties
@@ -164,4 +164,3 @@ The VSS coordinator calls this method during the PostSnapshot phase of snapshot 
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
-

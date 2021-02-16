@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedOrientation
+ - IUIAutomationElement.CachedOrientation
+ - IUIAutomationElement.get_CachedOrientation
 ---
 
 # IUIAutomationElement::get_CachedOrientation
@@ -75,4 +76,3 @@ This property is supported by controls such as scroll bars and sliders that can 
 
 
 <b>Reference</b>
-

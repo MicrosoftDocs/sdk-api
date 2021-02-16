@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsSecurityUtility::SetSecurityDescriptor
+ - IADsSecurityUtility.SetSecurityDescriptor
 ---
 
 # IADsSecurityUtility::SetSecurityDescriptor
@@ -160,4 +160,3 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadssecurityutility">IADsSecurityUtility</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::InitializeDecode
+ - IX509CertificateRequestPkcs10.InitializeDecode
 ---
 
 # IX509CertificateRequestPkcs10::InitializeDecode
@@ -136,4 +136,3 @@ Then, call the <b>InitializeDecode</b> method again with the encoded certificate
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

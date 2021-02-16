@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDroppedFrames::GetDroppedInfo
+ - IAMDroppedFrames.GetDroppedInfo
 ---
 
 # IAMDroppedFrames::GetDroppedInfo
@@ -140,4 +140,3 @@ Not supported by this device.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdroppedframes">IAMDroppedFrames Interface</a>
-

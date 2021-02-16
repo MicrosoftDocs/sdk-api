@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::CopyResource
+ - ID3D11DeviceContext.CopyResource
 ---
 
 # ID3D11DeviceContext::CopyResource
@@ -93,4 +93,3 @@ We recommend to use <a href="/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecon
 
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
-

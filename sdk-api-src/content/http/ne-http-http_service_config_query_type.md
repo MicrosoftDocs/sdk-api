@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_QUERY_TYPE
- - PHTTP_SERVICE_CONFIG_QUERY_TYPE
  - HTTP_SERVICE_CONFIG_QUERY_TYPE
 ---
 
@@ -86,4 +84,3 @@ Terminates the enumeration; is not used to define a query type.
 
 
 <a href="/windows/desktop/api/http/ns-http-http_service_config_urlacl_query">HTTP_SERVICE_CONFIG_URLACL_QUERY</a>
-

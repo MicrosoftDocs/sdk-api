@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::Transfer
+ - ITBasicCallControl.Transfer
 ---
 
 # ITBasicCallControl::Transfer
@@ -171,4 +171,3 @@ If the consultation call is not in the CONNECTED state when
 
 
 <a href="/windows/desktop/Tapi/transfer-ovr">Transfer Overview</a>
-

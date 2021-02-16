@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider::Query
+ - IVssSoftwareSnapshotProvider.Query
 ---
 
 # IVssSoftwareSnapshotProvider::Query
@@ -151,4 +151,3 @@ Calling the <a href="/windows/desktop/api/vss/nf-vss-ivssenumobject-next">IVssEn
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivsssoftwaresnapshotprovider">IVssSoftwareSnapshotProvider</a>
-

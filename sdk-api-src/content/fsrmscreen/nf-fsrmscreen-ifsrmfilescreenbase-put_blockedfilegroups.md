@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase::put_BlockedFileGroups
+ - IFsrmFileScreenBase.BlockedFileGroups
+ - IFsrmFileScreenBase.get_BlockedFileGroups
+ - IFsrmFileScreenBase.put_BlockedFileGroups
 ---
 
 # IFsrmFileScreenBase::put_BlockedFileGroups
@@ -70,4 +72,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/using-templ
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
-

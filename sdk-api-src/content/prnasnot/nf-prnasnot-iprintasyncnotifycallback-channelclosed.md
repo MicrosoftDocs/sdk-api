@@ -42,7 +42,7 @@ api_type:
 api_location:
  - prnasnot.dll
 api_name:
- - IPrintAsyncNotifyCallback::ChannelClosed
+ - IPrintAsyncNotifyCallback.ChannelClosed
 ---
 
 # IPrintAsyncNotifyCallback::ChannelClosed
@@ -139,4 +139,3 @@ If the listening application closes a bidirectional communication channel, it sh
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
-

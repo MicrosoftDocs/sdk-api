@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::get_Cost
+ - IX509PolicyServerUrl.Cost
+ - IX509PolicyServerUrl.get_Cost
+ - IX509PolicyServerUrl.put_Cost
 ---
 
 # IX509PolicyServerUrl::get_Cost
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

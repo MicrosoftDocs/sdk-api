@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_NETNAME_VS_TOKEN_INFO
- - PCLUS_NETNAME_VS_TOKEN_INFO
 ---
 
 # CLUS_NETNAME_VS_TOKEN_INFO structure
@@ -80,4 +79,3 @@ Indicates whether the new handle is inheritable. If <b>TRUE</b>, the duplicate h
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-

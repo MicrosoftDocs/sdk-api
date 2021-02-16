@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
- - _ONEX_REASON_CODE
  - ONEX_REASON_CODE
 ---
 
@@ -184,4 +183,3 @@ The <b>oneXStatus</b> member of the <a href="/windows/desktop/api/dot1x/ns-dot1x
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

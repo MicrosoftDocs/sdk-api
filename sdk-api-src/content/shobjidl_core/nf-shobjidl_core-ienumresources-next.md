@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IEnumResources::Next
+ - IEnumResources.Next
 ---
 
 # IEnumResources::Next
@@ -77,4 +77,3 @@ A pointer to the number of resources retrieved. Currently, not used.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

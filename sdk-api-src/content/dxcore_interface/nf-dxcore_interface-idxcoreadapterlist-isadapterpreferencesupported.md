@@ -38,9 +38,6 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapterList::IsAdapterPreferenceSupported
-f1_keywords:
- - IDXCoreAdapterList::IsAdapterPreferenceSupported
- - dxcore_interface/IDXCoreAdapterList::IsAdapterPreferenceSupported
 ---
 
 ## -description
@@ -64,4 +61,3 @@ Returns `true` if the sort type is understood by the current OS. Otherwise, re
 ## -see-also
 
 [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

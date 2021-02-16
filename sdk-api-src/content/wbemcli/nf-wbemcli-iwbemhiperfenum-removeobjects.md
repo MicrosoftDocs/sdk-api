@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemHiPerfEnum::RemoveObjects
+ - IWbemHiPerfEnum.RemoveObjects
 ---
 
 # IWbemHiPerfEnum::RemoveObjects
@@ -75,4 +75,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -see-also
 
 <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfEnum</a>
-

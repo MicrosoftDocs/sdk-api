@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CopyAcceleratorTableW
  - winuser/CopyAcceleratorTableW
- - CopyAcceleratorTable
- - winuser/CopyAcceleratorTable
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - CopyAcceleratorTableW
  - CopyAcceleratorTable
+ - CopyAcceleratorTableA
+ - CopyAcceleratorTableW
 ---
 
 # CopyAcceleratorTableW function
@@ -123,4 +122,3 @@ If
 
 > [!NOTE]
 > The winuser.h header defines CopyAcceleratorTable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

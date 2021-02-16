@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformations::get__NewEnum
+ - ICspInformations._NewEnum
+ - ICspInformations.get__NewEnum
 ---
 
 # ICspInformations::get__NewEnum
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
-

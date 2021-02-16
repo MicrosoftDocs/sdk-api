@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask::SetSecurityDescriptor
+ - IRegisteredTask.SetSecurityDescriptor
 ---
 
 # IRegisteredTask::SetSecurityDescriptor
@@ -84,4 +84,3 @@ You can specify the access control list (ACL) in the security descriptor for a t
 
 
 <a href="/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-getsecuritydescriptor">ITaskFolder::GetSecurityDescriptor</a>
-

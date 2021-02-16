@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFEDictionary::Open
+ - IFEDictionary.Open
 ---
 
 # IFEDictionary::Open
@@ -84,4 +84,3 @@ One of the following:
 
 
 <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
-

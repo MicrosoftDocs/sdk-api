@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::GetPropertyProgrammaticName
+ - IUIAutomation.GetPropertyProgrammaticName
 ---
 
 # IUIAutomation::GetPropertyProgrammaticName
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The programmatic name is intended for debugging and diagnostic purposes only. The string is not localized.
 
 This property should not be used in string comparisons. To determine whether two properties are the same, compare the property identifiers directly.
-

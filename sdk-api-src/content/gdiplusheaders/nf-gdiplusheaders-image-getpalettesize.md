@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetPaletteSize
+ - Image.GetPaletteSize
 ---
 
 # Image::GetPaletteSize
@@ -90,4 +90,3 @@ This method returns the size, in bytes, of the color palette of this
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

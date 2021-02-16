@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ObjectDeleteAuditAlarmA
  - winbase/ObjectDeleteAuditAlarmA
- - ObjectDeleteAuditAlarm
- - winbase/ObjectDeleteAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectDeleteAuditAlarmA
  - ObjectDeleteAuditAlarm
+ - ObjectDeleteAuditAlarmA
+ - ObjectDeleteAuditAlarmW
 ---
 
 # ObjectDeleteAuditAlarmA function
@@ -137,4 +136,3 @@ The <b>ObjectDeleteAuditAlarm</b> function requires the calling application to h
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-privilegedserviceauditalarma">PrivilegedServiceAuditAlarm</a>
-

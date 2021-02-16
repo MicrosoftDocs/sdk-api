@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPIObjectEvent::get_Event
+ - ITTAPIObjectEvent.get_Event
 ---
 
 # ITTAPIObjectEvent::get_Event
@@ -115,4 +115,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-tapiobject_event">TAPIOBJECT_EVENT</a>
-

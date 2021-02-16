@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - DDiscFormat2DataEvents::Update
+ - DDiscFormat2DataEvents.Update
 ---
 
 # DDiscFormat2DataEvents::Update
@@ -92,4 +92,3 @@ To stop the write process, call the <a href="/windows/desktop/api/imapi2/nf-imap
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2data">IDiscFormat2Data</a>
-

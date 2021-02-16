@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - _DHCP_POL_EXPR_ARRAY
- - PDHCP_POL_EXPR_ARRAY
  - DHCP_POL_EXPR_ARRAY
 ---
 
@@ -75,4 +73,3 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_policy">DHCP_POLICY</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::Find
+ - CHString.Find
+ - ?Find@CHString@@QBEHPBG@Z
+ - ?Find@CHString@@QEBAHPEBG@Z
 ---
 
 # CHString::Find(LPCWSTR)
@@ -96,4 +98,3 @@ assert( s.Find( L"de" ) == 3 );
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-reversefind">CHString::ReverseFind</a>
-

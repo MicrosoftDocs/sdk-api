@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablets::get_DefaultTablet
+ - IInkTablets.DefaultTablet
+ - IInkTablets.get_DefaultTablet
+ - InkTablets.get_DefaultTablet
 ---
 
 # IInkTablets::get_DefaultTablet
@@ -84,4 +86,3 @@ The platform determines the default <a href="/windows/desktop/api/msinkaut/nn-ms
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms704832(v=vs.85)">InkTablets Collection</a>
-

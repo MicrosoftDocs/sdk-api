@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN
+ - EngineAdapterSetAccountPolicy
 ---
 
 # PIBIO_ENGINE_SET_ACCOUNT_POLICY_FN callback function
@@ -97,4 +97,3 @@ This method executes in the context of the same thread that activated the biomet
 The Identity.Type field of the first element in the <i>PolicyItemArray</i> will always be <b>WINBIO_ID_TYPE_WILDCARD</b>. This indicates that the policy item contains a default AntiSpoofBehavior value which should be applied to any user account that isn’t explicitly listed in the rest of the array.
 
 If the <i>PolicyItemArray</i> contains more than one element, the Identity.Type field of the remaining items will be <b>WINBIO_ID_TYPE_WILDCARD</b>, and the Identity.Value.AccountSid.Data field will contain the SID of a user account that requires the antispoof policy behavior specified in the AntiSpoofBehavior field of the array element.
-

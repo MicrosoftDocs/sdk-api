@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.idl
 api_name:
- - IActionProgress::ResetCancel
+ - IActionProgress.ResetCancel
 ---
 
 # IActionProgress::ResetCancel
@@ -71,4 +71,3 @@ This method is called when a cancellation has been completed. User input should 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-querycancel">IActionProgress::QueryCancel</a>
-

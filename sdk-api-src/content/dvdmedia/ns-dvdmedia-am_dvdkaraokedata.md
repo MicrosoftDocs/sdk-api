@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
- - tagAM_DvdKaraokeData
  - AM_DvdKaraokeData
 ---
 
@@ -76,4 +75,3 @@ This structure is used for the AM_PROPERTY_DVDKARAOKE_DATA property.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol2-selectkaraokeaudiopresentationmode">SelectKaraokeAudioPresentationMode</a>
-

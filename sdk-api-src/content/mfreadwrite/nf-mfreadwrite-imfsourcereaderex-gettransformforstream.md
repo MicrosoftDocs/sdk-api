@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSourceReaderEx::GetTransformForStream
+ - IMFSourceReaderEx.GetTransformForStream
 ---
 
 # IMFSourceReaderEx::GetTransformForStream
@@ -191,4 +191,3 @@ To avoid losing any data, you should drain the source reader before calling this
 ## -see-also
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereaderex">IMFSourceReaderEx</a>
-

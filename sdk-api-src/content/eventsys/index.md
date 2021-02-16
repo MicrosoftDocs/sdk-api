@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - eventsys
  - eventsys/eventsys
-api_name:
- - eventsys
 ---
 
 # Eventsys.h header

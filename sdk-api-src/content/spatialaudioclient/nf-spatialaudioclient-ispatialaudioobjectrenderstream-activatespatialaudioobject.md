@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
+ - ISpatialAudioObjectRenderStream.ActivateSpatialAudioObject
 ---
 
 # ISpatialAudioObjectRenderStream::ActivateSpatialAudioObject
@@ -145,4 +145,3 @@ A dynamic <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstream">ISpatialAudioObjectRenderStream</a>
-

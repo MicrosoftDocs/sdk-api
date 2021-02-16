@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplate::CopyTemplate
+ - IFsrmQuotaTemplate.CopyTemplate
 ---
 
 # IFsrmQuotaTemplate::CopyTemplate
@@ -74,4 +74,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

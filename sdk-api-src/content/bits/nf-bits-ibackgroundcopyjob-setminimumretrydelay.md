@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::SetMinimumRetryDelay
+ - IBackgroundCopyJob.SetMinimumRetryDelay
 ---
 
 # IBackgroundCopyJob::SetMinimumRetryDelay
@@ -111,4 +111,3 @@ BITS does not retry the job if a network disconnect or disk lock error occurred 
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">IBackgroundCopyJob::SetNoProgressTimeout</a>
-

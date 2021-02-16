@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob::get_LastGeneratedInDirectory
+ - IFsrmReportJob.LastGeneratedInDirectory
+ - IFsrmReportJob.get_LastGeneratedInDirectory
 ---
 
 # IFsrmReportJob::get_LastGeneratedInDirectory
@@ -74,4 +75,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/running-a-r
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-setoutputdirectory">IFsrmReportManager::SetOutputDirectory</a>
-

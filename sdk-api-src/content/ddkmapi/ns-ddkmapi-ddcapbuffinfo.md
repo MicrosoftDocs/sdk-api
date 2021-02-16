@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDCAPBUFFINFO
- - LPDDCAPBUFFINFO
  - DDCAPBUFFINFO
 ---
 
@@ -87,4 +85,3 @@ Specifies the location in which DirectDraw writes the return value of the <a hre
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

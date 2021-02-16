@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPin::GetPinManager
+ - IMbnPin.GetPinManager
 ---
 
 # IMbnPin::GetPinManager
@@ -72,4 +72,3 @@ This method can be used to retrieve an <a href="/windows/desktop/api/mbnapi/nn-m
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a>
-

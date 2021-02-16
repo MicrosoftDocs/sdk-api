@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _REAL_TIME_NOTIFICATION_SETTING_INPUT
- - PREAL_TIME_NOTIFICATION_SETTING_INPUT
  - REAL_TIME_NOTIFICATION_SETTING_INPUT
 ---
 
@@ -95,4 +93,3 @@ The <b>REAL_TIME_NOTIFICATION_SETTING_INPUT</b>  structure is supported on Windo
 
 
 <a href="/windows/desktop/api/mstcpip/ns-mstcpip-transport_setting_id">TRANSPORT_SETTING_ID</a>
-

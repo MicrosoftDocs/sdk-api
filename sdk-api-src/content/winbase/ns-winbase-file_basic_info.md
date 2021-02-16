@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_BASIC_INFO
- - PFILE_BASIC_INFO
  - FILE_BASIC_INFO
 ---
 
@@ -104,4 +102,3 @@ The file attributes. For a list of attributes, see
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-

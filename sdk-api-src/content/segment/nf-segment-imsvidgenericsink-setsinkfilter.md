@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidGenericSink::SetSinkFilter
+ - IMSVidGenericSink.SetSinkFilter
 ---
 
 # IMSVidGenericSink::SetSinkFilter
@@ -88,4 +88,3 @@ Success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidgenericsink">IMSVidGenericSink Interface</a>
-

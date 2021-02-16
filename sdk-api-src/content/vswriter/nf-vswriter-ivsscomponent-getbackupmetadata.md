@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::GetBackupMetadata
+ - IVssComponent.GetBackupMetadata
 ---
 
 # IVssComponent::GetBackupMetadata
@@ -153,4 +153,3 @@ If the call to <b>GetBackupMetadata</b> is successful, the caller is responsible
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-setbackupmetadata">IVssComponent::SetBackupMetadata</a>
-

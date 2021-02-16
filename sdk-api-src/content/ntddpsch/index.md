@@ -9,8 +9,6 @@ tech.root: qos
 f1_keywords:
  - ntddpsch
  - ntddpsch/ntddpsch
-api_name:
- - ntddpsch
 ---
 
 # Ntddpsch.h header

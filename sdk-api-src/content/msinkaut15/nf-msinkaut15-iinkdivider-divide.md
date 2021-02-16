@@ -43,7 +43,7 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivider::Divide
+ - IInkDivider.Divide
 ---
 
 # IInkDivider::Divide
@@ -151,4 +151,3 @@ This method returns a new <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15
 
 
 <a href="/windows/desktop/tablet/inkdivider-class">InkDivider Class</a>
-

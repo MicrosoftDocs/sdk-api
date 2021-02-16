@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USB_PASS_THRU_PARAMETERS
- - PUSB_PASS_THRU_PARAMETERS
  - USB_PASS_THRU_PARAMETERS
 ---
 
@@ -83,4 +81,3 @@ The <b>USB_PASS_THRU_PARAMETERS</b> structure is used with the <a href="/windows
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog::SetPercentComplete
+ - IPhotoProgressDialog.SetPercentComplete
 ---
 
 # IPhotoProgressDialog::SetPercentComplete
@@ -88,4 +88,3 @@ If you pass PROGRESS_INDETERMINATE to <code>SetPercentComplete</code>, the progr
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
-

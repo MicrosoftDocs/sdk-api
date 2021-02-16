@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION
- - LPDHCP_OPTION
  - DHCP_OPTION
 ---
 
@@ -91,4 +89,3 @@ Unicode string that contains a comment about this option.
 
 
 <a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_type">DHCP_OPTION_TYPE</a>
-

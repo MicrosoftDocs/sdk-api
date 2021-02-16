@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - WMIDPREQUEST
+ - ControlCallback
 ---
 
 ## -description
@@ -148,4 +148,3 @@ For an example implementation of a
 
 
 <a href="/windows/desktop/ETW/wnode-header">WNODE_HEADER</a>
-

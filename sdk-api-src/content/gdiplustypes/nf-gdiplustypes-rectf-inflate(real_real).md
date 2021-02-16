@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplustypes.h
 api_name:
- - RectF::Inflate
+ - RectF.Inflate
 ---
 
 # RectF::Inflate
@@ -80,4 +80,3 @@ The <a href="/previous-versions/ms534953(v=vs.85)">RectF::Inflate</a><i>dx</i><i
 </table>
 
 ## -parameters
-

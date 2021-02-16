@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_OID_LIST
  - BCRYPT_OID_LIST
 ---
 
@@ -104,4 +103,3 @@ The following snippet describes an <b>AlgorithmIdentifier</b> in <a href="/windo
 
 
 <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
-

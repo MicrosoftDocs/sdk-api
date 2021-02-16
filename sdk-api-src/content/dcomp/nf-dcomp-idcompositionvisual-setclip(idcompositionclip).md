@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual::SetClip
+ - IDCompositionVisual.SetClip
 ---
 
 # IDCompositionVisual::SetClip(IDCompositionClip)
@@ -99,4 +99,3 @@ If <i>clip</i> specifies a clip object that has an empty rectangle, the visual i
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-

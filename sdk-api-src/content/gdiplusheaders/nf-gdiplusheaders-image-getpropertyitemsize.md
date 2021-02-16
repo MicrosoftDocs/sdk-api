@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetPropertyItemSize
+ - Image.GetPropertyItemSize
 ---
 
 # Image::GetPropertyItemSize
@@ -174,4 +174,3 @@ The value of the property item is Northwind Traders.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
-

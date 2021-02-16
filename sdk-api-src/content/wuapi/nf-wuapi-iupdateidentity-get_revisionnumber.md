@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateIdentity::get_RevisionNumber
+ - IUpdateIdentity.RevisionNumber
+ - IUpdateIdentity.get_RevisionNumber
 ---
 
 # IUpdateIdentity::get_RevisionNumber
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateidentity">IUpdateIdentity</a>
-

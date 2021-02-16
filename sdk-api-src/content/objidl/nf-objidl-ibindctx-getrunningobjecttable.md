@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::GetRunningObjectTable
+ - IBindCtx.GetRunningObjectTable
 ---
 
 # IBindCtx::GetRunningObjectTable
@@ -82,4 +82,3 @@ Moniker implementations should call this method instead of using the <b>GetRunni
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-

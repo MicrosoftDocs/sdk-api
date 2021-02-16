@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
+ - IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired
 ---
 
 # IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ieslicenserenewalresultevent">IESLicenseRenewalResultEvent</a>
-

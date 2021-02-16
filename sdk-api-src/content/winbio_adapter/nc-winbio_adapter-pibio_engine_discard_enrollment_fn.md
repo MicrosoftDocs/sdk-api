@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_DISCARD_ENROLLMENT_FN
+ - EngineAdapterDiscardEnrollment
 ---
 
 # PIBIO_ENGINE_DISCARD_ENROLLMENT_FN callback function
@@ -151,4 +151,3 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

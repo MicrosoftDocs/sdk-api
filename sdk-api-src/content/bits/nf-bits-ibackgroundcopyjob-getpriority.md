@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetPriority
+ - IBackgroundCopyJob.GetPriority
 ---
 
 # IBackgroundCopyJob::GetPriority
@@ -98,4 +98,3 @@ The <i>pPriority</i> parameter cannot be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setpriority">IBackgroundCopyJob::SetPriority</a>
-

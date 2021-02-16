@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSourceReader::GetCurrentMediaType
+ - IMFSourceReader.GetCurrentMediaType
 ---
 
 # IMFSourceReader::GetCurrentMediaType
@@ -146,4 +146,3 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 <a href="/windows/desktop/medfound/source-reader">Source Reader</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleParentUndoUnit::FindUnit
+ - IOleParentUndoUnit.FindUnit
 ---
 
 # IOleParentUndoUnit::FindUnit
@@ -73,4 +73,3 @@ This is typically called by the undo manager in its implementation of its <a hre
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundomanager-discardfrom">IOleUndoManager::DiscardFrom</a>
-

@@ -44,6 +44,8 @@ api_location:
  - Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
  - AVIFileOpen
+ - AVIFileOpenA
+ - AVIFileOpenW
 ---
 
 # AVIFileOpen function
@@ -193,4 +195,3 @@ According to the registry, the type of file specified in <b>AVIFileOpen</b> does
 
 
 <a href="/windows/desktop/api/vfw/nf-vfw-avifilerelease">AVIFileRelease</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule::get_RemotePorts
+ - INetFwRule.RemotePorts
+ - INetFwRule.get_RemotePorts
+ - INetFwRule.put_RemotePorts
 ---
 
 # INetFwRule::get_RemotePorts
@@ -67,4 +69,3 @@ The <a href="/windows/desktop/api/netfw/nf-netfw-inetfwrule-get_protocol">Protoc
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
-

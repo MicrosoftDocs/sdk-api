@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector::GetDataFlow
+ - IConnector.GetDataFlow
 ---
 
 # IConnector::GetDataFlow
@@ -93,4 +93,3 @@ For a code example that calls this method, see the implementation of the SelectC
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegDeleteKeyExA
  - winreg/RegDeleteKeyExA
- - RegDeleteKeyEx
- - winreg/RegDeleteKeyEx
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - api-ms-win-core-registry-l1-1-1.dll
  - kernel32.dll
 api_name:
- - RegDeleteKeyExA
  - RegDeleteKeyEx
+ - RegDeleteKeyExA
+ - RegDeleteKeyExW
 ---
 
 # RegDeleteKeyExA function
@@ -174,4 +173,3 @@ If the function succeeds, <b>RegDeleteKeyEx</b> removes the specified key from t
 
 
 <a href="/windows/desktop/WinProg64/registry-redirector">Registry Redirector</a>
-

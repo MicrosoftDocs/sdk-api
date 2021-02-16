@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainerA::SetLinkSource
+ - IOleUILinkContainer.SetLinkSource
+ - IOleUILinkContainerA.SetLinkSource
+ - IOleUILinkContainerW.SetLinkSource
 ---
 
 # IOleUILinkContainerA::SetLinkSource
@@ -141,4 +143,3 @@ Call this method from the <b>Change Source</b> dialog box, with <i>fValidateSour
 
 
 <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
-

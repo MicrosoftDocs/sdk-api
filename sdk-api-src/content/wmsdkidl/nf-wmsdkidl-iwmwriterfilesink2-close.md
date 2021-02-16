@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2::Close
+ - IWMWriterFileSink2.Close
 ---
 
 # IWMWriterFileSink2::Close
@@ -68,4 +68,3 @@ See the Remarks and Example Code sections for <a href="/windows/desktop/api/wmsd
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterfilesink2">IWMWriterFileSink2 Interface</a>
-

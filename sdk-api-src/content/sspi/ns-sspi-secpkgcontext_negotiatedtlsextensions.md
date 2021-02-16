@@ -28,7 +28,6 @@ api_location:
  - sspi.h
 api_name:
  - _SecPkgContext_NegotiatedTlsExtensions
- - PSecPkgContext_NegotiatedTlsExtensions
  - SecPkgContext_NegotiatedTlsExtensions
 f1_keywords:
  - _SecPkgContext_NegotiatedTlsExtensions

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader::GetOutputCount
+ - IWMSyncReader.GetOutputCount
 ---
 
 # IWMSyncReader::GetOutputCount
@@ -120,4 +120,3 @@ To enumerate the outputs, call <b>GetOutputCount</b> to get the number of output
 
 
 <a href="/windows/desktop/wmformat/inputs-streams-and-outputs">Inputs, Streams and Outputs</a>
-

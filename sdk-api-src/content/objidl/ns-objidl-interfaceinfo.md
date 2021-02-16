@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
- - tagINTERFACEINFO
- - LPINTERFACEINFO
  - INTERFACEINFO
 ---
 
@@ -75,4 +73,3 @@ The interface method.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-handleincomingcall">IMessageFilter::HandleInComingCall</a>
-

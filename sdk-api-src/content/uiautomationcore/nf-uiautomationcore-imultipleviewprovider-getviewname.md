@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IMultipleViewProvider::GetViewName
+ - IMultipleViewProvider.GetViewName
 ---
 
 # IMultipleViewProvider::GetViewName
@@ -90,4 +90,3 @@ View names must be suitable for use in text-to-speech, Braille, and other access
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

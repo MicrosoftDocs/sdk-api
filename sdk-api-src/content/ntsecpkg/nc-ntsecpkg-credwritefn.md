@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - CredWriteFn
+ - CrediWrite
 ---
 
 # CredWriteFn callback function
@@ -158,4 +158,3 @@ A pointer to the <b>CrediWrite</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

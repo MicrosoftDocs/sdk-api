@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDisplayControl::SetStereoEnabled
+ - IDXGIDisplayControl.SetStereoEnabled
 ---
 
 # IDXGIDisplayControl::SetStereoEnabled
@@ -66,4 +66,3 @@ A Boolean value that either enables or disables the operating system's stereosco
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgidisplaycontrol">IDXGIDisplayControl</a>
-

@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIFactory::EnumAdapters
+ - IDXGIFactory.EnumAdapters
 ---
 
 # IDXGIFactory::EnumAdapters
@@ -117,4 +117,3 @@ while(pFactory->EnumAdapters(i, &pAdapter) != DXGI_ERROR_NOT_FOUND)
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory">IDXGIFactory</a>
-

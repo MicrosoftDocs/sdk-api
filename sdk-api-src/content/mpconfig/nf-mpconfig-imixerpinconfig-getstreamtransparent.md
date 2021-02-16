@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::GetStreamTransparent
+ - IMixerPinConfig.GetStreamTransparent
 ---
 
 # IMixerPinConfig::GetStreamTransparent
@@ -125,4 +125,3 @@ Success.
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setstreamtransparent">IMixerPinConfig::SetStreamTransparent</a>
-

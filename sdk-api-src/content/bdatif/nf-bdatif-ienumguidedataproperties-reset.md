@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IEnumGuideDataProperties::Reset
+ - IEnumGuideDataProperties.Reset
 ---
 
 # IEnumGuideDataProperties::Reset
@@ -83,4 +83,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumguidedataproperties">IEnumGuideDataProperties Interface</a>
-

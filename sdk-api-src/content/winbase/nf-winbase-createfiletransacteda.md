@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFileTransactedA
  - winbase/CreateFileTransactedA
- - CreateFileTransacted
- - winbase/CreateFileTransacted
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateFileTransactedA
  - CreateFileTransacted
+ - CreateFileTransactedA
+ - CreateFileTransactedW
 ---
 
 # CreateFileTransactedA function
@@ -1123,4 +1122,3 @@ For more information, see
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefile">WriteFile</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities::GetSupportedCommands
+ - IPortableDeviceCapabilities.GetSupportedCommands
 ---
 
 # IPortableDeviceCapabilities::GetSupportedCommands
@@ -89,4 +89,3 @@ None.
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
-

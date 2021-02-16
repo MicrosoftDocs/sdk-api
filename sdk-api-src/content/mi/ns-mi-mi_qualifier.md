@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_Qualifier
  - MI_Qualifier
 ---
 
@@ -92,4 +91,3 @@ Value of this qualifier.
 
 
 <a href="/windows/desktop/api/mi/ns-mi-mi_propertydecl">MI_PropertyDecl</a>
-

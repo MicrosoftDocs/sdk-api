@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_StartTime
+ - IFaxStatus.StartTime
+ - IFaxStatus.get_StartTime
 ---
 
 # IFaxStatus::get_StartTime
@@ -83,4 +84,3 @@ You can use the <b>StartTime</b> property of a <a href="/previous-versions/windo
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-elapsedtime-vb">IFaxStatus::get_ElapsedTime</a>
-

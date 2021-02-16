@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxJobStatus::get_Size
+ - IFaxJobStatus.Size
+ - IFaxJobStatus.get_Size
+ - IFaxJobStatus.get_Size
 ---
 
 # IFaxJobStatus::get_Size
@@ -63,4 +65,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxjobstatus">IFaxJobStatus</a>
-

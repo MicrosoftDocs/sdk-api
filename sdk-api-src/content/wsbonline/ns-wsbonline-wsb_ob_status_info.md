@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsbOnline.h
 api_name:
- - _WSB_OB_STATUS_INFO
  - WSB_OB_STATUS_INFO
 ---
 
@@ -80,4 +79,3 @@ A pointer to one or more <a href="/windows/desktop/api/wsbonline/ns-wsbonline-ws
 
 
 <a href="/windows/desktop/api/wsbonline/ns-wsbonline-wsb_ob_status_entry">WSB_OB_STATUS_ENTRY</a>
-

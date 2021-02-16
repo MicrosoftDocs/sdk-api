@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolderManager::UnregisterFolder
+ - IKnownFolderManager.UnregisterFolder
 ---
 
 # IKnownFolderManager::UnregisterFolder
@@ -100,4 +100,3 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

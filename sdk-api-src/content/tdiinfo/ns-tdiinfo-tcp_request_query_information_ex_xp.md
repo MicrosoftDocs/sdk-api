@@ -46,9 +46,7 @@ api_type:
 api_location:
  - tdiinfo.h
 api_name:
- - tcp_request_query_information_ex_xp
- - PTCP_REQUEST_QUERY_INFORMATION_EX_XP
- - TCP_REQUEST_QUERY_INFORMATION_EX_XP
+ - TCP_REQUEST_QUERY_INFORMATION_EX
 ---
 
 # TCP_REQUEST_QUERY_INFORMATION_EX_XP structure
@@ -81,4 +79,3 @@ The IPv4 or IPv6 address to be used when <a href="/windows/desktop/api/tcpioctl/
 
 
 <a href="/windows/desktop/api/tdiinfo/ns-tdiinfo-tdiobjectid">TDIObjectID</a>
-

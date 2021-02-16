@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector::get_Task
+ - IAlertDataCollector.Task
+ - IAlertDataCollector.get_Task
+ - IAlertDataCollector.put_Task
 ---
 
 # IAlertDataCollector::get_Task
@@ -65,4 +67,3 @@ To start the task in the directory where PLA is collecting the data, set the tas
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - _IPX_SERVICE
- - PIPX_SERVICE
  - IPX_SERVICE
 ---
 
@@ -92,4 +90,3 @@ Specifies an
 
 
 <a href="/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>
-

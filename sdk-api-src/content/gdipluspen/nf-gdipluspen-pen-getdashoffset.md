@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::GetDashOffset
+ - Pen.GetDashOffset
 ---
 
 # Pen::GetDashOffset
@@ -93,4 +93,3 @@ REAL dashOffset = dashPen.GetDashOffset();
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-

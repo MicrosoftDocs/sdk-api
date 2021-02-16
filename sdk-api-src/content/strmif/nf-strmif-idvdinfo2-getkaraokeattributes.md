@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetKaraokeAttributes
+ - IDvdInfo2.GetKaraokeAttributes
 ---
 
 # IDvdInfo2::GetKaraokeAttributes
@@ -174,4 +174,3 @@ The <i>ulStream</i> parameter may be a value from 0 through 7, or one of the fol
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

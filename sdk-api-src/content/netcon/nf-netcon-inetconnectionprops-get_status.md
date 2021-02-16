@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetConnectionProps::get_Status
+ - INetConnectionProps.get_Status
 ---
 
 # INetConnectionProps::get_Status
@@ -170,4 +170,3 @@ The method failed for unknown reasons.
 
 
 <a href="/windows/desktop/api/netcon/ne-netcon-netcon_status">NETCON_STATUS</a>
-

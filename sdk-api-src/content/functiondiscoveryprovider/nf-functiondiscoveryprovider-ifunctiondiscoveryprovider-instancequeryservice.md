@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider::InstanceQueryService
+ - IFunctionDiscoveryProvider.InstanceQueryService
 ---
 
 # IFunctionDiscoveryProvider::InstanceQueryService
@@ -142,4 +142,3 @@ Any provider that supports embedded services or devices must implement the SID_P
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
-

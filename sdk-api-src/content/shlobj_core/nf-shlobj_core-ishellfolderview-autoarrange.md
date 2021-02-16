@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::AutoArrange
+ - IShellFolderView.AutoArrange
 ---
 
 # IShellFolderView::AutoArrange
@@ -73,4 +73,3 @@ This method has the same effect as selecting <b>View | Arrange Icons By | Auto A
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ishellfolderview-arrangegrid">IShellFolderView::ArrangeGrid</a>
-

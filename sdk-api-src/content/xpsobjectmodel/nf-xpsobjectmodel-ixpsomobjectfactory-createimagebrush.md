@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory::CreateImageBrush
+ - IXpsOMObjectFactory.CreateImageBrush
 ---
 
 # IXpsOMObjectFactory::CreateImageBrush
@@ -214,4 +214,3 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
-

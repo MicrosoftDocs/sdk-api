@@ -47,9 +47,7 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPSTATS_LH
- - PMIB_IPSTATS_LH
- - MIB_IPSTATS_LH
+ - MIB_IPSTATS
 ---
 
 # MIB_IPSTATS_LH structure
@@ -277,4 +275,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-setipstatisticsex">SetIpStatisticsEx</a>
-

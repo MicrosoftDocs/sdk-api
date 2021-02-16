@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession::ClearTopologies
+ - IMFMediaSession.ClearTopologies
 ---
 
 # IMFMediaSession::ClearTopologies
@@ -111,4 +111,3 @@ This method does not clear the current topology; it only removes topologies that
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
-

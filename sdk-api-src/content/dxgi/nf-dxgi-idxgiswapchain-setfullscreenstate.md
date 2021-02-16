@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain::SetFullscreenState
+ - IDXGISwapChain.SetFullscreenState
 ---
 
 ## -description

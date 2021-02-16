@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFVideoProcessorControl::SetRotation
+ - IMFVideoProcessorControl.SetRotation
 ---
 
 # IMFVideoProcessorControl::SetRotation
@@ -71,4 +71,3 @@ The original orientation of the video is specified by the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideoprocessorcontrol">IMFVideoProcessorControl</a>
-

@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusimagecodec
  - gdiplusimagecodec/gdiplusimagecodec
-api_name:
- - gdiplusimagecodec
 ---
 
 # Gdiplusimagecodec.h header

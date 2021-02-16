@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ColorContext::GetProfile
+ - ID2D1ColorContext.GetProfile
 ---
 
 # ID2D1ColorContext::GetProfile
@@ -106,4 +106,3 @@ If <i>profileSize</i> is insufficient to store the entire profile, <i>profile</i
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1colorcontext-getprofilesize">ID2D1ColorContext::GetProfileSize</a>
-

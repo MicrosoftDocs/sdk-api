@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_EIT::GetOriginalNetworkId
+ - IDVB_EIT.GetOriginalNetworkId
 ---
 
 # IDVB_EIT::GetOriginalNetworkId
@@ -99,4 +99,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
-

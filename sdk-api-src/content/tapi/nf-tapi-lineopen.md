@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineOpen
+ - lineOpenA
+ - lineOpenW
 ---
 
 # lineOpen function
@@ -277,4 +279,3 @@ LINEMAPPER allows an application to select a line indirectly—by means of the s
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
-

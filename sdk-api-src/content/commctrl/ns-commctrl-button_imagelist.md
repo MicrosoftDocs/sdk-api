@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - PBUTTON_IMAGELIST
  - BUTTON_IMAGELIST
 ---
 
@@ -159,4 +158,3 @@ Center the image.
 
 
 <b>Reference</b>
-

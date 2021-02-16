@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Uiribbon.h
 api_name:
- - _UI_EVENTPARAMS_COMMAND
  - UI_EVENTPARAMS_COMMAND
 ---
 
@@ -100,4 +99,3 @@ One of the values from <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_eve
 
 
 <a href="/windows/desktop/api/uiribbon/ns-uiribbon-ui_eventparams">UI_EVENTPARAMS</a>
-

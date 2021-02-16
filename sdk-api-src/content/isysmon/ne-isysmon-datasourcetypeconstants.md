@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ISysmon.h
 api_name:
- - eDataSourceTypeConstant
  - DataSourceTypeConstants
 ---
 
@@ -76,4 +75,3 @@ The data source is an SQL log.
 ## -see-also
 
 <a href="/windows/desktop/SysMon/systemmonitor-datasourcetype">SystemMonitor.DataSourceType</a>
-

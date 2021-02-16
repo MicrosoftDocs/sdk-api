@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBalloon::OnClick
+ - ITfLangBarItemBalloon.OnClick
 ---
 
 # ITfLangBarItemBalloon::OnClick
@@ -115,4 +115,3 @@ One or more parameters are invalid.
 
 <a href="/windows/win32/api/ctfutb/ne-ctfutb-tflbiclick">TfLBIClick
       </a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainerA::CancelLink
+ - IOleUILinkContainer.CancelLink
+ - IOleUILinkContainerA.CancelLink
+ - IOleUILinkContainerW.CancelLink
 ---
 
 # IOleUILinkContainerA::CancelLink
@@ -132,4 +134,3 @@ For OLE links, <a href="/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdat
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a>
-

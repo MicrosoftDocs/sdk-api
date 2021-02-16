@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_CALLBACK_OUTPUT
- - PMINIDUMP_CALLBACK_OUTPUT
  - MINIDUMP_CALLBACK_OUTPUT
 ---
 
@@ -148,4 +146,3 @@ This member is ignored unless the callback type is <b>ReadMemoryFailureCallback<
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-thread_write_flags">THREAD_WRITE_FLAGS</a>
-

@@ -51,6 +51,8 @@ api_location:
  - API-MS-Win-Core-Localization-Obsolete-L1-3-0.dll
 api_name:
  - CompareString
+ - CompareStringA
+ - CompareStringW
 ---
 
 # CompareString function
@@ -145,4 +147,3 @@ Normally, for case-insensitive comparisons, <b>CompareString</b> maps the lowerc
 
 
 <a href="/windows/desktop/Intl/using-unicode-normalization-to-represent-strings">Using Unicode Normalization to Represent Strings</a>
-

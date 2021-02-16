@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSourceSingle::AdviseSingleSink
+ - ITfSourceSingle.AdviseSingleSink
 ---
 
 # ITfSourceSingle::AdviseSingleSink
@@ -187,4 +187,3 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfsourcesingle">ITfSourceSingle</a>
-

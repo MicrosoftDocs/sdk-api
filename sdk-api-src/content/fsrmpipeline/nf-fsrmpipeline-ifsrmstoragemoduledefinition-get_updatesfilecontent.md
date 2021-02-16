@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmStorageModuleDefinition::get_UpdatesFileContent
+ - IFsrmStorageModuleDefinition.UpdatesFileContent
+ - IFsrmStorageModuleDefinition.get_UpdatesFileContent
+ - IFsrmStorageModuleDefinition.put_UpdatesFileContent
 ---
 
 # IFsrmStorageModuleDefinition::get_UpdatesFileContent
@@ -67,4 +69,3 @@ Setting this property to <b>VARIANT_TRUE</b> does not require that the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmstoragemoduledefinition">IFsrmStorageModuleDefinition</a>
-

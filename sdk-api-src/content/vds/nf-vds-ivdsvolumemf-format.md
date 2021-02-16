@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF::Format
+ - IVdsVolumeMF.Format
 ---
 
 # IVdsVolumeMF::Format
@@ -363,4 +363,3 @@ For more information about file system limits such as minimum and maximum alloca
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_file_system_type">VDS_FILE_SYSTEM_TYPE</a>
-

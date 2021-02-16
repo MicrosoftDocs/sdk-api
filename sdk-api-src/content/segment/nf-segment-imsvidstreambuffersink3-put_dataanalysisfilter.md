@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink3::put_DataAnalysisFilter
+ - IMSVidStreamBufferSink3.put_DataAnalysisFilter
 ---
 
 # IMSVidStreamBufferSink3::put_DataAnalysisFilter
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersink3">IMSVidStreamBufferSink3 Interface</a>
-

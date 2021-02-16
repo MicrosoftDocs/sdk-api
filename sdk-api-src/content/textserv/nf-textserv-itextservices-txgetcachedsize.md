@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices::TxGetCachedSize
+ - ITextServices.TxGetCachedSize
 ---
 
 # ITextServices::TxGetCachedSize
@@ -99,4 +99,3 @@ This method can free the host from the need to maintain the cached drawing size 
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

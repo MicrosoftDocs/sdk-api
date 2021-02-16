@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_SchedulesEnabled
+ - IDataCollectorSet.SchedulesEnabled
+ - IDataCollectorSet.get_SchedulesEnabled
+ - IDataCollectorSet.put_SchedulesEnabled
 ---
 
 # IDataCollectorSet::get_SchedulesEnabled
@@ -67,4 +69,3 @@ You can use this property to temporarily suspend running the data collection set
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_schedules">IDataCollectorSet::Schedules</a>
-

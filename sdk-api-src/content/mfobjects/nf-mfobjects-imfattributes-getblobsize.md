@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAttributes::GetBlobSize
+ - IMFAttributes.GetBlobSize
 ---
 
 # IMFAttributes::GetBlobSize
@@ -129,4 +129,3 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/api/mfobjects/ne-mfobjects-mf_attribute_type">MF_ATTRIBUTE_TYPE</a>
-

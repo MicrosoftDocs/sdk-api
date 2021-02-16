@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplate::get_Property
+ - IX509CertificateTemplate.Property
+ - IX509CertificateTemplate.get_Property
 ---
 
 # IX509CertificateTemplate::get_Property
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplate">IX509CertificateTemplate</a>
-

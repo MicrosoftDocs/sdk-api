@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_SNAPSHOT_PROPERTY_ID
- - PVSS_SNAPSHOT_PROPERTY_ID
  - VSS_SNAPSHOT_PROPERTY_ID
 ---
 
@@ -126,4 +124,3 @@ The status of the current shadow copy creation operation. For more information, 
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nf-vsprov-ivsssoftwaresnapshotprovider-setsnapshotproperty">IVssSoftwareSnapshotProvider::SetSnapshotProperty</a>
-

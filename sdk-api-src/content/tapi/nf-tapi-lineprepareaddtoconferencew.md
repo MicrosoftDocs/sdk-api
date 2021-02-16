@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - linePrepareAddToConferenceW
  - tapi/linePrepareAddToConferenceW
- - linePrepareAddToConference
- - tapi/linePrepareAddToConference
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - linePrepareAddToConferenceW
  - linePrepareAddToConference
+ - linePrepareAddToConferenceA
+ - linePrepareAddToConferenceW
 ---
 
 # linePrepareAddToConferenceW function
@@ -146,4 +145,3 @@ The consultation call can be canceled using
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
-

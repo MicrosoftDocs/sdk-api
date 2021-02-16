@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT2_
  - FWPM_NET_EVENT2
 ---
 
@@ -145,4 +144,3 @@ Information about a MAC layer drop event.
 ## -see-also
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
-

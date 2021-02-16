@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDevice::CreateVideoProcessorInputView
+ - ID3D11VideoDevice.CreateVideoProcessorInputView
 ---
 
 # ID3D11VideoDevice::CreateVideoProcessorInputView
@@ -95,4 +95,3 @@ Resources used for video processor input views must use the following bind flag 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-

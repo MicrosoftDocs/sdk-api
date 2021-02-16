@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IImageList::ImageListSetIcon
+ - IImageList.ImageListSetIcon
 ---
 
 # IImageList::ImageListSetIcon
@@ -102,4 +102,3 @@ ImageListSetIcon method will fail if the ILSI_LARGE_ICON or ILSI_SMALL_ICON macr
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
-

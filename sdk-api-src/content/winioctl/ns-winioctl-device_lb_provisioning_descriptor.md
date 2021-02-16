@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_LB_PROVISIONING_DESCRIPTOR
- - PDEVICE_LB_PROVISIONING_DESCRIPTOR
  - DEVICE_LB_PROVISIONING_DESCRIPTOR
 ---
 
@@ -251,4 +249,3 @@ If <b>UnmapGranularityAlignmentValid</b> = 0, then any code using
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_property_query">STORAGE_PROPERTY_QUERY</a>
-

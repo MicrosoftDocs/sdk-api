@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager::LoadSystemProfile
+ - IWMProfileManager.LoadSystemProfile
 ---
 
 # IWMProfileManager::LoadSystemProfile
@@ -120,4 +120,3 @@ Applications must not rely on the index of a profile (used in this call and else
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofilemanager">IWMProfileManager Interface</a>
-

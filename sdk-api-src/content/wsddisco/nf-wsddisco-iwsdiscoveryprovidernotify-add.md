@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryProviderNotify::Add
+ - IWSDiscoveryProviderNotify.Add
 ---
 
 # IWSDiscoveryProviderNotify::Add
@@ -72,4 +72,3 @@ The return value is not meaningful. An implementer should return S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovidernotify">IWSDiscoveryProviderNotify</a>
-

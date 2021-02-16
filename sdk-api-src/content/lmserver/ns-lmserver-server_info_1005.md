@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1005
- - PSERVER_INFO_1005
  - SERVER_INFO_1005
 ---
 
@@ -82,4 +80,3 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

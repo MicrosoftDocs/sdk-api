@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_SETTING
- - PWRDS_SETTING
  - WRDS_SETTING
 ---
 
@@ -67,4 +65,5 @@ A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_settings_1">WRDS_SETTING
 ### -field WRdsSettings1.case
 
 ### -field WRdsSettings1.case.WRDS_SETTING_LEVEL_1
+
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IEnumDot11AdHocInterfaces::Next
+ - IEnumDot11AdHocInterfaces.Next
 ---
 
 # IEnumDot11AdHocInterfaces::Next
@@ -146,4 +146,3 @@ A pointer passed as a parameter is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>
-

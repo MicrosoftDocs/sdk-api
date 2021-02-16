@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - phonestatus_tag
- - LPPHONESTATUS
  - PHONESTATUS
 ---
 
@@ -195,4 +193,3 @@ The <b>dwPhoneFeatures</b> member is available only to applications that open th
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phoneinitializeexa">phoneInitializeEx</a>
-

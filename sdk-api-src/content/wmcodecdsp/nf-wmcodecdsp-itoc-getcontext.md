@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc::GetContext
+ - IToc.GetContext
 ---
 
 # IToc::GetContext
@@ -98,4 +98,3 @@ The method returns this error code if <i>pbtContext</i> is not <b>NULL</b> and t
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-

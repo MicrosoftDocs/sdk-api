@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::SetMasterVolumeLevelScalar
+ - IAudioEndpointVolume.SetMasterVolumeLevelScalar
 ---
 
 # IAudioEndpointVolume::SetMasterVolumeLevelScalar
@@ -114,4 +114,3 @@ For a code example that calls <b>SetMasterVolumeLevelScalar</b>, see <a href="/w
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
-

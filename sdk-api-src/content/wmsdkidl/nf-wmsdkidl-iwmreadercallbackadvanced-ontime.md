@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced::OnTime
+ - IWMReaderCallbackAdvanced.OnTime
 ---
 
 # IWMReaderCallbackAdvanced::OnTime
@@ -73,4 +73,3 @@ There are two cases in which callbacks indicating what the reader registers as t
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
-

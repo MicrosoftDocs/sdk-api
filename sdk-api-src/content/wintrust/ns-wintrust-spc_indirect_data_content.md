@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _SPC_INDIRECT_DATA_CONTENT
- - PSPC_INDIRECT_DATA_CONTENT
  - SPC_INDIRECT_DATA_CONTENT
 ---
 
@@ -71,4 +69,3 @@ Specifies the digest algorithm used to hash the file.
 ### -field Digest
 
 The Authenticode digest value of the file using the algorithm specified in the  <i>DigestAlgorithm</i> parameter.
-

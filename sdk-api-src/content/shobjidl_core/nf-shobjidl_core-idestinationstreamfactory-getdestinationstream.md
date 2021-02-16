@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDestinationStreamFactory::GetDestinationStream
+ - IDestinationStreamFactory.GetDestinationStream
 ---
 
 # IDestinationStreamFactory::GetDestinationStream
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The property handler author calls <b>IDestinationStreamFactory::GetDestinationStream</b> to get a new empty stream that the new version of the file will write to. The handler builds the destination stream manually, copying from the source stream as necessary.
-

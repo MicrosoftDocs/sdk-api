@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_modrdn2_s
+ - ldap_modrdn2_sA
+ - ldap_modrdn2_sW
 ---
 
 # ldap_modrdn2_s function
@@ -119,4 +121,3 @@ Be aware that the various <a href="/previous-versions/windows/desktop/api/winlda
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice3::SetProperty
+ - IMDSPDevice3.SetProperty
 ---
 
 # IMDSPDevice3::SetProperty
@@ -101,4 +101,3 @@ This method is similar to the <b>SetMetadata</b> method for storages, but this m
 
 
 <a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
-

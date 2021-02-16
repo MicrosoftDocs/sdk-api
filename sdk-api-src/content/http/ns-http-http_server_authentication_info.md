@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVER_AUTHENTICATION_INFO
- - PHTTP_SERVER_AUTHENTICATION_INFO
  - HTTP_SERVER_AUTHENTICATION_INFO
 ---
 
@@ -215,4 +213,3 @@ The <b>HTTP_SERVER_AUTHENTICATION_INFO</b> structure is included in the HTTP req
 
 
 <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmCollectionState
  - FsrmCollectionState
 ---
 
@@ -76,4 +75,3 @@ The collection operation (fetching or committing) was canceled.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-ifsrmcollection-get_state">IFsrmCollection::State</a>
-

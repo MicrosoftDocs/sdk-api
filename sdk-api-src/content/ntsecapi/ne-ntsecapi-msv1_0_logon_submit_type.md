@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _MSV1_0_LOGON_SUBMIT_TYPE
- - PMSV1_0_LOGON_SUBMIT_TYPE
  - MSV1_0_LOGON_SUBMIT_TYPE
 ---
 
@@ -121,4 +119,3 @@ Requests a logon that doesn't allow for elevation of privileges.
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-msv1_0_protocol_message_type">MSV1_0_PROTOCOL_MESSAGE_TYPE</a>
-

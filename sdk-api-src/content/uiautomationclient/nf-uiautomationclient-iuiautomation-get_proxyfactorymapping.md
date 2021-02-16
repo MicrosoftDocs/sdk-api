@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::get_ProxyFactoryMapping
+ - IUIAutomation.ProxyFactoryMapping
+ - IUIAutomation.get_ProxyFactoryMapping
 ---
 
 # IUIAutomation::get_ProxyFactoryMapping

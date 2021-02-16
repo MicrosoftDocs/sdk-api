@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectUser::get_IPPhonePrimary
+ - ITDirectoryObjectUser.get_IPPhonePrimary
 ---
 
 # ITDirectoryObjectUser::get_IPPhonePrimary
@@ -107,4 +107,3 @@ The application must use
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectuser-put_ipphoneprimary">ITDirectoryObjectUser::put_IPPhonePrimary</a>
-

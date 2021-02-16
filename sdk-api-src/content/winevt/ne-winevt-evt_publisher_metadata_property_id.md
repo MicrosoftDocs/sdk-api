@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_PUBLISHER_METADATA_PROPERTY_ID
  - EVT_PUBLISHER_METADATA_PROPERTY_ID
 ---
 
@@ -226,4 +225,3 @@ The handle points to an array of objects that contain the metadata for child typ
 
 
 <a href="/windows/desktop/WES/eventmanifestschema-providertype-complextype">ProviderType Complex Type</a>
-

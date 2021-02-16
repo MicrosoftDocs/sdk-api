@@ -9,8 +9,6 @@ tech.root: qos
 f1_keywords:
  - infocard
  - infocard/infocard
-api_name:
- - infocard
 ---
 
 # Infocard.h header

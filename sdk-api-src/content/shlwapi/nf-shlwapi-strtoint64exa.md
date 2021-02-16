@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StrToInt64ExA
  - shlwapi/StrToInt64ExA
- - StrToInt64Ex
- - shlwapi/StrToInt64Ex
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrToInt64ExA
  - StrToInt64Ex
+ - StrToInt64ExA
+ - StrToInt64ExW
 ---
 
 # StrToInt64ExA function

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IContextMenu::GetCommandString
+ - IContextMenu.GetCommandString
 ---
 
 # IContextMenu::GetCommandString
@@ -133,4 +133,3 @@ The language-independent command name, or <i>verb</i>, is a name that can be pas
 Several common verbs can be identified by their canonical name, for instance, <i>open</i>, <i>print</i>, <i>delete</i>, and <i>rename</i>. Clients can compare the string pointed to by <i>pszName</i> against these canonical names to check for their presence on the shortcut menu.
 
 Even though <i>pszName</i> is declared as an <b>LPSTR</b>, you must cast it to <b>UINT_PTR</b> and return a Unicode string if <i>uFlags</i> is set to either <b>GCS_HELPTEXTW</b> or <b>GCS_VERBW</b>. <b>GCS_UNICODE</b> can be used as a bitmask to test <i>uFlags</i> for 'W' and 'A' versions of the flag it contains.
-

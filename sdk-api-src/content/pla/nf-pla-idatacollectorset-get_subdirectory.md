@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_Subdirectory
+ - IDataCollectorSet.Subdirectory
+ - IDataCollectorSet.get_Subdirectory
+ - IDataCollectorSet.put_Subdirectory
 ---
 
 # IDataCollectorSet::get_Subdirectory
@@ -87,4 +89,3 @@ PLA creates the folders in the subdirectory path if they do not exist. Note that
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a>
-

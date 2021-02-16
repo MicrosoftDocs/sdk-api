@@ -43,6 +43,7 @@ api_location:
  - UIAutomationCore.dll
 api_name:
  - IUIAutomationTextEditTextChangedEventHandler
+ - IUIAutomationTextEditTextChangedEventHandler.HandleTextEditTextChangedEvent
 ---
 
 # IUIAutomationTextEditTextChangedEventHandler interface
@@ -66,4 +67,3 @@ This interface is implemented by the application to handle events that it has su
 ## -see-also
 
 <a href="/windows/desktop/WinAuto/uiauto-client-eventhandlinginterfaces">Event Handling Interfaces for Clients</a>
-

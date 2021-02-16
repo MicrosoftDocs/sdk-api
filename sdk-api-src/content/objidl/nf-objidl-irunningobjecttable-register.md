@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunningObjectTable::Register
+ - IRunningObjectTable.Register
 ---
 
 # IRunningObjectTable::Register
@@ -162,4 +162,3 @@ The system's implementation of <b>Register</b> calls <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-

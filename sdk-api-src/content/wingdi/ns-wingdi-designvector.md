@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagDESIGNVECTOR
- - PDESIGNVECTOR
  - DESIGNVECTOR
 ---
 
@@ -101,4 +99,3 @@ The PostScript Open Type Font does not support multiple master functionality.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-removefontresourceexa">RemoveFontResourceEx</a>
-

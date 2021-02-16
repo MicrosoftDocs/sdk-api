@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain::SearchWMIFilters
+ - IGPMDomain.SearchWMIFilters
+ - GPMDomain.SearchWMIFilters
 ---
 
 ## -description
@@ -92,4 +93,3 @@ An empty  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpms
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
-

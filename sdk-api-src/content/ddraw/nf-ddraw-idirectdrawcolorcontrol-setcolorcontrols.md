@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: de6f8266-d712-40bd-8230-cf5800cf8926
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawColorControl interface [DirectDraw],SetColorControls method, IDirectDrawColorControl.SetColorControls, IDirectDrawColorControl::SetColorControls, SetColorControls, SetColorControls method [DirectDraw], SetColorControls method [DirectDraw],IDirectDrawColorControl interface, ddraw/IDirectDrawColorControl::SetColorControls, directdraw.idirectdrawcolorcontrol_setcolorcontrols
+f1_keywords:
+- ddraw/IDirectDrawColorControl.SetColorControls
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDrawColorControl.SetColorControls
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDrawColorControl::SetColorControls
- - ddraw/IDirectDrawColorControl::SetColorControls
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDrawColorControl::SetColorControls
 ---
 
 ## -description
@@ -74,4 +73,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawcolorcontrol">IDirectDrawColorControl</a>
-

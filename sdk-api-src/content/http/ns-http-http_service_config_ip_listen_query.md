@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
- - PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
  - HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 ---
 
@@ -103,4 +101,3 @@ The <b>SOCKADDR_IN6</b> structure is exactly equivalent to <b>sockaddr_in6</b> b
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>
-

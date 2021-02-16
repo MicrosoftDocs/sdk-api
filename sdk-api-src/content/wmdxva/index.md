@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - wmdxva
  - wmdxva/wmdxva
-api_name:
- - wmdxva
 ---
 
 # Wmdxva.h header

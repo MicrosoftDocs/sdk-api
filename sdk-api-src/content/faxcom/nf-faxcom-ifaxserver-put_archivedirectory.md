@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::put_ArchiveDirectory
+ - IFaxServer.ArchiveDirectory
+ - IFaxServer.get_ArchiveDirectory
+ - IFaxServer.put_ArchiveDirectory
+ - IFaxServer.get_ArchiveDirectory
+ - IFaxServer.put_ArchiveDirectory
 ---
 
 # IFaxServer::put_ArchiveDirectory
@@ -86,4 +90,3 @@ The <b>get_ArchiveDirectory</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-archiveoutboundfaxes-vb">IFaxServer::get_ArchiveOutboundFaxes</a>
-

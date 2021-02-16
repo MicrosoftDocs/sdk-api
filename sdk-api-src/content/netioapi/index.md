@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - netioapi
  - netioapi/netioapi
-api_name:
- - netioapi
 ---
 
 # Netioapi.h header

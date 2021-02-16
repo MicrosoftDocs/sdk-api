@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_initA
  - winldap/ldap_initA
- - ldap_init
- - winldap/ldap_init
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_initA
  - ldap_init
+ - ldap_initA
+ - ldap_initW
 ---
 
 # ldap_initA function
@@ -127,4 +126,3 @@ Multithreading: A call to <b>ldap_init</b> is thread safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_SubdirectoryFormatPattern
+ - IDataCollectorSet.SubdirectoryFormatPattern
+ - IDataCollectorSet.get_SubdirectoryFormatPattern
+ - IDataCollectorSet.put_SubdirectoryFormatPattern
 ---
 
 # IDataCollectorSet::get_SubdirectoryFormatPattern
@@ -184,4 +186,3 @@ Use the following pattern characters to define your own pattern to append to the
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformat">IDataCollectorSet::SubdirectoryFormat</a>
-

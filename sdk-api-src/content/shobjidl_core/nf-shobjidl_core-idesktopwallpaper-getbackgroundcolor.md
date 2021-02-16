@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDesktopWallpaper::GetBackgroundColor
+ - IDesktopWallpaper.GetBackgroundColor
 ---
 
 # IDesktopWallpaper::GetBackgroundColor
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-setbackgroundcolor">IDesktopWallpaper::SetBackgroundColor</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
- - FWPS_DISCARD_METADATA0_
  - FWPS_DISCARD_METADATA0
 ---
 
@@ -69,6 +68,8 @@ An
 
 A UINT32 value that specifies why the data was discarded. For a description of the discard reason identifiers for each type of module, see <a href="/windows-hardware/drivers/network/general-discard-reasons">Discard Reason Identifiers</a>.
 
+
+
 ### -field filterId
 
 A UINT64 value that specifies the run-time identifier for the filter in the filter engine that caused the data to be discarded.
@@ -87,4 +88,3 @@ The FWPS_DISCARD_METADATA0 structure contains valid data only if the FWPS_METADA
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _CLASSIC_EVENT_ID
- - PCLASSIC_EVENT_ID
  - CLASSIC_EVENT_ID
 ---
 
@@ -79,4 +77,3 @@ To enable the <a href="/windows/desktop/ETW/diskio-typegroup1">read</a> event ty
 ## -see-also
 
 <a href="/windows/desktop/ETW/tracesetinformation">TraceSetInformation</a>
-

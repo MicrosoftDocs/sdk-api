@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxScreenToClient
+ - ITextHost.TxScreenToClient
 ---
 
 # ITextHost::TxScreenToClient
@@ -75,4 +75,3 @@ Return <b>FALSE</b> if the call fails.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-

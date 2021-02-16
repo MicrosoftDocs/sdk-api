@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::Bitmap
+ - Bitmap.Bitmap
 ---
 
 # Bitmap::Bitmap(INT,INT,INT,PixelFormat,BYTE)
@@ -109,4 +109,3 @@ Pointer to an array of bytes that contains the pixel data. The caller is respons
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

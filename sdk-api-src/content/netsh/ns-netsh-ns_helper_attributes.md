@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netsh.h
 api_name:
- - _NS_HELPER_ATTRIBUTES
- - PNS_HELPER_ATTRIBUTES
  - NS_HELPER_ATTRIBUTES
 ---
 
@@ -92,4 +90,3 @@ A pointer to the
 
 
 <a href="/previous-versions/windows/desktop/api/netsh/nc-netsh-ns_helper_stop_fn">NS_HELPER_STOP_FN</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStoryRanges2::Item2
+ - ITextStoryRanges2.Item2
 ---
 
 # ITextStoryRanges2::Item2
@@ -79,4 +79,3 @@ The first story has an index of 1, and the last story  has an index equal to the
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstoryranges2">ITextStoryRanges2</a>
-

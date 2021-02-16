@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList::GetPropertyItem
+ - IADsPropertyList.GetPropertyItem
 ---
 
 # IADsPropertyList::GetPropertyItem
@@ -343,4 +343,3 @@ if(pEntry)
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-variantclear">VariantClear</a>
-

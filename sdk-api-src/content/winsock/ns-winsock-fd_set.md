@@ -45,7 +45,6 @@ api_location:
  - winsock.h
 api_name:
  - fd_set
- - PFD_SET
 ---
 
 # fd_set structure
@@ -79,4 +78,3 @@ An array of sockets that are in the set.
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
-

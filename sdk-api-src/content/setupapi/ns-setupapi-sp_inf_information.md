@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - _SP_INF_INFORMATION
- - PSP_INF_INFORMATION
  - SP_INF_INFORMATION
 ---
 
@@ -131,4 +129,3 @@ Stores information from the <b>Version</b> section of an INF file in an array of
 
 
 <a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
-

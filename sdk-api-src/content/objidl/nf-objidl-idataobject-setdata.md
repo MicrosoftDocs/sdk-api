@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject::SetData
+ - IDataObject.SetData
 ---
 
 # IDataObject::SetData
@@ -187,4 +187,3 @@ The type of medium specified in the <i>pformatetc</i> and <i>pmedium</i> paramet
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

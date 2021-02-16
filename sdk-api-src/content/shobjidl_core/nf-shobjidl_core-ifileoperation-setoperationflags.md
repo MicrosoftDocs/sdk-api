@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation::SetOperationFlags
+ - IFileOperation.SetOperationFlags
 ---
 
 # IFileOperation::SetOperationFlags
@@ -243,4 +243,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Set these flags before you call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-performoperations">IFileOperation::PerformOperations</a> to define the parameters for whatever operations are being performed, such as copy, delete, or rename.
-

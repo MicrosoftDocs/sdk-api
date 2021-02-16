@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiCreateDeviceInterfaceW
  - setupapi/SetupDiCreateDeviceInterfaceW
- - SetupDiCreateDeviceInterface
- - setupapi/SetupDiCreateDeviceInterface
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiCreateDeviceInterfaceW
- - SetupDiCreateDeviceInterface
+ - SetupDiCreateDeviceInterface - SetupDiCreateDeviceInterfaceW
 ---
 
 # SetupDiCreateDeviceInterfaceW function
@@ -114,4 +111,3 @@ If <b>SetupDiCreateDeviceInterface</b> successfully creates a new device interfa
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiremovedeviceinterface">SetupDiRemoveDeviceInterface</a>
-

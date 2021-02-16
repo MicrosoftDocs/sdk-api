@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
- - _WINHTTP_PROXY_RESULT
  - WINHTTP_PROXY_RESULT
 ---
 
@@ -76,4 +75,3 @@ A pointer to an array of <a href="/windows/desktop/api/winhttp/ns-winhttp-winhtt
 
 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpgetproxyresult">WinHttpGetProxyResult</a>
-

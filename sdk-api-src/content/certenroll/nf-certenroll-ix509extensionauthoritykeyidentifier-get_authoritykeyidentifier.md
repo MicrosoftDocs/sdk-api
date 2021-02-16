@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier
+ - IX509ExtensionAuthorityKeyIdentifier.AuthorityKeyIdentifier
+ - IX509ExtensionAuthorityKeyIdentifier.get_AuthorityKeyIdentifier
 ---
 
 # IX509ExtensionAuthorityKeyIdentifier::get_AuthorityKeyIdentifier
@@ -63,4 +64,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionau
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionauthoritykeyidentifier">IX509ExtensionAuthorityKeyIdentifier</a>
-

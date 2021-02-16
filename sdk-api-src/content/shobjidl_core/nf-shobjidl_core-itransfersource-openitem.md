@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource::OpenItem
+ - ITransferSource.OpenItem
 ---
 
 # ITransferSource::OpenItem
@@ -189,4 +189,3 @@ Operation requires elevated privileges.
 </td>
 </tr>
 </table>
-

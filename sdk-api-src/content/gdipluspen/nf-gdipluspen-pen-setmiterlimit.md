@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::SetMiterLimit
+ - Pen.SetMiterLimit
 ---
 
 # Pen::SetMiterLimit
@@ -108,4 +108,3 @@ Status stat = pen.SetMiterLimit(10.0f);
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-

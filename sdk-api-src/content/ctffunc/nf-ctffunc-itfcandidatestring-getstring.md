@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tiptsf.dll
 api_name:
- - ITfCandidateString::GetString
+ - ITfCandidateString.GetString
 ---
 
 # ITfCandidateString::GetString
@@ -109,4 +109,3 @@ A memory allocation failure occurred.
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

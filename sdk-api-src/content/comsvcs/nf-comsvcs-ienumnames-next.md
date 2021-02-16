@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IEnumNames::Next
+ - IEnumNames.Next
 ---
 
 # IEnumNames::Next
@@ -102,4 +102,3 @@ The number of elements returned is less than the number specified in the <i>celt
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ienumnames">IEnumNames</a>
-

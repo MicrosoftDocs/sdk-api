@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsWriteAccountSpnW
  - ntdsapi/DsWriteAccountSpnW
- - DsWriteAccountSpn
- - ntdsapi/DsWriteAccountSpn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsWriteAccountSpnW
  - DsWriteAccountSpn
+ - DsWriteAccountSpnA
+ - DsWriteAccountSpnW
 ---
 
 # DsWriteAccountSpnW function
@@ -153,4 +152,3 @@ On user accounts there is no "Validated SPN" property or "Write SPN" right.  Rat
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetspna">DsGetSpn</a>
-

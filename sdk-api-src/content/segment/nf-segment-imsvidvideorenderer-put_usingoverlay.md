@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::put_UsingOverlay
+ - IMSVidVideoRenderer.put_UsingOverlay
 ---
 
 # IMSVidVideoRenderer::put_UsingOverlay
@@ -86,4 +86,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-get_usingoverlay">IMSVidVideoRenderer::get_UsingOverlay</a>
-

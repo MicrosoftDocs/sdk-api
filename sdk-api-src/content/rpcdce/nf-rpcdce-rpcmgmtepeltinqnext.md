@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcMgmtEpEltInqNext
+ - RpcMgmtEpEltInqNextA
+ - RpcMgmtEpEltInqNextW
 ---
 
 # RpcMgmtEpEltInqNext function
@@ -129,4 +131,3 @@ After viewing the endpoint-map elements, the application must call
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcmgmtepeltinqdone">RpcMgmtEpEltInqDone</a>
-

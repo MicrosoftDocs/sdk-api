@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bits4_0.h
 api_name:
- - IBitsTokenOptions::SetHelperToken
+ - IBitsTokenOptions.SetHelperToken
 ---
 
 # IBitsTokenOptions::SetHelperToken
@@ -107,4 +107,3 @@ Specifically, the implementation has been changed to allow users without adminis
 ## -see-also
 
 <a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibitstokenoptions">IBitsTokenOptions</a>
-

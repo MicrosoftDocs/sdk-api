@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices::SetHwndProp
+ - IAccPropServices.SetHwndProp
 ---
 
 # IAccPropServices::SetHwndProp
@@ -117,4 +117,3 @@ By using this method, the caller does not have to obtain an identity string; it 
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>
-

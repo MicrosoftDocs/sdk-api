@@ -43,7 +43,8 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkWordList::Merge
+ - IInkWordList.Merge
+ - InkWordList.Merge
 ---
 
 # IInkWordList::Merge
@@ -132,4 +133,3 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
-

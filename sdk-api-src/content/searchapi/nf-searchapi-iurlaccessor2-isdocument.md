@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor2::IsDocument
+ - IUrlAccessor2.IsDocument
+ - IUrlAccessor4.IsDocument
 ---
 
 # IUrlAccessor2::IsDocument

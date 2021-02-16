@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUser::GetID
+ - IDiskQuotaUser.GetID
 ---
 
 # IDiskQuotaUser::GetID
@@ -73,4 +73,3 @@ This method returns <b>S_OK</b>.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauser">IDiskQuotaUser</a>
-

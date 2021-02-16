@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder::ParseDisplayName
+ - IShellFolder.ParseDisplayName
+ - IShellFolder2.ParseDisplayName
 ---
 
 # IShellFolder::ParseDisplayName
@@ -161,4 +162,3 @@ This method is similar to the <a href="/windows/desktop/api/oleidl/nf-oleidl-ipa
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinka">IShellLink</a>
-

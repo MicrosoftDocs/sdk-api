@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient2::IsOffloadCapable
+ - IAudioClient2.IsOffloadCapable
 ---
 
 # IAudioClient2::IsOffloadCapable
@@ -73,4 +73,3 @@ The <b>IsOffloadCapable</b> method returns <b>S_OK</b> to indicate that it has c
 
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2">IAudioClient2</a>
-

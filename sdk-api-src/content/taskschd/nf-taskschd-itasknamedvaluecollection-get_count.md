@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskNamedValueCollection::get_Count
+ - ITaskNamedValueCollection.Count
+ - ITaskNamedValueCollection.get_Count
 ---
 
 # ITaskNamedValueCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluecollection">ITaskNamedValueCollection</a>
-

@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject::SpawnDerivedClass
+ - IWbemClassObject.SpawnDerivedClass
 ---
 
 # IWbemClassObject::SpawnDerivedClass
@@ -104,4 +104,3 @@ To create a class hierarchy, you must create the initial class with
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putclass">IWbemServices::PutClass</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IAutoComplete::Enable
+ - IAutoComplete.Enable
 ---
 
 # IAutoComplete::Enable
@@ -73,4 +73,3 @@ Autocompletion is enabled by default. Applications need only to call this method
 ## -see-also
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-iautocomplete">IAutoComplete</a>
-

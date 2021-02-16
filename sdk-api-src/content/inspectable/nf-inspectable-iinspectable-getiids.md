@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Inspectable.h
 api_name:
- - IInspectable::GetIids
+ - IInspectable.GetIids
+ - IInputPaneInterop.GetIids
 ---
 
 # IInspectable::GetIids
@@ -116,4 +117,3 @@ The caller is responsible for freeing the IID array by using the <a href="/windo
 
 
 <a href="/windows/desktop/api/inspectable/nn-inspectable-iinspectable">IInspectable</a>
-

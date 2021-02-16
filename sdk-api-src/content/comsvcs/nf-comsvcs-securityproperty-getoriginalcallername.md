@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - SecurityProperty::GetOriginalCallerName
+ - SecurityProperty.GetOriginalCallerName
 ---
 
 # SecurityProperty::GetOriginalCallerName
@@ -79,4 +79,3 @@ The path to the original caller is broken if any object along the chain was crea
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-securityproperty">SecurityProperty</a>
-

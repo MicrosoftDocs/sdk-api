@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::put_hWnd
+ - IInkOverlay.hWnd
+ - IInkOverlay.get_hWnd
+ - IInkOverlay.put_hWnd
+ - InkOverlay.get_hWnd
+ - InkOverlay.put_hWnd
 ---
 
 # IInkOverlay::put_hWnd
@@ -82,4 +86,3 @@ In Automation, this property is called <a href="/windows/desktop/api/msinkaut/nf
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
-

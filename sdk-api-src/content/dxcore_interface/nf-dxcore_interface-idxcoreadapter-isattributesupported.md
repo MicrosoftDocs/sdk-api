@@ -38,9 +38,6 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapter::IsAttributeSupported
-f1_keywords:
- - IDXCoreAdapter::IsAttributeSupported
- - dxcore_interface/IDXCoreAdapter::IsAttributeSupported
 ---
 
 ## -description
@@ -49,19 +46,18 @@ Determines whether this DXCore adapter object supports the specified adapter att
 
 ## -parameters
 
+### -param attributeGUID
+
+Type: **REFGUID**
+
+A reference to an adapter attribute GUID. For a list of attribute GUIDs, see [DXCore adapter attribute GUIDs](/windows/win32/dxcore/dxcore-adapter-attribute-guids).
+
 ## -returns
 
 Type: **bool**
 
 Returns `true` if this DXCore adapter object supports the specified adapter attribute. Otherwise, returns `false`.
 
-## -param attributeGUID
-
-Type: **REFGUID**
-
-A reference to an adapter attribute GUID. For a list of attribute GUIDs, see [DXCore adapter attribute GUIDs](/windows/win32/dxcore/dxcore-adapter-attribute-guids).
-
 ## -see-also
 
 [IDXCoreAdapter](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapter), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [DXCore adapter attribute GUIDs](/windows/win32/dxcore/dxcore-adapter-attribute-guids), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

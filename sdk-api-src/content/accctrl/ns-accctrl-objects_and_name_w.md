@@ -46,8 +46,8 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - _OBJECTS_AND_NAME_W
- - POBJECTS_AND_NAME_W
+ - OBJECTS_AND_NAME
+ - OBJECTS_AND_NAME_A
  - OBJECTS_AND_NAME_W
 ---
 
@@ -162,4 +162,3 @@ The <b>ptstrName</b> member of a <a href="/windows/desktop/api/accctrl/ns-accctr
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

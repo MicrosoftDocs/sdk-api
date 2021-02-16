@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_MOCOMPCB_QUERYSTATUS
+ - DdMoCompQueryStatus
 ---
 
 ## -description
@@ -66,4 +66,3 @@ DirectDraw drivers that support motion compensation must implement <b>DdMoCompQu
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_querymocompstatusdata">DD_QUERYMOCOMPSTATUSDATA</a>
-

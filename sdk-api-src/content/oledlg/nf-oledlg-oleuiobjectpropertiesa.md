@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIObjectPropertiesA
  - oledlg/OleUIObjectPropertiesA
- - OleUIObjectProperties
- - oledlg/OleUIObjectProperties
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIObjectPropertiesA
  - OleUIObjectProperties
+ - OleUIObjectPropertiesA
+ - OleUIObjectPropertiesW
 ---
 
 # OleUIObjectPropertiesA function
@@ -614,4 +613,3 @@ The <i>lpLinkInfo</i> value is <b>NULL</b> or the calling process doesn't have r
 
 
 <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuiviewpropsa">OLEUIVIEWPROPS</a>
-

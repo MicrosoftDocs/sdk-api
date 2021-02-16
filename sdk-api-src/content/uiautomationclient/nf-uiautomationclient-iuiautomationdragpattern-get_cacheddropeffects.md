@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDragPattern::get_CachedDropEffects
+ - IUIAutomationDragPattern.CachedDropEffects
+ - IUIAutomationDragPattern.get_CachedDropEffects
 ---
 
 # IUIAutomationDragPattern::get_CachedDropEffects
@@ -63,4 +64,3 @@ Some drag operations support a set of different drop effects. For example, a dra
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdragpattern">IUIAutomationDragPattern</a>
-

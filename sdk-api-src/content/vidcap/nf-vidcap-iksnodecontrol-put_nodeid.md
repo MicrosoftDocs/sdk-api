@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IKsNodeControl::put_NodeId
+ - IKsNodeControl.put_NodeId
 ---
 
 # IKsNodeControl::put_NodeId
@@ -69,4 +69,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-iksnodecontrol">IKsNodeControl Interface</a>
-

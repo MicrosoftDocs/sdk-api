@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectPass::GetAnnotationByIndex
+ - ID3D10EffectPass.GetAnnotationByIndex
 ---
 
 # ID3D10EffectPass::GetAnnotationByIndex
@@ -73,4 +73,3 @@ A pointer to an <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10e
 
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectpass">ID3D10EffectPass</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssSnapshotMgmt2::GetMinDiffAreaSize
+ - IVssSnapshotMgmt2.GetMinDiffAreaSize
 ---
 
 # IVssSnapshotMgmt2::GetMinDiffAreaSize
@@ -69,4 +69,3 @@ The shadow copy storage area minimum size is a per-computer setting that is spec
 ## -see-also
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivsssnapshotmgmt2">IVssSnapshotMgmt2</a>
-

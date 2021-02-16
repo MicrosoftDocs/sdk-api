@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDeviceManager2::GetDeviceFromCanonicalName
+ - IWMDeviceManager2.GetDeviceFromCanonicalName
 ---
 
 # IWMDeviceManager2::GetDeviceFromCanonicalName
@@ -107,4 +107,3 @@ This method can be useful if an application implements <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdevicemanager2">IWMDeviceManager2 Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::StylusButtonDown
+ - IStylusPlugin.StylusButtonDown
 ---
 
 # IStylusPlugin::StylusButtonDown
@@ -89,4 +89,3 @@ This notification is used to when the stylus button is down and the stylus is in
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-

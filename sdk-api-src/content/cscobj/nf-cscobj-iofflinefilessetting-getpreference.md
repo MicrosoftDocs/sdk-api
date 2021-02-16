@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSetting::GetPreference
+ - IOfflineFilesSetting.GetPreference
 ---
 
 # IOfflineFilesSetting::GetPreference
@@ -86,4 +86,3 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code> if the preference 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
-

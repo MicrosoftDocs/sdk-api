@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - tagPRIORITIZE_FLAGS
+ - PRIORITIZE_FLAGS
 ---
 
 # tagPRIORITIZE_FLAGS enumeration
@@ -93,4 +93,3 @@ Indicates that the indexer should continue to reattempt indexing items regardles
 
 
 <a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagRAWINPUTDEVICELIST
- - PRAWINPUTDEVICELIST
  - RAWINPUTDEVICELIST
 ---
 
@@ -127,4 +125,3 @@ The device is a mouse.
 
 
 <b>Reference</b>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_OPM_ACP_PROTECTION_LEVEL
  - MF_OPM_ACP_PROTECTION_LEVEL
 ---
 
@@ -80,4 +79,3 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

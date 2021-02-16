@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigAviMux::GetMasterStream
+ - IConfigAviMux.GetMasterStream
 ---
 
 # IConfigAviMux::GetMasterStream
@@ -103,4 +103,3 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iconfigavimux-setmasterstream">IConfigAviMux::SetMasterStream</a>
-

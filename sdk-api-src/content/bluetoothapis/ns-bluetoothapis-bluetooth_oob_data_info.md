@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_OOB_DATA_INFO
- - PBLUETOOTH_OOB_DATA_INFO
  - BLUETOOTH_OOB_DATA_INFO
 ---
 

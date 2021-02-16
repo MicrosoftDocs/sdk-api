@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::GetSeekPositionForValue
+ - IMFASFIndexer.GetSeekPositionForValue
 ---
 
 # IMFASFIndexer::GetSeekPositionForValue
@@ -145,4 +145,3 @@ No index exists of the specified type for the specified stream.
 
 
 <a href="/windows/desktop/medfound/mftime">MFTIME</a>
-

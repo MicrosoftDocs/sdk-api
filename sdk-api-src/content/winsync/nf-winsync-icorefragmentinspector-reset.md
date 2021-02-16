@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ICoreFragmentInspector::Reset
+ - ICoreFragmentInspector.Reset
 ---
 
 # ICoreFragmentInspector::Reset
@@ -90,4 +90,3 @@ The knowledge object that is associated with this object has changed since this 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>
-

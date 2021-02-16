@@ -34,8 +34,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateNamedPipeA
  - winbase/CreateNamedPipeA
- - CreateNamedPipe
- - winbase/CreateNamedPipe
 topic_type:
  - APIRef
  - kbSyntax
@@ -59,8 +57,9 @@ api_location:
  - API-MS-Win-Core-NamedPipe-L1-2-2.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CreateNamedPipeA
  - CreateNamedPipe
+ - CreateNamedPipeA
+ - CreateNamedPipeW
 ---
 
 # CreateNamedPipeA function
@@ -470,4 +469,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
-

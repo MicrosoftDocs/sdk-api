@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SCAN_FLAG
- - LPDHCP_SCAN_FLAG
  - DHCP_SCAN_FLAG
 ---
 
@@ -75,4 +73,3 @@ Indicates that the client lease database on the DHCPv4 server does not contain t
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpscandatabase">DhcpScanDatabase</a>
-

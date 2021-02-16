@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetNtmsUIOptionsA
  - ntmsapi/SetNtmsUIOptionsA
- - SetNtmsUIOptions
- - ntmsapi/SetNtmsUIOptions
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - SetNtmsUIOptionsA
  - SetNtmsUIOptions
+ - SetNtmsUIOptionsA
+ - SetNtmsUIOptionsW
 ---
 
 # SetNtmsUIOptionsA function
@@ -305,4 +304,3 @@ Note that there is no checking of destination strings. A call to with a destinat
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Library Control Functions</a>
-

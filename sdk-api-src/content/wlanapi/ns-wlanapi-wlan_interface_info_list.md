@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_INTERFACE_INFO_LIST
- - PWLAN_INTERFACE_INFO_LIST
  - WLAN_INTERFACE_INFO_LIST
 ---
 
@@ -85,4 +83,3 @@ An array of <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanenuminterfaces">WlanEnumInterfaces</a>
-

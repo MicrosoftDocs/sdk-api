@@ -43,7 +43,8 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkWordList::AddWord
+ - IInkWordList.AddWord
+ - InkWordList.AddWord
 ---
 
 # IInkWordList::AddWord
@@ -157,4 +158,3 @@ If a string is added to a word list, its capitalized versions are also implicitl
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkwordlist-removeword">RemoveWord Method</a>
-

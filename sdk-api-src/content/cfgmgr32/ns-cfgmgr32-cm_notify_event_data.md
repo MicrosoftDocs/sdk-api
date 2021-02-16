@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cfgmgr32.h
 api_name:
- - _CM_NOTIFY_EVENT_DATA
- - PCM_NOTIFY_EVENT_DATA
  - CM_NOTIFY_EVENT_DATA
 ---
 
@@ -119,4 +117,3 @@ The notification callback supplied to <a href="/windows/desktop/api/cfgmgr32/nf-
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_register_notification">CM_Register_Notification</a>
-

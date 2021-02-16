@@ -9,8 +9,6 @@ tech.root: tapi3
 f1_keywords:
  - rend
  - rend/rend
-api_name:
- - rend
 ---
 
 # Rend.h header

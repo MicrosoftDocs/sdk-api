@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - _SEC_WINNT_AUTH_IDENTITY_A
- - PSEC_WINNT_AUTH_IDENTITY_A
+ - SEC_WINNT_AUTH_IDENTITY
  - SEC_WINNT_AUTH_IDENTITY_A
+ - SEC_WINNT_AUTH_IDENTITY_W
 ---
 
 # SEC_WINNT_AUTH_IDENTITY_A structure
@@ -106,4 +106,3 @@ Flags used to specify ANSI or UNICODE. Must be one of the following:
 This structure must remain valid for the lifetime of the binding handle unless pointed to from the <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_a">RPC_HTTP_TRANSPORT_CREDENTIALS</a> or <a href="/windows/desktop/api/rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a">RPC_HTTP_TRANSPORT_CREDENTIALS_V2</a> structure.
 
 The strings may be ANSI or UNICODE depending on the value assigned to <b>Flags</b>.
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoFrameStep::Step
+ - IVideoFrameStep.Step
 ---
 
 # IVideoFrameStep::Step
@@ -120,4 +120,3 @@ The frames step in real time, which means that if the movie is playing at 30 fra
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ivideoframestep">IVideoFrameStep Interface</a>
-

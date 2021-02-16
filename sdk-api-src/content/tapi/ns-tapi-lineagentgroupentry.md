@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineagentgroupentry_tag
- - LPLINEAGENTGROUPENTRY
  - LINEAGENTGROUPENTRY
 ---
 
@@ -104,4 +102,3 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string sp
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetagentgroup">lineSetAgentGroup</a>
-

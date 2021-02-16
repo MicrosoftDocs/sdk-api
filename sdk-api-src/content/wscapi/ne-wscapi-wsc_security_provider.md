@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Wscapi.h
 api_name:
- - _WSC_SECURITY_PROVIDER
- - PWSC_SECURITY_PROVIDER
- - WSC_SECURITY_PROVIDER
+ - WSC_SECURITY_PROVIDER, *PWSC_SECURITY_PROVIDER
 ---
 
 # WSC_SECURITY_PROVIDER enumeration
@@ -104,4 +102,3 @@ All of the items that the WSC monitors.
 ## -see-also
 
 <a href="/windows/desktop/api/wscapi/nf-wscapi-wscgetsecurityproviderhealth">WscGetSecurityProviderHealth</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflection::GetConstantBufferByIndex
+ - ID3D10ShaderReflection.GetConstantBufferByIndex
 ---
 
 # ID3D10ShaderReflection::GetConstantBufferByIndex
@@ -73,4 +73,3 @@ A constant buffer supplies either scalar constants or texture constants to a sha
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflection">ID3D10ShaderReflection Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFontFamily1::GetFont
+ - IDWriteFontFamily1.GetFont
 ---
 
 # IDWriteFontFamily1::GetFont

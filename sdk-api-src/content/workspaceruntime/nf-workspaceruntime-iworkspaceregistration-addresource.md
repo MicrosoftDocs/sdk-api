@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspaceRegistration::AddResource
+ - IWorkspaceRegistration.AddResource
+ - IWorkspaceRegistration2.AddResource
+ - Workspace.AddResource
 ---
 
 # IWorkspaceRegistration::AddResource
@@ -73,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspaceregistration2">IWorkspaceRegistration2</a>
-

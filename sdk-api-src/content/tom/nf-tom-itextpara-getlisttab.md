@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetListTab
+ - ITextPara.GetListTab
 ---
 
 # ITextPara::GetListTab
@@ -157,4 +157,3 @@ To determine whether the numbered or bulleted text is left-justified, centered, 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient::MACFinal
+ - CSecureChannelClient.MACFinal
 ---
 
 # CSecureChannelClient::MACFinal
@@ -139,4 +139,3 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-

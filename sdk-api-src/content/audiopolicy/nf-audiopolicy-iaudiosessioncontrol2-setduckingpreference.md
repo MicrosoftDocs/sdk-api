@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionControl2::SetDuckingPreference
+ - IAudioSessionControl2.SetDuckingPreference
 ---
 
 # IAudioSessionControl2::SetDuckingPreference
@@ -96,4 +96,3 @@ We recommend that the application call <b>SetDuckingPreference</b> during stream
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
-

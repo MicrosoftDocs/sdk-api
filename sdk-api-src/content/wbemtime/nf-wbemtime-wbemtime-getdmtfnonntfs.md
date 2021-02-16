@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::GetDMTFNonNtfs
+ - WBEMTime.GetDMTFNonNtfs
+ - ?GetDMTFNonNtfs@WBEMTime@@QBEPAGXZ
+ - ?GetDMTFNonNtfs@WBEMTime@@QEBAPEAGXZ
 ---
 
 # WBEMTime::GetDMTFNonNtfs
@@ -71,4 +73,3 @@ Returns a <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/date-and-time-format">
 The calling function must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the return value.
 
 The time property of <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> is held in GMT. The <b>GetDMTFNonNtfs</b> method adjusts this time to local time, converts it to a DMTF string, and sets the UTC to "***".  This is compatible with the Microsoft Windows API methods which return time without being time-zone aware.
-

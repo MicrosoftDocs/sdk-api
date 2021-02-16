@@ -44,7 +44,6 @@ api_type:
 api_location:
  - xapo.h
 api_name:
- - XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS
  - XAPO_LOCKFORPROCESS_PARAMETERS
 ---
 
@@ -77,4 +76,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 ## -see-also
 
 <a href="/windows/desktop/xaudio2/structures">Structures</a>
-

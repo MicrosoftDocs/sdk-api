@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
- - tagCONVINFO
- - PCONVINFO
  - CONVINFO
 ---
 
@@ -655,4 +653,3 @@ A handle to the window of the calling application involved in the conversation.
 
 
 <b>Reference</b>
-

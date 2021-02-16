@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_CREDENTIALS
- - PCRYPT_CREDENTIALS
  - CRYPT_CREDENTIALS
 ---
 
@@ -93,4 +91,3 @@ The <b>pvCredentials</b> member contains a <a href="/windows/desktop/api/wincryp
 ### -field pvCredentials
 
 A pointer to a structure as defined by the <b>pszCredentialsOid</b> member.
-

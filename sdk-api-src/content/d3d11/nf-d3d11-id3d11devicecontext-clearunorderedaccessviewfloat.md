@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::ClearUnorderedAccessViewFloat
+ - ID3D11DeviceContext.ClearUnorderedAccessViewFloat
 ---
 
 # ID3D11DeviceContext::ClearUnorderedAccessViewFloat
@@ -74,4 +74,3 @@ This API works on FLOAT, UNORM, and SNORM unordered access views (UAVs), with fo
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

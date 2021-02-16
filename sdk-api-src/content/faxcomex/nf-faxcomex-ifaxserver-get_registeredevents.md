@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer::get_RegisteredEvents
+ - IFaxServer.RegisteredEvents
+ - IFaxServer.get_RegisteredEvents
+ - IFaxServer.get_RegisteredEvents
 ---
 
 # IFaxServer::get_RegisteredEvents
@@ -63,4 +65,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxserver">IFaxServer</a>
-

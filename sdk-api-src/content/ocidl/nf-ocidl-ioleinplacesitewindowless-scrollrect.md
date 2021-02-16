@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless::ScrollRect
+ - IOleInPlaceSiteWindowless.ScrollRect
 ---
 
 # IOleInPlaceSiteWindowless::ScrollRect
@@ -111,4 +111,3 @@ This method should automatically hide the caret during the scrolling operation a
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iviewobjectex-getviewstatus">IViewObjectEx::GetViewStatus</a>
-

@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - dbt
  - dbt/dbt
-api_name:
- - dbt
 ---
 
 # Dbt.h header

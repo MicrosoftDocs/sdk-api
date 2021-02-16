@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMPEG2StreamIdMap::UnmapStreamId
+ - IMPEG2StreamIdMap.UnmapStreamId
 ---
 
 # IMPEG2StreamIdMap::UnmapStreamId
@@ -78,4 +78,3 @@ There is typically only one stream ID mapped to a given pin, therefore <i>pulStr
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap Interface</a>
-

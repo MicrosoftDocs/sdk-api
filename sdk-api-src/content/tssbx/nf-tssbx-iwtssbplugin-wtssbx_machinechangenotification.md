@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - IWTSSBPlugin::WTSSBX_MachineChangeNotification
+ - IWTSSBPlugin.WTSSBX_MachineChangeNotification
 ---
 
 # IWTSSBPlugin::WTSSBX_MachineChangeNotification
@@ -93,4 +93,3 @@ Your implementation of this method must return <b>S_OK</b> immediately if succes
 
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-

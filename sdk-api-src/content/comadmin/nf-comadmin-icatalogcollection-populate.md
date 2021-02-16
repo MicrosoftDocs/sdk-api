@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection::Populate
+ - ICatalogCollection.Populate
 ---
 
 # ICatalogCollection::Populate
@@ -94,4 +94,3 @@ Call the <a href="/windows/desktop/api/comadmin/nf-comadmin-icatalogcollection-s
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-

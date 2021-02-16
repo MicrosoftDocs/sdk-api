@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern::get_CurrentSmallChange
+ - IUIAutomationRangeValuePattern.CurrentSmallChange
+ - IUIAutomationRangeValuePattern.get_CurrentSmallChange
 ---
 
 # IUIAutomationRangeValuePattern::get_CurrentSmallChange
@@ -67,4 +68,3 @@ The SmallChange property can support a Not a Number (NaN) value. When retrieving
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentlargechange">IUIAutomationRangeValuePattern::CurrentLargeChange</a>
-

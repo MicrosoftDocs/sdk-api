@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStorage::HandsOffStorage
+ - IPersistStorage.HandsOffStorage
 ---
 
 # IPersistStorage::HandsOffStorage
@@ -78,4 +78,3 @@ This method must release all pointers to the current storage object, including p
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olesave">OleSave</a>
-

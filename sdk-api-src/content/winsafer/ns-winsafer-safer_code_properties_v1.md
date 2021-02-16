@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
- - _SAFER_CODE_PROPERTIES_V1
- - PSAFER_CODE_PROPERTIES_V1
  - SAFER_CODE_PROPERTIES_V1
 ---
 
@@ -260,4 +258,3 @@ Display UI only if an error occurs.
 ## -remarks
 
 <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_code_properties_v2">SAFER_CODE_PROPERTIES</a>  was redefined to include additional members that allow Windows Store app to use the structure. Check the <b>cbSize</b> member for the appropriate size of the structure and for whether you should use the <b>SAFER_CODE_PROPERTIES</b> structure or the <b>SAFER_CODE_PROPERTIES_V1</b> structure.
-

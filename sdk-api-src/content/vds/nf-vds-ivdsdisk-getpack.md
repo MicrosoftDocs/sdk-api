@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk::GetPack
+ - IVdsDisk.GetPack
 ---
 
 # IVdsDisk::GetPack
@@ -106,4 +106,3 @@ A disk can be a member of only one disk pack.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdspack">IVdsPack</a>
-

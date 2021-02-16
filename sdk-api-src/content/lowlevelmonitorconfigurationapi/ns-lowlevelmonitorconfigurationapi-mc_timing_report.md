@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LowLevelMonitorConfigurationAPI.h
 api_name:
- - _MC_TIMING_REPORT
- - LPMC_TIMING_REPORT
  - MC_TIMING_REPORT
 ---
 
@@ -79,4 +77,3 @@ Timing status byte. For more information about this value, see the Display Data 
 
 
 <a href="/windows/desktop/Monitor/monitor-configuration-structures">Monitor Configuration Structures</a>
-

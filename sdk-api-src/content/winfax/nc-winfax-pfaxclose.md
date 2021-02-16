@@ -43,6 +43,8 @@ api_location:
  - Winfax.h
 api_name:
  - PFAXCLOSE
+ - FaxCloseA
+ - FaxCloseW
 ---
 
 # PFAXCLOSE callback function
@@ -128,4 +130,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a>
-

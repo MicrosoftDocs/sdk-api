@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _interlockedbittestandreset64
+ - InterlockedBitTestAndReset64
 ---
 
 # _interlockedbittestandreset64 function
@@ -109,4 +109,3 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-

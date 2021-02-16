@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WcmConfig.h
 api_name:
- - __MIDL___MIDL_itf_wcmconfig_0000_0000_0004
  - WcmSettingType
 ---
 
@@ -73,4 +72,3 @@ Items of this type may have children. You may call the <a href="/previous-versio
 
 <div class="alert"><b>Note</b>  All methods of the <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a> interface, other than the ones that are explicitly described for a particular type, may be called on any type of setting.</div>
 <div> </div>
-

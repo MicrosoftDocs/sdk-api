@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IDragProvider::get_DropEffect
+ - IDragProvider.DropEffect
+ - IDragProvider.get_DropEffect
 ---
 
 # IDragProvider::get_DropEffect
@@ -65,4 +66,3 @@ If this property changes, the provider must notify clients by calling <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>
-

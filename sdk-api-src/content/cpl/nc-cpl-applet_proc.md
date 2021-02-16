@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cpl.h
 api_name:
- - APPLET_PROC
+ - CPlApplet
 ---
 
 ## -description
@@ -86,4 +86,3 @@ For more information, see the descriptions of the individual <a href="/previous-
 ## -remarks
 
 Implementers of Control Panel items must also implement this function. No default implementation is available.
-

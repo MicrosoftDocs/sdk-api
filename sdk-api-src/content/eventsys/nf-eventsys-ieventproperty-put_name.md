@@ -42,7 +42,9 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventProperty::put_Name
+ - IEventProperty.Name
+ - IEventProperty.get_Name
+ - IEventProperty.put_Name
 ---
 
 # IEventProperty::put_Name
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventproperty">IEventProperty</a>
-

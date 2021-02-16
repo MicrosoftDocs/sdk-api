@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device::CreateInputLayout
+ - ID3D11Device.CreateInputLayout
 ---
 
 # ID3D11Device::CreateInputLayout
@@ -106,4 +106,3 @@ If a data type in the input-layout declaration does not match the data type in a
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-

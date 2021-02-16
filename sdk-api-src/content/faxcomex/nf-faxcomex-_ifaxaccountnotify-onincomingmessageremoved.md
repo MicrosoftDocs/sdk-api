@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - _IFaxAccountNotify::OnIncomingMessageRemoved
+ - _IFaxAccountNotify.OnIncomingMessageRemoved
+ - IFaxAccountNotify.OnIncomingMessageRemoved
 ---
 
 # _IFaxAccountNotify::OnIncomingMessageRemoved
@@ -85,4 +86,3 @@ To implement this functionality in Visual Basic, select and implement the approp
 ## -see-also
 
 <a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
-

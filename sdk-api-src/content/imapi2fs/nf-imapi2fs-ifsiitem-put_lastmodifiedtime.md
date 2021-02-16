@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem::put_LastModifiedTime
+ - IFsiItem.put_LastModifiedTime
 ---
 
 # IFsiItem::put_LastModifiedTime
@@ -112,4 +112,3 @@ CDFS (ISO 9660) uses the date/time of recording as the <i>CreationTime</i> and <
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_lastmodifiedtime">IFsiItem::get_LastModifiedTime</a>
-

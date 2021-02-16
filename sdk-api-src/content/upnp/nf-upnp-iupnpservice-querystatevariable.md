@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPService::QueryStateVariable
+ - IUPnPService.QueryStateVariable
 ---
 
 # IUPnPService::QueryStateVariable
@@ -169,4 +169,3 @@ If an application invokes this method for a service that does not use events, an
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpservice-get_lasttransportstatus">IUPnPService::LastTransportStatus</a>
-

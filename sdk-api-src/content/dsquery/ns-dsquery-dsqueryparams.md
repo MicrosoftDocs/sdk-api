@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dsquery.h
 api_name:
- - LPDSQUERYPARAMS
  - DSQUERYPARAMS
 ---
 
@@ -100,4 +99,3 @@ Contains an array of <a href="/windows/desktop/api/dsquery/ns-dsquery-dscolumn">
 
 
 <a href="/windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow">ICommonQuery::OpenQueryWindow</a>
-

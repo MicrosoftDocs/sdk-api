@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::put_MessageDrain
+ - IVideoWindow.put_MessageDrain
 ---
 
 # IVideoWindow::put_MessageDrain
@@ -142,4 +142,3 @@ The message drain window does not need to be a parent of the video window, so fu
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_messagedrain">IVideoWindow::get_MessageDrain</a>
-

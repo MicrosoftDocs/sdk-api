@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_OPERATION_INFO
  - WSMAN_OPERATION_INFO
 ---
 
@@ -76,4 +75,3 @@ A <a href="/windows/desktop/api/wsman/ns-wsman-wsman_option_set">WSMAN_OPTION_SE
 ### -field reserved
 
 ### -field version
-

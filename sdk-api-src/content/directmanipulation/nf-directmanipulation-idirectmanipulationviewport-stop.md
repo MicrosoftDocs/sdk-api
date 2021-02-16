@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::Stop
+ - IDirectManipulationViewport.Stop
 ---
 
 # IDirectManipulationViewport::Stop
@@ -65,4 +65,3 @@ If a mandatory snap point has been configured, the content may animate to the ne
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Drt.h
 api_name:
- - drt_security_provider_tag
- - PDRT_SECURITY_PROVIDER
  - DRT_SECURITY_PROVIDER
 ---
 
@@ -507,4 +505,3 @@ Contains the signature to be verified.
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtregisterkey">DrtRegisterKey</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - InkPresenterDesktop.h
 api_name:
- - IInkPresenterDesktop::OnHighContrastChanged
+ - IInkPresenterDesktop.OnHighContrastChanged
 ---
 
 # IInkPresenterDesktop::OnHighContrastChanged
@@ -80,4 +80,3 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 <a href="https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/ComplexInk">Complex Ink sample</a>
 
 <a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/SimpleInk">Simple ink sample</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFClockStateSink::OnClockRestart
+ - IMFClockStateSink.OnClockRestart
 ---
 
 # IMFClockStateSink::OnClockRestart
@@ -84,4 +84,3 @@ For any object that is not the presentation time source, the <b>OnClockRestart</
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-

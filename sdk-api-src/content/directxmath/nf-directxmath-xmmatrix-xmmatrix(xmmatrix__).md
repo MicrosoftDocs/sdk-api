@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMMATRIX::XMMATRIX
+ - XMMATRIX.XMMATRIX
 ---
 
 # XMMATRIX::XMMATRIX(XMMATRIX &&)
@@ -67,4 +67,3 @@ A value.
 <a href="/windows/desktop/api/directxmath/ns-directxmath-xmmatrix">XMMATRIX</a>
 
 <a href="/windows/desktop/dxmath/xmmatrix-ctor">XMMATRIX Constructors</a>
-

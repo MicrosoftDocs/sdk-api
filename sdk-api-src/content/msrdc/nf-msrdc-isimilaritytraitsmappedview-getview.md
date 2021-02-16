@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMappedView::GetView
+ - ISimilarityTraitsMappedView.GetView
 ---
 
 # ISimilarityTraitsMappedView::GetView
@@ -69,4 +69,3 @@ If there is no mapped view, then <code>*mappedPageBegin</code> must be set to ze
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmappedview">ISimilarityTraitsMappedView</a>
-

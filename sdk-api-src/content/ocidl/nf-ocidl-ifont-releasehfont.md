@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::ReleaseHfont
+ - IFont.ReleaseHfont
 ---
 
 # IFont::ReleaseHfont
@@ -104,4 +104,3 @@ The font was not locked in the cache. This return value is a benign notification
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-addrefhfont">IFont::AddRefHfont</a>
-

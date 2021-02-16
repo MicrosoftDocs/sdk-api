@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - wtypesbase
  - wtypesbase/wtypesbase
-api_name:
- - wtypesbase
 ---
 
 # Wtypesbase.h header

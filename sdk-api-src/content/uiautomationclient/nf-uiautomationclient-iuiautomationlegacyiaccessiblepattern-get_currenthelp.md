@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern::get_CurrentHelp
+ - IUIAutomationLegacyIAccessiblePattern.CurrentHelp
+ - IUIAutomationLegacyIAccessiblePattern.get_CurrentHelp
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentHelp

@@ -9,8 +9,6 @@ tech.root: xaudio2
 f1_keywords:
  - xaudio2
  - xaudio2/xaudio2
-api_name:
- - xaudio2
 ---
 
 # Xaudio2.h header

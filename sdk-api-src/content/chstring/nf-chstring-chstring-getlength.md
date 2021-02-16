@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::GetLength
+ - CHString.GetLength
+ - ?GetLength@CHString@@QBEHXZ
+ - ?GetLength@CHString@@QEBAHXZ
 ---
 
 # CHString::GetLength
@@ -64,4 +66,3 @@ The <b>GetLength</b> method gets a count of the number of wide characters in thi
 ## -returns
 
 Returns a count of the number of wide characters in the string, not the number of bytes.
-

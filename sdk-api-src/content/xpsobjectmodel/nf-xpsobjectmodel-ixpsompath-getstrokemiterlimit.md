@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::GetStrokeMiterLimit
+ - IXpsOMPath.GetStrokeMiterLimit
 ---
 
 # IXpsOMPath::GetStrokeMiterLimit
@@ -112,4 +112,3 @@ The miter limit value describes how to render a mitered line join; this value ap
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN_MITER</a>
-

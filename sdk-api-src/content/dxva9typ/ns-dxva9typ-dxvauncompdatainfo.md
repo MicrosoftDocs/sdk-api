@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
- - _DXVAUncompDataInfo
  - DXVAUncompDataInfo
 ---
 
@@ -76,4 +75,3 @@ The pixel format of the uncompressed data, specified as a <b>D3DFORMAT</b> value
 
 
 <a href="/windows/desktop/medfound/idirect3dvideodevice9">IDirect3DVideoDevice9</a>
-

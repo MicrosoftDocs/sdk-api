@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::get_mute
+ - IWMPSettings.get_mute
 ---
 
 # IWMPSettings::get_mute
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_mute">IWMPSettings::put_mute</a>
-

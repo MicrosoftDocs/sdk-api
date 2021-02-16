@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgrEventSink::OnUninitDocumentMgr
+ - ITfThreadMgrEventSink.OnUninitDocumentMgr
 ---
 
 # ITfThreadMgrEventSink::OnUninitDocumentMgr
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink</a>
-

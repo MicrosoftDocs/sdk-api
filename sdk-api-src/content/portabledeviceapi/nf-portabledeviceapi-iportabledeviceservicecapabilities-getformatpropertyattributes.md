@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes
+ - IPortableDeviceServiceCapabilities.GetFormatPropertyAttributes
 ---
 
 # IPortableDeviceServiceCapabilities::GetFormatPropertyAttributes
@@ -79,4 +79,3 @@ Note that this method will not retrieve attributes that differ across object ins
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
-

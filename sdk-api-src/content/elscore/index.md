@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - elscore
  - elscore/elscore
-api_name:
- - elscore
 ---
 
 # Elscore.h header

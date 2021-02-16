@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - _FAX_TIME
- - PFAX_TIME
  - FAX_TIME
+ - FAX_TIMEA
+ - FAX_TIMEW
 ---
 
 # FAX_TIME structure
@@ -95,4 +95,3 @@ The <a href="/windows/desktop/api/winfax/ns-winfax-fax_configurationa">FAX_CONFI
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetconfigurationa">FaxSetConfiguration</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_ALLOCATE_SHARED_MEMORY
+ - AllocateSharedMemory
 ---
 
 # LSA_ALLOCATE_SHARED_MEMORY callback function
@@ -94,4 +94,3 @@ A pointer to the <b>AllocateSharedMemory</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

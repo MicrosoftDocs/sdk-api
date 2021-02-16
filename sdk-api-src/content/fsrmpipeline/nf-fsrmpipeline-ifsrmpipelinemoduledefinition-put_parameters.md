@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition::put_Parameters
+ - IFsrmPipelineModuleDefinition.Parameters
+ - IFsrmPipelineModuleDefinition.get_Parameters
+ - IFsrmPipelineModuleDefinition.put_Parameters
 ---
 
 # IFsrmPipelineModuleDefinition::put_Parameters
@@ -65,4 +67,3 @@ The parameters are included in the module definition that FSRM passes to the mod
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SecPkgContext_CipherInfo
- - PSecPkgContext_CipherInfo
  - SecPkgContext_CipherInfo
 ---
 
@@ -121,4 +119,3 @@ The sz exchange.
 ### -field szHash [SZ_ALG_MAX_SIZE]
 
 The sz hash.
-

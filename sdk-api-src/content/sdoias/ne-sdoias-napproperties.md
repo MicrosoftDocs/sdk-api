@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _NAPPROPERTIES
  - NAPPROPERTIES
 ---
 
@@ -69,4 +68,3 @@ Collection of System Health Validator (SHV) templates. See <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-policyproperties">POLICYPROPERTIES</a>
-

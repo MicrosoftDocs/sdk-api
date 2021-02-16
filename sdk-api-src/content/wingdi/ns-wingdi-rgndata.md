@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _RGNDATA
- - PRGNDATA
  - RGNDATA
 ---
 
@@ -83,4 +81,3 @@ Specifies an arbitrary-size buffer that contains the <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/gdi/regions">Regions Overview</a>
-

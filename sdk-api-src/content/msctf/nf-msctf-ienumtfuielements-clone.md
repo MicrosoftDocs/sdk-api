@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfUIElements::Clone
+ - IEnumTfUIElements.Clone
 ---
 
 # IEnumTfUIElements::Clone
@@ -101,4 +101,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

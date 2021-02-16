@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer::put_Item
+ - ITuningSpaceContainer.put_Item
 ---
 
 # ITuningSpaceContainer::put_Item
@@ -118,4 +118,3 @@ To add a new tuning space, use the <a href="/previous-versions/windows/desktop/a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-

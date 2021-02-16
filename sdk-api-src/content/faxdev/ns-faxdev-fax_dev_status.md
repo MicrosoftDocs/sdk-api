@@ -46,8 +46,6 @@ api_type:
 api_location:
  - FaxDev.h
 api_name:
- - _FAX_DEV_STATUS
- - PFAX_DEV_STATUS
  - FAX_DEV_STATUS
 ---
 
@@ -218,4 +216,3 @@ The fax service allocates the memory for the strings pointed to by the <b>CSI</b
 <a href="/previous-versions/windows/desktop/api/faxdev/nf-faxdev-faxdevsend">FaxDevSend</a>
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
-

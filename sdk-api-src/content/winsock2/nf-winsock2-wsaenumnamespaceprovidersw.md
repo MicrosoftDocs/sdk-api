@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSAEnumNameSpaceProvidersW
  - winsock2/WSAEnumNameSpaceProvidersW
- - WSAEnumNameSpaceProviders
- - winsock2/WSAEnumNameSpaceProviders
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAEnumNameSpaceProvidersW
  - WSAEnumNameSpaceProviders
+ - WSAEnumNameSpaceProvidersA
+ - WSAEnumNameSpaceProvidersW
 ---
 
 # WSAEnumNameSpaceProvidersW function
@@ -349,4 +348,3 @@ int wmain()
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-

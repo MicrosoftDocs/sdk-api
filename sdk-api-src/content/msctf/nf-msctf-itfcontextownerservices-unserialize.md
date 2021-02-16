@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextOwnerServices::Unserialize
+ - ITfContextOwnerServices.Unserialize
 ---
 
 # ITfContextOwnerServices::Unserialize
@@ -134,4 +134,3 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Serialize](nf-msctf-itfcontextownerservices-serialize.md), [ITfProperty interface](nn-msctf-itfproperty.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [TF_PERSISTENT_PROPERTY_HEADER_ACP structure](ns-msctf-tf_persistent_property_header_acp.md)
-

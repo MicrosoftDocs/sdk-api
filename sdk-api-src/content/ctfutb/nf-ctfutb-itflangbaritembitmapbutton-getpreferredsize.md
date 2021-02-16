@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBitmapButton::GetPreferredSize
+ - ITfLangBarItemBitmapButton.GetPreferredSize
 ---
 
 # ITfLangBarItemBitmapButton::GetPreferredSize
@@ -99,4 +99,3 @@ The results of this method are not currently used. The bitmap for a bitmap butto
 
 
 <a href="/previous-versions/dd145106(v=vs.85)">SIZE</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - _INFCONTEXT
- - PINFCONTEXT
  - INFCONTEXT
 ---
 
@@ -105,4 +103,3 @@ Line of the current section in the INF file.
 
 
 <a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
-

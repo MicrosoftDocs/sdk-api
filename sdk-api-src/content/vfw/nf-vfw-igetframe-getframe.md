@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IGetFrame::GetFrame
+ - IGetFrame.GetFrame
 ---
 
 # IGetFrame::GetFrame
@@ -87,4 +87,3 @@ LPVOID GetFrame(LONG lPos);
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

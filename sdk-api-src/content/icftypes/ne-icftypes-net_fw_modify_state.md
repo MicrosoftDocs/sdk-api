@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
- - NET_FW_MODIFY_STATE_
  - NET_FW_MODIFY_STATE
 ---
 
@@ -76,4 +75,3 @@ Changing or adding a firewall rule or firewall group to the current profile will
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
-

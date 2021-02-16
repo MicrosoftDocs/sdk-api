@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB::EndItemTransfer
+ - IPhotoAcquireProgressCB.EndItemTransfer
 ---
 
 # IPhotoAcquireProgressCB::EndItemTransfer
@@ -103,4 +103,3 @@ The method is not yet implemented
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-

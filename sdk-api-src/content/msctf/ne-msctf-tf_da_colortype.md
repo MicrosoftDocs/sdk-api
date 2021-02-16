@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
- - __MIDL___MIDL_itf_msctf_0000_0070_0002
  - TF_DA_COLORTYPE
 ---
 
@@ -77,4 +76,3 @@ The color is specified as an RGB value.
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_da_color">TF_DA_COLOR
       </a>
-

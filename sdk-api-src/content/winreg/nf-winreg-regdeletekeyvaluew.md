@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegDeleteKeyValueW
  - winreg/RegDeleteKeyValueW
- - RegDeleteKeyValue
- - winreg/RegDeleteKeyValue
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,10 @@ api_location:
  - KernelBase.dll
  - MinKernelBase.dll
 api_name:
- - RegDeleteKeyValueW
  - RegDeleteKeyValue
+ - RegDeleteKeyValueA
+ - RegDeleteKeyValueW
+ - kernel32.dll
 ---
 
 # RegDeleteKeyValueW function
@@ -118,4 +118,3 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidClosedCaptioning3::get_TeleTextFilter
+ - IMSVidClosedCaptioning3.get_TeleTextFilter
 ---
 
 # IMSVidClosedCaptioning3::get_TeleTextFilter
@@ -99,4 +99,3 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidclosedcaptioning3">IMSVidClosedCaptioning3 Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::GetClientSite
+ - IRichEditOle.GetClientSite
 ---
 
 # IRichEditOle::GetClientSite
@@ -69,4 +69,3 @@ Returns <b>S_OK</b> on success, or a failure code otherwise. <b>E_OUTOFMEMORY</b
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-

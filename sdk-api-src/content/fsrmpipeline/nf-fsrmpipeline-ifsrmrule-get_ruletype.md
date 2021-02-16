@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmRule::get_RuleType
+ - IFsrmRule.RuleType
+ - IFsrmRule.get_RuleType
 ---
 
 # IFsrmRule::get_RuleType
@@ -65,4 +66,3 @@ The name and rule type properties define a unique rule.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
-

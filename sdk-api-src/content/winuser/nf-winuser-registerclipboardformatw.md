@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 f1_keywords:
  - RegisterClipboardFormatW
  - winuser/RegisterClipboardFormatW
- - RegisterClipboardFormat
- - winuser/RegisterClipboardFormat
 dev_langs:
  - c++
 topic_type:
@@ -56,8 +53,10 @@ api_location:
  - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - RegisterClipboardFormatW
  - RegisterClipboardFormat
+ - RegisterClipboardFormatA
+ - RegisterClipboardFormatW
+req.apiset: ext-ms-win-ntuser-misc-l1-2-0 (introduced in Windows 8.1)
 ---
 
 # RegisterClipboardFormatW function
@@ -130,4 +129,3 @@ For an example, see <a href="/windows/desktop/dataxchg/using-the-clipboard">Regi
 
 
 <b>Reference</b>
-

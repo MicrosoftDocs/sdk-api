@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::getAttributeName
+ - IWMPMedia.getAttributeName
+ - IWMPMedia2.getAttributeName
+ - IWMPMedia3.getAttributeName
 ---
 
 # IWMPMedia::getAttributeName
@@ -101,4 +103,3 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo">IWMPMedia::getItemInfo</a>
-

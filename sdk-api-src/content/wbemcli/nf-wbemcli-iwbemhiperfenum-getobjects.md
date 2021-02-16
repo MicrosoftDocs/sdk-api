@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemHiPerfEnum::GetObjects
+ - IWbemHiPerfEnum.GetObjects
 ---
 
 # IWbemHiPerfEnum::GetObjects
@@ -84,4 +84,3 @@ The array must be large enough to hold all objects, or <i>puReturned</i> is fill
 ## -see-also
 
 <a href="/windows/desktop/api/wbemprov/nn-wbemprov-iwbemhiperfprovider">IWbemHiPerfEnum</a>
-

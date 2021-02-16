@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISpreadsheetProvider::GetItemByName
+ - ISpreadsheetProvider.GetItemByName
 ---
 
 # ISpreadsheetProvider::GetItemByName
@@ -79,4 +79,3 @@ A spreadsheet cell typically has a name such as “c5” or “a15”.  A name c
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ispreadsheetprovider">ISpreadsheetProvider</a>
-

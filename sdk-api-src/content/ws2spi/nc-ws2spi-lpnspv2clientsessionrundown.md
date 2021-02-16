@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - LPNSPV2CLIENTSESSIONRUNDOWN
+ - NSPv2ClientSessionRundown
 ---
 
 # LPNSPV2CLIENTSESSIONRUNDOWN callback function

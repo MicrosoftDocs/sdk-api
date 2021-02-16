@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - _TRUSTEE_TYPE
  - TRUSTEE_TYPE
 ---
 
@@ -106,4 +105,3 @@ Indicates a computer.
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

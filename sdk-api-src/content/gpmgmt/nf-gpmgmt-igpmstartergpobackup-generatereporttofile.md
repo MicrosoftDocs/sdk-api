@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMStarterGPOBackup::GenerateReportToFile
+ - IGPMStarterGPOBackup.GenerateReportToFile
 ---
 
 ## -description
@@ -93,4 +93,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpobackupcollection">IGPMStarterGPOBackupCollection</a>
-

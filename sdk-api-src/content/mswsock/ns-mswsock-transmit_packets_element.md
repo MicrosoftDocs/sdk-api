@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mswsock.h
 api_name:
- - _TRANSMIT_PACKETS_ELEMENT
- - PTRANSMIT_PACKETS_ELEMENT
  - TRANSMIT_PACKETS_ELEMENT
 ---
 
@@ -142,4 +140,3 @@ A pointer to the data in memory to be sent. Valid only if TP_ELEMENT_MEMORY is s
 
 
 <b>send</b>
-

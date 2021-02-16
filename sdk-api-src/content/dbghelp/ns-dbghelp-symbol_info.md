@@ -46,9 +46,9 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _SYMBOL_INFO
- - PSYMBOL_INFO
  - SYMBOL_INFO
+ - SYMBOL_INFO
+ - SYMBOL_INFOW
 ---
 
 # SYMBOL_INFO structure
@@ -341,4 +341,3 @@ The name of the symbol. The name can be undecorated if the SYMOPT_UNDNAME option
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypefromname">SymGetTypeFromName</a>
-

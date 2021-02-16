@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinCred.h
 api_name:
- - _CRED_MARSHAL_TYPE
- - PCRED_MARSHAL_TYPE
  - CRED_MARSHAL_TYPE
 ---
 
@@ -73,4 +71,3 @@ Specifies that the credential is a reference to a CRED_FLAGS_USERNAME_TARGET cre
 ### -field UsernameForPackedCredentials
 
 ### -field BinaryBlobForSystem
-

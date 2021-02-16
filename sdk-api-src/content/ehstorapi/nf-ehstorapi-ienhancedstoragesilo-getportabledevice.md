@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo::GetPortableDevice
+ - IEnhancedStorageSilo.GetPortableDevice
 ---
 
 # IEnhancedStorageSilo::GetPortableDevice
@@ -94,4 +94,3 @@ Pointer to <a href="/windows/win32/api/portabledeviceapi/nn-portabledeviceapi-ip
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-

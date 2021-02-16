@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_SERVER_1
- - PMPR_SERVER_1
  - MPR_SERVER_1
 ---
 
@@ -249,4 +247,3 @@ If set, Routing is enabled on the device.
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

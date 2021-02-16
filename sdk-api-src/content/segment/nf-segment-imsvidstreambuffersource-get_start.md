@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource::get_Start
+ - IMSVidStreamBufferSource.get_Start
 ---
 
 # IMSVidStreamBufferSource::get_Start
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
-

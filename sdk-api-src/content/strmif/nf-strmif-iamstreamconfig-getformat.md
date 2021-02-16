@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamConfig::GetFormat
+ - IAMStreamConfig.GetFormat
 ---
 
 # IAMStreamConfig::GetFormat
@@ -154,4 +154,3 @@ pConfig-&gt;Release();
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
-

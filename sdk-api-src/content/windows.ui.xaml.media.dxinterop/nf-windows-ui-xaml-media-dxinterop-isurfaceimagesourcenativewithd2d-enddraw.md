@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - ISurfaceImageSourceNativeWithD2D::EndDraw
+ - ISurfaceImageSourceNativeWithD2D.EndDraw
 ---
 
 # ISurfaceImageSourceNativeWithD2D::xaml
@@ -77,4 +77,3 @@ Always call the <b>EndDraw</b> method on the UI thread in order to synchronize u
 
 
 <a href="/uwp/api/windows.ui.xaml.media.imaging.virtualsurfaceimagesource">VirtualSurfaceImageSource</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnection::Connect
+ - IMbnConnection.Connect
 ---
 
 # IMbnConnection::Connect
@@ -163,4 +163,3 @@ Windows 8 and later versions of Windows: A Windows Store app may use <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-

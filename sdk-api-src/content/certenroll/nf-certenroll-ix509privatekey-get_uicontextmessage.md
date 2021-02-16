@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::get_UIContextMessage
+ - IX509PrivateKey.UIContextMessage
+ - IX509PrivateKey.get_UIContextMessage
+ - IX509PrivateKey.put_UIContextMessage
 ---
 
 # IX509PrivateKey::get_UIContextMessage
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

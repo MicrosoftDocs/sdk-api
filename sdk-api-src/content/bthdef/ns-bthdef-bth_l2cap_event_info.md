@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bthdef.h
 api_name:
- - _BTH_L2CAP_EVENT_INFO
- - PBTH_L2CAP_EVENT_INFO
  - BTH_L2CAP_EVENT_INFO
 ---
 
@@ -88,4 +86,3 @@ Notifications for a destroyed channel are only to be sent for channels that have
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothenablediscovery">Bluetooth and WM_DEVICECHANGE
 			 Messages</a>
-

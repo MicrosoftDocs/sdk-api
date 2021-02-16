@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTE2
+ - _XMUBYTE2
 ---
 
 # XMUBYTE2 structure
@@ -102,4 +102,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="/windows/desktop/dxmath/ovw-xmubyte2-extensions">XMUBYTE2 Extensions</a>
-

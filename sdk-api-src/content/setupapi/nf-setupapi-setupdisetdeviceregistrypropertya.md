@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetDeviceRegistryPropertyA
  - setupapi/SetupDiSetDeviceRegistryPropertyA
- - SetupDiSetDeviceRegistryProperty
- - setupapi/SetupDiSetDeviceRegistryProperty
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetDeviceRegistryPropertyA
- - SetupDiSetDeviceRegistryProperty
+ - SetupDiSetDeviceRegistryProperty - SetupDiSetDeviceRegistryPropertyA
 ---
 
 # SetupDiSetDeviceRegistryPropertyA function
@@ -144,4 +141,3 @@ The class name property cannot be set because it is based on the corresponding c
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclassregistrypropertya">SetupDiSetClassRegistryProperty</a>
-

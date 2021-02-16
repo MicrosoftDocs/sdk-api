@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::put_accValue
+ - IAccessible.put_accValue
 ---
 
 # IAccessible::put_accValue
@@ -106,4 +106,3 @@ An argument is not valid.
 ## -remarks
 
 The <b>IAccessible::put_accValue</b> method is supported for some UI elements (usually edit controls). For UI elements that do not support this method, control-specific methods are used instead. For more information, see <a href="/windows/desktop/WinAuto/appendix-a--supported-user-interface-elements-reference">Supported User Interface Element Reference</a>.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_TRANSPORT_INFO_1
- - PSERVER_TRANSPORT_INFO_1
  - SERVER_TRANSPORT_INFO_1
 ---
 
@@ -170,4 +168,3 @@ The
 
 
 <a href="/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
-

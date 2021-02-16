@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _BRUSHOBJ
  - BRUSHOBJ
 ---
 
@@ -127,4 +126,3 @@ For a description of the FLONG data type, see <a href="/windows-hardware/drivers
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-brushobj_ulgetbrushcolor">BRUSHOBJ_ulGetBrushColor</a>
-

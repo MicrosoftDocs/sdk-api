@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::RunClassification
+ - IFsrmClassificationManager.RunClassification
+ - IFsrmClassificationManager2.RunClassification
+ - FsrmClassificationManager.RunClassification
 ---
 
 # IFsrmClassificationManager::RunClassification
@@ -112,4 +114,3 @@ FSRM does not apply the classification rule if the rule, file, and cache are val
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

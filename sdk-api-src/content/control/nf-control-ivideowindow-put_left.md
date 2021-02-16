@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::put_Left
+ - IVideoWindow.put_Left
 ---
 
 # IVideoWindow::put_Left
@@ -114,4 +114,3 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_left">IVideoWindow::get_Left</a>
-

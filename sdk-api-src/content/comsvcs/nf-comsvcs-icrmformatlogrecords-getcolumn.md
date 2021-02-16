@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmFormatLogRecords::GetColumn
+ - ICrmFormatLogRecords.GetColumn
 ---
 
 # ICrmFormatLogRecords::GetColumn
@@ -109,4 +109,3 @@ The log record could not be formatted.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
-

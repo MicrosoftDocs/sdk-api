@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _SRestriction
- - LPSRestriction
  - SRestriction
 ---
 

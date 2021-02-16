@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFINPUTTRUSTAUTHORITY_ACTION
  - MFINPUTTRUSTAUTHORITY_ACCESS_ACTION
 ---
 
@@ -72,4 +71,3 @@ Size of the ticket object, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

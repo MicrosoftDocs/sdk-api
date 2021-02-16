@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IAdviseSink::OnSave
+ - IAdviseSink.OnSave
 ---
 
 # IAdviseSink::OnSave
@@ -61,4 +61,3 @@ Object handlers and link objects normally implement <b>IAdviseSink::OnSave</b> t
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
-

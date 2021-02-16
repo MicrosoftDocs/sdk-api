@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1::IsTemporaryMonoSupported
+ - IDXGISwapChain1.IsTemporaryMonoSupported
 ---
 
 # IDXGISwapChain1::IsTemporaryMonoSupported
@@ -69,4 +69,3 @@ flag.  All windowed swap chains support temporary mono. However, full-screen swa
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgiswapchain1">IDXGISwapChain1</a>
-

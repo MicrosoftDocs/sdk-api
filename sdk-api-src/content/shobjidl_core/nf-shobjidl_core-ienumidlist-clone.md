@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEnumIDList::Clone
+ - IEnumIDList.Clone
 ---
 
 # IEnumIDList::Clone
@@ -73,4 +73,3 @@ This method makes it possible to record a particular point in the enumeration se
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>
-

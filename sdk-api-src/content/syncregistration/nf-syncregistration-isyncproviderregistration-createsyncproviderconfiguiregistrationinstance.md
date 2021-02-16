@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance
+ - ISyncProviderRegistration.CreateSyncProviderConfigUIRegistrationInstance
 ---
 
 # ISyncProviderRegistration::CreateSyncProviderConfigUIRegistrationInstance
@@ -117,4 +117,3 @@ The configuration UI is not registered on the system until the <b>ISyncProviderC
 
 
 <a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
-

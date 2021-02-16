@@ -42,7 +42,8 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEnumerator::get_Error
+ - IWSManEnumerator.Error
+ - IWSManEnumerator.get_Error
 ---
 
 # IWSManEnumerator::get_Error
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
-

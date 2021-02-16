@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistFile::GetCurFile
+ - IPersistFile.GetCurFile
 ---
 
 # IPersistFile::GetCurFile
@@ -131,4 +131,3 @@ In saving the object, you can call this method before calling <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
-

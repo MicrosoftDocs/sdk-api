@@ -9,8 +9,6 @@ tech.root: buses
 f1_keywords:
  - usbuser
  - usbuser/usbuser
-api_name:
- - usbuser
 ---
 
 # Usbuser.h header

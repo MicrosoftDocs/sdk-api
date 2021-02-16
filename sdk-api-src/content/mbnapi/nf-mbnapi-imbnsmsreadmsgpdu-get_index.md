@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgPdu::get_Index
+ - IMbnSmsReadMsgPdu.Index
+ - IMbnSmsReadMsgPdu.get_Index
 ---
 
 # IMbnSmsReadMsgPdu::get_Index
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a>
-

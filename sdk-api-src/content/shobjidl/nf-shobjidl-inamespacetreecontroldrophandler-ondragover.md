@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler::OnDragOver
+ - INameSpaceTreeControlDropHandler.OnDragOver
 ---
 
 # INameSpaceTreeControlDropHandler::OnDragOver
@@ -95,4 +95,3 @@ Failing this method blocks the drag operation in the namespace tree control (NST
 
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-inamespacetreecontroldrophandler">INameSpaceTreeControlDropHandler</a>
-

@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - iwscapi
  - iwscapi/iwscapi
-api_name:
- - iwscapi
 ---
 
 # Iwscapi.h header

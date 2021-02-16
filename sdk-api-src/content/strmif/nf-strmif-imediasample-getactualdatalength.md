@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Quartz.dll
 api_name:
- - IMediaSample::GetActualDataLength
+ - IMediaSample.GetActualDataLength
 ---
 
 # IMediaSample::GetActualDataLength
@@ -65,4 +65,3 @@ Returns the length of the valid data, in bytes.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-

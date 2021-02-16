@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDataObjectAsyncCapability::StartOperation
+ - IDataObjectAsyncCapability.StartOperation
 ---
 
 # IDataObjectAsyncCapability::StartOperation
@@ -73,4 +73,3 @@ The drop target calls this method to notify the data object that asynchronous da
 ## -see-also
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-idataobjectasynccapability">IDataObjectAsyncCapability</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFGetService::GetService
+ - IMFGetService.GetService
 ---
 
 # IMFGetService::GetService
@@ -111,4 +111,3 @@ The object does not support the service.
 
 
 <a href="/windows/desktop/medfound/service-interfaces">Service Interfaces</a>
-

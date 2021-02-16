@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9Ex::PresentEx
+ - IDirect3DDevice9Ex.PresentEx
 ---
 
 # IDirect3DDevice9Ex::PresentEx
@@ -126,4 +126,3 @@ When the swapchain is created with <a href="/windows/desktop/direct3d9/d3dswapef
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
-

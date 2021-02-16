@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::get_ImportedVolumeName
+ - IFileSystemImage.get_ImportedVolumeName
 ---
 
 # IFileSystemImage::get_ImportedVolumeName
@@ -97,4 +97,3 @@ The imported volume name is provided for user information and is not automatical
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_volumename">IFileSystemImage::put_VolumeName</a>
-

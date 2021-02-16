@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents::ItemRenamed
+ - IOfflineFilesEvents.ItemRenamed
 ---
 
 # IOfflineFilesEvents::ItemRenamed
@@ -78,4 +78,3 @@ This event is sent whenever a server, share, directory or file is renamed in the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
-

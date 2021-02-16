@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemFilter::GetEnumFlagsForItem
+ - IShellItemFilter.GetEnumFlagsForItem
 ---
 
 # IShellItemFilter::GetEnumFlagsForItem
@@ -83,4 +83,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf">SHCONTF</a>
-

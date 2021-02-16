@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProviderCollection::get_Count
+ - ITraceDataProviderCollection.Count
+ - ITraceDataProviderCollection.get_Count
 ---
 
 # ITraceDataProviderCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
-

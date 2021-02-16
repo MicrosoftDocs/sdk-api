@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiOpenPackageW
  - msi/MsiOpenPackageW
- - MsiOpenPackage
- - msi/MsiOpenPackage
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiOpenPackageW
  - MsiOpenPackage
+ - MsiOpenPackageA
+ - MsiOpenPackageW
 ---
 
 # MsiOpenPackageW function
@@ -150,4 +149,3 @@ MsiOpenPackage can accept an opened database handle in the form "#nnnn", where n
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
-

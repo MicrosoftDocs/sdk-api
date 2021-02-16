@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_AP_LOGON_TERMINATED
+ - LsaApLogonTerminated
 ---
 
 # LSA_AP_LOGON_TERMINATED callback function

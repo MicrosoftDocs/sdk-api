@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_BOOTP_IP_RANGE
- - LPDHCP_BOOT_IP_RANGE
  - DHCP_BOOTP_IP_RANGE
 ---
 
@@ -75,4 +73,3 @@ Specifies the number of BOOTP clients with addresses served from this range.
 ### -field MaxBootpAllowed
 
 Specifies the maximum number of BOOTP clients this range is allowed to serve.
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithms::get_ItemByName
+ - ICspAlgorithms.ItemByName
+ - ICspAlgorithms.get_ItemByName
 ---
 
 # ICspAlgorithms::get_ItemByName
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithms">ICspAlgorithms</a>
-

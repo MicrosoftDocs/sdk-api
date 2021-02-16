@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::get_ControlViewCondition
+ - IUIAutomation.ControlViewCondition
+ - IUIAutomation.get_ControlViewCondition
 ---
 
 # IUIAutomation::get_ControlViewCondition
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPITcpConnectionInfo::get_LocalIP
+ - IRDPSRAPITcpConnectionInfo.LocalIP
+ - IRDPSRAPITcpConnectionInfo.get_LocalIP
+ - RDPSRAPITcpConnectionInfo.LocalIP
 ---
 
 # IRDPSRAPITcpConnectionInfo::get_LocalIP
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitcpconnectioninfo">IRDPSRAPITcpConnectionInfo</a>
-

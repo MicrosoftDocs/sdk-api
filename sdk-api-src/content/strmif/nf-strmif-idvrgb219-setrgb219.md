@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDVRGB219::SetRGB219
+ - IDVRGB219.SetRGB219
 ---
 
 # IDVRGB219::SetRGB219
@@ -95,4 +95,3 @@ For the encoder, this method has no effect unless the input type is RGB-24. For 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvrgb219">IDVRGB219 Interface</a>
-

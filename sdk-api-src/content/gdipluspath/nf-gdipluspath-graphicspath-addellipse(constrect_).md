@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath::AddEllipse
+ - GraphicsPath.AddEllipse
 ---
 
 # GraphicsPath::AddEllipse(IN const Rect &)
@@ -131,4 +131,3 @@ VOID Example_AddEllipse(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagTYPEFLAGS
  - TYPEFLAGS
 ---
 
@@ -134,4 +133,3 @@ The <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-cre
 
 
 When TYPEFLAG_FCANCREATE is set, <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-itypeinfo-createinstance">CreateInstance</a> can create an instance of this type. This is true only for component object classes for which a globally unique identifier (GUID) has been specified.
-

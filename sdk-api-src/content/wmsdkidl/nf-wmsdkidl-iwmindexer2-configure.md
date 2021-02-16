@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMIndexer2::Configure
+ - IWMIndexer2.Configure
 ---
 
 # IWMIndexer2::Configure
@@ -119,4 +119,3 @@ If you configure the indexer to build a frame-based index, it will also create a
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmindexer2">IWMIndexer2 Interface</a>
-

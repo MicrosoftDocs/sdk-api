@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsWriter.h
 api_name:
- - IVssExpressWriter::CreateMetadata
+ - IVssExpressWriter.CreateMetadata
 ---
 
 # IVssExpressWriter::CreateMetadata
@@ -104,4 +104,3 @@ If a writer does not specify a version number, VSS will assign a default version
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-

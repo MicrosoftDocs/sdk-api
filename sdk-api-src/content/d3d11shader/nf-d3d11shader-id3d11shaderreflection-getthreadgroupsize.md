@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection::GetThreadGroupSize
+ - ID3D11ShaderReflection.GetThreadGroupSize
 ---
 
 # ID3D11ShaderReflection::GetThreadGroupSize
@@ -91,4 +91,3 @@ When a compute shader is written it defines the actions of a single thread group
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection">ID3D11ShaderReflection</a>
-

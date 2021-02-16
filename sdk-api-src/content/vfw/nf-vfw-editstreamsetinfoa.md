@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EditStreamSetInfoA
  - vfw/EditStreamSetInfoA
- - EditStreamSetInfo
- - vfw/EditStreamSetInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - EditStreamSetInfoA
  - EditStreamSetInfo
+ - EditStreamSetInfoA
+ - EditStreamSetInfoW
 ---
 
 # EditStreamSetInfoA function
@@ -116,4 +115,3 @@ The function changes the following members:
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-

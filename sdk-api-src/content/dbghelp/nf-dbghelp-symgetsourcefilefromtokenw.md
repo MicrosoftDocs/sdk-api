@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymGetSourceFileFromTokenW
  - dbghelp/SymGetSourceFileFromTokenW
- - SymGetSourceFileFromToken
- - dbghelp/SymGetSourceFileFromToken
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymGetSourceFileFromTokenW
  - SymGetSourceFileFromToken
+ - SymGetSourceFileFromToken
+ - SymGetSourceFileFromTokenW
 ---
 
 # SymGetSourceFileFromTokenW function
@@ -107,4 +106,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/Debug/source-server-and-source-indexing">Source Server</a>
-

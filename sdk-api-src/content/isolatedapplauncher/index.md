@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - isolatedapplauncher
  - isolatedapplauncher/isolatedapplauncher
-api_name:
- - isolatedapplauncher
 ---
 
 # Isolatedapplauncher.h header

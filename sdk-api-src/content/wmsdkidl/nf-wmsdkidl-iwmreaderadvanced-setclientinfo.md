@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced::SetClientInfo
+ - IWMReaderAdvanced.SetClientInfo
 ---
 
 # IWMReaderAdvanced::SetClientInfo
@@ -118,4 +118,3 @@ hr = pReaderAdvanced->SetClientInfo( &info );
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
-

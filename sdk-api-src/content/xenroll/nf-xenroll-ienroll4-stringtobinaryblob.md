@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4::stringToBinaryBlob
+ - IEnroll4.stringToBinaryBlob
 ---
 
 # IEnroll4::stringToBinaryBlob
@@ -83,4 +83,3 @@ A pointer to <b>LONG</b> that receives the actual format used in the conversion
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

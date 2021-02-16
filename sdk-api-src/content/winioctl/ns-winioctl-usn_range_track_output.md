@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PUSN_RANGE_TRACK_OUTPUT
  - USN_RANGE_TRACK_OUTPUT
 ---
 
@@ -67,4 +66,3 @@ This structure is optional.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges">FSCTL_USN_TRACK_MODIFIED_RANGES</a>
-

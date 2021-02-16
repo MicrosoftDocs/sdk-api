@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasDeleteEntryA
  - ras/RasDeleteEntryA
- - RasDeleteEntry
- - ras/RasDeleteEntry
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasDeleteEntryA
  - RasDeleteEntry
+ - RasDeleteEntryA
+ - RasDeleteEntryW
 ---
 
 # RasDeleteEntryA function
@@ -202,4 +201,3 @@ DWORD __cdecl wmain(){
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

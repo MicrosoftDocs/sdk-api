@@ -46,8 +46,6 @@ api_type:
 api_location:
  - relogger.h
 api_name:
- - _EVENT_HEADER
- - PEVENT_HEADER
  - EVENT_HEADER
 ---
 
@@ -249,4 +247,3 @@ The <b>TimerResolution</b> of the <a href="/windows/desktop/ETW/trace-logfile-he
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_record">EVENT_RECORD</a>
-

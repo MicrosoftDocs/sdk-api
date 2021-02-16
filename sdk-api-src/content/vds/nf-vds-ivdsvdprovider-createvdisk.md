@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVdProvider::CreateVDisk
+ - IVdsVdProvider.CreateVDisk
 ---
 
 # IVdsVdProvider::CreateVDisk
@@ -152,4 +152,3 @@ If the virtual disk with the specified file name does not exist, it is created. 
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
-

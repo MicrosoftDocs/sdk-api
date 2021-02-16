@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ExplorerFrame.dll
 api_name:
- - IFolderViewOptions::SetFolderViewOptions
+ - IFolderViewOptions.SetFolderViewOptions
 ---
 
 # IFolderViewOptions::SetFolderViewOptions
@@ -71,4 +71,3 @@ A bitmask that contains the new values for the options specified in <i>fvoMask</
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

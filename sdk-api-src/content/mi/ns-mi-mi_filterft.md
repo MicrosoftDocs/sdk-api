@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_FilterFT
  - MI_FilterFT
 ---
 
@@ -65,4 +64,3 @@ The provider calls this function to evaluate an instance against a given filter.
 
 Gets the filter language and expression. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_filter_getexpression">MI_Filter_GetExpression</a>.
-

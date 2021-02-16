@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCSettings::IsLoggingRequired
+ - IWPCSettings.IsLoggingRequired
 ---
 
 # IWPCSettings::IsLoggingRequired
@@ -116,4 +116,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcsettings">IWPCSettings</a>
-

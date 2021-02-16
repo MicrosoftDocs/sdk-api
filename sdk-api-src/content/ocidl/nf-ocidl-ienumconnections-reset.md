@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ocidl.h
 api_name:
- - IEnumConnections::Reset
+ - IEnumConnections.Reset
 ---
 
 # IEnumConnections::Reset
@@ -65,4 +65,3 @@ There is no guarantee that the same set of objects will be enumerated after the 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
-

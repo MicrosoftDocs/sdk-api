@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2::ImportComponents
+ - ICOMAdminCatalog2.ImportComponents
 ---
 
 # ICOMAdminCatalog2::ImportComponents
@@ -104,4 +104,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-

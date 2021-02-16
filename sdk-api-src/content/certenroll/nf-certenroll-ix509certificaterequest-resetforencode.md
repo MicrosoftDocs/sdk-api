@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::ResetForEncode
+ - IX509CertificateRequest.ResetForEncode
 ---
 
 # IX509CertificateRequest::ResetForEncode
@@ -132,4 +132,3 @@ This method is typically used for a CMC key archival request when the private ke
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Tools::ShaderInstrumentationEnabled
+ - ID3D12Tools.ShaderInstrumentationEnabled
 ---
 
 # ID3D12Tools::ShaderInstrumentationEnabled
@@ -69,4 +69,3 @@ Developer Mode must be enabled for this interface to respond.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12tools">ID3D12Tools</a>
-

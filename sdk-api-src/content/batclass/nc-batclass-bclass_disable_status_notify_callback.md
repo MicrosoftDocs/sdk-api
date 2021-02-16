@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
+ - BatteryMiniDisableStatusNotify
 ---
 
 # BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback function
@@ -117,4 +117,3 @@ Miniclass drivers that supply a fully functional <i>BatteryMiniDisableStatusNoti
 
 
 <a href="/windows/desktop/api/batclass/nc-batclass-bclass_set_status_notify_callback">BatteryMiniSetStatusNotify</a>
-

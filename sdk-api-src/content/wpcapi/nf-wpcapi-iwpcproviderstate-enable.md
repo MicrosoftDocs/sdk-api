@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCProviderState::Enable
+ - IWPCProviderState.Enable
 ---
 
 # IWPCProviderState::Enable
@@ -67,4 +67,3 @@ This method is called when the current provider is changed through the drop-down
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderstate">IWPCProviderState</a>
-

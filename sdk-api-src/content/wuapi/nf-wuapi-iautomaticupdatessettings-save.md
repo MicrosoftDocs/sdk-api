@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings::Save
+ - IAutomaticUpdatesSettings.Save
 ---
 
 # IAutomaticUpdatesSettings::Save
@@ -73,4 +73,3 @@ Saving settings with a <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticup
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
-

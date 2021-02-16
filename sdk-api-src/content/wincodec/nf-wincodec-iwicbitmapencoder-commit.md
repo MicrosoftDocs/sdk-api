@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapEncoder::Commit
+ - IWICBitmapEncoder.Commit
 ---
 
 # IWICBitmapEncoder::Commit
@@ -80,4 +80,3 @@ For the encoder <b>Commit</b> to succeed, you must at a minimum call  <a href="/
 
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder">IWICBitmapEncoder</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtDevice::get_DevicePower
+ - IAMExtDevice.get_DevicePower
 ---
 
 # IAMExtDevice::get_DevicePower
@@ -119,4 +119,3 @@ The <a href="/windows/desktop/DirectShow/msdv-driver">MSDV</a> and UVC drivers r
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamextdevice-put_devicepower">IAMExtDevice::put_DevicePower</a>
-

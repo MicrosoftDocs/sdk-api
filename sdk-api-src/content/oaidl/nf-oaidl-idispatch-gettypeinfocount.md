@@ -42,7 +42,8 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IDispatch::GetTypeInfoCount
+ - IDispatch.GetTypeInfoCount
+ - IAccessible.GetTypeInfoCount
 ---
 
 # IDispatch::GetTypeInfoCount
@@ -121,4 +122,3 @@ CLines::GetTypeInfoCount(UINT * pctinfo)
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

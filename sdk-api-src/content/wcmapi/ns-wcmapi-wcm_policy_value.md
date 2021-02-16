@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_POLICY_VALUE
- - PWCM_POLICY_VALUE
  - WCM_POLICY_VALUE
 ---
 

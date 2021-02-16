@@ -42,7 +42,13 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew
+ - ICEnroll4.ReuseHardwareKeyIfUnableToGenNew
+ - ICEnroll4.get_ReuseHardwareKeyIfUnableToGenNew
+ - ICEnroll4.put_ReuseHardwareKeyIfUnableToGenNew
+ - ICEnroll3.ReuseHardwareKeyIfUnableToGenNew
+ - ICEnroll3.get_ReuseHardwareKeyIfUnableToGenNew
+ - ICEnroll3.put_ReuseHardwareKeyIfUnableToGenNew
+ - CEnroll.ReuseHardwareKeyIfUnableToGenNew
 ---
 
 # ICEnroll3::get_ReuseHardwareKeyIfUnableToGenNew
@@ -99,4 +105,3 @@ else
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-

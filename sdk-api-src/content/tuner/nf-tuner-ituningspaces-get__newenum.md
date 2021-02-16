@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaces::get__NewEnum
+ - ITuningSpaces.get__NewEnum
 ---
 
 # ITuningSpaces::get__NewEnum
@@ -73,4 +73,3 @@ The returned <b>IEnumVARIANT</b> interface is not thread safe, because it is int
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspaces">ITuningSpaces Interface</a>
-

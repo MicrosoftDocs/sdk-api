@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegLoadAppKeyW
  - winreg/RegLoadAppKeyW
- - RegLoadAppKey
- - winreg/RegLoadAppKey
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegLoadAppKeyW
  - RegLoadAppKey
+ - RegLoadAppKeyA
+ - RegLoadAppKeyW
 ---
 
 # RegLoadAppKeyW function
@@ -130,4 +129,3 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 <a href="/windows/desktop/SysInfo/registry-hives">Registry Hive</a>
-

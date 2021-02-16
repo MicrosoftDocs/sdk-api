@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursorButton::get_State
+ - IInkCursorButton.State
+ - IInkCursorButton.get_State
+ - IInkCursorButton.get_State
 ---
 
 # IInkCursorButton::get_State
@@ -70,4 +72,3 @@ For a detailed list of state values that you can use, see the <a href="/windows/
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate">InkCursorButtonState Enumeration</a>
-

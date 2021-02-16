@@ -44,7 +44,6 @@ api_type:
 api_location:
  - vds.h
 api_name:
- - _VDS_PARTITION_INFORMATION_EX
  - VDS_PARTITION_INFORMATION_EX
 ---
 
@@ -60,4 +59,3 @@ Not supported.
 This structure is reserved for system use.
 
 ## -struct-fields
-

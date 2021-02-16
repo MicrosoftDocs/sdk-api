@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice2::GetFormatSupport2
+ - IWMDMDevice2.GetFormatSupport2
 ---
 
 # IWMDMDevice2::GetFormatSupport2
@@ -130,4 +130,3 @@ This method extends <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-g
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-getformatcapability">IWMDMDevice3::GetFormatCapability</a>
-

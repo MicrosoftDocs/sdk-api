@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI::SetAllSettingsWithNotify
+ - ICodecAPI.SetAllSettingsWithNotify
 ---
 
 # ICodecAPI::SetAllSettingsWithNotify
@@ -119,4 +119,3 @@ Codecs that implement <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-icodecapi-getvalue">ICodecAPI::GetValue</a>
-

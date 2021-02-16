@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msinkaut.h
 api_name:
- - InkClipboardFormats
+ - InkClipboardFormatFlags
 ---
 
 # InkClipboardFormats enumeration
@@ -115,4 +115,3 @@ In C++, explicit casting is required when trying to set more than one flag at a 
 
 
 <a href="/windows/desktop/tablet/sink-and-tink-objects">sInk and tInk Objects</a>
-

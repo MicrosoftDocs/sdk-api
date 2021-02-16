@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
+ - IDXGIFactoryMedia.CreateSwapChainForCompositionSurfaceHandle
 ---
 
 # IDXGIFactoryMedia::CreateSwapChainForCompositionSurfaceHandle
@@ -97,4 +97,3 @@ A pointer to a variable that receives a pointer to the <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>
-

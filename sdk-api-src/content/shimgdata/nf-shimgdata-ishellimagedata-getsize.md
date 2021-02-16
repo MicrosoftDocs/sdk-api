@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::GetSize
+ - IShellImageData.GetSize
 ---
 
 # IShellImageData::GetSize
@@ -83,4 +83,3 @@ The image has not been decoded or the decoding process failed.
 </td>
 </tr>
 </table>
-

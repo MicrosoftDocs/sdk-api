@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CryptSignHashW
  - wincrypt/CryptSignHashW
- - CryptSignHash
- - wincrypt/CryptSignHash
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptSignHashW
  - CryptSignHash
+ - CryptSignHashA
+ - CryptSignHashW
 ---
 
 # CryptSignHashW function
@@ -421,4 +420,3 @@ For a complete example including the  context for this code, see
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Hash and Digital Signature Functions</a>
-

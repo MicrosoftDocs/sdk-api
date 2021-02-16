@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPackageExecutionStateChangeNotification::OnStateChanged
+ - IPackageExecutionStateChangeNotification.OnStateChanged
 ---
 
 # IPackageExecutionStateChangeNotification::OnStateChanged
@@ -73,4 +73,3 @@ Return <b>S_OK</b> when you implement the <b>OnStateChanged</b>method.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-registerforpackagestatechanges">RegisterForPackageStateChanges</a>
-

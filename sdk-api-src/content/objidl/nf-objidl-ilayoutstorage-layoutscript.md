@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILayoutStorage::LayoutScript
+ - ILayoutStorage.LayoutScript
 ---
 
 # ILayoutStorage::LayoutScript
@@ -94,4 +94,3 @@ When the optimal data-layout pattern of an entire compound file has been determi
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-storagelayout">StorageLayout</a>
-

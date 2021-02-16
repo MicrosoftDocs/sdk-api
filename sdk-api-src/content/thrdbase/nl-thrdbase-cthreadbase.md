@@ -44,6 +44,7 @@ api_location:
  - FrameDyn.dll
 api_name:
  - CThreadBase
+ - ??1CThreadBase@@UAE@XZ
 ---
 
 # CThreadBase class
@@ -144,4 +145,3 @@ Virtual function called by <a href="/windows/desktop/api/unknwn/nf-unknwn-iunkno
 ## -remarks
 
 The destructor for the class is <b>CWbemGlueFactory::~CWbemGlueFactory</b>.
-

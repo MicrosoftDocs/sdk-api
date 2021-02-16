@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidFilePlayback::get_FileName
+ - IMSVidFilePlayback.get_FileName
 ---
 
 # IMSVidFilePlayback::get_FileName
@@ -87,4 +87,3 @@ The caller must release the returned string, using the <b>CoTaskMemFree</b> func
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback">IMSVidFilePlayback Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ChangeServiceConfig2W
  - winsvc/ChangeServiceConfig2W
- - ChangeServiceConfig2
- - winsvc/ChangeServiceConfig2
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ChangeServiceConfig2W
  - ChangeServiceConfig2
+ - ChangeServiceConfig2A
+ - ChangeServiceConfig2W
 ---
 
 # ChangeServiceConfig2W function
@@ -336,4 +335,3 @@ For an example, see
 
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr::GetPreservedKeyDescription
+ - ITfKeystrokeMgr.GetPreservedKeyDescription
 ---
 
 # ITfKeystrokeMgr::GetPreservedKeyDescription
@@ -117,4 +117,3 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue::GetInstancesByQuery
+ - CWbemProviderGlue.GetInstancesByQuery
 ---
 
 # CWbemProviderGlue::GetInstancesByQuery(LPCWSTR,TRefPointerCollection<CInstance>,MethodContext,LPCWSTR)
@@ -86,4 +86,3 @@ The method returns <b>WBEM_S_NO_ERROR</b> if the operation was successful, <b>WB
 The <b>GetInstancesByQuery</b> method allows framework providers to access data from other providers without having to make a WMI API call. Framework providers pass a query to <b>GetInstancesByQuery</b>, which returns the appropriate instances.
 
 For performance reasons, when calling this function, specify only the properties you need (for example, specify "SELECT <i>name</i>" instead of "SELECT *").
-

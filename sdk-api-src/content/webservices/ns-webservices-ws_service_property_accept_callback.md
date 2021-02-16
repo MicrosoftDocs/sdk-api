@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
  - WS_SERVICE_PROPERTY_ACCEPT_CALLBACK
 ---
 

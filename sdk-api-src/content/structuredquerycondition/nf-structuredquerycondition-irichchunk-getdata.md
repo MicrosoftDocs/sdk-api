@@ -42,7 +42,7 @@ api_type:
 api_location:
  - StructuredQueryCondition.h
 api_name:
- - IRichChunk::GetData
+ - IRichChunk.GetData
 ---
 
 # IRichChunk::GetData
@@ -91,4 +91,3 @@ Prior to Windows 7, this was declared in structuredquery.idl and structuredquer
 ## -see-also
 
 <a href="/windows/desktop/api/structuredquerycondition/nn-structuredquerycondition-irichchunk">IRichChunk</a>
-

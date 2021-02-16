@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo::GetComment
+ - ISyncMgrSyncItemInfo.GetComment
 ---
 
 # ISyncMgrSyncItemInfo::GetComment
@@ -75,4 +75,3 @@ The comment value is displayed as the System.Sync.Comments (PKEY_Sync_Comments) 
 Sync Center calls this method whenever the <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrcontrol-updatehandler">UpdateHandler</a> method is called.
 
 The item is responsible for allocating the string buffer pointed to by <i>ppszComment</i> through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>. Sync Center deallocates the string buffer through <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-

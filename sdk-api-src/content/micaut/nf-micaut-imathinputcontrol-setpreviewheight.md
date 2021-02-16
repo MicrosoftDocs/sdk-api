@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::SetPreviewHeight
+ - IMathInputControl.SetPreviewHeight
 ---
 
 # IMathInputControl::SetPreviewHeight
@@ -136,4 +136,3 @@ The following image shows the Math Input Control with a custom preview height.
 
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-

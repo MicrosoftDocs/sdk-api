@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::SetPrimitiveBlend
+ - ID2D1DeviceContext.SetPrimitiveBlend
 ---
 
 # ID2D1DeviceContext::SetPrimitiveBlend
@@ -75,4 +75,3 @@ If the primitive blend is anything other than <b>D2D1_PRIMITIVE_BLEND_SOURCE_OVE
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-

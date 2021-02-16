@@ -43,7 +43,8 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile::get_Services
+ - INetFwProfile.Services
+ - INetFwProfile.get_Services
 ---
 
 # INetFwProfile::get_Services
@@ -66,4 +67,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwservices">INetFwServices</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTE4::XMUBYTE4
+ - XMUBYTE4.XMUBYTE4
 ---
 
 # XMUBYTE4::XMUBYTE4(float,float,float,float)
@@ -112,4 +112,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmubyte4-ctor">XMUBYTE4 Constructors</a>
-

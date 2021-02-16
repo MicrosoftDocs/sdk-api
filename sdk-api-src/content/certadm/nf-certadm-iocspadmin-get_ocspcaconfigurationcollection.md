@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPAdmin::get_OCSPCAConfigurationCollection
+ - IOCSPAdmin.OCSPCAConfigurationCollection
+ - IOCSPAdmin.get_OCSPCAConfigurationCollection
 ---
 
 # IOCSPAdmin::get_OCSPCAConfigurationCollection
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspadmin">IOCSPAdmin</a>
-

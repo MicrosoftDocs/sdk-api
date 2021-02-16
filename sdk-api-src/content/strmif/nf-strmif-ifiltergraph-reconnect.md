@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph::Reconnect
+ - IFilterGraph.Reconnect
 ---
 
 # IFilterGraph::Reconnect
@@ -146,4 +146,3 @@ Filters can call this method in order to renegotiate a pin connection. The metho
 
 
 <a href="/windows/desktop/DirectShow/reconnecting-pins">Reconnecting Pins</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsContainer::Delete
+ - IADsContainer.Delete
 ---
 
 # IADsContainer::Delete
@@ -175,4 +175,3 @@ pCont->Release();
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsdeleteops-deleteobject">IADsDeleteOps::DeleteObject</a>
-

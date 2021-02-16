@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::QueryObjectSink
+ - IWbemServices.QueryObjectSink
 ---
 
 # IWbemServices::QueryObjectSink
@@ -105,4 +105,3 @@ COM-specific error codes also may be returned if network problems cause you to l
 
 
 <a href="/windows/desktop/WmiSdk/querying-wmi">Querying WMI</a>
-

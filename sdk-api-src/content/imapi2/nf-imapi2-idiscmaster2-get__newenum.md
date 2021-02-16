@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscMaster2::get__NewEnum
+ - IDiscMaster2.get__NewEnum
 ---
 
 # IDiscMaster2::get__NewEnum
@@ -99,4 +99,3 @@ The device identifier is guaranteed to be unique and static for a given device a
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get_count">IDiscMaster2::get_Count</a>
-

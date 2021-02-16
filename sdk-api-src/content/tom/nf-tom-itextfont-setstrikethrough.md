@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont::SetStrikeThrough
+ - ITextFont.SetStrikeThrough
 ---
 
 # ITextFont::SetStrikeThrough
@@ -159,4 +159,3 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

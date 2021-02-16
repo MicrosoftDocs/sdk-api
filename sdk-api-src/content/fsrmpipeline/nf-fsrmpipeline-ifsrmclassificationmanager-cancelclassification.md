@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::CancelClassification
+ - IFsrmClassificationManager.CancelClassification
+ - IFsrmClassificationManager2.CancelClassification
+ - FsrmClassificationManager.CancelClassification
 ---
 
 # IFsrmClassificationManager::CancelClassification
@@ -85,4 +87,3 @@ Cancels classification that was started manually using the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

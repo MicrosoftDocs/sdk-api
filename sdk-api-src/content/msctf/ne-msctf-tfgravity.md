@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
- - __MIDL_ITfRange_0001
  - TfGravity
 ---
 
@@ -84,4 +83,3 @@ For more information about anchor gravity, see <a href="/windows/desktop/TSF/ran
 
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-setgravity">ITfRange::SetGravity</a>
-

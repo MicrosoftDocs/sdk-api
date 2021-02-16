@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::CommitIndex
+ - IMFASFIndexer.CommitIndex
 ---
 
 # IMFASFIndexer::CommitIndex
@@ -111,4 +111,3 @@ You cannot use this method in an index reading scenario.  You can only use this 
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfindexer">MFCreateASFIndexer</a>
-

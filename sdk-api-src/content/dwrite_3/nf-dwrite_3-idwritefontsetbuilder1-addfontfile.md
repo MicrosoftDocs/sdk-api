@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteFontSetBuilder1::AddFontFile
+ - IDWriteFontSetBuilder1.AddFontFile
 ---
 
 # IDWriteFontSetBuilder1::AddFontFile

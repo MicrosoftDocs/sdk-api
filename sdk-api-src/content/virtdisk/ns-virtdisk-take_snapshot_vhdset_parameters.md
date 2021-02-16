@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _TAKE_SNAPSHOT_VHDSET_PARAMETERS
- - PTAKE_SNAPSHOT_VHDSET_PARAMETERS
  - TAKE_SNAPSHOT_VHDSET_PARAMETERS
 ---
 

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _PKU2U_CREDUI_CONTEXT
- - PPKU2U_CREDUI_CONTEXT
  - PKU2U_CREDUI_CONTEXT
 ---
 
@@ -79,4 +77,3 @@ The size, in bytes, of the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pk
 ### -field CertArrayOffset
 
 The number of bytes from the beginning of this structure in memory to the beginning of the <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-pku2u_cert_blob">PKU2U_CERT_BLOB</a> structure that follows this structure.
-

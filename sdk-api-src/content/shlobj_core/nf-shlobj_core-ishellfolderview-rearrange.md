@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::Rearrange
+ - IShellFolderView.Rearrange
 ---
 
 # IShellFolderView::Rearrange
@@ -97,4 +97,3 @@ Do not set the <b>SHCIDS_ALLFIELDS</b> flag in <i>lParamSort</i> if the folder o
 
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
 To extract the sorting rule, use a bitwise AND operator (&amp;) to combine <i>lParamSort</i> with SHCIDS_COLUMNMASK (0X0000FFFF). This operation masks off the upper sixteen bits of <i>lParamSort</i>, including the <b>SHCIDS_ALLFIELDS</b> value.
-

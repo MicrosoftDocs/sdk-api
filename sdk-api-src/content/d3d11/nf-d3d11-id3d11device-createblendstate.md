@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device::CreateBlendState
+ - ID3D11Device.CreateBlendState
 ---
 
 # ID3D11Device::CreateBlendState
@@ -86,4 +86,3 @@ An application can create up to 4096 unique blend-state objects. For each object
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-

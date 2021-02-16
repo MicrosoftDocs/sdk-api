@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAction::put_RunLimitInterval
+ - IFsrmAction.RunLimitInterval
+ - IFsrmAction.get_RunLimitInterval
+ - IFsrmAction.put_RunLimitInterval
 ---
 
 # IFsrmAction::put_RunLimitInterval
@@ -114,4 +116,3 @@ If an event occurs during this interval, do not run the action again. The interv
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a>
-

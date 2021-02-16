@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfDocumentMgrs::Clone
+ - IEnumTfDocumentMgrs.Clone
 ---
 
 # IEnumTfDocumentMgrs::Clone
@@ -94,4 +94,3 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)
-

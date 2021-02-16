@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BthLEDef.h
 api_name:
- - _BTH_LE_UUID
- - PBTH_LE_UUID
  - BTH_LE_UUID
 ---
 
@@ -76,4 +74,3 @@ The long 128-bit value of the UUID. This member applies only if <b>IsShortUuid</
 ## -see-also
 
 <a href="/windows/desktop/api/bthledef/ns-bthledef-bth_le_gatt_service">BTH_LE_GATT_SERVICE</a>
-

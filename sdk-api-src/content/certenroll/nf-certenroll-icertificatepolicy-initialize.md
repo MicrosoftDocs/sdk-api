@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertificatePolicy::Initialize
+ - ICertificatePolicy.Initialize
 ---
 
 # ICertificatePolicy::Initialize
@@ -108,4 +108,3 @@ When you call the <b>Initialize</b> method, an empty <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificatepolicy">ICertificatePolicy</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymGetScopeW
  - dbghelp/SymGetScopeW
- - SymGetScope
- - dbghelp/SymGetScope
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymGetScopeW
  - SymGetScope
+ - SymGetScope
+ - SymGetScopeW
 ---
 
 # SymGetScopeW function
@@ -109,4 +108,3 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetscopefromindex">SymSetScopeFromIndex</a>
-

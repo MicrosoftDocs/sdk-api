@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
- - tagDisplayMode
  - DisplayMode
 ---
 
@@ -76,4 +75,3 @@ A <a href="/windows/win32/api/wingdi/ns-wingdi-devmodew">DEVMODEW</a> structure 
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff568176(v=vs.85)">IViewHelper::SetConfiguration</a>
-

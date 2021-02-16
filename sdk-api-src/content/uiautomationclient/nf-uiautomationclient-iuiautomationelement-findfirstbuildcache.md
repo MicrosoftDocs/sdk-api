@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::FindFirstBuildCache
+ - IUIAutomationElement.FindFirstBuildCache
 ---
 
 # IUIAutomationElement::FindFirstBuildCache
@@ -127,4 +127,3 @@ To search the raw tree, specify the appropriate <a href="/windows/desktop/api/ui
 
 
 <b>Reference</b>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_connection_status_tag
  - PEER_CONNECTION_STATUS
 ---
 

@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVCOLUMNW
- - LPLVCOLUMNW
+ - LVCOLUMN
+ - LVCOLUMNA
  - LVCOLUMNW
 ---
 
@@ -384,4 +384,3 @@ If a column is added to a list-view control with index 0 (the leftmost column), 
 
 
 <b>Reference</b>
-

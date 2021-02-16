@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable2::SetUpperBound
+ - IUIAnimationVariable2.SetUpperBound
 ---
 
 # IUIAnimationVariable2::SetUpperBound
@@ -65,4 +65,3 @@ Returns S_OK if successful; otherwise an <b>HRESULT</b> error code. See <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable2">IUIAnimationVariable2</a>
-

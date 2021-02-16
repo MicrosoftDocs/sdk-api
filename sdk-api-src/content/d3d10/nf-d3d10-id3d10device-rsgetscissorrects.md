@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::RSGetScissorRects
+ - ID3D10Device.RSGetScissorRects
 ---
 
 # ID3D10Device::RSGetScissorRects
@@ -70,4 +70,3 @@ An array of scissor rectangles (see <a href="/windows/desktop/direct3d10/d3d10-r
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

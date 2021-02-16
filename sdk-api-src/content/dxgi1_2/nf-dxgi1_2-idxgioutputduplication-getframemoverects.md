@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutputDuplication::GetFrameMoveRects
+ - IDXGIOutputDuplication.GetFrameMoveRects
 ---
 
 # IDXGIOutputDuplication::GetFrameMoveRects
@@ -121,4 +121,3 @@ The buffer contains the list of move RECTs for the current frame.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
-

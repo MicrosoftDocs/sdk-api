@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _MSA_INFO_0
- - PMSA_INFO_0
  - MSA_INFO_0
 ---
 
@@ -63,4 +61,3 @@ Specifies information about a managed service account. This structure is used by
 ### -field State
 
 A value of the <a href="/windows/desktop/api/lmaccess/ne-lmaccess-msa_info_state">MSA_INFO_STATE</a> enumeration that indicates the state of the service account specified in the call to the <a href="/windows/desktop/api/lmaccess/nf-lmaccess-netqueryserviceaccount">NetQueryServiceAccount</a> function.
-

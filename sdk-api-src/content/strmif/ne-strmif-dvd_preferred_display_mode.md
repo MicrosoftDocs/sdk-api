@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_PREFERRED_DISPLAY_MODE
  - DVD_PREFERRED_DISPLAY_MODE
 ---
 
@@ -129,4 +128,3 @@ The native window size used is always the user's preferred size.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-videomodepreferrence">IDvdControl::VideoModePreferrence</a>
-

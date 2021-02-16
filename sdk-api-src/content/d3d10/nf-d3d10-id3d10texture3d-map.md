@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Texture3D::Map
+ - ID3D10Texture3D.Map
 ---
 
 # ID3D10Texture3D::Map
@@ -89,4 +89,3 @@ If this function succeeds, it returns S_OK. All of the Map methods have identica
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10texture3d">ID3D10Texture3D Interface</a>
-

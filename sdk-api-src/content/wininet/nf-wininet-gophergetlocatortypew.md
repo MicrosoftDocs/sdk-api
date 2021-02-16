@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GopherGetLocatorTypeW
  - wininet/GopherGetLocatorTypeW
- - GopherGetLocatorType
- - wininet/GopherGetLocatorType
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - GopherGetLocatorTypeW
  - GopherGetLocatorType
+ - GopherGetLocatorTypeA
+ - GopherGetLocatorTypeW
 ---
 
 # GopherGetLocatorTypeW function
@@ -91,4 +90,3 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 ## -see-also
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

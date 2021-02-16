@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaStream::GetMediaSource
+ - IMFMediaStream.GetMediaSource
 ---
 
 # IMFMediaStream::GetMediaSource
@@ -99,4 +99,3 @@ The media source's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfmediasource-s
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
-

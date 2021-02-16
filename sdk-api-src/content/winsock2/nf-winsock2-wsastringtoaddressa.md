@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSAStringToAddressA
  - winsock2/WSAStringToAddressA
- - WSAStringToAddress
- - winsock2/WSAStringToAddress
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAStringToAddressA
  - WSAStringToAddress
+ - WSAStringToAddressA
+ - WSAStringToAddressW
 ---
 
 # WSAStringToAddressA function
@@ -227,4 +226,3 @@ Support for IPv6 addresses using the <b>WSAStringToAddress</b> function was adde
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

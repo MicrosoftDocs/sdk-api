@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winternl.h
 api_name:
- - _PEB_LDR_DATA
- - PPEB_LDR_DATA
  - PEB_LDR_DATA
 ---
 
@@ -105,4 +103,3 @@ The <b>LDR_DATA_TABLE_ENTRY</b> structure is defined as follows:
 ## -see-also
 
 <a href="/windows/desktop/api/winternl/ns-winternl-peb">PEB</a>
-

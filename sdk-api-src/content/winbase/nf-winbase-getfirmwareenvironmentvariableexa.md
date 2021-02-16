@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetFirmwareEnvironmentVariableExA
  - winbase/GetFirmwareEnvironmentVariableExA
- - GetFirmwareEnvironmentVariableEx
- - winbase/GetFirmwareEnvironmentVariableEx
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Core-firmware-l1-1-0.dll
  - kernel32legacy.dll
 api_name:
- - GetFirmwareEnvironmentVariableExA
  - GetFirmwareEnvironmentVariableEx
+ - GetFirmwareEnvironmentVariableExA
+ - GetFirmwareEnvironmentVariableExW
 ---
 
 # GetFirmwareEnvironmentVariableExA function
@@ -119,4 +118,3 @@ If you are creating a backup application, you can use this function to save all 
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariableexa">SetFirmwareEnvironmentVariableEx</a>
-

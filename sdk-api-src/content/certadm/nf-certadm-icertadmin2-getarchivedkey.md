@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2::GetArchivedKey
+ - ICertAdmin2.GetArchivedKey
+ - CCertAdmin.GetArchivedKey
 ---
 
 # ICertAdmin2::GetArchivedKey
@@ -127,4 +128,3 @@ A string that contains the retrieved archived key BLOB.
 ## -remarks
 
 An archived key is encrypted in a PKCS #7 to the key recovery agent certificate or certificates, and is stored in the Certificate Services database in that form. This method retrieves the encrypted PKCS #7 from the Certificate Services database, wraps it in a signed PKCS #7 which contains the user certificate and chain, the key recovery agent certificate or certificates, and the certification authority's signing certificate and chain. An authenticated attribute contains a certificate used to uniquely identify the user certificate.
-

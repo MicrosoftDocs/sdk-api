@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITScriptableAudioFormat::get_AvgBytesPerSec
+ - ITScriptableAudioFormat.get_AvgBytesPerSec
 ---
 
 # ITScriptableAudioFormat::get_AvgBytesPerSec
@@ -101,4 +101,3 @@ The <i>pVal</i> argument is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itscriptableaudioformat-put_avgbytespersec">put_AvgBytesPerSec</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_GENERAL_SUBTREE
- - PCERT_GENERAL_SUBTREE
  - CERT_GENERAL_SUBTREE
 ---
 
@@ -76,4 +74,3 @@ Currently not used.
 ### -field dwMaximum
 
 Currently not used.
-

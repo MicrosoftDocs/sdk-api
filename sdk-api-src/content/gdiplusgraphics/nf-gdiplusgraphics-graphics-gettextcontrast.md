@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::GetTextContrast
+ - Graphics.GetTextContrast
 ---
 
 # Graphics::GetTextContrast
@@ -61,4 +61,3 @@ The <b>Graphics::GetTextContrast</b> method gets the contrast value currently se
 Type: <b>UINT</b>
 
 This method returns the contrast value.
-

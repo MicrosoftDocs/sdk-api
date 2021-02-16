@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDevice::GetAdapter
+ - IDXGIDevice.GetAdapter
 ---
 
 # IDXGIDevice::GetAdapter
@@ -78,4 +78,3 @@ If the <b>GetAdapter</b> method succeeds, the reference count on the adapter int
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
-

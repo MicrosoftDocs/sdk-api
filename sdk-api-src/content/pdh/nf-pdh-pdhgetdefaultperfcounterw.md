@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhGetDefaultPerfCounterW
  - pdh/PdhGetDefaultPerfCounterW
- - PdhGetDefaultPerfCounter
- - pdh/PdhGetDefaultPerfCounter
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhGetDefaultPerfCounterW
  - PdhGetDefaultPerfCounter
+ - PdhGetDefaultPerfCounterA
+ - PdhGetDefaultPerfCounterW
 ---
 
 # PdhGetDefaultPerfCounterW function
@@ -196,4 +195,3 @@ You should call this function twice, the first time to get the required buffer s
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetdefaultperfobjecta">PdhGetDefaultPerfObject</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader::GetWmfHeader
+ - MetafileHeader.GetWmfHeader
 ---
 
 # MetafileHeader::GetWmfHeader
@@ -84,4 +84,3 @@ If the associated metafile is in the WMF format, this method returns a pointer t
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-

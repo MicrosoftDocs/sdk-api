@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11DeviceContext::GetContextFlags
+ - ID3D11DeviceContext.GetContextFlags
 ---
 
 # ID3D11DeviceContext::GetContextFlags
@@ -62,4 +62,3 @@ The GetContextFlags method gets the flags that were supplied to the <i>ContextFl
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

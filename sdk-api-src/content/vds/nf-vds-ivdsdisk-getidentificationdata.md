@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk::GetIdentificationData
+ - IVdsDisk.GetIdentificationData
 ---
 
 # IVdsDisk::GetIdentificationData
@@ -98,4 +98,3 @@ VDS implements this method. Callers can only extract LUN information from device
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
-

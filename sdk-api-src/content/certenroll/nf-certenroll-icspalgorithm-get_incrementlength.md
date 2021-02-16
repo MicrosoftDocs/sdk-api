@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm::get_IncrementLength
+ - ICspAlgorithm.IncrementLength
+ - ICspAlgorithm.get_IncrementLength
 ---
 
 # ICspAlgorithm::get_IncrementLength
@@ -227,4 +228,3 @@ Increment: 8
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-

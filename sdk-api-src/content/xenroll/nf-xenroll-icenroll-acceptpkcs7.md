@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::acceptPKCS7
+ - ICEnroll4.acceptPKCS7
+ - ICEnroll3.acceptPKCS7
+ - ICEnroll2.acceptPKCS7
+ - ICEnroll.acceptPKCS7
+ - CEnroll.acceptPKCS7
 ---
 
 # ICEnroll::acceptPKCS7
@@ -129,4 +133,3 @@ When this method is called from script, the method displays a user interface tha
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptfilepkcs7">acceptFilePKCS7</a>
-

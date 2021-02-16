@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - InsertMenuW
  - winuser/InsertMenuW
- - InsertMenu
- - winuser/InsertMenu
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +46,10 @@ api_location:
  - ext-ms-win-ntuser-menu-l1-1-2.dll
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - InsertMenuW
  - InsertMenu
+ - InsertMenuA
+ - InsertMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # InsertMenuW function
@@ -386,4 +385,3 @@ The following groups of flags cannot be used together:
 
 
 <a href="/windows/desktop/Controls/wm-measureitem">WM_MEASUREITEM</a>
-

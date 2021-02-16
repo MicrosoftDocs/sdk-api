@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_CREATE_TOKEN_EX
+ - CreateTokenEx
 ---
 
 # LSA_CREATE_TOKEN_EX callback function
@@ -164,4 +164,3 @@ A pointer to the <b>CreateTokenEx</b> function is available in the
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

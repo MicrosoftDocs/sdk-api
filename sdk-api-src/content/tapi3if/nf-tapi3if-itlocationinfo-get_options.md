@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLocationInfo::get_Options
+ - ITLocationInfo.get_Options
 ---
 
 # ITLocationInfo::get_Options
@@ -120,4 +120,3 @@ The value that this method returns corresponds to the <b>dwOptions</b> member of
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">lineGetTranslateCaps</a>
-

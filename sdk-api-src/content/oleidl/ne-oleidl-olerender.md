@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - tagOLERENDER
  - OLERENDER
 ---
 
@@ -100,4 +99,3 @@ The client is not requesting any locally cached drawing or data retrieval capabi
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olecreatestaticfromdata">OleCreateStaticFromData</a>
-

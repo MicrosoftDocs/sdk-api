@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallBase::CreateStreamObject
+ - CMSPCallBase.CreateStreamObject
 ---
 
 # CMSPCallBase::CreateStreamObject
@@ -79,4 +79,3 @@ Pointer to
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallbase">CMSPCallBase</a>
-

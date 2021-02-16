@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNConnectNotify::ConnectSucceeded
+ - IWCNConnectNotify.ConnectSucceeded
 ---
 
 # IWCNConnectNotify::ConnectSucceeded
@@ -71,4 +71,3 @@ If the <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevi
 
 
 <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
-

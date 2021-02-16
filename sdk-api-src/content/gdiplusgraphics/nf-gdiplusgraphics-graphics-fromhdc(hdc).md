@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::FromHDC
+ - Graphics.FromHDC
 ---
 
 # Graphics::FromHDC(IN HDC)
@@ -123,4 +123,3 @@ VOID Example_FromHDC(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-gethdc">Graphics::GetHDC</a>
-

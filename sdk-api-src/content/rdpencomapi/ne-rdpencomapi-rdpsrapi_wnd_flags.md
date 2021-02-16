@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
- - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0007
  - RDPSRAPI_WND_FLAGS
 ---
 
@@ -66,4 +65,3 @@ The window is part of an application that runs at a higher level than the curren
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rdp/windows-desktop-sharing-enumerations">Windows Desktop Sharing Enumerations</a>
-

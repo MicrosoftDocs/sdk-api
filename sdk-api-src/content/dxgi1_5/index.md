@@ -9,8 +9,6 @@ tech.root: direct3ddxgi
 f1_keywords:
  - dxgi1_5
  - dxgi1_5/dxgi1_5
-api_name:
- - dxgi1_5
 ---
 
 # Dxgi1_5.h header

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetAuditedPermissionsFromAclW
  - aclapi/GetAuditedPermissionsFromAclW
- - GetAuditedPermissionsFromAcl
- - aclapi/GetAuditedPermissionsFromAcl
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-security-trustee-l1-1-1.dll
  - advapi32legacy.dll
 api_name:
- - GetAuditedPermissionsFromAclW
  - GetAuditedPermissionsFromAcl
+ - GetAuditedPermissionsFromAclA
+ - GetAuditedPermissionsFromAclW
 ---
 
 # GetAuditedPermissionsFromAclW function
@@ -131,4 +130,3 @@ The <b>GetAuditedPermissionsFromAcl</b> function checks all system-audit ACEs in
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

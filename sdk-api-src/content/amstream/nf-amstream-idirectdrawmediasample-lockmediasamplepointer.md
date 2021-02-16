@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawMediaSample::LockMediaSamplePointer
+ - IDirectDrawMediaSample.LockMediaSamplePointer
 ---
 
 # IDirectDrawMediaSample::LockMediaSamplePointer
@@ -70,4 +70,3 @@ Call this method only after calling <a href="/windows/desktop/api/amstream/nf-am
 
 
 <a href="/windows/desktop/api/amstream/nn-amstream-idirectdrawmediasample">IDirectDrawMediaSample Interface</a>
-

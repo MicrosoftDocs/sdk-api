@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDOutboundAttachment::Write
+ - IWSDOutboundAttachment.Write
 ---
 
 # IWSDOutboundAttachment::Write
@@ -158,4 +158,3 @@ If an error occurs in establishing a connection or transmitting headers, <b>Writ
 
 
 <a href="/windows/desktop/api/wsdattachment/nf-wsdattachment-iwsdoutboundattachment-close">IWSDOutboundAttachment::Close</a>
-

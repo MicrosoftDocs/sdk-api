@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwProduct::put_DisplayName
+ - INetFwProduct.DisplayName
+ - INetFwProduct.get_DisplayName
+ - INetFwProduct.put_DisplayName
 ---
 
 # INetFwProduct::put_DisplayName
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
-

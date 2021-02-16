@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - PSYSTEM_POWER_LEVEL
  - SYSTEM_POWER_LEVEL
 ---
 
@@ -87,4 +86,3 @@ The minimum system sleep state to enter when the battery discharges below the va
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-power_action_policy">POWER_ACTION_POLICY</a>
-

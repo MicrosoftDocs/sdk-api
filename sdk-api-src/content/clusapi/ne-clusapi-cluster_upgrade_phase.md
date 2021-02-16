@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
- - _CLUSTER_UPGRADE_PHASE
  - CLUSTER_UPGRADE_PHASE
 ---
 
@@ -85,4 +84,3 @@ The upgrade is complete.
 
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

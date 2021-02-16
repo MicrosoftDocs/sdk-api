@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn::GetInitResults
+ - IWMReaderPlaylistBurn.GetInitResults
 ---
 
 # IWMReaderPlaylistBurn::GetInitResults
@@ -96,4 +96,3 @@ If, after calling this method, all members of the array referenced by <i>phrStat
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
-

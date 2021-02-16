@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _HARDWARE_COUNTER_DATA
- - PHARDWARE_COUNTER_DATA
  - HARDWARE_COUNTER_DATA
 ---
 
@@ -79,4 +77,3 @@ This structure is a member of the <a href="/windows/desktop/api/winnt/ns-winnt-p
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ns-winnt-performance_data">PERFORMANCE_DATA</a>
-

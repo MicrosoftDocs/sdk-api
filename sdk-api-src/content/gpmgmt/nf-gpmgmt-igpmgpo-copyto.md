@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::CopyTo
+ - IGPMGPO.CopyTo
+ - GPMGPO.CopyTo
 ---
 
 ## -description
@@ -151,4 +152,3 @@ For more information about security groups, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstatusmsgcollection">IGPMStatusMsgCollection</a>
-

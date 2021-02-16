@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - IHandwrittenTextInsertion::InsertInkRecognitionResult
+ - IHandWrittenTextInsertion.InsertInkRecognitionResult
 ---
 
 # IHandwrittenTextInsertion::InsertInkRecognitionResult
@@ -73,4 +73,3 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-ihandwrittentextinsertion">IHandWrittenTextInsertion</a>
-

@@ -10,8 +10,6 @@ tech.root: direct3d12
 f1_keywords:
  - windows.graphics.holographic.interop
  - windows.graphics.holographic.interop/windows.graphics.holographic.interop
-api_name:
- - windows.graphics.holographic.interop
 ---
 
 # Windows.Graphics.Holographic.Interop.h header

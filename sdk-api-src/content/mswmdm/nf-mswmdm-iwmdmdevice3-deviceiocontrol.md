@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice3::DeviceIoControl
+ - IWMDMDevice3.DeviceIoControl
 ---
 
 # IWMDMDevice3::DeviceIoControl
@@ -101,4 +101,3 @@ This method can be used, for example, to send custom Media Transport Protocol (M
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice-sendopaquecommand">IWMDMDevice::SendOpaqueCommand</a>
-

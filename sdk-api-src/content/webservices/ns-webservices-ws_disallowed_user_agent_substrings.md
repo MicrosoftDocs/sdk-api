@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_DISALLOWED_USER_AGENT_SUBSTRINGS
  - WS_DISALLOWED_USER_AGENT_SUBSTRINGS
 ---
 
@@ -66,4 +65,3 @@ The number of items in 'prefixes'.
 ### -field subStrings
 
 An array of WS_STRING*. Each WS_STRING* would be searched as a sub-string in the UserAgent HTTP header value.
-

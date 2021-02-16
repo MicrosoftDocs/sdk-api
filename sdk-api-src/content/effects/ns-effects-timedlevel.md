@@ -44,7 +44,6 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - tagTimedLevel
  - TimedLevel
 ---
 
@@ -88,4 +87,3 @@ The second dimension contains the sampled levels. The frequency data ranges from
 
 
 <a href="/windows/desktop/WMP/visualization-structures-and-enumeration-types">Visualization Structures and Enumeration Types</a>
-

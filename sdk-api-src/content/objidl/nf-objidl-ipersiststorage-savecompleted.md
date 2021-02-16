@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStorage::SaveCompleted
+ - IPersistStorage.SaveCompleted
 ---
 
 # IPersistStorage::SaveCompleted
@@ -129,4 +129,3 @@ If this method returns an error code, the object is not returned to Normal mode.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststorage">IPersistStorage</a>
-

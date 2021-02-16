@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LoadMUILibraryA
  - muiload/LoadMUILibraryA
- - LoadMUILibrary
- - muiload/LoadMUILibrary
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Muiload.lib
 api_name:
- - LoadMUILibraryA
  - LoadMUILibrary
+ - LoadMUILibraryA
+ - LoadMUILibraryW
 ---
 
 # LoadMUILibraryA function
@@ -182,4 +181,3 @@ The state of the language identifier in the <i>LangID</i> parameter affects reso
 
 
 <a href="/windows/desktop/Intl/multilingual-user-interface-functions">Multilingual User Interface Functions</a>
-

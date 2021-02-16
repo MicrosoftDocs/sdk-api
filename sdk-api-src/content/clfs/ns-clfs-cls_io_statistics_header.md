@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - _CLS_IO_STATISTICS_HEADER
- - PCLS_IO_STATISTICS_HEADER
- - CLS_IO_STATISTICS_HEADER
+ - CLFS_IO_STATISTICS_HEADER
 ---
 
 # CLS_IO_STATISTICS_HEADER structure
@@ -95,4 +93,3 @@ This header is followed by the I/O statistics counters.
 
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
-

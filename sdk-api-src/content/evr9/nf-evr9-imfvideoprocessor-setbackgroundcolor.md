@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoProcessor::SetBackgroundColor
+ - IMFVideoProcessor.SetBackgroundColor
 ---
 
 # IMFVideoProcessor::SetBackgroundColor
@@ -88,4 +88,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-

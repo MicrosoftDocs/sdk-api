@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeGenerator::put_VITCLine
+ - IAMTimecodeGenerator.put_VITCLine
 ---
 
 # IAMTimecodeGenerator::put_VITCLine
@@ -80,4 +80,3 @@ Set the high bit to add to this line to any previously set lines.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-get_vitcline">IAMTimecodeGenerator::get_VITCLine</a>
-

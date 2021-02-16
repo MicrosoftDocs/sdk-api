@@ -42,7 +42,11 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IGestureRecognizer::put_Enabled
+ - IGestureRecognizer.Enabled
+ - IGestureRecognizer.get_Enabled
+ - IGestureRecognizer.put_Enabled
+ - IGestureRecognizer.get_Enabled
+ - IGestureRecognizer.put_Enabled
 ---
 
 # IGestureRecognizer::put_Enabled
@@ -77,4 +81,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-

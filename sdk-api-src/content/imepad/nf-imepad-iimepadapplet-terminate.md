@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - IImePadApplet::Terminate
+ - IImePadApplet.Terminate
 ---
 
 # IImePadApplet::Terminate
@@ -61,4 +61,3 @@ Called from <a href="/windows/desktop/api/imepad/nn-imepad-iimepad">IImePad</a> 
 ## -see-also
 
 <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
-

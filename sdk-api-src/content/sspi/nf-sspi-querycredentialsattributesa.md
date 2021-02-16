@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - QueryCredentialsAttributesA
  - sspi/QueryCredentialsAttributesA
- - QueryCredentialsAttributes
- - sspi/QueryCredentialsAttributes
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - QueryCredentialsAttributesA
  - QueryCredentialsAttributes
+ - QueryCredentialsAttributesA
+ - QueryCredentialsAttributesW
 ---
 
 # QueryCredentialsAttributesA function
@@ -252,4 +251,3 @@ The caller must allocate the structure pointed to by the <i>pBuffer</i> paramete
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcredentials_namesa">SecPkgCredentials_Names</a>
-

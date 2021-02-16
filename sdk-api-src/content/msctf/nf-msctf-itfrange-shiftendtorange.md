@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::ShiftEndToRange
+ - ITfRange.ShiftEndToRange
 ---
 
 # ITfRange::ShiftEndToRange
@@ -153,4 +153,3 @@ This method is more efficient than <a href="/windows/desktop/api/msctf/nf-msctf-
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfrange-shiftstarttorange">ITfRange::ShiftStartToRange
       </a>
-

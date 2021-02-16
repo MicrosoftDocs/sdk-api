@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::Collate
+ - CHString.Collate
 ---
 
 # CHString::Collate
@@ -105,4 +105,3 @@ assert(n < 0);
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-comparenocase">CHString::CompareNoCase</a>
-

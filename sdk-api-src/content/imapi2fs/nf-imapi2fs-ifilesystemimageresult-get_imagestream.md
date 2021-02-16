@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImageResult::get_ImageStream
+ - IFileSystemImageResult.get_ImageStream
 ---
 
 # IFileSystemImageResult::get_ImageStream
@@ -113,4 +113,3 @@ The <i>grfStateFlag</i> parameter of the <a href="/windows/desktop/api/objidl/nf
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimageresult">IFileSystemImageResult</a>
-

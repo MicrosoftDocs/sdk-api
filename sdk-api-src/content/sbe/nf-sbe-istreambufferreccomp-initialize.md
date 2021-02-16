@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecComp::Initialize
+ - IStreamBufferRecComp.Initialize
 ---
 
 # IStreamBufferRecComp::Initialize
@@ -91,4 +91,3 @@ The profile of the file specified by <i>pszSBRecProfileRef</i> will be used for 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-

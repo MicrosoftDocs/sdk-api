@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList::GetHeaderSize
+ - IITPropList.GetHeaderSize
 ---
 
 # IITPropList::GetHeaderSize
@@ -87,4 +87,3 @@ The size was successfully returned.
 
 
 <a href="/previous-versions/windows/desktop/api/infotech/nf-infotech-iitproplist-getdatasize">IITPropList::GetDataSize</a>
-

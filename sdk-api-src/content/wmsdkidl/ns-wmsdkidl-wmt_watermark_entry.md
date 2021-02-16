@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - __WMT_WATERMARK_ENTRY
  - WMT_WATERMARK_ENTRY
 ---
 
@@ -76,4 +75,3 @@ Pointer to a wide-character null-terminated string containing the display name.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

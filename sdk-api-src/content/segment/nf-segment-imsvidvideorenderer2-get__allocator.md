@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer2::get__Allocator
+ - IMSVidVideoRenderer2.get__Allocator
 ---
 
 # IMSVidVideoRenderer2::get__Allocator
@@ -98,4 +98,3 @@ The caller must release the <a href="/windows/desktop/api/strmif/nn-strmif-ivmrs
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
-

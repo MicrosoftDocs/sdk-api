@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
  - WS_SSL_TRANSPORT_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -81,4 +80,3 @@ Server side: When SSL is used for transport security with <a href="/windows/desk
 Client side: If a client certificate is to be used with SSL, it must
           be specified using this field.  If no client certificate is to be
           used, this field must be set to <b>NULL</b>.
-

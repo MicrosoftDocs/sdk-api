@@ -9,8 +9,6 @@ tech.root: mscs
 f1_keywords:
  - resapi
  - resapi/resapi
-api_name:
- - resapi
 ---
 
 # Resapi.h header

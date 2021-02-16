@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMappedView::Get
+ - ISimilarityTraitsMappedView.Get
 ---
 
 # ISimilarityTraitsMappedView::Get
@@ -81,4 +81,3 @@ At least <i>numElements</i> bytes must be available in the mapped view, but depe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmappedview">ISimilarityTraitsMappedView</a>
-

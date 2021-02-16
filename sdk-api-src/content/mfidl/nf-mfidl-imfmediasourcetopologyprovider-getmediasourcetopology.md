@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSourceTopologyProvider::GetMediaSourceTopology
+ - IMFMediaSourceTopologyProvider.GetMediaSourceTopology
 ---
 
 # IMFMediaSourceTopologyProvider::GetMediaSourceTopology
@@ -103,4 +103,3 @@ Invalid argument. For example, a <b>NULL</b> input parameter, or the presentatio
 
 
 <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
-

@@ -9,8 +9,6 @@ tech.root: cmpapi
 f1_keywords:
  - compressapi
  - compressapi/compressapi
-api_name:
- - compressapi
 ---
 
 # Compressapi.h header

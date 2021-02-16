@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection2::getByAttributeAndMediaType
+ - IWMPMediaCollection2.getByAttributeAndMediaType
 ---
 
 # IWMPMediaCollection2::getByAttributeAndMediaType
@@ -103,4 +103,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-

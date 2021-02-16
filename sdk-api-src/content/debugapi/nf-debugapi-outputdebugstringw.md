@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OutputDebugStringW
  - debugapi/OutputDebugStringW
- - OutputDebugString
- - debugapi/OutputDebugString
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Core-Debug-L1-1-2.dll
  - vertdll.dll
 api_name:
- - OutputDebugStringW
  - OutputDebugString
+ - OutputDebugStringA
+ - OutputDebugStringW
 ---
 
 # OutputDebugStringW function
@@ -96,4 +95,3 @@ Visual Studio has changed how it handles the display of these strings throughout
 
 
 <a href="/windows/desktop/Debug/debugging-functions">Debugging Functions</a>
-

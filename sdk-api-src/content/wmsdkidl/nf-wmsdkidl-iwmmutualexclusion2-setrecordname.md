@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::SetRecordName
+ - IWMMutualExclusion2.SetRecordName
 ---
 
 # IWMMutualExclusion2::SetRecordName
@@ -109,4 +109,3 @@ If you pass an empty string as <i>pwszRecordName</i>, the method returns S_OK, b
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getrecordname">IWMMutualExclusion2::GetRecordName</a>
-

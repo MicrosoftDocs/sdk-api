@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDashCollection::GetAt
+ - IXpsOMDashCollection.GetAt
 ---
 
 # IXpsOMDashCollection::GetAt
@@ -85,4 +85,3 @@ For more information about the collection methods, see  <a href="/previous-versi
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Pdh.h
 api_name:
- - _PDH_RAW_COUNTER
- - PPDH_RAW_COUNTER
  - PDH_RAW_COUNTER
 ---
 
@@ -94,4 +92,3 @@ If the counter type contains the PERF_MULTI_COUNTER flag, this member contains t
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
-

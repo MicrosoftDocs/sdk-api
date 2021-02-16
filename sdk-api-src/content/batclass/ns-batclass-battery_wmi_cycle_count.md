@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - _BATTERY_WMI_CYCLE_COUNT
- - PBATTERY_WMI_CYCLE_COUNT
  - BATTERY_WMI_CYCLE_COUNT
 ---
 
@@ -71,4 +69,3 @@ The number of charge/discharge cycles the battery has experienced, or zero if th
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
-

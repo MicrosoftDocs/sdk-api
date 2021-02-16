@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Clfsmgmtw32.h
 api_name:
- - PLOG_UNPINNED_CALLBACK
+ - LOG_UNPINNED_CALLBACK
 ---
 
 # PLOG_UNPINNED_CALLBACK callback function
@@ -66,4 +66,3 @@ A pointer to the client context. This is the same context specified when registe
 ## -see-also
 
 <a href="/windows/desktop/api/clfsmgmtw32/nc-clfsmgmtw32-plog_full_handler_callback">LOG_FULL_HANDLER_CALLBACK</a>
-

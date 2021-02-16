@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RemoveISNSServerA
  - iscsidsc/RemoveISNSServerA
- - RemoveISNSServer
- - iscsidsc/RemoveISNSServer
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - RemoveISNSServerA
- - RemoveISNSServer
+ - RemoveIsnsServer
+ - RemoveIsnsServerA
+ - RemoveIsnsServerW
 ---
 
 # RemoveISNSServerA function
@@ -89,4 +88,3 @@ The <b>RemoveIsnsServer</b> function does not affect the list of discovered targ
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>
-

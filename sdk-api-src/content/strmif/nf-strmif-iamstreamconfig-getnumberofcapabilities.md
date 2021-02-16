@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamConfig::GetNumberOfCapabilities
+ - IAMStreamConfig.GetNumberOfCapabilities
 ---
 
 # IAMStreamConfig::GetNumberOfCapabilities
@@ -122,4 +122,3 @@ On some compression filters, this method fails if the filter's input pin is not 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
-

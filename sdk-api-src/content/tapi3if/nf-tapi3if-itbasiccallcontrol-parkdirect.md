@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::ParkDirect
+ - ITBasicCallControl.ParkDirect
 ---
 
 # ITBasicCallControl::ParkDirect
@@ -170,4 +170,3 @@ The application must use
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linepark">linePark</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagCOLORMATCHTOTARGET
- - PEMRCOLORMATCHTOTARGET
  - EMRCOLORMATCHTOTARGET
 ---
 
@@ -127,4 +125,3 @@ An array containing the target profile name and the raw target profile data.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

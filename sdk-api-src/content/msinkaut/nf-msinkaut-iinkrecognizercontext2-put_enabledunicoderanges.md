@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext2::put_EnabledUnicodeRanges
+ - IInkRecognizerContext2.EnabledUnicodeRanges
+ - IInkRecognizerContext2.get_EnabledUnicodeRanges
+ - IInkRecognizerContext2.put_EnabledUnicodeRanges
+ - IInkRecognizerContext2.get_EnabledUnicodeRanges
+ - IInkRecognizerContext2.put_EnabledUnicodeRanges
 ---
 
 # IInkRecognizerContext2::put_EnabledUnicodeRanges
@@ -66,4 +70,3 @@ Your application should check whether all input ranges are supported by the reco
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizercontext2">IInkRecognizerContext2 Interface</a>
-

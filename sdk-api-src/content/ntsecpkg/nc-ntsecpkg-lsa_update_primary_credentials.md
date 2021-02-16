@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_UPDATE_PRIMARY_CREDENTIALS
+ - UpdateCredentials
 ---
 
 # LSA_UPDATE_PRIMARY_CREDENTIALS callback function
@@ -98,4 +98,3 @@ A pointer to the <b>UpdateCredentials</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

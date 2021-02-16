@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::RevertToSnapshot
+ - IVssBackupComponents.RevertToSnapshot
 ---
 
 # IVssBackupComponents::RevertToSnapshot
@@ -225,4 +225,3 @@ This operation cannot be canceled, or undone once completed. If the computer is 
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-queryrevertstatus">IVssBackupComponents::QueryRevertStatus</a>
-

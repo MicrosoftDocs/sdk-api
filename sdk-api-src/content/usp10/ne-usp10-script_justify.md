@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
- - tag_SCRIPT_JUSTIFY
  - SCRIPT_JUSTIFY
 ---
 
@@ -132,4 +131,3 @@ Highest priority: medial shape of Seen class (U+0633).
 
 
 <a href="/windows/desktop/Intl/uniscribe-enumeration-types">Uniscribe Enumeration Types</a>
-

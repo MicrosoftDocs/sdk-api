@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USBUSER_REQUEST_HEADER
- - PUSBUSER_REQUEST_HEADER
  - USBUSER_REQUEST_HEADER
 ---
 
@@ -87,4 +85,3 @@ The <b>USBUSER_REQUEST_HEADER</b> structure is used with the <a href="/windows/d
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-

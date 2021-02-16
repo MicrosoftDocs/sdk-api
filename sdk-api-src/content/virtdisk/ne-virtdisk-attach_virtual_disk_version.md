@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _ATTACH_VIRTUAL_DISK_VERSION
  - ATTACH_VIRTUAL_DISK_VERSION
 ---
 
@@ -71,4 +70,3 @@ Contains the version of the virtual hard disk (VHD)
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

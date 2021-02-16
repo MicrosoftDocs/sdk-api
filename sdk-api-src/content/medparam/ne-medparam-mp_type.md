@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Medparam.h
 api_name:
- - _MP_Type
  - MP_TYPE
 ---
 
@@ -88,4 +87,3 @@ To reduce type conversions at run time, all parameters have 32-bit float values,
 
 
 <a href="/previous-versions/windows/desktop/api/medparam/ns-medparam-mp_paraminfo">MP_PARAMINFO</a>
-

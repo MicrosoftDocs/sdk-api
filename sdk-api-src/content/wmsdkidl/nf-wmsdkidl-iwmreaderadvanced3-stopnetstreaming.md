@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced3::StopNetStreaming
+ - IWMReaderAdvanced3.StopNetStreaming
 ---
 
 # IWMReaderAdvanced3::StopNetStreaming
@@ -72,4 +72,3 @@ When this method is finished, a WMT_END_OF_STREAMING message will be delivered t
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
-

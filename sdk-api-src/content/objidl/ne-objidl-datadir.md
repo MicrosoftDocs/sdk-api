@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - tagDATADIR
  - DATADIR
 ---
 
@@ -72,4 +71,3 @@ Requests that <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-enumfor
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleregenumformatetc">OleRegEnumFormatEtc</a>
-

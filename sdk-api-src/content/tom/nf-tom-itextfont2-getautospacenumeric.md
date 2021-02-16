@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::GetAutospaceNumeric
+ - ITextFont2.GetAutospaceNumeric
 ---
 
 # ITextFont2::GetAutospaceNumeric
@@ -92,4 +92,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-setautospacenumeric">ITextFont2::SetAutospaceNumeric</a>
-

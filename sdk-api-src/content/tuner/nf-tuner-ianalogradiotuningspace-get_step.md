@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IAnalogRadioTuningSpace::get_Step
+ - IAnalogRadioTuningSpace.get_Step
 ---
 
 # IAnalogRadioTuningSpace::get_Step
@@ -65,4 +65,3 @@ Returns E_NOTIMPL.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ianalogradiotuningspace">IAnalogRadioTuningSpace Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetExplicitEntriesFromAclA
  - aclapi/GetExplicitEntriesFromAclA
- - GetExplicitEntriesFromAcl
- - aclapi/GetExplicitEntriesFromAcl
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - ntmarta.dll
  - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
 api_name:
- - GetExplicitEntriesFromAclA
  - GetExplicitEntriesFromAcl
+ - GetExplicitEntriesFromAclA
+ - GetExplicitEntriesFromAclW
 ---
 
 # GetExplicitEntriesFromAclA function
@@ -141,4 +140,3 @@ For a <a href="/windows/desktop/SecGloss/s-gly">system access control list</a> (
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
-

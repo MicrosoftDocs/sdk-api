@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - waasapitypes
  - waasapitypes/waasapitypes
-api_name:
- - waasapitypes
 ---
 
 # Waasapitypes.h header

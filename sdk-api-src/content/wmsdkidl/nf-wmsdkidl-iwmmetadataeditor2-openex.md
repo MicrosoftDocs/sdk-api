@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMetadataEditor2::OpenEx
+ - IWMMetadataEditor2.OpenEx
 ---
 
 # IWMMetadataEditor2::OpenEx
@@ -138,4 +138,3 @@ The parameters <i>dwDesiredAccess</i> and <i>dwShareMode</i> are identical to th
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a>
-

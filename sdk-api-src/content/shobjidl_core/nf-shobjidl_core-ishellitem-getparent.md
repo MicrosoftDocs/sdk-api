@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellItem::GetParent
+ - IShellItem.GetParent
 ---
 
 # IShellItem::GetParent
@@ -73,4 +73,3 @@ Returns S_OK if successful, or an error value otherwise.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

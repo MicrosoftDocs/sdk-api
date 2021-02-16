@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize::ShowProperties
+ - ISyncMgrSynchronize.ShowProperties
 ---
 
 # ISyncMgrSynchronize::ShowProperties
@@ -109,4 +109,3 @@ The appearance of the displayed dialog box should be consistent with a standard 
 
 
 <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgritemflags">SYNCMGRITEMFLAGS</a>
-

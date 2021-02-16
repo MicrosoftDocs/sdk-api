@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDirectoryObject::Clone
+ - IEnumDirectoryObject.Clone
 ---
 
 # IEnumDirectoryObject::Clone
@@ -127,4 +127,3 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdirectoryobject">IEnumDirectoryObject</a>
-

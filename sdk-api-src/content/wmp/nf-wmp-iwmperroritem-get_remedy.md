@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPErrorItem::get_remedy
+ - IWMPErrorItem.get_remedy
 ---
 
 # IWMPErrorItem::get_remedy
@@ -87,4 +87,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem">IWMPErrorItem Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItem::get_LastBlock
+ - IProgressItem.get_LastBlock
 ---
 
 # IProgressItem::get_LastBlock
@@ -93,4 +93,3 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitem-get_firstblock">IProgressItem::get_FirstBlock</a>
-

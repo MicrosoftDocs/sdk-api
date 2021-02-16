@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IContextMenuSite::DoContextMenuPopup
+ - IContextMenuSite.DoContextMenuPopup
 ---
 
 # IContextMenuSite::DoContextMenuPopup
@@ -190,4 +190,3 @@ Location where you want the shortcut menu to appear. This point specifies the lo
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

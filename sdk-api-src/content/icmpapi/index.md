@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - icmpapi
  - icmpapi/icmpapi
-api_name:
- - icmpapi
 ---
 
 # Icmpapi.h header

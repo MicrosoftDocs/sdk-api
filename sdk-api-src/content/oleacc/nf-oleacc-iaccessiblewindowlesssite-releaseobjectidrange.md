@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessibleWindowlessSite::ReleaseObjectIdRange
+ - IAccessibleWindowlessSite.ReleaseObjectIdRange
 ---
 
 # IAccessibleWindowlessSite::ReleaseObjectIdRange
@@ -83,4 +83,3 @@ To prevent mistakes when releasing object ranges, the system uses the <i>pContro
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccessiblewindowlesssite-acquireobjectidrange">IAccessibleWindowlessSite::AcquireObjectIdRange</a>
-

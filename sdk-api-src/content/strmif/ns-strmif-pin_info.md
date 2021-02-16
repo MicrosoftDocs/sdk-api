@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _PinInfo
  - PIN_INFO
 ---
 
@@ -84,4 +83,3 @@ The <b>pFilter</b> member has an outstanding reference count. The application mu
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-ipin-querypininfo">IPin::QueryPinInfo</a>
-

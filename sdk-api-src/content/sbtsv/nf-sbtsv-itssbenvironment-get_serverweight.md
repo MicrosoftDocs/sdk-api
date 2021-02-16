@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbEnvironment::get_ServerWeight
+ - ITsSbEnvironment.ServerWeight
+ - ITsSbEnvironment.get_ServerWeight
 ---
 
 # ITsSbEnvironment::get_ServerWeight
@@ -63,4 +64,3 @@ Plug-ins can use the server weight to make load balancing decisions. This value 
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbenvironment">ITsSbEnvironment</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities::GetSupportedContentTypes
+ - IPortableDeviceCapabilities.GetSupportedContentTypes
 ---
 
 # IPortableDeviceCapabilities::GetSupportedContentTypes
@@ -93,4 +93,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-the-content-types-supported-by-a-device">Retrieving the Content Types Supported by a Device</a>
-

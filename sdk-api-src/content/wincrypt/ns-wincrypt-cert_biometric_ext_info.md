@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_BIOMETRIC_EXT_INFO
- - PCERT_BIOMETRIC_EXT_INFO
  - CERT_BIOMETRIC_EXT_INFO
 ---
 
@@ -79,4 +77,3 @@ An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_biometric_da
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a>
-

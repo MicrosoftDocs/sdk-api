@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::DeletePropertyItem
+ - AzAuthorizationStore.DeletePropertyItem
+ - IAzAuthorizationStore.DeletePropertyItem
 ---
 
 # IAzAuthorizationStore::DeletePropertyItem
@@ -146,4 +147,3 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-submit">Submit</a> method to persist any changes made by this method.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12CommandQueue::Wait
+ - ID3D12CommandQueue.Wait
 ---
 
 ## -description
@@ -82,4 +82,3 @@ If you want to perform a CPU-side wait (where the calling thread blocks until a 
 
 
 <a href="/windows/win32/direct3d12/user-mode-heap-synchronization">Multi-engine synchronization</a>
-

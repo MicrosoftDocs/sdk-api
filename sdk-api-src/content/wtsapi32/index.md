@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - wtsapi32
  - wtsapi32/wtsapi32
-api_name:
- - wtsapi32
 ---
 
 # Wtsapi32.h header

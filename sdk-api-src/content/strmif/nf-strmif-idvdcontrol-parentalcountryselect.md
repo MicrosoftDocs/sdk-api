@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl::ParentalCountrySelect
+ - IDvdControl.ParentalCountrySelect
 ---
 
 # IDvdControl::ParentalCountrySelect
@@ -94,4 +94,3 @@ WORD wCountry  =  ( WORD( 'U' ) &lt;&lt; 8 ) | 'S';
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdcontrol-parentallevelselect">IDvdControl::ParentalLevelSelect</a>
-

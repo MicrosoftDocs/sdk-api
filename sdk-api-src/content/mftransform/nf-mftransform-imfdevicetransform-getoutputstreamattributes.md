@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::GetOutputStreamAttributes
+ - IMFDeviceTransform.GetOutputStreamAttributes
 ---
 
 # IMFDeviceTransform::GetOutputStreamAttributes
@@ -113,4 +113,3 @@ This function is used by the DTM to get a specific output stream’s attribute s
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

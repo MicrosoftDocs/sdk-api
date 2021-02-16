@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput::FindClosestMatchingMode
+ - IDXGIOutput.FindClosestMatchingMode
 ---
 
 # IDXGIOutput::FindClosestMatchingMode
@@ -120,4 +120,3 @@ Returns one of the following <a href="/windows/desktop/direct3ddxgi/dxgi-error">
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
-

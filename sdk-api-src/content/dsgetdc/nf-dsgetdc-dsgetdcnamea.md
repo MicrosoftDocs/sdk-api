@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetDcNameA
  - dsgetdc/DsGetDcNameA
- - DsGetDcName
- - dsgetdc/DsGetDcName
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - NetApi32.dll
  - logoncli.dll
 api_name:
- - DsGetDcNameA
  - DsGetDcName
+ - DsGetDcNameA
+ - DsGetDcNameW
 ---
 
 # DsGetDcNameA function
@@ -656,4 +655,3 @@ Run the following command to stop the trace session:
 
 
 <a href="/previous-versions/windows/it-pro/windows-server-2003/cc773061(v=ws.10)">Windows Time Service</a>
-

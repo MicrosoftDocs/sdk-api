@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_SDT::GetRecordServiceId
+ - IDVB_SDT.GetRecordServiceId
 ---
 
 # IDVB_SDT::GetRecordServiceId
@@ -114,4 +114,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_sdt">IDVB_SDT Interface</a>
-

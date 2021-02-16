@@ -9,8 +9,6 @@ tech.root: lwef
 f1_keywords:
  - mmcobj
  - mmcobj/mmcobj
-api_name:
- - mmcobj
 ---
 
 # Mmcobj.h header

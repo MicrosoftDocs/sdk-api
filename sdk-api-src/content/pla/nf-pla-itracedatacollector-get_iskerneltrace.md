@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_IsKernelTrace
+ - ITraceDataCollector.IsKernelTrace
+ - ITraceDataCollector.get_IsKernelTrace
 ---
 
 # ITraceDataCollector::get_IsKernelTrace
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
-

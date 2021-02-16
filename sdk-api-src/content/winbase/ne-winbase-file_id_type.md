@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_ID_TYPE
- - PFILE_ID_TYPE
  - FILE_ID_TYPE
 ---
 
@@ -92,4 +90,3 @@ This value is used for comparison only. All valid values are less than this valu
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openfilebyid">OpenFileById</a>
-

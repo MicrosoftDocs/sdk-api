@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDevice::OpenPropertyStore
+ - IMMDevice.OpenPropertyStore
 ---
 
 # IMMDevice::OpenPropertyStore
@@ -132,4 +132,3 @@ For code examples that call the <b>OpenPropertyStore</b> method, see the followi
 ## -see-also
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
-

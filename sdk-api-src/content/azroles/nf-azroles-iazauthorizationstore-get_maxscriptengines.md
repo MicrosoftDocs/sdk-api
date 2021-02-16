@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::get_MaxScriptEngines
+ - IAzAuthorizationStore.MaxScriptEngines
+ - IAzAuthorizationStore.get_MaxScriptEngines
+ - IAzAuthorizationStore.put_MaxScriptEngines
+ - AzAuthorizationStore.MaxScriptEngines
 ---
 
 # IAzAuthorizationStore::get_MaxScriptEngines

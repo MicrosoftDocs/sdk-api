@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControlSite::LockInPlaceActive
+ - IOleControlSite.LockInPlaceActive
 ---
 
 # IOleControlSite::LockInPlaceActive
@@ -98,4 +98,3 @@ This method affects the control's in-place active state but not its UI-active st
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrolsite">IOleControlSite</a>
-

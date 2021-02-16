@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - mfplay
  - mfplay/mfplay
-api_name:
- - mfplay
 ---
 
 # Mfplay.h header

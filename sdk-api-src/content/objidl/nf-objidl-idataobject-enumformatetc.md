@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject::EnumFormatEtc
+ - IDataObject.EnumFormatEtc
 ---
 
 # IDataObject::EnumFormatEtc
@@ -166,4 +166,3 @@ The <b>tymed</b> member of <a href="/windows/desktop/api/objidl/ns-objidl-format
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleregenumformatetc">OleRegEnumFormatEtc</a>
-

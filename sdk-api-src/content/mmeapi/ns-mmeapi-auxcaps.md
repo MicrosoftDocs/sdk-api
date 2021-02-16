@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - auxcaps_tag
- - PAUXCAPS
  - AUXCAPS
 ---
 
@@ -140,4 +138,3 @@ Supports volume control.
  
 
 If a device supports volume changes, the AUXCAPS_VOLUME flag will be set. If a device supports separate volume changes on the left and right channels, both AUXCAPS_VOLUME and the AUXCAPS_LRVOLUME will be set.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MIMEAssociationDialogA
  - intshcut/MIMEAssociationDialogA
- - MIMEAssociationDialog
- - intshcut/MIMEAssociationDialog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Url.dll
 api_name:
- - MIMEAssociationDialogA
  - MIMEAssociationDialog
+ - MIMEAssociationDialogA
+ - MIMEAssociationDialogW
 ---
 
 # MIMEAssociationDialogA function

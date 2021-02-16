@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObject::put_SecurityDescriptor
+ - ITDirectoryObject.put_SecurityDescriptor
 ---
 
 # ITDirectoryObject::put_SecurityDescriptor
@@ -140,4 +140,3 @@ Changes made will not take effect on the server until the
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_securitydescriptor">ITDirectoryObject::get_SecurityDescriptor</a>
-

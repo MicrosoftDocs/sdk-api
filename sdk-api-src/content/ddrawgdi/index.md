@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - ddrawgdi
  - ddrawgdi/ddrawgdi
-api_name:
- - ddrawgdi
 ---
 
 # Ddrawgdi.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CHANNEL_DECODER
  - WS_CHANNEL_DECODER
 ---
 
@@ -125,4 +124,3 @@ The <a href="/windows/desktop/api/webservices/nc-webservices-ws_decoder_end_call
 
 When the channel is finished using the decoder instance it will free it via the 
                 <a href="/windows/desktop/api/webservices/nc-webservices-ws_free_decoder_callback">WS_FREE_DECODER_CALLBACK</a>.
-

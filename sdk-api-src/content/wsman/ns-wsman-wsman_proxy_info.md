@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_PROXY_INFO
  - WSMAN_PROXY_INFO
 ---
 
@@ -64,4 +63,3 @@ Specifies the access type for the proxy. This member must be set to one of the v
 ### -field authenticationCredentials
 
 A <a href="/windows/desktop/api/wsman/ns-wsman-wsman_authentication_credentials">WSMAN_AUTHENTICATION_CREDENTIALS</a> structure that specifies the credentials and authentication scheme used for proxy access.
-

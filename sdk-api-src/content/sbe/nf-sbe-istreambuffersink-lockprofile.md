@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferSink::LockProfile
+ - IStreamBufferSink.LockProfile
 ---
 
 # IStreamBufferSink::LockProfile
@@ -131,4 +131,3 @@ This method requires administrator privileges, unless you first call <a href="/p
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink">IStreamBufferSink Interface</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnection::get_InterfaceID
+ - IMbnConnection.InterfaceID
+ - IMbnConnection.get_InterfaceID
 ---
 
 # IMbnConnection::get_InterfaceID
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - _DDPIXELFORMAT
  - DDPIXELFORMAT
 ---
 
@@ -170,7 +169,7 @@ Total luminance bits per pixel. This member applies only to luminance-only and l
 
 ### -field DUMMYUNIONNAMEN.dwBumpBitCount
 
-Total bump-map bits per pixel in a bump-map surface.
+Total bump-map bits per pixel in a bump-map surface. 
 
 ### -field DUMMYUNIONNAMEN.dwPrivateFormatBitCount
 
@@ -186,7 +185,7 @@ Mask for Y bits.
 
 ### -field DUMMYUNIONNAMEN.dwStencilBitDepth
 
-Bit depth of the stencil buffer. This member specifies how many bits are reserved within each pixel of the z-buffer for stencil information (the total number of z-bits is equal to <b>dwZBufferBitDepth</b> minus <b>dwStencilBitDepth</b>).
+Bit depth of the stencil buffer. This member specifies how many bits are reserved within each pixel of the z-buffer for stencil information (the total number of z-bits is equal to <b>dwZBufferBitDepth</b> minus <b>dwStencilBitDepth</b>). 
 
 ### -field DUMMYUNIONNAMEN.dwLuminanceBitMask
 
@@ -282,4 +281,3 @@ WORD GetNumberOfBits( DWORD dwMask )
 ```
 
 The unions in <b>DDPIXELFORMAT</b> have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
-

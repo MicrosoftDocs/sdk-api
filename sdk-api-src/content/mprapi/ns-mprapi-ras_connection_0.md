@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _RAS_CONNECTION_0
- - PRAS_CONNECTION_0
  - RAS_CONNECTION_0
 ---
 
@@ -205,4 +203,3 @@ A null-terminated Unicode string that contains the name of the remote computer.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-

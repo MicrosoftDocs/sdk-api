@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference::IsPageLoaded
+ - IXpsOMPageReference.IsPageLoaded
 ---
 
 # IXpsOMPageReference::IsPageLoaded
@@ -121,4 +121,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereference">IXpsOMPageReference</a>
-

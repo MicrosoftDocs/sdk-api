@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _enoleopfailed
  - ENOLEOPFAILED
 ---
 
@@ -97,4 +96,3 @@ Error code returned by the object on the operation.
 
 
 <b>Reference</b>
-

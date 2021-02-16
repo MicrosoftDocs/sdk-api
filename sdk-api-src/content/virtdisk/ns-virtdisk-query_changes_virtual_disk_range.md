@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _QUERY_CHANGES_VIRTUAL_DISK_RANGE
- - PQUERY_CHANGES_VIRTUAL_DISK_RANGE
  - QUERY_CHANGES_VIRTUAL_DISK_RANGE
 ---
 
@@ -84,4 +82,3 @@ Reserved.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

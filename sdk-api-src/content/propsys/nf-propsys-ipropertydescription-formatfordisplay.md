@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::FormatForDisplay
+ - IPropertyDescription.FormatForDisplay
 ---
 
 # IPropertyDescription::FormatForDisplay
@@ -277,4 +277,3 @@ For example, "f/5.6".
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush::SetBlendTriangularShape
+ - LinearGradientBrush.SetBlendTriangularShape
 ---
 
 # LinearGradientBrush::SetBlendTriangularShape
@@ -146,4 +146,3 @@ VOID Example_SetBlendTri(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
-

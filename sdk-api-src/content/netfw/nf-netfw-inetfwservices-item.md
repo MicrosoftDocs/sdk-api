@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwServices::Item
+ - INetFwServices.Item
 ---
 
 # INetFwServices::Item
@@ -240,4 +240,3 @@ The method failed because the requested item does not exist.
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_service_type">NET_FW_SERVICE_TYPE</a>
-

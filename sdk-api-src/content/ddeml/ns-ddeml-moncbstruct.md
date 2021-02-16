@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
- - tagMONCBSTRUCT
- - PMONCBSTRUCT
  - MONCBSTRUCT
 ---
 
@@ -181,4 +179,3 @@ Contains the first 32 bytes of data being passed with the transaction (<code>8 *
 
 
 <b>Reference</b>
-

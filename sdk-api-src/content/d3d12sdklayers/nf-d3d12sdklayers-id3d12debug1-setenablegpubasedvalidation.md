@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12Debug1::SetEnableGPUBasedValidation
+ - ID3D12Debug1.SetEnableGPUBasedValidation
 ---
 
 # ID3D12Debug1::SetEnableGPUBasedValidation
@@ -69,4 +69,3 @@ For more information, see <a href="/windows/desktop/direct3d12/using-d3d12-debug
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug1</a>
-

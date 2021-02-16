@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost::RetireService
+ - IWSDDeviceHost.RetireService
 ---
 
 # IWSDDeviceHost::RetireService
@@ -120,4 +120,3 @@ The device host releases its reference to the service object after the service i
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-

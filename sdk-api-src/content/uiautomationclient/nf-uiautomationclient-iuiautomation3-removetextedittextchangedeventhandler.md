@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation3::RemoveTextEditTextChangedEventHandler
+ - IUIAutomation3.RemoveTextEditTextChangedEventHandler
 ---
 
 # IUIAutomation3::RemoveTextEditTextChangedEventHandler
@@ -89,4 +89,3 @@ access violation if an event is delivered late.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removealleventhandlers">RemoveAllEventHandlers</a>
-

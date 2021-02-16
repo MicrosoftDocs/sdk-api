@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph::ProcessGraphEvent
+ - CMSPCallMultiGraph.ProcessGraphEvent
 ---
 
 # CMSPCallMultiGraph::ProcessGraphEvent
@@ -75,4 +75,3 @@ Filled in by filter graph. Implementation dependent.
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-

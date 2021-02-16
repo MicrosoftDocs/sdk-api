@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextOwnerCompositionServices::TerminateComposition
+ - ITfContextOwnerCompositionServices.TerminateComposition
 ---
 
 # ITfContextOwnerCompositionServices::TerminateComposition
@@ -141,4 +141,3 @@ This method also does the following:
 ## -see-also
 
 [ITfComposition::EndComposition](nf-msctf-itfcomposition-endcomposition.md), [nf-msctf-itfcompositionsink-oncompositionterminated](nf-msctf-itfcompositionsink-oncompositionterminated.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionServices interface](nn-msctf-itfcontextownercompositionservices.md), [ITfContextOwnerCompositionSink::OnEndComposition](nf-msctf-itfcontextownercompositionsink-onendcomposition.md)
-

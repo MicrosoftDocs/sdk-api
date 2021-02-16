@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICameraControl::get_FocalLengths
+ - ICameraControl.get_FocalLengths
 ---
 
 # ICameraControl::get_FocalLengths
@@ -113,4 +113,3 @@ Lcur
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-icameracontrol">ICameraControl Interface</a>
-

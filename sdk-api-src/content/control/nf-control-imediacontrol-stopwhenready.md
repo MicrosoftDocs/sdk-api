@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl::StopWhenReady
+ - IMediaControl.StopWhenReady
 ---
 
 # IMediaControl::StopWhenReady
@@ -103,4 +103,3 @@ If the application issues another state-change command (such as pause, run, or s
 
 
 <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
-

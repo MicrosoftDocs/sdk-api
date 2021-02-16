@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDSSLClientCertificate::GetClientCertificate
+ - IWSDSSLClientCertificate.GetClientCertificate
 ---
 
 # IWSDSSLClientCertificate::GetClientCertificate
@@ -94,4 +94,3 @@ A certificate is not available.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsslclientcertificate">IWSDSSLClientCertificate</a>
-

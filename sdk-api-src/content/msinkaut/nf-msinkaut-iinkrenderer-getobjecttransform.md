@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::GetObjectTransform
+ - IInkRenderer.GetObjectTransform
 ---
 
 # IInkRenderer::GetObjectTransform
@@ -126,4 +126,3 @@ Any translations applied to this transform should be in ink space units (1 unit 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-setviewtransform">SetViewTransform Method</a>
-

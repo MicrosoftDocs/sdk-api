@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProvider::QuerySubSystems
+ - IVdsHwProvider.QuerySubSystems
 ---
 
 # IVdsHwProvider::QuerySubSystems
@@ -163,4 +163,3 @@ The returned object enumerates all subsystems currently connected to the network
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdshwprovider-refresh">IVdsHwProvider::Refresh</a>
-

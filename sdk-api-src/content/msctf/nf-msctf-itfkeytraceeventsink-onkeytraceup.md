@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfKeyTraceEventSink::OnKeyTraceUp
+ - ITfKeyTraceEventSink.OnKeyTraceUp
 ---
 
 # ITfKeyTraceEventSink::OnKeyTraceUp
@@ -74,4 +74,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-

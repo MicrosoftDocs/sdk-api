@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN
+ - EngineAdapterSetEnrollmentSelector
 ---
 
 # PIBIO_ENGINE_SET_ENROLLMENT_SELECTOR_FN callback function
@@ -89,4 +89,3 @@ The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
 For some biometric factors (such as WINBIO_TYPE_FACIAL_FEATURES), there can be multiple people in camera frame at the same time. During an enrollment operation, it’s necessary for the enrollment application to select one specific person to enroll. The enrollment application does this by calling the <a href="/windows/desktop/api/winbio/nf-winbio-winbioenrollselect">WinBioEnrollSelect</a> function. The Windows Biometric Framework then calls the engine adapter’s <b>EngineAdapterSetEnrollmentSelector</b> function with this information.
 
 The engine adapter should store this value and use it to track the proper person during the course of the enrollment.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPorts::get_Count
+ - IFaxPorts.get_Count
 ---
 
 # IFaxPorts::get_Count
@@ -93,4 +93,3 @@ After calling the <b>IFaxPorts::get_Count</b> method, a fax client application c
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxports-get_item">IFaxPorts::get_Item</a>
-

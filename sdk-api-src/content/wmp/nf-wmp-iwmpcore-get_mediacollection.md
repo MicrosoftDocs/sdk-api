@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_mediaCollection
+ - IWMPCore.get_mediaCollection
 ---
 
 # IWMPCore::get_mediaCollection
@@ -91,4 +91,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
-

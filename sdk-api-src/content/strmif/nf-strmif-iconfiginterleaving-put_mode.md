@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigInterleaving::put_Mode
+ - IConfigInterleaving.put_Mode
 ---
 
 # IConfigInterleaving::put_Mode
@@ -74,4 +74,3 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iconfiginterleaving-get_mode">IConfigInterleaving::get_Mode</a>
-

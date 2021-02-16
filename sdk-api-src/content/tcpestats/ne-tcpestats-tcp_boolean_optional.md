@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpestats.h
 api_name:
- - _TCP_BOOLEAN_OPTIONAL
- - PTCP_BOOLEAN_OPTIONAL
  - TCP_BOOLEAN_OPTIONAL
 ---
 
@@ -93,4 +91,3 @@ The collection of extended statistics on a TCP connection are enabled and disabl
 
 
 <a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
-

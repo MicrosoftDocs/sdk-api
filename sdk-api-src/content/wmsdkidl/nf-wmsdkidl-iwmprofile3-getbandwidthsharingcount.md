@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3::GetBandwidthSharingCount
+ - IWMProfile3.GetBandwidthSharingCount
 ---
 
 # IWMProfile3::GetBandwidthSharingCount
@@ -105,4 +105,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-getbandwidthsharing">IWMProfile3::GetBandwidthSharing</a>
-

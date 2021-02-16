@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo2::GetAllImplTypeCustData
+ - ITypeInfo2.GetAllImplTypeCustData
 ---
 
 # ITypeInfo2::GetAllImplTypeCustData
@@ -112,4 +112,3 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo2">ITypeInfo2</a>
-

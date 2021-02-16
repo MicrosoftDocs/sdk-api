@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPEventSink::OnStateChanged
+ - IUPnPEventSink.OnStateChanged
 ---
 
 # IUPnPEventSink::OnStateChanged
@@ -75,4 +75,3 @@ If <i>cChanges</i> is zero or <i>rgdispidChanges</i> is <b>NULL</b>, E_INVALIDAR
 ## -see-also
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a>
-

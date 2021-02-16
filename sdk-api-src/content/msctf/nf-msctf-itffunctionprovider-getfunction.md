@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfFunctionProvider::GetFunction
+ - ITfFunctionProvider.GetFunction
 ---
 
 # ITfFunctionProvider::GetFunction

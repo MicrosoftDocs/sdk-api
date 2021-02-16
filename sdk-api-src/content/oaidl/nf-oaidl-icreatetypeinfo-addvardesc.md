@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::AddVarDesc
+ - ICreateTypeInfo.AddVarDesc
 ---
 
 # ICreateTypeInfo::AddVarDesc
@@ -157,4 +157,3 @@ Any HREFTYPE fields in the VARDESC structure must have been produced by the same
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

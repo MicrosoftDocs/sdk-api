@@ -43,7 +43,11 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetCHString
+ - CInstance.SetCHString
+ - ?SetCHString@CInstance@@QAE_NPBG0@Z
+ - ?SetCHString@CInstance@@QAE_NPBGPBD@Z
+ - ?SetCHString@CInstance@@QEAA_NPEBG0@Z
+ - ?SetCHString@CInstance@@QEAA_NPEBGPEBD@Z
 ---
 
 # CInstance::SetCHString(LPCWSTR,LPCSTR)
@@ -80,4 +84,3 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 
 <a href="/windows/desktop/WmiSdk/cinstance-setchstring">CInstance::SetCHString</a>
-

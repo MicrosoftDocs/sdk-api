@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_escape_filter_element
+ - ldap_escape_filter_elementA
+ - ldap_escape_filter_elementW
 ---
 
 # ldap_escape_filter_element function
@@ -93,4 +95,3 @@ Call <b>ldap_escape_filter_element</b> with the <i>sourceFilterElement</i> param
 
 
 <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_WSZ_DESCRIPTION
  - WS_WSZ_DESCRIPTION
 ---
 
@@ -66,4 +65,3 @@ Specifies the minimum number of characters (not including the terminating '\0' c
 ### -field maxCharCount
 
 Specifies the maximum number of characters (not including the terminating '\0' character).
-

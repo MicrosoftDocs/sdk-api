@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - dsattrib
  - dsattrib/dsattrib
-api_name:
- - dsattrib
 ---
 
 # Dsattrib.h header

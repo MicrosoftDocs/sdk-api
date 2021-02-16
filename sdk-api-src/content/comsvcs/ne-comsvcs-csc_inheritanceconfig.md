@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCSC_InheritanceConfig
  - CSC_InheritanceConfig
 ---
 
@@ -187,4 +186,3 @@ Calling <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceinheritanceconf
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iserviceinheritanceconfig-containingcontexttreatment">IServiceInheritanceConfig::ContainingContextTreatment</a>
-

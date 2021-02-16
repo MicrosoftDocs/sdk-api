@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineagentstatus_tag
- - LPLINEAGENTSTATUS
  - LINEAGENTSTATUS
 ---
 
@@ -145,4 +143,3 @@ Next agent states that could be selected, at this point in time, by calling the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetagentstate">lineSetAgentState</a>
-

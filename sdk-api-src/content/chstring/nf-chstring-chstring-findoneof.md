@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::FindOneOf
+ - CHString.FindOneOf
 ---
 
 # CHString::FindOneOf
@@ -76,4 +76,3 @@ If the method is successful, it returns the zero-based index of the first charac
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-find(wchar)">CHString::Find</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrameEvents::OnCall
+ - ICallFrameEvents.OnCall
 ---
 
 # ICallFrameEvents::OnCall
@@ -104,4 +104,3 @@ The return value should also have been appropriately set during the call in a si
 
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframeevents">ICallFrameEvents</a>
-

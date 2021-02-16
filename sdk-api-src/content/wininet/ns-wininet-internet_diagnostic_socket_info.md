@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPINTERNET_DIAGNOSTIC_SOCKET_INFO
  - INTERNET_DIAGNOSTIC_SOCKET_INFO
 ---
 
@@ -126,4 +125,3 @@ Set if a proxy is being used to create a tunnel.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
-

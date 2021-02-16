@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Twext.dll
 api_name:
- - IPreviousVersionsInfo::AreSnapshotsAvailable
+ - IPreviousVersionsInfo.AreSnapshotsAvailable
 ---
 
 # IPreviousVersionsInfo::AreSnapshotsAvailable
@@ -153,4 +153,3 @@ For better performance, a UI thread calling this method should always set <i>fOk
 <li>Call <b>IPreviousVersionsInfo::AreSnapshotsAvailable</b> with <i>fOkToBeSlow</i> set to <b>TRUE</b>.</li>
 <li>Signal the original UI thread to call <b>IPreviousVersionsInfo::AreSnapshotsAvailable</b> again. The results are then pulled from the cache.</li>
 </ul>
-

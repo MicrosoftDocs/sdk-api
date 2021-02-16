@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMLINK
- - PNMLINK
  - NMLINK
 ---
 
@@ -89,4 +87,3 @@ Type: <b><a href="/windows/desktop/api/commctrl/ns-commctrl-litem">LITEM</a></b>
 
 
 <b>Reference</b>
-

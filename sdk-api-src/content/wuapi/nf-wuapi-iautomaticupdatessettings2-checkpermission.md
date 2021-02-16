@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings2::CheckPermission
+ - IAutomaticUpdatesSettings2.CheckPermission
 ---
 
 # IAutomaticUpdatesSettings2::CheckPermission
@@ -81,4 +81,3 @@ This method can be used to determine whether User Access Control (UAC) must be u
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings2">IAutomaticUpdatesSettings2</a>
-

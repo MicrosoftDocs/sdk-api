@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchQueryHelper::put_QuerySyntax
+ - ISearchQueryHelper.put_QuerySyntax
 ---
 
 # ISearchQueryHelper::put_QuerySyntax
@@ -91,4 +91,3 @@ Checkout the <a href="/windows/win32/search/-search-sample-dsearch">DSearch code
 
 
 <a href="/windows/desktop/api/searchapi/ne-searchapi-search_query_syntax">SEARCH_QUERY_SYNTAX</a>
-

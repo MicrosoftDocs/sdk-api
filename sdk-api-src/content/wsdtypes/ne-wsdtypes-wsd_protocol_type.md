@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_PROTOCOL_TYPE
  - WSD_PROTOCOL_TYPE
 ---
 
@@ -80,4 +79,3 @@ The UDP, HTTP, and HTTPS protocols are supported.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_port_type">WSD_PORT_TYPE</a>
-

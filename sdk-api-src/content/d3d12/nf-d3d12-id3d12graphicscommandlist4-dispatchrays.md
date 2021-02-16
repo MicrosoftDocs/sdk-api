@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4::DispatchRays
+ - ID3D12GraphicsCommandList4.DispatchRays
 ---
 
 # ID3D12GraphicsCommandList4::DispatchRays

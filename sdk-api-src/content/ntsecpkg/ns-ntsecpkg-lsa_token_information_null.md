@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _LSA_TOKEN_INFORMATION_NULL
- - PLSA_TOKEN_INFORMATION_NULL
  - LSA_TOKEN_INFORMATION_NULL
 ---
 
@@ -74,4 +72,3 @@ Time at which the <a href="/windows/desktop/SecGloss/s-gly">security context</a>
 
 
 Each SID is expected to be in a separately allocated block of memory. The <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory.
-

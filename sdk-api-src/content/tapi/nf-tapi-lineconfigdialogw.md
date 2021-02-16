@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineConfigDialogW
  - tapi/lineConfigDialogW
- - lineConfigDialog
- - tapi/lineConfigDialog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineConfigDialogW
  - lineConfigDialog
+ - lineConfigDialogA
+ - lineConfigDialogW
 ---
 
 # lineConfigDialogW function
@@ -102,4 +101,3 @@ The <i>lpszDeviceClass</i> parameter would be "tapi/line" , "", or <b>NULL</b> t
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
-

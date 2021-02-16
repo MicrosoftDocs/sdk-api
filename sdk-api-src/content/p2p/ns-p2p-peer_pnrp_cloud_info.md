@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_pnrp_cloud_info_tag
- - PPEER_PNRP_CLOUD_INFO
  - PEER_PNRP_CLOUD_INFO
 ---
 

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFPinholeCameraIntrinsics
  - MFPinholeCameraIntrinsics
 ---
 
@@ -68,4 +67,3 @@ The array of camera intrinsic models in the intrinsic data.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

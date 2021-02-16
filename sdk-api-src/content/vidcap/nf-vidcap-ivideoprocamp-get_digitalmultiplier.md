@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IVideoProcAmp::get_DigitalMultiplier
+ - IVideoProcAmp.get_DigitalMultiplier
 ---
 
 # IVideoProcAmp::get_DigitalMultiplier
@@ -100,4 +100,3 @@ where
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-ivideoprocamp">IVideoProcAmp Interface</a>
-

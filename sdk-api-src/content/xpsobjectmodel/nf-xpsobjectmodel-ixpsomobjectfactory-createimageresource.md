@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory::CreateImageResource
+ - IXpsOMObjectFactory.CreateImageResource
 ---
 
 # IXpsOMObjectFactory::CreateImageResource
@@ -194,4 +194,3 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_image_type">XPS_IMAGE_TYPE</a>
-

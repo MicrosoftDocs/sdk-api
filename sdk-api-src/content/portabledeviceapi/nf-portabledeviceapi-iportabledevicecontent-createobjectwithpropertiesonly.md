@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceContent::CreateObjectWithPropertiesOnly
+ - IPortableDeviceContent.CreateObjectWithPropertiesOnly
 ---
 
 # IPortableDeviceContent::CreateObjectWithPropertiesOnly
@@ -125,4 +125,3 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/transferring-a-properties-only-object-to-the-device">Transferring a Properties-Only Object to the Device</a>
-

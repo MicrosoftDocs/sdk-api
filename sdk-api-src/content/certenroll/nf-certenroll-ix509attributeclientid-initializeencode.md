@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeClientId::InitializeEncode
+ - IX509AttributeClientId.InitializeEncode
 ---
 
 # IX509AttributeClientId::InitializeEncode
@@ -98,4 +98,3 @@ You must call either <b>InitializeEncode</b> or <a href="/windows/desktop/api/ce
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
-

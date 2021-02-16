@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::Subscribe
+ - CVssWriter.Subscribe
 ---
 
 # CVssWriter::Subscribe
@@ -154,4 +154,3 @@ The writer has previously called this method.
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_subscribe_mask">VSS_SUBSCRIBE_MASK</a>
-

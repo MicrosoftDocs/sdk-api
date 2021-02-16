@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations::SetOperationMode
+ - IDMOVideoOutputOptimizations.SetOperationMode
 ---
 
 # IDMOVideoOutputOptimizations::SetOperationMode
@@ -120,4 +120,3 @@ When streaming ends, the application can renegotiate the features. Streaming end
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations Interface</a>
-

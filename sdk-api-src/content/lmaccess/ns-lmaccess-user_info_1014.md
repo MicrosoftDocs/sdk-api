@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1014
- - PUSER_INFO_1014
  - USER_INFO_1014
 ---
 
@@ -87,4 +85,3 @@ As many as eight workstations can be specified; the names must be separated by c
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

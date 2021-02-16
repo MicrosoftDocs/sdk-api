@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FileEncryptionStatusA
  - winbase/FileEncryptionStatusA
- - FileEncryptionStatus
- - winbase/FileEncryptionStatus
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Advapi32.dll
 api_name:
- - FileEncryptionStatusA
  - FileEncryptionStatus
+ - FileEncryptionStatusA
+ - FileEncryptionStatusW
 ---
 
 # FileEncryptionStatusA function
@@ -266,4 +265,3 @@ SMB 3.0 does not support EFS on shares with continuous availability capability.
 
 
 <a href="/windows/desktop/FileIO/file-management-functions">File Management Functions</a>
-

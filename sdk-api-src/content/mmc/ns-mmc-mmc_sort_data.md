@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_SORT_DATA
  - MMC_SORT_DATA
 ---
 
@@ -97,4 +96,3 @@ Reserved for future use.
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::Graphics
+ - Graphics.Graphics
 ---
 
 # Graphics::Graphics(IN HWND,IN BOOL)
@@ -82,4 +82,3 @@ Optional. Boolean value that specifies whether the new <b>Graphics::Graphics</b>
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-graphics(constgraphics_)">Graphics Constructors</a>
-

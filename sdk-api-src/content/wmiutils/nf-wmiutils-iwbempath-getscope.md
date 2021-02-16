@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::GetScope
+ - IWbemPath.GetScope
 ---
 
 # IWbemPath::GetScope
@@ -84,4 +84,3 @@ This method can be used to determine how big a buffer is needed for <i>pszClass<
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-

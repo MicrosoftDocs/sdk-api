@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseApplyTransformW
  - msiquery/MsiDatabaseApplyTransformW
- - MsiDatabaseApplyTransform
- - msiquery/MsiDatabaseApplyTransform
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDatabaseApplyTransformW
  - MsiDatabaseApplyTransform
+ - MsiDatabaseApplyTransformA
+ - MsiDatabaseApplyTransformW
 ---
 
 # MsiDatabaseApplyTransformW function
@@ -190,4 +189,3 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 <a href="/windows/desktop/Msi/database-transforms">Database Transforms</a>
-

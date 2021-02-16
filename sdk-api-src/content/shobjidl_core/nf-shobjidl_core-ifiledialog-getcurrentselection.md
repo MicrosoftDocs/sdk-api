@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialog::GetCurrentSelection
+ - IFileDialog.GetCurrentSelection
 ---
 
 # IFileDialog::GetCurrentSelection
@@ -77,4 +77,3 @@ The calling application is responsible for releasing the retrieved <a href="/win
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-getresult">IFileDialog::GetResult</a>
-

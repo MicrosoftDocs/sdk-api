@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ExtTextOutW
  - wingdi/ExtTextOutW
- - ExtTextOut
- - wingdi/ExtTextOut
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-GDI-Font-L1-1-3.dll
  - GDI32Full.dll
 api_name:
- - ExtTextOutW
  - ExtTextOut
+ - ExtTextOutA
+ - ExtTextOutW
 ---
 
 # ExtTextOutW function
@@ -349,4 +348,3 @@ For an example, see "Setting Fonts for Menu-Item Text Strings" in <a href="/wind
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-settextcolor">SetTextColor</a>
-

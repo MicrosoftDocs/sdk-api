@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationGridPattern::get_CurrentColumnCount
+ - IUIAutomationGridPattern.CurrentColumnCount
+ - IUIAutomationGridPattern.get_CurrentColumnCount
 ---
 
 # IUIAutomationGridPattern::get_CurrentColumnCount
@@ -63,4 +64,3 @@ Hidden rows and columns, depending on the provider implementation, may be loaded
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgridpattern">IUIAutomationGridPattern</a>
-

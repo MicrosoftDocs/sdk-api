@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPathKeyList::RemoveKey
+ - IWbemPathKeyList.RemoveKey
 ---
 
 # IWbemPathKeyList::RemoveKey
@@ -78,4 +78,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call.
 
 
 <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbempathkeylist-removeallkeys">IWbemPathKeyList::RemoveAllKeys</a>
-

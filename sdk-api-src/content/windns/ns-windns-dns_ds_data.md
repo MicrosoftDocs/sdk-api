@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - PDNS_DS_DATA
  - DNS_DS_DATA
 ---
 
@@ -172,4 +171,3 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

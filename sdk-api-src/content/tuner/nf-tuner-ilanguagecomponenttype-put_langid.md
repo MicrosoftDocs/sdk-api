@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ILanguageComponentType::put_LangID
+ - ILanguageComponentType.put_LangID
 ---
 
 # ILanguageComponentType::put_LangID
@@ -73,4 +73,3 @@ The <i>LangID</i> parameter is a Win32 LCID. Use this method to set the language
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ilanguagecomponenttype-get_langid">ILanguageComponentType::get_LangID</a>
-

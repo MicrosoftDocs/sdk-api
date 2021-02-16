@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSETWORLDTRANSFORM
- - PEMRSETWORLDTRANSFORM
  - EMRSETWORLDTRANSFORM
 ---
 
@@ -79,4 +77,3 @@ World-space to page-space transformation data.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setworldtransform">SetWorldTransform</a>
-

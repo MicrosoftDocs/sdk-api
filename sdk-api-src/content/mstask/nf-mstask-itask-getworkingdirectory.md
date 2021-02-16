@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask::GetWorkingDirectory
+ - ITask.GetWorkingDirectory
 ---
 
 # ITask::GetWorkingDirectory
@@ -113,4 +113,3 @@ Not enough memory is available.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itask-setworkingdirectory">SetWorkingDirectory</a>
-

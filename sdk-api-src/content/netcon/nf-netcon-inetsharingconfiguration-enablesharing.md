@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingConfiguration::EnableSharing
+ - INetSharingConfiguration.EnableSharing
 ---
 
 # INetSharingConfiguration::EnableSharing
@@ -199,4 +199,3 @@ Use the
 
 
 <a href="/windows/desktop/api/netcon/ne-netcon-sharingconnectiontype">SHARINGCONNECTIONTYPE</a>
-

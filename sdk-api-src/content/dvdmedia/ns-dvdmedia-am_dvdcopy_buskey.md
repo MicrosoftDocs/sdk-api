@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dvdmedia.h
 api_name:
- - _AM_DVDCOPY_BUSKEY
- - PAM_DVDCOPY_BUSKEY
  - AM_DVDCOPY_BUSKEY
 ---
 
@@ -77,4 +75,3 @@ A bus key is used for the DVD CSS key exchange for decryption. Implementors shou
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dvd-copy-protection-property-set">DVD Copy Protection Property Set</a>
-

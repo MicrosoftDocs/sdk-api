@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetVersionExA
  - sysinfoapi/GetVersionExA
- - GetVersionEx
- - sysinfoapi/GetVersionEx
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetVersionExA
  - GetVersionEx
+ - GetVersionExA
+ - GetVersionExW
 ---
 
 # GetVersionExA function
@@ -203,4 +202,3 @@ For an example that identifies the current operating system, see
 
 
 <a href="/windows/desktop/SysInfo/version-helper-apis">Version Helper functions</a>
-

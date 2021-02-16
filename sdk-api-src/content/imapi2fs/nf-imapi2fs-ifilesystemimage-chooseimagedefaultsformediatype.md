@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::ChooseImageDefaultsForMediaType
+ - IFileSystemImage.ChooseImageDefaultsForMediaType
 ---
 
 # IFileSystemImage::ChooseImageDefaultsForMediaType
@@ -98,4 +98,3 @@ Value: 0xC0AAB121
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-

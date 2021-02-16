@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _MAP_FLAGS
  - MAP_FLAGS
 ---
 
@@ -128,4 +127,3 @@ uint32  Data6;</code></pre>
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-event_map_info">EVENT_MAP_INFO</a>
-

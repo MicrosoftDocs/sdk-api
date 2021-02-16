@@ -47,9 +47,7 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPMCAST_OIF_W2K
- - PMIB_IPMCAST_OIF_W2K
- - MIB_IPMCAST_OIF_W2K
+ - MIB_IPMCAST_OIF
 ---
 
 # MIB_IPMCAST_OIF_W2K structure
@@ -99,4 +97,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 
 
 <a href="/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>
-

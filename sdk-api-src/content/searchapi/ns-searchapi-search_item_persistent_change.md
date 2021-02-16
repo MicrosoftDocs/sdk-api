@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _SEARCH_ITEM_PERSISTENT_CHANGE
  - SEARCH_ITEM_PERSISTENT_CHANGE
 ---
 
@@ -80,4 +79,3 @@ A value from the <a href="/windows/desktop/api/searchapi/ne-searchapi-search_not
 ## -remarks
 
 SEARCH_CHANGE_MOVE_RENAME is not supported for use with <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchpersistentitemschangedsink-onitemschanged">ISearchPersistentItemsChangedSink::OnItemsChanged</a>.
-

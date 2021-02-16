@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
- - tagPXE_DHCPV6_NESTED_RELAY_MESSAGE
- - PPXE_DHCPV6_NESTED_RELAY_MESSAGE
  - PXE_DHCPV6_NESTED_RELAY_MESSAGE
 ---
 

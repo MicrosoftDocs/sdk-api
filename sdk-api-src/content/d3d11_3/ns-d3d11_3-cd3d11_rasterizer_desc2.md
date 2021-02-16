@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11_3.h
 api_name:
- - CD3D11_RASTERIZER_DESC2
+ - D3D11_RASTERIZER_DESC2
 ---
 
 # CD3D11_RASTERIZER_DESC2 structure
@@ -255,4 +255,3 @@ The settings of the <b>MultisampleEnable</b> and <b>AntialiasedLineEnable</b> me
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
-

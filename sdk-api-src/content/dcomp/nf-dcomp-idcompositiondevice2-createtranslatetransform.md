@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2::CreateTranslateTransform
+ - IDCompositionDevice2.CreateTranslateTransform
 ---
 
 # IDCompositionDevice2::CreateTranslateTransform
@@ -77,4 +77,3 @@ A new 2D translation transform object has a static value of zero for the OffsetX
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadProgress::GetUpdateResult
+ - IDownloadProgress.GetUpdateResult
 ---
 
 # IDownloadProgress::GetUpdateResult
@@ -69,4 +69,3 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
-

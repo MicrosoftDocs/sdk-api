@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1516
- - PSERVER_INFO_1516
  - SERVER_INFO_1516
 ---
 
@@ -80,4 +78,3 @@ Specifies whether the server is a reliable time source.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

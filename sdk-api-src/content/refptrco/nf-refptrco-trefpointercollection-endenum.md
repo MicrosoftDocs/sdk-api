@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection::EndEnum
+ - TRefPointerCollection.EndEnum
 ---
 
 # TRefPointerCollection::EndEnum
@@ -68,4 +68,3 @@ The <b>EndEnum</b> method ends the enumeration of the collection.
 
 
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-beginenum">TRefPointerCollection::BeginEnum</a>
-

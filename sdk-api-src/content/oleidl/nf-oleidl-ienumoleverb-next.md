@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IEnumOLEVERB::Next
+ - IEnumOLEVERB.Next
 ---
 
 # IEnumOLEVERB::Next
@@ -79,4 +79,3 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 <a href="/windows/desktop/api/oleidl/ns-oleidl-oleverb">OLEVERB</a>
-

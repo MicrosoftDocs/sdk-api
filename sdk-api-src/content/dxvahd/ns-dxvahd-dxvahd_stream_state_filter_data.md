@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_STREAM_STATE_FILTER_DATA
  - DXVAHD_STREAM_STATE_FILTER_DATA
 ---
 
@@ -119,4 +118,3 @@ HRESULT DXVAHD_SetFilterValue(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

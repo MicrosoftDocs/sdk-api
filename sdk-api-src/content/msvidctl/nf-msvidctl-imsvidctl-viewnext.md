@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::ViewNext
+ - IMSVidCtl.ViewNext
 ---
 
 # IMSVidCtl::ViewNext
@@ -75,4 +75,3 @@ This method works like the <a href="/previous-versions/windows/desktop/api/msvid
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-view">IMSVidCtl::View</a>
-

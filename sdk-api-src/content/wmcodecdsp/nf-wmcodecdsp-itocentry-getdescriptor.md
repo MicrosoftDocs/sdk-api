@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocEntry::GetDescriptor
+ - ITocEntry.GetDescriptor
 ---
 
 # ITocEntry::GetDescriptor
@@ -87,4 +87,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-setdescriptor">SetDescriptor</a>
-

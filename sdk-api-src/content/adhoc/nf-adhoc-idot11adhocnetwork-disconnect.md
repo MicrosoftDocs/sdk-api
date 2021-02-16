@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork::Disconnect
+ - IDot11AdHocNetwork.Disconnect
 ---
 
 # IDot11AdHocNetwork::Disconnect
@@ -94,4 +94,3 @@ The method failed.
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-connect">IDot11AdHocNetwork::Connect</a>
-

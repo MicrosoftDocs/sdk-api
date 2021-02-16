@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObject2::ReadOnClearChannel
+ - IMDSPObject2.ReadOnClearChannel
 ---
 
 # IMDSPObject2::ReadOnClearChannel
@@ -93,4 +93,3 @@ This method can be used for DRM-protected content. This method is more efficient
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read">IMDSPObject::Read</a>
-

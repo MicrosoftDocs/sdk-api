@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::MoveWhile
+ - ITextRange.MoveWhile
 ---
 
 # ITextRange::MoveWhile
@@ -190,4 +190,3 @@ r.FindEnd <, tomStart     // Back up to start of end tag
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSession::GetSessionCapabilities
+ - IMFMediaSession.GetSessionCapabilities
 ---
 
 # IMFMediaSession::GetSessionCapabilities
@@ -163,4 +163,3 @@ The Media Session has been shut down.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasession">IMFMediaSession</a>
-

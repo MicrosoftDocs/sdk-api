@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce::SetWriteSpeed
+ - IDiscFormat2TrackAtOnce.SetWriteSpeed
 ---
 
 # IDiscFormat2TrackAtOnce::SetWriteSpeed
@@ -444,4 +444,3 @@ To retrieve the requested values, call the <a href="/windows/desktop/api/imapi2/
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-get_supportedwritespeeds">IDiscFormat2TrackAtOnce::get_SupportedWriteSpeeds</a>
-

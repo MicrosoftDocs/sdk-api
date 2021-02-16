@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::GetInputCurrentType
+ - IMFDeviceTransform.GetInputCurrentType
 ---
 
 # IMFDeviceTransform::GetInputCurrentType
@@ -138,4 +138,3 @@ The MFT should return a clone of the media type, not a pointer to the original t
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

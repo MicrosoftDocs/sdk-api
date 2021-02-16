@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder::SetFiltergraph
+ - ICaptureGraphBuilder.SetFiltergraph
 ---
 
 # ICaptureGraphBuilder::SetFiltergraph
@@ -75,4 +75,3 @@ The graph builder will automatically create a filter graph if you don't call thi
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge::ContainsChange
+ - ISyncKnowledge.ContainsChange
 ---
 
 # ISyncKnowledge::ContainsChange
@@ -114,4 +114,3 @@ The specified change is not contained in the knowledge.
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-

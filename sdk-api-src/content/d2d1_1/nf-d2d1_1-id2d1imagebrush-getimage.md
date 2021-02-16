@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ImageBrush::GetImage
+ - ID2D1ImageBrush.GetImage
 ---
 
 # ID2D1ImageBrush::GetImage
@@ -63,4 +63,3 @@ When this method returns, contains the address of a pointer to the image associa
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">ID2D1ImageBrush</a>
-

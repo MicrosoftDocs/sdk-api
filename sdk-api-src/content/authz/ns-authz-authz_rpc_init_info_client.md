@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_RPC_INIT_INFO_CLIENT
- - PAUTHZ_RPC_INIT_INFO_CLIENT
  - AUTHZ_RPC_INIT_INFO_CLIENT
 ---
 
@@ -100,4 +98,3 @@ Server Principal Name (SPN) of the server. If this member is missing, it is cons
 ## -remarks
 
 For a sample that uses this structure, see the [Effective access rights for files sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Security/EffectiveAccessRights).
-

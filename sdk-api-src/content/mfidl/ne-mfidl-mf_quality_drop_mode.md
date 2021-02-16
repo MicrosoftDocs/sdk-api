@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_QUALITY_DROP_MODE
  - MF_QUALITY_DROP_MODE
 ---
 
@@ -118,4 +117,3 @@ The enhanced video renderer (EVR) can drop video frames before sending them to t
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _GDIINFO
- - PGDIINFO
  - GDIINFO
 ---
 
@@ -733,4 +731,3 @@ Each byte threshold at a particular location in a halftone dither pattern determ
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvtextout">DrvTextOut</a>
-

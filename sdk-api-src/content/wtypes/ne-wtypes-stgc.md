@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
- - tagSTGC
  - STGC
 ---
 
@@ -115,4 +114,3 @@ Typically, use <b>STGC_ONLYIFCURRENT</b> to protect the storage object in cases 
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-

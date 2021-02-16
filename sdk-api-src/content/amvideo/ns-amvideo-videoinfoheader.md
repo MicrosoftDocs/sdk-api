@@ -44,7 +44,6 @@ api_type:
 api_location:
  - amvideo.h
 api_name:
- - tagVIDEOINFOHEADER
  - VIDEOINFOHEADER
 ---
 
@@ -100,4 +99,3 @@ During playback, applications can retrieve the authored frame rate as follows:
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob::get_Id
+ - IFaxIncomingJob.Id
+ - IFaxIncomingJob.get_Id
+ - IFaxIncomingJob.get_Id
 ---
 
 # IFaxIncomingJob::get_Id
@@ -71,4 +73,3 @@ You can use the fax job's ID to retrieve the archived fax message after the job 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
-

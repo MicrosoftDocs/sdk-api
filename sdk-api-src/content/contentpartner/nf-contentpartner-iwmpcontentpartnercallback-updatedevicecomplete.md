@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::UpdateDeviceComplete
+ - IWMPContentPartnerCallback.UpdateDeviceComplete
 ---
 
 # IWMPContentPartnerCallback::UpdateDeviceComplete
@@ -89,4 +89,3 @@ This method should be called in response to <b>UpdateDevice</b>, following the c
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

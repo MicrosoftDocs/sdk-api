@@ -43,6 +43,7 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsNameTranslate
+ - NameTranslate
 ---
 
 # IADsNameTranslate interface
@@ -131,4 +132,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsNameTranslate</b> interfa
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

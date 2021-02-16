@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3PK::XMFLOAT3PK
+ - XMFLOAT3PK.XMFLOAT3PK
 ---
 
 # XMFLOAT3PK::XMFLOAT3PK(uint32_t)
@@ -131,4 +131,3 @@ Bits 27-31 of <b>v</b> are the 5 bit <i>exponent</i> of the
 
 
 <a href="/windows/desktop/dxmath/xmfloat3pk-ctor">XMFLOAT3PK Constructors</a>
-

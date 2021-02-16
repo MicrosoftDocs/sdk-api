@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeName::get_StrValue
+ - IAlternativeName.StrValue
+ - IAlternativeName.get_StrValue
 ---
 
 # IAlternativeName::get_StrValue
@@ -88,4 +89,3 @@ You can call this property to retrieve a string if you initialized the <a href="
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-

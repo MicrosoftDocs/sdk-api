@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - lpMapiRecipDescW
  - MapiRecipDescW
 ---
 
@@ -149,4 +148,3 @@ These entry identifiers have meaning only for the service provider. The messagin
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdesc">MapiRecipDesc</a>
-

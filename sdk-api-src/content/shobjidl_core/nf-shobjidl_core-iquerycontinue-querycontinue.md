@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IQueryContinue::QueryContinue
+ - IQueryContinue.QueryContinue
 ---
 
 # IQueryContinue::QueryContinue
@@ -71,4 +71,3 @@ In typical usage, a pointer to an <a href="/windows/desktop/api/shobjidl_core/nn
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iusernotification">IUserNotification</a>
-

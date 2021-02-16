@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStreamBuffering::SetBufferingParams
+ - IMFByteStreamBuffering.SetBufferingParams
 ---
 
 # IMFByteStreamBuffering::SetBufferingParams
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
-

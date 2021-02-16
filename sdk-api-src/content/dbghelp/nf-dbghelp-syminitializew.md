@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymInitializeW
  - dbghelp/SymInitializeW
- - SymInitialize
- - dbghelp/SymInitialize
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymInitializeW
  - SymInitialize
+ - SymInitialize
+ - SymInitializeW
 ---
 
 # SymInitializeW function
@@ -153,4 +152,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symsetsearchpath">SymSetSearchPath</a>
-

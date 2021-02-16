@@ -42,7 +42,7 @@ api_type:
 api_location:
  - restrictederrorinfo.h
 api_name:
- - ILanguageExceptionStackBackTrace::GetStackBackTrace
+ - ILanguageExceptionStackBackTrace.GetStackBackTrace
 ---
 
 # ILanguageExceptionStackBackTrace::GetStackBackTrace
@@ -77,4 +77,3 @@ You should implement <b>GetStackBackTrace</b> in your language projections when 
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionstackbacktrace">ILanguageExceptionStackBackTrace</a>
-

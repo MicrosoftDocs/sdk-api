@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::get_Terminals
+ - ITPhone.get_Terminals
 ---
 
 # ITPhone::get_Terminals
@@ -99,4 +99,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-

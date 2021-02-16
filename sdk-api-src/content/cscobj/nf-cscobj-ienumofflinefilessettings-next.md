@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IEnumOfflineFilesSettings::Next
+ - IEnumOfflineFilesSettings.Next
 ---
 
 # IEnumOfflineFilesSettings::Next
@@ -74,4 +74,3 @@ Returns <b>S_OK</b> if the number of elements returned is <i>celt</i>; S_FALSE i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-ienumofflinefilessettings">IEnumOfflineFilesSettings</a>
-

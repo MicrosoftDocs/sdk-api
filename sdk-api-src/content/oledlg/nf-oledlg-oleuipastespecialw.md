@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIPasteSpecialW
  - oledlg/OleUIPasteSpecialW
- - OleUIPasteSpecial
- - oledlg/OleUIPasteSpecial
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIPasteSpecialW
  - OleUIPasteSpecial
+ - OleUIPasteSpecialA
+ - OleUIPasteSpecialW
 ---
 
 # OleUIPasteSpecialW function
@@ -450,4 +449,3 @@ void FreeHmetafilepict(HMETAFILEPICT hmfp)
 ## -see-also
 
 <a href="/windows/desktop/api/oledlg/ne-oledlg-oleuipasteflag">OLEUIPASTEFLAG</a>
-

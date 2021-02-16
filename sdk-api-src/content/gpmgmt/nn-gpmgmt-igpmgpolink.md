@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMGPOLink
+ - GPMGPOLink
 ---
 
 # IGPMGPOLink interface
@@ -72,4 +73,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMGPOLink</b> interface inh
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolinkscollection">IGPMGPOLinksCollection</a>
-

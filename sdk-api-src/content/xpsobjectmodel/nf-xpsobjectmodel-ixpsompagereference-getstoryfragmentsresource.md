@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference::GetStoryFragmentsResource
+ - IXpsOMPageReference.GetStoryFragmentsResource
 ---
 
 # IXpsOMPageReference::GetStoryFragmentsResource
@@ -125,4 +125,3 @@ The XML markup in  the DocumentStructure and StoryFragments parts is described i
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

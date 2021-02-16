@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IProcessInitializer::Startup
+ - IProcessInitializer.Startup
 ---
 
 # IProcessInitializer::Startup
@@ -71,4 +71,3 @@ The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interf
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iprocessinitializer">IProcessInitializer</a>
-

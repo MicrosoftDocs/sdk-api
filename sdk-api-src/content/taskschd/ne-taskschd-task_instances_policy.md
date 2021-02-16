@@ -44,7 +44,6 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
- - _TASK_INSTANCES_POLICY
  - TASK_INSTANCES_POLICY
 ---
 
@@ -76,4 +75,3 @@ Stops an existing instance of the task before it starts a new instance.
 ## -see-also
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-

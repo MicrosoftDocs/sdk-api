@@ -46,8 +46,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_settings_tag
- - PDRT_SETTINGS
  - DRT_SETTINGS
 ---
 
@@ -109,4 +107,3 @@ Specifies the security mode that the DRT should operate under. All nodes partici
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-

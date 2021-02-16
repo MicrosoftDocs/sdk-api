@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara2::SetEffects
+ - ITextPara2.SetEffects
 ---
 
 # ITextPara2::SetEffects
@@ -85,4 +85,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextpara2-geteffects">ITextPara2::GetEffects</a>
-

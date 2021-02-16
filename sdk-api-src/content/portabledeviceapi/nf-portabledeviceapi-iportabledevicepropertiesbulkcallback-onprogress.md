@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulkCallback::OnProgress
+ - IPortableDevicePropertiesBulkCallback.OnProgress
 ---
 
 # IPortableDevicePropertiesBulkCallback::OnProgress
@@ -78,4 +78,3 @@ If this method is called multiple times, it may return properties for the same o
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback Interface</a>
-

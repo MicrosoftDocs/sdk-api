@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineforwardlist_tag
- - LPLINEFORWARDLIST
  - LINEFORWARDLIST
 ---
 
@@ -96,4 +94,3 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineforward">lineForward</a>
-

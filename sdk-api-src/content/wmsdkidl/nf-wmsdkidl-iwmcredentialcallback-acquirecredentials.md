@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMCredentialCallback::AcquireCredentials
+ - IWMCredentialCallback.AcquireCredentials
 ---
 
 # IWMCredentialCallback::AcquireCredentials
@@ -103,4 +103,3 @@ The reader object calls the <b>AcquireCredentials</b> method on the application 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcredentialcallback">IWMCredentialCallback Interface</a>
-

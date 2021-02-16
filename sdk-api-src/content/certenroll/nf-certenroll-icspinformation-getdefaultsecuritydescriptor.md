@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation::GetDefaultSecurityDescriptor
+ - ICspInformation.GetDefaultSecurityDescriptor
 ---
 
 # ICspInformation::GetDefaultSecurityDescriptor
@@ -140,4 +140,3 @@ Some cryptographic providers do not support security descriptors. Examples inclu
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-

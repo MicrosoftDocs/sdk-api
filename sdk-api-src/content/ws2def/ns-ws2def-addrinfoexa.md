@@ -47,9 +47,9 @@ api_location:
  - Ws2def.h
  - Ws2tcpip.h
 api_name:
+ - ADDRINFOEX
  - addrinfoexA
- - PADDRINFOEXA
- - ADDRINFOEXA
+ - addrinfoexW
 ---
 
 # ADDRINFOEXA structure
@@ -744,4 +744,3 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfow">addrinfoW</a>
-

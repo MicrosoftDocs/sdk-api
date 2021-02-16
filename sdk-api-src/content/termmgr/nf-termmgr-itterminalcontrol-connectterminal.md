@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalControl::ConnectTerminal
+ - ITTerminalControl.ConnectTerminal
 ---
 
 # ITTerminalControl::ConnectTerminal
@@ -119,4 +119,3 @@ The current terminal is already in use.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-

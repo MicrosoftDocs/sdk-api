@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl9::GetActualDeinterlaceMode
+ - IVMRDeinterlaceControl9.GetActualDeinterlaceMode
 ---
 
 # IVMRDeinterlaceControl9::GetActualDeinterlaceMode
@@ -137,4 +137,3 @@ The VMR is not in mixer mode.
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
-

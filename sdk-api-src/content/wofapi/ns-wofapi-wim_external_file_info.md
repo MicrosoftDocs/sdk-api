@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wofapi.h
 api_name:
- - _WIM_EXTERNAL_FILE_INFO
- - PWIM_EXTERNAL_FILE_INFO
  - WIM_EXTERNAL_FILE_INFO
 ---
 

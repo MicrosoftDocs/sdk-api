@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPAddressFamilyControl::GetAddressFamily
+ - IUPnPAddressFamilyControl.GetAddressFamily
 ---
 
 # IUPnPAddressFamilyControl::GetAddressFamily
@@ -108,4 +108,3 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpaddressfamilycontrol-setaddressfamily">SetAddressFamily</a>
-

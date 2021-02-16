@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - IEnumGUID::Next
+ - IEnumGUID.Next
 ---
 
 # IEnumGUID::Next
@@ -75,4 +75,3 @@ If the method retrieves the number of items requested, the return value is S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-ienumguid">IEnumGUID</a>
-

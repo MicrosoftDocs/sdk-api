@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - _tagPublishedAppInfoFlags
  - PUBAPPINFOFLAGS
 ---
 
@@ -80,4 +79,3 @@ The <a href="/windows/desktop/api/shappmgr/ns-shappmgr-pubappinfo">stExpired</a>
 ## -see-also
 
 <a href="/windows/desktop/api/shappmgr/nf-shappmgr-ipublishedapp-getpublishedappinfo">IPublishedApp::GetPublishedAppInfo</a>
-

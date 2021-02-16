@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RendezvousSession.tlb
 api_name:
- - IRendezvousApplication::SetRendezvousSession
+ - IRendezvousApplication.SetRendezvousSession
 ---
 
 # IRendezvousApplication::SetRendezvousSession
@@ -101,4 +101,3 @@ A catastrophic error occurred while trying to pass the session to the Windows Re
 </td>
 </tr>
 </table>
-

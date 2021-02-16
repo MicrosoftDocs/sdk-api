@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmiutils.h
 api_name:
- - tag_SWbemQueryQualifiedName
  - SWbemQueryQualifiedName
 ---
 
@@ -96,4 +95,3 @@ Unused. Always <b>NULL</b>.
 
 
 <a href="/windows/win32/api/wmiutils/ns-wmiutils-swbemrpnencodedquery">SWbemRpnEncodedQuery</a>
-

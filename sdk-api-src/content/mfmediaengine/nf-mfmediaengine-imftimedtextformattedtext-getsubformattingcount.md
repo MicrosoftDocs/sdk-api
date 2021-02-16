@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextFormattedText::GetSubformattingCount
+ - IMFTimedTextFormattedText.GetSubformattingCount
 ---
 
 # IMFTimedTextFormattedText::GetSubformattingCount
@@ -63,4 +63,3 @@ Returns the number of subformats.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextformattedtext">IMFTimedTextFormattedText</a>
-

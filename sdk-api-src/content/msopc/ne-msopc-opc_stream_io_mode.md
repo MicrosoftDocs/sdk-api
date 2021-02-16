@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - __MIDL___MIDL_itf_msopc_0000_0002_0003
  - OPC_STREAM_IO_MODE
 ---
 
@@ -103,4 +102,3 @@ Creates a write-only stream for saving a new package.
 
 
 <b>Reference</b>
-

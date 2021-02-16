@@ -37,7 +37,7 @@ api_type:
 api_location:
  - d3dcommon.h
 api_name:
- - ID3DDestructionNotifier::RegisterDestructionCallback
+ - ID3DDestructionNotifier.RegisterDestructionCallback
 ---
 
 ## -description
@@ -97,4 +97,3 @@ void LogResourceReleased(void* context)
 <a href="/windows/win32/api/d3dcommon/nn-d3dcommon-id3ddestructionnotifier">ID3DDestructionNotifier</a>
 
 <a href="/windows/win32/api/d3dcommon/nf-d3dcommon-id3ddestructionnotifier-unregisterdestructioncallback">ID3DDestructionNotifier::UnregisterDestructionCallback</a>
-

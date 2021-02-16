@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_BYTE_BLOB_
  - FWP_BYTE_BLOB
 ---
 
@@ -68,4 +67,3 @@ Pointer to the array.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

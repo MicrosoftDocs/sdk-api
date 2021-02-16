@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - PMENUITEMTEMPLATEHEADER
  - MENUITEMTEMPLATEHEADER
 ---
 
@@ -92,4 +91,3 @@ One or more <a href="/windows/desktop/api/winuser/ns-winuser-menuitemtemplate">M
 
 
 <b>Reference</b>
-

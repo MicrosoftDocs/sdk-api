@@ -44,7 +44,7 @@ api_location:
  - D3D11_1SDKLayers.dll
  - D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTrace::TraceReady
+ - ID3D11ShaderTrace.TraceReady
 ---
 
 # ID3D11ShaderTrace::TraceReady
@@ -83,4 +83,3 @@ If the shader trace recorded, you can successfully call the <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertrace">ID3D11ShaderTrace</a>
-

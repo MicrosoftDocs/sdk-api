@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
- - _QOS_PACKET_PRIORITY
- - PQOS_PACKET_PRIORITY
  - QOS_PACKET_PRIORITY
 ---
 
@@ -83,4 +81,3 @@ L2 tag used for flow traffic that exceeds the specified flow rate.  Non-conforma
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::put_Charset
+ - IFont.put_Charset
 ---
 
 # IFont::put_Charset
@@ -69,4 +69,3 @@ The method supports the standard return value <b>E_INVALIDARG</b> and S_OK.
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-get_charset">IFont::get_Charset</a>
-

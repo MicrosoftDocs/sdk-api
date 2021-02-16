@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
  - MF_VIDEO_PROCESSOR_ALGORITHM_TYPE
 ---
 
@@ -68,4 +67,3 @@ The video processor will always internally process in AYUV and use high quality 
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

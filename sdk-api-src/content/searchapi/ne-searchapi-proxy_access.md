@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _PROXY_ACCESS
  - PROXY_ACCESS
 ---
 
@@ -68,4 +67,3 @@ Do not use a proxy.
 ### -field PROXY_ACCESS_PROXY
 
 Use the specified proxy.
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation::get_HasHardwareRandomNumberGenerator
+ - ICspInformation.HasHardwareRandomNumberGenerator
+ - ICspInformation.get_HasHardwareRandomNumberGenerator
 ---
 
 # ICspInformation::get_HasHardwareRandomNumberGenerator
@@ -63,4 +64,3 @@ There are currently no Microsoft cryptographic providers that support this featu
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-

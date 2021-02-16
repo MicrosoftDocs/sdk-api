@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - tagRECO_LATTICE
  - RECO_LATTICE
 ---
 
@@ -104,4 +103,3 @@ The <i>ulBestResultColumnCount</i>, <i>pulBestResultColumns</i>, and <i>pulBestR
 
 
 <a href="/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
-

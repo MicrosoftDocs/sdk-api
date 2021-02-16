@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma::get_SizeInCharacters
+ - IMbnSmsReadMsgTextCdma.SizeInCharacters
+ - IMbnSmsReadMsgTextCdma.get_SizeInCharacters
 ---
 
 # IMbnSmsReadMsgTextCdma::get_SizeInCharacters
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityProperty::GetOriginalCallerSID
+ - ISecurityProperty.GetOriginalCallerSID
 ---
 
 # ISecurityProperty::GetOriginalCallerSID
@@ -145,4 +145,3 @@ You must call <a href="/windows/desktop/api/comsvcs/nf-comsvcs-isecurityproperty
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecurityproperty">ISecurityProperty</a>
-

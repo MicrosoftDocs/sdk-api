@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus
+ - IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
 ---
 
 # IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus
@@ -63,4 +63,3 @@ A key value for the window or event to unregister. The  <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
-

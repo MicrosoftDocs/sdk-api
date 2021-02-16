@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMarshal::UnmarshalInterface
+ - IMarshal.UnmarshalInterface
 ---
 
 # IMarshal::UnmarshalInterface
@@ -120,4 +120,3 @@ Just before exiting, even if exiting with an error, your implementation should r
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
-

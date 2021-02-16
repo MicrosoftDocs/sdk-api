@@ -9,8 +9,6 @@ tech.root: sr
 f1_keywords:
  - srrestoreptapi
  - srrestoreptapi/srrestoreptapi
-api_name:
- - srrestoreptapi
 ---
 
 # Srrestoreptapi.h header

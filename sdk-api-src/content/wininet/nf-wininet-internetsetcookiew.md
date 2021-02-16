@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetSetCookieW
  - wininet/InternetSetCookieW
- - InternetSetCookie
- - wininet/InternetSetCookie
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetSetCookieW
  - InternetSetCookie
+ - InternetSetCookieA
+ - InternetSetCookieW
 ---
 
 # InternetSetCookieW function
@@ -124,4 +123,3 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

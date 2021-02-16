@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _STORAGE_DEPENDENCY_INFO_TYPE_2
- - PSTORAGE_DEPENDENCY_INFO_TYPE_2
  - STORAGE_DEPENDENCY_INFO_TYPE_2
 ---
 
@@ -107,4 +105,3 @@ The relative path to the dependent volume.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

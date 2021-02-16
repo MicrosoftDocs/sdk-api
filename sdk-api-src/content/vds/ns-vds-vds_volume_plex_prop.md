@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_VOLUME_PLEX_PROP
- - PVDS_VOLUME_PLEX_PROP
  - VDS_VOLUME_PLEX_PROP
 ---
 
@@ -121,4 +119,3 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeplex-getproperties">IVdsV
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_volume_plex_type">VDS_VOLUME_PLEX_TYPE</a>
-

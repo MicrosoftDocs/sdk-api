@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1TransformNode::GetInputCount
+ - ID2D1TransformNode.GetInputCount
 ---
 
 # ID2D1TransformNode::GetInputCount
@@ -72,4 +72,3 @@ This method returns the number of inputs to this transform node.
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformnode">ID2D1TransformNode</a>
-

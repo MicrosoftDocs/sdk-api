@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr::ValidateTarget
+ - IFhConfigMgr.ValidateTarget
+ - FhConfigMgr.ValidateTarget
 ---
 
 # IFhConfigMgr::ValidateTarget
@@ -86,4 +87,3 @@ For network shares, the <i>TargetUrl</i> parameter contains the full path of the
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getdefaulttarget">IFhConfigMgr::GetDefaultTarget</a>
-

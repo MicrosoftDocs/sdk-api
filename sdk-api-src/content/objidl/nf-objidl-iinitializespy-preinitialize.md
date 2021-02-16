@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IInitializeSpy::PreInitialize
+ - IInitializeSpy.PreInitialize
 ---
 
 # IInitializeSpy::PreInitialize
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iinitializespy">IInitializeSpy</a>
-

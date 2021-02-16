@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceSAN::GetSANPolicy
+ - IVdsServiceSAN.GetSANPolicy
 ---
 
 # IVdsServiceSAN::GetSANPolicy
@@ -90,4 +90,3 @@ A driver error was reported when getting the SAN policy.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a>
-

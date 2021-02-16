@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDServiceProvider::EnumDevices
+ - IMDServiceProvider.EnumDevices
 ---
 
 # IMDServiceProvider::EnumDevices
@@ -89,4 +89,3 @@ This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOT
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider">IMDServiceProvider Interface</a>
-

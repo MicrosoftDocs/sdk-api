@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SecPkgContext_SupportedSignatures
- - PSecPkgContext_SupportedSignatures
  - SecPkgContext_SupportedSignatures
 ---
 
@@ -239,4 +237,3 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesw">QueryContextAttributes (Schannel)</a>
-

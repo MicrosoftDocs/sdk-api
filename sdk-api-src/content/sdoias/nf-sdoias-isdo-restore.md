@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdo::Restore
+ - ISdo.Restore
 ---
 
 # ISdo::Restore
@@ -78,4 +78,3 @@ Use the
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdo-putproperty">ISdo::PutProperty</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetConnectionProps::get_MediaType
+ - INetConnectionProps.get_MediaType
 ---
 
 # INetConnectionProps::get_MediaType
@@ -170,4 +170,3 @@ The method failed for unknown reasons.
 
 
 <a href="/windows/desktop/api/netcon/ne-netcon-netcon_mediatype">NETCON_MEDIATYPE</a>
-

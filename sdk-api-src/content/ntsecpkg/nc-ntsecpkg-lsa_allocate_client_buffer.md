@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_ALLOCATE_CLIENT_BUFFER
+ - AllocateClientBuffer
 ---
 
 # LSA_ALLOCATE_CLIENT_BUFFER callback function
@@ -111,4 +111,3 @@ The authentication package or the client process must later free the buffer. The
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-

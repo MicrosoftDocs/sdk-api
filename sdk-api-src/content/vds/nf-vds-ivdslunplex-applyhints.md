@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunPlex::ApplyHints
+ - IVdsLunPlex.ApplyHints
 ---
 
 # IVdsLunPlex::ApplyHints
@@ -155,4 +155,3 @@ Use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslunplex-queryhint
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
-

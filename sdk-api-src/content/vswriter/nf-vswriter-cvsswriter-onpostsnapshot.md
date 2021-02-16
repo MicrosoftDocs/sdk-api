@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::OnPostSnapshot
+ - CVssWriter.OnPostSnapshot
 ---
 
 # CVssWriter::OnPostSnapshot
@@ -141,4 +141,3 @@ If this method calls the <a href="/windows/desktop/api/vswriter/nf-vswriter-cvss
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
-

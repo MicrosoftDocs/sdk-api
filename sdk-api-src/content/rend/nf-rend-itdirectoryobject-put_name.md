@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObject::put_Name
+ - ITDirectoryObject.put_Name
 ---
 
 # ITDirectoryObject::put_Name
@@ -146,4 +146,3 @@ This function may send data over the wire in unencrypted form; therefore, someon
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-get_name">ITDirectoryObject::get_Name</a>
-

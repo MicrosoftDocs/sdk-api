@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lstrcmpW
  - winbase/lstrcmpW
- - lstrcmp
- - winbase/lstrcmp
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - KernelBase.dll
  - MinKernelBase.dll
 api_name:
- - lstrcmpW
  - lstrcmp
+ - lstrcmpA
+ - lstrcmpW
 ---
 
 # lstrcmpW function
@@ -155,4 +154,3 @@ See <a href="/windows/desktop/Intl/security-considerations--international-featur
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
-

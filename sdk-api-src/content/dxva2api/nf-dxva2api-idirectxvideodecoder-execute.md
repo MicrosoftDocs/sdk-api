@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoder::Execute
+ - IDirectXVideoDecoder.Execute
 ---
 
 # IDirectXVideoDecoder::Execute
@@ -91,4 +91,3 @@ You must call <a href="/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideode
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoder">IDirectXVideoDecoder</a>
-

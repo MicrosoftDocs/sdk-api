@@ -9,8 +9,6 @@ tech.root: fsrm
 f1_keywords:
  - fsrmenums
  - fsrmenums/fsrmenums
-api_name:
- - fsrmenums
 ---
 
 # Fsrmenums.h header

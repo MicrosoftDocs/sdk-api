@@ -48,6 +48,8 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - SetCurrentDirectory
+ - SetCurrentDirectoryA
+ - SetCurrentDirectoryW
 ---
 
 # SetCurrentDirectory function
@@ -180,4 +182,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea">GetFullPathName</a>
-

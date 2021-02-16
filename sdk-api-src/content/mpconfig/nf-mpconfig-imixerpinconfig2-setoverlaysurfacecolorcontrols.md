@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig2::SetOverlaySurfaceColorControls
+ - IMixerPinConfig2.SetOverlaySurfaceColorControls
 ---
 
 # IMixerPinConfig2::SetOverlaySurfaceColorControls
@@ -70,4 +70,3 @@ Returns an <b>HRESULT</b> value. If the allocator on the pin is not using an ove
 
 
 <a href="/windows/desktop/api/mpconfig/nn-mpconfig-imixerpinconfig2">IMixerPinConfig2 Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - DWriteEngine2Events::Update
+ - DWriteEngine2Events.Update
 ---
 
 # DWriteEngine2Events::Update
@@ -94,4 +94,3 @@ To stop the write process, call the <a href="/windows/desktop/api/imapi2/nf-imap
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
-

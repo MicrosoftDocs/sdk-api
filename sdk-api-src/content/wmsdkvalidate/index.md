@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - wmsdkvalidate
  - wmsdkvalidate/wmsdkvalidate
-api_name:
- - wmsdkvalidate
 ---
 
 # Wmsdkvalidate.h header

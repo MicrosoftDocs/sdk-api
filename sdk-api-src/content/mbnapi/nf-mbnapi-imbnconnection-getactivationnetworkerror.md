@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnection::GetActivationNetworkError
+ - IMbnConnection.GetActivationNetworkError
 ---
 
 # IMbnConnection::GetActivationNetworkError
@@ -76,4 +76,3 @@ Whenever there is a change in the network error value, the Mobile Broadband serv
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnection">IMbnConnection</a>
-

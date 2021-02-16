@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack::MigrateDisks
+ - IVdsPack.MigrateDisks
 ---
 
 # IVdsPack::MigrateDisks
@@ -267,4 +267,3 @@ For information about using the <b>MigrateDisks</b> method to add foreign disks 
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdspack-getproperties">IVdsPack::GetProperties</a>
-

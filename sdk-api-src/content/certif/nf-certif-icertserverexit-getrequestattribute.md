@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit::GetRequestAttribute
+ - ICertServerExit.GetRequestAttribute
+ - CCertServerExit.GetRequestAttribute
 ---
 
 # ICertServerExit::GetRequestAttribute
@@ -144,4 +145,3 @@ if (NULL != bstrAttribValue)
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-setcontext">ICertServerExit::SetContext</a>
-

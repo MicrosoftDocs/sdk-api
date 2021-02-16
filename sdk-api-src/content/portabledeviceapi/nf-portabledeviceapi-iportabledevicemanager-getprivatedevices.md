@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager::GetPrivateDevices
+ - IPortableDeviceManager.GetPrivateDevices
 ---
 
 # IPortableDeviceManager::GetPrivateDevices
@@ -120,4 +120,3 @@ A private device may not respond correctly to the standard Windows Portable Devi
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-

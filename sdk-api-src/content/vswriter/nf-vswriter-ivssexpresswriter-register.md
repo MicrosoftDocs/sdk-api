@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsWriter.h
 api_name:
- - IVssExpressWriter::Register
+ - IVssExpressWriter.Register
 ---
 
 # IVssExpressWriter::Register
@@ -96,4 +96,3 @@ Before using this method, the caller must have either used the <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-

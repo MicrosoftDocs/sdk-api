@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWEInvokeCommand::InvokeCommand
+ - IWEInvokeCommand.InvokeCommand
 ---
 
 # IWEInvokeCommand::InvokeCommand
@@ -188,4 +188,3 @@ To create context menu items and add them to Failover Cluster Administrator, use
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweinvokecommand">IWEInvokeCommand</a>
-

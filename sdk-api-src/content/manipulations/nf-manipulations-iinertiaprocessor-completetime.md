@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor::CompleteTime
+ - IInertiaProcessor.CompleteTime
 ---
 
 # IInertiaProcessor::CompleteTime
@@ -77,4 +77,3 @@ The <b>CompleteTime</b> method raises the <a href="/windows/win32/api/manipulati
 
 
 <a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
-

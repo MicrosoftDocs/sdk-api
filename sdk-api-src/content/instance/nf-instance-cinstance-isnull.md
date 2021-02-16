@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::IsNull
+ - CInstance.IsNull
+ - ?IsNull@CInstance@@QBE_NPBG@Z
+ - ?IsNull@CInstance@@QEBA_NPEBG@Z
 ---
 
 # CInstance::IsNull
@@ -68,4 +70,3 @@ Name of property that is checked.
 ## -returns
 
 Returns <b>TRUE</b> if the property specified by <i>name</i> is <b>NULL</b> and <b>FALSE</b> if it is not.
-

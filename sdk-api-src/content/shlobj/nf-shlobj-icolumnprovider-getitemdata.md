@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnProvider::GetItemData
+ - IColumnProvider.GetItemData
 ---
 
 # IColumnProvider::GetItemData
@@ -83,4 +83,3 @@ Returns S_OK if file data is returned, S_FALSE if the file is not supported by t
 This method is called to retrieve the data for a file to be displayed in the specified column. It should be thread-safe.
 
 This method is called for every file that Windows Explorer displays, even though many of them will not be supported by a particular column provider. To improve performance, first check the <b>pwszExt</b> member of the structure pointed to by <i>pscd</i> to see if it has a file name extension that is supported by the column provider. If not, avoid unnecessary processing by immediately returning S_FALSE.
-

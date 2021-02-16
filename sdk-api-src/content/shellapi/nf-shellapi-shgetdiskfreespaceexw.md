@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHGetDiskFreeSpaceExW
  - shellapi/SHGetDiskFreeSpaceExW
- - SHGetDiskFreeSpaceEx
- - shellapi/SHGetDiskFreeSpaceEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHGetDiskFreeSpaceExW
  - SHGetDiskFreeSpaceEx
+ - SHGetDiskFreeSpaceExA
+ - SHGetDiskFreeSpaceExW
 ---
 
 # SHGetDiskFreeSpaceExW function
@@ -107,4 +106,3 @@ This function calls the <a href="/windows/desktop/api/fileapi/nf-fileapi-getdisk
 
 
 <a href="/previous-versions/bb762176(v=vs.85)">SHGetDiskFreeSpace</a>
-

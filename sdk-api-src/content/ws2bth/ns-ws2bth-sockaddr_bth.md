@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ws2bth.h
 api_name:
- - _SOCKADDR_BTH
- - PSOCKADDR_BTH
  - SOCKADDR_BTH
 ---
 
@@ -105,4 +103,3 @@ When using the <a href="/windows/desktop/Bluetooth/bluetooth-and-connect">connec
 
 <a href="/windows/desktop/Bluetooth/bluetooth-and-connect">Bluetooth and
 		  connect</a>
-

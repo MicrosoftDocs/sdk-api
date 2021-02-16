@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::get_accFocus
+ - IAccessible.get_accFocus
 ---
 
 # IAccessible::get_accFocus
@@ -210,4 +210,3 @@ HRESULT STDMETHODCALLTYPE AccServer::get_accFocus(VARIANT *pvarChild)
 
 
 <a href="/windows/desktop/WinAuto/selection-and-focus-properties-and-methods">Selection and Focus Properties and Methods</a>
-

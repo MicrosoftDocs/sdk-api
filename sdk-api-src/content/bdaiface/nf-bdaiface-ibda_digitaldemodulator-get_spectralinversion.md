@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator::get_SpectralInversion
+ - IBDA_DigitalDemodulator.get_SpectralInversion
 ---
 
 # IBDA_DigitalDemodulator::get_SpectralInversion
@@ -77,4 +77,3 @@ For more information, see <b>KSPROPERTY_BDA_SPECTRAL_INVERSION</b> in the Window
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-put_spectralinversion">IBDA_DigitalDemodulator::put_SpectralInversion</a>
-

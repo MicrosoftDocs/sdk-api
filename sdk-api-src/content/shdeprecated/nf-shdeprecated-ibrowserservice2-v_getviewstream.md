@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::v_GetViewStream
+ - IBrowserService2.v_GetViewStream
 ---
 
 # IBrowserService2::v_GetViewStream
@@ -78,4 +78,3 @@ A pointer to a buffer that contains the Unicode name of the window.
 Type: <b><a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a></b>
 
 Stream that can be used to load or save the view state.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMChannelInfo::get_ChannelURL
+ - IAMChannelInfo.get_ChannelURL
 ---
 
 # IAMChannelInfo::get_ChannelURL
@@ -69,4 +69,3 @@ The caller must release the returned <b>BSTR</b> by calling <b>SysFreeString</b>
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamchannelinfo">IAMChannelInfo Interface</a>
-

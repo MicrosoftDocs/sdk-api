@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdates::get_Settings
+ - IAutomaticUpdates.Settings
+ - IAutomaticUpdates.get_Settings
 ---
 
 # IAutomaticUpdates::get_Settings
@@ -67,4 +68,3 @@ The returned interface can be used to change the current settings and to read th
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-showsettingsdialog">IAutomaticUpdates.ShowSettingsDialog</a>
-

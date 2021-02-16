@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedItemType
+ - IUIAutomationElement.CachedItemType
+ - IUIAutomationElement.get_CachedItemType
 ---
 
 # IUIAutomationElement::get_CachedItemType
@@ -75,4 +76,3 @@ This property is used to obtain information about items in a list, tree view, or
 
 
 <b>Reference</b>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ipexport.h
 api_name:
- - ip_option_information
- - PIP_OPTION_INFORMATION
  - IP_OPTION_INFORMATION
 ---
 
@@ -164,4 +162,3 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 
 <a href="/windows/desktop/api/icmpapi/nf-icmpapi-icmpsendecho2">IcmpSendEcho2</a>
-

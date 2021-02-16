@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineagentinfo_tag
- - LPLINEAGENTINFO
  - LINEAGENTINFO
 ---
 
@@ -124,4 +122,3 @@ Number of seconds spent on ACD call wrap-up (after call work) by this agent acro
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetagentinfo">lineGetAgentInfo</a>
-

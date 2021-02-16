@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ImmGetCandidateListCountA
  - immdev/ImmGetCandidateListCountA
- - ImmGetCandidateListCount
- - immdev/ImmGetCandidateListCount
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmGetCandidateListCountA
  - ImmGetCandidateListCount
+ - ImmGetCandidateListCountA
+ - ImmGetCandidateListCountW
 ---
 
 # ImmGetCandidateListCountA function
@@ -95,4 +94,3 @@ Applications typically call this function in response to an <a href="/windows/de
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-

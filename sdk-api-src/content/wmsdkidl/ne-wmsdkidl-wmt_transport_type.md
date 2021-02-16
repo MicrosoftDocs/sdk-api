@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - tagWMT_TRANSPORT_TYPE
  - WMT_TRANSPORT_TYPE
 ---
 
@@ -72,4 +71,3 @@ This enumeration indicates the type of data communication protocol (reliable or 
 ## -see-also
 
 <a href="/windows/desktop/wmformat/enumeration-types">Enumeration Types</a>
-

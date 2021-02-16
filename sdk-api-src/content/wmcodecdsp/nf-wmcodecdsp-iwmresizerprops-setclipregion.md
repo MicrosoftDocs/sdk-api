@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMResizerProps::SetClipRegion
+ - IWMResizerProps.SetClipRegion
 ---
 
 # IWMResizerProps::SetClipRegion
@@ -116,4 +116,3 @@ This method is equivalent to setting the following properties:
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresizerprops">IWMResizerProps Interface</a>
-

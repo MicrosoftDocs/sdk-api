@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::IsDiscontinuity
+ - IAMMediaTypeSample.IsDiscontinuity
 ---
 
 # IAMMediaTypeSample::IsDiscontinuity
@@ -63,4 +63,3 @@ Returns S_OK if this sample is a discontinuity, or S_FALSE otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

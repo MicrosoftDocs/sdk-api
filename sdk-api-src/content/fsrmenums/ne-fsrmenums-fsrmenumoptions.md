@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmEnumOptions
  - FsrmEnumOptions
 ---
 
@@ -140,4 +139,3 @@ The <b>FsrmEnumOptions_Asynchronous</b> option is not supported.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportmanager-enumreportjobs">IFsrmReportManager::EnumReportJobs</a>
-

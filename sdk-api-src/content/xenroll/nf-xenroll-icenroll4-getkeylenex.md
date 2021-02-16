@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::GetKeyLenEx
+ - ICEnroll4.GetKeyLenEx
+ - CEnroll.GetKeyLenEx
 ---
 
 # ICEnroll4::GetKeyLenEx
@@ -194,4 +195,3 @@ if ( FAILED( hr ) )
 else
     printf("Signature key increment size: %d\n", dwSignInc );
 ```
-

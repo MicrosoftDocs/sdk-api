@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor::Flush
+ - IDirectManipulationCompositor.Flush
 ---
 
 # IDirectManipulationCompositor::Flush
@@ -65,4 +65,3 @@ This method enables <a href="/previous-versions/windows/desktop/directmanipulati
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
-

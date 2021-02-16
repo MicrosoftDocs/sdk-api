@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - winnls
  - winnls/winnls
-api_name:
- - winnls
 ---
 
 # Winnls.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrControl::UpdateConflicts
+ - ISyncMgrControl.UpdateConflicts
 ---
 
 # ISyncMgrControl::UpdateConflicts
@@ -118,4 +118,3 @@ void CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-

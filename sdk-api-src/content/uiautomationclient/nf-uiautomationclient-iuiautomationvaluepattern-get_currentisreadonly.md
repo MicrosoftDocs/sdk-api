@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationValuePattern::get_CurrentIsReadOnly
+ - IUIAutomationValuePattern.CurrentIsReadOnly
+ - IUIAutomationValuePattern.get_CurrentIsReadOnly
 ---
 
 # IUIAutomationValuePattern::get_CurrentIsReadOnly
@@ -59,4 +60,3 @@ This property is read-only.
 ## -remarks
 
 This property must be <b>TRUE</b> for <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-setvalue">IUIAutomationValuePattern::SetValue</a> to succeed.
-

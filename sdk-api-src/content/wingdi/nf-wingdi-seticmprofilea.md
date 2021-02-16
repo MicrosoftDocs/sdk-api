@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetICMProfileA
  - wingdi/SetICMProfileA
- - SetICMProfile
- - wingdi/SetICMProfile
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - SetICMProfileA
  - SetICMProfile
+ - SetICMProfileA
+ - SetICMProfileW
 ---
 
 # SetICMProfileA function
@@ -105,4 +104,3 @@ Note that under Windows 95 or later, the PostScript device driver for printers a
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-geticmprofilea">GetICMProfile</a>
-

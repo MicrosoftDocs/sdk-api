@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent
+ - IUIAutomationProxyFactoryEntry.SetWinEventsForAutomationEvent
 ---
 
 # IUIAutomationProxyFactoryEntry::SetWinEventsForAutomationEvent
@@ -101,4 +101,3 @@ When a client application subscribes to a UI Automation event, the UI Automation
 
 
 <b>Reference</b>
-

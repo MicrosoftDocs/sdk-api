@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NetCon.h
 api_name:
- - tagNETCON_CHARACTERISTIC_FLAGS
  - NETCON_CHARACTERISTIC_FLAGS
 ---
 
@@ -153,4 +152,3 @@ LAN characteristics.
 
 
 <a href="/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a>
-

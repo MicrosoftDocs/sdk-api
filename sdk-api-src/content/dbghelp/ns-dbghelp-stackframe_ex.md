@@ -46,8 +46,6 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _tagSTACKFRAME_EX
- - LPSTACKFRAME_EX
  - STACKFRAME_EX
 ---
 
@@ -148,4 +146,3 @@ Specifies the type of the inline frame context.
 
 
 #### INLINE_FRAME_CONTEXT_IGNORE (0xffffffff)
-

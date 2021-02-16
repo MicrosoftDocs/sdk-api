@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor::GetGlyphIndices
+ - IXpsOMGlyphsEditor.GetGlyphIndices
 ---
 
 # IXpsOMGlyphsEditor::GetGlyphIndices
@@ -128,4 +128,3 @@ The method succeeded.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
-

@@ -9,8 +9,6 @@ tech.root: coreaudio
 f1_keywords:
  - spatialaudiohrtf
  - spatialaudiohrtf/spatialaudiohrtf
-api_name:
- - spatialaudiohrtf
 ---
 
 # Spatialaudiohrtf.h header

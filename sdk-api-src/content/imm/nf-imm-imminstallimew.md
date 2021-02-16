@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ImmInstallIMEW
  - imm/ImmInstallIMEW
- - ImmInstallIME
- - imm/ImmInstallIME
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmInstallIMEW
  - ImmInstallIME
+ - ImmInstallIMEA
+ - ImmInstallIMEW
 ---
 
 # ImmInstallIMEW function
@@ -87,4 +86,3 @@ This function is intended to be used by IME setup applications only.
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1506
- - PSERVER_INFO_1506
  - SERVER_INFO_1506
 ---
 
@@ -80,4 +78,3 @@ Specifies the maximum number of receive buffers, or work items, the server can a
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

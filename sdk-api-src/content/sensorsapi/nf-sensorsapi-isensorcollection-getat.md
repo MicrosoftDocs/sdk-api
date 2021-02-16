@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorCollection::GetAt
+ - ISensorCollection.GetAt
 ---
 
 # ISensorCollection::GetAt
@@ -98,4 +98,3 @@ NULL was passed in for ppSensor.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
-

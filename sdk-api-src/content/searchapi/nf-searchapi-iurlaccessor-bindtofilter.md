@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor::BindToFilter
+ - IUrlAccessor.BindToFilter
 ---
 
 # IUrlAccessor::BindToFilter
@@ -72,4 +72,3 @@ This method retrieves an <a href="/windows/desktop/api/filter/nn-filter-ifilter"
             
 
 If the URL's content is also accessible from the <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> returned by <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>, then a separate <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>is invoked on the IStream to retrieve additional properties.
-

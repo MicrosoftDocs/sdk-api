@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature::GetSigningTimeFormat
+ - IXpsSignature.GetSigningTimeFormat
 ---
 
 # IXpsSignature::GetSigningTimeFormat
@@ -122,4 +122,3 @@ For more information about the  format of the date-time string that is returned 
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

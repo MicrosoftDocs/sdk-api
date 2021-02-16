@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdates::Resume
+ - IAutomaticUpdates.Resume
 ---
 
 # IAutomaticUpdates::Resume
@@ -143,4 +143,3 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is implemen
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - MBN_SMS_CONSTANTS
  - WWAEXT_SMS_CONSTANTS
 ---
 
@@ -71,4 +70,3 @@ The device does not support SMS.  This constant is used by <a href="/windows/des
 ### -field MBN_CDMA_SHORT_MSG_SIZE_MAX
 
 The maximum size of a CDMA short message.
-

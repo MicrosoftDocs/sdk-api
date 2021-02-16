@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMasterProgressEvents::NotifyAddProgress
+ - IDiscMasterProgressEvents.NotifyAddProgress
 ---
 
 # IDiscMasterProgressEvents::NotifyAddProgress
@@ -71,4 +71,3 @@ S_OK is returned on success, but other success codes may be returned as a result
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmasterprogressevents">IDiscMasterProgressEvents</a>
-

@@ -9,8 +9,6 @@ tech.root: ndf
 f1_keywords:
  - ndfapi
  - ndfapi/ndfapi
-api_name:
- - ndfapi
 ---
 
 # Ndfapi.h header

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::GetRoles
+ - IAzClientContext.GetRoles
+ - AzClientContext.GetRoles
 ---
 
 # IAzClientContext::GetRoles
@@ -69,4 +70,3 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any ot
 ## -remarks
 
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
-

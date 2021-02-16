@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::put_LogAppend
+ - IDataCollector.LogAppend
+ - IDataCollector.get_LogAppend
+ - IDataCollector.put_LogAppend
 ---
 
 # IDataCollector::put_LogAppend
@@ -71,4 +73,3 @@ A validation error occurs if this property conflicts with the <a href="/previous
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logoverwrite">IDataCollector::LogOverwrite</a>
-

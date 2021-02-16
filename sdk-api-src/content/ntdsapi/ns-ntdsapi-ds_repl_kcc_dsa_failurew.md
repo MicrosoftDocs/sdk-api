@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_KCC_DSA_FAILUREW
  - DS_REPL_KCC_DSA_FAILUREW
 ---
 
@@ -105,4 +104,3 @@ Contains the error code associated with the most recent failure, or <b>ERROR_SUC
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_CLIENT_DATA
- - PWTS_CLIENT_DATA
  - WTS_CLIENT_DATA
 ---
 
@@ -279,4 +277,3 @@ Specifies whether clipboard redirection is enabled. This value is initially set 
 ### -field fDisablePNP
 
 Specifies whether PNP redirection is enabled. This value is initially set from policy information. If you reset the value, the policy will be overwritten.
-

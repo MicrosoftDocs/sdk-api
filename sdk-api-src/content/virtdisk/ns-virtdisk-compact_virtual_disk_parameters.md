@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _COMPACT_VIRTUAL_DISK_PARAMETERS
- - PCOMPACT_VIRTUAL_DISK_PARAMETERS
  - COMPACT_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -83,4 +81,3 @@ Reserved. Must be set to zero.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaphostpeertypes.h
 api_name:
- - tagEapHostPeerAuthParams
  - EapHostPeerAuthParams
 ---
 
@@ -82,4 +81,3 @@ Windows 7 or later: Contains NAP-related information for the supplicant in an [
 
 
 <a href="/previous-versions/windows/desktop/api/eappapis/nf-eappapis-eaphostpeergetauthstatus">EapHostPeerGetAuthStatus</a>
-

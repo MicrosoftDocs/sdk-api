@@ -42,7 +42,7 @@ api_type:
 api_location:
  - playtomanagerinterop.h
 api_name:
- - IPlayToManagerInterop::ShowPlayToUIForWindow
+ - IPlayToManagerInterop.ShowPlayToUIForWindow
 ---
 
 # IPlayToManagerInterop::ShowPlayToUIForWindow
@@ -77,4 +77,3 @@ You can use the <b>ShowPlayToUIForWindow</b> method to show the Play To UI for t
 
 
 <a href="/uwp/api/windows.media.playto.playtomanager.showplaytoui">ShowPlayToUI</a>
-

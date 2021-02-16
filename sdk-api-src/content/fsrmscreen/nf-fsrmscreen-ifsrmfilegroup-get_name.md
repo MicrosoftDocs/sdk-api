@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileGroup::get_Name
+ - IFsrmFileGroup.Name
+ - IFsrmFileGroup.get_Name
+ - IFsrmFileGroup.put_Name
 ---
 
 # IFsrmFileGroup::get_Name
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilegroup">MSFT_FSRMFileGroup</a>
-

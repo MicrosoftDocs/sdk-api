@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPluggableTerminalClassInfo::Reset
+ - IEnumPluggableTerminalClassInfo.Reset
 ---
 
 # IEnumPluggableTerminalClassInfo::Reset
@@ -95,4 +95,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/terminal-class">Terminal Class</a>
-

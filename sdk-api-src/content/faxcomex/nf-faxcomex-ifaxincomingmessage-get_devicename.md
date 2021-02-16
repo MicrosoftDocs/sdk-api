@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage::get_DeviceName
+ - IFaxIncomingMessage.DeviceName
+ - IFaxIncomingMessage.get_DeviceName
+ - IFaxIncomingMessage.get_DeviceName
 ---
 
 # IFaxIncomingMessage::get_DeviceName
@@ -71,4 +73,3 @@ This method returns the name of the fax device rather than the device ID. This i
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-archive">Visual Basic Example</a>
-

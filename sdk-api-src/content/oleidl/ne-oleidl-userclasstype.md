@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - tagUSERCLASSTYPE
  - USERCLASSTYPE
 ---
 
@@ -76,4 +75,3 @@ The name of the application servicing the class and is used in the result text i
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olereggetusertype">OleRegGetUserType</a>
-

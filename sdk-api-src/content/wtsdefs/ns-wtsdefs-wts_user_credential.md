@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_USER_CREDENTIAL
- - PWTS_USER_CREDENTIAL
  - WTS_USER_CREDENTIAL
 ---
 
@@ -75,4 +73,3 @@ A string that contains the domain name for the user.
 ## -remarks
 
 The user name and password are plaintext.
-

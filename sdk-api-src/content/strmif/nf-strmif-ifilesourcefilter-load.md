@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFileSourceFilter::Load
+ - IFileSourceFilter.Load
 ---
 
 # IFileSourceFilter::Load
@@ -80,4 +80,3 @@ For the <a href="/windows/desktop/DirectShow/file-source--async--filter">File So
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>
-

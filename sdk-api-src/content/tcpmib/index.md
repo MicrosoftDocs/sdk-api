@@ -9,8 +9,6 @@ tech.root: mib
 f1_keywords:
  - tcpmib
  - tcpmib/tcpmib
-api_name:
- - tcpmib
 ---
 
 # Tcpmib.h header

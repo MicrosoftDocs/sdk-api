@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - wmsbuffer
  - wmsbuffer/wmsbuffer
-api_name:
- - wmsbuffer
 ---
 
 # Wmsbuffer.h header

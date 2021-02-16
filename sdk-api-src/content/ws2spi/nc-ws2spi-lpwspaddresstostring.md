@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - LPWSPADDRESSTOSTRING
+ - LPWSPAddressToString
 ---
 
 # LPWSPADDRESSTOSTRING callback function
@@ -159,4 +159,3 @@ This same propagation policy applies when propagating a
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

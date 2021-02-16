@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::get_PolylineCusps
+ - IInkStrokeDisp.PolylineCusps
+ - IInkStrokeDisp.get_PolylineCusps
+ - IInkStrokeDisp.get_PolylineCusps
 ---
 
 # IInkStrokeDisp::get_PolylineCusps
@@ -74,4 +76,3 @@ The location of a cusp can be determined by using the cusp as an index into the 
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-

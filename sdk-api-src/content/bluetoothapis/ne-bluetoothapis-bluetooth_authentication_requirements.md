@@ -44,7 +44,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_AUTHENTICATION_REQUIREMENTS
  - BLUETOOTH_AUTHENTICATION_REQUIREMENTS
 ---
 
@@ -90,4 +89,3 @@ The header file associated with this API is available at Microsoft Connect via t
 ## -see-also
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothauthenticatedeviceex">BluetoothAuthenticateDeviceEx</a>
-

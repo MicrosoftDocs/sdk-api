@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration::GetSyncProviderState
+ - ISyncProviderRegistration.GetSyncProviderState
 ---
 
 # ISyncProviderRegistration::GetSyncProviderState
@@ -118,4 +118,3 @@ A synchronization provider with the specified instance ID was not registered.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderregistration">ISyncProviderRegistration Interface</a>
-

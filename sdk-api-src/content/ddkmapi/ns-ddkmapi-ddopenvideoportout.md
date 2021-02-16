@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDOPENVIDEOPORTOUT
- - LPDDOPENVIDEOPORTOUT
  - DDOPENVIDEOPORTOUT
 ---
 
@@ -75,4 +73,3 @@ Handle to the new VPE object.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

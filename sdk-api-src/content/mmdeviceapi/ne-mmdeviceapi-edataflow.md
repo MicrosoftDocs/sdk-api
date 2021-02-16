@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - __MIDL___MIDL_itf_mmdeviceapi_0000_0000_0001
  - EDataFlow
 ---
 
@@ -96,4 +95,3 @@ The <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-edataflow">IMMDeviceE
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged">IMMNotificationClient::OnDefaultDeviceChanged</a>
-

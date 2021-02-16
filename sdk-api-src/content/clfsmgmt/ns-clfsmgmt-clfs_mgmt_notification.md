@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClfsMgmt.h
 api_name:
- - _CLFS_MGMT_NOTIFICATION
- - PCLFS_MGMT_NOTIFICATION
  - CLFS_MGMT_NOTIFICATION
 ---
 
@@ -145,4 +143,3 @@ If <b>Notification</b> is <b>ClfsMgmtLogUnpinnedNotification</b>,
 
 
 <a href="/windows/desktop/api/clfsmgmtw32/nf-clfsmgmtw32-readlognotification">ReadLogNotification</a>
-

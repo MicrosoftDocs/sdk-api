@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent::SyncContentTransform
+ - IDirectManipulationContent.SyncContentTransform
 ---
 
 # IDirectManipulationContent::SyncContentTransform
@@ -75,4 +75,3 @@ This method is useful when the application wants to apply transforms on top of t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
-

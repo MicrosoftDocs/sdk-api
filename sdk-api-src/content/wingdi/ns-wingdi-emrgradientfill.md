@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRGRADIENTFILL
- - PEMRGRADIENTFILL
  - EMRGRADIENTFILL
 ---
 
@@ -158,4 +156,3 @@ Metafiles
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

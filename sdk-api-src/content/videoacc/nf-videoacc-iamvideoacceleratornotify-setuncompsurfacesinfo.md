@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
+ - IAMVideoAcceleratorNotify.SetUncompSurfacesInfo
 ---
 
 # IAMVideoAcceleratorNotify::SetUncompSurfacesInfo
@@ -144,4 +144,3 @@ The video renderer calls this method after it allocates uncompressed surfaces fo
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify Interface</a>
-

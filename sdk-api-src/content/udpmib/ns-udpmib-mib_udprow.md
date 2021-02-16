@@ -47,8 +47,6 @@ api_location:
  - Udpmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_UDPROW
- - PMIB_UDPROW
  - MIB_UDPROW
 ---
 
@@ -143,4 +141,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - IDXVAHD_VideoProcessor::SetVideoProcessBltState
+ - IDXVAHD_VideoProcessor.SetVideoProcessBltState
 ---
 
 # IDXVAHD_VideoProcessor::SetVideoProcessBltState
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/dxvahd/nn-dxvahd-idxvahd_videoprocessor">IDXVAHD_VideoProcessor</a>
-

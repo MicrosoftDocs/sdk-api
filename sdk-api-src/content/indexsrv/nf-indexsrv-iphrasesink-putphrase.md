@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IPhraseSink::PutPhrase
+ - IPhraseSink.PutPhrase
 ---
 
 # IPhraseSink::PutPhrase
@@ -103,4 +103,3 @@ The operation was completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/indexsrv/nn-indexsrv-iphrasesink">IPhraseSink</a>
-

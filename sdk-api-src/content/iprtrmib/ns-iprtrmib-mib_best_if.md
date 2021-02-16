@@ -47,8 +47,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_BEST_IF
- - PMIB_BEST_IF
  - MIB_BEST_IF
 ---
 
@@ -81,4 +79,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getbestroute">GetBestRoute</a>
-

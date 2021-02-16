@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - winioctl
  - winioctl/winioctl
-api_name:
- - winioctl
 ---
 
 # Winioctl.h header

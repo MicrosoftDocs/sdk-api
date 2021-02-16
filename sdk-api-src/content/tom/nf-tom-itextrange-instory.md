@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::InStory
+ - ITextRange.InStory
 ---
 
 # ITextRange::InStory
@@ -87,4 +87,3 @@ The method returns an <b>HRESULT</b> value. If the two stories are the same, the
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::get_Tsid
+ - IFaxDoc.Tsid
+ - IFaxDoc.get_Tsid
+ - IFaxDoc.put_Tsid
 ---
 
 # IFaxDoc::get_Tsid
@@ -85,4 +87,3 @@ The <b>get_Tsid</b> method allocates the memory required for the buffer pointed 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxserver-get-usedevicetsid-vb">UseDeviceTsid</a>
-

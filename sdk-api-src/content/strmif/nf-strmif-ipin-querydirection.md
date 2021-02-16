@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::QueryDirection
+ - IPin.QueryDirection
 ---
 
 # IPin::QueryDirection
@@ -99,4 +99,3 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

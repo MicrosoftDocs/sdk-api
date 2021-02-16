@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumServicesStatusA
  - winsvc/EnumServicesStatusA
- - EnumServicesStatus
- - winsvc/EnumServicesStatus
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Advapi32.dll
 api_name:
- - EnumServicesStatusA
  - EnumServicesStatus
+ - EnumServicesStatusA
+ - EnumServicesStatusW
 ---
 
 # EnumServicesStatusA function
@@ -305,4 +304,3 @@ There are more service entries than would fit into the <i>lpServices</i> buffer.
 
 > [!NOTE]
 > The winsvc.h header defines EnumServicesStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

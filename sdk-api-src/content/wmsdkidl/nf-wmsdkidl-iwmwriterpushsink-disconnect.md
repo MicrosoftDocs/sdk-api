@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPushSink::Disconnect
+ - IWMWriterPushSink.Disconnect
 ---
 
 # IWMWriterPushSink::Disconnect
@@ -68,4 +68,3 @@ The data path on the downstream server remains active for 5 minutes, after which
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink Interface</a>
-

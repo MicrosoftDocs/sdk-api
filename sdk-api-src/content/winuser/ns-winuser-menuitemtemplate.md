@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - PMENUITEMTEMPLATE
  - MENUITEMTEMPLATE
 ---
 
@@ -179,4 +178,3 @@ The menu item.
 
 
 <b>Reference</b>
-

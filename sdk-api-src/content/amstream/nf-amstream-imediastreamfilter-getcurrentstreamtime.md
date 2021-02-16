@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IMediaStreamFilter::GetCurrentStreamTime
+ - IMediaStreamFilter.GetCurrentStreamTime
 ---
 
 # IMediaStreamFilter::GetCurrentStreamTime
@@ -111,4 +111,3 @@ Stream time is defined only when the graph is running and has a reference clock.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-imediastreamfilter">IMediaStreamFilter Interface</a>
-

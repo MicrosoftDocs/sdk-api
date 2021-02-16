@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_RESPONSE_V2
- - PHTTP_RESPONSE_V2
  - HTTP_RESPONSE_V2
 ---
 
@@ -101,4 +99,3 @@ A pointer to an array of <a href="/windows/desktop/api/http/ns-http-http_respons
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsendhttpresponse">HttpSendHttpResponse</a>
-

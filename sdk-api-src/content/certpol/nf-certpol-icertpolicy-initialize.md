@@ -43,7 +43,9 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertPolicy::Initialize
+ - ICertPolicy2.Initialize
+ - ICertPolicy.Initialize
+ - CCertPolicy.Initialize
 ---
 
 # ICertPolicy::Initialize
@@ -106,4 +108,3 @@ STDMETHODIMP CCertPolicy::Initialize(
 
 
 <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
-

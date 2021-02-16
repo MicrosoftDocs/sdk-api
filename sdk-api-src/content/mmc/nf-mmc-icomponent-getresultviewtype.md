@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent::GetResultViewType
+ - IComponent.GetResultViewType
 ---
 
 # IComponent::GetResultViewType
@@ -272,4 +272,3 @@ A <a href="/previous-versions/windows/desktop/mmc/cookies">cookie</a> is a point
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

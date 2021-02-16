@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroup::get_Name
+ - IFaxOutboundRoutingGroup.Name
+ - IFaxOutboundRoutingGroup.get_Name
+ - IFaxOutboundRoutingGroup.get_Name
 ---
 
 # IFaxOutboundRoutingGroup::get_Name
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
-

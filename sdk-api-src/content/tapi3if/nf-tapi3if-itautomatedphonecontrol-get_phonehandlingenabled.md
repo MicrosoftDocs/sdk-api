@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl::get_PhoneHandlingEnabled
+ - ITAutomatedPhoneControl.get_PhoneHandlingEnabled
 ---
 
 # ITAutomatedPhoneControl::get_PhoneHandlingEnabled
@@ -86,4 +86,3 @@ For a list of property methods that get and set the automatic phone interaction 
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPerChannelDbLevel::GetChannelCount
+ - IPerChannelDbLevel.GetChannelCount
 ---
 
 # IPerChannelDbLevel::GetChannelCount
@@ -83,4 +83,3 @@ Pointer <i>pcChannels</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iperchanneldblevel">IPerChannelDbLevel Interface</a>
-

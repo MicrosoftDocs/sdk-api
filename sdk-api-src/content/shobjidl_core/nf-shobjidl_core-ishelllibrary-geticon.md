@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary::GetIcon
+ - IShellLibrary.GetIcon
 ---
 
 # IShellLibrary::GetIcon
@@ -104,4 +104,3 @@ For additional information on parsing the string returned in <i>ppszIcon</i>, se
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
-

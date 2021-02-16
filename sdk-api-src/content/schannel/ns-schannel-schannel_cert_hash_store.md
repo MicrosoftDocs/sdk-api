@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SCHANNEL_CERT_HASH_STORE
- - PSCHANNEL_CERT_HASH_STORE
  - SCHANNEL_CERT_HASH_STORE
 ---
 

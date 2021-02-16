@@ -43,6 +43,8 @@ api_location:
  - ComAdmin.h
 api_name:
  - ICOMAdminCatalog
+ - ICOMAdminCatalog.Reserved1
+ - ICOMAdminCatalog.Reserved2
 ---
 
 # ICOMAdminCatalog interface

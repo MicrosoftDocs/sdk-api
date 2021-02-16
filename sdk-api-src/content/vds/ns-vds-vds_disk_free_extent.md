@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DISK_FREE_EXTENT
- - PVDS_DISK_FREE_EXTENT
  - VDS_DISK_FREE_EXTENT
 ---
 
@@ -77,4 +75,3 @@ The size, in bytes, of the free extent.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsdisk3-queryfreeextents">IVdsDisk3::QueryFreeExtents</a>
-

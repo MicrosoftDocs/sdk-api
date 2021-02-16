@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_KERNELCB_SYNCSURFACE
+ - DdSyncSurfaceData
 ---
 
 ## -description
@@ -62,4 +62,3 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedat
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_syncsurfacedata">DD_SYNCSURFACEDATA</a>
-

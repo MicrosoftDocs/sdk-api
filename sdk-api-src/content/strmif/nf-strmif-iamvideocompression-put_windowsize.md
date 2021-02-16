@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression::put_WindowSize
+ - IAMVideoCompression.put_WindowSize
 ---
 
 # IAMVideoCompression::put_WindowSize
@@ -78,4 +78,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-get_windowsize">IAMVideoCompression::get_WindowSize</a>
-

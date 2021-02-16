@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMHALF2::XMHALF2
+ - XMHALF2.XMHALF2
 ---
 
 # XMHALF2::XMHALF2(HALF,HALF)
@@ -94,4 +94,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmhalf2-ctor">XMHALF2 Constructors</a>
-

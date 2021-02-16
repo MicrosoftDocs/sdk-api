@@ -42,7 +42,7 @@ api_type:
 api_location:
  - storageprovider.h
 api_name:
- - IStorageProviderHandler::GetPropertyHandlerFromFileId
+ - IStorageProviderHandler.GetPropertyHandlerFromFileId
 ---
 
 # IStorageProviderHandler::GetPropertyHandlerFromFileId
@@ -73,4 +73,3 @@ This method is used to convert a  file identifier to a local file system path. T
 ## -see-also
 
 <a href="/windows/desktop/api/storageprovider/nn-storageprovider-istorageproviderhandler">IStorageProviderHandler</a>
-

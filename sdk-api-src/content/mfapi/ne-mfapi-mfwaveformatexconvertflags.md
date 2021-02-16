@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFWaveFormatExConvertFlags
  - MFWaveFormatExConvertFlags
 ---
 
@@ -72,4 +71,3 @@ Convert the media type to a <b>WAVEFORMATEXTENSIBLE</b> structure.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

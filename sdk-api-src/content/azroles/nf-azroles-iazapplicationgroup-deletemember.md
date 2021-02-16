@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::DeleteMember
+ - IAzApplicationGroup.DeleteMember
+ - AzApplicationGroup.DeleteMember
 ---
 
 # IAzApplicationGroup::DeleteMember
@@ -65,4 +66,3 @@ Reserved for future use.
 ## -remarks
 
 To view the list of SIDs of accounts that belong to this application group in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_members">Members</a> property.
-

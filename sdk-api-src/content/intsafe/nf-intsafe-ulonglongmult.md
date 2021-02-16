@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Intsafe.h
 api_name:
- - ULongLongMult
+ - SizeTMult
 ---
 
 ## -description
@@ -72,4 +72,3 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 ## -remarks
 
 This is one of a set of inline functions designed to provide arithmetic operations and perform validity checks with minimal impact on performance.
-

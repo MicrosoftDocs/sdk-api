@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMAnalogVideoEncoder::put_TVFormat
+ - IAMAnalogVideoEncoder.put_TVFormat
 ---
 
 # IAMAnalogVideoEncoder::put_TVFormat
@@ -71,4 +71,3 @@ When this method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder">IAMAnalogVideoEncoder Interface</a>
-

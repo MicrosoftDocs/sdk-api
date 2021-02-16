@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager::SetSignatureOriginPartName
+ - IXpsSignatureManager.SetSignatureOriginPartName
 ---
 
 # IXpsSignatureManager::SetSignatureOriginPartName
@@ -106,4 +106,3 @@ The part name cannot be set if any signatures exist.
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

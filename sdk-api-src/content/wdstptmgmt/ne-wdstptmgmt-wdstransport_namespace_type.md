@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wdstptmgmt.h
 api_name:
- - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0003
- - PWDSTRANSPORT_NAMESPACE_TYPE
  - WDSTRANSPORT_NAMESPACE_TYPE
 ---
 

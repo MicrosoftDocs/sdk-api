@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _ADRPARM
- - LPADRPARM
  - ADRPARM
 ---
 
@@ -198,4 +196,3 @@ Not supported. Must be set to <b>NULL</b>.
 Type: <b>LPSRestriction</b>
 
 Not supported. Must be set to <b>NULL</b>.
-

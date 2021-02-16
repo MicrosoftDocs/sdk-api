@@ -46,6 +46,7 @@ api_location:
  - API-MS-Win-Core-RTLSupport-l1-2-0.dll
 api_name:
  - RtlCaptureStackBackTrace
+ - CaptureStackBackTrace
 ---
 
 # RtlCaptureStackBackTrace function

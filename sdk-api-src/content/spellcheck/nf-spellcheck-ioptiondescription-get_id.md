@@ -41,7 +41,8 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - IOptionDescription::get_Id
+ - IOptionDescription.Id
+ - IOptionDescription.get_Id
 ---
 
 # IOptionDescription::get_Id
@@ -72,4 +73,3 @@ An option identifier is linked to the set of labels and the semantics associated
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ioptiondescription">IOptionDescription</a>
-

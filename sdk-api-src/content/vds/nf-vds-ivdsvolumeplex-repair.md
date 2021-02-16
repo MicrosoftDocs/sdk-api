@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumePlex::Repair
+ - IVdsVolumePlex.Repair
 ---
 
 # IVdsVolumePlex::Repair
@@ -173,4 +173,3 @@ The volume is missing one or more members or is somehow incomplete.
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_input_disk">VDS_INPUT_DISK</a>
-

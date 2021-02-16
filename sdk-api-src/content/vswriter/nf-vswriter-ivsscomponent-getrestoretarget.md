@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::GetRestoreTarget
+ - IVssComponent.GetRestoreTarget
 ---
 
 # IVssComponent::GetRestoreTarget
@@ -134,4 +134,3 @@ The specified item was not found.
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-

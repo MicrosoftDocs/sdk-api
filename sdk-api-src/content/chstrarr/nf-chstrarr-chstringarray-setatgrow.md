@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::SetAtGrow
+ - CHStringArray.SetAtGrow
 ---
 
 # CHStringArray::SetAtGrow
@@ -87,4 +87,3 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/WmiSdk/chstringarray--operator-brackets">CHStringArray::operator []</a>
-

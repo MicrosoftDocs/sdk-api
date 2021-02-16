@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rpcndr.h
 api_name:
- - _MIDL_STUB_MESSAGE
- - PMIDL_STUB_MESSAGE
  - MIDL_STUB_MESSAGE
 ---
 
@@ -355,4 +353,3 @@ Reserved.
 #### - fUnused
 
 Reserved.
-

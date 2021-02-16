@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DQuery9::GetType
+ - IDirect3DQuery9.GetType
 ---
 
 # IDirect3DQuery9::GetType
@@ -64,4 +64,3 @@ Returns the query type. See <a href="/windows/desktop/direct3d9/d3dquerytype">D3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>
-

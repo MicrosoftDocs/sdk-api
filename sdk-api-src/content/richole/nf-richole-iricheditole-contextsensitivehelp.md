@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::ContextSensitiveHelp
+ - IRichEditOle.ContextSensitiveHelp
 ---
 
 # IRichEditOle::ContextSensitiveHelp
@@ -69,4 +69,3 @@ Returns S_OK on success, or a failure code otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-

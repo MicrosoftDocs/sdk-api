@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2::GetEnableResends
+ - IWMReaderNetworkConfig2.GetEnableResends
 ---
 
 # IWMReaderNetworkConfig2::GetEnableResends
@@ -105,4 +105,3 @@ This feature is available only for content streamed from a server running Window
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenableresends">IWMReaderNetworkConfig2::SetEnableResends</a>
-

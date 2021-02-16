@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx::get_EnableRemoteControl
+ - IADsTSUserEx.EnableRemoteControl
+ - IADsTSUserEx.get_EnableRemoteControl
+ - IADsTSUserEx.put_EnableRemoteControl
 ---
 
 # IADsTSUserEx::get_EnableRemoteControl
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-

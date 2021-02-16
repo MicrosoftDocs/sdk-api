@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfPropertyStore::GetType
+ - ITfPropertyStore.GetType
 ---
 
 # ITfPropertyStore::GetType

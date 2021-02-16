@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPGOPHER_ATTRIBUTE_TYPE
  - GOPHER_ATTRIBUTE_TYPE
 ---
 
@@ -352,4 +351,3 @@ A <b>GOPHER_UNKNOWN_ATTRIBUTE</b> structure.
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-gophergetattributea">GopherGetAttribute</a>
-

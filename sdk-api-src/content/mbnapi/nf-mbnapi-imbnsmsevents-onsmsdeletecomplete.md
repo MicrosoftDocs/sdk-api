@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsEvents::OnSmsDeleteComplete
+ - IMbnSmsEvents.OnSmsDeleteComplete
 ---
 
 # IMbnSmsEvents::OnSmsDeleteComplete
@@ -165,4 +165,3 @@ This method must return <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
-

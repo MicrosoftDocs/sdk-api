@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer::SACAuth
+ - CSecureChannelServer.SACAuth
 ---
 
 # CSecureChannelServer::SACAuth
@@ -128,4 +128,3 @@ This method is used by the service provider to implement the public <a href="/wi
 
 
 <a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-

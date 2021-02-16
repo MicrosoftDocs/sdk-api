@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - dxvahd
  - dxvahd/dxvahd
-api_name:
- - dxvahd
 ---
 
 # Dxvahd.h header

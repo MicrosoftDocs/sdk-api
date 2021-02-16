@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain::SearchGPOs
+ - IGPMDomain.SearchGPOs
+ - GPMDomain.SearchGPOs
 ---
 
 ## -description
@@ -97,4 +98,3 @@ An empty  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpms
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
-

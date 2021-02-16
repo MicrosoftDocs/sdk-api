@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDMessageParameters::GetLocalAddress
+ - IWSDMessageParameters.GetLocalAddress
 ---
 
 # IWSDMessageParameters::GetLocalAddress
@@ -103,4 +103,3 @@ The caller is responsible for releasing memory allocated to <i>ppAddress</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessageparameters">IWSDMessageParameters</a>
-

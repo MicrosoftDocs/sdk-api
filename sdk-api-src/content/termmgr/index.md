@@ -9,8 +9,6 @@ tech.root: tapi3
 f1_keywords:
  - termmgr
  - termmgr/termmgr
-api_name:
- - termmgr
 ---
 
 # Termmgr.h header

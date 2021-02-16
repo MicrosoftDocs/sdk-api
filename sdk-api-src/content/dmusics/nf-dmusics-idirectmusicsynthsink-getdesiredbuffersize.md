@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynthSink::GetDesiredBufferSize
+ - IDirectMusicSynthSink.GetDesiredBufferSize
 ---
 
 # IDirectMusicSynthSink::GetDesiredBufferSize
@@ -89,4 +89,3 @@ For more information, see the description of the <b>IDirectMusicPort</b> interfa
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-setdirectsound">IDirectMusicSynthSink::SetDirectSound</a>
-

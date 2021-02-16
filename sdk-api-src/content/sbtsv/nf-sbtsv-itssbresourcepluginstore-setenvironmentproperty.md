@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::SetEnvironmentProperty
+ - ITsSbResourcePluginStore.SetEnvironmentProperty
+ - ITsSbResourcePluginStoreEx.SetEnvironmentProperty
 ---
 
 # ITsSbResourcePluginStore::SetEnvironmentProperty
@@ -85,4 +86,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-setenvironmentpropertywithversioncheck">SetEnvironmentPropertyWithVersionCheck</a>
-

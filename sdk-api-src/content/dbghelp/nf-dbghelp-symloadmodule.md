@@ -42,6 +42,7 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
+ - SymLoadModule64
  - SymLoadModule
 ---
 
@@ -135,4 +136,3 @@ SymLoadModule(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symunloadmodule">SymUnloadModule64</a>
-

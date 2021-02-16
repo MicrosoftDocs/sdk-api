@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PrivilegedServiceAuditAlarmA
  - winbase/PrivilegedServiceAuditAlarmA
- - PrivilegedServiceAuditAlarm
- - winbase/PrivilegedServiceAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - PrivilegedServiceAuditAlarmA
  - PrivilegedServiceAuditAlarm
+ - PrivilegedServiceAuditAlarmA
+ - PrivilegedServiceAuditAlarmW
 ---
 
 # PrivilegedServiceAuditAlarmA function
@@ -120,4 +119,3 @@ The <b>PrivilegedServiceAuditAlarm</b> function requires the calling process to 
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-privilegecheck">PrivilegeCheck</a>
-

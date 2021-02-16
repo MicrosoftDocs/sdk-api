@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _CRYPT_IMAGE_REG
- - PCRYPT_IMAGE_REG
  - CRYPT_IMAGE_REG
 ---
 
@@ -75,4 +73,3 @@ A pointer to an array of <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_in
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_reg">CRYPT_PROVIDER_REG</a>
-

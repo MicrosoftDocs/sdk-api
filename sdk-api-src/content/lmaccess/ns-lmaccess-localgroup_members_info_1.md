@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _LOCALGROUP_MEMBERS_INFO_1
- - PLOCALGROUP_MEMBERS_INFO_1
  - LOCALGROUP_MEMBERS_INFO_1
 ---
 
@@ -171,4 +169,3 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState
+ - IUIAutomationExpandCollapsePattern.CurrentExpandCollapseState
+ - IUIAutomationExpandCollapsePattern.get_CurrentExpandCollapseState
 ---
 
 # IUIAutomationExpandCollapsePattern::get_CurrentExpandCollapseState
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationexpandcollapsepattern">IUIAutomationExpandCollapsePattern</a>
-

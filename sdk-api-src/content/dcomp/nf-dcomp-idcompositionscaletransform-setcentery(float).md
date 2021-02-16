@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionScaleTransform::SetCenterY
+ - IDCompositionScaleTransform.SetCenterY
 ---
 
 # IDCompositionScaleTransform::SetCenterY
@@ -81,4 +81,3 @@ If the CenterY property was previously animated, this method removes the animati
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449036(v=vs.85)">IDCompositionScaleTransform::SetCenterX</a>
-

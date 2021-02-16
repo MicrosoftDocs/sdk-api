@@ -38,9 +38,6 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapterList::GetAdapterCount
-f1_keywords:
- - IDXCoreAdapterList::GetAdapterCount
- - dxcore_interface/IDXCoreAdapterList::GetAdapterCount
 ---
 
 ## -description
@@ -56,4 +53,3 @@ Returns the number of adapter items in the list.
 ## -see-also
 
 [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

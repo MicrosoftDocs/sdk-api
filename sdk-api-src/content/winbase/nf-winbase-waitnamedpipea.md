@@ -34,8 +34,6 @@ ms.custom: 19H1
 f1_keywords:
  - WaitNamedPipeA
  - winbase/WaitNamedPipeA
- - WaitNamedPipe
- - winbase/WaitNamedPipe
 topic_type:
  - APIRef
  - kbSyntax
@@ -54,8 +52,9 @@ api_location:
  - API-MS-Win-Core-NamedPipe-Ansi-L1-1-1.dll
  - API-MS-Win-Core-NamedPipe-L1-2-2.dll
 api_name:
- - WaitNamedPipeA
  - WaitNamedPipe
+ - WaitNamedPipeA
+ - WaitNamedPipeW
 ---
 
 # WaitNamedPipeA function
@@ -162,4 +161,3 @@ For an example, see
 
 
 <a href="/windows/desktop/ipc/pipes">Pipes Overview</a>
-

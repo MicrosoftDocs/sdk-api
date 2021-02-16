@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiEnumFeaturesA
  - msi/MsiEnumFeaturesA
- - MsiEnumFeatures
- - msi/MsiEnumFeatures
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiEnumFeaturesA
  - MsiEnumFeatures
+ - MsiEnumFeaturesA
+ - MsiEnumFeaturesW
 ---
 
 # MsiEnumFeaturesA function
@@ -170,4 +169,3 @@ To enumerate features, an application should initially call the
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-

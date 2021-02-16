@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagLASTINPUTINFO
- - PLASTINPUTINFO
  - LASTINPUTINFO
 ---
 
@@ -95,4 +93,3 @@ This function is useful for input idle detection. For more information on tick c
 
 
 <b>Reference</b>
-

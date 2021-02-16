@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::GetDashStyle
+ - Pen.GetDashStyle
 ---
 
 # Pen::GetDashStyle
@@ -110,4 +110,3 @@ This method returns an element of the <a href="/windows/desktop/api/gdiplusenums
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-

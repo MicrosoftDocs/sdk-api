@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::CreateInstanceEnum
+ - IWbemServices.CreateInstanceEnum
 ---
 
 # IWbemServices::CreateInstanceEnum
@@ -156,4 +156,3 @@ It is not an error for the returned enumerator to have zero elements.
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-

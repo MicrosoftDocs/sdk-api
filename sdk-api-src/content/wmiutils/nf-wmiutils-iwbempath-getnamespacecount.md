@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::GetNamespaceCount
+ - IWbemPath.GetNamespaceCount
 ---
 
 # IWbemPath::GetNamespaceCount
@@ -66,4 +66,3 @@ This method returns an <b>HRESULT</b> with one of the following values.
 ## -see-also
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempath">IWbemPath</a>
-

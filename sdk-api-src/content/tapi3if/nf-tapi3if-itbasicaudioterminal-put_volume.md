@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicAudioTerminal::put_Volume
+ - ITBasicAudioTerminal.put_Volume
 ---
 
 # ITBasicAudioTerminal::put_Volume
@@ -114,4 +114,3 @@ A terminal must be selected before the volume can be adjusted.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-get_volume">get_Volume</a>
-

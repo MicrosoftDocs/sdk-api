@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContextInfo::IsInTransaction
+ - IObjectContextInfo.IsInTransaction
 ---
 
 # IObjectContextInfo::IsInTransaction
@@ -61,4 +61,3 @@ If the current object is executing within a transaction, the return value is <b>
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
-

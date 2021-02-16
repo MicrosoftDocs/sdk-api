@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_TYPE
  - EAP_TYPE
 ---
 

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
- - PAUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
  - AUTHZ_REGISTRATION_OBJECT_TYPE_NAME_OFFSET
 ---
 
@@ -71,4 +69,3 @@ Offset of the object type name in an object types message DLL.
 ## -see-also
 
 <a href="/windows/desktop/api/authz/ns-authz-authz_source_schema_registration">AUTHZ_SOURCE_SCHEMA_REGISTRATION</a>
-

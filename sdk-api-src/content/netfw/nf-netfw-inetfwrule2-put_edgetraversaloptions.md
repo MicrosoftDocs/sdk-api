@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule2::put_EdgeTraversalOptions
+ - INetFwRule2.EdgeTraversalOptions
+ - INetFwRule2.get_EdgeTraversalOptions
+ - INetFwRule2.put_EdgeTraversalOptions
 ---
 
 # INetFwRule2::put_EdgeTraversalOptions
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_edge_traversal_type">NET_FW_EDGE_TRAVERSAL_TYPE</a>
-

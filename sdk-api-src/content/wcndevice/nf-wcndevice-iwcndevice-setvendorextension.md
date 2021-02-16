@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice::SetVendorExtension
+ - IWCNDevice.SetVendorExtension
 ---
 
 # IWCNDevice::SetVendorExtension
@@ -121,4 +121,3 @@ The number of vendor extensions has exceeded the current implementation limit, w
 
 
 <b>WCN_VENDOR_EXTENSION_SPEC</b>
-

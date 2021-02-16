@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Winscard.h
 api_name:
- - POPENCARDNAME_EXW
+ - OPENCARDNAME_EX
+ - OPENCARDNAME_EXA
  - OPENCARDNAME_EXW
 ---
 
@@ -214,4 +215,3 @@ A handle of the connected card (either through an internal dialog box connect or
 
 > [!NOTE]
 > The winscard.h header defines OPENCARDNAME_EX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

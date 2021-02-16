@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperties::get_Count
+ - ICertProperties.Count
+ - ICertProperties.get_Count
 ---
 
 # ICertProperties::get_Count
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-

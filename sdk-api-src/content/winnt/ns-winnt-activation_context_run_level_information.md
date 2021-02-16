@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
- - PACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
  - ACTIVATION_CONTEXT_RUN_LEVEL_INFORMATION
 ---
 
@@ -71,4 +69,3 @@ A  <a href="/windows/desktop/api/winnt/ne-winnt-actctx_requested_run_level">ACTC
 ### -field UiAccess
 
 This parameter returns zero if the <b>uiAccess</b> attribute in the application manifest is false. This parameter returns a non-zero value if the <b>uiAccess</b> attribute in the manifest is true. True means that UI accessibility applications require access higher privileges.
-

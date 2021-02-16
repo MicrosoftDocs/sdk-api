@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector::GetType
+ - IConnector.GetType
 ---
 
 # IConnector::GetType
@@ -109,4 +109,3 @@ For a code example that calls the <b>GetType</b> method, see the implementation 
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
-

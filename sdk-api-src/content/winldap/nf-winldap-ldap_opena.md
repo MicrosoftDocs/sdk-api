@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_openA
  - winldap/ldap_openA
- - ldap_open
- - winldap/ldap_open
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_openA
  - ldap_open
+ - ldap_openA
+ - ldap_openW
 ---
 
 # ldap_openA function
@@ -112,4 +111,3 @@ Multithreading: Calls to <b>ldap_open</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_unbind">ldap_unbind</a>
-

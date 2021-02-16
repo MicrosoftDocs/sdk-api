@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced::GetAllocateForStream
+ - IWMReaderAdvanced.GetAllocateForStream
 ---
 
 # IWMReaderAdvanced::GetAllocateForStream
@@ -80,4 +80,3 @@ Stream numbers are in the range of 1 through 63.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-setallocateforstream">IWMReaderAdvanced::SetAllocateForStream</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory::CreateFontResource
+ - IXpsOMObjectFactory.CreateFontResource
 ---
 
 # IXpsOMObjectFactory::CreateFontResource
@@ -232,4 +232,3 @@ else
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
-

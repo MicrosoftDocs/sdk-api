@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler::Notify
+ - IDsAdminNotifyHandler.Notify
 ---
 
 # IDsAdminNotifyHandler::Notify
@@ -77,4 +77,3 @@ The return value from this method is ignored.
 
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-begin">IDsAdminNotifyHandler::Begin</a>
-

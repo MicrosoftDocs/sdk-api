@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::get_RecipientTitle
+ - IFaxDoc.RecipientTitle
+ - IFaxDoc.get_RecipientTitle
+ - IFaxDoc.put_RecipientTitle
 ---
 
 # IFaxDoc::get_RecipientTitle
@@ -77,4 +79,3 @@ The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-senderfax-
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusgraphics.h
 api_name:
- - Graphics::Graphics
+ - Graphics.Graphics
 ---
 
 # Graphics::Graphics(GpGraphics)
@@ -96,4 +96,3 @@ Creates a <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graph
 </table>
 
 ## -parameters
-

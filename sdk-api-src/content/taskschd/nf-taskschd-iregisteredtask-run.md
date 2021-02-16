@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask::Run
+ - IRegisteredTask.Run
 ---
 
 # IRegisteredTask::Run
@@ -91,4 +91,3 @@ If <b>IRegisteredTask::Run</b> is invoked from a disabled task, it will return S
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

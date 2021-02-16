@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::GetInterpolationColorCount
+ - PathGradientBrush.GetInterpolationColorCount
 ---
 
 # PathGradientBrush::GetInterpolationColorCount
@@ -154,4 +154,3 @@ VOID Example_GetInterpColors(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setinterpolationcolors">PathGradientBrush::SetInterpolationColors</a>
-

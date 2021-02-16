@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnManager::SetColumns
+ - IColumnManager.SetColumns
 ---
 
 # IColumnManager::SetColumns
@@ -105,4 +105,3 @@ Collection not set.
 
 <div class="alert"><b>Note</b>  <b>IColumnManager::SetColumns</b> clears the state of all columns, so <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icolumnmanager-setcolumninfo">IColumnManager::SetColumnInfo</a> must be called afterward to set the state of individual columns.</div>
 <div> </div>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDataTransfer::idtQueryGetData
+ - IWiaDataTransfer.idtQueryGetData
 ---
 
 # IWiaDataTransfer::idtQueryGetData
@@ -69,4 +69,3 @@ If this method succeeds, it returns S_OK. Otherwise it returns a value specified
 ## -remarks
 
 This method queries a device to determine the data formats it supports. Prior to a data transfer, an application can fill in the <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_format_info">WIA_FORMAT_INFO</a> structure with the intended medium and data format information. It then calls <b>IWiaDataTransfer::idtQueryGetData</b> and receives a return value of S_OK if the data format and media type are supported by this device.
-

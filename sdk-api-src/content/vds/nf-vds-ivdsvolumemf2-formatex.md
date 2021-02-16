@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF2::FormatEx
+ - IVdsVolumeMF2.FormatEx
 ---
 
 # IVdsVolumeMF2::FormatEx
@@ -353,4 +353,3 @@ For more information about file system limits such as minimum and maximum alloca
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumemf2">IVdsVolumeMF2</a>
-

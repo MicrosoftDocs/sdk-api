@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - __MIDL___MIDL_itf_tapi3_0000_0018_0001
  - MSP_ADDRESS_EVENT
 ---
 
@@ -83,4 +82,3 @@ A terminal has been removed by PNP.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer::Remove
+ - ITuningSpaceContainer.Remove
 ---
 
 # ITuningSpaceContainer::Remove
@@ -65,4 +65,3 @@ Returns S_OK if successful. If the specified tuning space was invalid or corrupt
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-

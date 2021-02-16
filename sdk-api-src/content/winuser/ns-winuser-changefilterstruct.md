@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagCHANGEFILTERSTRUCT
- - PCHANGEFILTERSTRUCT
  - CHANGEFILTERSTRUCT
 ---
 
@@ -232,4 +230,3 @@ The following table lists the possible values returned in <b>ExtStatus</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-changewindowmessagefilterex">ChangeWindowMessageFilterEx</a>
-

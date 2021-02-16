@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_DIALOG_BOX_INDIRECT_PARAM
+ - WlxDialogBoxIndirectParam
 ---
 
 # PWLX_DIALOG_BOX_INDIRECT_PARAM callback function
@@ -177,4 +177,3 @@ If the function fails, the return value is –1.
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

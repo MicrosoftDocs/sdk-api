@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3SE::XMFLOAT3SE
+ - XMFLOAT3SE.XMFLOAT3SE
 ---
 
 # XMFLOAT3SE::XMFLOAT3SE
@@ -73,4 +73,3 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 
 <a href="/windows/desktop/dxmath/xmfloat3se-ctor">XMFLOAT3SE Constructors</a>
-

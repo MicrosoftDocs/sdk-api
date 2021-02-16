@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4::removePendingRequestWStr
+ - IEnroll4.removePendingRequestWStr
 ---
 
 # IEnroll4::removePendingRequestWStr
@@ -63,4 +63,3 @@ The <b>removePendingRequestWStr</b> method removes a pending request from the cl
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

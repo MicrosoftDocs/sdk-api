@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IImageList::ImageListSetStrip
+ - IImageList.ImageListSetStrip
 ---
 
 # IImageList::ImageListSetStrip
@@ -83,4 +83,3 @@ Each pixel of the color used to generate a mask in the specified bitmap is chang
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
-

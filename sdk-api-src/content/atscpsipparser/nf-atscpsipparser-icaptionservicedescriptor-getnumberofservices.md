@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ICaptionServiceDescriptor::GetNumberOfServices
+ - ICaptionServiceDescriptor.GetNumberOfServices
 ---
 
 # ICaptionServiceDescriptor::GetNumberOfServices
@@ -110,4 +110,3 @@ The PSIP table is not well formed.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-icaptionservicedescriptor">ICaptionServiceDescriptor Interface</a>
-

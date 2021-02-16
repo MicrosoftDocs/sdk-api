@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumPluggableTerminalClassInfo::Skip
+ - IEnumPluggableTerminalClassInfo.Skip
 ---
 
 # IEnumPluggableTerminalClassInfo::Skip
@@ -110,4 +110,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/terminal-class">Terminal Class</a>
-

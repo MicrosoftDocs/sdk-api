@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfmp2dlna.h
 api_name:
- - _MFMPEG2DLNASINKSTATS
  - MFMPEG2DLNASINKSTATS
 ---
 
@@ -118,4 +117,3 @@ The number of audio frames that have been encoded.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

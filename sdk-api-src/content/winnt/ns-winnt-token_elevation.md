@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TOKEN_ELEVATION
- - PTOKEN_ELEVATION
  - TOKEN_ELEVATION
 ---
 

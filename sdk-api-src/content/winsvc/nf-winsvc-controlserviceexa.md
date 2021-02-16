@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ControlServiceExA
  - winsvc/ControlServiceExA
- - ControlServiceEx
- - winsvc/ControlServiceEx
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ControlServiceExA
  - ControlServiceEx
+ - ControlServiceExA
+ - ControlServiceExW
 ---
 
 # ControlServiceExA function
@@ -437,4 +436,3 @@ The following table shows the action of the SCM  in each of the possible service
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
-

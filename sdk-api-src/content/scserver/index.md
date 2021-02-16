@@ -9,8 +9,6 @@ tech.root: wmdm
 f1_keywords:
  - scserver
  - scserver/scserver
-api_name:
- - scserver
 ---
 
 # Scserver.h header

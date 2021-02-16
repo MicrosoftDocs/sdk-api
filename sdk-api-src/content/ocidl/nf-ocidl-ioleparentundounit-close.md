@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleParentUndoUnit::Close
+ - IOleParentUndoUnit.Close
 ---
 
 # IOleParentUndoUnit::Close
@@ -122,4 +122,3 @@ If <i>pPUU</i> does not match the currently open parent undo unit, then implemen
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleparentundounit-close">IOleParentUndoUnit::Close</a>
-

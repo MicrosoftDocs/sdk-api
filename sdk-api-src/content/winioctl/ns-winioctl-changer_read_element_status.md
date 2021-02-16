@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CHANGER_READ_ELEMENT_STATUS
- - PCHANGER_READ_ELEMENT_STATUS
  - CHANGER_READ_ELEMENT_STATUS
 ---
 
@@ -77,4 +75,3 @@ If this member is <b>TRUE</b>, volume tag information is to be retrieved. Otherw
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-

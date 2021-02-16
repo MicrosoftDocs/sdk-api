@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0011
- - PADS_NETADDRESS
  - ADS_NETADDRESS
 ---
 
@@ -75,4 +73,3 @@ A network address.
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

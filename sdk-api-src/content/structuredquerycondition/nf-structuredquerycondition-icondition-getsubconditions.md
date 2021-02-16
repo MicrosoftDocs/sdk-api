@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition::GetSubConditions
+ - ICondition.GetSubConditions
 ---
 
 # ICondition::GetSubConditions
@@ -99,4 +99,3 @@ If the node is a conjunction or disjunction node, <i>ppv</i> is set to an enumer
 
 
 <b>Reference</b>
-

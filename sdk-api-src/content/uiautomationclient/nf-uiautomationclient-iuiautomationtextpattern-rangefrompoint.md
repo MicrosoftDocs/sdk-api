@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern::RangeFromPoint
+ - IUIAutomationTextPattern.RangeFromPoint
 ---
 
 # IUIAutomationTextPattern::RangeFromPoint
@@ -93,4 +93,3 @@ The implementation of <b>RangeFromPoint</b> in Windows Internet Explorer 9 does
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlobj_core.h
 api_name:
- - IShellFolderView::GetAutoArrange
+ - IShellFolderView.GetAutoArrange
 ---
 
 # IShellFolderView::GetAutoArrange
@@ -61,4 +61,3 @@ Gets the current state of the folder's Auto Arrange mode.
 Type: <b>HRESULT</b>
 
 Returns S_OK if the folder is in Auto Arrange mode.
-

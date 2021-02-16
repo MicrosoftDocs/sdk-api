@@ -44,7 +44,7 @@ api_location:
  - D3D11_1SDKLayers.dll
  - D3D11_2SDKLayers.dll
 api_name:
- - ID3D11ShaderTrace::GetTraceStats
+ - ID3D11ShaderTrace.GetTraceStats
 ---
 
 # ID3D11ShaderTrace::GetTraceStats
@@ -77,4 +77,3 @@ This API requires the Windows Software Development Kit (SDK) for Windows 8.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shadertracing/nn-d3d11shadertracing-id3d11shadertrace">ID3D11ShaderTrace</a>
-

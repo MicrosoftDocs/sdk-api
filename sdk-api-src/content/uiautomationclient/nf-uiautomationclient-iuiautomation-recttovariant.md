@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::RectToVariant
+ - IUIAutomation.RectToVariant
 ---
 
 # IUIAutomation::RectToVariant
@@ -83,4 +83,3 @@ The returned <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a> ha
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-varianttorect">IUIAutomation::VariantToRect</a>
-

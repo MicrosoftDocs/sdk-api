@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IStreamBuilder::Backout
+ - IStreamBuilder.Backout
 ---
 
 # IStreamBuilder::Backout
@@ -120,4 +120,3 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-istreambuilder">IStreamBuilder Interface</a>
-

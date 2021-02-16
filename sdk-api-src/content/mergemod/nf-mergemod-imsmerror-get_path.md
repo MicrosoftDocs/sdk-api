@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmError::get_Path
+ - IMsmError.get_Path
 ---
 
 # IMsmError::get_Path
@@ -115,4 +115,3 @@ In Windows Installer versions 1.0 and 1.1
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

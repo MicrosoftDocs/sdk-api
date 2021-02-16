@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfo::GetFileName
+ - IAppxBundleManifestPackageInfo.GetFileName
 ---
 
 # IAppxBundleManifestPackageInfo::GetFileName
@@ -75,4 +75,3 @@ When you're done using the file name, free the memory allocated for <i>fileName<
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfo">IAppxBundleManifestPackageInfo</a>
-

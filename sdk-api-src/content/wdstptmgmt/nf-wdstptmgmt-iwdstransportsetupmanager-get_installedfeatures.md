@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportSetupManager::get_InstalledFeatures
+ - IWdsTransportSetupManager.InstalledFeatures
+ - IWdsTransportSetupManager.get_InstalledFeatures
+ - IWdsTransportSetupManager.put_InstalledFeatures
 ---
 
 # IWdsTransportSetupManager::get_InstalledFeatures
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_feature_flags">WDSTRANSPORT_FEATURE_FLAGS</a>
-

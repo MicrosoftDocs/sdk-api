@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRWindowlessControl9::GetCurrentImage
+ - IVMRWindowlessControl9.GetCurrentImage
 ---
 
 # IVMRWindowlessControl9::GetCurrentImage
@@ -127,4 +127,3 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

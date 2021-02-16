@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite_1.dll
 api_name:
- - IDWriteTextAnalyzer1::GetScriptProperties
+ - IDWriteTextAnalyzer1.GetScriptProperties
 ---
 
 # IDWriteTextAnalyzer1::GetScriptProperties

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_OperationCallbacks
  - MI_OperationCallbacks
 ---
 
@@ -130,4 +129,3 @@ is not set, i.e. set to <b>NULL</b>, the operation will be carried out synchrono
 
 
 <a href="/previous-versions/windows/desktop/legacy/dn759646(v=vs.85)">MI_OperationCallback_WriteProgress</a>
-

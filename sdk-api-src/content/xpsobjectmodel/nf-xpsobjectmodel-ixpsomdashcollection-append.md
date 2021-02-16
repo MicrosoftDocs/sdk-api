@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDashCollection::Append
+ - IXpsOMDashCollection.Append
 ---
 
 # IXpsOMDashCollection::Append
@@ -79,4 +79,3 @@ The figure that follows illustrates how the collection is changed by the <b>Appe
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
-

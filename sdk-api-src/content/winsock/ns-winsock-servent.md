@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winsock.h
 api_name:
- - servent
- - PSERVENT
  - SERVENT
 ---
 
@@ -80,4 +78,3 @@ The name of the protocol to use when contacting the service.
 ## -see-also
 
 <a href="/windows/desktop/api/winsock/nf-winsock-getservbyname">getservbyname</a>
-

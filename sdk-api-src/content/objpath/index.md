@@ -9,8 +9,6 @@ tech.root: wmi
 f1_keywords:
  - objpath
  - objpath/objpath
-api_name:
- - objpath
 ---
 
 # Objpath.h header

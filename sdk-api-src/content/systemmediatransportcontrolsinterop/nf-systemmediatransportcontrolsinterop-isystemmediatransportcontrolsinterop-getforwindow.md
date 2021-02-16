@@ -42,7 +42,7 @@ api_type:
 api_location:
  - systemmediatransportcontrolsinterop.h
 api_name:
- - ISystemMediaTransportControlsInterop::GetForWindow
+ - ISystemMediaTransportControlsInterop.GetForWindow
 ---
 
 # ISystemMediaTransportControlsInterop::GetForWindow
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/systemmediatransportcontrolsinterop/nn-systemmediatransportcontrolsinterop-isystemmediatransportcontrolsinterop">ISystemMediaTransportControlsInterop</a>
-

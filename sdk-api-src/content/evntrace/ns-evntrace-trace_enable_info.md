@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _TRACE_ENABLE_INFO
- - PTRACE_ENABLE_INFO
  - TRACE_ENABLE_INFO
 ---
 
@@ -99,4 +97,3 @@ The <a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_I
 ## -see-also
 
 <a href="/windows/desktop/ETW/trace-provider-instance-info">TRACE_PROVIDER_INSTANCE_INFO</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IMemoryData::SetBuffer
+ - IMemoryData.SetBuffer
 ---
 
 # IMemoryData::SetBuffer
@@ -79,4 +79,3 @@ This method can be called as often as needed. When using <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
-

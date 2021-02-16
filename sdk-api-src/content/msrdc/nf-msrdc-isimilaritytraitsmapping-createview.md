@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping::CreateView
+ - ISimilarityTraitsMapping.CreateView
 ---
 
 # ISimilarityTraitsMapping::CreateView
@@ -77,4 +77,3 @@ Data accessed through read-only views will never be modified.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
+ - IMMDeviceEnumerator.UnregisterEndpointNotificationCallback
 ---
 
 # IMMDeviceEnumerator::UnregisterEndpointNotificationCallback
@@ -110,4 +110,3 @@ For more information about the <b>AddRef</b> and <b>Release</b> methods, see the
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immnotificationclient">IMMNotificationClient Interface</a>
-

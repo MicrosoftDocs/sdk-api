@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITransformProvider::Resize
+ - ITransformProvider.Resize
 ---
 
 # ITransformProvider::Resize
@@ -92,4 +92,3 @@ An object cannot be moved, resized, or rotated such that its resulting screen lo
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

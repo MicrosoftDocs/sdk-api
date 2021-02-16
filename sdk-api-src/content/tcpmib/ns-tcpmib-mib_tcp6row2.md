@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpmib.h
 api_name:
- - _MIB_TCP6ROW2
- - PMIB_TCP6ROW2
  - MIB_TCP6ROW2
 ---
 
@@ -348,4 +346,3 @@ The <b>LocalAddr</b> and <b>RemoteAddr</b> members are stored in  <a href="/wind
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
-

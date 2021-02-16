@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IPSFactoryBuffer::CreateProxy
+ - IPSFactoryBuffer.CreateProxy
 ---
 
 # IPSFactoryBuffer::CreateProxy
@@ -89,4 +89,3 @@ The <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> implem
 
 
 <a href="/windows/desktop/com/proxy">Proxy</a>
-

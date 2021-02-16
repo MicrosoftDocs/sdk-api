@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AuditLookupSubCategoryNameW
  - ntsecapi/AuditLookupSubCategoryNameW
- - AuditLookupSubCategoryName
- - ntsecapi/AuditLookupSubCategoryName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Security-audit-l1-1-1.dll
  - sechost.dll
 api_name:
- - AuditLookupSubCategoryNameW
  - AuditLookupSubCategoryName
+ - AuditLookupSubCategoryNameA
+ - AuditLookupSubCategoryNameW
 ---
 
 # AuditLookupSubCategoryNameW function
@@ -84,4 +83,3 @@ If the function fails, it returns <b>FALSE</b>. To get extended error informatio
 
 > [!NOTE]
 > The ntsecapi.h header defines AuditLookupSubCategoryName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_TraceDataProviders
+ - ITraceDataCollector.TraceDataProviders
+ - ITraceDataCollector.get_TraceDataProviders
 ---
 
 # ITraceDataCollector::get_TraceDataProviders
@@ -63,4 +64,3 @@ If the collection contains a kernel provider, all the providers in the collectio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
-

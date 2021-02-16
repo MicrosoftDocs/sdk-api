@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - tagRepairInfoEx
- - PRepairInfoEx
  - RepairInfoEx
 ---
 
@@ -83,4 +81,3 @@ The rank of the repair, relative to other repairs in the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/ndattrib/ns-ndattrib-rootcauseinfo">RootCauseInfo</a>
-

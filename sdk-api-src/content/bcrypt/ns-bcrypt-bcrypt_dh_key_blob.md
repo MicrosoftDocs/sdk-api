@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_DH_KEY_BLOB
- - PBCRYPT_DH_KEY_BLOB
  - BCRYPT_DH_KEY_BLOB
 ---
 
@@ -124,4 +122,3 @@ PrivateExponent[cbKey] // Big-endian.
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptimportkey">BCryptImportKey</a>
-

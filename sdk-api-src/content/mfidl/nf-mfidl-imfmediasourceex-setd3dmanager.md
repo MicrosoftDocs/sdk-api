@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFMediaSourceEx::SetD3DManager
+ - IMFMediaSourceEx.SetD3DManager
 ---
 
 # IMFMediaSourceEx::SetD3DManager
@@ -94,4 +94,3 @@ The media source does not support source-level attributes.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex">IMFMediaSourceEx</a>
-

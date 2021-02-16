@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATPROPSTG::Skip
+ - IEnumSTATPROPSTG.Skip
 ---
 
 # IEnumSTATPROPSTG::Skip
@@ -65,4 +65,3 @@ This method supports the following return values:
 ## -remarks
 
 A positive value for the <i>celt</i> parameter skips forward in the <a href="/windows/desktop/api/propidl/ns-propidl-statpropstg">STATPROPSTG</a> structure enumeration. A negative value for the <i>celt</i> parameter skips backward in the <b>STATPROPSTG</b> structure enumeration.
-

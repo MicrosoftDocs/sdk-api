@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_TIMEOUT_KEY
- - PHTTP_SERVICE_CONFIG_TIMEOUT_KEY
  - HTTP_SERVICE_CONFIG_TIMEOUT_KEY
 ---
 
@@ -80,4 +78,3 @@ The maximum time allowed to parse all the request headers, including the request
 
 
 <a href="/windows/desktop/api/http/ns-http-http_service_config_timeout_set">HTTP_SERVICE_CONFIG_TIMEOUT_SET</a>
-

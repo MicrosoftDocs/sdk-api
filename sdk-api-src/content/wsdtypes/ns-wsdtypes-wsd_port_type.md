@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_PORT_TYPE
  - WSD_PORT_TYPE
 ---
 
@@ -72,4 +71,3 @@ Reference to an array of <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_
 ### -field ProtocolType
 
 A <a href="/windows/desktop/api/wsdtypes/ne-wsdtypes-wsd_protocol_type">WSD_PROTOCOL_TYPE</a> value that specifies the protocol(s) supported by the port type.
-

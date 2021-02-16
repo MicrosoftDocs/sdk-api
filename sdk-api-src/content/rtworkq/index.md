@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - rtworkq
  - rtworkq/rtworkq
-api_name:
- - rtworkq
 ---
 
 # Rtworkq.h header

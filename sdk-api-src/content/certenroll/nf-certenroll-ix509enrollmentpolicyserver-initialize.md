@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::Initialize
+ - IX509EnrollmentPolicyServer.Initialize
 ---
 
 # IX509EnrollmentPolicyServer::Initialize
@@ -220,4 +220,3 @@ The value specified in the <i>bstrPolicyServerId</i> parameter is not <b>NULL</b
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_VARIANT
- - PEVT_VARIANT
  - EVT_VARIANT
 ---
 
@@ -243,4 +241,3 @@ You can use the <a href="/windows/desktop/WES/windows-event-log-constants">EVT_V
 
 
 <a href="/windows/desktop/WES/windows-event-log-constants">EVT_VARIANT_TYPE_MASK</a>
-

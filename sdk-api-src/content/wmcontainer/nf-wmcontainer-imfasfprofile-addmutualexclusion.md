@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::AddMutualExclusion
+ - IMFASFProfile.AddMutualExclusion
 ---
 
 # IMFASFProfile::AddMutualExclusion
@@ -104,4 +104,3 @@ You can create a mutual exclusion object by calling the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-removemutualexclusion">IMFASFProfile::RemoveMutualExclusion</a>
-

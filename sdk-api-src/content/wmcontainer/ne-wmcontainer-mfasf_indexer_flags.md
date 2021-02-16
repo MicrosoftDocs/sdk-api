@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - MFASF_INDEXERFLAGS
  - MFASF_INDEXER_FLAGS
 ---
 
@@ -72,4 +71,3 @@ The indexer creates an index object for a live ASF stream.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

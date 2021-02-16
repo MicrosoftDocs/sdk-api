@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceCollection::GetCount
+ - IFunctionInstanceCollection.GetCount
 ---
 
 # IFunctionInstanceCollection::GetCount
@@ -100,4 +100,3 @@ The <b>GetCount</b> and <a href="/windows/desktop/api/functiondiscoveryapi/nf-fu
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancecollection">IFunctionInstanceCollection</a>
-

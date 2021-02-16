@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IRedbookDiscMaster::CreateAudioTrack
+ - IRedbookDiscMaster.CreateAudioTrack
 ---
 
 # IRedbookDiscMaster::CreateAudioTrack
@@ -75,4 +75,3 @@ After the track is open, use the
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>
-

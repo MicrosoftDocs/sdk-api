@@ -9,8 +9,6 @@ tech.root: monitor
 f1_keywords:
  - lowlevelmonitorconfigurationapi
  - lowlevelmonitorconfigurationapi/lowlevelmonitorconfigurationapi
-api_name:
- - lowlevelmonitorconfigurationapi
 ---
 
 # Lowlevelmonitorconfigurationapi.h header

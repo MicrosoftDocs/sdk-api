@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::Stat
+ - IPropertyStorage.Stat
 ---
 
 # IPropertyStorage::Stat
@@ -83,4 +83,3 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 
 
 <a href="/windows/desktop/api/propidl/ns-propidl-statpropsetstg">STATPROPSETSTG</a>
-

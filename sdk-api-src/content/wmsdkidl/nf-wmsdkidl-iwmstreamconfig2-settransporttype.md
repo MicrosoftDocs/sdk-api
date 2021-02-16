@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig2::SetTransportType
+ - IWMStreamConfig2.SetTransportType
 ---
 
 # IWMStreamConfig2::SetTransportType
@@ -76,4 +76,3 @@ The new value will not take effect in the profile until you call <a href="/windo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-gettransporttype">IWMStreamConfig2::GetTransportType</a>
-

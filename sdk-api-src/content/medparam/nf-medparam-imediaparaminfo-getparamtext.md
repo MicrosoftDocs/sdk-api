@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParamInfo::GetParamText
+ - IMediaParamInfo.GetParamText
 ---
 
 # IMediaParamInfo::GetParamText
@@ -128,4 +128,3 @@ The object uses the <b>CoTaskMemAlloc</b> function to allocate memory for the st
 ## -see-also
 
 <a href="/windows/desktop/api/medparam/nn-medparam-imediaparaminfo">IMediaParamInfo Interface</a>
-

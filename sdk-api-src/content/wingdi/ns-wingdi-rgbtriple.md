@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagRGBTRIPLE
- - PRGBTRIPLE
  - RGBTRIPLE
 ---
 
@@ -83,4 +81,3 @@ The intensity of red in the color.
 
 
 <a href="/windows/desktop/gdi/bitmaps">Bitmaps Overview</a>
-

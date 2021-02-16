@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - jobapi
  - jobapi/jobapi
-api_name:
- - jobapi
 ---
 
 # Jobapi.h header

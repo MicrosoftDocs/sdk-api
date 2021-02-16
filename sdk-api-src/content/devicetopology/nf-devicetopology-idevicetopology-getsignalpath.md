@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceTopology::GetSignalPath
+ - IDeviceTopology.GetSignalPath
 ---
 
 # IDeviceTopology::GetSignalPath
@@ -152,4 +152,3 @@ The parts in the signal path must all be part of the same device topology. The p
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-ipartslist-getpart">IPartsList::GetPart</a>
-

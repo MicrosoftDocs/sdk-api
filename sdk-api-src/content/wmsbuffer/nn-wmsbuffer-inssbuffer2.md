@@ -43,6 +43,8 @@ api_location:
  - wmsbuffer.h
 api_name:
  - INSSBuffer2
+ - INSSBuffer2.GetSampleProperties
+ - INSSBuffer2.SetSampleProperties
 ---
 
 # INSSBuffer2 interface
@@ -94,4 +96,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INSSBuffer2</b> interface inh
 
 
 <a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
-

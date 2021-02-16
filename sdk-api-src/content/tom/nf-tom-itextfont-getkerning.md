@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont::GetKerning
+ - ITextFont.GetKerning
 ---
 
 # ITextFont::GetKerning
@@ -119,4 +119,3 @@ If the value pointed to by
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

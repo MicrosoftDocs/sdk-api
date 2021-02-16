@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationProgress::GetUpdateResult
+ - IInstallationProgress.GetUpdateResult
 ---
 
 # IInstallationProgress::GetUpdateResult
@@ -74,4 +74,3 @@ the <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpd
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationprogress">IInstallationProgress</a>
-

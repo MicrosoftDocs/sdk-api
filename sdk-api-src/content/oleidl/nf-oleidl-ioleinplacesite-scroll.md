@@ -43,7 +43,8 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSite::Scroll
+ - IOleInPlaceSite.Scroll
+ - IOleInPlaceSiteWindowless.Scroll
 ---
 
 # IOleInPlaceSite::Scroll
@@ -106,4 +107,3 @@ Called by an active, in-place object when it is asking the container to scroll.
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-

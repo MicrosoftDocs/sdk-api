@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
- - _EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
  - EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
 ---
 
@@ -88,4 +87,3 @@ Get the event sources for the subscription. For collector initiated subscription
 Get the last time that a heartbeat (a signal used to signify the subscription is working) occurred for a subscription or an event source. This will return an <a href="/windows/desktop/api/evcoll/ns-evcoll-ec_variant">EcVarTypeDateTime</a> value.
 
 ### -field EcSubscriptionRunTimeStatusInfoIdEND
-

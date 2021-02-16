@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NETLOGON_INFO_2
- - PNETLOGON_INFO_2
  - NETLOGON_INFO_2
 ---
 
@@ -176,4 +174,3 @@ An enumerated integer value that contains a status code defined in Lmerr.h, with
 ## -see-also
 
 <a href="/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>
-

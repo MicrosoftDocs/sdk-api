@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPort::put_Enabled
+ - INetFwOpenPort.Enabled
+ - INetFwOpenPort.get_Enabled
+ - INetFwOpenPort.put_Enabled
 ---
 
 # INetFwOpenPort::put_Enabled
@@ -72,4 +74,3 @@ The default value is true (<b>VARIANT_TRUE</b>) for new ports.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
-

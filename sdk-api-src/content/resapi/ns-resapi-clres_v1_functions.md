@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - CLRES_V1_FUNCTIONS
- - PCLRES_V1_FUNCTIONS
 ---
 
 # CLRES_V1_FUNCTIONS structure
@@ -184,4 +183,3 @@ To create a function table for version 1.0 of the Resource API, use the
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
-

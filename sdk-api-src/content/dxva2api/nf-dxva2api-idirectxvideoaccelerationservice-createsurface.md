@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoAccelerationService::CreateSurface
+ - IDirectXVideoAccelerationService.CreateSurface
 ---
 
 # IDirectXVideoAccelerationService::CreateSurface
@@ -201,4 +201,3 @@ If the method returns <b>E_FAIL</b>, try calling <a href="/windows/desktop/api/d
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice">IDirectXVideoAccelerationService</a>
-

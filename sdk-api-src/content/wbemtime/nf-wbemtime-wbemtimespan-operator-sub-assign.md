@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::operator-=
+ - WBEMTimeSpan.operator-=
 ---
 
 # WBEMTimeSpan::operator-sub-assign
@@ -68,4 +68,3 @@ Reference to the <b>WBEMTimeSpan</b> object, whose time span is subtracted from 
 ## -returns
 
 This method returns a new <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> object with a value equal to the difference in time.
-

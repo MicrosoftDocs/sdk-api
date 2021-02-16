@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - midievent_tag
  - MIDIEVENT
 ---
 
@@ -161,4 +160,3 @@ The remainder of the high byte contains one of the following event codes:
 
 
 <a href="/previous-versions/dd798481(v=vs.85)">midiOutShortMsg</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10StateBlock::Capture
+ - ID3D10StateBlock.Capture
 ---
 
 # ID3D10StateBlock::Capture
@@ -68,4 +68,3 @@ Capture captures current values for states within an existing state block. It do
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10stateblock">ID3D10StateBlock Interface</a>
-

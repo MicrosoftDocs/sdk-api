@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - UpdateTraceW
  - evntrace/UpdateTraceW
- - UpdateTrace
- - evntrace/UpdateTrace
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-eventing-Legacy-l1-1-0.dll
  - advapi32legacy.dll
 api_name:
- - UpdateTraceW
  - UpdateTrace
+ - UpdateTraceA
+ - UpdateTraceW
 ---
 
 # UpdateTraceW function
@@ -206,4 +205,3 @@ For an example that uses
 ## -see-also
 
 <a href="/windows/desktop/ETW/controltrace">ControlTrace</a>
-

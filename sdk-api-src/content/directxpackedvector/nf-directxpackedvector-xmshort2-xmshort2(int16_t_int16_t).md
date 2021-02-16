@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORT2::XMSHORT2
+ - XMSHORT2.XMSHORT2
 ---
 
 # XMSHORT2::XMSHORT2(int16_t,int16_t)
@@ -95,4 +95,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmshort2-ctor">XMSHORT2 Constructors</a>
-

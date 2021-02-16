@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJobs::get_Count
+ - IFaxOutgoingJobs.Count
+ - IFaxOutgoingJobs.get_Count
 ---
 
 # IFaxOutgoingJobs::get_Count
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
-

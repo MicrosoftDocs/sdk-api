@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager::get_DiagnosticsPolicy
+ - IWdsTransportConfigurationManager.DiagnosticsPolicy
+ - IWdsTransportConfigurationManager.get_DiagnosticsPolicy
 ---
 
 # IWdsTransportConfigurationManager::get_DiagnosticsPolicy
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportdiagnosticspolicy">IWdsTransportDiagnosticsPolicy</a>
-

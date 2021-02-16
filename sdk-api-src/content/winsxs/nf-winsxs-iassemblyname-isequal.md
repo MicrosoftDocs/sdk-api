@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyName::IsEqual
+ - IAssemblyName.IsEqual
 ---
 
 # IAssemblyName::IsEqual
@@ -98,4 +98,3 @@ The specified portions of the names do not match.
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator::NextMarker
+ - GraphicsPathIterator.NextMarker
 ---
 
 # GraphicsPathIterator::NextMarker(OUT const GraphicsPath)
@@ -150,4 +150,3 @@ VOID NextMarkerExample(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

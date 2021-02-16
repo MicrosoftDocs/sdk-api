@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1OffsetTransform::SetOffset
+ - ID2D1OffsetTransform.SetOffset
 ---
 
 # ID2D1OffsetTransform::SetOffset
@@ -68,4 +68,3 @@ The new offset to apply to the offset transform.
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1offsettransform">ID2D1OffsetTransform</a>
-

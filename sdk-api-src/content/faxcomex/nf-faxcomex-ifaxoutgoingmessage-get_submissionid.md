@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage::get_SubmissionId
+ - IFaxOutgoingMessage.SubmissionId
+ - IFaxOutgoingMessage.get_SubmissionId
+ - IFaxOutgoingMessage.get_SubmissionId
 ---
 
 # IFaxOutgoingMessage::get_SubmissionId
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
-

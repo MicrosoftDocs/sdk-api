@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shidfact.h
 api_name:
- - CItemIDFactory::CreateItemID
+ - CItemIDFactory.CreateItemID
 ---
 
 # CItemIDFactory::CreateItemID
@@ -85,4 +85,3 @@ The size of the user supplied data must equal sizeof(T). Do not use structs with
 
 
 <a href="/windows/desktop/api/shtypes/ns-shtypes-shitemid">SHITEMID</a>
-

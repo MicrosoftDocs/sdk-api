@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - dmodshow
  - dmodshow/dmodshow
-api_name:
- - dmodshow
 ---
 
 # Dmodshow.h header

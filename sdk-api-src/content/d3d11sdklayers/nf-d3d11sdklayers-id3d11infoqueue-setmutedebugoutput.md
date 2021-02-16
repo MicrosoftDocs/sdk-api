@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue::SetMuteDebugOutput
+ - ID3D11InfoQueue.SetMuteDebugOutput
 ---
 
 # ID3D11InfoQueue::SetMuteDebugOutput
@@ -68,4 +68,3 @@ This will stop messages that pass the storage filter from being printed out in t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
-

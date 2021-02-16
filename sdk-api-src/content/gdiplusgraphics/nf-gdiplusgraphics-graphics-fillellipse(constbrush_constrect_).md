@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::FillEllipse
+ - Graphics.FillEllipse
 ---
 
 # Graphics::FillEllipse(IN const Brush,IN const Rect &)
@@ -95,4 +95,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

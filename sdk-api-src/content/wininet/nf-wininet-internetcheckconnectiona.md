@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetCheckConnectionA
  - wininet/InternetCheckConnectionA
- - InternetCheckConnection
- - wininet/InternetCheckConnection
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetCheckConnectionA
  - InternetCheckConnection
+ - InternetCheckConnectionA
+ - InternetCheckConnectionW
 ---
 
 # InternetCheckConnectionA function
@@ -105,4 +104,3 @@ Returns <b>TRUE</b> if a connection is made successfully, or <b>FALSE</b> otherw
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

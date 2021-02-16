@@ -42,7 +42,8 @@ api_type:
 api_location:
  - RendezvousSession.tlb
 api_name:
- - IRendezvousSession::get_RemoteUser
+ - IRendezvousSession.RemoteUser
+ - IRendezvousSession.get_RemoteUser
 ---
 
 # IRendezvousSession::get_RemoteUser

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Brush::GetType
+ - Brush.GetType
 ---
 
 # Brush::GetType
@@ -93,4 +93,3 @@ This method returns the type of this brush. The value returned is one of the ele
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_PHYSICAL_STORE_INFO
- - PCERT_PHYSICAL_STORE_INFO
  - CERT_PHYSICAL_STORE_INFO
 ---
 
@@ -191,4 +189,3 @@ When a system store is opened, its physical stores are ordered according to thei
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptregisteroidfunction">CryptRegisterOIDFunction</a>
-

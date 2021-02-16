@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::GetGravity
+ - ITfRange.GetGravity
 ---
 
 # ITfRange::GetGravity
@@ -118,4 +118,3 @@ One or more parameters are invalid.
 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfgravity">TfGravity</a>
-

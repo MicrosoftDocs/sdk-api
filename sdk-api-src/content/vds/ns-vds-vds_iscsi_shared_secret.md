@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_SHARED_SECRET
  - VDS_ISCSI_SHARED_SECRET
 ---
 
@@ -101,4 +100,3 @@ For mutual CHAP, secrets are set on the target and the initiator. To do a succes
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsserviceiscsi-setinitiatorsharedsecret">IVdsServiceIscsi::SetInitiatorSharedSecret</a>
-

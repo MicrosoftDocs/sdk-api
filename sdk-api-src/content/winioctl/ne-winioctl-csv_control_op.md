@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_CONTROL_OP
- - PCSV_CONTROL_OP
  - CSV_CONTROL_OP
 ---
 
@@ -109,4 +107,3 @@ An alternative to calling the [FSCTL_CSV_CONTROL](ni-winioctl-fsctl_csv_control.
 * [CSV_QUERY_REDIRECT_STATE](ns-winioctl-csv_query_redirect_state.md)
 * [FSCTL_CSV_CONTROL](ni-winioctl-fsctl_csv_control.md)
 * [File Management Enumerations](/windows/desktop/FileIO/file-management-enumerations)
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_MEDIA_TYPE
- - PWCM_MEDIA_TYPE
  - WCM_MEDIA_TYPE
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::IsRelativeOrChild
+ - IWbemPath.IsRelativeOrChild
 ---
 
 # IWbemPath::IsRelativeOrChild
@@ -78,4 +78,3 @@ This method returns a <b>BOOL</b> indicating whether the path is relative to the
 
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
-

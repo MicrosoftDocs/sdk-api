@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr::GetThreadMarshalInterface
+ - ITfLangBarMgr.GetThreadMarshalInterface
 ---
 
 # ITfLangBarMgr::GetThreadMarshalInterface
@@ -77,4 +77,3 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbarmgr">ITfLangBarMgr</a>
-

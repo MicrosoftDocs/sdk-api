@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1540
- - PSERVER_INFO_1540
  - SERVER_INFO_1540
 ---
 
@@ -80,4 +78,3 @@ Specifies whether the server allows redirected server drives to be shared.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

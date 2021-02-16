@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider::BeginPrepareSnapshot
+ - IVssHardwareSnapshotProvider.BeginPrepareSnapshot
 ---
 
 # IVssHardwareSnapshotProvider::BeginPrepareSnapshot
@@ -205,4 +205,3 @@ This method cannot be called for a virtual hard disk (VHD) that is nested inside
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-

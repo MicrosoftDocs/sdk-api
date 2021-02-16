@@ -44,6 +44,7 @@ api_location:
  - InkObj.dll.dll
 api_name:
  - IInkCursors
+ - IInkCursors._NewEnum
 ---
 
 # IInkCursors interface
@@ -88,4 +89,3 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="/windows/desktop/tablet/inkpicture-control-reference">InkPicture Control Reference</a>
-

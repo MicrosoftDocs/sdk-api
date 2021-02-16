@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagFailureCategory
  - FailureCategory
 ---
 
@@ -84,4 +83,3 @@ Failure due to server communication.
 ## -see-also
 
 <a href="/windows/desktop/api/naptypes/ns-naptypes-failurecategorymapping">FailureCategoryMapping</a>
-

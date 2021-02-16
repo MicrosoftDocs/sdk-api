@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions::GetDigestMethod
+ - IXpsSigningOptions.GetDigestMethod
 ---
 
 # IXpsSigningOptions::GetDigestMethod
@@ -87,4 +87,3 @@ This method allocates the memory used by the string that is returned in <i>diges
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

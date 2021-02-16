@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextNotify::Error
+ - IMFTimedTextNotify.Error
 ---
 
 # IMFTimedTextNotify::Error
@@ -75,4 +75,3 @@ The identifier of the track on which the error occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::get_hPal
+ - IPicture.get_hPal
 ---
 
 # IPicture::get_hPal
@@ -110,4 +110,3 @@ If the picture object has ownership of the picture, it also has ownership of the
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-

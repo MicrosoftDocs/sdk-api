@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaStream::GetStreamDescriptor
+ - IMFMediaStream.GetStreamDescriptor
 ---
 
 # IMFMediaStream::GetStreamDescriptor
@@ -103,4 +103,3 @@ Do not modify the stream descriptor. To change the presentation, call <a href="/
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
-

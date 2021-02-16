@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D::SetAxisZ
+ - IDCompositionRotateTransform3D.SetAxisZ
 ---
 
 # IDCompositionRotateTransform3D::SetAxisZ
@@ -87,4 +87,3 @@ If the AxisZ property was previously animated, this method removes the animation
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisy(float)">IDCompositionRotateTransform3D::SetAxisY</a>
-

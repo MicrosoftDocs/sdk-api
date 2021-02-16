@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _INCREMENTAL_ACCESS_INFO
  - INCREMENTAL_ACCESS_INFO
 ---
 
@@ -68,4 +67,3 @@ Size of the file in bytes.
 Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a></b>
 
 Last time the file was modified.
-

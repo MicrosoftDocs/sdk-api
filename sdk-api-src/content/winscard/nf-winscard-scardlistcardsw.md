@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardListCardsW
  - winscard/SCardListCardsW
- - SCardListCards
- - winscard/SCardListCards
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-wlan-scard-l1-1-0.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardListCardsW
  - SCardListCards
+ - SCardListCardsA
+ - SCardListCardsW
 ---
 
 # SCardListCardsW function
@@ -209,4 +208,3 @@ while ( '\0' != *pCard )
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
-

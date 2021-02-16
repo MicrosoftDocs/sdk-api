@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetMethodContext
+ - CInstance.GetMethodContext
+ - ?GetMethodContext@CInstance@@QBEPAVMethodContext@@XZ
+ - ?GetMethodContext@CInstance@@QEBAPEAVMethodContext@@XZ
 ---
 
 # CInstance::GetMethodContext
@@ -68,4 +70,3 @@ Returns a pointer to the current <b>MethodContext</b> object.
 ## -remarks
 
 Framework providers should not release the <b>MethodContext</b> pointer returned by this function.
-

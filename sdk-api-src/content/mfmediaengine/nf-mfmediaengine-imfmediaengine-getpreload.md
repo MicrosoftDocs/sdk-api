@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetPreload
+ - IMFMediaEngine.GetPreload
 ---
 
 # IMFMediaEngine::GetPreload
@@ -65,4 +65,3 @@ This method corresponds to the <b>preload</b> attribute of the <b>HTMLMediaEleme
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

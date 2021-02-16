@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPIDETAILS
+ - MAPIDetails
 ---
 
 # MAPIDETAILS callback function
@@ -237,4 +237,3 @@ Details can only be shown for resolved address list entries. An entry is resolve
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-

@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorActivityReport::GetProcessActivity
+ - IMFSensorActivityReport.GetProcessActivity
 ---
 
 # IMFSensorActivityReport::GetProcessActivity
@@ -103,4 +103,3 @@ The <i>ppProcessActivity</i> parameter is null.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensoractivityreport">IMFSensorActivityReport</a>
-

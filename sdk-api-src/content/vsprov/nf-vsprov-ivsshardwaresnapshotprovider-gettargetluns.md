@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssHardwareSnapshotProvider::GetTargetLuns
+ - IVssHardwareSnapshotProvider.GetTargetLuns
 ---
 
 # IVssHardwareSnapshotProvider::GetTargetLuns
@@ -175,4 +175,3 @@ The <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
-

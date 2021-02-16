@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDSETSURFACETATE
- - LPDDSETSURFACESTATE
  - DDSETSURFACESTATE
 ---
 
@@ -110,4 +108,3 @@ Indicates the field on which the state change should occur. A value of 0 indicat
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

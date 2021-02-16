@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFQualityManager::NotifyProcessInput
+ - IMFQualityManager.NotifyProcessInput
 ---
 
 # IMFQualityManager::NotifyProcessInput
@@ -96,4 +96,3 @@ This method is called for every sample passing through every pipeline component.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualitymanager">IMFQualityManager</a>
-

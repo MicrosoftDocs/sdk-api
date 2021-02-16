@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_SUPPORTED_NAMESPACE_VERSION_INFO
- - PDFS_SUPPORTED_NAMESPACE_VERSION_INFO
  - DFS_SUPPORTED_NAMESPACE_VERSION_INFO
 ---
 
@@ -98,4 +96,3 @@ The DFS namespace supports associating a security descriptor with a DFS link for
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddroottarget">NetDfsAddRootTarget</a>
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion">NetDfsGetSupportedNamespaceVersion</a>
-

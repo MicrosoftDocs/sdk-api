@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IWinSATInitiateEvents::WinSATComplete
+ - IWinSATInitiateEvents.WinSATComplete
 ---
 
 # IWinSATInitiateEvents::WinSATComplete
@@ -163,4 +163,3 @@ This method should return  S_OK; the value is ignored.
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iwinsatinitiateevents-winsatupdate">IWinSATInitiateEvents::WinSATUpdate</a>
-

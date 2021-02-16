@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMT_WEBSTREAM_SAMPLE_HEADER
  - WMT_WEBSTREAM_SAMPLE_HEADER
 ---
 
@@ -86,4 +85,3 @@ If <b>wSampleType</b> is WEBSTREAM_SAMPLE_TYPE_FILE, the sample contains data im
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

@@ -42,7 +42,13 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbPlugin::Terminate
+ - ITsSbPlugin.Terminate
+ - ITsSbLoadBalancing.Terminate
+ - ITsSbOrchestration.Terminate
+ - ITsSbPlacement.Terminate
+ - ITsSbProvisioning.Terminate
+ - ITsSbResourcePlugin.Terminate
+ - ITsSbTaskPlugin.Terminate
 ---
 
 # ITsSbPlugin::Terminate
@@ -89,4 +95,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskplugin">ITsSbTaskPlugin</a>
-

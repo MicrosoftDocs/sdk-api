@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - PBATTERY_MINIPORT_INFO_V1_1
  - BATTERY_MINIPORT_INFO_V1_1
 ---
 
@@ -104,4 +103,3 @@ Pointer to a Unicode string; should be NULL.
 ### -field Fdo
 
 Pointer to the FDO (functional device object) for the battery device.
-

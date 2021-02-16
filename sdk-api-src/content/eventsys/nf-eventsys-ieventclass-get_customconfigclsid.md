@@ -42,7 +42,9 @@ api_type:
 api_location:
  - eventsys.h
 api_name:
- - IEventClass::get_CustomConfigCLSID
+ - IEventClass.CustomConfigCLSID
+ - IEventClass.get_CustomConfigCLSID
+ - IEventClass.put_CustomConfigCLSID
 ---
 
 # IEventClass::get_CustomConfigCLSID
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
-

@@ -44,6 +44,8 @@ api_location:
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
  - acmFilterChoose
+ - acmFilterChooseA
+ - acmFilterChooseW
 ---
 
 # acmFilterChoose function
@@ -145,4 +147,3 @@ A suitable driver is not available to provide valid filter selections.
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-

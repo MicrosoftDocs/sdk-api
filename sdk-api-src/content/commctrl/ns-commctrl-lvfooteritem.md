@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVFOOTERITEM
- - LPLVFOOTERITEM
  - LVFOOTERITEM
 ---
 
@@ -160,4 +158,3 @@ The LVFIS_FOCUSED bit of member <b>state</b> is valid. For example, setting this
 ## -remarks
 
 This structure is used with the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_getfooteritem">ListView_GetFooterItem</a> macro and the <a href="/windows/desktop/Controls/lvm-getfooteritem">LVM_GETFOOTERITEM</a> message.
-

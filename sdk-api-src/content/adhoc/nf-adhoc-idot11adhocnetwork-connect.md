@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork::Connect
+ - IDot11AdHocNetwork.Connect
 ---
 
 # IDot11AdHocNetwork::Connect
@@ -188,4 +188,3 @@ This method is asynchronous. <b>Connect</b> returns S_OK immediately if the para
 
 
 <a href="/windows/desktop/api/adhoc/nf-adhoc-idot11adhocnetwork-disconnect">IDot11AdHocNetwork::Disconnect</a>
-

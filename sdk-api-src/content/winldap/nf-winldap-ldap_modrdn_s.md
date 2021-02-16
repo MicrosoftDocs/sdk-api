@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_modrdn_s
+ - ldap_modrdn_sA
+ - ldap_modrdn_sW
 ---
 
 # ldap_modrdn_s function
@@ -111,4 +113,3 @@ Be aware that the <a href="/previous-versions/windows/desktop/api/winldap/nf-win
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_rename_ext_s">ldap_rename_ext_s</a>
-

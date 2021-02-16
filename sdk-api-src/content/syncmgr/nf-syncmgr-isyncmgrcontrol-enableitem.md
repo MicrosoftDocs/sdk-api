@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrControl::EnableItem
+ - ISyncMgrControl.EnableItem
 ---
 
 # ISyncMgrControl::EnableItem
@@ -133,4 +133,3 @@ void MiscProc(...)
 }
 
 ```
-

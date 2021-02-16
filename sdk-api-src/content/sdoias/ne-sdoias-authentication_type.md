@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _AUTHENTICATION_TYPE
  - AUTHENTICATION_TYPE
 ---
 
@@ -113,4 +112,3 @@ Specifies the authorization type as <b>PEAP</b>.
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-radiusproperties">RADIUSPROPERTIES</a>
-

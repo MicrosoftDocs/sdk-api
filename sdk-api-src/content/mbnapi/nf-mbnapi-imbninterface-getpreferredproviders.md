@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface::GetPreferredProviders
+ - IMbnInterface.GetPreferredProviders
 ---
 
 # IMbnInterface::GetPreferredProviders
@@ -164,4 +164,3 @@ In some cases, the device's preferred provider list can be updated through the n
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-

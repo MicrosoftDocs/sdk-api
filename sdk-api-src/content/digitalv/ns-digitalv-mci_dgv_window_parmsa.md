@@ -42,6 +42,7 @@ api_type:
 api_location:
  - Digitalv.h
 api_name:
+ - MCI_DGV_WINDOW_PARMS
  - MCI_DGV_WINDOW_PARMSA
 ---
 
@@ -100,4 +101,3 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 <a href="/previous-versions/dd757160(v=vs.85)">mciSendCommand</a>
-

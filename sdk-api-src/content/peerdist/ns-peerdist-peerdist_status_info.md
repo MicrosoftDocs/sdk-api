@@ -46,8 +46,6 @@ api_type:
 api_location:
  - peerdist.h
 api_name:
- - peerdist_status_info_tag
- - PPEERDIST_STATUS_INFO
  - PEERDIST_STATUS_INFO
 ---
 
@@ -141,4 +139,3 @@ Windows 8 content information format.
 
 
 <a href="/windows/desktop/api/peerdist/nf-peerdist-peerdistgetstatusex">PeerDistGetStatusEx</a>
-

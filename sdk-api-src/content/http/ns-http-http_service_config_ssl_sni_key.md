@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_SSL_SNI_KEY
- - PHTTP_SERVICE_CONFIG_SSL_SNI_KEY
  - HTTP_SERVICE_CONFIG_SSL_SNI_KEY
 ---
 
@@ -93,4 +91,3 @@ A pointer to a null-terminated Unicode UTF-16 string that represents the hostnam
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsetserviceconfiguration">HttpSetServiceConfiguration</a>
-

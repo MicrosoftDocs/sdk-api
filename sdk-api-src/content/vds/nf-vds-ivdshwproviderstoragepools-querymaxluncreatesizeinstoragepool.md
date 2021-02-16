@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
+ - IVdsHwProviderStoragePools.QueryMaxLunCreateSizeInStoragePool
 ---
 
 # IVdsHwProviderStoragePools::QueryMaxLunCreateSizeInStoragePool
@@ -98,4 +98,3 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdshwproviderstoragepools">IVdsHwProviderStoragePools</a>
-

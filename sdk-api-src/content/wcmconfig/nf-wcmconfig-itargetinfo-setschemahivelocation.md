@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo::SetSchemaHiveLocation
+ - ITargetInfo.SetSchemaHiveLocation
 ---
 
 # ITargetInfo::SetSchemaHiveLocation
@@ -105,4 +105,3 @@ Indicates that the location <i>pwzHiveDir</i> is not a directory.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
-

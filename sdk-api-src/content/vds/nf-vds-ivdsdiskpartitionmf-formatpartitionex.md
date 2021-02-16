@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDiskPartitionMF::FormatPartitionEx
+ - IVdsDiskPartitionMF.FormatPartitionEx
 ---
 
 # IVdsDiskPartitionMF::FormatPartitionEx
@@ -374,4 +374,3 @@ For more information about file system limits such as minimum and maximum alloca
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsdiskpartitionmf">IVdsDiskPartitionMF</a>
-

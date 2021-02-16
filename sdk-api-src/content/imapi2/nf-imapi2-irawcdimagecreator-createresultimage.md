@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IRawCDImageCreator::CreateResultImage
+ - IRawCDImageCreator.CreateResultImage
 ---
 
 # IRawCDImageCreator::CreateResultImage
@@ -71,4 +71,3 @@ This method is supported in Windows Server 2003 with Service Pack 1 (SP1), Win
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-irawcdimagecreator">IRawCDImageCreator</a>
-

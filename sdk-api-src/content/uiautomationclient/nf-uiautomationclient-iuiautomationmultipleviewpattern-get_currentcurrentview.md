@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationMultipleViewPattern::get_CurrentCurrentView
+ - IUIAutomationMultipleViewPattern.CurrentCurrentView
+ - IUIAutomationMultipleViewPattern.get_CurrentCurrentView
 ---
 
 # IUIAutomationMultipleViewPattern::get_CurrentCurrentView

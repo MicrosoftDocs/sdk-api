@@ -9,8 +9,6 @@ tech.root: ics
 f1_keywords:
  - netfw
  - netfw/netfw
-api_name:
- - netfw
 ---
 
 # Netfw.h header

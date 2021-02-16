@@ -44,7 +44,6 @@ api_type:
 api_location:
  - networkisolation.h
 api_name:
- - _INET_FIREWALL_AC_CREATION_TYPE
  - INET_FIREWALL_AC_CREATION_TYPE
 ---
 
@@ -76,4 +75,3 @@ Maximum value for testing purposes.
 ## -see-also
 
 <a href="/windows/desktop/api/netfw/ns-netfw-inet_firewall_ac_change">INET_FIREWALL_AC_CHANGE</a>
-

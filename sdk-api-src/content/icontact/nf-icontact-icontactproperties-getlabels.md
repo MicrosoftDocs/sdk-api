@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties::GetLabels
+ - IContactProperties.GetLabels
 ---
 
 # IContactProperties::GetLabels

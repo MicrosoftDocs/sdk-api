@@ -47,8 +47,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPFORWARDTABLE
- - PMIB_IPFORWARDTABLE
  - MIB_IPFORWARDTABLE
 ---
 
@@ -101,4 +99,3 @@ To view an example that retrieves the <b>MIB_IPFORWARDTABLE</b> structure and th
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipforwardrow">MIB_IPFORWARDROW</a>
-

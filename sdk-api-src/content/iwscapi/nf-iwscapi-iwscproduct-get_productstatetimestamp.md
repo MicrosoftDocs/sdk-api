@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wscapi.dll
 api_name:
- - IWscProduct::get_ProductStateTimestamp
+ - IWscProduct.get_ProductStateTimeStamp
 ---
 
 # IWscProduct::get_ProductStateTimestamp
@@ -67,4 +67,3 @@ If the method  fails, returns a Win32 error code.
 ## -see-also
 
 <a href="/windows/desktop/api/iwscapi/nn-iwscapi-iwscproduct">IWscProduct</a>
-

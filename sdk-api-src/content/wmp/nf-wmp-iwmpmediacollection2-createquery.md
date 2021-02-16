@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection2::createQuery
+ - IWMPMediaCollection2.createQuery
 ---
 
 # IWMPMediaCollection2::createQuery
@@ -93,4 +93,3 @@ Creating a new query is the first step toward creating a compound query.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpquery">IWMPQuery Interface</a>
-

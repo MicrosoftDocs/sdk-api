@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocumentCallback::LoadComplete
+ - IUPnPDescriptionDocumentCallback.LoadComplete
 ---
 
 # IUPnPDescriptionDocumentCallback::LoadComplete
@@ -151,4 +151,3 @@ The application should return S_OK.
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdescriptiondocumentcallback">IUPnPDescriptionDocumentCallback</a>
-

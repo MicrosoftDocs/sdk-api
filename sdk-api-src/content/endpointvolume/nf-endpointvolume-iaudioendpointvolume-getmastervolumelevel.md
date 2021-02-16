@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::GetMasterVolumeLevel
+ - IAudioEndpointVolume.GetMasterVolumeLevel
 ---
 
 # IAudioEndpointVolume::GetMasterVolumeLevel
@@ -87,4 +87,3 @@ Parameter <i>pfLevelDB</i> is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-getvolumerange">IAudioEndpointVolume::GetVolumeRange</a>
-

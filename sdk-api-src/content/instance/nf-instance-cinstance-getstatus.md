@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetStatus
+ - CInstance.GetStatus
 ---
 
 # CInstance::GetStatus
@@ -76,4 +76,3 @@ Type of property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> otherwise.
-

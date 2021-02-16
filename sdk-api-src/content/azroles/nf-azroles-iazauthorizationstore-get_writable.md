@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::get_Writable
+ - IAzAuthorizationStore.Writable
+ - IAzAuthorizationStore.get_Writable
+ - AzAuthorizationStore.Writable
 ---
 
 # IAzAuthorizationStore::get_Writable
@@ -55,4 +57,3 @@ The <b>Writable</b> property retrieves a value that indicates whether the object
 This property is read-only.
 
 ## -parameters
-

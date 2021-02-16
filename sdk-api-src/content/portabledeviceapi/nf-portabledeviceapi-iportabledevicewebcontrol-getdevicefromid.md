@@ -42,7 +42,7 @@ api_type:
 api_location:
  - portabledeviceapi.h
 api_name:
- - IPortableDeviceWebControl::GetDeviceFromId
+ - IPortableDeviceWebControl.GetDeviceFromId
 ---
 
 # IPortableDeviceWebControl::GetDeviceFromId
@@ -121,4 +121,3 @@ var deviceService = device.services[0];
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicewebcontrol">IPortableDeviceWebControl</a>
 
 <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PortableDeviceServices">Portable Device Service Sample</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - SENDASYNCPROC
+ - SendAsyncProc
 ---
 
 # SENDASYNCPROC callback function
@@ -113,4 +113,3 @@ The callback function is only called when the thread that called <a href="/windo
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>
-

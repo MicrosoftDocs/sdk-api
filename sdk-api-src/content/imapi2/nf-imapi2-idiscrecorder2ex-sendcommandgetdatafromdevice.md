@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex::SendCommandGetDataFromDevice
+ - IDiscRecorder2Ex.SendCommandGetDataFromDevice
 ---
 
 # IDiscRecorder2Ex::SendCommandGetDataFromDevice
@@ -485,4 +485,3 @@ Some very early devices used vendor-unique opcodes and therefore some opcodes ca
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-sendcommandsenddatatodevice">IDiscRecorder2Ex::SendCommandSendDataToDevice</a>
-

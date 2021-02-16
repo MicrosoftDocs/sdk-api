@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::get_Opened
+ - IX509PrivateKey.Opened
+ - IX509PrivateKey.get_Opened
 ---
 
 # IX509PrivateKey::get_Opened
@@ -63,4 +64,3 @@ You can call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509pri
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

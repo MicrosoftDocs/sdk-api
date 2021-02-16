@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHEnumerateUnreadMailAccountsA
  - shellapi/SHEnumerateUnreadMailAccountsA
- - SHEnumerateUnreadMailAccounts
- - shellapi/SHEnumerateUnreadMailAccounts
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHEnumerateUnreadMailAccountsA
  - SHEnumerateUnreadMailAccounts
+ - SHEnumerateUnreadMailAccountsA
+ - SHEnumerateUnreadMailAccountsW
 ---
 
 # SHEnumerateUnreadMailAccountsA function

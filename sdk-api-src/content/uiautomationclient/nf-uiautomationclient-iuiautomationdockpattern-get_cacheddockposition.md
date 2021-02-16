@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDockPattern::get_CachedDockPosition
+ - IUIAutomationDockPattern.CachedDockPosition
+ - IUIAutomationDockPattern.get_CachedDockPosition
 ---
 
 # IUIAutomationDockPattern::get_CachedDockPosition
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationdockpattern">IUIAutomationDockPattern</a>
-

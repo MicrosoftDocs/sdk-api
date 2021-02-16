@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag::get_CreationTime
+ - IFsrmPropertyBag.CreationTime
+ - IFsrmPropertyBag.get_CreationTime
 ---
 
 # IFsrmPropertyBag::get_CreationTime
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACL_SIZE_INFORMATION
  - ACL_SIZE_INFORMATION
 ---
 
@@ -88,4 +87,3 @@ The number of unused bytes in the ACL.
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
-

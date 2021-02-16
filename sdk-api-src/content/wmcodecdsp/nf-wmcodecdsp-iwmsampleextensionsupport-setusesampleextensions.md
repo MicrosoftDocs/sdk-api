@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMSampleExtensionSupport::SetUseSampleExtensions
+ - IWMSampleExtensionSupport.SetUseSampleExtensions
 ---
 
 # IWMSampleExtensionSupport::SetUseSampleExtensions
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmsampleextensionsupport">IWMSampleExtensionSupport Interface</a>
-

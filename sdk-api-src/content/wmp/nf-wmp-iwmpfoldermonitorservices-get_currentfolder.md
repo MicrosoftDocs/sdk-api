@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices::get_currentFolder
+ - IWMPFolderMonitorServices.get_currentFolder
 ---
 
 # IWMPFolderMonitorServices::get_currentFolder
@@ -93,4 +93,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpfoldermonitorservices-startscan">IWMPFolderMonitorServices::startScan</a>
-

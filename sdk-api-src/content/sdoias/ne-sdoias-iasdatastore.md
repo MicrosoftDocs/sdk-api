@@ -46,8 +46,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _IASDATASTORE
- - PIASDATASTORE
  - IASDATASTORE
 ---
 
@@ -80,4 +78,3 @@ You cannot use this enumeration type to specify the storage location for SDO dat
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getusersdo">ISdoMachine::GetUserSDO</a>
-

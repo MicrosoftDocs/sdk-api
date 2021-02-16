@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_PEER_STATE
- - PWLAN_HOSTED_NETWORK_PEER_STATE
  - WLAN_HOSTED_NETWORK_PEER_STATE
 ---
 
@@ -91,4 +89,3 @@ The <b>WLAN_HOSTED_NETWORK_PEER_STATE</b> structure is an extension to native wi
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkquerystatus">WlanHostedNetworkQueryStatus</a>
-

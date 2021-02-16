@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession::Terminate
+ - IWdsTransportSession.Terminate
 ---
 
 # IWdsTransportSession::Terminate

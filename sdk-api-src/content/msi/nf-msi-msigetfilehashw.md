@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetFileHashW
  - msi/MsiGetFileHashW
- - MsiGetFileHash
- - msi/MsiGetFileHash
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetFileHashW
  - MsiGetFileHash
+ - MsiGetFileHashA
+ - MsiGetFileHashW
 ---
 
 # MsiGetFileHashW function
@@ -159,4 +158,3 @@ The hash information entered into the MsiFileHash table must be obtained by call
 
 
 <a href="/windows/desktop/Msi/msifilehash-table">MsiFileHash table</a>
-

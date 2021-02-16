@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::Load
+ - IMFMediaEngine.Load
 ---
 
 # IMFMediaEngine::Load
@@ -81,4 +81,3 @@ This method corresponds to the <b>load</b> method of the <b>HTMLMediaElement</b>
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

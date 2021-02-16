@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - _ASF_INDEX_DESCRIPTOR
  - ASF_INDEX_DESCRIPTOR
 ---
 
@@ -88,4 +87,3 @@ Indexing interval. The units of this value depend on the index type. A value of 
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

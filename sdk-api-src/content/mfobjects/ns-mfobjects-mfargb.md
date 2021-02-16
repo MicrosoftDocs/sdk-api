@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFARGB
  - MFARGB
 ---
 
@@ -80,4 +79,3 @@ Alpha value.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

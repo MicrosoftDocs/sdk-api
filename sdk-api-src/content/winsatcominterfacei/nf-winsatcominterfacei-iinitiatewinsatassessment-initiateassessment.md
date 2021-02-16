@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IInitiateWinSATAssessment::InitiateAssessment
+ - IInitiateWinSATAssessment.InitiateAssessment
 ---
 
 # IInitiateWinSATAssessment::InitiateAssessment
@@ -355,4 +355,3 @@ BOOL IsKeyEvent(HANDLE hStdIn)
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nn-winsatcominterfacei-iwinsatinitiateevents">IWinSATInitiateEvents</a>
-

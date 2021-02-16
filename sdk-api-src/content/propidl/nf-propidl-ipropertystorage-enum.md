@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::Enum
+ - IPropertyStorage.Enum
 ---
 
 # IPropertyStorage::Enum
@@ -90,4 +90,3 @@ This method supports the standard return value E_UNEXPECTED, in addition to the 
 
 
 <a href="/windows/desktop/Stg/samples">Samples</a>
-

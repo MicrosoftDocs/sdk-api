@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AudioEndpoints.h
 api_name:
- - IAudioEndpointFormatControl::ResetToDefault
+ - IAudioEndpointFormatControl.ResetToDefault
 ---
 
 # IAudioEndpointFormatControl::ResetToDefault
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/audioendpoints/nn-audioendpoints-iaudioendpointformatcontrol">IAudioEndpointFormatControl</a>
-

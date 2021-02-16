@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs::GetFillBrushLocal
+ - IXpsOMGlyphs.GetFillBrushLocal
 ---
 
 # IXpsOMGlyphs::GetFillBrushLocal
@@ -147,4 +147,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs::SetStyleSimulations
+ - IXpsOMGlyphs.SetStyleSimulations
 ---
 
 # IXpsOMGlyphs::SetStyleSimulations
@@ -106,4 +106,3 @@ The method succeeded.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_style_simulation">XPS_STYLE_SIMULATION</a>
-

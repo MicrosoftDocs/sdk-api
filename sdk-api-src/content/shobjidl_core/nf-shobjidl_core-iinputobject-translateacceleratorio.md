@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IInputObject::TranslateAcceleratorIO
+ - IInputObject.TranslateAcceleratorIO
 ---
 
 # IInputObject::TranslateAcceleratorIO
@@ -65,4 +65,3 @@ The address of an <a href="/windows/desktop/api/winuser/ns-winuser-msg">MSG</a> 
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the accelerator was translated, or <b>S_FALSE</b> otherwise.
-

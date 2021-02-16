@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::SetBalance
+ - IMFMediaEngineEx.SetBalance
 ---
 
 # IMFMediaEngineEx::SetBalance
@@ -105,4 +105,3 @@ When the audio balance changes, the Media Engine sends an <b>MF_MEDIA_ENGINE_EVE
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

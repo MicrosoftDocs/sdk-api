@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::Refresh
+ - IPenInputPanel.Refresh
 ---
 
 # IPenInputPanel::Refresh
@@ -126,4 +126,3 @@ Calling <b>Refresh</b> while the pen input panel does not have focus will genera
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

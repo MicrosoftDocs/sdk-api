@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _PARTITION_INFORMATION_GPT
- - PPARTITION_INFORMATION_GPT
  - PARTITION_INFORMATION_GPT
 ---
 
@@ -323,4 +321,3 @@ Starting with
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassDescriptionExA
  - setupapi/SetupDiGetClassDescriptionExA
- - SetupDiGetClassDescriptionEx
- - setupapi/SetupDiGetClassDescriptionEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassDescriptionExA
  - SetupDiGetClassDescriptionEx
+ - SetupDiGetClassDescriptionExA
 ---
 
 # SetupDiGetClassDescriptionExA function
@@ -114,4 +112,3 @@ If there is a friendly name in the registry key for the class, this routine retu
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetinfclassa">SetupDiGetINFClass</a>
-

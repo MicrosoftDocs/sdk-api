@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFMuxStreamMediaTypeManager::GetStreamConfiguration
+ - IMFMuxStreamMediaTypeManager.GetStreamConfiguration
 ---
 
 # IMFMuxStreamMediaTypeManager::GetStreamConfiguration
@@ -107,4 +107,3 @@ Stream configurations are ordered within the <a href="/windows/desktop/api/mfobj
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
-

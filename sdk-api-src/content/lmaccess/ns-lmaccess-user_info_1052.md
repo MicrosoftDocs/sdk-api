@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1052
- - PUSER_INFO_1052
  - USER_INFO_1052
 ---
 
@@ -82,4 +80,3 @@ Specifies a Unicode string that contains the path to the user's profile. The use
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

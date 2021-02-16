@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISurrogate::FreeSurrogate
+ - ISurrogate.FreeSurrogate
 ---
 
 # ISurrogate::FreeSurrogate
@@ -75,4 +75,3 @@ Surrogate processes must call the <a href="/windows/desktop/api/combaseapi/nf-co
 
 
 <a href="/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - RpcdceP.h
 api_name:
- - PRPC_DISPATCH_TABLE
  - RPC_DISPATCH_TABLE
 ---
 

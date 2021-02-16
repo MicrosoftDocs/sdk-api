@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0000_0002
  - UI_ANIMATION_MANAGER_STATUS
 ---
 
@@ -72,4 +71,3 @@ The animation manager is busy; at least one animation is currently playing or sc
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanagereventhandler-onmanagerstatuschanged">IUIAnimationManagerEventHandler::OnManagerStatusChanged</a>
-

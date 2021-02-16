@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiEvaluateConditionW
  - msiquery/MsiEvaluateConditionW
- - MsiEvaluateCondition
- - msiquery/MsiEvaluateCondition
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiEvaluateConditionW
  - MsiEvaluateCondition
+ - MsiEvaluateConditionA
+ - MsiEvaluateConditionW
 ---
 
 # MsiEvaluateConditionW function
@@ -120,4 +119,3 @@ The following table shows the feature and component state values used by the
 
 
 <a href="/windows/desktop/Msi/passing-null-as-the-argument-of-windows-installer-functions">Passing Null as the Argument of Windows Installer Functions</a>
-

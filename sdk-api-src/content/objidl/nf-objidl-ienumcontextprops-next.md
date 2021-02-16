@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IEnumContextProps::Next
+ - IEnumContextProps.Next
 ---
 
 # IEnumContextProps::Next
@@ -75,4 +75,3 @@ If the method retrieves the number of items requested, the return value is S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumcontextprops">IEnumContextProps</a>
-

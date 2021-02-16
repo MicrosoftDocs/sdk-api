@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _PROCESSOR_CACHE_TYPE
  - PROCESSOR_CACHE_TYPE
 ---
 
@@ -84,4 +83,3 @@ The cache is for traces.
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-system_logical_processor_information">SYSTEM_LOGICAL_PROCESSOR_INFORMATION</a>
-

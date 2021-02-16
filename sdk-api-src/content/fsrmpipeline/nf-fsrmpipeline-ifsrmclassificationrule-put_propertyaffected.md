@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationRule::put_PropertyAffected
+ - IFsrmClassificationRule.PropertyAffected
+ - IFsrmClassificationRule.get_PropertyAffected
+ - IFsrmClassificationRule.put_PropertyAffected
 ---
 
 # IFsrmClassificationRule::put_PropertyAffected
@@ -75,4 +77,3 @@ To enumerate the properties that have been defined, call the <a href="/previous-
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationrule">MSFT_FSRMClassificationRule</a>
-

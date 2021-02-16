@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORTN2::XMSHORTN2
+ - XMSHORTN2.XMSHORTN2
 ---
 
 # XMSHORTN2::XMSHORTN2
@@ -75,4 +75,3 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 
 <a href="/windows/desktop/dxmath/xmshortn2-ctor">XMSHORTN2 Constructors</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsGroup::Remove
+ - IADsGroup.Remove
 ---
 
 # IADsGroup::Remove
@@ -142,4 +142,3 @@ Cleanup:
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
-

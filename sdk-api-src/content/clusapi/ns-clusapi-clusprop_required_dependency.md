@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_REQUIRED_DEPENDENCY
- - PCLUSPROP_REQUIRED_DEPENDENCY
 ---
 
 # CLUSPROP_REQUIRED_DEPENDENCY structure
@@ -150,4 +149,3 @@ See <a href="/previous-versions/windows/desktop/mscs/creating-value-lists">Creat
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-

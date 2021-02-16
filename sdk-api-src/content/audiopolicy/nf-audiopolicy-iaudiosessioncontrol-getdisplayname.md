@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl::GetDisplayName
+ - IAudioSessionControl.GetDisplayName
 ---
 
 # IAudioSessionControl::GetDisplayName
@@ -124,4 +124,3 @@ If the client has not called <a href="/windows/desktop/api/audiopolicy/nf-audiop
 
 
 <a href="/windows/desktop/api/audiopolicy/nf-audiopolicy-iaudiosessioncontrol-setdisplayname">IAudioSessionControl::SetDisplayName</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::Clone
+ - IFont.Clone
 ---
 
 # IFont::Clone
@@ -116,4 +116,3 @@ The new font object is entirely independent of the first. The caller is responsi
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
-

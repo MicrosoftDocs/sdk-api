@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_NAME_VALUE
- - PCERT_NAME_VALUE
  - CERT_NAME_VALUE
 ---
 
@@ -92,4 +90,3 @@ The <b>pbData</b> member of <b>Value</b> can be a null-terminated array of 8-bit
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certrdnvaluetostra">CertRDNValueToStr</a>
-

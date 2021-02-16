@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTERVERSIONINFO
- - LPCLUSTERVERSIONINFO
 ---
 
 # CLUSTERVERSIONINFO structure
@@ -136,4 +135,3 @@ For more information on how the Cluster service creates and uses version numbers
 ## -see-also
 
 <a href="/windows/desktop/api/clusapi/nf-clusapi-getclusterinformation">GetClusterInformation</a>
-

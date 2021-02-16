@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::WBEMTime
+ - WBEMTime.WBEMTime
 ---
 
 # WBEMTime::WBEMTime(const time_t &)
@@ -64,4 +64,3 @@ The <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> overload class const
 ### -param t [ref]
 
 ANSI C <b>time_t</b> structure that holds the number of seconds since midnight Jan 1, 1970 (CIM format: 19700101000000.000000-000). For more information, see <a href="/windows/desktop/WmiSdk/date-and-time-format">Date and Time Format</a>.
-

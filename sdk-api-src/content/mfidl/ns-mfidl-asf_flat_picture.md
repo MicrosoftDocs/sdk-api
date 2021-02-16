@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _ASFFlatPicture
  - ASF_FLAT_PICTURE
 ---
 
@@ -92,4 +91,3 @@ This format differs from the <a href="/previous-versions/windows/desktop/api/wms
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

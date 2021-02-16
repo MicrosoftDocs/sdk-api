@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ntddkbd.h
 api_name:
- - _KEYBOARD_UNIT_ID_PARAMETER
- - PKEYBOARD_UNIT_ID_PARAMETER
  - KEYBOARD_UNIT_ID_PARAMETER
 ---
 
@@ -83,4 +81,3 @@ Although this structure is used with IOCTL_KEYBOARD_QUERY_Xxx requests, Kbdclass
 
 
 <a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioctl_keyboard_query_typematic">IOCTL_KEYBOARD_QUERY_TYPEMATIC</a>
-

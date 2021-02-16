@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD::put_Recorder
+ - IDiscFormat2RawCD.put_Recorder
 ---
 
 # IDiscFormat2RawCD::put_Recorder
@@ -123,4 +123,3 @@ The recorder must be compatible with the format defined by this  interface. To d
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
  - DXVAHD_STREAM_STATE_INPUT_COLOR_SPACE_DATA
 ---
 
@@ -254,4 +253,3 @@ HRESULT DXVAHD_SetInputColorSpace(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

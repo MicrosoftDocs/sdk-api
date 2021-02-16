@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IJolietDiscMaster::GetJolietProperties
+ - IJolietDiscMaster.GetJolietProperties
 ---
 
 # IJolietDiscMaster::GetJolietProperties
@@ -82,4 +82,3 @@ The caller can modify these properties by calling
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>
-

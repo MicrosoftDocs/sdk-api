@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles::GetLanguageList
+ - ITfInputProcessorProfiles.GetLanguageList
 ---
 
 # ITfInputProcessorProfiles::GetLanguageList
@@ -124,4 +124,3 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfinputprocessorprofiles">ITfInputProcessorProfiles</a>
-

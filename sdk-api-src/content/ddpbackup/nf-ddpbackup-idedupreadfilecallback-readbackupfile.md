@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
- - IDedupReadFileCallback::ReadBackupFile
+ - IDedupReadFileCallback.ReadBackupFile
 ---
 
 # IDedupReadFileCallback::ReadBackupFile
@@ -93,4 +93,3 @@ This method can return standard <b>HRESULT</b> values, such as <b>S_OK</b>. It c
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-readfile">ReadFile</a>
-

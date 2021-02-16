@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - __MIDL_IWTSSBPlugin_0006
  - WTSSBX_MACHINE_CONNECT_INFO
 ---
 
@@ -76,4 +75,3 @@ An array of <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_ip_address">WTSSBX
 ## -see-also
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-

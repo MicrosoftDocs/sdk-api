@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - _OVERLAPPED
- - LPOVERLAPPED
  - OVERLAPPED
 ---
 
@@ -107,4 +105,3 @@ This structure should always be initialized to zero before it is used in a funct
  Use the <a href="/windows/desktop/api/shobjidl/nf-shobjidl-istreamasync-cancelio">IStreamAsync::CancelIo</a> function to cancel an asynchronous I/O operation.
 
 A common mistake is to reuse an <b>OVERLAPPED</b> structure before the previous asynchronous operation has been completed. Use a separate structure for each request. Create an event object for each thread that processes data.
-

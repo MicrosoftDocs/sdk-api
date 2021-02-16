@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
+ - IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount
 ---
 
 # IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount
@@ -100,4 +100,3 @@ Invalid argument.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreammediatypemanager">IMFMuxStreamMediaTypeManager</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509SCEPEnrollment::Initialize
+ - IX509SCEPEnrollment.Initialize
 ---
 
 # IX509SCEPEnrollment::Initialize
@@ -87,4 +87,3 @@ This method fails if any of the expected certificates is missing, or if the thum
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
-

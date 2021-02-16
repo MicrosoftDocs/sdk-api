@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DCubeTexture9::GetLevelDesc
+ - IDirect3DCubeTexture9.GetLevelDesc
 ---
 
 # IDirect3DCubeTexture9::GetLevelDesc
@@ -92,4 +92,3 @@ The <a href="/windows/desktop/direct3d9/d3dsurface-desc">D3DSURFACE_DESC</a> str
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-unlockrect">IDirect3DCubeTexture9::UnlockRect</a>
-

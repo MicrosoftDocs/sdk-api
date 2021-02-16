@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dwmapi.h
 api_name:
- - _DWM_TIMING_INFO
  - DWM_TIMING_INFO
 ---
 
@@ -220,4 +219,3 @@ The number of empty buffers in the flip chain.
 ## -remarks
 
 Both DWM_FRAME_COUNT and QPC_TIME are defined in Dwmapi.h as <b>ULONGLONG</b>.
-

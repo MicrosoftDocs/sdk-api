@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winnt.h
 api_name:
- - _LUID
- - PLUID
  - LUID
 ---
 
@@ -75,4 +73,3 @@ This structure is used by the <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d1
 ## -see-also
 
 <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
-

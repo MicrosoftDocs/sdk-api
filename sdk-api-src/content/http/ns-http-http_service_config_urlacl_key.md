@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_URLACL_KEY
- - PHTTP_SERVICE_CONFIG_URLACL_KEY
  - HTTP_SERVICE_CONFIG_URLACL_KEY
 ---
 
@@ -79,4 +77,3 @@ A pointer to the
 
 
 <a href="/windows/desktop/Http/urlprefix-strings">UrlPrefix Strings</a>
-

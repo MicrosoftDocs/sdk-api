@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SHARE_INFO_1
- - PSHARE_INFO_1
  - SHARE_INFO_1
 ---
 
@@ -178,4 +176,3 @@ Pointer to a Unicode string specifying an optional comment about the shared reso
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-

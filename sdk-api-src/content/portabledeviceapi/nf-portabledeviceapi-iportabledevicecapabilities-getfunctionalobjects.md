@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities::GetFunctionalObjects
+ - IPortableDeviceCapabilities.GetFunctionalObjects
 ---
 
 # IPortableDeviceCapabilities::GetFunctionalObjects
@@ -110,4 +110,3 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-the-rendering-capabilities-supported-by-a-device">Retrieving the Rendering Capabilities Supported by a Device</a>
-

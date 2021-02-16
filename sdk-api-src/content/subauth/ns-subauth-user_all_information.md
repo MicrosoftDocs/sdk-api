@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Subauth.h
 api_name:
- - _USER_ALL_INFORMATION
- - PUSER_ALL_INFORMATION
  - USER_ALL_INFORMATION
 ---
 
@@ -194,4 +192,3 @@ Indicates whether the password has expired.
 ### -field PrivateDataSensitive
 
 When set to <b>TRUE</b>, indicates that the <b>PrivateData</b> member is encrypted. A value of <b>FALSE</b> indicates that the <b>PrivateData</b> is in <a href="/windows/desktop/SecGloss/p-gly">plaintext</a>.
-

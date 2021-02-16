@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - __MIDL___MIDL_itf_winsync_0000_0000_0003
  - SYNC_PROGRESS_STAGE
 ---
 
@@ -72,4 +71,3 @@ Changes are being applied to the destination replica.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
-

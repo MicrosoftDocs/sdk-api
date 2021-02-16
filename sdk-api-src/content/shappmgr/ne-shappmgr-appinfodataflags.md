@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - _tagAppInfoFlags
  - APPINFODATAFLAGS
 ---
 
@@ -137,4 +136,3 @@ Obsolete.
 ## -remarks
 
 Add/Remove Programs in Control Panel uses only <b>AIM_DISPLAYNAME</b> and <b>AIM_SUPPORTURL.</b>
-

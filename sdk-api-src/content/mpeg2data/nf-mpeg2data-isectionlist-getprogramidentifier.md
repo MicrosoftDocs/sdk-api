@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - ISectionList::GetProgramIdentifier
+ - ISectionList.GetProgramIdentifier
 ---
 
 # ISectionList::GetProgramIdentifier
@@ -98,4 +98,3 @@ The PID value is set when the object is first initialized.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
-

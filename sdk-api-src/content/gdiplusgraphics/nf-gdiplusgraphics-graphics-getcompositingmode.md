@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::GetCompositingMode
+ - Graphics.GetCompositingMode
 ---
 
 # Graphics::GetCompositingMode
@@ -140,4 +140,3 @@ VOID Example_GetCompositingMode(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-compositing-mode-to-control-alpha-blending-use">Using Compositing Mode to Control Alpha Blending</a>
-

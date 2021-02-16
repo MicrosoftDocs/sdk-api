@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ISearchResult::get_RootCategories
+ - ISearchResult.RootCategories
+ - ISearchResult.get_RootCategories
 ---
 
 # ISearchResult::get_RootCategories
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-isearchresult">ISearchResult</a>
-

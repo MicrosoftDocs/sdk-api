@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetTabbedTextExtentA
  - winuser/GetTabbedTextExtentA
- - GetTabbedTextExtent
- - winuser/GetTabbedTextExtent
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - user32.dll
 api_name:
- - GetTabbedTextExtentA
  - GetTabbedTextExtent
+ - GetTabbedTextExtentA
+ - GetTabbedTextExtentW
 ---
 
 # GetTabbedTextExtentA function
@@ -115,4 +114,3 @@ If <i>nTabPositions</i> is 1, the tab stops are separated by the distance specif
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-tabbedtextouta">TabbedTextOut</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_UTF16_TEXT
  - WS_XML_UTF16_TEXT
 ---
 
@@ -68,4 +67,3 @@ The bytes that point to UTF-16 encoded data.
 ### -field byteCount
 
 The length in bytes of the UTF-16 encoded data.
-

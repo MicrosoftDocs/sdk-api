@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceRelogger::SetOutputFilename
+ - ITraceRelogger.SetOutputFilename
 ---
 
 # ITraceRelogger::SetOutputFilename
@@ -73,4 +73,3 @@ If the indicated file already exists, it will be overwritten with the new trace.
 ## -see-also
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-

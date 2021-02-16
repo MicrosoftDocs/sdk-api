@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpInitializeFn
+ - SpInitialize
 ---
 
 # SpInitializeFn callback function
@@ -94,4 +94,3 @@ A pointer to the SSP/AP's implementation of the <b>SpInitialize</b> function mus
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-

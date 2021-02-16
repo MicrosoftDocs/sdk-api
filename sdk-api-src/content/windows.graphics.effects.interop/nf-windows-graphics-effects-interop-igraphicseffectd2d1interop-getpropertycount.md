@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.graphics.effects.interop.h
 api_name:
- - IGraphicsEffectD2D1Interop::GetPropertyCount
+ - IGraphicsEffectD2D1Interop.GetPropertyCount
 ---
 
 # IGraphicsEffectD2D1Interop::effects
@@ -69,4 +69,3 @@ This method returns an HRESULT success or error code.
 ## -see-also
 
 <a href="/windows/desktop/api/windows.graphics.effects.interop/nn-windows-graphics-effects-interop-igraphicseffectd2d1interop">IGraphicsEffectD2D1Interop</a>
-

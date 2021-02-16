@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTaskInfo::get_Plugin
+ - ITsSbTaskInfo.Plugin
+ - ITsSbTaskInfo.get_Plugin
 ---
 
 # ITsSbTaskInfo::get_Plugin
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtaskinfo">ITsSbTaskInfo</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListClearMediaDiskW
  - msi/MsiSourceListClearMediaDiskW
- - MsiSourceListClearMediaDisk
- - msi/MsiSourceListClearMediaDisk
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSourceListClearMediaDiskW
  - MsiSourceListClearMediaDisk
+ - MsiSourceListClearMediaDiskA
+ - MsiSourceListClearMediaDiskW
 ---
 
 # MsiSourceListClearMediaDiskW function
@@ -298,4 +297,3 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
-

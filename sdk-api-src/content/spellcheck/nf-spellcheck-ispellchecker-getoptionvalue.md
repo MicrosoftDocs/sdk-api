@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellChecker::GetOptionValue
+ - ISpellChecker.GetOptionValue
 ---
 
 # ISpellChecker::GetOptionValue
@@ -109,4 +109,3 @@ Successful.
 ## -see-also
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
-

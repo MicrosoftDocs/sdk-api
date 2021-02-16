@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput::SetDisplaySurface
+ - IDXGIOutput.SetDisplaySurface
 ---
 
 # IDXGIOutput::SetDisplaySurface
@@ -79,4 +79,3 @@ If a Windows Store app uses <b>SetDisplaySurface</b>, it fails with <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
-

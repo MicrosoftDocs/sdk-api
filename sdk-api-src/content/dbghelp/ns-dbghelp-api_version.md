@@ -45,7 +45,6 @@ api_location:
  - DbgHelp.h
 api_name:
  - API_VERSION
- - LPAPI_VERSION
 ---
 
 # API_VERSION structure
@@ -80,4 +79,3 @@ This member is reserved for use by the operating system.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-imagehlpapiversionex">ImagehlpApiVersionEx</a>
-

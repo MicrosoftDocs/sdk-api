@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::DrawStroke
+ - IInkRenderer.DrawStroke
 ---
 
 # IInkRenderer::DrawStroke
@@ -184,4 +184,3 @@ The <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer</a> forces t
 
 
 <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0003
- - PADS_NT_SECURITY_DESCRIPTOR
  - ADS_NT_SECURITY_DESCRIPTOR
 ---
 
@@ -75,4 +73,3 @@ The <b>ADS_NT_SECURITY_DESCRIPTOR</b> structure is normally used as a member of 
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

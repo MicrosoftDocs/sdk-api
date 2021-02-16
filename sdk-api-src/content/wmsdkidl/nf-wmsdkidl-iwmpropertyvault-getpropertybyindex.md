@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPropertyVault::GetPropertyByIndex
+ - IWMPropertyVault.GetPropertyByIndex
 ---
 
 # IWMPropertyVault::GetPropertyByIndex
@@ -144,4 +144,3 @@ You must make two calls to <b>GetPropertyByIndex</b> to properly retrieve all of
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpropertyvault-setproperty">IWMPropertyVault::SetProperty</a>
-

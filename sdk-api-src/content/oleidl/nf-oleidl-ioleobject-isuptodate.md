@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::IsUpToDate
+ - IOleObject.IsUpToDate
 ---
 
 # IOleObject::IsUpToDate
@@ -91,4 +91,3 @@ Because of the recursive nature of <b>IOleObject::IsUpToDate</b>, determining wh
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>
-

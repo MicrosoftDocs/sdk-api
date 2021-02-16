@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection::Add
+ - ICatalogCollection.Add
 ---
 
 # ICatalogCollection::Add
@@ -73,4 +73,3 @@ This change is not reflected in the persisted COM+ catalog data store until you 
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument2::Submit2
+ - IFaxDocument2.Submit2
+ - IFaxDocument2.Submit2
 ---
 
 # IFaxDocument2::Submit2
@@ -110,4 +111,3 @@ Because the "*.pdf" extension is not supported, the send operation will fail and
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxdocument2">IFaxDocument2</a>
-

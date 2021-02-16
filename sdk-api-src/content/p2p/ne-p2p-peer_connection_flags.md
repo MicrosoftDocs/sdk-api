@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_connection_flags_tag
  - PEER_CONNECTION_FLAGS
 ---
 
@@ -68,4 +67,3 @@ Specifies that a connection is a direct connection to another node.
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_connection_info">PEER_CONNECTION_INFO</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadResult::get_ResultCode
+ - IDownloadResult.ResultCode
+ - IDownloadResult.get_ResultCode
 ---
 
 # IDownloadResult::get_ResultCode
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadresult">IDownloadResult</a>
-

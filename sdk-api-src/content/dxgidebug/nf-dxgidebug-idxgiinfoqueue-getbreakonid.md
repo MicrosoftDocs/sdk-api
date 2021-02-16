@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetBreakOnID
+ - IDXGIInfoQueue.GetBreakOnID
 ---
 
 # IDXGIInfoQueue::GetBreakOnID
@@ -74,4 +74,3 @@ Returns a Boolean value that specifies whether this break on a message identifie
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

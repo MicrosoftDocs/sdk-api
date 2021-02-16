@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmConfigureModule::ProvideTextData
+ - IMsmConfigureModule.ProvideTextData
 ---
 
 # IMsmConfigureModule::ProvideTextData
@@ -81,4 +81,3 @@ The client may be called no more than once for each record in the
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

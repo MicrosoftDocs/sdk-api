@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WMIUtils.h
 api_name:
- - __MIDL___MIDL_itf_wmiutils_0000_0001_0003
  - WMIQ_ASSOCQ_FLAGS
 ---
 

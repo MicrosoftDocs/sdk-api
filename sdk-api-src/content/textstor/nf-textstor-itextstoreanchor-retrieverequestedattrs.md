@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::RetrieveRequestedAttrs
+ - ITextStoreAnchor.RetrieveRequestedAttrs
 ---
 
 # ITextStoreAnchor::RetrieveRequestedAttrs
@@ -111,4 +111,3 @@ The method was successful.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_attrval">TS_ATTRVAL
       </a>
-

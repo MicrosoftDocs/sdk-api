@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_DETACH_FN
+ - EngineAdapterDetach
 ---
 
 # PIBIO_ENGINE_DETACH_FN callback function
@@ -197,4 +197,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_sensor_detach_fn">SensorAdapterDetach</a>
-

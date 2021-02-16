@@ -9,8 +9,6 @@ tech.root: wcm
 f1_keywords:
  - wcmapi
  - wcmapi/wcmapi
-api_name:
- - wcmapi
 ---
 
 # Wcmapi.h header

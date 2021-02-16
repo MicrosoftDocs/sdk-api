@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::SpanExcluding
+ - CHString.SpanExcluding
 ---
 
 # CHString::SpanExcluding
@@ -78,4 +78,3 @@ If no character in <i>lpszCharSet</i> is found in the string, the method returns
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-spanincluding">CHString::SpanIncluding</a>
-

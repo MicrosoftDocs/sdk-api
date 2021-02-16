@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0023
- - PMPEG_STREAM_BUFFER
  - MPEG_STREAM_BUFFER
 ---
 
@@ -119,4 +117,3 @@ StreamBuffer.pDataBuffer = (BYTE*) Packets.PacketList[0]->pSection;
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

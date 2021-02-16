@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::put_ProviderFlags
+ - IEnroll.ProviderFlags
+ - IEnroll.get_ProviderFlags
+ - IEnroll.put_ProviderFlags
 ---
 
 # IEnroll::put_ProviderFlags
@@ -87,4 +89,3 @@ The <b>ProviderFlags</b> property affects the behavior of the following methods:
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

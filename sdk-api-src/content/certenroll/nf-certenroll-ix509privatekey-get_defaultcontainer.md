@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::get_DefaultContainer
+ - IX509PrivateKey.DefaultContainer
+ - IX509PrivateKey.get_DefaultContainer
 ---
 
 # IX509PrivateKey::get_DefaultContainer
@@ -65,4 +66,3 @@ This property value is set when the <a href="/windows/desktop/api/certenroll/nf-
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

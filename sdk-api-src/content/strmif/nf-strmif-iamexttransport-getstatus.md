@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::GetStatus
+ - IAMExtTransport.GetStatus
 ---
 
 # IAMExtTransport::GetStatus
@@ -264,4 +264,3 @@ Some of these flags are defined in the header file Xptrdefs.h.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamexttransport">IAMExtTransport Interface</a>
-

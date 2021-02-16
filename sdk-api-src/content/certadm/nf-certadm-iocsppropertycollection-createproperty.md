@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPPropertyCollection::CreateProperty
+ - IOCSPPropertyCollection.CreateProperty
 ---
 
 # IOCSPPropertyCollection::CreateProperty
@@ -93,4 +93,3 @@ An
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
-

@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIObject::SetPrivateDataInterface
+ - IDXGIObject.SetPrivateDataInterface
 ---
 
 # IDXGIObject::SetPrivateDataInterface
@@ -86,4 +86,3 @@ When the interface is set its reference count is incremented. When the data are 
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
-

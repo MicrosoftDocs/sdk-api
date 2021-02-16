@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _TRUSTED_INFORMATION_CLASS
- - PTRUSTED_INFORMATION_CLASS
  - TRUSTED_INFORMATION_CLASS
 ---
 
@@ -146,4 +144,3 @@ Query complete information for a trusted domain. This information includes the P
 
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-trusted_posix_offset_info">TRUSTED_POSIX_OFFSET_INFO</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocument::RootDevice
+ - IUPnPDescriptionDocument.RootDevice
 ---
 
 # IUPnPDescriptionDocument::RootDevice
@@ -78,4 +78,3 @@ Do not use
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
-

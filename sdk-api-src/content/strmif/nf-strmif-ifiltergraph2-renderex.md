@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph2::RenderEx
+ - IFilterGraph2.RenderEx
 ---
 
 # IFilterGraph2::RenderEx
@@ -78,4 +78,3 @@ Returns an <b>HRESULT</b>.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph2">IFilterGraph2 Interface</a>
-

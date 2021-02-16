@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_IO_CALLBACK
- - PMINIDUMP_IO_CALLBACK
  - MINIDUMP_IO_CALLBACK
 ---
 
@@ -83,4 +81,3 @@ The size of the data buffer, in bytes. This member is used only with <b>IoWriteA
 
 
 <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
-

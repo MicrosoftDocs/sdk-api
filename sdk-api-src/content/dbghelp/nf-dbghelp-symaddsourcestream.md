@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymAddSourceStream
+ - SymAddSourceStream
+ - SymAddSourceStreamW
 ---
 
 # SymAddSourceStream function
@@ -87,4 +89,3 @@ If the function fails, the return value is <b>FALSE</b>. To retrieve extended er
 <b>SymAddSourceStream</b> adds a stream of data formatted for use by the <a href="/windows/desktop/Debug/source-server-and-source-indexing">source Server</a> to a designated module.  The caller can pass the stream either as a buffer in the <i>Buffer</i> parameter or a file in the <i>StreamFile</i> parameter.  If both parameters are filled, then the function uses the   <i>Buffer</i> parameter.  If both parameters are <b>NULL</b>, then the function returns <b>FALSE</b> and the <a href="/windows/desktop/Debug/last-error-code">last-error code</a> is set to <b>ERROR_INVALID_PARAMETER</b>.
 
 It is important to note that <b>SymAddSourceStream</b> does not add the stream to any corresponding PDB in order to persist the data.  This function is used by those programmatically implementing their own debuggers in scenarios in which a PDB is not available.
-

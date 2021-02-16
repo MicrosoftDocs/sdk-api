@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagFUNCDESC
- - LPFUNCDESC
  - FUNCDESC
 ---
 
@@ -136,4 +134,3 @@ Any other number indicates that the last n parameters of the function are varian
 
 </li>
 </ul>
-

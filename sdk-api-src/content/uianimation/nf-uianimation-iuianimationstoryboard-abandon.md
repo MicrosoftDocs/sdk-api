@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard::Abandon
+ - IUIAnimationStoryboard.Abandon
 ---
 
 # IUIAnimationStoryboard::Abandon
@@ -83,4 +83,3 @@ This method does not trigger any storyboard events.
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-schedule">IUIAnimationStoryboard::Schedule</a>
-

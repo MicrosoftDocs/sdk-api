@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr::EnumDeviceInfo
+ - IWiaDevMgr.EnumDeviceInfo
 ---
 
 # IWiaDevMgr::EnumDeviceInfo
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The <b>IWiaDevMgr::EnumDeviceInfo</b> method creates an enumerator object, that supports the <a href="/windows/desktop/api/wia_xp/nn-wia_xp-ienumwia_dev_info">IEnumWIA_DEV_INFO</a> interface. <b>IWiaDevMgr::EnumDeviceInfo</b> stores a pointer to the <b>IEnumWIA_DEV_INFO</b> interface in the parameter <i>ppIEnum</i>. Applications can use the <b>IEnumWIA_DEV_INFO</b> interface pointer to enumerate the properties of each WIA device attached to the user's computer.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnum</i> parameter.
-

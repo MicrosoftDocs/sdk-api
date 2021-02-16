@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _SOCKET_SECURITY_SETTINGS
  - SOCKET_SECURITY_SETTINGS
 ---
 
@@ -129,4 +128,3 @@ Advanced applications can specify a security protocol and associated settings by
 
 
 <a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
- - _nlsversioninfoex
- - LPNLSVERSIONINFOEX
  - NLSVERSIONINFOEX
 ---
 
@@ -103,4 +101,3 @@ The <b>dwNLSVersion</b> and <b>dwDefinedVersion</b> members are completely indep
 
 
 <a href="/windows/desktop/Intl/national-language-support-structures">National Language Support Structures</a>
-

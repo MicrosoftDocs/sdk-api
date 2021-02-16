@@ -43,6 +43,8 @@ api_location:
  - Wininet.dll
 api_name:
  - DeleteUrlCacheEntry
+ - DeleteUrlCacheEntryA
+ - DeleteUrlCacheEntryW
 ---
 
 # DeleteUrlCacheEntry function
@@ -104,4 +106,3 @@ The file is not in the cache.
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

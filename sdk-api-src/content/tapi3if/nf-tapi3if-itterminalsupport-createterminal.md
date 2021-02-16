@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminalSupport::CreateTerminal
+ - ITTerminalSupport.CreateTerminal
 ---
 
 # ITTerminalSupport::CreateTerminal
@@ -194,4 +194,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/Tapi/terminal-class">terminal class</a>
-

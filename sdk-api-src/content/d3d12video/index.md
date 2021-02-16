@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - d3d12video
  - d3d12video/d3d12video
-api_name:
- - d3d12video
 ---
 
 # D3D12Video.h header

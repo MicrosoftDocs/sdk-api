@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsEvents::OnSmsStatusChange
+ - IMbnSmsEvents.OnSmsStatusChange
 ---
 
 # IMbnSmsEvents::OnSmsStatusChange
@@ -72,4 +72,3 @@ An application can use the <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsm
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsevents">IMbnSmsEvents</a>
-

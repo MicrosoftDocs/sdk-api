@@ -42,7 +42,8 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationAuthoringMode::get_AuthoringClientBinary
+ - IWebApplicationAuthoringMode.AuthoringClientBinary
+ - IWebApplicationAuthoringMode.get_AuthoringClientBinary
 ---
 
 # IWebApplicationAuthoringMode::get_AuthoringClientBinary
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationauthoringmode">IWebApplicationAuthoringMode</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetAddressByNameA
  - nspapi/GetAddressByNameA
- - GetAddressByName
- - nspapi/GetAddressByName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mswsock.dll
 api_name:
- - GetAddressByNameA
  - GetAddressByName
+ - GetAddressByNameA
+ - GetAddressByNameW
 ---
 
 # GetAddressByNameA function
@@ -319,4 +318,3 @@ Note that the
 
 
 <a href="/windows/desktop/api/wsipv6ok/nf-wsipv6ok-gethostbyname">gethostbyname</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern::get_CachedMaximum
+ - IUIAutomationRangeValuePattern.CachedMaximum
+ - IUIAutomationRangeValuePattern.get_CachedMaximum
 ---
 
 # IUIAutomationRangeValuePattern::get_CachedMaximum

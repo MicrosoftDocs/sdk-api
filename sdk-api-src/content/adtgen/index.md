@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - adtgen
  - adtgen/adtgen
-api_name:
- - adtgen
 ---
 
 # Adtgen.h header

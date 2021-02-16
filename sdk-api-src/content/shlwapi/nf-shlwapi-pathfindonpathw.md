@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathFindOnPathW
  - shlwapi/PathFindOnPathW
- - PathFindOnPath
- - shlwapi/PathFindOnPath
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - API-MS-Win-shlwapi-Winrt-storage-l1-1-0.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - PathFindOnPathW
  - PathFindOnPath
+ - PathFindOnPathA
+ - PathFindOnPathW
 ---
 
 # PathFindOnPathW function

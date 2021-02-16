@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRFilterConfig::SetRenderingMode
+ - IVMRFilterConfig.SetRenderingMode
 ---
 
 # IVMRFilterConfig::SetRenderingMode
@@ -111,4 +111,3 @@ The VMR is in <b>VMRMode_Windowed</b> by default. Use this method only if you ar
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

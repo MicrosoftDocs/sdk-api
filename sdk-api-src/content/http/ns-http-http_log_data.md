@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_LOG_DATA
- - PHTTP_LOG_DATA
  - HTTP_LOG_DATA
 ---
 
@@ -67,4 +65,3 @@ An <a href="/windows/desktop/api/http/ne-http-http_log_data_type">HTTP_LOG_DATA_
 ## -see-also
 
 <a href="/windows/desktop/api/http/ne-http-http_log_data_type">HTTP_LOG_DATA_TYPE</a>
-

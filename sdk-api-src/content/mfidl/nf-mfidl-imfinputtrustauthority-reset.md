@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFInputTrustAuthority::Reset
+ - IMFInputTrustAuthority.Reset
 ---
 
 # IMFInputTrustAuthority::Reset
@@ -84,4 +84,3 @@ When this method is called, the ITA should disable any decrypter that was return
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
-

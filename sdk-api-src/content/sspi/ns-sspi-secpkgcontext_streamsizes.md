@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_StreamSizes
- - PSecPkgContext_StreamSizes
  - SecPkgContext_StreamSizes
 ---
 
@@ -88,4 +86,3 @@ Applications calling <a href="/windows/desktop/api/sspi/nf-sspi-encryptmessage">
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>
-

@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - mpeg2data
  - mpeg2data/mpeg2data
-api_name:
- - mpeg2data
 ---
 
 # Mpeg2Data.h header

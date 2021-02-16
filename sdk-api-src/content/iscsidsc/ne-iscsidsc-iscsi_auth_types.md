@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PISCSI_AUTH_TYPES
  - ISCSI_AUTH_TYPES
 ---
 
@@ -72,4 +71,3 @@ Mutual (2-way) CHAP authentication.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_login_options">ISCSI_LOGIN_OPTIONS</a>
-

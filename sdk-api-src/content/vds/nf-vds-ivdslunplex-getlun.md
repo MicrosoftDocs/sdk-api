@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunPlex::GetLun
+ - IVdsLunPlex.GetLun
 ---
 
 # IVdsLunPlex::GetLun
@@ -112,4 +112,3 @@ The LUN plex is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslunplex">IVdsLunPlex</a>
-

@@ -39,9 +39,6 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreSegmentGroup
-f1_keywords:
- - DXCoreSegmentGroup
- - dxcore_interface/DXCoreSegmentGroup
 ---
 
 ## -description
@@ -61,4 +58,3 @@ Specifies a grouping of segments that is considered non-local to the adapter, an
 ## -see-also
 
 [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

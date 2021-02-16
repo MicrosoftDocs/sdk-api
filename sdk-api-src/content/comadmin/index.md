@@ -9,8 +9,6 @@ tech.root: cos
 f1_keywords:
  - comadmin
  - comadmin/comadmin
-api_name:
- - comadmin
 ---
 
 # Comadmin.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::ShiftEndRegion
+ - ITfRange.ShiftEndRegion
 ---
 
 # ITfRange::ShiftEndRegion
@@ -149,4 +149,3 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 <a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
       </a>
-

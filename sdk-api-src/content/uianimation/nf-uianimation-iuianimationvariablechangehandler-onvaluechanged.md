@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariableChangeHandler::OnValueChanged
+ - IUIAnimationVariableChangeHandler.OnValueChanged
 ---
 
 # IUIAnimationVariableChangeHandler::OnValueChanged
@@ -147,4 +147,3 @@ By default, a call made in a callback method to any other animation method resul
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariableintegerchangehandler-onintegervaluechanged">IUIAnimationVariableIntegerChangeHandler::OnIntegerValueChanged</a>
-

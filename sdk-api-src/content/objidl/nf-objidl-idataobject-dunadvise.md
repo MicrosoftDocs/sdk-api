@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject::DUnadvise
+ - IDataObject.DUnadvise
 ---
 
 # IDataObject::DUnadvise
@@ -100,4 +100,3 @@ If the advisory connection being deleted was initially set up by delegating the 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

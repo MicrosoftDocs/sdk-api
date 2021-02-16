@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItem::EnumRegisterEventInfo
+ - IWiaItem.EnumRegisterEventInfo
 ---
 
 # IWiaItem::EnumRegisterEventInfo
@@ -85,4 +85,3 @@ An application invokes this method to create an enumerator object for the event 
 Each <a href="/windows/desktop/api/wia_xp/ns-wia_xp-wia_dev_cap">WIA_DEV_CAP</a> structure includes an indication of whether the event is of type WIA_NOTIFICATION_EVENT or WIA_ACTION_EVENT or both.
 
 Applications must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIEnum</i> parameter.
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetThumbnailImage
+ - Image.GetThumbnailImage
 ---
 
 # Image::GetThumbnailImage
@@ -141,4 +141,3 @@ VOID Example_GetThumbnail(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-images-bitmaps-and-metafiles-about">Images, Bitmaps, and Metafiles</a>
-

@@ -47,8 +47,6 @@ api_location:
  - ClusApi.h
  - MsClus.h
 api_name:
- - _NOTIFY_FILTER_AND_TYPE
- - PNOTIFY_FILTER_AND_TYPE
  - NOTIFY_FILTER_AND_TYPE
 ---
 
@@ -72,4 +70,3 @@ A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_cha
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

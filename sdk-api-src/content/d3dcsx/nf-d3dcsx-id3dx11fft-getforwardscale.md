@@ -43,7 +43,7 @@ api_location:
  - d3dcsx.lib
  - d3dcsx.dll
 api_name:
- - ID3DX11FFT::GetForwardScale
+ - ID3DX11FFT.GetForwardScale
 ---
 
 # ID3DX11FFT::GetForwardScale
@@ -64,4 +64,3 @@ Scale for forward transforms.
 ## -see-also
 
 <a href="/windows/desktop/api/d3dcsx/nn-d3dcsx-id3dx11fft">ID3DX11FFT</a>
-

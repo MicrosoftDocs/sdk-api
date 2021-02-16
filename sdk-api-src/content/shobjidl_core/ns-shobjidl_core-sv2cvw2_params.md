@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - _SV2CVW2_PARAMS
- - LPSV2CVW2_PARAMS
  - SV2CVW2_PARAMS
 ---
 
@@ -101,4 +99,3 @@ A pointer to a view ID. The view ID can be one of the Windows-defined VIDs or a 
 Type: <b>HWND</b>
 
 A window handle to the new Shell view.
-

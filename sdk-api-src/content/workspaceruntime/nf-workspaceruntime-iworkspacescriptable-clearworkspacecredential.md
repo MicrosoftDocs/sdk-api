@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Wksprt.exe
 api_name:
- - IWorkspaceScriptable::ClearWorkspaceCredential
+ - IWorkspaceScriptable.ClearWorkspaceCredential
+ - IWorkspaceScriptable2.ClearWorkspaceCredential
+ - IWorkspaceScriptable3.ClearWorkspaceCredential
+ - Workspace.ClearWorkspaceCredential
 ---
 
 # IWorkspaceScriptable::ClearWorkspaceCredential
@@ -77,4 +80,3 @@ If the connection ID has no active connections, it is removed from the credentia
 
 
 <a href="/windows/desktop/api/workspaceruntime/nn-workspaceruntime-iworkspacescriptable3">IWorkspaceScriptable3</a>
-

@@ -31,8 +31,6 @@ req.redist:
 f1_keywords:
  - SearchPathA
  - processenv/SearchPathA
- - SearchPath
- - processenv/SearchPath
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - SearchPathA
  - SearchPath
+ - SearchPathA
+ - SearchPathW
 ---
 
 # SearchPathA function
@@ -229,4 +228,3 @@ Yes
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setsearchpathmode">SetSearchPathMode</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3D9ExOverlayExtension::CheckDeviceOverlayType
+ - IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
 ---
 
 # IDirect3D9ExOverlayExtension::CheckDeviceOverlayType
@@ -137,4 +137,3 @@ The device does not support overlay for the specified surface format.
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9exoverlayextension">IDirect3D9ExOverlayExtension</a>
-

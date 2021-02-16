@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IEnumFORMATETC::Next
+ - IEnumFORMATETC.Next
 ---
 
 # IEnumFORMATETC::Next
@@ -79,4 +79,3 @@ If the method retrieves the number of items requested, the return value is S_OK.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumformatetc">IEnumFORMATETC</a>
-

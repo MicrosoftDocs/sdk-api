@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageReader::GetPayloadFile
+ - IAppxPackageReader.GetPayloadFile
 ---
 
 # IAppxPackageReader::GetPayloadFile
@@ -109,4 +109,3 @@ The specified <i>fileName</i> must include the path relative to the package root
 
 
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getpayloadfiles">IAppxPackageReader::GetPayloadFiles</a>
-

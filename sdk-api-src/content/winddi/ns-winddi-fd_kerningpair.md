@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FD_KERNINGPAIR
  - FD_KERNINGPAIR
 ---
 
@@ -81,4 +80,3 @@ An array of FD_KERNINGPAIR structures must be null-terminated, which means the l
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvqueryfonttree">DrvQueryFontTree</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_4.h
 api_name:
- - ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData
+ - ID3D11VideoContext2.VideoProcessorGetStreamHDRMetaData
 ---
 
 # ID3D11VideoContext2::VideoProcessorGetStreamHDRMetaData
@@ -89,4 +89,3 @@ This can be called multiple times, the first time to get the <i>Type</i> (in whi
 
 
 <a href="/windows/desktop/api/d3d11_4/nn-d3d11_4-id3d11videocontext2">ID3DVideoContext2</a>
-

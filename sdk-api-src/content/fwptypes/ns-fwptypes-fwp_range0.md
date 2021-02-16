@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_RANGE0_
  - FWP_RANGE0
 ---
 
@@ -86,4 +85,3 @@ Ranges are always inclusive. Thus, if a value equals
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

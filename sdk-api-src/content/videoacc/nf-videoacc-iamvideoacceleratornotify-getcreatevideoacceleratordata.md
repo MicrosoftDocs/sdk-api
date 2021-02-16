@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
+ - IAMVideoAcceleratorNotify.GetCreateVideoAcceleratorData
 ---
 
 # IAMVideoAcceleratorNotify::GetCreateVideoAcceleratorData
@@ -144,4 +144,3 @@ Success.
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoacceleratornotify">IAMVideoAcceleratorNotify Interface</a>
-

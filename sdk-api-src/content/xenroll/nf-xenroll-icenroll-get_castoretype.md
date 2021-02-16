@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::get_CAStoreType
+ - ICEnroll4.CAStoreType
+ - ICEnroll4.get_CAStoreType
+ - ICEnroll4.put_CAStoreType
+ - ICEnroll3.CAStoreType
+ - ICEnroll3.get_CAStoreType
+ - ICEnroll3.put_CAStoreType
+ - ICEnroll2.CAStoreType
+ - ICEnroll2.get_CAStoreType
+ - ICEnroll2.put_CAStoreType
+ - ICEnroll.CAStoreType
+ - ICEnroll.get_CAStoreType
+ - ICEnroll.put_CAStoreType
+ - CEnroll.CAStoreType
 ---
 
 # ICEnroll::get_CAStoreType
@@ -105,4 +117,3 @@ if ( FAILED ( hr ) )
 else
     printf( "CAStoreType was set to %ws\n", bstrNewType );
 ```
-

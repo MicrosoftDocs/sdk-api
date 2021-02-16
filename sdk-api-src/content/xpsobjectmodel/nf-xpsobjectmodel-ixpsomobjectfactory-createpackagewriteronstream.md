@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory::CreatePackageWriterOnStream
+ - IXpsOMObjectFactory.CreatePackageWriterOnStream
 ---
 
 # IXpsOMObjectFactory::CreatePackageWriterOnStream
@@ -211,4 +211,3 @@ If <i>documentSequencePrintTicket</i> is set to  <b>NULL</b> and the value of <i
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

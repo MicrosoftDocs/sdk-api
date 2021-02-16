@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::GetPacketData
+ - IInkStrokeDisp.GetPacketData
 ---
 
 # IInkStrokeDisp::GetPacketData
@@ -194,4 +194,3 @@ To retrieve the description of the packet data, use the stroke's <a href="/windo
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpacketvaluesbyproperty">SetPacketValuesByProperty Method</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISelectionItemProvider::RemoveFromSelection
+ - ISelectionItemProvider.RemoveFromSelection
 ---
 
 # ISelectionItemProvider::RemoveFromSelection
@@ -75,4 +75,3 @@ Send an <a href="/windows/desktop/WinAuto/uiauto-event-ids">UIA_SelectionItem_El
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

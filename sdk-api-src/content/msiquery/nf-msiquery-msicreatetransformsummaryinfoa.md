@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiCreateTransformSummaryInfoA
  - msiquery/MsiCreateTransformSummaryInfoA
- - MsiCreateTransformSummaryInfo
- - msiquery/MsiCreateTransformSummaryInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiCreateTransformSummaryInfoA
  - MsiCreateTransformSummaryInfo
+ - MsiCreateTransformSummaryInfoA
+ - MsiCreateTransformSummaryInfoW
 ---
 
 # MsiCreateTransformSummaryInfoA function
@@ -366,4 +365,3 @@ The <a href="/windows/desktop/Msi/productcode">ProductCode</a> Property and
 
 
 <a href="/windows/desktop/Msi/summary-information-stream-property-set">Summary Information Stream Property Set</a>
-

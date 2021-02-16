@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetClassPropertyExW
  - setupapi/SetupDiGetClassPropertyExW
- - SetupDiGetClassPropertyEx
- - setupapi/SetupDiGetClassPropertyEx
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassPropertyExW
  - SetupDiGetClassPropertyEx
 ---
 
@@ -294,4 +291,3 @@ To set a device class property on a local computer, call <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetclasspropertyexw">SetupDiSetClassPropertyEx</a>
-

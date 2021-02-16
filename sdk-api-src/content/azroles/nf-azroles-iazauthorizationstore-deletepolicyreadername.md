@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::DeletePolicyReaderName
+ - AzAuthorizationStore.DeletePolicyReaderName
+ - IAzAuthorizationStore.DeletePolicyReaderName
 ---
 
 # IAzAuthorizationStore::DeletePolicyReaderName
@@ -73,4 +74,3 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method. Readers cannot modify the object or its child objects.
 
 To view the list of policy readers in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-get_policyreadersname">PolicyReadersName</a> property.
-

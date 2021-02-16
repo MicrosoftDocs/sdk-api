@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1PrintControl::Close
+ - ID2D1PrintControl.Close
 ---
 
 # ID2D1PrintControl::Close
@@ -87,4 +87,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1printcontrol">ID2D1PrintControl</a>
-

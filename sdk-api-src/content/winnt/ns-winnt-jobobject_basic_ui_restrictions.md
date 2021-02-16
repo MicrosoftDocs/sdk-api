@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _JOBOBJECT_BASIC_UI_RESTRICTIONS
- - PJOBOBJECT_BASIC_UI_RESTRICTIONS
  - JOBOBJECT_BASIC_UI_RESTRICTIONS
 ---
 
@@ -195,4 +193,3 @@ To grant access to a User handle to a job that has a user-interface restriction,
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-userhandlegrantaccess">UserHandleGrantAccess</a>
-

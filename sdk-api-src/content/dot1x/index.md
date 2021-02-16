@@ -9,8 +9,6 @@ tech.root: nwifi
 f1_keywords:
  - dot1x
  - dot1x/dot1x
-api_name:
- - dot1x
 ---
 
 # Dot1X.h header

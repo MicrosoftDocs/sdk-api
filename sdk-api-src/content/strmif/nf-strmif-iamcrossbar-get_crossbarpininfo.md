@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCrossbar::get_CrossbarPinInfo
+ - IAMCrossbar.get_CrossbarPinInfo
 ---
 
 # IAMCrossbar::get_CrossbarPinInfo
@@ -157,4 +157,3 @@ Output pins and input pins are both indexed from zero. To determine the number o
 
 
 <a href="/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>
-

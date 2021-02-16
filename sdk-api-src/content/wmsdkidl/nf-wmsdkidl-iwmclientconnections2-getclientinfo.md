@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMClientConnections2::GetClientInfo
+ - IWMClientConnections2.GetClientInfo
 ---
 
 # IWMClientConnections2::GetClientInfo
@@ -92,4 +92,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmclientconnections2">IWMClientConnections2 Interface</a>
-

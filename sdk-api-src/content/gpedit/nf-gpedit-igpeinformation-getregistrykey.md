@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation::GetRegistryKey
+ - IGPEInformation.GetRegistryKey
 ---
 
 # IGPEInformation::GetRegistryKey
@@ -102,4 +102,3 @@ When you have finished using the registry handle, call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
-

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::get_EraserMode
+ - IInkPicture.EraserMode
+ - IInkPicture.get_EraserMode
+ - IInkPicture.put_EraserMode
+ - InkPicture.get_EraserMode
+ - InkPicture.put_EraserMode
 ---
 
 # IInkPicture::get_EraserMode
@@ -72,4 +76,3 @@ For further details about this property, refer to the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-

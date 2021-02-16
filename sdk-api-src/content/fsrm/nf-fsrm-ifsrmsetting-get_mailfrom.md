@@ -42,7 +42,10 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting::get_MailFrom
+ - IFsrmSetting.MailFrom
+ - IFsrmSetting.get_MailFrom
+ - IFsrmSetting.put_MailFrom
+ - FsrmSetting.MailFrom
 ---
 
 # IFsrmSetting::get_MailFrom
@@ -75,4 +78,3 @@ For an example, see <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
-

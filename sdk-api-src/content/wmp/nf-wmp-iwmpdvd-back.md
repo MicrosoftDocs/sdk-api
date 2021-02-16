@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPDVD::back
+ - IWMPDVD.back
 ---
 
 # IWMPDVD::back
@@ -85,4 +85,3 @@ Every DVD is authored differently. Some DVDs are authored so that the <b>back</b
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
-

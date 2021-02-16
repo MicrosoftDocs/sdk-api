@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList1::ResolveSubresourceRegion
+ - ID3D12GraphicsCommandList1.ResolveSubresourceRegion
 ---
 
 # ID3D12GraphicsCommandList1::ResolveSubresourceRegion
@@ -137,4 +137,3 @@ ResolveSubresourceRegion operates like <a href="/windows/desktop/api/d3d12/nf-d3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
-

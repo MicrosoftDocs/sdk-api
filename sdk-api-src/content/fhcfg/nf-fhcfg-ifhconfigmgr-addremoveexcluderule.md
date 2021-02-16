@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr::AddRemoveExcludeRule
+ - IFhConfigMgr.AddRemoveExcludeRule
+ - FhConfigMgr.AddRemoveExcludeRule
 ---
 
 # IFhConfigMgr::AddRemoveExcludeRule
@@ -107,4 +108,3 @@ Custom libraries are specified by name. Folders are specified by their full path
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-getincludeexcluderules">IFhConfigMgr::GetIncludeExcludeRules</a>
-

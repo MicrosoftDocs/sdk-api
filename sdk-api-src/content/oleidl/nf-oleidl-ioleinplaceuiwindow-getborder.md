@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceUIWindow::GetBorder
+ - IOleInPlaceUIWindow.GetBorder
 ---
 
 # IOleInPlaceUIWindow::GetBorder
@@ -123,4 +123,3 @@ If the object is to install these tools, it should negotiate space for the tools
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">IOleInPlaceUIWindow::SetBorderSpace</a>
-

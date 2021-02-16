@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::AreComponentsSelected
+ - CVssWriter.AreComponentsSelected
 ---
 
 # CVssWriter::AreComponentsSelected
@@ -115,4 +115,3 @@ If false is returned, it indicates that the backup application (requester) is no
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onpreparebackup">CVssWriter::OnPrepareBackup</a>
-

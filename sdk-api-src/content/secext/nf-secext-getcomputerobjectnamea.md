@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - GetComputerObjectNameA
  - secext/GetComputerObjectNameA
- - GetComputerObjectName
- - secext/GetComputerObjectName
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +44,10 @@ api_location:
  - Ext-MS-Win-secur32-translatename-l1-1-0.dll
  - Ext-MS-Win-Secur32-Translatename-L1-1-1.dll
 api_name:
- - GetComputerObjectNameA
  - GetComputerObjectName
+ - GetComputerObjectNameA
+ - GetComputerObjectNameW
+req.apiset: ext-ms-win-secur32-translatename-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetComputerObjectNameA function
@@ -102,4 +101,3 @@ If the function fails, the return value is zero. To get extended error informati
 
 > [!NOTE]
 > The secext.h header defines GetComputerObjectName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

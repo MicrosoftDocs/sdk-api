@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IBindCtx::RegisterObjectBound
+ - IBindCtx.RegisterObjectBound
 ---
 
 # IBindCtx::RegisterObjectBound
@@ -80,4 +80,3 @@ Calling <b>RegisterObjectBound</b> to register an object with a bind context kee
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-irunningobjecttable-getobject">IRunningObjectTable::GetObject</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SecPkgContext_SessionAppData
- - PSecPkgContext_SessionAppData
  - SecPkgContext_SessionAppData
 ---
 
@@ -73,4 +71,3 @@ Count of bytes used by <b>pbAppData</b>.
 ### -field pbAppData
 
 Pointer to a <b>BYTE</b> that represents the session application data.
-

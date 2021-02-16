@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSource::Stop
+ - IMFMediaSource.Stop
 ---
 
 # IMFMediaSource::Stop
@@ -103,4 +103,3 @@ While the source is stopped, no streams produce data.
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
-

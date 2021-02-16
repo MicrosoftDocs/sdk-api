@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemArray::BindToHandler
+ - IShellItemArray.BindToHandler
 ---
 
 # IShellItemArray::BindToHandler
@@ -101,4 +101,3 @@ When this methods returns, contains the object specified in <i>riid</i> that is 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

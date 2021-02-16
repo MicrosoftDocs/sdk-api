@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory::SetFolderTypeID
+ - ISearchFolderItemFactory.SetFolderTypeID
 ---
 
 # ISearchFolderItemFactory::SetFolderTypeID
@@ -65,4 +65,3 @@ The FOLDERTYPEID, which is a <b>GUID</b> used to identify folder types within th
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

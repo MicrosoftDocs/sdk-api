@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFShutdown::GetShutdownStatus
+ - IMFShutdown.GetShutdownStatus
 ---
 
 # IMFShutdown::GetShutdownStatus
@@ -115,4 +115,3 @@ If an object's <a href="/windows/desktop/api/mfidl/nf-mfidl-imfshutdown-shutdown
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfshutdown">IMFShutdown</a>
-

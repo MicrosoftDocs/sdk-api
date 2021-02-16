@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - eventtoken
  - eventtoken/eventtoken
-api_name:
- - eventtoken
 ---
 
 # Eventtoken.h header

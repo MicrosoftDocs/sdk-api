@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - windows.data.pdf.interop
  - windows.data.pdf.interop/windows.data.pdf.interop
-api_name:
- - windows.data.pdf.interop
 ---
 
 # Windows.Data.Pdf.Interop.h header

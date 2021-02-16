@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - Mem_Des_s
- - PMEM_DES
  - MEM_DES
 ---
 
@@ -363,4 +361,3 @@ Bitmask for the bit within <b>MD_Flags</b> that specifies the combine-write cach
 
 
 [MEM_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-mem_resource)
-

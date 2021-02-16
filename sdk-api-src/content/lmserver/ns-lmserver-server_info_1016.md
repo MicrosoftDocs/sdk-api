@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1016
- - PSERVER_INFO_1016
  - SERVER_INFO_1016
 ---
 
@@ -109,4 +107,3 @@ The server is not visible.
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

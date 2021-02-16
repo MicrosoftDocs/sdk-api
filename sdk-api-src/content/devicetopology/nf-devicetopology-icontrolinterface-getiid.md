@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IControlInterface::GetIID
+ - IControlInterface.GetIID
 ---
 
 # IControlInterface::GetIID
@@ -190,4 +190,3 @@ For more information about the <b>__uuidof</b> operator, see the Windows SDK doc
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-icontrolinterface">IControlInterface Interface</a>
-

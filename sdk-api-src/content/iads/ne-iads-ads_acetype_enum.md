@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0001_0048_0002
  - ADS_ACETYPE_ENUM
 ---
 
@@ -139,4 +138,3 @@ Use the  <a href="/windows/desktop/api/iads/nn-iads-iadsaccesscontrolentry">IADs
 
 
 <a href="/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods">IADsAccessControlEntry.AceType</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10StateBlock::Apply
+ - ID3D10StateBlock.Apply
 ---
 
 # ID3D10StateBlock::Apply
@@ -64,4 +64,3 @@ Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10stateblock">ID3D10StateBlock Interface</a>
-

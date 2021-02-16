@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_SSL_CCS_SET
- - PHTTP_SERVICE_CONFIG_SSL_CCS_SET
  - HTTP_SERVICE_CONFIG_SSL_CCS_SET
 ---
 
@@ -95,4 +93,3 @@ Pass this structure to the <a href="/windows/desktop/api/http/nf-http-httpsetser
 
 
 <a href="/windows/desktop/api/http/nf-http-httpupdateserviceconfiguration">HttpUpdateServiceConfiguration</a>
-

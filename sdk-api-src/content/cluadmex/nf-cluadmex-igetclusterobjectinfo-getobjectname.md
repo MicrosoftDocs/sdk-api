@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IGetClusterObjectInfo::GetObjectName
+ - IGetClusterObjectInfo.GetObjectName
 ---
 
 # IGetClusterObjectInfo::GetObjectName
@@ -141,4 +141,3 @@ If the <i>lpszName</i> parameter is specified as <b>NULL</b>, the
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-igetclusterobjectinfo">IGetClusterObjectInfo</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiEnumDriverInfoA
  - setupapi/SetupDiEnumDriverInfoA
- - SetupDiEnumDriverInfo
- - setupapi/SetupDiEnumDriverInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiEnumDriverInfoA
- - SetupDiEnumDriverInfo
+ - SetupDiEnumDriverInfo - SetupDiEnumDriverInfoA
 ---
 
 # SetupDiEnumDriverInfoA function
@@ -114,4 +111,3 @@ To build a list of drivers associated with a specific device or with the global 
 ## -see-also
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdibuilddriverinfolist">SetupDiBuildDriverInfoList</a>
-

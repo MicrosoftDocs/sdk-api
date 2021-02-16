@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::Encode
+ - IX509CertificateRequest.Encode
 ---
 
 # IX509CertificateRequest::Encode
@@ -139,4 +139,3 @@ For a CMC request, this method:<ul>
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

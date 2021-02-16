@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::GetDataSize
+ - Region.GetDataSize
 ---
 
 # Region::GetDataSize
@@ -108,4 +108,3 @@ VOID Example_GetData(HDC)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-getdata">Region::GetData</a>
-

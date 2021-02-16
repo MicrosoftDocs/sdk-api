@@ -9,8 +9,6 @@ tech.root: etw
 f1_keywords:
  - evntprov
  - evntprov/evntprov
-api_name:
- - evntprov
 ---
 
 # Evntprov.h header

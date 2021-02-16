@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceUIWindow::RequestBorderSpace
+ - IOleInPlaceUIWindow.RequestBorderSpace
 ---
 
 # IOleInPlaceUIWindow::RequestBorderSpace
@@ -129,4 +129,3 @@ If the amount of space an active object uses for its toolbars is irrelevant to t
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-setborderspace">IOleInPlaceUIWindow::SetBorderSpace</a>
-

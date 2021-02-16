@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer::SACGetProtocols
+ - CSecureChannelServer.SACGetProtocols
 ---
 
 # CSecureChannelServer::SACGetProtocols
@@ -106,4 +106,3 @@ This method is used by the service provider to implement the public <a href="/wi
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols">IComponentAuthenticate::SACGetProtocols</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchQueryHelper::get_ConnectionString
+ - ISearchQueryHelper.get_ConnectionString
 ---
 
 # ISearchQueryHelper::get_ConnectionString
@@ -83,4 +83,3 @@ Checkout the <a href="/windows/win32/search/-search-sample-dsearch">DSearch code
 
 
 <a href="/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
-

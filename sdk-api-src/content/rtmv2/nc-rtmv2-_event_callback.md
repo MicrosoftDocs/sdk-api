@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _EVENT_CALLBACK
+ - RTM_EVENT_CALLBACK
 ---
 
 # _EVENT_CALLBACK callback function
@@ -169,4 +169,3 @@ If a client receives an
 
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmregisterentity">RtmRegisterEntity</a>
-

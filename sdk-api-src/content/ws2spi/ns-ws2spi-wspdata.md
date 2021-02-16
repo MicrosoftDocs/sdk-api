@@ -30,7 +30,6 @@ api_location:
  - ws2spi.h
 api_name:
  - WSPData
- - LPWSPDATA
  - WSPDATA
 f1_keywords:
  - WSPData

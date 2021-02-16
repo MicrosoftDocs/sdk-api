@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioMeterInformation::GetPeakValue
+ - IAudioMeterInformation.GetPeakValue
 ---
 
 # IAudioMeterInformation::GetPeakValue
@@ -93,4 +93,3 @@ For a code example that uses the <b>GetPeakValue</b> method, see <a href="/windo
 
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudiometerinformation">IAudioMeterInformation Interface</a>
-

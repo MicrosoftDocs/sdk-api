@@ -41,7 +41,7 @@ api_type:
 api_location:
  - SpatialInteractionManagerInterop.h
 api_name:
- - ISpatialInteractionManagerInterop::GetForWindow
+ - ISpatialInteractionManagerInterop.GetForWindow
 ---
 
 # ISpatialInteractionManagerInterop::GetForWindow

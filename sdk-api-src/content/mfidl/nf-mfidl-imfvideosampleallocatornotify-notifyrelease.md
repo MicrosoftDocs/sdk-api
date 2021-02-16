@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFVideoSampleAllocatorNotify::NotifyRelease
+ - IMFVideoSampleAllocatorNotify.NotifyRelease
+ - IMFVideoSampleAllocatorNotifyEx.NotifyRelease
 ---
 
 # IMFVideoSampleAllocatorNotify::NotifyRelease
@@ -69,4 +70,3 @@ To get a video sample from the allocator, call the <a href="/windows/desktop/api
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatornotifyex">IMFVideoSampleAllocatorNotifyEx</a>
-

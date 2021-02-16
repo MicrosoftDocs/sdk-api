@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature::GetCustomReferenceEnumerator
+ - IXpsSignature.GetCustomReferenceEnumerator
 ---
 
 # IXpsSignature::GetCustomReferenceEnumerator
@@ -89,4 +89,3 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

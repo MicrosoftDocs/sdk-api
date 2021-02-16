@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevice::Content
+ - IPortableDevice.Content
 ---
 
 # IPortableDevice::Content
@@ -128,4 +128,3 @@ The <i>ppContent</i> argument was a NULL pointer.
 
 
 <a href="/windows/desktop/wpd_sdk/setting-properties-for-a-single-object">Setting Properties for a Single Object</a>
-

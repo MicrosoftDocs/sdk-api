@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wsdbase.h
 api_name:
- - _WSD_CONFIG_PARAM
- - PWSD_CONFIG_PARAM
  - WSD_CONFIG_PARAM
 ---
 

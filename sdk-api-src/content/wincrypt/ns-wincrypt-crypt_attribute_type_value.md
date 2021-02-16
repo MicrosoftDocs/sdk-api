@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_ATTRIBUTE_TYPE_VALUE
- - PCRYPT_ATTRIBUTE_TYPE_VALUE
  - CRYPT_ATTRIBUTE_TYPE_VALUE
 ---
 
@@ -75,4 +73,3 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OB
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::GetRootElement
+ - IUIAutomation.GetRootElement
 ---
 
 # IUIAutomation::GetRootElement
@@ -79,4 +79,3 @@ When searching from the root element, be sure to specify <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-getrootelementbuildcache">IUIAutomation::GetRootElementBuildCache</a>
-

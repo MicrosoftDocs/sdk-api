@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _RAW_SCSI_VIRTUAL_DISK_FLAG
- - PRAW_SCSI_VIRTUAL_DISK_FLAG
  - RAW_SCSI_VIRTUAL_DISK_FLAG
 ---
 

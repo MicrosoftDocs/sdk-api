@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent::CompareObjects
+ - IComponent.CompareObjects
 ---
 
 # IComponent::CompareObjects
@@ -84,4 +84,3 @@ IDataObject interface is documented in the Platform Software Development Kit (SD
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
- - _COMSTAT
- - LPCOMSTAT
  - COMSTAT
 ---
 
@@ -114,4 +112,3 @@ The number of bytes of user data remaining to be transmitted for all write opera
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-transmitcommchar">TransmitCommChar</a>
-

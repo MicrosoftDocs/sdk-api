@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12InfoQueue::PushEmptyStorageFilter
+ - ID3D12InfoQueue.PushEmptyStorageFilter
 ---
 
 # ID3D12InfoQueue::PushEmptyStorageFilter
@@ -67,4 +67,3 @@ An empty storage filter allows all messages to pass through.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12infoqueue">ID3D12InfoQueue</a>
-

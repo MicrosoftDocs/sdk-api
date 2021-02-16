@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole::QueryResultImageList
+ - IConsole.QueryResultImageList
 ---
 
 # IConsole::QueryResultImageList
@@ -70,4 +70,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iimagelist">IImageList</a>
-

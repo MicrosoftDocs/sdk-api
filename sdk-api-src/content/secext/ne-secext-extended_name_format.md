@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Secext.h
 api_name:
- - PEXTENDED_NAME_FORMAT
  - EXTENDED_NAME_FORMAT
 ---
 
@@ -113,4 +112,3 @@ The DNS domain name followed by a backward-slash and the SAM user name.
 
 
 <a href="/windows/desktop/api/secext/nf-secext-translatenamea">TranslateName</a>
-

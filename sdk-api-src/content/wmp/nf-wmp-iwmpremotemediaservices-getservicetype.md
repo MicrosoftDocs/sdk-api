@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPRemoteMediaServices::GetServiceType
+ - IWMPRemoteMediaServices.GetServiceType
 ---
 
 # IWMPRemoteMediaServices::GetServiceType
@@ -131,4 +131,3 @@ The RemoteNoDialogs value is supported for backward compatibility with Windows M
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
-

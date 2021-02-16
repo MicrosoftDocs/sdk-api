@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI::SetAssistedTelephonyPriority
+ - ITTAPI.SetAssistedTelephonyPriority
 ---
 
 # ITTAPI::SetAssistedTelephonyPriority
@@ -113,4 +113,3 @@ The application must use
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

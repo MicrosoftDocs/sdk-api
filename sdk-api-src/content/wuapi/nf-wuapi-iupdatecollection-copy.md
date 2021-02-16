@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection::Copy
+ - IUpdateCollection.Copy
 ---
 
 # IUpdateCollection::Copy
@@ -96,4 +96,3 @@ This  method cannot be called from a remote computer.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
-

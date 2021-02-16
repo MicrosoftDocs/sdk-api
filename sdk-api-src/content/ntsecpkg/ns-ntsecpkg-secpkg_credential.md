@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_CREDENTIAL
- - PSECPKG_CREDENTIAL
  - SECPKG_CREDENTIAL
 ---
 
@@ -115,4 +113,3 @@ The list of packages. This member is only relevant to SPNego.
 ### -field MarshaledSuppliedCreds
 
 The supplied credentials that are marshaled. This member contains a <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_supplied_credential">SECPKG_SUPPLIED_CREDENTIAL</a> 	structure.
-

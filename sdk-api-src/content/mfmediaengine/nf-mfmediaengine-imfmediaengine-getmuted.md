@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetMuted
+ - IMFMediaEngine.GetMuted
 ---
 
 # IMFMediaEngine::GetMuted
@@ -61,4 +61,3 @@ Returns <b>TRUE</b> if the audio is muted, or <b>FALSE</b> otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

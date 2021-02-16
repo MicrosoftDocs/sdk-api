@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_PinControl::RegistrationContext
+ - IBDA_PinControl.RegistrationContext
 ---
 
 # IBDA_PinControl::RegistrationContext
@@ -73,4 +73,3 @@ The registration context uniquely identifies an instance of a particular pin. A 
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_pincontrol">IBDA_PinControl Interface</a>
-

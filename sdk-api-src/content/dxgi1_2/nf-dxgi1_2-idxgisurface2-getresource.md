@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISurface2::GetResource
+ - IDXGISurface2.GetResource
 ---
 
 # IDXGISurface2::GetResource
@@ -85,4 +85,3 @@ Current objects that implement <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgis
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgisurface2">IDXGISurface2</a>
-

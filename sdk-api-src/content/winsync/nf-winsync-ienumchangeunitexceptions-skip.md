@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumChangeUnitExceptions::Skip
+ - IEnumChangeUnitExceptions.Skip
 ---
 
 # IEnumChangeUnitExceptions::Skip
@@ -102,4 +102,3 @@ The enumerator reaches the end of the list before it can skip the specified numb
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumchangeunitexceptions">IEnumChangeUnitExceptions Interface</a>
-

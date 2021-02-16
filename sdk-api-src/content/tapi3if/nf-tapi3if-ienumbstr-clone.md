@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumBstr::Clone
+ - IEnumBstr.Clone
 ---
 
 # IEnumBstr::Clone
@@ -124,4 +124,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagentsession">IEnumAgentSession</a>
-

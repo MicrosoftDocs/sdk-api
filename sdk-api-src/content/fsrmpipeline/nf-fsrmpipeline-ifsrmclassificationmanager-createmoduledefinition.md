@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::CreateModuleDefinition
+ - IFsrmClassificationManager.CreateModuleDefinition
+ - IFsrmClassificationManager2.CreateModuleDefinition
+ - FsrmClassificationManager.CreateModuleDefinition
 ---
 
 # IFsrmClassificationManager::CreateModuleDefinition
@@ -141,4 +143,3 @@ FSRM provides the following three built-in storage modules:
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

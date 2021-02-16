@@ -45,8 +45,6 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
- - _STORAGE_PROTOCOL_COMMAND
- - PSTORAGE_PROTOCOL_COMMAND
  - STORAGE_PROTOCOL_COMMAND
 ---
 
@@ -192,4 +190,3 @@ The vendor-specific command that is to be passed-through to the device.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command">IOCTL_STORAGE_PROTOCOL_COMMAND</a>
-

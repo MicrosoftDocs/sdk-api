@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_FUNCTION_TABLE_STREAM
- - PMINIDUMP_FUNCTION_TABLE_STREAM
  - MINIDUMP_FUNCTION_TABLE_STREAM
 ---
 
@@ -96,4 +94,3 @@ In this context, a data stream is a set of data in a minidump file. This header 
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

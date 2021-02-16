@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - joyGetDevCapsW
  - joystickapi/joyGetDevCapsW
- - joyGetDevCaps
- - joystickapi/joyGetDevCaps
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-mm-joystick-l1-1-0.dll
  - winmmbase.dll
 api_name:
- - joyGetDevCapsW
  - joyGetDevCaps
+ - joGetDevCapsA
+ - joyGetDevCapsW
 ---
 
 # joyGetDevCapsW function
@@ -126,4 +125,3 @@ This method fails when passed an invalid value for the <i>cbjc</i> parameter.
 
 
 <a href="/windows/desktop/Multimedia/multimedia-joystick-functions">Multimedia Joystick Functions</a>
-

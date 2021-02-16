@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetNumberOfChapters
+ - IDvdInfo2.GetNumberOfChapters
 ---
 
 # IDvdInfo2::GetNumberOfChapters
@@ -133,4 +133,3 @@ Call this method to get the number of chapters before calling <a href="/windows/
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

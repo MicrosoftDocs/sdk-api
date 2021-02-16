@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer2::put_windowlessVideo
+ - IWMPPlayer2.put_windowlessVideo
 ---
 
 # IWMPPlayer2::put_windowlessVideo
@@ -97,4 +97,3 @@ The <b>put_windowlessVideo</b> method is not supported for Netscape Navigator. S
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_windowlessvideo">IWMPPlayer2::get_windowlessVideo</a>
-

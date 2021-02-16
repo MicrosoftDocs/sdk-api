@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetNoProgressTimeout
+ - IBackgroundCopyJob.GetNoProgressTimeout
 ---
 
 # IBackgroundCopyJob::GetNoProgressTimeout
@@ -98,4 +98,3 @@ Must pass the address of <i>pRetryPeriod</i>.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnoprogresstimeout">IBackgroundCopyJob::SetNoProgressTimeout</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylistCollection::isDeleted
+ - IWMPPlaylistCollection.isDeleted
 ---
 
 # IWMPPlaylistCollection::isDeleted
@@ -95,4 +95,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection">IWMPPlaylistCollection Interface</a>
-

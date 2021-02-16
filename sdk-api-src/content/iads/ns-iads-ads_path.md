@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0005
- - PADS_PATH
  - ADS_PATH
 ---
 
@@ -79,4 +77,3 @@ The <b>Path</b> attribute in represents a file system path.
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

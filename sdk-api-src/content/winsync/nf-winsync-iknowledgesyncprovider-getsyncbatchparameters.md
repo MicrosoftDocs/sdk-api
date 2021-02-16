@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider::GetSyncBatchParameters
+ - IKnowledgeSyncProvider.GetSyncBatchParameters
 ---
 
 # IKnowledgeSyncProvider::GetSyncBatchParameters
@@ -95,4 +95,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
-

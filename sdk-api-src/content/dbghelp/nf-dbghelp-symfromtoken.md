@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymFromToken
+ - SymFromToken
+ - SymFromTokenW
 ---
 
 # SymFromToken function
@@ -92,4 +94,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
-

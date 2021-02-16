@@ -46,8 +46,6 @@ api_type:
 api_location:
  - EhStorExtensions.h
 api_name:
- - _ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
- - PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
  - ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 ---
 
@@ -169,4 +167,3 @@ The maximum number of bytes that the device supports for challenge.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/enstor/enhanced-storage-portable-device-commands">Enhanced Storage Portable Device Commands</a>
-

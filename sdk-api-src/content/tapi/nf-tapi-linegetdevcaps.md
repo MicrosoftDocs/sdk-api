@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetDevCaps
+ - lineGetDevCapsA
+ - lineGetDevCapsW
 ---
 
 # lineGetDevCaps function
@@ -126,4 +128,3 @@ One of the members in the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>
-

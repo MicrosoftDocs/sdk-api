@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_UninstallationBehavior
+ - IUpdate.UninstallationBehavior
+ - IUpdate.get_UninstallationBehavior
 ---
 
 # IUpdate::get_UninstallationBehavior
@@ -67,4 +68,3 @@ This API can return a null pointer as the output, even when the return value is 
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::UnregisterControlChangeNotify
+ - IAudioEndpointVolume.UnregisterControlChangeNotify
 ---
 
 # IAudioEndpointVolume::UnregisterControlChangeNotify
@@ -97,4 +97,3 @@ For a code example that calls <b>UnregisterControlChangeNotify</b>, see <a href=
 
 
 <a href="/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback">IAudioEndpointVolumeCallback Interface</a>
-

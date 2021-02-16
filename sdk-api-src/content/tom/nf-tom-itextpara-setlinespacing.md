@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::SetLineSpacing
+ - ITextPara.SetLineSpacing
 ---
 
 # ITextPara::SetLineSpacing
@@ -157,4 +157,3 @@ The line-spacing rule and line spacing work together, and as a result, they must
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

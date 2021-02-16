@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::get_duration
+ - IWMPMedia.get_duration
+ - IWMPMedia2.get_duration
+ - IWMPMedia3.get_duration
 ---
 
 # IWMPMedia::get_duration
@@ -109,4 +111,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_durationstring">IWMPMedia::get_durationString</a>
-

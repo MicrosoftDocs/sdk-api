@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::GetCompletedIndex
+ - IMFASFIndexer.GetCompletedIndex
 ---
 
 # IMFASFIndexer::GetCompletedIndex
@@ -184,4 +184,3 @@ done:
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd757932(v=vs.85)">Using the Indexer to Write a New Index</a>
-

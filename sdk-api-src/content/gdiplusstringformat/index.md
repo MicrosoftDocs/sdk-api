@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusstringformat
  - gdiplusstringformat/gdiplusstringformat
-api_name:
- - gdiplusstringformat
 ---
 
 # Gdiplusstringformat.h header

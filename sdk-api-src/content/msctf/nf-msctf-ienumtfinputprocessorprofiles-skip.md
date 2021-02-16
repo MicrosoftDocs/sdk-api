@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles::Skip
+ - IEnumTfInputProcessorProfiles.Skip
 ---
 
 # IEnumTfInputProcessorProfiles::Skip
@@ -90,4 +90,3 @@ The method reached the end of the enumeration before the specified number of ele
 </td>
 </tr>
 </table>
-

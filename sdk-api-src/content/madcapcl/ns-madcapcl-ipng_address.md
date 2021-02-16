@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Madcapcl.h
 api_name:
- - _IPNG_ADDRESS
- - PIPNG_ADDRESS
  - IPNG_ADDRESS
 ---
 
@@ -116,4 +114,3 @@ Internet Protocol (IP) address, in version 6 format (IPv6).
 
 
 <a href="/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
-

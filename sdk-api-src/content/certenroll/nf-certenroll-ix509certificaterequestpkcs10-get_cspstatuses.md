@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::get_CspStatuses
+ - IX509CertificateRequestPkcs10.CspStatuses
+ - IX509CertificateRequestPkcs10.get_CspStatuses
 ---
 
 # IX509CertificateRequestPkcs10::get_CspStatuses
@@ -141,4 +142,3 @@ Assume, for example, that the <a href="/windows/desktop/api/certenroll/nf-certen
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

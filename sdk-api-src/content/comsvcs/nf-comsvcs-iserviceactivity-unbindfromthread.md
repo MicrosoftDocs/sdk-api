@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceActivity::UnbindFromThread
+ - IServiceActivity.UnbindFromThread
 ---
 
 # IServiceActivity::UnbindFromThread
@@ -67,4 +67,3 @@ Calling this method is equivalent to having called <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iserviceactivity">IServiceActivity</a>
-

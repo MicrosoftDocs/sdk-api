@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices::TxSendMessage
+ - ITextServices.TxSendMessage
 ---
 
 # ITextServices::TxSendMessage
@@ -167,4 +167,3 @@ Note that two return values are passed back from this function. The return value
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

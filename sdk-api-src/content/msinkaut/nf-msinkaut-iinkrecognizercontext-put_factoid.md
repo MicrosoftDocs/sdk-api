@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext::put_Factoid
+ - IInkRecognizerContext.Factoid
+ - IInkRecognizerContext.get_Factoid
+ - IInkRecognizerContext.put_Factoid
+ - InkRecognizerContext.get_Factoid
+ - InkRecognizerContext.put_Factoid
 ---
 
 # IInkRecognizerContext::put_Factoid
@@ -86,4 +90,3 @@ For the <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a> 
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-

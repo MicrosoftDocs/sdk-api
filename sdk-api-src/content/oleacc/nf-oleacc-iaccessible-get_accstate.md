@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::get_accState
+ - IAccessible.get_accState
 ---
 
 # IAccessible::get_accState
@@ -219,4 +219,3 @@ HRESULT PrintState(IAccessible* pAcc, long childId)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-

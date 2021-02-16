@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1SourceTransform::Draw
+ - ID2D1SourceTransform.Draw
 ---
 
 # ID2D1SourceTransform::Draw
@@ -100,4 +100,3 @@ If you  set the buffer precision manually on the associated <a href="/windows/de
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1sourcetransform">ID2D1SourceTransform</a>
-

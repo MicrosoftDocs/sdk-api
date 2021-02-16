@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVHITTESTINFO
- - LPLVHITTESTINFO
  - LVHITTESTINFO
 ---
 
@@ -273,4 +271,3 @@ Type: <b>int</b>
 
 
 <a href="/windows/desktop/Controls/common-control-versions">Windows Vista</a>. Group index of the item hit (read only). Valid only for owner data. If the point is within an item that is displayed in multiple groups then <b>iGroup</b> will specify the group index of the item.
-

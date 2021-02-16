@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionEvents::OnVoiceCallStateChange
+ - IMbnConnectionEvents.OnVoiceCallStateChange
 ---
 
 # IMbnConnectionEvents::OnVoiceCallStateChange
@@ -72,4 +72,3 @@ This method must return <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
-

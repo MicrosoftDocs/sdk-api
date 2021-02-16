@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMREXTTEXTOUTA
- - PEMREXTTEXTOUTA
  - EMREXTTEXTOUTA
 ---
 
@@ -91,4 +89,3 @@ Y-scaling factor from page units to .01mm units if the graphics mode is the GM_C
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

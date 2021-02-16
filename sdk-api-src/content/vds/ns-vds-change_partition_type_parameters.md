@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _CHANGE_PARTITION_TYPE_PARAMETERS
  - CHANGE_PARTITION_TYPE_PARAMETERS
 ---
 
@@ -89,4 +88,3 @@ For information about partition types, see <a href="/windows/desktop/api/vds/ns-
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsadvanceddisk2-changepartitiontype">IVdsAdvancedDisk2::ChangePartitionType</a>
-

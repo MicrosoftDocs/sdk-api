@@ -45,7 +45,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _VMRDeinterlaceCaps
  - VMRDeinterlaceCaps
 ---
 
@@ -85,4 +84,3 @@ Bitwise combination of flags from the <a href="/windows/desktop/api/strmif/ne-st
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ivmrdeinterlacecontrol">IVMRDeinterlaceControl Interface</a>
-

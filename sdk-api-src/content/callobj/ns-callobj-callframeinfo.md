@@ -44,7 +44,6 @@ api_type:
 api_location:
  - callobj.h
 api_name:
- - __MIDL_ICallFrame_0001
  - CALLFRAMEINFO
 ---
 
@@ -112,4 +111,3 @@ The number of parameters in <b>imethod</b>. The receiver is excluded.
 
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
-

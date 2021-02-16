@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice2::GetCanonicalName
+ - IWMDMDevice2.GetCanonicalName
 ---
 
 # IWMDMDevice2::GetCanonicalName
@@ -161,4 +161,3 @@ if (pIWMDMDevice2 != NULL)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-getdevicefromcanonicalname">IWMDeviceManager2::GetDeviceFromCanonicalName</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnKeyboardInput
+ - INameSpaceTreeControlEvents.OnKeyboardInput
 ---
 
 # INameSpaceTreeControlEvents::OnKeyboardInput
@@ -89,4 +89,3 @@ This method receives its message directly from WndProc. When this returns S_OK, 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

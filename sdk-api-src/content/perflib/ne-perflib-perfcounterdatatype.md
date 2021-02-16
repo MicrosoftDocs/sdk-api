@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PerfCounterDataType
  - PerfCounterDataType
 ---
 
@@ -84,4 +83,3 @@ The query returned multiple counters from each of multiple instances.
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TAPE_GET_POSITION
- - PTAPE_GET_POSITION
  - TAPE_GET_POSITION
 ---
 

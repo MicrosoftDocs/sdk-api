@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
+ - IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode
 ---
 
 # IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode
@@ -136,4 +136,3 @@ if (SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">Writing Metadata</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker::NormalizeElementBuildCache
+ - IUIAutomationTreeWalker.NormalizeElementBuildCache
 ---
 
 # IUIAutomationTreeWalker::NormalizeElementBuildCache
@@ -84,4 +84,3 @@ The element is normalized by navigating up the ancestor chain in the tree until 
             
 
 This method is useful for applications that obtain references to UI Automation elements by hit-testing. The application might want to work only with specific types of elements, and can use <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtreewalker-normalizeelement">IUIAutomationTreeWalker::NormalizeElement</a> to make sure that no matter what element is initially retrieved (for example, when a scroll bar gets the input focus), only the element of interest (such as a content element) is ultimately retrieved.
-

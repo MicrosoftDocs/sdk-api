@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
  - WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 ---
 

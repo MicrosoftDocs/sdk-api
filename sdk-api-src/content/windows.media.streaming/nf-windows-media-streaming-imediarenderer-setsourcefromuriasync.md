@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IMediaRenderer::SetSourceFromUriAsync
+ - IMediaRenderer.SetSourceFromUriAsync
 ---
 
 # IMediaRenderer::streaming
@@ -92,4 +92,3 @@ If the DMR is already playing content, it will automatically switch to the conte
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IISDB_NBIT::GetRecordDescriptorByTag
+ - IISDB_NBIT.GetRecordDescriptorByTag
 ---
 
 # IISDB_NBIT::GetRecordDescriptorByTag
@@ -91,4 +91,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-iisdb_nbit-getcountofrecords">IISDB_NBIT::GetCountOfRecords</a>
-

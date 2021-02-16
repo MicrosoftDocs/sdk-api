@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::FindText
+ - ITextRangeProvider.FindText
 ---
 
 # ITextRangeProvider::FindText
@@ -109,4 +109,3 @@ There is no differentiation between hidden and visible text.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

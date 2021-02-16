@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable::GetTag
+ - IUIAnimationVariable.GetTag
 ---
 
 # IUIAnimationVariable::GetTag
@@ -102,4 +102,3 @@ The parameters are optional so that the method can return both portions of the t
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-settag">IUIAnimationVariable::SetTag</a>
-

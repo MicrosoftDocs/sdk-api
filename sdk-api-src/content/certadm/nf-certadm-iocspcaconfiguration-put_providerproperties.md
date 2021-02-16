@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration::put_ProviderProperties
+ - IOCSPCAConfiguration.ProviderProperties
+ - IOCSPCAConfiguration.get_ProviderProperties
+ - IOCSPCAConfiguration.put_ProviderProperties
 ---
 
 # IOCSPCAConfiguration::put_ProviderProperties
@@ -107,4 +109,3 @@ The following table lists the possible <a href="/windows/desktop/api/certadm/nn-
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-

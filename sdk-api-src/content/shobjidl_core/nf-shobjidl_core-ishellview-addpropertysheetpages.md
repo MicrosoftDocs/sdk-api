@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::AddPropertySheetPages
+ - IShellView.AddPropertySheetPages
 ---
 
 # IShellView::AddPropertySheetPages
@@ -86,4 +86,3 @@ Windows Explorer calls this method when it is opening the <b>Options</b> propert
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

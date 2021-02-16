@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SERVICE_SECURITY_IDENTITIES
  - WS_SERVICE_SECURITY_IDENTITIES
 ---
 
@@ -67,4 +66,3 @@ A array of strings representing the SPNs accepted by the server. Wildcards are n
 ### -field serviceIdentityCount
 
 The number of strings in serviceIdentities.
-

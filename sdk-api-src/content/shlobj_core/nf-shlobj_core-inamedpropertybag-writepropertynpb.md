@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - INamedPropertyBag::WritePropertyNPB
+ - INamedPropertyBag.WritePropertyNPB
 ---
 
 # INamedPropertyBag::WritePropertyNPB
@@ -77,4 +77,3 @@ A pointer to a <b>VARIANT</b> that holds the new property value.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

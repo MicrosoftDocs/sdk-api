@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eapmethodpeerapis.h
 api_name:
- - _EAP_PEER_METHOD_ROUTINES
  - EAP_PEER_METHOD_ROUTINES
 ---
 
@@ -525,4 +524,3 @@ The other functions in the EAP Peer Method API set are called by a peer-based EA
 
 
 <a href="/previous-versions/windows/desktop/api/eapmethodpeerapis/nf-eapmethodpeerapis-eappeergetinfo">EapPeerGetInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::InsertImage
+ - ITextRange2.InsertImage
 ---
 
 # ITextRange2::InsertImage
@@ -140,4 +140,3 @@ If the range is nondegenerate, the image replaces the text in the range.
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-

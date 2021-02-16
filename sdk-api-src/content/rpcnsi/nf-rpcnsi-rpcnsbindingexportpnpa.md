@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsBindingExportPnPA
  - rpcnsi/RpcNsBindingExportPnPA
- - RpcNsBindingExportPnP
- - rpcnsi/RpcNsBindingExportPnP
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsBindingExportPnPA
  - RpcNsBindingExportPnP
+ - RpcNsBindingExportPnPA
+ - RpcNsBindingExportPnPW
 ---
 
 # RpcNsBindingExportPnPA function
@@ -219,4 +218,3 @@ Note that the server application should not explicitly supply the binding vector
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa">RpcNsBindingUnexportPnP</a>
-

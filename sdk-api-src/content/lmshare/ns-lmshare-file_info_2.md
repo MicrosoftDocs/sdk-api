@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _FILE_INFO_2
- - PFILE_INFO_2
  - FILE_INFO_2
 ---
 
@@ -87,4 +85,3 @@ Specifies a DWORD value that contains the identification number assigned to the 
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

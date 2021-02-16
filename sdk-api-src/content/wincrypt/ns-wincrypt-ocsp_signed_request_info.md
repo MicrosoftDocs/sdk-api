@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _OCSP_SIGNED_REQUEST_INFO
- - POCSP_SIGNED_REQUEST_INFO
  - OCSP_SIGNED_REQUEST_INFO
 ---
 
@@ -103,4 +101,3 @@ OCSP applications can encode or decode this structure by using <b>X509_ASN_ENCOD
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_signature_info">OCSP_SIGNATURE_INFO</a>
-

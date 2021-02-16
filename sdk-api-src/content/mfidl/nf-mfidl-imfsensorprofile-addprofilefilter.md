@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfsensorgroup.dll
 api_name:
- - IMFSensorProfile::AddProfileFilter
+ - IMFSensorProfile.AddProfileFilter
 ---
 
 # IMFSensorProfile::AddProfileFilter
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a>
-

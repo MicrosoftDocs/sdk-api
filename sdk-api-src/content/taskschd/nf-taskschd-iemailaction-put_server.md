@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_Server
+ - IEmailAction.Server
+ - IEmailAction.get_Server
+ - IEmailAction.put_Server
 ---
 
 # IEmailAction::put_Server
@@ -66,4 +68,3 @@ Make sure the SMTP server that sends the email is setup correctly. E-mail is sen
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
-

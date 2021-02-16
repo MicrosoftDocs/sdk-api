@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardListReadersA
  - winscard/SCardListReadersA
- - SCardListReaders
- - winscard/SCardListReaders
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-wlan-scard-l1-1-0.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardListReadersA
  - SCardListReaders
+ - SCardListReadersA
+ - SCardListReadersW
 ---
 
 # SCardListReadersA function
@@ -279,4 +278,3 @@ default:
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadergroupsa">SCardListReaderGroups</a>
-

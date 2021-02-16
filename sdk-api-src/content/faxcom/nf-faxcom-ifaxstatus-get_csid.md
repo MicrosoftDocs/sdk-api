@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_Csid
+ - IFaxStatus.Csid
+ - IFaxStatus.get_Csid
 ---
 
 # IFaxStatus::get_Csid
@@ -85,4 +86,3 @@ The <b>IFaxStatus::get_Csid</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

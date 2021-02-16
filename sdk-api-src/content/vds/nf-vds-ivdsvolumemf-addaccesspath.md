@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF::AddAccessPath
+ - IVdsVolumeMF.AddAccessPath
 ---
 
 # IVdsVolumeMF::AddAccessPath
@@ -135,4 +135,3 @@ This method returns ERROR_DIR_NOT_EMPTY if the <i>pwszPath</i> parameter contain
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa">SetVolumeMountPoint</a>
-

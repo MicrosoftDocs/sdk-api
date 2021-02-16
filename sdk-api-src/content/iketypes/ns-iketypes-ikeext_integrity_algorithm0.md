@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_INTEGRITY_ALGORITHM0_
  - IKEEXT_INTEGRITY_ALGORITHM0
 ---
 
@@ -74,4 +73,3 @@ See [IKEEXT_INTEGRITY_TYPE](/windows/desktop/api/iketypes/ne-iketypes-ikeext_int
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

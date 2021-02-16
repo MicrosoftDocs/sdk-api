@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingQueue::Refresh
+ - IFaxIncomingQueue.Refresh
+ - IFaxIncomingQueue.Refresh
 ---
 
 # IFaxIncomingQueue::Refresh
@@ -71,4 +72,3 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingqueue">IFaxIncomingQueue</a>
-

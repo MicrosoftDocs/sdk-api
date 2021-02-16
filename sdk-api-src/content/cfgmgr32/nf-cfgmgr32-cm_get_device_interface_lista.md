@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Device_Interface_ListA
  - cfgmgr32/CM_Get_Device_Interface_ListA
- - CM_Get_Device_Interface_List
- - cfgmgr32/CM_Get_Device_Interface_List
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Devices-Config-L1-1-0.dll
  - API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Get_Device_Interface_ListA
  - CM_Get_Device_Interface_List
+ - CM_Get_Device_Interface_ListA
+ - CM_Get_Device_Interface_ListW
 ---
 
 # CM_Get_Device_Interface_ListA function
@@ -184,4 +183,3 @@ This snippet illustrates retrying getting the size and the list as described in 
 ## -see-also
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_list_sizea">CM_Get_Device_Interface_List_Size</a>
-

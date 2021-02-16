@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationship::GetTargetUri
+ - IOpcRelationship.GetTargetUri
 ---
 
 # IOpcRelationship::GetTargetUri
@@ -163,4 +163,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <a href="/previous-versions/windows/desktop/opc/resolving-a-part-name-from-a-relationship-s-target-uri">Resolving a Part Name from a Target URI</a>
-

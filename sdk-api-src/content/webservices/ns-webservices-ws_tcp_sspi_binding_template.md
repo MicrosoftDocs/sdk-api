@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_TCP_SSPI_BINDING_TEMPLATE
  - WS_TCP_SSPI_BINDING_TEMPLATE
 ---
 
@@ -70,4 +69,3 @@ Application provided additional security properties that cannot be represented i
 
 Application provided SSPI transport security information that cannot be represented
           in policy.
-

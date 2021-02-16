@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement::GetSelectionStyle
+ - ITfIntegratableCandidateListUIElement.GetSelectionStyle
 ---
 
 # ITfIntegratableCandidateListUIElement::GetSelectionStyle
@@ -88,4 +88,3 @@ The active selection style usually indicates that the selection can be changed w
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
-

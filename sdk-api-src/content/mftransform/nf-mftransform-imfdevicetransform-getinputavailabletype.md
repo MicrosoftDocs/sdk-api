@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::GetInputAvailableType
+ - IMFDeviceTransform.GetInputAvailableType
 ---
 
 # IMFDeviceTransform::GetInputAvailableType
@@ -131,4 +131,3 @@ If the MFT stores a media type internally, the MFT should return a clone of the 
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

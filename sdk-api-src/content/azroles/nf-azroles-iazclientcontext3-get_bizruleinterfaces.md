@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3::get_BizRuleInterfaces
+ - IAzClientContext3.BizRuleInterfaces
+ - IAzClientContext3.get_BizRuleInterfaces
 ---
 
 # IAzClientContext3::get_BizRuleInterfaces
@@ -55,4 +56,3 @@ The <b>IAzClientContext3::BizRuleInterfaces</b> method gets the collection of <a
 This property is read-only.
 
 ## -parameters
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IPolicyQualifiers::get__NewEnum
+ - IPolicyQualifiers._NewEnum
+ - IPolicyQualifiers.get__NewEnum
 ---
 
 # IPolicyQualifiers::get__NewEnum
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifiers">IPolicyQualifiers</a>
-

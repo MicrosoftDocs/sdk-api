@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder::BindToObject
+ - IShellFolder.BindToObject
+ - IShellFolder2.BindToObject
 ---
 
 # IShellFolder::BindToObject
@@ -113,4 +114,3 @@ Implementations of <b>BindToObject</b> can optimize any call to it by quickly fa
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetdesktopfolder">SHGetDesktopFolder</a>
-

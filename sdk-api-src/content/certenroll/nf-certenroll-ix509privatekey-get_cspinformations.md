@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::get_CspInformations
+ - IX509PrivateKey.CspInformations
+ - IX509PrivateKey.get_CspInformations
+ - IX509PrivateKey.put_CspInformations
 ---
 
 # IX509PrivateKey::get_CspInformations
@@ -63,4 +65,3 @@ The enrollment process expects the <a href="/windows/desktop/api/certenroll/nn-c
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

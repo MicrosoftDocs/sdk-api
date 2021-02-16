@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetVariant
+ - CInstance.SetVariant
+ - ?SetVariant@CInstance@@QAE_NPBGABUtagVARIANT@@@Z
 ---
 
 # CInstance::SetVariant
@@ -72,4 +73,3 @@ Value assigned to the <b>VARIANT</b> property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if the supplied variant type is not correct for the property being set.  <b>SetVariant</b> also returns <b>FALSE</b> if an attempt is made to set a nonexistent property. More information is available in the log file, Framework.log.
-

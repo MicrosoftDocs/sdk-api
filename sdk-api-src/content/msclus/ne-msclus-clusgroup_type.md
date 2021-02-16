@@ -47,8 +47,6 @@ api_location:
  - ClusApi.h
  - MsClus.h
 api_name:
- - __MIDL___MIDL_itf_msclus_0000_0000_0001
- - PCLUSGROUP_TYPE
  - CLUSGROUP_TYPE
 ---
 
@@ -186,4 +184,3 @@ An unknown cluster group type.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

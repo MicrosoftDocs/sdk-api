@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Pnrpns.h
 api_name:
- - _PNRPINFO_V1
- - PPNRPINFO_V1
  - PNRPINFO_V1
 ---
 
@@ -128,4 +126,3 @@ Specifies the state of the registered ID.  This value is reserved and must be se
 
 
 <a href="/windows/desktop/P2PSdk/winsock-nsp-reference-links">WSAQUERYSET</a>
-

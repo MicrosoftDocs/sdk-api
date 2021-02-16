@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SECURITY_PACKAGE_OPTIONS
- - PSECURITY_PACKAGE_OPTIONS
  - SECURITY_PACKAGE_OPTIONS
 ---
 
@@ -119,4 +117,3 @@ The size, in bytes, of a digital signature for this security package.
 ### -field Signature
 
 A digital signature for this security package.
-

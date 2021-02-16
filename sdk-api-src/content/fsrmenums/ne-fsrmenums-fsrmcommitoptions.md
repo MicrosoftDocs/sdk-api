@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmCommitOptions
  - FsrmCommitOptions
 ---
 
@@ -80,4 +79,3 @@ The <b>FsrmCommitOptions_Asynchronous</b> option is not supported.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmquota/nf-fsrmquota-ifsrmquotatemplate-commitandupdatederived">IFsrmQuotaTemplate::CommitAndUpdateDerived</a>
-

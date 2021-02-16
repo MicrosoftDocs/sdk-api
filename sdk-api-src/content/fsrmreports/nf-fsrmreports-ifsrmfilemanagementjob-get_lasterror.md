@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_LastError
+ - IFsrmFileManagementJob.LastError
+ - IFsrmFileManagementJob.get_LastError
 ---
 
 # IFsrmFileManagementJob::get_LastError
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

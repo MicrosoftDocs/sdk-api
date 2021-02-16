@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_EXCEPTION_INFORMATION
- - PMINIDUMP_EXCEPTION_INFORMATION
  - MINIDUMP_EXCEPTION_INFORMATION
 ---
 
@@ -81,4 +79,3 @@ Determines where to get the memory regions pointed to by the <b>ExceptionPointer
 
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-

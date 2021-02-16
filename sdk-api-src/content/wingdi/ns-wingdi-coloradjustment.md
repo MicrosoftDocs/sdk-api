@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagCOLORADJUSTMENT
- - PCOLORADJUSTMENT
  - COLORADJUSTMENT
 ---
 
@@ -214,4 +212,3 @@ The amount of red or green tint adjustment to be applied to the source object. T
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits
       </a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardRemoveReaderFromGroupW
  - winscard/SCardRemoveReaderFromGroupW
- - SCardRemoveReaderFromGroup
- - winscard/SCardRemoveReaderFromGroup
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardRemoveReaderFromGroupW
  - SCardRemoveReaderFromGroup
+ - SCardRemoveReaderFromGroupA
+ - SCardRemoveReaderFromGroupW
 ---
 
 # SCardRemoveReaderFromGroupW function
@@ -211,4 +210,3 @@ if ( SCARD_S_SUCCESS != lReturn )
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardforgetreadergroupa">SCardForgetReaderGroup</a>
-

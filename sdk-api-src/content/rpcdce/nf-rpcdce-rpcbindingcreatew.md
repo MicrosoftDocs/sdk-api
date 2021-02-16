@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcBindingCreateW
  - rpcdce/RpcBindingCreateW
- - RpcBindingCreate
- - rpcdce/RpcBindingCreate
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcBindingCreateW
  - RpcBindingCreate
+ - RpcBindingCreateA
+ - RpcBindingCreateW
 ---
 
 # RpcBindingCreateW function
@@ -137,4 +136,3 @@ However, before any calls can be made on the binding handle, <a href="/windows/d
 
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcbindingbind">RpcBindingBind</a>
-

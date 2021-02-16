@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2::put_BlockAllInboundTraffic
+ - INetFwPolicy2.BlockAllInboundTraffic
+ - INetFwPolicy2.get_BlockAllInboundTraffic
+ - INetFwPolicy2.put_BlockAllInboundTraffic
 ---
 
 # INetFwPolicy2::put_BlockAllInboundTraffic
@@ -66,4 +68,3 @@ When you pass a profile type obtained from the <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
-

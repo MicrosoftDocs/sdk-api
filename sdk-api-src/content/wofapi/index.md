@@ -9,8 +9,6 @@ tech.root: fs
 f1_keywords:
  - wofapi
  - wofapi/wofapi
-api_name:
- - wofapi
 ---
 
 # Wofapi.h header

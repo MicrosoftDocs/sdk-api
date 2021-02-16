@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups::Clone
+ - IEnumBackgroundCopyGroups.Clone
 ---
 
 # IEnumBackgroundCopyGroups::Clone
@@ -71,4 +71,3 @@ This method returns <b>S_OK</b> on success.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopygroups">IEnumBackgroundCopyGroups</a>
-

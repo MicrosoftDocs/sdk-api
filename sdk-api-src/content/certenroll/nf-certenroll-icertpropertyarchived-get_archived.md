@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyArchived::get_Archived
+ - ICertPropertyArchived.Archived
+ - ICertPropertyArchived.get_Archived
 ---
 
 # ICertPropertyArchived::get_Archived
@@ -67,4 +68,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarc
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyarchived">ICertPropertyArchived</a>
-

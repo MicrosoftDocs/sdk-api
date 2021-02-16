@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::Draw
+ - IShellImageData.Draw
 ---
 
 # IShellImageData::Draw
@@ -121,4 +121,3 @@ The process was terminated by the calling application through a registered insta
 ## -remarks
 
 If <i>prcSrc</i> is <b>NULL</b>, nothing is drawn and the method returns S_OK.
-

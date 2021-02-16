@@ -9,8 +9,6 @@ tech.root: properties
 f1_keywords:
  - propsys
  - propsys/propsys
-api_name:
- - propsys
 ---
 
 # Propsys.h header

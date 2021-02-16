@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPerPropertyBrowsing::GetDisplayString
+ - IPerPropertyBrowsing.GetDisplayString
 ---
 
 # IPerPropertyBrowsing::GetDisplayString
@@ -109,4 +109,3 @@ The address in pbstr is not valid. For example, it may be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
-

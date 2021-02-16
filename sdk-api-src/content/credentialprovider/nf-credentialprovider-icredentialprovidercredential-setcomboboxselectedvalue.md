@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderCredential::SetComboBoxSelectedValue
+ - ICredentialProviderCredential.SetComboBoxSelectedValue
 ---
 
 # ICredentialProviderCredential::SetComboBoxSelectedValue

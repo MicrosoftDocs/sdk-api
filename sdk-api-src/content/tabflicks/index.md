@@ -9,8 +9,6 @@ tech.root: tablet
 f1_keywords:
  - tabflicks
  - tabflicks/tabflicks
-api_name:
- - tabflicks
 ---
 
 # Tabflicks.h header

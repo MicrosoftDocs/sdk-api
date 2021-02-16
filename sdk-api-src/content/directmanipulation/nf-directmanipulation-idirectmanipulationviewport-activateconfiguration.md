@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::ActivateConfiguration
+ - IDirectManipulationViewport.ActivateConfiguration
 ---
 
 # IDirectManipulationViewport::ActivateConfiguration
@@ -93,4 +93,3 @@ HRESULT hr = pViewport>ActivateConfiguration(
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink::SetUnitMode
+ - ID2D1CommandSink.SetUnitMode
 ---
 
 # ID2D1CommandSink::SetUnitMode
@@ -81,4 +81,3 @@ The unit mode changes the interpretation of units from DIPs to pixels  or vice v
 
 
 <a href="/windows/desktop/Direct2D/id2d1rendertarget-settransform">ID2D1RenderTarget::SetTransform</a>
-

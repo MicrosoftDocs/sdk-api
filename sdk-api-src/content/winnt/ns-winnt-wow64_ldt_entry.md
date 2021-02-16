@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _WOW64_LDT_ENTRY
- - PWOW64_LDT_ENTRY
  - WOW64_LDT_ENTRY
 ---
 
@@ -155,4 +153,3 @@ The <b>WOW64_LDT_ENTRY</b> structure has the same layout for a 64-bit process as
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-wow64getthreadselectorentry">Wow64GetThreadSelectorEntry</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RedEyeCorrection::SetParameters
+ - RedEyeCorrection.SetParameters
 ---
 
 # RedEyeCorrection::SetParameters
@@ -78,4 +78,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-redeyecorrection-getparameters">RedEyeCorrection::GetParameters</a>
-

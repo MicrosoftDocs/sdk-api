@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolder::GetPath
+ - IKnownFolder.GetPath
 ---
 
 # IKnownFolder::GetPath
@@ -87,4 +87,3 @@ Equivalent to <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknow
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath">SHGetKnownFolderPath</a>
-

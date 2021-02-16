@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - wct
  - wct/wct
-api_name:
- - wct
 ---
 
 # Wct.h header

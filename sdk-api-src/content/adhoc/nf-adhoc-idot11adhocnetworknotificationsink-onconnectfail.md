@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetworkNotificationSink::OnConnectFail
+ - IDot11AdHocNetworkNotificationSink.OnConnectFail
 ---
 
 # IDot11AdHocNetworkNotificationSink::OnConnectFail
@@ -94,4 +94,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetworknotificationsink">IDot11AdHocNetworkNotificationSink</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportSession::get_NetworkInterfaceAddress
+ - IWdsTransportSession.NetworkInterfaceAddress
+ - IWdsTransportSession.get_NetworkInterfaceAddress
 ---
 
 # IWdsTransportSession::get_NetworkInterfaceAddress
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportsession">IWdsTransportSession</a>
-

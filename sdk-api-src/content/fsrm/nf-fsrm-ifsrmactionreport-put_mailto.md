@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionReport::put_MailTo
+ - IFsrmActionReport.MailTo
+ - IFsrmActionReport.get_MailTo
+ - IFsrmActionReport.put_MailTo
 ---
 
 # IFsrmActionReport::put_MailTo
@@ -97,4 +99,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/updating-a-
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

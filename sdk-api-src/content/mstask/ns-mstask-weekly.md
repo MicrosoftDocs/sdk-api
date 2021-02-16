@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
- - _WEEKLY
  - WEEKLY
 ---
 
@@ -174,4 +173,3 @@ example.rgfDaysOfTheWeek = TASK_SUNDAY | TASK_WEDNESDAY | TASK_FRIDAY;
 
 
 <a href="/windows/desktop/api/taskschd/nf-taskschd-iweeklytrigger-get_weeksinterval">WeeksInterval</a>
-

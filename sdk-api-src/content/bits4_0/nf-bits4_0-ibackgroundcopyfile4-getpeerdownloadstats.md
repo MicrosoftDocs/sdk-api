@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bits4_0.h
 api_name:
- - IBackgroundCopyFile4::GetPeerDownloadStats
+ - IBackgroundCopyFile4.GetPeerDownloadStats
 ---
 
 # IBackgroundCopyFile4::GetPeerDownloadStats
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/bits4_0/nn-bits4_0-ibackgroundcopyfile4">IBackgroundCopyFile4</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_DATETIME_TEXT
  - WS_XML_DATETIME_TEXT
 ---
 
@@ -66,4 +65,3 @@ Negative datetime values are not supported.
 The base type for all types that derive from <a href="/windows/desktop/api/webservices/ns-webservices-ws_xml_text">WS_XML_TEXT</a>.
 
 ### -field value
-

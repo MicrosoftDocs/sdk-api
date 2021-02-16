@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - midiInGetDevCapsA
  - mmeapi/midiInGetDevCapsA
- - midiInGetDevCaps
- - mmeapi/midiInGetDevCaps
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-mm-mme-l1-1-0.dll
  - winmmbase.dll
 api_name:
- - midiInGetDevCapsA
  - midiInGetDevCaps
+ - midiInGetDevCapsA
+ - midiInGetDevCapsW
 ---
 
 # midiInGetDevCapsA function
@@ -140,4 +139,3 @@ To determine the number of MIDI input devices present on the system, use the <a 
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-

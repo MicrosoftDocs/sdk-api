@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeDisconnectInfo::get_Reason
+ - IRDPSRAPIAttendeeDisconnectInfo.Reason
+ - IRDPSRAPIAttendeeDisconnectInfo.get_Reason
+ - RDPSRAPIAttendeeDisconnectInfo.Reason
 ---
 
 # IRDPSRAPIAttendeeDisconnectInfo::get_Reason
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo">IRDPSRAPIAttendeeDisconnectInfo</a>
-

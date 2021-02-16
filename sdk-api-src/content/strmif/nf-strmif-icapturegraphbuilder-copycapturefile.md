@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - ICaptureGraphBuilder::CopyCaptureFile
+ - ICaptureGraphBuilder.CopyCaptureFile
 ---
 
 # ICaptureGraphBuilder::CopyCaptureFile
@@ -89,4 +89,3 @@ If you specify <i>pCallback</i>, the <a href="/windows/desktop/api/strmif/nf-str
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
-

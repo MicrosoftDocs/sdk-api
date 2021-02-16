@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2::SetViewProperty
+ - IFolderView2.SetViewProperty
 ---
 
 # IFolderView2::SetViewProperty
@@ -95,4 +95,3 @@ The property is displayed in the view, but not written to the underlying item.
 
 
 <a href="/windows/desktop/properties/building-property-handlers-property-lists">Property Lists</a>
-

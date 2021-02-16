@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata::GetFileCounts
+ - IVssExamineWriterMetadata.GetFileCounts
 ---
 
 # IVssExamineWriterMetadata::GetFileCounts
@@ -149,4 +149,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-getexcludefile">IVssExamineWriterMetadata::GetExcludeFile</a>
-

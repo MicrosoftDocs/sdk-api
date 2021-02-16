@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11.dll
 api_name:
- - ID3D11On12Device::CreateWrappedResource
+ - ID3D11On12Device.CreateWrappedResource
 ---
 
 # ID3D11On12Device::CreateWrappedResource
@@ -102,4 +102,3 @@ This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>
-

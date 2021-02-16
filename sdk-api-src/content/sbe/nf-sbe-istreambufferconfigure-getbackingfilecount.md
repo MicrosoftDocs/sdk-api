@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure::GetBackingFileCount
+ - IStreamBufferConfigure.GetBackingFileCount
 ---
 
 # IStreamBufferConfigure::GetBackingFileCount
@@ -91,4 +91,3 @@ If the reader lags behind the writer by more than <i>pdwMin</i> files, the write
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure Interface</a>
-

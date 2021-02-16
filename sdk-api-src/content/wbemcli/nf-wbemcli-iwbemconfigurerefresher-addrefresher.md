@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher::AddRefresher
+ - IWbemConfigureRefresher.AddRefresher
 ---
 
 # IWbemConfigureRefresher::AddRefresher
@@ -94,4 +94,3 @@ Users should not add recursively nested refreshers. The returned identifier can 
 
 
 <a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
-

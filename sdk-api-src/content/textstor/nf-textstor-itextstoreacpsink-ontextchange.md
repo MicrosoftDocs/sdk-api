@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPSink::OnTextChange
+ - ITextStoreACPSink.OnTextChange
 ---
 
 # ITextStoreACPSink::OnTextChange
@@ -187,4 +187,3 @@ When calling this method, the application must be able to grant a <a href="/wind
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
-

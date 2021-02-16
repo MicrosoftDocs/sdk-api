@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes::get_Count
+ - IInkStrokes.Count
+ - IInkStrokes.get_Count
+ - InkStrokes.get_Count
 ---
 
 # IInkStrokes::get_Count
@@ -66,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

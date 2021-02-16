@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - FindWindowExA
  - winuser/FindWindowExA
- - FindWindowEx
- - winuser/FindWindowEx
 dev_langs:
  - c++
 topic_type:
@@ -54,8 +51,10 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - FindWindowExA
  - FindWindowEx
+ - FindWindowExA
+ - FindWindowExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # FindWindowExA function
@@ -161,4 +160,3 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

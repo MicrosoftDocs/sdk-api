@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_PKCS1_PADDING_INFO
  - BCRYPT_PKCS1_PADDING_INFO
 ---
 
@@ -76,4 +75,3 @@ A pointer to a null-terminated Unicode string that identifies the <a href="/wind
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptverifysignature">BCryptVerifySignature</a>
-

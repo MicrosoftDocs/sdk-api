@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoProgressDialog::SetCaption
+ - IPhotoProgressDialog.SetCaption
 ---
 
 # IPhotoProgressDialog::SetCaption
@@ -88,4 +88,3 @@ The caption text is displayed above the progress indicator bar in the dialog box
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoprogressdialog">IPhotoProgressDialog Interface</a>
-

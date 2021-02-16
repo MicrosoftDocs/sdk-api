@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_PropertyDecl
  - MI_PropertyDecl
 ---
 
@@ -112,4 +111,3 @@ Ancestor class that last defined a property with this name.
 ### -field value
 
 Default value of this property.
-

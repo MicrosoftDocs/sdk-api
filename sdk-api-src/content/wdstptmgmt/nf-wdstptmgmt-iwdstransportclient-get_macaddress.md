@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportClient::get_MacAddress
+ - IWdsTransportClient.MacAddress
+ - IWdsTransportClient.get_MacAddress
 ---
 
 # IWdsTransportClient::get_MacAddress
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportclient">IWdsTransportClient</a>
-

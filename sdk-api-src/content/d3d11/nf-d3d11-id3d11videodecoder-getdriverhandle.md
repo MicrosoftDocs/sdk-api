@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDecoder::GetDriverHandle
+ - ID3D11VideoDecoder.GetDriverHandle
 ---
 
 # ID3D11VideoDecoder::GetDriverHandle
@@ -69,4 +69,3 @@ The driver handle can be used to configure content protection.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodecoder">ID3D11VideoDecoder</a>
-

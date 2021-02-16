@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhReassociation::SelectConfiguration
+ - IFhReassociation.SelectConfiguration
+ - FhReassociation.SelectConfiguration
 ---
 
 # IFhReassociation::SelectConfiguration
@@ -82,4 +83,3 @@ If there is no File History configuration with the specified index, the <code>HR
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhreassociation-scantargetforconfigurations">IFhReassociation::ScanTargetForConfigurations</a>
-

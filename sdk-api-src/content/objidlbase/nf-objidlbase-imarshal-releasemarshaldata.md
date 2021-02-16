@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMarshal::ReleaseMarshalData
+ - IMarshal.ReleaseMarshalData
 ---
 
 # IMarshal::ReleaseMarshalData
@@ -81,4 +81,3 @@ If your implementation stores state information about marshaled data packets, yo
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
-

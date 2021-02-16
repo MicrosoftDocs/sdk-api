@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - DceErrorInqText
+ - DceErrorInqTextA
+ - DceErrorInqTextW
 ---
 
 # DceErrorInqText function
@@ -102,4 +104,3 @@ This function returns RPC_S_OK if it is successful, or an error code if not.
 
 The 
 <b>DceErrorInqText</b> routine fills the string pointed to by the <i>ErrorText</i> parameter with a null-terminated character string message for a particular status code.
-

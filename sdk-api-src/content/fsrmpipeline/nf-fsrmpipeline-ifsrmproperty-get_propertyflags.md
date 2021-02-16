@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmProperty::get_PropertyFlags
+ - IFsrmProperty.PropertyFlags
+ - IFsrmProperty.get_PropertyFlags
 ---
 
 # IFsrmProperty::get_PropertyFlags
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmproperty">IFsrmProperty</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList::BeginList
+ - ICustomDestinationList.BeginList
 ---
 
 # ICustomDestinationList::BeginList
@@ -99,4 +99,3 @@ The <a href="/windows/desktop/api/objectarray/nn-objectarray-iobjectarray">IObje
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

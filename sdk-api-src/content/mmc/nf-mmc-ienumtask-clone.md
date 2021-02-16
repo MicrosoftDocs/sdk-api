@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IEnumTASK::Clone
+ - IEnumTASK.Clone
 ---
 
 # IEnumTASK::Clone

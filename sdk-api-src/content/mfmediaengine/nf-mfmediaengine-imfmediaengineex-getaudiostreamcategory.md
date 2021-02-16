@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::GetAudioStreamCategory
+ - IMFMediaEngineEx.GetAudioStreamCategory
 ---
 
 # IMFMediaEngineEx::GetAudioStreamCategory
@@ -69,4 +69,3 @@ For information on audio stream categories, see <a href="/windows/desktop/api/au
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

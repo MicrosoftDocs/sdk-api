@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BuildCommDCBAndTimeoutsA
  - winbase/BuildCommDCBAndTimeoutsA
- - BuildCommDCBAndTimeouts
- - winbase/BuildCommDCBAndTimeouts
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - BuildCommDCBAndTimeoutsA
  - BuildCommDCBAndTimeouts
+ - BuildCommDCBAndTimeoutsA
+ - BuildCommDCBAndTimeoutsW
 ---
 
 # BuildCommDCBAndTimeoutsA function
@@ -158,4 +157,3 @@ For more information, see the Remarks for the
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setcommtimeouts">SetCommTimeouts</a>
-

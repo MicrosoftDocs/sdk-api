@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
- - tagWCN_VALUE_TYPE_DEVICE_PASSWORD_ID
  - WCN_VALUE_TYPE_DEVICE_PASSWORD_ID
 ---
 
@@ -115,4 +114,3 @@ other out-of-band method.
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
-

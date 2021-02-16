@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ILoadChangeContext::SetRecoverableErrorOnChange
+ - ILoadChangeContext.SetRecoverableErrorOnChange
 ---
 
 # ILoadChangeContext::SetRecoverableErrorOnChange
@@ -117,4 +117,3 @@ When this method is called, an <b>ISingleItemException</b> object is added to th
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isingleitemexception">ISingleItemException Interface</a>
-

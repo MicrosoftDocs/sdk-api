@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection::GetLogonErrorRedirector
+ - IWRdsProtocolConnection.GetLogonErrorRedirector
 ---
 
 # IWRdsProtocolConnection::GetLogonErrorRedirector
@@ -67,4 +67,3 @@ If you do not implement this function, return <b>E_NOTIMPL</b> to indicate that 
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
-

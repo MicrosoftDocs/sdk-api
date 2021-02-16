@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Request_Device_Eject_ExW
  - cfgmgr32/CM_Request_Device_Eject_ExW
- - CM_Request_Device_Eject_Ex
- - cfgmgr32/CM_Request_Device_Eject_Ex
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Request_Device_Eject_ExW
  - CM_Request_Device_Eject_Ex
+ - CM_Request_Device_Eject_ExW
 ---
 
 # CM_Request_Device_Eject_ExW function
@@ -130,4 +128,3 @@ For information about using device instance handles that are bound to a local or
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw">CM_Request_Device_Eject</a>
-

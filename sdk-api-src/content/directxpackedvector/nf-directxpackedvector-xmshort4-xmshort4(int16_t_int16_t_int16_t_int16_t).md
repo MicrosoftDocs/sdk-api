@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORT4::XMSHORT4
+ - XMSHORT4.XMSHORT4
 ---
 
 # XMSHORT4::XMSHORT4(int16_t,int16_t,int16_t,int16_t)
@@ -109,4 +109,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmshort4-ctor">XMSHORT4 Constructors</a>
-

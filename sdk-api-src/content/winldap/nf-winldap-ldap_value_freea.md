@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_value_freeA
  - winldap/ldap_value_freeA
- - ldap_value_free
- - winldap/ldap_value_free
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_value_freeA
  - ldap_value_free
+ - ldap_value_freeA
+ - ldap_value_freeW
 ---
 
 # ldap_value_freeA function
@@ -83,4 +82,3 @@ Call <b>ldap_value_free</b> to free a structure returned by <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values">ldap_get_values</a>
-

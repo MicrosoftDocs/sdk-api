@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMLicenseRestore::RestoreLicenses
+ - IWMLicenseRestore.RestoreLicenses
 ---
 
 # IWMLicenseRestore::RestoreLicenses
@@ -95,4 +95,3 @@ The operation of this method is asynchronous, and an <b>IWMStatusCallback</b> in
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore">IWMLicenseRestore Interface</a>
-

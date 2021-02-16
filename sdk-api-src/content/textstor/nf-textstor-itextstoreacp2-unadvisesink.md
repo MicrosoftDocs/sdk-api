@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::UnadviseSink
+ - ITextStoreACP2.UnadviseSink
 ---
 
 # ITextStoreACP2::UnadviseSink
@@ -106,4 +106,3 @@ The <i>punk</i> parameter must have the same COM identity as the pointer origina
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-

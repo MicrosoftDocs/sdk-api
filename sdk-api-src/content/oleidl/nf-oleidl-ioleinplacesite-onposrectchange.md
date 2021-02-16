@@ -43,7 +43,8 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSite::OnPosRectChange
+ - IOleInPlaceSite.OnPosRectChange
+ - IOleInPlaceSiteWindowless.OnPosRectChange
 ---
 
 # IOleInPlaceSite::OnPosRectChange
@@ -109,4 +110,3 @@ In most cases, the object grows to the right and/or down. There could be cases w
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects::GoFullscreen
+ - IWMPEffects.GoFullscreen
 ---
 
 # IWMPEffects::GoFullscreen
@@ -71,4 +71,3 @@ A default implementation of this method is not included in the visualization wiz
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-

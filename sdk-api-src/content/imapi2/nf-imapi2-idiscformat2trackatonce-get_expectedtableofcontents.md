@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
+ - IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 ---
 
 # IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents
@@ -149,4 +149,3 @@ The property is not accessible outside a track-writing session. Nor is the prope
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-releasemedia">IDiscFormat2TrackAtOnce::ReleaseMedia</a>
-

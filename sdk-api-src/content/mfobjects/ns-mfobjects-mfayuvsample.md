@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - __MFAYUVSample
  - MFAYUVSample
 ---
 
@@ -76,4 +75,3 @@ Alpha value.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

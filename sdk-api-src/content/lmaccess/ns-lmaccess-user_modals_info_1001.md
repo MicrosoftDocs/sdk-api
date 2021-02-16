@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_MODALS_INFO_1001
- - PUSER_MODALS_INFO_1001
  - USER_MODALS_INFO_1001
 ---
 
@@ -80,4 +78,3 @@ Specifies the minimum allowable password length. Valid values for this element a
 
 
 <a href="/windows/desktop/NetMgmt/user-modal-functions">User Modal Functions</a>
-

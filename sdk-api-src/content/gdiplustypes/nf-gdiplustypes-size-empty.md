@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Size::Empty
+ - Size.Empty
 ---
 
 # Size::Empty
@@ -101,4 +101,3 @@ if(size.Empty())
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef">SizeF</a>
-

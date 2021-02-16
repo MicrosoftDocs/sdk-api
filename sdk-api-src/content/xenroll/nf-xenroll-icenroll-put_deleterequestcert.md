@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_DeleteRequestCert
+ - ICEnroll4.DeleteRequestCert
+ - ICEnroll4.get_DeleteRequestCert
+ - ICEnroll4.put_DeleteRequestCert
+ - ICEnroll3.DeleteRequestCert
+ - ICEnroll3.get_DeleteRequestCert
+ - ICEnroll3.put_DeleteRequestCert
+ - ICEnroll2.DeleteRequestCert
+ - ICEnroll2.get_DeleteRequestCert
+ - ICEnroll2.put_DeleteRequestCert
+ - ICEnroll.DeleteRequestCert
+ - ICEnroll.get_DeleteRequestCert
+ - ICEnroll.put_DeleteRequestCert
+ - CEnroll.DeleteRequestCert
 ---
 
 # ICEnroll::put_DeleteRequestCert
@@ -104,4 +116,3 @@ if ( FAILED ( hr ) )
 else
     printf( "DeleteRequestCert was set to FALSE\n" );
 ```
-

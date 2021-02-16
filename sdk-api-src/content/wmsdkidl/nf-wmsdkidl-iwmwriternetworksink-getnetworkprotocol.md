@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink::GetNetworkProtocol
+ - IWMWriterNetworkSink.GetNetworkProtocol
 ---
 
 # IWMWriterNetworkSink::GetNetworkProtocol
@@ -105,4 +105,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_net_protocol">WMT_NET_PROTOCOL</a>
-

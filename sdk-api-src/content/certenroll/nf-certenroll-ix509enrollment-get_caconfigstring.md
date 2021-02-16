@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::get_CAConfigString
+ - IX509Enrollment.CAConfigString
+ - IX509Enrollment.get_CAConfigString
 ---
 
 # IX509Enrollment::get_CAConfigString
@@ -63,4 +64,3 @@ The configuration string contains the Domain Name System (DNS) name and the comm
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

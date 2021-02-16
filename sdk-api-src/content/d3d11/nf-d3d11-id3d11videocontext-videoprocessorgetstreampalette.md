@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext::VideoProcessorGetStreamPalette
+ - ID3D11VideoContext.VideoProcessorGetStreamPalette
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamPalette
@@ -77,4 +77,3 @@ This method applies only to input streams that have a palettized color format. P
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-

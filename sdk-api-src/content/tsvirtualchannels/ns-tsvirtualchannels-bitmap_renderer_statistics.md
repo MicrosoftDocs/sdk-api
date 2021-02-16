@@ -46,8 +46,6 @@ api_type:
 api_location:
  - tsvirtualchannels.h
 api_name:
- - __BITMAP_RENDERER_STATISTICS
- - PBITMAP_RENDERER_STATISTICS
  - BITMAP_RENDERER_STATISTICS
 ---
 
@@ -71,4 +69,3 @@ The number of frames dropped.
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtsbitmaprenderer-getrendererstatistics">GetRendererStatistics</a>
-

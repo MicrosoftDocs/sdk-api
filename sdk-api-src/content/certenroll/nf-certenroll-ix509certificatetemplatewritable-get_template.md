@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplateWritable::get_Template
+ - IX509CertificateTemplateWritable.Template
+ - IX509CertificateTemplateWritable.get_Template
 ---
 
 # IX509CertificateTemplateWritable::get_Template
@@ -63,4 +64,3 @@ You must call the COM <b>Release</b> method to free the interface pointer when y
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
-

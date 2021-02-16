@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionContext::Commit
+ - ITransactionContext.Commit
 ---
 
 # ITransactionContext::Commit
@@ -114,4 +114,3 @@ When the method returns, whether the transaction commits or aborts, the transact
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontext">ITransactionContext</a>
-

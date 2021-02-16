@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_WRITER_MTOM_ENCODING
  - WS_XML_WRITER_MTOM_ENCODING
 ---
 
@@ -86,4 +85,3 @@ Specifies the mime part that contains the xml.  This corresponds to the "start" 
 ### -field maxInlineByteCount
 
 Specifies the threshold at which the writer will not write base64 encoded text and instead write a binary mime part for binary data.
-

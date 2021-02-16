@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ipxrtdef.h
 api_name:
- - _IPXWAN_IF_INFO
- - PIPXWAN_IF_INFO
  - IPXWAN_IF_INFO
 ---
 
@@ -83,4 +81,3 @@ ADMIN_STATE_ENABLED_ONLY_FOR_OPER_STATE_UP
 
 
 <a href="/windows/desktop/RRAS/understanding-mprinfo-functions-and-information-headers">MprInfo Functions and Information Headers</a>
-

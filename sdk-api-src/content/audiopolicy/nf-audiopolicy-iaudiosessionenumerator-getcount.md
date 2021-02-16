@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionEnumerator::GetCount
+ - IAudioSessionEnumerator.GetCount
 ---
 
 # IAudioSessionEnumerator::GetCount
@@ -65,4 +65,3 @@ If the method succeeds, it returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionenumerator">IAudioSessionEnumerator</a>
-

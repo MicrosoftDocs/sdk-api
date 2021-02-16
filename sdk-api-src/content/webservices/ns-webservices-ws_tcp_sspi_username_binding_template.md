@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
  - WS_TCP_SSPI_USERNAME_BINDING_TEMPLATE
 ---
 
@@ -75,4 +74,3 @@ Application provided SSPI transport security information that cannot be represen
 
 Application provided username/password authentication binding information
           that cannot be represented in policy.
-

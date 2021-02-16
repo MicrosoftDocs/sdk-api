@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_BLT
+ - DdBlt
 ---
 
 ## -description
@@ -72,4 +72,3 @@ When performing transparent (color keyed) blts, drivers should ignore any unused
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_bltdata">DD_BLTDATA</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumDesktopsA
  - winuser/EnumDesktopsA
- - EnumDesktops
- - winuser/EnumDesktops
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - EnumDesktopsA
  - EnumDesktops
+ - EnumDesktopsA
+ - EnumDesktopsW
 ---
 
 # EnumDesktopsA function
@@ -124,4 +123,3 @@ The
 
 
 <a href="/windows/desktop/winstation/window-station-and-desktop-functions">Window Station and Desktop Functions</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHCreateDirectoryExW
  - shlobj_core/SHCreateDirectoryExW
- - SHCreateDirectoryEx
- - shlobj_core/SHCreateDirectoryEx
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
  - Windows.Storage.dll
 api_name:
- - SHCreateDirectoryExW
  - SHCreateDirectoryEx
+ - SHCreateDirectoryExA
+ - SHCreateDirectoryExW
 ---
 
 # SHCreateDirectoryExW function
@@ -181,4 +180,3 @@ This function creates a file system folder whose fully qualified path is given b
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedirectory">SHCreateDirectory</a>
-

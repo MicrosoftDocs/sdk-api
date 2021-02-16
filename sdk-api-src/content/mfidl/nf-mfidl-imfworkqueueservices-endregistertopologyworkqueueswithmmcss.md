@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS
+ - IMFWorkQueueServices.EndRegisterTopologyWorkQueuesWithMMCSS
 ---
 
 # IMFWorkQueueServices::EndRegisterTopologyWorkQueuesWithMMCSS
@@ -88,4 +88,3 @@ Call this method when the <a href="/windows/desktop/api/mfidl/nf-mfidl-imfworkqu
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-

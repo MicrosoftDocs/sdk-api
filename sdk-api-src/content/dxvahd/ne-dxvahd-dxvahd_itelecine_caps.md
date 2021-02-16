@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_ITELECINE_CAPS
  - DXVAHD_ITELECINE_CAPS
 ---
 
@@ -108,4 +107,3 @@ The video processor can reverse other telecine modes not listed here.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

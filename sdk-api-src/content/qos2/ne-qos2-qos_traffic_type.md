@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qos2.h
 api_name:
- - _QOS_TRAFFIC_TYPE
- - PQOS_TRAFFIC_TYPE
  - QOS_TRAFFIC_TYPE
 ---
 
@@ -117,4 +115,3 @@ Sent traffic will contain a DSCP mark with a value of 0x38 and an 802.1p tag wit
 
 
 <a href="/previous-versions/windows/desktop/qos/quality-windows-audio-video-experience--qwave-">Quality Windows Audio/Video Experience (qWAVE)</a>
-

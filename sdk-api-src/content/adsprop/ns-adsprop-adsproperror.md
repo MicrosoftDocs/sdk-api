@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Adsprop.h
 api_name:
- - _ADSPROPERROR
- - PADSPROPERROR
  - ADSPROPERROR
 ---
 
@@ -93,4 +91,3 @@ Pointer to a NULL-terminated Unicode string that contains the error message to b
 
 
 <a href="/windows/desktop/AD/wm-adsprop-notify-error">WM_ADSPROP_NOTIFY_ERROR</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISmimeCapability::Initialize
+ - ISmimeCapability.Initialize
 ---
 
 # ISmimeCapability::Initialize
@@ -197,4 +197,3 @@ The key length that you specify for RC2 and RC4 algorithms must be consistent wi
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
-

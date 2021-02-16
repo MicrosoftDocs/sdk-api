@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer::SetSyncTolerance
+ - IMFASFMultiplexer.SetSyncTolerance
 ---
 
 # IMFASFMultiplexer::SetSyncTolerance
@@ -92,4 +92,3 @@ The synchronization tolerance is the maximum difference in presentation times at
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-

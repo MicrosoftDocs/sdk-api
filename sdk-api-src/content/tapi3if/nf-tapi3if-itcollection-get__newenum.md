@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCollection::get__NewEnum
+ - ITCollection.get__NewEnum
 ---
 
 # ITCollection::get__NewEnum
@@ -115,4 +115,3 @@ If you are programming in Visual Basic, you do not need to call this method to e
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
-

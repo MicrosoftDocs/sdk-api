@@ -44,7 +44,6 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - _OPM_CONNECTED_HDCP_DEVICE_INFORMATION
  - OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ---
 
@@ -125,4 +124,3 @@ The layout of this structure is identical to the <a href="/windows/desktop/api/d
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-

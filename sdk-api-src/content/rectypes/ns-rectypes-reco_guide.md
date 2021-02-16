@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - tagRECO_GUIDE
  - RECO_GUIDE
 ---
 
@@ -236,4 +235,3 @@ The following illustration represents a single box from the previous illustratio
 
 
 <a href="/windows/desktop/api/recapis/nf-recapis-setguide">SetGuide Function</a>
-

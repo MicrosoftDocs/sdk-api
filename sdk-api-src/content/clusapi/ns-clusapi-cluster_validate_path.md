@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_VALIDATE_PATH
- - PCLUSTER_VALIDATE_PATH
  - CLUSTER_VALIDATE_PATH
 ---
 

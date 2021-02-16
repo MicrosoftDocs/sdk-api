@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportContent::get_Namespace
+ - IWdsTransportContent.Namespace
+ - IWdsTransportContent.get_Namespace
 ---
 
 # IWdsTransportContent::get_Namespace
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
-

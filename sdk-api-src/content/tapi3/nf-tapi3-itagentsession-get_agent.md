@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentSession::get_Agent
+ - ITAgentSession.get_Agent
 ---
 
 # ITAgentSession::get_Agent
@@ -118,4 +118,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
-

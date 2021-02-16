@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase::TransactionTimeout
+ - IServiceTransactionConfigBase.TransactionTimeout
 ---
 
 # IServiceTransactionConfigBase::TransactionTimeout
@@ -69,4 +69,3 @@ If the transaction does not either commit or abort within the transaction time-o
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
-

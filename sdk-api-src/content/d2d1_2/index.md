@@ -9,8 +9,6 @@ tech.root: direct2d
 f1_keywords:
  - d2d1_2
  - d2d1_2/d2d1_2
-api_name:
- - d2d1_2
 ---
 
 # D2D1_2.h header

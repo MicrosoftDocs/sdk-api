@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponent::get_DescLangID
+ - IComponent.get_DescLangID
 ---
 
 # IComponent::get_DescLangID
@@ -75,4 +75,3 @@ To get the language of the stream content, call the <a href="/previous-versions/
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_description">IComponent::get_Description</a>
-

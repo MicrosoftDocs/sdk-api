@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - ABORTPROC
+ - AbortProc
 ---
 
 # ABORTPROC callback function
@@ -96,4 +96,3 @@ If the <i>iError</i> parameter is SP_OUTOFDISK, the application need not cancel 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setabortproc">SetAbortProc</a>
-

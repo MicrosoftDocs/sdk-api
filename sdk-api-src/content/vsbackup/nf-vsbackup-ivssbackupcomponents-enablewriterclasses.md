@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::EnableWriterClasses
+ - IVssBackupComponents.EnableWriterClasses
 ---
 
 # IVssBackupComponents::EnableWriterClasses
@@ -156,4 +156,3 @@ If you call <b>EnableWriterClasses</b>, you must do so before calling the <a hre
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-disablewriterinstances">IVssBackupComponents::DisableWriterInstances</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextProperties::GetProperty
+ - IContextProperties.GetProperty
 ---
 
 # IContextProperties::GetProperty
@@ -88,4 +88,3 @@ To retrieve an IIS object, call <a href="/windows/desktop/api/unknwn/nf-unknwn-i
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI::IsModifiable
+ - ICodecAPI.IsModifiable
 ---
 
 # ICodecAPI::IsModifiable
@@ -107,4 +107,3 @@ Any errors besides those in the previous table indicate an inability to process 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-

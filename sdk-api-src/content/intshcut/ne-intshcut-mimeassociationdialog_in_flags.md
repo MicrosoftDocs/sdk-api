@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Intshcut.h
 api_name:
- - mimeassociationdialog_in_flags
  - MIMEASSOCIATIONDIALOG_IN_FLAGS
 ---
 
@@ -64,4 +63,3 @@ If this bit is set, the selected application is registered as the handler for th
 ## -remarks
 
 An application is registered only if this flag is set and the user indicates that a persistent association is to be made.
-

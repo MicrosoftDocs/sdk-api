@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced2::GetSaveAsProgress
+ - IWMReaderAdvanced2.GetSaveAsProgress
 ---
 
 # IWMReaderAdvanced2::GetSaveAsProgress
@@ -74,4 +74,3 @@ When saving a file, the operation can take some time. This call must be made bet
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2">IWMReaderAdvanced2 Interface</a>
-

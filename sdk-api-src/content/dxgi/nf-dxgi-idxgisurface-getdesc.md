@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISurface::GetDesc
+ - IDXGISurface.GetDesc
 ---
 
 # IDXGISurface::GetDesc
@@ -70,4 +70,3 @@ Returns S_OK if successful; otherwise, returns one of the error codes that are d
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>
-

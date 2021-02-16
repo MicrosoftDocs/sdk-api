@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextView::GetTextExt
+ - ITfContextView.GetTextExt
 ---
 
 # ITfContextView::GetTextExt
@@ -126,4 +126,3 @@ If the document window is minimized, or if the specified text is not currently v
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfcontextview">ITfContextView</a>
-

@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - _SyncProviderConfigUIConfiguration
- - SyncProviderConfigUIConfiguration
+ - SyncProviderConfigUI
 ---
 
 # SyncProviderConfigUIConfiguration structure
@@ -111,4 +110,3 @@ Reserved for future use. At this time, the value should always be <b>FALSE</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-registration-structures">Windows Sync Registration Structures</a>
-

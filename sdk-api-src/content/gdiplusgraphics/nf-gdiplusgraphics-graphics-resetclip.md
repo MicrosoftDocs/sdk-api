@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::ResetClip
+ - Graphics.ResetClip
 ---
 
 # Graphics::ResetClip
@@ -125,4 +125,3 @@ VOID Example_ResetClip(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-region-isempty">IsEmpty</a>
-

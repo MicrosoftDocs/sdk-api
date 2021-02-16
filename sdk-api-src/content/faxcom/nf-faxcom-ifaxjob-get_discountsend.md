@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_DiscountSend
+ - IFaxJob.DiscountSend
+ - IFaxJob.get_DiscountSend
 ---
 
 # IFaxJob::get_DiscountSend
@@ -94,4 +95,3 @@ To determine the period during which the discount rate applies, you can use the 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-jobs">Managing Fax Jobs</a>
-

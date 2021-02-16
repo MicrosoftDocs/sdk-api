@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetDcOpenW
  - dsgetdc/DsGetDcOpenW
- - DsGetDcOpen
- - dsgetdc/DsGetDcOpen
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Netapi32.dll
 api_name:
- - DsGetDcOpenW
  - DsGetDcOpen
+ - DsGetDcOpenA
+ - DsGetDcOpenW
 ---
 
 # DsGetDcOpenW function
@@ -188,4 +187,3 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error otherwise. Po
 
 > [!NOTE]
 > The dsgetdc.h header defines DsGetDcOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

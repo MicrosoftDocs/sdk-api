@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IScrollProvider::get_VerticalViewSize
+ - IScrollProvider.VerticalViewSize
+ - IScrollProvider.get_VerticalViewSize
 ---
 
 # IScrollProvider::get_VerticalViewSize
@@ -64,4 +65,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

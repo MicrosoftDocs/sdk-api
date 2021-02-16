@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_EVENT_METADATA_PROPERTY_ID
  - EVT_EVENT_METADATA_PROPERTY_ID
 ---
 
@@ -108,4 +107,3 @@ The channel, level, opcode, task, and keyword properties return the value of the
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtgeteventmetadataproperty">EvtGetEventMetadataProperty</a>
-

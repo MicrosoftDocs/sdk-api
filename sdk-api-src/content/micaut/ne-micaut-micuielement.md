@@ -44,7 +44,6 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - __MIDL___MIDL_itf_micaut_0000_0000_0001
  - MICUIELEMENT
 ---
 
@@ -104,4 +103,3 @@ This enumeration is used in custom painting.
 ## -see-also
 
 <a href="/windows/desktop/tablet/math-input-control-reference">Math Input Control Reference</a>
-

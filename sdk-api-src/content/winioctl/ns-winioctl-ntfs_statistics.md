@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _NTFS_STATISTICS
- - PNTFS_STATISTICS
  - NTFS_STATISTICS
 ---
 
@@ -360,4 +358,3 @@ For additional statistics that are only available with Windows 10, use <a href=
 
 
 <a href="/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency">QueryPerformanceFrequency</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_EVENT
  - WSD_EVENT
 ---
 
@@ -84,4 +83,3 @@ Reference to a <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_operation"
 ### -field MessageParameters
 
 Message transmission parameters.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo::GetDllEntry
+ - ITypeInfo.GetDllEntry
 ---
 
 # ITypeInfo::GetDllEntry
@@ -136,4 +136,3 @@ The caller should use <a href="/previous-versions/windows/desktop/api/oleauto/nf
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-

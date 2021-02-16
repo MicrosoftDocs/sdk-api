@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioclient.h
 api_name:
- - IAudioClient3::InitializeSharedAudioStream
+ - IAudioClient3.InitializeSharedAudioStream
 ---
 
 # IAudioClient3::InitializeSharedAudioStream
@@ -286,4 +286,3 @@ They would NOT include 4 (which is smaller than the minimum allowed value) or 98
 
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
-

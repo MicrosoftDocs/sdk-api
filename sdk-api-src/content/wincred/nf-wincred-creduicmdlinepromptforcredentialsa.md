@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CredUICmdLinePromptForCredentialsA
  - wincred/CredUICmdLinePromptForCredentialsA
- - CredUICmdLinePromptForCredentials
- - wincred/CredUICmdLinePromptForCredentials
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - Ext-MS-Win-security-credui-l1-1-1.dll
  - AnalogCredUI.dll
 api_name:
- - CredUICmdLinePromptForCredentialsA
  - CredUICmdLinePromptForCredentials
+ - CredUICmdLinePromptForCredentialsA
+ - CredUICmdLinePromptForCredentialsW
 ---
 
 # CredUICmdLinePromptForCredentialsA function
@@ -412,4 +411,3 @@ Credentials are stored in the credential manager based on target name. Each targ
 
 
 <a href="/windows/desktop/api/winnetwk/nf-winnetwk-wnetaddconnectiona">WNetAddConnection</a>
-

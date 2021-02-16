@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwMgr::IsPortAllowed
+ - INetFwMgr.IsPortAllowed
 ---
 
 # INetFwMgr::IsPortAllowed
@@ -241,4 +241,3 @@ Because of the many factors in determining whether a port is allowed, the more s
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>
-

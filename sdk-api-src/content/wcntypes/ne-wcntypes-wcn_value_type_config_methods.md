@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
- - tagWCN_VALUE_TYPE_CONFIG_METHODS
  - WCN_VALUE_TYPE_CONFIG_METHODS
 ---
 
@@ -148,4 +147,3 @@ Physical display configuration is supported. To authenticate with the default pa
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
-

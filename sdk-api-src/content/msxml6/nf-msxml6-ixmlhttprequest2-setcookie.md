@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::SetCookie
+ - IXMLHTTPRequest2.SetCookie
 ---
 
 # IXMLHTTPRequest2::SetCookie
@@ -170,4 +170,3 @@ When used in a Windows desktop application, the <b>SetCookie</b> method  by defa
 
 
 <a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_cookie_state">XHR_COOKIE_STATE</a>
-

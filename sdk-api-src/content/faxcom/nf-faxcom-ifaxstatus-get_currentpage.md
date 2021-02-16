@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_CurrentPage
+ - IFaxStatus.CurrentPage
+ - IFaxStatus.get_CurrentPage
 ---
 
 # IFaxStatus::get_CurrentPage
@@ -85,4 +86,3 @@ You can use the <b>CurrentPage</b> property of a <a href="/previous-versions/win
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxstatus-get-pagecount-vb">IFaxStatus::get_PageCount</a>
-

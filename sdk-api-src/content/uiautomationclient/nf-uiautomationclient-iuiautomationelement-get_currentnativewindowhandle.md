@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentNativeWindowHandle
+ - IUIAutomationElement.CurrentNativeWindowHandle
+ - IUIAutomationElement.get_CurrentNativeWindowHandle
 ---
 
 # IUIAutomationElement::get_CurrentNativeWindowHandle
@@ -71,4 +72,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleVerb::GetDefaultVerb
+ - IConsoleVerb.GetDefaultVerb
 ---
 
 # IConsoleVerb::GetDefaultVerb
@@ -79,4 +79,3 @@ The
 
 
 <a href="/windows/desktop/api/mmc/ne-mmc-mmc_console_verb">MMC_CONSOLE_VERB</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_VCT::GetRecordCarrierFrequency
+ - IATSC_VCT.GetRecordCarrierFrequency
 ---
 
 # IATSC_VCT::GetRecordCarrierFrequency
@@ -103,4 +103,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>
-

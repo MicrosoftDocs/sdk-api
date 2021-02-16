@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes::put_RasterOperation
+ - IInkDrawingAttributes.RasterOperation
+ - IInkDrawingAttributes.get_RasterOperation
+ - IInkDrawingAttributes.put_RasterOperation
+ - InkDrawingAttributes.get_RasterOperation
+ - InkDrawingAttributes.put_RasterOperation
 ---
 
 # IInkDrawingAttributes::put_RasterOperation
@@ -80,4 +84,3 @@ When the <b>RasterOperation</b> property is set to anything other than <a href="
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkrasteroperation">InkRasterOperation Enumeration</a>
-

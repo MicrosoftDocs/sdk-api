@@ -46,8 +46,6 @@ api_type:
 api_location:
  - TxfW32.h
 api_name:
- - _TXF_LOG_RECORD_BASE
- - PTXF_LOG_RECORD_BASE
  - TXF_LOG_RECORD_BASE
 ---
 
@@ -133,4 +131,3 @@ The length of this record, in bytes.
 
 
 <a href="/windows/desktop/api/txfw32/nf-txfw32-txflogreadrecords">TxfLogReadRecords</a>
-

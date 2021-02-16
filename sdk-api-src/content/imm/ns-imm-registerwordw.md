@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Imm.h
 api_name:
- - tagREGISTERWORDW
- - PREGISTERWORDW
+ - REGISTERWORD
+ - REGISTERWORDA
  - REGISTERWORDW
 ---
 
@@ -90,4 +90,3 @@ The application can pass this structure to the <a href="/windows/desktop/api/imm
 
 
 <a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
-

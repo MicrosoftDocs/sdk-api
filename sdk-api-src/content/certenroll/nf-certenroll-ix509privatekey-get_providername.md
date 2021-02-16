@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::get_ProviderName
+ - IX509PrivateKey.ProviderName
+ - IX509PrivateKey.get_ProviderName
+ - IX509PrivateKey.put_ProviderName
 ---
 
 # IX509PrivateKey::get_ProviderName
@@ -91,4 +93,3 @@ If you set the <b>ProviderName</b> property, we recommend that you do not set th
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

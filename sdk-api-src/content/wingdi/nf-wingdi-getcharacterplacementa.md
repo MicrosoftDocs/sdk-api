@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetCharacterPlacementA
  - wingdi/GetCharacterPlacementA
- - GetCharacterPlacement
- - wingdi/GetCharacterPlacement
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetCharacterPlacementA
  - GetCharacterPlacement
+ - GetCharacterPlacementA
+ - GetCharacterPlacementW
 ---
 
 # GetCharacterPlacementA function
@@ -340,4 +339,3 @@ If the logical width is less than the width of the leading character in the inpu
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-gettextmetrics">GetTextMetrics</a>
-

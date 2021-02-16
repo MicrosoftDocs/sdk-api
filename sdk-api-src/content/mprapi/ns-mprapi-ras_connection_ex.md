@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _RAS_CONNECTION_EX
- - PRAS_CONNECTION_EX
  - RAS_CONNECTION_EX
 ---
 
@@ -285,4 +283,3 @@ A handle to the RAS connection interface.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-

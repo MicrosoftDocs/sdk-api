@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IFileDialogControlEvents::OnControlActivating
+ - IFileDialogControlEvents.OnControlActivating
 ---
 
 # IFileDialogControlEvents::OnControlActivating
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 In response to this notification, an application can update the contents of the menu or list about to be displayed, based on the current state of the dialog.
-

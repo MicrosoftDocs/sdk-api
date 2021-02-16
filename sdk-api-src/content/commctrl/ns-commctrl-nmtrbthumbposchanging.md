@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagTRBTHUMBPOSCHANGING
  - NMTRBTHUMBPOSCHANGING
 ---
 
@@ -75,4 +74,3 @@ Type: <b>int</b>
 
 Type of movement as one of the following values: TB_LINEUP, TB_LINEDOWN, TB_PAGEUP, TB_PAGEDOWN, TB_THUMBPOSITION, TB_THUMBTRACK,
                 TB_TOP, TB_BOTTOM, or TB_ENDTRACK.
-

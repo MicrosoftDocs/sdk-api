@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_RSA_SSA_PSS_PARAMETERS
- - PCRYPT_RSA_SSA_PSS_PARAMETERS
  - CRYPT_RSA_SSA_PSS_PARAMETERS
 ---
 
@@ -75,4 +73,3 @@ The octet length of the salt. If this is not set for encoding, the default salt 
 ### -field dwTrailerField
 
 The trailer field number. If this is not set for encoding, the default is <b>PKCS_RSA_SSA_PSS_TRAILER_FIELD_BC</b>.
-

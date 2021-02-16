@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDistributorNotify::SetSyncSource
+ - IDistributorNotify.SetSyncSource
 ---
 
 # IDistributorNotify::SetSyncSource
@@ -74,4 +74,3 @@ This method is called before the filters are notified. Make sure to use <b>AddRe
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
-

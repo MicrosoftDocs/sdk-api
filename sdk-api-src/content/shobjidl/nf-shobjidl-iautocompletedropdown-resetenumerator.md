@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Browseui.dll
 api_name:
- - IAutoCompleteDropDown::ResetEnumerator
+ - IAutoCompleteDropDown.ResetEnumerator
 ---
 
 # IAutoCompleteDropDown::ResetEnumerator
@@ -67,4 +67,3 @@ The drop-down list is always rebuilt before it is displayed, so there is no reas
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-iautocompletedropdown">IAutoCompleteDropDown</a>
-

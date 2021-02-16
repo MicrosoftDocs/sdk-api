@@ -44,7 +44,6 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
- - _EAP_METHOD_PROPERTY_VALUE_STRING
  - EAP_METHOD_PROPERTY_VALUE_STRING
 ---
 
@@ -80,4 +79,3 @@ Pointer to a byte buffer than contains the data value of an EAP method property.
 
 
 <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
-

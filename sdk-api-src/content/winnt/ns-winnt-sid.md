@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SID
- - PISID
  - SID
 ---
 
@@ -126,4 +124,3 @@ Applications should not modify a SID directly. To create and manipulate a securi
 
 
 <a href="/windows/desktop/SecAuthZ/sid-components">SID Components</a>
-

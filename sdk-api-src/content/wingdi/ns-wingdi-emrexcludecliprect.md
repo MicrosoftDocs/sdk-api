@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMREXCLUDECLIPRECT
- - PEMREXCLUDECLIPRECT
  - EMREXCLUDECLIPRECT
 ---
 
@@ -75,4 +73,3 @@ Clipping rectangle in logical units.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

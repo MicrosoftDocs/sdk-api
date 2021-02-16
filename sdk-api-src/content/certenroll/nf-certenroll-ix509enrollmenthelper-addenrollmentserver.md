@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentHelper::AddEnrollmentServer
+ - IX509EnrollmentHelper.AddEnrollmentServer
 ---
 
 # IX509EnrollmentHelper::AddEnrollmentServer
@@ -193,4 +193,3 @@ The <i>strCredential</i> and <i>strPassword</i> arguments change depending on th
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
-

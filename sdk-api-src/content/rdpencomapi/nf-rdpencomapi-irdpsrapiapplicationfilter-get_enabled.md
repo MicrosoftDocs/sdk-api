@@ -42,7 +42,10 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIApplicationFilter::get_Enabled
+ - IRDPSRAPIApplicationFilter.Enabled
+ - IRDPSRAPIApplicationFilter.get_Enabled
+ - IRDPSRAPIApplicationFilter.put_Enabled
+ - RDPSRAPIApplicationFilter.Enabled
 ---
 
 # IRDPSRAPIApplicationFilter::get_Enabled
@@ -59,4 +62,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiapplicationfilter">IRDPSRAPIApplicationFilter</a>
-

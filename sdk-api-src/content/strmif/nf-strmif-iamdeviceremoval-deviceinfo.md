@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDeviceRemoval::DeviceInfo
+ - IAMDeviceRemoval.DeviceInfo
 ---
 
 # IAMDeviceRemoval::DeviceInfo
@@ -78,4 +78,3 @@ For more information about the device interface classes and device paths, see De
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdeviceremoval">IAMDeviceRemoval Interface</a>
-

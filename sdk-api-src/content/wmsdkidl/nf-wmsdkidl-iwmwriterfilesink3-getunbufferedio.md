@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3::GetUnbufferedIO
+ - IWMWriterFileSink3.GetUnbufferedIO
 ---
 
 # IWMWriterFileSink3::GetUnbufferedIO
@@ -101,4 +101,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink3-setunbufferedio">IWMWriterFileSink3::SetUnbufferedIO</a>
-

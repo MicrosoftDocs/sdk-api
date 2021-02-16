@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ocidl.h
 api_name:
- - IEnumConnections::Skip
+ - IEnumConnections.Skip
 ---
 
 # IEnumConnections::Skip
@@ -65,4 +65,3 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
-

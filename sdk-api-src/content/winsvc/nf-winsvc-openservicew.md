@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OpenServiceW
  - winsvc/OpenServiceW
- - OpenService
- - winsvc/OpenService
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - OpenServiceW
  - OpenService
+ - OpenServiceA
+ - OpenServiceW
 ---
 
 # OpenServiceW function
@@ -225,4 +224,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
-

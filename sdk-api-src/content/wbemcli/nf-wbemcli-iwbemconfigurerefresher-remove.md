@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher::Remove
+ - IWbemConfigureRefresher.Remove
 ---
 
 # IWbemConfigureRefresher::Remove
@@ -92,4 +92,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
-

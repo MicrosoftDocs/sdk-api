@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::AddRecord
+ - IWMMutualExclusion2.AddRecord
 ---
 
 # IWMMutualExclusion2::AddRecord
@@ -120,4 +120,3 @@ Record numbers, which are used by other methods, are assigned to records sequent
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-setname">IWMMutualExclusion2::SetName</a>
-

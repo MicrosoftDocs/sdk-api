@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpmib.h
 api_name:
- - _MIB_TCPSTATS2
- - PMIB_TCPSTATS2
  - MIB_TCPSTATS2
 ---
 
@@ -212,4 +210,3 @@ Van Jacobson's Algorithm
 The <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-gettcpstatisticsex2">GetTcpStatisticsEx2</a> function returns a pointer to a <b>MIB_TCPSTATS2</b> structure. 
 
  This  structure is defined in the <i>Tcpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Tcpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Tcpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
-

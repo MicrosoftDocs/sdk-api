@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::ExecQuery
+ - Provider.ExecQuery
 ---
 
 # Provider::ExecQuery
@@ -127,4 +127,3 @@ These methods allow the endpoints to skip populating  resource-intensive or unne
 </li>
 <li>Make sure any association endpoint classes support per-property <b>Get</b> methods. For more information, see <a href="/windows/desktop/WmiSdk/supporting-partial-instance-operations">Supporting Partial-Instance Operations</a>. For more information about the query parameter, see <a href="/windows/desktop/api/frquery/nl-frquery-cframeworkquery">CFrameworkQuery</a>.</li>
 </ul>
-

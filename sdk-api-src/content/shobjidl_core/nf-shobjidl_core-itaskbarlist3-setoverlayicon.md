@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3::SetOverlayIcon
+ - ITaskbarList3.SetOverlayIcon
 ---
 
 # ITaskbarList3::SetOverlayIcon
@@ -120,4 +120,3 @@ If Windows Explorer shuts down unexpectedly, overlays are not restored when Wind
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

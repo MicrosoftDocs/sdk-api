@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _IMAGE_DEBUG_DIRECTORY
- - PIMAGE_DEBUG_DIRECTORY
  - IMAGE_DEBUG_DIRECTORY
 ---
 
@@ -192,4 +190,3 @@ A file pointer to the debugging information.
 ## -see-also
 
 <a href="/windows/desktop/Debug/imagehlp-structures">ImageHlp Structures</a>
-

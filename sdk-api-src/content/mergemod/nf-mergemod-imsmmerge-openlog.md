@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge::OpenLog
+ - IMsmMerge.OpenLog
 ---
 
 # IMsmMerge::OpenLog
@@ -116,4 +116,3 @@ Clients may send their own messages to this log file using <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

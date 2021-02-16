@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0002_0001
  - UI_ANIMATION_STORYBOARD_STATUS
 ---
 
@@ -112,4 +111,3 @@ The following diagram illustrates the transitions between these states.
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboardeventhandler-onstoryboardstatuschanged">IUIAnimationStoryboardEventHandler::OnStoryboardStatusChanged</a>
-

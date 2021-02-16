@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - __MIDL___MIDL_itf_vmr9_0000_0010_0001
  - VMR9Mode
 ---
 
@@ -88,4 +87,3 @@ For a description of the various VMR-9 modes, see <a href="/windows/desktop/Dire
 
 
 <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode">IVMRFilterConfig9::SetRenderingMode</a>
-

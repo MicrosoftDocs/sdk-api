@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization::Clone
+ - IMFASFStreamPrioritization.Clone
 ---
 
 # IMFASFStreamPrioritization::Clone
@@ -90,4 +90,3 @@ The new object is completely independent of the original.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
-

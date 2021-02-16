@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_COUNTER_IDENTITY
- - PPERF_COUNTER_IDENTITY
- - PERF_COUNTER_IDENTITY
+ - PERF_COUNTER_IDENTITY, *PPERF_COUNTER_IDENTITY
 ---
 
 # PERF_COUNTER_IDENTITY structure
@@ -95,4 +93,3 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/perflib/nc-perflib-perflibrequest">ControlCallback</a>
-

@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoMixerBitmap::UpdateAlphaBitmapParameters
+ - IMFVideoMixerBitmap.UpdateAlphaBitmapParameters
 ---
 
 # IMFVideoMixerBitmap::UpdateAlphaBitmapParameters
@@ -114,4 +114,3 @@ The video must be playing for the changes to take effect.
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideomixerbitmap">IMFVideoMixerBitmap</a>
-

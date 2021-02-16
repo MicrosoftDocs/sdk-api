@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextSelection::TypeText
+ - ITextSelection.TypeText
 ---
 
 # ITextSelection::TypeText
@@ -144,4 +144,3 @@ This method types the string given by <i>bstr</i> at this selection as if someon
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetState
+ - IBackgroundCopyJob.GetState
 ---
 
 # IBackgroundCopyJob::GetState
@@ -104,4 +104,3 @@ See the example code for the [IBackgroundCopyManager::GetJob](./nf-bits-ibackgro
 ## -see-also
 
 [BG_JOB_STATE](/windows/desktop/api/bits/ne-bits-bg_job_state), [Determining the status of a job](/windows/desktop/Bits/determining-the-status-of-a-job), [IBackgroundCopyCallback](/windows/desktop/api/bits/nn-bits-ibackgroundcopycallback)
-

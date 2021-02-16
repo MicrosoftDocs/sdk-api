@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmFileStreamingMode
  - FsrmFileStreamingMode
 ---
 
@@ -76,4 +75,3 @@ Use the streaming interface for writing to the  file.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfilestreaminterface">IFsrmPropertyBag::GetFileStreamInterface</a>
-

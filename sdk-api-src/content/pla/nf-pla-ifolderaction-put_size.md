@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IFolderAction::put_Size
+ - IFolderAction.Size
+ - IFolderAction.get_Size
+ - IFolderAction.put_Size
 ---
 
 # IFolderAction::put_Size
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayManager::RefreshOverlayImages
+ - IShellIconOverlayManager.RefreshOverlayImages
 ---
 
 # IShellIconOverlayManager::RefreshOverlayImages
@@ -85,4 +85,3 @@ This method always returns S_OK.
 
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>
-

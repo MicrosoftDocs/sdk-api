@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont::GetSuperscript
+ - ITextFont.GetSuperscript
 ---
 
 # ITextFont::GetSuperscript
@@ -141,4 +141,3 @@ This property corresponds to the <b>CFE_SUPERSCRIPT</b> effect described in the 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

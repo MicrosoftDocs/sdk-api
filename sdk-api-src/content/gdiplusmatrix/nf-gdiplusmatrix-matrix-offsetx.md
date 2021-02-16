@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::OffsetX
+ - Matrix.OffsetX
 ---
 
 # Matrix::OffsetX
@@ -84,4 +84,3 @@ This method returns the horizontal translation value of this matrix, which is th
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

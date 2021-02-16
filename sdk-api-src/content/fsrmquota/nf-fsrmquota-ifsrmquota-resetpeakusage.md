@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuota::ResetPeakUsage
+ - IFsrmQuota.ResetPeakUsage
 ---
 
 # IFsrmQuota::ResetPeakUsage
@@ -69,4 +69,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

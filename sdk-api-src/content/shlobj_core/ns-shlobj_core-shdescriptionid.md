@@ -46,8 +46,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - _SHDESCRIPTIONID
- - LPSHDESCRIPTIONID
  - SHDESCRIPTIONID
 ---
 
@@ -197,4 +195,3 @@ The item is an unidentified network resource.
 Type: <b>CLSID</b>
 
 Receives the CLSID of the object to which the item belongs.
-

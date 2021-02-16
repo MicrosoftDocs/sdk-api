@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAudioStream::FreeBuffer
+ - IRDPSRAPIAudioStream.FreeBuffer
 ---
 
 # IRDPSRAPIAudioStream::FreeBuffer
@@ -61,4 +61,3 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiaudiostream">IRDPSRAPIAudioStream</a>
-

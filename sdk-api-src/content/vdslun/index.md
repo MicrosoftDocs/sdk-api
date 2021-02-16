@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vdslun
  - vdslun/vdslun
-api_name:
- - vdslun
 ---
 
 # Vdslun.h header

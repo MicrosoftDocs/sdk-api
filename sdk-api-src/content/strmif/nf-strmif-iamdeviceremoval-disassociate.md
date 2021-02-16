@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDeviceRemoval::Disassociate
+ - IAMDeviceRemoval.Disassociate
 ---
 
 # IAMDeviceRemoval::Disassociate
@@ -66,4 +66,3 @@ If the method succeeds, it returns S_OK. Otherwise it returns an <b>HRESULT</b> 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdeviceremoval">IAMDeviceRemoval Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem::Remove
+ - IFsiDirectoryItem.Remove
 ---
 
 # IFsiDirectoryItem::Remove
@@ -182,4 +182,3 @@ This method is only callable on directory items present in the file system image
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsidirectoryitem-removetree">IFsiDirectoryItem::RemoveTree</a>
-

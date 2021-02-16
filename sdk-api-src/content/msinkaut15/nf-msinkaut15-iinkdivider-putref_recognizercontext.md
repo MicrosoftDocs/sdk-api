@@ -43,7 +43,9 @@ api_location:
  - Inkdiv.dll
  - Inkdiv.dll.dll
 api_name:
- - IInkDivider::putref_RecognizerContext
+ - IInkDivider.RecognizerContext
+ - IInkDivider.get_RecognizerContext
+ - InkDivider.get_RecognizerContext
 ---
 
 # IInkDivider::putref_RecognizerContext
@@ -85,4 +87,3 @@ If the value of this property is <b>NULL</b> when strokes are assigned to the <a
 
 
 <a href="/windows/desktop/tablet/inkrecognizercontext-class">InkRecognizerContext Class</a>
-

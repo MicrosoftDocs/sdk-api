@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkLineInfo::Recognize
+ - IInkLineInfo.Recognize
 ---
 
 # IInkLineInfo::Recognize
@@ -80,4 +80,3 @@ The method is not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinklineinfo">IInkLineInfo</a>
-

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::HitTestCircle
+ - IInkDisp.HitTestCircle
 ---
 
 # IInkDisp::HitTestCircle
@@ -168,4 +168,3 @@ The application must always pass in a destination pointer for the resulting coll
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

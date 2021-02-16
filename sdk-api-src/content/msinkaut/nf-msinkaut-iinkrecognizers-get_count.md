@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizers::get_Count
+ - IInkRecognizers.Count
+ - IInkRecognizers.get_Count
+ - InkRecognizers.get_Count
 ---
 
 # IInkRecognizers::get_Count
@@ -66,4 +68,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)">InkRecognizers Collection</a>
-

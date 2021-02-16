@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.dll
 api_name:
- - IMILBitmapEffectRenderContext::SetOutputPixelFormat
+ - IMILBitmapEffectRenderContext.SetOutputPixelFormat
 ---
 
 # IMILBitmapEffectRenderContext::SetOutputPixelFormat

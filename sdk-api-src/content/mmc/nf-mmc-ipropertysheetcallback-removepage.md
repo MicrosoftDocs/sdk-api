@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetCallback::RemovePage
+ - IPropertySheetCallback.RemovePage
 ---
 
 # IPropertySheetCallback::RemovePage
@@ -69,4 +69,3 @@ RemovePage can be used only for pages that the snap-in has added.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetcallback">IPropertySheetCallback</a>
-

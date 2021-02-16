@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Objsel.h
 api_name:
- - _DS_SELECTION
- - PDS_SELECTION
  - DS_SELECTION
 ---
 
@@ -115,4 +113,3 @@ Contains one, or more, of the <b>DSOP_SCOPE_TYPE_*</b> that indicate the type of
 
 
 <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-

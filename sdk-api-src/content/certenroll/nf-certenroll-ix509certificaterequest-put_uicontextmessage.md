@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::put_UIContextMessage
+ - IX509CertificateRequest.UIContextMessage
+ - IX509CertificateRequest.get_UIContextMessage
+ - IX509CertificateRequest.put_UIContextMessage
 ---
 
 # IX509CertificateRequest::put_UIContextMessage
@@ -85,4 +87,3 @@ The context string should include additional information about an action. For ex
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

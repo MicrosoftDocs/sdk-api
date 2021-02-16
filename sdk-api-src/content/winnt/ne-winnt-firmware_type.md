@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _FIRMWARE_TYPE
- - PFIRMWARE_TYPE
  - FIRMWARE_TYPE
 ---
 
@@ -79,4 +77,3 @@ Not implemented.
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfirmwaretype">GetFirmwareType</a>
-

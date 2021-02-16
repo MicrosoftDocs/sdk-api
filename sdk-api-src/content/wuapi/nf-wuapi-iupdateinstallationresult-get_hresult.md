@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstallationResult::get_HResult
+ - IUpdateInstallationResult.HResult
+ - IUpdateInstallationResult.get_HResult
 ---
 
 # IUpdateInstallationResult::get_HResult
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstallationresult">IUpdateInstallationResult</a>
-

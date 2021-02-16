@@ -26,8 +26,6 @@ req.unicode-ansi:
 f1_keywords:
  - SetEnvironmentStringsW
  - processenv/SetEnvironmentStringsW
- - SetEnvironmentStrings
- - processenv/SetEnvironmentStrings
 dev_langs:
  - c++
 topic_type:
@@ -38,7 +36,6 @@ api_location:
  - api-ms-win-core-processenvironment-l1-1-0.dll
 api_name:
  - SetEnvironmentStringsW
- - SetEnvironmentStrings
 ---
 
 ## -description

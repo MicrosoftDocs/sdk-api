@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
- - tcp_reserve_port_range
- - PTCP_RESERVE_PORT_RANGE
  - TCP_RESERVE_PORT_RANGE
 ---
 
@@ -75,4 +73,3 @@ Value for the lower bound of the TCP port range to reserve.
 
 
 <a href="/windows/desktop/IpHlp/ip-helper-structures">IP Helper Structures</a>
-

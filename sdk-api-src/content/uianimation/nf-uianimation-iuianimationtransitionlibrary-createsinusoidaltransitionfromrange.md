@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
+ - IUIAnimationTransitionLibrary.CreateSinusoidalTransitionFromRange
 ---
 
 # IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange
@@ -97,4 +97,3 @@ The figure below shows the effect on an animation variable over time during a si
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary">IUIAnimationTransitionLibrary</a>
-

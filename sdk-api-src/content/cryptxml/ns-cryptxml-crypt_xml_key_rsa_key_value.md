@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_KEY_RSA_KEY_VALUE
  - CRYPT_XML_KEY_RSA_KEY_VALUE
 ---
 
@@ -64,4 +63,3 @@ A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_
 ### -field Exponent
 
 A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_data_blob">CRYPT_XML_DATA_BLOB</a> structure that contains the public key exponent data.
-

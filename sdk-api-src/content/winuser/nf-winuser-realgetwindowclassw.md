@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)
 f1_keywords:
  - RealGetWindowClassW
  - winuser/RealGetWindowClassW
- - RealGetWindowClass
- - winuser/RealGetWindowClass
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +46,9 @@ api_location:
  - minuser.dll
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - RealGetWindowClassW
  - RealGetWindowClass
+ - RealGetWindowClassW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-1 (introduced in Windows 8.1)
 ---
 
 # RealGetWindowClassW function
@@ -91,4 +89,3 @@ If the function fails, the return value is zero. To get extended error informati
 ## -see-also
 
 <a href="/windows/desktop/winmsg/windows">Windows Overview</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob4::SetPeerCachingFlags
+ - IBackgroundCopyJob4.SetPeerCachingFlags
 ---
 
 # IBackgroundCopyJob4::SetPeerCachingFlags
@@ -149,4 +149,3 @@ Setting these flags has meaning only if the peer caching has been enabled by eit
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setconfigurationflags">IBitsPeerCacheAdministration::SetConfigurationFlags</a>
-

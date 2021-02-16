@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncSessionState2::GetSessionErrorStatus
+ - ISyncSessionState2.GetSessionErrorStatus
 ---
 
 # ISyncSessionState2::GetSessionErrorStatus
@@ -99,4 +99,3 @@ Invalid pointer.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate2">ISyncSessionState2 Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IEnumDot11AdHocInterfaces::Reset
+ - IEnumDot11AdHocInterfaces.Reset
 ---
 
 # IEnumDot11AdHocInterfaces::Reset
@@ -90,4 +90,3 @@ The method failed.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-ienumdot11adhocinterfaces">IEnumDot11AdHocInterfaces</a>
-

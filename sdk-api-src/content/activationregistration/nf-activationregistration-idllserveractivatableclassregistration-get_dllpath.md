@@ -42,7 +42,7 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - IDllServerActivatableClassRegistration::get_DllPath
+ - IDllServerActivatableClassRegistration.get_DllPath
 ---
 
 # IDllServerActivatableClassRegistration::get_DllPath
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/activationregistration/nn-activationregistration-idllserveractivatableclassregistration">IDllServerActivatableClassRegistration</a>
-

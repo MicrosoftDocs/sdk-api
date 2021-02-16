@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetFirmwareEnvironmentVariableExA
  - winbase/SetFirmwareEnvironmentVariableExA
- - SetFirmwareEnvironmentVariableEx
- - winbase/SetFirmwareEnvironmentVariableEx
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Core-firmware-l1-1-0.dll
  - kernel32legacy.dll
 api_name:
- - SetFirmwareEnvironmentVariableExA
  - SetFirmwareEnvironmentVariableEx
+ - SetFirmwareEnvironmentVariableExA
+ - SetFirmwareEnvironmentVariableExW
 ---
 
 # SetFirmwareEnvironmentVariableExA function
@@ -211,4 +210,3 @@ Firmware variables are not supported on a legacy BIOS-based system. The <b>SetFi
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setfirmwareenvironmentvariablea">SetFirmwareEnvironmentVariable</a>
-

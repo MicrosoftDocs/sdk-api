@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteEx::OnInPlaceActivateEx
+ - IOleInPlaceSiteEx.OnInPlaceActivateEx
 ---
 
 # IOleInPlaceSiteEx::OnInPlaceActivateEx
@@ -115,4 +115,3 @@ A container can cache the value of the <a href="/windows/desktop/api/ocidl/ne-oc
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-

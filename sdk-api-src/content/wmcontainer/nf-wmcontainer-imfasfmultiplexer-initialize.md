@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer::Initialize
+ - IMFASFMultiplexer.Initialize
 ---
 
 # IMFASFMultiplexer::Initialize
@@ -96,4 +96,3 @@ This call must be made once at the beginning of encoding, with <i>pIContentInfo<
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-

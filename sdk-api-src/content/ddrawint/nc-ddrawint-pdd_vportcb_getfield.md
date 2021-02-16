@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_VPORTCB_GETFIELD
+ - DdVideoPortGetField
 ---
 
 ## -description
@@ -72,4 +72,3 @@ The driver should determine whether the current field is even or odd and write <
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_getvportfielddata">DD_GETVPORTFIELDDATA</a>
-

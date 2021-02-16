@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
- - _tagSYNCMGRHANDLERINFO
- - LPSYNCMGRHANDLERINFO
  - SYNCMGRHANDLERINFO
 ---
 
@@ -91,4 +89,3 @@ The name to use for the handler.
 
 
 <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrhandlerflags">SYNCMGRHANDLERFLAGS</a>
-

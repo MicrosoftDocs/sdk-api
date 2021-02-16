@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagFONTSIGNATURE
- - PFONTSIGNATURE
  - FONTSIGNATURE
 ---
 
@@ -79,4 +77,3 @@ GDI relies on Windows code pages fitting within a 32-bit value. Furthermore, the
 
 
 <a href="/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
-

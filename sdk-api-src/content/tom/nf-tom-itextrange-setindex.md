@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::SetIndex
+ - ITextRange.SetIndex
 ---
 
 # ITextRange::SetIndex
@@ -137,4 +137,3 @@ This method allows an application to work with line-oriented text, such as progr
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wsnwlink.h
 api_name:
- - _IPX_NETNUM_DATA
- - PIPX_NETNUM_DATA
  - IPX_NETNUM_DATA
 ---
 
@@ -89,4 +87,3 @@ If information about the IPX network is in the computer's IPX cache, the call wi
 ## -see-also
 
 <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a>
-

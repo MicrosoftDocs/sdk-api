@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices::ComposeHwndIdentityString
+ - IAccPropServices.ComposeHwndIdentityString
 ---
 
 # IAccPropServices::ComposeHwndIdentityString
@@ -94,4 +94,3 @@ If successful, returns S_OK.
 Returns E_INVALIDARG if <i>hwnd</i>, <i>idObject</i>, or <i>idChild</i> is not valid.
 
 May return other error codes under exceptional error conditions such as low memory.
-

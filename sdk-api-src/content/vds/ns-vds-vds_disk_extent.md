@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DISK_EXTENT
- - PVDS_DISK_EXTENT
  - VDS_DISK_EXTENT
 ---
 
@@ -127,4 +125,3 @@ A disk extent is a contiguous set of blocks on a single disk or LUN handled by a
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_disk_extent_type">VDS_DISK_EXTENT_TYPE</a>
-

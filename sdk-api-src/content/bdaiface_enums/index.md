@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - bdaiface_enums
  - bdaiface_enums/bdaiface_enums
-api_name:
- - bdaiface_enums
 ---
 
 # Bdaiface_Enums.h header

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDialogW
  - winuser/CreateDialogW
- - CreateDialog
- - winuser/CreateDialog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - CreateDialogW
  - CreateDialog
+ - CreateDialogA
+ - CreateDialogW
 ---
 
 # CreateDialogW macro
@@ -155,4 +154,3 @@ For an example, see <a href="/windows/desktop/dlgbox/using-dialog-boxes">Creatin
 
 
 <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastLeaseInfo::EnumerateAddresses
+ - IMcastLeaseInfo.EnumerateAddresses
 ---
 
 # IMcastLeaseInfo::EnumerateAddresses
@@ -126,4 +126,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/mdhcp/nf-mdhcp-imcastleaseinfo-get_addresses">get_Addresses</a>
-

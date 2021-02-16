@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfCategoryMgr::RegisterGUID
+ - ITfCategoryMgr.RegisterGUID
 ---
 
 # ITfCategoryMgr::RegisterGUID
@@ -115,4 +115,3 @@ A <b>TfGuidAtom</b> value is only valid within the process that <b>ITfCategoryMg
 ## -see-also
 
 [ITfCategoryMgr interface](nn-msctf-itfcategorymgr.md), [ITfCategoryMgr::GetGUID](nf-msctf-itfcategorymgr-getguid.md), [ITfCategoryMgr::IsEqualTfGuidAtom](nf-msctf-itfcategorymgr-isequaltfguidatom.md), [TfGuidAtom](/windows/win32/tsf/tfguidatom)
-

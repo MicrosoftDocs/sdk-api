@@ -46,8 +46,6 @@ api_type:
 api_location:
  - amva.h
 api_name:
- - _tag_AMVABeginFrameInfo
- - LPAMVABeginFrameInfo
  - AMVABeginFrameInfo
 ---
 
@@ -99,4 +97,3 @@ The video accelerator might not use the same surface memory in two consecutive c
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-beginframe">IAMVideoAccelerator::BeginFrame</a>
-

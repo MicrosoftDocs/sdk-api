@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingMessage2::get_SenderName
+ - IFaxIncomingMessage2.SenderName
+ - IFaxIncomingMessage2.get_SenderName
+ - IFaxIncomingMessage2.put_SenderName
+ - IFaxIncomingMessage2.get_SenderName
+ - IFaxIncomingMessage2.put_SenderName
 ---
 
 # IFaxIncomingMessage2::get_SenderName
@@ -68,4 +72,3 @@ A received message starts with a null value for the sender when it arrives. A se
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingmessage2">IFaxIncomingMessage2</a>
-

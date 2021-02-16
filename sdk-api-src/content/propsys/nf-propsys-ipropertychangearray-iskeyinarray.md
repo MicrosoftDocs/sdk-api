@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyChangeArray::IsKeyInArray
+ - IPropertyChangeArray.IsKeyInArray
 ---
 
 # IPropertyChangeArray::IsKeyInArray
@@ -65,4 +65,3 @@ A reference to the <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey">P
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if key is found; otherwise, E_FAIL.
-

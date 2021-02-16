@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDisk3::GetProperties2
+ - IVdsDisk3.GetProperties2
 ---
 
 # IVdsDisk3::GetProperties2
@@ -114,4 +114,3 @@ For Hyper-V, the  <b>pwszLocationPath</b> member is <b>NULL</b>, because the vir
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
-

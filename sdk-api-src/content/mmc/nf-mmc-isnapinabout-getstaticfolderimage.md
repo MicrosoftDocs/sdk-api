@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - ISnapinAbout::GetStaticFolderImage
+ - ISnapinAbout.GetStaticFolderImage
 ---
 
 # ISnapinAbout::GetStaticFolderImage
@@ -85,4 +85,3 @@ MMC uses default static folder images and icons if it cannot obtain the snap-in 
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-isnapinabout">ISnapinAbout</a>
-

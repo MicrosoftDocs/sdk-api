@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_NOTIFICATION_ACM
- - PWLAN_NOTIFICATION_ACM
  - WLAN_NOTIFICATION_ACM
 ---
 
@@ -232,4 +231,3 @@ The callback function is called with a pointer to a <a href="/previous-versions/
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetprofilelist">WlanGetProfileList</a>
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetfilterlist">WlanSetFilterList</a>
-

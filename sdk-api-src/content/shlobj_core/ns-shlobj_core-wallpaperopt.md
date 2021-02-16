@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - _tagWALLPAPEROPT
  - WALLPAPEROPT
 ---
 
@@ -110,4 +109,3 @@ The wallpaper style; one of the following values:
 #### WPSTYLE_MAX
 
 The maximum legitimate value of these flags, used for validation purposes.
-

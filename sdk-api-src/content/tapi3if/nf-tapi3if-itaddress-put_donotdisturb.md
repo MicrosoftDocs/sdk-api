@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::put_DoNotDisturb
+ - ITAddress.put_DoNotDisturb
 ---
 
 # ITAddress::put_DoNotDisturb
@@ -133,4 +133,3 @@ The DoNotDisturb feature is implemented using forwarding. If
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-get_donotdisturb">get_DoNotDisturb</a>
-

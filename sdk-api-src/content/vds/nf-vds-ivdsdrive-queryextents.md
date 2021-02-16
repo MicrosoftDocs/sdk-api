@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDrive::QueryExtents
+ - IVdsDrive.QueryExtents
 ---
 
 # IVdsDrive::QueryExtents
@@ -190,4 +190,3 @@ The <b>LunId</b> member of each
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_drive_extent">VDS_DRIVE_EXTENT</a>
-

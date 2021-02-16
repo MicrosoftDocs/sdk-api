@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency::GetName
+ - IAppxManifestPackageDependency.GetName
 ---
 
 # IAppxManifestPackageDependency::GetName
@@ -73,4 +73,3 @@ The caller must free the memory allocated for <i>name</i> using the <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>
-

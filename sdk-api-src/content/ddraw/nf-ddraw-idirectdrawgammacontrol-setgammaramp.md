@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ddraw.dll
 api_name:
- - IDirectDrawGammaControl::SetGammaRamp
+ - IDirectDrawGammaControl.SetGammaRamp
 ---
 
 # IDirectDrawGammaControl::SetGammaRamp
@@ -94,4 +94,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawgammacontrol">IDirectDrawGammaControl</a>
-

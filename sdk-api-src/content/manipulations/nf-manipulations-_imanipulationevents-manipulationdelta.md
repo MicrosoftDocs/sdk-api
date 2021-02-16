@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - _IManipulationEvents::ManipulationDelta
+ - _IManipulationEvents.ManipulationDelta
 ---
 
 # _IManipulationEvents::ManipulationDelta
@@ -161,4 +161,3 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta(
 
 
 <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationNavigationEvents::DownloadComplete
+ - IWebApplicationNavigationEvents.DownloadComplete
 ---
 
 # IWebApplicationNavigationEvents::DownloadComplete
@@ -63,4 +63,3 @@ Ignored by the host. If this method succeeds, it returns <b>S_OK</b>. Otherwise,
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationnavigationevents">IWebApplicationNavigationEvents</a>
-

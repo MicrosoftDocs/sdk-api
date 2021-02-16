@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent::SetTag
+ - IDirectManipulationContent.SetTag
 ---
 
 # IDirectManipulationContent::SetTag
@@ -77,4 +77,3 @@ The <i>object</i> parameter is optional, so that the method can set just the ide
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
-

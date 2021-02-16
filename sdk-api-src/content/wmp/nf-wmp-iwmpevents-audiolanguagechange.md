@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::AudioLanguageChange
+ - IWMPEvents.AudioLanguageChange
 ---
 
 # IWMPEvents::AudioLanguageChange
@@ -67,4 +67,3 @@ A <i>LangID</i> uniquely identifies a particular language dialect, called a loca
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

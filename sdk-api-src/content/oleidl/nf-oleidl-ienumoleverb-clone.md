@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IEnumOLEVERB::Clone
+ - IEnumOLEVERB.Clone
 ---
 
 # IEnumOLEVERB::Clone
@@ -107,4 +107,3 @@ Insufficient memory available for this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
-

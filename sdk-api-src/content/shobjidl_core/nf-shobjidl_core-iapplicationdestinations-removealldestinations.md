@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IApplicationDestinations::RemoveAllDestinations
+ - IApplicationDestinations.RemoveAllDestinations
 ---
 
 # IApplicationDestinations::RemoveAllDestinations
@@ -81,4 +81,3 @@ If the application has an explicit Application User Model ID (AppUserModelID), y
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

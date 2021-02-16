@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegSaveKeyA
  - winreg/RegSaveKeyA
- - RegSaveKey
- - winreg/RegSaveKey
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegSaveKeyA
  - RegSaveKey
+ - RegSaveKeyA
+ - RegSaveKeyW
 ---
 
 # RegSaveKeyA function
@@ -169,4 +168,3 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-

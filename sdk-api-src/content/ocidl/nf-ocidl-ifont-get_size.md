@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::get_Size
+ - IFont.get_Size
 ---
 
 # IFont::get_Size
@@ -101,4 +101,3 @@ The address in the <i>pSize</i> parameter is not valid. For example, it may be
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>
-

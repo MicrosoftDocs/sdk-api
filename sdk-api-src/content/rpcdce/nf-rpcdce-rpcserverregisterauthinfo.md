@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerRegisterAuthInfo
+ - RpcServerRegisterAuthInfoA
+ - RpcServerRegisterAuthInfoW
 ---
 
 # RpcServerRegisterAuthInfo function
@@ -218,4 +220,3 @@ The authentication service that a client application specifies (using
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetauthinfo">RpcBindingSetAuthInfo</a>
-

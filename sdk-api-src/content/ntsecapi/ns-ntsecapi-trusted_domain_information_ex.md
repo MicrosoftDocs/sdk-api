@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _TRUSTED_DOMAIN_INFORMATION_EX
- - PTRUSTED_DOMAIN_INFORMATION_EX
  - TRUSTED_DOMAIN_INFORMATION_EX
 ---
 
@@ -300,4 +298,3 @@ Trust is treated as external for trust boundary purposes.
 
 
 <a href="/windows/desktop/api/ntsecapi/ne-ntsecapi-trusted_information_class">TRUSTED_INFORMATION_CLASS</a>
-

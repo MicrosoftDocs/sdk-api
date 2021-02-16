@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_EIT2::GetSegmentInfo
+ - IDVB_EIT2.GetSegmentInfo
 ---
 
 # IDVB_EIT2::GetSegmentInfo
@@ -109,4 +109,3 @@ The <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit2">IDVB_EIT2</a>
-

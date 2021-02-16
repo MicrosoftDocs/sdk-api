@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_CLIENT_INFO_V6
- - LPDHCP_CLIENT_INFO_V6
  - DHCP_CLIENT_INFO_V6
 ---
 
@@ -132,4 +130,3 @@ This of type <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_host_info_v
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
-

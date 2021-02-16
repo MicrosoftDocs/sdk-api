@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::InsertAt
+ - CHStringArray.InsertAt(int, CHStringArray*)
 ---
 
 # CHStringArray::InsertAt(int,CHStringArray)
@@ -92,4 +92,3 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-setat(int_lpcwstr)">CHStringArray::SetAt</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMProgress3::Progress3
+ - IWMDMProgress3.Progress3
 ---
 
 # IWMDMProgress3::Progress3
@@ -178,4 +178,3 @@ HRESULT Progress3(GUID  EventId, DWORD  dwTranspiredTicks, OPAQUECOMMAND*  pCont
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress-progress">IWMDMProgress::Progress</a>
-

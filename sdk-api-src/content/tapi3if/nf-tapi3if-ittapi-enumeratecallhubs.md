@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI::EnumerateCallHubs
+ - ITTAPI.EnumerateCallHubs
 ---
 
 # ITTAPI::EnumerateCallHubs
@@ -133,4 +133,3 @@ TAPI calls the <b>Addref</b> method on the
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

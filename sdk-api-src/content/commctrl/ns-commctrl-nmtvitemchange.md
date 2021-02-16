@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagTVITEMCHANGE
  - NMTVITEMCHANGE
 ---
 
@@ -111,4 +110,3 @@ Flag that specifies the item's previous state.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Reserved for application specific data. For example, a value to associate with the item.
-

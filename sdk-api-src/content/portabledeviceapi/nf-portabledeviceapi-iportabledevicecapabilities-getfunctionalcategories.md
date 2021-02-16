@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities::GetFunctionalCategories
+ - IPortableDeviceCapabilities.GetFunctionalCategories
 ---
 
 # IPortableDeviceCapabilities::GetFunctionalCategories
@@ -101,4 +101,3 @@ For an example of how to use this method see <a href="/windows/desktop/wpd_sdk/r
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-the-functional-categories-supported-by-a-device">Retrieving the Functional Categories Supported by a Device</a>
-

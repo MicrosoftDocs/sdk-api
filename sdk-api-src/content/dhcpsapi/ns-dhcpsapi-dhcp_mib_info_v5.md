@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_MIB_INFO_V5
- - LPDHCP_MIB_INFO_V5
  - DHCP_MIB_INFO_V5
 ---
 
@@ -147,4 +145,3 @@ Pointer to a <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info_v
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-scope_mib_info_v5">SCOPE_MIB_INFO_V5</a>
-

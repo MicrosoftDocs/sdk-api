@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort::GetStatus
+ - IFaxPort.GetStatus
 ---
 
 # IFaxPort::GetStatus
@@ -89,4 +89,3 @@ The <b>IFaxPort::GetStatus</b> method retrieves an <a href="/previous-versions/w
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxstatus">IFaxStatus</a>
-

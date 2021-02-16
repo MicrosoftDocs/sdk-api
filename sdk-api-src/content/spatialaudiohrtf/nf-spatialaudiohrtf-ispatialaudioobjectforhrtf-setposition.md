@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf::SetPosition
+ - ISpatialAudioObjectForHrtf.SetPosition
 ---
 
 # ISpatialAudioObjectForHrtf::SetPosition
@@ -123,4 +123,3 @@ If <b>SetPosition</b> is never called, the origin (x=0.0, y=0.0, z=0.0) is used 
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
-

@@ -45,7 +45,6 @@ api_location:
  - Vds.h
 api_name:
  - VDS_REPARSE_POINT_PROP
- - PVDS_REPARSE_POINT_PROP
 ---
 
 # VDS_REPARSE_POINT_PROP structure
@@ -78,4 +77,3 @@ The <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-queryreparsepoints">IV
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
-

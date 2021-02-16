@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::SaveViewState
+ - IShellView.SaveViewState
 ---
 
 # IShellView::SaveViewState
@@ -73,4 +73,3 @@ Be sure to make the format of the data stored in the stream robust enough that d
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::get_SessionStartBlock
+ - IFileSystemImage.get_SessionStartBlock
 ---
 
 # IFileSystemImage::get_SessionStartBlock
@@ -102,4 +102,3 @@ The session starting block can be set in the following ways:
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-importspecificfilesystem">IFileSystemImage::ImportSpecificFileSystem</a>
-

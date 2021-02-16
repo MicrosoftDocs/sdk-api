@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_LatestOutputLocation
+ - IDataCollectorSet.LatestOutputLocation
+ - IDataCollectorSet.get_LatestOutputLocation
+ - IDataCollectorSet.put_LatestOutputLocation
 ---
 
 # IDataCollectorSet::get_LatestOutputLocation
@@ -77,4 +79,3 @@ You can set this property to empty if the folder has been deleted.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectory">IDataCollectorSet::Subdirectory</a>
-

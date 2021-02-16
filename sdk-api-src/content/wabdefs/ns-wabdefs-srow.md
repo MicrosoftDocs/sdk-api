@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _SRow
- - LPSRow
  - SRow
 ---
 
@@ -78,4 +76,3 @@ Variable of type <b>ULONG</b> that specifies the count of property values to whi
 Type: <b>LPSPropValue</b>
 
 Pointer to an array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-spropvalue">SPropValue</a> that describe the property values for the columns in the row.
-

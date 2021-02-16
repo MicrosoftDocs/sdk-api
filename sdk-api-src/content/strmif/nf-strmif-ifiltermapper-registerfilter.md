@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper::RegisterFilter
+ - IFilterMapper.RegisterFilter
 ---
 
 # IFilterMapper::RegisterFilter
@@ -83,4 +83,3 @@ The merit (as defined by the <i>dwMerit</i> parameter) controls the order in whi
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper Interface</a>
-

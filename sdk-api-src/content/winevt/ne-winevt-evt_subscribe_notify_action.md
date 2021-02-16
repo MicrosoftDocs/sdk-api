@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_SUBSCRIBE_NOTIFY_ACTION
  - EVT_SUBSCRIBE_NOTIFY_ACTION
 ---
 
@@ -68,4 +67,3 @@ Indicates that the <i>Event</i> parameter contains an event that matches the sub
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nc-winevt-evt_subscribe_callback">EVT_SUBSCRIBE_CALLBACK</a>
-

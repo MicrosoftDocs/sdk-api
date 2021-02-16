@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Erase::put_ClientName
+ - IDiscFormat2Erase.put_ClientName
 ---
 
 # IDiscFormat2Erase::put_ClientName
@@ -108,4 +108,3 @@ Because any application with read/write access to the CDROM device during the er
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-get_clientname">IDiscFormat2Erase::get_ClientName</a>
-

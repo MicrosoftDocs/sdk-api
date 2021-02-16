@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::DrawInstanced
+ - ID3D10Device.DrawInstanced
 ---
 
 # ID3D10Device::DrawInstanced
@@ -90,4 +90,3 @@ The vertex data for an instanced draw call normally comes from a vertex buffer t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

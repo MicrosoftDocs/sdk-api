@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingActivity::SetRelatedActivityId
+ - TraceLoggingActivity.SetRelatedActivityId
 ---
 
 # TraceLoggingActivity::SetRelatedActivityId(const GUID)
@@ -61,4 +61,3 @@ The unique identifier for the activity to associate with this activity.
 ## -see-also
 
 <a href="/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity-r1">TraceLoggingActivity</a>
-

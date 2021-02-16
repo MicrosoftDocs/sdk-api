@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_TDT::Initialize
+ - IDVB_TDT.Initialize
 ---
 
 # IDVB_TDT::Initialize
@@ -121,4 +121,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_tdt">IDVB_TDT Interface</a>
-

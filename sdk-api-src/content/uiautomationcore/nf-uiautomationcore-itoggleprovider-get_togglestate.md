@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IToggleProvider::get_ToggleState
+ - IToggleProvider.ToggleState
+ - IToggleProvider.get_ToggleState
 ---
 
 # IToggleProvider::get_ToggleState
@@ -69,4 +70,3 @@ and, if supported, <b>ToggleState_Indeterminate</b>.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

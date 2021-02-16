@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _OCSP_CERT_ID
- - POCSP_CERT_ID
  - OCSP_CERT_ID
 ---
 
@@ -91,4 +89,3 @@ A <a href="/windows/desktop/SecGloss/b-gly">BLOB</a> that contains the serial nu
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ocsp_request_entry">OCSP_REQUEST_ENTRY</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMOUSEHOOKSTRUCTEX
- - LPMOUSEHOOKSTRUCTEX
  - MOUSEHOOKSTRUCTEX
 ---
 
@@ -154,4 +152,3 @@ The members of a <a href="/windows/desktop/api/winuser/ns-winuser-mousehookstruc
 
 
 <a href="/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>
-

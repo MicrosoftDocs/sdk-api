@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DSwapChain9Ex::GetLastPresentCount
+ - IDirect3DSwapChain9Ex.GetLastPresentCount
 ---
 
 # IDirect3DSwapChain9Ex::GetLastPresentCount
@@ -70,4 +70,3 @@ S_OK the method was successful.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dswapchain9ex">IDirect3DSwapChain9Ex</a>
-

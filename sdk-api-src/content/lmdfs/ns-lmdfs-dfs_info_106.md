@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_106
- - PDFS_INFO_106
  - DFS_INFO_106
 ---
 
@@ -101,4 +99,3 @@ Mask value that indicates which storage flags are set.
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

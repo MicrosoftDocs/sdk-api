@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRectangle::get_Right
+ - IInkRectangle.Right
+ - IInkRectangle.get_Right
+ - IInkRectangle.put_Right
+ - InkRectangle.get_Right
+ - InkRectangle.put_Right
 ---
 
 # IInkRectangle::get_Right
@@ -84,4 +88,3 @@ The default value of this property is 0.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top Property</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IAudioAutoGainControl::GetEnabled
+ - IAudioAutoGainControl.GetEnabled
 ---
 
 # IAudioAutoGainControl::GetEnabled
@@ -87,4 +87,3 @@ A disabled AGC operates in pass-through mode. In this mode, the audio stream pas
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iaudioautogaincontrol">IAudioAutoGainControl Interface</a>
-

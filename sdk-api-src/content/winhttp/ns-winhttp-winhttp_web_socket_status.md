@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winhttp.h
 api_name:
- - _WINHTTP_WEB_SOCKET_STATUS
  - WINHTTP_WEB_SOCKET_STATUS
 ---
 
@@ -102,4 +101,3 @@ A <b>WINHTTP_WEB_SOCKET_STATUS</b> structure is passed to the completion callbac
 
 
 <a href="/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketshutdown">WinHttpWebSocketShutdown</a>
-

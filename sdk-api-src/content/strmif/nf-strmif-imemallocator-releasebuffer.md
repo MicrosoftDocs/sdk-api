@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocator::ReleaseBuffer
+ - IMemAllocator.ReleaseBuffer
 ---
 
 # IMemAllocator::ReleaseBuffer
@@ -74,4 +74,3 @@ When a media sample's reference count reaches zero, it calls this method with it
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-

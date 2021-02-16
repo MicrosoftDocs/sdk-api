@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2::get_SupportedModePages
+ - IDiscRecorder2.get_SupportedModePages
 ---
 
 # IDiscRecorder2::get_SupportedModePages
@@ -370,4 +370,3 @@ Value: 0xC0AA0201
 
 
 IMAPI_MODE_PAGE_TYPE
-

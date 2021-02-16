@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IDirectoryObject::GetObjectAttributes
+ - IDirectoryObject.GetObjectAttributes
 ---
 
 # IDirectoryObject::GetObjectAttributes
@@ -209,4 +209,3 @@ if ( SUCCEEDED(hr) )
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-

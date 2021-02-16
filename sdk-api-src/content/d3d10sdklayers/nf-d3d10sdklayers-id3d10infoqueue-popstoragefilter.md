@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue::PopStorageFilter
+ - ID3D10InfoQueue.PopStorageFilter
 ---
 
 # ID3D10InfoQueue::PopStorageFilter
@@ -57,4 +57,3 @@ Pop a storage filter from the top of the storage-filter stack.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
-

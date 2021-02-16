@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITimeTrigger::get_RandomDelay
+ - ITimeTrigger.RandomDelay
+ - ITimeTrigger.get_RandomDelay
+ - ITimeTrigger.put_RandomDelay
 ---
 
 # ITimeTrigger::get_RandomDelay
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itimetrigger">ITimeTrigger</a>
-

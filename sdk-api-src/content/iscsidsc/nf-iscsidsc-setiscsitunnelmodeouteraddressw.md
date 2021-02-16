@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetIScsiTunnelModeOuterAddressW
  - iscsidsc/SetIScsiTunnelModeOuterAddressW
- - SetIScsiTunnelModeOuterAddress
- - iscsidsc/SetIScsiTunnelModeOuterAddress
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - SetIScsiTunnelModeOuterAddressW
- - SetIScsiTunnelModeOuterAddress
+ - SetIscsiTunnelModeOuterAddress
+ - SetIscsiTunnelModeOuterAddressA
+ - SetIscsiTunnelModeOuterAddressW
 ---
 
 # SetIScsiTunnelModeOuterAddressW function

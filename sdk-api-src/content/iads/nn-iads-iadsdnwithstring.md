@@ -43,6 +43,7 @@ api_location:
  - Activeds.dll
 api_name:
  - IADsDNWithString
+ - DNWithString
 ---
 
 # IADsDNWithString interface
@@ -59,4 +60,3 @@ The <b>IADsDNWithString</b> interface provides methods for an ADSI client to ass
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourceNotification::NotifySessionChange
+ - ITsSbResourceNotification.NotifySessionChange
 ---
 
 # ITsSbResourceNotification::NotifySessionChange
@@ -73,4 +73,3 @@ RD Connection Broker calls the <b>NotifySessionChange</b> method to notify regi
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcenotification">ITsSbResourceNotification</a>
-

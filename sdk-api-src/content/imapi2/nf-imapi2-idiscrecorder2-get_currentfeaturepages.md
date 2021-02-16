@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2::get_CurrentFeaturePages
+ - IDiscRecorder2.get_CurrentFeaturePages
 ---
 
 # IDiscRecorder2::get_CurrentFeaturePages
@@ -383,4 +383,3 @@ Value: 0xC0AA0210
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2ex-getsupportedfeaturepages">IDiscRecorder2Ex::GetSupportedFeaturePages</a>
-

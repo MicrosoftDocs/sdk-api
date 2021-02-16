@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable::GetValue
+ - IUIAnimationVariable.GetValue
 ---
 
 # IUIAnimationVariable::GetValue
@@ -96,4 +96,3 @@ For an example, see <a href="/windows/desktop/UIAnimation/updating---application
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationvariable-setupperbound">IUIAnimationVariable::SetUpperBound</a>
-

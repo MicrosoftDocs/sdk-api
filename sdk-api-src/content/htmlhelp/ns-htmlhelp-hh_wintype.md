@@ -46,8 +46,6 @@ api_type:
 api_location:
  - HtmlHelp.h
 api_name:
- - tagHH_WINTYPE
- - PHH_WINTYPE
  - HH_WINTYPE
 ---
 
@@ -229,4 +227,3 @@ When a <b>HH_WINTYPE</b> structure is passed to <b>HtmlHelp()</b> using the <b>H
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
-

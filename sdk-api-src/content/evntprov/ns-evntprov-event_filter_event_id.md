@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntprov.h
 api_name:
- - _EVENT_FILTER_EVENT_ID
- - PEVENT_FILTER_EVENT_ID
  - EVENT_FILTER_EVENT_ID
 ---
 
@@ -93,4 +91,3 @@ The <b>EVENT_FILTER_EVENT_ID</b> structure is used in the <a href="/windows/desk
 
 
 <a href="/windows/desktop/ETW/enabletraceex2">EnableTraceEx2</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bits1_5.h
 api_name:
- - _BG_JOB_REPLY_PROGRESS
  - BG_JOB_REPLY_PROGRESS
 ---
 
@@ -68,4 +67,3 @@ Number of bytes transferred.
 ## -see-also
 
 <a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyprogress">IBackgroundCopyJob2::GetReplyProgress</a>
-

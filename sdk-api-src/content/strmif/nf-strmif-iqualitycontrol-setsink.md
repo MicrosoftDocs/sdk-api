@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQualityControl::SetSink
+ - IQualityControl.SetSink
 ---
 
 # IQualityControl::SetSink
@@ -138,4 +138,3 @@ The reference to the object specified in <i>piqc</i> is guaranteed to be valid u
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>
-

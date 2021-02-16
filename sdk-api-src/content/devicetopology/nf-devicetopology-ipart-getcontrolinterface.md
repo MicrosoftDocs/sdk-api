@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart::GetControlInterface
+ - IPart.GetControlInterface
 ---
 
 # IPart::GetControlInterface
@@ -113,4 +113,3 @@ The part does not have a control interface.
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-

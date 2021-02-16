@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationClock::Start
+ - IMFPresentationClock.Start
 ---
 
 # IMFPresentationClock::Start
@@ -109,4 +109,3 @@ If the clock is already running, calling <b>Start</b> again has the effect of se
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_ALL_OPTIONS
- - LPDHCP_ALL_OPTIONS
  - DHCP_ALL_OPTIONS
 ---
 
@@ -84,4 +82,3 @@ Unicode string that contains the name of the DHCP class for the option.
 ### -field VendorOptions
 
 Pointer to a list of structures that contain the following fields.
-

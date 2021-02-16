@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology::RemoveNode
+ - IMFTopology.RemoveNode
 ---
 
 # IMFTopology::RemoveNode
@@ -105,4 +105,3 @@ The method breaks any connections between the specified node and other nodes.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

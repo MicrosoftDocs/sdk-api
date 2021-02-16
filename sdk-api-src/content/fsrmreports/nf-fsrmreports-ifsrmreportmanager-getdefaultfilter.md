@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportManager::GetDefaultFilter
+ - IFsrmReportManager.GetDefaultFilter
+ - FsrmReportManager.GetDefaultFilter
 ---
 
 # IFsrmReportManager::GetDefaultFilter
@@ -81,4 +82,3 @@ This value is used if the <a href="/previous-versions/windows/desktop/api/fsrmre
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
-

@@ -39,9 +39,6 @@ api_location:
  - dxcore.dll
 api_name:
  - DXCoreCreateAdapterFactory
-f1_keywords:
- - DXCoreCreateAdapterFactory
- - dxcore/DXCoreCreateAdapterFactory
 ---
 
 ## -description
@@ -80,4 +77,3 @@ For the duration of time that a reference exists on an [IDXCoreAdapterFactory](/
 ## -see-also
 
 [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

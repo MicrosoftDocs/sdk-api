@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - _TASKDIALOGCONFIG
  - TASKDIALOGCONFIG
 ---
 
@@ -570,4 +569,3 @@ A pointer to application-defined reference data. This value is defined by the ca
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 
 The width of the task dialog's client area, in dialog units. If 0, the task dialog manager will calculate the ideal width.
-

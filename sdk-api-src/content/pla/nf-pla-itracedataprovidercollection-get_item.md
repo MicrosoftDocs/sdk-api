@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProviderCollection::get_Item
+ - ITraceDataProviderCollection.Item
+ - ITraceDataProviderCollection.get_Item
 ---
 
 # ITraceDataProviderCollection::get_Item
@@ -63,4 +64,3 @@ This property is the object's default property.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovidercollection">ITraceDataProviderCollection</a>
-

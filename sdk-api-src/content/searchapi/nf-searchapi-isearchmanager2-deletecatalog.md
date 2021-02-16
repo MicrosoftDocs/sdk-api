@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchManager2::DeleteCatalog
+ - ISearchManager2.DeleteCatalog
 ---
 
 # ISearchManager2::DeleteCatalog
@@ -101,4 +101,3 @@ FAILED HRESULT: Failure deleting catalog or invalid arguments passed.
 ## -see-also
 
 <a href="/windows/desktop/api/searchapi/nn-searchapi-isearchmanager2">ISearchManager2</a>
-

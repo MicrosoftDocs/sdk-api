@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::Expand
+ - ITextRange.Expand
 ---
 
 # ITextRange::Expand
@@ -120,4 +120,3 @@ For example, if an insertion point is at the beginning, the end, or within a wor
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

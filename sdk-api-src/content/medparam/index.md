@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - medparam
  - medparam/medparam
-api_name:
- - medparam
 ---
 
 # Medparam.h header

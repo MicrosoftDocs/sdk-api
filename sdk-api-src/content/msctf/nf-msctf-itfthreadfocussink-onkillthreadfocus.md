@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfThreadFocusSink::OnKillThreadFocus
+ - ITfThreadFocusSink.OnKillThreadFocus
 ---
 
 # ITfThreadFocusSink::OnKillThreadFocus

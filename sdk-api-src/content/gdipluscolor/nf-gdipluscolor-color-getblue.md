@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Color::GetBlue
+ - Color.GetBlue
 ---
 
 # Color::GetBlue
@@ -96,4 +96,3 @@ This method returns the blue component of this color.
 
 
 <a href="/windows/desktop/api/gdipluscolor/nf-gdipluscolor-color-getvalue">Color::GetValue</a>
-

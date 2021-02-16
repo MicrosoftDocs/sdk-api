@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext::IsStringSupported
+ - IInkRecognizerContext.IsStringSupported
 ---
 
 # IInkRecognizerContext::IsStringSupported
@@ -165,4 +165,3 @@ Use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_recognitionflags">RecognitionFlags Property</a>
-

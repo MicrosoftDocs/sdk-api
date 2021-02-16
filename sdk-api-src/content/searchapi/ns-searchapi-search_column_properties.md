@@ -44,7 +44,6 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - _SEARCH_COLUMN_PROPERTIES
  - SEARCH_COLUMN_PROPERTIES
 ---
 
@@ -68,4 +67,3 @@ The name of the column referenced in the ISearchQueryHelper::WriteProperties met
 Type: <b>LCID</b>
 
 The LCID of the column.
-

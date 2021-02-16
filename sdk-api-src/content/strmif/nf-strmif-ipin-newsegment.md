@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::NewSegment
+ - IPin.NewSegment
 ---
 
 # IPin::NewSegment
@@ -92,4 +92,3 @@ Filters can use segment information to process samples. For example, with some f
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

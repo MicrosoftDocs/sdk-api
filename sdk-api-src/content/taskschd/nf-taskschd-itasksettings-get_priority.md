@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings::get_Priority
+ - ITaskSettings.Priority
+ - ITaskSettings.get_Priority
+ - ITaskSettings.put_Priority
 ---
 
 # ITaskSettings::get_Priority
@@ -131,4 +133,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings">ITaskSettings</a>
-

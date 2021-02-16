@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::GetPageScale
+ - Graphics.GetPageScale
 ---
 
 # Graphics::GetPageScale
@@ -94,4 +94,3 @@ This method returns the scaling factor currently set for the page transformation
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
-

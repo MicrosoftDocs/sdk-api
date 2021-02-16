@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_APPC_NETWORK_CAPABILITY_TYPE_
  - FWPM_APPC_NETWORK_CAPABILITY_TYPE
 ---
 
@@ -72,4 +71,3 @@ Allows the app container to make requests and to receive requests to and from pr
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-

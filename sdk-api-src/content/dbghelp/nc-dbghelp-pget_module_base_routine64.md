@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PGET_MODULE_BASE_ROUTINE64
+ - GetModuleBaseProc64
 ---
 
 # PGET_MODULE_BASE_ROUTINE64 callback function
@@ -96,4 +96,3 @@ DWORD
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-stackwalk">StackWalk64</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::GetEnableMulticast
+ - IWMReaderNetworkConfig.GetEnableMulticast
 ---
 
 # IWMReaderNetworkConfig::GetEnableMulticast
@@ -101,4 +101,3 @@ NULL or invalid argument passed in.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenablemulticast">IWMReaderNetworkConfig::SetEnableMulticast</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolListenerCallback::OnConnected
+ - IWTSProtocolListenerCallback.OnConnected
 ---
 
 # IWTSProtocolListenerCallback::OnConnected
@@ -74,4 +74,3 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollistenercallback">IWTSProtocolListenerCallback</a>
-

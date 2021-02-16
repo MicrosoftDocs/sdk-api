@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationPrimitiveInterpolation::AddSinusoidal
+ - IUIAnimationPrimitiveInterpolation.AddSinusoidal
 ---
 
 # IUIAnimationPrimitiveInterpolation::AddSinusoidal
@@ -92,4 +92,3 @@ or less than the start time of  a previous segment.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprimitiveinterpolation">IUIAnimationPrimitiveInterpolation</a>
-

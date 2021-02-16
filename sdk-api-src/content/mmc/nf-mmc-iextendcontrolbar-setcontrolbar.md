@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendControlbar::SetControlbar
+ - IExtendControlbar.SetControlbar
 ---
 
 # IExtendControlbar::SetControlbar
@@ -72,4 +72,3 @@ SetControlbar with a <b>NULL</b> pControlbar. The snap-in should then detach its
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-

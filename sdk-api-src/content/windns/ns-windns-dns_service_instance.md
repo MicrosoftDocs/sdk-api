@@ -45,7 +45,6 @@ api_location:
  - windns.h
 api_name:
  - _DNS_SERVICE_INSTANCE
- - PDNS_SERVICE_INSTANCE
  - DNS_SERVICE_INSTANCE
 ---
 

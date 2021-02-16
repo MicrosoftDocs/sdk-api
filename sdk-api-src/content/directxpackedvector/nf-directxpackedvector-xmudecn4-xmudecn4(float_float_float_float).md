@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUDECN4::XMUDECN4
+ - XMUDECN4.XMUDECN4
 ---
 
 # XMUDECN4::XMUDECN4(float,float,float,float)
@@ -139,4 +139,3 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="/windows/desktop/dxmath/xmudecn4-ctor">XMUDECN4 Constructors</a>
-

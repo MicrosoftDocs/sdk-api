@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImageResult::get_TotalBlocks
+ - IFileSystemImageResult.get_TotalBlocks
 ---
 
 # IFileSystemImageResult::get_TotalBlocks
@@ -89,4 +89,3 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimageresult-get_blocksize">IFileSystemImageResult::get_BlockSize</a>
-

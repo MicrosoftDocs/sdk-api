@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView::SetRestriction
+ - ICertView2.SetRestriction
+ - ICertView.SetRestriction
+ - CCertView.SetRestriction
 ---
 
 # ICertView::SetRestriction
@@ -298,4 +300,3 @@ error:
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewcolumn-isindexed">IEnumCertViewColumn::IsIndexed</a>
-

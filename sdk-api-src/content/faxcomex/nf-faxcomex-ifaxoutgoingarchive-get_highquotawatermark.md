@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive::get_HighQuotaWaterMark
+ - IFaxOutgoingArchive.HighQuotaWaterMark
+ - IFaxOutgoingArchive.get_HighQuotaWaterMark
+ - IFaxOutgoingArchive.put_HighQuotaWaterMark
+ - IFaxOutgoingArchive.get_HighQuotaWaterMark
+ - IFaxOutgoingArchive.put_HighQuotaWaterMark
 ---
 
 # IFaxOutgoingArchive::get_HighQuotaWaterMark
@@ -73,4 +77,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-outgoing-archive">Visual Basic Example</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - AdjustableArrowCap::AdjustableArrowCap
+ - AdjustableArrowCap.AdjustableArrowCap
 ---
 
 ## -description
@@ -85,4 +85,3 @@ The middle inset is the number of units that the midpoint of the base shifts tow
 
 
 <a href="/windows/desktop/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setmiddleinset">AdjustableArrowCap::SetMiddleInset</a>
-

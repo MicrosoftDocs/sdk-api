@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2::GetCAProperty
+ - ICertAdmin2.GetCAProperty
+ - CCertAdmin.GetCAProperty
 ---
 
 # ICertAdmin2::GetCAProperty
@@ -910,4 +911,3 @@ if (FAILED(hr))
 VariantClear(&var1);
 SysFreeString(bstrCA);
 ```
-

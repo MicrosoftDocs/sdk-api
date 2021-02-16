@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTimer::CancelTimer
+ - IMFTimer.CancelTimer
 ---
 
 # IMFTimer::CancelTimer
@@ -88,4 +88,3 @@ Because the timer is dispatched asynchronously, the application's timer callback
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftimer">IMFTimer</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterMapper2::CreateCategory
+ - IFilterMapper2.CreateCategory
 ---
 
 # IFilterMapper2::CreateCategory
@@ -84,4 +84,3 @@ A filter can appear in one or more categories (for example, Video Compressors) t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SEC_WINNT_CREDUI_CONTEXT_VECTOR
- - PSEC_WINNT_CREDUI_CONTEXT_VECTOR
  - SEC_WINNT_CREDUI_CONTEXT_VECTOR
 ---
 
@@ -67,4 +65,3 @@ The number of bytes from the  beginning of the structure to the context data.
 ### -field CredUIContextCount
 
 The size, in bytes, of the context data.
-

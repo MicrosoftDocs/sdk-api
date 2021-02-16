@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICStream::InitializeFromIStreamRegion
+ - IWICStream.InitializeFromIStreamRegion
 ---
 
 # IWICStream::InitializeFromIStreamRegion
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The stream functions with its own stream position, independent of the underlying stream but restricted to a region.  All seek positions are relative to the sub region.  It is allowed, though not recommended, to have multiple writable sub streams overlapping the same range.
-

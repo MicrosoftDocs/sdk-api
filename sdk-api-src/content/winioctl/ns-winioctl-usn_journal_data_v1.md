@@ -43,8 +43,7 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PUSN_JOURNAL_DATA_V1
- - USN_JOURNAL_DATA_V1
+ - USN_JOURNAL_DATA_V0
 ---
 
 # USN_JOURNAL_DATA_V1 structure
@@ -112,4 +111,3 @@ The number of bytes of disk memory added to the end and removed from the beginni
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

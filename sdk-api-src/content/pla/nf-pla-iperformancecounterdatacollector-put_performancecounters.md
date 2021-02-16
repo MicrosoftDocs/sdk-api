@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IPerformanceCounterDataCollector::put_PerformanceCounters
+ - IPerformanceCounterDataCollector.PerformanceCounters
+ - IPerformanceCounterDataCollector.get_PerformanceCounters
+ - IPerformanceCounterDataCollector.put_PerformanceCounters
 ---
 
 # IPerformanceCounterDataCollector::put_PerformanceCounters
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
-

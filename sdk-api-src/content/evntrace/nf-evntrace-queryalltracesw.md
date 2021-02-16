@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - QueryAllTracesW
  - evntrace/QueryAllTracesW
- - QueryAllTraces
- - evntrace/QueryAllTraces
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Eventing-Legacy-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - QueryAllTracesW
  - QueryAllTraces
+ - QueryAllTracesA
+ - QueryAllTracesW
 ---
 
 # QueryAllTracesW function
@@ -261,4 +260,3 @@ cleanup:
 
 
 <a href="/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>
-

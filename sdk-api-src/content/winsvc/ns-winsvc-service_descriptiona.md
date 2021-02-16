@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_DESCRIPTIONA
- - LPSERVICE_DESCRIPTIONA
+ - SERVICE_DESCRIPTION
  - SERVICE_DESCRIPTIONA
+ - SERVICE_DESCRIPTIONW
 ---
 
 # SERVICE_DESCRIPTIONA structure
@@ -108,4 +108,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::GetAspectRatio
+ - IMixerOCX.GetAspectRatio
 ---
 
 # IMixerOCX::GetAspectRatio
@@ -74,4 +74,3 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

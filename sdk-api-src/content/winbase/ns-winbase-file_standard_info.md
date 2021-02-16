@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_STANDARD_INFO
- - PFILE_STANDARD_INFO
  - FILE_STANDARD_INFO
 ---
 
@@ -91,4 +89,3 @@ The number of links to the file.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

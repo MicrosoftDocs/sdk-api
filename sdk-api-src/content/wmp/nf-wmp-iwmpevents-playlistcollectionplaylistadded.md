@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::PlaylistCollectionPlaylistAdded
+ - IWMPEvents.PlaylistCollectionPlaylistAdded
 ---
 
 # IWMPEvents::PlaylistCollectionPlaylistAdded
@@ -71,4 +71,3 @@ The name of the playlist that was added can be used to retrieve the correspondin
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
-

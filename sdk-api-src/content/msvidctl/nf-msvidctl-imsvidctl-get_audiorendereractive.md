@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::get_AudioRendererActive
+ - IMSVidCtl.get_AudioRendererActive
 ---
 
 # IMSVidCtl::get_AudioRendererActive
@@ -98,4 +98,3 @@ Success.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_audiorendereractive">IMSVidCtl::put_AudioRendererActive</a>
-

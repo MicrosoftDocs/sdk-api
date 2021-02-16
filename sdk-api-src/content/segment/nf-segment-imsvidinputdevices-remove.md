@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidInputDevices::Remove
+ - IMSVidInputDevices.Remove
 ---
 
 # IMSVidInputDevices::Remove
@@ -135,4 +135,3 @@ The <i>v</i> parameter must be a <b>VARIANT</b> that contains an integer type (V
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidinputdevices-add">IMSVidInputDevices::Add</a>
-

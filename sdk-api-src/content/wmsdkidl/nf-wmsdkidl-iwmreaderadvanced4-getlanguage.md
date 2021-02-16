@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4::GetLanguage
+ - IWMReaderAdvanced4.GetLanguage
 ---
 
 # IWMReaderAdvanced4::GetLanguage
@@ -106,4 +106,3 @@ When setting the language to use for an output, you must set the value of the <b
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced4-getlanguagecount">IWMReaderAdvanced4::GetLanguageCount</a>
-

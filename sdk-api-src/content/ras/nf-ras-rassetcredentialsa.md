@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasSetCredentialsA
  - ras/RasSetCredentialsA
- - RasSetCredentials
- - ras/RasSetCredentials
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasSetCredentialsA
  - RasSetCredentials
+ - RasSetCredentialsA
+ - RasSetCredentialsW
 ---
 
 # RasSetCredentialsA function
@@ -229,4 +228,3 @@ To set a pre-shared key, use the <b>RASCM_PreSharedKey</b> flag in the
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

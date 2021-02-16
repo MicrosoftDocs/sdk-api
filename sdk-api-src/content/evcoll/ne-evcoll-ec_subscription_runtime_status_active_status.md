@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
- - _EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
  - EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
 ---
 

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::GetIndexStatus
+ - IMFASFIndexer.GetIndexStatus
 ---
 
 # IMFASFIndexer::GetIndexStatus
@@ -119,4 +119,3 @@ If there is no index for the specified stream, the method returns <b>FALSE</b> i
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-

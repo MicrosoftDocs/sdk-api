@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCrmLogRecordRead
  - CrmLogRecordRead
 ---
 
@@ -76,4 +75,3 @@ The user data.
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmformatlogrecords">ICrmFormatLogRecords</a>
-

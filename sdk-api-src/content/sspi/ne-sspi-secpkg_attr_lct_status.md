@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SECPKG_ATTR_LCT_STATUS
- - PSECPKG_ATTR_LCT_STATUS
  - SECPKG_ATTR_LCT_STATUS
 ---
 
@@ -77,4 +75,3 @@ It is not known whether the token is the last token from the client.
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_lastclienttokenstatus">SecPkgContext_LastClientTokenStatus</a>
-

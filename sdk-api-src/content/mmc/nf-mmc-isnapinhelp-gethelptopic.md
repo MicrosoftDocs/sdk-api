@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - ISnapinHelp::GetHelpTopic
+ - ISnapinHelp.GetHelpTopic
 ---
 
 # ISnapinHelp::GetHelpTopic
@@ -119,4 +119,3 @@ STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
 
 
 <a href="/previous-versions/windows/desktop/mmc/providing-mui-compliant-help-files">Providing MUI-Compliant Help Files</a>
-

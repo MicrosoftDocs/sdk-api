@@ -9,8 +9,6 @@ tech.root: wds
 f1_keywords:
  - wdstci
  - wdstci/wdstci
-api_name:
- - wdstci
 ---
 
 # Wdstci.h header

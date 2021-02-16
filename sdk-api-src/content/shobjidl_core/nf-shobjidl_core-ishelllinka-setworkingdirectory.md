@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::SetWorkingDirectory
+ - IShellLink.SetWorkingDirectory
+ - IShellLinkA.SetWorkingDirectory
+ - IShellLinkW.SetWorkingDirectory
 ---
 
 # IShellLinkA::SetWorkingDirectory

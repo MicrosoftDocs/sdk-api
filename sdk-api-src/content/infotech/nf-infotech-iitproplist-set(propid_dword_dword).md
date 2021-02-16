@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList::Set
+ - IITPropList.Set
 ---
 
 # IITPropList::Set(PROPID,DWORD,DWORD)
@@ -186,4 +186,3 @@ Use this method to set properties with numerical values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
-

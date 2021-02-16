@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509CertificateRequestPkcs10V3::get_NameValuePairs
+ - IX509CertificateRequestPkcs10V3.NameValuePairs
+ - IX509CertificateRequestPkcs10V3.get_NameValuePairs
 ---
 
 # IX509CertificateRequestPkcs10V3::get_NameValuePairs
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
-

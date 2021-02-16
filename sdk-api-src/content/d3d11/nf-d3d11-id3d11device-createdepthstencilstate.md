@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device::CreateDepthStencilState
+ - ID3D11Device.CreateDepthStencilState
 ---
 
 # ID3D11Device::CreateDepthStencilState
@@ -82,4 +82,3 @@ If an application attempts to create a depth-stencil-state interface with the sa
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-

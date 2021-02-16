@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::GetInputType
+ - IMediaObject.GetInputType
 ---
 
 # IMediaObject::GetInputType
@@ -150,4 +150,3 @@ To test whether the <i>dwTypeIndex</i> parameter is in range, set <i>pmt</i> to 
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

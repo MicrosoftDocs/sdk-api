@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfMessagePump::PeekMessageW
+ - ITfMessagePump.PeekMessageW
+ - peekmessagew
 ---
 
 # ITfMessagePump::PeekMessageW
@@ -126,4 +127,3 @@ If <i>wMsgFilterMin</i> and <i>wMsgFilterMax</i> are both zero, this method retu
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-

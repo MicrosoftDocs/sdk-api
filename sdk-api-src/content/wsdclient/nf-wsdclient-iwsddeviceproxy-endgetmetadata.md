@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy::EndGetMetadata
+ - IWSDDeviceProxy.EndGetMetadata
 ---
 
 # IWSDDeviceProxy::EndGetMetadata
@@ -131,4 +131,3 @@ EndGetMetadata must only be called after the <a href="/windows/desktop/api/wsdcl
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-

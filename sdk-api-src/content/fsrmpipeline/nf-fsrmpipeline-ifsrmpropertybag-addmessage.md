@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag::AddMessage
+ - IFsrmPropertyBag.AddMessage
 ---
 
 # IFsrmPropertyBag::AddMessage
@@ -90,4 +90,3 @@ If any of the following implementations returns an error code, FSRM automaticall
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-get_messages">IFsrmPropertyBag::Messages</a>
-

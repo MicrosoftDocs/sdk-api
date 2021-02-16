@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectId::InitializeFromValue
+ - IObjectId.InitializeFromValue
 ---
 
 # IObjectId::InitializeFromValue
@@ -124,4 +124,3 @@ You can call the following properties to retrieve information about an initializ
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>
-

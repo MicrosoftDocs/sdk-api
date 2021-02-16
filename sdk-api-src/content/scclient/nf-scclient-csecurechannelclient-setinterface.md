@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient::SetInterface
+ - CSecureChannelClient.SetInterface
 ---
 
 # CSecureChannelClient::SetInterface
@@ -172,4 +172,3 @@ HRESULT MyClass::Authenticate()
 
 
 <a href="/windows/desktop/WMDM/using-secure-authenticated-channels">Using Secure Authenticated Channels</a>
-

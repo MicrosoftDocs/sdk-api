@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager::GetQuota
+ - IFsrmQuotaManager.GetQuota
+ - IFsrmQuotaManagerEx.GetQuota
+ - FsrmQuotaManager.GetQuota
 ---
 
 # IFsrmQuotaManager::GetQuota
@@ -86,4 +88,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

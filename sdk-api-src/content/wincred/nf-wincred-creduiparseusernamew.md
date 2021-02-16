@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CredUIParseUserNameW
  - wincred/CredUIParseUserNameW
- - CredUIParseUserName
- - wincred/CredUIParseUserName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-security-credui-l1-1-1.dll
  - AnalogCredUI.dll
 api_name:
- - CredUIParseUserNameW
  - CredUIParseUserName
+ - CredUIParseUserNameA
+ - CredUIParseUserNameW
 ---
 
 # CredUIParseUserNameW function
@@ -183,4 +182,3 @@ The entire string is returned in the <i>User</i> parameter. The <i>Domain</i> pa
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-logonusera">LogonUser</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMBackupDir::SearchBackups
+ - IGPMBackupDir.SearchBackups
+ - GPMBackupDir.SearchBackups
 ---
 
 # IGPMBackupDir::SearchBackups
@@ -122,4 +123,3 @@ An empty  <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpms
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
-

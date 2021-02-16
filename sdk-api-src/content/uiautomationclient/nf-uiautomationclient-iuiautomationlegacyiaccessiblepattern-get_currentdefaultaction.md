@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction
+ - IUIAutomationLegacyIAccessiblePattern.CurrentDefaultAction
+ - IUIAutomationLegacyIAccessiblePattern.get_CurrentDefaultAction
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentDefaultAction

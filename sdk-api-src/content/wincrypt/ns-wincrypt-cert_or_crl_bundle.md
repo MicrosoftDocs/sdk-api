@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_OR_CRL_BUNDLE
- - PCERT_OR_CRL_BUNDLE
  - CERT_OR_CRL_BUNDLE
 ---
 

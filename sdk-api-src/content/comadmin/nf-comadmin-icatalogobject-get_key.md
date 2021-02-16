@@ -42,7 +42,8 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogObject::get_Key
+ - ICatalogObject.Key
+ - ICatalogObject.get_Key
 ---
 
 # ICatalogObject::get_Key
@@ -65,4 +66,3 @@ If you add a new object and save it with the key property of an existing object,
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-

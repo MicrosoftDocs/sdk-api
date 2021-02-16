@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferDataCounters::GetData
+ - IStreamBufferDataCounters.GetData
 ---
 
 # IStreamBufferDataCounters::GetData
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferdatacounters">IStreamBufferDataCounters Interface</a>
-

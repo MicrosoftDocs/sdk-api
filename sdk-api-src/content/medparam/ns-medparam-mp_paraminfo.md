@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Medparam.h
 api_name:
- - _MP_PARAMINFO
  - MP_PARAMINFO
 ---
 
@@ -92,4 +91,3 @@ The <b>szUnitText</b> and <b>szLabel</b> members always contain English-language
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
-

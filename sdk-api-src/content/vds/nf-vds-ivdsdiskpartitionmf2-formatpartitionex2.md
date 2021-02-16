@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - IVdsDiskPartitionMF2::FormatPartitionEx2
+ - IVdsDiskPartitionMF2.FormatPartitionEx2
 ---
 
 # IVdsDiskPartitionMF2::FormatPartitionEx2
@@ -356,4 +356,3 @@ The volume size is too small to format.
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_format_option_flags">VDS_FORMAT_OPTION_FLAGS</a>
-

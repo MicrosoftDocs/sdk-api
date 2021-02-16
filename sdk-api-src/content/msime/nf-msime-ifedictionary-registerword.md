@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFEDictionary::RegisterWord
+ - IFEDictionary.RegisterWord
 ---
 
 # IFEDictionary::RegisterWord
@@ -183,4 +183,3 @@ An unexpected error.
 
 
 <a href="/windows/desktop/api/msime/ns-msime-imewrd">IMEWRD</a>
-

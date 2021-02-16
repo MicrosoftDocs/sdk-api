@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategory::get_Type
+ - ICategory.Type
+ - ICategory.get_Type
 ---
 
 # ICategory::get_Type
@@ -63,4 +64,3 @@ The following list identifies the possible category types:
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>
-

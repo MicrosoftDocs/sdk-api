@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSource::CreatePresentationDescriptor
+ - IMFMediaSource.CreatePresentationDescriptor
 ---
 
 # IMFMediaSource::CreatePresentationDescriptor
@@ -103,4 +103,3 @@ The presentation descriptor contains the media source's default settings for the
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
-

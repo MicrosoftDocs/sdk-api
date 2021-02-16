@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange
+ - ID3D11VideoContext.NegotiateAuthenticatedChannelKeyExchange
 ---
 
 # ID3D11VideoContext::NegotiateAuthenticatedChannelKeyExchange
@@ -77,4 +77,3 @@ This method will fail if the channel type is    <a href="/windows/desktop/api/d3
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-

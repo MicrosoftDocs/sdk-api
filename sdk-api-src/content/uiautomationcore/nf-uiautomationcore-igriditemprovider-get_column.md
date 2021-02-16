@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IGridItemProvider::get_Column
+ - IGridItemProvider.Column
+ - IGridItemProvider.get_Column
 ---
 
 # IGridItemProvider::get_Column
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

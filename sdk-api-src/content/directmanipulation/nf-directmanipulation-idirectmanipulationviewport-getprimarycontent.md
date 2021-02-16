@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::GetPrimaryContent
+ - IDirectManipulationViewport.GetPrimaryContent
 ---
 
 # IDirectManipulationViewport::GetPrimaryContent
@@ -89,4 +89,3 @@ HRESULT hr = pRegion->GetPrimaryContent(IID_PPV_ARGS(&pContent));
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

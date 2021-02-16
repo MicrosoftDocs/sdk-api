@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_EventsLost
+ - ITraceDataCollector.EventsLost
+ - ITraceDataCollector.get_EventsLost
 ---
 
 # ITraceDataCollector::get_EventsLost
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_bufferslost">ITraceDataCollector::BuffersLost</a>
-

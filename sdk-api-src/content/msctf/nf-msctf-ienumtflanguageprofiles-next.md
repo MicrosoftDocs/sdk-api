@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfLanguageProfiles::Next
+ - IEnumTfLanguageProfiles.Next
 ---
 
 # IEnumTfLanguageProfiles::Next
@@ -113,4 +113,3 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfLanguageProfiles interface](nn-msctf-ienumtflanguageprofiles.md), [TF_LANGUAGEPROFILE](ns-msctf-tf_languageprofile.md)
-

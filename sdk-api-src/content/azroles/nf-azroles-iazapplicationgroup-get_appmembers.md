@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::get_AppMembers
+ - IAzApplicationGroup.AppMembers
+ - IAzApplicationGroup.get_AppMembers
+ - AzApplicationGroup.AppMembers
 ---
 
 # IAzApplicationGroup::get_AppMembers
@@ -61,4 +63,3 @@ This property is read-only.
 This property allows the nesting of <a href="/windows/desktop/api/azroles/nn-azroles-iazapplicationgroup">IAzApplicationGroup</a> objects within another <b>IAzApplicationGroup</b> object.
 
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
-

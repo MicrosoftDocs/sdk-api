@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxEncryptionFactory2::CreateEncryptedPackageWriter
+ - IAppxEncryptionFactory2.CreateEncryptedPackageWriter
 ---
 
 # IAppxEncryptionFactory2::CreateEncryptedPackageWriter
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxencryptionfactory2">IAppxEncryptionFactory2</a>
-

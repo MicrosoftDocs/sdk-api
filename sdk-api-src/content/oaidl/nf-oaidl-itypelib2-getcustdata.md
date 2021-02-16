@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib2::GetCustData
+ - ITypeLib2.GetCustData
 ---
 
 # ITypeLib2::GetCustData
@@ -112,4 +112,3 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
-

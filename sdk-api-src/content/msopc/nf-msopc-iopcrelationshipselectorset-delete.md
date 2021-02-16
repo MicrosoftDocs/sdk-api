@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcRelationshipSelectorSet::Delete
+ - IOpcRelationshipSelectorSet.Delete
 ---
 
 # IOpcRelationshipSelectorSet::Delete
@@ -141,4 +141,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
-

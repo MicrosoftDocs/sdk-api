@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer2::put_SuppressEffects
+ - IMSVidVideoRenderer2.put_SuppressEffects
 ---
 
 # IMSVidVideoRenderer2::put_SuppressEffects
@@ -99,4 +99,3 @@ If <i>bSuppress</i> equals VARIANT_FALSE, the Video Control uses the existing sy
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_usingoverlay">IMSVidVideoRenderer::put_UsingOverlay</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem::GetItemInfo
+ - ISyncMgrSyncItem.GetItemInfo
 ---
 
 # ISyncMgrSyncItem::GetItemInfo
@@ -89,4 +89,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetItemInfo(
 }
 
 ```
-

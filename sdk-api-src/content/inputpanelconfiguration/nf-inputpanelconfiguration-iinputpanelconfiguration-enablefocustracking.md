@@ -42,7 +42,7 @@ api_type:
 api_location:
  - inputpanelconfiguration.h
 api_name:
- - IInputPanelConfiguration::EnableFocusTracking
+ - IInputPanelConfiguration.EnableFocusTracking
 ---
 
 # IInputPanelConfiguration::EnableFocusTracking
@@ -68,4 +68,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/inputpanelconfiguration/nn-inputpanelconfiguration-iinputpanelconfiguration">IInputPanelConfiguration</a>
-

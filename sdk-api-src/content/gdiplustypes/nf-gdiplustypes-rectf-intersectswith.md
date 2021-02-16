@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - RectF::IntersectsWith
+ - RectF.IntersectsWith
 ---
 
 # RectF::IntersectsWith
@@ -86,4 +86,3 @@ If the intersection of the two rectangles is not empty, this method returns <b>T
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-

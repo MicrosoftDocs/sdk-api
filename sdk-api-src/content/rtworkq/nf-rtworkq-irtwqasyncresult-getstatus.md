@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncResult::GetStatus
+ - IRtwqAsyncResult.GetStatus
 ---
 
 # IRtwqAsyncResult::GetStatus
@@ -79,4 +79,3 @@ The operation completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasyncresult">IRtwqAsyncResult</a>
-

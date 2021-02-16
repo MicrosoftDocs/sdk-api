@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PolyTextOutA
  - wingdi/PolyTextOutA
- - PolyTextOut
- - wingdi/PolyTextOut
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - PolyTextOutA
  - PolyTextOut
+ - PolyTextOutA
+ - PolyTextOutW
 ---
 
 # PolyTextOutA function
@@ -113,4 +112,3 @@ To draw a single string of text, the application should call the <a href="/windo
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
-

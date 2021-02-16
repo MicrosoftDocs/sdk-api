@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
- - _BP_PAINTPARAMS
- - PBP_PAINTPARAMS
  - BP_PAINTPARAMS
 ---
 
@@ -125,4 +123,3 @@ A pointer to exclusion <a href="/windows/desktop/api/windef/ns-windef-rect">RECT
 Type: <b>const <a href="/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a>*</b>
 
 A pointer to <a href="/windows/desktop/api/wingdi/ns-wingdi-blendfunction">BLENDFUNCTION</a> structure, which controls blending by specifying the blending functions for source and destination bitmaps.  If <b>NULL</b>, the source buffer is copied to the destination with no blending.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_COUNTER_HEADER
- - PPERF_COUNTER_HEADER
  - PERF_COUNTER_HEADER
 ---
 
@@ -165,4 +163,3 @@ contains a sequence of <b>PERF_COUNTER_HEADER</b> blocks.
 
 
 <a href="/windows/desktop/api/perflib/ne-perflib-perfcounterdatatype">PerfCounterDataType</a>
-

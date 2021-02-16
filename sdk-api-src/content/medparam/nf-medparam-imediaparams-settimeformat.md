@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaParams::SetTimeFormat
+ - IMediaParams.SetTimeFormat
 ---
 
 # IMediaParams::SetTimeFormat
@@ -135,4 +135,3 @@ To determine what time formats an object supports, call the <a href="/windows/de
 
 
 <a href="/windows/desktop/DirectShow/time-format-guids">Time Format GUIDs</a>
-

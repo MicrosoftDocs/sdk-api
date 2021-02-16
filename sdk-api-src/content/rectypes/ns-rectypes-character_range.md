@@ -46,8 +46,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - tagCHARACTER_RANGE
- - PCHARACTER_RANGE
  - CHARACTER_RANGE
 ---
 
@@ -79,4 +77,3 @@ Specifies a range of Unicode points (characters).
 
 
 <a href="/windows/desktop/api/recapis/nf-recapis-setenabledunicoderanges">SetEnabledUnicodeRanges Function</a>
-

@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - workspaceruntimeclientext
  - workspaceruntimeclientext/workspaceruntimeclientext
-api_name:
- - workspaceruntimeclientext
 ---
 
 # Workspaceruntimeclientext.h header

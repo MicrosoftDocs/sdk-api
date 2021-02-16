@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices::TxGetNaturalSize
+ - ITextServices.TxGetNaturalSize
 ---
 
 # ITextServices::TxGetNaturalSize
@@ -271,4 +271,3 @@ The <i>pwidth</i> and <i>pheight</i> parameters are in/out parameters. The host 
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

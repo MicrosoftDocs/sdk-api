@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPinConnection::NotifyEndOfStream
+ - IPinConnection.NotifyEndOfStream
 ---
 
 # IPinConnection::NotifyEndOfStream
@@ -122,4 +122,3 @@ The filter graph calls this method inside the <a href="/windows/desktop/api/strm
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
-

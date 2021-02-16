@@ -9,8 +9,6 @@ tech.root: bltooth
 f1_keywords:
  - bthledef
  - bthledef/bthledef
-api_name:
- - bthledef
 ---
 
 # Bthledef.h header

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IComHandlerAction::get_ClassId
+ - IComHandlerAction.ClassId
+ - IComHandlerAction.get_ClassId
+ - IComHandlerAction.put_ClassId
 ---
 
 # IComHandlerAction::get_ClassId
@@ -67,4 +69,3 @@ When reading or writing XML, the class of a COM handler is specified in the <a h
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

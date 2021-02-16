@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::GetChar
+ - ITextRange.GetChar
 ---
 
 # ITextRange::GetChar
@@ -103,4 +103,3 @@ Accordingly, the Text Object Model (TOM) does not support a characters collectio
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

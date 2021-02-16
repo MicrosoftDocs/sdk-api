@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRFRAMERGN
- - PEMRFRAMERGN
  - EMRFRAMERGN
 ---
 
@@ -99,4 +97,3 @@ Buffer containing <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDAT
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGNDATA</a>
-

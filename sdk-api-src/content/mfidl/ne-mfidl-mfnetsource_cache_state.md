@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNETSOURCE_CACHE_STATE
  - MFNETSOURCE_CACHE_STATE
 ---
 
@@ -72,4 +71,3 @@ The cache for a file or entry is completed.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

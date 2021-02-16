@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxSendDocumentForBroadcastA
  - winfax/FaxSendDocumentForBroadcastA
- - FaxSendDocumentForBroadcast
- - winfax/FaxSendDocumentForBroadcast
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxSendDocumentForBroadcastA
  - FaxSendDocumentForBroadcast
+ - FaxSendDocumentForBroadcastA
+ - FaxSendDocumentForBroadcastW
 ---
 
 # FaxSendDocumentForBroadcastA function
@@ -197,4 +196,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumenta">FaxSendDocument</a>
-

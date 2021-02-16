@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Locate_DevNodeA
  - cfgmgr32/CM_Locate_DevNodeA
- - CM_Locate_DevNode
- - cfgmgr32/CM_Locate_DevNode
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Devices-Config-L1-1-0.dll
  - API-MS-Win-Devices-Config-L1-1-1.dll
 api_name:
- - CM_Locate_DevNodeA
  - CM_Locate_DevNode
+ - CM_Locate_DevNodeA
+ - CM_Locate_DevNodeW
 ---
 
 # CM_Locate_DevNodeA function
@@ -119,4 +118,3 @@ For information about using device instance handles that are bound to the local 
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw">CM_Locate_DevNode_Ex</a>
-

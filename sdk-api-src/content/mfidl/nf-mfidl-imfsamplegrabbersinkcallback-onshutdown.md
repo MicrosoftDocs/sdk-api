@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSampleGrabberSinkCallback::OnShutdown
+ - IMFSampleGrabberSinkCallback.OnShutdown
 ---
 
 # IMFSampleGrabberSinkCallback::OnShutdown
@@ -86,4 +86,3 @@ The <b>OnShutdown</b> method should return quickly, or it might interfere with p
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback">IMFSampleGrabberSinkCallback</a>
-

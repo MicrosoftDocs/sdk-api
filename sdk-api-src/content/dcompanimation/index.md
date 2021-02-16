@@ -9,8 +9,6 @@ tech.root: directcomp
 f1_keywords:
  - dcompanimation
  - dcompanimation/dcompanimation
-api_name:
- - dcompanimation
 ---
 
 # Dcompanimation.h header

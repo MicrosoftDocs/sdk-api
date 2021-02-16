@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - _SP_ALTPLATFORM_INFO_V2
- - PSP_ALTPLATFORM_INFO_V2
  - SP_ALTPLATFORM_INFO_V2
 ---
 
@@ -141,4 +139,3 @@ Minor version of the oldest previous operating system for which this package's d
 
 
 <a href="/windows/desktop/SetupApi/structures--setup-api-">Structures</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatuses::get_ItemByIndex
+ - ICspStatuses.ItemByIndex
+ - ICspStatuses.get_ItemByIndex
 ---
 
 # ICspStatuses::get_ItemByIndex
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
-

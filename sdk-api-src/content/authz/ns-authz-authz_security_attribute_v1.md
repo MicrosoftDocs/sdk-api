@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_SECURITY_ATTRIBUTE_V1
- - PAUTHZ_SECURITY_ATTRIBUTE_V1
  - AUTHZ_SECURITY_ATTRIBUTE_V1
 ---
 
@@ -237,4 +235,3 @@ A pointer to one or more <a href="/windows/win32/api/authz/ns-authz-authz_securi
 
 
 <a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor::get_InitialTimestamp
+ - IInertiaProcessor.InitialTimestamp
+ - IInertiaProcessor.get_InitialTimestamp
+ - IInertiaProcessor.put_InitialTimestamp
 ---
 
 # IInertiaProcessor::get_InitialTimestamp
@@ -71,4 +73,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
-

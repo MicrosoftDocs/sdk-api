@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _PRIVKEYVER3
  - DHPRIVKEY_VER3
 ---
 
@@ -92,4 +91,3 @@ Seed structure holding the seed and counter values used to generate the primes Q
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-dssseed">DSSSEED</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_VideoAttributes
  - DVD_VideoAttributes
 ---
 
@@ -116,4 +115,3 @@ This structure is filled when an application calls the <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

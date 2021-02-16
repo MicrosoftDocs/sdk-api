@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::GetStreamLatency
+ - IAudioClient.GetStreamLatency
 ---
 
 # IAudioClient::GetStreamLatency
@@ -132,4 +132,3 @@ Rendering clients can use this latency value to compute the minimum amount of da
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
-

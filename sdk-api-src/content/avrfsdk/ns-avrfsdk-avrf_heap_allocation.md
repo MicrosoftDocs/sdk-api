@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Avrfsdk.h
 api_name:
- - _AVRF_HEAP_ALLOCATION
- - PAVRF_HEAP_ALLOCATION
  - AVRF_HEAP_ALLOCATION
 ---
 
@@ -105,4 +103,3 @@ When available, it can be the stack backtrace of the place where the address spe
 
 
 <a href="/windows/desktop/api/avrfsdk/nf-avrfsdk-verifierenumerateresource">VerifierEnumerateResource</a>
-

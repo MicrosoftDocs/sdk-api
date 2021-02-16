@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUSHORTN4::XMUSHORTN4
+ - XMUSHORTN4.XMUSHORTN4
 ---
 
 # XMUSHORTN4::XMUSHORTN4(uint16_t,uint16_t,uint16_t,uint16_t)
@@ -110,4 +110,3 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 <a href="/windows/desktop/dxmath/xmushortn4-ctor">XMUSHORTN4 Constructors</a>
-

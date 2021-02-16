@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress2::NegotiateExtVersion
+ - ITAddress2.NegotiateExtVersion
 ---
 
 # ITAddress2::NegotiateExtVersion
@@ -135,4 +135,3 @@ The <i>plExtVersion</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateextversion">lineNegotiateExtVersion</a>
-

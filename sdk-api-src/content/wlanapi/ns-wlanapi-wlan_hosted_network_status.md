@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_STATUS
- - PWLAN_HOSTED_NETWORK_STATUS
  - WLAN_HOSTED_NETWORK_STATUS
 ---
 
@@ -135,4 +133,3 @@ The <b>WLAN_HOSTED_NETWORK_STATUS</b>  structure  is returned in a pointer in th
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkquerystatus">WlanHostedNetworkQueryStatus</a>
-

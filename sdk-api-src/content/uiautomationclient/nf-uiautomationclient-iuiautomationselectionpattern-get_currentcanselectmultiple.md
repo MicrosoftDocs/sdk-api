@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple
+ - IUIAutomationSelectionPattern.CurrentCanSelectMultiple
+ - IUIAutomationSelectionPattern.get_CurrentCanSelectMultiple
 ---
 
 # IUIAutomationSelectionPattern::get_CurrentCanSelectMultiple
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_currentisselectionrequired">IUIAutomationSelectionPattern::CurrentIsSelectionRequired</a>
-

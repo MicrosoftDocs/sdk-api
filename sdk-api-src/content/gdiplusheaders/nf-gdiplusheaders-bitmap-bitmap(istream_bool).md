@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::Bitmap
+ - Bitmap.Bitmap
 ---
 
 # Bitmap::Bitmap(IN IStream,IN BOOL)
@@ -91,4 +91,3 @@ Boolean value that specifies whether the new <b>Bitmap::Bitmap</b> object applie
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

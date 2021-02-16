@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactManager::Load
+ - IContactManager.Load
 ---
 
 # IContactManager::Load
@@ -109,4 +109,3 @@ Could not find this contact ID.
 
 
 <a href="/previous-versions/windows/desktop/api/icontact/nn-icontact-icontactmanager">IContactManager</a>
-

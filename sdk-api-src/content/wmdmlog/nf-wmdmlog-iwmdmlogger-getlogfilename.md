@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMLogger::GetLogFileName
+ - IWMDMLogger.GetLogFileName
 ---
 
 # IWMDMLogger::GetLogFileName
@@ -85,4 +85,3 @@ The default log file is &lt; <i>Windows directory</i> &gt;\System32\Wmdm.log.
 
 
 <a href="/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TOKEN_ELEVATION_TYPE
- - PTOKEN_ELEVATION_TYPE
  - TOKEN_ELEVATION_TYPE
 ---
 
@@ -71,4 +69,3 @@ The token is an elevated token.
 ### -field TokenElevationTypeLimited
 
 The token is a limited token.
-

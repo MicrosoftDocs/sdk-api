@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_VIEWPORT::CD3D11_VIEWPORT
+ - CD3D11_VIEWPORT.CD3D11_VIEWPORT
 ---
 
 # CD3D11_VIEWPORT::CD3D11_VIEWPORT(ID3D11Texture3D,ID3D11RenderTargetView,FLOAT,FLOAT,FLOAT,FLOAT)
@@ -86,4 +86,3 @@ Ranges between 0 and 1.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151722(v=vs.85)">CD3D11_VIEWPORT</a>
-

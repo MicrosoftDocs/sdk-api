@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IMediaRenderer::GetPositionInformationAsync
+ - IMediaRenderer.GetPositionInformationAsync
 ---
 
 # IMediaRenderer::streaming
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-

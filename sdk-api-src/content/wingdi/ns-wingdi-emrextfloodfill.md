@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMREXTFLOODFILL
- - PEMREXTFLOODFILL
  - EMREXTFLOODFILL
 ---
 
@@ -95,4 +93,3 @@ Type of fill operation to be performed. This member must be either the FLOODFILL
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-

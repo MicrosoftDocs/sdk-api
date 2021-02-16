@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - tagDBCONTENTSCOPE
  - DBCONTENTSCOPE
 ---
 
@@ -71,4 +70,3 @@ reserved for future use.
 ### -field pwszElementValue
 
 DBPROP_CI_INCLUDE_SCOPES property for the path
-

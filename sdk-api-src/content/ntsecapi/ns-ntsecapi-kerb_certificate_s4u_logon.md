@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_CERTIFICATE_S4U_LOGON
- - PKERB_CERTIFICATE_S4U_LOGON
  - KERB_CERTIFICATE_S4U_LOGON
 ---
 
@@ -136,4 +134,3 @@ The length, in bytes, of the client certificate.
 ### -field Certificate
 
 The certificate of the S4U logon.
-

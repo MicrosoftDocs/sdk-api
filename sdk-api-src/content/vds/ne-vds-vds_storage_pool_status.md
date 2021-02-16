@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_STORAGE_POOL_STATUS
  - VDS_STORAGE_POOL_STATUS
 ---
 
@@ -86,4 +85,3 @@ The <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_prop">VD
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_storage_pool_prop">VDS_STORAGE_POOL_PROP</a>
-

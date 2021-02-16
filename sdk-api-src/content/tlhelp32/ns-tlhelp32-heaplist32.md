@@ -44,7 +44,6 @@ api_type:
 api_location:
  - TlHelp32.h
 api_name:
- - tagHEAPLIST32
  - HEAPLIST32
 ---
 
@@ -99,4 +98,3 @@ Process's default heap
 
 
 <a href="/windows/desktop/api/tlhelp32/nf-tlhelp32-heap32listnext">Heap32ListNext</a>
-

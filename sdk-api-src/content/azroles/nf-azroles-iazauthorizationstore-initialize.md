@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::Initialize
+ - AzAuthorizationStore.Initialize
+ - IAzAuthorizationStore.Initialize
 ---
 
 # IAzAuthorizationStore::Initialize
@@ -182,4 +183,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 Active Directory supports Application Partitions, which are also known as Non-Domain Naming Contexts. These partitions are used as a location for programs to store application data. An Authorization Manager policy store cannot be created or kept in the Application Partition; instead, use the Program Data container as the container for Active Directory Authorization Manager policy stores.
-

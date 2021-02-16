@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidl.h
 api_name:
- - IAgileReference::Resolve
+ - IAgileReference.Resolve
 ---
 
 # IAgileReference::Resolve(REFIID,void)
@@ -61,6 +61,8 @@ The interface ID of the interface to be retrieved from the agile reference. It i
 ### -param ppvObjectReference [out, retval]
 
 On successful completion, *<i>ppvObjectReference</i> is a pointer to the interface specified by <i>riid</i>.
+
+
 
 ## -returns
 
@@ -106,4 +108,3 @@ Call the <a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilerefere
 
 
 <a href="/windows/desktop/api/combaseapi/nf-combaseapi-rogetagilereference">RoGetAgileReference</a>
-

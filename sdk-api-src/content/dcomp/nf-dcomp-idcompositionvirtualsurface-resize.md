@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVirtualSurface::Resize
+ - IDCompositionVirtualSurface.Resize
 ---
 
 # IDCompositionVirtualSurface::Resize
@@ -91,4 +91,3 @@ This method fails if <i>width</i> or <i>height</i> exceeds 16,777,216 pixels.
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvirtualsurface-trim">IDCompositionVirtualSurface::Trim</a>
-

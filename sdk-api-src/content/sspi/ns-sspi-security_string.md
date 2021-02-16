@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SECURITY_STRING
- - PSECURITY_STRING
  - SECURITY_STRING
 ---
 
@@ -79,4 +77,3 @@ Pointer to a wide-character string. Note that the strings returned by the variou
 ### -field Buffer.length_is
 
 ### -field Buffer.length_is.Length/2
-

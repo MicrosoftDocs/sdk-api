@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_REFERENCE
- - PCRYPT_XML_REFERENCE
  - CRYPT_XML_REFERENCE
 ---
 
@@ -95,4 +93,3 @@ The number of elements in the array pointed to by the <b>rgTransform</b> member.
 ### -field rgTransform
 
 An array of <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_info">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.
-

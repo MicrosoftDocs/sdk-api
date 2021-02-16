@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1020
- - PUSER_INFO_1020
  - USER_INFO_1020
 ---
 
@@ -100,4 +98,3 @@ Each bit in the string represents a unique hour in the week, in Greenwich Mean T
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

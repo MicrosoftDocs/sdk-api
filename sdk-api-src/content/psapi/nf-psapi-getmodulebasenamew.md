@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetModuleBaseNameW
  - psapi/GetModuleBaseNameW
- - GetModuleBaseName
- - psapi/GetModuleBaseName
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,12 @@ api_location:
  - API-Ms-Win-Core-PsAPI-Ansi-L1-1-0.dll
  - API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
- - GetModuleBaseNameW
  - GetModuleBaseName
+ - GetModuleBaseNameA
+ - GetModuleBaseNameW
+ - K32GetModuleBaseName
+ - K32GetModuleBaseNameW
+ - K32GetModuleBaseNameA
 ---
 
 # GetModuleBaseNameW function
@@ -153,4 +155,3 @@ For an example, see
 
 
 <a href="/cpp/c-runtime-library/reference/strrchr-wcsrchr-mbsrchr-mbsrchr-l">strrchr, wcsrchr, _mbsrchr, _mbsrchr_l</a>
-

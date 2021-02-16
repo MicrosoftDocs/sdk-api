@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyQMgr::CreateGroup
+ - IBackgroundCopyQMgr.CreateGroup
 ---
 
 # IBackgroundCopyQMgr::CreateGroup
@@ -100,4 +100,3 @@ A group already exists with that GUID.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a>
-

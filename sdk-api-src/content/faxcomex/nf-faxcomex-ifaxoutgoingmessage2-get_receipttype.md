@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage2::get_ReceiptType
+ - IFaxOutgoingMessage2.ReceiptType
+ - IFaxOutgoingMessage2.get_ReceiptType
+ - IFaxOutgoingMessage2.get_ReceiptType
 ---
 
 # IFaxOutgoingMessage2::get_ReceiptType
@@ -64,4 +66,3 @@ Specifies the type of delivery report that is sent following an attempted transm
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingmessage2">IFaxOutgoingMessage2</a>
-

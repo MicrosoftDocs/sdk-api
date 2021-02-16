@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataObject::EnumDAdvise
+ - IDataObject.EnumDAdvise
 ---
 
 # IDataObject::EnumDAdvise
@@ -109,4 +109,3 @@ It is recommended that you use the OLE data advise holder object to handle advis
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
-

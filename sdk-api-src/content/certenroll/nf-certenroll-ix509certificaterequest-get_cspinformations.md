@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::get_CspInformations
+ - IX509CertificateRequest.CspInformations
+ - IX509CertificateRequest.get_CspInformations
+ - IX509CertificateRequest.put_CspInformations
 ---
 
 # IX509CertificateRequest::get_CspInformations
@@ -87,4 +89,3 @@ The <b>CspInformations</b> property exists so that the caller can avoid forcing 
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

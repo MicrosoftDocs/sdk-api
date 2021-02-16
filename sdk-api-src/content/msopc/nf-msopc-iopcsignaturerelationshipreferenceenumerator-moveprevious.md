@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureRelationshipReferenceEnumerator::MovePrevious
+ - IOpcSignatureRelationshipReferenceEnumerator.MovePrevious
 ---
 
 # IOpcSignatureRelationshipReferenceEnumerator::MovePrevious
@@ -185,4 +185,3 @@ The current position already precedes the first item of the enumerator.
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport2::AddBehavior
+ - IDirectManipulationViewport2.AddBehavior
 ---
 
 # IDirectManipulationViewport2::AddBehavior
@@ -73,4 +73,3 @@ A behavior takes effect immediately after <b>AddBehavior</b> is called. This mus
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport2">IDirectManipulationViewport2</a>
-

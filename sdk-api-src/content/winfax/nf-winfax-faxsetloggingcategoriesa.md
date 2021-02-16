@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxSetLoggingCategoriesA
  - winfax/FaxSetLoggingCategoriesA
- - FaxSetLoggingCategories
- - winfax/FaxSetLoggingCategories
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxSetLoggingCategoriesA
  - FaxSetLoggingCategories
+ - FaxSetLoggingCategoriesA
+ - FaxSetLoggingCategoriesW
 ---
 
 # FaxSetLoggingCategoriesA function
@@ -165,4 +164,3 @@ The fax service administration application, a Microsoft Management Console (MMC)
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetloggingcategoriesa">FaxGetLoggingCategories</a>
-

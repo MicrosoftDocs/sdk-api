@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::StartSnapshotSet
+ - IVssBackupComponents.StartSnapshotSet
 ---
 
 # IVssBackupComponents::StartSnapshotSet
@@ -152,4 +152,3 @@ This method must be called before
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup">IVssBackupComponents::PrepareForBackup</a>
-

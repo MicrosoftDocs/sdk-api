@@ -45,7 +45,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_MAC_FRAME_STATISTICS
- - PWLAN_MAC_FRAME_STATISTICS
 ---
 
 # WLAN_MAC_FRAME_STATISTICS structure
@@ -108,4 +107,3 @@ Contains the number of encrypted packets that the NIC has failed to decrypt.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_statistics">WLAN_STATISTICS</a>
-

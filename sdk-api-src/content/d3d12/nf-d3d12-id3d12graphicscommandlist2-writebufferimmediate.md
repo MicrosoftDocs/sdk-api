@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList2::WriteBufferImmediate
+ - ID3D12GraphicsCommandList2.WriteBufferImmediate
 ---
 
 # ID3D12GraphicsCommandList2::WriteBufferImmediate
@@ -75,4 +75,3 @@ The receiving buffer (resource) must be in the <b>D3D12_RESOURCE_STATE_COPY_DEST
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist2">ID3D12GraphicsCommandList2</a>
-

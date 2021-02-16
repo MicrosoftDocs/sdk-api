@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TsVirtualChannels.h
 api_name:
- - IWTSListenerCallback::OnNewChannelConnection
+ - IWTSListenerCallback.OnNewChannelConnection
 ---
 
 # IWTSListenerCallback::OnNewChannelConnection
@@ -95,4 +95,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsvirtualchannelcallback">IWTSVirtualChannelCallback</a>
-

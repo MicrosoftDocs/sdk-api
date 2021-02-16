@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler::Begin
+ - IDsAdminNotifyHandler.Begin
 ---
 
 # IDsAdminNotifyHandler::Begin
@@ -166,4 +166,3 @@ The value and contents of <i>pArg1</i> and <i>pArg2</i> vary depending upon the 
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring">SysAllocString</a>
-

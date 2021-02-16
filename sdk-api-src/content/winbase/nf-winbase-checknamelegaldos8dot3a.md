@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CheckNameLegalDOS8Dot3A
  - winbase/CheckNameLegalDOS8Dot3A
- - CheckNameLegalDOS8Dot3
- - winbase/CheckNameLegalDOS8Dot3
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - CheckNameLegalDOS8Dot3A
  - CheckNameLegalDOS8Dot3
+ - CheckNameLegalDOS8Dot3A
+ - CheckNameLegalDOS8Dot3W
 ---
 
 # CheckNameLegalDOS8Dot3A function
@@ -171,4 +170,3 @@ Note that SMB 3.0 does not support short names on shares with continuous availab
 
 
 <a href="/windows/desktop/api/winnls/nf-winnls-getoemcp">GetOEMCP</a>
-

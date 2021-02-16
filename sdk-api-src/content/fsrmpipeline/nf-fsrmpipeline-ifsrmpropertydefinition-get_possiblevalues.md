@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyDefinition::get_PossibleValues
+ - IFsrmPropertyDefinition.PossibleValues
+ - IFsrmPropertyDefinition.get_PossibleValues
+ - IFsrmPropertyDefinition.put_PossibleValues
 ---
 
 # IFsrmPropertyDefinition::get_PossibleValues
@@ -76,4 +78,3 @@ To specify descriptions for each possible value, set the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertydefinition">IFsrmPropertyDefinition</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorEvents::OnLeave
+ - ISensorEvents.OnLeave
 ---
 
 # ISensorEvents::OnLeave
@@ -94,4 +94,3 @@ For an example of how to receive sensor events, see <a href="/windows/desktop/Se
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorevents">ISensorEvents</a>
-

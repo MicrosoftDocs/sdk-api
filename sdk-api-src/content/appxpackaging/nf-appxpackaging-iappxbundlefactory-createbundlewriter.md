@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleFactory::CreateBundleWriter
+ - IAppxBundleFactory.CreateBundleWriter
 ---
 
 # IAppxBundleFactory::CreateBundleWriter
@@ -90,4 +90,3 @@ Content added to the bundle is serialized out as an Appx bundle file to <i>outpu
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlefactory">IAppxBundleFactory</a>
-

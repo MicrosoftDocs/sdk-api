@@ -47,8 +47,6 @@ api_location:
  - Iprtrmib.h
  - Iphlpapi.h
 api_name:
- - _TCP_TABLE_CLASS
- - PTCP_TABLE_CLASS
  - TCP_TABLE_CLASS
 ---
 
@@ -104,4 +102,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getextendedtcptable">GetExtendedTcpTable</a>
-

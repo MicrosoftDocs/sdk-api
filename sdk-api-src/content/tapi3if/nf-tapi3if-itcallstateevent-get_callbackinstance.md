@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallStateEvent::get_CallbackInstance
+ - ITCallStateEvent.get_CallbackInstance
 ---
 
 # ITCallStateEvent::get_CallbackInstance
@@ -115,4 +115,3 @@ The <i>plCallbackInstance</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-registercallnotifications">ITTAPI::RegisterCallNotifications</a>
-

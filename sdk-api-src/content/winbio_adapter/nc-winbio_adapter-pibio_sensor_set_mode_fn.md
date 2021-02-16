@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_SENSOR_SET_MODE_FN
+ - SensorAdapterSetMode
 ---
 
 # PIBIO_SENSOR_SET_MODE_FN callback function
@@ -129,4 +129,3 @@ The sensor adapter does not support the value specified by the <i>Mode</i> param
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

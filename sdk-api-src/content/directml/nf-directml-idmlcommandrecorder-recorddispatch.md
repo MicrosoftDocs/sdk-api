@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLCommandRecorder::RecordDispatch
+ - IDMLCommandRecorder.RecordDispatch
 ---
 
 # IDMLCommandRecorder::RecordDispatch
@@ -116,4 +116,3 @@ A pointer to an [IDMLBindingTable](/windows/win32/api/directml/nn-directml-idmlb
 
 
 [IDMLCommandRecorder](/windows/win32/api/directml/nn-directml-idmlcommandrecorder)
-

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRectangle::SetRectangle
+ - IInkRectangle.SetRectangle
 ---
 
 # IInkRectangle::SetRectangle
@@ -143,4 +143,3 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrectangle-get_top">Top Property</a>
-

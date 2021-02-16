@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2::GetStatus
+ - IUIAnimationStoryboard2.GetStatus
 ---
 
 # IUIAnimationStoryboard2::GetStatus
@@ -78,4 +78,3 @@ Unless this method is called from a handler for <a href="/windows/desktop/api/ui
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
-

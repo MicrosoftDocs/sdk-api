@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shlwapi.h
 api_name:
- - _DLLVERSIONINFO2
  - DLLVERSIONINFO2
 ---
 
@@ -78,4 +77,3 @@ A value that contains the version information. It is divided into four 16-bitfie
 ## -remarks
 
 Your application must set the <b>cbSize</b> member of the structure pointed to by <b>info1</b> to <b>sizeof(</b><b>DLLVERSIONINFO2</b><b>)</b> before calling <a href="/windows/desktop/api/shlwapi/nc-shlwapi-dllgetversionproc">DllGetVersion</a>. Otherwise, no value will be assigned to the <b>dwFlags</b> or <b>ullVersion</b> member of the <b>DLLVERSIONINFO2</b> structure.
-

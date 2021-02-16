@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_CHAIN_ENGINE_CONFIG
- - PCERT_CHAIN_ENGINE_CONFIG
  - CERT_CHAIN_ENGINE_CONFIG
 ---
 
@@ -239,4 +237,3 @@ Exclusive trust mode allows applications to specify trust anchors and peer-trust
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certcreatecertificatechainengine">CertCreateCertificateChainEngine</a>
-

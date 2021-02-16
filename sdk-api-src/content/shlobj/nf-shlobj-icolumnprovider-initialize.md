@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnProvider::Initialize
+ - IColumnProvider.Initialize
 ---
 
 # IColumnProvider::Initialize
@@ -65,4 +65,3 @@ An <a href="/windows/desktop/api/shlobj/ns-shlobj-shcolumninit">SHCOLUMNINIT</a>
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

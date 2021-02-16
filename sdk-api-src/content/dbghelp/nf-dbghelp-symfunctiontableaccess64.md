@@ -43,6 +43,7 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymFunctionTableAccess64
+ - SymFunctionTableAccess
 ---
 
 # SymFunctionTableAccess64 function
@@ -117,4 +118,3 @@ SymFunctionTableAccess(
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-runtime_function">_IMAGE_RUNTIME_FUNCTION_ENTRY</a>
-

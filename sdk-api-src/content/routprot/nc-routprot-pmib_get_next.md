@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - PMIB_GET_NEXT
+ - MibGetNext
 ---
 
 # PMIB_GET_NEXT callback function
@@ -147,4 +147,3 @@ The size of the output buffer provided is not large enough to hold the requested
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-

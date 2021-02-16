@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ntdef.h
 api_name:
- - _SINGLE_LIST_ENTRY
- - PSINGLE_LIST_ENTRY
  - SINGLE_LIST_ENTRY
 ---
 
@@ -87,4 +85,3 @@ For more information about how to use <b>SINGLE_LIST_ENTRY</b> structures to imp
 
 
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>
-

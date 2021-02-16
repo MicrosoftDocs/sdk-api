@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs1::Reset
+ - IEnumBackgroundCopyJobs1.Reset
 ---
 
 # IEnumBackgroundCopyJobs1::Reset
@@ -63,4 +63,3 @@ This method returns <b>S_OK</b> on success.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopyjobs1">IEnumBackgroundCopyJobs1</a>
-

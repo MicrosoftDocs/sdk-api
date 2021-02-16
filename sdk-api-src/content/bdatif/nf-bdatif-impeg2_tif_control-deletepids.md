@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL::DeletePIDs
+ - IMPEG2_TIF_CONTROL.DeletePIDs
 ---
 
 # IMPEG2_TIF_CONTROL::DeletePIDs
@@ -95,4 +95,3 @@ This method is called if a set of tables in the transport stream goes away, in o
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-impeg2_tif_control">IMPEG2_TIF_CONTROL Interface</a>
-

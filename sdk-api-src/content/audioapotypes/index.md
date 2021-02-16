@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - audioapotypes
  - audioapotypes/audioapotypes
-api_name:
- - audioapotypes
 ---
 
 # Audioapotypes.h header

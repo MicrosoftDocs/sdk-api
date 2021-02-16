@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - PINET_PORT_RESERVATION_INSTANCE
  - INET_PORT_RESERVATION_INSTANCE
 ---
 
@@ -116,4 +115,3 @@ The  <b>INET_PORT_RESERVATION_INSTANCE</b> structure is returned by the <a href=
 
 
 <a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
-

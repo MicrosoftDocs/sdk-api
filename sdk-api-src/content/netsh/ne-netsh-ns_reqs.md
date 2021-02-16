@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Netsh.h
 api_name:
- - _NS_REQS
  - NS_REQS
 ---
 

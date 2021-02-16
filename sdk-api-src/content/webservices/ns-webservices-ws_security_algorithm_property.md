@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SECURITY_ALGORITHM_PROPERTY
  - WS_SECURITY_ALGORITHM_PROPERTY
 ---
 

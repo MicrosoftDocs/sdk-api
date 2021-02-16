@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - tcpioctl
  - tcpioctl/tcpioctl
-api_name:
- - tcpioctl
 ---
 
 # Tcpioctl.h header

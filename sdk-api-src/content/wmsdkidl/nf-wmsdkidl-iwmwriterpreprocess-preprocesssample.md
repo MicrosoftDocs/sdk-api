@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPreprocess::PreprocessSample
+ - IWMWriterPreprocess.PreprocessSample
 ---
 
 # IWMWriterPreprocess::PreprocessSample
@@ -140,4 +140,3 @@ When performing preprocessing, you should pass the samples for the stream to thi
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpreprocess">IWMWriterPreprocess Interface</a>
-

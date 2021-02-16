@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_OPW
- - DS_REPL_OPW
+ - DS_REPL_OP
 ---
 
 # DS_REPL_OPW structure
@@ -174,4 +173,3 @@ Contains the <b>objectGuid</b> of the directory system agent object identified b
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
-

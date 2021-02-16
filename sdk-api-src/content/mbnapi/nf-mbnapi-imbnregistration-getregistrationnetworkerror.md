@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistration::GetRegistrationNetworkError
+ - IMbnRegistration.GetRegistrationNetworkError
 ---
 
 # IMbnRegistration::GetRegistrationNetworkError
@@ -76,4 +76,3 @@ Whenever there is a change in the network error value, the Mobile Broadband serv
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumFields
+ - IMetaDataImport.EnumFields
 ---
 
 # IMetaDataImport::EnumFields
@@ -97,4 +97,3 @@ The actual number of FieldDef tokens returned in <i>rgFields</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

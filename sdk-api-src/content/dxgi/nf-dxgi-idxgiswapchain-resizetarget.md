@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain::ResizeTarget
+ - IDXGISwapChain.ResizeTarget
 ---
 
 # IDXGISwapChain::ResizeTarget
@@ -85,4 +85,3 @@ Apps must still call <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgiswapchain-r
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
-

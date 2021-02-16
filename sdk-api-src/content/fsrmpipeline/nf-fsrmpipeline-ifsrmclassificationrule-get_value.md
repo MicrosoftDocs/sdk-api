@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationRule::get_Value
+ - IFsrmClassificationRule.Value
+ - IFsrmClassificationRule.get_Value
+ - IFsrmClassificationRule.put_Value
 ---
 
 # IFsrmClassificationRule::get_Value
@@ -74,4 +76,3 @@ The classifier determines whether you must specify a value. If the classifier se
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassificationrule">MSFT_FSRMClassificationRule</a>
-

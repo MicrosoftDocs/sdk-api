@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
+ - IVssDifferentialSoftwareSnapshotMgmt.QueryDiffAreasOnVolume
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt::QueryDiffAreasOnVolume
@@ -169,4 +169,3 @@ The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">
 
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
-

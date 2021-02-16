@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_3.dll
 api_name:
- - ID2D1InkStyle::GetNibTransform
+ - ID2D1InkStyle.GetNibTransform
 ---
 
 # ID2D1InkStyle::GetNibTransform
@@ -63,4 +63,3 @@ When this method returns, contains a pointer to the transform to be applied to t
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1inkstyle">ID2D1InkStyle</a>
-

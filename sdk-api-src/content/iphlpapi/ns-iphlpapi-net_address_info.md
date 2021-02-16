@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iphlpapi.h
 api_name:
- - NET_ADDRESS_INFO_
- - PNET_ADDRESS_INFO
  - NET_ADDRESS_INFO
 ---
 
@@ -119,4 +117,3 @@ The <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR_IN</a>,  SOCKADDR_IN6
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">SOCKADDR</a>
-

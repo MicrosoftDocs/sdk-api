@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMIndexer::StartIndexing
+ - IWMIndexer.StartIndexing
 ---
 
 # IWMIndexer::StartIndexing
@@ -157,4 +157,3 @@ g_wszWMStridable
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
-

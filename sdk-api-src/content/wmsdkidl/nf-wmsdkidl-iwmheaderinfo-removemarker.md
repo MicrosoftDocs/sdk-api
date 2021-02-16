@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::RemoveMarker
+ - IWMHeaderInfo.RemoveMarker
+ - IWMHeaderInfo2.RemoveMarker
+ - IWMHeaderInfo3.RemoveMarker
 ---
 
 # IWMHeaderInfo::RemoveMarker
@@ -144,4 +146,3 @@ This method is not supported by the writer.
 
 
 <a href="/windows/desktop/wmformat/markers">Markers</a>
-

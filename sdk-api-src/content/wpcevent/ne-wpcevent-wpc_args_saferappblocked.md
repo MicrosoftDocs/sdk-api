@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wpcevent.h
 api_name:
- - tagWPC_ARGS_SAFERAPPBLOCKED
  - WPC_ARGS_SAFERAPPBLOCKED
 ---
 

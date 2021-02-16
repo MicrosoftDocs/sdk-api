@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest::get_TreeFilter
+ - IUIAutomationCacheRequest.TreeFilter
+ - IUIAutomationCacheRequest.get_TreeFilter
+ - IUIAutomationCacheRequest.put_TreeFilter
 ---
 
 # IUIAutomationCacheRequest::get_TreeFilter

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_HTTP_HEADER_MAPPING
  - WS_HTTP_HEADER_MAPPING
 ---
 
@@ -65,4 +64,3 @@ The name of the HTTP header.
 
 A set of flags that control how headers are mapped.  
                     See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_canonicalization_algorithm">WS_HTTP_HEADER_MAPPING_OPTIONS</a> for more information.
-

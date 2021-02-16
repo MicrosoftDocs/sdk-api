@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsProfileDeleteW
  - rpcnsi/RpcNsProfileDeleteW
- - RpcNsProfileDelete
- - rpcnsi/RpcNsProfileDelete
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsProfileDeleteW
  - RpcNsProfileDelete
+ - RpcNsProfileDeleteA
+ - RpcNsProfileDeleteW
 ---
 
 # RpcNsProfileDeleteW function
@@ -176,4 +175,3 @@ The
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea">RpcNsProfileEltRemove</a>
-

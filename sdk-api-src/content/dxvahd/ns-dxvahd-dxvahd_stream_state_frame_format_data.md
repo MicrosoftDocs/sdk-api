@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
  - DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA
 ---
 
@@ -115,4 +114,3 @@ HRESULT DXVAHD_SetFrameFormat(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

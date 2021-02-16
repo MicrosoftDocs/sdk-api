@@ -47,9 +47,7 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPMCAST_OIF_STATS_W2K
- - PMIB_IPMCAST_OIF_STATS_W2K
- - MIB_IPMCAST_OIF_STATS_W2K
+ - MIB_IPMCAST_OIF_STATS
 ---
 
 ## -description
@@ -110,4 +108,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Ser
 ## -see-also
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_ipmcast_oif_w2k">MIB_IPMCAST_OIF</a>
-

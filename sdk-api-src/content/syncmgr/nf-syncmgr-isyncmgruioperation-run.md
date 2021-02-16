@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrUIOperation::Run
+ - ISyncMgrUIOperation.Run
 ---
 
 # ISyncMgrUIOperation::Run
@@ -89,4 +89,3 @@ STDMETHODIMP CQueryBeforeDelete::Run(__in HWND hwndOwner)
 }
 
 ```
-

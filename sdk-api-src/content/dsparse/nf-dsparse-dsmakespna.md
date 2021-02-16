@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsMakeSpnA
  - dsparse/DsMakeSpnA
- - DsMakeSpn
- - dsparse/DsMakeSpn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsMakeSpnA
  - DsMakeSpn
+ - DsMakeSpnA
+ - DsMakeSpnW
 ---
 
 # DsMakeSpnA function
@@ -167,4 +166,3 @@ String parameters cannot include the forward slash (/) character, as it is used 
 
 
 <a href="/windows/desktop/api/sspi/nf-sspi-initializesecuritycontexta">InitializeSecurityContext</a>
-

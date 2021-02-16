@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IDropSource::GiveFeedback
+ - IDropSource.GiveFeedback
 ---
 
 # IDropSource::GiveFeedback
@@ -107,4 +107,3 @@ This function is called frequently during the <a href="/windows/desktop/api/ole2
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-idroptarget">IDropTarget</a>
-

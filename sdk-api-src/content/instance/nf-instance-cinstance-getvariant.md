@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetVariant
+ - CInstance.GetVariant
+ - ?GetVariant@CInstance@@QBE_NPBGAAUtagVARIANT@@@Z
 ---
 
 # CInstance::GetVariant
@@ -72,4 +73,3 @@ Buffer to receive the <b>VARIANT</b> property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a nonexistent property or a property with an incompatible data type. More information is available in the log file, Framework.log.
-

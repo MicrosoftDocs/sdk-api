@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpInitLsaModeContextFn
+ - SpInitLsaModeContext
 ---
 
 # SpInitLsaModeContextFn callback function
@@ -311,4 +311,3 @@ A pointer to the <b>SpInitLsaModeContext</b> function is available in the
 
 
 <a href="/windows/desktop/SecAuthN/timestamp">TimeStamp</a>
-

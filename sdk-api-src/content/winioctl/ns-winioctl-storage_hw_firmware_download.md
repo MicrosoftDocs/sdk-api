@@ -45,8 +45,6 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
- - _STORAGE_HW_FIRMWARE_DOWNLOAD
- - PSTORAGE_HW_FIRMWARE_DOWNLOAD
  - STORAGE_HW_FIRMWARE_DOWNLOAD
 ---
 
@@ -133,4 +131,3 @@ The firmware image file.
 
 
 <a href="/windows/desktop/FileIO/storage-hw-firmware-slot-info">STORAGE_HW_FIRMWARE_SLOT_INFO</a>
-

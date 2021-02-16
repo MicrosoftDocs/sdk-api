@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfDocumentMgrs::Next
+ - IEnumTfDocumentMgrs.Next
 ---
 
 # IEnumTfDocumentMgrs::Next
@@ -113,4 +113,3 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumTfDocumentMgrs interface](nn-msctf-ienumtfdocumentmgrs.md), [ITfDocumentMgr interface](nn-msctf-itfdocumentmgr.md)
-

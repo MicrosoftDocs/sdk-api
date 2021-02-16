@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample::SetMediaType
+ - IMediaSample.SetMediaType
 ---
 
 # IMediaSample::SetMediaType
@@ -103,4 +103,3 @@ By default, every sample has the same media type as the previous sample. (The pi
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-

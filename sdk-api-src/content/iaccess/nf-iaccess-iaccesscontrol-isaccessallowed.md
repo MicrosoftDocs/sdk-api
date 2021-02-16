@@ -42,7 +42,7 @@ api_type:
 api_location:
  - IAccess.h
 api_name:
- - IAccessControl::IsAccessAllowed
+ - IAccessControl.IsAccessAllowed
 ---
 
 # IAccessControl::IsAccessAllowed
@@ -438,4 +438,3 @@ The following permissions are specific to window objects.
 ## -see-also
 
 <a href="/windows/desktop/api/iaccess/nn-iaccess-iaccesscontrol">IAccessControl</a>
-

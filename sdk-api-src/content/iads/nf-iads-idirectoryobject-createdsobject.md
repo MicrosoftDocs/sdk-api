@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IDirectoryObject::CreateDSObject
+ - IDirectoryObject.CreateDSObject
 ---
 
 # IDirectoryObject::CreateDSObject
@@ -143,4 +143,3 @@ if ( SUCCEEDED(hr) )
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-

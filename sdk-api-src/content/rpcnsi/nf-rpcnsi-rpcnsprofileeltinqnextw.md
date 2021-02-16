@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsProfileEltInqNextW
  - rpcnsi/RpcNsProfileEltInqNextW
- - RpcNsProfileEltInqNext
- - rpcnsi/RpcNsProfileEltInqNext
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsProfileEltInqNextW
  - RpcNsProfileEltInqNext
+ - RpcNsProfileEltInqNextA
+ - RpcNsProfileEltInqNextW
 ---
 
 # RpcNsProfileEltInqNextW function
@@ -189,4 +188,3 @@ On each call to
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

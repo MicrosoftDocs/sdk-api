@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRateSupport::GetSlowestRate
+ - IMFRateSupport.GetSlowestRate
 ---
 
 # IMFRateSupport::GetSlowestRate
@@ -124,4 +124,3 @@ If <i>eDirection</i> is MFRATE_REVERSE, the method retrieves the slowest reverse
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfratesupport">IMFRateSupport</a>
-

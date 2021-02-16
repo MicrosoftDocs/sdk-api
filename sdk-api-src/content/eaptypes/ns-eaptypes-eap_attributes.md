@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_ATTRIBUTES
  - EAP_ATTRIBUTES
 ---
 
@@ -76,4 +75,3 @@ Pointer to the address of the first element in an array of <a href="/windows/des
 
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_attribute">EAP_ATTRIBUTE</a>
-

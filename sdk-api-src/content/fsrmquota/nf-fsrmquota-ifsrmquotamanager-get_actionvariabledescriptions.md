@@ -42,7 +42,11 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager::get_ActionVariableDescriptions
+ - IFsrmQuotaManager.ActionVariableDescriptions
+ - IFsrmQuotaManager.get_ActionVariableDescriptions
+ - IFsrmQuotaManagerEx.ActionVariableDescriptions
+ - IFsrmQuotaManagerEx.get_ActionVariableDescriptions
+ - FsrmQuotaManager.ActionVariableDescriptions
 ---
 
 # IFsrmQuotaManager::get_ActionVariableDescriptions
@@ -77,4 +81,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

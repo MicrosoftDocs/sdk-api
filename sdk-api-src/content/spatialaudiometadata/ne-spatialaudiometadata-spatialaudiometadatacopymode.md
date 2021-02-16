@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - SpatialAudioMetadataCopyMode
+ - SpatialAudioMetadataWriterCopyMode
 ---
 
 # SpatialAudioMetadataCopyMode enumeration
@@ -69,4 +69,3 @@ Performs an append operation, and if overflow occurs, extra items are merged int
 ### -field SpatialAudioMetadataCopy_AppendMergeWithFirst
 
 Performs an append operation, and if overflow occurs, extra items are merged, assigning the offset to the offset of the first non-overflow item.
-

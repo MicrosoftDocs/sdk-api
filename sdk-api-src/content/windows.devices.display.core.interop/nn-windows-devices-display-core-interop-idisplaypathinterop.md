@@ -28,7 +28,7 @@ api_type:
 api_location:
  - windows.h
 api_name:
- - IDisplayPathInterop
+ - interop::IDisplayPathInterop
 f1_keywords:
  - IDisplayPathInterop
  - windows.devices.display.core.interop/IDisplayPathInterop

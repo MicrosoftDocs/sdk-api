@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - _BATTERY_WMI_TEMPERATURE
- - PBATTERY_WMI_TEMPERATURE
  - BATTERY_WMI_TEMPERATURE
 ---
 
@@ -71,4 +69,3 @@ The temperature.
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
-

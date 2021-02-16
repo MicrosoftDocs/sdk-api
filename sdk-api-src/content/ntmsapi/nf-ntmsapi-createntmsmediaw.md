@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateNtmsMediaW
  - ntmsapi/CreateNtmsMediaW
- - CreateNtmsMedia
- - ntmsapi/CreateNtmsMedia
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - CreateNtmsMediaW
  - CreateNtmsMedia
+ - CreateNtmsMediaA
+ - CreateNtmsMediaW
 ---
 
 # CreateNtmsMediaW function
@@ -513,4 +512,3 @@ RSM updates this member when it mounts the newly-imported medium for the first t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Media Services Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSearchCriteria::Add
+ - IGPMSearchCriteria.Add
 ---
 
 # IGPMSearchCriteria::Add
@@ -347,4 +347,3 @@ GPMDomain
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsearchcriteria">IGPMSearchCriteria</a>
-

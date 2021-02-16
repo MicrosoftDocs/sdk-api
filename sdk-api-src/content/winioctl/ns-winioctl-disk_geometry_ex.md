@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DISK_GEOMETRY_EX
- - PDISK_GEOMETRY_EX
  - DISK_GEOMETRY_EX
 ---
 

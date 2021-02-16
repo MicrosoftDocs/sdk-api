@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor::GetAngularVelocity
+ - IManipulationProcessor.GetAngularVelocity
 ---
 
 # IManipulationProcessor::GetAngularVelocity
@@ -79,4 +79,3 @@ This property is expressed in radians per millisecond if explicit timestamps are
 
 
 <a href="/windows/desktop/wintouch/mtmethods">Methods</a>
-

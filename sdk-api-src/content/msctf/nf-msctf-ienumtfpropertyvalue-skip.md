@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfPropertyValue::Skip
+ - IEnumTfPropertyValue.Skip
 ---
 
 # IEnumTfPropertyValue::Skip

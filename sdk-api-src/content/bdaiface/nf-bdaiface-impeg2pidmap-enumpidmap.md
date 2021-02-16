@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMPEG2PIDMap::EnumPIDMap
+ - IMPEG2PIDMap.EnumPIDMap
 ---
 
 # IMPEG2PIDMap::EnumPIDMap
@@ -70,4 +70,3 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 <a href="/previous-versions/windows/desktop/api/bdaiface/nn-bdaiface-impeg2pidmap">IMPEG2PIDMap Interface</a>
-

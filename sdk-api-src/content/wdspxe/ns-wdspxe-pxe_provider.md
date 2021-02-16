@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
- - tagPXE_PROVIDER
- - PPXE_PROVIDER
  - PXE_PROVIDER
 ---
 
@@ -93,4 +91,3 @@ Index of a provider in the list of registered providers.
 
 
 <a href="/windows/desktop/Wds/windows-deployment-services-structures">Windows Deployment Services Structures</a>
-

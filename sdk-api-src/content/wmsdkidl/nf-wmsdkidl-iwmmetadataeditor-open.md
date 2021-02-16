@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMetadataEditor::Open
+ - IWMMetadataEditor.Open
 ---
 
 # IWMMetadataEditor::Open
@@ -127,4 +127,3 @@ There is not enough available memory.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-close">IWMMetadataEditor::Close</a>
-

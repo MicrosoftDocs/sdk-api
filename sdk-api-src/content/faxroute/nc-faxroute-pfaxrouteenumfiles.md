@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxRoute.h
 api_name:
- - PFAXROUTEENUMFILES
+ - FaxRouteEnumFiles
 ---
 
 # PFAXROUTEENUMFILES callback function
@@ -118,4 +118,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/faxroute/nf-faxroute-faxrouteinitialize">FaxRouteInitialize</a>
-

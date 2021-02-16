@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRTRANSPARENTBLT
- - PEMRTRANSPARENTBLT
- - EMRTRANSPARENTBLT
+ - EMREMRTRANSPARENTBLT
 ---
 
 # EMRTRANSPARENTBLT structure
@@ -159,4 +157,3 @@ This structure is to be used during metafile playback.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-transparentblt">TransparentBLT</a>
-

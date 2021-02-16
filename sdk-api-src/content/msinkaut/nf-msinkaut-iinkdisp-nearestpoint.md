@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::NearestPoint
+ - IInkDisp.NearestPoint
 ---
 
 # IInkDisp::NearestPoint
@@ -166,4 +166,3 @@ The <i>distanceFromPacket</i> parameter describes the distance from the point to
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-split">Split Method</a>
-

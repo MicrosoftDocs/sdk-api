@@ -42,7 +42,8 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - PSP_FILE_CALLBACK_W
+ - PSP_FILE_CALLBACK
+ - psp_file_callback_w
 ---
 
 # PSP_FILE_CALLBACK_W callback function
@@ -101,4 +102,3 @@ The additional notification information. The value is dependent on the notificat
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupiteratecabineta">SetupIterateCabinet</a>
-

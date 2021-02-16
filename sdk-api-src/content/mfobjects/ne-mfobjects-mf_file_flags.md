@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - __MIDL___MIDL_itf_mfobjects_0000_0017_0003
  - MF_FILE_FLAGS
 ---
 
@@ -89,4 +88,3 @@ Subsequent open operations can have write access to the file.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

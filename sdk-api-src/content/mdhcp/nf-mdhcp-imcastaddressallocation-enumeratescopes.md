@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastAddressAllocation::EnumerateScopes
+ - IMcastAddressAllocation.EnumerateScopes
 ---
 
 # IMcastAddressAllocation::EnumerateScopes
@@ -128,4 +128,3 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
-

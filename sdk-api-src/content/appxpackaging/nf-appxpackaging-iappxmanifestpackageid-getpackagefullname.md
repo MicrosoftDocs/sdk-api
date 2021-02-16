@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageId::GetPackageFullName
+ - IAppxManifestPackageId.GetPackageFullName
 ---
 
 # IAppxManifestPackageId::GetPackageFullName
@@ -84,4 +84,3 @@ For an example, see <a href="/windows/desktop/appxpkg/how-to-query-package-ident
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackageid">IAppxManifestPackageId</a>
-

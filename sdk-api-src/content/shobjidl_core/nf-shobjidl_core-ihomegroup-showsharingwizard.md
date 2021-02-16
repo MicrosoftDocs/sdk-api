@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IHomeGroup::ShowSharingWizard
+ - IHomeGroup.ShowSharingWizard
 ---
 
 # IHomeGroup::ShowSharingWizard
@@ -211,4 +211,3 @@ if (SUCCEEDED(hr))
     CoUninitialize();
 }
 ```
-

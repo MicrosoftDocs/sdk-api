@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_search_st
  - winldap/ldap_search_st
- - ldap_search_s
- - winldap/ldap_search_s
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_search_st
- - ldap_search_s
+ - ldap_search_stA
+ - ldap_search_stW
 ---
 
 # ldap_search_st function
@@ -215,4 +214,3 @@ else
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_s">ldap_search_s</a>
-

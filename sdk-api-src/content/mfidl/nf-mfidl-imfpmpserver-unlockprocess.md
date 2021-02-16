@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPMPServer::UnlockProcess
+ - IMFPMPServer.UnlockProcess
 ---
 
 # IMFPMPServer::UnlockProcess
@@ -80,4 +80,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a>
-

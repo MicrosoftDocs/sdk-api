@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU565::XMU565
+ - XMU565.XMU565
 ---
 
 # XMU565::XMU565(uint8_t,uint8_t,uint8_t)
@@ -96,4 +96,3 @@ instance.v= ((z & 0x1F) << 11) |
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565">XMU565</a>
 
 <a href="/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
-

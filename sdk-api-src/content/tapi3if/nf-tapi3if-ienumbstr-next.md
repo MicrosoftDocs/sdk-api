@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumBstr::Next
+ - IEnumBstr.Next
 ---
 
 # IEnumBstr::Next
@@ -115,4 +115,3 @@ The <i>ppStrings</i> parameter is not a valid pointer.
 
 The application must use 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> to free the memory allocated for the <i>ppStrings</i> parameter.
-

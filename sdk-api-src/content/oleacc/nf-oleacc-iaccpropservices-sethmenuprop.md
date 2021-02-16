@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices::SetHmenuProp
+ - IAccPropServices.SetHmenuProp
 ---
 
 # IAccPropServices::SetHmenuProp
@@ -105,4 +105,3 @@ May return other error codes under exceptional error conditions such as low memo
 
 
 <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-setpropvalue">SetPropValue</a>
-

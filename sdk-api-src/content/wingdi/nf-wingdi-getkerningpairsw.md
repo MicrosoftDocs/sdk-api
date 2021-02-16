@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetKerningPairsW
  - wingdi/GetKerningPairsW
- - GetKerningPairs
- - wingdi/GetKerningPairs
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-GDI-Font-L1-1-3.dll
  - GDI32Full.dll
 api_name:
- - GetKerningPairsW
  - GetKerningPairs
+ - GetKerningPairsA
+ - GetKerningPairsW
 ---
 
 # GetKerningPairsW function
@@ -95,4 +94,3 @@ If the function fails, the return value is zero.
 
 > [!NOTE]
 > The wingdi.h header defines GetKerningPairs as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

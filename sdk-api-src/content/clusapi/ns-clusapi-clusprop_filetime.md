@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_FILETIME
- - PCLUSPROP_FILETIME
 ---
 
 # CLUSPROP_FILETIME structure
@@ -90,4 +89,3 @@ A date and time value.
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
-

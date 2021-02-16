@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2::Shutdown
+ - IUIAnimationManager2.Shutdown
 ---
 
 # IUIAnimationManager2::Shutdown
@@ -66,4 +66,3 @@ Calling this method directs the animation manager, and all the objects it create
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanager2">IUIAnimationManager2</a>
-

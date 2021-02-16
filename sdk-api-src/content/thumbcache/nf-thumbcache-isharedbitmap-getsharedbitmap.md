@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - ISharedBitmap::GetSharedBitmap
+ - ISharedBitmap.GetSharedBitmap
 ---
 
 # ISharedBitmap::GetSharedBitmap
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The bitmap retrieved might reside in shared memory.
-

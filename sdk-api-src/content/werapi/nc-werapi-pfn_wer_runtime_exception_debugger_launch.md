@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
- - PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH
+ - OutOfProcessExceptionEventDebuggerLaunchCallback
 ---
 
 # PFN_WER_RUNTIME_EXCEPTION_DEBUGGER_LAUNCH callback function
@@ -95,4 +95,3 @@ WER calls this callback function only if you set the <i>pbOwnershipClaimed</i> p
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nf-werapi-werregisterruntimeexceptionmodule">WerRegisterRuntimeExceptionModule</a>
-

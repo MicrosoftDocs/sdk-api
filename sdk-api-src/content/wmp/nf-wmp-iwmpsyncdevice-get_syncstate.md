@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::get_syncState
+ - IWMPSyncDevice.get_syncState
 ---
 
 # IWMPSyncDevice::get_syncState
@@ -100,4 +100,3 @@ Devices that have the status <b>wmpdsManualDevice</b> always return wmpssUnknown
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpsyncdevice">IWMPSyncDevice Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::GetExtent
+ - IOleObject.GetExtent
 ---
 
 # IOleObject::GetExtent
@@ -119,4 +119,3 @@ Implementation consists of filling the sizel structure with an object's height a
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-setextent">IOleObject::SetExtent</a>
-

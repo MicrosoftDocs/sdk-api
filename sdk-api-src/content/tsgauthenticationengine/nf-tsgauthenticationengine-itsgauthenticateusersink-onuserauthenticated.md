@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGAuthenticationEngine.h
 api_name:
- - ITSGAuthenticateUserSink::OnUserAuthenticated
+ - ITSGAuthenticateUserSink.OnUserAuthenticated
 ---
 
 # ITSGAuthenticateUserSink::OnUserAuthenticated
@@ -87,4 +87,3 @@ For a sample that uses the <b>OnUserAuthenticated</b> method, see the [Remote De
 
 
 <a href="/windows/desktop/api/tsgauthenticationengine/nn-tsgauthenticationengine-itsgauthenticateusersink">ITSGAuthenticateUserSink</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_COMMON_STATISTICS0_
  - IKEEXT_COMMON_STATISTICS0
 ---
 
@@ -81,4 +80,3 @@ Total number of invalid packets received.
 ### -field currentQueuedWorkitems
 
 Current number of work items that are queued and waiting to be processed.
-

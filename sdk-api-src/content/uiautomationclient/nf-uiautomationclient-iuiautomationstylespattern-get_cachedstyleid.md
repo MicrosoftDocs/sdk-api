@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern::get_CachedStyleId
+ - IUIAutomationStylesPattern.CachedStyleId
+ - IUIAutomationStylesPattern.get_CachedStyleId
 ---
 
 # IUIAutomationStylesPattern::get_CachedStyleId
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationstylespattern">IUIAutomationStylesPattern</a>
-

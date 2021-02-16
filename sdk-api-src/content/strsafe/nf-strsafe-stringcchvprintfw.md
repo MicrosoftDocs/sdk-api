@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCchVPrintfW
  - strsafe/StringCchVPrintfW
- - StringCchVPrintf
- - strsafe/StringCchVPrintf
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCchVPrintfW
  - StringCchVPrintf
+ - StringCchVPrintfA
+ - StringCchVPrintfW
 ---
 
 # StringCchVPrintfW function
@@ -200,4 +199,3 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>
-

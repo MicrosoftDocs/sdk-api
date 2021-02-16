@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_RC4_AUX_INFO
- - PCMSG_RC4_AUX_INFO
  - CMSG_RC4_AUX_INFO
 ---
 
@@ -67,4 +65,3 @@ Size of this structure in bytes.
 ### -field dwBitLen
 
 Determines the RC4 <a href="/windows/desktop/SecGloss/s-gly">salt length</a>. If set to CMSG_RC4_NO_SALT_FLAG, no salt is generated. For any other value, (128 - the length set) /8 bytes of salt are generated and encoded as an OCTET STRING in the algorithm parameters field.
-

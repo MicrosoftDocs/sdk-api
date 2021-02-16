@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IEnumCERTVIEWROW::EnumCertViewExtension
+ - IEnumCERTVIEWROW.EnumCertViewExtension
+ - IEnumCERTVIEWROW.EnumCertViewExtension
 ---
 
 # IEnumCERTVIEWROW::EnumCertViewExtension
@@ -149,4 +150,3 @@ if (NULL != pEnumExt)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-skip">IEnumCERTVIEWROW::Skip</a>
-

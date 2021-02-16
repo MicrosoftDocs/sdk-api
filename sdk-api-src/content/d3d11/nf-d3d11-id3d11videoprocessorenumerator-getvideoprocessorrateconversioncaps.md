@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps
+ - ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps
 ---
 
 # ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps
@@ -73,4 +73,3 @@ The capabilities defined in the <a href="/windows/desktop/api/d3d11/ns-d3d11-d3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videoprocessorenumerator">ID3D11VideoProcessorEnumerator</a>
-

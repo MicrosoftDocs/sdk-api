@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate::CloseCUB
+ - IValidate.CloseCUB
 ---
 
 # IValidate::CloseCUB
@@ -102,4 +102,3 @@ The method returns S_FALSE if no .cub file has been opened using the <a href="/w
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-

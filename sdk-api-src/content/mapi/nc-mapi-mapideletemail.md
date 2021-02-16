@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPIDELETEMAIL
+ - MAPIDeleteMail
 ---
 
 # MAPIDELETEMAIL callback function
@@ -157,4 +157,3 @@ The call succeeded and the message was deleted.
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-

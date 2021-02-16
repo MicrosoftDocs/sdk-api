@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_HANDLE_OPERATION_LIST
- - PMINIDUMP_HANDLE_OPERATION_LIST
  - MINIDUMP_HANDLE_OPERATION_LIST
 ---
 
@@ -83,4 +81,3 @@ For a definition of the <b>AVRF_HANDLE_OPERATION</b> structure, see the Avrfsdk.
 ## -see-also
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

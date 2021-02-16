@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMINT2::XMINT2
+ - XMINT2.XMINT2
 ---
 
 # XMINT2::XMINT2(const int32_t)
@@ -73,4 +73,3 @@ Two element <code>int32_t</code> array containing the values used to initialize 
 
 
 <a href="/windows/desktop/api/directxmath/nf-directxmath-xmint2-xmint2(constint32_t)">XMINT2 Constructors</a>
-

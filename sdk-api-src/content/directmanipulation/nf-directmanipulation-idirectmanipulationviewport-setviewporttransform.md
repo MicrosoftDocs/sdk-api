@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::SetViewportTransform
+ - IDirectManipulationViewport.SetViewportTransform
 ---
 
 # IDirectManipulationViewport::SetViewportTransform
@@ -91,4 +91,3 @@ The transforms are applied in the following order:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

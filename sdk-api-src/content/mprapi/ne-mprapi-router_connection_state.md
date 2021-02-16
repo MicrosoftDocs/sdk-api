@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _ROUTER_CONNECTION_STATE
  - ROUTER_CONNECTION_STATE
 ---
 
@@ -98,4 +97,3 @@ These states are sometimes referred to as <i>operational states</i>.
 
 
 <a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>
-

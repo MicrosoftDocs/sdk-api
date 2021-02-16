@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::put_Segment
+ - IDataCollectorSet.Segment
+ - IDataCollectorSet.get_Segment
+ - IDataCollectorSet.put_Segment
 ---
 
 # IDataCollectorSet::put_Segment
@@ -77,4 +79,3 @@ If VARIANT_FALSE, PLA ignores <a href="/previous-versions/windows/desktop/api/pl
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_segmentmaxsize">IDataCollectorSet::SegmentMaxSize</a>
-

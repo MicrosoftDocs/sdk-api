@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CharPrevA
  - winuser/CharPrevA
- - CharPrev
- - winuser/CharPrev
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-0.dll
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharPrevA
  - CharPrev
+ - CharPrevA
+ - CharPrevW
 ---
 
 # CharPrevA function
@@ -123,4 +122,3 @@ and so on.
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
-

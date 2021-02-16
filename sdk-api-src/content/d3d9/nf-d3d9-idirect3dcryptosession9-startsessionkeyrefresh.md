@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DCryptoSession9::StartSessionKeyRefresh
+ - IDirect3DCryptoSession9.StartSessionKeyRefresh
 ---
 
 # IDirect3DCryptoSession9::StartSessionKeyRefresh
@@ -79,4 +79,3 @@ If the driver supports this method, the driver sets the <b>D3DCPCAPS_FRESHENSESS
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-

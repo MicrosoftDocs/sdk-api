@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_network
+ - IWMPCore.get_network
 ---
 
 # IWMPCore::get_network
@@ -91,4 +91,3 @@ Returns the network information handler
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
-

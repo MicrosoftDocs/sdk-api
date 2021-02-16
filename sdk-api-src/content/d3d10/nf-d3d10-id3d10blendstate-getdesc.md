@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10BlendState::GetDesc
+ - ID3D10BlendState.GetDesc
 ---
 
 # ID3D10BlendState::GetDesc
@@ -64,4 +64,3 @@ A pointer to the blend state (see <a href="/windows/desktop/api/d3d10/ns-d3d10-d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10blendstate">ID3D10BlendState Interface</a>
-

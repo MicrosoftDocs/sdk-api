@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern::get_CachedContainingGrid
+ - IUIAutomationGridItemPattern.CachedContainingGrid
+ - IUIAutomationGridItemPattern.get_CachedContainingGrid
 ---
 
 # IUIAutomationGridItemPattern::get_CachedContainingGrid
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>
-

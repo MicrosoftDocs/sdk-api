@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IAppVisibility::IsLauncherVisible
+ - IAppVisibility.IsLauncherVisible
 ---
 
 # IAppVisibility::IsLauncherVisible
@@ -83,4 +83,3 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iappvisibility">IAppVisibility</a>
-

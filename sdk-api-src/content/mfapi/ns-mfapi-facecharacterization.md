@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - tagFaceCharacterization
  - FaceCharacterization
 ---
 
@@ -86,4 +85,3 @@ The facial expressions that can be detected are defined as follows:
 
 
 The <a href="/windows/desktop/api/mfapi/ns-mfapi-facecharacterizationblobheader">FaceCharacterizationBlobHeader</a> and <b>FaceCharacterization</b> structures only describe the blob format for the <b>MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS</b> attribute.  The metadata item structure for the face characterizations (<a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_metadata_itemheader">KSCAMERA_METADATA_ITEMHEADER</a> + face characterizations metadata payload) is up to driver and must be 8-byte aligned.
-

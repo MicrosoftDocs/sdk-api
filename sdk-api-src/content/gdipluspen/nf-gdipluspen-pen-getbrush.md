@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::GetBrush
+ - Pen.GetBrush
 ---
 
 # Pen::GetBrush
@@ -81,4 +81,3 @@ This method returns a pointer to a <a href="/windows/desktop/api/gdiplusbrush/nl
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

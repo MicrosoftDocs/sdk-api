@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_BLT_STATE_CONSTRICTION_DATA
  - DXVAHD_BLT_STATE_CONSTRICTION_DATA
 ---
 
@@ -96,4 +95,3 @@ Downsampling is sometimes used to reduce the quality of premium content when oth
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

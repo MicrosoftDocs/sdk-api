@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP::SetSelection
+ - ITextStoreACP.SetSelection
 ---
 
 # ITextStoreACP::SetSelection
@@ -132,4 +132,3 @@ The caller does not have a read/write lock.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_selection_acp">TS_SELECTION_ACP
       </a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_CONNECTION_SUBSCRIPTION0_
  - FWPM_CONNECTION_SUBSCRIPTION0
 ---
 
@@ -72,4 +71,3 @@ Identifies the session that created the subscription.
 ## -see-also
 
 [FWPM_CONNECTION_ENUM_TEMPLATE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IFileDialogControlEvents::OnCheckButtonToggled
+ - IFileDialogControlEvents.OnCheckButtonToggled
 ---
 
 # IFileDialogControlEvents::OnCheckButtonToggled
@@ -77,4 +77,3 @@ A <b>BOOL</b> indicating the current state of the check button. <b>TRUE</b> if c
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

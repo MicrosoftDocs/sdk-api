@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORTN4::XMSHORTN4
+ - XMSHORTN4.XMSHORTN4
 ---
 
 # XMSHORTN4::XMSHORTN4(float,float,float,float)
@@ -138,4 +138,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>
-

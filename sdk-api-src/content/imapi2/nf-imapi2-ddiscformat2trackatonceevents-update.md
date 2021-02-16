@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - DDiscFormat2TrackAtOnceEvents::Update
+ - DDiscFormat2TrackAtOnceEvents.Update
 ---
 
 # DDiscFormat2TrackAtOnceEvents::Update
@@ -87,4 +87,3 @@ To stop the write process, call the <a href="/windows/desktop/api/imapi2/nf-imap
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a>
-

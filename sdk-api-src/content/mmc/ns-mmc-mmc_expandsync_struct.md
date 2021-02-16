@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_EXPANDSYNC_STRUCT
  - MMC_EXPANDSYNC_STRUCT
 ---
 
@@ -98,4 +97,3 @@ The <a href="/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPAND
 
 
 <a href="/previous-versions/windows/desktop/mmc/mmcn-expandsync">MMCN_EXPANDSYNC</a>
-

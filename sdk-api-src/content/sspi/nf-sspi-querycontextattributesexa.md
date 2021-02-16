@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - QueryContextAttributesExA
  - sspi/QueryContextAttributesExA
- - QueryContextAttributesEx
- - sspi/QueryContextAttributesEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - QueryContextAttributesExA
  - QueryContextAttributesEx
+ - QueryContextAttributesExA
+ - QueryContextAttributesExW
 ---
 
 # QueryContextAttributesExA function
@@ -579,4 +578,3 @@ If the function fails, the return value is a nonzero error code.
 
 > [!NOTE]
 > The sspi.h header defines QueryContextAttributesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

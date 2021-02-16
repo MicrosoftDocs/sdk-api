@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_OBJECT_TYPE
  - VDS_OBJECT_TYPE
 ---
 
@@ -179,4 +178,3 @@ The <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-getob
 
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

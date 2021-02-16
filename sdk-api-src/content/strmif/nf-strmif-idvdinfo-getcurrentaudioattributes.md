@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentAudioAttributes
+ - IDvdInfo.GetCurrentAudioAttributes
 ---
 
 # IDvdInfo::GetCurrentAudioAttributes
@@ -128,4 +128,3 @@ For information about the DVD_AudioATR data type, consult the DVD-Video specific
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_PHY_RADIO_STATE
- - PWLAN_PHY_RADIO_STATE
  - WLAN_PHY_RADIO_STATE
 ---
 
@@ -115,4 +113,3 @@ The radio state of a PHY is off if either the software radio state (<b>dot11Soft
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
-

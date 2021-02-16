@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection::GetLicenseConnection
+ - IWRdsProtocolConnection.GetLicenseConnection
 ---
 
 # IWRdsProtocolConnection::GetLicenseConnection
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
-

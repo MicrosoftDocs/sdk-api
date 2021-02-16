@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPTNET_URL_CACHE_FLUSH_INFO
- - PCRYPTNET_URL_CACHE_FLUSH_INFO
  - CRYPTNET_URL_CACHE_FLUSH_INFO
 ---
 
@@ -113,4 +111,3 @@ A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> 
 ## -remarks
 
 The <b>dwExemptSeconds</b> member is added to the <b>ExpireTime</b> member to determine the flush time. If the <b>pLastSyncTime</b> member of the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_retrieve_aux_info">CRYPT_RETRIEVE_AUX_INFO</a> structure  is after the <b>ExpireTime</b> member, the <b>pLastSyncTime</b> member  determines the flush time.
-

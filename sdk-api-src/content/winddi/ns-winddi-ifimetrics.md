@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _IFIMETRICS
- - PIFIMETRICS
  - IFIMETRICS
 ---
 
@@ -998,4 +996,3 @@ The IFIMETRICS structure's <b>Align</b> member causes it to be larger for x64 ma
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-

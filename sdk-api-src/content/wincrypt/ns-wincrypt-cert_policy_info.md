@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_POLICY_INFO
- - PCERT_POLICY_INFO
  - CERT_POLICY_INFO
 ---
 
@@ -83,4 +81,3 @@ Array of
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_policy_qualifier_info">CERT_POLICY_QUALIFIER_INFO</a>
-

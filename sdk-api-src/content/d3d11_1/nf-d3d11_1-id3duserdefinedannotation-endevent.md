@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3DUserDefinedAnnotation::EndEvent
+ - ID3DUserDefinedAnnotation.EndEvent
 ---
 
 # ID3DUserDefinedAnnotation::EndEvent
@@ -72,4 +72,3 @@ A user can visualize the event when the calling application is running under an 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3duserdefinedannotation">ID3DUserDefinedAnnotation</a>
-

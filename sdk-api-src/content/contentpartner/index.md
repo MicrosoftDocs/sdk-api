@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - contentpartner
  - contentpartner/contentpartner
-api_name:
- - contentpartner
 ---
 
 # Contentpartner.h header

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoControl::GetCaps
+ - IAMVideoControl.GetCaps
 ---
 
 # IAMVideoControl::GetCaps
@@ -78,4 +78,3 @@ Possible capabilities include one or more of the following: flipping the picture
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl Interface</a>
-

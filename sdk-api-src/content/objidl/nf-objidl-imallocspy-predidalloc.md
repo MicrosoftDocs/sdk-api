@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy::PreDidAlloc
+ - IMallocSpy.PreDidAlloc
 ---
 
 # IMallocSpy::PreDidAlloc
@@ -81,4 +81,3 @@ When a spy object implementing <a href="/windows/desktop/api/objidl/nn-objidl-im
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-postdidalloc">IMallocSpy::PostDidAlloc</a>
-

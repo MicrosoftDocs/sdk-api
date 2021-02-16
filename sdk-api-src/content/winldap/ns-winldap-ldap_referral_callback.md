@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - LdapReferralCallback
- - PLDAP_REFERRAL_CALLBACK
  - LDAP_REFERRAL_CALLBACK
 ---
 
@@ -200,4 +198,3 @@ The connection to be dereferenced.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_set_option">ldap_set_option</a>
-

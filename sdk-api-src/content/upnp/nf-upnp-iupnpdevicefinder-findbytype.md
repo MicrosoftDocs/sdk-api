@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinder::FindByType
+ - IUPnPDeviceFinder.FindByType
 ---
 
 # IUPnPDeviceFinder::FindByType
@@ -87,4 +87,3 @@ This method does not return until the search is complete. The search can take at
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevices">IUPnPDevices</a>
-

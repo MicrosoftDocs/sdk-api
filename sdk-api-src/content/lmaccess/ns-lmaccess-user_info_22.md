@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_22
- - PUSER_INFO_22
  - USER_INFO_22
 ---
 
@@ -644,4 +642,3 @@ User account names are limited to 20 characters and group names are limited to 2
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

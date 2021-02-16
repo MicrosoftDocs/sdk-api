@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw::QueryRawCapabilitiesInfo
+ - IWICDevelopRaw.QueryRawCapabilitiesInfo
 ---
 
 # IWICDevelopRaw::QueryRawCapabilitiesInfo
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 It is recommended that a codec report that a capability is supported even if the results at the outer range limits are not of perfect quality.
-

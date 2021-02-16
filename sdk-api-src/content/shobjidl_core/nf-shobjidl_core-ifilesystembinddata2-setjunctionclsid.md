@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileSystemBindData2::SetJunctionCLSID
+ - IFileSystemBindData2.SetJunctionCLSID
 ---
 
 # IFileSystemBindData2::SetJunctionCLSID
@@ -65,4 +65,3 @@ The CLSID for the object that implements <a href="/windows/desktop/api/shobjidl_
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

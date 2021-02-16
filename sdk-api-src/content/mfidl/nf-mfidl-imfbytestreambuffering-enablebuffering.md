@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStreamBuffering::EnableBuffering
+ - IMFByteStreamBuffering.EnableBuffering
 ---
 
 # IMFByteStreamBuffering::EnableBuffering
@@ -88,4 +88,3 @@ Before calling this method, call <a href="/windows/desktop/api/mfidl/nf-mfidl-im
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfbytestreambuffering">IMFByteStreamBuffering</a>
-

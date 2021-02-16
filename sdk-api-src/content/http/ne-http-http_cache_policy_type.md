@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_CACHE_POLICY_TYPE
- - PHTTP_CACHE_POLICY_TYPE
  - HTTP_CACHE_POLICY_TYPE
 ---
 
@@ -86,4 +84,3 @@ Terminates the enumeration; not used to determine policy.
 
 
 <a href="/windows/desktop/api/http/nf-http-httpaddfragmenttocache">HttpAddFragmentToCache</a>
-

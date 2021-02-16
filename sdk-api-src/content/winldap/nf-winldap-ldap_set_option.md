@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_set_option
+ - ldap_set_option
+ - ldap_set_optionW
 ---
 
 # ldap_set_option function
@@ -121,4 +123,3 @@ Multithreading: Calls to <b>ldap_set_option</b> are unsafe because it affects th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>
-

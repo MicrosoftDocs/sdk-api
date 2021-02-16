@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::GetDefaultFileSystemForImport
+ - IFileSystemImage.GetDefaultFileSystemForImport
 ---
 
 # IFileSystemImage::GetDefaultFileSystemForImport
@@ -120,4 +120,3 @@ To identify the supported file systems, call the <a href="/windows/desktop/api/i
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_filesystemssupported">IFileSystemImage::get_FileSystemsSupported</a>
-

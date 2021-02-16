@@ -48,6 +48,8 @@ api_location:
  - MinKernelBase.dll
 api_name:
  - GetCurrentDirectory
+ - GetCurrentDirectoryA
+ - GetCurrentDirectoryW
 ---
 
 # GetCurrentDirectory function
@@ -189,4 +191,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setcurrentdirectory">SetCurrentDirectory</a>
-

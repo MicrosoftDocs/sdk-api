@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMStarterGPO::GenerateReportToFile
+ - IGPMStarterGPO.GenerateReportToFile
 ---
 
 # IGPMStarterGPO::GenerateReportToFile
@@ -76,4 +76,3 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumPermissionSets
+ - IMetaDataImport.EnumPermissionSets
 ---
 
 # IMetaDataImport::EnumPermissionSets
@@ -101,4 +101,3 @@ The number of Permission tokens returned in <i>rPermission</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

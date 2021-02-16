@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITStream::StartStream
+ - ITStream.StartStream
 ---
 
 # ITStream::StartStream
@@ -132,4 +132,3 @@ If the stream fails to pause, the MSP fires a CME_STREAM_FAIL event with cause C
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICColorTransform::Initialize
+ - IWICColorTransform.Initialize
 ---
 
 # IWICColorTransform::Initialize
@@ -248,4 +248,3 @@ The following example performs a color transform from one <a href="/windows/desk
     return hr;
 
 ```
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineCreateAgentA
  - tapi/lineCreateAgentA
- - lineCreateAgent
- - tapi/lineCreateAgent
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineCreateAgentA
  - lineCreateAgent
+ - lineCreateAgentA
+ - lineCreateAgentW
 ---
 
 # lineCreateAgentA function
@@ -94,4 +93,3 @@ LINEERR_INVALLINEHANDLE, LINEERR_INVALPARAM, LINEERR_NOMEM, LINEERR_OPERATIONFAI
 
 > [!NOTE]
 > The tapi.h header defines lineCreateAgent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetType
+ - IBackgroundCopyJob.GetType
 ---
 
 # IBackgroundCopyJob::GetType
@@ -104,4 +104,3 @@ Specify the type of transfer when you
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-createjob">IBackgroundCopyManager::CreateJob</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertProperty::InitializeDecode
+ - ICertProperty.InitializeDecode
 ---
 
 # ICertProperty::InitializeDecode
@@ -138,4 +138,3 @@ The following interfaces simplify creation of the most common properties:<ul>
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertproperty">ICertProperty</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::AddFileSet
+ - IBackgroundCopyJob.AddFileSet
 ---
 
 # IBackgroundCopyJob::AddFileSet
@@ -236,4 +236,3 @@ else
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
-

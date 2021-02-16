@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_CURSOR_3W
- - DS_REPL_CURSOR_3W
+ - DS_REPL_CURSOR_3
 ---
 
 # DS_REPL_CURSOR_3W structure
@@ -89,4 +88,3 @@ Pointer to  a null-terminated string that contains the distinguished name of the
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a>
-

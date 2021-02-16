@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::IsSubpictureStreamEnabled
+ - IDvdInfo2.IsSubpictureStreamEnabled
 ---
 
 # IDvdInfo2::IsSubpictureStreamEnabled
@@ -122,4 +122,3 @@ A DVD can have up to 32 separate subpicture streams, although typically not all 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

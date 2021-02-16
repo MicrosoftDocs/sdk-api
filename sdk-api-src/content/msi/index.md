@@ -9,8 +9,6 @@ tech.root: setup
 f1_keywords:
  - msi
  - msi/msi
-api_name:
- - msi
 ---
 
 # Msi.h header

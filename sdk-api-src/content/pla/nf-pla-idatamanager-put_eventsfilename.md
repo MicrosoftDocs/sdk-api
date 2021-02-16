@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager::put_EventsFileName
+ - IDataManager.EventsFileName
+ - IDataManager.get_EventsFileName
+ - IDataManager.put_EventsFileName
 ---
 
 # IDataManager::put_EventsFileName
@@ -63,4 +65,3 @@ PLA uses the file name only if you include the <b>plaCreateReport</b> value of t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-

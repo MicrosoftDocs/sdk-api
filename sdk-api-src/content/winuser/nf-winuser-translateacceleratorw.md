@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - TranslateAcceleratorW
  - winuser/TranslateAcceleratorW
- - TranslateAccelerator
- - winuser/TranslateAccelerator
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - Ext-MS-Win-NTUser-Keyboard-L1-2-1.dll
  - Ext-MS-Win-NTUser-Keyboard-L1-3-0.dll
 api_name:
- - TranslateAcceleratorW
  - TranslateAccelerator
+ - TranslateAcceleratorA
+ - TranslateAcceleratorW
 ---
 
 # TranslateAcceleratorW function
@@ -193,4 +192,3 @@ For an example, see <a href="/windows/desktop/menurc/using-keyboard-accelerators
 
 
 <a href="/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>
-

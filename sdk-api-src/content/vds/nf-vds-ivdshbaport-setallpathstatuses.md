@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - IVdsHbaPort::SetAllPathStatuses
+ - IVdsHbaPort.SetAllPathStatuses
 ---
 
 # IVdsHbaPort::SetAllPathStatuses
@@ -102,4 +102,3 @@ At least one path's status was not set successfully due to a nonfatal error (for
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_path_status">VDS_PATH_STATUS</a>
-

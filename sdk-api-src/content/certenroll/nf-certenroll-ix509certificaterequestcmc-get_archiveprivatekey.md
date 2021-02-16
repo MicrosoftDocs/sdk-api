@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc::get_ArchivePrivateKey
+ - IX509CertificateRequestCmc.ArchivePrivateKey
+ - IX509CertificateRequestCmc.get_ArchivePrivateKey
+ - IX509CertificateRequestCmc.put_ArchivePrivateKey
 ---
 
 # IX509CertificateRequestCmc::get_ArchivePrivateKey
@@ -84,4 +86,3 @@ You can set this property before calling the <a href="/windows/desktop/api/certe
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
-

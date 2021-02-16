@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BuildTrusteeWithObjectsAndSidA
  - aclapi/BuildTrusteeWithObjectsAndSidA
- - BuildTrusteeWithObjectsAndSid
- - aclapi/BuildTrusteeWithObjectsAndSid
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-security-trustee-l1-1-1.dll
 api_name:
- - BuildTrusteeWithObjectsAndSidA
  - BuildTrusteeWithObjectsAndSid
+ - BuildTrusteeWithObjectsAndSidA
+ - BuildTrusteeWithObjectsAndSidW
 ---
 
 # BuildTrusteeWithObjectsAndSidA function
@@ -141,4 +140,3 @@ For more information about object-specific ACEs, see
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

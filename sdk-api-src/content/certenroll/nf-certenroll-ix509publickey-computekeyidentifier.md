@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PublicKey::ComputeKeyIdentifier
+ - IX509PublicKey.ComputeKeyIdentifier
 ---
 
 # IX509PublicKey::ComputeKeyIdentifier
@@ -102,4 +102,3 @@ You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509pu
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
-

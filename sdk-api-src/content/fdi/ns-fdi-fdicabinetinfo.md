@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fdi.h
 api_name:
- - FDICABINETINFO
+ - FDICABINETINFO FAR *PFDICABINETINFO
 ---
 
 # FDICABINETINFO structure
@@ -89,4 +89,3 @@ If this value is set to <b>TRUE</b>, the current cabinet is linked to the next c
 ## -see-also
 
 <a href="/windows/desktop/api/fdi/nf-fdi-fdiiscabinet">FDIIsCabinet</a>
-

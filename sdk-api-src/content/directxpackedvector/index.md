@@ -9,8 +9,6 @@ tech.root: dxmath
 f1_keywords:
  - directxpackedvector
  - directxpackedvector/directxpackedvector
-api_name:
- - directxpackedvector
 ---
 
 # Directxpackedvector.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbio.h
 api_name:
- - _WINBIO_ASYNC_NOTIFICATION_METHOD
- - PWINBIO_ASYNC_NOTIFICATION_METHOD
  - WINBIO_ASYNC_NOTIFICATION_METHOD
 ---
 
@@ -91,4 +89,3 @@ This enumeration was introduced in Windows 8.
 
 
 <a href="/windows/desktop/api/winbio/nf-winbio-winbioasyncopensession">WinBioAsyncOpenSession</a>
-

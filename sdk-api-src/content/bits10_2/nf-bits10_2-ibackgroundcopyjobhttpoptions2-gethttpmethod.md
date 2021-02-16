@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions2::GetHttpMethod
+ - IBackgroundCopyJobHttpOptions2.GetHttpMethod
 ---
 
 # IBackgroundCopyJobHttpOptions2::GetHttpMethod
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/win32/api/bits10_2/nn-bits10_2-ibackgroundcopyjobhttpoptions2">IBackgroundCopyJobHttpOptions2</a>
-

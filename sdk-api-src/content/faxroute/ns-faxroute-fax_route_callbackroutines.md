@@ -46,8 +46,6 @@ api_type:
 api_location:
  - FaxRoute.h
 api_name:
- - _FAX_ROUTE_CALLBACKROUTINES
- - PFAX_ROUTE_CALLBACKROUTINES
  - FAX_ROUTE_CALLBACKROUTINES
 ---
 
@@ -131,4 +129,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemodifyroutingdata">FaxRouteModifyRoutingData</a>
-

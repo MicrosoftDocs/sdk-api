@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::AddStrokesAtRectangle
+ - IInkDisp.AddStrokesAtRectangle
 ---
 
 # IInkDisp::AddStrokesAtRectangle
@@ -157,4 +157,3 @@ This method can be used to copy strokes within a single <a href="/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

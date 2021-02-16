@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetItemData
+ - Image.GetItemData
 ---
 
 # Image::GetItemData
@@ -74,4 +74,3 @@ If the method fails, it returns one of the other elements of the
 ## -see-also
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image">Image</a>
-

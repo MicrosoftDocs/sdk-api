@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _EFFPERM_RESULT_LIST
- - PEFFPERM_RESULT_LIST
  - EFFPERM_RESULT_LIST
 ---
 
@@ -75,4 +73,3 @@ A pointer to an array of <a href="/windows/desktop/api/winnt/ns-winnt-object_typ
 ### -field pGrantedAccessList
 
 A pointer to an array of <a href="/windows/desktop/SecAuthZ/access-mask">ACCESS_MASK</a> values that specifies the access rights granted for each corresponding object type.
-

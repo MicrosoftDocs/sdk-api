@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback::OnRedirect
+ - IXMLHTTPRequest2Callback.OnRedirect
 ---
 
 # IXMLHTTPRequest2Callback::OnRedirect
@@ -93,4 +93,3 @@ Once the final redirection has completed and the final URL has been reached, the
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable Event</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - _VSS_DIFF_AREA_PROP
- - PVSS_DIFF_AREA_PROP
  - VSS_DIFF_AREA_PROP
 ---
 

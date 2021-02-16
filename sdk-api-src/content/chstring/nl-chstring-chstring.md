@@ -44,6 +44,8 @@ api_location:
  - FrameDyn.dll
 api_name:
  - CHString
+ - ??1CHString@@QAE@XZ
+ - ??1CHString@@QEAA@XZ
 ---
 
 # CHString class
@@ -552,4 +554,3 @@ Directly accesses characters stored in a <b>CHString</b> string as a C-style str
 ## -remarks
 
 The destructor for the class is <b>CHString::~CHString</b>.
-

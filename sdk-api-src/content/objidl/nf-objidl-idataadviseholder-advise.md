@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataAdviseHolder::Advise
+ - IDataAdviseHolder.Advise
 ---
 
 # IDataAdviseHolder::Advise
@@ -146,4 +146,3 @@ The established connection can be deleted by passing the value in <i>pdwConnecti
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dadvise">IDataObject::DAdvise</a>
-

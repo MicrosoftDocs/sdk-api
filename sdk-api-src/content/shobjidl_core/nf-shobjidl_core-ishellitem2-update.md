@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItem2::Update
+ - IShellItem2.Update
 ---
 
 # IShellItem2::Update
@@ -65,4 +65,3 @@ A pointer to an <a href="/windows/desktop/api/objidl/nn-objidl-ibindctx">IBindCt
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise, including ERROR_FILE_NOT_FOUND if the item does not exist.
-

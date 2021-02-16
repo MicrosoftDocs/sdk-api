@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ws2ipdef.h
 api_name:
- - _SOCKADDR_INET
- - PSOCKADDR_INET
  - SOCKADDR_INET
 ---
 
@@ -143,4 +141,3 @@ Note that the <i>Ws2ipdef.h</i> header file is automatically included in <i>Ws2t
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

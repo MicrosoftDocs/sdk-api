@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
- - _EXCEPTION_DEBUG_INFO
- - LPEXCEPTION_DEBUG_INFO
  - EXCEPTION_DEBUG_INFO
 ---
 
@@ -76,4 +74,3 @@ A value that indicates whether the debugger has previously encountered the excep
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-exception_record">EXCEPTION_RECORD</a>
-

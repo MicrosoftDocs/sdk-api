@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_TICKET_CACHE_INFO
- - PKERB_TICKET_CACHE_INFO
  - KERB_TICKET_CACHE_INFO
 ---
 
@@ -256,4 +254,3 @@ Reserved.
 </td>
 </tr>
 </table>
-

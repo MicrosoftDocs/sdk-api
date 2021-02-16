@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard::AddTransitionAtKeyframe
+ - IUIAnimationStoryboard.AddTransitionAtKeyframe
 ---
 
 # IUIAnimationStoryboard::AddTransitionAtKeyframe
@@ -132,4 +132,3 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary">IUIAnimationTransitionLibrary</a>
-

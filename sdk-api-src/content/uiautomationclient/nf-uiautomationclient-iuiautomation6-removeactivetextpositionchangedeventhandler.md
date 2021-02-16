@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation6::RemoveActiveTextPositionChangedEventHandler
+ - IUIAutomation6.RemoveActiveTextPositionChangedEventHandler
 ---
 
 # IUIAutomation6::RemoveActiveTextPositionChangedEventHandler

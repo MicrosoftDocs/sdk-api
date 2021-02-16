@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver::GetForceFeedbackState
+ - IDirectInputEffectDriver.GetForceFeedbackState
 ---
 
 # IDirectInputEffectDriver::GetForceFeedbackState
@@ -65,4 +65,3 @@ Points to a <a href="/windows/desktop/api/dinputd/ns-dinputd-didevicestate">DIDE
 ## -returns
 
 Returns S_OK if successful; otherwise, returns an error code.
-

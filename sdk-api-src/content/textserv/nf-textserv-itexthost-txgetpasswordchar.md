@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxGetPasswordChar
+ - ITextHost.TxGetPasswordChar
 ---
 
 # ITextHost::TxGetPasswordChar
@@ -91,4 +91,3 @@ The password character is only shown if the TXTBIT_USEPASSWORD bit is enabled in
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

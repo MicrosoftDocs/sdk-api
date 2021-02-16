@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISurface::Map
+ - IDXGISurface.Map
 ---
 
 # IDXGISurface::Map
@@ -88,4 +88,3 @@ Use <b>IDXGISurface::Map</b> to access a surface from the CPU. To release a mapp
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a>
-

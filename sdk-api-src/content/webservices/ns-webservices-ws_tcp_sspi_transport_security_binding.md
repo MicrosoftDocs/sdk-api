@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
  - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING
 ---
 
@@ -112,4 +111,3 @@ The base type from which this security binding subtype and all other security bi
 The Windows Integrated Authentication credential to be used to
 authenticate the client.  This is required on the client and must not
 be specified on the server.
-

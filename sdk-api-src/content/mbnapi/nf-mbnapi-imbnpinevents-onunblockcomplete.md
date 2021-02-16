@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinEvents::OnUnblockComplete
+ - IMbnPinEvents.OnUnblockComplete
 ---
 
 # IMbnPinEvents::OnUnblockComplete
@@ -161,4 +161,3 @@ If the device fails to unblock, and if the PUK blocking is of a <b>MBN_PIN_TYPE_
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinevents">IMbnPinEvents</a>
-

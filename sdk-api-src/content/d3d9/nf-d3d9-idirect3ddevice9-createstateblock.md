@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::CreateStateBlock
+ - IDirect3DDevice9.CreateStateBlock
 ---
 
 # IDirect3DDevice9::CreateStateBlock
@@ -99,4 +99,3 @@ In Direct3D 9, a state block contains state data, for the states it was requeste
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-endstateblock">IDirect3DDevice9::EndStateBlock</a>
-

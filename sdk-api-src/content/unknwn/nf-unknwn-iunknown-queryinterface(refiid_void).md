@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Unknwn.h
 api_name:
- - IUnknown::QueryInterface
+ - IUnknown.QueryInterface
 ---
 
 ## -description

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_QUERY_TS_LOGON_CREDENTIALS
+ - WlxQueryTsLogonCredentials
 ---
 
 # PWLX_QUERY_TS_LOGON_CREDENTIALS callback function
@@ -125,4 +125,3 @@ Other Winlogon support functions that may be called when Terminal Services is en
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_win31_migrate">WlxWin31Migrate</a>
-

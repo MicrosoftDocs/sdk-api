@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzTask2::RoleAssignments
+ - IAzTask2.RoleAssignments
 ---
 
 # IAzTask2::RoleAssignments
@@ -71,4 +71,3 @@ The address of a pointer to an <a href="/windows/desktop/api/azroles/nn-azroles-
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

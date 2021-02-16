@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1GdiMetafileSink1::ProcessRecord
+ - ID2D1GdiMetafileSink1.ProcessRecord
 ---
 
 # ID2D1GdiMetafileSink1::ProcessRecord
@@ -99,4 +99,3 @@ For details on the EMF and EMF+ formats, please see Microsoft technical document
 
 
 <a href="/openspecs/windows_protocols/ms-emf/91c257d7-c39d-4a36-9b1f-63e3f73d30ca">[MS-EMF]: Enhanced Metafile Format</a>
-

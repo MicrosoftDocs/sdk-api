@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::InitializeFromRegistry
+ - IPhotoAcquireSettings.InitializeFromRegistry
 ---
 
 # IPhotoAcquireSettings::InitializeFromRegistry
@@ -99,4 +99,3 @@ The structure of the registry has not yet been determined at this point.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
-

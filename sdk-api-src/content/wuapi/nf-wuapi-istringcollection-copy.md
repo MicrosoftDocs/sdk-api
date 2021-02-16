@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IStringCollection::Copy
+ - IStringCollection.Copy
 ---
 
 # IStringCollection::Copy
@@ -85,4 +85,3 @@ A parameter value is invalid or <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFStreamSink::Flush
+ - IMFStreamSink.Flush
 ---
 
 # IMFStreamSink::Flush
@@ -125,4 +125,3 @@ This method is synchronous. It does not return until the sink has discarded all 
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

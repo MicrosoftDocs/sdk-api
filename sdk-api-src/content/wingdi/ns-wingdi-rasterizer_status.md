@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _RASTERIZER_STATUS
- - LPRASTERIZER_STATUS
  - RASTERIZER_STATUS
 ---
 
@@ -83,4 +81,3 @@ The language in the system's Setup.inf file.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getrasterizercaps">GetRasterizerCaps</a>
-

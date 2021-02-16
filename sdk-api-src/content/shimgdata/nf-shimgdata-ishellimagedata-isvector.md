@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::IsVector
+ - IShellImageData.IsVector
 ---
 
 # IShellImageData::IsVector
@@ -99,4 +99,3 @@ All other cases.
 </td>
 </tr>
 </table>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentSession::get_ACDGroup
+ - ITAgentSession.get_ACDGroup
 ---
 
 # ITAgentSession::get_ACDGroup
@@ -132,4 +132,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetagentsessioninfo">lineGetAgentSessionInfo</a>
-

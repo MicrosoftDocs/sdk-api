@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_EthernetFilter::GetMulticastList
+ - IBDA_EthernetFilter.GetMulticastList
 ---
 
 # IBDA_EthernetFilter::GetMulticastList
@@ -77,4 +77,3 @@ The declaration of <i>pAddressList</i> is not COM compliant. As a workaround, th
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ethernetfilter">IBDA_EthernetFilter Interface</a>
-

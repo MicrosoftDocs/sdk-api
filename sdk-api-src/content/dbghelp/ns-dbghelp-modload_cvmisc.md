@@ -46,8 +46,6 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _MODLOAD_CVMISC
- - PMODLOAD_CVMISC
  - MODLOAD_CVMISC
 ---
 
@@ -87,4 +85,3 @@ The size of the image.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-modload_data">MODLOAD_DATA</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SLIST_ENTRY
- - PSLIST_ENTRY
  - SLIST_ENTRY
 ---
 
@@ -92,4 +90,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/interlockedapi/nf-interlockedapi-interlockedpushentryslist">InterlockedPushEntrySList</a>
-

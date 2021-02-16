@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::GetPayloadExtension
+ - IMFASFStreamConfig.GetPayloadExtension
 ---
 
 # IMFASFStreamConfig::GetPayloadExtension
@@ -141,4 +141,3 @@ The <i>wPayloadExtensionNumber</i> parameter is out of range.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getpayloadextensioncount">IMFASFStreamConfig::GetPayloadExtensionCount</a>
-

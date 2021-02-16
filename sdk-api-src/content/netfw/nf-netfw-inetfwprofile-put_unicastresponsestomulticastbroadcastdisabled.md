@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
+ - INetFwProfile.UnicastResponsesToMulticastBroadcastDisabled
+ - INetFwProfile.get_UnicastResponsesToMulticastBroadcastDisabled
+ - INetFwProfile.put_UnicastResponsesToMulticastBroadcastDisabled
 ---
 
 # INetFwProfile::put_UnicastResponsesToMulticastBroadcastDisabled
@@ -67,4 +69,3 @@ If a PC sends a broadcast packet, a unicast response is allowed for three second
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwprofile">INetFwProfile</a>
-

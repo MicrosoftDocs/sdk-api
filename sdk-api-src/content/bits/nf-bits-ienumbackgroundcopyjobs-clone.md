@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyJobs::Clone
+ - IEnumBackgroundCopyJobs.Clone
 ---
 
 # IEnumBackgroundCopyJobs::Clone
@@ -68,4 +68,3 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-

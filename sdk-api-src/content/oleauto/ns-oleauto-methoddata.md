@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OleAuto.h
 api_name:
- - tagMETHODDATA
- - LPMETHODDATA
  - METHODDATA
 ---
 
@@ -142,4 +140,3 @@ The member is changed by a reference assignment, rather than a value assignment.
 ### -field vtReturn
 
 The return type for the method.
-

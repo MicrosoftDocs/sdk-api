@@ -44,7 +44,6 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
- - _RM_FILTER_ACTION
  - RM_FILTER_ACTION
 ---
 
@@ -76,4 +75,3 @@ Prevents the shut down and restart of the specified application or service.
 
 
 <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmaddfilter">RmAddFilter</a>
-

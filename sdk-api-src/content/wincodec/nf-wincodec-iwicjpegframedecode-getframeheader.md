@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode::GetFrameHeader
+ - IWICJpegFrameDecode.GetFrameHeader
 ---
 
 # IWICJpegFrameDecode::GetFrameHeader
@@ -73,4 +73,3 @@ Returns S_OK on successful completion.
 
 
 <a href="/windows/desktop/api/wincodec/ns-wincodec-wicjpegframeheader">WICJpegFrameHeader</a>
-

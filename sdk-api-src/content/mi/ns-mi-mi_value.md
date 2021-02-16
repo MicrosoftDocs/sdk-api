@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mi.h
 api_name:
- - _MI_Value
  - MI_Value
 ---
 

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxGetCharFormat
+ - ITextHost.TxGetCharFormat
 ---
 
 # ITextHost::TxGetCharFormat
@@ -113,4 +113,3 @@ The text host retains ownership of the <a href="/windows/win32/api/richedit/ns-r
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

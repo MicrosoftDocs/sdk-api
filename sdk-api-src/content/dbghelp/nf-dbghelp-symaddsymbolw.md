@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymAddSymbolW
  - dbghelp/SymAddSymbolW
- - SymAddSymbol
- - dbghelp/SymAddSymbol
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymAddSymbolW
  - SymAddSymbol
+ - SymAddSymbol
+ - SymAddSymbolW
 ---
 
 # SymAddSymbolW function
@@ -110,4 +109,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symdeletesymbol">SymDeleteSymbol</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI::SetApplicationPriority
+ - ITTAPI.SetApplicationPriority
 ---
 
 # ITTAPI::SetApplicationPriority
@@ -119,4 +119,3 @@ The Priorities that are set with <b>SetApplicationPriority</b> will persist acro
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

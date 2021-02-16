@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler::End
+ - IDsAdminNotifyHandler.End
 ---
 
 # IDsAdminNotifyHandler::End
@@ -73,4 +73,3 @@ This method provides the opportunity for the notification handler to free any me
 
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnotifyhandler-notify">IDsAdminNotifyHandler::Notify</a>
-

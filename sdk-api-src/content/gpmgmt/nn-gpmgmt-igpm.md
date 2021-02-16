@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPM
+ - GPM
 ---
 
 # IGPM interface
@@ -70,4 +71,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPM</b> interface inherits f
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

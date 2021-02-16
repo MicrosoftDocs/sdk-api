@@ -43,7 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::SetGestureStatus
+ - IInkEdit.SetGestureStatus
 ---
 
 # IInkEdit::SetGestureStatus
@@ -178,4 +178,3 @@ To get the interest of the <a href="/windows/desktop/tablet/inkedit-control-refe
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

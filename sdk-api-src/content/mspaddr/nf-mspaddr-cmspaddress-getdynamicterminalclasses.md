@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
- - CMSPAddress::GetDynamicTerminalClasses
+ - CMSPAddress.GetDynamicTerminalClasses
 ---
 
 # CMSPAddress::GetDynamicTerminalClasses
@@ -68,4 +68,3 @@ Pointer to array of
 ## -see-also
 
 <a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-

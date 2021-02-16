@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleControl::GetControlInfo
+ - IOleControl.GetControlInfo
 ---
 
 # IOleControl::GetControlInfo
@@ -105,4 +105,3 @@ The address in <i>pCI</i> is not valid. For example, it may be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iolecontrol">IOleControl</a>
-

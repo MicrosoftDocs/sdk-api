@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - handleapi
  - handleapi/handleapi
-api_name:
- - handleapi
 ---
 
 # Handleapi.h header

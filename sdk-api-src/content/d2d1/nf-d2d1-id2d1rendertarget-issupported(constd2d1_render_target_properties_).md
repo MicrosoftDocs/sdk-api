@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::IsSupported
+ - ID2D1RenderTarget.IsSupported
 ---
 
 # ID2D1RenderTarget::IsSupported(const D2D1_RENDER_TARGET_PROPERTIES &)

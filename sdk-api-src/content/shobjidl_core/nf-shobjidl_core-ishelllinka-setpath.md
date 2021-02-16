@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::SetPath
+ - IShellLink.SetPath
+ - IShellLinkA.SetPath
+ - IShellLinkW.SetPath
 ---
 
 # IShellLinkA::SetPath

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PISCSI_DIGEST_TYPES
  - ISCSI_DIGEST_TYPES
 ---
 

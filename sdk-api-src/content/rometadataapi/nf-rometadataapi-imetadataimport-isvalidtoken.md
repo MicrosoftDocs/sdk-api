@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::IsValidToken
+ - IMetaDataImport.IsValidToken
 ---
 
 # IMetaDataImport::IsValidToken
@@ -65,4 +65,3 @@ The token to check the reference validity for.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

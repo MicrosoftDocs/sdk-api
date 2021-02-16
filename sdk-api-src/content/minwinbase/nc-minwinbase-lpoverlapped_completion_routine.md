@@ -42,6 +42,7 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
+ - FileIOCompletionRoutine
  - LPOVERLAPPED_COMPLETION_ROUTINE
 ---
 
@@ -148,4 +149,3 @@ For  example code, see
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
-

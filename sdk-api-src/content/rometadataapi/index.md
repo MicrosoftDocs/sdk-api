@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - rometadataapi
  - rometadataapi/rometadataapi
-api_name:
- - rometadataapi
 ---
 
 # Rometadataapi.h header

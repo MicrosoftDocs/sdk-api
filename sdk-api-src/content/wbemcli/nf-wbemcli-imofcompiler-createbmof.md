@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mofd.dll
 api_name:
- - IMofCompiler::CreateBMOF
+ - IMofCompiler.CreateBMOF
 ---
 
 # IMofCompiler::CreateBMOF
@@ -195,4 +195,3 @@ This method returns <b>WBEM_S_NO_ERROR</b> if successful. If the method is unsuc
 
 
 <a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
-

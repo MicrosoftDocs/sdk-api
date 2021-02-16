@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupQueryFileLogA
  - setupapi/SetupQueryFileLogA
- - SetupQueryFileLog
- - setupapi/SetupQueryFileLog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupQueryFileLogA
  - SetupQueryFileLog
+ - SetupQueryFileLogA
+ - SetupQueryFileLogW
 ---
 
 # SetupQueryFileLogA function
@@ -182,4 +181,3 @@ If the value of <i>DesiredInfo</i> is greater than <b>SetupFileLogOtherInfo</b> 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setuplogfilea">SetupLogFile</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - IRemoteDesktopClient::DeleteSavedCredentials
+ - IRemoteDesktopClient.DeleteSavedCredentials
 ---
 
 # IRemoteDesktopClient::DeleteSavedCredentials
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient">IRemoteDesktopClient</a>
-

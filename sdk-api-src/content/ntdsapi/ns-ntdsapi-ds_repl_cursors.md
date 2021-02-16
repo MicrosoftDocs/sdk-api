@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_CURSORS
  - DS_REPL_CURSORS
 ---
 
@@ -84,4 +83,3 @@ Contains an array of <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_cu
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
-

@@ -49,7 +49,7 @@ api_location:
  - Wbemess.dll
  - Wmipjobj.dll
 api_name:
- - IWbemContext::DeleteValue
+ - IWbemContext.DeleteValue
 ---
 
 # IWbemContext::DeleteValue
@@ -86,4 +86,3 @@ This method returns an <b>HRESULT</b>HRESULT indicating the status of the method
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemcontext-setvalue">IWbemContext::SetValue</a>
-

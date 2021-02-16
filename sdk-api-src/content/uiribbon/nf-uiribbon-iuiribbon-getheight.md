@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIRibbon::GetHeight
+ - IUIRibbon.GetHeight
 ---
 
 # IUIRibbon::GetHeight
@@ -120,4 +120,3 @@ void GetDisplayLocation(POINT &pt, HWND hWnd)
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

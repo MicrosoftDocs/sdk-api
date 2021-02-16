@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CredentialProvider.h
 api_name:
- - ICredentialProviderCredential2::GetUserSid
+ - ICredentialProviderCredential2.GetUserSid
 ---
 
 # ICredentialProviderCredential2::GetUserSid
@@ -111,4 +111,3 @@ HRESULT CSampleCredential::GetUserSid(__deref_out PWSTR *ppszSid)
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getsid">ICredentialProviderUser::GetSid</a>
-

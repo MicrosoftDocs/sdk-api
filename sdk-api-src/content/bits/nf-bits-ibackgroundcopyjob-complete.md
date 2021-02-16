@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::Complete
+ - IBackgroundCopyJob.Complete
 ---
 
 # IBackgroundCopyJob::Complete
@@ -165,4 +165,3 @@ The owner of the file is the user who made the call. For example, if an administ
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-getstate">IBackgroundCopyJob::GetState</a>
-

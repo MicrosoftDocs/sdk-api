@@ -47,6 +47,7 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
  - CharNextExA
+ - CharNextExA
 ---
 
 # CharNextExA function
@@ -149,4 +150,3 @@ If
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
-

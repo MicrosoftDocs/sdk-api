@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRSurfaceAllocator::FreeSurface
+ - IVMRSurfaceAllocator.FreeSurface
 ---
 
 # IVMRSurfaceAllocator::FreeSurface
@@ -70,4 +70,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

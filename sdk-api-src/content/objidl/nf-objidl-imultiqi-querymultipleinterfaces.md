@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMultiQI::QueryMultipleInterfaces
+ - IMultiQI.QueryMultipleInterfaces
 ---
 
 # IMultiQI::QueryMultipleInterfaces
@@ -135,4 +135,3 @@ The client is responsible for releasing each of the acquired interfaces by calli
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>
-

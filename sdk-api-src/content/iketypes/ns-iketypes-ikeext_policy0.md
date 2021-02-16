@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_POLICY0_
  - IKEEXT_POLICY0
 ---
 
@@ -156,4 +155,3 @@ Set this to 0 to disable dynamic filter addition. Dynamic filters are added by I
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_collab_event_registration_tag
- - PPEER_COLLAB_EVENT_REGISTRATION
  - PEER_COLLAB_EVENT_REGISTRATION
 ---
 
@@ -81,4 +79,3 @@ When <b></b>this member is set, notification will be sent only for the specific 
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

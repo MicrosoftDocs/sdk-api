@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_CONTEXT_THUNKS
- - PSECPKG_CONTEXT_THUNKS
  - SECPKG_CONTEXT_THUNKS
 ---
 
@@ -73,4 +71,3 @@ The number of attributes specified by the <i>Levels</i> parameter.
 
 An array of one or more context attributes. For a complete list of valid values, see 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (General)</a>.
-

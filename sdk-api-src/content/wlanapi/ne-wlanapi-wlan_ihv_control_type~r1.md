@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_IHV_CONTROL_TYPE
- - PWLAN_IHV_CONTROL_TYPE
  - WLAN_IHV_CONTROL_TYPE
 ---
 
@@ -58,4 +57,3 @@ Bypasses a WLAN driver.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanihvcontrol">WlanIhvControl</a>
-

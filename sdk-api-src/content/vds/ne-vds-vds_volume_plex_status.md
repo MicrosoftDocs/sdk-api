@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_VOLUME_PLEX_STATUS
  - VDS_VOLUME_PLEX_STATUS
 ---
 
@@ -89,4 +88,3 @@ The  <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_P
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>
-

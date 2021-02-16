@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::get_ReservedNotSupportedValue
+ - IUIAutomation.ReservedNotSupportedValue
+ - IUIAutomation.get_ReservedNotSupportedValue
 ---
 
 # IUIAutomation::get_ReservedNotSupportedValue
@@ -63,4 +64,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
-

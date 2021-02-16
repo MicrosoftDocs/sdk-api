@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_DisplayName
+ - IDataCollectorSet.DisplayName
+ - IDataCollectorSet.get_DisplayName
+ - IDataCollectorSet.put_DisplayName
 ---
 
 # IDataCollectorSet::get_DisplayName
@@ -69,4 +71,3 @@ If you set the display name to the @<i>binary</i>,#<i>id</i> form, when you retr
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_displaynameunresolved">IDataCollectorSet::DisplayNameUnresolved</a>
-

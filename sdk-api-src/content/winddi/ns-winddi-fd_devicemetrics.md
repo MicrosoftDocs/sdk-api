@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FD_DEVICEMETRICS
- - PFD_DEVICEMETRICS
  - FD_DEVICEMETRICS
 ---
 
@@ -203,4 +201,3 @@ Is reserved and should be ignored by the font provider.
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-glyphbits">GLYPHBITS</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IConfigurationDataCollector::get_Files
+ - IConfigurationDataCollector.Files
+ - IConfigurationDataCollector.get_Files
+ - IConfigurationDataCollector.put_Files
 ---
 
 # IConfigurationDataCollector::get_Files
@@ -111,4 +113,3 @@ m.txt
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iconfigurationdatacollector-get_filemaxtotalsize">IConfigurationDataCollector::FileMaxTotalSize</a>
-

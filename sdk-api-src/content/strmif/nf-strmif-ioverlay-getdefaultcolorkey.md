@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay::GetDefaultColorKey
+ - IOverlay.GetDefaultColorKey
 ---
 
 # IOverlay::GetDefaultColorKey
@@ -76,4 +76,3 @@ The <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay</a> interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-

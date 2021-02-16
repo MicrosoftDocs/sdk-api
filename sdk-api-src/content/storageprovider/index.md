@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - storageprovider
  - storageprovider/storageprovider
-api_name:
- - storageprovider
 ---
 
 # Storageprovider.h header

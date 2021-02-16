@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2Callback::OnError
+ - IXMLHTTPRequest2Callback.OnError
 ---
 
 # IXMLHTTPRequest2Callback::OnError
@@ -80,4 +80,3 @@ Unless the request completes successfully, indicated by <a href="/previous-versi
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2callback">IXMLHTTPRequest2Callback</a>
-

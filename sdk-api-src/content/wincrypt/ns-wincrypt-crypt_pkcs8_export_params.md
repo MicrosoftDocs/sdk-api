@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_PKCS8_EXPORT_PARAMS
- - PCRYPT_PKCS8_EXPORT_PARAMS
  - CRYPT_PKCS8_EXPORT_PARAMS
 ---
 
@@ -125,4 +123,3 @@ A <b>LPVOID</b> value that provides data used for encryption, such as key, initi
 
 
 <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pcrypt_encrypt_private_key_func">PCRYPT_ENCRYPT_PRIVATE_KEY_FUNC</a>
-

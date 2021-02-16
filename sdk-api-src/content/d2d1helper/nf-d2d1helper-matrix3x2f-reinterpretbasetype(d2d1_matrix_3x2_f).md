@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - Matrix3x2F::ReinterpretBaseType
+ - Matrix3x2F.ReinterpretBaseType
 ---
 
 # Matrix3x2F::ReinterpretBaseType(D2D1_MATRIX_3X2_F)
@@ -69,4 +69,3 @@ The converted matrix.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-

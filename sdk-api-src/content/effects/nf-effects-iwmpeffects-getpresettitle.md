@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects::GetPresetTitle
+ - IWMPEffects.GetPresetTitle
 ---
 
 # IWMPEffects::GetPresetTitle
@@ -73,4 +73,3 @@ Called by Windows Media Player to obtain the title of a given preset.
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-

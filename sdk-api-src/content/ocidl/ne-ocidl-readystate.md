@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ocidl.h
 api_name:
- - tagREADYSTATE
  - READYSTATE
 ---
 

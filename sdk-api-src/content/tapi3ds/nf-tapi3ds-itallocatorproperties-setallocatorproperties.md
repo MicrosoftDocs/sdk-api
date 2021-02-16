@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAllocatorProperties::SetAllocatorProperties
+ - ITAllocatorProperties.SetAllocatorProperties
 ---
 
 # ITAllocatorProperties::SetAllocatorProperties
@@ -73,4 +73,3 @@ If the application is only concerned with setting consistent buffer sizes, the
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itallocatorproperties">ITAllocatorProperties</a>
-

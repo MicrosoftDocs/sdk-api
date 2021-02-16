@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_VALUE_META_DATA_BLOB
  - DS_REPL_VALUE_META_DATA_BLOB
 ---
 
@@ -105,6 +104,8 @@ Contains the USN on the destination server, that is, the server from which the <
 
 Contains the offset, in bytes, from the address of this structure  to  a null-terminated Unicode string that contains the distinguished name of the directory system agent server that originated the last replication. A value of zero indicates an empty or <b>NULL</b> string.
 
+
+
 ## -see-also
 
 <a href="/windows/desktop/api/ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2">DS_REPL_VALUE_META_DATA_2</a>
@@ -116,4 +117,3 @@ Contains the offset, in bytes, from the address of this structure  to  a null-te
 
 
 <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
-

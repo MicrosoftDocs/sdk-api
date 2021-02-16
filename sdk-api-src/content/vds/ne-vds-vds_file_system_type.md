@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_FILE_SYSTEM_TYPE
  - VDS_FILE_SYSTEM_TYPE
 ---
 
@@ -132,4 +131,3 @@ The <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_prop">VDS_FILE_SYST
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>
-

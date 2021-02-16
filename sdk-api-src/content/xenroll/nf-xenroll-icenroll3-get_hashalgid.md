@@ -42,7 +42,13 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll3::get_HashAlgID
+ - ICEnroll4.HashAlgID
+ - ICEnroll4.get_HashAlgID
+ - ICEnroll4.put_HashAlgID
+ - ICEnroll3.HashAlgID
+ - ICEnroll3.get_HashAlgID
+ - ICEnroll3.put_HashAlgID
+ - CEnroll.HashAlgID
 ---
 
 # ICEnroll3::get_HashAlgID
@@ -107,4 +113,3 @@ else
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-

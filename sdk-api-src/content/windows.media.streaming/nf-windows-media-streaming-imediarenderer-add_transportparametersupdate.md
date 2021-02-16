@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IMediaRenderer::add_TransportParametersUpdate
+ - IMediaRenderer.add_TransportParametersUpdate
 ---
 
 # IMediaRenderer::streaming
@@ -91,4 +91,3 @@ To unregister the event handler that was registered by this method, pass the <i>
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange::Move
+ - IUIAutomationTextRange.Move
 ---
 
 # IUIAutomationTextRange::Move
@@ -134,4 +134,3 @@ If a text-based control does not support the text unit specified by the <i>unit<
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

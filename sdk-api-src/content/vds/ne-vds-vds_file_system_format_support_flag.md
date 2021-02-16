@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
  - VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG
 ---
 
@@ -87,4 +86,3 @@ The file system is the recommended file system to be used for formatting the vol
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_format_support_prop">VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP</a>
-

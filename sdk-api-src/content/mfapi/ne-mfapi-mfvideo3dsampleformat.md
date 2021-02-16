@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFVideo3DSampleFormat
  - MFVideo3DSampleFormat
 ---
 
@@ -87,4 +86,3 @@ The exact layout of the views in memory is specified by the following media type
 ## -see-also
 
 Media Foundation Enumerations
-

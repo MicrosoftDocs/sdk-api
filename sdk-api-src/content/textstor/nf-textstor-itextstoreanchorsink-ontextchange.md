@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink::OnTextChange
+ - ITextStoreAnchorSink.OnTextChange
 ---
 
 # ITextStoreAnchorSink::OnTextChange
@@ -192,4 +192,3 @@ When calling this method, the application must be able to grant a <a href="/wind
 
 <a href="/windows/desktop/TSF/miscellaneous-text-store-constants">Miscellaneous Text Store Constants
       </a>
-

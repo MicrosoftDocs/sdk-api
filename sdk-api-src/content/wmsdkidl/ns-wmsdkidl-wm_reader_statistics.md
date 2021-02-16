@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMReaderStatistics
  - WM_READER_STATISTICS
 ---
 
@@ -92,4 +91,3 @@ You must set the <b>cbSize</b> member manually before using this structure. It s
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

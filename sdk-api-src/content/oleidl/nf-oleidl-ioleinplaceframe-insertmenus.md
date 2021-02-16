@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceFrame::InsertMenus
+ - IOleInPlaceFrame.InsertMenus
 ---
 
 # IOleInPlaceFrame::InsertMenus
@@ -94,4 +94,3 @@ The object application asks the container to add its menus to the menu specified
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplaceframe">IOleInPlaceFrame</a>
-

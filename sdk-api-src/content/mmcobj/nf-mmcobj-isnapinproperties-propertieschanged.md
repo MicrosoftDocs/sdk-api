@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcobj.h
 api_name:
- - ISnapinProperties::PropertiesChanged
+ - ISnapinProperties.PropertiesChanged
 ---
 
 # ISnapinProperties::PropertiesChanged
@@ -76,4 +76,3 @@ If successful, the return value is <b>S_OK</b>; a snap-in can prevent a change o
 
 
 <a href="/windows/desktop/api/mmcobj/ns-mmcobj-mmc_snapin_property">MMC_SNAPIN_PROPERTY</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl2::SetChangeTimeOut
+ - IHeaderCtrl2.SetChangeTimeOut
 ---
 
 # IHeaderCtrl2::SetChangeTimeOut
@@ -71,4 +71,3 @@ This method can return one of these values.
 
 
 <a href="/previous-versions/windows/desktop/mmc/mmcn-filter-change">MMCN_FILTER_CHANGE</a>
-

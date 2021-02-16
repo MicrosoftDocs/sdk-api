@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::AddConfiguration
+ - IDirectManipulationViewport.AddConfiguration
 ---
 
 # IDirectManipulationViewport::AddConfiguration
@@ -85,4 +85,3 @@ This method is designed to allow an application to switch pre-added configuratio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

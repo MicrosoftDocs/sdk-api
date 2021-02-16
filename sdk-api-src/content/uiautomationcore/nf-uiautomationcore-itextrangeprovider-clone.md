@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::Clone
+ - ITextRangeProvider.Clone
 ---
 
 # ITextRangeProvider::Clone
@@ -93,4 +93,3 @@ The new range can be manipulated independently from the original.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

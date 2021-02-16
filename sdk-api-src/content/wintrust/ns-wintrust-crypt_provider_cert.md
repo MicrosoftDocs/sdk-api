@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _CRYPT_PROVIDER_CERT
- - PCRYPT_PROVIDER_CERT
  - CRYPT_PROVIDER_CERT
 ---
 
@@ -196,4 +194,3 @@ Boolean value that indicates whether the certificate trust is cyclical.
 ### -field pChainElement
 
 A pointer to the <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_chain_element">CERT_CHAIN_ELEMENT</a> that represents the status of the certificate within a chain.
-

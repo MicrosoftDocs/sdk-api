@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView::Open
+ - IOleDocumentView.Open
 ---
 
 # IOleDocumentView::Open
@@ -148,4 +148,3 @@ Implementation consists mainly of the view object calling its own <a href="/wind
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-oninplaceactivate">IOleInPlaceSite::OnInPlaceActivate</a>
-

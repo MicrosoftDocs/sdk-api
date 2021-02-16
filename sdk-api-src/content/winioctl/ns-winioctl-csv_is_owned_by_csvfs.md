@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_IS_OWNED_BY_CSVFS
- - PCSV_IS_OWNED_BY_CSVFS
  - CSV_IS_OWNED_BY_CSVFS
 ---
 
@@ -73,4 +71,3 @@ Contains the output for the
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

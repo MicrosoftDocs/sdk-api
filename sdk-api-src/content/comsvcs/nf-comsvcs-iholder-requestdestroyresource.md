@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder::RequestDestroyResource
+ - IHolder.RequestDestroyResource
 ---
 
 # IHolder::RequestDestroyResource
@@ -105,4 +105,3 @@ The method failed. The resource has not been destroyed.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
-

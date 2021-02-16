@@ -46,8 +46,6 @@ api_type:
 api_location:
  - iwstdec.h
 api_name:
- - _AM_WST_LEVEL
- - PAM_WST_LEVEL
  - AM_WST_LEVEL
 ---
 
@@ -67,4 +65,3 @@ Not implemented.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

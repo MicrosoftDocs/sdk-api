@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionItemPattern::RemoveFromSelection
+ - IUIAutomationSelectionItemPattern.RemoveFromSelection
 ---
 
 # IUIAutomationSelectionItemPattern::RemoveFromSelection
@@ -79,4 +79,3 @@ An error code is returned if this element is the only one in the selection and t
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-select">Select</a>
-

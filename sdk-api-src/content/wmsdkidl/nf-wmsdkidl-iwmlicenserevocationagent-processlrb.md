@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMLicenseRevocationAgent::ProcessLRB
+ - IWMLicenseRevocationAgent.ProcessLRB
 ---
 
 # IWMLicenseRevocationAgent::ProcessLRB
@@ -102,4 +102,3 @@ The license server sends the signed license revocation blob after receiving a re
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent Interface</a>
-

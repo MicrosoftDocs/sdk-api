@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _ABC
- - PABC
  - ABC
 ---
 
@@ -87,4 +85,3 @@ The total width of a character is the summation of the A, B, and C spaces. Eithe
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharabcwidthsa">GetCharABCWidths</a>
-

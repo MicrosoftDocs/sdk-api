@@ -42,7 +42,10 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIViewer::put_SmartSizing
+ - IRDPSRAPIViewer.SmartSizing
+ - IRDPSRAPIViewer.get_SmartSizing
+ - IRDPSRAPIViewer.put_SmartSizing
+ - RDPViewer.SmartSizing
 ---
 
 # IRDPSRAPIViewer::put_SmartSizing
@@ -64,4 +67,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiviewer">IRDPSRAPIViewer</a>
-

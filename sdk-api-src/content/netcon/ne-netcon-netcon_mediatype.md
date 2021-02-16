@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NetCon.h
 api_name:
- - tagNETCON_MEDIATYPE
  - NETCON_MEDIATYPE
 ---
 
@@ -114,4 +113,3 @@ Shared connection to a remote or wide area network (WAN).
 
 
 <a href="/windows/desktop/api/netcon/ns-netcon-netcon_properties">NETCON_PROPERTIES</a>
-

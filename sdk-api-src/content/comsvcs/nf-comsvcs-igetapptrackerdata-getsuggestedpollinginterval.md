@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IGetAppTrackerData::GetSuggestedPollingInterval
+ - IGetAppTrackerData.GetSuggestedPollingInterval
 ---
 
 # IGetAppTrackerData::GetSuggestedPollingInterval
@@ -79,4 +79,3 @@ The polling interval is by default equal to the tracking event frequency (three 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-

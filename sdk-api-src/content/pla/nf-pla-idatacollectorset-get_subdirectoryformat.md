@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_SubdirectoryFormat
+ - IDataCollectorSet.SubdirectoryFormat
+ - IDataCollectorSet.get_SubdirectoryFormat
+ - IDataCollectorSet.put_SubdirectoryFormat
 ---
 
 # IDataCollectorSet::get_SubdirectoryFormat
@@ -71,4 +73,3 @@ PLA appends the decoration to the folder name. For example, if you specify <b>pl
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectoryformatpattern">IDataCollectorSet::SubdirectoryFormatPattern</a>
-

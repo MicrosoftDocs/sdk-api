@@ -9,8 +9,6 @@ tech.root: ndf
 f1_keywords:
  - ndattrib
  - ndattrib/ndattrib
-api_name:
- - ndattrib
 ---
 
 # Ndattrib.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError::GetErrorDescription
+ - IBackgroundCopyError.GetErrorDescription
 ---
 
 # IBackgroundCopyError::GetErrorDescription
@@ -160,4 +160,3 @@ See the example code in the
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-geterrordescription">IBackgroundCopyManager::GetErrorDescription</a>
-

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetDisplayType
+ - IPropertyDescription.GetDisplayType
 ---
 
 # IPropertyDescription::GetDisplayType
@@ -107,4 +107,3 @@ The value retrieved by this method is originally set through the <i>displayType<
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

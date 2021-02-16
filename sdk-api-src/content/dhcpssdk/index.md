@@ -9,8 +9,6 @@ tech.root: dhcp
 f1_keywords:
  - dhcpssdk
  - dhcpssdk/dhcpssdk
-api_name:
- - dhcpssdk
 ---
 
 # Dhcpssdk.h header

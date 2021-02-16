@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - _ApplicationProcessSummary
  - ApplicationProcessSummary
 ---
 
@@ -96,4 +95,3 @@ Indicates whether the process is a COM+ server application instance that has bee
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup::UnInstall
+ - ICertificateEnrollmentPolicyServerSetup.UnInstall
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::UnInstall
@@ -139,4 +139,3 @@ When the <i>pAuthKeyBasedRenewal</i> parameter contains values for the authentic
 
 
 <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-install">Install</a>
-

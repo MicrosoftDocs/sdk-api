@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeCspProvider::get_ProviderName
+ - IX509AttributeCspProvider.ProviderName
+ - IX509AttributeCspProvider.get_ProviderName
 ---
 
 # IX509AttributeCspProvider::get_ProviderName
@@ -72,4 +73,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributecs
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributecspprovider">IX509AttributeCspProvider</a>
-

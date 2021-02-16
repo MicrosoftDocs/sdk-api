@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ipsectypes.h
 api_name:
- - IPSEC_TUNNEL_POLICY2_
  - IPSEC_TUNNEL_POLICY2
 ---
 
@@ -248,4 +247,3 @@ The forward path SA lifetime indicating the length of time for this connection.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

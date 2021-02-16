@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWebProxy::PromptForCredentials
+ - IWebProxy.PromptForCredentials
 ---
 
 # IWebProxy::PromptForCredentials
@@ -75,4 +75,3 @@ If null is specified for the parent window (for example, if you specified Nothin
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-

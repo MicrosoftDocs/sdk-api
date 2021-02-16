@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - bcrypt
  - bcrypt/bcrypt
-api_name:
- - bcrypt
 ---
 
 # Bcrypt.h header

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush::RotateTransform
+ - TextureBrush.RotateTransform
 ---
 
 # TextureBrush::RotateTransform
@@ -147,4 +147,3 @@ VOID Example_RotateTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

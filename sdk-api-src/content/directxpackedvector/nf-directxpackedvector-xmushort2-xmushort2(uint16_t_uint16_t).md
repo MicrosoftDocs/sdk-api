@@ -42,7 +42,7 @@ api_type:
 api_location:
  - directxpackedvector.h
 api_name:
- - XMUSHORT2::XMUSHORT2
+ - XMUSHORT2.XMUSHORT2
 ---
 
 # XMUSHORT2::XMUSHORT2(uint16_t,uint16_t)
@@ -95,4 +95,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmushort2-ctor">XMUSHORT2 Constructors</a>
-

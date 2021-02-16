@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_NOTIFICATION_MSM
- - PWLAN_NOTIFICATION_MSM
  - WLAN_NOTIFICATION_MSM
 ---
 
@@ -166,4 +165,3 @@ The callback function is called with a pointer to a <a href="/previous-versions/
 <a href="/previous-versions/windows/desktop/legacy/ms706902(v=vs.85)">WLAN_NOTIFICATION_DATA</a>
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

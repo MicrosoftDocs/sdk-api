@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate::get_Baseline
+ - IInkRecognitionAlternate.Baseline
+ - IInkRecognitionAlternate.get_Baseline
+ - IInkRecognitionAlternate.get_Baseline
 ---
 
 # IInkRecognitionAlternate::get_Baseline
@@ -95,4 +97,3 @@ The baseline is the imaginary horizontal line with which the base of each charac
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline">Midline Property [IInkRecognitionAlternate Interface]</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winnt.h
 api_name:
- - _ENCLAVE_INIT_INFO_SGX
- - PENCLAVE_INIT_INFO_SGX
  - ENCLAVE_INIT_INFO_SGX
 ---
 
@@ -87,4 +85,3 @@ For more information about the <b>SIGSTRUCT</b> and <b>EINITTOKEN</b> structures
 
 
 <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_METHOD_INFO_EX
  - EAP_METHOD_INFO_EX
 ---
 
@@ -87,4 +86,3 @@ Pointer to an <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_info_array_ex">EAP_METHOD_INFO_ARRAY_EX</a>
 
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_type">EAP_METHOD_TYPE</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_DataManager
+ - IDataCollectorSet.DataManager
+ - IDataCollectorSet.get_DataManager
 ---
 
 # IDataCollectorSet::get_DataManager
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IEnumMcastScope::Clone
+ - IEnumMcastScope.Clone
 ---
 
 # IEnumMcastScope::Clone
@@ -127,4 +127,3 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-ienummcastscope">IEnumMcastScope</a>
-

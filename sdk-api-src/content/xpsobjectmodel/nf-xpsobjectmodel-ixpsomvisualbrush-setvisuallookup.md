@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisualBrush::SetVisualLookup
+ - IXpsOMVisualBrush.SetVisualLookup
 ---
 
 # IXpsOMVisualBrush::SetVisualLookup
@@ -197,4 +197,3 @@ Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvis
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

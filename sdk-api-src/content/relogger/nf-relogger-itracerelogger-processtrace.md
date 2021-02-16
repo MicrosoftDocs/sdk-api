@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceRelogger::ProcessTrace
+ - ITraceRelogger.ProcessTrace
 ---
 
 # ITraceRelogger::ProcessTrace
@@ -63,4 +63,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-

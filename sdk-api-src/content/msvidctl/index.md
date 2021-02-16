@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - msvidctl
  - msvidctl/msvidctl
-api_name:
- - msvidctl
 ---
 
 # Msvidctl.h header

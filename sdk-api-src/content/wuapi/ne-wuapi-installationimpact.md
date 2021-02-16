@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
- - tagInstallationImpact
  - InstallationImpact
 ---
 
@@ -77,4 +76,3 @@ The update must meet strict requirements to qualify for this rating. The require
 ### -field iiRequiresExclusiveHandling
 
 This update cannot be installed in the same <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-install">IUpdateInstaller::Install</a> or <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateinstaller-begininstall">IUpdateInstaller::BeginInstall</a> call as any other update.  If you make an <b>IUpdateInstaller::Install</b> or <b>IUpdateInstaller::BeginInstall</b> call that includes an exclusive update along with one or more other updates, the call will return <b>WU_E_EXCLUSIVE_INSTALL_CONFLICT</b>, and no updates will be installed.
-

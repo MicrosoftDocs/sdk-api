@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPRAPI_OBJECT_TYPE
- - PMPRAPI_OBJECT_TYPE
  - MPRAPI_OBJECT_TYPE
 ---
 
@@ -93,4 +91,3 @@ The structure is a [RAS_UPDATE_CONNECTION](/windows/desktop/api/mprapi/ns-mprapi
 
 
 <a href="/windows/desktop/RRAS/router-management-reference">Router Management Reference</a>
-

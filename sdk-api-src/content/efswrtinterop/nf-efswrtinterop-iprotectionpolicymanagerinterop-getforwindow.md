@@ -42,7 +42,7 @@ api_type:
 api_location:
  - efswrt.dll
 api_name:
- - IProtectionPolicyManagerInterop::GetForWindow
+ - IProtectionPolicyManagerInterop.GetForWindow
 ---
 
 # IProtectionPolicyManagerInterop::GetForWindow
@@ -74,4 +74,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/efswrtinterop/nn-efswrtinterop-iprotectionpolicymanagerinterop">IProtectionPolicyManagerInterop</a>
-

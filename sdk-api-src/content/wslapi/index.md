@@ -9,8 +9,6 @@ tech.root: wsl
 f1_keywords:
  - wslapi
  - wslapi/wslapi
-api_name:
- - wslapi
 ---
 
 # Wslapi.h header

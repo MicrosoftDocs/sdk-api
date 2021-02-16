@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::EndContainer
+ - Graphics.EndContainer
 ---
 
 # Graphics::EndContainer
@@ -149,4 +149,3 @@ VOID Example_EndContainer(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-graphics-containers-use">Using Graphics Containers</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView::OpenView
+ - ICertView2.OpenView
+ - ICertView.OpenView
+ - CCertView.OpenView
 ---
 
 # ICertView::OpenView
@@ -121,4 +123,3 @@ if (NULL != pEnumRow)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewrow-next">IEnumCERTVIEWROW::Next</a>
-

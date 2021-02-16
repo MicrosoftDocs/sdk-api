@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _EV_EXTRA_CERT_CHAIN_POLICY_STATUS
- - PEV_EXTRA_CERT_CHAIN_POLICY_STATUS
  - EV_EXTRA_CERT_CHAIN_POLICY_STATUS
 ---
 
@@ -118,4 +116,3 @@ Validation of the  Subject logotype meets Program Requirements for display.
 </td>
 </tr>
 </table>
-

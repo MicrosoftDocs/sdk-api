@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::SetOutputPrefType
+ - IMFTopologyNode.SetOutputPrefType
 ---
 
 # IMFTopologyNode::SetOutputPrefType
@@ -113,4 +113,3 @@ Output nodes cannot have outputs. If this method is called on an output node, it
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

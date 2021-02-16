@@ -46,8 +46,6 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
- - _APP_MEMORY_INFORMATION
- - PAPP_MEMORY_INFORMATION
  - APP_MEMORY_INFORMATION
 ---
 
@@ -79,4 +77,3 @@ The app's total usage of private plus shared commit.
 ## -see-also
 
 <a href="/previous-versions/mt767996(v=vs.85)">PROCESS_INFORMATION_CLASS</a>
-

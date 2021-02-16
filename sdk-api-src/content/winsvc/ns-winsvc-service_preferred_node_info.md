@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winsvc.h
 api_name:
- - _SERVICE_PREFERRED_NODE_INFO
- - LPSERVICE_PREFERRED_NODE_INFO
  - SERVICE_PREFERRED_NODE_INFO
 ---
 
@@ -79,4 +77,3 @@ If this member is TRUE, the preferred node setting is deleted.
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
-

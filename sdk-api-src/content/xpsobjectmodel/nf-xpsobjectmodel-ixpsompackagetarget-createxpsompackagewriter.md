@@ -43,7 +43,7 @@ api_location:
  - XpsPrint.lib
  - XpsPrint.dll
 api_name:
- - IXpsOMPackageTarget::CreateXpsOMPackageWriter
+ - IXpsOMPackageTarget.CreateXpsOMPackageWriter
 ---
 
 # IXpsOMPackageTarget::CreateXpsOMPackageWriter
@@ -129,4 +129,3 @@ This method calls the <a href="/previous-versions/windows/desktop/opc/packaging"
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

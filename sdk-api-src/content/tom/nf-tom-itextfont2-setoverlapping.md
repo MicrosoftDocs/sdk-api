@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::SetOverlapping
+ - ITextFont2.SetOverlapping
 ---
 
 # ITextFont2::SetOverlapping
@@ -96,4 +96,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-getoverlapping">ITextFont2::GetOverlapping</a>
-

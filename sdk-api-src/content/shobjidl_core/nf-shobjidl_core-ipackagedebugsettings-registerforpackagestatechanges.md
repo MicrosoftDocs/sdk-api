@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::RegisterForPackageStateChanges
+ - IPackageDebugSettings.RegisterForPackageStateChanges
 ---
 
 # IPackageDebugSettings::RegisterForPackageStateChanges
@@ -87,4 +87,3 @@ suspended states.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-unregisterforpackagestatechanges">UnregisterForPackageStateChanges</a>
-

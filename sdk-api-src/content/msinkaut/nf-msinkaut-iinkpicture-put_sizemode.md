@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::put_SizeMode
+ - IInkPicture.SizeMode
+ - IInkPicture.get_SizeMode
+ - IInkPicture.put_SizeMode
+ - InkPicture.get_SizeMode
+ - InkPicture.put_SizeMode
 ---
 
 # IInkPicture::put_SizeMode
@@ -77,4 +81,3 @@ Using the <b>IPSM_AutoSize</b> value causes the control to resize to always fit 
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkpicturesizemode">InkPictureSizeMode</a>
-

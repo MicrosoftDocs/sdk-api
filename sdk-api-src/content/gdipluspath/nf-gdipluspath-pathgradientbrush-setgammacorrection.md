@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::SetGammaCorrection
+ - PathGradientBrush.SetGammaCorrection
 ---
 
 # PathGradientBrush::SetGammaCorrection
@@ -90,4 +90,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getgammacorrection">PathGradientBrush::GetGammaCorrection</a>
-

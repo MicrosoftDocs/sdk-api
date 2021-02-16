@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _DRVFN
- - PDRVFN
  - DRVFN
 ---
 
@@ -82,4 +80,3 @@ Graphics DDI function addresses can be placed in the DRVFN array in any order.
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
-

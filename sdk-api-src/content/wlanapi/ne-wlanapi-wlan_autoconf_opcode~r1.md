@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_AUTOCONF_OPCODE
- - PWLAN_AUTOCONF_OPCODE
  - WLAN_AUTOCONF_OPCODE
 ---
 
@@ -90,4 +89,3 @@ The <b>WLAN_AUTOCONF_OPCODE</b> specifies the possible values for the <i>OpCode<
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a>
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetautoconfigparameter">WlanSetAutoConfigParameter</a>
-

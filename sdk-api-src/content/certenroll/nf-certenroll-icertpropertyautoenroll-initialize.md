@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyAutoEnroll::Initialize
+ - ICertPropertyAutoEnroll.Initialize
 ---
 
 # ICertPropertyAutoEnroll::Initialize
@@ -94,4 +94,3 @@ The object is already initialized.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a>
-

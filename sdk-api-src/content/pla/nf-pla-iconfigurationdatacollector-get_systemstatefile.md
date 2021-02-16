@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IConfigurationDataCollector::get_SystemStateFile
+ - IConfigurationDataCollector.SystemStateFile
+ - IConfigurationDataCollector.get_SystemStateFile
+ - IConfigurationDataCollector.put_SystemStateFile
 ---
 
 # IConfigurationDataCollector::get_SystemStateFile
@@ -67,4 +69,3 @@ The state information is a snapshot of the Circular Kernel Context Logger. The c
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iconfigurationdatacollector">IConfigurationDataCollector</a>
-

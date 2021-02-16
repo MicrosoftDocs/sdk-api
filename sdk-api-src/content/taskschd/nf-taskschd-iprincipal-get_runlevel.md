@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal::get_RunLevel
+ - IPrincipal.RunLevel
+ - IPrincipal.get_RunLevel
+ - IPrincipal.put_RunLevel
 ---
 
 # IPrincipal::get_RunLevel
@@ -65,4 +67,3 @@ If a task is registered using the Administrators group for the security context 
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iprincipal">IPrincipal</a>
-

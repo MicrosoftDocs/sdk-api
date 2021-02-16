@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHostNotify::GetService
+ - IWSDDeviceHostNotify.GetService
 ---
 
 # IWSDDeviceHostNotify::GetService
@@ -87,4 +87,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehostnotify">IWSDDeviceHostNotify</a>
-

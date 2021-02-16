@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS::GetTableDescriptorByIndex
+ - ISCTE_EAS.GetTableDescriptorByIndex
 ---
 
 # ISCTE_EAS::GetTableDescriptorByIndex
@@ -109,4 +109,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iscte_eas">ISCTE_EAS Interface</a>
-

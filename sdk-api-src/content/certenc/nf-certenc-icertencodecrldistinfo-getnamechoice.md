@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeCRLDistInfo::GetNameChoice
+ - ICertEncodeCRLDistInfo.GetNameChoice
+ - CCertEncodeCRLDistInfo.GetNameChoice
 ---
 
 # ICertEncodeCRLDistInfo::GetNameChoice
@@ -134,4 +135,3 @@ The name is a registered <a href="/windows/desktop/SecGloss/o-gly">object identi
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodecrldistinfo-setnameentry">ICertEncodeCRLDistInfo::SetNameEntry</a>
-

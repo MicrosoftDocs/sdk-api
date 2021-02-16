@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::GetDuplicate2
+ - ITextRange2.GetDuplicate2
 ---
 
 # ITextRange2::GetDuplicate2
@@ -73,4 +73,3 @@ If this range is an <a href="/windows/desktop/api/tom/nn-tom-itextselection2">IT
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-

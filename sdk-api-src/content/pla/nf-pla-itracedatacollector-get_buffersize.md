@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_BufferSize
+ - ITraceDataCollector.BufferSize
+ - ITraceDataCollector.get_BufferSize
+ - ITraceDataCollector.put_BufferSize
 ---
 
 # ITraceDataCollector::get_BufferSize
@@ -71,4 +73,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_numberofbuffers">ITraceDataCollector::NumberOfBuffers</a>
-

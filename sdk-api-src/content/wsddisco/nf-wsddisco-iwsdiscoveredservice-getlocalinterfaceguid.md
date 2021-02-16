@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveredService::GetLocalInterfaceGUID
+ - IWSDiscoveredService.GetLocalInterfaceGUID
 ---
 
 # IWSDiscoveredService::GetLocalInterfaceGUID
@@ -99,4 +99,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveredservice">IWSDiscoveredService</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::ProcessEvent
+ - IMFDeviceTransform.ProcessEvent
 ---
 
 # IMFDeviceTransform::ProcessEvent
@@ -135,4 +135,3 @@ If an MFT does not hold back samples and does not need to examine any events, it
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

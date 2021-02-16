@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiCreateDeviceInterfaceRegKeyA
  - setupapi/SetupDiCreateDeviceInterfaceRegKeyA
- - SetupDiCreateDeviceInterfaceRegKey
- - setupapi/SetupDiCreateDeviceInterfaceRegKey
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiCreateDeviceInterfaceRegKeyA
- - SetupDiCreateDeviceInterfaceRegKey
+ - SetupDiCreateDeviceInterfaceRegKey - SetupDiCreateDeviceInterfaceRegKeyA
 ---
 
 # SetupDiCreateDeviceInterfaceRegKeyA function
@@ -116,4 +113,3 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey">SetupDiOpenDeviceInterfaceRegKey</a>
-

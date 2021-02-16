@@ -44,7 +44,6 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - tagMULTI_QI
  - MULTI_QI
 ---
 
@@ -88,4 +87,3 @@ To optimize network performance, most remote activation functions take an array 
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imultiqi">IMultiQI</a>
-

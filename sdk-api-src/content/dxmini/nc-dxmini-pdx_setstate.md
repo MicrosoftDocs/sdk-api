@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_SETSTATE
+ - DxSetState
 ---
 
 ## -description
@@ -52,15 +52,12 @@ The<i> DxSetState</i> callback function is called when a client of the video min
 ## -parameters
 
 ### -param Arg1
-
 Points to the miniport driver's device extension.
 
 ### -param Arg2
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a> structure that contains the surface and VPE object information.
 
 ### -param Arg3
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a> structure that contains the state information for the hardware video port.
 
 ## -returns
@@ -89,4 +86,3 @@ The <b>dwSurfaceIndex</b> member equal to the current position in the auto-flip 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateininfo">DDSETSTATEININFO</a>
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddsetstateoutinfo">DDSETSTATEOUTINFO</a>
-

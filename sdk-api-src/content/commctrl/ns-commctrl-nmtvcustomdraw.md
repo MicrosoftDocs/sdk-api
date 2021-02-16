@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMTVCUSTOMDRAW
- - LPNMTVCUSTOMDRAW
  - NMTVCUSTOMDRAW
 ---
 
@@ -87,4 +85,3 @@ Type: <b>int</b>
 
 
 <a href="/windows/desktop/Controls/common-control-versions">Version 4.71</a>. Zero-based level of the item being drawn. The root item is at level zero, a child of the root item is at level one, and so on.
-

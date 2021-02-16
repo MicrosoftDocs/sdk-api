@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - linePrepareAddToConference
+ - linePrepareAddToConferenceA
+ - linePrepareAddToConferenceW
 ---
 
 # linePrepareAddToConference function
@@ -136,4 +138,3 @@ The consultation call can be canceled using
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
-

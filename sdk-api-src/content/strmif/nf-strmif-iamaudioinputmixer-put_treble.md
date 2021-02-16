@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer::put_Treble
+ - IAMAudioInputMixer.put_Treble
 ---
 
 # IAMAudioInputMixer::put_Treble
@@ -107,4 +107,3 @@ This method boosts or cuts the signal's treble by a specified number of decibels
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_treble">IAMAudioInputMixer::get_Treble</a>
-

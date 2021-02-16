@@ -44,7 +44,6 @@ api_type:
 api_location:
  - D3DCommon.h
 api_name:
- - _D3D_SHADER_VARIABLE_CLASS
  - D3D_SHADER_VARIABLE_CLASS
 ---
 
@@ -135,4 +134,3 @@ The class of a shader variable is not a programming class; the class identifies 
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
-

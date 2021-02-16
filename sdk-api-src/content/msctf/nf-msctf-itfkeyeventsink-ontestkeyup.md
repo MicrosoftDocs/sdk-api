@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeyEventSink::OnTestKeyUp
+ - ITfKeyEventSink.OnTestKeyUp
 ---
 
 # ITfKeyEventSink::OnTestKeyUp
@@ -99,4 +99,3 @@ The method was successful.
 
 
 <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-

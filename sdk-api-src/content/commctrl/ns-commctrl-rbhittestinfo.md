@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - _RB_HITTESTINFO
- - LPRBHITTESTINFO
  - RBHITTESTINFO
 ---
 
@@ -145,4 +143,3 @@ The point was in the rebar band's splitter.
 Type: <b>int</b>
 
 Member that receives the rebar band's index at the point described by <b>pt</b>. This value will be the zero-based index of the band, or -1 if no band was at the hit-tested point.
-

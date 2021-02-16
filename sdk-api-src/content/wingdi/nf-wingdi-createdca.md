@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDCA
  - wingdi/CreateDCA
- - CreateDC
- - wingdi/CreateDC
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - ext-ms-win-gdi-dc-create-l1-1-2.dll
  - GDI32Full.dll
 api_name:
- - CreateDCA
  - CreateDC
+ - CreateDCA
+ - CreateDCW
 ---
 
 # CreateDCA function
@@ -155,4 +154,3 @@ For an example, see <a href="/windows/desktop/gdi/capturing-an-image">Capturing 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
-

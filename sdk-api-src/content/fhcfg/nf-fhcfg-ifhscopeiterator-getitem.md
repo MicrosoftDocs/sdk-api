@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhScopeIterator::GetItem
+ - IFhScopeIterator.GetItem
 ---
 
 # IFhScopeIterator::GetItem
@@ -76,4 +76,3 @@ To move to the next item in the inclusion or exclusion list, call the <a href="/
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-movetonextitem">IFhScopeIterator::MoveToNextItem</a>
-

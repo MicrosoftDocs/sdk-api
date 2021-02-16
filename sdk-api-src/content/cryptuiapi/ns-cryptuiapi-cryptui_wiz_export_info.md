@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
- - _CRYPTUI_WIZ_EXPORT_INFO
- - PCRYPTUI_WIZ_EXPORT_INFO
  - CRYPTUI_WIZ_EXPORT_INFO
 ---
 
@@ -161,4 +159,3 @@ This member is ignored if <b>dwSubjectChoice</b> is anything other than the   <b
 ## -see-also
 
 <a href="/windows/desktop/api/cryptuiapi/nf-cryptuiapi-cryptuiwizexport">CryptUIWizExport</a>
-

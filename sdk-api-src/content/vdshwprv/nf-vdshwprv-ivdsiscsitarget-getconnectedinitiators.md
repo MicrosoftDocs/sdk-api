@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget::GetConnectedInitiators
+ - IVdsIscsiTarget.GetConnectedInitiators
 ---
 
 # IVdsIscsiTarget::GetConnectedInitiators
@@ -134,4 +134,3 @@ The target object is no longer present.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsitarget">IVdsIscsiTarget</a>
-

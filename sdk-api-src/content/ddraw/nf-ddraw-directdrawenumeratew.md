@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DirectDrawEnumerateW
  - ddraw/DirectDrawEnumerateW
- - DirectDrawEnumerate
- - ddraw/DirectDrawEnumerate
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ddraw.dll
 api_name:
- - DirectDrawEnumerateW
  - DirectDrawEnumerate
+ - DirectDrawEnumerate
+ - DirectDrawEnumerateW
 ---
 
 # DirectDrawEnumerateW function
@@ -76,4 +75,3 @@ If it fails, the function returns <b>DDERR_INVALIDPARAMS</b>.
 ## -remarks
 
 You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>DirectDrawEnumerate</b> function.
-

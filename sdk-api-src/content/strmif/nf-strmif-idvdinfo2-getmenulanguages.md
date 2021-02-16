@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetMenuLanguages
+ - IDvdInfo2.GetMenuLanguages
 ---
 
 # IDvdInfo2::GetMenuLanguages
@@ -122,4 +122,3 @@ The <a href="/windows/desktop/DirectShow/dvd-navigator-filter">DVD Navigator</a>
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

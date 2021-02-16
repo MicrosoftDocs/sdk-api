@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost::Start
+ - IWSDDeviceHost.Start
 ---
 
 # IWSDDeviceHost::Start
@@ -127,4 +127,3 @@ There is no metadata associated with the host.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-

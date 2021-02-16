@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs::GetFontFaceIndex
+ - IXpsOMGlyphs.GetFontFaceIndex
 ---
 
 # IXpsOMGlyphs::GetFontFaceIndex
@@ -130,4 +130,3 @@ In the following markup of a FixedPage, the <b>FontUri</b> attribute of the <b>G
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

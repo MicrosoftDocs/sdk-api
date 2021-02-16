@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IRangeException::GetClockVector
+ - IRangeException.GetClockVector
 ---
 
 # IRangeException::GetClockVector
@@ -111,4 +111,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irangeexception">IRangeException Interface</a>
-

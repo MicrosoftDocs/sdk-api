@@ -42,7 +42,8 @@ api_type:
 api_location:
  - AsyncInfo.h
 api_name:
- - IAsyncInfo::get_Status
+ - IAsyncInfo.Status
+ - IAsyncInfo.get_Status
 ---
 
 # IAsyncInfo::get_Status
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/asyncinfo/nn-asyncinfo-iasyncinfo">IAsyncInfo</a>
-

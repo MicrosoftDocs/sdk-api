@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_FORMAT_MESSAGE_FLAGS
  - EVT_FORMAT_MESSAGE_FLAGS
 ---
 
@@ -96,4 +95,3 @@ Format all the message strings in the event. The formatted message is an XML str
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtformatmessage">EvtFormatMessage</a>
-

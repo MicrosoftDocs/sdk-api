@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.UI.Xaml.dll
 api_name:
- - ISwapChainPanelNative2::SetSwapChainHandle
+ - ISwapChainPanelNative2.SetSwapChainHandle
 ---
 
 # ISwapChainPanelNative2::xaml
@@ -121,4 +121,3 @@ panelNative->SetSwapChainHandle(m_swapChainHandle);
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-xaml-media-dxinterop-iswapchainpanelnative2">ISwapChainPanelNative2</a>
-

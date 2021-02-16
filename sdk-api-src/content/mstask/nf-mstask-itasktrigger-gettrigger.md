@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskTrigger::GetTrigger
+ - ITaskTrigger.GetTrigger
 ---
 
 # ITaskTrigger::GetTrigger
@@ -123,4 +123,3 @@ A scheduled work item can have one or more triggers defined. The times that the 
 
 
 <a href="/windows/desktop/api/mstask/ns-mstask-task_trigger">TASK_TRIGGER</a>
-

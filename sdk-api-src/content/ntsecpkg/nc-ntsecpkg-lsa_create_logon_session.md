@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_CREATE_LOGON_SESSION
+ - CreateLogonSession
 ---
 
 # LSA_CREATE_LOGON_SESSION callback function
@@ -110,4 +110,3 @@ Because logon sessions use memory in the kernel, it is important to delete any u
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-

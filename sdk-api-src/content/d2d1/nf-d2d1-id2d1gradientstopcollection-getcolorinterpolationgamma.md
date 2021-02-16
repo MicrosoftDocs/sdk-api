@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1GradientStopCollection::GetColorInterpolationGamma
+ - ID2D1GradientStopCollection.GetColorInterpolationGamma
 ---
 
 # ID2D1GradientStopCollection::GetColorInterpolationGamma

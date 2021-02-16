@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation::get_IsSmartCard
+ - ICspInformation.IsSmartCard
+ - ICspInformation.get_IsSmartCard
 ---
 
 # ICspInformation::get_IsSmartCard
@@ -63,4 +64,3 @@ A smart card provider is typically identified by the <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-

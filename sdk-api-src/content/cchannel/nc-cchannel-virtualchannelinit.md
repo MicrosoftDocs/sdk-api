@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cchannel.h
 api_name:
- - VIRTUALCHANNELINIT
+ - VirtualChannelInit
 ---
 
 # VIRTUALCHANNELINIT callback function
@@ -125,4 +125,3 @@ The maximum number of channels per client session is <b>CHANNEL_MAX_COUNT</b>.
 
 
 <a href="/windows/desktop/api/cchannel/nc-cchannel-channel_init_event_fn">VirtualChannelInitEvent</a>
-

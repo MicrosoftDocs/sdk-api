@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_TOKEN_MODE_
  - IPSEC_TOKEN_MODE
 ---
 
@@ -72,4 +71,3 @@ Maximum value for testing only.
 ## -see-also
 
 [IPSEC_TOKEN0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)
-

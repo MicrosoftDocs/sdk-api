@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pwm.h
 api_name:
- - _PWM_POLARITY
  - PWM_POLARITY
 ---
 
@@ -80,4 +79,3 @@ Active Low.
 
 
 <a href="/windows/desktop/api/pwm/ns-pwm-pwm_pin_set_polarity_input">PWM_PIN_SET_POLARITY_INPUT</a>
-

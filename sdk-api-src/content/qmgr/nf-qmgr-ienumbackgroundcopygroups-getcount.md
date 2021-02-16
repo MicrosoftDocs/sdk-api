@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IEnumBackgroundCopyGroups::GetCount
+ - IEnumBackgroundCopyGroups.GetCount
 ---
 
 # IEnumBackgroundCopyGroups::GetCount
@@ -67,4 +67,3 @@ This method returns <b>S_OK</b> on success.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ienumbackgroundcopygroups">IEnumBackgroundCopyGroups</a>
-

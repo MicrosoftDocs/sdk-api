@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFMediaStreamSourceSampleRequest::SetSample
+ - IMFMediaStreamSourceSampleRequest.SetSample
 ---
 
 # IMFMediaStreamSourceSampleRequest::SetSample
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/medfound/imfmediastreamsourcesamplerequest">IMFMediaStreamSourceSampleRequest</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaTemplate::put_Name
+ - IFsrmQuotaTemplate.Name
+ - IFsrmQuotaTemplate.get_Name
+ - IFsrmQuotaTemplate.put_Name
 ---
 
 # IFsrmQuotaTemplate::put_Name
@@ -79,4 +81,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/using-templ
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MoveFileWithProgressW
  - winbase/MoveFileWithProgressW
- - MoveFileWithProgress
- - winbase/MoveFileWithProgress
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L2-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - MoveFileWithProgressW
  - MoveFileWithProgress
+ - MoveFileWithProgressA
+ - MoveFileWithProgressW
 ---
 
 # MoveFileWithProgressW function
@@ -345,4 +344,3 @@ CsvFs will do redirected IO for compressed files.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-movefiletransacteda">MoveFileTransacted</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - PIP_ADDRESS_STRING
  - IP_ADDRESS_STRING
 ---
 
@@ -76,4 +75,3 @@ The <b>IP_ADDRESS_STRING</b> structure is used as  a parameter in  the  <a href=
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionTemplateName::InitializeDecode
+ - IX509ExtensionTemplateName.InitializeDecode
 ---
 
 # IX509ExtensionTemplateName::InitializeDecode
@@ -102,4 +102,3 @@ You can retrieve the following properties for this extension:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensiontemplatename">IX509ExtensionTemplateName</a>
-

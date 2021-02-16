@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITToneDetectionEvent::get_CallbackInstance
+ - ITToneDetectionEvent.get_CallbackInstance
 ---
 
 # ITToneDetectionEvent::get_CallbackInstance
@@ -111,4 +111,3 @@ LegacyMediaControl2 Enums
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittonedetectionevent">ITToneDetectionEvent</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPageSite::GetLocaleID
+ - IPropertyPageSite.GetLocaleID
 ---
 
 # IPropertyPageSite::GetLocaleID
@@ -102,4 +102,3 @@ The address in <i>pLocaleID</i> is not valid. For example, it may be <b>NULL</b>
 
 
 <a href="/windows/desktop/api/ocidl/ns-ocidl-proppageinfo">PROPPAGEINFO</a>
-

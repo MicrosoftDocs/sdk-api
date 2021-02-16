@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit::EnumerateExtensionsSetup
+ - ICertServerExit.EnumerateExtensionsSetup
+ - CCertServerExit.EnumerateExtensionsSetup
 ---
 
 # ICertServerExit::EnumerateExtensionsSetup
@@ -107,4 +108,3 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverexit-enumerateextensionsclose">ICertServerExit::EnumerateExtensionsClose</a>
-

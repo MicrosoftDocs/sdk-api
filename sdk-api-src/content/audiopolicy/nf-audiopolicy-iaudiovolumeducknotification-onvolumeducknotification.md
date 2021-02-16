@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AudioPolicy.h
 api_name:
- - IAudioVolumeDuckNotification::OnVolumeDuckNotification
+ - IAudioVolumeDuckNotification.OnVolumeDuckNotification
 ---
 
 ## -description
@@ -72,4 +72,3 @@ After the application registers its implementation  of the <a href="/windows/des
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiovolumeducknotification">IAudioVolumeDuckNotification</a>
 
 <a href="/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
-

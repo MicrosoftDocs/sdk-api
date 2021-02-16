@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PUSN_RECORD_EXTENT
  - USN_RECORD_EXTENT
 ---
 
@@ -71,4 +70,3 @@ The length of the extent, in bytes.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

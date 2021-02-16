@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings::InsertNullStr
+ - ITextStrings.InsertNullStr
 ---
 
 # ITextStrings::InsertNullStr
@@ -73,4 +73,3 @@ The index is relative to the top of the collection, so <i>iString</i> = 0 insert
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceIscsi::GetInitiatorName
+ - IVdsServiceIscsi.GetInitiatorName
 ---
 
 # IVdsServiceIscsi::GetInitiatorName
@@ -99,4 +99,3 @@ The <i>ppwszIscsiName</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsserviceiscsi">IVdsServiceIscsi</a>
-

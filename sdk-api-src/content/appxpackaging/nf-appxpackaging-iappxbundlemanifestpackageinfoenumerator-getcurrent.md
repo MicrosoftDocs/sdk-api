@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestPackageInfoEnumerator::GetCurrent
+ - IAppxBundleManifestPackageInfoEnumerator.GetCurrent
 ---
 
 # IAppxBundleManifestPackageInfoEnumerator::GetCurrent
@@ -91,4 +91,3 @@ The enumerator’s position points to the first element by default. So, with a n
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestpackageinfoenumerator">IAppxBundleManifestPackageInfoEnumerator</a>
-

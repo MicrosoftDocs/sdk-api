@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedIsControlElement
+ - IUIAutomationElement.CachedIsControlElement
+ - IUIAutomationElement.get_CachedIsControlElement
 ---
 
 # IUIAutomationElement::get_CachedIsControlElement
@@ -79,4 +80,3 @@ Controls are elements in the UI that display information, or that can be manipul
 
 
 <b>Reference</b>
-

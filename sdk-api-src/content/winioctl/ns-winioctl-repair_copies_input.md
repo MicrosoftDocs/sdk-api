@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _REPAIR_COPIES_INPUT
- - PREPAIR_COPIES_INPUT
  - REPAIR_COPIES_INPUT
 ---
 
@@ -99,4 +97,3 @@ The zero-based copy numbers of the copies that will be repaired.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

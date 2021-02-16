@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView::GetDocument
+ - IOleDocumentView.GetDocument
 ---
 
 # IOleDocumentView::GetDocument
@@ -75,4 +75,3 @@ Because a view object must always be contained or aggregated in a document objec
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-

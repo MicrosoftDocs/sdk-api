@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDispatchMapper::QueryDispatchInterface
+ - ITDispatchMapper.QueryDispatchInterface
 ---
 
 # ITDispatchMapper::QueryDispatchInterface
@@ -133,4 +133,3 @@ The Dispatch Mapper will use the object's <b>IObjectSafety</b> interface to make
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper">ITDispatchMapper</a>
-

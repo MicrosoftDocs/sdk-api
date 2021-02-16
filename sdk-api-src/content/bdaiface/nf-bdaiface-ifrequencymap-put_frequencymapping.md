@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IFrequencyMap::put_FrequencyMapping
+ - IFrequencyMap.put_FrequencyMapping
 ---
 
 # IFrequencyMap::put_FrequencyMapping
@@ -77,4 +77,3 @@ Applications can use this method to modify a frequency table or create new frequ
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ifrequencymap">IFrequencyMap Interface</a>
-

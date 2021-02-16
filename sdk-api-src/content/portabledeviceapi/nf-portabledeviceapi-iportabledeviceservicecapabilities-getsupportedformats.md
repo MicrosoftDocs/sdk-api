@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities::GetSupportedFormats
+ - IPortableDeviceServiceCapabilities.GetSupportedFormats
 ---
 
 # IPortableDeviceServiceCapabilities::GetSupportedFormats
@@ -69,4 +69,3 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-supported-formats">Retrieving Supported Service Formats</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::DrawImage
+ - Graphics.DrawImage
 ---
 
 # Graphics::DrawImage(IN Image,IN const Point,IN INT)
@@ -145,4 +145,3 @@ The following illustration shows the output of the preceding code.
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
-

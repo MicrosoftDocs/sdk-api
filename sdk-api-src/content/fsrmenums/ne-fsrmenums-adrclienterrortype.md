@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _AdrClientErrorType
  - AdrClientErrorType
 ---
 
@@ -70,4 +69,3 @@ The ADR client error type is access denied.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
-

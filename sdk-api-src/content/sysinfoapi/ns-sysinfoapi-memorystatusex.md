@@ -46,8 +46,6 @@ api_type:
 api_location:
  - sysinfoapi.h
 api_name:
- - _MEMORYSTATUSEX
- - LPMEMORYSTATUSEX
  - MEMORYSTATUSEX
 ---
 
@@ -120,4 +118,3 @@ For an example, see the
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa965225(v=vs.85)">Memory Performance Information</a>
-

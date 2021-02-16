@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - tagSMINFO
- - PSMINFO
  - SMINFO
 ---
 
@@ -197,4 +195,3 @@ This item is newly installed or should be brought to the user's attention.
 Type: <b>int</b>
 
 When <b>SMIF_ICON</b> is set, the index of the requested icon in the toolbar image list.
-

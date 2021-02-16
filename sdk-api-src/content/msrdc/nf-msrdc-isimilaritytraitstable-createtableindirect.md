@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsTable::CreateTableIndirect
+ - ISimilarityTraitsTable.CreateTableIndirect
 ---
 
 # ISimilarityTraitsTable::CreateTableIndirect
@@ -77,4 +77,3 @@ If an existing similarity traits table is being opened, the table must be valid.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
-

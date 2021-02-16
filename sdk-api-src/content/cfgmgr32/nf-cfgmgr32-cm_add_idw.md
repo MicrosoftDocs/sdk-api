@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Add_IDW
  - cfgmgr32/CM_Add_IDW
- - CM_Add_ID
- - cfgmgr32/CM_Add_ID
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Add_IDW
  - CM_Add_ID
+ - CM_Add_IDW
 ---
 
 # CM_Add_IDW function
@@ -118,4 +116,3 @@ For information about using device instance handles that are bound to the local 
 
 
 <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_get_child">CM_Get_Child</a>
-

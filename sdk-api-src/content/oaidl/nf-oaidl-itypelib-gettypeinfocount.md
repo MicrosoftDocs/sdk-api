@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib::GetTypeInfoCount
+ - ITypeLib.GetTypeInfoCount
 ---
 
 # ITypeLib::GetTypeInfoCount
@@ -61,4 +61,3 @@ The number of type descriptions in the type library.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-

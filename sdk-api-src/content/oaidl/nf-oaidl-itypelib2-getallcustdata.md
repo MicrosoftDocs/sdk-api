@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib2::GetAllCustData
+ - ITypeLib2.GetAllCustData
 ---
 
 # ITypeLib2::GetAllCustData
@@ -112,4 +112,3 @@ After the call, the caller needs to release memory used to hold the custom data 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
-

@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl::SetVideoWindow
+ - IMFVideoDisplayControl.SetVideoWindow
 ---
 
 # IMFVideoDisplayControl::SetVideoWindow
@@ -120,4 +120,3 @@ For protected content, this method might disable Desktop Window Manager (DWM) th
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-

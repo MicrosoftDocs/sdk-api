@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::ReleaseAllContacts
+ - IDirectManipulationViewport.ReleaseAllContacts
 ---
 
 # IDirectManipulationViewport::ReleaseAllContacts
@@ -67,4 +67,3 @@ If supported, inertia will be started after calling this method.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

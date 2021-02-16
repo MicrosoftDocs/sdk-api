@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
- - _SESSION_HEADER
- - PSESSION_HEADER
  - SESSION_HEADER
 ---
 
@@ -97,4 +95,3 @@ Specifies the number of outstanding <b>NCBRECVANY</b> commands.
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_CONNECTION0_
  - FWPM_CONNECTION0
 ---
 
@@ -180,4 +179,3 @@ Time that the connection was created.
 
 
 [IPSEC_TRAFFIC_TYPE](/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
-

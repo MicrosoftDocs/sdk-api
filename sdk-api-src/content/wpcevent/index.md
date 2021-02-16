@@ -9,8 +9,6 @@ tech.root: parcon
 f1_keywords:
  - wpcevent
  - wpcevent/wpcevent
-api_name:
- - wpcevent
 ---
 
 # Wpcevent.h header

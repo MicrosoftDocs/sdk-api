@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRLINETO
- - PEMRLINETO
  - EMRLINETO
 ---
 
@@ -75,4 +73,3 @@ Coordinates of the line's ending point for the <a href="/windows/desktop/api/win
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo
+ - ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo
 ---
 
 # ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo
@@ -75,4 +75,3 @@ This method is on the device interface as opposed to command list on the assumpt
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847457(v=VS.85).aspx">ID3D12Device5</a>
-

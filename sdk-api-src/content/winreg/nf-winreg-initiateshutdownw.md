@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InitiateShutdownW
  - winreg/InitiateShutdownW
- - InitiateShutdown
- - winreg/InitiateShutdown
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
 api_name:
- - InitiateShutdownW
  - InitiateShutdown
+ - InitiateShutdownA
+ - InitiateShutdownW
 ---
 
 # InitiateShutdownW function
@@ -316,4 +315,3 @@ A non-zero return value does not mean the logoff was or will be successful. The 
 ## -see-also
 
 <a href="/windows/desktop/Shutdown/shutting-down">Shutting Down</a>
-

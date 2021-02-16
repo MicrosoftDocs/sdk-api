@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::SetStrokeStartLineCap
+ - IXpsOMPath.SetStrokeStartLineCap
 ---
 
 # IXpsOMPath::SetStrokeStartLineCap
@@ -106,4 +106,3 @@ For more information about the line join styles, see <a href="/windows/win32/api
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IImageInformation::get_Height
+ - IImageInformation.Height
+ - IImageInformation.get_Height
 ---
 
 # IImageInformation::get_Height
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>
-

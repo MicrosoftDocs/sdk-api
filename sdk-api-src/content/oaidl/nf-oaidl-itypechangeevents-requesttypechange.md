@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeChangeEvents::RequestTypeChange
+ - ITypeChangeEvents.RequestTypeChange
 ---
 
 # ITypeChangeEvents::RequestTypeChange
@@ -161,4 +161,3 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypechangeevents">ITypeChangeEvents</a>
-

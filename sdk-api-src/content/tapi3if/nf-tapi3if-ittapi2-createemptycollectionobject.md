@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI2::CreateEmptyCollectionObject
+ - ITTAPI2.CreateEmptyCollectionObject
 ---
 
 # ITTAPI2::CreateEmptyCollectionObject
@@ -125,4 +125,3 @@ There is not enough memory to allocate the object.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
-

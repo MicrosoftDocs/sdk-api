@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib2::GetDocumentation2
+ - ITypeLib2.GetDocumentation2
 ---
 
 # ITypeLib2::GetDocumentation2
@@ -132,4 +132,3 @@ This function will call <b>_DLLGetDocumentation</b> in the specified DLL to retr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib2">ITypeLib2</a>
-

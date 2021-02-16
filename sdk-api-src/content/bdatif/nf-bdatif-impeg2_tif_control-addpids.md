@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IMPEG2_TIF_CONTROL::AddPIDs
+ - IMPEG2_TIF_CONTROL.AddPIDs
 ---
 
 # IMPEG2_TIF_CONTROL::AddPIDs
@@ -99,4 +99,3 @@ Only the TIF knows which table sections it requires. It uses this method to tell
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nf-bdatif-impeg2_tif_control-getpids">IMPEG2_TIF_CONTROL::GetPIDs</a>
-

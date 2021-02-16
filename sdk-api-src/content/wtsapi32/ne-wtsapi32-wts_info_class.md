@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTS_INFO_CLASS
  - WTS_INFO_CLASS
 ---
 
@@ -257,4 +256,3 @@ Determines whether the current session is a remote session. The <a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsquerysessioninformationa">WTSQuerySessionInformation</a>
-

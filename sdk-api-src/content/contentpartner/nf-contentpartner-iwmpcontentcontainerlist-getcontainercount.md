@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainerList::GetContainerCount
+ - IWMPContentContainerList.GetContainerCount
 ---
 
 # IWMPContentContainerList::GetContainerCount
@@ -89,4 +89,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentcontainerlist-getcontainer">IWMPContentContainerList::GetContainer</a>
-

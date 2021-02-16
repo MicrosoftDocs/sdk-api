@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext1::ClearView
+ - ID3D11DeviceContext1.ClearView
 ---
 
 # ID3D11DeviceContext1::ClearView
@@ -98,4 +98,3 @@ For video views with YUV or YCbBr formats, <b>ClearView</b> doesn't convert colo
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
-

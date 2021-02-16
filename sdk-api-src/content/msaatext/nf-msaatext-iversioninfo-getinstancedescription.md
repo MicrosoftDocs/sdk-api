@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IVersionInfo::GetInstanceDescription
+ - IVersionInfo.GetInstanceDescription
 ---
 
 # IVersionInfo::GetInstanceDescription
@@ -74,4 +74,3 @@ Additional useful strings for the component, such as the internal object state.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK. If not successful, returns a standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_InstallationBehavior
+ - IUpdate.InstallationBehavior
+ - IUpdate.get_InstallationBehavior
 ---
 
 # IUpdate::get_InstallationBehavior
@@ -67,4 +68,3 @@ If the current update represents a bundle, the <b>InstallationBehavior</b> prope
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

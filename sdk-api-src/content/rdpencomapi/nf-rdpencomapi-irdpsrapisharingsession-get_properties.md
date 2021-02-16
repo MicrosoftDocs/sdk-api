@@ -42,7 +42,11 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession::get_Properties
+ - IRDPSRAPISharingSession2.Properties
+ - IRDPSRAPISharingSession2.get_Properties
+ - IRDPSRAPISharingSession.Properties
+ - IRDPSRAPISharingSession.get_Properties
+ - RDPSession.Properties
 ---
 
 # IRDPSRAPISharingSession::get_Properties
@@ -63,4 +67,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
-

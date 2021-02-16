@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IEnumOLEVERB::Skip
+ - IEnumOLEVERB.Skip
 ---
 
 # IEnumOLEVERB::Skip
@@ -65,4 +65,3 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ienumoleverb">IEnumOLEVERB</a>
-

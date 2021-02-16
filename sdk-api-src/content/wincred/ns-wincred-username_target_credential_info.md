@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinCred.h
 api_name:
- - _USERNAME_TARGET_CREDENTIAL_INFO
- - PUSERNAME_TARGET_CREDENTIAL_INFO
  - USERNAME_TARGET_CREDENTIAL_INFO
 ---
 
@@ -66,4 +64,3 @@ The
 ### -field UserName
 
  User name of the USERNAME_TARGET_CREDENTIAL_INFO credential.
-

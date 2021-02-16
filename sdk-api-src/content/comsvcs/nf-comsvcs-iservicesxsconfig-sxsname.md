@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceSxsConfig::SxsName
+ - IServiceSxsConfig.SxsName
 ---
 
 # IServiceSxsConfig::SxsName
@@ -69,4 +69,3 @@ The appropriate file name extension will be added to the <i>szSxsName</i> parame
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicesxsconfig">IServiceSxsConfig</a>
-

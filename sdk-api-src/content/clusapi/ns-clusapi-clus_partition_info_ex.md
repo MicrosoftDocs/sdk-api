@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_PARTITION_INFO_EX
- - PCLUS_PARTITION_INFO_EX
 ---
 
 # CLUS_PARTITION_INFO_EX structure
@@ -169,4 +168,3 @@ The globally unique identifier associated with the volume.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-

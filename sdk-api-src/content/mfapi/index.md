@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - mfapi
  - mfapi/mfapi
-api_name:
- - mfapi
 ---
 
 # Mfapi.h header

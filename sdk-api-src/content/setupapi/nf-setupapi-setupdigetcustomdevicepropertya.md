@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetCustomDevicePropertyA
  - setupapi/SetupDiGetCustomDevicePropertyA
- - SetupDiGetCustomDeviceProperty
- - setupapi/SetupDiGetCustomDeviceProperty
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - setupapi.dll
 api_name:
- - SetupDiGetCustomDevicePropertyA
  - SetupDiGetCustomDeviceProperty
+ - SetupDiGetCustomDevicePropertyA
+ - SetupDiGetCustomDevicePropertyW
 ---
 
 # SetupDiGetCustomDevicePropertyA function
@@ -137,4 +136,3 @@ The function first checks to see if the specified property exists for the specif
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceregistrypropertya">SetupDiSetDeviceRegistryProperty</a>
-

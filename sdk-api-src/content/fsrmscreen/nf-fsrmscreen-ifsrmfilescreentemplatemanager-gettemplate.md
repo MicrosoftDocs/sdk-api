@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateManager::GetTemplate
+ - IFsrmFileScreenTemplateManager.GetTemplate
+ - FsrmFileScreenTemplateManager.GetTemplate
 ---
 
 # IFsrmFileScreenTemplateManager::GetTemplate
@@ -73,4 +74,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplatemanager">IFsrmFileScreenTemplateManager</a>
-

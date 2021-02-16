@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent::get_User
+ - ITAgent.get_User
 ---
 
 # ITAgent::get_User
@@ -111,4 +111,3 @@ The application must free the memory allocated for the <i>ppUser</i> parameter t
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-

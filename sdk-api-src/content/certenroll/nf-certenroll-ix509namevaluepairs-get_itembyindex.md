@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509NameValuePairs::get_ItemByIndex
+ - IX509NameValuePairs.ItemByIndex
+ - IX509NameValuePairs.get_ItemByIndex
 ---
 
 # IX509NameValuePairs::get_ItemByIndex
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509namevaluepairs">IX509NameValuePairs</a>
-

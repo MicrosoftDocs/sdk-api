@@ -47,9 +47,7 @@ api_location:
  - Tcpmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_TCPSTATS_W2K
- - PMIB_TCPSTATS_W2K
- - MIB_TCPSTATS_W2K
+ - MIB_TCPSTATS
 ---
 
 # MIB_TCPSTATS_W2K structure
@@ -256,4 +254,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udpstats">MIB_UDPSTATS</a>
-

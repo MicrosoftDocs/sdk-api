@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocCollection::GetEntryByIndex
+ - ITocCollection.GetEntryByIndex
 ---
 
 # ITocCollection::GetEntryByIndex
@@ -91,4 +91,3 @@ In the context of an <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoccollection">ITocCollection</a>
-

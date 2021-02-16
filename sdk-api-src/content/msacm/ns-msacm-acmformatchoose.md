@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
- - tACMFORMATCHOOSE
- - PACMFORMATCHOOSE
  - ACMFORMATCHOOSE
 ---
 
@@ -343,4 +341,3 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 <a href="/windows/desktop/api/msacm/nf-msacm-acmmetrics">acmMetrics</a>
-

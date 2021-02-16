@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::GetSize
+ - IAMMediaTypeSample.GetSize
 ---
 
 # IAMMediaTypeSample::GetSize
@@ -64,4 +64,3 @@ Returns the size of the buffer data area, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs::Reset
+ - IEnumPortableDeviceObjectIDs.Reset
 ---
 
 # IEnumPortableDeviceObjectIDs::Reset
@@ -85,4 +85,3 @@ There is no guarantee that the same objects will be enumerated after this method
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
-

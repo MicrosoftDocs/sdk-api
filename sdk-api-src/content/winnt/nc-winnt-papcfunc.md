@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - PAPCFUNC
+ - APCProc
 ---
 
 # PAPCFUNC callback function
@@ -74,4 +74,3 @@ The data passed to the function using the <i>dwData</i> parameter of the
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-

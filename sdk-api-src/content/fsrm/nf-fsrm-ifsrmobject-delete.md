@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmObject::Delete
+ - IFsrmObject.Delete
 ---
 
 # IFsrmObject::Delete
@@ -65,4 +65,3 @@ You must call the <a href="/previous-versions/windows/desktop/api/fsrm/nf-fsrm-i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
-

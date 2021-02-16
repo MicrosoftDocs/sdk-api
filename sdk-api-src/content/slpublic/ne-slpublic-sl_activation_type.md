@@ -44,7 +44,6 @@ api_type:
 api_location:
  - slpublic.h
 api_name:
- - _tagSL_ACTIVATION_TYPE
  - SL_ACTIVATION_TYPE
 ---
 
@@ -68,4 +67,3 @@ The product activation is through Active Directory.
 ## -see-also
 
 <a href="/windows/desktop/api/slpublic/ns-slpublic-sl_activation_info_header">SL_ACTIVATION_INFO_HEADER</a>
-

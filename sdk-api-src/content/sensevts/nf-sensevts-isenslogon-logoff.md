@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon::Logoff
+ - ISensLogon.Logoff
 ---
 
 # ISensLogon::Logoff
@@ -107,4 +107,3 @@ SENS calls this method to notify an application that a user is logged off.
 
 
 <a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-logon">ISensLogon::Logon</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx::put_ReconnectionAction
+ - IADsTSUserEx.ReconnectionAction
+ - IADsTSUserEx.get_ReconnectionAction
+ - IADsTSUserEx.put_ReconnectionAction
 ---
 
 # IADsTSUserEx::put_ReconnectionAction
@@ -58,4 +60,3 @@ A value that specifies if reconnection to a disconnected Remote Desktop Services
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-

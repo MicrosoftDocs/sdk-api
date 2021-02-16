@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer::End
+ - IMFASFMultiplexer.End
 ---
 
 # IMFASFMultiplexer::End
@@ -109,4 +109,3 @@ During live encoding, it is usually not possible to rewrite the header, so this 
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-

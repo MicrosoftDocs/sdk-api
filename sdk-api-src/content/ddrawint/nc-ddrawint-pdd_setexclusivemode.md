@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SETEXCLUSIVEMODE
+ - DdSetExclusiveMode
 ---
 
 ## -description
@@ -68,4 +68,3 @@ DirectDraw applications can go full screen and take total control of the primary
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_setexclusivemodedata">DD_SETEXCLUSIVEMODEDATA</a>
-

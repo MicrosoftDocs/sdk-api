@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::GetStreamNumber
+ - IMFASFStreamConfig.GetStreamNumber
 ---
 
 # IMFASFStreamConfig::GetStreamNumber
@@ -62,4 +62,3 @@ The method returns the  stream number.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles
+ - IPortableDeviceServiceCapabilities.GetFormatRenderingProfiles
 ---
 
 # IPortableDeviceServiceCapabilities::GetFormatRenderingProfiles
@@ -73,4 +73,3 @@ The rendering profiles are similar to what the <a href="/windows/desktop/wpd_sdk
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
-

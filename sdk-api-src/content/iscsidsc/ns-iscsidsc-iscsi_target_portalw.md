@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PISCSI_TARGET_PORTALW
+ - ISCSI_TARGET_PORTAL
+ - ISCSI_TARGET_PORTALA
  - ISCSI_TARGET_PORTALW
 ---
 

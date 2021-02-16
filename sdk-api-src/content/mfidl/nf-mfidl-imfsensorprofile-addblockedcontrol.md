@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfsensorgroup.dll
 api_name:
- - IMFSensorProfile::AddBlockedControl
+ - IMFSensorProfile.AddBlockedControl
 ---
 
 # IMFSensorProfile::AddBlockedControl
@@ -65,4 +65,3 @@ This method does not return a value.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorprofile">IMFSensorProfile</a>
-

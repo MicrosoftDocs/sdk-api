@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperationProgressSink::PostCopyItem
+ - IFileOperationProgressSink.PostCopyItem
 ---
 
 # IFileOperationProgressSink::PostCopyItem
@@ -107,4 +107,3 @@ Returns S_OK if successful, or an error value otherwise. In the case of an error
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperationprogresssink-precopyitem">IFileOperationProgressSink::PreCopyItem</a>
-

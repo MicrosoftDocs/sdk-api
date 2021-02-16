@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDSignatureProperty::GetSignedInfoHash
+ - IWSDSignatureProperty.GetSignedInfoHash
 ---
 
 # IWSDSignatureProperty::GetSignedInfoHash
@@ -115,4 +115,3 @@ If <b>NULL</b> is passed to <i>pbSignedInfoHash</i>, then <b>GetSignedInfoHash</
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdsignatureproperty">IWSDSignatureProperty</a>
-

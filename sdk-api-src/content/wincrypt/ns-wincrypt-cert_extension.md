@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_EXTENSION
- - PCERT_EXTENSION
  - CERT_EXTENSION
 ---
 
@@ -105,4 +103,3 @@ A
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindextension">CertFindExtension</a>
-

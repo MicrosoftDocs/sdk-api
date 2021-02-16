@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioClient::IsSpatialAudioStreamAvailable
+ - ISpatialAudioClient.IsSpatialAudioStreamAvailable
 ---
 
 # ISpatialAudioClient::IsSpatialAudioStreamAvailable
@@ -112,4 +112,3 @@ If the specified metadata format is unsupported, <b>IsSpatialAudioStreamAvailabl
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
-

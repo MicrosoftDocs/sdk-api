@@ -9,8 +9,6 @@ tech.root: wmdm
 f1_keywords:
  - wmdmlog
  - wmdmlog/wmdmlog
-api_name:
- - wmdmlog
 ---
 
 # Wmdmlog.h header

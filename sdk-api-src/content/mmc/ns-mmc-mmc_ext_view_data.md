@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_EXT_VIEW_DATA
- - PMMC_EXT_VIEW_DATA
  - MMC_EXT_VIEW_DATA
 ---
 
@@ -105,4 +103,3 @@ For an example of the
 
 
 <a href="/previous-versions/windows/desktop/mmc/view-extension-mechanism">View Extension Mechanism</a>
-

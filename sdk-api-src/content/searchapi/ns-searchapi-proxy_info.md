@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _PROXY_INFO
  - PROXY_INFO
 ---
 
@@ -98,4 +97,3 @@ A pointer to a Unicode string buffer that contains the name of the proxy server.
 Type: <b>LPCWSTR</b>
 
 The list of sites that will bypass the proxy.
-

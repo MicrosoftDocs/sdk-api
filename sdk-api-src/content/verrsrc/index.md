@@ -9,8 +9,6 @@ tech.root: menurc
 f1_keywords:
  - verrsrc
  - verrsrc/verrsrc
-api_name:
- - verrsrc
 ---
 
 # Verrsrc.h header

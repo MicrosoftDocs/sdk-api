@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - tagPSDW
- - LPPAGESETUPDLGW
+ - PAGESETUPDLG
+ - PAGESETUPDLGA
  - PAGESETUPDLGW
 ---
 
@@ -422,4 +422,3 @@ If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer 
 
 
 <a href="/windows/desktop/dlgbox/wm-initdialog">WM_INITDIALOG</a>
-

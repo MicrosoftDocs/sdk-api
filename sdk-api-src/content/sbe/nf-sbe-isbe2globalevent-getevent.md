@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2GlobalEvent::GetEvent
+ - ISBE2GlobalEvent.GetEvent
 ---
 
 # ISBE2GlobalEvent::GetEvent
@@ -141,4 +141,3 @@ Too much time elapsed between the broadcast event and the call to retrieve it.
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-source-filter">Stream Buffer Source Filter</a>
-

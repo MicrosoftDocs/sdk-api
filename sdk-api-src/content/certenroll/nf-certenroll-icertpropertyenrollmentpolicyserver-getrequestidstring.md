@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer::GetRequestIdString
+ - ICertPropertyEnrollmentPolicyServer.GetRequestIdString
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetRequestIdString
@@ -112,4 +112,3 @@ The string can contain any information that uniquely identifies the certificate 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
-

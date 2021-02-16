@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetPixelFormat
+ - Image.GetPixelFormat
 ---
 
 # Image::GetPixelFormat
@@ -79,4 +79,3 @@ This method returns an integer that indicates the pixel format of this
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

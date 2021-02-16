@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRCREATECOLORSPACEW
- - PEMRCREATECOLORSPACEW
  - EMRCREATECOLORSPACEW
 ---
 
@@ -111,4 +109,3 @@ An array containing the source profile data. The size of the array is <b>cbData<
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

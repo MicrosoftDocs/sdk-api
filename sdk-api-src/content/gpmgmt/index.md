@@ -9,8 +9,6 @@ tech.root: gpmc
 f1_keywords:
  - gpmgmt
  - gpmgmt/gpmgmt
-api_name:
- - gpmgmt
 ---
 
 # Gpmgmt.h header

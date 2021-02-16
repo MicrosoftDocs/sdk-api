@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarity::CreateTableIndirect
+ - ISimilarity.CreateTableIndirect
 ---
 
 # ISimilarity::CreateTableIndirect
@@ -86,4 +86,3 @@ If one of the tables can be created or opened successfully, but the other one ca
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
-

@@ -9,8 +9,6 @@ tech.root: wua
 f1_keywords:
  - wuapi
  - wuapi/wuapi
-api_name:
- - wuapi
 ---
 
 # Wuapi.h header

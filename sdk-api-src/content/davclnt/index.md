@@ -9,8 +9,6 @@ tech.root: webdav
 f1_keywords:
  - davclnt
  - davclnt/davclnt
-api_name:
- - davclnt
 ---
 
 # Davclnt.h header

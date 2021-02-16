@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msi.h
 api_name:
- - INSTALLUI_HANDLER_RECORD
+ - INSTALLUI_HANDLER
 ---
 
 # INSTALLUI_HANDLER_RECORD callback function
@@ -454,4 +454,3 @@ For more information about using a record-based external handler, see <a href="/
 
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-3-0">Not Supported in Windows Installer 3.0 and earlier</a>
-

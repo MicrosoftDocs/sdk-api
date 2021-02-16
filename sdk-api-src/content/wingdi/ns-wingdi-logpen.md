@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagLOGPEN
- - PLOGPEN
  - LOGPEN
 ---
 
@@ -134,4 +132,3 @@ If the width of the pen is greater than 1 and the pen style is PS_INSIDEFRAME, t
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-rgb">RGB</a>
-

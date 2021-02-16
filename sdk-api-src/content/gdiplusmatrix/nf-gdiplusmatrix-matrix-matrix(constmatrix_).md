@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::Matrix
+ - Matrix.Matrix
 ---
 
 # Matrix::Matrix(const Matrix &)
@@ -74,4 +74,3 @@ Creates and initializes a <b>Matrix::Matrix</b> object that represents the ident
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

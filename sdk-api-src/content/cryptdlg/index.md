@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - cryptdlg
  - cryptdlg/cryptdlg
-api_name:
- - cryptdlg
 ---
 
 # Cryptdlg.h header

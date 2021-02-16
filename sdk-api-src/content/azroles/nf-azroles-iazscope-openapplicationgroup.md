@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope::OpenApplicationGroup
+ - IAzScope.OpenApplicationGroup
+ - AzScope.OpenApplicationGroup
 ---
 
 # IAzScope::OpenApplicationGroup
@@ -69,4 +70,3 @@ A pointer to a pointer to the opened <a href="/windows/desktop/api/azroles/nn-az
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

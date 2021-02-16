@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentHelper::Enroll
+ - IX509EnrollmentHelper.Enroll
 ---
 
 # IX509EnrollmentHelper::Enroll
@@ -135,4 +135,3 @@ This method does not installed the issued certificate.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
-

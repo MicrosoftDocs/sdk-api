@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_HashAlgorithmWStr
+ - IEnroll.HashAlgorithmWStr
+ - IEnroll.get_HashAlgorithmWStr
+ - IEnroll.put_HashAlgorithmWStr
 ---
 
 # IEnroll::get_HashAlgorithmWStr
@@ -85,4 +87,3 @@ If both the
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

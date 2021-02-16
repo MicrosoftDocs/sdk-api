@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList::Get
+ - IITPropList.Get
 ---
 
 # IITPropList::Get
@@ -102,4 +102,3 @@ The requested property does not exist.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
-

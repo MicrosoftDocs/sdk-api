@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::ClipboardCopyWithRectangle
+ - IInkDisp.ClipboardCopyWithRectangle
 ---
 
 # IInkDisp::ClipboardCopyWithRectangle
@@ -154,4 +154,3 @@ If the strokes count is queried within the event handler, the result is the tota
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

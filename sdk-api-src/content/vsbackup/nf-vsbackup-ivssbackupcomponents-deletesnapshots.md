@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::DeleteSnapshots
+ - IVssBackupComponents.DeleteSnapshots
 ---
 
 # IVssBackupComponents::DeleteSnapshots
@@ -212,4 +212,3 @@ During a backup, shadow copies are automatically released as soon as the
 
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
-

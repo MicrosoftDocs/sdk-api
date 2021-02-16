@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumFontFamiliesA
  - wingdi/EnumFontFamiliesA
- - EnumFontFamilies
- - wingdi/EnumFontFamilies
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - EnumFontFamiliesA
  - EnumFontFamilies
+ - EnumFontFamiliesA
+ - EnumFontFamiliesW
 ---
 
 # EnumFontFamiliesA function
@@ -124,4 +123,3 @@ For examples, see <a href="/windows/desktop/gdi/enumerating-the-installed-fonts"
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-

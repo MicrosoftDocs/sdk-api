@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspStatuses::get_ItemByOrdinal
+ - ICspStatuses.ItemByOrdinal
+ - ICspStatuses.get_ItemByOrdinal
 ---
 
 # ICspStatuses::get_ItemByOrdinal
@@ -88,4 +89,3 @@ For another example, assume that a version 3 template specifies one specific CNG
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspstatuses">ICspStatuses</a>
-

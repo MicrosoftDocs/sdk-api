@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValue::GetInt32
+ - IPropertyValue.GetInt32
 ---
 
 # IPropertyValue::IPropertyValue
@@ -113,4 +113,3 @@ The type of <i>value</i> does not match the <a href="/windows/desktop/api/window
 
 
 <a href="/windows/desktop/api/windows.foundation/nf-windows-foundation-ipropertyvaluestatics-createint32">IPropertyValueStatics::CreateInt32</a>
-

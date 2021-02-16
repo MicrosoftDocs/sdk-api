@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataWriter::WriteNextItemCommand
+ - ISpatialAudioMetadataWriter.WriteNextItemCommand
 ---
 
 # ISpatialAudioMetadataWriter::WriteNextItemCommand
@@ -109,4 +109,3 @@ You must open the <a href="/windows/desktop/api/spatialaudiometadata/nn-spatiala
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a>
-

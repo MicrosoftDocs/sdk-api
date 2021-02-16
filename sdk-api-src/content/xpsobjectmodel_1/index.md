@@ -9,8 +9,6 @@ tech.root: xps
 f1_keywords:
  - xpsobjectmodel_1
  - xpsobjectmodel_1/xpsobjectmodel_1
-api_name:
- - xpsobjectmodel_1
 ---
 
 # Xpsobjectmodel_1.h header

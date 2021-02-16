@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDigitsGatheredEvent::get_Call
+ - ITDigitsGatheredEvent.get_Call
 ---
 
 # ITDigitsGatheredEvent::get_Call
@@ -96,4 +96,3 @@ The <i>ppCallInfo</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitsgatheredevent">ITDigitsGatheredEvent</a>
-

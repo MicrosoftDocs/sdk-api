@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamPrioritization::RemoveStream
+ - IMFASFStreamPrioritization.RemoveStream
 ---
 
 # IMFASFStreamPrioritization::RemoveStream
@@ -90,4 +90,3 @@ When a stream is removed from the stream priority list, the index values of all 
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamprioritization">IMFASFStreamPrioritization</a>
-

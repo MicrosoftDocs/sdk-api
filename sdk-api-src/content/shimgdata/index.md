@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - shimgdata
  - shimgdata/shimgdata
-api_name:
- - shimgdata
 ---
 
 # Shimgdata.h header

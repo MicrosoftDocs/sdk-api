@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderStreamClock::SetTimer
+ - IWMReaderStreamClock.SetTimer
 ---
 
 # IWMReaderStreamClock::SetTimer
@@ -133,4 +133,3 @@ All timers are automatically terminated when the application stops the reader. W
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderstreamclock-gettime">IWMReaderStreamClock::GetTime</a>
-

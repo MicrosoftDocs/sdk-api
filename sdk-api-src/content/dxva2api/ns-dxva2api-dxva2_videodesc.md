@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_VideoDesc
  - DXVA2_VideoDesc
 ---
 
@@ -218,4 +217,3 @@ done:
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

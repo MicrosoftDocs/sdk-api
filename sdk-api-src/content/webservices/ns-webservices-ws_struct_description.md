@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_STRUCT_DESCRIPTION
  - WS_STRUCT_DESCRIPTION
 ---
 
@@ -178,4 +177,3 @@ struct DerivedStructure
 //    WS_ATTRIBUTE_FIELD_MAPPING            // derivedAttribute
 //    WS_ELEMENT_FIELD_MAPPING              // baseElement
 //    WS_ELEMENT_FIELD_MAPPING              // derivedElement</code></pre>
-

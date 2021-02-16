@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferSink2::UnlockProfile
+ - IStreamBufferSink2.UnlockProfile
 ---
 
 # IStreamBufferSink2::UnlockProfile
@@ -96,4 +96,3 @@ If the graph is running, stopping the graph automatically unlocks the profile wi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambuffersink2">IStreamBufferSink2 Interface</a>
-

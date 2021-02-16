@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::get_Version
+ - IAzApplication.Version
+ - IAzApplication.get_Version
+ - IAzApplication.put_Version
+ - AzApplication.Version
 ---
 
 # IAzApplication::get_Version

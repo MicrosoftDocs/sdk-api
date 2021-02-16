@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject::Delete
+ - IWbemClassObject.Delete
 ---
 
 # IWbemClassObject::Delete
@@ -85,4 +85,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-

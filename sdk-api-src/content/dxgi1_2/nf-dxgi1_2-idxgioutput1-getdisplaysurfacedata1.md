@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput1::GetDisplaySurfaceData1
+ - IDXGIOutput1.GetDisplaySurfaceData1
 ---
 
 # IDXGIOutput1::GetDisplaySurfaceData1
@@ -78,4 +78,3 @@ Use <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgioutput-getdesc">IDXGIOutput:
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutput1">IDXGIOutput1</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IPrintDialogCallback::SelectionChange
+ - IPrintDialogCallback.SelectionChange
 ---
 
 # IPrintDialogCallback::SelectionChange
@@ -81,4 +81,3 @@ Return <b>S_FALSE</b> to allow <a href="/previous-versions/windows/desktop/legac
 
 
 <b>Reference</b>
-

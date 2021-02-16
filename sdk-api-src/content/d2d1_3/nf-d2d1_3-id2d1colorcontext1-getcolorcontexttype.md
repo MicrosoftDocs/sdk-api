@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ColorContext1::GetColorContextType
+ - ID2D1ColorContext1.GetColorContextType
 ---
 
 # ID2D1ColorContext1::GetColorContextType
@@ -63,4 +63,3 @@ This method returns color context type.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1colorcontext1">ID2D1ColorContext1</a>
-

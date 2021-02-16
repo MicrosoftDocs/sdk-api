@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport::IsRollForwardSupported
+ - IWsbApplicationRestoreSupport.IsRollForwardSupported
 ---
 
 # IWsbApplicationRestoreSupport::IsRollForwardSupported
@@ -71,4 +71,3 @@ Applications that support roll-forward restore should set the value of the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationrestoresupport">IWsbApplicationRestoreSupport</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMLeakyBucketPair
  - WM_LEAKY_BUCKET_PAIR
 ---
 
@@ -72,4 +71,3 @@ The <b>ASFLeakyBucketPairs</b> attribute gives a list of bit rates and correspon
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

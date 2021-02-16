@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupDiGetClassDescriptionW
  - setupapi/SetupDiGetClassDescriptionW
- - SetupDiGetClassDescription
- - setupapi/SetupDiGetClassDescription
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,9 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetClassDescriptionW
  - SetupDiGetClassDescription
+ - SetupDiGetClassDescriptionW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDiGetClassDescriptionW function
@@ -101,4 +99,3 @@ Call <b>SetupDiGetClassDescriptionEx</b> to retrieve the description of a setup 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetinfclassa">SetupDiGetINFClass</a>
-

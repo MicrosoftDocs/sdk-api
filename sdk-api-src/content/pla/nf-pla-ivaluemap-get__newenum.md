@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMap::get__NewEnum
+ - IValueMap._NewEnum
+ - IValueMap.get__NewEnum
 ---
 
 # IValueMap::get__NewEnum
@@ -67,4 +68,3 @@ The items of the enumeration are variants whose type is VT_UNKNOWN. To query for
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IValueMap</a>
-

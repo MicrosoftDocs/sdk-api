@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceService::OpenDataSession
+ - IMbnDeviceService.OpenDataSession
 ---
 
 # IMbnDeviceService::OpenDataSession
@@ -125,4 +125,3 @@ This is an asynchronous operation and <b>OpenDataSession</b> will return immedia
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservice">IMbnDeviceService</a>
-

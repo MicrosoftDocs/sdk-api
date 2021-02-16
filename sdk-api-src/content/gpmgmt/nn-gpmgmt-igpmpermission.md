@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMPermission
+ - GPMPermission
 ---
 
 # IGPMPermission interface
@@ -335,4 +336,3 @@ For more information about security groups, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
-

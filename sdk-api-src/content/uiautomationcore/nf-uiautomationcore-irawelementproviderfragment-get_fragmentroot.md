@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment::get_FragmentRoot
+ - IRawElementProviderFragment.FragmentRoot
+ - IRawElementProviderFragment.get_FragmentRoot
 ---
 
 # IRawElementProviderFragment::get_FragmentRoot
@@ -82,4 +83,3 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::get_FragmentRoot(IRawElementProvider
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
-

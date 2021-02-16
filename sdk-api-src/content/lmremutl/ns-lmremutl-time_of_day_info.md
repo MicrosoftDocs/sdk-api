@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmremutl.h
 api_name:
- - _TIME_OF_DAY_INFO
- - PTIME_OF_DAY_INFO
  - TIME_OF_DAY_INFO
 ---
 
@@ -153,4 +151,3 @@ The day of the week. Valid values are 0 through 6, where 0 is Sunday, 1 is Monda
 
 
 <a href="/windows/desktop/NetMgmt/remote-utility-functions">Remote Utility functions</a>
-

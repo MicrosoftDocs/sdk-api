@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_BINDING_INFO
- - PHTTP_BINDING_INFO
  - HTTP_BINDING_INFO
 ---
 
@@ -85,4 +83,3 @@ The request queue that is associated with the URL group. The structure can be us
 
 
 <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-

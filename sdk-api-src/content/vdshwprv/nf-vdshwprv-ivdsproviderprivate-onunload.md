@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsProviderPrivate::OnUnload
+ - IVdsProviderPrivate.OnUnload
 ---
 
 # IVdsProviderPrivate::OnUnload
@@ -107,4 +107,3 @@ VDS calls this method immediately before releasing the reference to the provider
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsproviderprivate-onload">IVdsProviderPrivate::OnLoad</a>
-

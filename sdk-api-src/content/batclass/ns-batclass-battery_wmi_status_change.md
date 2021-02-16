@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - _BATTERY_WMI_STATUS_CHANGE
- - PBATTERY_WMI_STATUS_CHANGE
  - BATTERY_WMI_STATUS_CHANGE
 ---
 

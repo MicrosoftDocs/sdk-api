@@ -46,9 +46,7 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - tagShellCommandInfo
- - PShellCommandInfo
- - ShellCommandInfo
+ - ShellCommandInfo, *PShellCommandInfo
 ---
 
 # ShellCommandInfo structure

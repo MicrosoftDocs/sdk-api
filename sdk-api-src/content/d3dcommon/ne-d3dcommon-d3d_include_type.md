@@ -44,7 +44,6 @@ api_type:
 api_location:
  - D3DCommon.h
 api_name:
- - _D3D_INCLUDE_TYPE
  - D3D_INCLUDE_TYPE
 ---
 
@@ -97,4 +96,3 @@ You pass a <b>D3D_INCLUDE_TYPE</b>-typed value to the  <i>IncludeType</i> parame
 
 
 <a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager::Close
+ - IOleUndoManager.Close
 ---
 
 # IOleUndoManager::Close
@@ -122,4 +122,3 @@ If <i>pPUU</i> does not match the currently open parent undo unit, then implemen
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
-

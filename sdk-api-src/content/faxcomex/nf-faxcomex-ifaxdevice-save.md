@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice::Save
+ - IFaxDevice.Save
+ - IFaxDevice.Save
 ---
 
 # IFaxDevice::Save
@@ -75,4 +76,3 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
-

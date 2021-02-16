@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::AddHeader
+ - IMFHttpDownloadRequest.AddHeader
 ---
 
 # IMFHttpDownloadRequest::AddHeader
@@ -98,4 +98,3 @@ There is insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

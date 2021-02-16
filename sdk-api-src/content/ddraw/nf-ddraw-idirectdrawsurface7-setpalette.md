@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 938906fe-9f5b-468b-8b34-5de16aeb67b3
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],SetPalette method, IDirectDrawSurface7.SetPalette, IDirectDrawSurface7::SetPalette, SetPalette, SetPalette method [DirectDraw], SetPalette method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::SetPalette, directdraw.idirectdrawsurface7_setpalette
+f1_keywords:
+- ddraw/IDirectDrawSurface7.SetPalette
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDrawSurface7.SetPalette
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDrawSurface7::SetPalette
- - ddraw/IDirectDrawSurface7::SetPalette
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDrawSurface7::SetPalette
 ---
 
 ## -description
@@ -83,5 +82,10 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 
 ## -see-also
 
-<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
 
+
+
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+ 
+
+ 

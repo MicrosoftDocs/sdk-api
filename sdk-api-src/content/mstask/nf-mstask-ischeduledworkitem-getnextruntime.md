@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetNextRunTime
+ - IScheduledWorkItem.GetNextRunTime
 ---
 
 # IScheduledWorkItem::GetNextRunTime
@@ -119,4 +119,3 @@ The task will not run at the scheduled times because it has been disabled.
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-ischeduledworkitem">IScheduledWorkItem</a>
-

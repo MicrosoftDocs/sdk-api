@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_presence_info_tag
- - PPEER_PRESENCE_INFO
  - PEER_PRESENCE_INFO
 ---
 
@@ -79,4 +77,3 @@ Peer "presence" is information about a specific peer's level of participation in
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

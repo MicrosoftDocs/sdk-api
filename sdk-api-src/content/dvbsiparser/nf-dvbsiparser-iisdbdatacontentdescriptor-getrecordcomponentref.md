@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbDataContentDescriptor::GetRecordComponentRef
+ - IIsdbDataContentDescriptor.GetRecordComponentRef
 ---
 
 # IIsdbDataContentDescriptor::GetRecordComponentRef
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbdatacontentdescriptor">IIsdbDataContentDescriptor</a>
-

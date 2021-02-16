@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DResource9::GetType
+ - IDirect3DResource9.GetType
 ---
 
 # IDirect3DResource9::GetType
@@ -64,4 +64,3 @@ Returns a member of the <a href="/windows/desktop/direct3d9/d3dresourcetype">D3D
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
-

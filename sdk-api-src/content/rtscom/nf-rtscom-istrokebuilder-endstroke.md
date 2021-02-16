@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStrokeBuilder::EndStroke
+ - IStrokeBuilder.EndStroke
 ---
 
 # IStrokeBuilder::EndStroke
@@ -121,4 +121,3 @@ STDMETHODIMP CStrokeBuilderPlugin::StylusUp(
 
 
 <a href="/windows/desktop/tablet/strokebuilder-class">StrokeBuilder Class</a>
-

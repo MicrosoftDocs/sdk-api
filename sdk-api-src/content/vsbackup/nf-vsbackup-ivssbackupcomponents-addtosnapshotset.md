@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::AddToSnapshotSet
+ - IVssBackupComponents.AddToSnapshotSet
 ---
 
 # IVssBackupComponents::AddToSnapshotSet
@@ -340,4 +340,3 @@ The shadow copy identifier that is returned in the <i>pidSnapshot</i> parameter 
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_volume_snapshot_attributes">_VSS_VOLUME_SNAPSHOT_ATTRIBUTES</a>
-

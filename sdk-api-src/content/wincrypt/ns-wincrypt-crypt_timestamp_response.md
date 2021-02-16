@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_TIMESTAMP_RESPONSE
- - PCRYPT_TIMESTAMP_RESPONSE
  - CRYPT_TIMESTAMP_RESPONSE
 ---
 
@@ -256,4 +254,3 @@ The request cannot be handled due to a system failure.
 ### -field ContentInfo
 
 A <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CRYPT_DER_BLOB</a> structure that encapsulates a signed data content type in Cryptographic Message Syntax (CMS) format.
-

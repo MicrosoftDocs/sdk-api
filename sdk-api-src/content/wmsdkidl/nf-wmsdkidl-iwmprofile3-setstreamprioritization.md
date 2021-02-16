@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3::SetStreamPrioritization
+ - IWMProfile3.SetStreamPrioritization
 ---
 
 # IWMProfile3::SetStreamPrioritization
@@ -124,4 +124,3 @@ If there is already a stream prioritization object in the profile, it will be lo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removestreamprioritization">IWMProfile3::RemoveStreamPrioritization</a>
-

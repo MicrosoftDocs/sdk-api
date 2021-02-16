@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnPropertyItemCommit
+ - INameSpaceTreeControlEvents.OnPropertyItemCommit
 ---
 
 # INameSpaceTreeControlEvents::OnPropertyItemCommit
@@ -65,4 +65,3 @@ Not used.
 Type: <b>HRESULT</b>
 
 Returns E_NOTIMPL.
-

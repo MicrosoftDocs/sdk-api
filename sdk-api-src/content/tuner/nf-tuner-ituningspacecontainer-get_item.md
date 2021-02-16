@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuningSpaceContainer::get_Item
+ - ITuningSpaceContainer.get_Item
 ---
 
 # ITuningSpaceContainer::get_Item
@@ -104,4 +104,3 @@ if (SUCCEEDED(hr))
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituningspacecontainer">ITuningSpaceContainer Interface</a>
-

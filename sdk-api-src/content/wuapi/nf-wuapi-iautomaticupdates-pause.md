@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdates::Pause
+ - IAutomaticUpdates.Pause
 ---
 
 # IAutomaticUpdates::Pause
@@ -153,4 +153,3 @@ This method returns <b>WU_E_AU_NOSERVICE</b> if Automatic Updates is disabled,
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdates-resume">IAutomaticUpdates.Resume</a>
-

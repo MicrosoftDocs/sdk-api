@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITWordWheel::Open
+ - IITWordWheel.Open
 ---
 
 # IITWordWheel::Open
@@ -148,4 +148,3 @@ The <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitdata
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
-

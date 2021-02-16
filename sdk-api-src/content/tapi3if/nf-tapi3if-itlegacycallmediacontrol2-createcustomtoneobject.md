@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2::CreateCustomToneObject
+ - ITLegacyCallMediaControl2.CreateCustomToneObject
 ---
 
 # ITLegacyCallMediaControl2::CreateCustomToneObject
@@ -125,4 +125,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol2">ITLegacyCallMediaControl2</a>
-

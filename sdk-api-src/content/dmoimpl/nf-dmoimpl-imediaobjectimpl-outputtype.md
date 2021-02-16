@@ -45,7 +45,7 @@ api_location:
  - Msdmo.lib
  - Msdmo.dll
 api_name:
- - IMediaObjectImpl::OutputType
+ - IMediaObjectImpl.OutputType
 ---
 
 # IMediaObjectImpl::OutputType
@@ -68,4 +68,3 @@ Returns a pointer to a <a href="/previous-versions/windows/desktop/api/mediaobj/
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
-

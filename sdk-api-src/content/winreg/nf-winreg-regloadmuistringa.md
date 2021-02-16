@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegLoadMUIStringA
  - winreg/RegLoadMUIStringA
- - RegLoadMUIString
- - winreg/RegLoadMUIString
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegLoadMUIStringA
  - RegLoadMUIString
+ - RegLoadMUIStringA
+ - RegLoadMUIStringW
 ---
 
 # RegLoadMUIStringA function
@@ -157,4 +156,3 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 ## -see-also
 
 <a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FunctionDiscoveryConstraints.h
 api_name:
- - tagPropertyConstraint
  - PropertyConstraint
 ---
 
@@ -108,4 +107,3 @@ For PROPVARIANTs of type VT_VECTOR|VT_LPWSTR, the constraint PKEY value must hav
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nf-functiondiscoveryapi-ifunctioninstancecollectionquery-addpropertyconstraint">IFunctionInstanceCollectionQuery::AddPropertyConstraint</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl.h
 api_name:
- - IComputerInfoChangeNotify::ComputerInfoChanged
+ - IComputerInfoChangeNotify.ComputerInfoChanged
 ---
 
 # IComputerInfoChangeNotify::ComputerInfoChanged

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync::EndSCPDDownload
+ - IUPnPServiceAsync.EndSCPDDownload
 ---
 
 # IUPnPServiceAsync::EndSCPDDownload
@@ -102,4 +102,3 @@ Failed to finalize the SCPD download and retrieve the document string.
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-beginscpddownload">IUPnPServiceAsync::BeginSCPDDownload</a>
-

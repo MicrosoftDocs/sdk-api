@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D::SetAxisX
+ - IDCompositionRotateTransform3D.SetAxisX
 ---
 
 # IDCompositionRotateTransform3D::SetAxisX(IDCompositionAnimation)
@@ -87,4 +87,3 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setaxisz(float)">IDCompositionRotateTransform3D::SetAxisZ</a>
-

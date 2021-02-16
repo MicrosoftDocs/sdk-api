@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper::RegisterPin
+ - IFilterMapper.RegisterPin
 ---
 
 # IFilterMapper::RegisterPin
@@ -99,4 +99,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper Interface</a>
-

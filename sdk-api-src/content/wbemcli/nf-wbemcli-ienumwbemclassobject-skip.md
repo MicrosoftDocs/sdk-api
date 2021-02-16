@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IEnumWbemClassObject::Skip
+ - IEnumWbemClassObject.Skip
 ---
 
 # IEnumWbemClassObject::Skip
@@ -74,4 +74,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 ## -remarks
 
 COM-specific error codes may also be returned if network problems cause you to lose the remote connection to Windows Management.
-

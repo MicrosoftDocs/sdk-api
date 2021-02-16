@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile::GetStreamByNumber
+ - IWMProfile.GetStreamByNumber
+ - IWMProfile2.GetStreamByNumber
+ - IWMProfile3.GetStreamByNumber
 ---
 
 # IWMProfile::GetStreamByNumber
@@ -144,4 +146,3 @@ Stream numbers are in the range of 1 through 63.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-removestreambynumber">IWMProfile::RemoveStreamByNumber</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextSelection::HomeKey
+ - ITextSelection.HomeKey
 ---
 
 # ITextSelection::HomeKey
@@ -219,4 +219,3 @@ The <b>HomeKey</b> and
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

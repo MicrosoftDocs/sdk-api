@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream::Stat
+ - IStream.Stat
 ---
 
 # IStream::Stat
@@ -89,4 +89,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
-

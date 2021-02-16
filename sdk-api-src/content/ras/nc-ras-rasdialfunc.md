@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - RASDIALFUNC
+ - RasDialFunc
 ---
 
 # RASDIALFUNC callback function
@@ -159,4 +159,3 @@ Do not call the
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

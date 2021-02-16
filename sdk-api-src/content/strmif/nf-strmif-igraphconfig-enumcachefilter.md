@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfig::EnumCacheFilter
+ - IGraphConfig.EnumCacheFilter
 ---
 
 # IGraphConfig::EnumCacheFilter
@@ -110,4 +110,3 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
-

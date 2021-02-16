@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XAPO.h
 api_name:
- - IXAPO::Initialize
+ - IXAPO.Initialize
 ---
 
 # IXAPO::Initialize
@@ -80,4 +80,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 ## -see-also
 
 <a href="/windows/desktop/api/xapo/nn-xapo-ixapo">IXAPO</a>
-

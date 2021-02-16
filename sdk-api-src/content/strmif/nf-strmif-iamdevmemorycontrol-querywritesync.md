@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IAMDevMemoryControl::QueryWriteSync
+ - IAMDevMemoryControl.QueryWriteSync
 ---
 
 # IAMDevMemoryControl::QueryWriteSync
@@ -71,4 +71,3 @@ Not all on-board memory needs to have <a href="/windows/desktop/api/strmif/nf-st
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdevmemorycontrol">IAMDevMemoryControl Interface</a>
-

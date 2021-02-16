@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2::SetDocumentFont
+ - ITextDocument2.SetDocumentFont
 ---
 
 # ITextDocument2::SetDocumentFont
@@ -81,4 +81,3 @@ You can also set the default character formatting by calling <a href="/windows/d
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont-reset">ITextFont::Reset</a>
-

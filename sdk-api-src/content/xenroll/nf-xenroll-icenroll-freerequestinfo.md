@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::freeRequestInfo
+ - ICEnroll4.freeRequestInfo
+ - ICEnroll3.freeRequestInfo
+ - ICEnroll2.freeRequestInfo
+ - ICEnroll.freeRequestInfo
+ - CEnroll.freeRequestInfo
 ---
 
 # ICEnroll::freeRequestInfo
@@ -79,4 +83,3 @@ Specifies the session identifier that represents the data.
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-

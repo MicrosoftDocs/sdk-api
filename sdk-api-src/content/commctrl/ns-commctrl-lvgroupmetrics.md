@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVGROUPMETRICS
- - PLVGROUPMETRICS
  - LVGROUPMETRICS
 ---
 
@@ -206,4 +204,3 @@ The width of a border determines the margins of the area within which items are 
 
 
 <b>Reference</b>
-

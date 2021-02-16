@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::get_BitErrorRate
+ - IBasicVideo.get_BitErrorRate
 ---
 
 # IBasicVideo::get_BitErrorRate
@@ -70,4 +70,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-

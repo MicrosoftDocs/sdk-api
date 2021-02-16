@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMF2DBuffer::Unlock2D
+ - IMF2DBuffer.Unlock2D
 ---
 
 # IMF2DBuffer::Unlock2D
@@ -88,4 +88,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
-

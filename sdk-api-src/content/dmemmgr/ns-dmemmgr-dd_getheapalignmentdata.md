@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dmemmgr.h
 api_name:
- - _DD_GETHEAPALIGNMENTDATA
- - PDD_GETHEAPALIGNMENTDATA
  - DD_GETHEAPALIGNMENTDATA
 ---
 
@@ -103,4 +101,3 @@ The <b>dwHeap</b> member is the ordinal number of the heap for which alignment d
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
-

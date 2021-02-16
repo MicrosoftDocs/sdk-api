@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MmcObj.h
 api_name:
- - ExportListOptions
  - _ExportListOptions
 ---
 
@@ -83,4 +82,3 @@ The exported list contains only currently selected items.
 
 
 <a href="/previous-versions/windows/desktop/mmc/view-exportlist">View.ExportList</a>
-

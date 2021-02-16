@@ -9,8 +9,6 @@ tech.root: etw
 f1_keywords:
  - tdh
  - tdh/tdh
-api_name:
- - tdh
 ---
 
 # Tdh.h header

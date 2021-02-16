@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoRenderer::InitializeRenderer
+ - IMFVideoRenderer.InitializeRenderer
 ---
 
 # IMFVideoRenderer::InitializeRenderer
@@ -164,4 +164,3 @@ If the video renderer is in the protected media path (PMP), the mixer and presen
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imfvideorenderer">IMFVideoRenderer</a>
-

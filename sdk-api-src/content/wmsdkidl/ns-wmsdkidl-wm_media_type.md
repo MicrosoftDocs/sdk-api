@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMMediaType
  - WM_MEDIA_TYPE
 ---
 
@@ -151,4 +150,3 @@ This is the same as the DirectShow structure <b>AM_MEDIA_TYPE</b> but is redefin
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

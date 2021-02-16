@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XblIdpAuthManager.h
 api_name:
- - IXblIdpAuthManager::GetEnvironment
+ - IXblIdpAuthManager.GetEnvironment
 ---
 
 # IXblIdpAuthManager::GetEnvironment
@@ -67,4 +67,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/xblidpauthmanager/nn-xblidpauthmanager-ixblidpauthmanager">IXblIdpAuthManager</a>
-

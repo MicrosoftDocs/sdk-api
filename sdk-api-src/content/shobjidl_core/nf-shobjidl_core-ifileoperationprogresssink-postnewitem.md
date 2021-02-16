@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperationProgressSink::PostNewItem
+ - IFileOperationProgressSink.PostNewItem
 ---
 
 # IFileOperationProgressSink::PostNewItem
@@ -112,4 +112,3 @@ Pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishel
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. In the case of an error value, all subsequent operations pending from the call to <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> are canceled.
-

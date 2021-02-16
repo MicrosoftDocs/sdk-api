@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphBuilder::AddSourceFilter
+ - IGraphBuilder.AddSourceFilter
 ---
 
 # IGraphBuilder::AddSourceFilter
@@ -174,4 +174,3 @@ The Filter Graph Manager holds a reference count on the filter until the filter 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
-

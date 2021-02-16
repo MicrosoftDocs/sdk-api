@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFVideoRotationFormat
  - MFVideoRotationFormat
 ---
 
@@ -80,4 +79,3 @@ This enumeration is used with the <a href="/windows/desktop/medfound/mf-mt-video
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

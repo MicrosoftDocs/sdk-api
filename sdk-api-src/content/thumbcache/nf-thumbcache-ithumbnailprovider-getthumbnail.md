@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Thumbcache.h
 api_name:
- - IThumbnailProvider::GetThumbnail
+ - IThumbnailProvider.GetThumbnail
 ---
 
 # IThumbnailProvider::GetThumbnail

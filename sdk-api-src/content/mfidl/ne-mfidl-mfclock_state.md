@@ -44,8 +44,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFCLOCK_STATE
- - MFCLOCK_STATE
+ - MF_CLOCK_STATE
 ---
 
 # MFCLOCK_STATE enumeration
@@ -80,4 +79,3 @@ The clock is paused. While paused, the clock reports the time it was paused.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

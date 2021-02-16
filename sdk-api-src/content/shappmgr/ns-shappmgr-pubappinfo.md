@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - _PubAppInfo
- - PPUBAPPINFO
  - PUBAPPINFO
 ---
 
@@ -103,4 +101,3 @@ The time after which you cannot install the published application using <b>Add/R
 ## -see-also
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-iapppublisher">IAppPublisher</a>
-

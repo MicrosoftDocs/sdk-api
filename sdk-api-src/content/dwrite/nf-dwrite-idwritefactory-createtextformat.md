@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFactory::CreateTextFormat
+ - IDWriteFactory.CreateTextFormat
 ---
 
 # IDWriteFactory::CreateTextFormat

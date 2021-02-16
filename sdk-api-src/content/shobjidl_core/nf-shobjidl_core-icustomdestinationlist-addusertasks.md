@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList::AddUserTasks
+ - ICustomDestinationList.AddUserTasks
 ---
 
 # ICustomDestinationList::AddUserTasks
@@ -114,4 +114,3 @@ A task list can also include separators. These are created by including a blank 
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

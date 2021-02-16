@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IStreamSample::SetSampleTimes
+ - IStreamSample.SetSampleTimes
 ---
 
 # IStreamSample::SetSampleTimes
@@ -81,4 +81,3 @@ This method applies only to writable streams.
 
 
 <a href="/windows/desktop/DirectShow/multimedia-streaming-data-types">Multimedia Streaming Data Types</a>
-

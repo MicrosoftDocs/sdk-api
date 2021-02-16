@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::SetCharRep
+ - ITextFont2.SetCharRep
 ---
 
 # ITextFont2::SetCharRep
@@ -73,4 +73,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-getcharrep">ITextFont2::GetCharRep</a>
-

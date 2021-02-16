@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformation::get_Length
+ - ICertSrvSetupKeyInformation.Length
+ - ICertSrvSetupKeyInformation.get_Length
+ - ICertSrvSetupKeyInformation.put_Length
 ---
 
 # ICertSrvSetupKeyInformation::get_Length
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformation">ICertSrvSetupKeyInformation</a>
-

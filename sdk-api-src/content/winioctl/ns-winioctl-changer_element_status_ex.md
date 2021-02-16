@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CHANGER_ELEMENT_STATUS_EX
- - PCHANGER_ELEMENT_STATUS_EX
  - CHANGER_ELEMENT_STATUS_EX
 ---
 
@@ -397,4 +395,3 @@ The serial number for the drive.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_element_status">IOCTL_CHANGER_GET_ELEMENT_STATUS</a>
-

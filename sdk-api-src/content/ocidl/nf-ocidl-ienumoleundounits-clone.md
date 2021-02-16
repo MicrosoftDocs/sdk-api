@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IEnumOleUndoUnits::Clone
+ - IEnumOleUndoUnits.Clone
 ---
 
 # IEnumOleUndoUnits::Clone
@@ -107,4 +107,3 @@ Insufficient memory available for this operation.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumoleundounits">IEnumOleUndoUnits</a>
-

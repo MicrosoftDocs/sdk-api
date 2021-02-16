@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IEnumWbemClassObject::Reset
+ - IEnumWbemClassObject.Reset
 ---
 
 # IEnumWbemClassObject::Reset

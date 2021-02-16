@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - _DHCP_POL_COND_ARRAY
- - PDHCP_POL_COND_ARRAY
  - DHCP_POL_COND_ARRAY
 ---
 
@@ -71,4 +69,3 @@ Pointer to a list of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_pol
 ### -field Elements.size_is
 
 ### -field Elements.size_is.NumElements
-

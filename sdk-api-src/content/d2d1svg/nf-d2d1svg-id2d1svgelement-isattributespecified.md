@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgElement::IsAttributeSpecified
+ - ID2D1SvgElement.IsAttributeSpecified
 ---
 
 # ID2D1SvgElement::IsAttributeSpecified
@@ -76,4 +76,3 @@ TReturns true if the attribute is explicitly set on the element or if it is pres
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
-

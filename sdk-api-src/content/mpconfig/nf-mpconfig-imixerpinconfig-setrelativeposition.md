@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::SetRelativePosition
+ - IMixerPinConfig.SetRelativePosition
 ---
 
 # IMixerPinConfig::SetRelativePosition
@@ -122,4 +122,3 @@ This method assumes window coordinates of {0, 0, 10,000, 10,000}. Therefore, if 
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getrelativeposition">IMixerPinConfig::GetRelativePosition</a>
-

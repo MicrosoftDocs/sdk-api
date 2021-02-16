@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender::put_Email
+ - IFaxSender.Email
+ - IFaxSender.get_Email
+ - IFaxSender.put_Email
+ - IFaxSender.get_Email
+ - IFaxSender.put_Email
 ---
 
 # IFaxSender::put_Email
@@ -67,4 +71,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

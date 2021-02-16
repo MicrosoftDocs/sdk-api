@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath::GetPathPoints
+ - GraphicsPath.GetPathPoints
 ---
 
 # GraphicsPath::GetPathPoints(OUT Point,IN INT)
@@ -175,4 +175,3 @@ Color(255, 255, 0,  0)
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
-

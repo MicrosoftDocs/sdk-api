@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagTIMECODE_SAMPLE
  - TIMECODE_SAMPLE
 ---
 
@@ -191,4 +190,3 @@ The upper 16 bits in <b>dwFlags</b> are reserved; set to zero.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodereader-gettimecode">IAMTimecodeReader::GetTimecode</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::SetBufferingTime
+ - IWMReaderNetworkConfig.SetBufferingTime
 ---
 
 # IWMReaderNetworkConfig::SetBufferingTime
@@ -105,4 +105,3 @@ The minimum buffering time is 1 second and the maximum is 60 seconds. To set a b
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getbufferingtime">IWMReaderNetworkConfig::GetBufferingTime</a>
-

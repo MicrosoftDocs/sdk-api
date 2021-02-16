@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateWindowW
  - winuser/CreateWindowW
- - CreateWindow
- - winuser/CreateWindow
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - CreateWindowW
  - CreateWindow
+ - CreateWindowA
+ - CreateWindowW
 ---
 
 # CreateWindowW macro
@@ -338,4 +337,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-window-classes">Using
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

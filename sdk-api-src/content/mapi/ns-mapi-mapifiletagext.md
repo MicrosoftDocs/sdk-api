@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - lpMapiFileTagExt
  - MapiFileTagExt
 ---
 
@@ -106,4 +105,3 @@ A <b>MapiFileTagExt</b> structure defines the type of an attached file for purpo
 
 
 <a href="/previous-versions/office/developer/office-2007/cc765770(v=office.12)">PidTagAttachTag Canonical Property</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::put_ExpirationDirectory
+ - IFsrmFileManagementJob.ExpirationDirectory
+ - IFsrmFileManagementJob.get_ExpirationDirectory
+ - IFsrmFileManagementJob.put_ExpirationDirectory
 ---
 
 # IFsrmFileManagementJob::put_ExpirationDirectory
@@ -90,4 +92,3 @@ Specify only if <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-f
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_SEEK_PENALTY_DESCRIPTOR
- - PDEVICE_SEEK_PENALTY_DESCRIPTOR
  - DEVICE_SEEK_PENALTY_DESCRIPTOR
 ---
 
@@ -82,4 +80,3 @@ Specifies whether the device incurs a seek penalty.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFOutputSchema::GetSchemaType
+ - IMFOutputSchema.GetSchemaType
 ---
 
 # IMFOutputSchema::GetSchemaType
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputschema">IMFOutputSchema</a>
-

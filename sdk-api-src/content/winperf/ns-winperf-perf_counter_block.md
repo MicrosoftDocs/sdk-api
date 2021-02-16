@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
- - _PERF_COUNTER_BLOCK
- - PPERF_COUNTER_BLOCK
  - PERF_COUNTER_BLOCK
 ---
 
@@ -84,4 +82,3 @@ You must ensure that the size of the counter block is aligned to an 8-byte bound
 
 
 <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
-

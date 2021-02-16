@@ -9,8 +9,6 @@ tech.root: wia
 f1_keywords:
  - wiavideo
  - wiavideo/wiavideo
-api_name:
- - wiavideo
 ---
 
 # Wiavideo.h header

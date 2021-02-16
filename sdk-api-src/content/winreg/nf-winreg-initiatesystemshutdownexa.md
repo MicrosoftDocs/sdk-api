@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InitiateSystemShutdownExA
  - winreg/InitiateSystemShutdownExA
- - InitiateSystemShutdownEx
- - winreg/InitiateSystemShutdownEx
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-DownLevel-AdvAPI32-l4-1-0.dll
  - Ext-MS-Win-AdvAPI32-shutdown-l1-1-0.dll
 api_name:
- - InitiateSystemShutdownExA
  - InitiateSystemShutdownEx
+ - InitiateSystemShutdownExA
+ - InitiateSystemShutdownExW
 ---
 
 # InitiateSystemShutdownExA function
@@ -155,4 +154,3 @@ Note that calling this function with the value of the <i>bForceAppsClosed</i> pa
 
 
 <a href="/windows/desktop/Shutdown/system-shutdown-functions">System Shutdown Functions</a>
-

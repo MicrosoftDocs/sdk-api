@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig2::GetEnableFastCache
+ - IWMReaderNetworkConfig2.GetEnableFastCache
 ---
 
 # IWMReaderNetworkConfig2::GetEnableFastCache
@@ -109,4 +109,3 @@ This feature requires content caching to be enabled as well. Fast Cache applies 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig2-setenablefastcache">IWMReaderNetworkConfig2::SetEnableFastCache</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeClientId::get_MachineDnsName
+ - IX509AttributeClientId.MachineDnsName
+ - IX509AttributeClientId.get_MachineDnsName
 ---
 
 # IX509AttributeClientId::get_MachineDnsName
@@ -75,4 +76,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attributecl
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributeclientid">IX509AttributeClientId</a>
-

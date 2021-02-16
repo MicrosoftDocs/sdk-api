@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingArchive::put_LowQuotaWaterMark
+ - IFaxIncomingArchive.LowQuotaWaterMark
+ - IFaxIncomingArchive.get_LowQuotaWaterMark
+ - IFaxIncomingArchive.put_LowQuotaWaterMark
+ - IFaxIncomingArchive.get_LowQuotaWaterMark
+ - IFaxIncomingArchive.put_LowQuotaWaterMark
 ---
 
 # IFaxIncomingArchive::put_LowQuotaWaterMark
@@ -65,4 +69,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxincomingarchive">IFaxIncomingArchive</a>
-

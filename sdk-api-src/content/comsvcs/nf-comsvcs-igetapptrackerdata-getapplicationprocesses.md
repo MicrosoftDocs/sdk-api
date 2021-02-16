@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IGetAppTrackerData::GetApplicationProcesses
+ - IGetAppTrackerData.GetApplicationProcesses
 ---
 
 # IGetAppTrackerData::GetApplicationProcesses
@@ -147,4 +147,3 @@ If <i>PartitionId</i> specifies PartitionA, and GATD_INCLUDE_LIBRARY_APPS is set
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-

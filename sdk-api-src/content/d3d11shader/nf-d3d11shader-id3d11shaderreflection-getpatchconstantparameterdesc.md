@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11ShaderReflection::GetPatchConstantParameterDesc
+ - ID3D11ShaderReflection.GetPatchConstantParameterDesc
 ---
 
 # ID3D11ShaderReflection::GetPatchConstantParameterDesc
@@ -79,4 +79,3 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderreflection">ID3D11ShaderReflection Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioCaptureClient::GetNextPacketSize
+ - IAudioCaptureClient.GetNextPacketSize
 ---
 
 # IAudioCaptureClient::GetNextPacketSize
@@ -129,4 +129,3 @@ For a code example that uses the <b>GetNextPacketSize</b> method, see <a href="/
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-getcurrentpadding">IAudioClient::GetCurrentPadding</a>
-

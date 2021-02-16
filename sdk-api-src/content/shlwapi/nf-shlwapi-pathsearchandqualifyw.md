@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathSearchAndQualifyW
  - shlwapi/PathSearchAndQualifyW
- - PathSearchAndQualify
- - shlwapi/PathSearchAndQualify
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - KernelBase.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathSearchAndQualifyW
  - PathSearchAndQualify
+ - PathSearchAndQualifyA
+ - PathSearchAndQualifyW
 ---
 
 # PathSearchAndQualifyW function

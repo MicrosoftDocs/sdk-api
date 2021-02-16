@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SESSION_INFO_0
- - PSESSION_INFO_0
  - SESSION_INFO_0
 ---
 
@@ -83,4 +81,3 @@ Pointer to a Unicode string that contains the name of the computer that establis
 
 
 <a href="/windows/desktop/NetShare/session-functions">Session Functions</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupGetSourceFileSizeA
  - setupapi/SetupGetSourceFileSizeA
- - SetupGetSourceFileSize
- - setupapi/SetupGetSourceFileSize
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupGetSourceFileSizeA
  - SetupGetSourceFileSize
+ - SetupGetSourceFileSizeA
+ - SetupGetSourceFileSizeW
 ---
 
 # SetupGetSourceFileSizeA function
@@ -113,4 +112,3 @@ One and only one of the optional parameters, <i>InfContext</i>, <i>FileName</i>,
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupgetsourcefilelocationa">SetupGetSourceFileLocation</a>
-

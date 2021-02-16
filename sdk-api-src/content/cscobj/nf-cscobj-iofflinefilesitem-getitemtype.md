@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItem::GetItemType
+ - IOfflineFilesItem.GetItemType
 ---
 
 # IOfflineFilesItem::GetItemType
@@ -76,4 +76,3 @@ If the call to <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinte
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a>
-

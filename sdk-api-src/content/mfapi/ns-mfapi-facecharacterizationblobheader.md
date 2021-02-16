@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - tagFaceCharacterizationBlobHeader
  - FaceCharacterizationBlobHeader
 ---
 
@@ -64,4 +63,3 @@ Size of this header + all following <a href="/windows/desktop/api/mfapi/ns-mfapi
 ### -field Count
 
 Number of <b>FaceCharacterization</b> structures in the blob. Must match the number of <a href="/windows/desktop/api/mfapi/ns-mfapi-facerectinfo">FaceRectInfo</a> structures in <a href="/windows/desktop/api/mfapi/ns-mfapi-facerectinfoblobheader">FaceRectInfoBlobHeader</a>.
-

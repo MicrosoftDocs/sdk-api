@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::Enroll
+ - IX509Enrollment.Enroll
 ---
 
 # IX509Enrollment::Enroll
@@ -101,4 +101,3 @@ If the enrollment operation succeeds, the function  returns <b>S_OK</b>. However
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

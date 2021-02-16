@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportManager::SetReportSizeLimit
+ - IFsrmReportManager.SetReportSizeLimit
+ - FsrmReportManager.SetReportSizeLimit
 ---
 
 # IFsrmReportManager::SetReportSizeLimit
@@ -139,4 +140,3 @@ The following list lists the default limits for the
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
-

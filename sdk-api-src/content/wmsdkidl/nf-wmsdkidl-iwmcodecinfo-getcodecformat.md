@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo::GetCodecFormat
+ - IWMCodecInfo.GetCodecFormat
 ---
 
 # IWMCodecInfo::GetCodecFormat
@@ -144,4 +144,3 @@ The Windows Media Video codecs all support a single format that you must complet
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig">IWMStreamConfig Interface</a>
-

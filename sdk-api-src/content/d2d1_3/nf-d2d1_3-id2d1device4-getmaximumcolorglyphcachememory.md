@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device4::GetMaximumColorGlyphCacheMemory
+ - ID2D1Device4.GetMaximumColorGlyphCacheMemory
 ---
 
 # ID2D1Device4::GetMaximumColorGlyphCacheMemory
@@ -63,4 +63,3 @@ Returns the maximum capacity of the color glyph cache in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1device4">ID2D1Device4</a>
-

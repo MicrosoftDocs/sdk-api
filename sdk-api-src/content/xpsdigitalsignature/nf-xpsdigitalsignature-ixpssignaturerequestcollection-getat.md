@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureRequestCollection::GetAt
+ - IXpsSignatureRequestCollection.GetAt
 ---
 
 # IXpsSignatureRequestCollection::GetAt
@@ -85,4 +85,3 @@ For more information about the collection methods, see <a href="/previous-versio
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::SetMessageDrain
+ - IFullScreenVideoEx.SetMessageDrain
 ---
 
 # IFullScreenVideoEx::SetMessageDrain
@@ -78,4 +78,3 @@ Applications do not need to use this method. Instead, call the Filter Graph Mana
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

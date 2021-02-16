@@ -44,7 +44,6 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
- - _DEDUP_CONTAINER_EXTENT
  - DEDUP_CONTAINER_EXTENT
 ---
 
@@ -83,4 +82,3 @@ For example, in an incremental backup scheme, the container may reside in the st
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupreadfilecallback-ordercontainersrestore">IDedupReadFileCallback::OrderContainersRestore</a>
-

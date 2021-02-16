@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleItemContainer::GetObject
+ - IOleItemContainer.GetObject
 ---
 
 # IOleItemContainer::GetObject
@@ -145,4 +145,3 @@ If you need more specific information about the time limit than is given by <i>d
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
-

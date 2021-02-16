@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser::Initialize
+ - IExplorerBrowser.Initialize
 ---
 
 # IExplorerBrowser::Initialize
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 After calling the <b>Initialize</b> method, it is the responsibility of the caller to call the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorerbrowser-destroy">Destroy</a> method to destroy the browser and free any memory and windowed resources associated with the browser.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::GetFriendlyName
+ - ISensor.GetFriendlyName
 ---
 
 # ISensor::GetFriendlyName
@@ -105,4 +105,3 @@ NULL was passed in for pFriendlyName.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Objsel.dll
 api_name:
- - IDsObjectPicker::InvokeDialog
+ - IDsObjectPicker.InvokeDialog
 ---
 
 # IDsObjectPicker::InvokeDialog
@@ -93,4 +93,3 @@ Before <b>IDsObjectPicker::InvokeDialog</b> is called, the <a href="/windows/des
 
 
 <a href="/windows/desktop/api/objsel/nn-objsel-idsobjectpicker">IDsObjectPicker</a>
-

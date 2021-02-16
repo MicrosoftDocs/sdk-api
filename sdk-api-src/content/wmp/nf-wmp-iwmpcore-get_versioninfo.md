@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_versionInfo
+ - IWMPCore.get_versionInfo
 ---
 
 # IWMPCore::get_versionInfo
@@ -87,4 +87,3 @@ The returned string has the following format: "<i>X</i>.0.0.<i>YYYY</i>" where <
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPrivateEvent::get_CallHub
+ - ITPrivateEvent.get_CallHub
 ---
 
 # ITPrivateEvent::get_CallHub
@@ -116,4 +116,3 @@ The <i>ppCallHub</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent">ITPrivateEvent</a>
-

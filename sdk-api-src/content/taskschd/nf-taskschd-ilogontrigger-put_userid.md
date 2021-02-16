@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ILogonTrigger::put_UserId
+ - ILogonTrigger.UserId
+ - ILogonTrigger.get_UserId
+ - ILogonTrigger.put_UserId
 ---
 
 # ILogonTrigger::put_UserId
@@ -69,4 +71,3 @@ When reading or writing XML for a task, the logon user identifier is specified u
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

@@ -9,8 +9,6 @@ tech.root: properties
 f1_keywords:
  - propvarutil
  - propvarutil/propvarutil
-api_name:
- - propvarutil
 ---
 
 # Propvarutil.h header

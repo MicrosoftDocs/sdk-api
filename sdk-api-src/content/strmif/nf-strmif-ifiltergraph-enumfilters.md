@@ -43,7 +43,9 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph::EnumFilters
+ - IFilterGraph.EnumFilters
+ - IGraphBuilder.EnumFilters
+ - IGraphBuilder.EnumFilters
 ---
 
 # IFilterGraph::EnumFilters
@@ -110,4 +112,3 @@ Insufficient memory to create the enumerator.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltergraph">IFilterGraph Interface</a>
-

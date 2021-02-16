@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - _IP_ADAPTER_UNICAST_ADDRESS_XP
- - PIP_ADAPTER_UNICAST_ADDRESS_XP
- - IP_ADAPTER_UNICAST_ADDRESS_XP
+ - IP_ADAPTER_UNICAST_ADDRESS
 ---
 
 ## -description
@@ -186,4 +184,3 @@ The <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRES
 <a href="/windows/desktop/api/nldef/ne-nldef-nl_suffix_origin">IP_SUFFIX_ORIGIN</a>
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-

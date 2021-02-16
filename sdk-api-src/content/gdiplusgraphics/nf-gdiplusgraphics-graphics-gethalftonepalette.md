@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::GetHalftonePalette
+ - Graphics.GetHalftonePalette
 ---
 
 # Graphics::GetHalftonePalette
@@ -120,4 +120,3 @@ VOID Example_GetHalftonePalette(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-image-setpalette"> SetPalette</a>
-

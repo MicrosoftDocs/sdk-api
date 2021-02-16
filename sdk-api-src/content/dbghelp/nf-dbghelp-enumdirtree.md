@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - EnumDirTree
+ - EnumDirTree
+ - EnumDirTreeW
 ---
 
 # EnumDirTree function
@@ -107,4 +109,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-penumdirtree_callback">EnumDirTreeProc</a>
-

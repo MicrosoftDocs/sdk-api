@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrControl::StopSyncAll
+ - ISyncMgrControl.StopSyncAll
 ---
 
 # ISyncMgrControl::StopSyncAll

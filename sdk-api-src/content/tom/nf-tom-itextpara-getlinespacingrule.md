@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetLineSpacingRule
+ - ITextPara.GetLineSpacingRule
 ---
 
 # ITextPara::GetLineSpacingRule
@@ -179,4 +179,3 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

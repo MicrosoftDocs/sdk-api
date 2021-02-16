@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
- - PVDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
  - VDS_FILE_SYSTEM_FORMAT_SUPPORT_PROP
 ---
 
@@ -167,4 +165,3 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_file_system_format_support_flag">VDS_FILE_SYSTEM_FORMAT_SUPPORT_FLAG</a>
-

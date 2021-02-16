@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IWizardExtension::GetLastPage
+ - IWizardExtension.GetLastPage
 ---
 
 # IWizardExtension::GetLastPage
@@ -80,4 +80,3 @@ Although the wizard extension may host several sequential HTML pages, if it cons
 
 
 <a href="/windows/desktop/api/shobjidl/nf-shobjidl-iwizardextension-getfirstpage">IWizardExtension::GetFirstPage</a>
-

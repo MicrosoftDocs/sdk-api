@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::CreateCommandList
+ - ID3D12Device.CreateCommandList
 ---
 
 ## -description
@@ -135,4 +135,3 @@ Refer to the <a href="/windows/win32/direct3d12/notes-on-example-code">Example C
 [ID3D12Device](./nn-d3d12-id3d12device.md)
 
 [ID3D12GraphicsCommandList::Reset](./nf-d3d12-id3d12graphicscommandlist-reset.md)
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::Revert
+ - IStorage.Revert
 ---
 
 # IStorage::Revert
@@ -73,4 +73,3 @@ This method has no effect on storage objects opened in direct mode.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-commit">IStorage::Commit</a>
-

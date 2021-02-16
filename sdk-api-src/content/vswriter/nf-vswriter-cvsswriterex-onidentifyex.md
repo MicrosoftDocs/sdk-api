@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx::OnIdentifyEx
+ - CVssWriterEx.OnIdentifyEx
 ---
 
 # CVssWriterEx::OnIdentifyEx
@@ -121,4 +121,3 @@ The life cycle of the
 
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreatewritermetadataex">IVssCreateWriterMetadataEx</a>
-

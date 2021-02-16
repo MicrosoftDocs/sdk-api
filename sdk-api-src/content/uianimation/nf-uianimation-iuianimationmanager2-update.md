@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2::Update
+ - IUIAnimationManager2.Update
 ---
 
 # IUIAnimationManager2::Update
@@ -94,4 +94,3 @@ Calling this method advances the animation manager to <i>timeNow</i>, changes th
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_update_result">UI_ANIMATION_UPDATE_RESULT</a>
-

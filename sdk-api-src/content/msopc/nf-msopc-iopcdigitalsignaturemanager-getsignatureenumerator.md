@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcDigitalSignatureManager::GetSignatureEnumerator
+ - IOpcDigitalSignatureManager.GetSignatureEnumerator
 ---
 
 # IOpcDigitalSignatureManager::GetSignatureEnumerator
@@ -138,4 +138,3 @@ The <i>signatureEnumerator</i> parameter is <b>NULL</b>.
 
 
 <b>Reference</b>
-

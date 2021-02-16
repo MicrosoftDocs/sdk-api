@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AVIFileOpenA
  - vfw/AVIFileOpenA
- - AVIFileOpen
- - vfw/AVIFileOpen
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Avifil32.dll
  - Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
- - AVIFileOpenA
  - AVIFileOpen
+ - AVIFileOpenA
+ - AVIFileOpenW
 ---
 
 # AVIFileOpenA function
@@ -201,4 +200,3 @@ According to the registry, the type of file specified in <b>AVIFileOpen</b> does
 
 > [!NOTE]
 > The vfw.h header defines AVIFileOpen as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

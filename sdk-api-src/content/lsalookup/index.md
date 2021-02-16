@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - lsalookup
  - lsalookup/lsalookup
-api_name:
- - lsalookup
 ---
 
 # Lsalookup.h header

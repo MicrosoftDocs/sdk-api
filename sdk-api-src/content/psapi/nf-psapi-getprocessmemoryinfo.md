@@ -47,6 +47,7 @@ api_location:
  - KernelBase.dll
 api_name:
  - GetProcessMemoryInfo
+ - K32GetProcessMemoryInfo
 ---
 
 # GetProcessMemoryInfo function
@@ -131,4 +132,3 @@ For an example, see
 
 
 <a href="/windows/desktop/psapi/process-memory-usage-information">Process Memory Usage Information</a>
-

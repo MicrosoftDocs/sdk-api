@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device::GetDeviceRemovedReason
+ - ID3D11Device.GetDeviceRemovedReason
 ---
 
 # ID3D11Device::GetDeviceRemovedReason
@@ -76,4 +76,3 @@ For more detail on these return codes, see <a href="/windows/desktop/direct3ddxg
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11device">ID3D11Device</a>
-

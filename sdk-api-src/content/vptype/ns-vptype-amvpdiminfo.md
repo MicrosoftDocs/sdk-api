@@ -46,8 +46,6 @@ api_type:
 api_location:
  - vptype.h
 api_name:
- - _AMVPDIMINFO
- - LPAMVPDIMINFO
  - AMVPDIMINFO
 ---
 
@@ -83,4 +81,3 @@ Valid rectangle, used for cropping.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

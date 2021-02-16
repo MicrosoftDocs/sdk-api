@@ -9,8 +9,6 @@ tech.root: mscs
 f1_keywords:
  - msclus
  - msclus/msclus
-api_name:
- - msclus
 ---
 
 # Msclus.h header

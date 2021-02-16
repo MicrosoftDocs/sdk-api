@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _FILE_REMOTE_PROTOCOL_INFO
- - PFILE_REMOTE_PROTOCOL_INFO
  - FILE_REMOTE_PROTOCOL_INFO
 ---
 
@@ -499,4 +497,3 @@ The <b>FILE_REMOTE_PROTOCOL_INFO</b>
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

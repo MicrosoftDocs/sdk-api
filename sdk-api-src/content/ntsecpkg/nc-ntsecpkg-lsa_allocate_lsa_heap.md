@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_ALLOCATE_LSA_HEAP
+ - AllocateLsaHeap
 ---
 
 # LSA_ALLOCATE_LSA_HEAP callback function
@@ -70,4 +70,3 @@ This function returns a pointer to the allocated heap memory. If memory could no
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IDirectoryObject::DeleteDSObject
+ - IDirectoryObject.DeleteDSObject
 ---
 
 # IDirectoryObject::DeleteDSObject
@@ -98,4 +98,3 @@ if ( SUCCEEDED(hr) )
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-

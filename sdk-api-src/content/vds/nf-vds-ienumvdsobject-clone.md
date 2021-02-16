@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IEnumVdsObject::Clone
+ - IEnumVdsObject.Clone
 ---
 
 # IEnumVdsObject::Clone
@@ -94,4 +94,3 @@ This method enables you to record a point in an enumeration and return to that p
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a>
-

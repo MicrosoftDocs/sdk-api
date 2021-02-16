@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper::GetDiagnosticsInfo
+ - INetDiagHelper.GetDiagnosticsInfo
 ---
 
 # INetDiagHelper::GetDiagnosticsInfo
@@ -132,4 +132,3 @@ The GetDiagnosticsInfo method is required when building a Helper Class Extension
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-

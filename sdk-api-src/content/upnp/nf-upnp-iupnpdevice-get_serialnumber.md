@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice::get_SerialNumber
+ - IUPnPDevice.get_SerialNumber
 ---
 
 # IUPnPDevice::get_SerialNumber
@@ -77,4 +77,3 @@ It is possible for multiple devices to have the same serial number. To determine
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevice-get_uniquedevicename">IUPnPDevice::UniqueDeviceName</a>
-

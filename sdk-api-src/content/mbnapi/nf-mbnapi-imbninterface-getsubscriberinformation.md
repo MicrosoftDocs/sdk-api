@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface::GetSubscriberInformation
+ - IMbnInterface.GetSubscriberInformation
 ---
 
 # IMbnInterface::GetSubscriberInformation
@@ -107,4 +107,3 @@ Subscriber information for a device will not change once the device ready state 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-

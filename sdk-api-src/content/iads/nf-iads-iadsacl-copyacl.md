@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsAcl::CopyAcl
+ - IADsAcl.CopyAcl
 ---
 
 # IADsAcl::CopyAcl
@@ -67,4 +67,3 @@ For other return values, see  <a href="/windows/desktop/ADSI/adsi-error-codes">A
 ## -see-also
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsacl">IADsAcl</a>
-

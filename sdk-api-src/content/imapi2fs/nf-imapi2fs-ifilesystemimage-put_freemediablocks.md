@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_FreeMediaBlocks
+ - IFileSystemImage.put_FreeMediaBlocks
 ---
 
 # IFileSystemImage::put_FreeMediaBlocks
@@ -93,4 +93,3 @@ Value: 0xC0AAB121
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_freemediablocks">IFileSystemImage::get_FreeMediaBlocks</a>
-

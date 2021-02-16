@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDevice::IconURL
+ - IUPnPDevice.IconURL
 ---
 
 # IUPnPDevice::IconURL
@@ -88,4 +88,3 @@ If a matching icon does not exist, the URL for the icon that most closely matche
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpdevice">IUPnPDevice</a>
-

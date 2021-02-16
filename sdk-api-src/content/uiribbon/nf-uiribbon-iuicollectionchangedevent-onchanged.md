@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUICollectionChangedEvent::OnChanged
+ - IUICollectionChangedEvent.OnChanged
 ---
 
 # IUICollectionChangedEvent::OnChanged
@@ -113,4 +113,3 @@ The <b>IUICollectionChangedEvent::OnChanged</b> interface is implemented by the 
 
 
 <a href="/windows/desktop/api/uiribbon/nn-uiribbon-iuicollectionchangedevent">IUICollectionChangedEvent</a>
-

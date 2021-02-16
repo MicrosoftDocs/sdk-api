@@ -42,6 +42,9 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
+ - DnsModifyRecordsInSet
+ - DnsModifyRecordsInSet_A
+ - DnsModifyRecordsInSet_W
  - DnsModifyRecordsInSet_UTF8
 ---
 
@@ -117,4 +120,3 @@ If no server list is specified, the default name server is queried.
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsreplacerecordseta">DnsReplaceRecordSet</a>
-

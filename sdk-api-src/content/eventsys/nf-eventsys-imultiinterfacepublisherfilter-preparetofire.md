@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IMultiInterfacePublisherFilter::PrepareToFire
+ - IMultiInterfacePublisherFilter.PrepareToFire
 ---
 
 # IMultiInterfacePublisherFilter::PrepareToFire
@@ -77,4 +77,3 @@ Prior to invoking the application event interface method, the event object invok
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfacepublisherfilter">IMultiInterfacePublisherFilter</a>
-

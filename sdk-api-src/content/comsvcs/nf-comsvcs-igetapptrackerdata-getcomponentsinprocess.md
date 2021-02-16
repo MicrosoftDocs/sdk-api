@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IGetAppTrackerData::GetComponentsInProcess
+ - IGetAppTrackerData.GetComponentsInProcess
 ---
 
 # IGetAppTrackerData::GetComponentsInProcess
@@ -137,4 +137,3 @@ If <i>ApplicationId</i> is used to specify an application (it is not set to GUID
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-igetapptrackerdata">IGetAppTrackerData</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::GetIdentificationData
+ - IVdsLun.GetIdentificationData
 ---
 
 # IVdsLun::GetIdentificationData
@@ -139,4 +139,3 @@ Another operation is in progress; this operation cannot proceed until the previo
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
-

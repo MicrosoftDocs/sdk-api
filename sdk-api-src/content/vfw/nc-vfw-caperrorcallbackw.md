@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
+ - capErrorCallback
+ - CAPERRORCALLBACKA
  - CAPERRORCALLBACKW
 ---
 
@@ -88,4 +90,3 @@ A message identifier of zero indicates a new operation is starting and the callb
 
 
 <a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-

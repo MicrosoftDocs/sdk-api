@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDetectTone::put_AppSpecific
+ - ITDetectTone.put_AppSpecific
 ---
 
 # ITDetectTone::put_AppSpecific
@@ -88,4 +88,3 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-get_appspecific">get_AppSpecific</a>
-

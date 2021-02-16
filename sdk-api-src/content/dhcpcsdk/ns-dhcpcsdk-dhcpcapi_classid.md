@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpcsdk.h
 api_name:
- - _DHCPCAPI_CLASSID
- - PDHCPCAPI_CLASSID
  - DHCPCAPI_CLASSID
 ---
 

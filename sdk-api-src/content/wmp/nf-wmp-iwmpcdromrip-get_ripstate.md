@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromRip::get_ripState
+ - IWMPCdromRip.get_ripState
 ---
 
 # IWMPCdromRip::get_ripState
@@ -95,4 +95,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpripstate">WMPRipState</a>
-

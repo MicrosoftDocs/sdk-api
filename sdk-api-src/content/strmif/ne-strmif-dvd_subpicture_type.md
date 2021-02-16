@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_SUBPICTURE_TYPE
  - DVD_SUBPICTURE_TYPE
 ---
 
@@ -76,4 +75,3 @@ The subpicture contains nonlanguage-related content such as a bouncing ball in k
 
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

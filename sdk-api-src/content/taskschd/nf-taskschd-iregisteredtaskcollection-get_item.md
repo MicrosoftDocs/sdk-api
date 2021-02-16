@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTaskCollection::get_Item
+ - IRegisteredTaskCollection.Item
+ - IRegisteredTaskCollection.get_Item
 ---
 
 # IRegisteredTaskCollection::get_Item
@@ -67,4 +68,3 @@ Collections are 1-based. That is, the index for the first item in the collection
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

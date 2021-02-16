@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11ClassLinkage::GetClassInstance
+ - ID3D11ClassLinkage.GetClassInstance
 ---
 
 # ID3D11ClassLinkage::GetClassInstance
@@ -102,4 +102,3 @@ A class instance must have at least 1 data member in order to be available for t
 
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11classlinkage">ID3D11ClassLinkage</a>
-

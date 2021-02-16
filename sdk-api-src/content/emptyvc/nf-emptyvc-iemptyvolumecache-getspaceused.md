@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEmptyVolumeCache::GetSpaceUsed
+ - IEmptyVolumeCache.GetSpaceUsed
 ---
 
 # IEmptyVolumeCache::GetSpaceUsed
@@ -119,4 +119,3 @@ When this method is called by the disk cleanup manager, the handler should start
       
 
 You should only set the <i>pdwSpaceUsed</i> parameter to -1 as a last resort. The handler is of limited value to a user if they don't know how much space will be freed.
-

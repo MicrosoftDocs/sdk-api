@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
- - tagWINHTTP_CREDS
- - PWINHTTP_CREDS
  - WINHTTP_CREDS
 ---
 
@@ -142,4 +140,3 @@ When it is set, WinINet will send credentials  down to WinHTTP. Whenever WinHttp
 ## -see-also
 
 <a href="/windows/desktop/api/winhttp/ns-winhttp-winhttp_creds_ex">WINHTTP_CREDS_EX</a>
-

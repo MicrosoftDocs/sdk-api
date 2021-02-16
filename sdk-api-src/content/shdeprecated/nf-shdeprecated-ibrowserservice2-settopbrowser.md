@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::SetTopBrowser
+ - IBrowserService2.SetTopBrowser
 ---
 
 # IBrowserService2::SetTopBrowser

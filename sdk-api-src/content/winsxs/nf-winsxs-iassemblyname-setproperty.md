@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sxs.dll
 api_name:
- - IAssemblyName::SetProperty
+ - IAssemblyName.SetProperty
 ---
 
 # IAssemblyName::SetProperty
@@ -113,4 +113,3 @@ The method did not succeed. The <a href="/windows/desktop/api/winsxs/nf-winsxs-i
 ## -see-also
 
 <a href="/windows/desktop/api/winsxs/nn-winsxs-iassemblyname">IAssemblyName</a>
-

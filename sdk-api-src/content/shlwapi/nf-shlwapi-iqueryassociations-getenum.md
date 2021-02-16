@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlwapi.h
 api_name:
- - IQueryAssociations::GetEnum
+ - IQueryAssociations.GetEnum
 ---
 
 # IQueryAssociations::GetEnum

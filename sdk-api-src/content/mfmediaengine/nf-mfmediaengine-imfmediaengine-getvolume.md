@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetVolume
+ - IMFMediaEngine.GetVolume
 ---
 
 # IMFMediaEngine::GetVolume
@@ -61,4 +61,3 @@ Returns the volume level. Volume is expressed as an attenuation level, where 0.0
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

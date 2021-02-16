@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_RootPath
+ - IDataCollectorSet.RootPath
+ - IDataCollectorSet.get_RootPath
+ - IDataCollectorSet.put_RootPath
 ---
 
 # IDataCollectorSet::get_RootPath
@@ -74,4 +76,3 @@ If this property is changed from the default value, the specified directory must
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_subdirectory">IDataCollectorSet::Subdirectory</a>
-

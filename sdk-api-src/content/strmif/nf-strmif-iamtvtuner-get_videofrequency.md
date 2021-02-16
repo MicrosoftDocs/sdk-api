@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTVTuner::get_VideoFrequency
+ - IAMTVTuner.get_VideoFrequency
 ---
 
 # IAMTVTuner::get_VideoFrequency
@@ -78,4 +78,3 @@ This is a diagnostic method that enables you to examine the exact frequency bein
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtuner">IAMTuner Interface</a>
-

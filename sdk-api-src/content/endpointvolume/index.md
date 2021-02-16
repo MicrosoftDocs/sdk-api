@@ -9,8 +9,6 @@ tech.root: coreaudio
 f1_keywords:
  - endpointvolume
  - endpointvolume/endpointvolume
-api_name:
- - endpointvolume
 ---
 
 # Endpointvolume.h header

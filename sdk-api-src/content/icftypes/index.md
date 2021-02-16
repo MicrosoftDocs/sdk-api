@@ -9,8 +9,6 @@ tech.root: ics
 f1_keywords:
  - icftypes
  - icftypes/icftypes
-api_name:
- - icftypes
 ---
 
 # Icftypes.h header

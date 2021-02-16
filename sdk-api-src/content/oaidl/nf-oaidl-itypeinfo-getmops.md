@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo::GetMops
+ - ITypeInfo.GetMops
 ---
 
 # ITypeInfo::GetMops
@@ -120,4 +120,3 @@ If the type description inherits from another type description, this function re
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-

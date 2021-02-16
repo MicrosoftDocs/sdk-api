@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::BeginWriting
+ - IWMWriter.BeginWriting
 ---
 
 # IWMWriter::BeginWriting
@@ -386,4 +386,3 @@ if ( pWriterNetworkSink )
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-endwriting">IWMWriter::EndWriting</a>
-

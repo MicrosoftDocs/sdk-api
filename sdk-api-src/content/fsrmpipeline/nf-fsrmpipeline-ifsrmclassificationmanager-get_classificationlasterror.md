@@ -42,7 +42,11 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::get_ClassificationLastError
+ - IFsrmClassificationManager.ClassificationLastError
+ - IFsrmClassificationManager.get_ClassificationLastError
+ - IFsrmClassificationManager2.ClassificationLastError
+ - IFsrmClassificationManager2.get_ClassificationLastError
+ - FsrmClassificationManager.ClassificationLastError
 ---
 
 # IFsrmClassificationManager::get_ClassificationLastError
@@ -85,4 +89,3 @@ The property is set after classification is run either manually using
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

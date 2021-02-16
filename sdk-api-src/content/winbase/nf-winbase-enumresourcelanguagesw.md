@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumResourceLanguagesW
  - winbase/EnumResourceLanguagesW
- - EnumResourceLanguages
- - winbase/EnumResourceLanguages
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - EnumResourceLanguagesW
  - EnumResourceLanguages
+ - EnumResourceLanguagesA
+ - EnumResourceLanguagesW
 ---
 
 # EnumResourceLanguagesW function
@@ -155,4 +154,3 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Creating a
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::CHString
+ - CHString.CHString
+ - ??0CHString@@QAE@PBG@Z
+ - ??0CHString@@QEAA@PEBG@Z
 ---
 
 # CHString::CHString(LPCWSTR)
@@ -112,4 +114,3 @@ CHString s6( 'x', 6 );          // s6 = "xxxxxx"
 
 CHString city = L"Philadelphia"; // NOT the assignment operator
 ```
-

@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - scesvc
  - scesvc/scesvc
-api_name:
- - scesvc
 ---
 
 # Scesvc.h header

@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_REQUIRED_PRIVILEGES_INFOA
- - LPSERVICE_REQUIRED_PRIVILEGES_INFOA
+ - SERVICE_REQUIRED_PRIVILEGES_INFO
  - SERVICE_REQUIRED_PRIVILEGES_INFOA
+ - SERVICE_REQUIRED_PRIVILEGES_INFOW
 ---
 
 # SERVICE_REQUIRED_PRIVILEGES_INFOA structure
@@ -90,4 +90,3 @@ For compatibility, the SeChangeNotifyPrivilege privilege is never removed from a
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
-

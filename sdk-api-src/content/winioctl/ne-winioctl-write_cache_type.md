@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _WRITE_CACHE_TYPE
  - WRITE_CACHE_TYPE
 ---
 
@@ -83,4 +82,3 @@ The [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md) 
 * [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_WRITE_CACHE_PROPERTY](ns-winioctl-storage_write_cache_property.md)
-

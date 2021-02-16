@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents::ItemNotAvailableOffline
+ - IOfflineFilesEvents.ItemNotAvailableOffline
 ---
 
 # IOfflineFilesEvents::ItemNotAvailableOffline
@@ -74,4 +74,3 @@ Receipt of this event does not mean the file has been removed from the cache.  T
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
- - tagPXE_DHCP_OPTION
- - PPXE_DHCP_OPTION
  - PXE_DHCP_OPTION
 ---
 

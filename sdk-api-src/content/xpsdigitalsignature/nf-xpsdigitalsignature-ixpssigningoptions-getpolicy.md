@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSigningOptions::GetPolicy
+ - IXpsSigningOptions.GetPolicy
 ---
 
 # IXpsSigningOptions::GetPolicy
@@ -129,4 +129,3 @@ If the  <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-x
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
-

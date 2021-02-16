@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCacheControl::OnStop
+ - IOleCacheControl.OnStop
 ---
 
 # IOleCacheControl::OnStop
@@ -98,4 +98,3 @@ The data advisory connection between the running object and the cache is destroy
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecachecontrol-onrun">IOleCacheControl::OnRun</a>
-

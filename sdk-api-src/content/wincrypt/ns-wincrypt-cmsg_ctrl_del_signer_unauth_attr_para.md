@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
- - PCMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
  - CMSG_CTRL_DEL_SIGNER_UNAUTH_ATTR_PARA
 ---
 
@@ -76,4 +74,3 @@ Index of the element in the <b>rgUnauthAttr</b> array of the <a href="/windows/d
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
-

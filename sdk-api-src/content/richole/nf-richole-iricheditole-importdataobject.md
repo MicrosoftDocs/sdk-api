@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::ImportDataObject
+ - IRichEditOle.ImportDataObject
 ---
 
 # IRichEditOle::ImportDataObject
@@ -110,4 +110,3 @@ There was not enough memory to do the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-

@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - dsclient
  - dsclient/dsclient
-api_name:
- - dsclient
 ---
 
 # Dsclient.h header

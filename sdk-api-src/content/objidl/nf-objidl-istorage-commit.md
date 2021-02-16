@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::Commit
+ - IStorage.Commit
 ---
 
 # IStorage::Commit
@@ -93,4 +93,3 @@ If the STGC_CONSOLIDATE flag is not supported by a storage implementation, calli
 
 
 <a href="/windows/desktop/api/wtypes/ne-wtypes-stgc">STGC</a>
-

@@ -42,7 +42,13 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::put_Logging
+ - IFsrmClassificationManager.Logging
+ - IFsrmClassificationManager.get_Logging
+ - IFsrmClassificationManager.put_Logging
+ - IFsrmClassificationManager2.Logging
+ - IFsrmClassificationManager2.get_Logging
+ - IFsrmClassificationManager2.put_Logging
+ - FsrmClassificationManager.Logging
 ---
 
 # IFsrmClassificationManager::put_Logging
@@ -102,4 +108,3 @@ The name of the <b>FsrmClassificationLoggingFlags_ErrorsInLogFile</b> log file i
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

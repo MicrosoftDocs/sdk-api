@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComMethod2Events::OnMethodException2
+ - IComMethod2Events.OnMethodException2
 ---
 
 # IComMethod2Events::OnMethodException2
@@ -85,4 +85,3 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icommethod2events">IComMethod2Events</a>
-

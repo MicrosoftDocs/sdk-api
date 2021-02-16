@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationVariable::SetVariableIntegerChangeHandler
+ - IUIAnimationVariable.SetVariableIntegerChangeHandler
 ---
 
 # IUIAnimationVariable::SetVariableIntegerChangeHandler
@@ -84,4 +84,3 @@ Passing NULL for the <i>handler</i> parameter causes Windows Animation to releas
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariablechangehandler">IUIAnimationVariableChangeHandler</a>
-

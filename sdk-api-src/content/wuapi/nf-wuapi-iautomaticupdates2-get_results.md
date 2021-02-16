@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdates2::get_Results
+ - IAutomaticUpdates2.get_Results
 ---
 
 # IAutomaticUpdates2::get_Results
@@ -65,4 +65,3 @@ Returns <b>S_OK</b> if successful. Otherwise, returns a COM or Windows error cod
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates2">IAutomaticUpdates2</a>
-

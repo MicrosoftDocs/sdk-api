@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsecedit.dll
 api_name:
- - ISceSvcAttachmentPersistInfo::Save
+ - ISceSvcAttachmentPersistInfo.Save
 ---
 
 # ISceSvcAttachmentPersistInfo::Save
@@ -95,4 +95,3 @@ The caller should free the buffer set in <i>ppvData</i> by calling
 
 
 <a href="/windows/desktop/SecMgmt/scesvc-handle">SCESVC_HANDLE</a>
-

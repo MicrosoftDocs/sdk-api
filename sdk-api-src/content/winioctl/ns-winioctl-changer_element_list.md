@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CHANGER_ELEMENT_LIST
- - PCHANGER_ELEMENT_LIST
  - CHANGER_ELEMENT_LIST
 ---
 
@@ -75,4 +73,3 @@ The number of elements in the range.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_reinitialize_transport">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncCallback::OnFullEnumerationNeeded
+ - ISyncCallback.OnFullEnumerationNeeded
 ---
 
 # ISyncCallback::OnFullEnumerationNeeded
@@ -99,4 +99,3 @@ By default, if an application callback is not registered to receive this notific
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_FULL_ENUMERATION_ACTION Enumeration</a>
-

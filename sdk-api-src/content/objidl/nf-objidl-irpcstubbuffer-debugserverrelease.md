@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcStubBuffer::DebugServerRelease
+ - IRpcStubBuffer.DebugServerRelease
 ---
 
 # IRpcStubBuffer::DebugServerRelease
@@ -61,4 +61,3 @@ A pointer to the interface that the caller no longer needs.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcstubbuffer">IRpcStubBuffer</a>
-

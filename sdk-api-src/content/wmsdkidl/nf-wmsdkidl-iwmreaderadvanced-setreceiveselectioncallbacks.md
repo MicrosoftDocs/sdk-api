@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced::SetReceiveSelectionCallbacks
+ - IWMReaderAdvanced.SetReceiveSelectionCallbacks
 ---
 
 # IWMReaderAdvanced::SetReceiveSelectionCallbacks
@@ -101,4 +101,3 @@ No callback interface has been specified.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreaderadvanced-getreceiveselectioncallbacks">IWMReaderAdvanced::GetReceiveSelectionCallbacks</a>
-

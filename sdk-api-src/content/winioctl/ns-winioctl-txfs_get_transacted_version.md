@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_GET_TRANSACTED_VERSION
- - PTXFS_GET_TRANSACTED_VERSION
  - TXFS_GET_TRANSACTED_VERSION
 ---
 
@@ -131,4 +129,3 @@ The base version number remains the same for the lifetime of a handle. The lates
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_transacted_version">FSCTL_TXFS_GET_TRANSACTED_VERSION</a>
-

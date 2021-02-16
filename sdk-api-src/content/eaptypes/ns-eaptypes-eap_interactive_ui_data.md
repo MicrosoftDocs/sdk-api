@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_INTERACTIVE_UI_DATA
  - EAP_INTERACTIVE_UI_DATA
 ---
 
@@ -91,6 +90,8 @@ An <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eap_interactive_ui_data_ty
 
 The size of the data pointed to by <i>pbUiData</i>, in bytes.
 
+
+
 ### -field pbUiData
 
 A pointer to an <a href="/previous-versions/windows/desktop/api/eaptypes/ns-eaptypes-eap_ui_data_format">EAP_UI_DATA_FORMAT</a> union that contains information about specific user interface components that correspond to the type specified in <i>dwDataType</i>.
@@ -126,4 +127,3 @@ A pointer to an <a href="/previous-versions/windows/desktop/api/eaptypes/ns-eapt
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

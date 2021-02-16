@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - winnetwk
  - winnetwk/winnetwk
-api_name:
- - winnetwk
 ---
 
 # Winnetwk.h header

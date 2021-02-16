@@ -9,8 +9,6 @@ tech.root: winsock
 f1_keywords:
  - nspapi
  - nspapi/nspapi
-api_name:
- - nspapi
 ---
 
 # Nspapi.h header

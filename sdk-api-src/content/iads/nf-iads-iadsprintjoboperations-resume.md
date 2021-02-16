@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPrintJobOperations::Resume
+ - IADsPrintJobOperations.Resume
 ---
 
 # IADsPrintJobOperations::Resume
@@ -65,4 +65,3 @@ This method supports the standard return values. For more information about othe
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsprintjoboperations-pause">IADsPrintJobOperations::Pause</a>
-

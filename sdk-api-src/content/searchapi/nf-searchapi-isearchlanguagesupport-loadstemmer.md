@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchLanguageSupport::LoadStemmer
+ - ISearchLanguageSupport.LoadStemmer
 ---
 
 # ISearchLanguageSupport::LoadStemmer

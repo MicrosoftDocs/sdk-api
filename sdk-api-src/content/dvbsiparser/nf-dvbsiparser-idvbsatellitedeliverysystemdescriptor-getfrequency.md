@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbSatelliteDeliverySystemDescriptor::GetFrequency
+ - IDvbSatelliteDeliverySystemDescriptor.GetFrequency
 ---
 
 # IDvbSatelliteDeliverySystemDescriptor::GetFrequency
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsatellitedeliverysystemdescriptor">IDvbSatelliteDeliverySystemDescriptor Interface</a>
-

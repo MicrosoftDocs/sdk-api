@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509Enrollment2::get_PolicyServer
+ - IX509Enrollment2.PolicyServer
+ - IX509Enrollment2.get_PolicyServer
 ---
 
 # IX509Enrollment2::get_PolicyServer
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
-

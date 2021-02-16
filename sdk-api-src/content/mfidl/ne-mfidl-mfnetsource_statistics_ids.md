@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNETSOURCE_STATISTICS_IDS
  - MFNETSOURCE_STATISTICS_IDS
 ---
 
@@ -186,4 +185,3 @@ The percentage of the content that has been downloaded. The value is an integer 
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

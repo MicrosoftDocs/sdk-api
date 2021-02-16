@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - ntsecapi
  - ntsecapi/ntsecapi
-api_name:
- - ntsecapi
 ---
 
 # Ntsecapi.h header

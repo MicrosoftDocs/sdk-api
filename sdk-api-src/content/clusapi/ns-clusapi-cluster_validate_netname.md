@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_VALIDATE_NETNAME
- - PCLUSTER_VALIDATE_NETNAME
  - CLUSTER_VALIDATE_NETNAME
 ---
 

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::put_EditingMode
+ - IInkOverlay.EditingMode
+ - IInkOverlay.get_EditingMode
+ - IInkOverlay.put_EditingMode
+ - InkOverlay.get_EditingMode
+ - InkOverlay.put_EditingMode
 ---
 
 # IInkOverlay::put_EditingMode
@@ -84,4 +88,3 @@ For more information about erasing ink, see <a href="/windows/desktop/tablet/era
 
 
 <a href="/windows/desktop/api/msinkaut/ne-msinkaut-inkoverlayeditingmode">InkOverlayEditingMode Enumeration</a>
-

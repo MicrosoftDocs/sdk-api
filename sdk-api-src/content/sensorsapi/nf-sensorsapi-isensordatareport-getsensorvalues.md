@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorDataReport::GetSensorValues
+ - ISensorDataReport.GetSensorValues
 ---
 
 # ISensorDataReport::GetSensorValues
@@ -116,4 +116,3 @@ When this method returns <b>HRESULT_FROM_WIN32(ERROR_NOT_FOUND)</b>, one or more
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensordatareport">ISensorDataReport</a>
-

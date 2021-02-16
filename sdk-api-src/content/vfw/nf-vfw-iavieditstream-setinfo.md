@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIEditStream::SetInfo
+ - IAVIEditStream.SetInfo
 ---
 
 # IAVIEditStream::SetInfo
@@ -95,4 +95,3 @@ HRESULT SetInfo(AVISTREAMINFO *lpInfo, LONG cbInfo);
 
 
 <a href="/windows/desktop/api/vfw/nf-vfw-editstreamsetinfoa">EditStreamSetInfo</a>
-

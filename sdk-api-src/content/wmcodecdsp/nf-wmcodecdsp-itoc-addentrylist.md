@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc::AddEntryList
+ - IToc.AddEntryList
 ---
 
 # IToc::AddEntryList
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/ee264287(v=vs.85)">RemoveEntryListByIndex</a>
-

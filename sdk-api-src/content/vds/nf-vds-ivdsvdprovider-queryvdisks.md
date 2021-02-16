@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVdProvider::QueryVDisks
+ - IVdsVdProvider.QueryVDisks
 ---
 
 # IVdsVdProvider::QueryVDisks
@@ -91,4 +91,3 @@ If the virtual disk provider does not manage any virtual disks, this method retu
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvdprovider">IVdsVdProvider</a>
-

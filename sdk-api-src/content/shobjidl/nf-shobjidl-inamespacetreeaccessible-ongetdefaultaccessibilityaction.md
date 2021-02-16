@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction
+ - INameSpaceTreeAccessible.OnGetDefaultAccessibilityAction
 ---
 
 # INameSpaceTreeAccessible::OnGetDefaultAccessibilityAction
@@ -75,4 +75,3 @@ Returns S_OK if successful, or E_OUTOFMEMORY otherwise.
 ## -remarks
 
 This method is called when the default accessibililty action for a Shell item is retrieved.
-

@@ -44,6 +44,7 @@ api_location:
  - Wbemuuid.dll
 api_name:
  - IWbemRefresher
+ - WbemRefresher
 ---
 
 # IWbemRefresher interface
@@ -95,4 +96,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemRefresher</b> interface 
 
 
 <a href="/windows/desktop/WmiSdk/writing-an-instance-provider">Writing an Instance Provider</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDServiceProvider3::SetDeviceEnumPreference
+ - IMDServiceProvider3.SetDeviceEnumPreference
 ---
 
 # IMDServiceProvider3::SetDeviceEnumPreference
@@ -133,4 +133,3 @@ The DO_NOT_VIRTUALIZE_STORAGES_AS_DEVICES flag has to be honored by the service 
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider3">IMDServiceProvider3 Interface</a>
-

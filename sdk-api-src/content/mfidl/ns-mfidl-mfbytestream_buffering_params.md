@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFBYTESTREAM_BUFFERING_PARAMS
  - MFBYTESTREAM_BUFFERING_PARAMS
 ---
 
@@ -96,4 +95,3 @@ Playback rate.
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

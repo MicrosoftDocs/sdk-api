@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::put_CurrentPanel
+ - IPenInputPanel.CurrentPanel
+ - IPenInputPanel.get_CurrentPanel
+ - IPenInputPanel.put_CurrentPanel
+ - PenInputPanel.get_CurrentPanel
+ - PenInputPanel.put_CurrentPanel
 ---
 
 # IPenInputPanel::put_CurrentPanel
@@ -86,4 +90,3 @@ If you change the panel by setting the <b>CurrentPanel</b> property before the <
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

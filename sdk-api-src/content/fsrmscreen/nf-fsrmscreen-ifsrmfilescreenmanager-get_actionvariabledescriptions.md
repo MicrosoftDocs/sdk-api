@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager::get_ActionVariableDescriptions
+ - IFsrmFileScreenManager.ActionVariableDescriptions
+ - IFsrmFileScreenManager.get_ActionVariableDescriptions
+ - FsrmFileScreenManager.ActionVariableDescriptions
 ---
 
 # IFsrmFileScreenManager::get_ActionVariableDescriptions
@@ -65,4 +67,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
-

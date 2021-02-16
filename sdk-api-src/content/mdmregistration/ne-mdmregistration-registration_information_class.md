@@ -46,8 +46,6 @@ api_type:
 api_location:
  - MDMRegistration.h
 api_name:
- - _REGISTRATION_INFORMATION_CLASS
- - PREGISTRATION_INFORMATION_CLASS
  - REGISTRATION_INFORMATION_CLASS
 ---
 
@@ -73,4 +71,3 @@ Information about the device registration.
 
 
 <a href="/windows/desktop/MDMReg/mdm-registration-structures">MDM Registration Structures</a>
-

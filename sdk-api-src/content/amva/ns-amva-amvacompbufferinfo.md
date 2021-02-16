@@ -46,8 +46,6 @@ api_type:
 api_location:
  - amva.h
 api_name:
- - _tag_AMVACompBufferInfo
- - LPAMVACompBufferInfo
  - AMVACompBufferInfo
 ---
 
@@ -91,4 +89,3 @@ Total number of bytes used by each surface.
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-getcompbufferinfo">IAMVideoAccelerator::GetCompBufferInfo</a>
-

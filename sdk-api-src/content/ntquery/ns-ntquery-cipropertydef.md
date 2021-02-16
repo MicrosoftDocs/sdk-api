@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntquery.h
 api_name:
- - tagCIPROPERTYDEF
  - CIPROPERTYDEF
 ---
 
@@ -87,4 +86,3 @@ The property ID for the property. Indexing Service properties must be either DBK
 
 
 <a href="/previous-versions/windows/desktop/indexsrv/dbid">DBID</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - phonebuttoninfo_tag
- - LPPHONEBUTTONINFO
  - PHONEBUTTONINFO
 ---
 
@@ -138,4 +136,3 @@ New applications must be cognizant of the API version negotiated, and not examin
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-phonesetbuttoninfo">phoneSetButtonInfo</a>
-

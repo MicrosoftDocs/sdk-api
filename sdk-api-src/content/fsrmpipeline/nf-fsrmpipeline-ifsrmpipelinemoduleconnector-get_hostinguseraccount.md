@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleConnector::get_HostingUserAccount
+ - IFsrmPipelineModuleConnector.HostingUserAccount
+ - IFsrmPipelineModuleConnector.get_HostingUserAccount
+ - FsrmPipelineModuleConnector.HostingUserAccount
 ---
 
 # IFsrmPipelineModuleConnector::get_HostingUserAccount
@@ -65,4 +67,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleconnector">IFsrmPipelineModuleConnector</a>
-

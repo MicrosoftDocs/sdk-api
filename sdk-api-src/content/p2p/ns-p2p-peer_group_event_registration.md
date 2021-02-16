@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_group_event_registration_tag
- - PPEER_GROUP_EVENT_REGISTRATION
  - PEER_GROUP_EVENT_REGISTRATION
 ---
 
@@ -77,4 +75,3 @@ This member is only populated (not NULL) when <b>eventType</b> is either PEER_GR
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupregisterevent">PeerGroupRegisterEvent</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkConnection::get_IsConnectedToInternet
+ - INetworkConnection.get_IsConnectedToInternet
 ---
 
 # INetworkConnection::get_IsConnectedToInternet
@@ -65,4 +65,3 @@ Returns S_OK if successful.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
-

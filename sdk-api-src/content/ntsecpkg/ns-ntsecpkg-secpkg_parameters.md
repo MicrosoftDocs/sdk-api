@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_PARAMETERS
- - PSECPKG_PARAMETERS
  - SECPKG_PARAMETERS
 ---
 
@@ -145,4 +143,3 @@ The Domain Name System (DNS) name of the primary domain.
 ### -field DomainGuid
 
 The GUID of the primary domain.
-

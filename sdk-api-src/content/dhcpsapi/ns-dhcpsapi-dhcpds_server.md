@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCPDS_SERVER
- - LPDHCPDS_SERVER
  - DHCPDS_SERVER
 ---
 

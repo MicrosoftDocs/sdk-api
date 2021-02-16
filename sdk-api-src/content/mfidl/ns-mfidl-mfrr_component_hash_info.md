@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFRR_COMPONENT_HASH_INFO
- - PMFRR_COMPONENT_HASH_INFO
  - MFRR_COMPONENT_HASH_INFO
 ---
 
@@ -240,4 +238,3 @@ File name of the revoked component.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

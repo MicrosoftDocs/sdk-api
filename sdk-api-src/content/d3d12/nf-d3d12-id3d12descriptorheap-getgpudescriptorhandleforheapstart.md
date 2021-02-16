@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart
+ - ID3D12DescriptorHeap.GetGPUDescriptorHandleForHeapStart
 ---
 
 # ID3D12DescriptorHeap::GetGPUDescriptorHandleForHeapStart
@@ -63,4 +63,3 @@ Returns the GPU descriptor handle that represents the start of the heap.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12descriptorheap">ID3D12DescriptorHeap</a>
-

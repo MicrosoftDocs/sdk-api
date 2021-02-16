@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidFilePlayback2::put__SourceFilter
+ - IMSVidFilePlayback2.put__SourceFilter
 ---
 
 # IMSVidFilePlayback2::put__SourceFilter
@@ -92,4 +92,3 @@ If the CLSID is GUID_NULL, the <a href="/previous-versions/windows/desktop/mstv/
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidfileplayback2">IMSVidFilePlayback2 Interface</a>
-

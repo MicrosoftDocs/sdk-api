@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloader::Download
+ - IUpdateDownloader.Download
 ---
 
 # IUpdateDownloader::Download
@@ -115,4 +115,3 @@ This method returns <b>SUS_E_NOT_INITIALIZED</b> if the download job does not co
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
-

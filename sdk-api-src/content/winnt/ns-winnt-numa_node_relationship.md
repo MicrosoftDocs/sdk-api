@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _NUMA_NODE_RELATIONSHIP
- - PNUMA_NODE_RELATIONSHIP
  - NUMA_NODE_RELATIONSHIP
 ---
 
@@ -83,4 +81,3 @@ A <a href="/windows/desktop/api/winnt/ns-winnt-group_affinity">GROUP_AFFINITY</a
 
 
 <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RefreshISNSServerW
  - iscsidsc/RefreshISNSServerW
- - RefreshISNSServer
- - iscsidsc/RefreshISNSServer
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - RefreshISNSServerW
- - RefreshISNSServer
+ - RefreshIsnsServer
+ - RefreshIsnsServerA
+ - RefreshIsnsServerW
 ---
 
 # RefreshISNSServerW function
@@ -90,4 +89,3 @@ If the iSNS server supports State Change Notifications (SCN), the iSCSI initiato
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>
-

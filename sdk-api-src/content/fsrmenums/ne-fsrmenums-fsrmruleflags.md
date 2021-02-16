@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmRuleFlags
  - FsrmRuleFlags
 ---
 
@@ -89,4 +88,3 @@ You cannot set <b>FsrmRuleFlags_Invalid</b>; this flag is used by FSRM.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmrule-get_ruleflags">IFsrmRule.RuleFlags</a>
-

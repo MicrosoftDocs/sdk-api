@@ -44,7 +44,7 @@ api_location:
  - Gdiplus.lib
  - Gdiplus.dll
 api_name:
- - Tint::SetParameters
+ - Tint.SetParameters
 ---
 
 # Tint::SetParameters
@@ -79,4 +79,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-tint-getparameters">Tint::GetParameters</a>
-

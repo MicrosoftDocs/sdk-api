@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::put_DisplaySize
+ - IMSVidCtl.put_DisplaySize
 ---
 
 # IMSVidCtl::put_DisplaySize
@@ -77,4 +77,3 @@ Setting this property has no effect if the <b>AutoSize</b> property is false.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_autosize">IMSVidCtl::put_AutoSize</a>
-

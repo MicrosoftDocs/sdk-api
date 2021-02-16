@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager::RefreshDeviceList
+ - IPortableDeviceManager.RefreshDeviceList
 ---
 
 # IPortableDeviceManager::RefreshDeviceList
@@ -86,4 +86,3 @@ This method is less resource-intensive than instantiating a new device manager t
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-

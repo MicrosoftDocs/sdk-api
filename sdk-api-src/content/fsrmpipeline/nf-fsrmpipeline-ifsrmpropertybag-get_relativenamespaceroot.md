@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag::get_RelativeNamespaceRoot
+ - IFsrmPropertyBag.RelativeNamespaceRoot
+ - IFsrmPropertyBag.get_RelativeNamespaceRoot
 ---
 
 # IFsrmPropertyBag::get_RelativeNamespaceRoot
@@ -67,4 +68,3 @@ The caller should not expect that the relative namespace root returned will cons
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpropertybag">IFsrmPropertyBag</a>
-

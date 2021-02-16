@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SESSION_INFO_2
- - PSESSION_INFO_2
  - SESSION_INFO_2
 ---
 
@@ -188,4 +186,3 @@ Sessions from LAN Manager servers running UNIX also will appear as LAN Manager 2
 
 
 <a href="/windows/desktop/NetShare/session-functions">Session Functions</a>
-

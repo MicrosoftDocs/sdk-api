@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::get_InkEnabled
+ - IInkPicture.InkEnabled
+ - IInkPicture.get_InkEnabled
+ - IInkPicture.put_InkEnabled
+ - InkPicture.get_InkEnabled
+ - InkPicture.put_InkEnabled
 ---
 
 # IInkPicture::get_InkEnabled
@@ -146,4 +150,3 @@ This property must be set to <b>VARIANT_FALSE</b> before setting or calling spec
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setwindowinputrectangle">SetWindowInputRectangle Method</a>
-

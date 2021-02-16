@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_EAP_AUTHENTICATION0__
  - IKEEXT_EAP_AUTHENTICATION0
 ---
 
@@ -97,4 +96,3 @@ Specifies that EAP authentication will be used only to authenticate a remote com
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_TIME_STAMP_REQUEST_INFO
- - PCRYPT_TIME_STAMP_REQUEST_INFO
  - CRYPT_TIME_STAMP_REQUEST_INFO
 ---
 
@@ -88,4 +86,3 @@ Array of pointers to
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-

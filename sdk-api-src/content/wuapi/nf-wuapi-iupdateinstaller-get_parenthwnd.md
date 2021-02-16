@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller::get_ParentHwnd
+ - IUpdateInstaller.ParentHwnd
+ - IUpdateInstaller.get_ParentHwnd
+ - IUpdateInstaller.put_ParentHwnd
 ---
 
 # IUpdateInstaller::get_ParentHwnd
@@ -63,4 +65,3 @@ This property can be changed only by a user on the computer. This property canno
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
-

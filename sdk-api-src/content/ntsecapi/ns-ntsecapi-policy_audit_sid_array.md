@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _POLICY_AUDIT_SID_ARRAY
- - PPOLICY_AUDIT_SID_ARRAY
  - POLICY_AUDIT_SID_ARRAY
 ---
 
@@ -79,4 +77,3 @@ A pointer to an array of pointers to <a href="/windows/desktop/api/winnt/ns-winn
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-

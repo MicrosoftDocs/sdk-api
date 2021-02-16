@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation6::AddEventHandlerGroup
+ - IUIAutomation6.AddEventHandlerGroup
 ---
 
 # IUIAutomation6::AddEventHandlerGroup
@@ -78,4 +78,3 @@ It is possible for an event to be delivered to an event handler after the handle
 ## -see-also
 
 [IUIAutomation6::RemoveEventHandlerGroup](nf-uiautomationclient-iuiautomation6-removeeventhandlergroup.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md)
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsMgmtBindingUnexportA
  - rpcnsi/RpcNsMgmtBindingUnexportA
- - RpcNsMgmtBindingUnexport
- - rpcnsi/RpcNsMgmtBindingUnexport
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsMgmtBindingUnexportA
  - RpcNsMgmtBindingUnexport
+ - RpcNsMgmtBindingUnexportA
+ - RpcNsMgmtBindingUnexportW
 ---
 
 # RpcNsMgmtBindingUnexportA function
@@ -305,4 +304,3 @@ In addition to calling
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>
-

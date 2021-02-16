@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::EnumerateExtensionsClose
+ - ICertServerPolicy.EnumerateExtensionsClose
+ - CCertServerPolicy.EnumerateExtensionsClose
 ---
 
 # ICertServerPolicy::EnumerateExtensionsClose
@@ -92,4 +93,3 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-enumerateextensions">ICertServerPolicy::EnumerateExtensions</a>
-

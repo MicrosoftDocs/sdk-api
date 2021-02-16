@@ -9,8 +9,6 @@ tech.root: sens
 f1_keywords:
  - sensapi
  - sensapi/sensapi
-api_name:
- - sensapi
 ---
 
 # Sensapi.h header

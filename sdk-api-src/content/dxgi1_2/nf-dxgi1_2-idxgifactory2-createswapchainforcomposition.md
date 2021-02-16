@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2::CreateSwapChainForComposition
+ - IDXGIFactory2.CreateSwapChainForComposition
 ---
 
 # IDXGIFactory2::CreateSwapChainForComposition
@@ -148,4 +148,3 @@ The <a href="/windows/desktop/api/windows.ui.xaml.media.dxinterop/nn-windows-ui-
 
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
-

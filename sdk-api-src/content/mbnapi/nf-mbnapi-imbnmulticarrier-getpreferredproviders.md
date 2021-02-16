@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrier::GetPreferredProviders
+ - IMbnMultiCarrier.GetPreferredProviders
 ---
 
 # IMbnMultiCarrier::GetPreferredProviders
@@ -179,4 +179,3 @@ Provisioning can also result in a new home provider being added to the existing 
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
-

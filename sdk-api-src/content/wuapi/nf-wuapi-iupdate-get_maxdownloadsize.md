@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_MaxDownloadSize
+ - IUpdate.MaxDownloadSize
+ - IUpdate.get_MaxDownloadSize
 ---
 
 # IUpdate::get_MaxDownloadSize
@@ -63,4 +64,3 @@ The <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_mindownloadsize">Mi
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

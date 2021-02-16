@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor::GetCLSID
+ - IUrlAccessor.GetCLSID
 ---
 
 # IUrlAccessor::GetCLSID
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If this information is not available, you can return E_NOTIMPL or E_FAIL.
-

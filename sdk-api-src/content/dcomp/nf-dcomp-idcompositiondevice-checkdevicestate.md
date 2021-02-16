@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice::CheckDeviceState
+ - IDCompositionDevice.CheckDeviceState
 ---
 
 # IDCompositionDevice::CheckDeviceState
@@ -69,4 +69,3 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a>
-

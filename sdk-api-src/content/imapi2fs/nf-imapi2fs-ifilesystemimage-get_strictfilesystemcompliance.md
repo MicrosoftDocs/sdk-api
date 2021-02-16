@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::get_StrictFileSystemCompliance
+ - IFileSystemImage.get_StrictFileSystemCompliance
 ---
 
 # IFileSystemImage::get_StrictFileSystemCompliance
@@ -91,4 +91,3 @@ Value: 0x80004003
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-put_strictfilesystemcompliance">IFileSystemImage::put_StrictFileSystemCompliance</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::SetXml
+ - IDataCollectorSet.SetXml
 ---
 
 # IDataCollectorSet::SetXml
@@ -100,4 +100,3 @@ Typically, any errors that occur will be one of the following HRESULT values.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_xml">IDataCollectorSet::Xml</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_maxBitRate
+ - IWMPNetwork.get_maxBitRate
 ---
 
 # IWMPNetwork::get_maxBitRate
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::put_CurrentPosition
+ - IMediaPosition.put_CurrentPosition
 ---
 
 # IMediaPosition::put_CurrentPosition
@@ -129,4 +129,3 @@ If a filter is paused when it receives a seek command, it must flush existing da
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-

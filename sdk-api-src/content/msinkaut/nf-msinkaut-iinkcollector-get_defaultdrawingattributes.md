@@ -43,7 +43,16 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::get_DefaultDrawingAttributes
+ - IInkCollector.DefaultDrawingAttributes
+ - IInkCollector.get_DefaultDrawingAttributes
+ - IInkCollector.put_DefaultDrawingAttributes
+ - get_DefaultDrawingAttributes
+ - IInkCollector.get_DefaultDrawingAttributes
+ - putref_DefaultDrawingAttributes
+ - IInkCollector.putref_DefaultDrawingAttributes
+ - IInkCollector.put_DefaultDrawingAttributes
+ - InkCollector.get_DefaultDrawingAttributes
+ - InkCollector.put_DefaultDrawingAttributes
 ---
 
 # IInkCollector::get_DefaultDrawingAttributes
@@ -130,4 +139,3 @@ To change the drawing attributes of a single stroke, use the <a href="/windows/d
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-modifydrawingattributes">ModifyDrawingAttributes Method</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess::RemoveProgram
+ - IBDA_ConditionalAccess.RemoveProgram
 ---
 
 # IBDA_ConditionalAccess::RemoveProgram
@@ -73,4 +73,3 @@ Returns <b>E_NOTIMPL</b>.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_conditionalaccess-setprogram">SetProgram</a>
-

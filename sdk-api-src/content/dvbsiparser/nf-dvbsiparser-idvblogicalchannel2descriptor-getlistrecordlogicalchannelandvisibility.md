@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility
+ - IDvbLogicalChannel2Descriptor.GetListRecordLogicalChannelAndVisibility
 ---
 
 # IDvbLogicalChannel2Descriptor::GetListRecordLogicalChannelAndVisibility
@@ -123,4 +123,3 @@ numeric keys (same value as decimal value of logical_channel_number).</td>
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvblogicalchannel2descriptor">IDvbLogicalChannel2Descriptor</a>
-

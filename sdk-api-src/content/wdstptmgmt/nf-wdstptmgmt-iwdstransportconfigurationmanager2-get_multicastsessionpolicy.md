@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
+ - IWdsTransportConfigurationManager2.MulticastSessionPolicy
+ - IWdsTransportConfigurationManager2.get_MulticastSessionPolicy
 ---
 
 # IWdsTransportConfigurationManager2::get_MulticastSessionPolicy
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmulticastsessionpolicy">IWdsTransportMulticastSessionPolicy</a>
-

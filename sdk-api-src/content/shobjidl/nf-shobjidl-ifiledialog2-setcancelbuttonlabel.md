@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IFileDialog2::SetCancelButtonLabel
+ - IFileDialog2.SetCancelButtonLabel
 ---
 
 # IFileDialog2::SetCancelButtonLabel
@@ -73,4 +73,3 @@ Changing the text on the Cancel button can be useful for situations where the IF
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialog2">IFileDialog2</a>
-

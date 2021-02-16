@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetFindNextFileW
  - wininet/InternetFindNextFileW
- - InternetFindNextFile
- - wininet/InternetFindNextFile
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetFindNextFileW
  - InternetFindNextFile
+ - InternetFindNextFileA
+ - InternetFindNextFileW
 ---
 
 # InternetFindNextFileW function
@@ -100,4 +99,3 @@ Returns <b>TRUE</b> if the function succeeds, or <b>FALSE</b> otherwise. To get 
 
 
 <a href="/windows/desktop/WinInet/wininet-functions"> WinINet Functions</a>
-

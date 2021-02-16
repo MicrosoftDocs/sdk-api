@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfStatusSink::OnStatusChange
+ - ITfStatusSink.OnStatusChange
 ---
 
 # ITfStatusSink::OnStatusChange
@@ -88,4 +88,3 @@ This method receives a callback when one of the flags of the <b>dwDynamicFlags</
 
 <a href="/previous-versions/windows/desktop/legacy/ms629192(v=vs.85)">TF_STATUS
       </a>
-

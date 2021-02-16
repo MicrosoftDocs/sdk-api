@@ -9,8 +9,6 @@ tech.root: xinput
 f1_keywords:
  - xinput
  - xinput/xinput
-api_name:
- - xinput
 ---
 
 # Xinput.h header

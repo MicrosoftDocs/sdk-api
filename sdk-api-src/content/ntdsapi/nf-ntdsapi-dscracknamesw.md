@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsCrackNamesW
  - ntdsapi/DsCrackNamesW
- - DsCrackNames
- - ntdsapi/DsCrackNames
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - KernelBase.dll
  - API-Ms-Win-Security-ActiveDirectoryClient-L1-1-1.dll
 api_name:
- - DsCrackNamesW
  - DsCrackNames
+ - DsCrackNamesA
+ - DsCrackNamesW
 ---
 
 # DsCrackNamesW function
@@ -173,4 +172,3 @@ The return value from <b>DsCrackNames</b> indicates errors such as invalid
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsnametranslate">IADsNameTranslate</a>
-

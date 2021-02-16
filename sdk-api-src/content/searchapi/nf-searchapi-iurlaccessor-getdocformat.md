@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor::GetDocFormat
+ - IUrlAccessor.GetDocFormat
 ---
 
 # IUrlAccessor::GetDocFormat
@@ -83,4 +83,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The <i>wszDocFormat</i> is used to identify the correct <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a> for the stream returned by <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-bindtostream">IUrlAccessor::BindToStream</a>. Implement this method when the URL item is supposed to have a different association than is indicated by the file name extension or content type. For example, if .doc items are not associated with Microsoft Word, this method should return the <a href="/windows/desktop/com/clsid-key-hklm">CLSID Key</a> key of the appropriate document source.
 
 If you do not provide an implementation of this method or the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">IUrlAccessor::GetCLSID</a> method, the filter host uses the out parameters from <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">IUrlAccessor::GetFileName</a> to determine the Multipurpose Internet Mail Extensions (MIME) content type.
-

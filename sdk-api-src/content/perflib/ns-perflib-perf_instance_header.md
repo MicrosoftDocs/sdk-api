@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_INSTANCE_HEADER
- - PPERF_INSTANCE_HEADER
  - PERF_INSTANCE_HEADER
 ---
 
@@ -115,4 +113,3 @@ contain <b>PERF_INSTANCE_HEADER</b> blocks within the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
-

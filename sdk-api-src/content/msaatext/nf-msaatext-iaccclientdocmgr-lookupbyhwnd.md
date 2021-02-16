@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccClientDocMgr::LookupByHWND
+ - IAccClientDocMgr.LookupByHWND
 ---
 
 # IAccClientDocMgr::LookupByHWND
@@ -104,4 +104,3 @@ If the <b>HWND</b> does not correspond to an active document, then <i>ppunk</i> 
 ## -remarks
 
 Servers might need to poll this method more than once before they receive a document. There can be a limited time lapse (approximately second) between when a document appears in the system and when it is registered with document services.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetProductInfoW
  - msi/MsiGetProductInfoW
- - MsiGetProductInfo
- - msi/MsiGetProductInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiGetProductInfoW
  - MsiGetProductInfo
+ - MsiGetProductInfoA
+ - MsiGetProductInfoW
 ---
 
 # MsiGetProductInfoW function
@@ -448,4 +447,3 @@ If you attempt to use <b>MsiGetProductInfo</b> to query an advertised product  f
 
 
 <a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectVectorVariable::SetBoolVector
+ - ID3D10EffectVectorVariable.SetBoolVector
 ---
 
 # ID3D10EffectVectorVariable::SetBoolVector
@@ -69,4 +69,3 @@ Returns one of the following <a href="/windows/desktop/direct3d10/d3d10-graphics
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvectorvariable">ID3D10EffectVectorVariable Interface</a>
-

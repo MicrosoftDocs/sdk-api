@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration::put_AllowPersonalCoverPages
+ - IFaxConfiguration.AllowPersonalCoverPages
+ - IFaxConfiguration.get_AllowPersonalCoverPages
+ - IFaxConfiguration.put_AllowPersonalCoverPages
 ---
 
 # IFaxConfiguration::put_AllowPersonalCoverPages
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
-

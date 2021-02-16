@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineagententry_tag
- - LPLINEAGENTENTRY
  - LINEAGENTENTRY
 ---
 
@@ -98,4 +96,3 @@ Offset from the beginning of the structure to a <b>null</b>-terminated string th
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-lineagentlist">LINEAGENTLIST</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::CloseApplication
+ - AzAuthorizationStore.CloseApplication
+ - IAzAuthorizationStore.CloseApplication
 ---
 
 # IAzAuthorizationStore::CloseApplication
@@ -91,4 +92,3 @@ All child objects of the specified <a href="/windows/desktop/api/azroles/nn-azro
 </td>
 </tr>
 </table>
-

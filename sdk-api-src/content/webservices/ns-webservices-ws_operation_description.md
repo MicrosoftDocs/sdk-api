@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_OPERATION_DESCRIPTION
  - WS_OPERATION_DESCRIPTION
 ---
 
@@ -103,4 +102,3 @@ A pointer to the stub function for the given operation to which the service mode
                     to do the service operation call. This will be <b>NULL</b> for proxies.
 
 ### -field style
-

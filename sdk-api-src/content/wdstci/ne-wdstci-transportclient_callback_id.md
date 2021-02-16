@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Wdstci.h
 api_name:
- - _TRANSPORTCLIENT_CALLBACK_ID
- - PTRANSPORTCLIENT_CALLBACK_ID
- - TRANSPORTCLIENT_CALLBACK_ID
+ - TRANSPORTCLIENT_CALLBACK_ID,*PTRANSPORTCLIENT_CALLBACK_ID
 ---
 
 # TRANSPORTCLIENT_CALLBACK_ID enumeration
@@ -85,4 +83,3 @@ Identifies the <a href="/windows/desktop/api/wdstci/nc-wdstci-pfn_wdstransportcl
 ### -field WDS_TRANSPORTCLIENT_MAX_CALLBACKS
 
 Used for validation checking.
-

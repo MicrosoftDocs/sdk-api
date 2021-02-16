@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_PropertyConditions
+ - IFsrmFileManagementJob.PropertyConditions
+ - IFsrmFileManagementJob.get_PropertyConditions
 ---
 
 # IFsrmFileManagementJob::get_PropertyConditions
@@ -73,4 +74,3 @@ To specify a property condition for the job, call the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

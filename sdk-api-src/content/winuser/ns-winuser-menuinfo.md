@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMENUINFO
- - LPMENUINFO
  - MENUINFO
 ---
 
@@ -258,4 +256,3 @@ An application-defined value.
 ## -see-also
 
 <a href="/windows/desktop/menurc/menus">Menus Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataDispenserEx::SetOption
+ - IMetaDataDispenserEx.SetOption
 ---
 
 # IMetaDataDispenserEx::SetOption
@@ -174,4 +174,3 @@ The following table lists the available GUIDs that the <i>optionId</i> parameter
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::SetTextRenderingHint
+ - Graphics.SetTextRenderingHint
 ---
 
 # Graphics::SetTextRenderingHint
@@ -139,4 +139,3 @@ VOID Example_SetTextRenderingHint(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-textrenderinghint">TextRenderingHint</a>
-

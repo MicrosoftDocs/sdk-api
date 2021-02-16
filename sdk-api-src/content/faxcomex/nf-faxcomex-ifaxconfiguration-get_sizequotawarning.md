@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration::get_SizeQuotaWarning
+ - IFaxConfiguration.SizeQuotaWarning
+ - IFaxConfiguration.get_SizeQuotaWarning
+ - IFaxConfiguration.put_SizeQuotaWarning
 ---
 
 # IFaxConfiguration::get_SizeQuotaWarning
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2::GetMyRoles
+ - ICertAdmin2.GetMyRoles
 ---
 
 # ICertAdmin2::GetMyRoles
@@ -232,4 +232,3 @@ Caller has read access.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
-

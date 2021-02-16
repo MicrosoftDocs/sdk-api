@@ -46,8 +46,6 @@ api_type:
 api_location:
  - netioapi.h
 api_name:
- - _MIB_IF_TABLE_LEVEL
- - PMIB_IF_TABLE_LEVEL
  - MIB_IF_TABLE_LEVEL
 ---
 
@@ -102,4 +100,3 @@ The MIB_IF_TABLE_LEVEL enumeration type is used with the
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff559224(v=vs.85)">MIB_IF_TABLE2</a>
-

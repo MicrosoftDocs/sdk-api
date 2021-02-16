@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsMgr.dll
 api_name:
- - IBITSExtensionSetup::GetCleanupTaskName
+ - IBITSExtensionSetup.GetCleanupTaskName
 ---
 
 # IBITSExtensionSetup::GetCleanupTaskName
@@ -79,4 +79,3 @@ Use the <i>pTaskName</i> name as an input parameter to the Schtasks.exe executab
 
 
 <a href="/windows/desktop/api/bitscfg/nf-bitscfg-ibitsextensionsetup-getcleanuptask">IBITSExtensionSetup::GetCleanupTask</a>
-

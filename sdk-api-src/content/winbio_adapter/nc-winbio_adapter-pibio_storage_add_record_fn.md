@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_ADD_RECORD_FN
+ - StorageAdapterAddRecord
 ---
 
 # PIBIO_STORAGE_ADD_RECORD_FN callback function
@@ -517,4 +517,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_delete_record_fn">StorageAdapterDeleteRecord</a>
-

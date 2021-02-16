@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACE_HEADER
  - ACE_HEADER
 ---
 
@@ -469,4 +468,3 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-system_alarm_object_ace">SYSTEM_AUDIT_OBJECT_ACE</a>
-

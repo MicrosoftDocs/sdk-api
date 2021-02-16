@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DlgDirSelectComboBoxExA
  - winuser/DlgDirSelectComboBoxExA
- - DlgDirSelectComboBoxEx
- - winuser/DlgDirSelectComboBoxEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DlgDirSelectComboBoxExA
  - DlgDirSelectComboBoxEx
+ - DlgDirSelectComboBoxExA
+ - DlgDirSelectComboBoxExW
 ---
 
 # DlgDirSelectComboBoxExA function
@@ -127,4 +126,3 @@ You can use this function with all three types of combo boxes (<a href="/windows
 
 
 <b>Reference</b>
-

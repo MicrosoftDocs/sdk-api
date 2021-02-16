@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwServiceRestriction::ServiceRestricted
+ - INetFwServiceRestriction.ServiceRestricted
 ---
 
 # INetFwServiceRestriction::ServiceRestricted
@@ -184,4 +184,3 @@ The method failed due to an invalid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/netfw/nn-netfw-inetfwservicerestriction">INetFwServiceRestriction</a>
-

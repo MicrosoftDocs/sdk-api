@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextOwnerServices::OnLayoutChange
+ - ITfContextOwnerServices.OnLayoutChange
 ---
 
 # ITfContextOwnerServices::OnLayoutChange
@@ -95,4 +95,3 @@ If a call to <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-ge
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-gettextext">ITfContextView::GetTextExt
       </a>
-

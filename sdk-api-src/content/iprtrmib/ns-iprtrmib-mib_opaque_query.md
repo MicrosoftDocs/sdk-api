@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
- - _MIB_OPAQUE_QUERY
- - PMIB_OPAQUE_QUERY
  - MIB_OPAQUE_QUERY
 ---
 
@@ -72,4 +70,3 @@ The index of the MIB object to query.
 ## -see-also
 
 <a href="/windows/desktop/api/iprtrmib/ns-iprtrmib-mib_opaque_info">MIB_OPAQUE_INFO</a>
-

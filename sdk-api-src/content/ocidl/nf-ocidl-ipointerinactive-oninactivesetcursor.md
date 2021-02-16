@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPointerInactive::OnInactiveSetCursor
+ - IPointerInactive.OnInactiveSetCursor
 ---
 
 # IPointerInactive::OnInactiveSetCursor
@@ -120,4 +120,3 @@ To avoid rounding errors and to make the job easier on the object implementer, t
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipointerinactive">IPointerInactive</a>
-

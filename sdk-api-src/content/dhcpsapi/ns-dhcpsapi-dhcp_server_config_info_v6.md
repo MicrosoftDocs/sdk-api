@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SERVER_CONFIG_INFO_V6
- - LPDHCP_SERVER_CONFIG_INFO_V6
  - DHCP_SERVER_CONFIG_INFO_V6
 ---
 

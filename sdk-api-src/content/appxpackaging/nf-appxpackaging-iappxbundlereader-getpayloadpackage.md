@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleReader::GetPayloadPackage
+ - IAppxBundleReader.GetPayloadPackage
 ---
 
 # IAppxBundleReader::GetPayloadPackage
@@ -97,4 +97,3 @@ You can pass the file object’s stream into <a href="/windows/desktop/api/appxp
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlereader">IAppxBundleReader</a>
-

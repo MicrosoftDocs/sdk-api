@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFAudioPolicy::SetDisplayName
+ - IMFAudioPolicy.SetDisplayName
 ---
 
 # IMFAudioPolicy::SetDisplayName
@@ -92,4 +92,3 @@ If the application does not set a display name, Windows creates one.
 
 
 <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Audio Renderer</a>
-

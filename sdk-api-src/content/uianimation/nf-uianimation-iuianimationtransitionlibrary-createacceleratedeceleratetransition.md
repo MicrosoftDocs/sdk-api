@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
+ - IUIAnimationTransitionLibrary.CreateAccelerateDecelerateTransition
 ---
 
 # IUIAnimationTransitionLibrary::CreateAccelerateDecelerateTransition
@@ -104,4 +104,3 @@ For an example, see <a href="/windows/desktop/UIAnimation/updating---timer-drive
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary">IUIAnimationTransitionLibrary</a>
-

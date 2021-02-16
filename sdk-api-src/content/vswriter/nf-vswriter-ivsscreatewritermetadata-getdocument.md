@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata::GetDocument
+ - IVssCreateWriterMetadata.GetDocument
 ---
 
 # IVssCreateWriterMetadata::GetDocument

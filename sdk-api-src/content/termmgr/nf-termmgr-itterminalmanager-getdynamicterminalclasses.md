@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalManager::GetDynamicTerminalClasses
+ - ITTerminalManager.GetDynamicTerminalClasses
 ---
 
 # ITTerminalManager::GetDynamicTerminalClasses
@@ -127,4 +127,3 @@ Dynamic terminals not supported on this address.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager">ITTerminalManager</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WNetGetUserW
  - winnetwk/WNetGetUserW
- - WNetGetUser
- - winnetwk/WNetGetUser
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetGetUserW
  - WNetGetUser
+ - WNetGetUserA
+ - WNetGetUserW
 ---
 
 # WNetGetUserW function
@@ -226,4 +225,3 @@ int wmain(int argc, wchar_t * argv[])
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

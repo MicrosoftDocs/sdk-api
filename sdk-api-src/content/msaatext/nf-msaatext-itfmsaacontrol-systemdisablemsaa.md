@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfMSAAControl::SystemDisableMSAA
+ - ITfMSAAControl.SystemDisableMSAA
 ---
 
 # ITfMSAAControl::SystemDisableMSAA
@@ -94,4 +94,3 @@ An unspecified error occurred.
 
 
 <a href="/previous-versions/ms971350(v=msdn.10)">Microsoft Active Accessibility</a>
-

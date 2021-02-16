@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_SENSOR_PIPELINE_INIT_FN
+ - SensorAdapterPipelineInit
 ---
 
 # PIBIO_SENSOR_PIPELINE_INIT_FN callback function
@@ -87,4 +87,3 @@ The Sensor Adapter should return <b>S_OK</b> if it doesn’t need to perform any
 When this routine is called, the <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_attach_fn">EngineAdapterAttach</a>, <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_attach_fn">StorageAdapterAttach</a>, <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_pipeline_init_fn">EngineAdapterPipelineInit</a>, and <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_pipeline_init_fn">StorageAdapterPipelineInit</a> routines have completed normally.
 
 This method executes in the context of an arbitrary RPC server thread.
-

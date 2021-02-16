@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardListReaderGroupsA
  - winscard/SCardListReaderGroupsA
- - SCardListReaderGroups
- - winscard/SCardListReaderGroups
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardListReaderGroupsA
  - SCardListReaderGroups
+ - SCardListReaderGroupsA
+ - SCardListReaderGroupsW
 ---
 
 # SCardListReaderGroupsA function
@@ -234,4 +233,3 @@ else
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
-

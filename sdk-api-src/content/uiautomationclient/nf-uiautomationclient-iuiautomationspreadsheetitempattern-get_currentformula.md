@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
+ - IUIAutomationSpreadsheetItemPattern.CurrentFormula
+ - IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
 ---
 
 # IUIAutomationSpreadsheetItemPattern::get_CurrentFormula
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationspreadsheetitempattern">IUIAutomationSpreadsheetItemPattern</a>
-

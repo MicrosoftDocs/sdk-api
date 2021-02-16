@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IConstructReplicaKeyMap::FindOrAddReplica
+ - IConstructReplicaKeyMap.FindOrAddReplica
 ---
 
 # IConstructReplicaKeyMap::FindOrAddReplica
@@ -109,4 +109,3 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iconstructreplicakeymap">IConstructReplicaKeyMap Interface</a>
-

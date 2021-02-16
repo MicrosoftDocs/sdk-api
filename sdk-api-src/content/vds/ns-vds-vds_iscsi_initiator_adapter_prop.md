@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_INITIATOR_ADAPTER_PROP
  - VDS_ISCSI_INITIATOR_ADAPTER_PROP
 ---
 
@@ -71,4 +70,3 @@ A null-terminated, human-readable string that is the name of the initiator adapt
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsiscsiinitiatoradapter-getproperties">IVdsIscsiInitiatorAdapter::GetProperties</a>
-

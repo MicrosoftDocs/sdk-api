@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wdstptmgmt.h
 api_name:
- - __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0002
- - PWDSTRANSPORT_PROTOCOL_FLAGS
  - WDSTRANSPORT_PROTOCOL_FLAGS
 ---
 

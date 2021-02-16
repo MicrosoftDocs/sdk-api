@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine::AuthorizeConnection
+ - ITSGPolicyEngine.AuthorizeConnection
 ---
 
 # ITSGPolicyEngine::AuthorizeConnection
@@ -127,4 +127,3 @@ For a sample that uses the <b>AuthorizeConnection</b> method, see the [Remote De
 
 
 <a href="/windows/desktop/api/tsgpolicyengine/nf-tsgpolicyengine-itsgpolicyengine-isquarantineenabled">IsQuarantineEnabled</a>
-

@@ -9,8 +9,6 @@ tech.root: wsw
 f1_keywords:
  - icontentprefetchertasktrigger
  - icontentprefetchertasktrigger/icontentprefetchertasktrigger
-api_name:
- - icontentprefetchertasktrigger
 ---
 
 # Icontentprefetchertasktrigger.h header

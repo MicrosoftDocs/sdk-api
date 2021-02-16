@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback::OnReady
+ - IWTSProtocolConnectionCallback.OnReady
 ---
 
 # IWTSProtocolConnectionCallback::OnReady
@@ -69,4 +69,3 @@ The protocol must call this method after the Remote Desktop Services service cal
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnectioncallback">IWTSProtocolConnectionCallback</a>
-

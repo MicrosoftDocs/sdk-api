@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsController::GetPortProperties
+ - IVdsController.GetPortProperties
 ---
 
 # IVdsController::GetPortProperties
@@ -147,4 +147,3 @@ Use the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdscontroller-getpro
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_port_prop">VDS_PORT_PROP</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4::get_CachedLevel
+ - IUIAutomationElement4.CachedLevel
+ - IUIAutomationElement4.get_CachedLevel
 ---
 
 # IUIAutomationElement4::get_CachedLevel
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4">IUIAutomationElement4</a>
-

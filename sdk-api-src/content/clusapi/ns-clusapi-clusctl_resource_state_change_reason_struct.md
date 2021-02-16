@@ -46,9 +46,7 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
- - PCLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
- - CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT
+ - CLUSCTL_RESOURCE_STATE_CHANGE_REASON
 ---
 
 # CLUSCTL_RESOURCE_STATE_CHANGE_REASON_STRUCT structure
@@ -139,4 +137,3 @@ This reason code is never sent by the cluster.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

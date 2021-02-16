@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILESYSTEM_STATISTICS_EX
- - PFILESYSTEM_STATISTICS_EX
  - FILESYSTEM_STATISTICS_EX
 ---
 
@@ -219,4 +217,3 @@ The number of read and write operations measured is the number of paging operati
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_statistics_ex">NTFS_STATISTICS_EX</a>
-

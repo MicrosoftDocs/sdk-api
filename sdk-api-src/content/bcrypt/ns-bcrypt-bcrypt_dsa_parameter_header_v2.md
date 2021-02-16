@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_DSA_PARAMETER_HEADER_V2
  - BCRYPT_DSA_PARAMETER_HEADER_V2
 ---
 
@@ -105,4 +104,3 @@ The number of iterations performed to generate the prime number q from the seed.
 
 
 <a href="/windows/desktop/SecCNG/cng-property-identifiers">Cryptography Primitive Property Identifiers</a>
-

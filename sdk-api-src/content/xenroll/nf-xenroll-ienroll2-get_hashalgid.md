@@ -42,7 +42,12 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2::get_HashAlgID
+ - IEnroll2.HashAlgID
+ - IEnroll2.get_HashAlgID
+ - IEnroll2.put_HashAlgID
+ - IEnroll4.HashAlgID
+ - IEnroll4.get_HashAlgID
+ - IEnroll4.put_HashAlgID
 ---
 
 # IEnroll2::get_HashAlgID
@@ -77,4 +82,3 @@ The values for this property are <a href="/windows/desktop/SecGloss/h-gly">hash 
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

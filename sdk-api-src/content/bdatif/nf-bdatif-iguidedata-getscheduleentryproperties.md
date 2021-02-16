@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideData::GetScheduleEntryProperties
+ - IGuideData.GetScheduleEntryProperties
 ---
 
 # IGuideData::GetScheduleEntryProperties
@@ -127,4 +127,3 @@ The method fails if the TIF has not received the schedule information from the P
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedata">IGuideData Interface</a>
-

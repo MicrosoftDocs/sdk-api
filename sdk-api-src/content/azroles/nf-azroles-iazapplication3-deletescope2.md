@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication3::DeleteScope2
+ - IAzApplication3.DeleteScope2
 ---
 
 # IAzApplication3::DeleteScope2
@@ -67,4 +67,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -remarks
 
 If any references to an <a href="/windows/desktop/api/azroles/nn-azroles-iazscope2">IAzScope2</a> object have been deleted from the cache, you can no longer user that object. In C++, you must release references to deleted <b>IAzScope2</b> objects by calling the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnknown::Release</a> method. In Visual Basic, references to deleted objects are automatically released.
-

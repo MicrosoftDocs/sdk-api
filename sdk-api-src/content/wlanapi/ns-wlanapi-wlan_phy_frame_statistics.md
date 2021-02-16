@@ -45,7 +45,6 @@ api_location:
  - wlanapi.h
 api_name:
  - WLAN_PHY_FRAME_STATISTICS
- - PWLAN_PHY_FRAME_STATISTICS
 ---
 
 # WLAN_PHY_FRAME_STATISTICS structure
@@ -132,4 +131,3 @@ Contains the number of times an FCS error has been detected in a received MPDU.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_statistics">WLAN_STATISTICS</a>
-

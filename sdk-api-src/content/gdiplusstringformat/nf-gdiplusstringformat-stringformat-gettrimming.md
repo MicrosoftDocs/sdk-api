@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::GetTrimming
+ - StringFormat.GetTrimming
 ---
 
 # StringFormat::GetTrimming
@@ -63,4 +63,3 @@ Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimmi
 
 This method returns an element of the 
 						<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-stringtrimming">StringTrimming</a> enumeration.
-

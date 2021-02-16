@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_DRIVE_PROP2
- - PVDS_DRIVE_PROP2
  - VDS_DRIVE_PROP2
 ---
 
@@ -140,4 +138,3 @@ The spindle speed of the drive, in RPM. The default value for this member is zer
 ## -remarks
 
 This structure is used by the <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsdrive2-getproperties2">IVdsDrive2::GetProperties2</a> method to return the properties for a <a href="/windows/desktop/VDS/drive-object">drive object</a>.
-

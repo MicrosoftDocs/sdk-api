@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRPOLYDRAW
- - PEMRPOLYDRAW
  - EMRPOLYDRAW
 ---
 
@@ -103,4 +101,3 @@ An array of values that specifies how each point in the <b>aptl</b> array is use
 
 
 <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
-

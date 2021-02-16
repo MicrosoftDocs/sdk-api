@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMF2DBuffer::ContiguousCopyTo
+ - IMF2DBuffer.ContiguousCopyTo
 ---
 
 # IMF2DBuffer::ContiguousCopyTo
@@ -111,4 +111,3 @@ If the original buffer is not contiguous, this method converts the contents into
 
 
 <a href="/windows/desktop/medfound/uncompressed-video-buffers">Uncompressed Video Buffers</a>
-

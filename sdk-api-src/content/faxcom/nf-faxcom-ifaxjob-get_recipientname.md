@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_RecipientName
+ - IFaxJob.RecipientName
+ - IFaxJob.get_RecipientName
 ---
 
 # IFaxJob::get_RecipientName
@@ -77,4 +78,3 @@ If the recipient's name is not available, the <b>IFaxJob::get_RecipientName</b> 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpegAudioDecoder::put_DualMode
+ - IMpegAudioDecoder.put_DualMode
 ---
 
 # IMpegAudioDecoder::put_DualMode
@@ -115,4 +115,3 @@ This method is useful for karaoke discs in Video CD (VCD) format that have two m
 ## -see-also
 
 <a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
-

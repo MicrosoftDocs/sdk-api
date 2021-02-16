@@ -42,7 +42,7 @@ api_type:
 api_location:
  - unknwnbase.h
 api_name:
- - IClassFactory::LockServer
+ - IClassFactory.LockServer
 ---
 
 # IClassFactory::LockServer
@@ -81,4 +81,3 @@ The process that locks the object application is responsible for unlocking it. A
 
 
 <a href="/windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory">IClassFactory</a>
-

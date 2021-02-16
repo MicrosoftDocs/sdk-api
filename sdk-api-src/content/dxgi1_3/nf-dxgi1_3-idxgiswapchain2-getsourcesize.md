@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGISwapChain2::GetSourceSize
+ - IDXGISwapChain2.GetSourceSize
 ---
 
 # IDXGISwapChain2::GetSourceSize
@@ -76,4 +76,3 @@ The current height of the source region of the swap chain. This value can range 
 
 
 <a href="/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgiswapchain2-setsourcesize">SetSourceSize</a>
-

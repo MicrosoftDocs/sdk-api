@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext::GetProperty
+ - ITfContext.GetProperty
 ---
 
 # ITfContext::GetProperty
@@ -135,4 +135,3 @@ An application or text service can define unique properties identified by a GUID
 ## -see-also
 
 [ITfContext interface](nn-msctf-itfcontext.md), [ITfProperty interface](nn-msctf-itfproperty.md), [Predefined Properties](/windows/desktop/TSF/predefined-properties)
-

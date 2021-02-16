@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpplug.h
 api_name:
- - IWMPPluginUI::GetProperty
+ - IWMPPluginUI.GetProperty
 ---
 
 # IWMPPluginUI::GetProperty
@@ -134,4 +134,3 @@ This method is not called when a display area, settings area, or metadata area p
 ## -see-also
 
 <a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-

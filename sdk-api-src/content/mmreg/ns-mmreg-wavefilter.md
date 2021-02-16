@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmreg.h
 api_name:
- - wavefilter_tag
  - WAVEFILTER
 ---
 
@@ -80,4 +79,3 @@ Reserved for system use; should not be examined or modified by an application.
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-

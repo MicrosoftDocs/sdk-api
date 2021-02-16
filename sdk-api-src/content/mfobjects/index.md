@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - mfobjects
  - mfobjects/mfobjects
-api_name:
- - mfobjects
 ---
 
 # Mfobjects.h header

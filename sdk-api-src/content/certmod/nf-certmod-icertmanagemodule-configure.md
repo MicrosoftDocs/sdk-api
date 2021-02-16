@@ -43,7 +43,8 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertManageModule::Configure
+ - ICertManageModule.Configure
+ - CCertManageModule.Configure
 ---
 
 # ICertManageModule::Configure
@@ -111,4 +112,3 @@ HRESULT CCertManagePolicyModule::Configure(
 
 
 <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a>
-

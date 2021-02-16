@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CUSTOM_HTTP_PROXY
  - WS_CUSTOM_HTTP_PROXY
 ---
 
@@ -79,4 +78,3 @@ A semicolon-separated list of the proxy servers to be used by the channel. Each
 A semicolon separated list of servers which must be bypassed by the proxy. 
                     The bypass list can contain the string &lt;local&gt; to indicate that 
                     all local machine servers are bypassed.
-

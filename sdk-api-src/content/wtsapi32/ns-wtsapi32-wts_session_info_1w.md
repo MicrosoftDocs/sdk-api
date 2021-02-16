@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTS_SESSION_INFO_1W
- - PWTS_SESSION_INFO_1W
+ - WTS_SESSION_INFO_1
+ - WTS_SESSION_INFO_1A
  - WTS_SESSION_INFO_1W
 ---
 
@@ -113,4 +113,3 @@ The session represented by this structure could be a session running directly on
 
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_session_infoa">WTS_SESSION_INFO</a>
-

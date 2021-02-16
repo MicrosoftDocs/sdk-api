@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IEnumStreamBufferRecordingAttrib::Next
+ - IEnumStreamBufferRecordingAttrib.Next
 ---
 
 # IEnumStreamBufferRecordingAttrib::Next
@@ -128,4 +128,3 @@ The caller allocates the array of <a href="/previous-versions/windows/desktop/ap
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-ienumstreambufferrecordingattrib">IEnumStreamBufferRecordingAttrib Interface</a>
-

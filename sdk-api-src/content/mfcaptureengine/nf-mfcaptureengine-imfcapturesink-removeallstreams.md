@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSink::RemoveAllStreams
+ - IMFCaptureSink.RemoveAllStreams
 ---
 
 # IMFCaptureSink::RemoveAllStreams
@@ -65,4 +65,3 @@ You can use this method to reconfigure the sink.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
-

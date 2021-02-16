@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_CONNECTION_ATTRIBUTES
- - PWLAN_CONNECTION_ATTRIBUTES
  - WLAN_CONNECTION_ATTRIBUTES
 ---
 
@@ -87,4 +85,3 @@ A <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_security_attributes">WLA
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
-

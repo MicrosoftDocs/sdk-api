@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITSubStream::PauseSubStream
+ - ITSubStream.PauseSubStream
 ---
 
 # ITSubStream::PauseSubStream
@@ -108,4 +108,3 @@ A call to
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

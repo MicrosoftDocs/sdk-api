@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - MilPoint2D
+ - MIL_2DPOINTD
 ---
 
 # MilPoint2D structure

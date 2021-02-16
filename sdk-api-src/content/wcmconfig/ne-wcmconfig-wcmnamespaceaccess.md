@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WcmConfig.h
 api_name:
- - __MIDL___MIDL_itf_wcmconfig_0000_0000_0007
  - WcmNamespaceAccess
 ---
 
@@ -64,4 +63,3 @@ Request read-only access.
 ### -field ReadWriteAccess
 
 Request read and write access.
-

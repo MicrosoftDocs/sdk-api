@@ -43,6 +43,7 @@ api_location:
  - certenroll.h
  - wincrypt.h
 api_name:
+ - (FNIMPORTPFXTOPROVIDER)
  - ImportPFXToProvider
 ---
 
@@ -99,4 +100,3 @@ Pointer to DWORD that receives  the number of certificates successfully imported
 ### -param prgpCertOut [out, optional]
 
 Pointer to a pointer that receives a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CERT_CONTEXT</a> structure (can be nullptr).
-

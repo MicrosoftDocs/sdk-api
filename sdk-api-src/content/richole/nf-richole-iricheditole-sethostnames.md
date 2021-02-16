@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::SetHostNames
+ - IRichEditOle.SetHostNames
 ---
 
 # IRichEditOle::SetHostNames
@@ -75,4 +75,3 @@ Returns S_OK on success, or a failure code otherwise. E_OUTOFMEMORY is returned 
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-

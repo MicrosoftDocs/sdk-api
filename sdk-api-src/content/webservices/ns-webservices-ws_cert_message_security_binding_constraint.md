@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT
  - WS_CERT_MESSAGE_SECURITY_BINDING_CONSTRAINT
 ---
 

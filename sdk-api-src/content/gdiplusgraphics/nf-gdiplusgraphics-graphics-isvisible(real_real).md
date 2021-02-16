@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::IsVisible
+ - Graphics.IsVisible
 ---
 
 # Graphics::IsVisible(IN REAL,IN REAL)
@@ -80,4 +80,3 @@ If the specified coordinates are inside the visible clipping region, this method
 
 
 <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-isvisibleclipempty">Graphics::IsVisibleClipEmpty</a>
-

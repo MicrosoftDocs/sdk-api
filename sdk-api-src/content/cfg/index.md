@@ -9,8 +9,6 @@ tech.root: devinst
 f1_keywords:
  - cfg
  - cfg/cfg
-api_name:
- - cfg
 ---
 
 # Cfg.h header

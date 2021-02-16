@@ -45,7 +45,6 @@ api_location:
  - shobjidl_core.h
 api_name:
  - EXTRASEARCH
- - LPEXTRASEARCH
 ---
 
 # EXTRASEARCH structure
@@ -74,4 +73,3 @@ A Unicode string containing the search object's friendly name. It will be used t
 Type: <b>WCHAR[2084]</b>
 
 The URL that will be displayed in the search pane.
-

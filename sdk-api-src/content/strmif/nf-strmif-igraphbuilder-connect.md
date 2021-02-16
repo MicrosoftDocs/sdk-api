@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphBuilder::Connect
+ - IGraphBuilder.Connect
 ---
 
 # IGraphBuilder::Connect
@@ -153,4 +153,3 @@ During the connection process, the Filter Graph Manager ignores pins on intermed
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
-

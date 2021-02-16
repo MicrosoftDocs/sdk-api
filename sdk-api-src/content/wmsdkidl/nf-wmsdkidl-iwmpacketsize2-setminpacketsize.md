@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPacketSize2::SetMinPacketSize
+ - IWMPacketSize2.SetMinPacketSize
 ---
 
 # IWMPacketSize2::SetMinPacketSize
@@ -78,4 +78,3 @@ Although larger packets result in a smaller file, they can also make the file mo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize2-getminpacketsize">IWMPacketSize2::GetMinPacketSize</a>
-

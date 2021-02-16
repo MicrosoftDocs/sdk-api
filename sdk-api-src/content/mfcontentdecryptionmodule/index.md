@@ -7,10 +7,8 @@ ms.keywords:
 ms.topic: conceptual
 tech.root: mf
 f1_keywords:
- - mfcontentdecryptionmodule
- - mfcontentdecryptionmodule/mfcontentdecryptionmodule
-api_name:
- - mfcontentdecryptionmodule
+ - Mfcontentdecryptionmodule
+ - Mfcontentdecryptionmodule/Mfcontentdecryptionmodule
 ---
 
 # Mfcontentdecryptionmodule.h header

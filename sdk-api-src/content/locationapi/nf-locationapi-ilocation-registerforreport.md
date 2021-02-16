@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation::RegisterForReport
+ - ILocation.RegisterForReport
 ---
 
 # ILocation::RegisterForReport
@@ -208,4 +208,3 @@ int wmain()
 
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationevents">ILocationEvents</a>
-

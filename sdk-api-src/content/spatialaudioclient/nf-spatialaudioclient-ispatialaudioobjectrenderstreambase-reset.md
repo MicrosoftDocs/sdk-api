@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase::Reset
+ - ISpatialAudioObjectRenderStreamBase.Reset
 ---
 
 # ISpatialAudioObjectRenderStreamBase::Reset
@@ -144,4 +144,3 @@ The stream must have been previously stopped with a call to <a href="/windows/de
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
-

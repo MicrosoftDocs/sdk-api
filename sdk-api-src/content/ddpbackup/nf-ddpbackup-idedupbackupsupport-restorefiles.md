@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
- - IDedupBackupSupport::RestoreFiles
+ - IDedupBackupSupport.RestoreFiles
 ---
 
 # IDedupBackupSupport::RestoreFiles
@@ -204,4 +204,3 @@ The <i>Store</i> parameter is required because the restore engine (implemented b
 
 
 <a href="/previous-versions/windows/desktop/api/ddpbackup/nn-ddpbackup-idedupreadfilecallback">IDedupReadFileCallback</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - _DNS_QUERY_REQUEST
- - PDNS_QUERY_REQUEST
  - DNS_QUERY_REQUEST
 ---
 
@@ -125,4 +123,3 @@ A pointer to a user context.
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsqueryex">DnsQueryEx</a>
-

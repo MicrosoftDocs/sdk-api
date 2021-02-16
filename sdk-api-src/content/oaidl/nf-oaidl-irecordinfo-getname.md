@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IRecordInfo::GetName
+ - IRecordInfo.GetName
 ---
 
 # IRecordInfo::GetName
@@ -123,4 +123,3 @@ The caller must free the BSTR by calling <a href="/previous-versions/windows/des
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-irecordinfo">IRecordInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQueue::get_FinalDisposition
+ - ITQueue.get_FinalDisposition
 ---
 
 # ITQueue::get_FinalDisposition
@@ -129,4 +129,3 @@ Measurement period for this information is switch and/or implementation specific
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itqueue-get_measurementperiod">ITQueue.get_MeasurementPeriod</a>
-

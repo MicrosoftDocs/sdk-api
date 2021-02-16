@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisual::GetName
+ - IXpsOMVisual.GetName
 ---
 
 # IXpsOMVisual::GetName
@@ -106,4 +106,3 @@ This method allocates the memory that is used by the string returned in <i>name<
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

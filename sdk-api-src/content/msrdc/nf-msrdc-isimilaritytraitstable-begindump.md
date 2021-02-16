@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsTable::BeginDump
+ - ISimilarityTraitsTable.BeginDump
 ---
 
 # ISimilarityTraitsTable::BeginDump
@@ -69,4 +69,3 @@ The <b>BeginDump</b> method is used for debugging and garbage collection. It ret
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
-

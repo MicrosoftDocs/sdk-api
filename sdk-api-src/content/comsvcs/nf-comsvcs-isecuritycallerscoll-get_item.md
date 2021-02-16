@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISecurityCallersColl::get_Item
+ - ISecurityCallersColl.get_Item
 ---
 
 # ISecurityCallersColl::get_Item
@@ -75,4 +75,3 @@ Each item in this collection is a <a href="/windows/desktop/cossdk/securityident
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isecuritycallerscoll">ISecurityCallersColl</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetNotifyFlags
+ - IBackgroundCopyJob.GetNotifyFlags
 ---
 
 # IBackgroundCopyJob::GetNotifyFlags
@@ -151,4 +151,3 @@ Must pass the address of <i>pNotifyFlags</i>.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyflags">IBackgroundCopyJob::SetNotifyFlags</a>
-

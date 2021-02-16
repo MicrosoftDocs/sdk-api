@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IStringTable::GetStringLength
+ - IStringTable.GetStringLength
 ---
 
 # IStringTable::GetStringLength
@@ -78,4 +78,3 @@ Use this method to determine the size of the buffer required for
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-istringtable-getstring">IStringTable::GetString</a>
-

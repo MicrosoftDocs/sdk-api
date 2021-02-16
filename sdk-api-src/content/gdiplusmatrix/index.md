@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusmatrix
  - gdiplusmatrix/gdiplusmatrix
-api_name:
- - gdiplusmatrix
 ---
 
 # Gdiplusmatrix.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionControl2::GetSessionInstanceIdentifier
+ - IAudioSessionControl2.GetSessionInstanceIdentifier
 ---
 
 # IAudioSessionControl2::GetSessionInstanceIdentifier
@@ -107,4 +107,3 @@ The audio session is disconnected on the default audio device.
 
 
 <a href="/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
-

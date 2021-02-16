@@ -46,8 +46,6 @@ api_type:
 api_location:
  - msinkaut.h
 api_name:
- - tagINKMETRIC
- - PINKMETRIC
  - INKMETRIC
 ---
 
@@ -137,4 +135,3 @@ Applying italics to a text ink object slants the ink to the right.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinklineinfo-setformat">SetFormat Method</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::RequestAttrsTransitioningAtPosition
+ - ITextStoreACP2.RequestAttrsTransitioningAtPosition
 ---
 
 # ITextStoreACP2::RequestAttrsTransitioningAtPosition
@@ -145,4 +145,3 @@ If the flag TS_ATTR_FIND_WANT_END is set in <i>dwFlags</i>, the method would ret
 
 <a href="/windows/desktop/TSF/ts-attr--constants">TS_ATTR_* Constants
       </a>
-

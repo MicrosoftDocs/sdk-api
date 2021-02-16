@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IVideoProcAmp::get_PowerlineFrequency
+ - IVideoProcAmp.get_PowerlineFrequency
 ---
 
 # IVideoProcAmp::get_PowerlineFrequency
@@ -94,4 +94,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-ivideoprocamp">IVideoProcAmp Interface</a>
-

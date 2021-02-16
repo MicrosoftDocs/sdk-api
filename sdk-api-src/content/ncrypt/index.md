@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - ncrypt
  - ncrypt/ncrypt
-api_name:
- - ncrypt
 ---
 
 # Ncrypt.h header

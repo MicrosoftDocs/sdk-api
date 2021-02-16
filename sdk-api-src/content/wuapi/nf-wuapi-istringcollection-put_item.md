@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IStringCollection::put_Item
+ - IStringCollection.Item
+ - IStringCollection.get_Item
+ - IStringCollection.put_Item
 ---
 
 # IStringCollection::put_Item
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
-

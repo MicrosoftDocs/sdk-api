@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpplug.h
 api_name:
- - IWMPPluginUI::Create
+ - IWMPPluginUI.Create
 ---
 
 # IWMPPluginUI::Create
@@ -75,4 +75,3 @@ This method is called by Windows Media Player for all user interface plug-in typ
 ## -see-also
 
 <a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-

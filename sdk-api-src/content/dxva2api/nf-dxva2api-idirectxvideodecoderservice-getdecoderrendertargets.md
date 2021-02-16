@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoderService::GetDecoderRenderTargets
+ - IDirectXVideoDecoderService.GetDecoderRenderTargets
 ---
 
 # IDirectXVideoDecoderService::GetDecoderRenderTargets
@@ -95,4 +95,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice">IDirectXVideoDecoderService</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::SendCommand
+ - IPortableDeviceService.SendCommand
 ---
 
 # IPortableDeviceService::SendCommand
@@ -90,4 +90,3 @@ The object referenced by the <i>pParameters</i> parameter must specify at least 
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-

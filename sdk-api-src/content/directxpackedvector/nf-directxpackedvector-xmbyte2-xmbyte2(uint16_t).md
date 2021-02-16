@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTE2::XMBYTE2
+ - XMBYTE2.XMBYTE2
 ---
 
 # XMBYTE2::XMBYTE2(uint16_t)
@@ -69,4 +69,3 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmbyte2">XMBYTE2</a>
 
 <a href="/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>
-

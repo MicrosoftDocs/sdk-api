@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterChain::StopChain
+ - IFilterChain.StopChain
 ---
 
 # IFilterChain::StopChain
@@ -74,4 +74,3 @@ Returns S_OK if successful, or an <b>HRESULT</b> value indicating the cause of t
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilterchain">IFilterChain Interface</a>
-

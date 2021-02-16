@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibrarySharingServices::isLibraryShared
+ - IWMPLibrarySharingServices.isLibraryShared
 ---
 
 # IWMPLibrarySharingServices::isLibraryShared
@@ -87,4 +87,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrarysharingservices">IWMPLibrarySharingServices Interface</a>
-

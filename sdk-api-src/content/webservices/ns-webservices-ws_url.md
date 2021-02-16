@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_URL
  - WS_URL
 ---
 
@@ -60,4 +59,3 @@ The abstract base type for all URL schemes used with <a href="/windows/desktop/a
 ### -field scheme
 
 A <a href="/windows/desktop/api/webservices/ne-webservices-ws_url_scheme_type">WS_URL_SCHEME_TYPE</a> structure that describes the type of URL scheme.
-

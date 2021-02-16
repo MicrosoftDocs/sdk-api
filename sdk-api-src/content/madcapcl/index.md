@@ -9,8 +9,6 @@ tech.root: madcap
 f1_keywords:
  - madcapcl
  - madcapcl/madcapcl
-api_name:
- - madcapcl
 ---
 
 # Madcapcl.h header

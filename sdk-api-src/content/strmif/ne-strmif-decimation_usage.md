@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _DECIMATION_USAGE
  - DECIMATION_USAGE
 ---
 
@@ -98,4 +97,3 @@ This mode is the default decimation strategy.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideodecimationproperties">IAMVideoDecimationProperties</a>
-

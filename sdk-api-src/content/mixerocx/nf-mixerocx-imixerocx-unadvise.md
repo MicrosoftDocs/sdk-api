@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::UnAdvise
+ - IMixerOCX.UnAdvise
 ---
 
 # IMixerOCX::UnAdvise
@@ -66,4 +66,3 @@ If the method succeeds, it returns S_OK.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

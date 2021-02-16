@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR::operator=
+ - XMCOLOR.operator =
 ---
 
 # XMCOLOR::operator-assign(XMCOLOR &&)
@@ -69,4 +69,3 @@ Instance of <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedve
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmcolor">XMCOLOR</a>
 
 <a href="https://msdn.microsoft.com/7dbba878-2f03-451f-b02b-75e531b6315b">operator = </a>
-

@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIFile::GetStream
+ - IAVIFile.GetStream
 ---
 
 # IAVIFile::GetStream
@@ -100,4 +100,3 @@ HRESULT GetStream(PAVISTREAM *ppStream,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

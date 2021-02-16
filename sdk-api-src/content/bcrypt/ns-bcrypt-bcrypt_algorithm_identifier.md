@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_ALGORITHM_IDENTIFIER
  - BCRYPT_ALGORITHM_IDENTIFIER
 ---
 
@@ -72,4 +71,3 @@ A set of flags that specify other information about the algorithm. There are cur
 ## -see-also
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptenumalgorithms">BCryptEnumAlgorithms</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisessionSequential2::get_WriteUnitSize
+ - IMultisessionSequential2.get_WriteUnitSize
 ---
 
 # IMultisessionSequential2::get_WriteUnitSize
@@ -358,4 +358,3 @@ Value: 0xC0AA0402
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionsequential2">IMultisessionSequential2</a>
-

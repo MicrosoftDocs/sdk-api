@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORTN2::XMSHORTN2
+ - XMSHORTN2.XMSHORTN2
 ---
 
 # XMSHORTN2::XMSHORTN2(int16_t,int16_t)
@@ -99,4 +99,3 @@ Input values are not normalized. The following pseudocode demonstrates the opera
 
 
 <a href="/windows/desktop/dxmath/xmshortn2-ctor">XMSHORTN2 Constructors</a>
-

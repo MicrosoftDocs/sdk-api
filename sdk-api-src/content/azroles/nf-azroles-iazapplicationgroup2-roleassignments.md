@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzApplicationGroup2::RoleAssignments
+ - IAzApplicationGroup2.RoleAssignments
+ - IAzApplicationGroup2.get_RoleAssignments
 ---
 
 # IAzApplicationGroup2::RoleAssignments
@@ -55,4 +56,3 @@ The <b> RoleAssignments</b> method gets a collection of <a href="/windows/deskto
 This property is read-only.
 
 ## -parameters
-

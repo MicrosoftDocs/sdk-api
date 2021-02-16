@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Size::Size
+ - Size.Size
 ---
 
 # Size::Size(IN INT,IN INT)
@@ -78,4 +78,3 @@ Integer that specifies the initial value of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
-

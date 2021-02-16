@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize::ShowError
+ - ISyncMgrSynchronize.ShowError
 ---
 
 # ISyncMgrSynchronize::ShowError
@@ -123,4 +123,3 @@ Applications can display user interface elements in this method even if the
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-showerrorcompleted">ShowErrorCompleted</a>
-

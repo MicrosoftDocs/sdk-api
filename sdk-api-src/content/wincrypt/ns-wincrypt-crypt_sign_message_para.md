@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_SIGN_MESSAGE_PARA
- - PCRYPT_SIGN_MESSAGE_PARA
  - CRYPT_SIGN_MESSAGE_PARA
 ---
 
@@ -180,4 +178,3 @@ The <b>HashEncryptionAlgorithm</b> and <b>pvHashEncryptionAuxInfo</b> members ca
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsignmessage">CryptSignMessage</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - __MIDL___MIDL_itf_devicetopology_0000_0000_0013
  - ConnectorType
 ---
 
@@ -98,4 +97,3 @@ For more information about connector types, see <a href="/windows/desktop/CoreAu
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iconnector-gettype">IConnector::GetType</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::GetServiceObjectID
+ - IPortableDeviceService.GetServiceObjectID
 ---
 
 # IPortableDeviceService::GetServiceObjectID
@@ -65,4 +65,3 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-

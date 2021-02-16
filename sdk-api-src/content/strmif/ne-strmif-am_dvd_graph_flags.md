@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _AM_DVD_GRAPH_FLAGS
  - AM_DVD_GRAPH_FLAGS
 ---
 
@@ -118,4 +117,3 @@ To use the VMR-9, the decoder's <a href="/windows/desktop/api/strmif/nf-strmif-i
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdgraphbuilder-renderdvdvideovolume">IDvdGraphBuilder::RenderDvdVideoVolume</a>
-

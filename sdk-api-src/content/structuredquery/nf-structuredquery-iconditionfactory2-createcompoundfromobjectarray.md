@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory2::CreateCompoundFromObjectArray
+ - IConditionFactory2.CreateCompoundFromObjectArray
 ---
 
 # IConditionFactory2::CreateCompoundFromObjectArray
@@ -125,4 +125,3 @@ For default options, use the <i>CONDITION_CREATION_DEFAULT</i> flag.
 
 
 <b>Reference</b>
-

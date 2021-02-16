@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive::put_UseArchive
+ - IFaxOutgoingArchive.UseArchive
+ - IFaxOutgoingArchive.get_UseArchive
+ - IFaxOutgoingArchive.put_UseArchive
+ - IFaxOutgoingArchive.get_UseArchive
+ - IFaxOutgoingArchive.put_UseArchive
 ---
 
 # IFaxOutgoingArchive::put_UseArchive
@@ -73,4 +77,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-outgoing-archive">Visual Basic Example</a>
-

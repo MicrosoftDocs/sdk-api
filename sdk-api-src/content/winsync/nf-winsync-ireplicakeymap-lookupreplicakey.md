@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IReplicaKeyMap::LookupReplicaKey
+ - IReplicaKeyMap.LookupReplicaKey
 ---
 
 # IReplicaKeyMap::LookupReplicaKey
@@ -118,4 +118,3 @@ When <i>pbReplicaId</i> is not found.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ireplicakeymap">IReplicaKeyMap Interface</a>
-

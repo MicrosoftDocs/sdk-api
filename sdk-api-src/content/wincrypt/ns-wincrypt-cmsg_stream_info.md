@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_STREAM_INFO
- - PCMSG_STREAM_INFO
  - CMSG_STREAM_INFO
 ---
 
@@ -155,4 +153,3 @@ The input message to be processed as a stream feeds into
 No assumptions can be made about the block size of the output data because the size can vary for several reasons, such as the jitter in output block size caused by the block size for the encryption algorithm when processing an enveloped message, or when blocks that contain the message header and the SignerInfo as defined by PKCS # 7 are processed.
 
 The size of the output block is passed to the callback function in its <i>cbData</i> parameter. The use of output data is determined in the calling application. Typically, output from stream processing will not be persisted in memory as a whole due to memory limitations; rather, it will be serialized to a disk or server file.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::put_enableErrorDialogs
+ - IWMPSettings.put_enableErrorDialogs
 ---
 
 # IWMPSettings::put_enableErrorDialogs
@@ -91,4 +91,3 @@ This method exhibits specific behavior for remoted instances of the Windows Medi
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-get_enableerrordialogs">IWMPSettings::get_enableErrorDialogs</a>
-

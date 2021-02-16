@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_PRESHARED_KEY_AUTHENTICATION1__
  - IKEEXT_PRESHARED_KEY_AUTHENTICATION1
 ---
 
@@ -104,4 +103,3 @@ Applicable only to IKEv2.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API Structures</a>
-

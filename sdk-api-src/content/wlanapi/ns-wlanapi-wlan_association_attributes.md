@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_ASSOCIATION_ATTRIBUTES
- - PWLAN_ASSOCIATION_ATTRIBUTES
  - WLAN_ASSOCIATION_ATTRIBUTES
 ---
 
@@ -95,4 +93,3 @@ Contains the transmission rate of the association.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_attributes">WLAN_CONNECTION_ATTRIBUTES</a>
-

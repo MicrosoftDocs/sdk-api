@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _TRACE_LOGFILE_HEADER
- - PTRACE_LOGFILE_HEADER
  - TRACE_LOGFILE_HEADER
 ---
 
@@ -198,4 +196,3 @@ The first event from any log file contains the data defined in this structure. Y
 
 
 <a href="/windows/desktop/api/timezoneapi/ns-timezoneapi-time_zone_information">TIME_ZONE_INFORMATION</a>
-

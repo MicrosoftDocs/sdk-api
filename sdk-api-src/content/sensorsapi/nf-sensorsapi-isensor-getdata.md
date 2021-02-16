@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::GetData
+ - ISensor.GetData
 ---
 
 # ISensor::GetData
@@ -141,4 +141,3 @@ For an example of how to retrieve sensor data, see <a href="/windows/desktop/Sen
 
 
 <a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
-

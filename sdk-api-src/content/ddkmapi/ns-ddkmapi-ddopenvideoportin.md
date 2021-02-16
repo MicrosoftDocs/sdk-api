@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDOPENVIDEOPORTIN
- - LPDDOPENVIDEOPORTIN
  - DDOPENVIDEOPORTIN
 ---
 
@@ -83,4 +81,3 @@ Contains a value that is passed if the <b>pfnVideoPortClose</b> callback functio
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

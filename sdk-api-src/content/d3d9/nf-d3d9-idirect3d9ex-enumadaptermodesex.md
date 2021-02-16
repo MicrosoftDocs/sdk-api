@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9Ex::EnumAdapterModesEx
+ - IDirect3D9Ex.EnumAdapterModesEx
 ---
 
 # IDirect3D9Ex::EnumAdapterModesEx
@@ -91,4 +91,3 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FindFirstFileTransactedW
  - winbase/FindFirstFileTransactedW
- - FindFirstFileTransacted
- - winbase/FindFirstFileTransacted
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - FindFirstFileTransactedW
  - FindFirstFileTransacted
+ - FindFirstFileTransactedA
+ - FindFirstFileTransactedW
 ---
 
 # FindFirstFileTransactedW function
@@ -321,4 +320,3 @@ SMB 3.0 does not support TxF.
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
-

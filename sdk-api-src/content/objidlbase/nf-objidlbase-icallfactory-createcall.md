@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ICallFactory::CreateCall
+ - ICallFactory.CreateCall
 ---
 
 # ICallFactory::CreateCall
@@ -107,4 +107,3 @@ The <i>riid</i> parameter does not reference the identifier for the asynchronous
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-icallfactory">ICallFactory</a>
-

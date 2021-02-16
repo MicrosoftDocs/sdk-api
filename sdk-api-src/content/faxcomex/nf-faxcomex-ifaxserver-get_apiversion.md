@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer::get_APIVersion
+ - IFaxServer.APIVersion
+ - IFaxServer.get_APIVersion
 ---
 
 # IFaxServer::get_APIVersion
@@ -73,4 +74,3 @@ In general, each new version of the fax server API is fully compatible with prev
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>
-

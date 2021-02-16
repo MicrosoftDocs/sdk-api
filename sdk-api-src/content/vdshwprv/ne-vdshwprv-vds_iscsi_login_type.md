@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_LOGIN_TYPE
  - VDS_ISCSI_LOGIN_TYPE
 ---
 
@@ -84,4 +83,3 @@ A persistent login is performed such that the target is present at startup.
 
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADs::Put
+ - IADs.Put
 ---
 
 # IADs::Put
@@ -165,4 +165,3 @@ CoUninitialize();
 
 <a href="/windows/desktop/ADSI/property-cache-interfaces">Property
   Cache</a>
-

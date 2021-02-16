@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::FreeColumn
+ - IDirectorySearch.FreeColumn
 ---
 
 # IDirectorySearch::FreeColumn
@@ -80,4 +80,3 @@ For other return values, see <a href="/windows/desktop/ADSI/adsi-error-codes">AD
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn">IDirectorySearch::GetColumn</a>
-

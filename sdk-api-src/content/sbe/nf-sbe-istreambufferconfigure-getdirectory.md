@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure::GetDirectory
+ - IStreamBufferConfigure.GetDirectory
 ---
 
 # IStreamBufferConfigure::GetDirectory
@@ -87,4 +87,3 @@ The caller must free the returned string by calling <b>CoTaskMemFree</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure">IStreamBufferConfigure Interface</a>
-

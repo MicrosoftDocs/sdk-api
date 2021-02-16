@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagMETARECORD
- - PMETARECORD
  - METARECORD
 ---
 
@@ -83,4 +81,3 @@ An array of words containing the function parameters, in reverse of the order th
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper::Cancel
+ - INetDiagHelper.Cancel
 ---
 
 # INetDiagHelper::Cancel
@@ -117,4 +117,3 @@ The <b>Cancel</b> method is required when building a Helper Class Extension.
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-

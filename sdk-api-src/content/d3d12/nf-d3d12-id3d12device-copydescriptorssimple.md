@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::CopyDescriptorsSimple
+ - ID3D12Device.CopyDescriptorsSimple
 ---
 
 # ID3D12Device::CopyDescriptorsSimple
@@ -96,4 +96,3 @@ Where applicable, prefer this method to [**ID3D12Device::CopyDescriptors**](/win
 
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-

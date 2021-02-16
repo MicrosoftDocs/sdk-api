@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::Stat
+ - IStorage.Stat
 ---
 
 # IStorage::Stat
@@ -105,4 +105,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/ns-objidl-statstg">STATSTG</a>
-

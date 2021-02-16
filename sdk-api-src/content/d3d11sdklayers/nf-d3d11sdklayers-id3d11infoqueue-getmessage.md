@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue::GetMessage
+ - ID3D11InfoQueue.GetMessage
 ---
 
 # ID3D11InfoQueue::GetMessage
@@ -106,4 +106,3 @@ For an overview see <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklaye
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
-

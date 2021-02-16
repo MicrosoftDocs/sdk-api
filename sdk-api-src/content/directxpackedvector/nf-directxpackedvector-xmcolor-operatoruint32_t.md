@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR::operator uint32_t
+ - XMCOLOR.operator uint32_t
 ---
 
 # XMCOLOR::operator uint32_t
@@ -106,4 +106,3 @@ The fourth 8 bits (bits 24-31) of the return value are the <b>b</b> member (blue
 
 
 <a href="/windows/desktop/dxmath/ovw-xmcolor-operators">XMCOLOR Operators</a>
-

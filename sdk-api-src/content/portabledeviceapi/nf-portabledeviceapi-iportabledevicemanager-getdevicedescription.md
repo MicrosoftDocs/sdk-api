@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager::GetDeviceDescription
+ - IPortableDeviceManager.GetDeviceDescription
 ---
 
 # IPortableDeviceManager::GetDeviceDescription
@@ -129,4 +129,3 @@ At least one of the required arguments was a <b>NULL</b> pointer.
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-

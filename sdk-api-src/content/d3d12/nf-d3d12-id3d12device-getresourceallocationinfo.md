@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::GetResourceAllocationInfo
+ - ID3D12Device.GetResourceAllocationInfo
 ---
 
 ## -description
@@ -90,4 +90,3 @@ When multiple resource descriptions are passed in, the C++ algorithm for calcula
 ## -see-also
 
 <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-

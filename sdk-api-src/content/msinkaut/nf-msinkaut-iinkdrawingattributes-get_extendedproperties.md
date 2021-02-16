@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes::get_ExtendedProperties
+ - IInkDrawingAttributes.ExtendedProperties
+ - IInkDrawingAttributes.get_ExtendedProperties
+ - InkDrawingAttributes.get_ExtendedProperties
 ---
 
 # IInkDrawingAttributes::get_ExtendedProperties
@@ -69,4 +71,3 @@ Applications can use the ExtendedProperties property to access the custom data t
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttributes Class</a>
-

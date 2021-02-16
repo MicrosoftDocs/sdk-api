@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::IsAudioStreamEnabled
+ - IDvdInfo2.IsAudioStreamEnabled
 ---
 
 # IDvdInfo2::IsAudioStreamEnabled
@@ -122,4 +122,3 @@ A DVD can have up to eight separate audio streams, although typically not all th
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

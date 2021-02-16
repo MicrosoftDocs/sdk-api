@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDroppedFrames::GetAverageFrameSize
+ - IAMDroppedFrames.GetAverageFrameSize
 ---
 
 # IAMDroppedFrames::GetAverageFrameSize
@@ -114,4 +114,3 @@ If the device does not report a value, the method might succeed but return zero 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdroppedframes">IAMDroppedFrames Interface</a>
-

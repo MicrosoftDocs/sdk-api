@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_GETPOLARITY
+ - DxGetPolarity
 ---
 
 ## -description
@@ -76,4 +76,3 @@ The <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityininfo">DDGETPOL
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityininfo">DDGETPOLARITYININFO</a>
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpolarityoutinfo">DDGETPOLARITYOUTINFO</a>
-

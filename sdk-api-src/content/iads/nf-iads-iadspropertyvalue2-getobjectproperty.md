@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyValue2::GetObjectProperty
+ - IADsPropertyValue2.GetObjectProperty
 ---
 
 # IADsPropertyValue2::GetObjectProperty
@@ -83,4 +83,3 @@ Returns <b>S_OK</b> if successful or one of the following error codes.
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>
-

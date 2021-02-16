@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::GetVolumeStepInfo
+ - IAudioEndpointVolume.GetVolumeStepInfo
 ---
 
 # IAudioEndpointVolume::GetVolumeStepInfo
@@ -103,4 +103,3 @@ Audio applications can call the <a href="/windows/desktop/api/endpointvolume/nf-
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolume-volumestepup">IAudioEndpointVolume::VolumeStepUp</a>
-

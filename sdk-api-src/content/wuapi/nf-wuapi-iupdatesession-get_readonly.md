@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSession::get_ReadOnly
+ - IUpdateSession.ReadOnly
+ - IUpdateSession.get_ReadOnly
 ---
 
 # IUpdateSession::get_ReadOnly
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesession">IUpdateSession</a>
-

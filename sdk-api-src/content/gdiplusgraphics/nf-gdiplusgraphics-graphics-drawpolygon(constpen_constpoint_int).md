@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::DrawPolygon
+ - Graphics.DrawPolygon
 ---
 
 # Graphics::DrawPolygon(IN const Pen,IN const Point,IN INT)
@@ -134,4 +134,3 @@ VOID Example_DrawPolygon(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-polygons-about">Polygons</a>
-

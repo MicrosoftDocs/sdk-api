@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XpsObjectModel_2.h
 api_name:
- - IXpsOMPackageWriter3D::AddModelTexture
+ - IXpsOMPackageWriter3D.AddModelTexture
 ---
 
 # IXpsOMPackageWriter3D::AddModelTexture
@@ -73,4 +73,3 @@ Each time this method is called, it creates a new part with a specified name, co
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a>
-

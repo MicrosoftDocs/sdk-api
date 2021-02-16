@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::put_Retries
+ - IFaxServer.Retries
+ - IFaxServer.get_Retries
+ - IFaxServer.put_Retries
+ - IFaxServer.get_Retries
+ - IFaxServer.put_Retries
 ---
 
 # IFaxServer::put_Retries
@@ -75,4 +79,3 @@ A transmission might not be sent on the first attempt for various reasons. For e
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
-

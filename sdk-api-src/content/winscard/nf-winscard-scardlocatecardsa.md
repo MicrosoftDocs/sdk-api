@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardLocateCardsA
  - winscard/SCardLocateCardsA
- - SCardLocateCards
- - winscard/SCardLocateCards
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardLocateCardsA
  - SCardLocateCards
+ - SCardLocateCardsA
+ - SCardLocateCardsW
 ---
 
 # SCardLocateCardsA function
@@ -271,4 +270,3 @@ return hr;
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardgetstatuschangea">SCardGetStatusChange</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::SetContext
+ - ICertServerPolicy.SetContext
+ - CCertServerPolicy.SetContext
 ---
 
 # ICertServerPolicy::SetContext
@@ -93,4 +94,3 @@ if (FAILED(hr))
 
 
 <a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
-

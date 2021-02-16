@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMMetaData::AddItem
+ - IWMDMMetaData.AddItem
 ---
 
 # IWMDMMetaData::AddItem
@@ -93,4 +93,3 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-

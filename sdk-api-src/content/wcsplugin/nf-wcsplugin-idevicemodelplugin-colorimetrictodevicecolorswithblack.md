@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
+ - IDeviceModelPlugIn.ColorimetricToDeviceColorsWithBlack
 ---
 
 # IDeviceModelPlugIn::ColorimetricToDeviceColorsWithBlack
@@ -95,4 +95,3 @@ If <i>cColors</i> or <i>cChannels</i> is zero, the return value is E_FAIL.
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
-

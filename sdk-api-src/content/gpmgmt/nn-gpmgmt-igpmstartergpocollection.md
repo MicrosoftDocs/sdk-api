@@ -43,6 +43,11 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMStarterGPOCollection
+ - IGPMStarterGPOCollection.Count
+ - IGPMStarterGPOCollection.get_Count
+ - IGPMStarterGPOCollection.Item
+ - IGPMStarterGPOCollection.get_Item
+ - GPMStarterGPOCollection
 ---
 
 # IGPMStarterGPOCollection interface
@@ -73,4 +78,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMStarterGPOCollection</b> 
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMStarterGPO</a>
-

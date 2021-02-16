@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::GetClipFactor
+ - IFullScreenVideoEx.GetClipFactor
 ---
 
 # IFullScreenVideoEx::GetClipFactor
@@ -99,4 +99,3 @@ Success.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

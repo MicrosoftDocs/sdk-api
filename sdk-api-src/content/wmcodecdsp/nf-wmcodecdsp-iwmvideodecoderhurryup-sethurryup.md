@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMVideoDecoderHurryup::SetHurryup
+ - IWMVideoDecoderHurryup.SetHurryup
 ---
 
 # IWMVideoDecoderHurryup::SetHurryup
@@ -127,4 +127,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmvideodecoderhurryup">IWMVideoDecoderHurryup Interface</a>
-

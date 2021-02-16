@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_CREATE_USER_DESKTOP
+ - WlxCreateUserDesktop
 ---
 
 # PWLX_CREATE_USER_DESKTOP callback function
@@ -150,4 +150,3 @@ The desktop has not been created.
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_return_desktop">WlxSetReturnDesktop</a>
-

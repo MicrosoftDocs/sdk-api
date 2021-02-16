@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog::TruncatePrefix
+ - ILog.TruncatePrefix
 ---
 
 # ILog::TruncatePrefix
@@ -98,4 +98,3 @@ This request is only a hint to the log implementation. The log is free to ignore
 ## -see-also
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
-

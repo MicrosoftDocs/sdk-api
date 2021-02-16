@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICryptAttributes::Add
+ - ICryptAttributes.Add
 ---
 
 # ICryptAttributes::Add
@@ -83,4 +83,3 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
-

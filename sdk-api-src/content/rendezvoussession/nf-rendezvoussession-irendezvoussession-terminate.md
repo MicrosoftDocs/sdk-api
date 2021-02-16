@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RendezvousSession.tlb
 api_name:
- - IRendezvousSession::Terminate
+ - IRendezvousSession.Terminate
 ---
 
 # IRendezvousSession::Terminate
@@ -65,4 +65,3 @@ Application data.
 ## -returns
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

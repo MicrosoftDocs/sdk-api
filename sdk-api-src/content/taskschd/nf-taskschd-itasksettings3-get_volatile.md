@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Taskschd.dll
 api_name:
- - ITaskSettings3::get_Volatile
+ - ITaskSettings3.Volatile
+ - ITaskSettings3.get_Volatile
+ - ITaskSettings3.put_Volatile
 ---
 
 # ITaskSettings3::get_Volatile
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasksettings3">ITaskSettings3</a>
-

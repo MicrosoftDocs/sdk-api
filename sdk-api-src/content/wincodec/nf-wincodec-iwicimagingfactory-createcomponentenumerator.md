@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory::CreateComponentEnumerator
+ - IWICImagingFactory.CreateComponentEnumerator
 ---
 
 # IWICImagingFactory::CreateComponentEnumerator
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Component types must be enumerated seperately. Combinations of component types and <b>WICAllComponents</b> are unsupported.
-

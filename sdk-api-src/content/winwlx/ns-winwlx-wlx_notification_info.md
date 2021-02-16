@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
- - _WLX_NOTIFICATION_INFO
- - PWLX_NOTIFICATION_INFO
  - WLX_NOTIFICATION_INFO
 ---
 
@@ -94,4 +92,3 @@ A handle to the desktop that is currently active.
 ### -field pStatusCallback
 
 Reserved for internal use.
-

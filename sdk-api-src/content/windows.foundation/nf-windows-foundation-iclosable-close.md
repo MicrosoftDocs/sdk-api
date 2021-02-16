@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IClosable::Close
+ - IClosable.Close
 ---
 
 # IClosable::IClosable
@@ -67,4 +67,3 @@ For info on implementing the <b>Close</b> method, see  the Remarks at <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-iclosable">IClosable</a>
-

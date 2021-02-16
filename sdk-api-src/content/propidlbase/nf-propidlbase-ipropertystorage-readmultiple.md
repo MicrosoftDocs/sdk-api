@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::ReadMultiple
+ - IPropertyStorage.ReadMultiple
 ---
 
 # IPropertyStorage::ReadMultiple
@@ -114,4 +114,3 @@ For more information, see
 
 
 <a href="/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
-

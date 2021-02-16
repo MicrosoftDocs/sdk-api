@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment::SetFocus
+ - IRawElementProviderFragment.SetFocus
 ---
 
 # IRawElementProviderFragment::SetFocus
@@ -70,4 +70,3 @@ The Microsoft UI Automation framework will ensure that the part of the interface
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
-

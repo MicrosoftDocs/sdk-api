@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymSrvGetFileIndexes
+ - SymSrvGetFileIndexes
+ - SymSrvGetFileIndexesW
 ---
 
 # SymSrvGetFileIndexes function
@@ -90,4 +92,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 ## -see-also
 
 <a href="/windows/desktop/Debug/dbghelp-functions">DbgHelp Functions</a>
-

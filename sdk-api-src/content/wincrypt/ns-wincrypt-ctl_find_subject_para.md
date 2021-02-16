@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_FIND_SUBJECT_PARA
- - PCTL_FIND_SUBJECT_PARA
  - CTL_FIND_SUBJECT_PARA
 ---
 
@@ -100,4 +98,3 @@ The value of the <b>pvSubject</b> member depends upon the value of the <b>dwSubj
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
-

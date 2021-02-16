@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0015
- - PADS_DN_WITH_BINARY
  - ADS_DN_WITH_BINARY
 ---
 
@@ -87,4 +85,3 @@ When extending the active directory schema to add <b>ADS_DN_WITH_BINARY</b>, you
 
 
 <a href="/windows/desktop/ADSchema/s-object-dn-binary">Object(DN-Binary)</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmCollection::WaitForCompletion
+ - IFsrmCollection.WaitForCompletion
 ---
 
 # IFsrmCollection::WaitForCompletion
@@ -70,4 +70,3 @@ This method is not supported and always returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
-

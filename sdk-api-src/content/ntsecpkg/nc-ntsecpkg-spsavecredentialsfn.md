@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpSaveCredentialsFn
+ - SpSaveCredentials
 ---
 
 # SpSaveCredentialsFn callback function
@@ -88,4 +88,3 @@ A pointer to the <b>SpSaveCredentials</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spmarshallsupplementalcredsfn">SpMarshallSupplementalCreds</a>
-

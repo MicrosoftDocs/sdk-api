@@ -9,8 +9,6 @@ tech.root: p2p
 f1_keywords:
  - peerdist
  - peerdist/peerdist
-api_name:
- - peerdist
 ---
 
 # Peerdist.h header

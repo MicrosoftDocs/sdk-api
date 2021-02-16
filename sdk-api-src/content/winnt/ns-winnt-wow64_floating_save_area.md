@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _WOW64_FLOATING_SAVE_AREA
  - WOW64_FLOATING_SAVE_AREA
 ---
 
@@ -68,4 +67,3 @@ Represents the 80387 save area on WOW64. Refer to the header file WinNT.h for th
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
-

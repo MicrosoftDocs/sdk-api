@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
- - __MIDL___MIDL_itf_msrdc_0000_0000_0012
  - SimilarityData
 ---
 

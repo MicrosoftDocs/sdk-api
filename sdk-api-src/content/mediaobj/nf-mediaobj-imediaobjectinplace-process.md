@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObjectInPlace::Process
+ - IMediaObjectInPlace.Process
 ---
 
 # IMediaObjectInPlace::Process
@@ -128,4 +128,3 @@ If the DMO has no effect tail, this method returns S_TRUE or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>
-

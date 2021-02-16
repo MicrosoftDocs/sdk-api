@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfTextLayoutSink::OnLayoutChange
+ - ITfTextLayoutSink.OnLayoutChange
 ---
 
 # ITfTextLayoutSink::OnLayoutChange
@@ -98,4 +98,3 @@ Each context has a default view for which a reference can be obtained using the 
 
 <a href="/windows/win32/api/msctf/ne-msctf-tflayoutcode">TfLayoutCode
       </a>
-

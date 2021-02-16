@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager::EnumAutoApplyQuotas
+ - IFsrmQuotaManager.EnumAutoApplyQuotas
+ - IFsrmQuotaManagerEx.EnumAutoApplyQuotas
+ - FsrmQuotaManager.EnumAutoApplyQuotas
 ---
 
 # IFsrmQuotaManager::EnumAutoApplyQuotas
@@ -116,4 +118,3 @@ To enumerate quotas that do not automatically apply to the path's subdirectories
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

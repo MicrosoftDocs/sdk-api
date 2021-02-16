@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspstrm.h
 api_name:
- - CMSPStream::ProcessGraphEvent
+ - CMSPStream.ProcessGraphEvent
 ---
 
 # CMSPStream::ProcessGraphEvent
@@ -70,4 +70,3 @@ Implementation-dependent information on the graph event.
 ## -see-also
 
 <a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
-

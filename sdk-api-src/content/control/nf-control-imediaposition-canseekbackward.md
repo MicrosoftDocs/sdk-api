@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::CanSeekBackward
+ - IMediaPosition.CanSeekBackward
 ---
 
 # IMediaPosition::CanSeekBackward
@@ -110,4 +110,3 @@ Not implemented.
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-

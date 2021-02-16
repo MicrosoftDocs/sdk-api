@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
+ - LDAPMod
+ - ldapmodA
  - ldapmodW
- - PLDAPModW
- - LDAPModW
 ---
 
 # LDAPModW structure
@@ -157,4 +157,3 @@ When passing a <b>LDAPMod</b> structure into the <a href="/previous-versions/win
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_modify_s">ldap_modify_s</a>
-

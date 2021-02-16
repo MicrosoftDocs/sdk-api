@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - ISectionList::GetTableIdentifier
+ - ISectionList.GetTableIdentifier
 ---
 
 # ISectionList::GetTableIdentifier
@@ -98,4 +98,3 @@ The TID value is set when the object is first initialized.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
-

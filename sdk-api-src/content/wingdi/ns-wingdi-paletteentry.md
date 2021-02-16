@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagPALETTEENTRY
- - PPALETTEENTRY
  - PALETTEENTRY
 ---
 
@@ -87,4 +85,3 @@ The alpha intensity value for the palette entry. Note that as of DirectX 8, this
 ## -see-also
 
 <a href="/windows/desktop/direct3d9/dx9-graphics-reference-d3d-structures">Direct3D Structures</a>
-

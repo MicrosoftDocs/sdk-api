@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::SetWindowInputRectangle
+ - IInkCollector.SetWindowInputRectangle
 ---
 
 # IInkCollector::SetWindowInputRectangle
@@ -168,4 +168,3 @@ You cannot pass in a rectangle where the value of the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkcollector-class">InkCollector Class</a>
-

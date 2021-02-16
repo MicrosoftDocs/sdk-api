@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl::put_AutoVolumeControlStep
+ - ITAutomatedPhoneControl.put_AutoVolumeControlStep
 ---
 
 # ITAutomatedPhoneControl::put_AutoVolumeControlStep
@@ -78,4 +78,3 @@ The <b>AutoVolumeControlRepeatDelay</b> property is valid only if the value of t
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_autokeypadtones">put_AutoKeypadTones</a>
-

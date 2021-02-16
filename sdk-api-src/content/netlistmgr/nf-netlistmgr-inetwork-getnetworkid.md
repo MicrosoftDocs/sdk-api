@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork::GetNetworkId
+ - INetwork.GetNetworkId
 ---
 
 # INetwork::GetNetworkId
@@ -71,4 +71,3 @@ Calling  <b>GetNetworkId</b> will return S_OK even if the network requested has 
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
-

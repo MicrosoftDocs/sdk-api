@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
+ - SymEnumerateModules64
+ - SymEnumerateModules64
  - SymEnumerateModulesW64
+ - SymEnumerateModules
 ---
 
 # SymEnumerateModulesW64 function
@@ -145,4 +148,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
-

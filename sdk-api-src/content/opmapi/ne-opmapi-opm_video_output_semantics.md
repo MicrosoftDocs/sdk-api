@@ -44,7 +44,6 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - _OPM_VIDEO_OUTPUT_SEMANTICS
  - OPM_VIDEO_OUTPUT_SEMANTICS
 ---
 
@@ -78,4 +77,3 @@ The interface will use OPM semantics.
 
 
 <a href="/windows/desktop/api/opmapi/nf-opmapi-opmgetvideooutputsfromidirect3ddevice9object">OPMGetVideoOutputsFromIDirect3DDevice9Object</a>
-

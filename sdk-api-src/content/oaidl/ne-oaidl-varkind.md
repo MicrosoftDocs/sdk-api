@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagVARKIND
  - VARKIND
 ---
 
@@ -72,4 +71,3 @@ The VARDESC describes a symbolic constant. There is no memory associated with it
 ### -field VAR_DISPATCH
 
 The variable can only be accessed through <a href="/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke">IDispatch::Invoke</a>.
-

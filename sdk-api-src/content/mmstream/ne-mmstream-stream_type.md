@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmstream.h
 api_name:
- - __MIDL___MIDL_itf_mmstream_0000_0000_0001
  - STREAM_TYPE
 ---
 
@@ -78,4 +77,3 @@ Transform streams are read/write where the sample is updated in place.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/multimedia-streaming-types">Multimedia Streaming Enumeration Types</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern::get_CurrentWindowVisualState
+ - IUIAutomationWindowPattern.CurrentWindowVisualState
+ - IUIAutomationWindowPattern.get_CurrentWindowVisualState
 ---
 
 # IUIAutomationWindowPattern::get_CurrentWindowVisualState
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationwindowpattern">IUIAutomationWindowPattern</a>
-

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::Transform
+ - IInkStrokeDisp.Transform
 ---
 
 # IInkStrokeDisp::Transform
@@ -132,4 +132,3 @@ An exception occurred inside the method.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-

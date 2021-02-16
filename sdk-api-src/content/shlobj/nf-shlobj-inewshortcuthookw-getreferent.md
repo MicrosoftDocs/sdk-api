@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
+ - INewShortcutHook.GetReferent
+ - INewShortcutHookA::GetReferent
  - INewShortcutHookW::GetReferent
 ---
 
@@ -75,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 For Internet shortcut objects, this method is the same as <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/dd565674(v=vs.85)">IUniformResourceLocator::GetURL</a>.
-

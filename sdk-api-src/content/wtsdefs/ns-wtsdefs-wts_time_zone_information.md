@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_TIME_ZONE_INFORMATION
- - PWTS_TIME_ZONE_INFORMATION
  - WTS_TIME_ZONE_INFORMATION
 ---
 
@@ -87,4 +85,3 @@ A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wts_systemtime">WTS_SYSTEMTIM
 ### -field DaylightBias
 
 An integer that defines the bias, in minutes, to be used during local time translations that occur during daylight saving time. This value is added to the value of the <b>Bias</b> member to form the bias used during daylight saving time. In most time zones, the value of this field is 60.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory::EnumerateDirectoryObjects
+ - ITDirectory.EnumerateDirectoryObjects
 ---
 
 # ITDirectory::EnumerateDirectoryObjects
@@ -138,4 +138,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-

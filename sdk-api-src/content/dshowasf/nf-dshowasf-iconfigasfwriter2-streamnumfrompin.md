@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter2::StreamNumFromPin
+ - IConfigAsfWriter2.StreamNumFromPin
 ---
 
 # IConfigAsfWriter2::StreamNumFromPin
@@ -77,4 +77,3 @@ You may need to use the Windows Media Format SDK interfaces directly to manipula
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - Provider::ValidateFlags
+ - Provider.ValidateFlags
 ---
 
 # Provider::ValidateFlags
@@ -113,4 +113,3 @@ The values for <i>IAcceptableFlags</i> are limited to the <a href="/previous-ver
         QueryFlags = 0
     };
 ```
-

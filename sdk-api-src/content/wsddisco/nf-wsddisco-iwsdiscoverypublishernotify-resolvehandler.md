@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisherNotify::ResolveHandler
+ - IWSDiscoveryPublisherNotify.ResolveHandler
 ---
 
 # IWSDiscoveryPublisherNotify::ResolveHandler
@@ -73,4 +73,3 @@ The return value is not meaningful. An implementer should return S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublishernotify">IWSDiscoveryPublisherNotify</a>
-

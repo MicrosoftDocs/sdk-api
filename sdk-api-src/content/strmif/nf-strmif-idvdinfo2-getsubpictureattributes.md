@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetSubpictureAttributes
+ - IDvdInfo2.GetSubpictureAttributes
 ---
 
 # IDvdInfo2::GetSubpictureAttributes
@@ -161,4 +161,3 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::GetSPAt
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-menus">Working With DVD Menus</a>
-

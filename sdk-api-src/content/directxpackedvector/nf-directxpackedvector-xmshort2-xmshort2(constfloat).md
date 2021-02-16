@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORT2::XMSHORT2
+ - XMSHORT2.XMSHORT2
 ---
 
 # XMSHORT2::XMSHORT2(const float)
@@ -80,4 +80,3 @@ instance.y = (int16_t)min( max( pArray[1] -32767.0 ), 32767.0 );
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshort2">XMSHORT2</a>
 
 <a href="/windows/desktop/dxmath/xmshort2-ctor">XMSHORT2 Constructors</a>
-

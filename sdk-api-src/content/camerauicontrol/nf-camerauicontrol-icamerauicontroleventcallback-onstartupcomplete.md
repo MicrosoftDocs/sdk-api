@@ -42,7 +42,7 @@ api_type:
 api_location:
  - camerauicontrol.h
 api_name:
- - ICameraUIControlEventCallback::OnStartupComplete
+ - ICameraUIControlEventCallback.OnStartupComplete
 ---
 
 # ICameraUIControlEventCallback::OnStartupComplete
@@ -57,4 +57,3 @@ Occurs when startup for the camera UI control has completed.
 ## -see-also
 
 <a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback">ICameraUIControlEventCallback</a>
-

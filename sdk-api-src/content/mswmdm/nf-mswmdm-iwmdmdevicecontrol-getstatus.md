@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDeviceControl::GetStatus
+ - IWMDMDeviceControl.GetStatus
 ---
 
 # IWMDMDeviceControl::GetStatus
@@ -153,4 +153,3 @@ You must not attempt to call the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
-

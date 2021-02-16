@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogCollection::PopulateByQuery
+ - ICatalogCollection.PopulateByQuery
 ---
 
 # ICatalogCollection::PopulateByQuery
@@ -94,4 +94,3 @@ Errors occurred while accessing one or more objects.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogcollection">ICatalogCollection</a>
-

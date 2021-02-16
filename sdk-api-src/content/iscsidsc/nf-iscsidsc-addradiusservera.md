@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AddRadiusServerA
  - iscsidsc/AddRadiusServerA
- - AddRadiusServer
- - iscsidsc/AddRadiusServer
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - AddRadiusServerA
  - AddRadiusServer
+ - AddRadiusServerA
+ - AddRadiusServerW
 ---
 
 # AddRadiusServerA function
@@ -97,4 +96,3 @@ When the iSCSI initiator service receives a request from the <b>AddRadiusServer<
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeradiusservera">RemoveRadiusServer</a>
-

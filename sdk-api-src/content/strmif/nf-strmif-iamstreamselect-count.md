@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamSelect::Count
+ - IAMStreamSelect.Count
 ---
 
 # IAMStreamSelect::Count
@@ -99,4 +99,3 @@ The pins are not connected.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamselect">IAMStreamSelect Interface</a>
-

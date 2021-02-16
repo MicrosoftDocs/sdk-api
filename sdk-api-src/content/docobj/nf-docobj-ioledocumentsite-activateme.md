@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentSite::ActivateMe
+ - IOleDocumentSite.ActivateMe
 ---
 
 # IOleDocumentSite::ActivateMe
@@ -109,4 +109,3 @@ If <i>pViewToActivate</i> is <b>NULL</b>, the container can obtain a pointer to 
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>
-

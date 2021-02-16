@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - _DSMCC_ELEMENT
- - PDSMCC_ELEMENT
  - DSMCC_ELEMENT
 ---
 
@@ -83,4 +81,3 @@ Pointer to the next <b>DSMCC_ELEMENT</b> structure in the list, or <b>NULL</b> i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

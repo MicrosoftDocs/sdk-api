@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_MODALS_INFO_1
- - PUSER_MODALS_INFO_1
  - USER_MODALS_INFO_1
 ---
 
@@ -144,4 +142,3 @@ Pointer to a Unicode string that specifies the name of the domain controller tha
 
 
 <a href="/windows/desktop/NetMgmt/user-modal-functions">User Modal Functions</a>
-

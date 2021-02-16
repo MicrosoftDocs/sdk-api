@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_STARTING_PARAMS
- - PCLUS_STARTING_PARAMS
 ---
 
 # CLUS_STARTING_PARAMS structure
@@ -186,4 +185,3 @@ DWORD WINAPI MyDllResourceTypeControl(
 
 
 <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-type-starting-phase2">CLUSCTL_RESOURCE_TYPE_STARTING_PHASE2</a>
-

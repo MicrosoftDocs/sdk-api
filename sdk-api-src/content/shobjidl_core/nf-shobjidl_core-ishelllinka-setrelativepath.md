@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::SetRelativePath
+ - IShellLink.SetRelativePath
+ - IShellLinkA.SetRelativePath
+ - IShellLinkW.SetRelativePath
 ---
 
 # IShellLinkA::SetRelativePath
@@ -128,4 +130,3 @@ Before the shortcut is resolved, set a new relative path, and the Resolve code w
 
 
 <b>IShellLinkW</b>
-

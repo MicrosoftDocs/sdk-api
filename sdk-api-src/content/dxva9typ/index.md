@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - dxva9typ
  - dxva9typ/dxva9typ
-api_name:
- - dxva9typ
 ---
 
 # Dxva9Typ.h header

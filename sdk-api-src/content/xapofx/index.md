@@ -9,8 +9,6 @@ tech.root: xaudio2
 f1_keywords:
  - xapofx
  - xapofx/xapofx
-api_name:
- - xapofx
 ---
 
 # Xapofx.h header

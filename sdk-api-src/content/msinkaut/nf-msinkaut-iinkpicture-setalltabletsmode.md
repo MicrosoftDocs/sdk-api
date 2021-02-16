@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::SetAllTabletsMode
+ - IInkPicture.SetAllTabletsMode
 ---
 
 # IInkPicture::SetAllTabletsMode
@@ -144,4 +144,3 @@ When an ink collector switches from ink collection using a single tablet to ink 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkpicture-setsingletabletintegratedmode">SetSingleTabletIntegratedMode Method</a>
-

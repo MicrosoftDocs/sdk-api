@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Identitystore.h
 api_name:
- - IIdentityStore::GetAt
+ - IIdentityStore.GetAt
 ---
 
 # IIdentityStore::GetAt
@@ -75,4 +75,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -see-also
 
 <a href="/windows/desktop/api/identitystore/nn-identitystore-iidentitystore">IIdentityStore</a>
-

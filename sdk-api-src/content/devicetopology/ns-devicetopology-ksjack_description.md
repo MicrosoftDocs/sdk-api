@@ -45,8 +45,6 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - __MIDL___MIDL_itf_devicetopology_0000_0000_0009
- - PKSJACK_DESCRIPTION
  - KSJACK_DESCRIPTION
 ---
 
@@ -336,4 +334,3 @@ This structure is used by the <a href="/windows/desktop/api/devicetopology/nf-de
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjackdescription-getjackdescription">IKsJackDescription::GetJackDescription</a>
-

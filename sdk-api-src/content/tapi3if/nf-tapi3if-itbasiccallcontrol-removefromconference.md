@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::RemoveFromConference
+ - ITBasicCallControl.RemoveFromConference
 ---
 
 # ITBasicCallControl::RemoveFromConference
@@ -122,4 +122,3 @@ Some service providers do not support this operation while streaming is active. 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineremovefromconference">lineRemoveFromConference</a>
-

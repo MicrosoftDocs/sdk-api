@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wct.h
 api_name:
- - _WAITCHAIN_NODE_INFO
- - PWAITCHAIN_NODE_INFO
  - WAITCHAIN_NODE_INFO
 ---
 
@@ -247,4 +245,3 @@ The number of context switches.
 
 
 <a href="/windows/desktop/api/wct/nc-wct-pwaitchaincallback">WaitChainCallback</a>
-

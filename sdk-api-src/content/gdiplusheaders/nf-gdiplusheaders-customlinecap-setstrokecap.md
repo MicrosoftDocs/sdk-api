@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::SetStrokeCap
+ - CustomLineCap.SetStrokeCap
 ---
 
 # CustomLineCap::SetStrokeCap
@@ -80,4 +80,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION_SCOPE_INFO
- - LPDHCP_OPTION_SCOPE_INFO
  - DHCP_OPTION_SCOPE_INFO
 ---
 
@@ -75,6 +73,10 @@ The <b>DHCP_OPTION_SCOPE_INFO</b> structure defines information about the option
 ### -field ScopeInfo.MScopeInfo.case
 
 ### -field ScopeInfo.MScopeInfo.case.DhcpMScopeOptions
+
+
+
+
 
 ### -field ScopeInfo
 
@@ -111,4 +113,3 @@ Pointer to a Unicode string that contains the multicast scope name (usually repr
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_reserved_scope">DHCP_RESERVED_SCOPE</a>
-

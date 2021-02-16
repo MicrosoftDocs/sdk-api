@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFMEDIASOURCE_CHARACTERISTICS
  - MFMEDIASOURCE_CHARACTERISTICS
 ---
 
@@ -110,4 +109,3 @@ To skip forward or backward in a playlist, call <a href="/windows/desktop/api/mf
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

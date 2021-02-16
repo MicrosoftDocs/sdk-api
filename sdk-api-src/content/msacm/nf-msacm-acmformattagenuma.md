@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - acmFormatTagEnumA
  - msacm/acmFormatTagEnumA
- - acmFormatTagEnum
- - msacm/acmFormatTagEnum
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msacm32.dll
  - Ext-MS-Win-mm-msacm-l1-1-0.dll
 api_name:
- - acmFormatTagEnumA
  - acmFormatTagEnum
+ - acmFormatTagEnumA
+ - acmFormatTagEnumW
 ---
 
 # acmFormatTagEnumA function
@@ -140,4 +139,3 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 
 <a href="/windows/desktop/Multimedia/audio-compression-manager">Audio Compression Manager</a>
-

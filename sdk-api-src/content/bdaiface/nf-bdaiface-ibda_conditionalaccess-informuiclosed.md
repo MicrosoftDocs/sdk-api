@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess::InformUIClosed
+ - IBDA_ConditionalAccess.InformUIClosed
 ---
 
 # IBDA_ConditionalAccess::InformUIClosed
@@ -69,4 +69,3 @@ If the method succeeds, it returns <b>S_OK</b>. It returns <b>S_FALSE</b> if a d
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
-

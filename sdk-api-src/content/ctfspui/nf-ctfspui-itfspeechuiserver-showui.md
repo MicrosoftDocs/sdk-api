@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sptip.dll
 api_name:
- - ITfSpeechUIServer::ShowUI
+ - ITfSpeechUIServer.ShowUI
 ---
 
 # ITfSpeechUIServer::ShowUI
@@ -84,4 +84,3 @@ The method was successful.
 
 <a href="/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
       </a>
-

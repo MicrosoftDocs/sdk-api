@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS
+ - ChangeResTypeProcessForDumps callback
 ---
 
 # PCHANGE_RES_TYPE_PROCESS_FOR_DUMPS callback function
@@ -76,4 +76,3 @@ TBD
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
-

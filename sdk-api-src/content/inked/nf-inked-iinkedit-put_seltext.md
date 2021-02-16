@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::put_SelText
+ - IInkEdit.SelText
+ - IInkEdit.get_SelText
+ - IInkEdit.put_SelText
+ - InkEdit.get_SelText
+ - InkEdit.put_SelText
 ---
 
 # IInkEdit::put_SelText
@@ -68,4 +72,3 @@ Setting <b>SelText</b> to a new value sets <a href="/windows/desktop/api/inked/n
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

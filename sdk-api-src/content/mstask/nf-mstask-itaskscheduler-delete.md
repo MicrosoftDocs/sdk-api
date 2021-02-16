@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler::Delete
+ - ITaskScheduler.Delete
 ---
 
 # ITaskScheduler::Delete
@@ -109,4 +109,3 @@ Not enough memory is available.
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
-

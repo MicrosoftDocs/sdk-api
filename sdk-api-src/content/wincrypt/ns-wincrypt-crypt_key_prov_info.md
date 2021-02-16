@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_KEY_PROV_INFO
- - PCRYPT_KEY_PROV_INFO
  - CRYPT_KEY_PROV_INFO
 ---
 
@@ -192,4 +190,3 @@ Keys used to create and verify digital signatures.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certsetcertificatecontextproperty">CertSetCertificateContextProperty</a>
-

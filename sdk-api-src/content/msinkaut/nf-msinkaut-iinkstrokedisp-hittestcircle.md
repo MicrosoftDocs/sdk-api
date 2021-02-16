@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::HitTestCircle
+ - IInkStrokeDisp.HitTestCircle
 ---
 
 # IInkStrokeDisp::HitTestCircle
@@ -141,4 +141,3 @@ Unexpected parameter or property type.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-nearestpoint">NearestPoint Method [IInkStrokeDisp Interface]</a>
-

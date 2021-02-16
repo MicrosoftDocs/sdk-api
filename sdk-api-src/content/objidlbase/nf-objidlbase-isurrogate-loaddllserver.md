@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISurrogate::LoadDllServer
+ - ISurrogate.LoadDllServer
 ---
 
 # ISurrogate::LoadDllServer
@@ -87,4 +87,3 @@ This class factory's implementation of <a href="/windows/desktop/api/unknwn/nf-u
 
 
 <a href="/windows/desktop/com/writing-a-custom-surrogate">Writing a Custom Surrogate</a>
-

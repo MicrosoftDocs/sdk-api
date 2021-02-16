@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::get_RawViewCondition
+ - IUIAutomation.RawViewCondition
+ - IUIAutomation.get_RawViewCondition
 ---
 
 # IUIAutomation::get_RawViewCondition
@@ -75,4 +76,3 @@ Used by itself, the condition is functionally identical to the one retrieved by 
 
 
 <b>Reference</b>
-

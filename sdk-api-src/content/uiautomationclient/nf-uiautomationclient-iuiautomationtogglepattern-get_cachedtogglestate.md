@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTogglePattern::get_CachedToggleState
+ - IUIAutomationTogglePattern.CachedToggleState
+ - IUIAutomationTogglePattern.get_CachedToggleState
 ---
 
 # IUIAutomationTogglePattern::get_CachedToggleState
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtogglepattern">IUIAutomationTogglePattern</a>
-

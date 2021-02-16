@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheRecord::IsFileValidated
+ - IBitsPeerCacheRecord.IsFileValidated
 ---
 
 # IBitsPeerCacheRecord::IsFileValidated
@@ -95,4 +95,3 @@ The file is available to serve after you validate the file. To validate the file
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceManager2::AddService2
+ - IUpdateServiceManager2.AddService2
 ---
 
 # IUpdateServiceManager2::AddService2
@@ -152,4 +152,3 @@ The update agent and <b>AddService2</b> behave in the following ways depending o
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicemanager2">IUpdateServiceManager2</a>
-

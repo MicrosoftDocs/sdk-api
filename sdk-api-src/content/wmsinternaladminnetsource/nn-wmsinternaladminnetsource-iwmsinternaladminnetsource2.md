@@ -43,6 +43,7 @@ api_location:
  - wmsinternaladminnetsource.h
 api_name:
  - IWMSInternalAdminNetSource2
+ - IWMSInternalAdminNetSource2.FindProxyForURLEx
 ---
 
 # IWMSInternalAdminNetSource2 interface
@@ -72,4 +73,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMSInternalAdminNetSource2</
 
 
 <a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
-

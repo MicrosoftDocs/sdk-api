@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1538
- - PSERVER_INFO_1538
  - SERVER_INFO_1538
 ---
 
@@ -80,4 +78,3 @@ Specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a sing
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

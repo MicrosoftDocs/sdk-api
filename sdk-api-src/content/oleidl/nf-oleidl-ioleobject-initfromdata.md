@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::InitFromData
+ - IOleObject.InitFromData
 ---
 
 # IOleObject::InitFromData
@@ -139,4 +139,3 @@ If the object returns S_FALSE, it cannot initialize itself from the provided dat
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>
-

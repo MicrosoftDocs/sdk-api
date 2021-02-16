@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
- - PCSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
  - CSV_QUERY_VETO_FILE_DIRECT_IO_OUTPUT
 ---
 
@@ -79,4 +77,3 @@ CSV writes the troubleshooting strings to a diagnostic log that, when filtered, 
 ## -see-also
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

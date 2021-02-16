@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::get_CoverpageName
+ - IFaxDoc.CoverpageName
+ - IFaxDoc.get_CoverpageName
+ - IFaxDoc.put_CoverpageName
 ---
 
 # IFaxDoc::get_CoverpageName
@@ -96,4 +98,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

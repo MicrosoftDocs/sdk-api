@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IFileSaveDialog::SetSaveAsItem
+ - IFileSaveDialog.SetSaveAsItem
 ---
 
 # IFileSaveDialog::SetSaveAsItem
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The name of the item is displayed in the file name edit box, and the containing folder is opened in the view. This would generally be used when the application is saving an item that already exists. For new items, use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfilename">IFileDialog::SetFileName</a>.
-

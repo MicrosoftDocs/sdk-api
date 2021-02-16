@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_THREAD_EX
- - PMINIDUMP_THREAD_EX
  - MINIDUMP_THREAD_EX
 ---
 
@@ -102,4 +100,3 @@ A
 
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_memory_descriptor">MINIDUMP_MEMORY_DESCRIPTOR</a>
-

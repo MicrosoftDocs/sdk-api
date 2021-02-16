@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFT_REGISTRATION_INFO
  - MFT_REGISTRATION_INFO
 ---
 
@@ -92,4 +91,3 @@ Pointer to an array of <a href="/windows/win32/api/mfobjects/ns-mfobjects-mft_re
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

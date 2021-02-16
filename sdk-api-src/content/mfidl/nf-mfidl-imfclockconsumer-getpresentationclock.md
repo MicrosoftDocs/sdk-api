@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFClockConsumer::GetPresentationClock
+ - IMFClockConsumer.GetPresentationClock
 ---
 
 # IMFClockConsumer::GetPresentationClock
@@ -99,4 +99,3 @@ The app does not implement this method.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>
-

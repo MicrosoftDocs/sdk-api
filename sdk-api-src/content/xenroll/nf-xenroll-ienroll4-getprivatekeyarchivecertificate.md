@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4::GetPrivateKeyArchiveCertificate
+ - IEnroll4.GetPrivateKeyArchiveCertificate
 ---
 
 # IEnroll4::GetPrivateKeyArchiveCertificate
@@ -63,4 +63,3 @@ Pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_context">CE
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

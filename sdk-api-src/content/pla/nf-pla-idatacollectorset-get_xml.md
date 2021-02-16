@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_Xml
+ - IDataCollectorSet.Xml
+ - IDataCollectorSet.get_Xml
 ---
 
 # IDataCollectorSet::get_Xml
@@ -67,4 +68,3 @@ For details on the property elements contained in the XML string, see the Remark
 
 
 IDataCollectorSet::SetXml
-

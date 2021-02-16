@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntdef.h
 api_name:
- - _LIST_ENTRY
- - PLIST_ENTRY
  - LIST_ENTRY
 ---
 
@@ -119,4 +117,3 @@ For more information about how to use <b>LIST_ENTRY</b> structures to implement 
 
 
 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removetaillist">RemoveTailList</a>
-

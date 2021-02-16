@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FindFirstFileExW
  - fileapi/FindFirstFileExW
- - FindFirstFileEx
- - fileapi/FindFirstFileEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - FindFirstFileExW
  - FindFirstFileEx
+ - FindFirstFileExA
+ - FindFirstFileExW
 ---
 
 # FindFirstFileExW function
@@ -440,4 +439,3 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-win32_find_dataa">WIN32_FIND_DATA</a>
-

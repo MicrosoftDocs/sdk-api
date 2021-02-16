@@ -35,7 +35,6 @@ api_location:
 api_name:
  - ID3D12Device8::GetResourceAllocationInfo2
 f1_keywords:
- - ID3D12Device8::GetResourceAllocationInfo2
  - d3d12/ID3D12Device8::GetResourceAllocationInfo2
 dev_langs:
  - c++
@@ -92,4 +91,3 @@ For remarks, see [ID3D12Device4::GetResourceAllocationInfo1](./nf-d3d12-id3d12de
 * [ID3D12Device8](./nn-d3d12-id3d12device8.md)
 
 * [Sampler feedback specification](https://microsoft.github.io/DirectX-Specs/d3d/SamplerFeedback.html)
-

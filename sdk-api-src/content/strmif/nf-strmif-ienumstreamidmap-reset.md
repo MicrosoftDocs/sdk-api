@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumStreamIdMap::Reset
+ - IEnumStreamIdMap.Reset
 ---
 
 # IEnumStreamIdMap::Reset
@@ -66,4 +66,3 @@ Returns S_OK if successful. If the method fails,an <b>HRESULT</b> error code is 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumstreamidmap">IEnumStreamIdMap Interface</a>
-

@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - efswrtinterop
  - efswrtinterop/efswrtinterop
-api_name:
- - efswrtinterop
 ---
 
 # Efswrtinterop.h header

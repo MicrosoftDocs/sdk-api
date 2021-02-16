@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfPersistentPropertyLoaderACP::LoadProperty
+ - ITfPersistentPropertyLoaderACP.LoadProperty
 ---
 
 # ITfPersistentPropertyLoaderACP::LoadProperty
@@ -125,4 +125,3 @@ Obtain the original position of the stream before writing to the stream. The ori
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_persistent_property_header_acp">TF_PERSISTENT_PROPERTY_HEADER_ACP
       </a>
-

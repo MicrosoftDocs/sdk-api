@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_REQUEST_V2
- - PHTTP_REQUEST_V2
  - HTTP_REQUEST_V2
 ---
 
@@ -123,4 +121,3 @@ A pointer to an array of <a href="/windows/desktop/api/http/ns-http-http_request
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsendresponseentitybody">HttpSendResponseEntityBody</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Resource::GetGPUVirtualAddress
+ - ID3D12Resource.GetGPUVirtualAddress
 ---
 
 # ID3D12Resource::GetGPUVirtualAddress
@@ -91,4 +91,3 @@ Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>
-

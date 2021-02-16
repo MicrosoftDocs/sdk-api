@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationGridItemPattern::get_CachedColumnSpan
+ - IUIAutomationGridItemPattern.CachedColumnSpan
+ - IUIAutomationGridItemPattern.get_CachedColumnSpan
 ---
 
 # IUIAutomationGridItemPattern::get_CachedColumnSpan
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationgriditempattern">IUIAutomationGridItemPattern</a>
-

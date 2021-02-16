@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMapItem::get_Description
+ - IValueMapItem.Description
+ - IValueMapItem.get_Description
+ - IValueMapItem.put_Description
 ---
 
 # IValueMapItem::get_Description
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
-

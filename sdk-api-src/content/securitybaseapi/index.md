@@ -9,8 +9,6 @@ tech.root: etw
 f1_keywords:
  - securitybaseapi
  - securitybaseapi/securitybaseapi
-api_name:
- - securitybaseapi
 ---
 
 # Securitybaseapi.h header

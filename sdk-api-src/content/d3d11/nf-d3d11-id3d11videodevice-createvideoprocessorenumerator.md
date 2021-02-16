@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDevice::CreateVideoProcessorEnumerator
+ - ID3D11VideoDevice.CreateVideoProcessorEnumerator
 ---
 
 # ID3D11VideoDevice::CreateVideoProcessorEnumerator
@@ -73,4 +73,3 @@ To create the video processor device, pass the <a href="/windows/desktop/api/d3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-

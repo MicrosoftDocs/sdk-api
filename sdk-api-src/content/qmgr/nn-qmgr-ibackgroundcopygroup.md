@@ -43,6 +43,9 @@ api_location:
  - QmgrPrxy.dll
 api_name:
  - IBackgroundCopyGroup
+ - IBackgroundCopyGroup.InternalSetProp
+ - IBackgroundCopyGroup.QueryNewJobInterface
+ - IBackgroundCopyGroup.SetNotificationPointer
 ---
 
 # IBackgroundCopyGroup interface

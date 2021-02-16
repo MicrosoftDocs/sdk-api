@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProximityDetection::StartDetection
+ - IWMProximityDetection.StartDetection
 ---
 
 # IWMProximityDetection::StartDetection
@@ -124,4 +124,3 @@ If this method returns a failure code, no messages are sent to the callback.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmproximitydetection">IWMProximityDetection Interface</a>
-

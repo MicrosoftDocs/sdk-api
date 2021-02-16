@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGuids.lib
  - PortableDeviceGuids.dll
 api_name:
- - IPortableDeviceConnector::Connect
+ - IPortableDeviceConnector.Connect
 ---
 
 # IPortableDeviceConnector::Connect
@@ -92,4 +92,3 @@ If a previously paired MTP/Bluetooth device is within range, applications can ca
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector">IPortableDeviceConnector</a>
-

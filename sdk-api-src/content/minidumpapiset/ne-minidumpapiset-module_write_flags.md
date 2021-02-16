@@ -44,7 +44,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MODULE_WRITE_FLAGS
  - MODULE_WRITE_FLAGS
 ---
 
@@ -99,4 +98,3 @@ Code segment information will be written to the minidump file. This value will o
 
 
 <a href="/windows/desktop/api/minidumpapiset/nf-minidumpapiset-minidumpwritedump">MiniDumpWriteDump</a>
-

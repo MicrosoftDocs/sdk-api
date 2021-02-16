@@ -47,8 +47,6 @@ api_location:
  - Tcpmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_TCPTABLE_OWNER_PID
- - PMIB_TCPTABLE_OWNER_PID
  - MIB_TCPTABLE_OWNER_PID
 ---
 
@@ -90,4 +88,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/previous-versions/windows/desktop/mib/mib-structures">MIB Structures</a>
-

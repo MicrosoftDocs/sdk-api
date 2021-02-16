@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferDestination::Advise
+ - ITransferDestination.Advise
 ---
 
 # ITransferDestination::Advise
@@ -104,4 +104,3 @@ The handler can only handle one sink interface.
 ## -remarks
 
 Call <b>ITransferDestination::Advise</b> before calling any other <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback for any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and do the "default" operation.
-

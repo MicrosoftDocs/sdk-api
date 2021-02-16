@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_AP_INITIALIZE_PACKAGE
+ - LsaApInitializePackage
 ---
 
 # LSA_AP_INITIALIZE_PACKAGE callback function
@@ -91,4 +91,3 @@ This function must be implemented by authentication packages.
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-lsa_allocate_lsa_heap">AllocateLsaHeap</a>
-

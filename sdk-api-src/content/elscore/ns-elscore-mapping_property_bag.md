@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Elscore.h
 api_name:
- - _MAPPING_PROPERTY_BAG
- - PMAPPING_PROPERTY_BAG
  - MAPPING_PROPERTY_BAG
 ---
 
@@ -107,4 +105,3 @@ The memory for the property bag structure itself is managed by the application. 
 
 
 <a href="/windows/desktop/api/elscore/nf-elscore-mappingrecognizetext">MappingRecognizeText</a>
-

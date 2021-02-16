@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1533
- - PSERVER_INFO_1533
  - SERVER_INFO_1533
 ---
 
@@ -80,4 +78,3 @@ Specifies the maximum number of outstanding requests any one client can send to 
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CryptEnumProviderTypesA
  - wincrypt/CryptEnumProviderTypesA
- - CryptEnumProviderTypes
- - wincrypt/CryptEnumProviderTypes
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptEnumProviderTypesA
  - CryptEnumProviderTypes
+ - CryptEnumProviderTypesA
+ - CryptEnumProviderTypesW
 ---
 
 # CryptEnumProviderTypesA function
@@ -255,4 +254,3 @@ For another example that uses the <b>CryptEnumProviderTypes</b> function, see <a
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-

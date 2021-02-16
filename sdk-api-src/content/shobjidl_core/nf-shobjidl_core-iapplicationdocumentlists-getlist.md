@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IApplicationDocumentLists::GetList
+ - IApplicationDocumentLists.GetList
 ---
 
 # IApplicationDocumentLists::GetList
@@ -113,4 +113,3 @@ If a user pins an item in the <b>Recent</b> or <b>Frequent</b> categories, the i
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

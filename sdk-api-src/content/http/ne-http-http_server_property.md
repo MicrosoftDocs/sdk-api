@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVER_PROPERTY
- - PHTTP_SERVER_PROPERTY
  - HTTP_SERVER_PROPERTY
 ---
 
@@ -155,4 +153,3 @@ The <b>HTTP_SERVER_PROPERTY</b> enumeration types are used to set or query the c
 
 
 <a href="/windows/desktop/api/http/nf-http-httpseturlgroupproperty">HttpSetUrlGroupProperty</a>
-

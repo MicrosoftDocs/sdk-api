@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_SNAPSHOT_COMPATIBILITY
  - VSS_SNAPSHOT_COMPATIBILITY
 ---
 

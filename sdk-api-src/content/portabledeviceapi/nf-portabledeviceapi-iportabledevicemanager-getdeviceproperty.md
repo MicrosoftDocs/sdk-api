@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager::GetDeviceProperty
+ - IPortableDeviceManager.GetDeviceProperty
 ---
 
 # IPortableDeviceManager::GetDeviceProperty
@@ -132,4 +132,3 @@ To get Windows Portable Devices properties from the device object, call <a href=
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicemanager-getdevices">IPortableDeviceManager::GetDevices</a>
-

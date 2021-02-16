@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMComponent::GetFile
+ - IVssWMComponent.GetFile
 ---
 
 # IVssWMComponent::GetFile
@@ -157,4 +157,3 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivsswmcomponent">IVssWMComponent</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IEnumProgressItems::Next
+ - IEnumProgressItems.Next
 ---
 
 # IEnumProgressItems::Next
@@ -129,4 +129,3 @@ If there are fewer than the requested number of elements left in the sequence, i
 
 
 <a href="/windows/desktop/imapi/ienumprogressitems-remotenext">IEnumProgressItems::RemoteNext</a>
-

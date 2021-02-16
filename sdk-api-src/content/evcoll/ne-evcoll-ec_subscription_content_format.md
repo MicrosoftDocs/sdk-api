@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
- - _EC_SUBSCRIPTION_CONTENT_FORMAT
  - EC_SUBSCRIPTION_CONTENT_FORMAT
 ---
 

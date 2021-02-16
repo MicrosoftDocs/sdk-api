@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Resource::SetEvictionPriority
+ - ID3D11Resource.SetEvictionPriority
 ---
 
 # ID3D11Resource::SetEvictionPriority
@@ -80,4 +80,3 @@ Changing the priorities of resources should be done carefully. The wrong evictio
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11resource">ID3D11Resource</a>
-

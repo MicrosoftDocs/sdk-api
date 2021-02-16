@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_ID_BOTH_DIR_INFO
- - PFILE_ID_BOTH_DIR_INFO
  - FILE_ID_BOTH_DIR_INFO
 ---
 
@@ -197,4 +195,3 @@ This <b>FILE_ID_BOTH_DIR_INFO</b> structure must be
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

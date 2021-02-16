@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::GetFileProperty
+ - IFsrmClassificationManager.GetFileProperty
+ - IFsrmClassificationManager2.GetFileProperty
+ - FsrmClassificationManager.GetFileProperty
 ---
 
 # IFsrmClassificationManager::GetFileProperty
@@ -121,4 +123,3 @@ For examples in C# and PowerShell see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

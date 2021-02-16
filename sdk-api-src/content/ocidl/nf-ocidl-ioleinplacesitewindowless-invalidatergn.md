@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless::InvalidateRgn
+ - IOleInPlaceSiteWindowless.InvalidateRgn
 ---
 
 # IOleInPlaceSiteWindowless::InvalidateRgn
@@ -73,4 +73,3 @@ An object is only allowed to invalidate pixels contained in its own site region.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-

@@ -43,7 +43,8 @@ api_location:
  - tuner.h
  - Tuner.idl
 api_name:
- - ITunerCapEx::get_Has608_708Caption
+ - ITunerCapEx.Has608_708Caption
+ - ITunerCapEx.get_Has608_708Caption
 ---
 
 # ITunerCapEx::get_Has608_708Caption
@@ -61,4 +62,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunercapex">ITunerCapEx</a>
-

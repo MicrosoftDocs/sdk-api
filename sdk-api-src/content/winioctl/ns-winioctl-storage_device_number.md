@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_DEVICE_NUMBER
- - PSTORAGE_DEVICE_NUMBER
  - STORAGE_DEVICE_NUMBER
 ---
 
@@ -456,4 +454,3 @@ The values in the <b>STORAGE_DEVICE_NUMBER</b> structure are guaranteed to remai
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number">IOCTL_STORAGE_GET_DEVICE_NUMBER</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Attribute::Initialize
+ - IX509Attribute.Initialize
 ---
 
 # IX509Attribute::Initialize
@@ -108,4 +108,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-g
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
-

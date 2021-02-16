@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _EV_EXTRA_CERT_CHAIN_POLICY_PARA
- - PEV_EXTRA_CERT_CHAIN_POLICY_PARA
  - EV_EXTRA_CERT_CHAIN_POLICY_PARA
 ---
 

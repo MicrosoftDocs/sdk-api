@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pnrpdef.h
 api_name:
- - _PNRP_RESOLVE_CRITERIA
  - PNRP_RESOLVE_CRITERIA
 ---
 
@@ -92,4 +91,3 @@ Match a peer name by   finding the name with a service location closest to the s
 
 
 <a href="/windows/desktop/P2PSdk/pnrp-and-wsalookupservicebegin">PNRP_and WSALookupServiceBegin</a>
-

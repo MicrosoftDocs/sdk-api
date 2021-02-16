@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetIDA
  - tapi/lineGetIDA
- - lineGetID
- - tapi/lineGetID
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetIDA
  - lineGetID
+ - lineGetIDA
+ - lineGetIDW
 ---
 
 # lineGetIDA function
@@ -131,4 +130,3 @@ A vendor that defines a device-specific media mode also needs to define the corr
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>
-

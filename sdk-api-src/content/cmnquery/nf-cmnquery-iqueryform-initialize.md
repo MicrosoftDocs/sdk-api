@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsquery.dll
 api_name:
- - IQueryForm::Initialize
+ - IQueryForm.Initialize
 ---
 
 # IQueryForm::Initialize
@@ -65,4 +65,3 @@ This method returns <b>S_OK</b> to enable the form object within the query dialo
 ## -see-also
 
 <a href="/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>
-

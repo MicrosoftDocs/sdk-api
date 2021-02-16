@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - tagPOINTER_INPUT_TYPE
+ - POINTER_INPUT_TYPE
 ---
 
 # tagPOINTER_INPUT_TYPE enumeration
@@ -77,4 +77,3 @@ Touchpad pointer type (Windows 8.1 and later).
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/inputmsg/enums">Enumerations</a>
-

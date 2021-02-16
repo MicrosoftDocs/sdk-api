@@ -43,6 +43,7 @@ api_location:
  - Actxprxy.dll
 api_name:
  - IDiscRecorder
+ - IDiscRecorder.Init
 ---
 
 # IDiscRecorder interface
@@ -71,4 +72,3 @@ All
 <b>IDiscRecorder</b> interfaces may be used on an 
 <b>IDiscRecorder</b> object even if the disc recorder is not the active disc recorder. The IMAPI client does not have to call 
 <a href="/windows/desktop/api/imapi/nf-imapi-idiscmaster-setactivediscrecorder">IDiscMaster::SetActiveDiscRecorder</a> first.
-

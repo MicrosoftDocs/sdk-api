@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSink::Prepare
+ - IMFCaptureSink.Prepare
 ---
 
 # IMFCaptureSink::Prepare
@@ -98,4 +98,3 @@ The <b>Prepare</b> method fails if the capture sink is currently in use. For exa
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink">IMFCaptureSink</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzClientContext3::GetTasks
+ - IAzClientContext3.GetTasks
 ---
 
 # IAzClientContext3::GetTasks
@@ -67,4 +67,3 @@ The address of a pointer to the collection of tasks that the principal represent
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_VARIANT_TYPE
  - EVT_VARIANT_TYPE
 ---
 
@@ -156,4 +155,3 @@ A null-terminated Unicode string that contains XML.
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/ns-winevt-evt_variant">EVT_VARIANT</a>
-

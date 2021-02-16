@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IScrollItemProvider::ScrollIntoView
+ - IScrollItemProvider.ScrollIntoView
 ---
 
 # IScrollItemProvider::ScrollIntoView
@@ -72,4 +72,3 @@ This method will not guarantee the position of the control
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

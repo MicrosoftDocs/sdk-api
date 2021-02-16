@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::SetActiveSubrange
+ - ITextRange2.SetActiveSubrange
 ---
 
 # ITextRange2::SetActiveSubrange
@@ -79,4 +79,3 @@ The active subrange is the one affected by operations such as Shift+Arrow keys i
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-

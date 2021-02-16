@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_QNAME_TEXT
  - WS_XML_QNAME_TEXT
 ---
 
@@ -70,4 +69,3 @@ The prefix.
 The local name.
 
 ### -field ns
-

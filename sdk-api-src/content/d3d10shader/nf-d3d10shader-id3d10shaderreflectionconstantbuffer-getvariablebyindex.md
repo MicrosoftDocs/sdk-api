@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Shader.h
 api_name:
- - ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex
+ - ID3D10ShaderReflectionConstantBuffer.GetVariableByIndex
 ---
 
 # ID3D10ShaderReflectionConstantBuffer::GetVariableByIndex
@@ -69,4 +69,3 @@ A pointer to a shader-reflection variable interface (see <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10shader/nn-d3d10shader-id3d10shaderreflectionconstantbuffer">ID3D10ShaderReflectionConstantBuffer Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ReportActiveIScsiTargetMappingsA
  - iscsidsc/ReportActiveIScsiTargetMappingsA
- - ReportActiveIScsiTargetMappings
- - iscsidsc/ReportActiveIScsiTargetMappings
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - ReportActiveIScsiTargetMappingsA
- - ReportActiveIScsiTargetMappings
+ - ReportActiveIscsiTargetMappings
+ - ReportActiveIscsiTargetMappingsA
+ - ReportActiveIscsiTargetMappingsW
 ---
 
 # ReportActiveIScsiTargetMappingsA function
@@ -91,4 +90,3 @@ Target mappings associate bus, target and LUN numbers with the LUNs on a target 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_mappinga">ISCSI_TARGET_MAPPING</a>
-

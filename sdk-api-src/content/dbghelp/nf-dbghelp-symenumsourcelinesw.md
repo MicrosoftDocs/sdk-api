@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymEnumSourceLinesW
  - dbghelp/SymEnumSourceLinesW
- - SymEnumSourceLines
- - dbghelp/SymEnumSourceLines
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymEnumSourceLinesW
  - SymEnumSourceLines
+ - SymEnumSourceLines
+ - SymEnumSourceLinesW
 ---
 
 # SymEnumSourceLinesW function
@@ -121,4 +120,3 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

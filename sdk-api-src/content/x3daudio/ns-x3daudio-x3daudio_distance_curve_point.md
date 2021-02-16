@@ -45,7 +45,6 @@ api_location:
  - x3daudio.h
 api_name:
  - X3DAUDIO_DISTANCE_CURVE_POINT
- - LPX3DAUDIO_DISTANCE_CURVE_POINT
 ---
 
 # X3DAUDIO_DISTANCE_CURVE_POINT structure
@@ -73,4 +72,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 ## -see-also
 
 <a href="/windows/desktop/xaudio2/structures">Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawi.h
 api_name:
- - _DDHAL_DESTROYDDLOCALDATA
- - LPDDHAL_DESTROYDDLOCALDATA
  - DDHAL_DESTROYDDLOCALDATA
 ---
 
@@ -75,4 +73,3 @@ Specifies the location where the driver writes the return value of <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_destroyddlocal">D3dDestroyDDLocal</a>
-

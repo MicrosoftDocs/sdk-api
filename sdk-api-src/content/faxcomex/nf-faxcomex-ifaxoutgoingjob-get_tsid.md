@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob::get_TSID
+ - IFaxOutgoingJob.TSID
+ - IFaxOutgoingJob.get_TSID
+ - IFaxOutgoingJob.get_TSID
 ---
 
 # IFaxOutgoingJob::get_TSID
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery::GetRights
+ - ISCPSecureQuery.GetRights
 ---
 
 # ISCPSecureQuery::GetRights
@@ -168,4 +168,3 @@ This method must not be called until <b>GetDataDemands</b> and then <b>ExamineDa
 
 
 <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
-

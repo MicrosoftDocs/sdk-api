@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::DeleteAppNonMember
+ - IAzApplicationGroup.DeleteAppNonMember
+ - AzApplicationGroup.DeleteAppNonMember
 ---
 
 # IAzApplicationGroup::DeleteAppNonMember
@@ -65,4 +66,3 @@ Reserved for future use.
 ## -remarks
 
 To view the list of application groups that are refused membership in this application group, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_appnonmembers">AppNonMembers</a> property.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList1::GetDebugParameter
+ - ID3D12DebugCommandList1.GetDebugParameter
 ---
 
 # ID3D12DebugCommandList1::GetDebugParameter
@@ -85,4 +85,3 @@ Returns S_OK if successful, otherwise E_INVALIDARG.
 
 
 <a href="/windows/desktop/api/d3d12sdklayers/nf-d3d12sdklayers-id3d12debugcommandlist1-setdebugparameter">SetDebugParameter</a>
-

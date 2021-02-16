@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler::Activate
+ - ITaskScheduler.Activate
 ---
 
 # ITaskScheduler::Activate
@@ -135,4 +135,3 @@ The task object version is either unsupported or invalid.
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_frameRate
+ - IWMPNetwork.get_frameRate
 ---
 
 # IWMPNetwork::get_frameRate
@@ -91,4 +91,3 @@ The frame rate value is returned in frames per hundred seconds. For example, a v
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_encodedframerate">IWMPNetwork::get_encodedFrameRate</a>
-

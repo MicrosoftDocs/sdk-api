@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfigCallback::Reconfigure
+ - IGraphConfigCallback.Reconfigure
 ---
 
 # IGraphConfigCallback::Reconfigure
@@ -82,4 +82,3 @@ This method allows for specialized graph rebuilding. For a more straightforward 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfigcallback">IGraphConfigCallback Interface</a>
-

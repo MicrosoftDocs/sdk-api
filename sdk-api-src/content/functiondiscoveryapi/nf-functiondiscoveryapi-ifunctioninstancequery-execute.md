@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunDisc.dll
 api_name:
- - IFunctionInstanceQuery::Execute
+ - IFunctionInstanceQuery.Execute
 ---
 
 # IFunctionInstanceQuery::Execute
@@ -181,4 +181,3 @@ If <b>Execute</b> is called twice on the same query object, the first query is t
 
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctioninstancequery">IFunctionInstanceQuery</a>
-

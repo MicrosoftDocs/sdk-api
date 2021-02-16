@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_SOAP_FAULT_REASON
  - WSD_SOAP_FAULT_REASON
 ---
 
@@ -64,4 +63,3 @@ A <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_localized_string_list">
 ## -see-also
 
 <a href="/windows/desktop/api/wsdtypes/ns-wsdtypes-wsd_soap_fault">WSD_SOAP_FAULT</a>
-

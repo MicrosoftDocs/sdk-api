@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - berelement
  - BerElement
 ---
 
@@ -82,4 +81,3 @@ A <b>BerElement</b> structure can also be allocated by calling the <a href="/pre
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_attribute">ldap_next_attribute</a>
-

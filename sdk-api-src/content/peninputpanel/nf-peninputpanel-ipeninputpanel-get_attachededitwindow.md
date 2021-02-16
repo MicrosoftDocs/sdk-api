@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::get_AttachedEditWindow
+ - IPenInputPanel.AttachedEditWindow
+ - IPenInputPanel.get_AttachedEditWindow
+ - IPenInputPanel.put_AttachedEditWindow
+ - PenInputPanel.get_AttachedEditWindow
+ - PenInputPanel.put_AttachedEditWindow
 ---
 
 # IPenInputPanel::get_AttachedEditWindow
@@ -72,4 +76,3 @@ The window handle of an object may change.
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

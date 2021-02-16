@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - _PrimaryXYZColors
  - PrimaryXYZColors
 ---
 
@@ -96,4 +95,3 @@ White primary.
 
 
 <a href="/previous-versions/windows/desktop/wcs/structures">Structures</a>
-

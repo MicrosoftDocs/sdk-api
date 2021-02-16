@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomation2::get_AutoSetFocus
+ - IUIAutomation2.AutoSetFocus
+ - IUIAutomation2.get_AutoSetFocus
+ - IUIAutomation2.put_AutoSetFocus
 ---
 
 # IUIAutomation2::get_AutoSetFocus
@@ -63,4 +65,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation2">IUIAutomation2</a>
-

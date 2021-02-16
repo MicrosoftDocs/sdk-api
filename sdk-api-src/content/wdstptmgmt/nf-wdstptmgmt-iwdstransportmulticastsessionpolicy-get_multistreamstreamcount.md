@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount
+ - IWdsTransportMulticastSessionPolicy.MultistreamStreamCount
+ - IWdsTransportMulticastSessionPolicy.get_MultistreamStreamCount
+ - IWdsTransportMulticastSessionPolicy.put_MultistreamStreamCount
 ---
 
 # IWdsTransportMulticastSessionPolicy::get_MultistreamStreamCount
@@ -61,4 +63,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportmulticastsessionpolicy">IWdsTransportMulticastSessionPolicy</a>
-

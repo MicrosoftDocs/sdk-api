@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateExpressWriterMetadata::AddComponent
+ - IVssCreateExpressWriterMetadata.AddComponent
 ---
 
 # IVssCreateExpressWriterMetadata::AddComponent
@@ -236,4 +236,3 @@ The combination of logical path and name for each component of a specified insta
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscreateexpresswritermetadata">IVssCreateExpressWriterMetadata</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog::Destroy
+ - IPhotoAcquireOptionsDialog.Destroy
 ---
 
 # IPhotoAcquireOptionsDialog::Destroy
@@ -84,4 +84,3 @@ If you destroy the parent window, the child window will automatically be destroy
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
-

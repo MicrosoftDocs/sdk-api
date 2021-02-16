@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_PALETTE_LOCAL
- - PDD_PALETTE_LOCAL
  - DD_PALETTE_LOCAL
 ---
 

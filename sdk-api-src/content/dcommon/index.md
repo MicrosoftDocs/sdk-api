@@ -9,8 +9,6 @@ tech.root: direct2d
 f1_keywords:
  - dcommon
  - dcommon/dcommon
-api_name:
- - dcommon
 ---
 
 # Dcommon.h header

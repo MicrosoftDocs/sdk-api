@@ -43,7 +43,7 @@ api_location:
  - Audiomediatype.idl
  - Audiomediatype.idl.dll
 api_name:
- - IAudioMediaType::GetAudioFormat
+ - IAudioMediaType.GetAudioFormat
 ---
 
 ## -description
@@ -61,4 +61,3 @@ The pointer that is returned is valid only while the <b>IAudioMediaType</b> inte
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-sysaudio_select_graph">WAVEFORMATEX</a>
-

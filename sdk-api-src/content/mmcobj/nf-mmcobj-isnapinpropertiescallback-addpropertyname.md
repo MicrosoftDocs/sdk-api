@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - ISnapinPropertiesCallback::AddPropertyName
+ - ISnapinPropertiesCallback.AddPropertyName
 ---
 
 # ISnapinPropertiesCallback::AddPropertyName

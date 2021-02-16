@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_ANY_ATTRIBUTE
  - WS_ANY_ATTRIBUTE
 ---
 
@@ -74,4 +73,3 @@ Specifies the value of the attribute.  This
 ## -remarks
 
 This structure is used with <a href="/windows/desktop/api/webservices/ns-webservices-ws_any_attributes">WS_ANY_ATTRIBUTES</a>.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob::Run
+ - IFsrmReportJob.Run
 ---
 
 # IFsrmReportJob::Run
@@ -82,4 +82,3 @@ For an example,  see <a href="/previous-versions/windows/desktop/fsrm/running-a-
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmreportjob-waitforcompletion">IFsrmReportJob::WaitForCompletion</a>
-

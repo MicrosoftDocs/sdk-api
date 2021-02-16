@@ -47,8 +47,6 @@ api_location:
  - ClusAPI.h
  - MsClus.h
 api_name:
- - _SR_DISK_REPLICATION_ELIGIBLE
- - PSR_DISK_REPLICATION_ELIGIBLE
  - SR_DISK_REPLICATION_ELIGIBLE
 ---
 
@@ -116,4 +114,3 @@ Other.
 
 
 <a href="/windows/desktop/api/clusapi/ns-clusapi-sr_resource_type_disk_info">SR_RESOURCE_TYPE_DISK_INFO</a>
-

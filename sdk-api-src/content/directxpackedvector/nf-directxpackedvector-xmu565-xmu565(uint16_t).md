@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU565::XMU565
+ - XMU565.XMU565
 ---
 
 # XMU565::XMU565(uint16_t)
@@ -102,4 +102,3 @@ The third 5 bits (bits 11-15) of <b>Packed</b> assigned, as an integer, to
 
 
 <a href="/windows/desktop/dxmath/xmu565-ctor">XMU565 Constructors</a>
-

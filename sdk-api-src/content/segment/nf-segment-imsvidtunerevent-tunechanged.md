@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidTunerEvent::TuneChanged
+ - IMSVidTunerEvent.TuneChanged
 ---
 
 # IMSVidTunerEvent::TuneChanged
@@ -74,4 +74,3 @@ The dispatch identifier (dispid) of this method is <b>eventidOnTuneChanged</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidtunerevent">IMSVidTunerEvent Interface</a>
-

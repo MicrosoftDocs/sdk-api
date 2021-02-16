@@ -42,7 +42,9 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbSession::get_ProtocolType
+ - ITsSbSession.ProtocolType
+ - ITsSbSession.get_ProtocolType
+ - ITsSbSession.put_ProtocolType
 ---
 
 # ITsSbSession::get_ProtocolType
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
-

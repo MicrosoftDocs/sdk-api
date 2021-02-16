@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PSYMBOL_REGISTERED_CALLBACK64
+ - SymRegisterCallbackProc64
 ---
 
 # PSYMBOL_REGISTERED_CALLBACK64 callback function
@@ -353,4 +353,3 @@ For a more extensive example, read <a href="/windows/desktop/Debug/getting-notif
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symregistercallback">SymRegisterCallback64</a>
-

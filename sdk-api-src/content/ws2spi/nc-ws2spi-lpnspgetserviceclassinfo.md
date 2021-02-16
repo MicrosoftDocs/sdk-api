@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - LPNSPGETSERVICECLASSINFO
+ - NSPGetServiceClassInfo
 ---
 
 ## -description
@@ -192,4 +192,3 @@ The W2_32.dll uses this function to implement the
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
-

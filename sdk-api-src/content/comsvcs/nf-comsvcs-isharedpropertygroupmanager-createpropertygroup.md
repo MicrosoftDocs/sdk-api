@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedPropertyGroupManager::CreatePropertyGroup
+ - ISharedPropertyGroupManager.CreatePropertyGroup
 ---
 
 # ISharedPropertyGroupManager::CreatePropertyGroup
@@ -179,4 +179,3 @@ The following constants are used to specify the effective release mode for a sha
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroupmanager">ISharedPropertyGroupManager</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winml.dll
 api_name:
- - IWinMLEvaluationContext::Clear
+ - IWinMLEvaluationContext.Clear
 ---
 
 # IWinMLEvaluationContext::Clear
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/winml/nn-winml-iwinmlevaluationcontext">IWinMLEvaluationContext</a>
-

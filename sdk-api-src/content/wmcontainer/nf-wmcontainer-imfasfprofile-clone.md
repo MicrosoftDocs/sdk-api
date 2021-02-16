@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::Clone
+ - IMFASFProfile.Clone
 ---
 
 # IMFASFProfile::Clone
@@ -74,4 +74,3 @@ The cloned object is completely independent of the original.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
-

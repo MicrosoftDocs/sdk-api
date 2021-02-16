@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskNamedValuePair::put_Value
+ - ITaskNamedValuePair.Value
+ - ITaskNamedValuePair.get_Value
+ - ITaskNamedValuePair.put_Value
 ---
 
 # ITaskNamedValuePair::put_Value
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itasknamedvaluepair">ITaskNamedValuePair</a>
-

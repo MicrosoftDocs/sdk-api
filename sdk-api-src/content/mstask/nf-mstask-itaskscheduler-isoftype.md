@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler::IsOfType
+ - ITaskScheduler.IsOfType
 ---
 
 # ITaskScheduler::IsOfType
@@ -73,4 +73,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
-

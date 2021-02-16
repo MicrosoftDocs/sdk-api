@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications::Add
+ - INetFwAuthorizedApplications.Add
 ---
 
 # INetFwAuthorizedApplications::Add
@@ -202,4 +202,3 @@ If an application with the same path already exists, the existing settings are o
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfFnSearchCandidateProvider::GetSearchCandidates
+ - ITfFnSearchCandidateProvider.GetSearchCandidates
 ---
 
 # ITfFnSearchCandidateProvider::GetSearchCandidates
@@ -110,4 +110,3 @@ No candidates could be returned for the input string, <i>pplist</i> may be <b>NU
 
 
 <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itfcandidatelist-setresult">SetResult</a>
-

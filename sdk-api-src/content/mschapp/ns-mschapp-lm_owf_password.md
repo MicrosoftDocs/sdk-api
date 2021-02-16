@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsChapp.h
 api_name:
- - _LM_OWF_PASSWORD
  - LM_OWF_PASSWORD
 ---
 
@@ -72,4 +71,3 @@ An array of <a href="/windows/desktop/api/mschapp/ns-mschapp-cypher_block">CYPHE
 
 
 <a href="/previous-versions/windows/desktop/api/mschapp/nf-mschapp-mschapsrvchangepassword">MSChapSrvChangePassword</a>
-

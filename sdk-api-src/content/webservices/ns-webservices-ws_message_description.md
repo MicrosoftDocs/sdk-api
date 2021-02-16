@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_MESSAGE_DESCRIPTION
  - WS_MESSAGE_DESCRIPTION
 ---
 
@@ -74,4 +73,3 @@ If <b>NULL</b>, then the message body is assumed to be empty.
 
 If non-<b>NULL</b>, this value is read or written as described in
                     <a href="/windows/desktop/api/webservices/nf-webservices-wswritebody">WsWriteBody</a> and <a href="/windows/desktop/api/webservices/nf-webservices-wsreadbody">WsReadBody</a>.
-

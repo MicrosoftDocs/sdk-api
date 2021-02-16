@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_INTERFACE_CAPABILITY
- - PWLAN_INTERFACE_CAPABILITY
  - WLAN_INTERFACE_CAPABILITY
 ---
 
@@ -87,4 +85,3 @@ An array of <a href="/windows/desktop/NativeWiFi/dot11-phy-type">DOT11_PHY_TYPE<
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlangetinterfacecapability">WlanGetInterfaceCapability</a>
-

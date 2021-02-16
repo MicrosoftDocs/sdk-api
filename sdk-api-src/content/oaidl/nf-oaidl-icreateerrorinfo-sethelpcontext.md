@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateErrorInfo::SetHelpContext
+ - ICreateErrorInfo.SetHelpContext
 ---
 
 # ICreateErrorInfo::SetHelpContext
@@ -99,4 +99,3 @@ This method sets the Help context ID for the error. To establish the Help file t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreateerrorinfo">ICreateErrorInfo</a>
-

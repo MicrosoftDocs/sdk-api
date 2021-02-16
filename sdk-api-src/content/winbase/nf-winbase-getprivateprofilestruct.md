@@ -43,6 +43,8 @@ api_location:
  - Kernel32.dll
 api_name:
  - GetPrivateProfileStruct
+ - GetPrivateProfileStructA
+ - GetPrivateProfileStructW
 ---
 
 # GetPrivateProfileStruct function
@@ -123,4 +125,3 @@ When looking at values in the registry that specify other registry locations, th
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a>
-

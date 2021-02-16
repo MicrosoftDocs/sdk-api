@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib2::SetCustData
+ - ICreateTypeLib2.SetCustData
 ---
 
 # ICreateTypeLib2::SetCustData
@@ -111,4 +111,3 @@ Insufficient memory to complete the operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib2">ICreateTypeLib2</a>
-

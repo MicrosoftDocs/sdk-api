@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::SaveSession
+ - ITsSbResourcePluginStore.SaveSession
+ - ITsSbResourcePluginStoreEx.SaveSession
 ---
 
 # ITsSbResourcePluginStore::SaveSession
@@ -69,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/TermServ/itssbresourcepluginstoreex">ITsSbResourcePluginStoreEx</a>
-

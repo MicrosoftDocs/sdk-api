@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.idl
 api_name:
- - IActionProgress::Begin
+ - IActionProgress.Begin
 ---
 
 # IActionProgress::Begin
@@ -91,4 +91,3 @@ This method should be called when an action is beginning. The values of <i>actio
 
 
 <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_spbeginf">SPBEGINF</a>
-

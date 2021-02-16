@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - ISCTE_EAS::GetRawNatureOfActivationText
+ - ISCTE_EAS.GetRawNatureOfActivationText
 ---
 
 # ISCTE_EAS::GetRawNatureOfActivationText
@@ -73,4 +73,3 @@ To get the text for a specific language, call <a href="/previous-versions/window
 
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nf-atscpsipparser-iscte_eas-getnatureofactivationtext">ISCTE_EAS::GetNatureOfActivationText</a>
-

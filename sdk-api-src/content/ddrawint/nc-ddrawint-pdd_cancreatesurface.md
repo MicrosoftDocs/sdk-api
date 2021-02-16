@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_CANCREATESURFACE
+ - CanCreateD3DBuffer
 ---
 
 ## -description
@@ -115,4 +115,3 @@ The driver should allocate an explicit vertex buffer.
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff549213(v=vs.85)">DdCanCreateSurface</a>
-

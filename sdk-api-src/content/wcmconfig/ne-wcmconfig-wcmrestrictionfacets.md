@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WcmConfig.h
 api_name:
- - __MIDL___MIDL_itf_wcmconfig_0000_0000_0005
  - WcmRestrictionFacets
 ---
 
@@ -74,4 +73,3 @@ Maximum value. This value must be the same data type as the inherited data type.
 ### -field restrictionFacetMinInclusive
 
 Lower bound value (all values are greater than this value). This value must be the same data type as the inherited data type.
-

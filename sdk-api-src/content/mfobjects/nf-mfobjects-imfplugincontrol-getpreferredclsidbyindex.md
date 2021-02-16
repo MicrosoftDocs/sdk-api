@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFPluginControl::GetPreferredClsidByIndex
+ - IMFPluginControl.GetPreferredClsidByIndex
 ---
 
 # IMFPluginControl::GetPreferredClsidByIndex
@@ -117,4 +117,3 @@ The <i>index</i> parameter is out of range.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
-

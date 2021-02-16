@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICDevelopRaw::SetWhitePointKelvin
+ - IWICDevelopRaw.SetWhitePointKelvin
 ---
 
 # IWICDevelopRaw::SetWhitePointKelvin
@@ -73,4 +73,3 @@ Codec implementers should faithfully adjust the color temperature within the ran
 Codec implementers should return <b>WINCODEC_ERR_VALUEOUTOFRANGE</b> if the value is out of defined acceptable range.
 
 Codec implementers must ensure proper interoperability with other white point setting methods such as <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setwhitepointrgb">SetWhitePointRGB</a>. For example, if the caller sets the white point via <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicdevelopraw-setnamedwhitepoint">SetNamedWhitePoint</a> then the codec implementer may want to disable reading back the correspoinding Kelvin temperature. In specific cases where the codec implementer wants to deny a given action because of previous calls, <b>WINCODEC_ERR_WRONGSTATE</b> should be returned.
-

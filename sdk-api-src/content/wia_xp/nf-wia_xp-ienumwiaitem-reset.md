@@ -43,7 +43,7 @@ api_location:
  - Wiaguid.lib
  - Wiaguid.dll
 api_name:
- - IEnumWiaItem::Reset
+ - IEnumWiaItem.Reset
 ---
 
 # IEnumWiaItem::Reset

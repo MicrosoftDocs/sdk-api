@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DCryptoSession9::GetCertificate
+ - IDirect3DCryptoSession9.GetCertificate
 ---
 
 # IDirect3DCryptoSession9::GetCertificate
@@ -79,4 +79,3 @@ For other types of key exhange, the driver might use some other type of certific
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-

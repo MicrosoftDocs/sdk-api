@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryPublisher::UnPublish
+ - IWSDiscoveryPublisher.UnPublish
 ---
 
 # IWSDiscoveryPublisher::UnPublish
@@ -149,4 +149,3 @@ If successful, <b>UnPublish</b> will send a WS-Discovery Bye message to the loca
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoverypublisher">IWSDiscoveryPublisher</a>
-

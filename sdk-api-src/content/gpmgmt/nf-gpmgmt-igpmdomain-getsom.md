@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain::GetSOM
+ - IGPMDomain.GetSOM
+ - GPMDomain.GetSOM
 ---
 
 # IGPMDomain::GetSOM
@@ -91,4 +92,3 @@ Returns a reference to a <b>GPMSOM</b> object.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsom">IGPMSOM</a>
-

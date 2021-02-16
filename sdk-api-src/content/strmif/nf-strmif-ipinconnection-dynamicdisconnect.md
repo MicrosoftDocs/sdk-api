@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPinConnection::DynamicDisconnect
+ - IPinConnection.DynamicDisconnect
 ---
 
 # IPinConnection::DynamicDisconnect
@@ -103,4 +103,3 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
-

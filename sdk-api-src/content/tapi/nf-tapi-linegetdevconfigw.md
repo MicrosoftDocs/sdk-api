@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetDevConfigW
  - tapi/lineGetDevConfigW
- - lineGetDevConfig
- - tapi/lineGetDevConfig
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetDevConfigW
  - lineGetDevConfig
+ - lineGetDevConfigA
+ - lineGetDevConfigW
 ---
 
 # lineGetDevConfigW function
@@ -136,4 +135,3 @@ The exact format of the data contained within the structure is specific to the l
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>
-

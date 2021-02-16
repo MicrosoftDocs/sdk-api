@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DiseqCommand::put_DiseqUseToneBurst
+ - IBDA_DiseqCommand.put_DiseqUseToneBurst
 ---
 
 # IBDA_DiseqCommand::put_DiseqUseToneBurst
@@ -71,4 +71,3 @@ Typically the driver enables or disables Tone-Burst as needed when the applicati
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_diseqcommand">IBDA_DiseqCommand</a>
-

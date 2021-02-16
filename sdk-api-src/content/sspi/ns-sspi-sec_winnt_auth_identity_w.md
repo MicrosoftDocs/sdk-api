@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SEC_WINNT_AUTH_IDENTITY_W
- - PSEC_WINNT_AUTH_IDENTITY_W
+ - SEC_WINNT_AUTH_IDENTITY
+ - SEC_WINNT_AUTH_IDENTITY_A
  - SEC_WINNT_AUTH_IDENTITY_W
 ---
 
@@ -120,4 +120,3 @@ The strings in this structure are in <a href="/windows/desktop/SecGloss/u-gly">U
 When this structure is used with RPC, the structure must remain valid for the lifetime of the binding handle.
 
 The strings may be ANSI or Unicode, depending on the value you assign to the <b>Flags</b> member.
-

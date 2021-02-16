@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandlerInfo::IsActive
+ - ISyncMgrHandlerInfo.IsActive
 ---
 
 # ISyncMgrHandlerInfo::IsActive
@@ -98,4 +98,3 @@ STDMETHODIMP CMyDeviceHandler::IsActive()
 
 
 <a href="/windows/desktop/api/syncmgr/nn-syncmgr-isyncmgrhandlerinfo">ISyncMgrHandlerInfo</a>
-

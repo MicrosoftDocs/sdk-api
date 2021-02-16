@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmCollection::GetById
+ - IFsrmCollection.GetById
 ---
 
 # IFsrmCollection::GetById
@@ -69,4 +69,3 @@ The method returns the following return values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
-

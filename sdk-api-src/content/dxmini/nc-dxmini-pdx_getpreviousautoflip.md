@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_GETPREVIOUSAUTOFLIP
+ - DxGetPreviousAutoflip
 ---
 
 # PDX_GETPREVIOUSAUTOFLIP callback function
@@ -55,15 +55,12 @@ The<i> DxGetPreviousAutoflip</i> callback function is called when the device is 
 ## -parameters
 
 ### -param Arg1
-
 Points to the miniport driver's device extension.
 
 ### -param Arg2
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpreviousautoflipininfo">DDGETPREVIOUSAUTOFLIPININFO</a> structure that contains the <a href="/windows-hardware/drivers/">video port extensions (VPE)</a> object information.
 
 ### -param Arg3
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpreviousautoflipoutinfo">DDGETPREVIOUSAUTOFLIPOUTINFO</a> structure that contains the index of the autoflip chain.
 
 ## -returns
@@ -81,4 +78,3 @@ If interleaving, the surface that received the previous field may be the same su
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpreviousautoflipininfo">DDGETPREVIOUSAUTOFLIPININFO</a>
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetpreviousautoflipoutinfo">DDGETPREVIOUSAUTOFLIPOUTINFO</a>
-

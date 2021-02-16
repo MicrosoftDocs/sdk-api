@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkDataList::CopyDataBlock
+ - IShellLinkDataList.CopyDataBlock
 ---
 
 # IShellLinkDataList::CopyDataBlock
@@ -75,4 +75,3 @@ Returns <b>S_OK</b> if successful, or a COM error code otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishelllinkdatalist">IShellLinkDataList</a>
-

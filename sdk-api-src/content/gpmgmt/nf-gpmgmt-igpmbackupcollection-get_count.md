@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMBackupCollection::get_Count
+ - IGPMBackupCollection.Count
+ - IGPMBackupCollection.get_Count
+ - GPMBackupCollection.Count
 ---
 
 # IGPMBackupCollection::get_Count
@@ -68,4 +70,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmbackupdir">IGPMBackupDir</a>
-

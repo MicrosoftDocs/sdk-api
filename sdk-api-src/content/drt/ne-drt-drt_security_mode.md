@@ -44,7 +44,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_security_mode_tag
  - DRT_SECURITY_MODE
 ---
 
@@ -72,4 +71,3 @@ Nodes must authenticate the keys they publish. Nodes must also authenticate them
 ## -remarks
 
 The more secure a DRT security mode, the more of a computational load exists for nodes participating in the DRT. More bandwidth is also consumed.
-

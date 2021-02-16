@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation6::CreateEventHandlerGroup
+ - IUIAutomation6.CreateEventHandlerGroup
 ---
 
 # IUIAutomation6::CreateEventHandlerGroup
@@ -72,4 +72,3 @@ Before implementing an event handler, you should be familiar with the threading 
 ## -see-also
 
 [AddEventHandlerGroup](nf-uiautomationclient-iuiautomation6-addeventhandlergroup.md), [IUIAutomation6 interface](nn-uiautomationclient-iuiautomation6.md), [IUIAutomation6::RemoveEventHandlerGroup](nf-uiautomationclient-iuiautomation6-removeeventhandlergroup.md)
-

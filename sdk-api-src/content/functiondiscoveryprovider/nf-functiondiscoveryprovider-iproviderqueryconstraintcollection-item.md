@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderQueryConstraintCollection::Item
+ - IProviderQueryConstraintCollection.Item
 ---
 
 # IProviderQueryConstraintCollection::Item
@@ -104,4 +104,3 @@ The <i>pszConstraintName</i> or <i>ppszConstraintValue</i> parameter is <b>NULL<
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>
-

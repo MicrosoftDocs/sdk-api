@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual::SetContent
+ - IDCompositionVisual.SetContent
 ---
 
 # IDCompositionVisual::SetContent
@@ -93,4 +93,3 @@ The bitmap is always drawn at position (0,0) relative to the visual's coordinate
 
 
 <b>IDXGIFactory2::CreateSwapChain1</b>
-

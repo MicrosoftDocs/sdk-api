@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pnrpdef.h
 api_name:
- - _PNRP_CLOUD_FLAGS
  - PNRP_CLOUD_FLAGS
 ---
 
@@ -80,4 +79,3 @@ This machine is a full participant in the cloud, and can publish and resolve nam
 
 
 <a href="/windows/desktop/api/pnrpns/ns-pnrpns-pnrpcloudinfo">PNRPCLOUDINFO</a>
-

@@ -9,8 +9,6 @@ tech.root: fax
 f1_keywords:
  - faxdev
  - faxdev/faxdev
-api_name:
- - faxdev
 ---
 
 # Faxdev.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionControl2::GetSessionIdentifier
+ - IAudioSessionControl2.GetSessionIdentifier
 ---
 
 # IAudioSessionControl2::GetSessionIdentifier
@@ -103,4 +103,3 @@ The audio session is disconnected on the default audio device.
 ## -see-also
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessioncontrol2">IAudioSessionControl2</a>
-

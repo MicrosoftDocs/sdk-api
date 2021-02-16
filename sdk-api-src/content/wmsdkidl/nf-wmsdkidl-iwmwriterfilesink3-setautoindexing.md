@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink3::SetAutoIndexing
+ - IWMWriterFileSink3.SetAutoIndexing
 ---
 
 # IWMWriterFileSink3::SetAutoIndexing
@@ -113,4 +113,3 @@ If you generate an ASF file using bit-rate mutual exclusion for audio content (m
 
 
 <a href="/windows/desktop/wmformat/working-with-indexes">Working with Indexes</a>
-

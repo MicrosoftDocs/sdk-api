@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFIndexer::GetIndexPosition
+ - IMFASFIndexer.GetIndexPosition
 ---
 
 # IMFASFIndexer::GetIndexPosition
@@ -111,4 +111,3 @@ If the index is retrieved by using more than one call to <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfindexer">IMFASFIndexer</a>
-

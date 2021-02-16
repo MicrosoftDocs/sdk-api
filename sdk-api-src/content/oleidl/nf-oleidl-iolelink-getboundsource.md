@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::GetBoundSource
+ - IOleLink.GetBoundSource
 ---
 
 # IOleLink::GetBoundSource
@@ -87,4 +87,3 @@ You typically do not need to call <b>IOleLink::GetBoundSource</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iolelink">IOleLink</a>
-

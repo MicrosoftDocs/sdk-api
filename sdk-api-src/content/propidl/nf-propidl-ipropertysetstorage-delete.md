@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertySetStorage::Delete
+ - IPropertySetStorage.Delete
 ---
 
 # IPropertySetStorage::Delete

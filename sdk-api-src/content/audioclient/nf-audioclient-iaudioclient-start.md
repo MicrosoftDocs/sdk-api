@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::Start
+ - IAudioClient.Start
 ---
 
 # IAudioClient::Start
@@ -156,4 +156,3 @@ For code examples that call the <b>Start</b> method, see the following topics:
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
-

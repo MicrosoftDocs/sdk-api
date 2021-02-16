@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator::CopyData
+ - GraphicsPathIterator.CopyData
 ---
 
 # GraphicsPathIterator::CopyData
@@ -170,4 +170,3 @@ delete[] pTypes;
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

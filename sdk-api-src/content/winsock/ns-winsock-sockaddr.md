@@ -47,8 +47,6 @@ api_location:
  - winsock.h
 api_name:
  - sockaddr
- - PSOCKADDR
- - SOCKADDR
 ---
 
 # SOCKADDR structure
@@ -69,4 +67,3 @@ sockaddr contents are expressed in network byte order.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/ms740504(v=vs.85)">SOCKADDR_STORAGE</a>
-

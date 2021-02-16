@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComObjectPoolEvents2::OnObjPoolTimeout
+ - IComObjectPoolEvents2.OnObjPoolTimeout
 ---
 
 # IComObjectPoolEvents2::OnObjPoolTimeout
@@ -77,4 +77,3 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomobjectpoolevents2">IComObjectPoolEvents2</a>
-

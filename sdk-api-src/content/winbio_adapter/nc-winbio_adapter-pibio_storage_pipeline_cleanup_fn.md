@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_PIPELINE_CLEANUP_FN
+ - StorageAdapterPipelineCleanup
 ---
 
 # PIBIO_STORAGE_PIPELINE_CLEANUP_FN callback function
@@ -87,4 +87,3 @@ This method is called once, when a biometric unit is being torn down.
 The Storage Adapter should return <b>S_OK</b> if it doesn’t need to perform any cleanup at this point.
 
 This method executes in the context of an arbitrary RPC server thread.
-

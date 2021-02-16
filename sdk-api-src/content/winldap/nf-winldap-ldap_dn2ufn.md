@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_dn2ufn
+ - ldap_dn2ufnA
+ - ldap_dn2ufnW
 ---
 
 # ldap_dn2ufn function
@@ -76,4 +78,3 @@ When given an entry distinguished name, <b>ldap_dn2ufn</b> returns a null-termin
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
-

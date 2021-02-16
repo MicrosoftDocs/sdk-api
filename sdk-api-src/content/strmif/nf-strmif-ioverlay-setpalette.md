@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlay::SetPalette
+ - IOverlay.SetPalette
 ---
 
 # IOverlay::SetPalette
@@ -82,4 +82,3 @@ The <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlay">IOverlay Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_IP_ENTRY
- - PCLUSTER_IP_ENTRY
  - CLUSTER_IP_ENTRY
 ---
 
@@ -93,4 +91,3 @@ A pointer to an array of <b>CLUSTER_IP_ENTRY</b>
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

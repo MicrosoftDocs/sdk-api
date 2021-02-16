@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl::Stop
+ - IMediaControl.Stop
 ---
 
 # IMediaControl::Stop
@@ -78,4 +78,3 @@ The Filter Graph Manager pauses all the filters in the graph, and then calls the
 
 
 <a href="/windows/desktop/api/control/nf-control-imediacontrol-stopwhenready">StopWhenReady</a>
-

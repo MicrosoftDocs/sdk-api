@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
- - _COPP_StatusFlags
  - COPP_StatusFlags
 ---
 
@@ -90,4 +89,3 @@ If COPP_LinkLost is returned, the application should release the current instanc
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyFile6::RequestFileRanges
+ - IBackgroundCopyFile6.RequestFileRanges
 ---
 
 # IBackgroundCopyFile6::RequestFileRanges
@@ -80,4 +80,3 @@ When all of the requested ranges have been downloaded the job state will be set 
 ## -see-also
 
 <a href="/windows/desktop/api/bits10_1/nn-bits10_1-ibackgroundcopyfile6">IBackgroundCopyFile6</a>
-

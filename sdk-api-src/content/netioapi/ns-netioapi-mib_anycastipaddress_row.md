@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
- - _MIB_ANYCASTIPADDRESS_ROW
- - PMIB_ANYCASTIPADDRESS_ROW
  - MIB_ANYCASTIPADDRESS_ROW
 ---
 
@@ -106,4 +104,3 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 <a href="/windows/desktop/api/ws2ipdef/ns-ws2ipdef-sockaddr_inet">SOCKADDR_INET</a>
-

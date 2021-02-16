@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Rasdlg.h
 api_name:
- - RasCustomDialDlgFn
+ - RasCustomDialDlg
+ - RasCustomDialDlgA
+ - RasCustomDialDlgW
 ---
 
 # RasCustomDialDlgFn callback function
@@ -166,4 +168,3 @@ If the custom-dial DLL does not support this entry point, RAS returns <b>ERROR_C
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

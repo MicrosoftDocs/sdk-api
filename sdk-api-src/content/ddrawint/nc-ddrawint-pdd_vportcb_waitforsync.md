@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_VPORTCB_WAITFORSYNC
+ - DdVideoPortWaitForSync
 ---
 
 ## -description
@@ -68,4 +68,3 @@ The driver must specify its own time-out criteria when <b>dwTimeOut</b> is zero.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_waitforvportsyncdata">DD_WAITFORVPORTSYNCDATA</a>
-

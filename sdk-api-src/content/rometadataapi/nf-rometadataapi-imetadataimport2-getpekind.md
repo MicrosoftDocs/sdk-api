@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport2::GetPEKind
+ - IMetaDataImport2.GetPEKind
 ---
 
 # IMetaDataImport2::GetPEKind
@@ -121,4 +121,3 @@ IMAGE_FILE_MACHINE_AMD64
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport2">IMetaDataImport2</a>
-

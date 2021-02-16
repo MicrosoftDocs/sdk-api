@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetTimeFromSystemTimeA
  - wininet/InternetTimeFromSystemTimeA
- - InternetTimeFromSystemTime
- - wininet/InternetTimeFromSystemTime
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Http-Time-l1-1-0.dll
  - KernelBase.dll
 api_name:
- - InternetTimeFromSystemTimeA
  - InternetTimeFromSystemTime
+ - InternetTimeFromSystemTimeA
+ - InternetTimeFromSystemTimeW
 ---
 
 # InternetTimeFromSystemTimeA function
@@ -100,4 +99,3 @@ Returns TRUE if the function succeeds, or FALSE otherwise. To get extended error
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

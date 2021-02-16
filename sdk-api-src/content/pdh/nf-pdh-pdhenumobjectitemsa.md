@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhEnumObjectItemsA
  - pdh/PdhEnumObjectItemsA
- - PdhEnumObjectItems
- - pdh/PdhEnumObjectItems
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhEnumObjectItemsA
  - PdhEnumObjectItems
+ - PdhEnumObjectItemsA
+ - PdhEnumObjectItemsW
 ---
 
 # PdhEnumObjectItemsA function
@@ -260,4 +259,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhenumobjectsa">PdhEnumObjects</a>
-

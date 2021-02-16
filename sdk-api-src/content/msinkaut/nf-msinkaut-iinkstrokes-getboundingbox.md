@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes::GetBoundingBox
+ - IInkStrokes.GetBoundingBox
 ---
 
 # IInkStrokes::GetBoundingBox
@@ -158,4 +158,3 @@ When the bounding box is affected by the pen width, then this width is scaled ap
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::operator LPCWSTR
+ - CHString.operator LPCWSTR
+ - ??BCHString@@QBEPBGXZ
+ - ??BCHString@@QEBAPEBGXZ
 ---
 
 # CHString::operator LPCWSTR
@@ -64,4 +66,3 @@ The <b>operator LPCWSTR</b> conversion operator provides an efficient method to 
 ## -see-also
 
 <a href="/windows/desktop/WmiSdk/chstring">CHString</a>
-

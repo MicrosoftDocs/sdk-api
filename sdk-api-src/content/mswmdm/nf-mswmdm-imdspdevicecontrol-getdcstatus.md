@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDeviceControl::GetDCStatus
+ - IMDSPDeviceControl.GetDCStatus
 ---
 
 # IMDSPDeviceControl::GetDCStatus
@@ -149,4 +149,3 @@ You must not attempt to call the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevicecontrol">IMDSPDeviceControl Interface</a>
-

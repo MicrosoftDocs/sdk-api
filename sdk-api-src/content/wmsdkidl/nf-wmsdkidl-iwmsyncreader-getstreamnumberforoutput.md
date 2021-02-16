@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader::GetStreamNumberForOutput
+ - IWMSyncReader.GetStreamNumberForOutput
 ---
 
 # IWMSyncReader::GetStreamNumberForOutput
@@ -109,4 +109,3 @@ In the case of outputs that equate to mutual exclusions, only the active stream 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-

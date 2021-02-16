@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IHeaderCtrl2::GetColumnFilter
+ - IHeaderCtrl2.GetColumnFilter
 ---
 
 # IHeaderCtrl2::GetColumnFilter
@@ -82,4 +82,3 @@ When reading a filter value, if the filter type specified by the snap-in does no
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iheaderctrl2">IHeaderCtrl2</a>
-

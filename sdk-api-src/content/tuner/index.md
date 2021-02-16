@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - tuner
  - tuner/tuner
-api_name:
- - tuner
 ---
 
 # Tuner.h header

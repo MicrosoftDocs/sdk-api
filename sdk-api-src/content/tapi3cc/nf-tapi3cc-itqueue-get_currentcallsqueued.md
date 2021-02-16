@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQueue::get_CurrentCallsQueued
+ - ITQueue.get_CurrentCallsQueued
 ---
 
 # ITQueue::get_CurrentCallsQueued
@@ -106,4 +106,3 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-

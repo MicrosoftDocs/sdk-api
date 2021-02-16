@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlDropHandler::OnDragPosition
+ - INameSpaceTreeControlDropHandler.OnDragPosition
 ---
 
 # INameSpaceTreeControlDropHandler::OnDragPosition
@@ -87,4 +87,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Failing this method prevents the item rearrangment.
-

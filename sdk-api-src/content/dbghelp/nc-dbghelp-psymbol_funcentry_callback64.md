@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PSYMBOL_FUNCENTRY_CALLBACK64
+ - SymRegisterFunctionEntryCallbackProc64
 ---
 
 # PSYMBOL_FUNCENTRY_CALLBACK64 callback function
@@ -115,4 +115,3 @@ PVOID
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symregisterfunctionentrycallback">SymRegisterFunctionEntryCallback64</a>
-

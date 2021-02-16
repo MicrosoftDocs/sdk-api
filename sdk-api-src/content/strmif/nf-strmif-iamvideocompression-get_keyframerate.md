@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression::get_KeyFrameRate
+ - IAMVideoCompression.get_KeyFrameRate
 ---
 
 # IAMVideoCompression::get_KeyFrameRate
@@ -80,4 +80,3 @@ To determine if the filter supports this method, call the <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_keyframerate">IAMVideoCompression::put_KeyFrameRate</a>
-

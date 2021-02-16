@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_PRESHARED_KEY_AUTHENTICATION0__
  - IKEEXT_PRESHARED_KEY_AUTHENTICATION0
 ---
 
@@ -69,4 +68,3 @@ The pre-shared key specified by [FWP_BYTE_BLOB](/windows/desktop/api/fwptypes/ns
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

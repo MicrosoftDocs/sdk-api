@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Docobj.h
 api_name:
- - tagPAGERANGE
  - PAGERANGE
 ---
 
@@ -68,4 +67,3 @@ The last page of the range. A special value, <b>PAGESET_TOLASTPAGE</b>, indicate
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/ns-docobj-pageset">PAGESET</a>
-

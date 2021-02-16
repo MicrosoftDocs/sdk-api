@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupSetDirectoryIdW
  - setupapi/SetupSetDirectoryIdW
- - SetupSetDirectoryId
- - setupapi/SetupSetDirectoryId
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupSetDirectoryIdW
  - SetupSetDirectoryId
+ - SetupSetDirectoryIdA
+ - SetupSetDirectoryIdW
 ---
 
 # SetupSetDirectoryIdW function
@@ -102,4 +101,3 @@ DIRID_ABSOLUTE_16BIT is not a valid value for <i>Id</i>, which ensures compatibi
 
 
 <a href="/windows/desktop/SetupApi/overview">Overview</a>
-

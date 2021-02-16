@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation::GetReportStatus
+ - ILocation.GetReportStatus
 ---
 
 # ILocation::GetReportStatus
@@ -374,4 +374,3 @@ HRESULT WaitForLocationReport(
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocation">ILocation</a>
-

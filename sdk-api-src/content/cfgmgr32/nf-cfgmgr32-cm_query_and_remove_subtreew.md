@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Query_And_Remove_SubTreeW
  - cfgmgr32/CM_Query_And_Remove_SubTreeW
- - CM_Query_And_Remove_SubTree
- - cfgmgr32/CM_Query_And_Remove_SubTree
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,8 @@ api_location:
  - API-Ms-Win-Devices-Config-L1-1-1.dll
  - CfgMgr32.dll
 api_name:
- - CM_Query_And_Remove_SubTreeW
  - CM_Query_And_Remove_SubTree
+ - CM_Query_And_Remove_SubTreeW
 ---
 
 # CM_Query_And_Remove_SubTreeW function
@@ -126,4 +124,3 @@ For information about using device instance handles that are bound to the local 
 
 
 <a href="/windows-hardware/drivers/install/dif-propertychange">DIF_PROPERTYCHANGE</a>
-

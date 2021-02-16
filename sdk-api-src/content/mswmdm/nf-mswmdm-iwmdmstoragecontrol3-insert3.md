@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageControl3::Insert3
+ - IWMDMStorageControl3.Insert3
 ---
 
 # IWMDMStorageControl3::Insert3
@@ -358,4 +358,3 @@ HRESULT mySendFile(LPCWSTR pwszFileName, IWMDMStorage* pStorage, IWMDMOperation*
 
 
 <a href="/windows/desktop/WMDM/writing-files-to-the-device">Writing Files to the Device</a>
-

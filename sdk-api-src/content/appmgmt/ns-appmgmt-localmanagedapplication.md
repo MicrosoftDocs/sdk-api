@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Appmgmt.h
 api_name:
- - _LOCALMANAGEDAPPLICATION
- - PLOCALMANAGEDAPPLICATION
  - LOCALMANAGEDAPPLICATION
 ---
 
@@ -113,4 +111,3 @@ If the policy from which this application originates is removed, the application
 
 
 <a href="/previous-versions/windows/desktop/Policy/group-policy-structures">Group Policy Structures</a>
-

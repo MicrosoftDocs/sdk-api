@@ -42,7 +42,10 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::get_NumSessions
+ - ITsSbTarget.NumSessions
+ - ITsSbTarget.get_NumSessions
+ - ITsSbTargetEx.NumSessions
+ - ITsSbTargetEx.get_NumSessions
 ---
 
 # ITsSbTarget::get_NumSessions
@@ -63,4 +66,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_TRIM_DESCRIPTOR
- - PDEVICE_TRIM_DESCRIPTOR
  - DEVICE_TRIM_DESCRIPTOR
 ---
 
@@ -82,4 +80,3 @@ Specifies whether trim is enabled for the device.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4::XMUNIBBLE4
+ - XMUNIBBLE4.XMUNIBBLE4
 ---
 
 # XMUNIBBLE4::XMUNIBBLE4(const float)
@@ -95,4 +95,3 @@ instance.v =  ( (uint16_t)_w1 << 12) |
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4">XMUNIBBLE4</a>
 
 <a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
-

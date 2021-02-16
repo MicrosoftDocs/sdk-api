@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetPrivateProfileStructA
  - winbase/GetPrivateProfileStructA
- - GetPrivateProfileStruct
- - winbase/GetPrivateProfileStruct
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - GetPrivateProfileStructA
  - GetPrivateProfileStruct
+ - GetPrivateProfileStructA
+ - GetPrivateProfileStructW
 ---
 
 # GetPrivateProfileStructA function
@@ -132,4 +131,3 @@ When looking at values in the registry that specify other registry locations, th
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestructa">WritePrivateProfileStruct</a>
-

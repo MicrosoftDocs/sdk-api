@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IEnumWorkItems::Next
+ - IEnumWorkItems.Next
 ---
 
 # IEnumWorkItems::Next
@@ -154,4 +154,3 @@ For an example of how to use <b>Next</b> to enumerate the tasks in the Scheduled
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ienumworkitems-skip">IEnumWorkItems::Skip</a>
-

@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl::GetBorderColor
+ - IMFVideoDisplayControl.GetBorderColor
 ---
 
 # IMFVideoDisplayControl::GetBorderColor
@@ -109,4 +109,3 @@ The border color is not used for letterboxing. To get the letterbox color, call 
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-

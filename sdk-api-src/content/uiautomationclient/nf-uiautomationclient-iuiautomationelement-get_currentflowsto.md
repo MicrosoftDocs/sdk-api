@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentFlowsTo
+ - IUIAutomationElement.CurrentFlowsTo
+ - IUIAutomationElement.get_CurrentFlowsTo
 ---
 
 # IUIAutomationElement::get_CurrentFlowsTo
@@ -75,4 +76,3 @@ This property maps to the Accessible Rich Internet Applications (ARIA) <b>flowto
 
 
 <b>Reference</b>
-

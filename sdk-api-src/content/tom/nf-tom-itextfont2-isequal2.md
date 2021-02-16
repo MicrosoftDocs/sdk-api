@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::IsEqual2
+ - ITextFont2.IsEqual2
 ---
 
 # ITextFont2::IsEqual2
@@ -85,4 +85,3 @@ The <b>ITextFont::IsEqual2</b> method ignores entries for which either font obje
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont-isequal">ITextFont::IsEqual</a>
-

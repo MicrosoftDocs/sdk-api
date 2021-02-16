@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _GROUP_USERS_INFO_1
- - PGROUP_USERS_INFO_1
  - GROUP_USERS_INFO_1
 ---
 
@@ -228,4 +226,3 @@ Windows Vista and later include an addition to the access control security mech
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

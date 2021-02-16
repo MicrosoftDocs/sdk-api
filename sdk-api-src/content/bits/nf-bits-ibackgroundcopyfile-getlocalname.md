@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyFile::GetLocalName
+ - IBackgroundCopyFile.GetLocalName
 ---
 
 # IBackgroundCopyFile::GetLocalName
@@ -126,4 +126,3 @@ if (pszRemoteFileName)
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-addfileset">IBackgroundCopyJob::AddFileSet</a>
-

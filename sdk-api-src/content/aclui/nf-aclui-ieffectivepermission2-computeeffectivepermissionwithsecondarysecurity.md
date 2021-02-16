@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity
+ - IEffectivePermission2.ComputeEffectivePermissionWithSecondarySecurity
 ---
 
 # IEffectivePermission2::ComputeEffectivePermissionWithSecondarySecurity
@@ -147,4 +147,3 @@ For each of the secondary security objects whose <b>fEvaluated</b> member is set
 
 
 <a href="/windows/desktop/api/aclui/ns-aclui-security_object">SECURITY_OBJECT</a>
-

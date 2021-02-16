@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RemoveDirectoryTransactedA
  - winbase/RemoveDirectoryTransactedA
- - RemoveDirectoryTransacted
- - winbase/RemoveDirectoryTransacted
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - RemoveDirectoryTransactedA
  - RemoveDirectoryTransacted
+ - RemoveDirectoryTransactedA
+ - RemoveDirectoryTransactedW
 ---
 
 # RemoveDirectoryTransactedA function
@@ -189,4 +188,3 @@ SMB 3.0 does not support TxF
 
 
 <a href="/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
-

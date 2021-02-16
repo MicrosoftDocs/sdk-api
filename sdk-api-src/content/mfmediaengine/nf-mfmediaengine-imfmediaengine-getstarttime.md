@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetStartTime
+ - IMFMediaEngine.GetStartTime
 ---
 
 # IMFMediaEngine::GetStartTime
@@ -65,4 +65,3 @@ This method corresponds to the <b>initialTime</b> attribute of the <b>HTMLMediaE
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

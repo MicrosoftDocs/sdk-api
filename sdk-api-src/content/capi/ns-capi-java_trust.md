@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Capi.h
 api_name:
- - _JAVA_TRUST
- - PJAVA_TRUST
  - JAVA_TRUST
 ---
 
@@ -115,4 +113,3 @@ The authenticode policy return code.
 
 
 <a href="/previous-versions/bb432350(v=vs.85)">JAVA_POLICY_PROVIDER</a>
-

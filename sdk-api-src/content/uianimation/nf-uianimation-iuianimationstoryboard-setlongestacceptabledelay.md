@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard::SetLongestAcceptableDelay
+ - IUIAnimationStoryboard.SetLongestAcceptableDelay
 ---
 
 # IUIAnimationStoryboard::SetLongestAcceptableDelay
@@ -73,4 +73,3 @@ For a storyboard to be successfully scheduled, it must begin before the longest 
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>
-

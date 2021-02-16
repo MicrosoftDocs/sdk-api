@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
+ - IWdsTransportNamespaceScheduledCastAutoStart.StartTime
+ - IWdsTransportNamespaceScheduledCastAutoStart.get_StartTime
+ - IWdsTransportNamespaceScheduledCastAutoStart.put_StartTime
 ---
 
 # IWdsTransportNamespaceScheduledCastAutoStart::put_StartTime
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespacescheduledcastautostart">IWdsTransportNamespaceScheduledCastAutoStart</a>
-

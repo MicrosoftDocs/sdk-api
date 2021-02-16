@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl::get_Tone
+ - ITAutomatedPhoneControl.get_Tone
 ---
 
 # ITAutomatedPhoneControl::get_Tone
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an error value.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-starttone">StartTone</a>
-

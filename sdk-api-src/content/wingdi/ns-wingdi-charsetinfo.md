@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagCHARSETINFO
- - PCHARSETINFO
  - CHARSETINFO
 ---
 
@@ -87,4 +85,3 @@ A <a href="/windows/desktop/api/wingdi/ns-wingdi-fontsignature">FONTSIGNATURE</a
 
 
 <a href="/windows/desktop/Intl/unicode-and-character-set-structures">Unicode and Character Set Structures</a>
-

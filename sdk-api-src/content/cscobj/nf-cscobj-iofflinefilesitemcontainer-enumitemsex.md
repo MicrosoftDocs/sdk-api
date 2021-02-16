@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItemContainer::EnumItemsEx
+ - IOfflineFilesItemContainer.EnumItemsEx
 ---
 
 # IOfflineFilesItemContainer::EnumItemsEx
@@ -180,4 +180,3 @@ As the table illustrates, if the exclusion filter matches or the inclusion filte
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilesitemcontainer-enumitems">IOfflineFilesItemContainer::EnumItems</a>
-

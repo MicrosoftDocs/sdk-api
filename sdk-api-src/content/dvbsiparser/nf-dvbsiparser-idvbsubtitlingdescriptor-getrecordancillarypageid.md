@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbSubtitlingDescriptor::GetRecordAncillaryPageID
+ - IDvbSubtitlingDescriptor.GetRecordAncillaryPageID
 ---
 
 # IDvbSubtitlingDescriptor::GetRecordAncillaryPageID
@@ -81,4 +81,3 @@ lookup table (CLUT) definition segments, object segments, or any other type of s
 
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nf-dvbsiparser-idvbsubtitlingdescriptor-getcountofrecords">IDvbSubtitlingDescriptor::GetCountOfRecords</a>
-

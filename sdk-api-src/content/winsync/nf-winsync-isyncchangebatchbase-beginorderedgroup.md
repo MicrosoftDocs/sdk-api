@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase::BeginOrderedGroup
+ - ISyncChangeBatchBase.BeginOrderedGroup
 ---
 
 # ISyncChangeBatchBase::BeginOrderedGroup
@@ -122,4 +122,3 @@ Item changes cannot be added to the change batch until a group is opened.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-

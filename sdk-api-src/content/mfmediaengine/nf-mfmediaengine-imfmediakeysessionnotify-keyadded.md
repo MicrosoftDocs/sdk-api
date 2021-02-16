@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaKeySessionNotify::KeyAdded
+ - IMFMediaKeySessionNotify.KeyAdded
 ---
 
 # IMFMediaKeySessionNotify::KeyAdded
@@ -61,4 +61,3 @@ Notifies the application that the key has been added.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysessionnotify">IMFMediaKeySessionNotify</a>
-

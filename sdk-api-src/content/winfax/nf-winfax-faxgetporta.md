@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxGetPortA
  - winfax/FaxGetPortA
- - FaxGetPort
- - winfax/FaxGetPort
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxGetPortA
  - FaxGetPort
+ - FaxGetPortA
+ - FaxGetPortW
 ---
 
 # FaxGetPortA function
@@ -164,4 +163,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsetporta">FaxSetPort</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IPrint::Print
+ - IPrint.Print
 ---
 
 # IPrint::Print
@@ -169,4 +169,3 @@ The <i>pstgmOptions</i> parameter is also [in,out]. On exit, the object should w
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
-

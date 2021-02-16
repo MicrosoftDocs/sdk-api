@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumAddress::Skip
+ - IEnumAddress.Skip
 ---
 
 # IEnumAddress::Skip
@@ -110,4 +110,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Qos.h
 api_name:
- - LPQOS_OBJECT_HDR
  - QOS_OBJECT_HDR
 ---
 

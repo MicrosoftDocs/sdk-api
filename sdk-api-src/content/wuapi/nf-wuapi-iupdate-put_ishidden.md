@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::put_IsHidden
+ - IUpdate.IsHidden
+ - IUpdate.get_IsHidden
+ - IUpdate.put_IsHidden
 ---
 
 # IUpdate::put_IsHidden
@@ -63,4 +65,3 @@ An attempt to mark a mandatory update as hidden causes an error.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

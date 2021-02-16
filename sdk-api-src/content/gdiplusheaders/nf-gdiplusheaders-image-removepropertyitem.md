@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::RemovePropertyItem
+ - Image.RemovePropertyItem
 ---
 
 # Image::RemovePropertyItem
@@ -168,4 +168,3 @@ The size of the PropertyTagEquipMake item is 0.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-reading-and-writing-metadata-use">Reading and Writing Metadata</a>
-

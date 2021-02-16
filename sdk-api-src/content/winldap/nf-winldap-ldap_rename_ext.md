@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_rename_ext
+ - ldap_rename_extA
+ - ldap_rename_extW
 ---
 
 # ldap_rename_ext function
@@ -115,4 +117,3 @@ Multithreading: Calls to <b>ldap_rename_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetCharABCWidthsFloatA
  - wingdi/GetCharABCWidthsFloatA
- - GetCharABCWidthsFloat
- - wingdi/GetCharABCWidthsFloat
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetCharABCWidthsFloatA
  - GetCharABCWidthsFloat
+ - GetCharABCWidthsFloatA
+ - GetCharABCWidthsFloatW
 ---
 
 # GetCharABCWidthsFloatA function
@@ -123,4 +122,3 @@ The ABC widths of the default character are used for characters outside the rang
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharwidthfloata">GetCharWidthFloat</a>
-

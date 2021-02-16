@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PointF::Equals
+ - PointF.Equals
 ---
 
 # PointF::Equals
@@ -88,4 +88,3 @@ If the
 
 
 <a href="/previous-versions/ms534998(v=vs.85)">PointF::operator-</a>
-

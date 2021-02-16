@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUIObjInfoW::GetObjectInfo
+ - IOleUIObjInfo.GetObjectInfo
+ - IOleUIObjInfoW.GetObjectInfo
+ - IOleUIObjInfoA.GetObjectInfo
 ---
 
 # IOleUIObjInfoW::GetObjectInfo
@@ -141,4 +143,3 @@ Your implementation of <b>GetObjectInfo</b> should place each of the object's at
 
 
 <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
-

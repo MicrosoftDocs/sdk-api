@@ -46,9 +46,7 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
- - _WSACMSGHDR
- - PWSACMSGHDR
- - WSACMSGHDR
+ - CMSGHDR
 ---
 
 # WSACMSGHDR structure
@@ -94,4 +92,3 @@ The control information data that is associated with a datagram is made up of on
 
 
 <a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
-

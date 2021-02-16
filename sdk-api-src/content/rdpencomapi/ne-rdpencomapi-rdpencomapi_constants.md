@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
- - __MIDL___MIDL_itf_rdpencomapi_0000_0028_0001
  - RDPENCOMAPI_CONSTANTS
 ---
 
@@ -90,4 +89,3 @@ Not used.
 The default value for the <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendee">IRDPSRAPIAttendee</a>::<a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiattendee-get_id">Id</a> property.
 
 <b>Windows Server 2012 R2, Windows 8.1, Windows Server 2012, Windows 8, Windows Server 2008 R2, Windows 7, Windows Server 2008 and Windows Vista:  </b>This enumeration value is not supported before Windows 10 and Windows Server 2016.
-

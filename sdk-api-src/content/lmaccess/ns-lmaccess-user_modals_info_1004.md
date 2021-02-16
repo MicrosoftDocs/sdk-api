@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_MODALS_INFO_1004
- - PUSER_MODALS_INFO_1004
  - USER_MODALS_INFO_1004
 ---
 
@@ -80,4 +78,3 @@ Specifies, in seconds, the amount of time between the end of the valid logon tim
 
 
 <a href="/windows/desktop/NetMgmt/user-modal-functions">User Modal Functions</a>
-

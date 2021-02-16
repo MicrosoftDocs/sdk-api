@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::get_Attributes
+ - IPicture.get_Attributes
 ---
 
 # IPicture::get_Attributes
@@ -100,4 +100,3 @@ The value of <i>pdwAttr</i> is not valid. For example, it may be <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/ocidl/ne-ocidl-pictureattributes">PICTUREATTRIBUTES</a>
-

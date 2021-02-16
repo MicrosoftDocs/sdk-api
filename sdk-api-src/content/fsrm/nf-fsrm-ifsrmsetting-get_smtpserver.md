@@ -42,7 +42,10 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting::get_SmtpServer
+ - IFsrmSetting.SmtpServer
+ - IFsrmSetting.get_SmtpServer
+ - IFsrmSetting.put_SmtpServer
+ - FsrmSetting.SmtpServer
 ---
 
 # IFsrmSetting::get_SmtpServer
@@ -76,4 +79,3 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
-

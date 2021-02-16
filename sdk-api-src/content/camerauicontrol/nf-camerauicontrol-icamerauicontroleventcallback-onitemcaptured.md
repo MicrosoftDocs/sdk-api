@@ -42,7 +42,7 @@ api_type:
 api_location:
  - camerauicontrol.h
 api_name:
- - ICameraUIControlEventCallback::OnItemCaptured
+ - ICameraUIControlEventCallback.OnItemCaptured
 ---
 
 # ICameraUIControlEventCallback::OnItemCaptured
@@ -61,4 +61,3 @@ The path to the captured item.
 ## -see-also
 
 <a href="/windows/desktop/api/camerauicontrol/nn-camerauicontrol-icamerauicontroleventcallback">ICameraUIControlEventCallback</a>
-

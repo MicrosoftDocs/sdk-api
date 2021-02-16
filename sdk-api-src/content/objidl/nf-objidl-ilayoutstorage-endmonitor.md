@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILayoutStorage::EndMonitor
+ - ILayoutStorage.EndMonitor
 ---
 
 # ILayoutStorage::EndMonitor
@@ -72,4 +72,3 @@ A call to
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilayoutstorage-relayoutdocfile">ILayoutStorage::ReLayoutDocfile</a>
-

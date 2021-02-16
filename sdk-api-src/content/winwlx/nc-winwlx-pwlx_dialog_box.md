@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_DIALOG_BOX
+ - WlxDialogBox
 ---
 
 # PWLX_DIALOG_BOX callback function
@@ -163,4 +163,3 @@ GINA must use the Winlogon <b>WlxDialogBox</b> function, not the Windows <a href
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

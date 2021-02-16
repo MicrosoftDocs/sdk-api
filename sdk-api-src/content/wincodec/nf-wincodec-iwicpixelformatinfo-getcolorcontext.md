@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICPixelFormatInfo::GetColorContext
+ - IWICPixelFormatInfo.GetColorContext
 ---
 
 # IWICPixelFormatInfo::GetColorContext
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The returned color context is the default color space for the pixel format. However, if an <a href="/windows/desktop/wic/-wic-imp-iwicbitmapsource">IWICBitmapSource</a> specifies its own color context, the source's context should be preferred over the pixel format's default.
-

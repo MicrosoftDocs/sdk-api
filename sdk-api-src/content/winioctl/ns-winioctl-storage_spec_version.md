@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_SPEC_VERSION
- - PSTORAGE_SPEC_VERSION
  - STORAGE_SPEC_VERSION
 ---
 

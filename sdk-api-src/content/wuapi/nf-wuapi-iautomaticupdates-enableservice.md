@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdates::EnableService
+ - IAutomaticUpdates.EnableService
 ---
 
 # IAutomaticUpdates::EnableService
@@ -124,4 +124,3 @@ This method returns <b>WU_E_AU_NOSERVICE</b> if Automatic Updates is disabled, i
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdates">IAutomaticUpdates</a>
-

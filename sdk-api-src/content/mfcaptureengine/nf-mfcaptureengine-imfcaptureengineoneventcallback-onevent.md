@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureEngineOnEventCallback::OnEvent
+ - IMFCaptureEngineOnEventCallback.OnEvent
 ---
 
 # IMFCaptureEngineOnEventCallback::OnEvent
@@ -149,4 +149,3 @@ To get event attributes, use the <a href="/windows/desktop/api/mfobjects/nn-mfob
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcaptureengineoneventcallback">IMFCaptureEngineOnEventCallback</a>
-

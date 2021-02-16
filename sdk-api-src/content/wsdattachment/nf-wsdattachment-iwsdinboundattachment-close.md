@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDInboundAttachment::Close
+ - IWSDInboundAttachment.Close
 ---
 
 # IWSDInboundAttachment::Close
@@ -90,4 +90,3 @@ Usually, <b>Close</b> must be called before calling <b>Release()</b> on the <a h
 ## -see-also
 
 <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFactory2::CreateCustomRenderingParams
+ - IDWriteFactory2.CreateCustomRenderingParams
 ---
 
 # IDWriteFactory2::CreateCustomRenderingParams

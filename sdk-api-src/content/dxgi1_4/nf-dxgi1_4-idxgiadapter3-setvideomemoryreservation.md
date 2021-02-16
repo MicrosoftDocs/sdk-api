@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIAdapter3::SetVideoMemoryReservation
+ - IDXGIAdapter3.SetVideoMemoryReservation
 ---
 
 # IDXGIAdapter3::SetVideoMemoryReservation

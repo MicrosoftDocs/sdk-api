@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::GetInputStreamInfo
+ - IMediaObject.GetInputStreamInfo
 ---
 
 # IMediaObject::GetInputStreamInfo
@@ -116,4 +116,3 @@ The application must be sure to allocate sufficient buffers for the DMO to proce
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

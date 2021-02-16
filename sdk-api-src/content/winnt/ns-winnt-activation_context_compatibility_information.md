@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
- - PACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
  - ACTIVATION_CONTEXT_COMPATIBILITY_INFORMATION
 ---
 
@@ -136,4 +134,3 @@ if (CtxCompatInfo != NULL)
         CtxCompatInfo = NULL;
 	 }
 </code></pre>
-

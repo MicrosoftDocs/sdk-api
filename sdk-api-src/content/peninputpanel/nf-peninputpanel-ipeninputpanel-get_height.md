@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::get_Height
+ - IPenInputPanel.Height
+ - IPenInputPanel.get_Height
+ - PenInputPanel.get_Height
 ---
 
 # IPenInputPanel::get_Height
@@ -78,4 +80,3 @@ Starting with Microsoft Windows XP Tablet PC Edition 2005, the Tablet PC Input P
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_width">Width Property [PenInputPanel Class]</a>
-

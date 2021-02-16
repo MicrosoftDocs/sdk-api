@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoMachine::GetServiceSDO
+ - ISdoMachine.GetServiceSDO
+ - SdoMachine.GetServiceSDO
 ---
 
 # ISdoMachine::GetServiceSDO
@@ -114,4 +115,3 @@ None of the parameters for this method can be <b>NULL</b>.
 
 
 <a href="/windows/desktop/Nps/sdo-retrieving-a-service-sdo">Retrieving a Service SDO</a>
-

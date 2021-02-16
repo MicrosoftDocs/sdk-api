@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader::Pause
+ - IWMReader.Pause
 ---
 
 # IWMReader::Pause
@@ -108,4 +108,3 @@ The method failed for an unspecified reason.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-close">IWMReader::Close</a>
-

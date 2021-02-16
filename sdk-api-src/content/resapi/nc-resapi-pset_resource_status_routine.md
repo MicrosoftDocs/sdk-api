@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PSET_RESOURCE_STATUS_ROUTINE
+ - SetResourceStatus
 ---
 
 # PSET_RESOURCE_STATUS_ROUTINE callback function
@@ -186,4 +186,3 @@ There is no need to call
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-pterminate_routine">Terminate</a>
-

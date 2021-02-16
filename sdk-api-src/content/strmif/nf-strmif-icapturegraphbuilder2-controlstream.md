@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2::ControlStream
+ - ICaptureGraphBuilder2.ControlStream
 ---
 
 # ICaptureGraphBuilder2::ControlStream
@@ -167,4 +167,3 @@ If no downstream filter supports <b>IAMStreamControl</b>, the method returns S_F
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-

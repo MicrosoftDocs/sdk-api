@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample::GetPointer
+ - IMediaSample.GetPointer
 ---
 
 # IMediaSample::GetPointer
@@ -74,4 +74,3 @@ The buffer memory is owned by the media sample object, and is automatically rele
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-

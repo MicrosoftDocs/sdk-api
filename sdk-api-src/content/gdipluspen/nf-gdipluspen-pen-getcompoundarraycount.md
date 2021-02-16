@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::GetCompoundArrayCount
+ - Pen.GetCompoundArrayCount
 ---
 
 # Pen::GetCompoundArrayCount
@@ -80,4 +80,3 @@ This method returns an integer that indicates the number of elements in the comp
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-

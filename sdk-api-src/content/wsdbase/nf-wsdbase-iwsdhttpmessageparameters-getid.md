@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters::GetID
+ - IWSDHttpMessageParameters.GetID
 ---
 
 # IWSDHttpMessageParameters::GetID
@@ -110,4 +110,3 @@ The transport ID is not available.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
-

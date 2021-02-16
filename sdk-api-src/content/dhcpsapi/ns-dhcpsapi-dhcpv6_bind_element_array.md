@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCPV6_BIND_ELEMENT_ARRAY
- - LPDHCPV6_BIND_ELEMENT_ARRAY
  - DHCPV6_BIND_ELEMENT_ARRAY
 ---
 
@@ -75,4 +73,3 @@ Pointer to an array of <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcpv6_bind_element">DHCPV6_BIND_ELEMENT</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - _DRT_ADDRESS_FLAGS
- - PDRT_ADDRESS_FLAGS
  - DRT_ADDRESS_FLAGS
 ---
 

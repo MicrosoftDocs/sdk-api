@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StartServiceW
  - winsvc/StartServiceW
- - StartService
- - winsvc/StartService
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - StartServiceW
  - StartService
+ - StartServiceA
+ - StartServiceW
 ---
 
 # StartServiceW function
@@ -306,4 +305,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nc-winsvc-lpservice_main_functiona">ServiceMain</a>
-

@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - CreateWindowStationA
  - winuser/CreateWindowStationA
- - CreateWindowStation
- - winuser/CreateWindowStation
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +46,10 @@ api_location:
  - Ext-MS-Win-NTUser-Windowstation-L1-1-1.dll
  - Ext-MS-Win-NTUser-WindowStation-L1-1-2.dll
 api_name:
- - CreateWindowStationA
  - CreateWindowStation
+ - CreateWindowStationA
+ - CreateWindowStationW
+req.apiset: ext-ms-win-ntuser-windowstation-l1-1-0 (introduced in Windows 8)
 ---
 
 # CreateWindowStationA function
@@ -122,4 +121,3 @@ After you are done with the handle, you must call
 
 
 <a href="/windows/desktop/winstation/window-stations">Window Stations</a>
-

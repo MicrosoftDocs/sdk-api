@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnGetToolTip
+ - INameSpaceTreeControlEvents.OnGetToolTip
 ---
 
 # INameSpaceTreeControlEvents::OnGetToolTip
@@ -89,4 +89,3 @@ If this method returns S_OK, the client provides its own tooltip. Otherwise the 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

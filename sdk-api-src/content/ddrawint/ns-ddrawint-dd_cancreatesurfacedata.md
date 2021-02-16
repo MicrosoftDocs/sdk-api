@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_CANCREATESURFACEDATA
- - PDD_CANCREATESURFACEDATA
  - DD_CANCREATESURFACEDATA
 ---
 
@@ -97,4 +95,3 @@ DWORD dwStage = pddsd->dwTextureStage;
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff549213(v=vs.85)">DdCanCreateSurface</a>
-

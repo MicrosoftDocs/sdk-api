@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1::CreatePageFromStream1
+ - IXpsOMObjectFactory1.CreatePageFromStream1
 ---
 
 # IXpsOMObjectFactory1::CreatePageFromStream1
@@ -100,4 +100,3 @@ An IXpsOMPage1 interface that contains a document type of XPS_DOCUMENT_TYPE_ OPE
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
-

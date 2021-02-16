@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumInterfaceImpls
+ - IMetaDataImport.EnumInterfaceImpls
 ---
 
 # IMetaDataImport::EnumInterfaceImpls
@@ -97,4 +97,3 @@ The actual number of tokens returned in <i>rImpls</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

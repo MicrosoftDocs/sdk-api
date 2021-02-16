@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS
+ - IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS
 ---
 
 # IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS
@@ -94,4 +94,3 @@ To unregister the work queue from the MMCSS class, call <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-

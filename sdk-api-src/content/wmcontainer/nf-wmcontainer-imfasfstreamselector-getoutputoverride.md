@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector::GetOutputOverride
+ - IMFASFStreamSelector.GetOutputOverride
 ---
 
 # IMFASFStreamSelector::GetOutputOverride
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-

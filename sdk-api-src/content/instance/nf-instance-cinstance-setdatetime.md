@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetDateTime
+ - CInstance.SetDateTime
+ - ?SetDateTime@CInstance@@QAE_NPBGABVWBEMTime@@@Z
+ - ?SetDateTime@CInstance@@QEAA_NPEBGAEBVWBEMTime@@@Z
 ---
 
 # CInstance::SetDateTime
@@ -75,4 +77,3 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 <div class="alert"><b>Note</b>  The <i>wbemtime</i> parameter is converted to local time, and any arbitrary offsets are lost.</div>
 <div> </div>
-

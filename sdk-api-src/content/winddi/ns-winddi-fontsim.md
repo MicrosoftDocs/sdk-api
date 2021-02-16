@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FONTSIM
  - FONTSIM
 ---
 
@@ -80,4 +79,3 @@ If the <b>dpFontSim</b> member of the <a href="/windows/desktop/api/winddi/ns-wi
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-ifimetrics">IFIMETRICS</a>
-

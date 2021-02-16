@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireDeviceSelectionDialog::SetTitle
+ - IPhotoAcquireDeviceSelectionDialog.SetTitle
 ---
 
 # IPhotoAcquireDeviceSelectionDialog::SetTitle
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiredeviceselectiondialog">IPhotoAcquireDeviceSelectionDialog Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::CreateDepthStencilSurface
+ - IDirect3DDevice9.CreateDepthStencilSurface
 ---
 
 # IDirect3DDevice9::CreateDepthStencilSurface
@@ -123,4 +123,3 @@ The memory class of the depth-stencil buffer is always D3DPOOL_DEFAULT.
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-updatesurface">IDirect3DDevice9::UpdateSurface</a>
-

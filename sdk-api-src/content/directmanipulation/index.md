@@ -9,8 +9,6 @@ tech.root: directmanipulation
 f1_keywords:
  - directmanipulation
  - directmanipulation/directmanipulation
-api_name:
- - directmanipulation
 ---
 
 # Directmanipulation.h header

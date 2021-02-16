@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdo::PutProperty
+ - ISdo.PutProperty
 ---
 
 # ISdo::PutProperty
@@ -92,4 +92,3 @@ The method fails if the property is READ_ONLY or if the value is invalid.
 
 
 <a href="/windows/desktop/api/oaidl/ns-oaidl-variant">VARIANT</a>
-

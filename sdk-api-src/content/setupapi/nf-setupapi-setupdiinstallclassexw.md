@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiInstallClassExW
  - setupapi/SetupDiInstallClassExW
- - SetupDiInstallClassEx
- - setupapi/SetupDiInstallClassEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiInstallClassExW
- - SetupDiInstallClassEx
+ - SetupDiInstallClassEx - SetupDiInstallClassExW
 ---
 
 # SetupDiInstallClassExW function
@@ -172,4 +169,3 @@ The caller of this function must be a member of the Administrators group.
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldeviceinterfaces">SetupDiInstallDeviceInterfaces</a>
-

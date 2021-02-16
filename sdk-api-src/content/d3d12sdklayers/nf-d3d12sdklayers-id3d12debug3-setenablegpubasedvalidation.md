@@ -38,7 +38,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12Debug3::SetEnableGPUBasedValidation
+ - ID3D12Debug3.SetEnableGPUBasedValidation
 ---
 
 ## -description

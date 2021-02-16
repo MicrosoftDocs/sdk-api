@@ -41,7 +41,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device5::CreateStateObject
+ - ID3D12Device5.CreateStateObject
 ---
 
 ## -description
@@ -76,4 +76,3 @@ Returns S_OK if successful; otherwise, returns one of the following values:
 ## -see-also
 
 [ID3D12Device5](/windows/win32/api/d3d12/nn-d3d12-id3d12device5)
-

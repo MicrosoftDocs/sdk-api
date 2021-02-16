@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPMPServer::LockProcess
+ - IMFPMPServer.LockProcess
 ---
 
 # IMFPMPServer::LockProcess
@@ -84,4 +84,3 @@ When this method is called, it increments the lock count on the PMP process. For
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfpmpserver">IMFPMPServer</a>
-

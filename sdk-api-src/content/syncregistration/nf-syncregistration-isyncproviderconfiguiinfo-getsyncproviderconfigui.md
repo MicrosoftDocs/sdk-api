@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
+ - ISyncProviderConfigUIInfo.GetSyncProviderConfigUI
 ---
 
 # ISyncProviderConfigUIInfo::GetSyncProviderConfigUI
@@ -120,4 +120,3 @@ Information stored in the registration store is an unexpected size.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfiguiinfo">ISyncProviderConfigUIInfo Interface</a>
-

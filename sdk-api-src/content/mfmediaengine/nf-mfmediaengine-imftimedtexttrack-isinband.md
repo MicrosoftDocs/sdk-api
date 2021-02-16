@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextTrack::IsInBand
+ - IMFTimedTextTrack.IsInBand
 ---
 
 # IMFTimedTextTrack::IsInBand
@@ -63,4 +63,3 @@ Returns whether the timed-text track is inband. If <b>TRUE</b>, the timed-text t
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtexttrack">IMFTimedTextTrack</a>
-

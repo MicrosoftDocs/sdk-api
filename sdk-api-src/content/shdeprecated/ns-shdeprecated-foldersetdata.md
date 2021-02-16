@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - tagFolderSetData
- - LPFOLDERSETDATA
  - FOLDERSETDATA
 ---
 
@@ -140,4 +138,3 @@ The last known good view supported by the window should be used.
 #### VIEW_PRIORITY_NONE
 
 No view is available at this point.
-

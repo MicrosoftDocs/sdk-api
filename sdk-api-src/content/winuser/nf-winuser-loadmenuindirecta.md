@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LoadMenuIndirectA
  - winuser/LoadMenuIndirectA
- - LoadMenuIndirect
- - winuser/LoadMenuIndirect
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - LoadMenuIndirectA
  - LoadMenuIndirect
+ - LoadMenuIndirectA
+ - LoadMenuIndirectW
 ---
 
 # LoadMenuIndirectA function
@@ -113,4 +112,3 @@ For both the ANSI and the Unicode version of this function, the strings in the <
 
 
 <b>Reference</b>
-

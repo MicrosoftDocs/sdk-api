@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Attributes::get_Count
+ - IX509Attributes.Count
+ - IX509Attributes.get_Count
 ---
 
 # IX509Attributes::get_Count
@@ -67,4 +68,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
-

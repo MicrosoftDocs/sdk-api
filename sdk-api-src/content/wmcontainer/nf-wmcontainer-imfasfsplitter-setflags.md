@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter::SetFlags
+ - IMFASFSplitter.SetFlags
 ---
 
 # IMFASFSplitter::SetFlags
@@ -129,4 +129,3 @@ This method can only be called after the splitter is initialized.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-getflags">IMFASFSplitter::GetFlags</a>
-

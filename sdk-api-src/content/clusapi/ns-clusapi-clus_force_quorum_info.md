@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_FORCE_QUORUM_INFO
- - PCLUS_FORCE_QUORUM_INFO
 ---
 
 # CLUS_FORCE_QUORUM_INFO structure
@@ -78,4 +77,3 @@ The names of the nodes that are sufficient to establish quorum in a majority-of-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/clusctl-resource-force-quorum">CLUSCTL_RESOURCE_FORCE_QUORUM</a>
-

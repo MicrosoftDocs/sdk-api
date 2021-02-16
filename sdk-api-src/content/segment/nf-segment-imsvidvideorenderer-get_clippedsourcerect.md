@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::get_ClippedSourceRect
+ - IMSVidVideoRenderer.get_ClippedSourceRect
 ---
 
 # IMSVidVideoRenderer::get_ClippedSourceRect
@@ -75,4 +75,3 @@ The returned <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidR
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_clippedsourcerect">IMSVidVideoRenderer::put_ClippedSourceRect</a>
-

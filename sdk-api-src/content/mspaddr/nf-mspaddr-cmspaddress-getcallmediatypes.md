@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
- - CMSPAddress::GetCallMediaTypes
+ - CMSPAddress.GetCallMediaTypes
 ---
 
 # CMSPAddress::GetCallMediaTypes
@@ -58,4 +58,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-

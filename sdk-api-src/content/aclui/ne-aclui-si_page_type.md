@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _SI_PAGE_TYPE
  - SI_PAGE_TYPE
 ---
 
@@ -98,4 +97,3 @@ A dialog box for changing the owner of the object.
 
 
 <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-propertysheetpagecallback">ISecurityInformation::PropertySheetPageCallback</a>
-

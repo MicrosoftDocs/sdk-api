@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PCREATE_USN_JOURNAL_DATA
  - CREATE_USN_JOURNAL_DATA
 ---
 
@@ -78,4 +77,3 @@ For more information, see
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_create_usn_journal">FSCTL_CREATE_USN_JOURNAL</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _ENABLE_TRACE_PARAMETERS
- - PENABLE_TRACE_PARAMETERS
  - ENABLE_TRACE_PARAMETERS
 ---
 
@@ -246,4 +244,3 @@ Typically, on 64-bit computers, you cannot capture the kernel stack in certain c
 
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
-

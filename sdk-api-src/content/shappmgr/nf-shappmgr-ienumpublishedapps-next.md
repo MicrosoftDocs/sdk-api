@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IEnumPublishedApps::Next
+ - IEnumPublishedApps.Next
 ---
 
 # IEnumPublishedApps::Next
@@ -83,4 +83,3 @@ Returns S_OK if an item is returned, S_FALSE if there are no more items to enume
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ipublishedapp">IPublishedApp</a>
-

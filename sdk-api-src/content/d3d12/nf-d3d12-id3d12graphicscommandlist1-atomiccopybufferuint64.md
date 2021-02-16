@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64
+ - ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
 ---
 
 # ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64
@@ -115,4 +115,3 @@ This method is typically used to update resources for which normal rendering pip
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist1">ID3D12GraphicsCommandList1</a>
-

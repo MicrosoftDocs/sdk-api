@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIBusyW
  - oledlg/OleUIBusyW
- - OleUIBusy
- - oledlg/OleUIBusy
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIBusyW
  - OleUIBusy
+ - OleUIBusyA
+ - OleUIBusyW
 ---
 
 # OleUIBusyW function
@@ -441,4 +440,3 @@ The standard OLE Server <b>Busy</b> dialog box notifies the user that the server
 ## -see-also
 
 <a href="/windows/desktop/api/oledlg/ns-oledlg-oleuibusya">OLEUIBUSY</a>
-

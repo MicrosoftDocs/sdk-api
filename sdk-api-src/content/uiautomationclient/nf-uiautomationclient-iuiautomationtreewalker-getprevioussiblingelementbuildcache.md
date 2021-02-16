@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTreeWalker::GetPreviousSiblingElementBuildCache
+ - IUIAutomationTreeWalker.GetPreviousSiblingElementBuildCache
 ---
 
 # IUIAutomationTreeWalker::GetPreviousSiblingElementBuildCache
@@ -83,4 +83,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 An element can have additional sibling elements that do not match the current view condition and thus are not returned when navigating the element tree.
 
 The structure of the Microsoft UI Automation tree changes as the visible UI elements on the desktop change. It is not guaranteed that an element returned as the previous sibling element will be returned as the previous sibling on subsequent passes.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IRegisteredSyncProvider::GetInstanceId
+ - IRegisteredSyncProvider.GetInstanceId
 ---
 
 # IRegisteredSyncProvider::GetInstanceId
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
-

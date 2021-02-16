@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - inaddr
  - inaddr/inaddr
-api_name:
- - inaddr
 ---
 
 # Inaddr.h header

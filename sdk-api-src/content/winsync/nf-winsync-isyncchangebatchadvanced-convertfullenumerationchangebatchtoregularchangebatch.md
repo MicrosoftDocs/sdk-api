@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
+ - ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch
 ---
 
 # ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
@@ -113,4 +113,3 @@ This change batch object is not an <a href="/previous-versions/windows/desktop/a
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchangebatch">ISyncFullEnumerationChangeBatch Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_scope_tag
  - DRT_SCOPE
 ---
 
@@ -76,4 +75,3 @@ Uses the link local scope.
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtcreatepnrpbootstrapresolver">DrtCreatePnrpBootstrapResolver</a>
-

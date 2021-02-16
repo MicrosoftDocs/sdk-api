@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PSTARTING_LCN_INPUT_BUFFER
  - STARTING_LCN_INPUT_BUFFER
 ---
 
@@ -68,4 +67,3 @@ The LCN from which the operation should start when describing a bitmap. This mem
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_volume_bitmap">FSCTL_GET_VOLUME_BITMAP</a>
-

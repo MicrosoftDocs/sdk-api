@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::EnumNotificationActions
+ - IFsrmFileManagementJob.EnumNotificationActions
 ---
 
 # IFsrmFileManagementJob::EnumNotificationActions
@@ -81,4 +81,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

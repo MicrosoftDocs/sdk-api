@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::SetViewTransform
+ - IInkRenderer.SetViewTransform
 ---
 
 # IInkRenderer::SetViewTransform
@@ -142,4 +142,3 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-

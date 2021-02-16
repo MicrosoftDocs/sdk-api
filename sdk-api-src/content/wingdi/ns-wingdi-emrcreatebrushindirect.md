@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRCREATEBRUSHINDIRECT
- - PEMRCREATEBRUSHINDIRECT
  - EMRCREATEBRUSHINDIRECT
 ---
 
@@ -93,4 +91,3 @@ Note, that if your code is used on both 32-bit and 64-bit platforms, you must us
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

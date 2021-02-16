@@ -43,6 +43,11 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMGPOLinksCollection
+ - IGPMGPOLinksCollection.Count
+ - IGPMGPOLinksCollection.get_Count
+ - IGPMGPOLinksCollection.Item
+ - IGPMGPOLinksCollection.get_Item
+ - GPMGPOLinksCollection
 ---
 
 # IGPMGPOLinksCollection interface
@@ -72,4 +77,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMGPOLinksCollection</b> in
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpolink">IGPMGPOLink</a>
-

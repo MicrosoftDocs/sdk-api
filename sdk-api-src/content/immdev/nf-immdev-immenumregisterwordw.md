@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ImmEnumRegisterWordW
  - immdev/ImmEnumRegisterWordW
- - ImmEnumRegisterWord
- - immdev/ImmEnumRegisterWord
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - imm32.dll
 api_name:
- - ImmEnumRegisterWordW
  - ImmEnumRegisterWord
+ - ImmEnumRegisterWordA
+ - ImmEnumRegisterWordW
 ---
 
 ## -description
@@ -96,4 +95,3 @@ If <i>dwStyle</i> is set to 0 and both <i>lpszReading</i> and <i>lpszRegister</i
 <a href="/windows/desktop/Intl/input-method-manager">Input Method Manager</a>
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IMPEG2TuneRequest::get_ProgNo
+ - IMPEG2TuneRequest.get_ProgNo
 ---
 
 # IMPEG2TuneRequest::get_ProgNo
@@ -65,4 +65,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-impeg2tunerequest">IMPEG2TuneRequest Interface</a>
-

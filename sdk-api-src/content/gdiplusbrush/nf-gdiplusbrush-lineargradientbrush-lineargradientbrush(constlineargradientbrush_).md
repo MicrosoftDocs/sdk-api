@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusbrush.h
 api_name:
- - LinearGradientBrush::LinearGradientBrush
+ - LinearGradientBrush.LinearGradientBrush
 ---
 
 # LinearGradientBrush::LinearGradientBrush(const LinearGradientBrush &)
@@ -105,4 +105,3 @@ Creates a <a href="/windows/desktop/api/gdiplusbrush/nf-gdiplusbrush-lineargradi
 </table>
 
 ## -parameters
-

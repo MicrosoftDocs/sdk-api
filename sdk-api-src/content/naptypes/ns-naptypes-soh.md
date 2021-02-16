@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagSoH
  - SoH
 ---
 
@@ -82,4 +81,3 @@ A <b>SoHResponse</b> packet can have at most one <b>sohAttributeTypeIpv4FixupSer
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
-

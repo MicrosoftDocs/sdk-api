@@ -9,8 +9,6 @@ tech.root: coreaudio
 f1_keywords:
  - audioendpoints
  - audioendpoints/audioendpoints
-api_name:
- - audioendpoints
 ---
 
 # Audioendpoints.h header

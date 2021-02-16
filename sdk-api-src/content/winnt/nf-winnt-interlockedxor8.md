@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InterlockedXor8
  - winnt/InterlockedXor8
- - InterlockedXor
- - winnt/InterlockedXor
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - Winnt.h
 api_name:
  - InterlockedXor8
- - InterlockedXor
 ---
 
 # InterlockedXor8 function
@@ -149,4 +146,3 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-

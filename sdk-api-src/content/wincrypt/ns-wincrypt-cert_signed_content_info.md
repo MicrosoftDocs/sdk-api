@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_SIGNED_CONTENT_INFO
- - PCERT_SIGNED_CONTENT_INFO
  - CERT_SIGNED_CONTENT_INFO
 ---
 
@@ -88,4 +86,3 @@ BLOB containing a signed <a href="/windows/desktop/SecGloss/h-gly">hash</a> of t
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-

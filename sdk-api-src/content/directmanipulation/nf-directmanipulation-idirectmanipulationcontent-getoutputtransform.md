@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent::GetOutputTransform
+ - IDirectManipulationContent.GetOutputTransform
 ---
 
 # IDirectManipulationContent::GetOutputTransform
@@ -75,4 +75,3 @@ This transform contains both the content transform and the sync transform set wi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
-

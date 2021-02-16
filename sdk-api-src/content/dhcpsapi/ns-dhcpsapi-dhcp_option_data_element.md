@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION_DATA_ELEMENT
- - LPDHCP_OPTION_DATA_ELEMENT
  - DHCP_OPTION_DATA_ELEMENT
 ---
 
@@ -99,6 +97,10 @@ A <a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_option_data_type">DHCP
 ### -field Element.Ipv6AddressDataOption.case
 
 ### -field Element.Ipv6AddressDataOption.case.DhcpIpv6AddressOption
+
+
+
+
 
 ### -field Element
 
@@ -155,4 +157,3 @@ Specifies the data as a Unicode string value. This field will be present if the 
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dword_dword">DWORD_DWORD</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject::SetOptions
+ - IGroupPolicyObject.SetOptions
 ---
 
 # IGroupPolicyObject::SetOptions
@@ -133,4 +133,3 @@ To retrieve the options for a GPO, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
-

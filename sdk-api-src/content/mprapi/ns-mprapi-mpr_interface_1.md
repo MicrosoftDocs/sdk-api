@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_INTERFACE_1
- - PMPR_INTERFACE_1
  - MPR_INTERFACE_1
 ---
 
@@ -231,4 +229,3 @@ The preceding string restricts dial-out to Tuesdays and Thursdays from 9:00 AM t
 
 
 <a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - ITuneRequestInfo::GetLocatorData
+ - ITuneRequestInfo.GetLocatorData
 ---
 
 # ITuneRequestInfo::GetLocatorData
@@ -113,4 +113,3 @@ After the TIF fills in the locator information, the Network Provider uses that i
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-itunerequestinfo">ITuneRequestInfo Interface</a>
-

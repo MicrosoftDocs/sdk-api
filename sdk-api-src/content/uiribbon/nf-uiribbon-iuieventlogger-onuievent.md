@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiribbon.h
 api_name:
- - IUIEventLogger::OnUIEvent
+ - IUIEventLogger.OnUIEvent
 ---
 
 # IUIEventLogger::OnUIEvent
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiribbon/ne-uiribbon-ui_eventtype">UI_EVENTTYPE</a>
-

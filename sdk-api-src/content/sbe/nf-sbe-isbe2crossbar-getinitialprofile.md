@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2Crossbar::GetInitialProfile
+ - ISBE2Crossbar.GetInitialProfile
 ---
 
 # ISBE2Crossbar::GetInitialProfile
@@ -119,4 +119,3 @@ Empty initial profiles.
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-sink2-filter">Stream Buffer Sink2 Filter</a>
-

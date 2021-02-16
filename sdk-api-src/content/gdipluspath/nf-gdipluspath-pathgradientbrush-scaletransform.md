@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::ScaleTransform
+ - PathGradientBrush.ScaleTransform
 ---
 
 # PathGradientBrush::ScaleTransform
@@ -175,4 +175,3 @@ VOID Example_ScaleTransform(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

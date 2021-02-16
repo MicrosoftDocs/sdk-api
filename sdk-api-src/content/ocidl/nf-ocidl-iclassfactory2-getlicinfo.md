@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IClassFactory2::GetLicInfo
+ - IClassFactory2.GetLicInfo
 ---
 
 # IClassFactory2::GetLicInfo
@@ -103,4 +103,3 @@ E_NOTIMPL is not allowed as a return value because this method provides critical
 
 
 <a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>
-

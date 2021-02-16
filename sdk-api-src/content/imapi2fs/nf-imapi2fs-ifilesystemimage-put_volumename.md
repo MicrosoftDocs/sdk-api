@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_VolumeName
+ - IFileSystemImage.put_VolumeName
 ---
 
 # IFileSystemImage::put_VolumeName
@@ -113,4 +113,3 @@ If you do not specify a volume name, a default volume name is generated using th
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_volumename">IFileSystemImage::get_VolumeName</a>
-

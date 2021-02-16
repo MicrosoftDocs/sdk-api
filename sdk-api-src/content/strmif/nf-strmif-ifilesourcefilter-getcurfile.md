@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFileSourceFilter::GetCurFile
+ - IFileSourceFilter.GetCurFile
 ---
 
 # IFileSourceFilter::GetCurFile
@@ -131,4 +131,3 @@ The method allocates the memory for the string returned in <i>ppszFileName</i>, 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilesourcefilter">IFileSourceFilter Interface</a>
-

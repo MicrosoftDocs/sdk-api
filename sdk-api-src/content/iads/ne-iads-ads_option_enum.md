@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0001_0077_0001
  - ADS_OPTION_ENUM
 ---
 
@@ -181,4 +180,3 @@ If this option is set on the object, no lookups will be performed (either during
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-putpropertyitem">IADsPropertyList.PutPropertyItem</a>
-

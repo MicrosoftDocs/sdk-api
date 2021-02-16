@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase::GetSourceForgottenKnowledge
+ - ISyncChangeBatchBase.GetSourceForgottenKnowledge
 ---
 
 # ISyncChangeBatchBase::GetSourceForgottenKnowledge
@@ -98,4 +98,3 @@ Invalid pointer.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
-

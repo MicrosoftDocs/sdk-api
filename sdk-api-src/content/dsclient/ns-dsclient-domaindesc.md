@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Dsclient.h
 api_name:
- - _DOMAINDESC
- - PDOMAIN_DESC
- - DOMAINDESC
+ - DOMAIN_DESC
 ---
 
 # DOMAINDESC structure
@@ -115,4 +113,3 @@ For more information about how to access and use the information in this structu
 
 
 <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa">DsEnumerateDomainTrusts</a>
-

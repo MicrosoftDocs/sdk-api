@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
- - PPROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
  - PROCESS_MITIGATION_STRICT_HANDLE_CHECK_POLICY
 ---
 
@@ -98,4 +96,3 @@ This member is reserved for system use.
 As a general rule, strict handle checking cannot be turned off once it is turned on. Therefore, when calling the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a> function with this policy, the values of the <b>RaiseExceptionOnInvalidHandleReference</b> and <b>HandleExceptionsPermanentlyEnabled</b> substructure members must be the same. It is not possible to enable invalid handle exceptions only temporarily.
 
 The exception to the general rule about strict handle checking always being a permanent state is that debugging tools such as Application Verifier can cause the operating system to enable invalid handle exceptions temporarily. Under those cases, it is possible for the <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy">GetProcessMitigationPolicy</a> function to return with <b>RaiseExceptionOnInvalidHandleReference</b> set to 1, but <b>HandleExceptionsPermanentlyEnabled</b> set to 0.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AVIFileCreateStreamA
  - vfw/AVIFileCreateStreamA
- - AVIFileCreateStream
- - vfw/AVIFileCreateStream
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - AVIFileCreateStreamA
  - AVIFileCreateStream
+ - AVIFileCreateStreamA
+ - AVIFileCreateStreamW
 ---
 
 # AVIFileCreateStreamA function
@@ -97,4 +96,3 @@ The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/n
 
 
 <a href="/windows/desktop/api/vfw/nf-vfw-avistreaminfoa">AVIStreamInfo</a>
-

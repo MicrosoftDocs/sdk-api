@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::GetText
+ - ITextRangeProvider.GetText
 ---
 
 # ITextRangeProvider::GetText
@@ -103,4 +103,3 @@ If <i>maxLength</i> is greater
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

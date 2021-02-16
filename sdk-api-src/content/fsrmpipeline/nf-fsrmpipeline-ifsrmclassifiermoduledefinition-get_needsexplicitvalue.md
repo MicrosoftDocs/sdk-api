@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleDefinition::get_NeedsExplicitValue
+ - IFsrmClassifierModuleDefinition.NeedsExplicitValue
+ - IFsrmClassifierModuleDefinition.get_NeedsExplicitValue
+ - IFsrmClassifierModuleDefinition.put_NeedsExplicitValue
 ---
 
 # IFsrmClassifierModuleDefinition::get_NeedsExplicitValue
@@ -63,4 +65,3 @@ If this value is <b>VARIANT_FALSE</b>, the classifier determines and provides th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduledefinition">IFsrmClassifierModuleDefinition</a>
-

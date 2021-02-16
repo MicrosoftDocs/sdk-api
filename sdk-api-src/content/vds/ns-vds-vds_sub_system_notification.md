@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_SUB_SYSTEM_NOTIFICATION
  - VDS_SUB_SYSTEM_NOTIFICATION
 ---
 
@@ -141,4 +140,3 @@ To get the subsystem object, use the <a href="/windows/desktop/api/vds/nf-vds-iv
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_sub_system_prop">VDS_SUB_SYSTEM_PROP</a>
-

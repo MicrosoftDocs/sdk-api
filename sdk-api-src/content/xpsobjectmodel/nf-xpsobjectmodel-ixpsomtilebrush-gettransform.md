@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush::GetTransform
+ - IXpsOMTileBrush.GetTransform
 ---
 
 # IXpsOMTileBrush::GetTransform
@@ -175,4 +175,3 @@ The transform determines how the output area is transformed before the brush ima
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

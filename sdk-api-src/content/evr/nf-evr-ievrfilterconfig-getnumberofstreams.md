@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IEVRFilterConfig::GetNumberOfStreams
+ - IEVRFilterConfig.GetNumberOfStreams
 ---
 
 # IEVRFilterConfig::GetNumberOfStreams
@@ -88,4 +88,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/evr/nn-evr-ievrfilterconfig">IEVRFilterConfig</a>
-

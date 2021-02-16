@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
  - WS_USERNAME_MESSAGE_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -84,4 +83,3 @@ The validator to be used to check received username/password pairs.
 ### -field passwordValidatorCallbackState
 
 The optional state to be passed in as an argument when the username validator is invoked.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IWbemObjectTextSrc::GetText
+ - IWbemObjectTextSrc.GetText
 ---
 
 # IWbemObjectTextSrc::GetText
@@ -219,4 +219,3 @@ This method returns an <b>HRESULT</b> that indicates the status of the method ca
 
 For more information, see 
 <a href="/windows/desktop/WmiSdk/representing-objects-in-xml">Representing Objects in XML</a>.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscPsipParser::Initialize
+ - IAtscPsipParser.Initialize
 ---
 
 # IAtscPsipParser::Initialize
@@ -114,4 +114,3 @@ Until this method is called, all other methods on this interface fail.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
-

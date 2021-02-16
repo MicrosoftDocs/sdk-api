@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagPOINTER_DEVICE_PROPERTY
  - POINTER_DEVICE_PROPERTY
 ---
 
@@ -96,4 +95,3 @@ Developers can use this function to determine the properties that a device suppo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_pointerdevice/structures">Structures</a>
-

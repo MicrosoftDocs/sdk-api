@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_pnrp_registration_info_tag
- - PPEER_PNRP_REGISTRATION_INFO
  - PEER_PNRP_REGISTRATION_INFO
 ---
 
@@ -87,4 +85,3 @@ Pointer to a zero-terminated Unicode string that contains a comment for this pee
 ### -field payload
 
 A <a href="/windows/desktop/api/p2p/ns-p2p-peer_data">PEER_DATA</a> structure that contains a pointer to an opaque byte buffer containing application-specific data for the peer endpoint (such as a message or an image).
-

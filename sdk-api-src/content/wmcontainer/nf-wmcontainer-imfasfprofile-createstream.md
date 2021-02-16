@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::CreateStream
+ - IMFASFProfile.CreateStream
 ---
 
 # IMFASFProfile::CreateStream
@@ -126,4 +126,3 @@ The ASF stream configuration object created by this method is not included in th
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-

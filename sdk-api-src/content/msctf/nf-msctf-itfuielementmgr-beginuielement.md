@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfUIElementMgr::BeginUIElement
+ - ITfUIElementMgr.BeginUIElement
 ---
 
 # ITfUIElementMgr::BeginUIElement
@@ -120,4 +120,3 @@ Recursion call of <a href="/windows/desktop/api/msctf/nn-msctf-itfuielementmgr">
 </td>
 </tr>
 </table>
-

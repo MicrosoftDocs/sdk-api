@@ -44,8 +44,7 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_DEVICE_INFO
- - BLUETOOTH_DEVICE_INFO_STRUCT
+ - BLUETOOTH_DEVICE_INFO
 ---
 
 # BLUETOOTH_DEVICE_INFO_STRUCT structure
@@ -103,4 +102,3 @@ See the [Bluetooth class-of-device (CoD) codes](https://www.bluetooth.com/specif
 ## -see-also
 
 <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a>
-

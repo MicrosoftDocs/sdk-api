@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPEventSink::OnStateChangedSafe
+ - IUPnPEventSink.OnStateChangedSafe
 ---
 
 # IUPnPEventSink::OnStateChangedSafe
@@ -69,4 +69,3 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 ## -see-also
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpeventsink">IUPnPEventSink</a>
-

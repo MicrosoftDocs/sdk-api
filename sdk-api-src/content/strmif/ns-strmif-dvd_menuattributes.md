@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_MenuAttributes
  - DVD_MenuAttributes
 ---
 
@@ -87,4 +86,3 @@ A [DVD_SubpictureAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_subpictur
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

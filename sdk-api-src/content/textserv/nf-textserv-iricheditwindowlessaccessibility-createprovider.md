@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRicheditWindowlessAccessibility::CreateProvider
+ - IRicheditWindowlessAccessibility.CreateProvider
 ---
 
 # IRicheditWindowlessAccessibility::CreateProvider
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nn-textserv-iricheditwindowlessaccessibility">IRicheditWindowlessAccessibility</a>
-

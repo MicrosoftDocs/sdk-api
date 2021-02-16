@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_CLASS_INFO_ARRAY_V6
- - LPDHCP_CLASS_INFO_ARRAY_V6
  - DHCP_CLASS_INFO_ARRAY_V6
 ---
 
@@ -75,4 +73,3 @@ A pointer to an array of structures <a href="/windows/desktop/api/dhcpsapi/ns-dh
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_class_info_v6">DHCP_CLASS_INFO_V6</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionTarget::SetRoot
+ - IDCompositionTarget.SetRoot
 ---
 
 # IDCompositionTarget::SetRoot
@@ -86,4 +86,3 @@ For an example, see <a href="/windows/desktop/directcomp/how-to--build-a-visual-
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiontarget">IDCompositionTarget</a>
-

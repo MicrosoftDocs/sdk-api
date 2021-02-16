@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2::Schedule
+ - IUIAnimationStoryboard2.Schedule
 ---
 
 # IUIAnimationStoryboard2::Schedule
@@ -120,4 +120,3 @@ It is possible to reuse a storyboard by calling <b>Schedule</b> again after its 
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
-

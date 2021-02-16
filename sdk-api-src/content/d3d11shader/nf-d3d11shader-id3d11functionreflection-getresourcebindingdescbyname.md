@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionReflection::GetResourceBindingDescByName
+ - ID3D11FunctionReflection.GetResourceBindingDescByName
 ---
 
 # ID3D11FunctionReflection::GetResourceBindingDescByName
@@ -79,4 +79,3 @@ A shader consists of executable code (the compiled HLSL functions) and a set of 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionreflection">ID3D11FunctionReflection</a>
-

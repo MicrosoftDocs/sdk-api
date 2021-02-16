@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendContextMenu::AddMenuItems
+ - IExtendContextMenu.AddMenuItems
 ---
 
 # IExtendContextMenu::AddMenuItems
@@ -147,4 +147,3 @@ AddMenuItems method should not call AddRef on either the piDataObject pointer or
 
 
 <a href="/previous-versions/windows/desktop/mmc/working-with-context-menus">Working with Context Menus</a>
-

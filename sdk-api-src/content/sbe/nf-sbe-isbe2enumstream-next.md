@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2EnumStream::Next
+ - ISBE2EnumStream.Next
 ---
 
 # ISBE2EnumStream::Next
@@ -113,4 +113,3 @@ The streams have changed, so the caller must enumerate them again.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2enumstream">ISBE2EnumStream</a>
-

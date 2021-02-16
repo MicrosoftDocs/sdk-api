@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation::get_AlternateSignatureAlgorithm
+ - IX509SignatureInformation.AlternateSignatureAlgorithm
+ - IX509SignatureInformation.get_AlternateSignatureAlgorithm
+ - IX509SignatureInformation.put_AlternateSignatureAlgorithm
 ---
 
 # IX509SignatureInformation::get_AlternateSignatureAlgorithm
@@ -63,4 +65,3 @@ PKCS #7 and CMC certificate requests always use a discrete signature algorithm O
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

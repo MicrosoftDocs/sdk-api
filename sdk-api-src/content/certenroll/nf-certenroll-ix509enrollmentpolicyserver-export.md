@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::Export
+ - IX509EnrollmentPolicyServer.Export
 ---
 
 # IX509EnrollmentPolicyServer::Export
@@ -144,4 +144,3 @@ You must call <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509enroll
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

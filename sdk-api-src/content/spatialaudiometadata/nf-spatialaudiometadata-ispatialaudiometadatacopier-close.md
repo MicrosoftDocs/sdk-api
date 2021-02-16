@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SpatialAudioMetadata.h
 api_name:
- - ISpatialAudioMetadataCopier::Close
+ - ISpatialAudioMetadataCopier.Close
 ---
 
 # ISpatialAudioMetadataCopier::Close
@@ -83,4 +83,3 @@ The <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-i
 
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatareader">ISpatialAudioMetadataReader</a>
-

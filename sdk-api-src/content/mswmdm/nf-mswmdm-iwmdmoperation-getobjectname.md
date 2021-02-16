@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation::GetObjectName
+ - IWMDMOperation.GetObjectName
 ---
 
 # IWMDMOperation::GetObjectName
@@ -122,4 +122,3 @@ This method is only called if the application did not specify the name as a para
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectname">IWMDMOperation::SetObjectName</a>
-

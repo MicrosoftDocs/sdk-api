@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _IASPROPERTIES
  - IASPROPERTIES
 ---
 
@@ -105,4 +104,3 @@ Used by the System Health Validator Template settings of NPS user interface.
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
-

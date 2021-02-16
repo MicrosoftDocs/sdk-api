@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymGetSourceFileChecksum
+ - SymGetSourceFileChecksum
+ - SymGetSourceFileChecksumW
 ---
 
 # SymGetSourceFileChecksum function
@@ -90,4 +92,3 @@ If the function succeeds, the return value is <b>TRUE</b>.
 
 If the function fails, the return value is <b>FALSE</b>. To retrieve extended error information, call 
 <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-

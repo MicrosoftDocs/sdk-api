@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineextensionid_tag
- - LPLINEEXTENSIONID
  - LINEEXTENSIONID
 ---
 
@@ -92,4 +90,3 @@ Extension identifiers are generated using an SDK-provided generation utility.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linenegotiateapiversion">lineNegotiateAPIVersion</a>
-

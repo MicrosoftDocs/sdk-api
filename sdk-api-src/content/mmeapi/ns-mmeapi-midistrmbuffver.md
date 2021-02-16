@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - midistrmbuffver_tag
  - MIDISTRMBUFFVER
 ---
 
@@ -76,4 +75,3 @@ OEM version of the stream. Original equipment manufacturers can use this field t
 
 
 <a href="/windows/desktop/Multimedia/musical-instrument-digital-interface--midi">Musical Instrument Digital Interface (MIDI)</a>
-

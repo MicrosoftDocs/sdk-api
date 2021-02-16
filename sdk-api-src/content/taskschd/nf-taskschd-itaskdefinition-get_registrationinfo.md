@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskDefinition::get_RegistrationInfo
+ - ITaskDefinition.RegistrationInfo
+ - ITaskDefinition.get_RegistrationInfo
+ - ITaskDefinition.put_RegistrationInfo
 ---
 
 # ITaskDefinition::get_RegistrationInfo
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
-

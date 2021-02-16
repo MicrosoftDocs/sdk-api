@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_SERVER_2
- - PMPR_SERVER_2
  - MPR_SERVER_2
 ---
 
@@ -318,4 +316,3 @@ If set, RAS is enabled on the device.
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

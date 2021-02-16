@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - dvdevcod
  - dvdevcod/dvdevcod
-api_name:
- - dvdevcod
 ---
 
 # Dvdevcod.h header

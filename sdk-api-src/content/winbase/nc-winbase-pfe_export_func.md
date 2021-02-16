@@ -42,6 +42,7 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - ExportCallback
  - PFE_EXPORT_FUNC
 ---
 
@@ -121,4 +122,3 @@ You can use the application-defined context block for internal tracking of infor
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeencryptedfileraw">WriteEncryptedFileRaw</a>
-

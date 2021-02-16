@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceFrame::TranslateAccelerator
+ - IOleInPlaceFrame.TranslateAccelerator
 ---
 
 # IOleInPlaceFrame::TranslateAccelerator
@@ -140,4 +140,3 @@ This is the most common way to describe keyboard accelerators. Failure to do so 
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-translatemdisysaccel">TranslateMDISysAccel</a>
-

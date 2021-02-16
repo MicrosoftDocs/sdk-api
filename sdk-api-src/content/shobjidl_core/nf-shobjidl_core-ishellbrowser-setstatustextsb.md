@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser::SetStatusTextSB
+ - IShellBrowser.SetStatusTextSB
 ---
 
 # IShellBrowser::SetStatusTextSB
@@ -76,4 +76,3 @@ Use this method to set the contents of the status bar.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-

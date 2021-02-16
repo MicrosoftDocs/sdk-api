@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IJolietDiscMaster::GetDataBlockSize
+ - IJolietDiscMaster.GetDataBlockSize
 ---
 
 # IJolietDiscMaster::GetDataBlockSize
@@ -69,4 +69,3 @@ This method returns 2048.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
-

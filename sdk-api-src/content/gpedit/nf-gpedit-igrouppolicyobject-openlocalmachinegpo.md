@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject::OpenLocalMachineGPO
+ - IGroupPolicyObject.OpenLocalMachineGPO
 ---
 
 # IGroupPolicyObject::OpenLocalMachineGPO
@@ -97,4 +97,3 @@ To open the default GPO for a remote computer, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-openremotemachinegpo">OpenRemoteMachineGPO</a>
-

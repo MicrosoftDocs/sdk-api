@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LookupAccountNameW
  - winbase/LookupAccountNameW
- - LookupAccountName
- - winbase/LookupAccountName
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Security-LSALookup-L2-1-2.dll
  - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupAccountNameW
  - LookupAccountName
+ - LookupAccountNameA
+ - LookupAccountNameW
 ---
 
 # LookupAccountNameW function
@@ -150,4 +149,3 @@ In addition to looking up local accounts, local domain accounts, and explicitly 
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-sid_name_use">SID_NAME_USE</a>
-

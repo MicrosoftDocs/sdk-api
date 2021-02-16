@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateProcessAsUserW
  - processthreadsapi/CreateProcessAsUserW
- - CreateProcessAsUser
- - processthreadsapi/CreateProcessAsUser
 dev_langs:
  - c++
 topic_type:
@@ -54,8 +52,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-ProcessThreads-L1-1-3.dll
 api_name:
- - CreateProcessAsUserW
  - CreateProcessAsUser
+ - CreateProcessAsUserA
+ - CreateProcessAsUserW
 ---
 
 # CreateProcessAsUserW function
@@ -390,4 +389,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-waitforinputidle">WaitForInputIdle</a>
-

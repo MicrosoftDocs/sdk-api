@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive::get_SizeQuotaWarning
+ - IFaxOutgoingArchive.SizeQuotaWarning
+ - IFaxOutgoingArchive.get_SizeQuotaWarning
+ - IFaxOutgoingArchive.put_SizeQuotaWarning
+ - IFaxOutgoingArchive.get_SizeQuotaWarning
+ - IFaxOutgoingArchive.put_SizeQuotaWarning
 ---
 
 # IFaxOutgoingArchive::get_SizeQuotaWarning
@@ -67,4 +71,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingarchive">IFaxOutgoingArchive</a>
-

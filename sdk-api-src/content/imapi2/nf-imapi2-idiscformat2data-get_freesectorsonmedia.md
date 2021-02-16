@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data::get_FreeSectorsOnMedia
+ - IDiscFormat2Data.get_FreeSectorsOnMedia
 ---
 
 # IDiscFormat2Data::get_FreeSectorsOnMedia
@@ -371,4 +371,3 @@ If <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-put_forceover
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_totalsectorsonmedia">IDiscFormat2Data::get_TotalSectorsOnMedia</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDisplayAttributeMgr::OnUpdateInfo
+ - ITfDisplayAttributeMgr.OnUpdateInfo
 ---
 
 # ITfDisplayAttributeMgr::OnUpdateInfo

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPRemoteEndpointInfo::GetGuidValue
+ - IUPnPRemoteEndpointInfo.GetGuidValue
 ---
 
 # IUPnPRemoteEndpointInfo::GetGuidValue
@@ -77,4 +77,3 @@ This method returns E_INVALIDARG, a COM error code defined in WinError.h.
 
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>
-

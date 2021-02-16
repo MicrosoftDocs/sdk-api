@@ -42,7 +42,7 @@ api_type:
 api_location:
  - comsvcs.h
 api_name:
- - IComAppEvents::OnAppForceShutdown
+ - IComAppEvents.OnAppForceShutdown
 ---
 
 # IComAppEvents::OnAppForceShutdown
@@ -69,4 +69,3 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomappevents">IComAppEvents</a>
-

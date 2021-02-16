@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor::AddRequestParameter
+ - IUrlAccessor.AddRequestParameter
 ---
 
 # IUrlAccessor::AddRequestParameter
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Implement this method to obtain additional information from the content source (for instance, the If-Modified-Since header in an HTTP request).
-

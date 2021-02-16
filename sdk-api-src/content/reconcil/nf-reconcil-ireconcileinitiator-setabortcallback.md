@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IReconcileInitiator::SetAbortCallback
+ - IReconcileInitiator.SetAbortCallback
 ---
 
 # IReconcileInitiator::SetAbortCallback
@@ -104,4 +104,3 @@ If the reconciliation is terminated, the <a href="/windows/desktop/api/reconcil/
 ## -see-also
 
 <a href="/windows/desktop/lwef/ireconcileinitiator">IReconcileInitiator</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
- - _WINHTTP_REQUEST_TIMES
- - PWINHTTP_REQUEST_TIMES
  - WINHTTP_REQUEST_TIMES
 ---
 

@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1Transform::MapOutputRectToInputRects
+ - ID2D1Transform.MapOutputRectToInputRects
 ---
 
 # ID2D1Transform::MapOutputRectToInputRects
@@ -92,4 +92,3 @@ The transform implementation must regard this method as purely functional. It ca
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transform">ID2D1Transform</a>
-

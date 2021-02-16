@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssEnumObject::Clone
+ - IVssEnumObject.Clone
 ---
 
 # IVssEnumObject::Clone
@@ -139,4 +139,3 @@ The caller must call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown
 
 
 <a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
-

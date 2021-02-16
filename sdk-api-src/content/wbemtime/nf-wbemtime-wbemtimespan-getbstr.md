@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::GetBSTR
+ - WBEMTimeSpan.GetBSTR
 ---
 
 # WBEMTimeSpan::GetBSTR
@@ -68,4 +68,3 @@ The time span is returned as a <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/d
 ## -remarks
 
 The calling method must call <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a> on the return value.
-

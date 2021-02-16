@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileGroup::get_NonMembers
+ - IFsrmFileGroup.NonMembers
+ - IFsrmFileGroup.get_NonMembers
+ - IFsrmFileGroup.put_NonMembers
 ---
 
 # IFsrmFileGroup::get_NonMembers
@@ -88,4 +90,3 @@ For an example, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilegroup">IFsrmFileGroup</a>
-

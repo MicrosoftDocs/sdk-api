@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_MEMORY_INFO_LIST
- - PMINIDUMP_MEMORY_INFO_LIST
  - MINIDUMP_MEMORY_INFO_LIST
 ---
 
@@ -79,4 +77,3 @@ The number of entries in the stream. These are generally  <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

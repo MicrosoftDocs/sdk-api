@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpplug.h
 api_name:
- - IWMPPluginUI::SetCore
+ - IWMPPluginUI.SetCore
 ---
 
 # IWMPPluginUI::SetCore
@@ -71,4 +71,3 @@ This method is not called when Windows Media Player instantiates the plug-in for
 ## -see-also
 
 <a href="/windows/desktop/api/wmpplug/nn-wmpplug-iwmppluginui">IWMPPluginUI Interface</a>
-

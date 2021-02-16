@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode::SetColorContexts
+ - IWICBitmapFrameEncode.SetColorContexts
 ---
 
 # IWICBitmapFrameEncode::SetColorContexts
@@ -89,4 +89,3 @@ In TIFF and JPEG-XR, the  <a href="/windows/desktop/api/wincodec/ne-wincodec-wic
 
 </li>
 </ul>
-

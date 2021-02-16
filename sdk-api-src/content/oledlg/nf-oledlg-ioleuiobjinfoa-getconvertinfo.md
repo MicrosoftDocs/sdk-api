@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUIObjInfoA::GetConvertInfo
+ - IOleUIObjInfo.GetConvertInfo
+ - IOleUIObjInfoW.GetConvertInfo
+ - IOleUIObjInfoA.GetConvertInfo
 ---
 
 # IOleUIObjInfoA::GetConvertInfo
@@ -141,4 +143,3 @@ You must fill in the CLSID of the object at a minimum. <i>lpwFormat</i> may be l
 ## -see-also
 
 <a href="/windows/desktop/api/oledlg/nn-oledlg-ioleuiobjinfoa">IOleUIObjInfo</a>
-

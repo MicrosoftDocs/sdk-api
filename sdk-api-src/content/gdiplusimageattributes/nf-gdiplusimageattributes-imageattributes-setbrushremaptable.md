@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes::SetBrushRemapTable
+ - ImageAttributes.SetBrushRemapTable
 ---
 
 # ImageAttributes::SetBrushRemapTable
@@ -131,4 +131,3 @@ imageAtt.SetBrushRemapTable(1, &cMap);
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
-

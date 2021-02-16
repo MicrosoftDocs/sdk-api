@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bits2_0.h
 api_name:
- - _BG_FILE_RANGE
  - BG_FILE_RANGE
 ---
 
@@ -76,4 +75,3 @@ The range must exist in the file or BITS generates an <b>BG_E_INVALID_RANGE</b> 
 
 
 <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-addfilewithranges">IBackgroundCopyJob3::AddFileWithRanges</a>
-

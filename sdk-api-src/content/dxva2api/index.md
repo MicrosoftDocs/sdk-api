@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - dxva2api
  - dxva2api/dxva2api
-api_name:
- - dxva2api
 ---
 
 # Dxva2Api.h header

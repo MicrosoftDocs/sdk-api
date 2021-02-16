@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - vbinterf
  - vbinterf/vbinterf
-api_name:
- - vbinterf
 ---
 
 # Vbinterf.h header

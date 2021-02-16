@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
- - _CSADDR_INFO
- - PCSADDR_INFO
  - CSADDR_INFO
 ---
 
@@ -244,4 +242,3 @@ The <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> 
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>
-

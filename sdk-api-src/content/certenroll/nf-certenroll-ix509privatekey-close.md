@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::Close
+ - IX509PrivateKey.Close
 ---
 
 # IX509PrivateKey::Close
@@ -67,4 +67,3 @@ This method does not delete the key from storage or the <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

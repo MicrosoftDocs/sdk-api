@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qos.h
 api_name:
- - _QOS_SHAPING_RATE
- - LPQOS_SHAPING_RATE
  - QOS_SHAPING_RATE
 ---
 
@@ -78,4 +76,3 @@ Unsigned 32-bit integer that specifies the uniform traffic shaping rate in bytes
 
 
 <a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-

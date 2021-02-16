@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge::Merge
+ - IMsmMerge.Merge
 ---
 
 # IMsmMerge::Merge
@@ -154,4 +154,3 @@ the <a href="/windows/desktop/api/mergemod/nf-mergemod-imsmmerge-closedatabase">
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

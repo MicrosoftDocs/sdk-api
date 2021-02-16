@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetVertexDeclaration
+ - IDirect3DDevice9.SetVertexDeclaration
 ---
 
 # IDirect3DDevice9::SetVertexDeclaration
@@ -79,4 +79,3 @@ A vertex declaration is an IDirect3DVertexDeclaration9 object that defines the d
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getvertexdeclaration">IDirect3DDevice9::GetVertexDeclaration</a>
-

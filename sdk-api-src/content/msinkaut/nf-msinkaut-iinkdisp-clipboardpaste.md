@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::ClipboardPaste
+ - IInkDisp.ClipboardPaste
 ---
 
 # IInkDisp::ClipboardPaste
@@ -130,4 +130,3 @@ An error is returned if an unexpected error occurs while accessing the <a href="
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

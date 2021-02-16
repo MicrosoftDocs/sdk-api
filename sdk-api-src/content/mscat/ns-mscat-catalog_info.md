@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mscat.h
 api_name:
- - CATALOG_INFO_
  - CATALOG_INFO
 ---
 
@@ -70,4 +69,3 @@ Name of the catalog file.
 ## -see-also
 
 <a href="/windows/desktop/api/mscat/nf-mscat-cryptcatcataloginfofromcontext">CryptCATCatalogInfoFromContext</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnLMProcessor::InvokeFunc
+ - ITfFnLMProcessor.InvokeFunc
 ---
 
 # ITfFnLMProcessor::InvokeFunc
@@ -92,4 +92,3 @@ The method was successful.
 
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itffnlmprocessor">ITfFnLMProcessor</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - tag_WBEM_TIMEOUT_TYPE
  - WBEM_TIMEOUT_TYPE
 ---
 
@@ -64,4 +63,3 @@ Contains values used to specify the timeout for the <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-ienumwbemclassobject-next">IEnumWbemClassObject::Next</a>
-

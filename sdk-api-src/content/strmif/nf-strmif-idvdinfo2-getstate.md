@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetState
+ - IDvdInfo2.GetState
 ---
 
 # IDvdInfo2::GetState
@@ -122,4 +122,3 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::Restore
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

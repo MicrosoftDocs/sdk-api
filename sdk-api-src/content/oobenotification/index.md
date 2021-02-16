@@ -9,8 +9,6 @@ tech.root: windowssetupandmigration
 f1_keywords:
  - oobenotification
  - oobenotification/oobenotification
-api_name:
- - oobenotification
 ---
 
 # Oobenotification.h header

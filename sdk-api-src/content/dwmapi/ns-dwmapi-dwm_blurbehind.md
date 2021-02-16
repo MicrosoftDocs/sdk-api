@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dwmapi.h
 api_name:
- - _DWM_BLURBEHIND
- - PDWM_BLURBEHIND
  - DWM_BLURBEHIND
 ---
 
@@ -75,4 +73,3 @@ The region within the client area where the blur behind will be applied. A <b>NU
 ### -field fTransitionOnMaximized
 
 <b>TRUE</b> if the window's colorization should transition to match the maximized windows; otherwise, <b>FALSE</b>.
-

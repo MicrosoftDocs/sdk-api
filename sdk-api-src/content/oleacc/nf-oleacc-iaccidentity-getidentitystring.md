@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccIdentity::GetIdentityString
+ - IAccIdentity.GetIdentityString
 ---
 
 # IAccIdentity::GetIdentityString
@@ -97,4 +97,3 @@ Return S_OK, except under exceptional error conditions, such as low memory. If n
 The returned string should be considered opaque; clients should use it only as a whole, and should not attempt to dissect it or otherwise interpret it manually.
 
 If a client knows or expects that a string is HWND—based, it can use <a href="/windows/desktop/api/oleacc/nf-oleacc-iaccpropservices-decomposehwndidentitystring">IAccPropServices::DecomposeHwndIdentityString</a> to attempt to decompose the identity string.
-

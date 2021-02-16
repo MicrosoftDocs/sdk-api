@@ -51,6 +51,7 @@ api_location:
  - ntdll.dll
 api_name:
  - UnhandledExceptionFilter
+ - RtlUnhandledExceptionFilter
 ---
 
 # UnhandledExceptionFilter function
@@ -135,4 +136,3 @@ The system uses
 
 
 <a href="/windows/desktop/Debug/structured-exception-handling">Structured Exception Handling Overview</a>
-

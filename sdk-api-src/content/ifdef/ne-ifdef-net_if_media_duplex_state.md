@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ifdef.h
 api_name:
- - _NET_IF_MEDIA_DUPLEX_STATE
- - PNET_IF_MEDIA_DUPLEX_STATE
  - NET_IF_MEDIA_DUPLEX_STATE
 ---
 
@@ -83,4 +81,3 @@ The NDIS_MEDIA_DUPLEX_STATE, enumeration type, used to describe NDIS interface p
 ```
 typedef NET_IF_MEDIA_DUPLEX_STATE NDIS_MEDIA_DUPLEX_STATE, *PNDIS_MEDIA_DUPLEX_STATE;
 ```
-

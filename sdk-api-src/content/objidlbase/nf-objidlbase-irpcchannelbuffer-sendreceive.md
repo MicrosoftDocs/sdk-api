@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcChannelBuffer::SendReceive
+ - IRpcChannelBuffer.SendReceive
 ---
 
 # IRpcChannelBuffer::SendReceive
@@ -73,4 +73,3 @@ Before invoking this method, the <a href="/windows/desktop/api/objidl/nf-objidl-
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
-

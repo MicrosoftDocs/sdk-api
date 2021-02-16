@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - PINTERFACE_STATUS
+ - InterfaceStatus
 ---
 
 # PINTERFACE_STATUS callback function
@@ -133,4 +133,3 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pdelete_interface">DeleteInterface</a>
-

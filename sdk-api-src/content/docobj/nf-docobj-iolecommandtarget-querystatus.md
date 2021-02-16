@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleCommandTarget::QueryStatus
+ - IOleCommandTarget.QueryStatus
 ---
 
 # IOleCommandTarget::QueryStatus
@@ -144,4 +144,3 @@ Callers use <b>QueryStatus</b> to determine which commands are supported by a ta
 
 
 <a href="/windows/desktop/api/docobj/ns-docobj-olecmdtext">OLECMDTEXT</a>
-

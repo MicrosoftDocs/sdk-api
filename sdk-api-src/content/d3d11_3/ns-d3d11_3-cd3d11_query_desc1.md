@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11_3.h
 api_name:
- - CD3D11_QUERY_DESC1
+ - D3D11_QUERY_DESC1
 ---
 
 # CD3D11_QUERY_DESC1 structure
@@ -92,4 +92,3 @@ A <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_query">D3D11_QUERY</a>-type
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-structures">Core Structures</a>
-

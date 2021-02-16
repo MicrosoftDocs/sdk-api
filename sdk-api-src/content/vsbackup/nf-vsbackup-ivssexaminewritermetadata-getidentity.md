@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata::GetIdentity
+ - IVssExamineWriterMetadata.GetIdentity
 ---
 
 # IVssExamineWriterMetadata::GetIdentity
@@ -176,4 +176,3 @@ An
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
-

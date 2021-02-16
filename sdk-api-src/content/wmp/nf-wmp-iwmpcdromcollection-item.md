@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromCollection::item
+ - IWMPCdromCollection.item
 ---
 
 # IWMPCdromCollection::item
@@ -117,4 +117,3 @@ To use this method, read access to the library is required. For more information
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings2-requestmediaaccessrights">IWMPSettings2::requestMediaAccessRights</a>
-

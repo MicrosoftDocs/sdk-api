@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingOrientedBox::Transform
+ - BoundingOrientedBox.Transform
 ---
 
 # BoundingOrientedBox::Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR)

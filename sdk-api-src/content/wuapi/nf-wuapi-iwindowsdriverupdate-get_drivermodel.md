@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate::get_DriverModel
+ - IWindowsDriverUpdate.DriverModel
+ - IWindowsDriverUpdate.get_DriverModel
 ---
 
 # IWindowsDriverUpdate::get_DriverModel
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate">IWindowsDriverUpdate</a>
-

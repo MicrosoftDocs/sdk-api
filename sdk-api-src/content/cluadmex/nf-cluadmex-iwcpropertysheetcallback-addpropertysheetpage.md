@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWCPropertySheetCallback::AddPropertySheetPage
+ - IWCPropertySheetCallback.AddPropertySheetPage
 ---
 
 # IWCPropertySheetCallback::AddPropertySheetPage
@@ -114,4 +114,3 @@ Call the
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nf-cluadmex-iweextendpropertysheet-createpropertysheetpages">IWEExtendPropertySheet::CreatePropertySheetPages</a>
-

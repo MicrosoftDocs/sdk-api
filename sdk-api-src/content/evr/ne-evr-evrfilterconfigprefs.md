@@ -44,7 +44,6 @@ api_type:
 api_location:
  - evr.h
 api_name:
- - _EVRFilterConfig_Prefs
  - EVRFilterConfigPrefs
 ---
 
@@ -76,4 +75,3 @@ The bitmask of valid flag values. This constant is not itself a valid flag.
 
 
 <a href="/windows/desktop/medfound/video-quality-management">Video Quality Management</a>
-

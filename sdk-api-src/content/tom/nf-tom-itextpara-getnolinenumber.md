@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetNoLineNumber
+ - ITextPara.GetNoLineNumber
 ---
 
 # ITextPara::GetNoLineNumber
@@ -149,4 +149,3 @@ Paragraph numbering is when the paragraphs of a range are numbered. The number a
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

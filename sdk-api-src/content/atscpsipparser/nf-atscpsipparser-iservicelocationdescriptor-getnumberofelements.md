@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IServiceLocationDescriptor::GetNumberOfElements
+ - IServiceLocationDescriptor.GetNumberOfElements
 ---
 
 # IServiceLocationDescriptor::GetNumberOfElements
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iservicelocationdescriptor">IServiceLocationDescriptor</a>
-

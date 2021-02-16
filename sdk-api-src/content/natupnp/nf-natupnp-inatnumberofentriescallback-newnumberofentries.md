@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INATNumberOfEntriesCallback::NewNumberOfEntries
+ - INATNumberOfEntriesCallback.NewNumberOfEntries
 ---
 
 # INATNumberOfEntriesCallback::NewNumberOfEntries
@@ -183,4 +183,3 @@ The system calls this method when the total number of port mappings changes. The
 
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-

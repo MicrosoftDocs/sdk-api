@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceServiceCapabilities::Cancel
+ - IPortableDeviceServiceCapabilities.Cancel
 ---
 
 # IPortableDeviceServiceCapabilities::Cancel
@@ -65,4 +65,3 @@ This method cancels all pending operations on the current service handle, which 
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservicecapabilities">IPortableDeviceServiceCapabilities Interface</a>
-

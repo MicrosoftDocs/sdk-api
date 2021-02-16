@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagQACONTROL
  - QACONTROL
 ---
 
@@ -84,4 +83,3 @@ The control's activation policy that can also be returned by <a href="/windows/d
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iquickactivate-quickactivate">IQuickActivate::QuickActivate</a>
-

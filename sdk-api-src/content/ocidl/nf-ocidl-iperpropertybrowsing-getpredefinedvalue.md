@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPerPropertyBrowsing::GetPredefinedValue
+ - IPerPropertyBrowsing.GetPredefinedValue
 ---
 
 # IPerPropertyBrowsing::GetPredefinedValue
@@ -123,4 +123,3 @@ This method allocates any memory needed inside the <b>VARIANT</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
-

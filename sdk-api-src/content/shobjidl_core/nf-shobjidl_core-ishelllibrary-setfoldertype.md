@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary::SetFolderType
+ - IShellLibrary.SetFolderType
 ---
 
 # IShellLibrary::SetFolderType
@@ -81,4 +81,3 @@ The folder type determines the default view template that is used by the folder.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd798386(v=vs.85)">folderType Element (Library Schema)</a>
-

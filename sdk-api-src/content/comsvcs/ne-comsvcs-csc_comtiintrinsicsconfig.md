@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCSC_COMTIIntrinsicsConfig
  - CSC_COMTIIntrinsicsConfig
 ---
 
@@ -84,4 +83,3 @@ This enumeration is used to configure the COMTI intrinsics settings through <a h
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicecomtiintrinsicsconfig-comtiintrinsicsconfig">IServiceComTIIntrinsicsConfig::ComTIIntrinsicsConfig</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DlgDirListA
  - winuser/DlgDirListA
- - DlgDirList
- - winuser/DlgDirList
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DlgDirListA
  - DlgDirList
+ - DlgDirListA
+ - DlgDirListW
 ---
 
 # DlgDirListA function
@@ -243,4 +242,3 @@ For examples, see the following topics: <a href="/windows/desktop/Controls/using
 
 
 <b>Reference</b>
-

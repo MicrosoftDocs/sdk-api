@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzScope::get_BizrulesWritable
+ - IAzScope.BizrulesWritable
+ - IAzScope.get_BizrulesWritable
+ - AzScope.BizrulesWritable
 ---
 
 # IAzScope::get_BizrulesWritable

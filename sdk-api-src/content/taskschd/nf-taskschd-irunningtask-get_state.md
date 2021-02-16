@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRunningTask::get_State
+ - IRunningTask.State
+ - IRunningTask.get_State
 ---
 
 # IRunningTask::get_State
@@ -63,4 +64,3 @@ The <a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh">IRu
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-irunningtask">IRunningTask</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib::GetTypeComp
+ - ITypeLib.GetTypeComp
 ---
 
 # ITypeLib::GetTypeComp
@@ -119,4 +119,3 @@ If a member requires qualification to differentiate it from other items in the n
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-

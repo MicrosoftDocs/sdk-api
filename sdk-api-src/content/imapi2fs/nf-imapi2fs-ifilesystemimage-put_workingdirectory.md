@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_WorkingDirectory
+ - IFileSystemImage.put_WorkingDirectory
 ---
 
 # IFileSystemImage::put_WorkingDirectory
@@ -124,4 +124,3 @@ You cannot change the working directory if a result stream exists for the file-s
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_workingdirectory">IFileSystemImage::get_WorkingDirectory</a>
-

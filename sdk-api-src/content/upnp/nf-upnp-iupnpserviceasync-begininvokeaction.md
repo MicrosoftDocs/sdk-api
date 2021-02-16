@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync::BeginInvokeAction
+ - IUPnPServiceAsync.BeginInvokeAction
 ---
 
 # IUPnPServiceAsync::BeginInvokeAction
@@ -127,4 +127,3 @@ This action is not supported by the device.
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endinvokeaction">IUPnPServiceAsync::EndInvokeAction</a>
-

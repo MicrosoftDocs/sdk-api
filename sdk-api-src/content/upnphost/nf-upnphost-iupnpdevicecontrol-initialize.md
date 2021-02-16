@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPDeviceControl::Initialize
+ - IUPnPDeviceControl.Initialize
 ---
 
 # IUPnPDeviceControl::Initialize
@@ -101,4 +101,3 @@ The <i>bstrDeviceIdentifier</i> can also be used to call
 
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpdevicecontrol">IUPnPDeviceControl</a>
-

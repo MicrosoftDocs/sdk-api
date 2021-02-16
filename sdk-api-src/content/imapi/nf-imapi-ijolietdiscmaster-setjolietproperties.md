@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IJolietDiscMaster::SetJolietProperties
+ - IJolietDiscMaster.SetJolietProperties
 ---
 
 # IJolietDiscMaster::SetJolietProperties
@@ -78,4 +78,3 @@ After calling
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
-

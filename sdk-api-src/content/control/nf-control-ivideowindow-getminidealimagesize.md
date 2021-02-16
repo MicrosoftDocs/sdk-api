@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::GetMinIdealImageSize
+ - IVideoWindow.GetMinIdealImageSize
 ---
 
 # IVideoWindow::GetMinIdealImageSize
@@ -142,4 +142,3 @@ This method returns S_FALSE under various circumstances:
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-getmaxidealimagesize">IVideoWindow::GetMaxIdealImageSize</a>
-

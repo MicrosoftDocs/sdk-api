@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IOpenSearchSource::GetResults
+ - IOpenSearchSource.GetResults
 ---
 
 # IOpenSearchSource::GetResults
@@ -119,4 +119,3 @@ If a web service returns 20 items on the first page of results, the expected pag
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iopensearchsource">IOpenSearchSource</a>
-

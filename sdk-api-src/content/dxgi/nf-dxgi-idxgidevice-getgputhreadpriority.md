@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDevice::GetGPUThreadPriority
+ - IDXGIDevice.GetGPUThreadPriority
 ---
 
 # IDXGIDevice::GetGPUThreadPriority
@@ -74,4 +74,3 @@ Return S_OK if successful; otherwise, returns E_POINTER if the <i>pPriority</i> 
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgidevice">IDXGIDevice</a>
-

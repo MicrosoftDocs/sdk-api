@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IStemmer::GetLicenseToUse
+ - IStemmer.GetLicenseToUse
 ---
 
 # IStemmer::GetLicenseToUse
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Windows Search does not enforce license restrictions. The implementation determines the storage method for the license information.
-

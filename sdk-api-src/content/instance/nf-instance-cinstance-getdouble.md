@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetDOUBLE
+ - CInstance.GetDOUBLE
 ---
 
 # CInstance::GetDOUBLE
@@ -72,4 +72,3 @@ Buffer to receive the <b>DOUBLE</b> property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to retrieve a property that is not a <b>DOUBLE</b>-compatible type or a property that does not exist. More information is available in the log file, Framework.log.
-

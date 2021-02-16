@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - INamedEntityCollector::Add
+ - INamedEntityCollector.Add
 ---
 
 # INamedEntityCollector::Add
@@ -139,4 +139,3 @@ When a query parser parses an input string into condition nodes, the parser invo
           
 
 The following relationship must be maintained between the four first arguments: <i>beginSpan</i>  = <i>beginActual</i> &lt; <i>endActual</i> = <i>endSpan</i>.
-

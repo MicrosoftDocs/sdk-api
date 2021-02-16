@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStoryRanges::Item
+ - ITextStoryRanges.Item
 ---
 
 # ITextStoryRanges::Item
@@ -123,4 +123,3 @@ Failure for some other reason.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

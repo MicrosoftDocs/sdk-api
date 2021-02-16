@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _AdrClientDisplayFlags
  - AdrClientDisplayFlags
 ---
 
@@ -68,4 +67,3 @@ Indicates whether to show the user the offending device claims.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/fsrm/fsrm-enumerations">FSRM Enumerations</a>
-

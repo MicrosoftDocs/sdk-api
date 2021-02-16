@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_2.h
 api_name:
- - ID3D11DeviceContext2::IsAnnotationEnabled
+ - ID3D11DeviceContext2.IsAnnotationEnabled
 ---
 
 # ID3D11DeviceContext2::IsAnnotationEnabled
@@ -67,4 +67,3 @@ If apps detect that capture is being performed, they can prevent the Direct3D de
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
-

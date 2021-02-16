@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audiopolicy.h
 api_name:
- - IAudioSessionManager2::RegisterDuckNotification
+ - IAudioSessionManager2.RegisterDuckNotification
 ---
 
 # IAudioSessionManager2::RegisterDuckNotification
@@ -115,4 +115,3 @@ The application receives notifications about the ducking events through the meth
 
 
 <a href="/windows/desktop/CoreAudio/using-the-communication-device">Using a Communication Device</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_23
- - PUSER_INFO_23
  - USER_INFO_23
 ---
 
@@ -358,4 +356,3 @@ A pointer to a
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

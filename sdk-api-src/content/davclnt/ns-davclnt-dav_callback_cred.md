@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Davclnt.h
 api_name:
- - _DAV_CALLBACK_CRED
- - PDAV_CALLBACK_CRED
  - DAV_CALLBACK_CRED
 ---
 
@@ -95,4 +93,3 @@ This structure is used by the <a href="/windows/desktop/api/davclnt/nc-davclnt-p
 
 
 <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>
-

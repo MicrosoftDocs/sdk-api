@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalControl::CompleteConnectTerminal
+ - ITTerminalControl.CompleteConnectTerminal
 ---
 
 # ITTerminalControl::CompleteConnectTerminal
@@ -85,4 +85,3 @@ This method always returns S_OK. If an MSP cannot connect the terminal, the erro
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalcontrol">ITTerminalControl</a>
-

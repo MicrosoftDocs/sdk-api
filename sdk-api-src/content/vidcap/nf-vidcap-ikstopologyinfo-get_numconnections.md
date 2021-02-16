@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IKsTopologyInfo::get_NumConnections
+ - IKsTopologyInfo.get_NumConnections
 ---
 
 # IKsTopologyInfo::get_NumConnections
@@ -91,4 +91,3 @@ To get information about the connections, call the <a href="/windows/desktop/api
 
 
 <a href="/windows/previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo">IKsTopologyInfo Interface</a>
-

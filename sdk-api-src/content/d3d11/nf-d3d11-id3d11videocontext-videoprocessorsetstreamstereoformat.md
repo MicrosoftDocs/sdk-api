@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
+ - ID3D11VideoContext.VideoProcessorSetStreamStereoFormat
 ---
 
 # ID3D11VideoContext::VideoProcessorSetStreamStereoFormat
@@ -114,4 +114,3 @@ If <i>Format</i> is not <b>D3D11_VIDEO_PROCESSOR_STEREO_FORMAT_MONO_OFFSET</b>, 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-

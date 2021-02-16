@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaItem::GetPresentationAttribute
+ - IMFPMediaItem.GetPresentationAttribute
 ---
 
 # IMFPMediaItem::GetPresentationAttribute
@@ -83,4 +83,3 @@ Presentation attributes describe the presentation as a whole. To get an attribut
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

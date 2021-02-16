@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::get_PVKFileName
+ - ICEnroll4.PVKFileName
+ - ICEnroll4.get_PVKFileName
+ - ICEnroll4.put_PVKFileName
+ - ICEnroll3.PVKFileName
+ - ICEnroll3.get_PVKFileName
+ - ICEnroll3.put_PVKFileName
+ - ICEnroll2.PVKFileName
+ - ICEnroll2.get_PVKFileName
+ - ICEnroll2.put_PVKFileName
+ - ICEnroll.PVKFileName
+ - ICEnroll.get_PVKFileName
+ - ICEnroll.put_PVKFileName
+ - CEnroll.PVKFileName
 ---
 
 # ICEnroll::get_PVKFileName
@@ -127,4 +139,3 @@ else
 if ( NULL != bstrNewPVKFile )
     SysFreeString( bstrNewPVKFile );
 ```
-

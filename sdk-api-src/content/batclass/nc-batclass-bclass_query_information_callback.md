@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - BCLASS_QUERY_INFORMATION_CALLBACK
+ - BatteryMiniQueryInformation
 ---
 
 # BCLASS_QUERY_INFORMATION_CALLBACK callback function
@@ -228,4 +228,3 @@ If <i>Level</i> specifies <b>BatteryUniqueId</b>, the miniclass driver must retu
 
 
 <a href="/windows-hardware/drivers/ddi/content/wdm/ns-wdm-battery_reporting_scale">BATTERY_REPORTING_SCALE</a>
-

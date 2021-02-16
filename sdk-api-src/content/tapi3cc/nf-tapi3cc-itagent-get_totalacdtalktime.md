@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgent::get_TotalACDTalkTime
+ - ITAgent.get_TotalACDTalkTime
 ---
 
 # ITAgent::get_TotalACDTalkTime
@@ -120,4 +120,3 @@ The operation failed because the TAPI 3 DLL timed it out. The timeout interval i
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagent">ITAgent</a>
-

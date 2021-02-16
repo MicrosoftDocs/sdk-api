@@ -42,7 +42,10 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager.ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager.get_ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager2.ClassificationLastReportPathWithoutExtension
+ - IFsrmClassificationManager2.get_ClassificationLastReportPathWithoutExtension
 ---
 
 # IFsrmClassificationManager::get_ClassificationLastReportPathWithoutExtension
@@ -91,4 +94,3 @@ If the reports failed, this is the path where the reports would have been stored
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

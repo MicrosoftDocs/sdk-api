@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFECommon::SetDefaultIME
+ - IFECommon.SetDefaultIME
 ---
 
 # IFECommon::SetDefaultIME
@@ -67,4 +67,3 @@ This method only applies when Microsoft IME uses the Input Method Manager (IMM) 
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifecommon">IFECommon</a>
-

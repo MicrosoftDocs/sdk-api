@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
- - _RPC_NOTIFICATION_TYPES
  - RPC_NOTIFICATION_TYPES
 ---
 
@@ -86,4 +85,3 @@ Invoke a callback function provided by the client program.
 ## -see-also
 
 <a href="/windows/desktop/Rpc/making-the-asynchronous-call">Making the Asynchronous Call</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia2::get_error
+ - IWMPMedia2.get_error
+ - IWMPMedia3.get_error
 ---
 
 # IWMPMedia2::get_error
@@ -91,4 +92,3 @@ If the media item cannot be played, this property retrieves an <b>IWMPErrorItem<
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia2">IWMPMedia2 Interface</a>
-

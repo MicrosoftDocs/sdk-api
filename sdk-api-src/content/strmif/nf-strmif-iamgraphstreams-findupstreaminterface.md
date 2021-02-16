@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMGraphStreams::FindUpstreamInterface
+ - IAMGraphStreams.FindUpstreamInterface
 ---
 
 # IAMGraphStreams::FindUpstreamInterface
@@ -146,4 +146,3 @@ It stops at the first object it finds that supports the interface. You can limit
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamgraphstreams">IAMGraphStreams Interface</a>
-

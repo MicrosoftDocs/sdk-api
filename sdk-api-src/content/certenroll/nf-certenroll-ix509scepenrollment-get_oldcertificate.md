@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509SCEPEnrollment::get_OldCertificate
+ - IX509SCEPEnrollment.OldCertificate
+ - IX509SCEPEnrollment.get_OldCertificate
+ - IX509SCEPEnrollment.put_OldCertificate
 ---
 
 # IX509SCEPEnrollment::get_OldCertificate
@@ -63,4 +65,3 @@ You must set this property before you call the <a href="/windows/desktop/api/cer
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
-

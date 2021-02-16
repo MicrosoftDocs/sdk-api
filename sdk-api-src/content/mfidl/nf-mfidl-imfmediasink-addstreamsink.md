@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink::AddStreamSink
+ - IMFMediaSink.AddStreamSink
 ---
 
 # IMFMediaSink::AddStreamSink
@@ -146,4 +146,3 @@ If <i>pMediaType</i> is <b>NULL</b>, use the <a href="/windows/desktop/api/mfidl
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagEXCEPINFO
- - LPEXCEPINFO
  - EXCEPINFO
 ---
 
@@ -101,4 +99,3 @@ A return value that describes the error. Either this field or wCode (but not bot
 Use the <b>pfnDeferredFillIn</b> field to enable an object to defer filling in the <b>bstrDescription</b>, <b>bstrHelpFile</b>, and <b>dwHelpContext</b> fields until they are needed. This field might be used, for example, if loading the string for the error is a time-consuming operation. To use deferred fill-in, the object puts a function pointer in this slot and does not fill any of the other fields except <b>wCode</b>, which is required.
 
 To get additional information, the caller passes the <b>EXCEPINFO</b> structure back to the <b>pexcepinfo</b> callback function, which fills in the additional information. When the ActiveX object and the ActiveX client are in different processes, the ActiveX object calls <b>pfnDeferredFillIn</b> before returning to the controller.
-

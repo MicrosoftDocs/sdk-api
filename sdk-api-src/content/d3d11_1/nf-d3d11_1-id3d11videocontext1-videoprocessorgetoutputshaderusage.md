@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11_1.h
 api_name:
- - ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage
+ - ID3D11VideoContext1.VideoProcessorGetOutputShaderUsage
 ---
 
 # ID3D11VideoContext1::VideoProcessorGetOutputShaderUsage
@@ -69,4 +69,3 @@ A pointer to a boolean value indicating if the output surface can be read by Dir
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11videocontext1">ID3D11VideoContext1</a>
-

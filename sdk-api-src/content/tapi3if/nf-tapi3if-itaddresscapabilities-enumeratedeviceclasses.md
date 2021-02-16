@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressCapabilities::EnumerateDeviceClasses
+ - ITAddressCapabilities.EnumerateDeviceClasses
 ---
 
 # ITAddressCapabilities::EnumerateDeviceClasses
@@ -121,4 +121,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities">ITAddressCapabilities</a>
-

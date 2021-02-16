@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2::CreateEffectGroup
+ - IDCompositionDevice2.CreateEffectGroup
 ---
 
 # IDCompositionDevice2::CreateEffectGroup
@@ -81,4 +81,3 @@ To set the opacity and transform values, use the corresponding methods on the <a
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
-

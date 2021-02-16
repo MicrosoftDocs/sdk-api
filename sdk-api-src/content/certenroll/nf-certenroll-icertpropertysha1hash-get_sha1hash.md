@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertySHA1Hash::get_SHA1Hash
+ - ICertPropertySHA1Hash.SHA1Hash
+ - ICertPropertySHA1Hash.get_SHA1Hash
 ---
 
 # ICertPropertySHA1Hash::get_SHA1Hash
@@ -63,4 +64,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertysha
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertysha1hash">ICertPropertySHA1Hash</a>
-

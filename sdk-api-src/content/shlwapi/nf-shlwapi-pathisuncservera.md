@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathIsUNCServerA
  - shlwapi/PathIsUNCServerA
- - PathIsUNCServer
- - shlwapi/PathIsUNCServer
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - PathIsUNCServerA
  - PathIsUNCServer
+ - PathIsUNCServerA
+ - PathIsUNCServerW
 ---
 
 # PathIsUNCServerA function

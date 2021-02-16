@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::GetCustomAttributeProps
+ - IMetaDataImport.GetCustomAttributeProps
 ---
 
 # IMetaDataImport::GetCustomAttributeProps
@@ -85,4 +85,3 @@ A custom attribute is stored as an array of data, the format of which is underst
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

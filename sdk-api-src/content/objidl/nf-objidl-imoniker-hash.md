@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::Hash
+ - IMoniker.Hash
 ---
 
 # IMoniker::Hash
@@ -115,4 +115,3 @@ Marshaling and then unmarshaling a moniker should have no effect on its hash val
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-

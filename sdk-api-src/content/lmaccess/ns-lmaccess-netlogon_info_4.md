@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NETLOGON_INFO_4
- - PNETLOGON_INFO_4
  - NETLOGON_INFO_4
 ---
 
@@ -75,4 +73,3 @@ A marshaled pointer to a string that contains the trusted domain name.
 ## -see-also
 
 <a href="/windows/desktop/api/lmaccess/nf-lmaccess-i_netlogoncontrol2">I_NetLogonControl2</a>
-

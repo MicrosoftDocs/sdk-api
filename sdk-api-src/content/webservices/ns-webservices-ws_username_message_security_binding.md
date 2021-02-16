@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_USERNAME_MESSAGE_SECURITY_BINDING
  - WS_USERNAME_MESSAGE_SECURITY_BINDING
 ---
 
@@ -102,4 +101,3 @@ service.
 ### -field passwordValidatorCallbackState
 
 The optional state to be passed in as an argument when the username validator is invoked.
-

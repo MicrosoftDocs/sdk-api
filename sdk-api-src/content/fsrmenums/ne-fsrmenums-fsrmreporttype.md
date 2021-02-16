@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmReportType
  - FsrmReportType
 ---
 
@@ -172,4 +171,3 @@ To specify the values for report types that require a filter (for example, listi
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmaction">MSFT_FSRMAction</a>
-

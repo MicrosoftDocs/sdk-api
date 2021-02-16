@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer::SetCertificate
+ - CSecureChannelServer.SetCertificate
 ---
 
 # CSecureChannelServer::SetCertificate
@@ -137,4 +137,3 @@ if (g_pSCWMDM)
 ## -see-also
 
 <a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
-

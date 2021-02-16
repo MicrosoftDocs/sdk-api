@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader::GetNextSample
+ - IWMSyncReader.GetNextSample
 ---
 
 # IWMSyncReader::GetNextSample
@@ -219,4 +219,3 @@ You can also use <i>GetNextSample</i> to retrieve precise times for video frames
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader">IWMSyncReader Interface</a>
-

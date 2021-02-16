@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr::GetGlobalCompartment
+ - ITfThreadMgr.GetGlobalCompartment
 ---
 
 # ITfThreadMgr::GetGlobalCompartment
@@ -99,4 +99,3 @@ The method was successful.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr">ITfThreadMgr</a>
-

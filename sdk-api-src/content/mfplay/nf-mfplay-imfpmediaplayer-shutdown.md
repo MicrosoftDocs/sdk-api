@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer::Shutdown
+ - IMFPMediaPlayer.Shutdown
 ---
 
 # IMFPMediaPlayer::Shutdown
@@ -75,4 +75,3 @@ The player object automatically shuts itself down when its reference count reach
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

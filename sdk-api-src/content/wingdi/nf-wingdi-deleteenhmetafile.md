@@ -47,6 +47,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DeleteEnhMetaFile
+ - DeleteEnhMetaFileW
 ---
 
 # DeleteEnhMetaFile function
@@ -98,4 +99,3 @@ For an example, see <a href="/windows/desktop/gdi/opening-an-enhanced-metafile-a
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

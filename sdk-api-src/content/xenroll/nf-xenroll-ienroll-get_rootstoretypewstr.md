@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_RootStoreTypeWStr
+ - IEnroll.RootStoreTypeWStr
+ - IEnroll.get_RootStoreTypeWStr
+ - IEnroll.put_RootStoreTypeWStr
 ---
 
 # IEnroll::get_RootStoreTypeWStr
@@ -77,4 +79,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

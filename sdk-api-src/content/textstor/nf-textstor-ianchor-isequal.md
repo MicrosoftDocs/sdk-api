@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor::IsEqual
+ - IAnchor.IsEqual
 ---
 
 # IAnchor::IsEqual
@@ -115,4 +115,3 @@ Anchors are always positioned between characters or regions. When two anchors ar
 
 <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-compare">IAnchor::Compare
       </a>
-

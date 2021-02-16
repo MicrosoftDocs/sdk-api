@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ITaskbarList2::MarkFullscreenWindow
+ - ITaskbarList2.MarkFullscreenWindow
 ---
 
 # ITaskbarList2::MarkFullscreenWindow
@@ -95,4 +95,3 @@ Setting the value of <i>fFullscreen</i> to <b>TRUE</b>, the Shell treats this wi
 
 
 <a href="/windows/win32/api/winuser/nf-winuser-setpropw">SetPropW</a>
-

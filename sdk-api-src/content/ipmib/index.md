@@ -9,8 +9,6 @@ tech.root: mib
 f1_keywords:
  - ipmib
  - ipmib/ipmib
-api_name:
- - ipmib
 ---
 
 # Ipmib.h header

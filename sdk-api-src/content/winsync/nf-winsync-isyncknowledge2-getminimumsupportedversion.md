@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge2::GetMinimumSupportedVersion
+ - ISyncKnowledge2.GetMinimumSupportedVersion
 ---
 
 # ISyncKnowledge2::GetMinimumSupportedVersion
@@ -114,4 +114,3 @@ For an overview of what is involved in building synchronization providers using 
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_full_enumeration_action">SYNC_SERIALIZATION_VERSION Enumeration</a>
-

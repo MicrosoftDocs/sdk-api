@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::IsEqual
+ - IFont.IsEqual
 ---
 
 # IFont::IsEqual
@@ -107,4 +107,3 @@ The address in the <i>pFontOther</i> parameter is not valid. For example, it may
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ifont">IFont</a>
-

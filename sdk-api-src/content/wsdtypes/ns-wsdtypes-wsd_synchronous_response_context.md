@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_SYNCHRONOUS_RESPONSE_CONTEXT
  - WSD_SYNCHRONOUS_RESPONSE_CONTEXT
 ---
 
@@ -72,4 +71,3 @@ A pointer to an <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdmessagepara
 ### -field results
 
 The body of the response message.
-

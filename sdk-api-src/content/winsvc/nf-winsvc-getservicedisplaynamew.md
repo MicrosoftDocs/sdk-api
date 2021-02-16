@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetServiceDisplayNameW
  - winsvc/GetServiceDisplayNameW
- - GetServiceDisplayName
- - winsvc/GetServiceDisplayName
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - SecHost.dll
  - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
 api_name:
- - GetServiceDisplayNameW
  - GetServiceDisplayName
+ - GetServiceDisplayNameA
+ - GetServiceDisplayNameW
 ---
 
 # GetServiceDisplayNameW function
@@ -125,4 +124,3 @@ There are two names for a service: the service name and the display name. The se
 
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SUBNET_INFO_VQ
- - LPDHCP_SUBNET_INFO_VQ
  - DHCP_SUBNET_INFO_VQ
 ---
 
@@ -103,4 +101,3 @@ Reserved for future use.
 ### -field Reserved4
 
 Reserved for future use.
-

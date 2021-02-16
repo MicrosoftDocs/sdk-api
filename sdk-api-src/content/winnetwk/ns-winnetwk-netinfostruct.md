@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnetwk.h
 api_name:
- - _NETINFOSTRUCT
- - LPNETINFOSTRUCT
  - NETINFOSTRUCT
 ---
 
@@ -217,4 +215,3 @@ The <b>NETINFOSTRUCT</b> structure contains information describing the network, 
 
 
 <a href="/windows/desktop/WNet/windows-networking-structures">Windows Networking Structures</a>
-

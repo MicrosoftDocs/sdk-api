@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - mscat
  - mscat/mscat
-api_name:
- - mscat
 ---
 
 # Mscat.h header

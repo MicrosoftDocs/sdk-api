@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest2::GetErrorMessageText
+ - ICertRequest3.GetErrorMessageText
+ - ICertRequest2.GetErrorMessageText
+ - ICertRequest.GetErrorMessageText
+ - CCertRequest.GetErrorMessageText
 ---
 
 # ICertRequest2::GetErrorMessageText
@@ -104,4 +107,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 <h3>VB</h3>
 The return value is a <b>String</b> that contains the error message text for <i>hrMessage</i>.
-

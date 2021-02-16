@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectId::get_Value
+ - IObjectId.Value
+ - IObjectId.get_Value
 ---
 
 # IObjectId::get_Value
@@ -85,4 +86,3 @@ You can also retrieve the following property values:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectID</a>
-

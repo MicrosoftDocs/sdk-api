@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IErrorInfo::GetSource
+ - IErrorInfo.GetSource
 ---
 
 # IErrorInfo::GetSource
@@ -69,4 +69,3 @@ Use <b>IErrorInfo::GetSource</b> to determine the class or application that is t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
-

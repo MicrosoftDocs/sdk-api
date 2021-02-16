@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplat.dll
 api_name:
- - IMFContentDecryptorContext::InitializeHardwareKey
+ - IMFContentDecryptorContext.InitializeHardwareKey
 ---
 
 # IMFContentDecryptorContext::InitializeHardwareKey
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentdecryptorcontext">IMFContentDecryptorContext</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IContextMenu::InvokeCommand
+ - IContextMenu.InvokeCommand
 ---
 
 # IContextMenu::InvokeCommand
@@ -83,4 +83,3 @@ As of Windows Vista, it is not sufficient invoke the command asynchronously sim
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu">IContextMenu</a>
-

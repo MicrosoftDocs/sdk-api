@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_CREATE_DATABASE_FN
+ - StorageAdapterCreateDatabase
 ---
 
 # PIBIO_STORAGE_CREATE_DATABASE_FN callback function
@@ -336,4 +336,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_storage_open_database_fn">StorageAdapterOpenDatabase</a>
-

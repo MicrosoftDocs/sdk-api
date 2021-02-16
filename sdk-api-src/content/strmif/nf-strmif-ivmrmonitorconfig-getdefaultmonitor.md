@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMonitorConfig::GetDefaultMonitor
+ - IVMRMonitorConfig.GetDefaultMonitor
 ---
 
 # IVMRMonitorConfig::GetDefaultMonitor
@@ -122,4 +122,3 @@ Use this method on a multi-monitor system to determine which is the default Dire
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

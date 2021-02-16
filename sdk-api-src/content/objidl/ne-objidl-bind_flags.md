@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
- - tagBIND_FLAGS
  - BIND_FLAGS
 ---
 
@@ -76,4 +75,3 @@ If this flag is specified, the caller is not interested in having the operation 
 
 
 [BIND_OPTS3](./ns-objidl-bind_opts3~r1.md)
-

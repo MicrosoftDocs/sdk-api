@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION_DATA_TYPE
- - LPDHCP_OPTION_DATA_TYPE
  - DHCP_OPTION_DATA_TYPE
 ---
 
@@ -99,4 +97,3 @@ The option data is stored as a Unicode string.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_binary_data">DHCP_BINARY_DATA</a>
-

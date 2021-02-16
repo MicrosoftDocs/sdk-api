@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddstream.h
 api_name:
- - IDirectDrawMediaStream::GetDirectDraw
+ - IDirectDrawMediaStream.GetDirectDraw
 ---
 
 # IDirectDrawMediaStream::GetDirectDraw
@@ -71,4 +71,3 @@ If you haven't initialized the stream yet, the retrieved pointer will be <b>NULL
 ## -see-also
 
 <a href="/windows/desktop/api/ddstream/nn-ddstream-idirectdrawmediastream">IDirectDrawMediaStream Interface</a>
-

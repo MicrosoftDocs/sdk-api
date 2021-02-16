@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation4::AddChangesEventHandler
+ - IUIAutomation4.AddChangesEventHandler
 ---
 
 # IUIAutomation4::AddChangesEventHandler
@@ -108,4 +108,3 @@ A Microsoft UI Automation client should not use multiple threads to add or remov
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removealleventhandlers">RemoveAllEventHandlers</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_CACHE_KEY
- - PHTTP_SERVICE_CONFIG_CACHE_KEY
  - HTTP_SERVICE_CONFIG_CACHE_KEY
 ---
 
@@ -71,4 +69,3 @@ The chunk size.
 ## -see-also
 
 <a href="/windows/desktop/Http/http-server-api-version-2-0-enumeration-types">HTTP Server API Version 2.0 Enumeration Types</a>
-

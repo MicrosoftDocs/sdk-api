@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_INTERFACE_INFO
- - PWLAN_INTERFACE_INFO
  - WLAN_INTERFACE_INFO
 ---
 
@@ -77,4 +75,3 @@ Contains a <a href="/windows/win32/api/wlanapi/ne-wlanapi-wlan_interface_state-r
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info_list">WLAN_INTERFACE_INFO_LIST</a>
-

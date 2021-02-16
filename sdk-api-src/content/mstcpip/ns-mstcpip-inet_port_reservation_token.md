@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - PINET_PORT_RESERVATION_TOKEN
  - INET_PORT_RESERVATION_TOKEN
 ---
 
@@ -110,4 +109,3 @@ The  <b>INET_PORT_RESERVATION_TOKEN</b> structure is used by the <a href="/previ
 
 
 <a href="/previous-versions/windows/desktop/legacy/gg699722(v=vs.85)">SIO_RELEASE_PORT_RESERVATION</a>
-

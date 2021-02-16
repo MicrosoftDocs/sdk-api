@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoctl.h
 api_name:
- - _FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
- - PFSCTL_QUERY_STORAGE_CLASSES_OUTPUT
  - FSCTL_QUERY_STORAGE_CLASSES_OUTPUT
 ---
 
@@ -100,4 +98,3 @@ Number of tiers that fit in the output.
 ### -field Tiers
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-file_storage_tier">FILE_STORAGE_TIER</a> structure that contains detailed info on the storage tiers.
-

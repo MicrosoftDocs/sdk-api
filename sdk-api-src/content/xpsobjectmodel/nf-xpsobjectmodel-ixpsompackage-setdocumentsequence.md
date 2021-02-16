@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackage::SetDocumentSequence
+ - IXpsOMPackage.SetDocumentSequence
 ---
 
 # IXpsOMPackage::SetDocumentSequence
@@ -117,4 +117,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

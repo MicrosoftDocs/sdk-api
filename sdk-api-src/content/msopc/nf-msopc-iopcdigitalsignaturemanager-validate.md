@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcDigitalSignatureManager::Validate
+ - IOpcDigitalSignatureManager.Validate
 ---
 
 # IOpcDigitalSignatureManager::Validate
@@ -163,4 +163,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
-

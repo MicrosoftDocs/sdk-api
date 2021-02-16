@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IWbemShutdown::Shutdown
+ - IWbemShutdown.Shutdown
 ---
 
 # IWbemShutdown::Shutdown
@@ -73,4 +73,3 @@ This method returns an <b>HRESULT</b>, which identifies the status of the method
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemshutdown">IWbemShutdown</a>
-

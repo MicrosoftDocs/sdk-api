@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_LISTENER_SETTING
- - PWRDS_LISTENERN_SETTING
  - WRDS_LISTENER_SETTING
 ---
 
@@ -67,4 +65,5 @@ A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_listener_settings_1">WRD
 ### -field WRdsListenerSettings1.case
 
 ### -field WRdsListenerSettings1.case.WRDS_LISTENER_SETTING_LEVEL_1
+
 

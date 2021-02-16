@@ -9,8 +9,6 @@ tech.root: fwp
 f1_keywords:
  - ipsectypes
  - ipsectypes/ipsectypes
-api_name:
- - ipsectypes
 ---
 
 # Ipsectypes.h header

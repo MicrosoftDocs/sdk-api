@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntcons.h
 api_name:
- - _EVENT_EXTENDED_ITEM_STACK_TRACE64
- - PEVENT_EXTENDED_ITEM_STACK_TRACE64
  - EVENT_EXTENDED_ITEM_STACK_TRACE64
 ---
 
@@ -75,4 +73,3 @@ The <b>DataSize</b> member of <a href="/windows/desktop/api/evntcons/ns-evntcons
 ## -see-also
 
 <a href="/windows/desktop/api/evntcons/ns-evntcons-event_header_extended_data_item">EVENT_HEADER_EXTENDED_DATA_ITEM</a>
-

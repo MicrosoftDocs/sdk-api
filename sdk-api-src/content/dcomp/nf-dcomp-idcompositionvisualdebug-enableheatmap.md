@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisualDebug::EnableHeatMap
+ - IDCompositionVisualDebug.EnableHeatMap
 ---
 
 # IDCompositionVisualDebug::EnableHeatMap
@@ -75,4 +75,3 @@ Heatmaps can be enabled by calling <b>EnableHeatMap</b>. The heatmaps are drawn 
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisualdebug-disableheatmap">IDCompositionVisualDebug::DisableHeatMap</a>
-

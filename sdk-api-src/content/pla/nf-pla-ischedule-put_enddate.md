@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ISchedule::put_EndDate
+ - ISchedule.EndDate
+ - ISchedule.get_EndDate
+ - ISchedule.put_EndDate
 ---
 
 # ISchedule::put_EndDate
@@ -69,4 +71,3 @@ The set cannot be started after the end date, but if the set is running when the
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_startdate">ISchedule::StartDate</a>
-

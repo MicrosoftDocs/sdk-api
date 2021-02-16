@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoCompression::get_PFramesPerKeyFrame
+ - IAMVideoCompression.get_PFramesPerKeyFrame
 ---
 
 # IAMVideoCompression::get_PFramesPerKeyFrame
@@ -80,4 +80,3 @@ P frames are used in MPEG compression; in general, this property does not apply 
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamvideocompression-put_keyframerate">IAMVideoCompression::put_KeyFrameRate</a>
-

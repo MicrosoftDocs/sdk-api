@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IContextMenuProvider::EmptyMenuList
+ - IContextMenuProvider.EmptyMenuList
 ---
 
 # IContextMenuProvider::EmptyMenuList
@@ -66,4 +66,3 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-icontextmenuprovider">IContextMenuProvider</a>
-

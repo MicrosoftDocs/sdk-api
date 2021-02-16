@@ -47,8 +47,6 @@ api_location:
  - MinWinBase.h
  - WinBase.h
 api_name:
- - _REASON_CONTEXT
- - PREASON_CONTEXT
  - REASON_CONTEXT
 ---
 
@@ -139,4 +137,3 @@ A non-localized string that describes the reason for the power request.
 
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-setwaitabletimerex">SetWaitableTimerEx</a>
-

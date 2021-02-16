@@ -51,6 +51,7 @@ api_location:
  - vertdll.dll
 api_name:
  - ReleaseSRWLockShared
+ - RtlReleaseSRWLockShared
 ---
 
 # ReleaseSRWLockShared function
@@ -81,4 +82,3 @@ The SRW lock must be released by the same thread that acquired it. You can use [
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
-

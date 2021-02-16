@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflictResolveInfo::GetPresenterChoice
+ - ISyncMgrConflictResolveInfo.GetPresenterChoice
 ---
 
 # ISyncMgrConflictResolveInfo::GetPresenterChoice
@@ -79,4 +79,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgrconflictresolveinfo-setpresenterchoice">ISyncMgrConflictResolveInfo::SetPresenterChoice</a>
-

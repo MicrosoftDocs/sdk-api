@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Intsafe.h
 api_name:
- - ULongPtrToLongLong
+ - SIZETToInt64
 ---
 
 # ULongPtrToLongLong function

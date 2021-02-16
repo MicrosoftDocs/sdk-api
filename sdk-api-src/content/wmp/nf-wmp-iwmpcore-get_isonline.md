@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_isOnline
+ - IWMPCore.get_isOnline
 ---
 
 # IWMPCore::get_isOnline
@@ -87,4 +87,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcore">IWMPCore Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - SessDirPublicTypes.h
 api_name:
- - __MIDL___MIDL_itf_sessdirpublictypes_0000_0000_0002
- - PTSSD_ConnectionPoint
  - TSSD_ConnectionPoint
 ---
 

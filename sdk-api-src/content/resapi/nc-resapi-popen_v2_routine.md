@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - POPEN_V2_ROUTINE
+ - OpenV2 callback
 ---
 
 # POPEN_V2_ROUTINE callback function
@@ -98,4 +98,3 @@ If the operation was not successful, returns
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-

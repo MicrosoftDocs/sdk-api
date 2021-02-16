@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - IFileBasedLogInit::InitNew
+ - IFileBasedLogInit.InitNew
 ---
 
 # IFileBasedLogInit::InitNew
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ifilebasedloginit">IFileBasedLogInit</a>
-

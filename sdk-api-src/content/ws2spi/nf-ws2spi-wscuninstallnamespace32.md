@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSCUnInstallNameSpace32
+ - WSCUninstallNamespace32
 ---
 
 # WSCUnInstallNameSpace32 function

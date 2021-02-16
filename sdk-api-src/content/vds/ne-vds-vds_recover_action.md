@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_RECOVER_ACTION
  - VDS_RECOVER_ACTION
 ---
 
@@ -66,4 +65,3 @@ This enumeration is reserved for system use.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_RECOVER_ACTION</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_RECOVER_ACTION</b> enumeration constant.</div>
 <div> </div>
-

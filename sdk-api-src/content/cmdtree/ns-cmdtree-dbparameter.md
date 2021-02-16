@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - tagDBPARAMETER
  - DBPARAMETER
 ---
 
@@ -89,4 +88,3 @@ type of the parameter
 ## -remarks
 
 Note that there is no entry for the ordinal position of the parameter. The assumption is that the ordinal position will be determined by the provider after evaluating the tree as a whole, and not by assigning a specific value to an individual member within the tree. Data consumers can determine the ordinal position based on the name using <b>ICommandWithParameters::MapParameterNames</b>. For more information about the interface, see <a href="/previous-versions/windows/desktop/ms712937(v=vs.85)">ICommandWithParameters</a>.
-

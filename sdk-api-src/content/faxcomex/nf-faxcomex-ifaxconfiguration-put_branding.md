@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration::put_Branding
+ - IFaxConfiguration.Branding
+ - IFaxConfiguration.get_Branding
+ - IFaxConfiguration.put_Branding
 ---
 
 # IFaxConfiguration::put_Branding
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
-

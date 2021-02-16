@@ -44,7 +44,6 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - tagEOLE_AUTHENTICATION_CAPABILITIES
  - EOLE_AUTHENTICATION_CAPABILITIES
 ---
 
@@ -158,4 +157,3 @@ The <a href="/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">I
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket">IClientSecurity::SetBlanket</a>
-

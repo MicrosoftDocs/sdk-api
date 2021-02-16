@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireItem::GetProperty
+ - IPhotoAcquireItem.GetProperty
 ---
 
 # IPhotoAcquireItem::GetProperty
@@ -96,4 +96,3 @@ For an item that is a shell object, this method will defer to the <b>IPropertySt
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquireitem-setproperty">SetProperty</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITMultiTrackTerminal::EnumerateTrackTerminals
+ - ITMultiTrackTerminal.EnumerateTrackTerminals
 ---
 
 # ITMultiTrackTerminal::EnumerateTrackTerminals
@@ -117,4 +117,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itmultitrackterminal">ITMultiTrackTerminal</a>
-

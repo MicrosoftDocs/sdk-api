@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::CompareElements
+ - IUIAutomation.CompareElements
 ---
 
 # IUIAutomation::CompareElements
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-compareruntimeids">IUIAutomation::CompareRuntimeIds</a>
-

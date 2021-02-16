@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDirectory::Skip
+ - IEnumDirectory.Skip
 ---
 
 # IEnumDirectory::Skip
@@ -98,4 +98,3 @@ Number of elements skipped was not <i>celt</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdirectory">IEnumDirectory</a>
-

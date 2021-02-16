@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMFilterMiscFlags::GetMiscFlags
+ - IAMFilterMiscFlags.GetMiscFlags
 ---
 
 # IAMFilterMiscFlags::GetMiscFlags
@@ -66,4 +66,3 @@ This method returns a member of the <a href="/windows/desktop/api/strmif/ne-strm
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamfiltermiscflags">IAMFilterMiscFlags Interface</a>
-

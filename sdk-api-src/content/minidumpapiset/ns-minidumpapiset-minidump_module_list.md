@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_MODULE_LIST
- - PMINIDUMP_MODULE_LIST
  - MINIDUMP_MODULE_LIST
 ---
 
@@ -76,4 +74,3 @@ An array of
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

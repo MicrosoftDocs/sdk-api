@@ -42,7 +42,12 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::get_TargetState
+ - ITsSbTarget.TargetState
+ - ITsSbTarget.get_TargetState
+ - ITsSbTarget.put_TargetState
+ - ITsSbTargetEx.TargetState
+ - ITsSbTargetEx.get_TargetState
+ - ITsSbTargetEx.put_TargetState
 ---
 
 # ITsSbTarget::get_TargetState
@@ -67,4 +72,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/sessdirpublictypes/ne-sessdirpublictypes-target_state">TARGET_STATE</a>
-

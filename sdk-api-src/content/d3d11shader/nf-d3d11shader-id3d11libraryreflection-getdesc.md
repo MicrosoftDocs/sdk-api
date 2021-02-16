@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11LibraryReflection::GetDesc
+ - ID3D11LibraryReflection.GetDesc
 ---
 
 # ID3D11LibraryReflection::GetDesc
@@ -69,4 +69,3 @@ Returns one of the <a href="/windows/desktop/direct3d11/d3d11-graphics-reference
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11libraryreflection">ID3D11LibraryReflection</a>
-

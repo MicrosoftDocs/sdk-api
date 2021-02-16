@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_LOADBALANCE_POLICY_ENUM
  - VDS_LOADBALANCE_POLICY_ENUM
 ---
 
@@ -102,4 +101,3 @@ The policy is a vendor-specific policy.
 ## -see-also
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

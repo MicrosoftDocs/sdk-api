@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement2::get_CachedFlowsFrom
+ - IUIAutomationElement2.CachedFlowsFrom
+ - IUIAutomationElement2.get_CachedFlowsFrom
+ - IUIAutomationElement2.put_CachedFlowsFrom
 ---
 
 # IUIAutomationElement2::get_CachedFlowsFrom
@@ -67,4 +69,3 @@ This property maps to the Microsoft Accessible Rich Internet Applications (ARIA)
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement2">IUIAutomationElement2</a>
-

@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesDirtyInfo::RemoteDirtyByteCount
+ - IOfflineFilesDirtyInfo.RemoteDirtyByteCount
 ---
 
 # IOfflineFilesDirtyInfo::RemoteDirtyByteCount
@@ -70,4 +70,3 @@ This method can only be called for file items, which are represented by <a href=
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesdirtyinfo">IOfflineFilesDirtyInfo</a>
-

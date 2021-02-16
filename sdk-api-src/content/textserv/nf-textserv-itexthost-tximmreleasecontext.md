@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxImmReleaseContext
+ - ITextHost.TxImmReleaseContext
 ---
 
 # ITextHost::TxImmReleaseContext
@@ -81,4 +81,3 @@ The input context.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

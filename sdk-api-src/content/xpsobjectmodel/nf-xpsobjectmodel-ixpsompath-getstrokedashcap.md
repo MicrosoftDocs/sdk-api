@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::GetStrokeDashCap
+ - IXpsOMPath.GetStrokeDashCap
 ---
 
 # IXpsOMPath::GetStrokeDashCap
@@ -110,4 +110,3 @@ For more information about dash cap styles, see <a href="/windows/win32/api/xpso
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_dash_cap">XPS_DASH_CAP</a>
-

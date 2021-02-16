@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_AUTH_INFORMATION0_
  - IPSEC_SA_AUTH_INFORMATION0
 ---
 
@@ -80,4 +79,3 @@ Key used for the authentication algorithm stored in a [FWP_BYTE_BLOB](/windows/d
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

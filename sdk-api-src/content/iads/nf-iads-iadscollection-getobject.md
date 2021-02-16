@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsCollection::GetObject
+ - IADsCollection.GetObject
 ---
 
 # IADsCollection::GetObject
@@ -153,4 +153,3 @@ Cleanup:
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ienumvariant">IEnumVARIANT</a>
-

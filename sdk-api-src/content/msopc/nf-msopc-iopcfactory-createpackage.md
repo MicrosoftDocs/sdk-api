@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcFactory::CreatePackage
+ - IOpcFactory.CreatePackage
 ---
 
 # IOpcFactory::CreatePackage
@@ -146,4 +146,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
-

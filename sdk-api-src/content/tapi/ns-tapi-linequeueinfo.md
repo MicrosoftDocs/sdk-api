@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linequeueinfo_tag
- - LPLINEQUEUEINFO
  - LINEQUEUEINFO
 ---
 
@@ -122,4 +120,3 @@ Final disposition of the queue.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetqueueinfo">lineGetQueueInfo</a>
-

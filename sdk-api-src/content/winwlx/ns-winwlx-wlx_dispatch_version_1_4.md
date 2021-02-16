@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
- - _WLX_DISPATCH_VERSION_1_4
- - PWLX_DISPATCH_VERSION_1_4
  - WLX_DISPATCH_VERSION_1_4
 ---
 
@@ -171,4 +169,3 @@ Pointer to a <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_consolesw
 ### -field WlxQueryTsLogonCredentials
 
 Pointer to a <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ts_logon_credentials">WlxQueryTsLogonCredentials</a> function.
-

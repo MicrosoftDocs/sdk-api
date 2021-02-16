@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider::ProcessChangeBatch
+ - IKnowledgeSyncProvider.ProcessChangeBatch
 ---
 
 # IKnowledgeSyncProvider::ProcessChangeBatch
@@ -115,4 +115,3 @@ When a source change contains change unit changes, the destination provider must
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
-

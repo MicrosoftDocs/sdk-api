@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - PDHCPV6_STATELESS_STATS
  - DHCPV6_STATELESS_STATS
 ---
 
@@ -76,4 +75,3 @@ Pointer to a list of <a href="/previous-versions/windows/desktop/api/dhcpsapi/ns
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstatistics">DhcpV6GetStatelessStatistics</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl::MenuCall
+ - IDvdControl.MenuCall
 ---
 
 # IDvdControl::MenuCall

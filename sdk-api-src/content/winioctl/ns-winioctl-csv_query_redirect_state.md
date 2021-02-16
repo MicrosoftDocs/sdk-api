@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_QUERY_REDIRECT_STATE
- - PCSV_QUERY_REDIRECT_STATE
  - CSV_QUERY_REDIRECT_STATE
 ---
 
@@ -95,4 +93,3 @@ This structure is used if the <a href="/windows/desktop/api/winioctl/ni-winioctl
 
 
 <a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-

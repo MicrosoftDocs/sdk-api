@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tom.h
 api_name:
- - ITextStory::SetActive
+ - ITextStory.SetActive
 ---
 
 # ITextStory::SetActive
@@ -73,4 +73,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextstory-getactive">ITextStory::GetActive</a>
-

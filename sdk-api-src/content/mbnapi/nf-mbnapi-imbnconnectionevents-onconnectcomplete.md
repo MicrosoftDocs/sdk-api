@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionEvents::OnConnectComplete
+ - IMbnConnectionEvents.OnConnectComplete
 ---
 
 # IMbnConnectionEvents::OnConnectComplete
@@ -211,4 +211,3 @@ When the connection operation results in an error, an application can call the <
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionevents">IMbnConnectionEvents</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::GetSecurityInfo
+ - IGPMGPO.GetSecurityInfo
+ - GPMGPO.GetSecurityInfo
 ---
 
 # IGPMGPO::GetSecurityInfo
@@ -82,4 +83,3 @@ For more information about policy-related permissions, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
-

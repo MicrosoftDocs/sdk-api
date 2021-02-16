@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiAdvertiseProductExW
  - msi/MsiAdvertiseProductExW
- - MsiAdvertiseProductEx
- - msi/MsiAdvertiseProductEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiAdvertiseProductExW
  - MsiAdvertiseProductEx
+ - MsiAdvertiseProductExA
+ - MsiAdvertiseProductExW
 ---
 
 # MsiAdvertiseProductExW function
@@ -261,4 +260,3 @@ Multiple instances through product code–changing transforms is only available 
 
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-

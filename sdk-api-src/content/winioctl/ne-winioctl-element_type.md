@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _ELEMENT_TYPE
- - PELEMENT_TYPE
  - ELEMENT_TYPE
 ---
 

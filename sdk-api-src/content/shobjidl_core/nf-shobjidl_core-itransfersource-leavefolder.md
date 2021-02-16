@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource::LeaveFolder
+ - ITransferSource.LeaveFolder
 ---
 
 # ITransferSource::LeaveFolder
@@ -85,4 +85,3 @@ This method is called at the end of recursive file operations on a destination f
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransfersource-unadvise">ITransferSource::Unadvise</a>
-

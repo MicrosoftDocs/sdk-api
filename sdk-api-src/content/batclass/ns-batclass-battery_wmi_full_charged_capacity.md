@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Batclass.h
 api_name:
- - _BATTERY_WMI_FULL_CHARGED_CAPACITY
- - PBATTERY_WMI_FULL_CHARGED_CAPACITY
  - BATTERY_WMI_FULL_CHARGED_CAPACITY
 ---
 
@@ -71,4 +69,3 @@ The  current fully charged capacity, measured for example in milliwatt-hours, of
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassquerywmidatablock">BatteryClassQueryWmiDataBlock</a>
-

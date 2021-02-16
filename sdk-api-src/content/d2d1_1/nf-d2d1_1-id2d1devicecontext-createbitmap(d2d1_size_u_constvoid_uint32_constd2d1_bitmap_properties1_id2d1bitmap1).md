@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::CreateBitmap
+ - ID2D1DeviceContext.CreateBitmap
 ---
 
 # ID2D1DeviceContext::CreateBitmap(D2D1_SIZE_U,const void,UINT32,const D2D1_BITMAP_PROPERTIES1,ID2D1Bitmap1)
@@ -132,4 +132,3 @@ The new bitmap can be used as a target for <a href="/windows/desktop/api/d2d1_1/
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::put_Selection
+ - IInkPicture.Selection
+ - IInkPicture.get_Selection
+ - IInkPicture.put_Selection
+ - InkPicture.get_Selection
+ - InkPicture.put_Selection
 ---
 
 # IInkPicture::put_Selection
@@ -70,4 +74,3 @@ For further details about this property, refer to the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-

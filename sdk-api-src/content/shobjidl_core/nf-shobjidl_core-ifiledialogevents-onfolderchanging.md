@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogEvents::OnFolderChanging
+ - IFileDialogEvents.OnFolderChanging
 ---
 
 # IFileDialogEvents::OnFolderChanging
@@ -77,4 +77,3 @@ Returns S_OK if successful, or an error value otherwise. A return value of S_OK 
 The calling application can call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialog-setfolder">IFileDialog::SetFolder</a> during this callback to redirect navigation to an alternate folder. The actual navigation does not occur until <b>IFileDialogEvents::OnFolderChanging</b> has returned.
 
 If the calling application simply prevents navigation to a particular folder, UI should be displayed with an explanation of the restriction. To obtain a parent <b>HWND</b> for the UI, obtain the <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a> interface through <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifiledialog">IFileDialog</a> and call <a href="/windows/desktop/api/oleidl/nf-oleidl-iolewindow-getwindow">IOleWindow::GetWindow</a>.
-

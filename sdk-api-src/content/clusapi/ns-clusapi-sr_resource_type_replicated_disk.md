@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _SR_RESOURCE_TYPE_REPLICATED_DISK
- - PSR_RESOURCE_TYPE_REPLICATED_DISK
  - SR_RESOURCE_TYPE_REPLICATED_DISK
 ---
 
@@ -83,4 +81,3 @@ The name of the replication group..
 
 
 <a href="/windows/desktop/api/clusapi/ne-clusapi-sr_replicated_disk_type">SR_REPLICATED_DISK_TYPE</a>
-

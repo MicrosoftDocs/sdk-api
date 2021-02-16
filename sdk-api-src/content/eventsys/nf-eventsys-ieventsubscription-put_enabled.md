@@ -42,7 +42,9 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription::put_Enabled
+ - IEventSubscription.Enabled
+ - IEventSubscription.get_Enabled
+ - IEventSubscription.put_Enabled
 ---
 
 # IEventSubscription::put_Enabled
@@ -63,4 +65,3 @@ If a subscription is not enabled, it still appears in collections and can be que
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
-

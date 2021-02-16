@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensorCollection::GetCount
+ - ISensorCollection.GetCount
 ---
 
 # ISensorCollection::GetCount
@@ -94,4 +94,3 @@ NULL was passed in for pCount.
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensorcollection">ISensorCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::get_DialableAddress
+ - ITAddress.get_DialableAddress
 ---
 
 # ITAddress::get_DialableAddress
@@ -127,4 +127,3 @@ The availability of this value depends on the service provider. For example, on 
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itaddress-createcall">ITAddress::CreateCall</a>
-

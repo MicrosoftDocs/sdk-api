@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache::Uncache
+ - IOleCache.Uncache
 ---
 
 # IOleCache::Uncache
@@ -91,4 +91,3 @@ The <b>IOleCache::Uncache</b> method removes a cache connection that was created
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
-

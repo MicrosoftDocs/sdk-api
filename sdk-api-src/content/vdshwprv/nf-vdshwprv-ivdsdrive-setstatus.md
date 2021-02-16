@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsDrive::SetStatus
+ - IVdsDrive.SetStatus
 ---
 
 # IVdsDrive::SetStatus
@@ -162,4 +162,3 @@ Implementers are responsible for performing any necessary operations to get the 
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_drive_status">VDS_DRIVE_STATUS</a>
-

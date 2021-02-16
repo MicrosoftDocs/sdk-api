@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::CreateBitmapBrush
+ - ID2D1DeviceContext.CreateBitmapBrush
 ---
 
 # ID2D1DeviceContext::CreateBitmapBrush
@@ -122,4 +122,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItems::get_Item
+ - IProgressItems.get_Item
 ---
 
 # IProgressItems::get_Item
@@ -131,4 +131,3 @@ To enumerate all progress items, call the <a href="/windows/desktop/api/imapi2fs
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-iprogressitems-progressitemfromdescription">IProgressItems::ProgressItemFromDescription</a>
-

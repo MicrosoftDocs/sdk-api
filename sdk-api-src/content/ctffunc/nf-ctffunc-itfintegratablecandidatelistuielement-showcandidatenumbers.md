@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
+ - ITfIntegratableCandidateListUIElement.ShowCandidateNumbers
 ---
 
 # ITfIntegratableCandidateListUIElement::ShowCandidateNumbers
@@ -83,4 +83,3 @@ The method was successful.
 ## -see-also
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-itfintegratablecandidatelistuielement">ITfIntegratableCandidateListUIElement</a>
-

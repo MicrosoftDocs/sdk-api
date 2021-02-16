@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioenginebaseapo.h
 api_name:
- - IAudioSystemEffectsCustomFormats::GetFormatRepresentation
+ - IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 ---
 
 # IAudioSystemEffectsCustomFormats::GetFormatRepresentation
@@ -121,4 +121,3 @@ The sAPO uses <a href="/previous-versions/windows/embedded/ms886939(v=msdn.10)">
 
 
 <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudiosystemeffectscustomformats-getformatcount">GetFormatCount</a>
-

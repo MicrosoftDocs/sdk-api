@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _MESSAGE_RESOURCE_DATA
- - PMESSAGE_RESOURCE_DATA
  - MESSAGE_RESOURCE_DATA
 ---
 
@@ -97,4 +95,3 @@ A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more
 
 
 <a href="/windows/desktop/menurc/resources">Resources</a>
-

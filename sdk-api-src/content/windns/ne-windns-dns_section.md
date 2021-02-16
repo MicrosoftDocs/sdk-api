@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - _DnsSection
  - DNS_SECTION
 ---
 
@@ -76,4 +75,3 @@ The DNS section specified is additional DNS information.
 ## -see-also
 
 <a href="/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
-

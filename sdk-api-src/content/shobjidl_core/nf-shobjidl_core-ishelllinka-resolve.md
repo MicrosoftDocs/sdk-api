@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::Resolve
+ - IShellLink.Resolve
+ - IShellLinkA.Resolve
+ - IShellLinkW.Resolve
 ---
 
 # IShellLinkA::Resolve
@@ -166,4 +168,3 @@ The client can also call the <a href="/windows/desktop/api/objidl/nf-objidl-iper
 If distributed link tracking is not available or fails to find the link object, <b>Resolve</b> attempts to find it with search heuristics. It first looks in the object's last known directory for an object with a different name but the same attributes and file creation time. Next, it recursively searches subdirectories in the vicinity of the object's last known directory. It looks for an object with the same name or creation time. Finally, <b>Resolve</b> looks for a matching object on the desktop and other local volumes. To suppress the use of the search heuristics, set the <b>SLR_NOSEARCH</b> flag.
 
 If both approaches fail, the system will display a dialog box prompting the user for a location. To suppress the dialog box, set the <b>SLR_NO_UI</b> flag.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent::SetApplicationCertificate
+ - IMFMediaEngineProtectedContent.SetApplicationCertificate
 ---
 
 # IMFMediaEngineProtectedContent::SetApplicationCertificate
@@ -73,4 +73,3 @@ Call this method to access protected video content in frame-server mode.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - vptype.h
 api_name:
- - _AMVPSIZE
- - LPAMVPSIZE
  - AMVPSIZE
 ---
 
@@ -75,4 +73,3 @@ The context could be anything such as scaling, cropping, and so on.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

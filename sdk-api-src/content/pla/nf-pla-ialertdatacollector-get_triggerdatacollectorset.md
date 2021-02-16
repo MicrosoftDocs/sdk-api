@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector::get_TriggerDataCollectorSet
+ - IAlertDataCollector.TriggerDataCollectorSet
+ - IAlertDataCollector.get_TriggerDataCollectorSet
+ - IAlertDataCollector.put_TriggerDataCollectorSet
 ---
 
 # IAlertDataCollector::get_TriggerDataCollectorSet
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_name">IDataCollectorSet::Name</a>
-

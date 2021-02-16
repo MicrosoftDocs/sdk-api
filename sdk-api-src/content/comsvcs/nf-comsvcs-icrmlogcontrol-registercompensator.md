@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmLogControl::RegisterCompensator
+ - ICrmLogControl.RegisterCompensator
 ---
 
 # ICrmLogControl::RegisterCompensator
@@ -190,4 +190,3 @@ The "fail if in-doubts remain" flag is used as follows: By specifying the "fail 
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmlogcontrol">ICrmLogControl</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeNames::get_Count
+ - IAlternativeNames.Count
+ - IAlternativeNames.get_Count
 ---
 
 # IAlternativeNames::get_Count
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativenames">IAlternativeNames</a>
-

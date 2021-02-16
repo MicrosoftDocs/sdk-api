@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceActiveObject::ResizeBorder
+ - IOleInPlaceActiveObject.ResizeBorder
 ---
 
 # IOleInPlaceActiveObject::ResizeBorder
@@ -137,4 +137,3 @@ In most cases, resizing only requires that you grow, shrink, or scale your objec
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-

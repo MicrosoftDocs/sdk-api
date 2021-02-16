@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_QOS_SETTING_INFO
- - PHTTP_QOS_SETTING_INFO
  - HTTP_QOS_SETTING_INFO
 ---
 
@@ -71,4 +69,3 @@ A pointer to a structure that contains the setting.
 ## -see-also
 
 <a href="/windows/desktop/api/http/ne-http-http_qos_setting_type">HTTP_QOS_SETTING_TYPE</a>
-

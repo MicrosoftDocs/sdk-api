@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IAudioMediaStream::SetFormat
+ - IAudioMediaStream.SetFormat
 ---
 
 # IAudioMediaStream::SetFormat
@@ -118,4 +118,3 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream Interface</a>
-

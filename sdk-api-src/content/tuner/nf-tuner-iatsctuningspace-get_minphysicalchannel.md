@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCTuningSpace::get_MinPhysicalChannel
+ - IATSCTuningSpace.get_MinPhysicalChannel
 ---
 
 # IATSCTuningSpace::get_MinPhysicalChannel
@@ -69,4 +69,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-ichanneltunerequest-put_channel">IChannelTuneRequest::put_Channel</a>
-

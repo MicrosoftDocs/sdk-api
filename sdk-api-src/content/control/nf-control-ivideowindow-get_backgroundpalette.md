@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::get_BackgroundPalette
+ - IVideoWindow.get_BackgroundPalette
 ---
 
 # IVideoWindow::get_BackgroundPalette
@@ -133,4 +133,3 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_backgroundpalette">IVideoWindow::put_BackgroundPalette</a>
-

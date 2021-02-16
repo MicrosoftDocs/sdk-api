@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflict::GetResolutionHandler
+ - ISyncMgrConflict.GetResolutionHandler
 ---
 
 # ISyncMgrConflict::GetResolutionHandler

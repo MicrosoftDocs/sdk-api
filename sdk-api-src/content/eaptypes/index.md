@@ -9,8 +9,6 @@ tech.root: eaphost
 f1_keywords:
  - eaptypes
  - eaptypes/eaptypes
-api_name:
- - eaptypes
 ---
 
 # Eaptypes.h header

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwProduct::get_PathToSignedProductExe
+ - INetFwProduct.PathToSignedProductExe
+ - INetFwProduct.get_PathToSignedProductExe
 ---
 
 # INetFwProduct::get_PathToSignedProductExe
@@ -63,4 +64,3 @@ This is a read-only property, which is set after the product has been registered
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
-

@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - aviriff
  - aviriff/aviriff
-api_name:
- - aviriff
 ---
 
 # Aviriff.h header

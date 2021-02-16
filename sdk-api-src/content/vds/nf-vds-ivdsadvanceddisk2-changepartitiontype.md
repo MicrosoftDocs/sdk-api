@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk2::ChangePartitionType
+ - IVdsAdvancedDisk2.ChangePartitionType
 ---
 
 # IVdsAdvancedDisk2::ChangePartitionType
@@ -194,4 +194,3 @@ If an OEM partition is formatted as FAT or FAT32, the partition type does not ch
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk2">IVdsAdvancedDisk2</a>
-

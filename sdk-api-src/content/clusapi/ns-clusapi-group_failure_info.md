@@ -46,7 +46,6 @@ api_location:
  - MsClus.h
 api_name:
  - GROUP_FAILURE_INFO
- - PGROUP_FAILURE_INFO
 ---
 
 # GROUP_FAILURE_INFO structure
@@ -69,4 +68,3 @@ The amount of time remaining for the <a href="/previous-versions/windows/desktop
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

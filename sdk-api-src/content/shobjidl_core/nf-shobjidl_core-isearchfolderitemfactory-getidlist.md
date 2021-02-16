@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory::GetIDList
+ - ISearchFolderItemFactory.GetIDList
 ---
 
 # ISearchFolderItemFactory::GetIDList
@@ -73,4 +73,3 @@ Returns a success value if successful, or an error value otherwise.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shgetidlistfromobject">SHGetIDListFromObject</a>
-

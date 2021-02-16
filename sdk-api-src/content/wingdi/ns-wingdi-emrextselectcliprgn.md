@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMREXTSELECTCLIPRGN
- - PEMREXTSELECTCLIPRGN
  - EMREXTSELECTCLIPRGN
 ---
 
@@ -87,4 +85,3 @@ Buffer containing a <a href="/windows/desktop/api/wingdi/ns-wingdi-rgndata">RGND
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_FIND_USAGE_PARA
- - PCTL_FIND_USAGE_PARA
  - CTL_FIND_USAGE_PARA
 ---
 
@@ -120,4 +118,3 @@ The CertEncodingType of the signer is obtained from the <i>dwMsgAndCertEncodingT
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certfindctlinstore">CertFindCTLInStore</a>
-

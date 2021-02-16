@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Authui.dll
 api_name:
- - ICredentialProviderUser::GetProviderID
+ - ICredentialProviderUser.GetProviderID
 ---
 
 # ICredentialProviderUser::GetProviderID
@@ -75,4 +75,3 @@ This value can also be retrieved as a <b>PROPVARIANT</b> through <a href="/windo
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovideruser-getvalue">ICredentialProviderUser::GetValue</a>
-

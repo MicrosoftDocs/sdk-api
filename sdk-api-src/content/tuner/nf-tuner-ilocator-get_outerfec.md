@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ILocator::get_OuterFEC
+ - ILocator.get_OuterFEC
 ---
 
 # ILocator::get_OuterFEC
@@ -77,4 +77,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/dd693587(v=vs.85)">put_OuterFEC</a>
-

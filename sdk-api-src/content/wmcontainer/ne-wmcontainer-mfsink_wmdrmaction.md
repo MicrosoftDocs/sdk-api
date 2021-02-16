@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - _MFSINK_WMDRMACTION
  - MFSINK_WMDRMACTION
 ---
 
@@ -80,4 +79,3 @@ Reserved. Do not use.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

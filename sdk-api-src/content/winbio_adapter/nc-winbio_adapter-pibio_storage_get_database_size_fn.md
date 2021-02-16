@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_GET_DATABASE_SIZE_FN
+ - StorageAdapterGetDatabaseSize
 ---
 
 # PIBIO_STORAGE_GET_DATABASE_SIZE_FN callback function
@@ -102,4 +102,3 @@ The <b>StorageContext</b> member of the pipeline object is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

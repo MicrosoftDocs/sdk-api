@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes::ClearOutputChannelColorProfile
+ - ImageAttributes.ClearOutputChannelColorProfile
 ---
 
 # ImageAttributes::ClearOutputChannelColorProfile
@@ -100,4 +100,3 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 
 <a href="/windows/desktop/api/gdiplusimageattributes/nf-gdiplusimageattributes-imageattributes-setoutputchannelcolorprofile">ImageAttributes::SetOutputChannelColorProfile</a>
-

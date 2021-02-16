@@ -9,8 +9,6 @@ tech.root: qos
 f1_keywords:
  - traffic
  - traffic/traffic
-api_name:
- - traffic
 ---
 
 # Traffic.h header

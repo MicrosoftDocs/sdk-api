@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessibleWindowlessSite::GetParentAccessible
+ - IAccessibleWindowlessSite.GetParentAccessible
 ---
 
 # IAccessibleWindowlessSite::GetParentAccessible
@@ -73,4 +73,3 @@ To return its parent <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible"
 ## -see-also
 
 <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessiblewindowlesssite">IAccessibleWindowlessSite</a>
-

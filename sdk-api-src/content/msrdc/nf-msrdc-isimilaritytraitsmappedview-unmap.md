@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMappedView::Unmap
+ - ISimilarityTraitsMappedView.Unmap
 ---
 
 # ISimilarityTraitsMappedView::Unmap
@@ -61,4 +61,3 @@ This method always returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmappedview">ISimilarityTraitsMappedView</a>
-

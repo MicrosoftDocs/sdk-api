@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - _SYNC_RANGE
  - SYNC_RANGE
 ---
 
@@ -76,4 +75,3 @@ The closed upper bound of item IDs that are contained in the range.
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-structures">Windows Sync Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream::OpenMoniker
+ - IAMMultiMediaStream.OpenMoniker
 ---
 
 # IAMMultiMediaStream::OpenMoniker
@@ -104,4 +104,3 @@ Returns S_OK if successful or E_INVALIDARG if the <i>dwFlags</i> parameter is in
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
-

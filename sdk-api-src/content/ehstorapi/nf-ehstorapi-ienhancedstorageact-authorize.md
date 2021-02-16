@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT::Authorize
+ - IEnhancedStorageACT.Authorize
 ---
 
 # IEnhancedStorageACT::Authorize
@@ -102,4 +102,3 @@ This interface method can be used when an application wants to change the ACT to
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact">IEnhancedStorageACT</a>
-

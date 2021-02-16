@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_HINTS2
- - PVDS_HINTS2
  - VDS_HINTS2
 ---
 
@@ -440,4 +438,3 @@ Hints are not directives to implementers. While implementers are in general expe
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun2-queryhints2">IVdsLun2::QueryHints2</a>
-

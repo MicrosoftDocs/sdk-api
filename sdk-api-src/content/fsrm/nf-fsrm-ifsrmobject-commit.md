@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmObject::Commit
+ - IFsrmObject.Commit
 ---
 
 # IFsrmObject::Commit
@@ -61,4 +61,3 @@ The method returns the following return values as well as others depending of th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmobject">IFsrmObject</a>
-

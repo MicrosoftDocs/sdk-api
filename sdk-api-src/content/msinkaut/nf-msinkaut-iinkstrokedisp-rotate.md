@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::Rotate
+ - IInkStrokeDisp.Rotate
 ---
 
 # IInkStrokeDisp::Rotate
@@ -103,4 +103,3 @@ An exception occurred inside the method.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_PromptType
  - MI_PromptType
 ---
 
@@ -64,4 +63,3 @@ A parameter of the  <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_
 ### -field MI_PROMPTTYPE_CRITICAL
 
 A parameter of the <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_context_promptuser">MI_Context_PromptUser</a> function that specifies whether the prompt is a critical prompt, such as "are you sure you want to format your hard disk drive?"
-

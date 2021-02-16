@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterface::ScanNetwork
+ - IMbnInterface.ScanNetwork
 ---
 
 # IMbnInterface::ScanNetwork
@@ -129,4 +129,3 @@ If the device is removed from the system before this operation is complete, ther
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterface">IMbnInterface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WNetOpenEnumW
  - winnetwk/WNetOpenEnumW
- - WNetOpenEnum
- - winnetwk/WNetOpenEnum
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetOpenEnumW
  - WNetOpenEnum
+ - WNetOpenEnumA
+ - WNetOpenEnumW
 ---
 
 # WNetOpenEnumW function
@@ -379,4 +378,3 @@ For a code sample that illustrates an application-defined function that enumerat
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

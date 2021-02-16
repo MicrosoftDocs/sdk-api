@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRMixerControl::SetMixingPrefs
+ - IVMRMixerControl.SetMixingPrefs
 ---
 
 # IVMRMixerControl::SetMixingPrefs
@@ -110,4 +110,3 @@ If the VMR is in renderless mode, you must set the allocator-presenter before ca
 
 
 <a href="/windows/desktop/DirectShow/using-the-video-mixing-renderer">Using the Video Mixing Renderer</a>
-

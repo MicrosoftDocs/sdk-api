@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IDirectWriterLock::ReleaseWriteAccess
+ - IDirectWriterLock.ReleaseWriteAccess
 ---
 
 # IDirectWriterLock::ReleaseWriteAccess
@@ -71,4 +71,3 @@ After the writer calls this method, it is safe to allow readers to reopen the st
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-waitforwriteaccess">IDirectWriterLock::WaitForWriteAccess</a>
-

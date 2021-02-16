@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _VIDEO_STREAM_CONFIG_CAPS
  - VIDEO_STREAM_CONFIG_CAPS
 ---
 
@@ -295,4 +294,3 @@ For capture filters, the <b>MinFrameInterval</b> and <b>MaxFrameInterval</b> mem
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

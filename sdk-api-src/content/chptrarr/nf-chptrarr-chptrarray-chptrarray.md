@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHPtrArray::CHPtrArray
+ - CHPtrArray.CHPtrArray
+ - ??0CHPtrArray@@QAE@XZ
 ---
 
 # CHPtrArray::CHPtrArray
@@ -72,4 +73,3 @@ The destructor for the class is <b>CHPtrArray::~CHPtrArray</b>.
 
 
 <a href="/windows/desktop/WmiSdk/provider-framework-utility-classes">Provider Framework Utility Classes</a>
-

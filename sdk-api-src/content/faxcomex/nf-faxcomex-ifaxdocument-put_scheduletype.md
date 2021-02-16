@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::put_ScheduleType
+ - IFaxDocument.ScheduleType
+ - IFaxDocument.get_ScheduleType
+ - IFaxDocument.put_ScheduleType
+ - IFaxDocument.get_ScheduleType
+ - IFaxDocument.put_ScheduleType
 ---
 
 # IFaxDocument::put_ScheduleType
@@ -71,4 +75,3 @@ By default, <b>IFaxDocument::get_ScheduleType</b> is set to <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

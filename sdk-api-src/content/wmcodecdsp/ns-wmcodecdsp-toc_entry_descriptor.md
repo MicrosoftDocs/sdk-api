@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - _TOC_ENTRY_DESCRIPTOR
  - TOC_ENTRY_DESCRIPTOR
 ---
 
@@ -80,4 +79,3 @@ The presentation time, in 100-nanosecond units, of a frame that is a good repres
 ## -see-also
 
 <a href="/windows/desktop/medfound/toc-parser-structures">Table of Contents Parser Structures</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::CopyStructureCount
+ - ID3D11DeviceContext.CopyStructureCount
 ---
 
 # ID3D11DeviceContext::CopyStructureCount
@@ -80,4 +80,3 @@ Pointer to an <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11unorderedaccess
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

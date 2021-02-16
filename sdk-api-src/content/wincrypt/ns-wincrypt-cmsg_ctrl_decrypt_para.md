@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CTRL_DECRYPT_PARA
- - PCMSG_CTRL_DECRYPT_PARA
  - CMSG_CTRL_DECRYPT_PARA
 ---
 
@@ -124,4 +122,3 @@ Index of the recipient in the message associated with the <b>hCryptProv</b> priv
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptmsgcontrol">CryptMsgControl</a>
-

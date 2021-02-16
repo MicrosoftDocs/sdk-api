@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView::GetColumnCount
+ - ICertView2.GetColumnCount
+ - ICertView.GetColumnCount
+ - CCertView.GetColumnCount
 ---
 
 # ICertView::GetColumnCount
@@ -134,4 +136,3 @@ This method is used to determine the number of columns in the view. The returned
 
 
 <a href="/windows/desktop/api/certview/nf-certview-icertview-setresultcolumncount">ICertView::SetResultColumnCount</a>
-

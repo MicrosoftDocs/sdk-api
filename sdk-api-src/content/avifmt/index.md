@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - avifmt
  - avifmt/avifmt
-api_name:
- - avifmt
 ---
 
 # Avifmt.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo::GetDescription
+ - ITfDisplayAttributeInfo.GetDescription
 ---
 
 # ITfDisplayAttributeInfo::GetDescription
@@ -94,4 +94,3 @@ The method was successful.
 ## -see-also
 
 [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [SysAllocString function](../oleauto/nf-oleauto-sysallocstring.md), [SysFreeString function](../oleauto/nf-oleauto-sysfreestring.md)
-

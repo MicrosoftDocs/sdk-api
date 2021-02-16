@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - tagWMSCRIPTFORMAT
  - WMSCRIPTFORMAT
 ---
 
@@ -64,4 +63,3 @@ GUID identifying the type of script commands in a script stream. Always set to W
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

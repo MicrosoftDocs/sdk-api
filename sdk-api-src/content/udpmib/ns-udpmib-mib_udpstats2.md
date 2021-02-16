@@ -46,8 +46,6 @@ api_type:
 api_location:
  - udpmib.h
 api_name:
- - _MIB_UDPSTATS2
- - PMIB_UDPSTATS2
  - MIB_UDPSTATS2
 ---
 
@@ -99,4 +97,3 @@ The
 
 
 <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udprow">MIB_UDPROW</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquire::EnumResults
+ - IPhotoAcquire.EnumResults
 ---
 
 # IPhotoAcquire::EnumResults
@@ -103,4 +103,3 @@ If the file transfer is aborted before any files are transferred, <i>ppEnumFileP
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>
-

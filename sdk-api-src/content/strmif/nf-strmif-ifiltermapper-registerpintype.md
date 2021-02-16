@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper::RegisterPinType
+ - IFilterMapper.RegisterPinType
 ---
 
 # IFilterMapper::RegisterPinType
@@ -87,4 +87,3 @@ The <i>clsMajorType</i> and <i>clsSubType</i> parameters specify the media type 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper Interface</a>
-

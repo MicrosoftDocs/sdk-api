@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegQueryMultipleValuesW
  - winreg/RegQueryMultipleValuesW
- - RegQueryMultipleValues
- - winreg/RegQueryMultipleValues
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegQueryMultipleValuesW
  - RegQueryMultipleValues
+ - RegQueryMultipleValuesA
+ - RegQueryMultipleValuesW
 ---
 
 # RegQueryMultipleValuesW function
@@ -181,4 +180,3 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 [VALENT](./ns-winreg-valenta.md)
-

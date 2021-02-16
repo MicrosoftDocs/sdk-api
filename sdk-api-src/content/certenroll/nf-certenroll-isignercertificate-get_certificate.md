@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificate::get_Certificate
+ - ISignerCertificate.Certificate
+ - ISignerCertificate.get_Certificate
 ---
 
 # ISignerCertificate::get_Certificate
@@ -81,4 +82,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-isignercertifica
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificate">ISignerCertificate</a>
-

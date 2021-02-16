@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfContextComposition::FindComposition
+ - ITfContextComposition.FindComposition
 ---
 
 # ITfContextComposition::FindComposition
@@ -136,4 +136,3 @@ The edit context identified by <i>ecRead</i> does not have a read-only lock.
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfContextComposition interface](nn-msctf-itfcontextcomposition.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md),
-

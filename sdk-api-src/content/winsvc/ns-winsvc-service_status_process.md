@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_STATUS_PROCESS
- - LPSERVICE_STATUS_PROCESS
  - SERVICE_STATUS_PROCESS
 ---
 
@@ -467,4 +465,3 @@ The service runs in a system process that must always be running.
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryservicestatusex">QueryServiceStatusEx</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP::RetrieveRequestedAttrs
+ - ITextStoreACP.RetrieveRequestedAttrs
 ---
 
 # ITextStoreACP::RetrieveRequestedAttrs
@@ -111,4 +111,3 @@ The method was successful.
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreacp-requestattrstransitioningatposition">TextStoreACP::RequestAttrsTransitioningAtPosition
       </a>
-

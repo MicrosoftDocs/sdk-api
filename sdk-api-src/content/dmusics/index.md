@@ -9,8 +9,6 @@ tech.root: audio
 f1_keywords:
  - dmusics
  - dmusics/dmusics
-api_name:
- - dmusics
 ---
 
 # Dmusics.h header

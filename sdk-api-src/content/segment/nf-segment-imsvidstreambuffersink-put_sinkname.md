@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink::put_SinkName
+ - IMSVidStreamBufferSink.put_SinkName
 ---
 
 # IMSVidStreamBufferSink::put_SinkName
@@ -113,4 +113,3 @@ Call this method before calling <a href="/windows/desktop/api/segment/nf-segment
 
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleDefinition::put_Company
+ - IFsrmPipelineModuleDefinition.Company
+ - IFsrmPipelineModuleDefinition.get_Company
+ - IFsrmPipelineModuleDefinition.put_Company
 ---
 
 # IFsrmPipelineModuleDefinition::put_Company
@@ -63,4 +65,3 @@ This property is optional.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduledefinition">IFsrmPipelineModuleDefinition</a>
-

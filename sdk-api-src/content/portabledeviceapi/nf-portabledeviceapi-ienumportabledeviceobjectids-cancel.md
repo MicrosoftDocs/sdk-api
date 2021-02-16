@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IEnumPortableDeviceObjectIDs::Cancel
+ - IEnumPortableDeviceObjectIDs.Cancel
 ---
 
 # IEnumPortableDeviceObjectIDs::Cancel
@@ -97,4 +97,3 @@ This method cancels all pending operations on the current device handle, which c
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-ienumportabledeviceobjectids">IEnumPortableDeviceObjectIDs Interface</a>
-

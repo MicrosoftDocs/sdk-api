@@ -9,8 +9,6 @@ tech.root: winsock
 f1_keywords:
  - sporder
  - sporder/sporder
-api_name:
- - sporder
 ---
 
 # Sporder.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - tagSTRUCTURED_QUERY_MULTIOPTION
  - STRUCTURED_QUERY_MULTIOPTION
 ---
 
@@ -72,4 +71,3 @@ To indicate that an <a href="/windows/desktop/api/structuredquery/nn-structuredq
 ### -field SQMO_MAP_PROPERTY
 
 Windows 7, and later. To indicate that a node with property P should map to one or more other properties, call <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setmultioption">IQueryParser::SetMultiOption</a> with SQMO_MAP_PROPERTY as <i>option</i>, P as <i>pszOptionKey</i>, and for <i>pOptionValue</i> provide a <b>VT_VECTOR</b> or <b>VT_LPWSTR</b>, where each string is a property name. During resolustion, this map is added to those of the loaded schema. Calling <b>IQueryParser::SetMultiOption</b> with <i>pOptionValue</i> as <b>VT_NULL</b> removes the mapping.
-

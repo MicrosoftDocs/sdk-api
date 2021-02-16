@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IProvideWinSATResultsInfo::get_SystemRating
+ - IProvideWinSATResultsInfo.SystemRating
+ - IProvideWinSATResultsInfo.get_SystemRating
 ---
 
 # IProvideWinSATResultsInfo::get_SystemRating
@@ -87,4 +88,3 @@ For an example, see the <a href="/windows/desktop/api/winsatcominterfacei/nf-win
 
 
 <a href="/windows/desktop/WinSAT/win32-winsat">Win32_WinSAT</a>
-

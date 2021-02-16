@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.idl
 api_name:
- - IActionProgress::UpdateText
+ - IActionProgress.UpdateText
 ---
 
 # IActionProgress::UpdateText
@@ -89,4 +89,3 @@ The class implementing this method must interpret the value of <i>sptext</i> and
 
 
 <a href="/windows/desktop/api/shobjidl_core/ne-shobjidl_core-sptext">SPTEXT</a>
-

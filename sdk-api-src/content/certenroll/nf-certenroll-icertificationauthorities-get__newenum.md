@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertificationAuthorities::get__NewEnum
+ - ICertificationAuthorities._NewEnum
+ - ICertificationAuthorities.get__NewEnum
 ---
 
 # ICertificationAuthorities::get__NewEnum
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertificationauthority">ICertificationAuthority</a>
-

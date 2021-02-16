@@ -42,7 +42,9 @@ api_type:
 api_location:
  - libloaderapi.h
 api_name:
- - ENUMRESTYPEPROCA
+ - EnumResTypeProc
+ - EnumResTypeProcA
+ - EnumResTypeProcW
 ---
 
 ## -description
@@ -69,7 +71,7 @@ Alternately, rather than a pointer, this parameter can be <a href="/windows/win3
 
 Type: <b>LONG_PTR</b>
 
-An application-defined parameter passed to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> function. This parameter can be used in error checking.
+An application-defined parameter passed to the <a href="/windows/win32/api/winbase/nf-winbase-enumresourcetypesa">EnumResourceTypes</a> or <a href="/windows/win32/api/libloaderapi/nf-libloaderapi-enumresourcetypesexa">EnumResourceTypesEx</a> function. This parameter can be used in error checking. 
 
 ## -returns
 
@@ -101,4 +103,3 @@ If the callback function returns <b>FALSE</b>, then <a href="/windows/win32/api/
 <b>Reference</b>
 
 <a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
-

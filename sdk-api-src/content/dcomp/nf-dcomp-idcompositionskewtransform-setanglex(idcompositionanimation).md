@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionSkewTransform::SetAngleX
+ - IDCompositionSkewTransform.SetAngleX
 ---
 
 # IDCompositionSkewTransform::SetAngleX(IDCompositionAnimation)
@@ -81,4 +81,3 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositionskewtransform-setangley(float)">IDCompositionSkewTransform::SetAngleY</a>
-

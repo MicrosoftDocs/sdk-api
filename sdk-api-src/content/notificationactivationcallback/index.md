@@ -9,8 +9,6 @@ tech.root: win32_tile_badge_notif
 f1_keywords:
  - notificationactivationcallback
  - notificationactivationcallback/notificationactivationcallback
-api_name:
- - notificationactivationcallback
 ---
 
 # Notificationactivationcallback.h header

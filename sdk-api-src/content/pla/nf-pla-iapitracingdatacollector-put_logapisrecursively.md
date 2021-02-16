@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IApiTracingDataCollector::put_LogApisRecursively
+ - IApiTracingDataCollector.LogApisRecursively
+ - IApiTracingDataCollector.get_LogApisRecursively
+ - IApiTracingDataCollector.put_LogApisRecursively
 ---
 
 # IApiTracingDataCollector::put_LogApisRecursively
@@ -63,4 +65,3 @@ This property has meaning for x86 architectures only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iapitracingdatacollector">IApiTracingDataCollector</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_NEIGHBORW_BLOB
  - DS_REPL_NEIGHBORW_BLOB
 ---
 
@@ -192,4 +191,3 @@ Contains the number of failed replication attempts that have been made from this
 
 
 <a href="/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api">Lightweight Directory Access Protocol API</a>
-

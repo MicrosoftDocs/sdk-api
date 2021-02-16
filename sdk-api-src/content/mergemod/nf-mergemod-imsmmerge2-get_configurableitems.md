@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmMerge2::get_ConfigurableItems
+ - IMsmMerge2.get_ConfigurableItems
 ---
 
 # IMsmMerge2::get_ConfigurableItems
@@ -108,4 +108,3 @@ The function succeeded.
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

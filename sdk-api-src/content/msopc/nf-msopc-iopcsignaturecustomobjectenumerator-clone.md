@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcSignatureCustomObjectEnumerator::Clone
+ - IOpcSignatureCustomObjectEnumerator.Clone
 ---
 
 # IOpcSignatureCustomObjectEnumerator::Clone
@@ -157,4 +157,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <b>Reference</b>
-

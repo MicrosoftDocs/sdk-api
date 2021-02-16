@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure
+ - ID3D12GraphicsCommandList4.CopyRaytracingAccelerationStructure
 ---
 
 # ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure
@@ -85,4 +85,3 @@ This method can be called from graphics or compute command lists but not from bu
 ## -see-also
 
 <a href="https://msdn.microsoft.com/en-us/library/Mt847460(v=VS.85).aspx">ID3D12GraphicsCommandList4</a>
-

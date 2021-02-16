@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumMembers
+ - IMetaDataImport.EnumMembers
 ---
 
 # IMetaDataImport::EnumMembers
@@ -101,4 +101,3 @@ When enumerating collections of members for a class, <b>EnumMembers</b> returns 
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

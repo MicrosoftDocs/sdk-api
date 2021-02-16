@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::SetTransform
+ - PathGradientBrush.SetTransform
 ---
 
 # PathGradientBrush::SetTransform
@@ -168,4 +168,3 @@ VOID Example_SetTransform(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-translatetransform">PathGradientBrush::TranslateTransform</a>
-

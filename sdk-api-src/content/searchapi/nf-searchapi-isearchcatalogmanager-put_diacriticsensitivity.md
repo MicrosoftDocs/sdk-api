@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchCatalogManager::put_DiacriticSensitivity
+ - ISearchCatalogManager.put_DiacriticSensitivity
 ---
 
 # ISearchCatalogManager::put_DiacriticSensitivity

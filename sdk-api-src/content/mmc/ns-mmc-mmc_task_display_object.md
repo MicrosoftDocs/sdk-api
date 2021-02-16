@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_TASK_DISPLAY_OBJECT
  - MMC_TASK_DISPLAY_OBJECT
 ---
 
@@ -121,4 +120,3 @@ The <b>uSymbol</b> is used only if <b>eDisplayType</b> is <b>MMC_TASK_DISPLAY_TY
 
 
 <a href="/windows/desktop/api/mmc/ne-mmc-mmc_task_display_type">MMC_TASK_DISPLAY_TYPE</a>
-

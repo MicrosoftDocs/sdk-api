@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineSetupTransferA
  - tapi/lineSetupTransferA
- - lineSetupTransfer
- - tapi/lineSetupTransfer
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineSetupTransferA
  - lineSetupTransfer
+ - lineSetupTransferA
+ - lineSetupTransferW
 ---
 
 # lineSetupTransferA function
@@ -156,4 +155,3 @@ The application can also transfer calls in a single step, without having to deal
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a>
-

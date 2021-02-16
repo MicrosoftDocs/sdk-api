@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICryptAttribute::get_ObjectId
+ - ICryptAttribute.ObjectId
+ - ICryptAttribute.get_ObjectId
 ---
 
 # ICryptAttribute::get_ObjectId
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
-

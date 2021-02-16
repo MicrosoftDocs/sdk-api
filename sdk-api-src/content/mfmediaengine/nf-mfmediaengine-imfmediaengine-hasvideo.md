@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::HasVideo
+ - IMFMediaEngine.HasVideo
 ---
 
 # IMFMediaEngine::HasVideo
@@ -61,4 +61,3 @@ Returns <b>TRUE</b> if the current media resource contains a video stream. Retur
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

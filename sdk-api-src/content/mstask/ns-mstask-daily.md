@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
- - _DAILY
  - DAILY
 ---
 
@@ -74,4 +73,3 @@ Specifies the number of days between task runs.
 
 
 <a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView::SetPostViewCallback
+ - IWMWriterPostView.SetPostViewCallback
 ---
 
 # IWMWriterPostView::SetPostViewCallback
@@ -72,4 +72,3 @@ This method always returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
-

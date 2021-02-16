@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_SURFACE_GLOBAL
- - PDD_SURFACE_GLOBAL
  - DD_SURFACE_GLOBAL
 ---
 
@@ -176,4 +174,3 @@ When a DirectX driver is working with a vertex buffer, it is important for it to
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemory">VIDEOMEMORY</a>
-

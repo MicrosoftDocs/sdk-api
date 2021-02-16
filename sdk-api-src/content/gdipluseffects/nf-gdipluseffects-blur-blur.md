@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Blur::Blur
+ - Blur.Blur
 ---
 
 # Blur::Blur
@@ -66,4 +66,3 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-blur">B
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-blurparams">BlurParams</a>
-

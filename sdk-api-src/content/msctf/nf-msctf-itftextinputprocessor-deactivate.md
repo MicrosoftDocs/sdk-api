@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfTextInputProcessor::Deactivate
+ - ITfTextInputProcessor.Deactivate
 ---
 
 # ITfTextInputProcessor::Deactivate
@@ -75,4 +75,3 @@ Before this method returns, it must release all references to the <i>ptim</i> pa
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itftextinputprocessor-activate">ITfTextInputProcessor::Activate
       </a>
-

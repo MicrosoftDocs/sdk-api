@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TOKEN_OWNER
- - PTOKEN_OWNER
  - TOKEN_OWNER
 ---
 
@@ -115,4 +113,3 @@ A pointer to a <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a> structu
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-token_user">TOKEN_USER</a>
-

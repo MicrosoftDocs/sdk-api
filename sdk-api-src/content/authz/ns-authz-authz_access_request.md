@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_ACCESS_REQUEST
- - PAUTHZ_ACCESS_REQUEST
  - AUTHZ_ACCESS_REQUEST
 ---
 
@@ -83,4 +81,3 @@ A pointer to memory to pass to <a href="/windows/desktop/SecAuthZ/authzaccessche
 ## -see-also
 
 <a href="/windows/desktop/SecAuthZ/authzaccesscheckcallback">AuthzAccessCheckCallback</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - _FH_TARGET_PROPERTY_TYPE
- - PFH_TARGET_PROPERTY_TYPE
  - FH_TARGET_PROPERTY_TYPE
 ---
 
@@ -99,4 +97,3 @@ For network shares, the <b>FH_TARGET_URL</b> property contains the full path of 
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhtarget-getstringproperty">IFhTarget::GetStringProperty</a>
-

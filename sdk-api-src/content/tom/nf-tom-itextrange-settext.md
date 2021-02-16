@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::SetText
+ - ITextRange.SetText
 ---
 
 # ITextRange::SetText
@@ -135,4 +135,3 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextselection-typetext">TypeText</a>
-

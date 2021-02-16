@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_Datetime
  - MI_Datetime
 ---
 
@@ -70,4 +69,3 @@ If <b>isTimestamp</b> is nonzero, <b>MI_Datetime</b> is used to represent an abs
 ### -field u.interval
 
 If <b>isTimestamp</b> is nonzero,  <b>MI_Datetime</b> is used to represent a relative date/time from when it is needed.
-

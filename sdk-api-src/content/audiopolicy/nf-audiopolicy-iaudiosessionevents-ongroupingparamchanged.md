@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionEvents::OnGroupingParamChanged
+ - IAudioSessionEvents.OnGroupingParamChanged
 ---
 
 # IAudioSessionEvents::OnGroupingParamChanged
@@ -81,4 +81,3 @@ For a code example that implements the methods in the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionevents">IAudioSessionEvents Interface</a>
-

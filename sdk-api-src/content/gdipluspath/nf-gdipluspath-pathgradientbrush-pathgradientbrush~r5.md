@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdipluspath.h
 api_name:
- - PathGradientBrush::PathGradientBrush
+ - PathGradientBrush.PathGradientBrush
 ---
 
 # PathGradientBrush::PathGradientBrush~r5
@@ -87,4 +87,3 @@ Creates a <a href="/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientb
 </table>
 
 ## -parameters
-

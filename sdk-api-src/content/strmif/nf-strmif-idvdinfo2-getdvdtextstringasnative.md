@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetDVDTextStringAsNative
+ - IDvdInfo2.GetDVDTextStringAsNative
 ---
 
 # IDvdInfo2::GetDVDTextStringAsNative
@@ -146,4 +146,3 @@ The returned string always includes a single terminating <b>NULL</b> byte. If th
 
 
 <a href="/windows/desktop/DirectShow/working-with-dvd-text-strings">Working with DVD Text Strings</a>
-

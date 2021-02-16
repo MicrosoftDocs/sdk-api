@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetID
+ - lineGetIDA
+ - lineGetIDW
 ---
 
 # lineGetID function
@@ -121,4 +123,3 @@ A vendor that defines a device-specific media mode also needs to define the corr
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineopen">lineOpen</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync::EndSubscribeToEvents
+ - IUPnPServiceAsync.EndSubscribeToEvents
 ---
 
 # IUPnPServiceAsync::EndSubscribeToEvents
@@ -128,4 +128,3 @@ The remote operation failed due to an HTTP problem. To retrieve the HTTP error c
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpserviceasync">IUPnPServiceAsync</a>
-

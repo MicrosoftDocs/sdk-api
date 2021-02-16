@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEmptyVolumeCacheCallBack::PurgeProgress
+ - IEmptyVolumeCacheCallBack.PurgeProgress
 ---
 
 # IEmptyVolumeCacheCallBack::PurgeProgress
@@ -122,4 +122,3 @@ This value is returned when the user clicks the <b>Cancel</b> button on the disk
 ## -remarks
 
 This method is typically called by the handler's <a href="/windows/desktop/api/emptyvc/nf-emptyvc-iemptyvolumecache-purge">Purge</a> method while the handler is purging deletable files. Handlers should call <b>PurgeProgress</b> periodically to keep the user informed of progress, especially if the purge will take a long time. Calling this method frequently also allows the handler to shut down promptly if a user cancels a purge.
-

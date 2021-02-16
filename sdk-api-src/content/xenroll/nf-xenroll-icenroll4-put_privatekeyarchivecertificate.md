@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::put_PrivateKeyArchiveCertificate
+ - ICEnroll4.PrivateKeyArchiveCertificate
+ - ICEnroll4.get_PrivateKeyArchiveCertificate
+ - ICEnroll4.put_PrivateKeyArchiveCertificate
+ - CEnroll.PrivateKeyArchiveCertificate
 ---
 
 # ICEnroll4::put_PrivateKeyArchiveCertificate
@@ -59,4 +62,3 @@ If this property is not null, the <a href="/windows/desktop/SecGloss/p-gly">priv
 This property is read/write.
 
 ## -parameters
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tipskins.dll
 api_name:
- - ITfEditSession::DoEditSession
+ - ITfEditSession.DoEditSession
 ---
 
 # ITfEditSession::DoEditSession
@@ -109,4 +109,3 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie
       </a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode::SetIndexing
+ - IWICJpegFrameDecode.SetIndexing
 ---
 
 # IWICJpegFrameDecode::SetIndexing
@@ -99,4 +99,3 @@ Indexes can be generated immediately, or during future calls to <a href="/window
 
 
 <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicjpegframedecode-doessupportindexing">IWICJpegFrameDecode::DoesSupportIndexing</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegisteredTask::get_NumberOfMissedRuns
+ - IRegisteredTask.NumberOfMissedRuns
+ - IRegisteredTask.get_NumberOfMissedRuns
 ---
 
 # IRegisteredTask::get_NumberOfMissedRuns
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

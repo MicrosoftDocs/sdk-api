@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESUTIL_PROPERTY_ITEM
- - PRESUTIL_PROPERTY_ITEM
 ---
 
 # RESUTIL_PROPERTY_ITEM structure
@@ -190,4 +189,3 @@ See <a href="/previous-versions/windows/desktop/mscs/using-lists-and-tables">Usi
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-clusprop_syntax">CLUSPROP_SYNTAX</a>
-

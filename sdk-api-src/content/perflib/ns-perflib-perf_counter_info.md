@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_COUNTER_INFO
- - PPERF_COUNTER_INFO
- - PERF_COUNTER_INFO
+ - PERF_COUNTER_INFO, *PPERF_COUNTER_INFO
 ---
 
 # PERF_COUNTER_INFO structure
@@ -196,4 +194,3 @@ This structure is contained within a <a href="/windows/desktop/api/perflib/ns-pe
 
 
 <a href="/windows/desktop/api/perflib/ns-perflib-perf_counterset_instance">PERF_COUNTERSET_INSTANCE</a>
-

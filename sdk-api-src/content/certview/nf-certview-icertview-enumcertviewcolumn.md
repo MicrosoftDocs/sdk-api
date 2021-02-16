@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView::EnumCertViewColumn
+ - ICertView2.EnumCertViewColumn
+ - ICertView.EnumCertViewColumn
+ - CCertView.EnumCertViewColumn
 ---
 
 # ICertView::EnumCertViewColumn
@@ -138,4 +140,3 @@ The
 
 
 <a href="/windows/desktop/api/certview/nn-certview-icertview2">ICertView2</a>
-

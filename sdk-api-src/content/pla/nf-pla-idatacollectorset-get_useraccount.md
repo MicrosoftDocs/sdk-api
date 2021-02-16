@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_UserAccount
+ - IDataCollectorSet.UserAccount
+ - IDataCollectorSet.get_UserAccount
 ---
 
 # IDataCollectorSet::get_UserAccount
@@ -67,4 +68,3 @@ The user name is set using the <a href="/previous-versions/windows/desktop/api/p
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setcredentials">IDataCollectorSet::SetCredentials</a>
-

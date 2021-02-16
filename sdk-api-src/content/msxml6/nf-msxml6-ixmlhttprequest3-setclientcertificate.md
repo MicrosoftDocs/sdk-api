@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest3::SetClientCertificate
+ - IXMLHTTPRequest3.SetClientCertificate
 ---
 
 # IXMLHTTPRequest3::SetClientCertificate
@@ -77,4 +77,3 @@ Returns S_OK on success.
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-open">Open</a>
-

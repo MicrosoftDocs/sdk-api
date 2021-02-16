@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICategoryProvider::GetDefaultCategory
+ - ICategoryProvider.GetDefaultCategory
 ---
 
 # ICategoryProvider::GetDefaultCategory
@@ -102,4 +102,3 @@ There is no default group.
          <b>Windows</b>
             <b>Shell</b>
             <b>ShellNoRoam</b></pre>
-

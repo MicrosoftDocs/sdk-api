@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransition::SetInitialValue
+ - IUIAnimationTransition.SetInitialValue
 ---
 
 # IUIAnimationTransition::SetInitialValue
@@ -65,4 +65,3 @@ If the method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b>
 ## -remarks
 
 This method should not be called after the transition has been added to a storyboard.
-

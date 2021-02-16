@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vscmgr.lib
 api_name:
- - __MIDL___MIDL_itf_tpmvscmgr_0000_0000_0002
  - TPMVSCMGR_ERROR
 ---
 
@@ -136,4 +135,3 @@ Unable to destroy the TPM smart card.
 ## -remarks
 
 These error codes are sent from the TPM virtual smart card manager COM server to the caller through the status callback interface, <a href="/windows/desktop/api/tpmvscmgr/nn-tpmvscmgr-itpmvirtualsmartcardmanagerstatuscallback">ITpmVirtualSmartCardManagerStatusCallback</a>. Status callback interface implementations must interpret the error codes based on their predefined meanings and, if applicable, load localized message strings and update the user interface.
-

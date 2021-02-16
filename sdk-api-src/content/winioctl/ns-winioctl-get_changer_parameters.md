@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _GET_CHANGER_PARAMETERS
- - PGET_CHANGER_PARAMETERS
  - GET_CHANGER_PARAMETERS
 ---
 
@@ -730,4 +728,3 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_get_parameters">IOCTL_CHANGER_GET_PARAMETERS</a>
-

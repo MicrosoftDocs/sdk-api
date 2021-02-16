@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_ReplyTo
+ - IEmailAction.ReplyTo
+ - IEmailAction.get_ReplyTo
+ - IEmailAction.put_ReplyTo
 ---
 
 # IEmailAction::put_ReplyTo

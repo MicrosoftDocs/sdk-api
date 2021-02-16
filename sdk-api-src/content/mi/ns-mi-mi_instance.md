@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_Instance
  - MI_Instance
 ---
 
@@ -77,4 +76,3 @@ Optional namespace. Can be null.
 ### -field reserved
 
 Reserved for internal use.
-

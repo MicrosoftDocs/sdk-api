@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::Abort
+ - IXMLHTTPRequest2.Abort
 ---
 
 # IXMLHTTPRequest2::Abort
@@ -67,4 +67,3 @@ This method is not guarantee to cancel a request. The app must still wait for to
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
-

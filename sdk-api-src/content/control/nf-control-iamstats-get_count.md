@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStats::get_Count
+ - IAMStats.get_Count
 ---
 
 # IAMStats::get_Count
@@ -99,4 +99,3 @@ Success.
 
 
 <a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
-

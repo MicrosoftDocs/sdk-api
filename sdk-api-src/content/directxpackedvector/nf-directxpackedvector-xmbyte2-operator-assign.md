@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTE2::operator=
+ - XMBYTE2.operator =
 ---
 
 ## -description

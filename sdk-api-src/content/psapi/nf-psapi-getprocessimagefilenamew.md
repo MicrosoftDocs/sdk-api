@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetProcessImageFileNameW
  - psapi/GetProcessImageFileNameW
- - GetProcessImageFileName
- - psapi/GetProcessImageFileName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,12 @@ api_location:
  - Psapi.dll
  - Psapi.dll
 api_name:
- - GetProcessImageFileNameW
  - GetProcessImageFileName
+ - GetProcessImageFileNameA
+ - GetProcessImageFileNameW
+ - K32GetProcessImageFileName
+ - K32GetProcessImageNameW
+ - K32GetProcessImageNameA
 ---
 
 # GetProcessImageFileNameW function
@@ -129,4 +131,3 @@ Programs that must run on earlier versions of Windows as
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-queryfullprocessimagenamea">QueryFullProcessImageName</a>
-

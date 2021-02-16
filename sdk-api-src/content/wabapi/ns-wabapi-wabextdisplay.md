@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabapi.h
 api_name:
- - _WABEXTDISPLAY
- - LPWABEXTDISPLAY
  - WABEXTDISPLAY
 ---
 
@@ -133,4 +131,3 @@ Pointer that specifies miscellaneous information that is passed to your applicat
 Type: <b>LPTSTR</b>
 
 Variable of type <b>LPTSTR</b> that specifies a string used for passing in miscellaneous information to your application. The current flags identify the information being represented. If <b>ulFlags</b> is set to <b>WAB_DISPLAY_LDAPURL</b>, the <b>lpsz</b> member contains a pointer to a <b>NULL</b> terminated string containing the LDAP URL whose properties are being displayed.
-

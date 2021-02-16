@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - cmnquery
  - cmnquery/cmnquery
-api_name:
- - cmnquery
 ---
 
 # Cmnquery.h header

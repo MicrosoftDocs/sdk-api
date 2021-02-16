@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTS_VIRTUAL_CLASS
  - WTS_VIRTUAL_CLASS
 ---
 
@@ -72,4 +71,3 @@ For an example that shows the use of the WTSVirtualFileHandle value, see <a href
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsvirtualchannelquery">WTSVirtualChannelQuery</a>
-

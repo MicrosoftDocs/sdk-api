@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - IEnumNetworkConnections::Clone
+ - IEnumNetworkConnections.Clone
 ---
 
 # IEnumNetworkConnections::Clone
@@ -105,4 +105,3 @@ Failed for unknown reasons.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
-

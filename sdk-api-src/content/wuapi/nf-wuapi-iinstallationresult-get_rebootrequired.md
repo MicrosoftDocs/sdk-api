@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationResult::get_RebootRequired
+ - IInstallationResult.RebootRequired
+ - IInstallationResult.get_RebootRequired
 ---
 
 # IInstallationResult::get_RebootRequired
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationresult">IInstallationResult</a>
-

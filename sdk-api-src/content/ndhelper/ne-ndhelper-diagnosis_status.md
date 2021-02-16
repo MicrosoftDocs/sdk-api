@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - tagDIAGNOSIS_STATUS
  - DIAGNOSIS_STATUS
 ---
 

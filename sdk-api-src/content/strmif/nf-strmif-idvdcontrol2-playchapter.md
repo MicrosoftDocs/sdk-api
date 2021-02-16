@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2::PlayChapter
+ - IDvdControl2.PlayChapter
 ---
 
 # IDvdControl2::PlayChapter
@@ -147,4 +147,3 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::PlayCha
 
 
 <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
-

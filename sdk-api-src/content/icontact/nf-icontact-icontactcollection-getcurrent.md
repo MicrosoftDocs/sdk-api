@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactCollection::GetCurrent
+ - IContactCollection.GetCurrent
 ---
 
 # IContactCollection::GetCurrent
@@ -77,4 +77,3 @@ After reset, a call to <b>IContactCollection::GetCurrent</b> without first calli
 
 
 <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-reset">IContactCollection::Reset</a>
-

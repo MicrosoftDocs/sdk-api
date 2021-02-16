@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdControl2::SelectParentalLevel
+ - IDvdControl2.SelectParentalLevel
 ---
 
 # IDvdControl2::SelectParentalLevel
@@ -171,4 +171,3 @@ The following table shows the Annex J command name to which this method name cor
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol2">IDvdControl2 Interface</a>
-

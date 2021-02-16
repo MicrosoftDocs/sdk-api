@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunningObjectTable::NoteChangeTime
+ - IRunningObjectTable.NoteChangeTime
 ---
 
 # IRunningObjectTable::NoteChangeTime
@@ -88,4 +88,3 @@ When an object is first registered in the ROT, the ROT records its last change t
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-

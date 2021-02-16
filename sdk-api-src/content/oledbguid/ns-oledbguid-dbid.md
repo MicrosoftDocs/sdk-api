@@ -44,7 +44,6 @@ api_type:
 api_location:
  - oledbguid.h
 api_name:
- - tagDBID
  - DBID
 ---
 
@@ -76,4 +75,3 @@ The <b>DBID</b> structure encapsulates various ways of identifying a database ob
 ## -remarks
 
 The <b>DBID</b> structure identifies the requested columns for a query. Each unique column is represented by a unique combination of GUID and number or GUID and name.
-

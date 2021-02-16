@@ -44,7 +44,6 @@ api_type:
 api_location:
  - slpublic.h
 api_name:
- - _tagSL_ACTIVATION_INFO_HEADER
  - SL_ACTIVATION_INFO_HEADER
 ---
 

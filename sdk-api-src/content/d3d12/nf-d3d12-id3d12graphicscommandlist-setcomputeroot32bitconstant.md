@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList::SetComputeRoot32BitConstant
+ - ID3D12GraphicsCommandList.SetComputeRoot32BitConstant
 ---
 
 # ID3D12GraphicsCommandList::SetComputeRoot32BitConstant
@@ -75,4 +75,3 @@ The offset, in 32-bit values, to set the constant in the root signature.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-

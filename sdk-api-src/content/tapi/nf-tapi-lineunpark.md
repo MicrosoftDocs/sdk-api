@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineUnpark
+ - lineUnparkA
+ - lineUnparkW
 ---
 
 # lineUnpark function
@@ -89,4 +91,3 @@ LINEERR_INVALADDRESS, LINEERR_OPERATIONUNAVAIL, LINEERR_INVALADDRESSID, LINEERR_
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-

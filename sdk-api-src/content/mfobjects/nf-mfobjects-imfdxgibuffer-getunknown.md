@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIBuffer::GetUnknown
+ - IMFDXGIBuffer.GetUnknown
 ---
 
 # IMFDXGIBuffer::GetUnknown
@@ -117,4 +117,3 @@ The specified key was not found.
 
 
 <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-setunknown">IMFDXGIBuffer::SetUnknown</a>
-

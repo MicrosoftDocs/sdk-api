@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage4::CreateStorageWithMetadata
+ - IMDSPStorage4.CreateStorageWithMetadata
 ---
 
 # IMDSPStorage4::CreateStorageWithMetadata
@@ -234,4 +234,3 @@ WMDM_STORAGECONTROL_INSERTINTO is valid only if the current storage is a folder.
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-createstorage">IMDSPStorage::CreateStorage</a>
-

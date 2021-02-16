@@ -44,7 +44,6 @@ api_type:
 api_location:
  - gpmgmt.h
 api_name:
- - __MIDL___MIDL_itf_gpmgmt_0000_0000_0008
  - GPMReportingOptions
 ---
 

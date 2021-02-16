@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumPIDMap::Reset
+ - IEnumPIDMap.Reset
 ---
 
 # IEnumPIDMap::Reset
@@ -66,4 +66,3 @@ Returns S_OK if successful. If the method fails,an <b>HRESULT</b> error code is 
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ienumpidmap">IEnumPIDMap Interface</a>
-

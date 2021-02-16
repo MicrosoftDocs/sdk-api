@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService::allowPDATransfer
+ - IWMPSubscriptionService.allowPDATransfer
 ---
 
 # IWMPSubscriptionService::allowPDATransfer
@@ -89,4 +89,3 @@ Do not rely on <b>allowPDATransfer</b> being called each time a track is synchro
 ## -see-also
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriterEx::GetIdentifyInformation
+ - CVssWriterEx.GetIdentifyInformation
 ---
 
 # CVssWriterEx::GetIdentifyInformation
@@ -104,4 +104,3 @@ The <b>GetIdentifyInformation</b> method can only be called in a writer's <a hre
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-cvsswriterex">CVssWriterEx</a>
-

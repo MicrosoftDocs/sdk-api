@@ -42,7 +42,7 @@ api_type:
 api_location:
  - functiondiscoveryapi.h
 api_name:
- - IFunctionDiscoveryNotification::OnError
+ - IFunctionDiscoveryNotification.OnError
 ---
 
 # IFunctionDiscoveryNotification::OnError
@@ -114,4 +114,3 @@ Because other <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondisc
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscoverynotification">IFunctionDiscoveryNotification</a>
-

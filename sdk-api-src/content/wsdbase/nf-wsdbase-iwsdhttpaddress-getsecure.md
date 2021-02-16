@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpAddress::GetSecure
+ - IWSDHttpAddress.GetSecure
 ---
 
 # IWSDHttpAddress::GetSecure
@@ -95,4 +95,3 @@ TLS secure sessions are disabled for this address.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpaddress">IWSDHttpAddress</a>
-

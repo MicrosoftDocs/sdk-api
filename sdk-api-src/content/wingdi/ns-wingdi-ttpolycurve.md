@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagTTPOLYCURVE
- - LPTTPOLYCURVE
  - TTPOLYCURVE
 ---
 
@@ -116,4 +114,3 @@ Polyline records are a series of points; lines drawn between the points describe
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
-

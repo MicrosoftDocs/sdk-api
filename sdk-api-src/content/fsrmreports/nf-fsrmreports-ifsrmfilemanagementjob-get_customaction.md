@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_CustomAction
+ - IFsrmFileManagementJob.CustomAction
+ - IFsrmFileManagementJob.get_CustomAction
 ---
 
 # IFsrmFileManagementJob::get_CustomAction
@@ -79,4 +80,3 @@ For a list of macros supported, perform a "get" operation on the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

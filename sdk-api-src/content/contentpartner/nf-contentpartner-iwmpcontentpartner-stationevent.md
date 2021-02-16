@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::StationEvent
+ - IWMPContentPartner.StationEvent
 ---
 
 # IWMPContentPartner::StationEvent
@@ -134,4 +134,3 @@ This method is called to enable logging of certain ASX events when an ASX file c
 
 
 <a href="/windows/desktop/WMP/windows-media-metafiles-overview">Windows Media Metafiles Overview</a>
-

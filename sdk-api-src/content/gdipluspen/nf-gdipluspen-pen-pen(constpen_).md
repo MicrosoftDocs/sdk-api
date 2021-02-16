@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdipluspen.h
 api_name:
- - Pen::Pen
+ - Pen.Pen
 ---
 
 # Pen::Pen(const Pen &)
@@ -78,4 +78,3 @@ Creates a <a href="/windows/desktop/api/gdipluspen/nl-gdipluspen-pen">Pen</a> ob
 </table>
 
 ## -parameters
-

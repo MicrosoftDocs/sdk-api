@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings::put_RestartInterval
+ - ITaskSettings.RestartInterval
+ - ITaskSettings.get_RestartInterval
+ - ITaskSettings.put_RestartInterval
 ---
 
 # ITaskSettings::put_RestartInterval
@@ -67,4 +69,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

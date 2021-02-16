@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::IsValueCanonical
+ - IPropertyDescription.IsValueCanonical
 ---
 
 # IPropertyDescription::IsValueCanonical
@@ -93,4 +93,3 @@ The value is not canonical.
 </td>
 </tr>
 </table>
-

@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject::Get
+ - IWbemClassObject.Get
 ---
 
 # IWbemClassObject::Get
@@ -183,4 +183,3 @@ VariantClear(&v);
 
 
 <a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-

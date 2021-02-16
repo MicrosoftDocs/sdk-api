@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_VOLUME_NOTIFICATION
  - VDS_VOLUME_NOTIFICATION
 ---
 
@@ -162,4 +161,3 @@ To get the volume object, use the <a href="/windows/desktop/api/vds/nf-vds-ivdss
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_prop">VDS_VOLUME_PROP</a>
-

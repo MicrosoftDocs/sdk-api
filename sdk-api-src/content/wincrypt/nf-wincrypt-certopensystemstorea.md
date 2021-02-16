@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CertOpenSystemStoreA
  - wincrypt/CertOpenSystemStoreA
- - CertOpenSystemStore
- - wincrypt/CertOpenSystemStore
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Crypt32.dll
 api_name:
- - CertOpenSystemStoreA
  - CertOpenSystemStore
+ - CertOpenSystemStoreA
+ - CertOpenSystemStoreW
 ---
 
 # CertOpenSystemStoreA function
@@ -204,4 +203,3 @@ if(!CertCloseStore(hSystemStore, 0))
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Certificate Store Functions</a>
-

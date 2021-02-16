@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings::put_ScheduledInstallationTime
+ - IAutomaticUpdatesSettings.ScheduledInstallationTime
+ - IAutomaticUpdatesSettings.get_ScheduledInstallationTime
+ - IAutomaticUpdatesSettings.put_ScheduledInstallationTime
 ---
 
 # IAutomaticUpdatesSettings::put_ScheduledInstallationTime
@@ -177,4 +179,3 @@ The value of this property is ignored if the value of the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
-

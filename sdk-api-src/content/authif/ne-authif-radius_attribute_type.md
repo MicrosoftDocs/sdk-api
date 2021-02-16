@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
- - _RADIUS_ATTRIBUTE_TYPE
  - RADIUS_ATTRIBUTE_TYPE
 ---
 
@@ -539,4 +538,3 @@ The following attributes are read-only. Extension DLLs that implement <a href="/
 
 
 <a href="/windows/desktop/api/authif/ne-authif-radius_authentication_provider">RADIUS_AUTHENTICATION_PROVIDER</a>
-

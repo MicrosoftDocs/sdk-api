@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - cryptxml
  - cryptxml/cryptxml
-api_name:
- - cryptxml
 ---
 
 # Cryptxml.h header

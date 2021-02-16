@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFPluginControl::GetDisabledByIndex
+ - IMFPluginControl.GetDisabledByIndex
 ---
 
 # IMFPluginControl::GetDisabledByIndex
@@ -113,4 +113,3 @@ The <i>index</i> parameter is out of range.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
-

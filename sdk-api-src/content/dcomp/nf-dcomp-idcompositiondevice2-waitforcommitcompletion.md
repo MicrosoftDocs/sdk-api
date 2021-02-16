@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2::WaitForCommitCompletion
+ - IDCompositionDevice2.WaitForCommitCompletion
 ---
 
 # IDCompositionDevice2::WaitForCommitCompletion
@@ -61,4 +61,3 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice2">IDCompositionDevice2</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpv6csdk.h
 api_name:
- - _DHCPV6CAPI_PARAMS_ARRAY
- - PDHCPV6CAPI_PARAMS_ARRAY
  - DHCPV6CAPI_PARAMS_ARRAY
 ---
 
@@ -67,4 +65,3 @@ Number of parameters in the array.
 ### -field Params
 
 Pointer to a <a href="/windows/desktop/api/dhcpv6csdk/ns-dhcpv6csdk-dhcpv6capi_params">DHCPV6CAPI_PARAMS</a> structure that contains a parameter.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Madcapcl.h
 api_name:
- - _MCAST_SCOPE_CTX
- - PMCAST_SCOPE_CTX
  - MCAST_SCOPE_CTX
 ---
 
@@ -124,4 +122,3 @@ Internet Protocol (IP) address of the MADCAP server, in the form of an
 
 
 <a href="/previous-versions/windows/desktop/api/madcapcl/nf-madcapcl-mcastrequestaddress">McastRequestAddress</a>
-

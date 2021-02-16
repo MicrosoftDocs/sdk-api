@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponent::Initialize
+ - IComponent.Initialize
 ---
 
 # IComponent::Initialize
@@ -84,4 +84,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataobject">IDataObject</a>
-

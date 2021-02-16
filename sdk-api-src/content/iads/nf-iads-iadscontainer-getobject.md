@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsContainer::GetObject
+ - IADsContainer.GetObject
 ---
 
 # IADsContainer::GetObject
@@ -184,4 +184,3 @@ CoUninitialize();
 
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

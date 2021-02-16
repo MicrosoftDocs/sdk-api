@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12RootSignatureDeserializer::GetRootSignatureDesc
+ - ID3D12RootSignatureDeserializer.GetRootSignatureDesc
 ---
 
 # ID3D12RootSignatureDeserializer::GetRootSignatureDesc
@@ -63,4 +63,3 @@ This method returns a deserialized root signature in a <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12rootsignaturedeserializer">ID3D12RootSignatureDeserializer</a>
-

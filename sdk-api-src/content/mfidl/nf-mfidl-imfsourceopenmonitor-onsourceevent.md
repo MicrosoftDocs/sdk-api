@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSourceOpenMonitor::OnSourceEvent
+ - IMFSourceOpenMonitor.OnSourceEvent
 ---
 
 # IMFSourceOpenMonitor::OnSourceEvent
@@ -104,4 +104,3 @@ For more information, see <a href="/windows/desktop/medfound/how-to-get-events-f
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsourceopenmonitor">IMFSourceOpenMonitor</a>
-

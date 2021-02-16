@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase::EnumActions
+ - IFsrmFileScreenBase.EnumActions
 ---
 
 # IFsrmFileScreenBase::EnumActions
@@ -67,4 +67,3 @@ The method returns the following return values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
-

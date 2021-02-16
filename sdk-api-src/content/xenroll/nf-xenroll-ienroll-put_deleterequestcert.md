@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::put_DeleteRequestCert
+ - IEnroll.DeleteRequestCert
+ - IEnroll.get_DeleteRequestCert
+ - IEnroll.put_DeleteRequestCert
 ---
 
 # IEnroll::put_DeleteRequestCert
@@ -79,4 +81,3 @@ The <b>DeleteRequestCert</b> property affects the behavior of the following meth
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

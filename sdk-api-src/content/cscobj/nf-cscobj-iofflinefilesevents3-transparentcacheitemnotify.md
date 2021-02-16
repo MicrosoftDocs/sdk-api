@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents3::TransparentCacheItemNotify
+ - IOfflineFilesEvents3.TransparentCacheItemNotify
 ---
 
 # IOfflineFilesEvents3::TransparentCacheItemNotify
@@ -90,4 +90,3 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilestransparentcacheinfo-istransparentlycached">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
-

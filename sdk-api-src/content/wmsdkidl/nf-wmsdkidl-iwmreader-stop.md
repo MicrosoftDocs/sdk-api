@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader::Stop
+ - IWMReader.Stop
 ---
 
 # IWMReader::Stop
@@ -126,4 +126,3 @@ Calling <b>Stop</b> eliminates the current read position. If <b>Start</b> is cal
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallback">IWMReaderCallback Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - __MIDL___MIDL_itf_winsync_0000_0000_0002
  - CONFLICT_RESOLUTION_POLICY
 ---
 
@@ -88,4 +87,3 @@ The members of <b>CONFLICT_RESOLUTION_POLICY</b> are used by a synchronization a
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
-

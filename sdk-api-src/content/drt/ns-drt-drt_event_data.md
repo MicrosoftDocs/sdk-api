@@ -46,8 +46,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_event_data_tag
- - PDRT_EVENT_DATA
  - DRT_EVENT_DATA
 ---
 
@@ -118,7 +116,7 @@ Contains the number of addresses in <b>pAddresses</b>.
 ### -field statusChange.bootstrapAddresses.pAddresses
 
 Contains an array of addresses returned by the bootstrap provider.
-
+ 
 ## -see-also
 
 <a href="/windows/desktop/api/drt/ne-drt-drt_event_type">DRT_EVENT_TYPE</a>
@@ -134,4 +132,3 @@ Contains an array of addresses returned by the bootstrap provider.
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-

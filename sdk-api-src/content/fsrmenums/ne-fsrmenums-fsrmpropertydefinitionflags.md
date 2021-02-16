@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmPropertyDefinitionFlags
  - FsrmPropertyDefinitionFlags
 ---
 

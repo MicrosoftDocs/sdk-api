@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMStarterGPO::CopyTo
+ - IGPMStarterGPO.CopyTo
 ---
 
 # IGPMStarterGPO::CopyTo
@@ -90,4 +90,3 @@ Note that you must check the code returned by the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmstartergpo">IGPMStarterGPO</a>
-

@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::get_ProviderFlags
+ - ICEnroll4.ProviderFlags
+ - ICEnroll4.get_ProviderFlags
+ - ICEnroll4.put_ProviderFlags
+ - ICEnroll3.ProviderFlags
+ - ICEnroll3.get_ProviderFlags
+ - ICEnroll3.put_ProviderFlags
+ - ICEnroll2.ProviderFlags
+ - ICEnroll2.get_ProviderFlags
+ - ICEnroll2.put_ProviderFlags
+ - ICEnroll.ProviderFlags
+ - ICEnroll.get_ProviderFlags
+ - ICEnroll.put_ProviderFlags
+ - CEnroll.ProviderFlags
 ---
 
 # ICEnroll::get_ProviderFlags
@@ -108,4 +120,3 @@ if (FAILED( hr ))
 else
     printf( "ProviderFlags set to %d\n", CRYPT_MACHINE_KEYSET  );
 ```
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
- - PCMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
  - CMSG_KEY_TRANS_RECIPIENT_ENCODE_INFO
 ---
 
@@ -89,4 +87,3 @@ A <b>CRYPT_BIT_BLOB</b> variable that contains the public key of the recipient.
 ### -field RecipientId
 
 A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_id">CERT_ID</a> value that identifies the recipient. CMS supports the KEY_IDENTIFIER and ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s. PKCS #7 version 1.5 supports only the ISSUER_SERIAL_NUMBER <b>CERT_ID</b>s.
-

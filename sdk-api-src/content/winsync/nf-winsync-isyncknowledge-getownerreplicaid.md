@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge::GetOwnerReplicaId
+ - ISyncKnowledge.GetOwnerReplicaId
 ---
 
 # ISyncKnowledge::GetOwnerReplicaId
@@ -110,4 +110,3 @@ Knowledge is valid only to the replica that owns it. To use knowledge from a rep
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
-

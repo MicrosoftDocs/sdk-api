@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator::NextSubpath
+ - GraphicsPathIterator.NextSubpath
 ---
 
 # GraphicsPathIterator::NextSubpath(OUT const GraphicsPath,OUT BOOL)
@@ -158,4 +158,3 @@ VOID NextSubpathExample(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

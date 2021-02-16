@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::get_DiscountSend
+ - IFaxDoc.DiscountSend
+ - IFaxDoc.get_DiscountSend
+ - IFaxDoc.put_DiscountSend
 ---
 
 # IFaxDoc::get_DiscountSend
@@ -87,4 +89,3 @@ To determine the period during which the discount rate applies, you can call the
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
-

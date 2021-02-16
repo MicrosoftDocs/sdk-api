@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext2::CreateInk
+ - ID2D1DeviceContext2.CreateInk
 ---
 
 # ID2D1DeviceContext2::CreateInk(const D2D1_INK_POINT &,ID2D1Ink)
@@ -75,4 +75,3 @@ S_OK if successful, otherwise a failure HRESULT.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext2">ID2D1DeviceContext2</a>
-

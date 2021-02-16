@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - INetworkSettings::get_Name
+ - INetworkSettings.Name
+ - INetworkSettings.get_Name
+ - INetworkSettings.put_Name
 ---
 
 # INetworkSettings::get_Name
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-inetworksettings">INetworkSettings</a>
-

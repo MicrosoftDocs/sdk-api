@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IExpandCollapseProvider::Expand
+ - IExpandCollapseProvider.Expand
 ---
 
 # IExpandCollapseProvider::Expand
@@ -71,4 +71,3 @@ This is a blocking method that returns after the control has been expanded.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

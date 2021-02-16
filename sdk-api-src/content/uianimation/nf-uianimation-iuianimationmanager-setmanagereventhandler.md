@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::SetManagerEventHandler
+ - IUIAnimationManager.SetManagerEventHandler
 ---
 
 # IUIAnimationManager::SetManagerEventHandler
@@ -84,4 +84,3 @@ For an example, see <a href="/windows/desktop/UIAnimation/introducing-windows-an
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationmanagereventhandler">IUIAnimationManagerEventHandler</a>
-

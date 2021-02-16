@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _LOCALGROUP_INFO_1002
- - PLOCALGROUP_INFO_1002
  - LOCALGROUP_INFO_1002
 ---
 
@@ -80,4 +78,3 @@ Pointer to a Unicode string that specifies a remark associated with the local gr
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

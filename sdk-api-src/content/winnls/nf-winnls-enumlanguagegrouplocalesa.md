@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumLanguageGroupLocalesA
  - winnls/EnumLanguageGroupLocalesA
- - EnumLanguageGroupLocales
- - winnls/EnumLanguageGroupLocales
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumLanguageGroupLocalesA
  - EnumLanguageGroupLocales
+ - EnumLanguageGroupLocalesA
+ - EnumLanguageGroupLocalesW
 ---
 
 # EnumLanguageGroupLocalesA function
@@ -162,4 +161,3 @@ This function enumerates locales in the specified language group by passing loca
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

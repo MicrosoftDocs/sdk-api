@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder2::GetDetailsOf
+ - IShellFolder2.GetDetailsOf
 ---
 
 # IShellFolder2::GetDetailsOf
@@ -113,4 +113,3 @@ File system folders have a large, standard set of information fields. The first 
 File system folders can support a number of additional fields. However, they are not required to do so, and the column indexes assigned to these fields might vary.
 
 Each virtual folder has its own unique set of information fields. Normally, the item's display name is in column zero, but the order and content of the remaining fields depend on the implementation of the particular folder object.
-

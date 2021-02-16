@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - sysinfoapi
  - sysinfoapi/sysinfoapi
-api_name:
- - sysinfoapi
 ---
 
 # Sysinfoapi.h header

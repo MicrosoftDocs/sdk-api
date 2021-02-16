@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PUSN_RECORD_V3
  - USN_RECORD_V3
 ---
 
@@ -632,4 +631,3 @@ For more information, see
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

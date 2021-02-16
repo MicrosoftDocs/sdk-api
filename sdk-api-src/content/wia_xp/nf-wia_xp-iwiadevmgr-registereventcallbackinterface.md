@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr::RegisterEventCallbackInterface
+ - IWiaDevMgr.RegisterEventCallbackInterface
 ---
 
 # IWiaDevMgr::RegisterEventCallbackInterface
@@ -104,4 +104,3 @@ Applications can unregister for events by using the <a href="/windows/desktop/ap
 
 <div class="alert"><b>Note</b>  In a multi-threaded application, there is no guarantee that the event notification callback will come in on the same thread that registered the callback.</div>
 <div> </div>
-

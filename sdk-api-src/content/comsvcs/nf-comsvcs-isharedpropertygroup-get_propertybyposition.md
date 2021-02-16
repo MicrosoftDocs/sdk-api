@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISharedPropertyGroup::get_PropertyByPosition
+ - ISharedPropertyGroup.get_PropertyByPosition
 ---
 
 # ISharedPropertyGroup::get_PropertyByPosition
@@ -103,4 +103,3 @@ The shared property with the index specified in the <i>Index</i> parameter does 
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-isharedpropertygroup">ISharedPropertyGroup</a>
-

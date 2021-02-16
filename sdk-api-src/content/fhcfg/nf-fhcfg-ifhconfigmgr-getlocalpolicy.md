@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhConfigMgr::GetLocalPolicy
+ - IFhConfigMgr.GetLocalPolicy
+ - FhConfigMgr.GetLocalPolicy
 ---
 
 # IFhConfigMgr::GetLocalPolicy
@@ -90,4 +91,3 @@ To set the numeric parameter value for a local policy, use the <a href="/windows
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhconfigmgr-setlocalpolicy">IFhConfigMgr::SetLocalPolicy</a>
-

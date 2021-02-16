@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob::get_GroupBroadcastReceipts
+ - IFaxOutgoingJob.GroupBroadcastReceipts
+ - IFaxOutgoingJob.get_GroupBroadcastReceipts
+ - IFaxOutgoingJob.get_GroupBroadcastReceipts
 ---
 
 # IFaxOutgoingJob::get_GroupBroadcastReceipts
@@ -71,4 +73,3 @@ Set the <b>IFaxOutgoingJob::get_GroupBroadcastReceipts</b> property for a docume
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Bitmap1::Map
+ - ID2D1Bitmap1.Map
 ---
 
 # ID2D1Bitmap1::Map
@@ -112,4 +112,3 @@ The bitmap must have been created with the <b>D2D1_BITMAP_OPTIONS_CPU_READ</b> f
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">ID2D1RenderTarget::CreateSharedBitmap</a>
-

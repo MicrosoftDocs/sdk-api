@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::AddNonMember
+ - IAzApplicationGroup.AddNonMember
+ - AzApplicationGroup.AddNonMember
 ---
 
 # IAzApplicationGroup::AddNonMember
@@ -71,4 +72,3 @@ Denying membership to an account in an application group does not prevent that a
 To view the list of SIDs of accounts that are refused membership in this application group in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-get_nonmembers">NonMembers</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplicationgroup-submit">Submit</a> method to persist any changes made by this method.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider::InstancePropertyStoreFlush
+ - IFunctionDiscoveryProvider.InstancePropertyStoreFlush
 ---
 
 # IFunctionDiscoveryProvider::InstancePropertyStoreFlush
@@ -133,4 +133,3 @@ If you implement this method, you should call <a href="/windows/desktop/api/func
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
-

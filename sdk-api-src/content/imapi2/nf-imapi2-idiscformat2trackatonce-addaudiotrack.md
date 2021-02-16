@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce::AddAudioTrack
+ - IDiscFormat2TrackAtOnce.AddAudioTrack
 ---
 
 # IDiscFormat2TrackAtOnce::AddAudioTrack
@@ -457,4 +457,3 @@ Silence, or data samples containing zeroes, will be added to the track-writing o
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2trackatonce-canceladdtrack">IDiscFormat2TrackAtOnce::CancelAddTrack</a>
-

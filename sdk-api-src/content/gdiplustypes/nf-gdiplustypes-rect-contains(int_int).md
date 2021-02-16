@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplustypes.h
 api_name:
- - Rect::Contains
+ - Rect.Contains
 ---
 
 # Rect::Contains
@@ -89,4 +89,3 @@ The <a href="/previous-versions/ms534986(v=vs.85)">Rect::Contains</a><i>x</i><i>
 </table>
 
 ## -parameters
-

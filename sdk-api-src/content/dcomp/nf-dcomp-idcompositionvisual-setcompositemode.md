@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual::SetCompositeMode
+ - IDCompositionVisual.SetCompositeMode
 ---
 
 # IDCompositionVisual::SetCompositeMode
@@ -77,4 +77,3 @@ The composite mode determines how visual's bitmap is blended with the screen. By
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-

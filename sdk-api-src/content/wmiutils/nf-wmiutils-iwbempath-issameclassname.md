@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::IsSameClassName
+ - IWbemPath.IsSameClassName
 ---
 
 # IWbemPath::IsSameClassName
@@ -70,4 +70,3 @@ This method returns a BOOL indicating whether the class name matches the one in 
 
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
-

@@ -46,8 +46,7 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgCredentials_KdcProxySettingsW
- - PSecPkgCredentials_KdcProxySettingsW
+ - SecPkgCredentials_KdcProxySettings
  - SecPkgCredentials_KdcProxySettingsW
 ---
 

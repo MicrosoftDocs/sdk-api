@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR::XMCOLOR
+ - XMCOLOR.XMCOLOR
 ---
 
 # XMCOLOR::XMCOLOR(float,float,float,float)
@@ -127,4 +127,3 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="/windows/desktop/dxmath/xmcolor-ctor">XMCOLOR Constructors</a>
-

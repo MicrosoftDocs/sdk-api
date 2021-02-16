@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferDestination::CreateItem
+ - ITransferDestination.CreateItem
 ---
 
 # ITransferDestination::CreateItem
@@ -122,4 +122,3 @@ This method may be used to create a Shell item object representing the destinati
 Call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itransferdestination-advise">ITransferDestination::Advise</a> before calling any other <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-itransferdestination">ITransferDestination</a> methods so the handler can callback on any errors that might occur. If not set, the handler should consider it an indication that no feedback is available and to do the "default" operation.
 
 It is recommended that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, to package the <i>riidResources</i> and <i>ppvResources</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppvResources</i>, which eliminates the possibility of a coding error.
-

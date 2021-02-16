@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntprov.h
 api_name:
- - _EVENT_FILTER_EVENT_NAME
- - PEVENT_FILTER_EVENT_NAME
  - EVENT_FILTER_EVENT_NAME
 ---
 
@@ -91,4 +89,3 @@ An <b>NameCount</b> long array of null-terminated, UTF-8
 event names.
 
 ## -remarks
-

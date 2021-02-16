@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfCandidates::Clone
+ - IEnumTfCandidates.Clone
 ---
 
 # IEnumTfCandidates::Clone
@@ -95,4 +95,3 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-ienumtfcandidates">IEnumTfCandidates
       </a>
-

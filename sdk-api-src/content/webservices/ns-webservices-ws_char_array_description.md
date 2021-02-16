@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CHAR_ARRAY_DESCRIPTION
  - WS_CHAR_ARRAY_DESCRIPTION
 ---
 
@@ -65,4 +64,3 @@ The minimum number of characters.
 ### -field maxCharCount
 
 The maximum number of characters.
-

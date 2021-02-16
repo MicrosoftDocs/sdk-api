@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFPluginControl::SetDisabled
+ - IMFPluginControl.SetDisabled
 ---
 
 # IMFPluginControl::SetDisabled
@@ -106,4 +106,3 @@ The blocked list is global to the caller's process. Calling this method does not
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
-

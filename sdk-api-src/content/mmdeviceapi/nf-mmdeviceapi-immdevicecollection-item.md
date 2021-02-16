@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDeviceCollection::Item
+ - IMMDeviceCollection.Item
 ---
 
 # IMMDeviceCollection::Item
@@ -112,4 +112,3 @@ For a code example that calls the <b>Item</b> method, see <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevicecollection-getcount">IMMDeviceCollection::GetCount</a>
-

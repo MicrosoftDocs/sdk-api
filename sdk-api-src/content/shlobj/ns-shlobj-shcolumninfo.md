@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
- - LPSHCOLUMNINFO
  - SHCOLUMNINFO
 ---
 
@@ -151,4 +150,3 @@ A null-terminated Unicode string with the column's description. It must contain 
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj/nf-shlobj-icolumnprovider-getcolumninfo">IColumnProvider::GetColumnInfo</a>
-

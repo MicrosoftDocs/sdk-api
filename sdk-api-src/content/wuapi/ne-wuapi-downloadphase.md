@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
- - tagDownloadPhase
  - DownloadPhase
 ---
 
@@ -68,4 +67,3 @@ Downloading the current update.
 ### -field dphVerifying
 
 Verifying the download of the current update.
-

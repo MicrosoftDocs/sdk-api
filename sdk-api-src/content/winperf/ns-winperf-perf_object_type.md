@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
- - _PERF_OBJECT_TYPE
- - PPERF_OBJECT_TYPE
  - PERF_OBJECT_TYPE
 ---
 
@@ -198,4 +196,3 @@ Providers use this structure to provide performance data for objects that they s
 
 
 <a href="/windows/desktop/PerfCtrs/performance-data-format">Performance Data Format</a>
-

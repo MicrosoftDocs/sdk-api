@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wia_xp.h
 api_name:
- - _WIA_FORMAT_INFO
- - PWIA_FORMAT_INFO
  - WIA_FORMAT_INFO
 ---
 

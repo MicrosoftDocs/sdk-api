@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput1::GetDisplayModeList1
+ - IDXGIOutput1.GetDisplayModeList1
 ---
 
 # IDXGIOutput1::GetDisplayModeList1
@@ -109,4 +109,3 @@ pOutput->GetDisplayModeList1( format, flags, &num, pDescs);
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutput1">IDXGIOutput1</a>
-

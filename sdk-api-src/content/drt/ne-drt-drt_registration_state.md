@@ -46,8 +46,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - _DRT_REGISTRATION_STATE
- - PDRT_REGISTRATION_STATE
  - DRT_REGISTRATION_STATE
 ---
 

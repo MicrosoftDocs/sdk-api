@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog::SetProgress64
+ - IProgressDialog.SetProgress64
 ---
 
 # IProgressDialog::SetProgress64
@@ -79,4 +79,3 @@ This method has exactly the same function as <a href="/windows/desktop/api/shlob
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-

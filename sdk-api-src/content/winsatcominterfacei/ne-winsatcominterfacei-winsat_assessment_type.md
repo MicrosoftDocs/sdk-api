@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winsatcominterfacei.h
 api_name:
- - __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0003
  - WINSAT_ASSESSMENT_TYPE
 ---
 
@@ -82,4 +81,3 @@ After Windows 8.1, WinSAT no longer assesses the three-dimensional graphics (gam
 ## -see-also
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatresultsinfo-getassessmentinfo">IProvideWinSATResultsInfo::GetAssessmentInfo</a>
-

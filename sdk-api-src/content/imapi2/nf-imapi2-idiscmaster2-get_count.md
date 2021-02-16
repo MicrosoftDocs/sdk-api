@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscMaster2::get_Count
+ - IDiscMaster2.get_Count
 ---
 
 # IDiscMaster2::get_Count
@@ -119,4 +119,3 @@ Value: 0x80004005
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscmaster2-get__newenum">IDiscMaster::__NewEnum</a>
-

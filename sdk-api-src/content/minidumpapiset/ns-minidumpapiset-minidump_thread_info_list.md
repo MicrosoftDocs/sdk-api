@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_THREAD_INFO_LIST
- - PMINIDUMP_THREAD_INFO_LIST
  - MINIDUMP_THREAD_INFO_LIST
 ---
 
@@ -83,4 +81,3 @@ The number of entries in the stream. These are generally
 
 
 <a href="/windows/desktop/api/minidumpapiset/ns-minidumpapiset-minidump_thread_info">MINIDUMP_THREAD_INFO</a>
-

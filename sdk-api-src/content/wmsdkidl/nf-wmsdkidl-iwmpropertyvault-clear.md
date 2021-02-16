@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPropertyVault::Clear
+ - IWMPropertyVault.Clear
 ---
 
 # IWMPropertyVault::Clear
@@ -64,4 +64,3 @@ This method always returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
-

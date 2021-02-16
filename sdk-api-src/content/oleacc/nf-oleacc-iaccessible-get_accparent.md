@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::get_accParent
+ - IAccessible.get_accParent
 ---
 
 # IAccessible::get_accParent
@@ -101,4 +101,3 @@ No parent exists for this object.
 
 
 <a href="/windows/desktop/WinAuto/object-navigation-properties-and-methods">Object Navigation Properties and Methods</a>
-

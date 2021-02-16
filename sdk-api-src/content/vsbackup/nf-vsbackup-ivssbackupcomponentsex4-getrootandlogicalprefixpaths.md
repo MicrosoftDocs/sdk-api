@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
+ - IVssBackupComponentsEx4.GetRootAndLogicalPrefixPaths
 ---
 
 # IVssBackupComponentsEx4::GetRootAndLogicalPrefixPaths
@@ -135,4 +135,3 @@ If you call this method more than once for the same shadow copy set creation ope
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex4">IVssBackupComponentsEx4</a>
-

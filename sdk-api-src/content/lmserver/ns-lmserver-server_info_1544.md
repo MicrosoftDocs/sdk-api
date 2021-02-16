@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1544
- - PSERVER_INFO_1544
  - SERVER_INFO_1544
 ---
 
@@ -80,4 +78,3 @@ Specifies the initial number of tree connections to be allocated in the connecti
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

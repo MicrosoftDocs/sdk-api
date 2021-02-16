@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1TransformGraph::Clear
+ - ID2D1TransformGraph.Clear
 ---
 
 # ID2D1TransformGraph::Clear
@@ -62,4 +62,3 @@ Used when enough changes to transfoms would make  editing of the transform graph
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
-

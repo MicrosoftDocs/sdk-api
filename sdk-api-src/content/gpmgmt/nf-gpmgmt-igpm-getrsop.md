@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM::GetRSOP
+ - IGPM.GetRSOP
+ - GPM.GetRSOP
 ---
 
 # IGPM::GetRSOP
@@ -117,4 +118,3 @@ To retrieve the WMI namespace, call the
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmrsop">IGPMRSOP</a>
-

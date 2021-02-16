@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dmemmgr.h
 api_name:
- - _HEAPALIGNMENT
- - LPHEAPALIGNMENT
  - HEAPALIGNMENT
 ---
 
@@ -111,4 +109,3 @@ The driver should verify that the <b>dwSize</b> member is at least as large as <
 
 
 <a href="/windows/desktop/api/dmemmgr/ns-dmemmgr-surfacealignment">SURFACEALIGNMENT</a>
-

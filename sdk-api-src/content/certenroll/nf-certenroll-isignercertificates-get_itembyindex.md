@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificates::get_ItemByIndex
+ - ISignerCertificates.ItemByIndex
+ - ISignerCertificates.get_ItemByIndex
 ---
 
 # ISignerCertificates::get_ItemByIndex
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>
-

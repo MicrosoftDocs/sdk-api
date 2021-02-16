@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fileapi.h
 api_name:
- - _STREAM_INFO_LEVELS
  - STREAM_INFO_LEVELS
 ---
 
@@ -77,4 +76,3 @@ Used to determine valid enumeration values. All supported enumeration values are
 
 
 <a href="/windows/desktop/api/fileapi/ns-fileapi-win32_find_stream_data">WIN32_FIND_STREAM_DATA</a>
-

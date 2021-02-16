@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::SetEnableTCP
+ - IWMReaderNetworkConfig.SetEnableTCP
 ---
 
 # IWMReaderNetworkConfig::SetEnableTCP
@@ -113,4 +113,3 @@ This setting applies only to a protocol rollover or MMS://URL. Even if this sett
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setenableudp">IWMReaderNetworkConfig::SetEnableUDP</a>
-

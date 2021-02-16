@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMLogger::SetSizeParams
+ - IWMDMLogger.SetSizeParams
 ---
 
 # IWMDMLogger::SetSizeParams
@@ -83,4 +83,3 @@ The method returns an <b>HRESULT</b>. All the interface methods in Windows Media
 
 
 <a href="/windows/desktop/api/wmdmlog/nn-wmdmlog-iwmdmlogger">IWMDMLogger Interface</a>
-

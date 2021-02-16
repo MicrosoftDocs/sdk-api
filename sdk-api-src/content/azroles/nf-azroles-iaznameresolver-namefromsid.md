@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzNameResolver::NameFromSid
+ - IAzNameResolver.NameFromSid
 ---
 
 # IAzNameResolver::NameFromSid
@@ -71,4 +71,3 @@ A pointer to the display name of the principal that corresponds to the SID speci
  If the method succeeds, it returns <b>S_OK</b>.
 
 If the method fails, it returns an error code. In particular, if the method cannot find the display name of the principal, it returns <b>CO_E_NOMATCHINGNAMEFOUND</b>. For a list of other common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

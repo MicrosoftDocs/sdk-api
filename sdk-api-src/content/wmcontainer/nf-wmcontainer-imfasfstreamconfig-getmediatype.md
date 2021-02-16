@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::GetMediaType
+ - IMFASFStreamConfig.GetMediaType
 ---
 
 # IMFASFStreamConfig::GetMediaType
@@ -96,4 +96,3 @@ To reduce unnecessary copying, the method returns a pointer to the media type  t
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-

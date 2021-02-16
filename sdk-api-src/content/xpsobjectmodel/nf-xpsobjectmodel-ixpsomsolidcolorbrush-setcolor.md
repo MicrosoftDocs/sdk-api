@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMSolidColorBrush::SetColor
+ - IXpsOMSolidColorBrush.SetColor
 ---
 
 # IXpsOMSolidColorBrush::SetColor
@@ -151,4 +151,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a>
-

@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_SelInksDisplayMode
+ - IInkEdit.SelInksDisplayMode
+ - IInkEdit.get_SelInksDisplayMode
+ - IInkEdit.put_SelInksDisplayMode
+ - InkEdit.get_SelInksDisplayMode
+ - InkEdit.put_SelInksDisplayMode
 ---
 
 # IInkEdit::get_SelInksDisplayMode
@@ -74,4 +78,3 @@ This property is run time only.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

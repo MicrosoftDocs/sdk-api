@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocator::Commit
+ - IMemAllocator.Commit
 ---
 
 # IMemAllocator::Commit
@@ -112,4 +112,3 @@ You must call this method before calling the <a href="/windows/desktop/api/strmi
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchQueryHelper::put_QueryContentLocale
+ - ISearchQueryHelper.put_QueryContentLocale
 ---
 
 # ISearchQueryHelper::put_QueryContentLocale
@@ -91,4 +91,3 @@ Checkout the <a href="/windows/win32/search/-search-sample-dsearch">DSearch code
 
 
 <a href="/windows/desktop/search/-search-sql-windowssearch-entry">Querying the Index with Windows Search SQL Syntax</a>
-

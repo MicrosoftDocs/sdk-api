@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::get_RoleForAccessCheck
+ - IAzClientContext.RoleForAccessCheck
+ - IAzClientContext.get_RoleForAccessCheck
+ - IAzClientContext.put_RoleForAccessCheck
+ - AzClientContext.RoleForAccessCheck
 ---
 
 # IAzClientContext::get_RoleForAccessCheck

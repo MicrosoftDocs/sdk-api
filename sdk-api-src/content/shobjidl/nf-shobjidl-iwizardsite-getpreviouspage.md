@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IWizardSite::GetPreviousPage
+ - IWizardSite.GetPreviousPage
 ---
 
 # IWizardSite::GetPreviousPage
@@ -65,4 +65,3 @@ A pointer to a variable handle of type <a href="/windows/desktop/api/prsht/ns-pr
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

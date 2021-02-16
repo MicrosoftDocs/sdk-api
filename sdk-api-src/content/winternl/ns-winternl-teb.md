@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winternl.h
 api_name:
- - _TEB
- - PTEB
  - TEB
 ---
 
@@ -92,4 +90,3 @@ In the following versions of Windows, the offset of the 32-bit TEB address withi
 ## -see-also
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-tlsgetvalue">TlsGetValue</a>
-

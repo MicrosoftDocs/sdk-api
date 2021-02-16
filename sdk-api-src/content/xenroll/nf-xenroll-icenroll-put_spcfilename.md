@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_SPCFileName
+ - ICEnroll4.SPCFileName
+ - ICEnroll4.get_SPCFileName
+ - ICEnroll4.put_SPCFileName
+ - ICEnroll3.SPCFileName
+ - ICEnroll3.get_SPCFileName
+ - ICEnroll3.put_SPCFileName
+ - ICEnroll2.SPCFileName
+ - ICEnroll2.get_SPCFileName
+ - ICEnroll2.put_SPCFileName
+ - ICEnroll.SPCFileName
+ - ICEnroll.get_SPCFileName
+ - ICEnroll.put_SPCFileName
+ - CEnroll.SPCFileName
 ---
 
 # ICEnroll::put_SPCFileName
@@ -112,4 +124,3 @@ else
 if ( NULL != bstrNewSPCFile )
     SysFreeString( bstrNewSPCFile );
 ```
-

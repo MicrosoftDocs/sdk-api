@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiQueryFeatureStateExA
  - msi/MsiQueryFeatureStateExA
- - MsiQueryFeatureStateEx
- - msi/MsiQueryFeatureStateEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiQueryFeatureStateExA
  - MsiQueryFeatureStateEx
+ - MsiQueryFeatureStateExA
+ - MsiQueryFeatureStateExW
 ---
 
 # MsiQueryFeatureStateExA function
@@ -312,4 +311,3 @@ The
 
 
 <a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-

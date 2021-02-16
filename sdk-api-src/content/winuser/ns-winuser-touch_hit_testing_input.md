@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - tagTOUCH_HIT_TESTING_INPUT
- - PTOUCH_HIT_TESTING_INPUT
  - TOUCH_HIT_TESTING_INPUT
 ---
 
@@ -92,4 +90,3 @@ The orientation of the touch contact area.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_touchhittest/structures">Structures</a>
-

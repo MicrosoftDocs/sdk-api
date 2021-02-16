@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::CdromMediaChange
+ - IWMPEvents.CdromMediaChange
 ---
 
 # IWMPEvents::CdromMediaChange
@@ -71,4 +71,3 @@ The index of the CD drive corresponds to the index of a <b>Cdrom</b> object in t
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponentsEx2::SetRollForward
+ - IVssBackupComponentsEx2.SetRollForward
 ---
 
 # IVssBackupComponentsEx2::SetRollForward
@@ -200,4 +200,3 @@ For more
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_rollforward_type">VSS_ROLLFORWARD_TYPE</a>
-

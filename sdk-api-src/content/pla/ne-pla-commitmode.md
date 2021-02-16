@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pla.h
 api_name:
- - __MIDL___MIDL_itf_pla_0001_0043_0007
  - CommitMode
 ---
 
@@ -92,4 +91,3 @@ All commit modes validate the set.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-commit">IDataCollectorSet::Commit</a>
-

@@ -45,7 +45,6 @@ api_location:
  - Filehc.h
 api_name:
  - NAME_CACHE_CONTEXT
- - PNAME_CACHE_CONTEXT
 ---
 
 # NAME_CACHE_CONTEXT structure

@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - GetOpenFileNameW
  - commdlg/GetOpenFileNameW
- - GetOpenFileName
- - commdlg/GetOpenFileName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - Comdlg32.dll
  - ext-ms-win-shell-comdlg32-l1-1-0.dll
 api_name:
- - GetOpenFileNameW
  - GetOpenFileName
+ - GetOpenFileNameA
+ - GetOpenFileNameW
+req.apiset: ext-ms-win-shell-comdlg32-l1-1-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # GetOpenFileNameW function
@@ -141,4 +140,3 @@ For an example, see <a href="/windows/desktop/dlgbox/using-common-dialog-boxes">
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shbrowseforfoldera">SHBrowseForFolder</a>
-

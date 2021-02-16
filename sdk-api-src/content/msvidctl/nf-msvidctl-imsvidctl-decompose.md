@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::Decompose
+ - IMSVidCtl.Decompose
 ---
 
 # IMSVidCtl::Decompose
@@ -65,4 +65,3 @@ This method is the inverse of the <a href="/previous-versions/windows/desktop/ap
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
-

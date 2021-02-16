@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IStringCollection::get__NewEnum
+ - IStringCollection._NewEnum
+ - IStringCollection.get__NewEnum
 ---
 
 # IStringCollection::get__NewEnum
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-istringcollection">IStringCollection</a>
-

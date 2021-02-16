@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog2::ResumeApplicationInstances
+ - ICOMAdminCatalog2.ResumeApplicationInstances
 ---
 
 # ICOMAdminCatalog2::ResumeApplicationInstances
@@ -95,4 +95,3 @@ A specified application instance does not exist.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog2">ICOMAdminCatalog2</a>
-

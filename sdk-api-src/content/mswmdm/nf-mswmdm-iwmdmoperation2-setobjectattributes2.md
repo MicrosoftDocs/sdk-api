@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation2::SetObjectAttributes2
+ - IWMDMOperation2.SetObjectAttributes2
 ---
 
 # IWMDMOperation2::SetObjectAttributes2
@@ -122,4 +122,3 @@ An unspecified error occurred, and the read operation should be cancelled withou
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation2">IWMDMOperation2 Interface</a>
-

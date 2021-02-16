@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagCorrelationId
  - CorrelationId
 ---
 
@@ -83,4 +82,3 @@ The
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
-

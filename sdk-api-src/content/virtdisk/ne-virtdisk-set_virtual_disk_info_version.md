@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _SET_VIRTUAL_DISK_INFO_VERSION
  - SET_VIRTUAL_DISK_INFO_VERSION
 ---
 
@@ -114,4 +113,3 @@ The parent linkage information that differencing VHDs store. Parent linkage info
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

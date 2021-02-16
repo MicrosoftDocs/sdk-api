@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleClientSite::OnShowWindow
+ - IOleClientSite.OnShowWindow
 ---
 
 # IOleClientSite::OnShowWindow
@@ -69,4 +69,3 @@ An embedded object calls <b>OnShowWindow</b> to keep its container informed when
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
-

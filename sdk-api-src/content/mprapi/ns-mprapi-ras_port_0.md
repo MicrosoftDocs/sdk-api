@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _RAS_PORT_0
- - PRAS_PORT_0
  - RAS_PORT_0
 ---
 
@@ -114,4 +112,3 @@ Specifies the device type.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-

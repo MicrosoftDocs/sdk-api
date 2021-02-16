@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsDeregisterDnsHostRecordsA
  - dsgetdc/DsDeregisterDnsHostRecordsA
- - DsDeregisterDnsHostRecords
- - dsgetdc/DsDeregisterDnsHostRecords
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Netapi32.dll
 api_name:
- - DsDeregisterDnsHostRecordsA
  - DsDeregisterDnsHostRecords
+ - DsDeregisterDnsHostRecordsA
+ - DsDeregisterDnsHostRecordsW
 ---
 
 # DsDeregisterDnsHostRecordsA function
@@ -99,4 +98,3 @@ This function deregisters SRV and CNAME records only. It leaves type A records i
 
 
 <a href="/windows/desktop/api/dsgetdc/nf-dsgetdc-dsgetsitenamea">DsGetSiteName</a>
-

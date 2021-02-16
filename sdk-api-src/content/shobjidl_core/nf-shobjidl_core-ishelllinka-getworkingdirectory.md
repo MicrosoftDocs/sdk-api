@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellLinkA::GetWorkingDirectory
+ - IShellLink.GetWorkingDirectory
+ - IShellLinkA.GetWorkingDirectory
+ - IShellLinkW.GetWorkingDirectory
 ---
 
 # IShellLinkA::GetWorkingDirectory

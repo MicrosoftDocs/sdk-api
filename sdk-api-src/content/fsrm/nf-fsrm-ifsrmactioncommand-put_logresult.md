@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionCommand::put_LogResult
+ - IFsrmActionCommand.LogResult
+ - IFsrmActionCommand.get_LogResult
+ - IFsrmActionCommand.put_LogResult
 ---
 
 # IFsrmActionCommand::put_LogResult
@@ -85,4 +87,3 @@ For FSRM to log an event, the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

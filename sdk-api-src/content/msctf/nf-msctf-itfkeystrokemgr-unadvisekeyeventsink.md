@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr::UnadviseKeyEventSink
+ - ITfKeystrokeMgr.UnadviseKeyEventSink
 ---
 
 # ITfKeystrokeMgr::UnadviseKeyEventSink
@@ -110,4 +110,3 @@ The advise sink identified by <i>tid</i> was not found.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfkeystrokemgr-advisekeyeventsink">ITfKeystrokeMgr::AdviseKeyEventSink
       </a>
-

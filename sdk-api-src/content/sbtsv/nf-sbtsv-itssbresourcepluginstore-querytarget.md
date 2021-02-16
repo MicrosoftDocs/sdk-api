@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::QueryTarget
+ - ITsSbResourcePluginStore.QueryTarget
+ - ITsSbResourcePluginStoreEx.QueryTarget
 ---
 
 # ITsSbResourcePluginStore::QueryTarget
@@ -85,4 +86,3 @@ A resource plug-in store can use this method to retrieve the target that has the
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
-

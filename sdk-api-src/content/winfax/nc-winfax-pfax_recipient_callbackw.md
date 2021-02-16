@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
+ - FAX_RECIPIENT_CALLBACK
+ - PFAX_RECIPIENT_CALLBACKA
  - PFAX_RECIPIENT_CALLBACKW
 ---
 
@@ -134,4 +136,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxsenddocumentforbroadcasta">FaxSendDocumentForBroadcast</a>
-

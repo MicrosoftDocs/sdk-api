@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextSelection::MoveDown
+ - ITextSelection.MoveDown
 ---
 
 # ITextSelection::MoveDown
@@ -178,4 +178,3 @@ The <a href="/windows/desktop/api/tom/nf-tom-itextselection-moveup">ITextSelecti
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

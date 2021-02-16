@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolderManager::RegisterFolder
+ - IKnownFolderManager.RegisterFolder
 ---
 
 # IKnownFolderManager::RegisterFolder
@@ -104,4 +104,3 @@ You can suppress the display of the <b>Customize</b> page of your known folder's
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCProviderConfig::RequestOverride
+ - IWPCProviderConfig.RequestOverride
 ---
 
 # IWPCProviderConfig::RequestOverride
@@ -148,4 +148,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcproviderconfig">IWPCProviderConfig</a>
-

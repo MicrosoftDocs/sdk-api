@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomationElement4::get_CachedAnnotationTypes
+ - IUIAutomationElement4.CachedAnnotationTypes
+ - IUIAutomationElement4.get_CachedAnnotationTypes
 ---
 
 # IUIAutomationElement4::get_CachedAnnotationTypes
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement4">IUIAutomationElement4</a>
-

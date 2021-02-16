@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataAdviseHolder::Unadvise
+ - IDataAdviseHolder.Unadvise
 ---
 
 # IDataAdviseHolder::Unadvise
@@ -87,4 +87,3 @@ The <i>dwConnection</i> parameter does not specify a valid connection.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-idataobject-dunadvise">IDataObject::DUnadvise</a>
-

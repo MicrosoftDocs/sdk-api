@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfPropertyStore::Clone
+ - ITfPropertyStore.Clone
 ---
 
 # ITfPropertyStore::Clone
@@ -99,4 +99,3 @@ This method creates a new property store object and initializes the new object s
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfpropertystore">ITfPropertyStore
       </a>
-

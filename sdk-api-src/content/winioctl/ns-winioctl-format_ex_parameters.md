@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FORMAT_EX_PARAMETERS
- - PFORMAT_EX_PARAMETERS
  - FORMAT_EX_PARAMETERS
 ---
 
@@ -100,4 +98,3 @@ An array of values specifying the sector numbers of the sectors to be included i
 
 
 <a href="/windows/desktop/api/winioctl/ne-winioctl-media_type">MEDIA_TYPE</a>
-

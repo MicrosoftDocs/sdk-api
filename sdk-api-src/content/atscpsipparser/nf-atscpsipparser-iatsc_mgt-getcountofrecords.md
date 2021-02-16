@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_MGT::GetCountOfRecords
+ - IATSC_MGT.GetCountOfRecords
 ---
 
 # IATSC_MGT::GetCountOfRecords
@@ -99,4 +99,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_mgt">IATSC_MGT Interface</a>
-

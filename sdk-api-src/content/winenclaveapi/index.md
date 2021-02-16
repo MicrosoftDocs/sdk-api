@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - winenclaveapi
  - winenclaveapi/winenclaveapi
-api_name:
- - winenclaveapi
 ---
 
 # Winenclaveapi.h header

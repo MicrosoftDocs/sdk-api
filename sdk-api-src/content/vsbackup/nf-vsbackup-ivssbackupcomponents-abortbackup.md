@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::AbortBackup
+ - IVssBackupComponents.AbortBackup
 ---
 
 # IVssBackupComponents::AbortBackup
@@ -149,4 +149,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-startsnapshotset">IVssBackupComponents::StartSnapshotSet</a>
-

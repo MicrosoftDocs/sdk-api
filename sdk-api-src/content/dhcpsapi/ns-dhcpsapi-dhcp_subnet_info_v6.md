@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SUBNET_INFO_V6
- - PDHCP_SUBNET_INFO_V6
  - DHCP_SUBNET_INFO_V6
 ---
 
@@ -91,4 +89,3 @@ A <b>DWORD</b> value that serves as the unique identifier for the IPv6 prefix. T
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
-

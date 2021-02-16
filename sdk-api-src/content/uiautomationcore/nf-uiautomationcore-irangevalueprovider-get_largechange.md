@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IRangeValueProvider::get_LargeChange
+ - IRangeValueProvider.LargeChange
+ - IRangeValueProvider.get_LargeChange
 ---
 
 # IRangeValueProvider::get_LargeChange
@@ -85,4 +86,3 @@ numeric_limits<double>::quiet_NaN( )
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

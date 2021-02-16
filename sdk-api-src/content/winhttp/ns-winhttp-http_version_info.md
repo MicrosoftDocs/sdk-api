@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
- - LPHTTP_VERSION_INFO
  - HTTP_VERSION_INFO
 ---
 
@@ -70,4 +69,3 @@ Minor version number. Can be either 1 or 0.
 ## -see-also
 
 <a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP Versions</a>
-

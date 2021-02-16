@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1BlendTransform::GetDescription
+ - ID2D1BlendTransform.GetDescription
 ---
 
 # ID2D1BlendTransform::GetDescription
@@ -68,4 +68,3 @@ When this method returns, contains the blend description specified for the blend
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createresourcetexture">ID2D1EffectContext::CreateResourceTexture</a>
-

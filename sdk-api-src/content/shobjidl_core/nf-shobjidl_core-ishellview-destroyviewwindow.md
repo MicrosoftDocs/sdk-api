@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::DestroyViewWindow
+ - IShellView.DestroyViewWindow
 ---
 
 # IShellView::DestroyViewWindow
@@ -70,4 +70,3 @@ Clean up all states that represent the view, including the window and any other 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

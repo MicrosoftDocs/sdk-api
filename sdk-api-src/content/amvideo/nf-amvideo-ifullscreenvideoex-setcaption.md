@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::SetCaption
+ - IFullScreenVideoEx.SetCaption
 ---
 
 # IFullScreenVideoEx::SetCaption
@@ -103,4 +103,3 @@ The caption is visible when the window is minimized.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

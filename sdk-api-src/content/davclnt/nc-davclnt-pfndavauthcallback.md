@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Davclnt.h
 api_name:
- - PFNDAVAUTHCALLBACK
+ - DavAuthCallback
 ---
 
 ## -description
@@ -202,4 +202,3 @@ This callback function should prompt the user for credentials (either a <a href=
 
 
 <a href="/windows/desktop/api/davclnt/nc-davclnt-pfndavauthcallback_freecred">DavFreeCredCallback</a>
-

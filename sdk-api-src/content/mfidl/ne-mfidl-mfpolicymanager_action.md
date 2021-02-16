@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFPOLICYMANAGER_ACTION
  - MFPOLICYMANAGER_ACTION
 ---
 
@@ -96,4 +95,3 @@ Last member of the enumeration.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_group_property_flags_tag
  - PEER_GROUP_PROPERTY_FLAGS
 ---
 
@@ -76,4 +75,3 @@ These flags can only be set by the peer group creator.
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_member">PEER_MEMBER</a>
-

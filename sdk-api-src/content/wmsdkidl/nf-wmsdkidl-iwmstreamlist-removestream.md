@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamList::RemoveStream
+ - IWMStreamList.RemoveStream
 ---
 
 # IWMStreamList::RemoveStream
@@ -105,4 +105,3 @@ The <b>RemoveStream</b> method also removes the stream from any mutual exclusion
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamlist-addstream">IWMStreamList::AddStream</a>
-

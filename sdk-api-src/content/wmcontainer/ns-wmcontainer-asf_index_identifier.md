@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmcontainer.h
 api_name:
- - _ASF_INDEX_IDENTIFIER
  - ASF_INDEX_IDENTIFIER
 ---
 
@@ -84,4 +83,3 @@ The index object of an ASF file can contain a number of distinct indexes. Each i
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

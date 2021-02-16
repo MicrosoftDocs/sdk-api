@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::GetTextExt
+ - ITextStoreACP2.GetTextExt
 ---
 
 # ITextStoreACP2::GetTextExt
@@ -147,4 +147,3 @@ If the document window is minimized, or if the specified text is not currently v
 ## -see-also
 
 <a href="/windows/desktop/api/textstor/nn-textstor-itextstoreacp2">ITextStoreACP2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport::PreRestore
+ - IWsbApplicationRestoreSupport.PreRestore
 ---
 
 # IWsbApplicationRestoreSupport::PreRestore
@@ -81,4 +81,3 @@ During application restore, Windows Server Backup calls this method before resto
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationrestoresupport">IWsbApplicationRestoreSupport</a>
-

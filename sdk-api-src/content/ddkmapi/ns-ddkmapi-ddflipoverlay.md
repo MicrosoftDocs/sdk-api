@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDFLIPOVERLAY
- - LPDDFLIPOVERLAY
  - DDFLIPOVERLAY
 ---
 
@@ -110,4 +108,3 @@ For use only when displaying video in an overlay surface. The new surface contai
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

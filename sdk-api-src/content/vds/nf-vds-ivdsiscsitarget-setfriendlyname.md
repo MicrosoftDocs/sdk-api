@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget::SetFriendlyName
+ - IVdsIscsiTarget.SetFriendlyName
 ---
 
 # IVdsIscsiTarget::SetFriendlyName
@@ -152,4 +152,3 @@ This operation or combination of parameters is not supported by this provider.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsitarget">IVdsIscsiTarget</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::Capabilities
+ - IPortableDeviceService.Capabilities
 ---
 
 # IPortableDeviceService::Capabilities
@@ -106,4 +106,3 @@ A <b>NULL</b> parameter was specified.
 
 
 <a href="/windows/desktop/wpd_sdk/retrieving-supported-methods">Retrieving Supported Service Methods</a>
-

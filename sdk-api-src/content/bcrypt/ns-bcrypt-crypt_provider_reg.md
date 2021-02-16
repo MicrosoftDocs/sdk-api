@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _CRYPT_PROVIDER_REG
- - PCRYPT_PROVIDER_REG
  - CRYPT_PROVIDER_REG
 ---
 
@@ -75,4 +73,3 @@ A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">C
 ### -field pKM
 
 A pointer to a <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_image_reg">CRYPT_IMAGE_REG</a> structure that contains the registration information for the kernel mode provider. If this member is <b>NULL</b>, the provider is not registered for kernel mode.
-

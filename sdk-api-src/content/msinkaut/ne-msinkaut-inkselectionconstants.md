@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msinkaut.h
 api_name:
- - ItemSelectionConstants
  - InkSelectionConstants
 ---
 
@@ -84,4 +83,3 @@ The first element is used.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokedisp-setpoints">SetPoints Method [IInkStrokeDisp Interface]</a>
-

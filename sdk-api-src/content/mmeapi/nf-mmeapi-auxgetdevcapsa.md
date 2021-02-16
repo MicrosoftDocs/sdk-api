@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - auxGetDevCapsA
  - mmeapi/auxGetDevCapsA
- - auxGetDevCaps
- - mmeapi/auxGetDevCaps
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-mm-mme-l1-1-0.dll
  - winmmbase.dll
 api_name:
- - auxGetDevCapsA
  - auxGetDevCaps
+ - auxGetDevCapsA
+ - auxGetDevCapsW
 ---
 
 # auxGetDevCapsA function
@@ -124,4 +123,3 @@ The device identifier in <i>uDeviceID</i> varies from zero to one less than the 
 
 
 <a href="/windows/desktop/Multimedia/waveform-functions">Waveform Functions</a>
-

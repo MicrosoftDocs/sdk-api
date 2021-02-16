@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration::get_Identifier
+ - IOCSPCAConfiguration.Identifier
+ - IOCSPCAConfiguration.get_Identifier
 ---
 
 # IOCSPCAConfiguration::get_Identifier
@@ -63,4 +64,3 @@ The name returned in <i>pVal</i> corresponds to the name used in the <i>bstrIden
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallIndirect::GetMethodInfo
+ - ICallIndirect.GetMethodInfo
 ---
 
 # ICallIndirect::GetMethodInfo
@@ -106,4 +106,3 @@ The information returned is a static analysis of the method, not a dynamic one, 
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallindirect">ICallIndirect</a>
-

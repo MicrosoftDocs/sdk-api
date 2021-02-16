@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegisterTraceGuidsA
  - evntrace/RegisterTraceGuidsA
- - RegisterTraceGuids
- - evntrace/RegisterTraceGuids
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
  - API-MS-Win-eventing-classicprovider-l1-1-0.dll
 api_name:
- - RegisterTraceGuidsA
  - RegisterTraceGuids
+ - RegisterTraceGuidsA
+ - RegisterTraceGuidsW
 ---
 
 # RegisterTraceGuidsA function
@@ -184,4 +183,3 @@ For an example that uses
 
 
 <a href="/windows/desktop/ETW/unregistertraceguids">UnregisterTraceGuids</a>
-

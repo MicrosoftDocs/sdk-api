@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhGetFormattedCounterArrayA
  - pdh/PdhGetFormattedCounterArrayA
- - PdhGetFormattedCounterArray
- - pdh/PdhGetFormattedCounterArray
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhGetFormattedCounterArrayA
  - PdhGetFormattedCounterArray
+ - PdhGetFormattedCounterArrayA
+ - PdhGetFormattedCounterArrayW
 ---
 
 # PdhGetFormattedCounterArrayA function
@@ -349,4 +348,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhgetrawcountervalue">PdhGetRawCounterValue</a>
-

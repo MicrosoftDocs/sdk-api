@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimer::SetFrameRateThreshold
+ - IUIAnimationTimer.SetFrameRateThreshold
 ---
 
 # IUIAnimationTimer::SetFrameRateThreshold
@@ -74,4 +74,3 @@ If the rendering frame rate for an animation falls below the specified frame rat
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler">IUIAnimationTimerEventHandler</a>
-

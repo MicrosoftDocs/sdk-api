@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext2::UpdateTileMappings
+ - ID3D11DeviceContext2.UpdateTileMappings
 ---
 
 # ID3D11DeviceContext2::UpdateTileMappings
@@ -387,4 +387,3 @@ CopyTileMappings
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2">ID3D11DeviceContext2</a>
-

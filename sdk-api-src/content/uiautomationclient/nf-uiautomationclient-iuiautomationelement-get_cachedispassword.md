@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedIsPassword
+ - IUIAutomationElement.CachedIsPassword
+ - IUIAutomationElement.get_CachedIsPassword
 ---
 
 # IUIAutomationElement::get_CachedIsPassword
@@ -75,4 +76,3 @@ This property enables applications such as screen-readers to determine whether t
 
 
 <b>Reference</b>
-

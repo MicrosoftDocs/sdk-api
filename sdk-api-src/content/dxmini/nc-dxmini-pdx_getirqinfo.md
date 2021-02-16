@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_GETIRQINFO
+ - DxGetIRQInfo
 ---
 
 ## -description
@@ -52,15 +52,12 @@ The<i> DxGetIRQInfo</i> callback function indicates that the driver manages the 
 ## -parameters
 
 ### -param Arg1
-
 Points to the miniport driver's device extension.
 
 ### -param Arg2
-
 Reserved for system use.
 
 ### -param Arg3
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetirqinfo">DDGETIRQINFO</a> structure that contains the interrupt request information.
 
 ## -returns
@@ -74,4 +71,3 @@ Because the miniport driver must always manage the IRQ, this function must alway
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/ns-dxmini-ddgetirqinfo">DDGETIRQINFO</a>
-

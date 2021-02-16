@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDescriptionDocument::get_ReadyState
+ - IUPnPDescriptionDocument.get_ReadyState
 ---
 
 # IUPnPDescriptionDocument::get_ReadyState
@@ -133,4 +133,3 @@ For C++: If this property's "get" method succeeds, the return value is S_OK. Oth
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdescriptiondocument-loadasync">IUPnPDescriptionDocument::LoadAsync</a>
-

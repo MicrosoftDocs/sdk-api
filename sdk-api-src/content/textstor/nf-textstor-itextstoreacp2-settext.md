@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::SetText
+ - ITextStoreACP2.SetText
 ---
 
 # ITextStoreACP2::SetText
@@ -211,4 +211,3 @@ This method should call the <a href="/windows/desktop/api/textstor/nf-textstor-i
 
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE</a>
-

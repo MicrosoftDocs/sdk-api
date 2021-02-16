@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking::IsUsingTimeFormat
+ - IMediaSeeking.IsUsingTimeFormat
 ---
 
 # IMediaSeeking::IsUsingTimeFormat
@@ -129,4 +129,3 @@ This method is slightly more efficient than the <a href="/windows/desktop/api/st
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>
-

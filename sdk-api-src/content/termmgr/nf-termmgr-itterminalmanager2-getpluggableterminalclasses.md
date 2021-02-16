@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalManager2::GetPluggableTerminalClasses
+ - ITTerminalManager2.GetPluggableTerminalClasses
 ---
 
 # ITTerminalManager2::GetPluggableTerminalClasses
@@ -135,4 +135,3 @@ The <i>pTerminalClasses</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itterminalmanager2">ITTerminalManager2</a>
-

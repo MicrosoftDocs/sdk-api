@@ -43,7 +43,8 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwMgr::get_LocalPolicy
+ - INetFwMgr.LocalPolicy
+ - INetFwMgr.get_LocalPolicy
 ---
 
 # INetFwMgr::get_LocalPolicy
@@ -66,4 +67,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy">INetFwPolicy</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetShortPathNameW
  - fileapi/GetShortPathNameW
- - GetShortPathName
- - fileapi/GetShortPathName
 dev_langs:
  - c++
 topic_type:
@@ -59,8 +57,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetShortPathNameW
  - GetShortPathName
+ - GetShortPathNameA
+ - GetShortPathNameW
 ---
 
 # GetShortPathNameW function
@@ -270,4 +269,3 @@ The following C++ example shows how to use a dynamically allocated output buffer
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setfileshortnamea">SetFileShortName</a>
-

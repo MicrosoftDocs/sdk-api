@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_PROVIDER_TYPE
- - PVSS_PROVIDER_TYPE
  - VSS_PROVIDER_TYPE
 ---
 
@@ -109,4 +107,3 @@ A file share provider.
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_source_type">VSS_SOURCE_TYPE</a>
-

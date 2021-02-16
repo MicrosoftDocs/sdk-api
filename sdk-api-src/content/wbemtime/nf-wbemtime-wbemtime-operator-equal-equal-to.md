@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::operator==
+ - WBEMTime.operator==
 ---
 
 # WBEMTime::operator-equal-equal-to
@@ -68,4 +68,3 @@ Reference to the <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object 
 ## -returns
 
 True if this time and the time specified by <i>uTarget</i> are identical.
-

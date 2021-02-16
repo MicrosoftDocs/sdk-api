@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetPrivateProfileSectionA
  - winbase/GetPrivateProfileSectionA
- - GetPrivateProfileSection
- - winbase/GetPrivateProfileSection
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-Core-Privateprofile-l1-1-1.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GetPrivateProfileSectionA
  - GetPrivateProfileSection
+ - GetPrivateProfileSectionA
+ - GetPrivateProfileSectionW
 ---
 
 # GetPrivateProfileSectionA function
@@ -142,4 +141,3 @@ Comments (any line that starts with a semicolon) are stripped out and not return
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprivateprofilesectiona">WritePrivateProfileSection</a>
-

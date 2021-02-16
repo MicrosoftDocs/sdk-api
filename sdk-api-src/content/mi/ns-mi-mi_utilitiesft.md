@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_UtilitiesFT
  - MI_UtilitiesFT
 ---
 
@@ -82,4 +81,3 @@ This function has been deprecated. See
 
 This function has been deprecated. See 
    <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_utilities_maperrortomierrorcategory">MI_Utilities_MapErrorToMiErrorCategory</a>.
-

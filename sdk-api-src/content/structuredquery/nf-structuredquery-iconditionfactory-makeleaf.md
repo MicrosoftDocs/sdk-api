@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory::MakeLeaf
+ - IConditionFactory.MakeLeaf
 ---
 
 # IConditionFactory::MakeLeaf
@@ -148,4 +148,3 @@ A virtual property has one or more metadata items in which the key is "MapsToRel
 
 
 <b>Reference</b>
-

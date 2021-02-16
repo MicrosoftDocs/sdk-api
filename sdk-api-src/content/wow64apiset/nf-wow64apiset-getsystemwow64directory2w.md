@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetSystemWow64Directory2W
  - wow64apiset/GetSystemWow64Directory2W
- - GetSystemWow64Directory2
- - wow64apiset/GetSystemWow64Directory2
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Core-Wow64-L1-1-1.dll
  - KernelBase.dll
 api_name:
- - GetSystemWow64Directory2W
  - GetSystemWow64Directory2
+ - GetSystemWow64Directory2A
+ - GetSystemWow64Directory2W
 ---
 
 # GetSystemWow64Directory2W function
@@ -97,4 +96,3 @@ For more information on WOW64, see
 ## -see-also
 
 <a href="/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directorya">GetSystemWow64Directory</a>
-

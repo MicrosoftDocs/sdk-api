@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistration::GetProviderName
+ - IMbnRegistration.GetProviderName
 ---
 
 # IMbnRegistration::GetProviderName
@@ -136,4 +136,3 @@ For the recoverable error <b>E_MBN_PIN_REQUIRED</b>, the Mobile Broadband servic
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a>
-

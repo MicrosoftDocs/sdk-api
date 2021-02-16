@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestReader::GetCapabilities
+ - IAppxManifestReader.GetCapabilities
 ---
 
 # IAppxManifestReader::GetCapabilities
@@ -75,4 +75,3 @@ If no package capabilities are defined in the manifest, this method returns <b>S
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
-

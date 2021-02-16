@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertView::GetColumnIndex
+ - ICertView2.GetColumnIndex
+ - ICertView.GetColumnIndex
+ - CCertView.GetColumnIndex
 ---
 
 # ICertView::GetColumnIndex
@@ -138,4 +140,3 @@ This method is used to determine the index of the column specified by the <i>str
 
 
 <a href="/windows/desktop/api/certview/nf-certview-icertview-setrestriction">ICertView::SetRestriction</a>
-

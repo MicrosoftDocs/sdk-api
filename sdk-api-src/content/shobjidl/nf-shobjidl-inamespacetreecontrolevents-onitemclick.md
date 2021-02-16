@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnItemClick
+ - INameSpaceTreeControlEvents.OnItemClick
 ---
 
 # INameSpaceTreeControlEvents::OnItemClick
@@ -173,4 +173,3 @@ If this method fails, the event is processed by both <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

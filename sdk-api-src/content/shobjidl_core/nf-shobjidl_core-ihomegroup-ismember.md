@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IHomeGroup::IsMember
+ - IHomeGroup.IsMember
 ---
 
 # IHomeGroup::IsMember
@@ -113,4 +113,3 @@ hr = spHomeGroup->IsMember(&fIsHGMember);
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ihomegroup">IHomeGroup</a>
-

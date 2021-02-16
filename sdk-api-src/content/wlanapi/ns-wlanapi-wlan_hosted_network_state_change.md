@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_STATE_CHANGE
- - PWLAN_HOSTED_NETWORK_STATE_CHANGE
  - WLAN_HOSTED_NETWORK_STATE_CHANGE
 ---
 
@@ -91,4 +89,3 @@ The <b>WLAN_HOSTED_NETWORK_STATE_CHANGE</b> structure is an extension to native 
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

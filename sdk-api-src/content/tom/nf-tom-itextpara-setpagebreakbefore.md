@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::SetPageBreakBefore
+ - ITextPara.SetPageBreakBefore
 ---
 
 # ITextPara::SetPageBreakBefore
@@ -198,4 +198,3 @@ This method is included for compatibility with Microsoft Word; it does not affec
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

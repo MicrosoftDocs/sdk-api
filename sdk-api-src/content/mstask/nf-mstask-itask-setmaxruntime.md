@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask::SetMaxRunTime
+ - ITask.SetMaxRunTime
 ---
 
 # ITask::SetMaxRunTime
@@ -125,4 +125,3 @@ For an example of how to set the maximum run time, see <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-

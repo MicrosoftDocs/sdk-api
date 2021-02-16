@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_parse_reference
+ - ldap_parse_referenceA
+ - ldap_parse_referenceW
 ---
 
 # ldap_parse_reference function

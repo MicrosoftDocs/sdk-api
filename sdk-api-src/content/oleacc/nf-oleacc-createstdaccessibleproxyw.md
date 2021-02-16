@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateStdAccessibleProxyW
  - oleacc/CreateStdAccessibleProxyW
- - CreateStdAccessibleProxy
- - oleacc/CreateStdAccessibleProxy
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - CreateStdAccessibleProxyW
  - CreateStdAccessibleProxy
+ - CreateStdAccessibleProxyA
+ - CreateStdAccessibleProxyW
 ---
 
 # CreateStdAccessibleProxyW function
@@ -125,4 +124,3 @@ Use <b>CreateStdAccessibleProxy</b> to create an accessible object for a user in
 
 
 <a href="/windows/desktop/WinAuto/shortcuts-for-exposing-custom-user-interface-elements">Shortcuts for Exposing Custom User Interface Elements</a>
-

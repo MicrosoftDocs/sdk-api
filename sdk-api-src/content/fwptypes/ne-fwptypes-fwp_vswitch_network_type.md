@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwptypes.h
 api_name:
- - FWP_VSWITCH_NETWORK_TYPE_
  - FWP_VSWITCH_NETWORK_TYPE
 ---
 

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetActualSectionToInstallExW
  - setupapi/SetupDiGetActualSectionToInstallExW
- - SetupDiGetActualSectionToInstallEx
- - setupapi/SetupDiGetActualSectionToInstallEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetActualSectionToInstallExW
  - SetupDiGetActualSectionToInstallEx
+ - SetupDiGetActualSectionToInstallExW
 ---
 
 # SetupDiGetActualSectionToInstallExW function
@@ -277,4 +275,3 @@ If the function finds a match for the name, operating system, and processor arch
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>
-

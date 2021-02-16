@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceResources::Delete
+ - IPortableDeviceResources.Delete
 ---
 
 # IPortableDeviceResources::Delete
@@ -105,4 +105,3 @@ An application can retrieve a list of supported resources by calling the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceresources">IPortableDeviceResources Interface</a>
-

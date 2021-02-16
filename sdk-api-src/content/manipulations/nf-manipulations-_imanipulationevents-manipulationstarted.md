@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - _IManipulationEvents::ManipulationStarted
+ - _IManipulationEvents.ManipulationStarted
 ---
 
 # _IManipulationEvents::ManipulationStarted
@@ -109,4 +109,3 @@ HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationStarted(
 
 
 <a href="/windows/win32/api/manipulations/nn-manipulations-_imanipulationevents">_IManipulationEvents</a>
-

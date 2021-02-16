@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetTempFileNameW
  - fileapi/GetTempFileNameW
- - GetTempFileName
- - fileapi/GetTempFileName
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetTempFileNameW
  - GetTempFileName
+ - GetTempFileNameA
+ - GetTempFileNameW
 ---
 
 # GetTempFileNameW function
@@ -270,4 +269,3 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/naming-a-file">Naming Files, Paths, and Namespaces</a>
-

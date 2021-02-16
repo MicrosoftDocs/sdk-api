@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher::put_IncludePotentiallySupersededUpdates
+ - IUpdateSearcher.IncludePotentiallySupersededUpdates
+ - IUpdateSearcher.get_IncludePotentiallySupersededUpdates
+ - IUpdateSearcher.put_IncludePotentiallySupersededUpdates
 ---
 
 # IUpdateSearcher::put_IncludePotentiallySupersededUpdates
@@ -62,4 +64,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort::get_DeviceId
+ - IFaxPort.DeviceId
+ - IFaxPort.get_DeviceId
 ---
 
 # IFaxPort::get_DeviceId
@@ -79,4 +80,3 @@ A fax client application can use the <b>IFaxPort::get_DeviceId</b> property to u
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
-

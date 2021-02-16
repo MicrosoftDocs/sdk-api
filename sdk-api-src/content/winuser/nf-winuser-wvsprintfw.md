@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - wvsprintfW
  - winuser/wvsprintfW
- - wvsprintf
- - winuser/wvsprintf
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - wvsprintfW
  - wvsprintf
+ - wvsprintfA
+ - wvsprintfW
 ---
 
 # wvsprintfW function
@@ -145,4 +144,3 @@ The function copies the format-control string into the output buffer character b
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-wsprintfa">wsprintf</a>
-

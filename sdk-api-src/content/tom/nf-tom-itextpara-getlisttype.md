@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::GetListType
+ - ITextPara.GetListType
 ---
 
 # ITextPara::GetListType
@@ -341,4 +341,3 @@ For an example of <a href="/windows/win32/api/tom/ne-tom-tomconstants">tomListNu
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

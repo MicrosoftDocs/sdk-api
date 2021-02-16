@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PublicKey::InitializeFromEncodedPublicKeyInfo
+ - IX509PublicKey.InitializeFromEncodedPublicKeyInfo
 ---
 
 # IX509PublicKey::InitializeFromEncodedPublicKeyInfo
@@ -109,4 +109,3 @@ The <b>InitializeFromEncodedPublicKeyInfo</b> method initializes the following p
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
-

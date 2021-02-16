@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFELanguage::Open
+ - IFELanguage.Open
 ---
 
 # IFELanguage::Open
@@ -63,4 +63,3 @@ This method must be called before any use of the <a href="/windows/desktop/api/m
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-

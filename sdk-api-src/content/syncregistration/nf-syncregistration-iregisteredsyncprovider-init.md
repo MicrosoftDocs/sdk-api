@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - IRegisteredSyncProvider::Init
+ - IRegisteredSyncProvider.Init
 ---
 
 # IRegisteredSyncProvider::Init
@@ -91,4 +91,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-iregisteredsyncprovider">IRegisteredSyncProvider Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSignedLibrary::GetProcedureAddress
+ - IMFSignedLibrary.GetProcedureAddress
 ---
 
 # IMFSignedLibrary::GetProcedureAddress
@@ -95,4 +95,3 @@ See  <a href="/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSig
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-mfloadsignedlibrary">MFLoadSignedLibrary</a>
-

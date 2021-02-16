@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiometadata.h
 api_name:
- - ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
+ - ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
 ---
 
 # ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadatacommands">ISpatialAudioObjectForMetadataCommands</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSiloAction::GetDescription
+ - IEnhancedStorageSiloAction.GetDescription
 ---
 
 # IEnhancedStorageSiloAction::GetDescription
@@ -100,4 +100,3 @@ When the caller no longer requires access to the string, this buffer must be fre
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesiloaction">IEnhancedStorageSiloAction</a>
-

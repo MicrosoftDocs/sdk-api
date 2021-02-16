@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
+ - IRDPSRAPIAttendeeDisconnectInfo.Attendee
+ - IRDPSRAPIAttendeeDisconnectInfo.get_Attendee
+ - RDPSRAPIAttendeeDisconnectInfo.Attendee
 ---
 
 # IRDPSRAPIAttendeeDisconnectInfo::get_Attendee
@@ -63,4 +65,3 @@ Applications can query properties, but any attempt to modify properties fails wi
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiattendeedisconnectinfo">IRDPSRAPIAttendeeDisconnectInfo</a>
-

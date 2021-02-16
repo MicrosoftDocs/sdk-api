@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetNotifyInterface
+ - IBackgroundCopyJob.GetNotifyInterface
 ---
 
 # IBackgroundCopyJob::GetNotifyInterface
@@ -104,4 +104,3 @@ Must pass the address of the <i>ppNotifyInterface</i> interface pointer.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setnotifyinterface">IBackgroundCopyJob::SetNotifyInterface</a>
-

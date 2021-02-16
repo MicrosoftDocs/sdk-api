@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory::CreateBitmapFromSourceRect
+ - IWICImagingFactory.CreateBitmapFromSourceRect
 ---
 
 # IWICImagingFactory::CreateBitmapFromSourceRect
@@ -101,4 +101,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Providing a rectangle that is larger than the source will produce undefined results.
 
 This method always creates a separate copy of the source image, similar to the cache option <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapcreatecacheoption">WICBitmapCacheOnLoad</a>.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ContextInfo::GetTransactionId
+ - ContextInfo.GetTransactionId
 ---
 
 # ContextInfo::GetTransactionId
@@ -94,4 +94,3 @@ The object is not executing within a transaction.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-contextinfo">ContextInfo</a>
-

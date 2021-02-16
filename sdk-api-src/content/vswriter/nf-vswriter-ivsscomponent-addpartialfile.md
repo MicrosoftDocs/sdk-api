@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::AddPartialFile
+ - IVssComponent.AddPartialFile
 ---
 
 # IVssComponent::AddPartialFile
@@ -206,4 +206,3 @@ Any newly added files will not support alternate location mappings.
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>
-

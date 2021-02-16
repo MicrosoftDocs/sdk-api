@@ -43,7 +43,7 @@ api_location:
  - Nldef.h
  - Iptypes.h
 api_name:
- - NL_SUFFIX_ORIGIN
+ - IP_SUFFIX_ORIGIN
 ---
 
 # NL_SUFFIX_ORIGIN enumeration
@@ -109,4 +109,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 ## -see-also
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_adapter_unicast_address_lh">IP_ADAPTER_UNICAST_ADDRESS</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationAsync::QueryStatus
+ - IWsbApplicationAsync.QueryStatus
 ---
 
 # IWsbApplicationAsync::QueryStatus
@@ -81,4 +81,3 @@ Windows Server Backup calls this  method periodically to query the status of a p
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationasync">IWsbApplicationAsync</a>
-

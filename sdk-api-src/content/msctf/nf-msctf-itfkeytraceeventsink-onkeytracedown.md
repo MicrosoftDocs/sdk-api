@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITfKeyTraceEventSink::OnKeyTraceDown
+ - ITfKeyTraceEventSink.OnKeyTraceDown
 ---
 
 # ITfKeyTraceEventSink::OnKeyTraceDown
@@ -74,4 +74,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>
-

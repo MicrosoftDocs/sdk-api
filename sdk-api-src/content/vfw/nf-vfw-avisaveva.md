@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AVISaveVA
  - vfw/AVISaveVA
- - AVISaveV
- - vfw/AVISaveV
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - AVISaveVA
  - AVISaveV
+ - AVISaveVA
+ - AVISaveVW
 ---
 
 # AVISaveVA function
@@ -109,4 +108,3 @@ The argument <i>ppavi</i> contains the address of a pointer to an <a href="/wind
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-

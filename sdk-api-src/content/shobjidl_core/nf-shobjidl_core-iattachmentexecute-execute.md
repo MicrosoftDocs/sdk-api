@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute::Execute
+ - IAttachmentExecute.Execute
 ---
 
 # IAttachmentExecute::Execute
@@ -91,4 +91,3 @@ If a prompt is indicated, <b>IAttachmentExecute::Execute</b> calls <a href="/win
 If <i>phProcess</i> is not <b>NULL</b>, <b>IAttachmentExecute::Execute</b> operates as a synchronous process and returns an <b>HPROCESS</b>, if available. If <i>phProcess</i> is <b>NULL</b>, <b>IAttachmentExecute::Execute</b> operates as an asynchronous process. This implies that the calling application has a message pump and a long-lived window.
 
 If the handle pointed to by <i>phProcess</i> is non-<b>NULL</b> when the method returns, the calling application is responsible for calling <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a> to free the handle when it is no longer needed.
-

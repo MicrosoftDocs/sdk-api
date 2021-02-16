@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::getROOTHStore
+ - IEnroll.getROOTHStore
+ - IEnroll4.getROOTHStore
 ---
 
 # IEnroll::getROOTHStore
@@ -67,4 +68,3 @@ This method always returns <b>NULL</b>. <a href="/windows/desktop/api/errhandlin
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

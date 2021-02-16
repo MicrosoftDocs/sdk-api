@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsBackup.h
 api_name:
- - IVssBackupComponentsEx3::AddSnapshotToRecoverySet
+ - IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 ---
 
 # IVssBackupComponentsEx3::AddSnapshotToRecoverySet
@@ -166,4 +166,3 @@ LUN resynchronization is not supported on this volume, because it is a dynamic v
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssbackupcomponentsex3">IVssBackupComponentsEx3</a>
-

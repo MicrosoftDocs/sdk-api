@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHGetFileInfoW
  - shellapi/SHGetFileInfoW
- - SHGetFileInfo
- - shellapi/SHGetFileInfo
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - Ext-MS-Win-Shell32-Shellfolders-L1-1-1.dll
  - Windows.Storage.dll
 api_name:
- - SHGetFileInfoW
  - SHGetFileInfo
+ - SHGetFileInfoA
+ - SHGetFileInfoW
 ---
 
 # SHGetFileInfoW function
@@ -416,4 +415,3 @@ ILFree(pidl);
 ## -see-also
 
 <a href="/windows/desktop/shell/fileiconinit">FileIconInit</a>
-

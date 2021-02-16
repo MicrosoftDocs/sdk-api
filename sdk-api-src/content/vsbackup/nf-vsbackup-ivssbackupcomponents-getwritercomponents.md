@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::GetWriterComponents
+ - IVssBackupComponents.GetWriterComponents
 ---
 
 # IVssBackupComponents::GetWriterComponents
@@ -207,4 +207,3 @@ If you call one of these methods after you have retrieved an <a href="/windows/d
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivsswritercomponentsext">IVssWriterComponentsExt</a>
-

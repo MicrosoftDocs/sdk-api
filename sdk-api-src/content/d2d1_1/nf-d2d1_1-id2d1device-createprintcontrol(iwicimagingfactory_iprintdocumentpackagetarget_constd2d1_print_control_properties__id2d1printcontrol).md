@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device::CreatePrintControl
+ - ID2D1Device.CreatePrintControl
 ---
 
 # ID2D1Device::CreatePrintControl(IWICImagingFactory,IPrintDocumentPackageTarget,const D2D1_PRINT_CONTROL_PROPERTIES &,ID2D1PrintControl)
@@ -116,4 +116,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_MESSAGE_BOX
+ - WlxMessageBox
 ---
 
 # PWLX_MESSAGE_BOX callback function
@@ -439,4 +439,3 @@ The <b>WlxMessageBox</b> function does not handle <a href="/windows/desktop/SecG
 
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::get_BorderColor
+ - IVideoWindow.get_BorderColor
 ---
 
 # IVideoWindow::get_BorderColor
@@ -114,4 +114,3 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-put_bordercolor">IVideoWindow::put_BorderColor</a>
-

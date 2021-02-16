@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetICMProfileA
  - wingdi/GetICMProfileA
- - GetICMProfile
- - wingdi/GetICMProfile
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetICMProfileA
  - GetICMProfile
+ - GetICMProfileA
+ - GetICMProfileW
 ---
 
 # GetICMProfileA function
@@ -111,4 +110,3 @@ If this function is called before any calls to the <b>SetICMProfile</b> function
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
-

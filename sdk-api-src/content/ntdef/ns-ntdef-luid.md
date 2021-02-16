@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntdef.h
 api_name:
- - _LUID
- - PLUID
  - LUID
 ---
 
@@ -75,4 +73,3 @@ The <b>LUID</b> structure is an opaque structure that specifies an identifier th
 
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">RtlIsZeroLuid</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_GET_METADATA_INFO_OUT
- - PTXFS_GET_METADATA_INFO_OUT
  - TXFS_GET_METADATA_INFO_OUT
 ---
 
@@ -114,4 +112,3 @@ Indicates the state of the transaction that has locked the file. Valid values ar
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_get_metadata_info">FSCTL_TXFS_GET_METADATA_INFO</a>
-

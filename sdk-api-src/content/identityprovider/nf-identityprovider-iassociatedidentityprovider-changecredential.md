@@ -43,7 +43,7 @@ api_location:
  - IdentityProvider.h
  - Identitystore.h
 api_name:
- - IAssociatedIdentityProvider::ChangeCredential
+ - IAssociatedIdentityProvider.ChangeCredential
 ---
 
 # IAssociatedIdentityProvider::ChangeCredential
@@ -76,4 +76,3 @@ This method should call <a href="/windows/desktop/api/wincred/nf-wincred-creduip
 ## -see-also
 
 <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iassociatedidentityprovider">IAssociatedIdentityProvider</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumWindowStationsW
  - winuser/EnumWindowStationsW
- - EnumWindowStations
- - winuser/EnumWindowStations
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - EnumWindowStationsW
  - EnumWindowStations
+ - EnumWindowStationsA
+ - EnumWindowStationsW
 ---
 
 # EnumWindowStationsW function
@@ -101,4 +100,3 @@ The
 
 
 <a href="/windows/desktop/winstation/window-stations">Window Stations</a>
-

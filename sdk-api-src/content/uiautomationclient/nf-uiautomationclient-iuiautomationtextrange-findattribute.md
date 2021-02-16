@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange::FindAttribute
+ - IUIAutomationTextRange.FindAttribute
 ---
 
 # IUIAutomationTextRange::FindAttribute
@@ -95,4 +95,3 @@ The <b>FindAttribute</b> method retrieves matching text regardless of whether th
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

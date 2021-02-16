@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerGuide::get_Columns
+ - IInkRecognizerGuide.Columns
+ - IInkRecognizerGuide.get_Columns
+ - IInkRecognizerGuide.put_Columns
+ - InkRecognizerGuide.get_Columns
+ - InkRecognizerGuide.put_Columns
 ---
 
 # IInkRecognizerGuide::get_Columns
@@ -200,4 +204,3 @@ z
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - __WMT_VIDEOIMAGE_SAMPLE2
  - WMT_VIDEOIMAGE_SAMPLE2
 ---
 
@@ -197,4 +196,3 @@ When creating an input Video Image sample, the values for the current image desc
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

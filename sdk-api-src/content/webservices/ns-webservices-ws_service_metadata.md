@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SERVICE_METADATA
  - WS_SERVICE_METADATA
 ---
 
@@ -76,4 +75,3 @@ Reference to WS_XML_STRING representing the name of the service in the WSDL docu
 
 Reference to WS_XML_STRING representing the namespace of the service in the WSDL document. Note that this field must be specified along with the serviceName field.
                 The service model expects this to be valid for the lifetime of the <a href="/windows/desktop/wsw/ws-service-host">WS_SERVICE_HOST</a>.
-

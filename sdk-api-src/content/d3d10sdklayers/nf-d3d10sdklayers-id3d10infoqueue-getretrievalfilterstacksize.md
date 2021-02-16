@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue::GetRetrievalFilterStackSize
+ - ID3D10InfoQueue.GetRetrievalFilterStackSize
 ---
 
 # ID3D10InfoQueue::GetRetrievalFilterStackSize
@@ -63,4 +63,3 @@ Size of the retrieval-filter stack in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
-

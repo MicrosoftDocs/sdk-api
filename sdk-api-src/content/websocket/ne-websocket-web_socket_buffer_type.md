@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
- - _WEB_SOCKET_BUFFER_TYPE
  - WEB_SOCKET_BUFFER_TYPE
 ---
 
@@ -102,4 +101,3 @@ Extension WebSocket frame headers (allowing reserved bits to be set by extension
 
 
 <a href="/windows/desktop/api/websocket/nf-websocket-websocketsend">WebSocketSend</a>
-

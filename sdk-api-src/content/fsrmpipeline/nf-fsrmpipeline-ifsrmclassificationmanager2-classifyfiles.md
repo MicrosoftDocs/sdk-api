@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager2::ClassifyFiles
+ - IFsrmClassificationManager2.ClassifyFiles
+ - FsrmClassificationManager.ClassifyFiles
 ---
 
 # IFsrmClassificationManager2::ClassifyFiles
@@ -96,4 +97,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

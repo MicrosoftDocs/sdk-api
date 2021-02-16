@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPersistSerializedPropStorage::SetFlags
+ - IPersistSerializedPropStorage.SetFlags
 ---
 
 # IPersistSerializedPropStorage::SetFlags
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Read/write is the default setting. <b>IPersistSerializedPropStorage::SetFlags</b> can be called at any time to toggle the read-only and read/write state of the property store.
 
 In versions of Windows before Windows 7, callers can assign a literal zero value directly into the <i>flags</i> parameter to set the read/write state. As of Windows 7, the FPSPS_DEFAULT flag value should be used instead.
-

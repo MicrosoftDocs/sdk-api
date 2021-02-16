@@ -44,7 +44,6 @@ api_type:
 api_location:
  - CallObj.h
 api_name:
- - __MIDL_ICallFrame_0003
  - CALLFRAME_COPY
 ---
 
@@ -74,4 +73,3 @@ A consequence is that whichever of these <b>CALLFRAME_COPY</b> flags are passed 
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nf-callobj-icallframe-copy">ICallFrame::Copy</a>
-

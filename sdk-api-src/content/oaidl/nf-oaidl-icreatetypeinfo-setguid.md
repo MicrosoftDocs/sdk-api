@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::SetGuid
+ - ICreateTypeInfo.SetGuid
 ---
 
 # ICreateTypeInfo::SetGuid
@@ -124,4 +124,3 @@ For an interface, this is an interface ID (IID); for a coclass, it is a class ID
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

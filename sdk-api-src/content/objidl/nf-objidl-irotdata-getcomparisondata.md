@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IROTData::GetComparisonData
+ - IROTData.GetComparisonData
 ---
 
 # IROTData::GetComparisonData
@@ -84,4 +84,3 @@ If your comparison data is longer than the value specified by the <i>cbMax</i> p
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irotdata">IROTData</a>
-

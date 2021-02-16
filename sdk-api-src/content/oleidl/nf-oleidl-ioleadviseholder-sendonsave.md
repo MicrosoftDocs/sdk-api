@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleAdviseHolder::SendOnSave
+ - IOleAdviseHolder.SendOnSave
 ---
 
 # IOleAdviseHolder::SendOnSave
@@ -71,4 +71,3 @@ To take the object from the running state to the loaded state, the client calls 
 
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleadviseholder">IOleAdviseHolder</a>
-

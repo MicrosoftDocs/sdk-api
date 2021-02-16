@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
+ - ITPluggableTerminalSuperclassRegistration.EnumerateTerminalClasses
 ---
 
 # ITPluggableTerminalSuperclassRegistration::EnumerateTerminalClasses
@@ -117,4 +117,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/termmgr/nn-termmgr-itpluggableterminalsuperclassregistration">ITPluggableTerminalSuperclassRegistration</a>
-

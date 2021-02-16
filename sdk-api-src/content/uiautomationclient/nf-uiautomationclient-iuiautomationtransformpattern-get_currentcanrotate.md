@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern::get_CurrentCanRotate
+ - IUIAutomationTransformPattern.CurrentCanRotate
+ - IUIAutomationTransformPattern.get_CurrentCanRotate
 ---
 
 # IUIAutomationTransformPattern::get_CurrentCanRotate
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-rotate">IUIAutomationTransformPattern::Rotate</a>
-

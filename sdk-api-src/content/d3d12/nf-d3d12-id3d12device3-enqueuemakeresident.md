@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device3::EnqueueMakeResident
+ - ID3D12Device3.EnqueueMakeResident
 ---
 
 # ID3D12Device3::EnqueueMakeResident
@@ -113,4 +113,3 @@ The system will not allow work that references the resources that are being made
 
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device3">ID3D12Device3</a>
-

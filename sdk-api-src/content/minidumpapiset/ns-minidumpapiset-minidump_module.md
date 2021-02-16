@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_MODULE
- - PMINIDUMP_MODULE
  - MINIDUMP_MODULE
 ---
 
@@ -113,4 +111,3 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/api/verrsrc/ns-verrsrc-vs_fixedfileinfo">VS_FIXEDFILEINFO</a>
-

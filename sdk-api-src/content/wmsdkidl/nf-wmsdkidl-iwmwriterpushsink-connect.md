@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPushSink::Connect
+ - IWMWriterPushSink.Connect
 ---
 
 # IWMWriterPushSink::Connect
@@ -142,4 +142,3 @@ If the publishing point specified in <i>pwsURL</i> does not exist, the server cr
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink Interface</a>
-

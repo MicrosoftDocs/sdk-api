@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsContext::GetStoredSettings
+ - ISettingsContext.GetStoredSettings
 ---
 
 # ISettingsContext::GetStoredSettings
@@ -83,4 +83,3 @@ It may return <b>E_OUTOFMEMORY</b> if there are insufficient resources on the sy
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
-

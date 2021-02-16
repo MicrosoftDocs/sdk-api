@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings::Refresh
+ - IAutomaticUpdatesSettings.Refresh
 ---
 
 # IAutomaticUpdatesSettings::Refresh
@@ -68,4 +68,3 @@ Calling <b>Refresh</b>  resets any setting changes that have not been saved by u
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatessettings">IAutomaticUpdatesSettings</a>
-

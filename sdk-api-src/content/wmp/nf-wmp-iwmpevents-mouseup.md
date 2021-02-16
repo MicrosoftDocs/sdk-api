@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::MouseUp
+ - IWMPEvents.MouseUp
 ---
 
 # IWMPEvents::MouseUp
@@ -77,4 +77,3 @@ The <i>y</i> coordinate of the mouse pointer relative to the upper-left corner o
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - _IMEDLG
  - IMEDLG
 ---
 
@@ -80,4 +79,3 @@ The initial tab ID, 0 or 1.
 
 
 <a href="/windows/desktop/api/msime/nf-msime-ifecommon-invokewordregdialog">IFECommon::InvokeWordRegDialog</a>
-

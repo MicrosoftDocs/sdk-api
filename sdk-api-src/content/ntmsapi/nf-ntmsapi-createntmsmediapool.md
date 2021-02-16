@@ -43,6 +43,8 @@ api_location:
  - Ntmsapi.dll
 api_name:
  - CreateNtmsMediaPool
+ - CreateNtmsMediaPoolA
+ - CreateNtmsMediaPoolW
 ---
 
 # CreateNtmsMediaPool function
@@ -275,4 +277,3 @@ Application-specific media pools are created by applications. Applications creat
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>
-

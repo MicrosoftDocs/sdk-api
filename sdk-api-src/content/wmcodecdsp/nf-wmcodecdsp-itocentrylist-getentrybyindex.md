@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocEntryList::GetEntryByIndex
+ - ITocEntryList.GetEntryByIndex
 ---
 
 # ITocEntryList::GetEntryByIndex
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>
-

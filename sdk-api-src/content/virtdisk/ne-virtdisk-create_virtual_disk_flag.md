@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _CREATE_VIRTUAL_DISK_FLAG
  - CREATE_VIRTUAL_DISK_FLAG
 ---
 
@@ -109,4 +108,3 @@ The <b>CREATE_VIRTUAL_DISK_FLAG_FULL_PHYSICAL_ALLOCATION</b> flag is used for th
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

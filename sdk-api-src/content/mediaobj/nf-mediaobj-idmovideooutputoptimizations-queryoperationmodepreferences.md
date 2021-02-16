@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOVideoOutputOptimizations::QueryOperationModePreferences
+ - IDMOVideoOutputOptimizations.QueryOperationModePreferences
 ---
 
 # IDMOVideoOutputOptimizations::QueryOperationModePreferences
@@ -110,4 +110,3 @@ Success
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmovideooutputoptimizations">IDMOVideoOutputOptimizations Interface</a>
-

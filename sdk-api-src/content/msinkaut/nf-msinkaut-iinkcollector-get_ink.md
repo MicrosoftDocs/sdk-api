@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::get_Ink
+ - IInkCollector.Ink
+ - IInkCollector.get_Ink
+ - get_Ink
+ - IInkCollector.get_Ink
+ - InkCollector.get_Ink
 ---
 
 # IInkCollector::get_Ink
@@ -80,4 +84,3 @@ An <a href="/windows/desktop/tablet/inkcollector-class">InkCollector</a> creates
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlayNotify::OnPositionChange
+ - IOverlayNotify.OnPositionChange
 ---
 
 # IOverlayNotify::OnPositionChange
@@ -80,4 +80,3 @@ Unlike the <a href="/windows/desktop/api/strmif/nf-strmif-ioverlaynotify-onclipc
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify Interface</a>
-

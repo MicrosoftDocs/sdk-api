@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFPinholeCameraIntrinsic_IntrinsicModel
  - MFPinholeCameraIntrinsic_IntrinsicModel
 ---
 
@@ -76,4 +75,3 @@ The height for the pinhole camera intrinsic model, in pixels.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::InsertItem
+ - IResultData.InsertItem
+ - IResultData2.InsertItem
 ---
 
 # IResultData::InsertItem
@@ -90,4 +91,3 @@ This method does not support virtual lists.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-

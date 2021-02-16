@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicAudioTerminal::get_Balance
+ - ITBasicAudioTerminal.get_Balance
 ---
 
 # ITBasicAudioTerminal::get_Balance
@@ -129,4 +129,3 @@ The balance property is a value between –10,000 and 10,000. A value of –10,0
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itbasicaudioterminal-put_balance">put_Balance</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _MSV1_0_PROTOCOL_MESSAGE_TYPE
- - PMSV1_0_PROTOCOL_MESSAGE_TYPE
  - MSV1_0_PROTOCOL_MESSAGE_TYPE
 ---
 
@@ -178,4 +176,3 @@ This dispatch routine sets the features and permissions on  the calling thread. 
 ### -field MsV1_0ProvisionTbal
 
 ### -field MsV1_0DeleteTbalSecrets
-

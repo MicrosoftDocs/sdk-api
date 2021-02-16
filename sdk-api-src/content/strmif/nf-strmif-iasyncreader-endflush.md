@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader::EndFlush
+ - IAsyncReader.EndFlush
 ---
 
 # IAsyncReader::EndFlush
@@ -70,4 +70,3 @@ While the pin is flushing, the <a href="/windows/desktop/api/strmif/nf-strmif-ia
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
-

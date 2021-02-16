@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetDeviceInfoListDetailW
  - setupapi/SetupDiGetDeviceInfoListDetailW
- - SetupDiGetDeviceInfoListDetail
- - setupapi/SetupDiGetDeviceInfoListDetail
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetDeviceInfoListDetailW
- - SetupDiGetDeviceInfoListDetail
+ - SetupDiGetDeviceInfoListDetail - SetupDiGetDeviceInfoListDetailW
 ---
 
 # SetupDiGetDeviceInfoListDetailW function
@@ -100,4 +97,3 @@ If the device information set is for the local computer, <i>DeviceInfoSetDetailD
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinfolistclass">SetupDiGetDeviceInfoListClass</a>
-

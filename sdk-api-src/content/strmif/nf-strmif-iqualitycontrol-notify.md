@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQualityControl::Notify
+ - IQualityControl.Notify
 ---
 
 # IQualityControl::Notify
@@ -74,4 +74,3 @@ Returns S_OK if the method succeeds; otherwise, returns an <b>HRESULT</b> error 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iqualitycontrol">IQualityControl Interface</a>
-

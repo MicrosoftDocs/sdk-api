@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent3::BroadcastEventEx
+ - IMSVidStreamBufferSourceEvent3.BroadcastEventEx
 ---
 
 # IMSVidStreamBufferSourceEvent3::BroadcastEventEx
@@ -90,4 +90,3 @@ For more information, see <a href="/previous-versions/windows/desktop/api/tuner/
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3 Interface</a>
-

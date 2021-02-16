@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Rpcasync.h
 api_name:
- - tagRPC_CALL_ATTRIBUTES_V2_W
+ - RPC_CALL_ATTRIBUTES_V2
+ - RPC_CALL_ATTRIBUTES_V2_A
  - RPC_CALL_ATTRIBUTES_V2_W
 ---
 
@@ -259,4 +260,3 @@ The <b>Version</b> member indicates the version of the
 ## -see-also
 
 <a href="/windows/desktop/api/rpcasync/nf-rpcasync-rpcserverinqcallattributesa">RpcServerInqCallAttributes</a>
-

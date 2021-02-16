@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardGetStatusChangeA
  - winscard/SCardGetStatusChangeA
- - SCardGetStatusChange
- - winscard/SCardGetStatusChange
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-wlan-scard-l1-1-0.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardGetStatusChangeA
  - SCardGetStatusChange
+ - SCardGetStatusChangeA
+ - SCardGetStatusChangeW
 ---
 
 # SCardGetStatusChangeA function
@@ -152,4 +151,3 @@ For information about how to call this function, see the  example in
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardlocatecardsa">SCardLocateCards</a>
-

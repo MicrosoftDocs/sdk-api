@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector::GetOutputStreamNumbers
+ - IMFASFStreamSelector.GetOutputStreamNumbers
 ---
 
 # IMFASFStreamSelector::GetOutputStreamNumbers
@@ -103,4 +103,3 @@ An output is a stream in an ASF data section that will be parsed. If mutual excl
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig2::GetDataUnitExtensionCount
+ - IWMStreamConfig2.GetDataUnitExtensionCount
 ---
 
 # IWMStreamConfig2::GetDataUnitExtensionCount
@@ -101,4 +101,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">IWMStreamConfig2::GetDataUnitExtension</a>
-

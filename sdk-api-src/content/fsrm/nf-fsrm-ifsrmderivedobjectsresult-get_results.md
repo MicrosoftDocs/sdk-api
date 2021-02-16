@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmDerivedObjectsResult::get_Results
+ - IFsrmDerivedObjectsResult.Results
+ - IFsrmDerivedObjectsResult.get_Results
 ---
 
 # IFsrmDerivedObjectsResult::get_Results
@@ -70,4 +71,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/updating-a-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmderivedobjectsresult">IFsrmDerivedObjectsResult</a>
-

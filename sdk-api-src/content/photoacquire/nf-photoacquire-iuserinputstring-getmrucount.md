@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IUserInputString::GetMruCount
+ - IUserInputString.GetMruCount
 ---
 
 # IUserInputString::GetMruCount
@@ -99,4 +99,3 @@ If an error occurs, <i>pnMruCount</i> will be set to 0.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iuserinputstring">IUserInputString Interface</a>
-

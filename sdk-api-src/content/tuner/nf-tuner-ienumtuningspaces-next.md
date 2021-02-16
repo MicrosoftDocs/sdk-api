@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IEnumTuningSpaces::Next
+ - IEnumTuningSpaces.Next
 ---
 
 # IEnumTuningSpaces::Next
@@ -73,4 +73,3 @@ Returns S_OK if successful. This method will succeed even if <i>celt</i> is zero
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumtuningspaces">IEnumTuningSpaces Interface</a>
-

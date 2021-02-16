@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - AdjustableArrowCap::SetHeight
+ - AdjustableArrowCap.SetHeight
 ---
 
 # AdjustableArrowCap::SetHeight
@@ -70,4 +70,3 @@ If the method succeeds, it returns Ok, which is an element of the
 
 If the method fails, it returns one of the other elements of the 
 						<b>Status</b> enumeration.
-

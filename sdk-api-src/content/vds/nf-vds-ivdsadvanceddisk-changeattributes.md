@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk::ChangeAttributes
+ - IVdsAdvancedDisk.ChangeAttributes
 ---
 
 # IVdsAdvancedDisk::ChangeAttributes
@@ -138,4 +138,3 @@ For GPT disks, this method changes the hidden, read only, and no drive letter  a
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsadvanceddisk">IVdsAdvancedDisk</a>
-

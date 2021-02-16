@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IDownloadProgress::get_CurrentUpdatePercentComplete
+ - IDownloadProgress.CurrentUpdatePercentComplete
+ - IDownloadProgress.get_CurrentUpdatePercentComplete
 ---
 
 # IDownloadProgress::get_CurrentUpdatePercentComplete
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-idownloadprogress">IDownloadProgress</a>
-

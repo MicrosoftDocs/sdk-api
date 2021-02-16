@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless::OnDefWindowMessage
+ - IOleInPlaceSiteWindowless.OnDefWindowMessage
 ---
 
 # IOleInPlaceSiteWindowless::OnDefWindowMessage
@@ -131,4 +131,3 @@ If the container returns S_FALSE, the object can take action to process the wind
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-

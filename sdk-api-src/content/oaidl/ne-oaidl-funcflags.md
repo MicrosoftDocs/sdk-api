@@ -44,7 +44,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagFUNCFLAGS
  - FUNCFLAGS
 ---
 

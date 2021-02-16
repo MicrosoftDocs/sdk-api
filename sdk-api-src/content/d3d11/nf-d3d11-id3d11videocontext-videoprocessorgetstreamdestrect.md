@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoContext::VideoProcessorGetStreamDestRect
+ - ID3D11VideoContext.VideoProcessorGetStreamDestRect
 ---
 
 # ID3D11VideoContext::VideoProcessorGetStreamDestRect
@@ -73,4 +73,3 @@ A pointer to a <a href="/previous-versions/dd162897(v=vs.85)">RECT</a> structure
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videocontext">ID3D11VideoContext</a>
-

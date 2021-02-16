@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mpeg2psiparser.h
 api_name:
- - IPSITables::GetTable
+ - IPSITables.GetTable
 ---
 
 # IPSITables::GetTable
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
-

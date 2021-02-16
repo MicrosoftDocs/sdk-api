@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device2::CheckMultisampleQualityLevels1
+ - ID3D11Device2.CheckMultisampleQualityLevels1
 ---
 
 # ID3D11Device2::CheckMultisampleQualityLevels1
@@ -101,4 +101,3 @@ Note that FEATURE_LEVEL_10_1 devices are required to support 4x MSAA for all ren
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11device2">ID3D11Device2</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamConfig::SetMediaType
+ - IMFASFStreamConfig.SetMediaType
 ---
 
 # IMFASFStreamConfig::SetMediaType
@@ -96,4 +96,3 @@ Some validation of the media type is performed by this method. However, a media 
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
-

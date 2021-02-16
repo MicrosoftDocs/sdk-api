@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChange::GetChangeVersion
+ - ISyncChange.GetChangeVersion
 ---
 
 # ISyncChange::GetChangeVersion
@@ -147,4 +147,3 @@ The item has change units.
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC VERSION Structure</a>
-

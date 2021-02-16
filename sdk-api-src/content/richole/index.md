@@ -9,8 +9,6 @@ tech.root: controls
 f1_keywords:
  - richole
  - richole/richole
-api_name:
- - richole
 ---
 
 # Richole.h header

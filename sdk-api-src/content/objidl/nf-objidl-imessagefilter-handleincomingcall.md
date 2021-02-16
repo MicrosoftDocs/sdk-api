@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMessageFilter::HandleInComingCall
+ - IMessageFilter.HandleInComingCall
 ---
 
 # IMessageFilter::HandleInComingCall
@@ -134,4 +134,3 @@ You can also use <b>HandleInComingCall</b> to set up the application's state so 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imessagefilter">IMessageFilter</a>
-

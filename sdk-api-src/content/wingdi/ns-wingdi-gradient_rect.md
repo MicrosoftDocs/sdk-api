@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _GRADIENT_RECT
- - PGRADIENT_RECT
  - GRADIENT_RECT
 ---
 
@@ -102,4 +100,3 @@ For an example, see <a href="/windows/desktop/gdi/drawing-a-shaded-rectangle">Dr
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-trivertex">TRIVERTEX</a>
-

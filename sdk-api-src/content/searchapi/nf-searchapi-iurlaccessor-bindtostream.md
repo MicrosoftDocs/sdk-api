@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor::BindToStream
+ - IUrlAccessor.BindToStream
 ---
 
 # IUrlAccessor::BindToStream
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
  Using the information returned by the <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getfilename">IUrlAccessor::GetFileName</a>, <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getclsid">IUrlAccessor::GetCLSID</a>, and <a href="/windows/desktop/api/searchapi/nf-searchapi-iurlaccessor-getdocformat">IUrlAccessor::GetDocFormat</a> methods, the appropriate content <a href="/windows/desktop/api/filter/nn-filter-ifilter">IFilter</a>object is created and passed to this stream by the IPersistStream interface.
-

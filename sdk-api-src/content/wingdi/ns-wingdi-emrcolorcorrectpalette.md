@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagCOLORCORRECTPALETTE
- - PEMRCOLORCORRECTPALETTE
  - EMRCOLORCORRECTPALETTE
 ---
 
@@ -91,4 +89,3 @@ Reserved.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

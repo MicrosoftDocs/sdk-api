@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegistrationInfo::put_URI
+ - IRegistrationInfo.URI
+ - IRegistrationInfo.get_URI
+ - IRegistrationInfo.put_URI
 ---
 
 # IRegistrationInfo::put_URI
@@ -67,4 +69,3 @@ When reading or writing XML for a task, the task URI is specified using the <a h
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

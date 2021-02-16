@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB::StartTransfer
+ - IPhotoAcquireProgressCB.StartTransfer
 ---
 
 # IPhotoAcquireProgressCB::StartTransfer
@@ -99,4 +99,3 @@ Returning an error HRESULT other than E_NOTIMPL will cause acquisition to be abo
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-

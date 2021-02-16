@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetOutlineTextMetricsW
  - wingdi/GetOutlineTextMetricsW
- - GetOutlineTextMetrics
- - wingdi/GetOutlineTextMetrics
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-GDI-Font-L1-1-3.dll
  - GDI32Full.dll
 api_name:
- - GetOutlineTextMetricsW
  - GetOutlineTextMetrics
+ - GetOutlineTextMetricsA
+ - GetOutlineTextMetricsW
 ---
 
 # GetOutlineTextMetricsW function
@@ -109,4 +108,3 @@ The <a href="/windows/desktop/api/wingdi/ns-wingdi-outlinetextmetrica">OUTLINETE
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-textmetrica">TEXTMETRIC</a>
-

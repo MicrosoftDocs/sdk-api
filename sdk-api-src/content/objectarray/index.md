@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - objectarray
  - objectarray/objectarray
-api_name:
- - objectarray
 ---
 
 # Objectarray.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects::SetCurrentPreset
+ - IWMPEffects.SetCurrentPreset
 ---
 
 # IWMPEffects::SetCurrentPreset
@@ -69,4 +69,3 @@ This is called by the Windows Media Player to request that the given preset be d
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPServices::ForceLoadProperty
+ - ITextStoreACPServices.ForceLoadProperty
 ---
 
 # ITextStoreACPServices::ForceLoadProperty
@@ -109,4 +109,3 @@ When calling this method, the application must be able to grant a synchronous re
 ## -see-also
 
 [ITextStoreACPServices interface](nn-msctf-itextstoreacpservices.md), [ITextStoreACPServices::Unserialize](nf-msctf-itextstoreacpservices-unserialize.md), [ITfPersistentPropertyLoaderACP interface](nn-msctf-itfpersistentpropertyloaderacp.md), [ITfProperty interface](nn-msctf-itfproperty.md)
-

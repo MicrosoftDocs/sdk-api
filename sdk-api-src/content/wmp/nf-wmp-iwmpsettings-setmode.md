@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::setMode
+ - IWMPSettings.setMode
 ---
 
 # IWMPSettings::setMode
@@ -120,4 +120,3 @@ When the showFrame mode is active, Windows Media Player must access the track co
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-getmode">IWMPSettings::getMode</a>
-

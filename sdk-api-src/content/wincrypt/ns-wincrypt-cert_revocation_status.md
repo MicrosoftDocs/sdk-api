@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_REVOCATION_STATUS
- - PCERT_REVOCATION_STATUS
  - CERT_REVOCATION_STATUS
 ---
 
@@ -173,4 +171,3 @@ Depending on <b>cbSize</b>, this structure can contain this member. If present, 
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certverifyrevocation">CertVerifyRevocation</a>
-

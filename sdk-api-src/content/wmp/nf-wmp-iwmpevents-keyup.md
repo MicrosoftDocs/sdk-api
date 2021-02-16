@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::KeyUp
+ - IWMPEvents.KeyUp
 ---
 
 # IWMPEvents::KeyUp
@@ -73,4 +73,3 @@ A bitfield with the least significant bits corresponding to the SHIFT key (bit 0
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-keydown">KeyDown</a>
-

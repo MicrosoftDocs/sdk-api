@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ExpandEnvironmentStringsA
  - processenv/ExpandEnvironmentStringsA
- - ExpandEnvironmentStrings
- - processenv/ExpandEnvironmentStrings
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - ExpandEnvironmentStringsA
  - ExpandEnvironmentStrings
+ - ExpandEnvironmentStringsA
+ - ExpandEnvironmentStringsW
 ---
 
 # ExpandEnvironmentStringsA function
@@ -120,4 +119,3 @@ For an example, see
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
-

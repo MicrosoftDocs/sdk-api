@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit::GetCertificateExtensionFlags
+ - ICertServerExit.GetCertificateExtensionFlags
+ - CCertServerExit.GetCertificateExtensionFlags
 ---
 
 # ICertServerExit::GetCertificateExtensionFlags
@@ -242,4 +243,3 @@ switch (ExtFlags & EXTENSION_ORIGIN_MASK)
 
 
 <a href="/windows/desktop/api/certview/nf-certview-ienumcertviewextension-getflags">IEnumCERTVIEWEXTENSION::GetFlags</a>
-

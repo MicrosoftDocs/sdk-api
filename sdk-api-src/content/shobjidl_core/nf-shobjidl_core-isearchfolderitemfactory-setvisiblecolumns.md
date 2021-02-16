@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory::SetVisibleColumns
+ - ISearchFolderItemFactory.SetVisibleColumns
 ---
 
 # ISearchFolderItemFactory::SetVisibleColumns
@@ -71,4 +71,3 @@ A pointer to an array of <a href="/windows/desktop/api/wtypes/ns-wtypes-property
 Type: <b>HRESULT</b>
 
 Returns a success value if successful, or an error value otherwise.
-

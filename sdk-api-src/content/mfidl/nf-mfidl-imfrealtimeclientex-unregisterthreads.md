@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFRealTimeClientEx::UnregisterThreads
+ - IMFRealTimeClientEx.UnregisterThreads
 ---
 
 # IMFRealTimeClientEx::UnregisterThreads
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/medfound/media-foundation-work-queue-and-threading-improvements">Work Queue and Threading Improvements</a>
-

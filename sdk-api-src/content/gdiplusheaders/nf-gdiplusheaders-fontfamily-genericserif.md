@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily::GenericSerif
+ - FontFamily.GenericSerif
 ---
 
 # FontFamily::GenericSerif
@@ -73,4 +73,3 @@ This method returns a pointer to a <a href="/windows/desktop/api/gdiplusheaders/
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

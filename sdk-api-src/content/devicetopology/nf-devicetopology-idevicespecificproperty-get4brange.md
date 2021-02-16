@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceSpecificProperty::Get4BRange
+ - IDeviceSpecificProperty.Get4BRange
 ---
 
 # IDeviceSpecificProperty::Get4BRange
@@ -106,4 +106,3 @@ This method reports the range and step size for a property value that is a 32-bi
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicespecificproperty">IDeviceSpecificProperty Interface</a>
-

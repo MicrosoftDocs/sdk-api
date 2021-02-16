@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx2::SessionFlagUseClientCertificate
+ - IWSManEx2.SessionFlagUseClientCertificate
 ---
 
 # IWSManEx2::SessionFlagUseClientCertificate
@@ -63,4 +63,3 @@ The session flags to use.
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex2">IWSManEx2</a>
-

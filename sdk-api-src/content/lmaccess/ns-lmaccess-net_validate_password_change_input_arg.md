@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
- - PNET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
  - NET_VALIDATE_PASSWORD_CHANGE_INPUT_ARG
 ---
 
@@ -84,4 +82,3 @@ BOOLEAN value that indicates the result of the application's attempt to validate
 <a href="/windows/desktop/NetMgmt/network-management">Network Management Overview</a>
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

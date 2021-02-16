@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMPushSource::GetMaxStreamOffset
+ - IAMPushSource.GetMaxStreamOffset
 ---
 
 # IAMPushSource::GetMaxStreamOffset
@@ -74,4 +74,3 @@ If the stream offset is set to a value larger than the maximum supported offset,
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
-

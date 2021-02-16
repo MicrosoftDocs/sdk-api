@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIFramework::Initialize
+ - IUIFramework.Initialize
 ---
 
 # IUIFramework::Initialize
@@ -204,4 +204,3 @@ bool InitializeFramework(HWND hWnd)
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

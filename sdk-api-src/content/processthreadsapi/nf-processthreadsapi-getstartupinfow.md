@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetStartupInfoW
  - processthreadsapi/GetStartupInfoW
- - GetStartupInfo
- - processthreadsapi/GetStartupInfo
 dev_langs:
  - c++
 topic_type:
@@ -59,8 +57,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - GetStartupInfoW
  - GetStartupInfo
+ - GetStartupInfoA
+ - GetStartupInfoW
 ---
 
 # GetStartupInfoW function
@@ -104,4 +103,3 @@ The
 
 
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
-

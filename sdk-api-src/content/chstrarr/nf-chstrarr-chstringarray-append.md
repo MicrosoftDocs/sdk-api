@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHStringArray::Append
+ - CHStringArray.Append
 ---
 
 # CHStringArray::Append
@@ -107,4 +107,3 @@ for (idx=0; idx<size; idx++)
 
 
 <a href="/windows/desktop/api/chstrarr/nf-chstrarr-chstringarray-copy">CHStringArray::Copy</a>
-

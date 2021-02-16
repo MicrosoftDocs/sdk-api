@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddkernel.h
 api_name:
- - IDirectDrawSurfaceKernel
+ - IDirectDrawKernel
 ---
 
 # IDirectDrawSurfaceKernel interface

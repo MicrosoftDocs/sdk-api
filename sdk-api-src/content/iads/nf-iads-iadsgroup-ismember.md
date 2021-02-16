@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsGroup::IsMember
+ - IADsGroup.IsMember
 ---
 
 # IADsGroup::IsMember
@@ -164,4 +164,3 @@ return hr;
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsmembers">IADsMembers</a>
-

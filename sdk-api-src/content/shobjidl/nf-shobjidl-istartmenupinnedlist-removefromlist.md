@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IStartMenuPinnedList::RemoveFromList
+ - IStartMenuPinnedList.RemoveFromList
 ---
 
 # IStartMenuPinnedList::RemoveFromList
@@ -129,4 +129,3 @@ if (SUCCEEDED(hr))
 
 CoUnitialize();
 ```
-

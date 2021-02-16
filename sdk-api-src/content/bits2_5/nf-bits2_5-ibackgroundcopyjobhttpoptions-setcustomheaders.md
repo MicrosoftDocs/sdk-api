@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions::SetCustomHeaders
+ - IBackgroundCopyJobHttpOptions.SetCustomHeaders
 ---
 
 # IBackgroundCopyJobHttpOptions::SetCustomHeaders
@@ -164,4 +164,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-getcustomheaders">IBackgroundCopyJobHttpOptions::GetCustomHeaders</a>
-

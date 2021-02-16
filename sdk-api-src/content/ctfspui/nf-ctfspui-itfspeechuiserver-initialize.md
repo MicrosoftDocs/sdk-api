@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sptip.dll
 api_name:
- - ITfSpeechUIServer::Initialize
+ - ITfSpeechUIServer.Initialize
 ---
 
 # ITfSpeechUIServer::Initialize
@@ -84,4 +84,3 @@ The standard speech text service usually initializes the speech-related user int
 
 <a href="/windows/desktop/api/ctfspui/nn-ctfspui-itfspeechuiserver">ITfSpeechUIServer
       </a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisession::put_InUse
+ - IMultisession.put_InUse
 ---
 
 # IMultisession::put_InUse
@@ -69,4 +69,3 @@ S_OK is returned on success, but other success codes may be returned as a result
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-imultisession-get_inuse">IMultisession::get_InUse</a>
-

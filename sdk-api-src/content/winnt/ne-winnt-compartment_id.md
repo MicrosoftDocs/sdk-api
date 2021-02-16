@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winnt.h
 api_name:
- - PCOMPARTMENT_ID
  - COMPARTMENT_ID
 ---
 

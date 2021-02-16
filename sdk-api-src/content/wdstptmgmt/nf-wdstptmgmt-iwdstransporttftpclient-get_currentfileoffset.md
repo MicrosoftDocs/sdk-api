@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpClient::get_CurrentFileOffset
+ - IWdsTransportTftpClient.CurrentFileOffset
+ - IWdsTransportTftpClient.get_CurrentFileOffset
 ---
 
 # IWdsTransportTftpClient::get_CurrentFileOffset
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpclient">IWdsTransportTftpClient</a>
-

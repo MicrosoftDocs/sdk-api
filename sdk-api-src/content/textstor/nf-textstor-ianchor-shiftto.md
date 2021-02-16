@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IAnchor::ShiftTo
+ - IAnchor.ShiftTo
 ---
 
 # IAnchor::ShiftTo
@@ -114,4 +114,3 @@ Implementing this method is usually more efficient than an equivalent <a href="/
 
 <a href="/windows/desktop/api/textstor/nf-textstor-ianchor-shift">IAnchor::Shift
       </a>
-

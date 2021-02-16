@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkGesture::GetHotPoint
+ - IInkGesture.GetHotPoint
 ---
 
 # IInkGesture::GetHotPoint
@@ -122,4 +122,3 @@ For more information about how a hot point is used, see <a href="/windows/deskto
 
 
 <a href="/windows/desktop/tablet/using-gestures">Using Gestures</a>
-

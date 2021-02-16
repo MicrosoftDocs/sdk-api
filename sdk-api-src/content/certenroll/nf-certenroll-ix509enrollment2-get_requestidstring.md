@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509Enrollment2::get_RequestIdString
+ - IX509Enrollment2.RequestIdString
+ - IX509Enrollment2.get_RequestIdString
 ---
 
 # IX509Enrollment2::get_RequestIdString
@@ -63,4 +64,3 @@ The value of the <b>RequestIdString</b> property is set during the enrollment pr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
-

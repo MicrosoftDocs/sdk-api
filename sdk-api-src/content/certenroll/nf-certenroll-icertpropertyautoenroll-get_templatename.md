@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyAutoEnroll::get_TemplateName
+ - ICertPropertyAutoEnroll.TemplateName
+ - ICertPropertyAutoEnroll.get_TemplateName
 ---
 
 # ICertPropertyAutoEnroll::get_TemplateName
@@ -67,4 +68,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyaut
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyautoenroll">ICertPropertyAutoEnroll</a>
-

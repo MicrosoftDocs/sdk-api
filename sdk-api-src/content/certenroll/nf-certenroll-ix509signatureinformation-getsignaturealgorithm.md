@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509SignatureInformation::GetSignatureAlgorithm
+ - IX509SignatureInformation.GetSignatureAlgorithm
 ---
 
 # IX509SignatureInformation::GetSignatureAlgorithm
@@ -135,4 +135,3 @@ This case retrieves  a discrete signature algorithm OID for a PKCS #7 request. T
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

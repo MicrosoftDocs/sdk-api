@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLDevice::CompileOperator
+ - IDMLDevice.CompileOperator
 ---
 
 # IDMLDevice::CompileOperator

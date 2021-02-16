@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _GLYPHDATA
  - GLYPHDATA
 ---
 
@@ -110,4 +109,3 @@ For a description of the FIX data type, see <a href="/windows-hardware/drivers/d
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-pathobj">PATHOBJ</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
- - LANGGROUPLOCALE_ENUMPROCW
+ - LANGGROUPLOCALE_ENUMPROC
 ---
 
 # LANGGROUPLOCALE_ENUMPROCW callback function
@@ -157,4 +157,3 @@ An <b>EnumLanguageGroupLocalesProc</b> function can carry out any desired task. 
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

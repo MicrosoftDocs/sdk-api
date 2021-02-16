@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsLunIscsi::AssociateTargets
+ - IVdsLunIscsi.AssociateTargets
 ---
 
 # IVdsLunIscsi::AssociateTargets
@@ -175,4 +175,3 @@ Use the
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsluniscsi-queryassociatedtargets">IVdsLunIscsi::QueryAssociatedTargets</a>
-

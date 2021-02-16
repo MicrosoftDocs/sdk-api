@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSource::RemoveEffect
+ - IMFCaptureSource.RemoveEffect
 ---
 
 # IMFCaptureSource::RemoveEffect
@@ -164,4 +164,3 @@ This method removes an effect that was previously added using the <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-

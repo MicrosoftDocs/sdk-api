@@ -9,8 +9,6 @@ tech.root: p2p
 f1_keywords:
  - pnrpns
  - pnrpns/pnrpns
-api_name:
- - pnrpns
 ---
 
 # Pnrpns.h header

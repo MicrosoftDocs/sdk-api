@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _BLENDOBJ
- - PBLENDOBJ
  - BLENDOBJ
 ---
 

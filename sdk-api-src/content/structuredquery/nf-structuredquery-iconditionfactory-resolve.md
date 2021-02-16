@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory::Resolve
+ - IConditionFactory.Resolve
 ---
 
 # IConditionFactory::Resolve
@@ -121,4 +121,3 @@ The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Sa
 
 
 <b>Reference</b>
-

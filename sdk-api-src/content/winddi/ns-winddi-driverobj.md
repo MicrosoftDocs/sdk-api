@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _DRIVEROBJ
  - DRIVEROBJ
 ---
 
@@ -104,4 +103,3 @@ This structure provides a locking mechanism for exclusive access to the associat
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-engunlockdriverobj">EngUnlockDriverObj</a>
-

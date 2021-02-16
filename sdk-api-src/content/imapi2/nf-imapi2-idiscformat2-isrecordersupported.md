@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2::IsRecorderSupported
+ - IDiscFormat2.IsRecorderSupported
 ---
 
 # IDiscFormat2::IsRecorderSupported
@@ -93,4 +93,3 @@ When implemented by the <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscform
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
-

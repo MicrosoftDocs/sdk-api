@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFVideoSampleAllocatorCallback::GetFreeSampleCount
+ - IMFVideoSampleAllocatorCallback.GetFreeSampleCount
 ---
 
 # IMFVideoSampleAllocatorCallback::GetFreeSampleCount
@@ -69,4 +69,3 @@ To get a video sample from the allocator, call the <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfvideosampleallocatorcallback">IMFVideoSampleAllocatorCallback</a>
-

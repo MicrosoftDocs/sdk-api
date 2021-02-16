@@ -44,7 +44,6 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
- - IKEEXT_CERT_EKUS0_
  - IKEEXT_CERT_EKUS0
 ---
 

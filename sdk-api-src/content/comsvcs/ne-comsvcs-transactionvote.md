@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagTransactionVote
  - TransactionVote
 ---
 
@@ -68,4 +67,3 @@ An existing object votes to abort the current transaction.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
-

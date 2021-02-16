@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - INameSpaceTreeControl::HitTest
+ - INameSpaceTreeControl.HitTest
 ---
 
 # INameSpaceTreeControl::HitTest
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This function returns <b>S_FALSE</b> with a <b>NULL</b> item if the point does not exist in an item.
-

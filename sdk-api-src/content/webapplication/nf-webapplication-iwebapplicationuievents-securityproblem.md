@@ -42,7 +42,7 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationUIEvents::SecurityProblem
+ - IWebApplicationUIEvents.SecurityProblem
 ---
 
 # IWebApplicationUIEvents::SecurityProblem
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationuievents">IWebApplicationUIEvents</a>
-

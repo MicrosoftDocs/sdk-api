@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
- - PJOBOBJECT_BASIC_ACCOUNTING_INFORMATION
  - JOBOBJECT_BASIC_ACCOUNTING_INFORMATION
 ---
 
@@ -109,4 +107,3 @@ The total number of processes terminated because of a limit violation.
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-

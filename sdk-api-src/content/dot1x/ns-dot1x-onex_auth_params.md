@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
- - _ONEX_AUTH_PARAMS
- - PONEX_AUTH_PARAMS
  - ONEX_AUTH_PARAMS
 ---
 
@@ -181,4 +179,3 @@ For security reasons, the <b>hUserToken</b> and <b>OneXUserProfile</b> members o
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

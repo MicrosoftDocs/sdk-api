@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport::OrderComponents
+ - IWsbApplicationRestoreSupport.OrderComponents
 ---
 
 # IWsbApplicationRestoreSupport::OrderComponents
@@ -85,4 +85,3 @@ Windows Server Backup calls this  method before restoring components for an appl
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationrestoresupport">IWsbApplicationRestoreSupport</a>
-

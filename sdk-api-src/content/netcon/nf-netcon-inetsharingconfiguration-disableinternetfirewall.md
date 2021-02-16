@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INetSharingConfiguration::DisableInternetFirewall
+ - INetSharingConfiguration.DisableInternetFirewall
 ---
 
 # INetSharingConfiguration::DisableInternetFirewall
@@ -183,4 +183,3 @@ Use the
 
 
 <a href="/previous-versions/windows/desktop/api/netcon/nf-netcon-inetsharingconfiguration-get_internetfirewallenabled">INetSharingConfiguration::get_InternetFirewallEnabled</a>
-

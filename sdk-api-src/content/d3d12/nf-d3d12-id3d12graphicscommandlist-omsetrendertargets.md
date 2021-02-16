@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList::OMSetRenderTargets
+ - ID3D12GraphicsCommandList.OMSetRenderTargets
 ---
 
 # ID3D12GraphicsCommandList::OMSetRenderTargets
@@ -89,4 +89,3 @@ A pointer to a <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_cpu_descriptor
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-

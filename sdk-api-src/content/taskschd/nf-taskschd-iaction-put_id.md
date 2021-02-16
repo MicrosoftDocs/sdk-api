@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IAction::put_Id
+ - IAction.Id
+ - IAction.get_Id
+ - IAction.put_Id
 ---
 
 # IAction::put_Id
@@ -67,4 +69,3 @@ For information on how actions and tasks work together, see <a href="/windows/de
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

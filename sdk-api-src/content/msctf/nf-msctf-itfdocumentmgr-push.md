@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDocumentMgr::Push
+ - ITfDocumentMgr.Push
 ---
 
 # ITfDocumentMgr::Push
@@ -152,4 +152,3 @@ This method causes the <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgreventsink-onpushcontext">ITfThreadMgrEventSink::OnPushContext
       </a>
-

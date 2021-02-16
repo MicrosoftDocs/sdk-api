@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetComputerNameW
  - sysinfoapi/SetComputerNameW
- - SetComputerName
- - sysinfoapi/SetComputerName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-Ms-Win-Core-SysInfo-L1-2-3.dll
  - KernelBase.dll
 api_name:
- - SetComputerNameW
  - SetComputerName
+ - SetComputerNameA
+ - SetComputerNameW
 ---
 
 # SetComputerNameW function
@@ -112,4 +111,3 @@ Applications using this function must have administrator rights.
 
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System Information Functions</a>
-

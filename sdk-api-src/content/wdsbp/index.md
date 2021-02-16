@@ -9,8 +9,6 @@ tech.root: wds
 f1_keywords:
  - wdsbp
  - wdsbp/wdsbp
-api_name:
- - wdsbp
 ---
 
 # Wdsbp.h header

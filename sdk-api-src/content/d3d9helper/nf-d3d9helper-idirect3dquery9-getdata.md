@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DQuery9::GetData
+ - IDirect3DQuery9.GetData
 ---
 
 # IDirect3DQuery9::GetData
@@ -106,4 +106,3 @@ while( pQuery->GetData( ..., 0 ) == S_FALSE ) {
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dquery9">IDirect3DQuery9</a>
-

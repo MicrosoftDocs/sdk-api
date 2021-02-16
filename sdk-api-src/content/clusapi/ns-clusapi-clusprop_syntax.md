@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSPROP_SYNTAX
- - PCLUSPROP_SYNTAX
 ---
 
 # CLUSPROP_SYNTAX structure
@@ -414,4 +413,3 @@ See <a href="/previous-versions/windows/desktop/mscs/creating-physical-disk-reso
 
 
 <a href="/previous-versions/windows/desktop/mscs/nodes-nodename">NodeName</a>
-

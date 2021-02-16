@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_CHAIN_POLICY_STATUS
- - PCERT_CHAIN_POLICY_STATUS
  - CERT_CHAIN_POLICY_STATUS
 ---
 
@@ -443,4 +441,3 @@ A pointer to a structure. The structure type is determined by the value of the <
 ## -remarks
 
 If both <b>lChainIndex</b> and <b>lElementIndex</b> are set to –1, the error or condition that is not valid applies to the whole chain context. If only <b>lElementIndex</b> is set to –1, the error or condition that is not valid applies to the chain indexed by <b>lChainIndex</b>. Otherwise, the error or condition that is not valid applies to the certificate element at pChainContext-&gt;rgpChain[<b>lChainIndex</b>]-&gt;rgpElement[<b>lElementIndex</b>].
-

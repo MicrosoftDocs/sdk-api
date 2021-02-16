@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - __MIDL___MIDL_itf_devicetopology_0000_0000_0010
  - KSJACK_SINK_CONNECTIONTYPE
 ---
 
@@ -76,4 +75,3 @@ Display port.
 
 
 <a href="/windows/win32/api/devicetopology/ns-devicetopology-ksjack_sink_information">KSJACK_SINK_INFORMATION</a>
-

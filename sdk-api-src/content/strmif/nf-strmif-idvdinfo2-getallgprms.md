@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetAllGPRMs
+ - IDvdInfo2.GetAllGPRMs
 ---
 
 # IDvdInfo2::GetAllGPRMs
@@ -110,4 +110,3 @@ GPRMs are 16-bit registers that each disc can use in unique ways for temporary d
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

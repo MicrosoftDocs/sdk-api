@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IDailyTrigger::get_RandomDelay
+ - IDailyTrigger.RandomDelay
+ - IDailyTrigger.get_RandomDelay
+ - IDailyTrigger.put_RandomDelay
 ---
 
 # IDailyTrigger::get_RandomDelay
@@ -63,4 +65,3 @@ The specified random delay time is the upper bound for the random interval. The 
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-idailytrigger">IDailyTrigger</a>
-

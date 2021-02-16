@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.foundation.h
 api_name:
- - IStringable::ToString
+ - IStringable.ToString
 ---
 
 # IStringable::IStringable
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/windows.foundation/nn-windows-foundation-istringable">IStringable</a>
-

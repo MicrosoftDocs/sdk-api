@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcNsBindingInqEntryName
+ - RpcNsBindingInqEntryNameA
+ - RpcNsBindingInqEntryNameW
 ---
 
 # RpcNsBindingInqEntryName function
@@ -198,4 +200,3 @@ If the binding handle specified in the <i>Binding</i> parameter was not returned
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

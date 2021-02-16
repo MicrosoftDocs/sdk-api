@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Dbt.h
 api_name:
- - _DEV_BROADCAST_DEVICEINTERFACE_W
- - PDEV_BROADCAST_DEVICEINTERFACE_W
- - DEV_BROADCAST_DEVICEINTERFACE_W
+ - DEV_BROADCAST_DEVICEINTERFACE - dev_broadcast_deviceinterface_w
 ---
 
 # DEV_BROADCAST_DEVICEINTERFACE_W structure
@@ -110,4 +108,3 @@ When this structure is returned to a window through the
 
 > [!NOTE]
 > The dbt.h header defines DEV_BROADCAST_DEVICEINTERFACE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

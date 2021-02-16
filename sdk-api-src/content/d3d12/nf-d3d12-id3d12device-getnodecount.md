@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device::GetNodeCount
+ - ID3D12Device.GetNodeCount
 ---
 
 # ID3D12Device::GetNodeCount
@@ -63,4 +63,3 @@ The number of physical adapters (nodes) that this device has.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-

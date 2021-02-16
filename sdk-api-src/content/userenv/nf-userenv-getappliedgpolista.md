@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetAppliedGPOListA
  - userenv/GetAppliedGPOListA
- - GetAppliedGPOList
- - userenv/GetAppliedGPOList
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - GetAppliedGPOListA
  - GetAppliedGPOList
+ - GetAppliedGPOListA
+ - GetAppliedGPOListW
 ---
 
 # GetAppliedGPOListA function
@@ -128,4 +127,3 @@ To free the GPO list when you have finished processing it, call the
 
 <a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
-

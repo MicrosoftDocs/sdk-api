@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallingCard::get_NumberOfDigits
+ - ITCallingCard.get_NumberOfDigits
 ---
 
 # ITCallingCard::get_NumberOfDigits
@@ -121,4 +121,3 @@ The card number itself is not returned for security reasons. The application can
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard">ITCallingCard</a>
-

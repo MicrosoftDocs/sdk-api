@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_X942_OTHER_INFO
- - PCRYPT_X942_OTHER_INFO
  - CRYPT_X942_OTHER_INFO
 ---
 
@@ -75,4 +73,3 @@ Array of BYTES of length <b>CRYPT_X942_KEY_LENGTH_BYTE_LENGTH</b>. The value is 
 ### -field PubInfo
 
 Optional <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_DATA_BLOB</a> for additional information.
-

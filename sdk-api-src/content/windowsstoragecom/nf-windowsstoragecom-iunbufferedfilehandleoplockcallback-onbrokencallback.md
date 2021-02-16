@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.storage.dll
 api_name:
- - IUnbufferedFileHandleOplockCallback::OnBrokenCallback
+ - IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 ---
 
 # IUnbufferedFileHandleOplockCallback::OnBrokenCallback
@@ -69,4 +69,3 @@ Implement this method to specify what your app should do when the opportunistic 
 
 
 <a href="/windows/desktop/api/windowsstoragecom/nf-windowsstoragecom-iunbufferedfilehandleprovider-openunbufferedfilehandle">IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle</a>
-

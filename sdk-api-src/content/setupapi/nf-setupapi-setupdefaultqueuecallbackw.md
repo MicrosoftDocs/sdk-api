@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SetupDefaultQueueCallbackW
  - setupapi/SetupDefaultQueueCallbackW
- - SetupDefaultQueueCallback
- - setupapi/SetupDefaultQueueCallback
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - Setupapi.dll
  - Ext-MS-Win-SetupAPI-ClassInstallers-L1-1-2.dll
 api_name:
- - SetupDefaultQueueCallbackW
  - SetupDefaultQueueCallback
+ - SetupDefaultQueueCallbackA
+ - SetupDefaultQueueCallbackW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SetupDefaultQueueCallbackW function
@@ -358,4 +357,3 @@ For more information see,
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupcommitfilequeuea">SetupCommitFileQueue</a>
-

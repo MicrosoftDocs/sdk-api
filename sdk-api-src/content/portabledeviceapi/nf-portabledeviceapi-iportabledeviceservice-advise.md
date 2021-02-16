@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::Advise
+ - IPortableDeviceService.Advise
 ---
 
 # IPortableDeviceService::Advise
@@ -110,4 +110,3 @@ During cleanup, an application should unregister the callback object by calling 
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingGroup::get_Status
+ - IFaxOutboundRoutingGroup.Status
+ - IFaxOutboundRoutingGroup.get_Status
+ - IFaxOutboundRoutingGroup.get_Status
 ---
 
 # IFaxOutboundRoutingGroup::get_Status
@@ -71,4 +73,3 @@ When devices are added to or removed from a group, the group's status does not c
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outbound-routing-groups">Visual Basic Example</a>
-

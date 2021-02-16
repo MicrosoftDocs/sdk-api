@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetClassObjectInterface
+ - CInstance.GetClassObjectInterface
+ - ?GetClassObjectInterface@CInstance@@QAEPAUIWbemClassObject@@XZ
+ - ?GetClassObjectInterface@CInstance@@QEAAPEAUIWbemClassObject@@XZ
 ---
 
 # CInstance::GetClassObjectInterface
@@ -68,4 +70,3 @@ Returns an <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IW
 ## -remarks
 
 The framework provider will probably never call <b>GetClassObjectInterface</b>, but if it does, it must release the <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbemclassobject">IWbemClassObject</a> pointer by calling its <b>Release</b> method.
-

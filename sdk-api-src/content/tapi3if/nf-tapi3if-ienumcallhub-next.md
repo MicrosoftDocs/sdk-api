@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumCallHub::Next
+ - IEnumCallHub.Next
 ---
 
 # IEnumCallHub::Next
@@ -132,4 +132,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 ## -see-also
 
 <a href="/windows/desktop/Tapi/callhub-object">CallHub Object</a>
-

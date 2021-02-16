@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - MONITOR_STATE
- - PMONITOR_STATE
 ---
 
 # MONITOR_STATE structure

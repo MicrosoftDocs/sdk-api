@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::GetDeviceCaps
+ - IDirect3DDevice9.GetDeviceCaps
 ---
 
 # IDirect3DDevice9::GetDeviceCaps
@@ -74,4 +74,3 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-

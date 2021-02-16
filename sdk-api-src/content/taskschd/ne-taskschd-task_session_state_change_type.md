@@ -44,7 +44,6 @@ api_type:
 api_location:
  - taskschd.h
 api_name:
- - _TASK_SESSION_STATE_CHANGE_TYPE
  - TASK_SESSION_STATE_CHANGE_TYPE
 ---
 
@@ -88,4 +87,3 @@ Terminal Server session unlocked state change. For example, this state change ca
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-enumerated-types">Task Scheduler Enumerated Types</a>
-

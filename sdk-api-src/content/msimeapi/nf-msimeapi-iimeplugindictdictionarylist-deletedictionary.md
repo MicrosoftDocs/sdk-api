@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msimeapi.h
 api_name:
- - IImePlugInDictDictionaryList::DeleteDictionary
+ - IImePlugInDictDictionaryList.DeleteDictionary
 ---
 
 # IImePlugInDictDictionaryList::DeleteDictionary
@@ -105,4 +105,3 @@ Other errors.
 ## -see-also
 
 <a href="/windows/desktop/api/msimeapi/nn-msimeapi-iimeplugindictdictionarylist">IImePlugInDictDictionaryList</a>
-

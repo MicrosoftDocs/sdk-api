@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPINTERNET_PER_CONN_OPTIONW
+ - INTERNET_PER_CONN_OPTION
+ - INTERNET_PER_CONN_OPTIONA
  - INTERNET_PER_CONN_OPTIONW
 ---
 
@@ -355,4 +356,3 @@ For queries that return strings,
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
-

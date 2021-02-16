@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WTSEnumerateServersW
  - wtsapi32/WTSEnumerateServersW
- - WTSEnumerateServers
- - wtsapi32/WTSEnumerateServers
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSEnumerateServersW
  - WTSEnumerateServers
+ - WTSEnumerateServersA
+ - WTSEnumerateServersW
 ---
 
 # WTSEnumerateServersW function
@@ -104,4 +103,3 @@ This function will not work if NetBT is disabled.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/ns-wtsapi32-wts_server_infoa">WTS_SERVER_INFO</a>
-

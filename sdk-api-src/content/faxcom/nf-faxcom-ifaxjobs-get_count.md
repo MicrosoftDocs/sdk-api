@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJobs::get_Count
+ - IFaxJobs.get_Count
 ---
 
 # IFaxJobs::get_Count
@@ -93,4 +93,3 @@ After calling the <b>IFaxJobs::get_Count</b> method, a fax client application ca
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nf-faxcom-ifaxjobs-get_item">IFaxJobs::get_Item</a>
-

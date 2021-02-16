@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::FillOpacityMask
+ - ID2D1RenderTarget.FillOpacityMask
 ---
 
 # ID2D1RenderTarget::FillOpacityMask(ID2D1Bitmap,ID2D1Brush,D2D1_OPACITY_MASK_CONTENT,const D2D1_RECT_F &,const D2D1_RECT_F &)

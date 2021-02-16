@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemPropertyProvider::GetProperty
+ - IWbemPropertyProvider.GetProperty
 ---
 
 # IWbemPropertyProvider::GetProperty
@@ -94,4 +94,3 @@ This method must return <b>WBEM_S_NO_ERROR</b> if the call succeeds. If the call
 
 
 <b>PutProperty</b>
-

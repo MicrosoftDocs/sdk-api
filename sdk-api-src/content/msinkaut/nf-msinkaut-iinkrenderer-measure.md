@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::Measure
+ - IInkRenderer.Measure
 ---
 
 # IInkRenderer::Measure
@@ -178,4 +178,3 @@ For example, consider that the pen width is originally 53, the square root of th
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-measurestroke">MeasureStroke Method</a>
-

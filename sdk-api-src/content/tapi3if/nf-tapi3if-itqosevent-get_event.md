@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQOSEvent::get_Event
+ - ITQOSEvent.get_Event
 ---
 
 # ITQOSEvent::get_Event
@@ -111,4 +111,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/ne-tapi3if-qos_event">QOS_EVENT</a>
-

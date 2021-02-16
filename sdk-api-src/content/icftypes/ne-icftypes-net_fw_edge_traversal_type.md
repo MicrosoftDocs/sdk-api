@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
- - NET_FW_EDGE_TRAVERSAL_TYPE_
  - NET_FW_EDGE_TRAVERSAL_TYPE
 ---
 
@@ -102,4 +101,3 @@ In order to use this option, the firewall rule must have both the application pa
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
-

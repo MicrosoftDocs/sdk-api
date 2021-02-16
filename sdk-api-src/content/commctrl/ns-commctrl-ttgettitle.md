@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - _TTGETTITLE
- - PTTGETTITLE
  - TTGETTITLE
 ---
 
@@ -83,4 +81,3 @@ Type: <b><a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>*</b>
 
 Pointer to a wide character string that contains the title.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - _VMR9NormalizedRect
  - VMR9NormalizedRect
 ---
 
@@ -80,4 +79,3 @@ This structure is used in methods involving "composition space," which refers to
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

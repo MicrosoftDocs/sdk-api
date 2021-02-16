@@ -42,7 +42,7 @@ api_type:
 api_location:
  - vswriter.h
 api_name:
- - IVssComponentEx2::SetFailure
+ - IVssComponentEx2.SetFailure
 ---
 
 # IVssComponentEx2::SetFailure
@@ -160,4 +160,3 @@ This method cannot be called from <a href="/windows/desktop/api/vswriter/nf-vswr
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponentex2">IVssComponentEx2</a>
-

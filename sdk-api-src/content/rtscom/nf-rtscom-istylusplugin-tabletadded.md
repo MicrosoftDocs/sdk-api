@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::TabletAdded
+ - IStylusPlugin.TabletAdded
 ---
 
 # IStylusPlugin::TabletAdded
@@ -85,4 +85,3 @@ This method is called by the <a href="/windows/desktop/tablet/realtimestylus-cla
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-

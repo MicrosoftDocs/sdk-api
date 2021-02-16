@@ -9,8 +9,6 @@ tech.root: hyperv
 f1_keywords:
  - vmgenerationcounter
  - vmgenerationcounter/vmgenerationcounter
-api_name:
- - vmgenerationcounter
 ---
 
 # Vmgenerationcounter.h header

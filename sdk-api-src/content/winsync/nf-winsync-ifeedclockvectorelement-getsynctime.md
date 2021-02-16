@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IFeedClockVectorElement::GetSyncTime
+ - IFeedClockVectorElement.GetSyncTime
 ---
 
 # IFeedClockVectorElement::GetSyncTime
@@ -99,4 +99,3 @@ The <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME</a> st
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_time">SYNC_TIME Structure</a>
-

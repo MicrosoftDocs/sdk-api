@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _paraformat2
  - PARAFORMAT2
 ---
 
@@ -1843,4 +1842,3 @@ Light gray
 
 
 <a href="/windows/win32/api/richedit/ns-richedit-paraformat">PARAFORMAT</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ddraw.dll
 api_name:
- - IDirectDrawSurface7::Blt
+ - IDirectDrawSurface7.Blt
 ---
 
 # IDirectDrawSurface7::Blt
@@ -216,4 +216,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
-

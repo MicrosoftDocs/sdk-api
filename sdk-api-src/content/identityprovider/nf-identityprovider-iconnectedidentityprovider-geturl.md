@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Identityprovider.h
 api_name:
- - IConnectedIdentityProvider::GetUrl
+ - IConnectedIdentityProvider.GetUrl
 ---
 
 # IConnectedIdentityProvider::GetUrl
@@ -79,4 +79,3 @@ If the method fails, the method returns a Win32 error code.
 ## -see-also
 
 <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
-

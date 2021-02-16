@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinGDI.h
 api_name:
- - tagBITMAPINFOHEADER
- - LPBITMAPINFOHEADER
  - BITMAPINFOHEADER
 ---
 
@@ -200,4 +198,3 @@ If there is padding in the image buffer, never dereference a pointer into the me
 
 
 <a href="/windows/desktop/DirectShow/working-with-video-frames">Working with Video Frames</a>
-

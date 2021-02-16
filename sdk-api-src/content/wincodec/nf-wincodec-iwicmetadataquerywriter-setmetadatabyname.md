@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICMetadataQueryWriter::SetMetadataByName
+ - IWICMetadataQueryWriter.SetMetadataByName
 ---
 
 # IWICMetadataQueryWriter::SetMetadataByName
@@ -110,4 +110,3 @@ If the value set is a nested metadata block then use variant type <code>VT_UNKNO
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDGETCURRENTAUTOFLIPOUTINFO
- - PDDGETCURRENTAUTOFLIPOUTINFO
  - DDGETCURRENTAUTOFLIPOUTINFO
 ---
 
@@ -71,4 +69,3 @@ Specifies the current zero-based index in the autoflip chain of the current <a h
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_getcurrentautoflip">DxGetCurrentAutoflip</a>
-

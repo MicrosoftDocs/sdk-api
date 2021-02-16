@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegistrationInfo::put_SecurityDescriptor
+ - IRegistrationInfo.SecurityDescriptor
+ - IRegistrationInfo.get_SecurityDescriptor
+ - IRegistrationInfo.put_SecurityDescriptor
 ---
 
 # IRegistrationInfo::put_SecurityDescriptor
@@ -71,4 +73,3 @@ If you try to pass an invalid security descriptor into the <i>sddl</i> parameter
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

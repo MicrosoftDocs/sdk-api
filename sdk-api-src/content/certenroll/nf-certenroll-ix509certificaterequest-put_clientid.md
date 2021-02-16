@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::put_ClientId
+ - IX509CertificateRequest.ClientId
+ - IX509CertificateRequest.get_ClientId
+ - IX509CertificateRequest.put_ClientId
 ---
 
 # IX509CertificateRequest::put_ClientId
@@ -83,4 +85,3 @@ You must initialize the request object before calling this property. You can cal
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

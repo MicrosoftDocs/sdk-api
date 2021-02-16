@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TsVirtualChannels.h
 api_name:
- - IWTSPlugin::Connected
+ - IWTSPlugin.Connected
 ---
 
 # IWTSPlugin::Connected
@@ -61,4 +61,3 @@ Returns <b>S_OK</b> if the call completes successfully. Returns <b>E_FAIL</b> if
 ## -see-also
 
 <a href="/windows/desktop/api/tsvirtualchannels/nn-tsvirtualchannels-iwtsplugin">IWTSPlugin</a>
-

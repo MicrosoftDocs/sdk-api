@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo::GetActions
+ - IEnhancedStorageSilo.GetActions
 ---
 
 # IEnhancedStorageSilo::GetActions
@@ -102,4 +102,3 @@ The memory containing the <a href="/previous-versions/windows/desktop/api/ehstor
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-

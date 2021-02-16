@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITMultiTrackTerminal::RemoveTrackTerminal
+ - ITMultiTrackTerminal.RemoveTrackTerminal
 ---
 
 # ITMultiTrackTerminal::RemoveTrackTerminal
@@ -118,4 +118,3 @@ The actual action performed by this method may vary in the actual implementation
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-

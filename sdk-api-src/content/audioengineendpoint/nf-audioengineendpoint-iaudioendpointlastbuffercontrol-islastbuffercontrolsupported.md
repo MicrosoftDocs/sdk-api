@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioengineendpoint.h
 api_name:
- - IAudioEndpointLastBufferControl::IsLastBufferControlSupported
+ - IAudioEndpointLastBufferControl.IsLastBufferControlSupported
 ---
 
 # IAudioEndpointLastBufferControl::IsLastBufferControlSupported
@@ -61,4 +61,3 @@ Indicates if last buffer control is supported.
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol">IAudioEndpointLastBufferControl</a>
-

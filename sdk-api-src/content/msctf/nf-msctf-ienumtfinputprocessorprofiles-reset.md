@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfInputProcessorProfiles::Reset
+ - IEnumTfInputProcessorProfiles.Reset
 ---
 
 # IEnumTfInputProcessorProfiles::Reset
@@ -75,4 +75,3 @@ The method was successful.
 </td>
 </tr>
 </table>
-

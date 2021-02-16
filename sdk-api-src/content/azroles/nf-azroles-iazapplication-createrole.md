@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::CreateRole
+ - IAzApplication.CreateRole
+ - AzApplication.CreateRole
 ---
 
 # IAzApplication::CreateRole
@@ -77,4 +78,3 @@ Any other <b>HRESULT</b> value indicates that the operation failed.
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">IAzRole::Submit</a> method to persist any changes made to the returned object.
 
 The returned <a href="/windows/desktop/api/azroles/nn-azroles-iazrole">IAzRole</a> object is an immediate child object of the <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> object.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestPackageDependency::GetMinVersion
+ - IAppxManifestPackageDependency.GetMinVersion
 ---
 
 # IAppxManifestPackageDependency::GetMinVersion
@@ -86,4 +86,3 @@ This method converts this notation to a <b>UINT64</b> value as follows:
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestpackagedependency">IAppxManifestPackageDependency</a>
-

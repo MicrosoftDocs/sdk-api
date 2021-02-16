@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxContentGroupsEnumerator::GetCurrent
+ - IAppxContentGroupsEnumerator.GetCurrent
 ---
 
 # IAppxContentGroupsEnumerator::GetCurrent
@@ -83,4 +83,3 @@ The enumerator has passed the last item in the collection.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxcontentgroupsenumerator">IAppxContentGroupsEnumerator</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
- - _SHChangeProductKeyAsIDList
- - LPSHChangeProductKeyAsIDList
  - SHChangeProductKeyAsIDList
 ---
 

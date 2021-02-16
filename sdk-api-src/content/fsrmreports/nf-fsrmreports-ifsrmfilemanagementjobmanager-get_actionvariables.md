@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJobManager::get_ActionVariables
+ - IFsrmFileManagementJobManager.ActionVariables
+ - IFsrmFileManagementJobManager.get_ActionVariables
+ - FsrmFileManagementJobManager.ActionVariables
 ---
 
 # IFsrmFileManagementJobManager::get_ActionVariables
@@ -67,4 +69,3 @@ FSRM parses the action property for the macros and substitutes the macro string 
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmfilemanagementjobmanager">IFsrmFileManagementJobManager</a>
-

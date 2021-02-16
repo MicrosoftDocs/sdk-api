@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::getMyStore
+ - IEnroll.getMyStore
+ - IEnroll2.getMyStore
 ---
 
 # IEnroll::getMyStore
@@ -67,4 +68,3 @@ This method always returns <b>NULL</b>. <a href="/windows/desktop/api/errhandlin
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
-

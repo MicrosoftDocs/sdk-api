@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::StylusDown
+ - IStylusPlugin.StylusDown
 ---
 
 # IStylusPlugin::StylusDown
@@ -186,4 +186,3 @@ HRESULT CPacketModifier::ModifyPacket(
 
 
 <a href="/windows/desktop/tablet/realtimestylus-reference">RealTimeStylus Reference</a>
-

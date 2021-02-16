@@ -9,8 +9,6 @@ tech.root: wmi_v2
 f1_keywords:
  - mi
  - mi/mi
-api_name:
- - mi
 ---
 
 # Mi.h header

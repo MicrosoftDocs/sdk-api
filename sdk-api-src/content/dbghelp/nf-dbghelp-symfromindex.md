@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymFromIndex
+ - SymFromIndex
+ - SymFromIndexW
 ---
 
 # SymFromIndex function
@@ -91,4 +93,3 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 <a href="/windows/desktop/api/dbghelp/ns-dbghelp-symbol_info">SYMBOL_INFO</a>
-

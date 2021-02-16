@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemBitmap::DrawBitmap
+ - ITfLangBarItemBitmap.DrawBitmap
 ---
 
 # ITfLangBarItemBitmap::DrawBitmap

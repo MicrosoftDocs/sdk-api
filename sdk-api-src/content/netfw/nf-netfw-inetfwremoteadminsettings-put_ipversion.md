@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwRemoteAdminSettings::put_IpVersion
+ - INetFwRemoteAdminSettings.IpVersion
+ - INetFwRemoteAdminSettings.get_IpVersion
+ - INetFwRemoteAdminSettings.put_IpVersion
 ---
 
 # INetFwRemoteAdminSettings::put_IpVersion
@@ -73,4 +75,3 @@ Only
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_version">NET_FW_IP_VERSION</a>
-

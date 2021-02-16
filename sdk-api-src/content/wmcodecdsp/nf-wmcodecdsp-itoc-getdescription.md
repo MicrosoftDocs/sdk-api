@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - IToc::GetDescription
+ - IToc.GetDescription
 ---
 
 # IToc::GetDescription
@@ -98,4 +98,3 @@ The method returns this error code if <i>pwszDescription</i> is not <b>NULL</b> 
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itoc">IToc</a>
-

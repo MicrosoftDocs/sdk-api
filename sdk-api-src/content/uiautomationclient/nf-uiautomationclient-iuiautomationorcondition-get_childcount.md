@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationOrCondition::get_ChildCount
+ - IUIAutomationOrCondition.ChildCount
+ - IUIAutomationOrCondition.get_ChildCount
 ---
 
 # IUIAutomationOrCondition::get_ChildCount

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin::ResubmitRequest
+ - ICertAdmin2.ResubmitRequest
+ - ICertAdmin.ResubmitRequest
+ - CCertAdmin.ResubmitRequest
 ---
 
 # ICertAdmin::ResubmitRequest
@@ -217,4 +219,3 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nf-certcli-icertrequest-submit">ICertRequest::Submit</a>
-

@@ -9,8 +9,6 @@ tech.root: direct3d11
 f1_keywords:
  - d3dcommon
  - d3dcommon/d3dcommon
-api_name:
- - d3dcommon
 ---
 
 # D3Dcommon.h header

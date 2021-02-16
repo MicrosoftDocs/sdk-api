@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRARC
- - PEMRARC
  - EMRARC
 ---
 
@@ -83,4 +81,3 @@ Coordinates of second radial ending point in logical units.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents2::CreatePartnershipComplete
+ - IWMPEvents2.CreatePartnershipComplete
 ---
 
 # IWMPEvents2::CreatePartnershipComplete
@@ -91,4 +91,3 @@ You can also handle this event through an <b>IDispatch</b> event sink by using t
 
 
 <a href="/windows/desktop/WMP/-wmpocxevents-interface">_WMPOCXEvents Interface</a>
-

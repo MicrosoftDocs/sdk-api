@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass
+ - IUIAutomationProxyFactoryEntry.CanCheckBaseClass
+ - IUIAutomationProxyFactoryEntry.get_CanCheckBaseClass
+ - IUIAutomationProxyFactoryEntry.put_CanCheckBaseClass
 ---
 
 # IUIAutomationProxyFactoryEntry::get_CanCheckBaseClass

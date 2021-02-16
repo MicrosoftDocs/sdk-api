@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IRowsetEvents::OnDeletedItem
+ - IRowsetEvents.OnDeletedItem
 ---
 
 # IRowsetEvents::OnDeletedItem
@@ -122,4 +122,3 @@ The <a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">RO
 
 
 <a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
-

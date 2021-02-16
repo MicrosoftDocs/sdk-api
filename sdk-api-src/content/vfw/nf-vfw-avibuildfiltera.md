@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AVIBuildFilterA
  - vfw/AVIBuildFilterA
- - AVIBuildFilter
- - vfw/AVIBuildFilter
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - AVIBuildFilterA
  - AVIBuildFilter
+ - AVIBuildFilterA
+ - AVIBuildFilterW
 ---
 
 # AVIBuildFilterA function
@@ -120,4 +119,3 @@ This function accesses the registry for all filter types that the AVIFile librar
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-

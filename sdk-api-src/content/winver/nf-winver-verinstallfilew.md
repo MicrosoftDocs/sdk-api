@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - VerInstallFileW
  - winver/VerInstallFileW
- - VerInstallFile
- - winver/VerInstallFile
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - api-ms-win-core-version-l1-1-0.dll
  - version.dll
 api_name:
- - VerInstallFileW
  - VerInstallFile
+ - VerInstallFileA
+ - VerInstallFileW
 ---
 
 # VerInstallFileW function
@@ -441,4 +440,3 @@ This function works on 16-, 32-, and 64-bit file images.
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
-

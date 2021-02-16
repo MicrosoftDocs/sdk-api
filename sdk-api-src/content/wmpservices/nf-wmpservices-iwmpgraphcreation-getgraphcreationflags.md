@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPGraphCreation::GetGraphCreationFlags
+ - IWMPGraphCreation.GetGraphCreationFlags
 ---
 
 # IWMPGraphCreation::GetGraphCreationFlags
@@ -126,4 +126,3 @@ The following table describes the graph creation flags.
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpgraphcreation">IWMPGraphCreation Interface</a>
-

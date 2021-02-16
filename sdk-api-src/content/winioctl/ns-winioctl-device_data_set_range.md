@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_DATA_SET_RANGE
- - PDEVICE_DATA_SET_RANGE
  - DEVICE_DATA_SET_RANGE
 ---
 
@@ -77,4 +75,3 @@ Length of the data set range, in bytes. Must be a multiple of disk logical secto
 
 
 <a href="/windows/desktop/DevIO/device-management-structures">Device Management Structures</a>
-

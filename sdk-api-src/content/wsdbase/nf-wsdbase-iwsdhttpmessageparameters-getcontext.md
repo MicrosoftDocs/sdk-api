@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters::GetContext
+ - IWSDHttpMessageParameters.GetContext
 ---
 
 # IWSDHttpMessageParameters::GetContext
@@ -110,4 +110,3 @@ Could not retrieve the context.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
-

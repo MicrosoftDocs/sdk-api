@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDGETIRQINFO
- - PDDGETIRQINFO
  - DDGETIRQINFO
 ---
 
@@ -75,4 +73,3 @@ The video miniport driver is managing the interrupt.
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_getirqinfo">DxGetIRQInfo</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_SCAN_ITEM
- - LPDHCP_SCAN_ITEM
  - DHCP_SCAN_ITEM
 ---
 
@@ -79,4 +77,3 @@ DHCP_IP_ADDRESS value that specifies the address whose lease status was changed 
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpscandatabase">DhcpScanDatabase</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::GetValue
+ - IDataCollectorSet.GetValue
 ---
 
 # IDataCollectorSet::GetValue
@@ -73,4 +73,3 @@ Returns S_OK if successful.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-setvalue">IDataCollectorSet::SetValue</a>
-

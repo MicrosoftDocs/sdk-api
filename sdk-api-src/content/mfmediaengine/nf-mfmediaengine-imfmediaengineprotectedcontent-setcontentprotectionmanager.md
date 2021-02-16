@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent::SetContentProtectionManager
+ - IMFMediaEngineProtectedContent.SetContentProtectionManager
 ---
 
 # IMFMediaEngineProtectedContent::SetContentProtectionManager
@@ -69,4 +69,3 @@ The Media Engine uses the CPM to handle events related to protected content, suc
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
-

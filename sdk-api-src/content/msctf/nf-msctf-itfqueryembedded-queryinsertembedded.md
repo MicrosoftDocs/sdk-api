@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfQueryEmbedded::QueryInsertEmbedded
+ - ITfQueryEmbedded.QueryInsertEmbedded
 ---
 
 # ITfQueryEmbedded::QueryInsertEmbedded
@@ -117,4 +117,3 @@ There is no active context.
 
 
 <a href="/windows/desktop/com/the-formatetc-structure">The FORMATETC Structure</a>
-

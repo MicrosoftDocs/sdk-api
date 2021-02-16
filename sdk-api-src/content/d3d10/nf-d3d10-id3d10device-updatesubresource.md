@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::UpdateSubresource
+ - ID3D10Device.UpdateSubresource
 ---
 
 # ID3D10Device::UpdateSubresource
@@ -188,4 +188,3 @@ Direct3D 10.1 enables depth-stencil resources to be used as either a source or d
 
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
-

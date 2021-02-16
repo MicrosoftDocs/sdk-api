@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_TRANSFER
+ - DxTransfer
 ---
 
 ## -description
@@ -52,15 +52,12 @@ The<i> DxTransfer</i> callback function informs the driver to bus master data fr
 ## -parameters
 
 ### -param Arg1
-
 Points to the miniport driver's device extension.
 
 ### -param Arg2
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferininfo">DDTRANSFERININFO</a> structure that contains the transfer information for the surface.
 
 ### -param Arg3
-
 Points to a <a href="/windows/desktop/api/dxmini/ns-dxmini-ddtransferoutinfo">DDTRANSFEROUTINFO</a> structure that contains the polarity of the field being captured.
 
 ## -returns
@@ -121,4 +118,3 @@ In addition, the driver should not fail the call just because the hardware is cu
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlPfnArray</a>
 
 <a href="/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
-

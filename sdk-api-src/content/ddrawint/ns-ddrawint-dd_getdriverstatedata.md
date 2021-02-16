@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_GETDRIVERSTATEDATA
- - PDD_GETDRIVERSTATEDATA
  - DD_GETDRIVERSTATEDATA
 ---
 
@@ -170,4 +168,3 @@ D3DDP2OP_ISSUEQUERY
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_global">DD_DIRECTDRAW_GLOBAL</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia3::getItemInfoByType
+ - IWMPMedia3.getItemInfoByType
 ---
 
 # IWMPMedia3::getItemInfoByType
@@ -127,4 +127,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_attributecount">IWMPMedia::get_attributeCount</a>
-

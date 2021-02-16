@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDGETPOLARITYOUTINFO
- - PDDGETPOLARITYOUTINFO
  - DDGETPOLARITYOUTINFO
 ---
 
@@ -67,4 +65,3 @@ Indicates the polarity (even or odd) of the current field being written by the V
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_getpolarity">DxGetPolarity</a>
-

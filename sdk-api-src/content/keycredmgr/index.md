@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - keycredmgr
  - keycredmgr/keycredmgr
-api_name:
- - keycredmgr
 ---
 
 # Keycredmgr.h header

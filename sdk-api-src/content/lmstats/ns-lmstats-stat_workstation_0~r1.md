@@ -36,7 +36,6 @@ api_location:
  - lmstats.h
 api_name:
  - _STAT_WORKSTATION_0
- - PSTAT_WORKSTATION_0
  - STAT_WORKSTATION_0
 ---
 
@@ -218,4 +217,3 @@ Specifies the number of current requests that have not been completed.
 
 
 <a href="/windows/desktop/NetShare/statistics-functions">Statistics Functions</a>
-

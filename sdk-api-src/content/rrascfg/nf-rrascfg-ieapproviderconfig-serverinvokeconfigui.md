@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rrascfg.h
 api_name:
- - IEAPProviderConfig::ServerInvokeConfigUI
+ - IEAPProviderConfig.ServerInvokeConfigUI
 ---
 
 # IEAPProviderConfig::ServerInvokeConfigUI
@@ -163,4 +163,3 @@ The DLL that implements
 
 
 <a href="/previous-versions/windows/desktop/api/rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize">IEAPProviderConfig::Uninitialize</a>
-

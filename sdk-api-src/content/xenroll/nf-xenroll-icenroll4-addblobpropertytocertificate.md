@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::addBlobPropertyToCertificate
+ - ICEnroll4.addBlobPropertyToCertificate
+ - CEnroll.addBlobPropertyToCertificate
 ---
 
 # ICEnroll4::addBlobPropertyToCertificate
@@ -126,4 +127,3 @@ The hash of the renewed certificate.
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-

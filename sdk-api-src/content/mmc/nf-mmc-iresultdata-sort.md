@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::Sort
+ - IResultData.Sort
+ - IResultData2.Sort
 ---
 
 # IResultData::Sort
@@ -108,4 +109,3 @@ There is no sorting function for a virtual list. To allow virtual list sorting t
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>
-

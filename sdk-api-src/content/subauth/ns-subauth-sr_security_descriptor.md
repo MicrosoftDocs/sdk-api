@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Subauth.h
 api_name:
- - _SR_SECURITY_DESCRIPTOR
- - PSR_SECURITY_DESCRIPTOR
  - SR_SECURITY_DESCRIPTOR
 ---
 
@@ -67,4 +65,3 @@ Indicates the size in bytes of the structure.
 ### -field SecurityDescriptor
 
 Indicates the user's security privileges.
-

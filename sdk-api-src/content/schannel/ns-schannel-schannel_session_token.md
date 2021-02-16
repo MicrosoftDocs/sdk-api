@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SCHANNEL_SESSION_TOKEN
  - SCHANNEL_SESSION_TOKEN
 ---
 
@@ -99,4 +98,3 @@ Reconnections are disabled.
 Add a session token to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
 
 This API only applies to Session ID-based reconnects.
-

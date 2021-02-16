@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::get_status
+ - IWMPSyncDevice.get_status
 ---
 
 # IWMPSyncDevice::get_status
@@ -108,4 +108,3 @@ Windows Media Player 10 or later supports up to 16 device partnerships. The Play
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpdevicestatus">WMPDeviceStatus</a>
-

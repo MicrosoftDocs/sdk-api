@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITQueue::get_Name
+ - ITQueue.get_Name
 ---
 
 # ITQueue::get_Name
@@ -111,4 +111,3 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-

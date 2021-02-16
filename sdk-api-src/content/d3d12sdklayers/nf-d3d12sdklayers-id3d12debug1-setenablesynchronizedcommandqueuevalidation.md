@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation
+ - ID3D12Debug1.SetEnableSynchronizedCommandQueueValidation
 ---
 
 # ID3D12Debug1::SetEnableSynchronizedCommandQueueValidation
@@ -73,4 +73,3 @@ Disabling Dependent Command Queue Synchronization may reduce some debug layer pe
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debug1">ID3D12Debug1</a>
-

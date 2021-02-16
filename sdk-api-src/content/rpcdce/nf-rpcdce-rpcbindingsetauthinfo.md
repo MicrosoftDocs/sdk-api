@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcBindingSetAuthInfo
+ - RpcBindingSetAuthInfoA
+ - RpcBindingSetAuthInfoW
 ---
 
 # RpcBindingSetAuthInfo function
@@ -202,4 +204,3 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserverregisterauthinfo">RpcServerRegisterAuthInfo</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IEnumVdsObject::Skip
+ - IEnumVdsObject.Skip
 ---
 
 # IEnumVdsObject::Skip
@@ -102,4 +102,3 @@ The number of objects specified is greater than the number of objects remaining.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyManager::EnumJobs
+ - IBackgroundCopyManager.EnumJobs
 ---
 
 # IBackgroundCopyManager::EnumJobs
@@ -127,4 +127,3 @@ The user must be an administrator or belong to an administrator group to enumera
 
 
 <a href="/windows/desktop/api/bits/nn-bits-ienumbackgroundcopyjobs">IEnumBackgroundCopyJobs</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d2d1_2.h
 api_name:
- - ID2D1CommandSink1::SetPrimitiveBlend1
+ - ID2D1CommandSink1.SetPrimitiveBlend1
 ---
 
 # ID2D1CommandSink1::SetPrimitiveBlend1
@@ -130,4 +130,3 @@ If the primitive blend is anything other than <b>D2D1_PRIMITIVE_BLEND_OVER</b> t
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1commandsink1">ID2D1CommandSink1</a>
-

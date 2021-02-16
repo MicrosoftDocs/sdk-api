@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::DownloadTrack
+ - IWMPContentPartnerCallback.DownloadTrack
 ---
 
 # IWMPContentPartnerCallback::DownloadTrack
@@ -115,4 +115,3 @@ This method must be called only after a license has been predelivered for the fi
 
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

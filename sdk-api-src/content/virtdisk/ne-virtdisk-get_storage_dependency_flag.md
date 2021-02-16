@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _GET_STORAGE_DEPENDENCY_FLAG
  - GET_STORAGE_DEPENDENCY_FLAG
 ---
 
@@ -81,4 +80,3 @@ If the <b>GET_STORAGE_DEPENDENCY_FLAG_HOST_VOLUMES</b> flag is not set, the <a h
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

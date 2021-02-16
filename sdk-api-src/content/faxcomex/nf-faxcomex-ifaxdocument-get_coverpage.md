@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::get_CoverPage
+ - IFaxDocument.CoverPage
+ - IFaxDocument.get_CoverPage
+ - IFaxDocument.put_CoverPage
 ---
 
 # IFaxDocument::get_CoverPage
@@ -75,4 +77,3 @@ To specify a local or personal cover page file, you must set the <a href="/previ
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureExchange3::TransferContainerDataOnClearChannel
+ - ISCPSecureExchange3.TransferContainerDataOnClearChannel
 ---
 
 # ISCPSecureExchange3::TransferContainerDataOnClearChannel
@@ -200,4 +200,3 @@ This method is identical to <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscps
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercontainerdata">ISCPSecureExchange::TransferContainerData</a>
-

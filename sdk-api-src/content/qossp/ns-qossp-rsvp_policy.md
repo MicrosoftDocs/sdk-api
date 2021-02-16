@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
- - _RSVP_POLICY
- - LPRSVP_POLICY
  - RSVP_POLICY
 ---
 
@@ -79,4 +77,3 @@ RSVP transports the data contained in an <b>RSVP_POLICY</b> structure on behalf 
 ## -see-also
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_policy_info">RSVP_POLICY_INFO</a>
-

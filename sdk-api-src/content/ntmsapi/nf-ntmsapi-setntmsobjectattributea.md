@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetNtmsObjectAttributeA
  - ntmsapi/SetNtmsObjectAttributeA
- - SetNtmsObjectAttribute
- - ntmsapi/SetNtmsObjectAttribute
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - SetNtmsObjectAttributeA
  - SetNtmsObjectAttribute
+ - SetNtmsObjectAttributeA
+ - SetNtmsObjectAttributeW
 ---
 
 # SetNtmsObjectAttributeA function
@@ -300,4 +299,3 @@ The following is the list of objects that require special access rights.
 
 
 <a href="/previous-versions/windows/desktop/rsm/removable-storage-manager-functions">Object Management Functions</a>
-

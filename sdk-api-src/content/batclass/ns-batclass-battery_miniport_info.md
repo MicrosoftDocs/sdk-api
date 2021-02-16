@@ -44,7 +44,6 @@ api_type:
 api_location:
  - batclass.h
 api_name:
- - PBATTERY_MINIPORT_INFO
  - BATTERY_MINIPORT_INFO
 ---
 
@@ -104,4 +103,3 @@ Pointer to a Unicode string; should be NULL.
 ## -see-also
 
 <a href="/windows/desktop/api/batclass/nf-batclass-batteryclassinitializedevice">BatteryClassInitializeDevice</a>
-

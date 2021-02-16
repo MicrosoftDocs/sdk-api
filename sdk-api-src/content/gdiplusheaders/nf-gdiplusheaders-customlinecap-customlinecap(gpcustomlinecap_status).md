@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::CustomLineCap
+ - CustomLineCap.CustomLineCap
 ---
 
 ## -description
@@ -57,7 +57,7 @@ Creates a <b>CustomLineCap::CustomLineCap</b> object.
 Type: <b><a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a></b>
 
 Optional. Element of the 
-					<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat.
+					<a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a> enumeration that specifies the line cap that will be used. The default value is LineCapFlat. 
 
 ### -param status
 
@@ -72,4 +72,3 @@ The
 
 The <b>CustomLineCap::CustomLineCap</b> class uses the winding fill mode regardless of the fill mode that is set for the 
 				<b>GraphicsPath</b> object passed to the <b>CustomLineCap::CustomLineCap</b> constructor.
-

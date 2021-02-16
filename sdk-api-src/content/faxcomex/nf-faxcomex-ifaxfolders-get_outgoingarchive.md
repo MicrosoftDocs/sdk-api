@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxFolders::get_OutgoingArchive
+ - IFaxFolders.OutgoingArchive
+ - IFaxFolders.get_OutgoingArchive
+ - IFaxFolders.get_OutgoingArchive
 ---
 
 # IFaxFolders::get_OutgoingArchive
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-outgoing-archive">Visual Basic Example</a>
-

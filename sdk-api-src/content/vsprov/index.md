@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vsprov
  - vsprov/vsprov
-api_name:
- - vsprov
 ---
 
 # Vsprov.h header

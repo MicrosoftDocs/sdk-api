@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::SetEditProperty
+ - IAMExtTransport.SetEditProperty
 ---
 
 # IAMExtTransport::SetEditProperty
@@ -203,4 +203,3 @@ The <i>Param</i> parameter is a flag that specifies the edit event parameter. Th
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-geteditproperty">IAMExtTransport::GetEditProperty</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced::GetSinkCount
+ - IWMWriterAdvanced.GetSinkCount
 ---
 
 # IWMWriterAdvanced::GetSinkCount
@@ -109,4 +109,3 @@ If you specify a file by calling <a href="/windows/desktop/api/wmsdkidl/nf-wmsdk
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriteradvanced-getsink">IWMWriterAdvanced::GetSink</a>
-

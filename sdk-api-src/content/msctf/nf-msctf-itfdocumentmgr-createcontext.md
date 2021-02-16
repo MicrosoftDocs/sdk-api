@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDocumentMgr::CreateContext
+ - ITfDocumentMgr.CreateContext
 ---
 
 # ITfDocumentMgr::CreateContext
@@ -171,4 +171,3 @@ All references to the <i>punk</i> parameter are released when the context is des
 
 <a href="/windows/desktop/TSF/tfeditcookie">TfEditCookie
       </a>
-

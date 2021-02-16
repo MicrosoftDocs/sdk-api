@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionProxy::Promote
+ - ITransactionProxy.Promote
 ---
 
 # ITransactionProxy::Promote
@@ -69,4 +69,3 @@ Reasons for promoting a non-DTC transaction to a DTC transaction include exporti
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionproxy">ITransactionProxy</a>
-

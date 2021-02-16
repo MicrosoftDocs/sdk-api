@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
- - _SYSTEM_POWER_STATUS
- - LPSYSTEM_POWER_STATUS
  - SYSTEM_POWER_STATUS
 ---
 
@@ -253,4 +251,3 @@ The system is only capable of estimating <b>BatteryFullLifeTime</b> based on cal
 
 
 <a href="/windows-hardware/design/component-guidelines/battery-saver">battery saver (in the hardware component guidelines)</a>
-

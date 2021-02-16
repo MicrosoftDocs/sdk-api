@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_UNLOADED_MODULE_LIST
- - PMINIDUMP_UNLOADED_MODULE_LIST
  - MINIDUMP_UNLOADED_MODULE_LIST
 ---
 
@@ -79,4 +77,3 @@ The number of entries in the stream. These are generally <a href="/windows/win32
 
 
 <a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_unloaded_module">MINIDUMP_UNLOADED_MODULE</a>
-

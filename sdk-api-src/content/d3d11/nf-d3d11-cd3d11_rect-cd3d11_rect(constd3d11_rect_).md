@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_RECT::CD3D11_RECT
+ - CD3D11_RECT.CD3D11_RECT
 ---
 
 # CD3D11_RECT::CD3D11_RECT(const D3D11_RECT &)
@@ -62,4 +62,3 @@ Address of the **D3D11_RECT** structure that initializes the **CD3D11_RECT** str
 ## -see-also
 
 <a href="/windows/win32/api/d3d11/ns-d3d11-cd3d11_rect">CD3D11_RECT</a>
-

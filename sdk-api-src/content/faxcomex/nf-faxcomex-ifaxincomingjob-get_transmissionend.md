@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob::get_TransmissionEnd
+ - IFaxIncomingJob.TransmissionEnd
+ - IFaxIncomingJob.get_TransmissionEnd
+ - IFaxIncomingJob.get_TransmissionEnd
 ---
 
 # IFaxIncomingJob::get_TransmissionEnd
@@ -71,4 +73,3 @@ The <b>TransmissionEnd</b> property is not valid as long as the fax is still bei
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
-

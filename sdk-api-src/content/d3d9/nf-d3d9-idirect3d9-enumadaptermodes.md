@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::EnumAdapterModes
+ - IDirect3D9.EnumAdapterModes
 ---
 
 # IDirect3D9::EnumAdapterModes
@@ -108,4 +108,3 @@ In addition, <b>EnumAdapterModes</b> treats pixel formats 565 and 555 as equival
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

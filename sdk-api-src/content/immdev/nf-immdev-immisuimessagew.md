@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ImmIsUIMessageW
  - immdev/ImmIsUIMessageW
- - ImmIsUIMessage
- - immdev/ImmIsUIMessage
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Imm32.dll
 api_name:
- - ImmIsUIMessageW
  - ImmIsUIMessage
+ - ImmIsUIMessageA
+ - ImmIsUIMessageW
 ---
 
 # ImmIsUIMessageW function
@@ -101,4 +100,3 @@ An application typically uses this function to display a composition string or c
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-

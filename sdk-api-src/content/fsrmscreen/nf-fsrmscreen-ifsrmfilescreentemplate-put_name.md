@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplate::put_Name
+ - IFsrmFileScreenTemplate.Name
+ - IFsrmFileScreenTemplate.get_Name
+ - IFsrmFileScreenTemplate.put_Name
 ---
 
 # IFsrmFileScreenTemplate::put_Name
@@ -81,4 +83,3 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilescreentemplate">MSFT_FSRMFileScreenTemplate</a>
-

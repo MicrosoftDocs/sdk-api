@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask::GetMaxRunTime
+ - ITask.GetMaxRunTime
 ---
 
 # ITask::GetMaxRunTime
@@ -117,4 +117,3 @@ Not enough memory is available.
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itask-setmaxruntime">SetMaxRunTime</a>
-

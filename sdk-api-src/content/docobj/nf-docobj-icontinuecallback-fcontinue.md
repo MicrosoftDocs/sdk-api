@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IContinueCallback::FContinue
+ - IContinueCallback.FContinue
 ---
 
 # IContinueCallback::FContinue
@@ -90,4 +90,3 @@ Cancel the operation as soon as possible.
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-icontinuecallback">IContinueCallback</a>
-

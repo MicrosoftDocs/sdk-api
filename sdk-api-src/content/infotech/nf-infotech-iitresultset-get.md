@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITResultSet::Get
+ - IITResultSet.Get
 ---
 
 # IITResultSet::Get
@@ -104,4 +104,3 @@ The row or column does not exist in the row set.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
-

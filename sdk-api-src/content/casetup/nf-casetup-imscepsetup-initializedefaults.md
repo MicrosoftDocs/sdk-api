@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - IMSCEPSetup::InitializeDefaults
+ - IMSCEPSetup.InitializeDefaults
 ---
 
 # IMSCEPSetup::InitializeDefaults
@@ -57,4 +57,3 @@ The <b>InitializeDefaults</b> method initializes a <b>CMSCEPSetup</b> object wit
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-imscepsetup">IMSCEPSetup</a>
-

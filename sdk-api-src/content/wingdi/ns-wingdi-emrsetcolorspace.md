@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSETCOLORSPACE
- - PEMRSETCOLORSPACE
  - EMRSETCOLORSPACE
 ---
 
@@ -79,4 +77,3 @@ There is no function that generates an enhanced metafile record with the <b>EMRS
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

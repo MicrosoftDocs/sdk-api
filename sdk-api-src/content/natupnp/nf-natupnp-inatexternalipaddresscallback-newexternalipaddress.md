@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INATExternalIPAddressCallback::NewExternalIPAddress
+ - INATExternalIPAddressCallback.NewExternalIPAddress
 ---
 
 # INATExternalIPAddressCallback::NewExternalIPAddress
@@ -180,4 +180,3 @@ One reason why the external IP address of the NAT computer could change would be
 
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tvratings.h
 api_name:
- - IEvalRat::get_BlockedRatingAttributes
+ - IEvalRat.get_BlockedRatingAttributes
 ---
 
 # IEvalRat::get_BlockedRatingAttributes
@@ -121,4 +121,3 @@ If the <b>BfIsBlocked</b> flag is set, all content with the specified rating lev
 
 
 <a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockedratingattributes">IEvalRat::put_BlockedRatingAttributes</a>
-

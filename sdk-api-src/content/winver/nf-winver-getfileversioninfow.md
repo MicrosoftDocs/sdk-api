@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetFileVersionInfoW
  - winver/GetFileVersionInfoW
- - GetFileVersionInfo
- - winver/GetFileVersionInfo
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - KernelBase.dll
  - version.dll
 api_name:
- - GetFileVersionInfoW
  - GetFileVersionInfo
+ - GetFileVersionInfoA
+ - GetFileVersionInfoW
 ---
 
 # GetFileVersionInfoW function
@@ -139,4 +138,3 @@ Call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizea"
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
-

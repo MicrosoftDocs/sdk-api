@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_9
- - PDFS_INFO_9
  - DFS_INFO_9
 ---
 
@@ -277,4 +275,3 @@ Specifies an array of <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_storage_i
 
 
 <a href="/previous-versions/windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo">NetDfsGetInfo</a>
-

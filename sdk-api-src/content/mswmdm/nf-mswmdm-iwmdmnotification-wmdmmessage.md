@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMNotification::WMDMMessage
+ - IWMDMNotification.WMDMMessage
 ---
 
 # IWMDMNotification::WMDMMessage
@@ -138,4 +138,3 @@ HRESULT WMDMMessage(DWORD  dwMessageType, LPCWSTR  pwszCanonicalName)
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification">IWMDMNotification Interface</a>
-

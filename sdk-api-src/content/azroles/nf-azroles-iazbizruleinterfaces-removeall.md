@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleInterfaces::RemoveAll
+ - IAzBizRuleInterfaces.RemoveAll
 ---
 
 # IAzBizRuleInterfaces::RemoveAll
@@ -61,4 +61,3 @@ The <b>RemoveAll</b> method removes all interfaces from the list of interfaces t
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
-

@@ -9,8 +9,6 @@ tech.root: rstmgr
 f1_keywords:
  - restartmanager
  - restartmanager/restartmanager
-api_name:
- - restartmanager
 ---
 
 # Restartmanager.h header

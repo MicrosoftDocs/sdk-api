@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IEnumRegFilters::Next
+ - IEnumRegFilters.Next
 ---
 
 # IEnumRegFilters::Next
@@ -169,4 +169,3 @@ If the number of registered filters changes, the state of the enumerator will no
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienumregfilters">IEnumRegFilters Interface</a>
-

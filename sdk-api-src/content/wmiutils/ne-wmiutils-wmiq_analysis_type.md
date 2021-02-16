@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WMIUtils.h
 api_name:
- - __MIDL___MIDL_itf_wmiutils_0000_0001_0001
  - WMIQ_ANALYSIS_TYPE
 ---
 
@@ -78,4 +77,3 @@ You can use this parameter if  a parser object is passed to another method.
 ### -field WMIQ_ANALYSIS_RESERVED
 
 Unused.  Reserved for future use.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder::GetRecorderProperties
+ - IDiscRecorder.GetRecorderProperties
 ---
 
 # IDiscRecorder::GetRecorderProperties
@@ -78,4 +78,3 @@ The caller can then modify properties by calling
 
 
 <a href="/windows/desktop/api/propidl/nn-propidl-ipropertystorage">IPropertyStorage</a>
-

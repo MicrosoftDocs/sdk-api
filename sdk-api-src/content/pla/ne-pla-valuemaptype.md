@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pla.h
 api_name:
- - __MIDL___MIDL_itf_pla_0001_0043_0008
  - ValueMapType
 ---
 
@@ -80,4 +79,3 @@ The collection contains a list of HRESULT values returned by the validation proc
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get_valuemaptype">IValueMapItem::ValueMapType</a>
-

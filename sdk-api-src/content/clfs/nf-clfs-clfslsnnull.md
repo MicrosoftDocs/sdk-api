@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Clfsw32.dll
 api_name:
- - ClfsLsnNull
+ - LsnNull
 ---
 
 # ClfsLsnNull function
@@ -73,4 +73,3 @@ A pointer to the <a href="/windows/desktop/api/clfs/ns-clfs-cls_lsn">CLFS_LSN</a
 
 
 <a href="/windows/desktop/api/clfs/nf-clfs-clfslsnless">LsnLess</a>
-

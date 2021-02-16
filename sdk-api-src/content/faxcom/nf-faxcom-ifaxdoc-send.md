@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::Send
+ - IFaxDoc.Send
+ - IFaxDoc.Send
 ---
 
 # IFaxDoc::Send
@@ -81,4 +82,3 @@ The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxdoc-get-filename-v
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxdoc">IFaxDoc</a>
-

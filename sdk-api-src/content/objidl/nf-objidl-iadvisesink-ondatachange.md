@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IAdviseSink::OnDataChange
+ - IAdviseSink.OnDataChange
 ---
 
 # IAdviseSink::OnDataChange
@@ -76,4 +76,3 @@ The data itself, which is valid only for the duration of the call, is passed usi
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
-

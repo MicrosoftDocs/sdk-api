@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _OCSP_SIGNATURE_INFO
- - POCSP_SIGNATURE_INFO
  - OCSP_SIGNATURE_INFO
 ---
 
@@ -99,4 +97,3 @@ An array of pointers to <a href="/previous-versions/windows/desktop/legacy/aa381
 
 
 <a href="https://www.ietf.org/rfc/rfc2560.txt">RFC 2560  Online Certificate Status Protocol</a>
-

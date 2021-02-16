@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPAsyncResult::AsyncOperationComplete
+ - IUPnPAsyncResult.AsyncOperationComplete
 ---
 
 # IUPnPAsyncResult::AsyncOperationComplete
@@ -65,4 +65,3 @@ If the method succeeds, the return value is S_OK. Otherwise, the method returns 
 ## -see-also
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpasyncresult">IUPnPAsyncResult</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarity::Append
+ - ISimilarity.Append
 ---
 
 # ISimilarity::Append
@@ -75,4 +75,3 @@ If this method fails, the similarity file ID table and the similarity traits tab
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
-

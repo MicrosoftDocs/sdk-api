@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IPersistTuneXml::InitNew
+ - IPersistTuneXml.InitNew
 ---
 
 # IPersistTuneXml::InitNew
@@ -61,4 +61,3 @@ Always returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ipersisttunexml">IPersistTuneXml</a>
-

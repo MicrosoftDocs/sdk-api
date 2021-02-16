@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless::SetFocus
+ - IOleInPlaceSiteWindowless.SetFocus
 ---
 
 # IOleInPlaceSiteWindowless::SetFocus
@@ -95,4 +95,3 @@ A windowless object also calls the <b>IOleInPlaceSiteWindowless::SetFocus</b> me
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-

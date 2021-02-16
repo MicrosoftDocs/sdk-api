@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingMethod::get_Priority
+ - IFaxInboundRoutingMethod.Priority
+ - IFaxInboundRoutingMethod.get_Priority
+ - IFaxInboundRoutingMethod.put_Priority
 ---
 
 # IFaxInboundRoutingMethod::get_Priority
@@ -77,4 +79,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
-

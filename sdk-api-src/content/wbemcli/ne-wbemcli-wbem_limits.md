@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - tag_WBEM_LIMITS
  - WBEM_LIMITS
 ---
 

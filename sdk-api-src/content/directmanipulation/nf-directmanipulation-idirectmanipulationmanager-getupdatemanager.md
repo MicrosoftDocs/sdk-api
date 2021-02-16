@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationManager::GetUpdateManager
+ - IDirectManipulationManager.GetUpdateManager
 ---
 
 # IDirectManipulationManager::GetUpdateManager
@@ -73,4 +73,3 @@ For the compositor to respond to update events from <a href="/previous-versions/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>
-

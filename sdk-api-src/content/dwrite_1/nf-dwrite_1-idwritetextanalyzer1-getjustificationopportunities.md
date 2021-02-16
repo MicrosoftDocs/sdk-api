@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite_1.dll
 api_name:
- - IDWriteTextAnalyzer1::GetJustificationOpportunities
+ - IDWriteTextAnalyzer1.GetJustificationOpportunities
 ---
 
 # IDWriteTextAnalyzer1::GetJustificationOpportunities

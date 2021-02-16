@@ -46,8 +46,6 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
- - _MACHINE_POWER_POLICY
- - PMACHINE_POWER_POLICY
  - MACHINE_POWER_POLICY
 ---
 
@@ -136,4 +134,3 @@ A
 
 
 <a href="/windows/desktop/api/powrprof/ns-powrprof-power_policy">POWER_POLICY</a>
-

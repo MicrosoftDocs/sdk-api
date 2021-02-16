@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_COLOR_YCbCrA
  - DXVAHD_COLOR_YCbCrA
 ---
 
@@ -94,4 +93,3 @@ Reference black is (0.0625, 0.5, 0.5), which corresponds to (16, 128, 128) in an
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

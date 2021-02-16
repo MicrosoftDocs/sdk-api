@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory::CreateBitmapFromHBITMAP
+ - IWICImagingFactory.CreateBitmapFromHBITMAP
 ---
 
 # IWICImagingFactory::CreateBitmapFromHBITMAP
@@ -103,4 +103,3 @@ For a non-palletized bitmap, set NULL for the <i>hPalette</i> parameter.
 
 
 <a href="/windows/desktop/api/wincodec/ne-wincodec-wicbitmapalphachanneloption">WICBitmapAlphaChannelOption</a>
-

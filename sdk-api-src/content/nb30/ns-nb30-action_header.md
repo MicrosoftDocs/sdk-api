@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
- - _ACTION_HEADER
- - PACTION_HEADER
  - ACTION_HEADER
 ---
 
@@ -131,4 +129,3 @@ The scope of the action is determined by the <b>ncb_lsn</b> and <b>ncb_num</b> m
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-

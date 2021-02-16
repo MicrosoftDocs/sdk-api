@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1AnalysisTransform::ProcessAnalysisResults
+ - ID2D1AnalysisTransform.ProcessAnalysisResults
 ---
 
 # ID2D1AnalysisTransform::ProcessAnalysisResults
@@ -86,4 +86,3 @@ The output of the transform will be copied to CPU-accessible memory by the imagi
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectcontext-createresourcetexture">ID2D1EffectContext::CreateResourceTexture</a>
-

@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkGesture::get_Id
+ - IInkGesture.ID
+ - IInkGesture.get_ID
+ - IInkGesture.get_Id
 ---
 
 # IInkGesture::get_Id
@@ -69,4 +71,3 @@ An object's identifier never changes.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkgesture">IInkGesture Interface</a>
-

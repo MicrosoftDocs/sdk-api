@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IServerSecurity::ImpersonateClient
+ - IServerSecurity.ImpersonateClient
 ---
 
 # IServerSecurity::ImpersonateClient
@@ -79,4 +79,3 @@ For information on using impersonation with asynchronous calls, see <a href="/wi
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iserversecurity">IServerSecurity</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2::RepeatBetweenKeyframes
+ - IUIAnimationStoryboard2.RepeatBetweenKeyframes
 ---
 
 # IUIAnimationStoryboard2::RepeatBetweenKeyframes
@@ -113,4 +113,3 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard2-addkeyframeatoffset">IUIAnimationStoryboard2::AddKeyframeAtOffset</a>
-

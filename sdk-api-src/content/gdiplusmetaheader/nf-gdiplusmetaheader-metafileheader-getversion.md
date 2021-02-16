@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader::GetVersion
+ - MetafileHeader.GetVersion
 ---
 
 # MetafileHeader::GetVersion
@@ -80,4 +80,3 @@ This method returns the version of the metafile. The metafile version indicates 
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-

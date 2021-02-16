@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vsadmin
  - vsadmin/vsadmin
-api_name:
- - vsadmin
 ---
 
 # Vsadmin.h header

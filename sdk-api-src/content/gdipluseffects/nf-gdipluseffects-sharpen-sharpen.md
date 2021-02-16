@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Sharpen::Sharpen
+ - Sharpen.Sharpen
 ---
 
 # Sharpen::Sharpen
@@ -66,4 +66,3 @@ Creates a <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-sharpen
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-sharpenparams">SharpenParams</a>
-

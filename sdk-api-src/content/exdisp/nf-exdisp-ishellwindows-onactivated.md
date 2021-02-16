@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows::OnActivated
+ - IShellWindows.OnActivated
 ---
 
 # IShellWindows::OnActivated
@@ -88,4 +88,3 @@ A window is granted a cookie when it is registered as a Shell window. For more i
 
 
 <a href="/windows/desktop/api/exdisp/nf-exdisp-ishellwindows-onnavigate">IShellWindows::OnNavigate</a>
-

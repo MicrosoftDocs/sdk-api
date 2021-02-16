@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Werapi.h
 api_name:
- - _WER_DUMP_CUSTOM_OPTIONS
- - PWER_DUMP_CUSTOM_OPTIONS
  - WER_DUMP_CUSTOM_OPTIONS
 ---
 
@@ -187,4 +185,3 @@ If the callback input type is <b>ModuleCallback</b>, the  <b>ModuleWriteFlags</b
 ## -see-also
 
 <a href="/windows/desktop/api/werapi/nf-werapi-werreportadddump">WerReportAddDump</a>
-

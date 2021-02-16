@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseExportA
  - msiquery/MsiDatabaseExportA
- - MsiDatabaseExport
- - msiquery/MsiDatabaseExport
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiDatabaseExportA
  - MsiDatabaseExport
+ - MsiDatabaseExportA
+ - MsiDatabaseExportW
 ---
 
 # MsiDatabaseExportA function
@@ -167,4 +166,3 @@ If the function fails, you can get extended error information by using <a href="
 
 
 <a href="/windows/desktop/Msi/text-archive-files">Text Archive Files</a>
-

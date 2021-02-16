@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxFactory::CreateBlockMapReader
+ - IAppxFactory.CreateBlockMapReader
 ---
 
 # IAppxFactory::CreateBlockMapReader
@@ -101,4 +101,3 @@ Use the  <b>CreateBlockMapReader</b> method to read a block map outside of an ap
 
 
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createvalidatedblockmapreader">IAppxFactory::CreateValidatedBlockMapReader</a>
-

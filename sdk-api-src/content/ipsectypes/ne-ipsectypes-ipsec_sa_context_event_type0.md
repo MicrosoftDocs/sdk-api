@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_CONTEXT_EVENT_TYPE0_
  - IPSEC_SA_CONTEXT_EVENT_TYPE0
 ---
 
@@ -72,4 +71,3 @@ Maximum value for testing purposes.
 ## -see-also
 
 [IPSEC_SA_CONTEXT_CHANGE0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)
-

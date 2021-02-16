@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsAdmin.h
 api_name:
- - IVssAdmin::UnregisterProvider
+ - IVssAdmin.UnregisterProvider
 ---
 
 # IVssAdmin::UnregisterProvider
@@ -135,4 +135,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="/windows/desktop/api/vsadmin/nf-vsadmin-ivssadmin-registerprovider">RegisterProvider</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::SetActivateState
+ - IBrowserService2.SetActivateState
 ---
 
 # IBrowserService2::SetActivateState
@@ -66,4 +66,3 @@ The activation state of the window. This is always the SVUIA_ACTIVATE_FOCUS (0x0
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

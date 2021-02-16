@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XpsPrint.h
 api_name:
- - IXpsPrintJob::Cancel
+ - IXpsPrintJob.Cancel
 ---
 
 # IXpsPrintJob::Cancel
@@ -77,4 +77,3 @@ This function is thread-safe and synchronized with the job status of the print j
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

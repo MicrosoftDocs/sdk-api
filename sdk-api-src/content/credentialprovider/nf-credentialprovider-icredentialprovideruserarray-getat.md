@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Authui.dll
 api_name:
- - ICredentialProviderUserArray::GetAt
+ - ICredentialProviderUserArray.GetAt
 ---
 
 # ICredentialProviderUserArray::GetAt
@@ -87,4 +87,3 @@ The index specified in <i>userIndex</i> is out of range.
 ## -see-also
 
 <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruserarray">ICredentialProviderUserArray</a>
-

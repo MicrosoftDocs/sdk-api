@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus::GetStylusSyncPluginCount
+ - IRealTimeStylus.GetStylusSyncPluginCount
 ---
 
 # IRealTimeStylus::GetStylusSyncPluginCount
@@ -73,4 +73,3 @@ For a description of the return values, see <a href="/windows/desktop/tablet/rea
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-

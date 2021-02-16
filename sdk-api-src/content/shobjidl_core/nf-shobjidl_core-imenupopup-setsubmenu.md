@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IMenuPopup::SetSubMenu
+ - IMenuPopup.SetSubMenu
 ---
 
 # IMenuPopup::SetSubMenu
@@ -71,4 +71,3 @@ Removes the submenu if <i>fSet</i> is set to <b>FALSE</b>.
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
-

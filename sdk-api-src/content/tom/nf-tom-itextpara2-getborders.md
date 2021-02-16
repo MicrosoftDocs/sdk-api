@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara2::GetBorders
+ - ITextPara2.GetBorders
 ---
 
 # ITextPara2::GetBorders
@@ -71,4 +71,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextpara2">ITextPara2</a>
-

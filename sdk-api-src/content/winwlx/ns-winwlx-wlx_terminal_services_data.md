@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
- - _WLX_TERMINAL_SERVICES_DATA
- - PWLX_TERMINAL_SERVICES_DATA
  - WLX_TERMINAL_SERVICES_DATA
 ---
 
@@ -84,4 +82,3 @@ The Terminal Services user configuration information is received from the Domain
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_terminal_services_data">WlxQueryTerminalServicesData</a>
-

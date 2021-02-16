@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory1::CreateStrokeStyle
+ - ID2D1Factory1.CreateStrokeStyle
 ---
 
 # ID2D1Factory1::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES1,const FLOAT,UINT32,ID2D1StrokeStyle1)
@@ -114,4 +114,3 @@ It is valid to specify a dash array only if D2D1_DASH_STYLE_CUSTOM is also speci
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1">ID2D1StrokeStyle1</a>
-

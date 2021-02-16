@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphBuilder::Abort
+ - IGraphBuilder.Abort
 ---
 
 # IGraphBuilder::Abort
@@ -70,4 +70,3 @@ Returns S_OK.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
-

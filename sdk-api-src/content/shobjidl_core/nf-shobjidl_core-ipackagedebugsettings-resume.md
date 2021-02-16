@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::Resume
+ - IPackageDebugSettings.Resume
 ---
 
 # IPackageDebugSettings::Resume
@@ -73,4 +73,3 @@ Each process receives the <a href="/uwp/api/windows.applicationmodel.core.coreap
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-suspend">Suspend</a>
-

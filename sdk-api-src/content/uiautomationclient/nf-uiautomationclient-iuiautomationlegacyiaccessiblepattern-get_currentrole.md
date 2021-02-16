@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
+ - IUIAutomationLegacyIAccessiblePattern.CurrentRole
+ - IUIAutomationLegacyIAccessiblePattern.get_CurrentRole
 ---
 
 # IUIAutomationLegacyIAccessiblePattern::get_CurrentRole
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern">IUIAutomationLegacyIAccessiblePattern</a>
-

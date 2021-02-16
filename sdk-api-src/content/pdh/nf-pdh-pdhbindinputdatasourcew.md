@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhBindInputDataSourceW
  - pdh/PdhBindInputDataSourceW
- - PdhBindInputDataSource
- - pdh/PdhBindInputDataSource
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhBindInputDataSourceW
  - PdhBindInputDataSource
+ - PdhBindInputDataSourceA
+ - PdhBindInputDataSourceW
 ---
 
 # PdhBindInputDataSourceW function
@@ -126,4 +125,3 @@ To close the bound log files, call the <a href="/windows/desktop/api/pdh/nf-pdh-
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhopenqueryh">PdhOpenQueryH</a>
-

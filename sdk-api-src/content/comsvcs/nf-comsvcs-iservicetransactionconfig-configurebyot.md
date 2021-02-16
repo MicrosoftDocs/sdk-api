@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceTransactionConfig::ConfigureBYOT
+ - IServiceTransactionConfig.ConfigureBYOT
 ---
 
 # IServiceTransactionConfig::ConfigureBYOT
@@ -75,4 +75,3 @@ The <b>ConfigureBYOT</b> and the <a href="/windows/desktop/api/comsvcs/nf-comsvc
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfig">IServiceTransactionConfig</a>
-

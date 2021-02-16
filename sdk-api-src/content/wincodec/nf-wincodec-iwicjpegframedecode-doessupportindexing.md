@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode::DoesSupportIndexing
+ - IWICJpegFrameDecode.DoesSupportIndexing
 ---
 
 # IWICJpegFrameDecode::DoesSupportIndexing
@@ -73,4 +73,3 @@ Indexing is only supported for some JPEG types. Call this method
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
-

@@ -45,6 +45,8 @@ api_location:
  - winmmbase.dll
 api_name:
  - midiOutGetDevCaps
+ - midiOutGetDevCapsA
+ - midiOutGetDevCapsW
 ---
 
 # midiOutGetDevCaps function
@@ -132,4 +134,3 @@ To determine the number of MIDI output devices present in the system, use the <a
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-

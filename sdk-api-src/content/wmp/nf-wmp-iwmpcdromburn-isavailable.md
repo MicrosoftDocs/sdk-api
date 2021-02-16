@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn::isAvailable
+ - IWMPCdromBurn.isAvailable
 ---
 
 # IWMPCdromBurn::isAvailable
@@ -116,4 +116,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
-

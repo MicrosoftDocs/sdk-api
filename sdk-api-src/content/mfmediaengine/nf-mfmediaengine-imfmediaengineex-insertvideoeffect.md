@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::InsertVideoEffect
+ - IMFMediaEngineEx.InsertVideoEffect
 ---
 
 # IMFMediaEngineEx::InsertVideoEffect
@@ -134,4 +134,3 @@ The effect is applied when the next media resource is loaded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

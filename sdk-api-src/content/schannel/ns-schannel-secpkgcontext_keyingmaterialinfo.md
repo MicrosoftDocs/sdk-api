@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_KeyingMaterialInfo
- - PSecPkgContext_KeyingMaterialInfo
  - SecPkgContext_KeyingMaterialInfo
+ - SecPkgContext_KeyingMaterialInfoA
+ - SecPkgContext_KeyingMaterialInfoW
 ---
 
 # SecPkgContext_KeyingMaterialInfo structure
@@ -84,4 +84,3 @@ The length, in bytes, of the keying material to be generated. Must be greater th
 #### - cbConextValue
 
 The length, in bytes, of the application context. Zero if application context is not provided by the caller.
-

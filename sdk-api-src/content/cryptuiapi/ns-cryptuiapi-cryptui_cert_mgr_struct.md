@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptuiapi.h
 api_name:
- - _CRYPTUI_CERT_MGR_STRUCT
- - PCRYPTUI_CERT_MGR_STRUCT
  - CRYPTUI_CERT_MGR_STRUCT
 ---
 
@@ -79,4 +77,3 @@ Title of the dialog box.
 ### -field pszInitUsageOID
 
 Enhanced key usage <a href="/windows/desktop/SecGloss/o-gly">object identifier</a> (OID) of the certificates that will initially appear in the dialog box. The default value is <b>NULL</b>, which displays all certificates.
-

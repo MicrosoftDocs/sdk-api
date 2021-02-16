@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorage2::SetAttributes2
+ - IWMDMStorage2.SetAttributes2
 ---
 
 # IWMDMStorage2::SetAttributes2
@@ -89,4 +89,3 @@ For an extensive list of possible error codes, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage2-getattributes2">IWMDMStorage2::GetAttributes2</a>
-

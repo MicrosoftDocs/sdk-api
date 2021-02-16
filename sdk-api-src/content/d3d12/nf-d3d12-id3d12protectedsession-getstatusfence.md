@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12ProtectedSession::GetStatusFence
+ - ID3D12ProtectedSession.GetStatusFence
 ---
 
 # ID3D12ProtectedSession::GetStatusFence
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12protectedsession">ID3D12ProtectedSession</a>
-

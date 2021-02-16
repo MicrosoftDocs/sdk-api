@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFECommon::IsDefaultIME
+ - IFECommon.IsDefaultIME
 ---
 
 # IFECommon::IsDefaultIME
@@ -79,4 +79,3 @@ The size of <i>szName</i> in bytes.
 
 
 <a href="/windows/desktop/inputdev/keyboard-input-functions">Win32 keyboard layout API</a>
-

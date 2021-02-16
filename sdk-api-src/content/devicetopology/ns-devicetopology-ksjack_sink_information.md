@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - _tagKSJACK_SINK_INFORMATION
  - KSJACK_SINK_INFORMATION
 ---
 
@@ -100,4 +99,3 @@ Specifies the video port identifier in a <a href="/windows/desktop/api/devicetop
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-iksjacksinkinformation-getjacksinkinformation">IKsJackSinkInformation::GetJackSinkInformation</a>
-

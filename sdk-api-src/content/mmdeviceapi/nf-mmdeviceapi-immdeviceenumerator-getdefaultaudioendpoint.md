@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDeviceEnumerator::GetDefaultAudioEndpoint
+ - IMMDeviceEnumerator.GetDefaultAudioEndpoint
 ---
 
 # IMMDeviceEnumerator::GetDefaultAudioEndpoint
@@ -176,4 +176,3 @@ For code examples that call the <b>GetDefaultAudioEndpoint</b> method, see the f
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator">IMMDeviceEnumerator Interface</a>
-

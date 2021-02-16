@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - PFNRASFREEBUFFER
+ - RasFreeBuffer
 ---
 
 # PFNRASFREEBUFFER callback function
@@ -115,4 +115,3 @@ The custom-scripting DLL calls
 
 
 <a href="/windows/desktop/api/ras/nc-ras-pfnrasgetbuffer">RasGetBuffer</a>
-

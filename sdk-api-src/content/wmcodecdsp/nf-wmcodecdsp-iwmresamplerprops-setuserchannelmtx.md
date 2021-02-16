@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMResamplerProps::SetUserChannelMtx
+ - IWMResamplerProps.SetUserChannelMtx
 ---
 
 # IWMResamplerProps::SetUserChannelMtx
@@ -97,4 +97,3 @@ where <i>Coeff</i> is an integer coefficient.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-iwmresamplerprops">IWMResamplerProps Interface</a>
-

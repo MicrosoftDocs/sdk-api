@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Rect::GetLeft
+ - Rect.GetLeft
 ---
 
 # Rect::GetLeft
@@ -88,4 +88,3 @@ This method returns the x-coordinate of the left edge of the rectangle.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-pen-to-draw-lines-and-rectangles-use">Using a Pen to Draw Lines and Rectangles</a>
-

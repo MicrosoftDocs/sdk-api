@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
  - WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -71,4 +70,3 @@ Application provided security binding properties that cannot be represented in p
 The Windows credential to be used to obtain the Kerberos ticket.  This
           field is required on the client side, but must be <b>NULL</b> on the server
           side.
-

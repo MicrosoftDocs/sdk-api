@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - tag_WBEM_STATUS_TYPE
  - WBEM_STATUS_TYPE
 ---
 
@@ -96,4 +95,3 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-execqueryasync">IWbemServices::ExecQueryAsync</a>
-

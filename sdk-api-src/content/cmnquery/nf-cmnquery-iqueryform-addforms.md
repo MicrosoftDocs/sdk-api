@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsquery.dll
 api_name:
- - IQueryForm::AddForms
+ - IQueryForm.AddForms
 ---
 
 # IQueryForm::AddForms
@@ -73,4 +73,3 @@ Returns <b>S_OK</b> if successful or a standard <b>HRESULT</b> failure code othe
 
 
 <a href="/windows/desktop/api/cmnquery/nn-cmnquery-iqueryform">IQueryForm</a>
-

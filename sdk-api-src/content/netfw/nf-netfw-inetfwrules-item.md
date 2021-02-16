@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRules::Item
+ - INetFwRules.Item
 ---
 
 # INetFwRules::Item
@@ -206,4 +206,3 @@ The requested item does not exist.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
-

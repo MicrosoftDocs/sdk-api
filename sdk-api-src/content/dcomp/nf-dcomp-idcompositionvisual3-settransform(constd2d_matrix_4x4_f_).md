@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual3::SetTransform
+ - IDCompositionVisual3.SetTransform
 ---
 
 # IDCompositionVisual3::SetTransform
@@ -113,4 +113,3 @@ If the Transform property previously specified a transform object, the newly spe
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449171(v=vs.85)">IDCompositionVisual::SetOffsetY</a>
-

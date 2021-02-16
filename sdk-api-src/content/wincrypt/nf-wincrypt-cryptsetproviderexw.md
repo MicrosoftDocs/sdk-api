@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CryptSetProviderExW
  - wincrypt/CryptSetProviderExW
- - CryptSetProviderEx
- - wincrypt/CryptSetProviderEx
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptSetProviderExW
  - CryptSetProviderEx
+ - CryptSetProviderExA
+ - CryptSetProviderExW
 ---
 
 # CryptSetProviderExW function
@@ -176,4 +175,3 @@ Most applications do not specify a CSP name when calling the
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-

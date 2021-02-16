@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmDependency::get_Language
+ - IMsmDependency.get_Language
 ---
 
 # IMsmDependency::get_Language
@@ -101,4 +101,3 @@ The function succeeded.
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

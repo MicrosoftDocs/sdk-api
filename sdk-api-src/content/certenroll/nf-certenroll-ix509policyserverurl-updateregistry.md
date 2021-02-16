@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::UpdateRegistry
+ - IX509PolicyServerUrl.UpdateRegistry
 ---
 
 # IX509PolicyServerUrl::UpdateRegistry
@@ -137,4 +137,3 @@ The <b>UpdateRegistry</b> method is called by the <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

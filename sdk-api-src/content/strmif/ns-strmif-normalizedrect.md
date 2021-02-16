@@ -46,8 +46,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _NORMALIZEDRECT
- - PNORMALIZEDRECT
  - NORMALIZEDRECT
 ---
 
@@ -83,4 +81,3 @@ This structure is used in methods involving "composition space," which refers to
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

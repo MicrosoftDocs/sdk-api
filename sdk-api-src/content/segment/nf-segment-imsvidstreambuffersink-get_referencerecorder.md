@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSink::get_ReferenceRecorder
+ - IMSVidStreamBufferSink.get_ReferenceRecorder
 ---
 
 # IMSVidStreamBufferSink::get_ReferenceRecorder
@@ -91,4 +91,3 @@ The caller must release the <a href="/windows/desktop/api/segment/nn-segment-ims
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersink">IMSVidStreamBufferSink Interface</a>
-

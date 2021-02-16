@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dcomp.h
 api_name:
- - IDCompositionDesktopDevice::CreateSurfaceFromHandle
+ - IDCompositionDesktopDevice.CreateSurfaceFromHandle
 ---
 
 # IDCompositionDesktopDevice::CreateSurfaceFromHandle
@@ -73,4 +73,3 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setcontent">IDCompositionVisual::SetContent</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_SAN_POLICY
  - VDS_SAN_POLICY
 ---
 
@@ -111,4 +110,3 @@ For a clean installation of Windows, the SAN policy determines whether a disk is
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsservicesan-setsanpolicy">IVdsServiceSAN::SetSANPolicy</a>
-

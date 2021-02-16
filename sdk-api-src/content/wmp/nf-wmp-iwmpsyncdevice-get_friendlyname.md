@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::get_friendlyName
+ - IWMPSyncDevice.get_friendlyName
 ---
 
 # IWMPSyncDevice::get_friendlyName
@@ -108,4 +108,3 @@ The friendly name is the device name that appears in the Windows Media Player us
 
 
 <a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMaster::EnumDiscRecorders
+ - IDiscMaster.EnumDiscRecorders
 ---
 
 # IDiscMaster::EnumDiscRecorders
@@ -81,4 +81,3 @@ The <b>MaxWriteSpeed</b> property is updated when this method is called. The def
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-

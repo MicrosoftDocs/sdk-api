@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTEN2::XMUBYTEN2
+ - XMUBYTEN2.XMUBYTEN2
 ---
 
 # XMUBYTEN2::XMUBYTEN2(const uint8_t)
@@ -77,4 +77,3 @@ instance.y = pArray[1];
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyten2">XMUBYTEN2</a>
 
 <a href="/windows/desktop/dxmath/xmubyten2-ctor">XMUBYTEN2 Constructors</a>
-

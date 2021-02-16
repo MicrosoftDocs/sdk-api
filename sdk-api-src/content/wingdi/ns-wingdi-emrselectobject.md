@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSELECTOBJECT
- - PEMRSELECTOBJECT
  - EMRSELECTOBJECT
 ---
 
@@ -83,4 +81,3 @@ The index of an object in the handle table.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

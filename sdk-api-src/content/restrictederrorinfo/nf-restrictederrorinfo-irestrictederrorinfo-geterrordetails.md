@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RestrictedErrorInfo.h
 api_name:
- - IRestrictedErrorInfo::GetErrorDetails
+ - IRestrictedErrorInfo.GetErrorDetails
 ---
 
 # IRestrictedErrorInfo::GetErrorDetails
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-irestrictederrorinfo">IRestrictedErrorInfo</a>
-

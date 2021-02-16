@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPort::get_RemoteAddresses
+ - INetFwOpenPort.RemoteAddresses
+ - INetFwOpenPort.get_RemoteAddresses
+ - INetFwOpenPort.put_RemoteAddresses
 ---
 
 # INetFwOpenPort::get_RemoteAddresses
@@ -83,4 +85,3 @@ For a predefined address range, use the <a href="/previous-versions/windows/desk
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenport">INetFwOpenPort</a>
-

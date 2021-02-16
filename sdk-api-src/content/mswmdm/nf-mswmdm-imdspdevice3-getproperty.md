@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice3::GetProperty
+ - IMDSPDevice3.GetProperty
 ---
 
 # IMDSPDevice3::GetProperty
@@ -105,4 +105,3 @@ This method is similar to the <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imd
 
 
 <a href="/windows/desktop/WMDM/metadata-constants">Metadata Constants</a>
-

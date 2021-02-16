@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_CHANNEL_ISOLATION_TYPE
  - EVT_CHANNEL_ISOLATION_TYPE
 ---
 
@@ -84,4 +83,3 @@ Provides custom access to the channel.
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtsetchannelconfigproperty">EvtSetChannelConfigProperty</a>
-

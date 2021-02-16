@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller3::get_AttemptCloseAppsIfNecessary
+ - IUpdateInstaller3.get_AttemptCloseAppsIfNecessary
 ---
 
 # IUpdateInstaller3::get_AttemptCloseAppsIfNecessary

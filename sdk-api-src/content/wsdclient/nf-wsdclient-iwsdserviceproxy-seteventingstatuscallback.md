@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDServiceProxy::SetEventingStatusCallback
+ - IWSDServiceProxy.SetEventingStatusCallback
 ---
 
 # IWSDServiceProxy::SetEventingStatusCallback
@@ -88,4 +88,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxy">IWSDServiceProxy</a>
-

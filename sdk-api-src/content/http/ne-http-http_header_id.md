@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_HEADER_ID
- - PHTTP_HEADER_ID
  - HTTP_HEADER_ID
 ---
 
@@ -307,4 +305,3 @@ Not a value that actually designates a header; instead, it is used to count all 
 
 
 <a href="/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
-

@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesSetting::GetValueType
+ - IOfflineFilesSetting.GetValueType
 ---
 
 # IOfflineFilesSetting::GetValueType
@@ -66,4 +66,3 @@ S_OK if the scope is returned successfully or an error value otherwise.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilessetting">IOfflineFilesSetting</a>
-

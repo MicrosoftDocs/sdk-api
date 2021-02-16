@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupCommitFileQueueA
  - setupapi/SetupCommitFileQueueA
- - SetupCommitFileQueue
- - setupapi/SetupCommitFileQueue
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupCommitFileQueueA
  - SetupCommitFileQueue
+ - SetupCommitFileQueueA
+ - SetupCommitFileQueueW
 ---
 
 # SetupCommitFileQueueA function
@@ -119,4 +118,3 @@ If Unicode is defined in your callback application, and you specify <i>MsgHandle
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupclosefilequeue">SetupCloseFileQueue</a>
-

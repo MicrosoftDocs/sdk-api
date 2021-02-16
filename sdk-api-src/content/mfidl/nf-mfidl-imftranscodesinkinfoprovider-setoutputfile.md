@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTranscodeSinkInfoProvider::SetOutputFile
+ - IMFTranscodeSinkInfoProvider.SetOutputFile
 ---
 
 # IMFTranscodeSinkInfoProvider::SetOutputFile
@@ -71,4 +71,3 @@ Alternately, you can call <a href="/windows/desktop/api/mfidl/nf-mfidl-imftransc
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftranscodesinkinfoprovider">IMFTranscodeSinkInfoProvider</a>
-

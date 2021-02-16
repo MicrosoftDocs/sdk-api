@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRectangle::put_Data
+ - IInkRectangle.Data
+ - IInkRectangle.get_Data
+ - IInkRectangle.put_Data
+ - InkRectangle.get_Data
+ - InkRectangle.put_Data
 ---
 
 # IInkRectangle::put_Data
@@ -66,4 +70,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkrectangle-class">InkRectangle Class</a>
-

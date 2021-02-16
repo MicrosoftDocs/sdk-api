@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
- - _FLOWDESCRIPTOR
- - LPFLOWDESCRIPTOR
  - FLOWDESCRIPTOR
 ---
 
@@ -79,4 +77,3 @@ Pointer to a <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_
 
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec">RSVP_FILTERSPEC</a>
-

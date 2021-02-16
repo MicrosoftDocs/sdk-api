@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ACL_INFORMATION_CLASS
  - ACL_INFORMATION_CLASS
 ---
 
@@ -92,4 +91,3 @@ Indicates ACL size information.
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setaclinformation">SetAclInformation</a>
-

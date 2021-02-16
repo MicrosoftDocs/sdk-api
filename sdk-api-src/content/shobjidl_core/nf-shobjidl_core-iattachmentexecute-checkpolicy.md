@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute::CheckPolicy
+ - IAttachmentExecute.CheckPolicy
 ---
 
 # IAttachmentExecute::CheckPolicy
@@ -104,4 +104,3 @@ The information returned by <b>IAttachmentExecute::CheckPolicy</b> enables an ap
 			
 
 <b>IAttachmentExecute::CheckPolicy</b> requires the application first to call either <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setfilename">IAttachmentExecute::SetFileName</a> or <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>.
-

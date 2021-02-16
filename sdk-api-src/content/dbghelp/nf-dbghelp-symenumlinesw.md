@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymEnumLinesW
  - dbghelp/SymEnumLinesW
- - SymEnumLines
- - dbghelp/SymEnumLines
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymEnumLinesW
  - SymEnumLines
+ - SymEnumLines
+ - SymEnumLinesW
 ---
 
 # SymEnumLinesW function
@@ -112,4 +111,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psym_enumeratesymbols_callback">SymEnumLinesProc</a>
-

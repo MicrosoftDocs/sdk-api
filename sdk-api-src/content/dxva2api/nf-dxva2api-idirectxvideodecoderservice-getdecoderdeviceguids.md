@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoDecoderService::GetDecoderDeviceGuids
+ - IDirectXVideoDecoderService.GetDecoderDeviceGuids
 ---
 
 # IDirectXVideoDecoderService::GetDecoderDeviceGuids
@@ -204,4 +204,3 @@ The following decoder GUIDs are defined. Some of these GUIDs have alternate name
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice">IDirectXVideoDecoderService</a>
-

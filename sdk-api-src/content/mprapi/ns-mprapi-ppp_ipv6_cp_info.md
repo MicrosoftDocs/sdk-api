@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _PPP_IPV6_CP_INFO
  - PPP_IPV6_CP_INFO
 ---
 
@@ -104,4 +103,3 @@ The length, in bits, of the address prefix.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-

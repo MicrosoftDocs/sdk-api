@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_CONTROL_PARAM
- - PCSV_CONTROL_PARAM
  - CSV_CONTROL_PARAM
 ---
 
@@ -85,4 +83,3 @@ This structure is used with the <a href="/windows/desktop/api/winioctl/ni-winioc
 
 
 <a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-

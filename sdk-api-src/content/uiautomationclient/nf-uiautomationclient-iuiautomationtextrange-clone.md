@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange::Clone
+ - IUIAutomationTextRange.Clone
 ---
 
 # IUIAutomationTextRange::Clone
@@ -77,4 +77,3 @@ The new range can be manipulated independently of the original.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

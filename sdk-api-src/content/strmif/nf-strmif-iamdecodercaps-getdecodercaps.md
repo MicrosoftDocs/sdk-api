@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDecoderCaps::GetDecoderCaps
+ - IAMDecoderCaps.GetDecoderCaps
 ---
 
 # IAMDecoderCaps::GetDecoderCaps
@@ -145,4 +145,3 @@ The DVD Graph Builder uses this method when it builds a DVD graph. If the decode
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamdecodercaps">IAMDecoderCaps Interface</a>
-

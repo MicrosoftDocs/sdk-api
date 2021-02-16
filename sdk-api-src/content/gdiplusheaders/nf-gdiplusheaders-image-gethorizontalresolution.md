@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Image::GetHorizontalResolution
+ - Image.GetHorizontalResolution
 ---
 
 # Image::GetHorizontalResolution
@@ -88,4 +88,3 @@ This method returns the horizontal resolution, in dots per inch, of this image.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

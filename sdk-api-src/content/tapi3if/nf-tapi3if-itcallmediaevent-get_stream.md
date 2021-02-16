@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallMediaEvent::get_Stream
+ - ITCallMediaEvent.get_Stream
 ---
 
 # ITCallMediaEvent::get_Stream
@@ -122,4 +122,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itstream">ITStream</a>
-

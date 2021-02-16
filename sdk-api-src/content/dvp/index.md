@@ -9,8 +9,6 @@ tech.root: display
 f1_keywords:
  - dvp
  - dvp/dvp
-api_name:
- - dvp
 ---
 
 # Dvp.h header

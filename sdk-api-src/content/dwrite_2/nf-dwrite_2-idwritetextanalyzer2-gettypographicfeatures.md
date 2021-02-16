@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextAnalyzer2::GetTypographicFeatures
+ - IDWriteTextAnalyzer2.GetTypographicFeatures
 ---
 
 # IDWriteTextAnalyzer2::GetTypographicFeatures

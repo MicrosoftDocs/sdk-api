@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumITfCompositionView::Clone
+ - IEnumITfCompositionView.Clone
 ---
 
 # IEnumITfCompositionView::Clone
@@ -94,4 +94,3 @@ A memory allocation failure occurred.
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md)
-

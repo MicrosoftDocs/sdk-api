@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIObject::GetPrivateData
+ - IDXGIObject.GetPrivateData
 ---
 
 # IDXGIObject::GetPrivateData
@@ -101,4 +101,3 @@ On Windows 7 or earlier, this type is either a value from <a href="/windows/des
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiobject">IDXGIObject</a>
-

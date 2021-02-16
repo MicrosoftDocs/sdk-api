@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced::GetStatistics
+ - IWMReaderAdvanced.GetStatistics
 ---
 
 # IWMReaderAdvanced::GetStatistics
@@ -129,4 +129,3 @@ To determine the connection bandwidth before receiving a sample, the <a href="/w
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced">IWMReaderAdvanced Interface</a>
-

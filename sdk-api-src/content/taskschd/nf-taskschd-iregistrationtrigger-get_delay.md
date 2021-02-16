@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRegistrationTrigger::get_Delay
+ - IRegistrationTrigger.Delay
+ - IRegistrationTrigger.get_Delay
+ - IRegistrationTrigger.put_Delay
 ---
 
 # IRegistrationTrigger::get_Delay
@@ -69,4 +71,3 @@ If a task with a delayed registration trigger is registered, and the computer th
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

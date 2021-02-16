@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IResultData::ModifyItemState
+ - IResultData.ModifyItemState
+ - IResultData2.ModifyItemState
 ---
 
 # IResultData::ModifyItemState
@@ -105,4 +106,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iresultdata2">IResultData2</a>
-

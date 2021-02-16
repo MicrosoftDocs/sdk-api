@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkConnection::GetAdapterId
+ - INetworkConnection.GetAdapterId
 ---
 
 # INetworkConnection::GetAdapterId
@@ -69,4 +69,3 @@ It is possible for multiple connections to have the same AdapterID.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnection">INetworkConnection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FaxDev.h
 api_name:
- - PFAX_LINECALLBACK
+ - FaxLineCallback
 ---
 
 # PFAX_LINECALLBACK callback function
@@ -121,4 +121,3 @@ The FSP must register the <i>FaxLineCallback</i> callback function by passing it
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-

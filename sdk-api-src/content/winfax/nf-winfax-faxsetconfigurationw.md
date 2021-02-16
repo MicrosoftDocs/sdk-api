@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxSetConfigurationW
  - winfax/FaxSetConfigurationW
- - FaxSetConfiguration
- - winfax/FaxSetConfiguration
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxSetConfigurationW
  - FaxSetConfiguration
+ - FaxSetConfigurationA
+ - FaxSetConfigurationW
 ---
 
 # FaxSetConfigurationW function
@@ -148,4 +147,3 @@ A fax administration application typically calls the <b>FaxSetConfiguration</b> 
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxgetconfigurationa">FaxGetConfiguration</a>
-

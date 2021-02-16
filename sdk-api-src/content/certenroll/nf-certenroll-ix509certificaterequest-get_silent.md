@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::get_Silent
+ - IX509CertificateRequest.Silent
+ - IX509CertificateRequest.get_Silent
+ - IX509CertificateRequest.put_Silent
 ---
 
 # IX509CertificateRequest::get_Silent
@@ -93,4 +95,3 @@ If the certificate request contains nested requests and you set the <b>Silent</b
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

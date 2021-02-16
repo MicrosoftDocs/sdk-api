@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IControlbar::Create
+ - IControlbar.Create
 ---
 
 # IControlbar::Create
@@ -82,4 +82,3 @@ Although COMBOBOXBAR is included in Mmc.idl in connection with the nType paramet
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-

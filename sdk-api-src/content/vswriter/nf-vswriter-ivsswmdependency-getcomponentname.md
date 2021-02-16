@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWMDependency::GetComponentName
+ - IVssWMDependency.GetComponentName
 ---
 
 # IVssWMDependency::GetComponentName
@@ -166,4 +166,3 @@ If there are multiple instances of a writer class, it will be necessary to use l
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsswmdependency-getwriterid">IVssWMDependency::GetWriterId</a>
-

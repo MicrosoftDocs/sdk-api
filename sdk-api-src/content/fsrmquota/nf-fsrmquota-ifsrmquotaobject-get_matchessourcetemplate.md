@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaObject::get_MatchesSourceTemplate
+ - IFsrmQuotaObject.MatchesSourceTemplate
+ - IFsrmQuotaObject.get_MatchesSourceTemplate
 ---
 
 # IFsrmQuotaObject::get_MatchesSourceTemplate
@@ -68,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

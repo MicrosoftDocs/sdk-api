@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual::SetOffsetX
+ - IDCompositionVisual.SetOffsetX
 ---
 
 # IDCompositionVisual::SetOffsetX(float)
@@ -103,4 +103,3 @@ For an example, see <a href="/windows/desktop/directcomp/how-to--build-a-visual-
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449178(v=vs.85)">IDCompositionVisual::SetTransform</a>
-

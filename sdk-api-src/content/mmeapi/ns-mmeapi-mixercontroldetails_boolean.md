@@ -46,9 +46,7 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - tMIXERCONTROLDETAILS_BOOLEAN
- - PMIXERCONTROLDETAILS_BOOLEAN
- - MIXERCONTROLDETAILS_BOOLEAN
+ - MIXERCONTROLDETAILS
 ---
 
 # MIXERCONTROLDETAILS_BOOLEAN structure
@@ -123,4 +121,3 @@ MIXERCONTROL_CONTROLTYPE_SINGLESELECT
 
 
 <a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
-

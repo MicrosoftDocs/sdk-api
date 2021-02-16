@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard::GetTag
+ - IUIAnimationStoryboard.GetTag
 ---
 
 # IUIAnimationStoryboard::GetTag
@@ -101,4 +101,3 @@ The parameters are optional so that the method can return both portions of the t
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-settag">IUIAnimationStoryboard::SetTag</a>
-

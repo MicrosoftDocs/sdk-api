@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::EnumerateBackgroundTasks
+ - IPackageDebugSettings.EnumerateBackgroundTasks
 ---
 
 # IPackageDebugSettings::EnumerateBackgroundTasks
@@ -81,4 +81,3 @@ Both parameters <i>taskIds</i> and <i>taskNames</i> have the same ordering of ta
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
-

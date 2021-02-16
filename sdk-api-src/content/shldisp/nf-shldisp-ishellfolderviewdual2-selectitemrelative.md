@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual2::SelectItemRelative
+ - IShellFolderViewDual2.SelectItemRelative
 ---
 
 # IShellFolderViewDual2::SelectItemRelative

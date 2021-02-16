@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstask.h
 api_name:
- - _MONTHLYDOW
  - MONTHLYDOW
 ---
 
@@ -363,4 +362,3 @@ example.rgfMonths = TASK_JANUARY | TASK_APRIL | TASK_JULY | TASK_OCTOBER;
 
 
 <a href="/windows/desktop/api/mstask/ns-mstask-trigger_type_union">TRIGGER_TYPE_UNION</a>
-

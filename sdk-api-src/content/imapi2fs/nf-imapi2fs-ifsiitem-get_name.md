@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiItem::get_Name
+ - IFsiItem.get_Name
 ---
 
 # IFsiItem::get_Name
@@ -93,4 +93,3 @@ To get the full path to the item, call the <a href="/windows/desktop/api/imapi2f
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifsiitem-get_fullpath">IFsiItem::get_FullPath</a>
-

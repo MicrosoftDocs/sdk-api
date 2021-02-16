@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - tagCHUNKSTATE
  - CHUNKSTATE
 ---
 
@@ -83,4 +82,3 @@ Reserved.
 
 
 <a href="/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
-

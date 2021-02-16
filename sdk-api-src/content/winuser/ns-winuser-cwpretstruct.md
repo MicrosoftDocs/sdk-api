@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagCWPRETSTRUCT
- - PCWPRETSTRUCT
  - CWPRETSTRUCT
 ---
 
@@ -113,4 +111,3 @@ A handle to the window that processed the message specified by the
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-

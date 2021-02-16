@@ -44,8 +44,9 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PISCSI_DEVICE_ON_SESSIONA
+ - ISCSI_DEVICE_ON_SESSION
  - ISCSI_DEVICE_ON_SESSIONA
+ - ISCSI_DEVICE_ON_SESSIONW
 ---
 
 # ISCSI_DEVICE_ON_SESSIONA structure

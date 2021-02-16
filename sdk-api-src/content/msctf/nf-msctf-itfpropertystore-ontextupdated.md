@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfPropertyStore::OnTextUpdated
+ - ITfPropertyStore.OnTextUpdated
 ---
 
 # ITfPropertyStore::OnTextUpdated
@@ -117,4 +117,3 @@ If this method returns any value other than S_OK, the property store is discarde
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator::QueryRenderStatus
+ - IAMVideoAccelerator.QueryRenderStatus
 ---
 
 # IAMVideoAccelerator::QueryRenderStatus
@@ -170,4 +170,3 @@ If the filter's pins are not connected, the method returns <b>VFW_E_NOT_CONNECTE
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-

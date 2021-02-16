@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocator::Decommit
+ - IMemAllocator.Decommit
 ---
 
 # IMemAllocator::Decommit
@@ -74,4 +74,3 @@ The allocator may free the memory belonging to any sample with a reference count
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-

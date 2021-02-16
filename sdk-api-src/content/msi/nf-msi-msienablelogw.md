@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiEnableLogW
  - msi/MsiEnableLogW
- - MsiEnableLog
- - msi/MsiEnableLog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiEnableLogW
  - MsiEnableLog
+ - MsiEnableLogA
+ - MsiEnableLogW
 ---
 
 # MsiEnableLogW function
@@ -301,4 +300,3 @@ The path to the log file location must already exist when using this function. T
 
 
 <a href="/windows/desktop/Msi/logging">Logging</a>
-

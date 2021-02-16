@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntry::get_UninstallationSteps
+ - IUpdateHistoryEntry.UninstallationSteps
+ - IUpdateHistoryEntry.get_UninstallationSteps
 ---
 
 # IUpdateHistoryEntry::get_UninstallationSteps
@@ -68,4 +69,3 @@ The information that   this property returns is for the default user interface (
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
-

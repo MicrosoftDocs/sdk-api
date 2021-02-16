@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuota::get_QuotaUsed
+ - IFsrmQuota.QuotaUsed
+ - IFsrmQuota.get_QuotaUsed
 ---
 
 # IFsrmQuota::get_QuotaUsed
@@ -81,4 +82,3 @@ For an example, see
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

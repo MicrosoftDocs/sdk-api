@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder::GetPreview
+ - IWICBitmapDecoder.GetPreview
 ---
 
 # IWICBitmapDecoder::GetPreview
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Not all formats support previews. Only the native Microsoft Windows Digital Photo (WDP) codec support previews.
-

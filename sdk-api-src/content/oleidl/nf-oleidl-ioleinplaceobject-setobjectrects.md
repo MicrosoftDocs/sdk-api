@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceObject::SetObjectRects
+ - IOleInPlaceObject.SetObjectRects
 ---
 
 # IOleInPlaceObject::SetObjectRects
@@ -137,4 +137,3 @@ The object should compare its width and height with those provided by its contai
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
-

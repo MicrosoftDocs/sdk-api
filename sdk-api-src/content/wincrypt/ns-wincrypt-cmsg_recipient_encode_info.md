@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_RECIPIENT_ENCODE_INFO
- - PCMSG_RECIPIENT_ENCODE_INFO
  - CMSG_RECIPIENT_ENCODE_INFO
 ---
 

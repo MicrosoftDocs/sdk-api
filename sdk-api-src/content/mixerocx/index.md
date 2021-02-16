@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - mixerocx
  - mixerocx/mixerocx
-api_name:
- - mixerocx
 ---
 
 # Mixerocx.h header

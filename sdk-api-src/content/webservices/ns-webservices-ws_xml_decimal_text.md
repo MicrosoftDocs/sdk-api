@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_DECIMAL_TEXT
  - WS_XML_DECIMAL_TEXT
 ---
 
@@ -64,4 +63,3 @@ The base type for all types that derive from <a href="/windows/desktop/api/webse
 ### -field value
 
 The value.
-

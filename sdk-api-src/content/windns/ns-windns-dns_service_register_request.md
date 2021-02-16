@@ -45,7 +45,6 @@ api_location:
  - windns.h
 api_name:
  - _DNS_SERVICE_REGISTER_REQUEST
- - PDNS_SERVICE_REGISTER_REQUEST
  - DNS_SERVICE_REGISTER_REQUEST
 ---
 

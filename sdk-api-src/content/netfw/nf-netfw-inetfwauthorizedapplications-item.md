@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications::Item
+ - INetFwAuthorizedApplications.Item
 ---
 
 # INetFwAuthorizedApplications::Item
@@ -64,6 +64,8 @@ Application to retrieve.
 ### -param app [out]
 
 Reference to the returned <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a> object.
+
+
 
 ## -returns
 
@@ -209,4 +211,3 @@ The requested item does not exist.
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::MoveEndWhile
+ - ITextRange.MoveEndWhile
 ---
 
 # ITextRange::MoveEndWhile
@@ -138,4 +138,3 @@ For more information, see <a href="/windows/desktop/api/tom/nn-tom-itextrange">I
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

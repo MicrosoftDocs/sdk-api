@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_QUALITY_LEVEL
  - MF_QUALITY_LEVEL
 ---
 
@@ -99,4 +98,3 @@ Video decoders can often reduce quality by leaving out certain post-processing s
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

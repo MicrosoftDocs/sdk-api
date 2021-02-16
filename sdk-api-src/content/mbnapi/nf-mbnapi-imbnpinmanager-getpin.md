@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPinManager::GetPin
+ - IMbnPinManager.GetPin
 ---
 
 # IMbnPinManager::GetPin
@@ -145,4 +145,3 @@ The requested PIN type is not supported by the device.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpinmanager">IMbnPinManager</a>
-

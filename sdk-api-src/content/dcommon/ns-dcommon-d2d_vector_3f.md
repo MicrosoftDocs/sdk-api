@@ -43,7 +43,7 @@ api_location:
  - D2D1_1.h
  - dcommon.h
 api_name:
- - D2D_VECTOR_3F
+ - D2D1_VECTOR_3F
 ---
 
 # D2D_VECTOR_3F structure

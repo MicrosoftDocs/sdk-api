@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector::get_EventLog
+ - IAlertDataCollector.EventLog
+ - IAlertDataCollector.get_EventLog
+ - IAlertDataCollector.put_EventLog
 ---
 
 # IAlertDataCollector::get_EventLog
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
-

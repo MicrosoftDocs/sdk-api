@@ -42,6 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
+ - SymGetLineNext64
+ - SymGetLineNext64
+ - SymGetLineNextW64
  - SymGetLineNext
 ---
 
@@ -147,4 +150,3 @@ SymGetLineNextW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

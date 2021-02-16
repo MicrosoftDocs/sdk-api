@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISharingConfigurationManager::CreateShare
+ - ISharingConfigurationManager.CreateShare
 ---
 
 # ISharingConfigurationManager::CreateShare
@@ -113,4 +113,3 @@ If the folder named in <i>dsid</i> is not shared, this method shares the folder 
 If the folder named in <i>dsid</i> is already shared, this method updates the permissions on the share with the value provided in the <i>role</i> parameter.
 
 Because as of Windows 7 the <b>Public</b> folder is shared through <b>Users</b> rather than directly, creating a share on <b>Public</b> causes an Server Message Block (SMB) share to be created on <b>Users</b>.
-

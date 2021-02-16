@@ -9,8 +9,6 @@ tech.root: wds
 f1_keywords:
  - wdstptmgmt
  - wdstptmgmt/wdstptmgmt
-api_name:
- - wdstptmgmt
 ---
 
 # Wdstptmgmt.h header

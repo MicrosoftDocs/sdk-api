@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer2::SetAllocator
+ - IMSVidVideoRenderer2.SetAllocator
 ---
 
 # IMSVidVideoRenderer2::SetAllocator
@@ -87,4 +87,3 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidvideorenderer2">IMSVidVideoRenderer2 Interface</a>
-

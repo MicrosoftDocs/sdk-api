@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps::GetPropByName
+ - IWMBackupRestoreProps.GetPropByName
 ---
 
 # IWMBackupRestoreProps::GetPropByName
@@ -100,4 +100,3 @@ You should make two calls to <b>GetPropByName</b>. On the first call, pass <b>NU
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
-

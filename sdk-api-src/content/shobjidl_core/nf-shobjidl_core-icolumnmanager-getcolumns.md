@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnManager::GetColumns
+ - IColumnManager.GetColumns
 ---
 
 # IColumnManager::GetColumns
@@ -117,4 +117,3 @@ The value in <i>cColumns</i> is inconsistent with the value in <i>dwFlags</i>.
 </td>
 </tr>
 </table>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxJobStatus::get_CurrentPage
+ - IFaxJobStatus.CurrentPage
+ - IFaxJobStatus.get_CurrentPage
+ - IFaxJobStatus.get_CurrentPage
 ---
 
 # IFaxJobStatus::get_CurrentPage
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
-

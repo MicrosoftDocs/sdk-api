@@ -44,7 +44,6 @@ api_type:
 api_location:
  - d3d9caps.h
 api_name:
- - _D3DCONTENTPROTECTIONCAPS
  - D3DCONTENTPROTECTIONCAPS
 ---
 
@@ -217,4 +216,3 @@ The total amount of memory that can be used to hold protected surfaces.
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9video-getcontentprotectioncaps">IDirect3DDevice9Video::GetContentProtectionCaps</a>
-

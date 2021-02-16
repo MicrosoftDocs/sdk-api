@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RpcRT4.dll
 api_name:
- - NdrConformantArrayUnmarshall
+ - pStubMsg
 ---
 
 # NdrConformantArrayUnmarshall function
@@ -151,4 +151,3 @@ void  ConfArray([in] long size,
         [in,size_is(size)] long *pArray);         // conformant array
 
 ```
-

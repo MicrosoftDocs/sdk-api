@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelperUtilFactory::CreateUtilityInstance
+ - INetDiagHelperUtilFactory.CreateUtilityInstance
 ---
 
 # INetDiagHelperUtilFactory::CreateUtilityInstance
@@ -73,4 +73,3 @@ This method is reserved for system use.
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperutilfactory">INetDiagHelperUtilFactory</a>
-

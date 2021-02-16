@@ -9,8 +9,6 @@ tech.root: gamemode
 f1_keywords:
  - expandedresources
  - expandedresources/expandedresources
-api_name:
- - expandedresources
 ---
 
 # Expandedresources.h header

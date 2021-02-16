@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesPinInfo::IsPinnedForComputer
+ - IOfflineFilesPinInfo.IsPinnedForComputer
 ---
 
 # IOfflineFilesPinInfo::IsPinnedForComputer
@@ -80,4 +80,3 @@ This method corresponds to the OFFLINEFILES_PIN_CONTROL_FLAG_FORALL pin control 
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilespininfo">IOfflineFilesPinInfo</a>
-

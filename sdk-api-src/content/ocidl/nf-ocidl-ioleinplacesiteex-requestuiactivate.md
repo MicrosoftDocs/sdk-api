@@ -43,7 +43,7 @@ api_location:
  - OCIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSiteEx::RequestUIActivate
+ - IOleInPlaceSiteEx.RequestUIActivate
 ---
 
 # IOleInPlaceSiteEx::RequestUIActivate
@@ -105,4 +105,3 @@ If the object does not call <b>IOleInPlaceSiteEx::RequestUIActivate</b>, the con
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesiteex">IOleInPlaceSiteEx</a>
-

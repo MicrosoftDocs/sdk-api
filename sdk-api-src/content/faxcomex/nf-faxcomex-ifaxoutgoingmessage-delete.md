@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage::Delete
+ - IFaxOutgoingMessage.Delete
+ - IFaxOutgoingMessage.Delete
 ---
 
 # IFaxOutgoingMessage::Delete
@@ -77,4 +78,3 @@ With the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fa
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
-

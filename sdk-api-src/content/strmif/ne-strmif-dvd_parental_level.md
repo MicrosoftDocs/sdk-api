@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_PARENTAL_LEVEL
  - DVD_PARENTAL_LEVEL
 ---
 
@@ -132,4 +131,3 @@ This enumeration is used in the <a href="/windows/desktop/api/strmif/nf-strmif-i
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettitleparentallevels">IDvdInfo2::GetTitleParentalLevels</a>
-

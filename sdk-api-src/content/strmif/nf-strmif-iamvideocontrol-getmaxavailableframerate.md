@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoControl::GetMaxAvailableFrameRate
+ - IAMVideoControl.GetMaxAvailableFrameRate
 ---
 
 # IAMVideoControl::GetMaxAvailableFrameRate
@@ -86,4 +86,3 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 [VIDEO_STREAM_CONFIG_CAPS Structure](/windows/desktop/api/strmif/ns-strmif-video_stream_config_caps)
-

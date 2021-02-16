@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - _CREDENTIAL_PROVIDER_USAGE_SCENARIO
  - CREDENTIAL_PROVIDER_USAGE_SCENARIO
 ---
 
@@ -99,4 +98,3 @@ Credential providers that need to enumerate the currently user logged into the s
 ## -see-also
 
 <a href="/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
-

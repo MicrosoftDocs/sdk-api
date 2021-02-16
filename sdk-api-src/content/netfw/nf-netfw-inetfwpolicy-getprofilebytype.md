@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwPolicy::GetProfileByType
+ - INetFwPolicy.GetProfileByType
 ---
 
 # INetFwPolicy::GetProfileByType
@@ -189,4 +189,3 @@ The method failed due to an invalid pointer.
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type">NET_FW_PROFILE_TYPE</a>
-

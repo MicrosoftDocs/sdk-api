@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadataEx::GetIdentityEx
+ - IVssExamineWriterMetadataEx.GetIdentityEx
 ---
 
 # IVssExamineWriterMetadataEx::GetIdentityEx
@@ -177,4 +177,3 @@ An
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadataex">IVssExamineWriterMetadataEx</a>
-

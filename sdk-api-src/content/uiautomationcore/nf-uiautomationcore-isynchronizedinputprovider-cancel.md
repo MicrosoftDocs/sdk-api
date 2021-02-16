@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISynchronizedInputProvider::Cancel
+ - ISynchronizedInputProvider.Cancel
 ---
 
 # ISynchronizedInputProvider::Cancel
@@ -67,4 +67,3 @@ If the provider is currently listening for input, it should revert to normal ope
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-isynchronizedinputprovider">ISynchronizedInputProvider</a>
-

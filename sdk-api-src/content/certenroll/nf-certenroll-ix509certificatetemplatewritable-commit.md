@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplateWritable::Commit
+ - IX509CertificateTemplateWritable.Commit
 ---
 
 # IX509CertificateTemplateWritable::Commit
@@ -212,4 +212,3 @@ When <b>CommitFlagSaveTemplateGenerateOID</b> is specified in the <i>commitFlags
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
-

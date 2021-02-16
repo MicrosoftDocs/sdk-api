@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccDictionary::GetMnemonicString
+ - IAccDictionary.GetMnemonicString
 ---
 
 # IAccDictionary::GetMnemonicString
@@ -78,4 +78,3 @@ If successful, returns S_OK.
 ## -remarks
 
 If the <i>Term</i> parameter is not found in the dictionary, then <i>pResult</i> will be <b>NULL</b>.
-

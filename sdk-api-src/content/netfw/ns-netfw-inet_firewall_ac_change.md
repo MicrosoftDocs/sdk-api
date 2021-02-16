@@ -46,8 +46,6 @@ api_type:
 api_location:
  - networkisolation.h
 api_name:
- - _INET_FIREWALL_AC_CHANGE
- - PINET_FIREWALL_AC_CHANGE
  - INET_FIREWALL_AC_CHANGE
 ---
 
@@ -117,4 +115,3 @@ Binary paths to the applications running in the changed app container.
 
 
 <a href="/windows/desktop/api/networkisolation/ne-networkisolation-inet_firewall_ac_creation_type">INET_FIREWALL_AC_CREATION_TYPE</a>
-

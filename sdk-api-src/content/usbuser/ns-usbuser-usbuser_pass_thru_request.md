@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USBUSER_PASS_THRU_REQUEST
- - PUSBUSER_PASS_THRU_REQUEST
  - USBUSER_PASS_THRU_REQUEST
 ---
 
@@ -79,4 +77,3 @@ The <b>USBUSER_PASS_THRU_REQUEST</b> structure is used in conjunction with the U
 
 
 <a href="/windows-hardware/drivers/ddi/content/index">USB Structures</a>
-

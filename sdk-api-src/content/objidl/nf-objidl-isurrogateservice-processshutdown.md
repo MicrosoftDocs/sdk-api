@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - ISurrogateService::ProcessShutdown
+ - ISurrogateService.ProcessShutdown
 ---
 
 # ISurrogateService::ProcessShutdown
@@ -95,4 +95,3 @@ The shutdown type is defined by the following enum.
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isurrogateservice">ISurrogateService</a>
-

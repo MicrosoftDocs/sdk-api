@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winwlx.h
 api_name:
- - PWLX_GET_OPTION
+ - WlxGetOption
 ---
 
 # PWLX_GET_OPTION callback function
@@ -124,4 +124,3 @@ In order to access this function, the GINA DLL must use the
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_set_option">WlxSetOption</a>
-

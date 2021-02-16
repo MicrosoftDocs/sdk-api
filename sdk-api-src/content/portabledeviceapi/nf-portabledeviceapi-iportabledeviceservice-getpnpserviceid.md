@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::GetPnPServiceID
+ - IPortableDeviceService.GetPnPServiceID
 ---
 
 # IPortableDeviceService::GetPnPServiceID
@@ -112,4 +112,3 @@ When an application no longer needs the PnP identifier, it should call the <b>Co
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-

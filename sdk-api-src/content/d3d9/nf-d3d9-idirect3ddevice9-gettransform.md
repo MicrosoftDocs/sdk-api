@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::GetTransform
+ - IDirect3DDevice9.GetTransform
 ---
 
 # IDirect3DDevice9::GetTransform
@@ -85,4 +85,3 @@ This method will not return device state for a device that is created using D3DC
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-settransform">IDirect3DDevice9::SetTransform</a>
-

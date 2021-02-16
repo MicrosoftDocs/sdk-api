@@ -45,8 +45,6 @@ api_location:
  - ws2ipdef.h
  - ws2tcpip.h
 api_name:
- - icmp_error_info
- - PICMP_ERROR_INFO
  - ICMP_ERROR_INFO
 ---
 
@@ -83,4 +81,3 @@ The ICMP error code.
 ## -remarks
 
 ## -see-also
-

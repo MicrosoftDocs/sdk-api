@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_NameValueService::GetValueNameByIndex
+ - IBDA_NameValueService.GetValueNameByIndex
 ---
 
 # IBDA_NameValueService::GetValueNameByIndex
@@ -98,4 +98,3 @@ The <i>ulIndex</i> parameter is out of bounds.
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_namevalueservice">IBDA_NameValueService</a>
-

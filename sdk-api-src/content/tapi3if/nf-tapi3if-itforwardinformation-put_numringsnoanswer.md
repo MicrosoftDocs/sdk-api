@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation::put_NumRingsNoAnswer
+ - ITForwardInformation.put_NumRingsNoAnswer
 ---
 
 # ITForwardInformation::put_NumRingsNoAnswer
@@ -115,4 +115,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-get_numringsnoanswer">get_NumRingsNoAnswer</a>
-

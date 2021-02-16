@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent
+ - IAppxBundleManifestOptionalBundleInfoEnumerator.GetCurrent
 ---
 
 # IAppxBundleManifestOptionalBundleInfoEnumerator::GetCurrent
@@ -83,4 +83,3 @@ The enumerator has passed the last item in the collection.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestoptionalbundleinfoenumerator">IAppxBundleManifestOptionalBundleInfoEnumerator</a>
-

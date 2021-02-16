@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _CONTEXT
- - PCONTEXT
  - CONTEXT
 ---
 
@@ -82,4 +80,3 @@ Contains processor-specific register data. The system uses
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-wow64_context">WOW64_CONTEXT</a>
-

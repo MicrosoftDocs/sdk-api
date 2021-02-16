@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer::put_enabled
+ - IWMPPlayer.put_enabled
 ---
 
 # IWMPPlayer::put_enabled
@@ -95,4 +95,3 @@ If the <b>VARIANT_BOOL</b> specified in <b>put_enabled</b> is set to <b>FALSE</b
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer-put_enablecontextmenu">IWMPPlayer::put_enableContextMenu</a>
-

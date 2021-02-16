@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetPlayerParentalLevel
+ - IDvdInfo2.GetPlayerParentalLevel
 ---
 
 # IDvdInfo2::GetPlayerParentalLevel
@@ -119,4 +119,3 @@ Parental management is disabled by default in the DVD Navigator. This method is 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

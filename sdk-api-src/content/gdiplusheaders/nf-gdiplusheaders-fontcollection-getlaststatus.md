@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontCollection::GetLastStatus
+ - FontCollection.GetLastStatus
 ---
 
 # FontCollection::GetLastStatus
@@ -125,4 +125,3 @@ VOID Example_GetLastStatus(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

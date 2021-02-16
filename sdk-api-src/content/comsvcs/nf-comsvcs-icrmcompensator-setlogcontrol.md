@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmCompensator::SetLogControl
+ - ICrmCompensator.SetLogControl
 ---
 
 # ICrmCompensator::SetLogControl
@@ -69,4 +69,3 @@ CRM Compensator errors cause failfast of the server process, unless this has bee
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensator">ICrmCompensator</a>
-

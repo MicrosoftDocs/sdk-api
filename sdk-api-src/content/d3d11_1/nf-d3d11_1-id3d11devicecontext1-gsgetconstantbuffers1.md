@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext1::GSGetConstantBuffers1
+ - ID3D11DeviceContext1.GSGetConstantBuffers1
 ---
 
 # ID3D11DeviceContext1::GSGetConstantBuffers1
@@ -82,4 +82,3 @@ If no buffer is bound at a slot, <i>pFirstConstant</i> and <i>pNumConstants</i> 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11devicecontext1">ID3D11DeviceContext1</a>
-

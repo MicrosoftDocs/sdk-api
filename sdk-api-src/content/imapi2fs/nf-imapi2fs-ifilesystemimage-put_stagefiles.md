@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_StageFiles
+ - IFileSystemImage.put_StageFiles
 ---
 
 # IFileSystemImage::put_StageFiles
@@ -103,4 +103,3 @@ However, in order to avoid buffer underrun problems during burning, a certain mi
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_stagefiles">IFileSystemImage::get_StageFiles</a>
-

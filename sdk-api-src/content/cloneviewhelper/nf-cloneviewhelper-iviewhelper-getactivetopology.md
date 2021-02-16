@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
- - IViewHelper::GetActiveTopology
+ - IViewHelper.GetActiveTopology
 ---
 
 # IViewHelper::GetActiveTopology
@@ -155,4 +155,3 @@ TMM calls <b>GetActiveTopology</b> to record the display configuration that TMM 
 ## -see-also
 
 <a href="/previous-versions/windows/hardware/drivers/ff568174(v=vs.85)">IViewHelper::SetActiveTopology</a>
-

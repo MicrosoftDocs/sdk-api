@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::GetText
+ - ITextStoreAnchor.GetText
 ---
 
 # ITextStoreAnchor::GetText
@@ -166,4 +166,3 @@ The behavior of <b>GetText</b> is not affected by any region boundaries covered 
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_runinfo">TS_RUNINFO
       </a>
-

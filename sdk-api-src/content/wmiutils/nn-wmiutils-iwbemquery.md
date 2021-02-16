@@ -43,6 +43,10 @@ api_location:
  - Wmiutils.dll
 api_name:
  - IWbemQuery
+ - IWbemQuery.GetQueryInfo
+ - IWbemQuery.SetLanguageFeatures
+ - IWbemQuery.TestLanguageFeatures
+ - WbemQuery
 ---
 
 # IWbemQuery interface
@@ -70,4 +74,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWbemQuery</b> interface inhe
 
 
 <a href="/windows/desktop/WmiSdk/querying-with-wql">Querying with WQL</a>
-

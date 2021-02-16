@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CHANGER_ELEMENT
- - PCHANGER_ELEMENT
  - CHANGER_ELEMENT
 ---
 
@@ -79,4 +77,3 @@ The zero-based address of the element.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_reinitialize_transport">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::GetInputCurrentType
+ - IMediaObject.GetInputCurrentType
 ---
 
 # IMediaObject::GetInputCurrentType
@@ -127,4 +127,3 @@ If the method succeeds, call <a href="/windows/desktop/api/dmort/nf-dmort-mofree
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryProvider::Attach
+ - IWSDiscoveryProvider.Attach
 ---
 
 # IWSDiscoveryProvider::Attach
@@ -110,4 +110,3 @@ A callback interface has already been attached to the provider.
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovider">IWSDiscoveryProvider</a>
-

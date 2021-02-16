@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IFileDialogControlEvents::OnItemSelected
+ - IFileDialogControlEvents.OnItemSelected
 ---
 
 # IFileDialogControlEvents::OnItemSelected
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This notification is not sent when the user chooses an item from the drop-down menu attached to the <b>Open</b> button, because the action taken in that case is always the same: close the dialog as if the user had simply clicked the <b>Open</b> button. For that situation, the application can call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-getselectedcontrolitem">GetSelectedControlItem</a> to obtain the item the user chose from that menu.
-

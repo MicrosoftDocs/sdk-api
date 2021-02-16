@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IAudioData::SetFormat
+ - IAudioData.SetFormat
 ---
 
 # IAudioData::SetFormat
@@ -111,4 +111,3 @@ Success.
 
 
 <a href="/windows/desktop/api/austream/nf-austream-iaudiodata-getformat">IAudioData::GetFormat</a>
-

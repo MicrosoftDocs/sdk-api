@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF::SetFileSystemFlags
+ - IVdsVolumeMF.SetFileSystemFlags
 ---
 
 # IVdsVolumeMF::SetFileSystemFlags
@@ -126,4 +126,3 @@ The pack containing the volume is not accessible.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumemf-clearfilesystemflags">IVdsVolumeMF::ClearFileSystemFlags</a>
-

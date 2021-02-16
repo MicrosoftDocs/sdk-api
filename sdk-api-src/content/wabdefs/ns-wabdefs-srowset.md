@@ -47,8 +47,6 @@ api_type:
 api_location:
  - Wabdefs.h
 api_name:
- - _SRowSet
- - LPSRowSet
  - SRowSet
 ---
 
@@ -72,4 +70,3 @@ Variable of type <b>ULONG</b> that specifies the number of <a href="/windows/des
 Type: <b><a href="/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a>[MAPI_DIM]</b>
 
 Array of variables of type <a href="/windows/desktop/api/wabdefs/ns-wabdefs-srow">SRow</a> that specifies the structures that represent the rows in the table.
-

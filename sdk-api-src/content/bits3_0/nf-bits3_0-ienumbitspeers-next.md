@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IEnumBitsPeers::Next
+ - IEnumBitsPeers.Next
 ---
 
 # IEnumBitsPeers::Next
@@ -104,4 +104,3 @@ Returned less than the number of requested elements.
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>
-

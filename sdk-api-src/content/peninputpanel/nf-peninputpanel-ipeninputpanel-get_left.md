@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::get_Left
+ - IPenInputPanel.Left
+ - IPenInputPanel.get_Left
+ - PenInputPanel.get_Left
 ---
 
 # IPenInputPanel::get_Left
@@ -78,4 +80,3 @@ You can also override the automatic positioning behavior of the <a href="/window
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-ipeninputpanel-get_top">Top Property [PenInputPanel Class]</a>
-

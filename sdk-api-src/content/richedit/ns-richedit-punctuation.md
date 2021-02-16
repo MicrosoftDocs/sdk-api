@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _punctuation
  - PUNCTUATION
 ---
 
@@ -85,4 +84,3 @@ This structure is used only in Asian-language versions of the operating system.
 
 
 <b>Reference</b>
-

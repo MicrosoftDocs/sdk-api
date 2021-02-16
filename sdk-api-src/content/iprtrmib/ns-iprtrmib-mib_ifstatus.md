@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iprtrmib.h
 api_name:
- - _MIB_IFSTATUS
- - PMIB_IFSTATUS
  - MIB_IFSTATUS
 ---
 
@@ -97,4 +95,3 @@ Note that the <i>Iprtrmib.h</i> header file is automatically included in the <i>
 
 
 <a href="/windows/desktop/api/mprapi/ns-mprapi-mpr_interface_1">MPR_INTERFACE_1</a>
-

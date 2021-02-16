@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - fdi_fci_types
  - fdi_fci_types/fdi_fci_types
-api_name:
- - fdi_fci_types
 ---
 
 # Fdi_Fci_Types.h header

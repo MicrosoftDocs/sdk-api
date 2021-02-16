@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::DeleteInstanceAsync
+ - IWbemServices.DeleteInstanceAsync
 ---
 
 # IWbemServices::DeleteInstanceAsync
@@ -141,4 +141,3 @@ For more information about using methods semisynchronously, see <a href="/window
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-deleteinstance">IWbemServices::DeleteInstance</a>
-

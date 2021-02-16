@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCbGetsExA
  - strsafe/StringCbGetsExA
- - StringCbGetsEx
- - strsafe/StringCbGetsEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCbGetsExA
  - StringCbGetsEx
+ - StringCbGetsExA
+ - StringCbGetsExW
 ---
 
 # StringCbGetsExA function
@@ -265,4 +264,3 @@ The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNO
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchgetsexa">StringCchGetsEx</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_HW_Prof_Flags_ExA
  - cfgmgr32/CM_Get_HW_Prof_Flags_ExA
- - CM_Get_HW_Prof_Flags_Ex
- - cfgmgr32/CM_Get_HW_Prof_Flags_Ex
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_HW_Prof_Flags_ExA
  - CM_Get_HW_Prof_Flags_Ex
+ - CM_Get_HW_Prof_Flags_ExA
+ - CM_Get_HW_Prof_Flags_ExW
 ---
 
 # CM_Get_HW_Prof_Flags_ExA function
@@ -137,4 +136,3 @@ To retrieve a list of the hardware profile IDs that are currently defined on a r
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigethwprofilelistexa">SetupDiGetHwProfileListEx</a>
-

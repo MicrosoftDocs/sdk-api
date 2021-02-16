@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_AUTHENTICATION_HARDENING_LEVELS
  - HTTP_AUTHENTICATION_HARDENING_LEVELS
 ---
 

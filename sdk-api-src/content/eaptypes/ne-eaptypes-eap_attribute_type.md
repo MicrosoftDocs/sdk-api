@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_ATTRIBUTE_TYPE
  - EAP_ATTRIBUTE_TYPE
 ---
 
@@ -814,4 +813,3 @@ Not used.
 [About EAP Attributes](/windows/win32/eaphost/about-eap-attributes)
 
 <a href="/previous-versions/windows/it-pro/windows-server-2003/cc757996(v=ws.10)">PEAP</a>
-

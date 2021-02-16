@@ -47,8 +47,6 @@ api_location:
  - ClusApi.h
  - MsClus.h
 api_name:
- - _CLUSTER_MEMBERSHIP_INFO
- - PCLUSTER_MEMBERSHIP_INFO
  - CLUSTER_MEMBERSHIP_INFO
 ---
 
@@ -76,4 +74,3 @@ A byte array that specifies the nodes in the cluster that are online.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-

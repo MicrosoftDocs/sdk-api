@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_BUTTON_STATE
  - MMC_BUTTON_STATE
 ---
 
@@ -81,4 +80,3 @@ The button appears dimmed.
 ### -field BUTTONPRESSED
 
 The button is being pressed.
-

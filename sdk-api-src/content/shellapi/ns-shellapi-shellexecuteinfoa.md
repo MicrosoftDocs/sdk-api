@@ -46,13 +46,10 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - _SHELLEXECUTEINFOA
- - LPSHELLEXECUTEINFOA
- - SHELLEXECUTEINFOA
+ - SHELLEXECUTEINFO - SHELLEXECUTEINFOA
 ---
 
 # SHELLEXECUTEINFOA structure
-
 
 ## -description
 
@@ -323,4 +320,3 @@ In this case, the application receives three parameters: <i>An</i>, <i>example:<
 
 > [!NOTE]
 > The shellapi.h header defines SHELLEXECUTEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

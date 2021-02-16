@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bits.h
 api_name:
- - IBackgroundCopyCallback::JobModification
+ - IBackgroundCopyCallback.JobModification
 ---
 
 # IBackgroundCopyCallback::JobModification
@@ -92,4 +92,3 @@ See the example code for the
 
 
 <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyjob">IBackgroundCopyJob</a>
-

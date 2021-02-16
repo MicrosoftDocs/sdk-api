@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_ATTRIB
- - PDHCP_ATTRIB
  - DHCP_ATTRIB
 ---
 
@@ -149,6 +147,10 @@ The DHCP server can restore status with the provided attribute value.
 
 ### -field DhcpAttribUlong.case.DHCP_ATTRIB_TYPE_ULONG
 
+
+
+
+
 ### -field DhcpAttribBool
 
 ### -field DhcpAttribUlong
@@ -156,4 +158,3 @@ The DHCP server can restore status with the provided attribute value.
 ## -remarks
 
 A DHCP server attribute is a value that can be queried to determine supported and available features.
-

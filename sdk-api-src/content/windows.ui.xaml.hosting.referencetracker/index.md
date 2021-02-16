@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - windows.ui.xaml.hosting.referencetracker
  - windows.ui.xaml.hosting.referencetracker/windows.ui.xaml.hosting.referencetracker
-api_name:
- - windows.ui.xaml.hosting.referencetracker
 ---
 
 # Windows.Ui.Xaml.Hosting.Referencetracker.h header

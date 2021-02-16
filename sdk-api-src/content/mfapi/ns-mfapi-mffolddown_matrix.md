@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFFOLDDOWN_MATRIX
  - MFFOLDDOWN_MATRIX
 ---
 
@@ -86,4 +85,3 @@ The ASF media source supports fold-down from six channels (5.1 audio) to two cha
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

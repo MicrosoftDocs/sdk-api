@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPerPropertyBrowsing::GetPredefinedStrings
+ - IPerPropertyBrowsing.GetPredefinedStrings
 ---
 
 # IPerPropertyBrowsing::GetPredefinedStrings
@@ -154,4 +154,3 @@ This method fills the <b>cElems</b> and <b>pElems</b> members of the <a href="/w
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
-

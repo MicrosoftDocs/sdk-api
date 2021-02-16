@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_PIN_INFO
- - PBLUETOOTH_PIN_INFO
  - BLUETOOTH_PIN_INFO
 ---
 

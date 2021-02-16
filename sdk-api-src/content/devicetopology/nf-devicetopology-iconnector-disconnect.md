@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IConnector::Disconnect
+ - IConnector.Disconnect
 ---
 
 # IConnector::Disconnect
@@ -90,4 +90,3 @@ A permanent connection cannot be disconnected. For information about this macro,
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-iconnector">IConnector Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemRefresher::Refresh
+ - IWbemRefresher.Refresh
 ---
 
 # IWbemRefresher::Refresh
@@ -124,4 +124,3 @@ Making an Instance Provider into a High-Performance Provider
 
 
 <a href="/windows/desktop/WmiSdk/making-an-instance-provider-into-a-high-performance-provider">Writing an Instance Provider</a>
-

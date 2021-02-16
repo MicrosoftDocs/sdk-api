@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPPlugin::GetCaps
+ - IWMPPlugin.GetCaps
 ---
 
 # IWMPPlugin::GetCaps
@@ -73,4 +73,3 @@ There are currently two possible [out] values that the plug-in may specify: zero
 
 
 <a href="/windows/desktop/api/wmpservices/ne-wmpservices-wmpplugin_caps">WMPPlugin_Caps</a>
-

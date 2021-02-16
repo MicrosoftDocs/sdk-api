@@ -46,9 +46,8 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - _SP_DRVINFO_DATA_V1_A
- - PSP_DRVINFO_DATA_V1_A
- - SP_DRVINFO_DATA_V1_A
+ - SP_DRVINFO_DATA
+ - sp_drvinfo_data_v1_a
 ---
 
 # SP_DRVINFO_DATA_V1_A structure
@@ -150,4 +149,3 @@ SP_DRVINFO_DATA_V1 does not contain <b>DriverDate</b> and <b>DriverVersion</b> m
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetselecteddrivera">SetupDiSetSelectedDriver</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::get_Handle
+ - IPicture.get_Handle
 ---
 
 # IPicture::get_Handle
@@ -100,4 +100,3 @@ The picture object may retain ownership of the picture. However, the caller can 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-

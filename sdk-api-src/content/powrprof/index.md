@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - powrprof
  - powrprof/powrprof
-api_name:
- - powrprof
 ---
 
 # Powrprof.h header

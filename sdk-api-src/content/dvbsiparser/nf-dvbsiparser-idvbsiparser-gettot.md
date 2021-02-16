@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDvbSiParser::GetTOT
+ - IDvbSiParser.GetTOT
 ---
 
 # IDvbSiParser::GetTOT
@@ -114,4 +114,3 @@ The method fails if the filter does not receive a matching table within a predet
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvbsiparser">IDvbSiParser Interface</a>
-

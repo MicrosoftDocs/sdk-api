@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - WINTRUST_SIGNATURE_SETTINGS_
- - PWINTRUST_SIGNATURE_SETTINGS
  - WINTRUST_SIGNATURE_SETTINGS
 ---
 
@@ -120,4 +118,3 @@ Pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_strong_sign
 
 
 <a href="/windows/desktop/api/wintrust/nf-wintrust-winverifytrust">WinVerifyTrust</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dsquery.h
 api_name:
- - LPDSQUERYINITPARAMS
  - DSQUERYINITPARAMS
 ---
 
@@ -149,4 +148,3 @@ This structure is specific to the <b>CLSID_DsQuery</b> query handler. This struc
 
 
 <a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>
-

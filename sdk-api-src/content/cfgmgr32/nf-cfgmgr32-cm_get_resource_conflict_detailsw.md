@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Get_Resource_Conflict_DetailsW
  - cfgmgr32/CM_Get_Resource_Conflict_DetailsW
- - CM_Get_Resource_Conflict_Details
- - cfgmgr32/CM_Get_Resource_Conflict_Details
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
 api_name:
- - CM_Get_Resource_Conflict_DetailsW
  - CM_Get_Resource_Conflict_Details
+ - CM_Get_Resource_Conflict_DetailsW
 ---
 
 # CM_Get_Resource_Conflict_DetailsW function
@@ -109,4 +107,3 @@ If multiple non-Plug and Play devices use the same driver, resource conflicts am
 </li>
 </ul>
 Sometimes, resources assigned to the HAL might be reported as either conflicting with the HAL or not available.
-

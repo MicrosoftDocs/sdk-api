@@ -9,8 +9,6 @@ tech.root: winlocation
 f1_keywords:
  - locationapi
  - locationapi/locationapi
-api_name:
- - locationapi
 ---
 
 # Locationapi.h header

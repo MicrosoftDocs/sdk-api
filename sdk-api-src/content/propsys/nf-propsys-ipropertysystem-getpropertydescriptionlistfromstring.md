@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.dll
 api_name:
- - IPropertySystem::GetPropertyDescriptionListFromString
+ - IPropertySystem.GetPropertyDescriptionListFromString
 ---
 
 # IPropertySystem::GetPropertyDescriptionListFromString
@@ -217,4 +217,3 @@ For more information about property schemas, see
 ## -see-also
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertysystem">IPropertySystem</a>
-

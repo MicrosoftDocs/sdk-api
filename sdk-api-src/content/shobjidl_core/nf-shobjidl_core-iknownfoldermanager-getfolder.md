@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolderManager::GetFolder
+ - IKnownFolderManager.GetFolder
 ---
 
 # IKnownFolderManager::GetFolder
@@ -104,4 +104,3 @@ Use this method when you know exactly which known folder you are looking for and
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

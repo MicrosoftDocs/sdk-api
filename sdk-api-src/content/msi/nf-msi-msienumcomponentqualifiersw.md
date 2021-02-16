@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiEnumComponentQualifiersW
  - msi/MsiEnumComponentQualifiersW
- - MsiEnumComponentQualifiers
- - msi/MsiEnumComponentQualifiers
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiEnumComponentQualifiersW
  - MsiEnumComponentQualifiers
+ - MsiEnumComponentQualifiersA
+ - MsiEnumComponentQualifiersW
 ---
 
 # MsiEnumComponentQualifiersW function
@@ -193,4 +192,3 @@ When making multiple calls to
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">System Status Functions</a>
-

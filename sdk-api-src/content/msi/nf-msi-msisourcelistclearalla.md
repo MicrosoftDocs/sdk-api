@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListClearAllA
  - msi/MsiSourceListClearAllA
- - MsiSourceListClearAll
- - msi/MsiSourceListClearAll
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSourceListClearAllA
  - MsiSourceListClearAll
+ - MsiSourceListClearAllA
+ - MsiSourceListClearAllW
 ---
 
 # MsiSourceListClearAllA function
@@ -226,4 +225,3 @@ This function cannot modify a non-managed installation for any user besides the 
 
 
 <a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
-

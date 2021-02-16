@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSource::RemoveAllEffects
+ - IMFCaptureSource.RemoveAllEffects
 ---
 
 # IMFCaptureSource::RemoveAllEffects
@@ -145,4 +145,3 @@ The <i>dwSourceStreamIndex</i> parameter is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-

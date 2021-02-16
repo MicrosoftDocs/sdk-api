@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork::GetConnectivity
+ - INetwork.GetConnectivity
 ---
 
 # INetwork::GetConnectivity
@@ -69,4 +69,3 @@ Returns S_OK if the method succeeds.
 
 
 <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_connectivity">NLM_CONNECTIVITY</a>
-

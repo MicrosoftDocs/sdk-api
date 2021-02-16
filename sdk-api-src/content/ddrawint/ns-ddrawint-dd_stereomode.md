@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_STEREOMODE
- - PDD_STEREOMODE
  - DD_STEREOMODE
 ---
 
@@ -101,4 +99,3 @@ GUID_DDStereoMode provides a way to turn OFF stereo per-mode, since it is expect
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
-

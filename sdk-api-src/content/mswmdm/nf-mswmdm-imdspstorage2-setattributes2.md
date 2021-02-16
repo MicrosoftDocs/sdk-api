@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage2::SetAttributes2
+ - IMDSPStorage2.SetAttributes2
 ---
 
 # IMDSPStorage2::SetAttributes2
@@ -103,4 +103,3 @@ This method is optional. For more information, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorage-setattributes">IWMDMStorage::SetAttributes</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDisplayAttributeMgr::GetDisplayAttributeInfo
+ - ITfDisplayAttributeMgr.GetDisplayAttributeInfo
 ---
 
 # ITfDisplayAttributeMgr::GetDisplayAttributeInfo
@@ -91,4 +91,3 @@ The method was successful.
 ## -see-also
 
 [ITfDisplayAttributeMgr interface](nn-msctf-itfdisplayattributemgr.md), [IEnumTfDisplayAttributeInfo interface](nn-msctf-ienumtfdisplayattributeinfo.md), [ITfContext::GetProperty](nf-msctf-itfcontext-getproperty.md), [ITfContext::TrackProperties](nf-msctf-itfcontext-trackproperties.md)
-

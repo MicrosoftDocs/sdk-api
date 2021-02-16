@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::GetPrimitiveBlend
+ - ID2D1DeviceContext.GetPrimitiveBlend
 ---
 
 # ID2D1DeviceContext::GetPrimitiveBlend
@@ -67,4 +67,3 @@ The current primitive blend. The default value is <b>D2D1_PRIMITIVE_BLEND_SOURCE
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1devicecontext">ID2D1DeviceContext</a>
-

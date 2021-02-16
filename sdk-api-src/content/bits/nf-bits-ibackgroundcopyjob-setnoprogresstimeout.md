@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::SetNoProgressTimeout
+ - IBackgroundCopyJob.SetNoProgressTimeout
 ---
 
 # IBackgroundCopyJob::SetNoProgressTimeout
@@ -105,4 +105,3 @@ If BITS does not make progress during the retry period, it moves the state of th
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setminimumretrydelay">IBackgroundCopyJob::SetMinimumRetryDelay</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode::GetMetadataQueryWriter
+ - IWICBitmapFrameEncode.GetMetadataQueryWriter
 ---
 
 # IWICBitmapFrameEncode::GetMetadataQueryWriter
@@ -93,4 +93,3 @@ If you are setting metadata on the frame, you must do this before you use <a hre
 
 
 <a href="/windows/desktop/wic/-wic-about-metadata">WIC Metadata Overview</a>
-

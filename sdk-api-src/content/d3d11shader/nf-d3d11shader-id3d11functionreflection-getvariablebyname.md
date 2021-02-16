@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3D11FunctionReflection::GetVariableByName
+ - ID3D11FunctionReflection.GetVariableByName
 ---
 
 # ID3D11FunctionReflection::GetVariableByName
@@ -69,4 +69,3 @@ Returns a <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11shaderr
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11shader/nn-d3d11shader-id3d11functionreflection">ID3D11FunctionReflection</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_BINDING_BASE
- - PHTTP_SERVICE_BINDING_BASE
  - HTTP_SERVICE_BINDING_BASE
 ---
 
@@ -88,4 +86,3 @@ Pointer to an <a href="/windows/desktop/api/http/ne-http-http_service_binding_ty
 
 
 <a href="/windows/desktop/api/http/ns-http-http_service_binding_w">HTTP_SERVICE_BINDING_W</a>
-

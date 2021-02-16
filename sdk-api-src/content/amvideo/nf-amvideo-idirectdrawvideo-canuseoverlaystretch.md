@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::CanUseOverlayStretch
+ - IDirectDrawVideo.CanUseOverlayStretch
 ---
 
 # IDirectDrawVideo::CanUseOverlayStretch
@@ -74,4 +74,3 @@ For a description of overlay stretching, see <a href="/windows/desktop/api/amvid
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

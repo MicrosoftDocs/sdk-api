@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - __MIDL___MIDL_itf_vmr9_0000_0005_0002
  - VMR9ProcAmpControlFlags
 ---
 
@@ -88,4 +87,3 @@ Bitwise <b>OR</b> of all the previous flags. This value is used internally by th
 
 
 <a href="/previous-versions/windows/desktop/api/vmr9/ns-vmr9-vmr9procampcontrolrange">VMR9ProcAmpControlRange Structure</a>
-

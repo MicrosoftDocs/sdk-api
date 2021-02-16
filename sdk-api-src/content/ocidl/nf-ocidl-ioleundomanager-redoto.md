@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager::RedoTo
+ - IOleUndoManager.RedoTo
 ---
 
 # IOleUndoManager::RedoTo
@@ -131,4 +131,3 @@ The undo manager must also keep track of whether units were added to the opposit
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a>
-

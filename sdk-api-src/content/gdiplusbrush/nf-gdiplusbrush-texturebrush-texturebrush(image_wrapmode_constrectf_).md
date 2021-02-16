@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush::TextureBrush
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN WrapMode,IN const RectF &)
@@ -104,4 +104,3 @@ Reference to a rectangle that defines the size of this texture brush and the por
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
-

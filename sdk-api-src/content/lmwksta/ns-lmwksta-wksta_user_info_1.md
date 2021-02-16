@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmwksta.h
 api_name:
- - _WKSTA_USER_INFO_1
- - PWKSTA_USER_INFO_1
  - WKSTA_USER_INFO_1
 ---
 
@@ -108,4 +106,3 @@ This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defin
 
 
 <a href="/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
-

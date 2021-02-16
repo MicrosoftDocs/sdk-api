@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
- - _WSAPROTOCOLCHAIN
- - LPWSAPROTOCOLCHAIN
  - WSAPROTOCOLCHAIN
 ---
 
@@ -85,4 +83,3 @@ If the length of the chain is larger than 1, this structure represents a protoco
 ## -see-also
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsaenumprotocolsa">WSAEnumProtocols</a>
-

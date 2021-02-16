@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::Error
+ - IStylusPlugin.Error
 ---
 
 # IStylusPlugin::Error
@@ -115,4 +115,3 @@ STDMETHODIMP CPacketModifier::Error(
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-datainterest">IStylusPlugin::DataInterest Method</a>
-

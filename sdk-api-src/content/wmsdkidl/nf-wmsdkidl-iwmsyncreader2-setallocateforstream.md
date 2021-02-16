@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMSyncReader2::SetAllocateForStream
+ - IWMSyncReader2.SetAllocateForStream
 ---
 
 # IWMSyncReader2::SetAllocateForStream
@@ -80,4 +80,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmsyncreader2-getallocateforstream">IWMSyncReader2::GetAllocateForStream</a>
-

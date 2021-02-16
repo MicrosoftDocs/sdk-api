@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingQueue::GetJob
+ - IFaxOutgoingQueue.GetJob
 ---
 
 # IFaxOutgoingQueue::GetJob
@@ -85,4 +85,3 @@ With the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fa
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingqueue">IFaxOutgoingQueue</a>
-

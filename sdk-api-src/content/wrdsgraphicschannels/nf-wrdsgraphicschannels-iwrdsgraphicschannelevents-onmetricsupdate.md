@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wrdsgraphicschannels.h
 api_name:
- - IWRdsGraphicsChannelEvents::OnMetricsUpdate
+ - IWRdsGraphicsChannelEvents.OnMetricsUpdate
 ---
 
 # IWRdsGraphicsChannelEvents::OnMetricsUpdate
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wrdsgraphicschannels/nn-wrdsgraphicschannels-iwrdsgraphicschannelevents">IWRdsGraphicsChannelEvents</a>
-

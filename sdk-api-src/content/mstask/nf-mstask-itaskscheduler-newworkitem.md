@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler::NewWorkItem
+ - ITaskScheduler.NewWorkItem
 ---
 
 # ITaskScheduler::NewWorkItem
@@ -191,4 +191,3 @@ You can create a task by calling <a href="/windows/desktop/api/mstask/nf-mstask-
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-addworkitem">ITaskScheduler::AddWorkItem</a>
-

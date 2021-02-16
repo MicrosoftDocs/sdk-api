@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_SessionCallbacks
  - MI_SessionCallbacks
 ---
 
@@ -71,4 +70,3 @@ The CIM extension callback for receiving logging from the session creation. All 
 This is the structure that holds all callback function pointers. Fill in the ones 
 you want to receive. All callbacks are CIM extensions for tracking
 logging and error messages.
-

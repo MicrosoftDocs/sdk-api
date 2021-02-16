@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::SetComment
+ - IScheduledWorkItem.SetComment
 ---
 
 # IScheduledWorkItem::SetComment
@@ -127,4 +127,3 @@ For an example of how to set the comment of a task, see <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-

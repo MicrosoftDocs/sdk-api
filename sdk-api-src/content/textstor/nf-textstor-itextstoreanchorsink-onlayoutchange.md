@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink::OnLayoutChange
+ - ITextStoreAnchorSink.OnLayoutChange
 ---
 
 # ITextStoreAnchorSink::OnLayoutChange
@@ -113,4 +113,3 @@ If a call to <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor
 
 <a href="/windows/win32/api/textstor/ne-textstor-tslayoutcode">TsLayoutCode
       </a>
-

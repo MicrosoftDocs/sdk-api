@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderPlaylistBurn::InitPlaylistBurn
+ - IWMReaderPlaylistBurn.InitPlaylistBurn
 ---
 
 # IWMReaderPlaylistBurn::InitPlaylistBurn
@@ -104,4 +104,3 @@ The files are checked to determine whether they are DRM-protected. If a file is 
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderplaylistburn">IWMReaderPlaylistBurn Interface</a>
-

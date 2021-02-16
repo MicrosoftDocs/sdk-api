@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::RealTimeStylusEnabled
+ - IStylusPlugin.RealTimeStylusEnabled
 ---
 
 # IStylusPlugin::RealTimeStylusEnabled
@@ -99,4 +99,3 @@ STDMETHODIMP CStrokeBuilderPlugin::RealTimeStylusEnabled(
 
 
 <a href="/windows/desktop/api/rtscom/nf-rtscom-istylusplugin-realtimestylusdisabled">IStylusPlugin::RealTimeStylusDisabled Method</a>
-

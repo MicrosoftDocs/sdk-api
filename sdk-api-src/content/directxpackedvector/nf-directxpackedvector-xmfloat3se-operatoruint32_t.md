@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3SE::operator uint32_t
+ - XMFLOAT3SE.operator uint32_t
 ---
 
 # XMFLOAT3SE::operator uint32_t
@@ -122,4 +122,3 @@ Bits 27-31 of the return value are the 5 bit <i>exponent</i> used
 
 
 <a href="/windows/desktop/dxmath/ovw-xmfloat3se-operators">XMFLOAT3SE Operators</a>
-

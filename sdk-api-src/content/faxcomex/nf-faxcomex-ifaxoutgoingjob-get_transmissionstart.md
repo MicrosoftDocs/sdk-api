@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob::get_TransmissionStart
+ - IFaxOutgoingJob.TransmissionStart
+ - IFaxOutgoingJob.get_TransmissionStart
+ - IFaxOutgoingJob.get_TransmissionStart
 ---
 
 # IFaxOutgoingJob::get_TransmissionStart
@@ -71,4 +73,3 @@ In the case of a failed fax, this property will be assigned a value of zero. If 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-outgoing-jobs">Visual Basic Example</a>
-

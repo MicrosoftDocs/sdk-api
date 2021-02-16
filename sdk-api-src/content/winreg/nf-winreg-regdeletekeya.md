@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegDeleteKeyA
  - winreg/RegDeleteKeyA
- - RegDeleteKey
- - winreg/RegDeleteKey
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Core-Registry-l2-2-0.dll
  - kernel32.dll
 api_name:
- - RegDeleteKeyA
  - RegDeleteKey
+ - RegDeleteKeyA
+ - RegDeleteKeyW
 ---
 
 # RegDeleteKeyA function
@@ -150,4 +149,3 @@ For an example that uses this function, see <a href="/windows/desktop/SysInfo/de
 
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-shdeletekeya">SHDeleteKey</a>
-

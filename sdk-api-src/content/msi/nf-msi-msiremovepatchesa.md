@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiRemovePatchesA
  - msi/MsiRemovePatchesA
- - MsiRemovePatches
- - msi/MsiRemovePatches
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiRemovePatchesA
  - MsiRemovePatches
+ - MsiRemovePatchesA
+ - MsiRemovePatchesW
 ---
 
 # MsiRemovePatchesA function
@@ -256,4 +255,3 @@ See  <a href="/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a
 
 
 <a href="/windows/desktop/Msi/uninstalling-patches">Uninstalling Patches</a>
-

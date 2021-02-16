@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Intshcut.h
 api_name:
- - translateurl_in_flags
  - TRANSLATEURL_IN_FLAGS
 ---
 
@@ -64,4 +63,3 @@ If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a hr
 ### -field TRANSLATEURL_FL_USE_DEFAULT_PROTOCOL
 
 If the protocol scheme is not specified in the <i>pcszURL</i> parameter to <a href="/windows/desktop/api/intshcut/nf-intshcut-translateurla">TranslateURL</a>, the system adds the default protocol to the URL.
-

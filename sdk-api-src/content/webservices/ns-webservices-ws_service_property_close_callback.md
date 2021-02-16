@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SERVICE_PROPERTY_CLOSE_CALLBACK
  - WS_SERVICE_PROPERTY_CLOSE_CALLBACK
 ---
 
@@ -61,4 +60,3 @@ Specifies the callback which is called when a channel is about to be closed.
 ### -field callback
 
 The close channel callback function reference.
-

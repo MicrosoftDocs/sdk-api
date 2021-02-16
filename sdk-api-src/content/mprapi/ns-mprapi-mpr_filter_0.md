@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_FILTER_0
- - PMPR_FILTER_0
  - MPR_FILTER_0
 ---
 
@@ -72,4 +70,3 @@ A <b>BOOL</b> that specifies the state of the static filters. Set to <b>TRUE</b>
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mprconfigfiltersetinfo">MprConfigFilterSetInfo</a>
-

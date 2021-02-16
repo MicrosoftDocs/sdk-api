@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_HBAPORT_SPEED_FLAG
  - VDS_HBAPORT_SPEED_FLAG
 ---
 
@@ -116,4 +115,3 @@ HBA_PORTSPEED_NOT_NEGOTIATED
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
-

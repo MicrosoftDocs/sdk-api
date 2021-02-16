@@ -43,7 +43,9 @@ api_location:
  - Certidl.lib
  - Certidl.dll
 api_name:
- - ICertPolicy::ShutDown
+ - ICertPolicy2.ShutDown
+ - ICertPolicy.ShutDown
+ - CCertPolicy.ShutDown
 ---
 
 # ICertPolicy::ShutDown
@@ -97,4 +99,3 @@ STDMETHODIMP CCertPolicy::ShutDown()
 
 
 <a href="/windows/desktop/api/certpol/nn-certpol-icertpolicy2">ICertPolicy2</a>
-

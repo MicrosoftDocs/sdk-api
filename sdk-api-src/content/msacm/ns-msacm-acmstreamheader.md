@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Msacm.h
 api_name:
- - tACMSTREAMHEADER
- - PACMSTREAMHEADER
  - ACMSTREAMHEADER
 ---
 
@@ -164,4 +162,3 @@ Audio Compression Manager
 
 
 <a href="/windows/desktop/api/msacm/nf-msacm-acmstreamunprepareheader">acmStreamUnprepareHeader</a>
-

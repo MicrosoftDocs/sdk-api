@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ddraw.dll
 api_name:
- - IDirectDrawClipper::SetClipList
+ - IDirectDrawClipper.SetClipList
 ---
 
 # IDirectDrawClipper::SetClipList
@@ -89,4 +89,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawclipper">IDirectDrawClipper</a>
-

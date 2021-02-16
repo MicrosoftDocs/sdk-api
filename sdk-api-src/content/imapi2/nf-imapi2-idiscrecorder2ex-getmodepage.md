@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex::GetModePage
+ - IDiscRecorder2Ex.GetModePage
 ---
 
 # IDiscRecorder2Ex::GetModePage
@@ -390,4 +390,3 @@ Value: 0xC0AA0201
 
 
 IMAPI_MODE_PAGE_TYPE
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _PROVIDER_FILTER_INFO
- - PPROVIDER_FILTER_INFO
  - PROVIDER_FILTER_INFO
 ---
 
@@ -87,4 +85,3 @@ An array of <a href="/windows/desktop/api/tdh/ns-tdh-event_property_info">EVENT_
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhenumerateproviderfilters">TdhEnumerateProviderFilters</a>
-

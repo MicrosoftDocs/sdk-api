@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
- - _WLX_CLIENT_CREDENTIALS_INFO
- - PWLX_CLIENT_CREDENTIALS_INFO_V1_0
  - WLX_CLIENT_CREDENTIALS_INFO_V1_0
 ---
 
@@ -103,4 +101,3 @@ Forces a prompt for the password due to an administration override. This allows 
 
 
 <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_query_ic_credentials">WlxQueryInetConnectorCredentials</a>
-

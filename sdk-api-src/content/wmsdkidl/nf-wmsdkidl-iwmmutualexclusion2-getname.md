@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::GetName
+ - IWMMutualExclusion2.GetName
 ---
 
 # IWMMutualExclusion2::GetName
@@ -107,4 +107,3 @@ If you pass an address as <i>pwszName</i>, and the length you specified in <i>pc
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmmutualexclusion2">IWMMutualExclusion2 Interface</a>
-

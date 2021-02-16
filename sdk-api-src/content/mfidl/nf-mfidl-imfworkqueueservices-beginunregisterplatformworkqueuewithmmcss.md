@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS
+ - IMFWorkQueueServices.BeginUnregisterPlatformWorkQueueWithMMCSS
 ---
 
 # IMFWorkQueueServices::BeginUnregisterPlatformWorkQueueWithMMCSS
@@ -96,4 +96,3 @@ This method is asynchronous. When the operation completes, the callback object's
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-

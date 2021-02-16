@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumSystemLocalesW
  - winnls/EnumSystemLocalesW
- - EnumSystemLocales
- - winnls/EnumSystemLocales
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-Localization-L1-2-2.dll
 api_name:
- - EnumSystemLocalesW
  - EnumSystemLocales
+ - EnumSystemLocalesA
+ - EnumSystemLocalesW
 ---
 
 # EnumSystemLocalesW function
@@ -146,4 +145,3 @@ The function enumerates locales by passing locale identifiers, one at a time, to
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

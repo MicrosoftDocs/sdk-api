@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1512
- - PSERVER_INFO_1512
  - SERVER_INFO_1512
 ---
 
@@ -80,4 +78,3 @@ Specifies the maximum size of nonpaged memory that the server can allocate at an
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

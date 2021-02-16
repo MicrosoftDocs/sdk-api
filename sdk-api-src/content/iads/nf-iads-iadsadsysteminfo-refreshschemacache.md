@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsADSystemInfo::RefreshSchemaCache
+ - IADsADSystemInfo.RefreshSchemaCache
 ---
 
 # IADsADSystemInfo::RefreshSchemaCache
@@ -69,4 +69,3 @@ When you call this method, it does a Put() of the <b>schemaUpdateNow</b> functio
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsadsysteminfo">IADsADSystemInfo</a>
-

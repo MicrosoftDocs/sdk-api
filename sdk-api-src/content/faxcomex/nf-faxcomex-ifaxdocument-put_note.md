@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::put_Note
+ - IFaxDocument.Note
+ - IFaxDocument.get_Note
+ - IFaxDocument.put_Note
+ - IFaxDocument.get_Note
+ - IFaxDocument.put_Note
 ---
 
 # IFaxDocument::put_Note
@@ -67,4 +71,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes::ClearColorMatrices
+ - ImageAttributes.ClearColorMatrices
 ---
 
 # ImageAttributes::ClearColorMatrices
@@ -237,4 +237,3 @@ The following illustration shows the output of the preceding code.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMarshal::GetMarshalSizeMax
+ - IMarshal.GetMarshalSizeMax
 ---
 
 # IMarshal::GetMarshalSizeMax
@@ -131,4 +131,3 @@ To ensure that your implementation of <b>GetMarshalSizeMax</b> will continue to 
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imarshal">IMarshal</a>
-

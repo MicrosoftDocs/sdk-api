@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory4::EnumAdapterByLuid
+ - IDXGIFactory4.EnumAdapterByLuid
 ---
 
 # IDXGIFactory4::EnumAdapterByLuid
@@ -98,4 +98,3 @@ For Direct3D 12, it's no longer possible to backtrack from a device to the <a hr
 
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgifactory4">IDXGIFactory4</a>
-

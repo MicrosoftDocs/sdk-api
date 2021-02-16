@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - _ISCSI_UNIQUE_SESSION_ID
- - PISCSI_UNIQUE_SESSION_ID
  - ISCSI_UNIQUE_SESSION_ID
 ---
 

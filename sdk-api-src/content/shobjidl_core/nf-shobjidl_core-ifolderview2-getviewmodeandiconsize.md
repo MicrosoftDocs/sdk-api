@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2::GetViewModeAndIconSize
+ - IFolderView2.GetViewModeAndIconSize
 ---
 
 # IFolderView2::GetViewModeAndIconSize
@@ -71,4 +71,3 @@ A pointer to the size of the icon in pixels.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

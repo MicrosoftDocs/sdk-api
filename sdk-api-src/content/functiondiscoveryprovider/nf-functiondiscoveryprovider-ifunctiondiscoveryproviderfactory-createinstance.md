@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProviderFactory::CreateInstance
+ - IFunctionDiscoveryProviderFactory.CreateInstance
 ---
 
 # IFunctionDiscoveryProviderFactory::CreateInstance
@@ -103,4 +103,3 @@ The provider must guarantee that the provider reference count does not go to zer
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryproviderfactory">IFunctionDiscoveryProviderFactory</a>
-

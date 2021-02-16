@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeUnit::GetChangeUnitVersion
+ - ISyncChangeUnit.GetChangeUnitVersion
 ---
 
 # ISyncChangeUnit::GetChangeUnitVersion
@@ -113,4 +113,3 @@ Invalid pointer.
 
 
 <a href="/windows/desktop/api/winsync/ns-winsync-sync_version">SYNC_VERSION Structure</a>
-

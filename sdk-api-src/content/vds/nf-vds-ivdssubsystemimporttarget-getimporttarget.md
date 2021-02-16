@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystemImportTarget::GetImportTarget
+ - IVdsSubSystemImportTarget.GetImportTarget
 ---
 
 # IVdsSubSystemImportTarget::GetImportTarget
@@ -145,4 +145,3 @@ No import target was set for this subsystem.
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdssubsystemimporttarget-setimporttarget">SetImportTarget</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SEC_WINNT_AUTH_CERTIFICATE_DATA
- - PSEC_WINNT_AUTH_CERTIFICATE_DATA
  - SEC_WINNT_AUTH_CERTIFICATE_DATA
 ---
 
@@ -75,4 +73,3 @@ A structure that specifies the offset from the beginning of this structure and t
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_byte_vector">SEC_WINNT_AUTH_BYTE_VECTOR</a>
-

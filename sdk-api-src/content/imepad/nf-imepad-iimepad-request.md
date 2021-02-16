@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - IImePad::Request
+ - IImePad.Request
 ---
 
 # IImePad::Request
@@ -538,4 +538,3 @@ These are the possible values that can be received via <i>wParam</i> when <i>req
 
 
 <a href="/windows/desktop/api/imepad/ns-imepad-imecompositionstringinfo">IMECOMPOSITIONSTRINGINFO</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_OFFLOAD_TOKEN
- - PSTORAGE_OFFLOAD_TOKEN
  - STORAGE_OFFLOAD_TOKEN
 ---
 
@@ -108,4 +106,3 @@ Reserved.
 If the <b>TokenType</b> member is 
        <b>STORAGE_OFFLOAD_TOKEN_TYPE_WELL_KNOWN</b> then the first two bytes are a 16-bit unsigned 
        integer that describes the range. Otherwise this is a vendor-specific format.
-

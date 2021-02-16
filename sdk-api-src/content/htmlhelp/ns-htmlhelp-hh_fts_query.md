@@ -44,7 +44,6 @@ api_type:
 api_location:
  - HtmlHelp.h
 api_name:
- - tagHH_FTS_QUERY
  - HH_FTS_QUERY
 ---
 
@@ -92,4 +91,3 @@ Window to display in.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/htmlhelp/about-structures">About Structures</a>
-

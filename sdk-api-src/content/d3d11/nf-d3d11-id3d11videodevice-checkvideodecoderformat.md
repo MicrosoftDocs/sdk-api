@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDevice::CheckVideoDecoderFormat
+ - ID3D11VideoDevice.CheckVideoDecoderFormat
 ---
 
 # ID3D11VideoDevice::CheckVideoDecoderFormat
@@ -77,4 +77,3 @@ If the driver does not support the profile given in <i>pDecoderProfile</i>, the 
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-

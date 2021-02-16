@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_LIST_TRANSACTIONS
- - PTXFS_LIST_TRANSACTIONS
  - TXFS_LIST_TRANSACTIONS
 ---
 
@@ -80,4 +78,3 @@ The length of the buffer required to hold the complete list of transactions at t
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions_entry">TXFS_LIST_TRANSACTIONS_ENTRY</a>
-

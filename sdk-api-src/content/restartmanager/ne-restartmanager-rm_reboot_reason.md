@@ -44,7 +44,6 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
- - _RM_REBOOT_REASON
  - RM_REBOOT_REASON
 ---
 
@@ -86,4 +85,3 @@ A system restart is needed because the current process must be shut down.
 ## -see-also
 
 <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmgetlist">RmGetList</a>
-

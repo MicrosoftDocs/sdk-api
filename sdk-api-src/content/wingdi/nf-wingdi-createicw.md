@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateICW
  - wingdi/CreateICW
- - CreateIC
- - wingdi/CreateIC
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - CreateICW
  - CreateIC
+ - CreateICA
+ - CreateICW
 ---
 
 # CreateICW function
@@ -117,4 +116,3 @@ When you no longer need the information DC, call the <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getdevicecaps">GetDeviceCaps</a>
-

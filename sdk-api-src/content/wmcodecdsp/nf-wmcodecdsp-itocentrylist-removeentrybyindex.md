@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocEntryList::RemoveEntryByIndex
+ - ITocEntryList.RemoveEntryByIndex
 ---
 
 # ITocEntryList::RemoveEntryByIndex
@@ -87,4 +87,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nn-wmcodecdsp-itocentrylist">ITocEntryList</a>
-

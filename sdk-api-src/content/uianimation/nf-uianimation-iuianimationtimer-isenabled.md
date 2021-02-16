@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimer::IsEnabled
+ - IUIAnimationTimer.IsEnabled
 ---
 
 # IUIAnimationTimer::IsEnabled
@@ -69,4 +69,3 @@ Returns S_OK if the animation timer is enabled, S_FALSE if the animation timer i
 
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtimer-enable">IUIAnimationTimer::Enable</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary::ResolveFolder
+ - IShellLibrary.ResolveFolder
 ---
 
 # IShellLibrary::ResolveFolder
@@ -204,4 +204,3 @@ __inline HRESULT SHResolveFolderPathInLibrary(
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
-

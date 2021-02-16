@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509Enrollment2::InstallResponse2
+ - IX509Enrollment2.InstallResponse2
 ---
 
 # IX509Enrollment2::InstallResponse2
@@ -327,4 +327,3 @@ The last four parameters (<i>strEnrollmentPolicyServerUrl</i>, <i>strEnrollmentP
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment2">IX509Enrollment2</a>
-

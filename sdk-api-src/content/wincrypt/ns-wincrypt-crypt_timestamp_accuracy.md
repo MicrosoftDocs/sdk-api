@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_TIMESTAMP_ACCURACY
- - PCRYPT_TIMESTAMP_ACCURACY
  - CRYPT_TIMESTAMP_ACCURACY
 ---
 
@@ -71,4 +69,3 @@ Optional. Specifies, in milliseconds, the accuracy of the upper limit of the tim
 ### -field dwMicros
 
 Optional. Specifies, in microseconds, the accuracy of the upper limit of the time at which the time-stamp token was created by the TSA.
-

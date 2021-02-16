@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1TransformGraph::RemoveNode
+ - ID2D1TransformGraph.RemoveNode
 ---
 
 # ID2D1TransformGraph::RemoveNode
@@ -93,4 +93,3 @@ After the node is removed, it cannot be used by the interface until it has been 
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1transformgraph">ID2D1TransformGraph</a>
-

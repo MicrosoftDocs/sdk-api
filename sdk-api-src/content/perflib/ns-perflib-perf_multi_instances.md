@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_MULTI_INSTANCES
- - PPERF_MULTI_INSTANCES
  - PERF_MULTI_INSTANCES
 ---
 
@@ -102,4 +100,3 @@ contain <b>PERF_MULTI_INSTANCES</b> blocks within the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
-

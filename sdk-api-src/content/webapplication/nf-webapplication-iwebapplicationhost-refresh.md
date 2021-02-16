@@ -42,7 +42,7 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationHost::Refresh
+ - IWebApplicationHost.Refresh
 ---
 
 # IWebApplicationHost::Refresh
@@ -67,4 +67,3 @@ Use this method when the currently executing code is outside of the activation p
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationhost">IWebApplicationHost</a>
-

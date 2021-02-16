@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxTiff::get_Routing
+ - IFaxTiff.Routing
+ - IFaxTiff.get_Routing
 ---
 
 # IFaxTiff::get_Routing
@@ -87,4 +88,3 @@ The <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxtiff-get-image-vb"
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - objbase
  - objbase/objbase
-api_name:
- - objbase
 ---
 
 # Objbase.h header

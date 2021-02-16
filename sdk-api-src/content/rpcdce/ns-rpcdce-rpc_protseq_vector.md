@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - _RPC_PROTSEQ_VECTOR
  - RPC_PROTSEQ_VECTOR
 ---
 
@@ -81,4 +80,3 @@ The protocol-sequence vector is a read-only vector. To obtain a protocol-sequenc
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcprotseqvectorfree">RpcProtseqVectorFree</a>
-

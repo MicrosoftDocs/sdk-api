@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - SetWindowTextA
  - winuser/SetWindowTextA
- - SetWindowText
- - winuser/SetWindowText
 dev_langs:
  - c++
 topic_type:
@@ -55,8 +52,10 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetWindowTextA
  - SetWindowText
+ - SetWindowTextA
+ - SetWindowTextW
+req.apiset: ext-ms-win-ntuser-window-l1-1-3 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetWindowTextA function
@@ -128,4 +127,3 @@ The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x0
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

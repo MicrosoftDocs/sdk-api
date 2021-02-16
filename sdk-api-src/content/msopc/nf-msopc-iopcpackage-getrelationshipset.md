@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcPackage::GetRelationshipSet
+ - IOpcPackage.GetRelationshipSet
 ---
 
 # IOpcPackage::GetRelationshipSet
@@ -173,4 +173,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
-

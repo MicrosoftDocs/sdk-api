@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetVolumePathNameA
  - winbase/GetVolumePathNameA
- - GetVolumePathName
- - winbase/GetVolumePathName
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetVolumePathNameA
  - GetVolumePathName
+ - GetVolumePathNameA
+ - GetVolumePathNameW
 ---
 
 # GetVolumePathNameA function
@@ -331,4 +330,3 @@ For the following set of examples, the paths contain invalid trailing path eleme
 
 
 <a href="/windows/desktop/FileIO/volume-mount-points">Volume Mount Points</a>
-

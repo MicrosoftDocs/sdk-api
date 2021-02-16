@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - TcOpenInterfaceW
  - traffic/TcOpenInterfaceW
- - TcOpenInterface
- - traffic/TcOpenInterface
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Traffic.dll
 api_name:
- - TcOpenInterfaceW
  - TcOpenInterface
+ - TcOpenInterfaceA
+ - TcOpenInterfaceW
 ---
 
 # TcOpenInterfaceW function
@@ -165,4 +164,3 @@ Use of the
 
 
 <a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcregisterclient">TcRegisterClient</a>
-

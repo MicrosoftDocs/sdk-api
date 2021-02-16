@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
- - __MIDL___MIDL_itf_msrdc_0000_0000_0001
  - RDC_ErrorCode
 ---
 
@@ -107,4 +106,3 @@ The failure of the function is not RDC-specific and the <b>HRESULT</b> returned 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rdc/remote-differential-compression-enumerations">Remote Differential Compression Enumerations</a>
-

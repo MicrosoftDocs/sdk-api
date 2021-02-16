@@ -42,7 +42,9 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManConnectionOptions::get_UserName
+ - IWSManConnectionOptions.UserName
+ - IWSManConnectionOptions.get_UserName
+ - IWSManConnectionOptions.put_UserName
 ---
 
 # IWSManConnectionOptions::get_UserName
@@ -69,4 +71,3 @@ You can supply <a href="/windows/desktop/WinRM/connectionoptions-username">UserN
 
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanconnectionoptions">IWSManConnectionOptions</a>
-

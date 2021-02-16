@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _SI_ACCESS
- - PSI_ACCESS
  - SI_ACCESS
 ---
 
@@ -201,4 +199,3 @@ Noncontainer objects contained by the primary object inherit the entry.
 
 
 <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
-

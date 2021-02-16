@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMessageFilter::MessagePending
+ - IMessageFilter.MessagePending
 ---
 
 # IMessageFilter::MessagePending
@@ -142,4 +142,3 @@ When there is no response to the original COM call, the application can cancel t
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuibusya">OleUIBusy</a>
-

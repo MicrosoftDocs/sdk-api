@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wcntypes.h
 api_name:
- - tagWCN_VALUE_TYPE_RF_BANDS
  - WCN_VALUE_TYPE_RF_BANDS
 ---
 
@@ -68,4 +67,3 @@ The request is being sent on the 5.0 Ghz frequency band.
 ## -see-also
 
 <a href="/windows/desktop/api/wcntypes/ne-wcntypes-wcn_attribute_type">WCN_ATTRIBUTE_TYPE</a>
-

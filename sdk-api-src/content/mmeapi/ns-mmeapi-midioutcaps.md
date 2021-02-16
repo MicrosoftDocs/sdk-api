@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - midioutcaps_tag
- - PMIDIOUTCAPS
  - MIDIOUTCAPS
 ---
 
@@ -234,4 +232,3 @@ If a device supports volume changes, the MIDICAPS_VOLUME flag will be set for th
 
 
 <a href="/previous-versions/dd798487(v=vs.85)">midiStreamOut</a>
-

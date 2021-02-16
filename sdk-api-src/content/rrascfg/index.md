@@ -9,8 +9,6 @@ tech.root: eap
 f1_keywords:
  - rrascfg
  - rrascfg/rrascfg
-api_name:
- - rrascfg
 ---
 
 # Rrascfg.h header

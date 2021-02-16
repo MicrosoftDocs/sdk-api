@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiInstallMissingFileW
  - msi/MsiInstallMissingFileW
- - MsiInstallMissingFile
- - msi/MsiInstallMissingFile
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiInstallMissingFileW
  - MsiInstallMissingFile
+ - MsiInstallMissingFileA
+ - MsiInstallMissingFileW
 ---
 
 # MsiInstallMissingFileW function
@@ -186,4 +185,3 @@ The
 
 
 <a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmExecutionOption
  - FsrmExecutionOption
 ---
 
@@ -79,4 +78,3 @@ The rule is applied to the file but  default and existing values are ignored.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationrule-get_executionoption">IFsrmClassificationRule.ExecutionOption</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextProvider::RangeFromChild
+ - ITextProvider.RangeFromChild
 ---
 
 # ITextProvider::RangeFromChild
@@ -129,4 +129,3 @@ Each element retrieved with [ITextRangeProvider::GetChildren](nf-uiautomationcor
 ## -see-also
 
 [ITextProvider](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider](nn-uiautomationcore-itextrangeprovider.md), [ITextRangeProvider::GetEnclosingElement](nf-uiautomationcore-itextrangeprovider-getenclosingelement.md), [ITextRangeProvider::GetChildren](nf-uiautomationcore-itextrangeprovider-getchildren.md), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)
-

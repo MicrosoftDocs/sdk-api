@@ -42,7 +42,8 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIFrameBuffer::get_Height
+ - IRDPSRAPIFrameBuffer.Height
+ - IRDPSRAPIFrameBuffer.get_Height
 ---
 
 # IRDPSRAPIFrameBuffer::get_Height
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiframebuffer">IRDPSRAPIFrameBuffer</a>
-

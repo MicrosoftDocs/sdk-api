@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_MULTIPLE_KNOWN_HEADERS
- - PHTTP_MULTIPLE_KNOWN_HEADERS
  - HTTP_MULTIPLE_KNOWN_HEADERS
 ---
 
@@ -112,4 +110,3 @@ The <b>HTTP_MULTIPLE_KNOWN_HEADERS</b> structure enables server applications to 
 
 
 <a href="/windows/desktop/api/http/ns-http-http_response_v2">HTTP_RESPONSE_V2</a>
-

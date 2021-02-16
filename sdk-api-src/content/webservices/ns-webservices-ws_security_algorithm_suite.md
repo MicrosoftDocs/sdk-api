@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SECURITY_ALGORITHM_SUITE
  - WS_SECURITY_ALGORITHM_SUITE
 ---
 
@@ -140,4 +139,3 @@ Number of entries in properties array. Reserved for future use. Should be set to
 When key derivation is used, the key length restrictions apply to the
 source security token from which the signing or encryption derived
 token are derived.
-

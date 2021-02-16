@@ -45,7 +45,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - PICMP4_TYPE
  - ICMP4_TYPE
 ---
 

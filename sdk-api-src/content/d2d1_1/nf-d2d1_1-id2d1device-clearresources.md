@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device::ClearResources
+ - ID2D1Device.ClearResources
 ---
 
 # ID2D1Device::ClearResources
@@ -69,4 +69,3 @@ If the function succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HR
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>
-

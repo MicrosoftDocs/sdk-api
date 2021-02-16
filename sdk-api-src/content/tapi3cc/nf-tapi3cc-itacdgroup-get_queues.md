@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITACDGroup::get_Queues
+ - ITACDGroup.get_Queues
 ---
 
 # ITACDGroup::get_Queues
@@ -138,4 +138,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-

@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - filehc
  - filehc/filehc
-api_name:
- - filehc
 ---
 
 # Filehc.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactProperties::SetDate
+ - IContactProperties.SetDate
 ---
 
 # IContactProperties::SetDate
@@ -119,4 +119,3 @@ Unable to set the value for this property due to schema.
 </td>
 </tr>
 </table>
-

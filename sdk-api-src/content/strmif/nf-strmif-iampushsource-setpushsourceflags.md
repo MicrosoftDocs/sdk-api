@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMPushSource::SetPushSourceFlags
+ - IAMPushSource.SetPushSourceFlags
 ---
 
 # IAMPushSource::SetPushSourceFlags
@@ -70,4 +70,3 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
-

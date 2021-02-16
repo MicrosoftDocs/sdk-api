@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IEnumProgressItems::Clone
+ - IEnumProgressItems.Clone
 ---
 
 # IEnumProgressItems::Clone
@@ -106,4 +106,3 @@ Using this method, a client can record a particular point in the enumeration seq
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::get_accRole
+ - IAccessible.get_accRole
 ---
 
 # IAccessible::get_accRole
@@ -199,4 +199,3 @@ HRESULT PrintRole(IAccessible* pAcc, long childId)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-

@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::GetTimeSpan
+ - CInstance.GetTimeSpan
 ---
 
 # CInstance::GetTimeSpan
@@ -72,4 +72,3 @@ Buffer to receive the time span property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if the supplied time span type is not valid for the property being returned or an attempt is made to retrieve a nonexistent property. More information is available in the log file, Framework.log.
-

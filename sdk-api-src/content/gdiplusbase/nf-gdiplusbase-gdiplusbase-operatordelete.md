@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GdiplusBase::operator delete
+ - GdiplusBase.operator delete
 ---
 
 # GdiplusBase::operator delete

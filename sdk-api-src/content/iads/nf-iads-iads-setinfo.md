@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADs::SetInfo
+ - IADs.SetInfo
 ---
 
 # IADs::SetInfo
@@ -191,4 +191,3 @@ if(pADs)
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iads-putex">IADs::PutEx</a>
-

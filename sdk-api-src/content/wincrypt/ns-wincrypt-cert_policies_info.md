@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_POLICIES_INFO
- - PCERT_POLICIES_INFO
  - CERT_POLICIES_INFO
 ---
 
@@ -92,4 +90,3 @@ Array of
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobject">CryptEncodeObject</a>
-

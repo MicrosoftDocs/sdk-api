@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - windows.ui.composition.interop
  - windows.ui.composition.interop/windows.ui.composition.interop
-api_name:
- - windows.ui.composition.interop
 ---
 
 # Windows.Ui.Composition.Interop.h header

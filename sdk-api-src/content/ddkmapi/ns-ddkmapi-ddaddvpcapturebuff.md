@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDADDVPCAPTUREBUFF
- - LPDDADDVPCAPTUREBUFF
  - DDADDVPCAPTUREBUFF
 ---
 
@@ -128,4 +126,3 @@ Points to a <a href="/windows/desktop/api/ddkmapi/ns-ddkmapi-ddcapbuffinfo">DDCA
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

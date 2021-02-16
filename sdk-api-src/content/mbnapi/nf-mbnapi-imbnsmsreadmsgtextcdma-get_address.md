@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgTextCdma::get_Address
+ - IMbnSmsReadMsgTextCdma.Address
+ - IMbnSmsReadMsgTextCdma.get_Address
 ---
 
 # IMbnSmsReadMsgTextCdma::get_Address
@@ -74,4 +75,3 @@ The <i>address</i> can be in either of these formats.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgtextcdma">IMbnSmsReadMsgTextCdma</a>
-

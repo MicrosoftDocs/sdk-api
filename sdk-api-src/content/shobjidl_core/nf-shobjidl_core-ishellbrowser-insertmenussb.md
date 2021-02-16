@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser::InsertMenusSB
+ - IShellBrowser.InsertMenusSB
 ---
 
 # IShellBrowser::InsertMenusSB
@@ -83,4 +83,3 @@ The object application asks the container to add its menus to the menu specified
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
 For <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a> implementations, the menu identifiers must be in the range of <b>FCIDM_BROWSERFIRST</b> to <b>FCIDM_BROWSERLAST</b>.
-

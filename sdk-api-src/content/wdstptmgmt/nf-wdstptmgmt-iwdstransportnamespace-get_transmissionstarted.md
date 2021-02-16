@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace::get_TransmissionStarted
+ - IWdsTransportNamespace.TransmissionStarted
+ - IWdsTransportNamespace.get_TransmissionStarted
 ---
 
 # IWdsTransportNamespace::get_TransmissionStarted
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
-

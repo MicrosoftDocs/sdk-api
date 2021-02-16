@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
- - PMINIDUMP_READ_MEMORY_FAILURE_CALLBACK
  - MINIDUMP_READ_MEMORY_FAILURE_CALLBACK
 ---
 
@@ -79,4 +77,3 @@ The resulting error code from the failed memory read operation.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
-

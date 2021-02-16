@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CryptSetProviderA
  - wincrypt/CryptSetProviderA
- - CryptSetProvider
- - wincrypt/CryptSetProvider
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptSetProviderA
  - CryptSetProvider
+ - CryptSetProviderA
+ - CryptSetProviderW
 ---
 
 # CryptSetProviderA function
@@ -158,4 +157,3 @@ Since calling <b>CryptSetProvider</b> determines the CSP of a specified type use
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-

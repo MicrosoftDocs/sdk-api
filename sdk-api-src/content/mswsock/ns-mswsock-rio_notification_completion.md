@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mswsock.h
 api_name:
- - _RIO_NOTIFICATION_COMPLETION
- - PRIO_NOTIFICATION_COMPLETION
  - RIO_NOTIFICATION_COMPLETION
 ---
 
@@ -163,4 +161,3 @@ An application using thread pools can use thread pool wait objects to get <a hre
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsawaitformultipleevents">WSAWaitForMultipleEvents</a>
-

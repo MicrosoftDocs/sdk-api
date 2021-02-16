@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
  - WS_NAMEDPIPE_SSPI_TRANSPORT_SECURITY_BINDING
 ---
 
@@ -85,4 +84,3 @@ The <a href="/windows/desktop/api/webservices/ns-webservices-ws_security_binding
 ### -field clientCredential
 
 The <a href="/windows/win32/api/webservices/ns-webservices-ws_windows_integrated_auth_credential">WS_WINDOWS_INTEGRATED_AUTH_CREDENTIAL</a> structure to be used to authenticate the client. This is required on the client and must not be specified on the server.
-

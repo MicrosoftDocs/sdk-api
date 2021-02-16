@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::GenerateReport
+ - IGPMGPO.GenerateReport
 ---
 
 # IGPMGPO::GenerateReport
@@ -84,4 +84,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-

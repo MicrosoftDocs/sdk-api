@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetIconInfoExA
  - winuser/GetIconInfoExA
- - GetIconInfoEx
- - winuser/GetIconInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - GetIconInfoExA
  - GetIconInfoEx
+ - GetIconInfoExA
+ - GetIconInfoExW
 ---
 
 # GetIconInfoExA function
@@ -365,4 +364,3 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 <b>Reference</b>
-

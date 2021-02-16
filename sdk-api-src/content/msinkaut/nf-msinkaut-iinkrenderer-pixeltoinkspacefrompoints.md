@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::PixelToInkSpaceFromPoints
+ - IInkRenderer.PixelToInkSpaceFromPoints
 ---
 
 # IInkRenderer::PixelToInkSpaceFromPoints
@@ -143,4 +143,3 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrenderer-pixeltoinkspace">PixelToInkSpace Method</a>
-

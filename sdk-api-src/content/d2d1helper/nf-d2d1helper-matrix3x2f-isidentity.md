@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - Matrix3x2F::IsIdentity
+ - Matrix3x2F.IsIdentity
 ---
 
 # Matrix3x2F::IsIdentity
@@ -63,4 +63,3 @@ Type: <b>bool</b>
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1helper/nl-d2d1helper-matrix3x2f">Matrix3x2F</a>
-

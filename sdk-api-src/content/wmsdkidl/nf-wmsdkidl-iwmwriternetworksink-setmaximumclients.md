@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink::SetMaximumClients
+ - IWMWriterNetworkSink.SetMaximumClients
 ---
 
 # IWMWriterNetworkSink::SetMaximumClients
@@ -101,4 +101,3 @@ Streaming has already begun, or the value of <i>dwMaxClients</i> is invalid.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-getmaximumclients">IWMWriterNetworkSink::GetMaximumClients</a>
-

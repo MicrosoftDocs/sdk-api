@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfRangeACP::GetExtent
+ - ITfRangeACP.GetExtent
 ---
 
 # ITfRangeACP::GetExtent
@@ -118,4 +118,3 @@ This method should only be called by the owner of the ACP-based context because 
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfrangeacp-setextent">ITfRangeACP::SetExtent
       </a>
-

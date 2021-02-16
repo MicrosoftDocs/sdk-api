@@ -44,7 +44,6 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
- - tagOFFLINEFILES_SYNC_STATE
  - OFFLINEFILES_SYNC_STATE
 ---
 
@@ -282,4 +281,3 @@ The file has been replaced and deleted on the client. The directory has changed 
 
 
 <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_sync_conflict_resolve">OFFLINEFILES_SYNC_CONFLICT_RESOLVE</a>
-

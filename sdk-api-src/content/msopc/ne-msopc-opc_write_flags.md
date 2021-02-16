@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - __MIDL___MIDL_itf_msopc_0000_0002_0005
  - OPC_WRITE_FLAGS
 ---
 
@@ -109,4 +108,3 @@ If   one or more of the following Zip32 limitations are violated, the package wr
 
 
 <a href="/previous-versions/windows/desktop/opc/relationships-overview">Relationships Overview</a>
-

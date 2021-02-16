@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wrdsgraphicschannels.h
 api_name:
- - __MIDL___MIDL_itf_wrdsgraphicschannels_0000_0002_0001
  - WRdsGraphicsChannelType
 ---
 
@@ -68,4 +67,3 @@ The channel delivery can be lossy.
 ## -see-also
 
 <a href="/windows/desktop/api/wrdsgraphicschannels/nf-wrdsgraphicschannels-iwrdsgraphicschannelmanager-createchannel">IWRdsGraphicsChannelManager::CreateChannel</a>
-

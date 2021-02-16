@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tspi.h
 api_name:
- - tuispicreatedialoginstanceparams_tag
- - LPTUISPICREATEDIALOGINSTANCEPARAMS
  - TUISPICREATEDIALOGINSTANCEPARAMS
 ---
 
@@ -93,4 +91,3 @@ The size, in bytes, of the parameter block.
 
 
 <a href="/windows/desktop/api/tspi/nf-tspi-tuispi_providergenericdialog">TUISPI_providerGenericDialog</a>
-

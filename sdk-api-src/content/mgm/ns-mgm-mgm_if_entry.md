@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mgm.h
 api_name:
- - _MGM_IF_ENTRY
- - PMGM_IF_ENTRY
  - MGM_IF_ENTRY
 ---
 
@@ -86,4 +84,3 @@ Indicates whether or not multicast forwarding is enabled on this interface. If <
 ## -see-also
 
 <a href="/windows/desktop/api/mgm/nc-mgm-pmgm_creation_alert_callback">PMGM_CREATION_ALERT_CALLBACK</a>
-

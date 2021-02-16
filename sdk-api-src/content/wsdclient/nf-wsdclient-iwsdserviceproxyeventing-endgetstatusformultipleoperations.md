@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wsdapi.dll
 api_name:
- - IWSDServiceProxyEventing::EndGetStatusForMultipleOperations
+ - IWSDServiceProxyEventing.EndGetStatusForMultipleOperations
 ---
 
 # IWSDServiceProxyEventing::EndGetStatusForMultipleOperations
@@ -81,4 +81,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdserviceproxyeventing">IWSDServiceProxyEventing</a>
-

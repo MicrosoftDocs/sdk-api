@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellMenu::GetShellFolder
+ - IShellMenu.GetShellFolder
 ---
 
 # IShellMenu::GetShellFolder
@@ -168,4 +168,3 @@ When this method returns successfully, contains the address of a pointer to the 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

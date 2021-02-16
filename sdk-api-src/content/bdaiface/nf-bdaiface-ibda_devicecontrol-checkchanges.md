@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DeviceControl::CheckChanges
+ - IBDA_DeviceControl.CheckChanges
 ---
 
 # IBDA_DeviceControl::CheckChanges
@@ -69,4 +69,3 @@ This method provides a means to determine whether a particular set of changes wo
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_devicecontrol">IBDA_DeviceControl Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::SetTimes
+ - IPropertyStorage.SetTimes
 ---
 
 # IPropertyStorage::SetTimes
@@ -92,4 +92,3 @@ Notice that this functionality is provided as an
 
 
 <a href="/windows/desktop/api/propidl/nf-propidl-ipropertystorage-stat">IPropertyStorage::Stat</a>
-

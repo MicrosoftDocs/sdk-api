@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _GLYPHMETRICS
- - LPGLYPHMETRICS
  - GLYPHMETRICS
 ---
 
@@ -95,4 +93,3 @@ Values in the <b>GLYPHMETRICS</b> structure are specified in device units.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getglyphoutlinea">GetGlyphOutline</a>
-

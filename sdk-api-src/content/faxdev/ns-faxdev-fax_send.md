@@ -46,8 +46,6 @@ api_type:
 api_location:
  - FaxDev.h
 api_name:
- - _FAX_SEND
- - PFAX_SEND
  - FAX_SEND
 ---
 
@@ -130,4 +128,3 @@ The FSP can also use the reformatted data to add a brand to the fax transmission
 <a href="/windows/desktop/Tapi/line-callstate">LINE_CALLSTATE</a>
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
-

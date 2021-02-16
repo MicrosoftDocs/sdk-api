@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetShowConfig::get_FixedUDPPort
+ - IAMNetShowConfig.get_FixedUDPPort
 ---
 
 # IAMNetShowConfig::get_FixedUDPPort
@@ -69,4 +69,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/qnetwork/nf-qnetwork-iamnetshowconfig-get_usefixedudpport">IAMNetShowConfig::get_UseFixedUDPPort</a>
-

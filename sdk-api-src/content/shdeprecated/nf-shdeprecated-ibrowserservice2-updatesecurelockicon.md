@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::UpdateSecureLockIcon
+ - IBrowserService2.UpdateSecureLockIcon
 ---
 
 # IBrowserService2::UpdateSecureLockIcon
@@ -136,4 +136,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 SECURELOCK_SUGGEST_UNSECURE is equivalent to SECURELOCK_FIRSTSUGGEST.
-

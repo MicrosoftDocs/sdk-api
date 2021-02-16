@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - _DNS_NAME_FORMAT
  - DNS_NAME_FORMAT
 ---
 
@@ -88,4 +87,3 @@ Windows 7 or later: The name format is a DNS domain or a full DNS host name.
 ## -see-also
 
 <a href="/windows/desktop/DNS/dns-enumerations">DNS Enumerations</a>
-

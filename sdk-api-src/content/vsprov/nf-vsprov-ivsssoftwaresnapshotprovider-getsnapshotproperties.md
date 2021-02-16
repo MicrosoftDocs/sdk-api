@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssSoftwareSnapshotProvider::GetSnapshotProperties
+ - IVssSoftwareSnapshotProvider.GetSnapshotProperties
 ---
 
 # IVssSoftwareSnapshotProvider::GetSnapshotProperties
@@ -168,4 +168,3 @@ The provider is responsible for allocating and freeing the strings in the <a hre
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-vssfreesnapshotproperties">VssFreeSnapshotProperties</a>
-

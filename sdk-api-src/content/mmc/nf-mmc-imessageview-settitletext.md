@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IMessageView::SetTitleText
+ - IMessageView.SetTitleText
 ---
 
 # IMessageView::SetTitleText
@@ -75,4 +75,3 @@ MMC creates its own copies of the strings passed to it when the snap-in calls th
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-the-mmc-message-ocx-control">Using the MMC Message OCX Control</a>
-

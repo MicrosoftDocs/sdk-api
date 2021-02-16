@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_modrdnW
  - winldap/ldap_modrdnW
- - ldap_modrdn
- - winldap/ldap_modrdn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_modrdnW
  - ldap_modrdn
+ - ldap_modrdnA
+ - ldap_modrdnW
 ---
 
 # ldap_modrdnW function
@@ -147,4 +146,3 @@ Multithreading: Calls to <b>ldap_modrdn</b> are thread-safe, provided that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

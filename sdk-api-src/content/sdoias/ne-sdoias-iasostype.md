@@ -46,8 +46,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _IASOSTYPE
- - PIASOSTYPE
  - IASOSTYPE
 ---
 
@@ -107,4 +105,3 @@ The SDO computer is running Windows Server 2008.
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getostype">ISdoMachine::GetOSType</a>
-

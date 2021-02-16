@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_SERIALIZED_OID
- - PSECPKG_SERIALIZED_OID
  - SECPKG_SERIALIZED_OID
 ---
 
@@ -75,4 +73,3 @@ The attributes of the OID.
 ### -field OidValue
 
 The value of the OID. The value of SECPKG_MAX_OID_LENGTH is currently set to 32.
-

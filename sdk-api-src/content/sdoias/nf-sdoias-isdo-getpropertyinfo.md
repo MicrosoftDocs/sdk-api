@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdo::GetPropertyInfo
+ - ISdo.GetPropertyInfo
 ---
 
 # ISdo::GetPropertyInfo
@@ -78,4 +78,3 @@ Although Server Data Objects (SDO) exposes this method, you do not need it in or
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdo">ISdo</a>
-

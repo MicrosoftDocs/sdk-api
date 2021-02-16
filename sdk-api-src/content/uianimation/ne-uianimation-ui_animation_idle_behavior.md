@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0012_0001
  - UI_ANIMATION_IDLE_BEHAVIOR
 ---
 
@@ -68,4 +67,3 @@ The timer is suspended (disabled) when the animation manager is idle.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimer">IUIAnimationTimer</a>
-

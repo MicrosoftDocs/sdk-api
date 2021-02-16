@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - tagGESTURENOTIFYSTRUCT
- - PGESTURENOTIFYSTRUCT
  - GESTURENOTIFYSTRUCT
 ---
 
@@ -88,4 +86,3 @@ A specific gesture instance with gesture messages starting with <b>GID_START</b>
 
 
 <a href="/windows/desktop/wintouch/wm-gesturenotify">WM_GESTURENOTIFY</a>
-

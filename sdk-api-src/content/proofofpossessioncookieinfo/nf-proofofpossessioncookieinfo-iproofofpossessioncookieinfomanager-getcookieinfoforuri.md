@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MicrosoftAccountTokenProvider.dll
 api_name:
- - IProofOfPossessionCookieInfoManager::GetCookieInfoForUri
+ - IProofOfPossessionCookieInfoManager.GetCookieInfoForUri
 ---
 
 # IProofOfPossessionCookieInfoManager::GetCookieInfoForUri
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/proofofpossessioncookieinfo/nn-proofofpossessioncookieinfo-iproofofpossessioncookieinfomanager">IProofOfPossessionCookieInfoManager</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink::SetPresentationClock
+ - IMFMediaSink.SetPresentationClock
 ---
 
 # IMFMediaSink::SetPresentationClock
@@ -124,4 +124,3 @@ All media sinks must support this method.
 
 
 <a href="/windows/desktop/medfound/presentation-clock">Presentation Clock</a>
-

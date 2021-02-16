@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IActionCollection::Remove
+ - IActionCollection.Remove
 ---
 
 # IActionCollection::Remove
@@ -75,4 +75,3 @@ When removing items, note that the index for the first item in the collection is
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

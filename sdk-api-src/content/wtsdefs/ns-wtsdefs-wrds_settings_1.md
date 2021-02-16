@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_SETTINGS_1
- - PWRDS_SETTINGS_1
  - WRDS_SETTINGS_1
 ---
 
@@ -203,4 +201,3 @@ The amount of time, in minutes, of idle time before the state of the Remote Desk
 ## -see-also
 
 <a href="/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee791760(v=ws.10)">Remote Desktop Session Host</a>
-

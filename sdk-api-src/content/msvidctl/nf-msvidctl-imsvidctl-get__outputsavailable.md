@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::get__OutputsAvailable
+ - IMSVidCtl.get__OutputsAvailable
 ---
 
 # IMSVidCtl::get__OutputsAvailable
@@ -75,4 +75,3 @@ To obtain the available renderers, use the <a href="/previous-versions/windows/d
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidctl">IMSVidCtl Interface</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_LastReportPathWithoutExtension
+ - IFsrmFileManagementJob.LastReportPathWithoutExtension
+ - IFsrmFileManagementJob.get_LastReportPathWithoutExtension
 ---
 
 # IFsrmFileManagementJob::get_LastReportPathWithoutExtension
@@ -72,4 +73,3 @@ If the job failed, this is the path where the reports would have been stored. Th
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

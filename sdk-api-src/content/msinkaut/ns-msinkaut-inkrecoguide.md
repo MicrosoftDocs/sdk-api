@@ -44,8 +44,7 @@ api_type:
 api_location:
  - msinkaut.h
 api_name:
- - _InkRecoGuide
- - InkRecoGuide
+ - DISPID_InkRecognizerGuide
 ---
 
 # InkRecoGuide structure
@@ -77,6 +76,7 @@ Deprecated.
 
 Deprecated.
 
+
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_columns">Columns Property</a>
@@ -100,4 +100,3 @@ Deprecated.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_writingbox">WritingBox Property</a>
-

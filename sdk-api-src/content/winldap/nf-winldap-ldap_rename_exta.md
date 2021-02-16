@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_rename_extA
  - winldap/ldap_rename_extA
- - ldap_rename_ext
- - winldap/ldap_rename_ext
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_rename_extA
  - ldap_rename_ext
+ - ldap_rename_extA
+ - ldap_rename_extW
 ---
 
 # ldap_rename_extA function
@@ -118,4 +117,3 @@ Multithreading: Calls to <b>ldap_rename_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
-

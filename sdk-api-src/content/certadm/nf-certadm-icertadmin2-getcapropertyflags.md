@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2::GetCAPropertyFlags
+ - ICertAdmin2.GetCAPropertyFlags
+ - CCertAdmin2.GetCAPropertyFlags
 ---
 
 # ICertAdmin2::GetCAPropertyFlags
@@ -136,4 +137,3 @@ printf("Property %s indexed\n",
 
 SysFreeString(bstrCA);
 ```
-

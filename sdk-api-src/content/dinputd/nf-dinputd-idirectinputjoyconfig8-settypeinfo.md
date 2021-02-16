@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dinputd.h
 api_name:
- - IDirectInputJoyConfig8::SetTypeInfo
+ - IDirectInputJoyConfig8.SetTypeInfo
 ---
 
 # IDirectInputJoyConfig8::SetTypeInfo
@@ -140,4 +140,3 @@ Attempted to change a predefined type.
 </td>
 </tr>
 </table>
-

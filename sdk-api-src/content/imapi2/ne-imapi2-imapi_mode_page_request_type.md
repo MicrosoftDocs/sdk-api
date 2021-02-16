@@ -46,8 +46,6 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - _IMAPI_MODE_PAGE_REQUEST_TYPE
- - PIMAPI_MODE_PAGE_REQUEST_TYPE
  - IMAPI_MODE_PAGE_REQUEST_TYPE
 ---
 

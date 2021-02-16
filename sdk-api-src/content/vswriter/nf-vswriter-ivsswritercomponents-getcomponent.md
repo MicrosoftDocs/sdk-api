@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssWriterComponents::GetComponent
+ - IVssWriterComponents.GetComponent
 ---
 
 # IVssWriterComponents::GetComponent
@@ -131,4 +131,3 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsswritercomponents">IVssWriterComponents</a>
-

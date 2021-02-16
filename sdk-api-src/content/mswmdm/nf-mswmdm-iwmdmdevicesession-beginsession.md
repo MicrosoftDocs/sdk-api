@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDeviceSession::BeginSession
+ - IWMDMDeviceSession.BeginSession
 ---
 
 # IWMDMDeviceSession::BeginSession
@@ -176,4 +176,3 @@ CHECK_HR(hr,"Closed the session.","Couldn't close the session.");
 
 
 <a href="/windows/desktop/WMDM/wmdm-session-type">WMDM_SESSION_TYPE</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceManager::GetDevices
+ - IPortableDeviceManager.GetDevices
 ---
 
 # IPortableDeviceManager::GetDevices
@@ -131,4 +131,3 @@ For an example of how to use this method to enumerate devices, see <a href="/win
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicemanager">IPortableDeviceManager Interface</a>
-

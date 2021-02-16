@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
- - tagMONERRSTRUCT
- - PMONERRSTRUCT
  - MONERRSTRUCT
 ---
 
@@ -115,4 +113,3 @@ A handle to the task (application instance) that called the DDE function that ca
 
 
 <b>Reference</b>
-

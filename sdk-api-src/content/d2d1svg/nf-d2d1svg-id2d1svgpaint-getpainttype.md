@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgPaint::GetPaintType
+ - ID2D1SvgPaint.GetPaintType
 ---
 
 # ID2D1SvgPaint::GetPaintType
@@ -63,4 +63,3 @@ Returns the paint type.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgpaint">ID2D1SvgPaint</a>
-

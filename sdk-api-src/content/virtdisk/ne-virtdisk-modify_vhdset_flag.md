@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _MODIFY_VHDSET_FLAG
- - PMODIFY_VHDSET_FLAG
  - MODIFY_VHDSET_FLAG
 ---
 

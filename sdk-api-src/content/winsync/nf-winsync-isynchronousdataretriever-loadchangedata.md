@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISynchronousDataRetriever::LoadChangeData
+ - ISynchronousDataRetriever.LoadChangeData
 ---
 
 # ISynchronousDataRetriever::LoadChangeData
@@ -157,4 +157,3 @@ STDMETHODIMP CItemStore::LoadChangeData(
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isynchronousdataretriever">ISynchronousDataRetriever Interface</a>
-

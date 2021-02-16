@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_ATTRIBUTE_TAG_INFO
- - PFILE_ATTRIBUTE_TAG_INFO
  - FILE_ATTRIBUTE_TAG_INFO
 ---
 
@@ -81,4 +79,3 @@ The reparse tag.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-getfileinformationbyhandleex">GetFileInformationByHandleEx</a>
-

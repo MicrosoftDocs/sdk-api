@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - berval
- - PLDAP_BERVAL
  - LDAP_BERVAL
 ---
 
@@ -75,4 +73,3 @@ Use a <b>berval</b> structure for attributes that contain raw binary data, such 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
-

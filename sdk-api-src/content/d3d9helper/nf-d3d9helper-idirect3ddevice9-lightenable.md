@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::LightEnable
+ - IDirect3DDevice9.LightEnable
 ---
 
 # IDirect3DDevice9::LightEnable
@@ -177,4 +177,3 @@ If a value for LightIndex is outside the range of the light property sets assign
 
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setlight">IDirect3DDevice9::SetLight</a>
-

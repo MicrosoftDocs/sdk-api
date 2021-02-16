@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxGetBackStyle
+ - ITextHost.TxGetBackStyle
 ---
 
 # ITextHost::TxGetBackStyle
@@ -101,4 +101,3 @@ The return value is <b>S_OK</b>.
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-

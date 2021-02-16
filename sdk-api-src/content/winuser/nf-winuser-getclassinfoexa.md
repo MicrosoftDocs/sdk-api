@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - GetClassInfoExA
  - winuser/GetClassInfoExA
- - GetClassInfoEx
- - winuser/GetClassInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +50,10 @@ api_location:
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
  - ext-ms-win-ntuser-windowclass-l1-1-2.dll
 api_name:
- - GetClassInfoExA
  - GetClassInfoEx
+ - GetClassInfoExA
+ - GetClassInfoExW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetClassInfoExA function
@@ -132,4 +131,3 @@ Class atoms are created using the <a href="/windows/desktop/api/winuser/nf-winus
 
 
 <a href="/windows/desktop/winmsg/window-classes">Window Classes</a>
-

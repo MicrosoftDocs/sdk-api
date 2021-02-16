@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - BrightnessContrast::SetParameters
+ - BrightnessContrast.SetParameters
 ---
 
 # BrightnessContrast::SetParameters
@@ -78,4 +78,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-brightnesscontrast-getparameters">BrightnessContrast::GetParameters</a>
-

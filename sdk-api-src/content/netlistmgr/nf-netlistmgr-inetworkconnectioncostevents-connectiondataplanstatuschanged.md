@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
+ - INetworkConnectionCostEvents.ConnectionDataPlanStatusChanged
 ---
 
 # INetworkConnectionCostEvents::ConnectionDataPlanStatusChanged
@@ -65,4 +65,3 @@ This method returns  S_OK on success.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncostevents">INetworkConnectionCostEvents</a>
-

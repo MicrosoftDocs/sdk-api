@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon2::SessionReconnect
+ - ISensLogon2.SessionReconnect
 ---
 
 # ISensLogon2::SessionReconnect
@@ -104,4 +104,3 @@ SENS calls this method to notify your application that the session was reconnect
 
 
 <a href="/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
-

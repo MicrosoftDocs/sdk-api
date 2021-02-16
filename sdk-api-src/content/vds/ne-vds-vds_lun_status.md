@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_LUN_STATUS
- - PVDS_LUN_STATUS
  - VDS_LUN_STATUS
 ---
 
@@ -101,4 +99,3 @@ The  <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-setstatus">IVdsL
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_prop">VDS_LUN_PROP</a>
-

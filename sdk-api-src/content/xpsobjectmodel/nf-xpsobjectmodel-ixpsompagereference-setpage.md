@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference::SetPage
+ - IXpsOMPageReference.SetPage
 ---
 
 # IXpsOMPageReference::SetPage
@@ -129,4 +129,3 @@ If a page has been set, the calling method must first release that  page before 
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

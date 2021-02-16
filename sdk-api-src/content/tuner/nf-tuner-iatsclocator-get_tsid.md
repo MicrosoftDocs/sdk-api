@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCLocator::get_TSID
+ - IATSCLocator.get_TSID
 ---
 
 # IATSCLocator::get_TSID
@@ -69,4 +69,3 @@ This property is not required for tuning. It will be set by the BDA Transport In
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator Interface</a>
-

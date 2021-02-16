@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntry::get_ClientApplicationID
+ - IUpdateHistoryEntry.ClientApplicationID
+ - IUpdateHistoryEntry.get_ClientApplicationID
 ---
 
 # IUpdateHistoryEntry::get_ClientApplicationID
@@ -63,4 +64,3 @@ Returns the Unknown value if the client application has not set the property.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - MmcObj.h
 api_name:
- - DocumentMode
- - PDOCUMENTMODE
  - _DocumentMode
 ---
 
@@ -86,4 +84,3 @@ The document is opened in Limited-Access User Mode with a single window.
 
 
 <a href="/previous-versions/windows/desktop/mmc/document-mode">Document.Mode</a>
-

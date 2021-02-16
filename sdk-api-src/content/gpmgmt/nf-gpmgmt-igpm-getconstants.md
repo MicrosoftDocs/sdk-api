@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPM::GetConstants
+ - IGPM.GetConstants
+ - GPM.GetConstants
 ---
 
 # IGPM::GetConstants
@@ -77,4 +78,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmconstants">IGPMConstants</a>
-

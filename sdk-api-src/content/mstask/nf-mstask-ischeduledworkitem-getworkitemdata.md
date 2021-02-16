@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetWorkItemData
+ - IScheduledWorkItem.GetWorkItemData
 ---
 
 # IScheduledWorkItem::GetWorkItemData
@@ -125,4 +125,3 @@ Retrieving the data of a work item does not affect the operation of the work ite
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-setworkitemdata">SetWorkItemData</a>
-

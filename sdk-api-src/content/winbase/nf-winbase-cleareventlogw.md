@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - ClearEventLogW
  - winbase/ClearEventLogW
- - ClearEventLog
- - winbase/ClearEventLog
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - Advapi32.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
- - ClearEventLogW
  - ClearEventLog
+ - ClearEventLogA
+ - ClearEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ClearEventLogW function
@@ -98,4 +97,3 @@ After this function returns, any handles that reference the cleared event log ca
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-openeventloga">OpenEventLog</a>
-

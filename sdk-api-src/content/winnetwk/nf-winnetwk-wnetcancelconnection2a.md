@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WNetCancelConnection2A
  - winnetwk/WNetCancelConnection2A
- - WNetCancelConnection2
- - winnetwk/WNetCancelConnection2
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetCancelConnection2A
  - WNetCancelConnection2
+ - WNetCancelConnection2A
+ - WNetCancelConnection2W
 ---
 
 # WNetCancelConnection2A function
@@ -243,4 +242,3 @@ For a code sample that illustrates how to cancel a connection to a network resou
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

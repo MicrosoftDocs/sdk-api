@@ -42,7 +42,8 @@ api_type:
 api_location:
  - corewindow.h
 api_name:
- - ICoreWindowInterop::put_MessageHandled
+ - ICoreWindowInterop.MessageHandled
+ - ICoreWindowInterop.put_MessageHandled
 ---
 
 # ICoreWindowInterop::put_MessageHandled
@@ -59,4 +60,3 @@ This property is write-only.
 ## -see-also
 
 <a href="/windows/desktop/api/corewindow/nn-corewindow-icorewindowinterop">ICoreWindowInterop</a>
-

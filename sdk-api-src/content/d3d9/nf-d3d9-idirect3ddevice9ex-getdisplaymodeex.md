@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9Ex::GetDisplayModeEx
+ - IDirect3DDevice9Ex.GetDisplayModeEx
 ---
 
 # IDirect3DDevice9Ex::GetDisplayModeEx
@@ -82,4 +82,3 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
-

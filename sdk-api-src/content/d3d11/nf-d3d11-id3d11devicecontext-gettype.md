@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11DeviceContext::GetType
+ - ID3D11DeviceContext.GetType
 ---
 
 # ID3D11DeviceContext::GetType
@@ -64,4 +64,3 @@ A member of <a href="/windows/desktop/api/d3d11/ne-d3d11-d3d11_device_context_ty
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

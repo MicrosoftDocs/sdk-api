@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - thumbnailstreamcache
  - thumbnailstreamcache/thumbnailstreamcache
-api_name:
- - thumbnailstreamcache
 ---
 
 # Thumbnailstreamcache.h header

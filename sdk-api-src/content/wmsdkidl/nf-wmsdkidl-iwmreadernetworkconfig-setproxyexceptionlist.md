@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::SetProxyExceptionList
+ - IWMReaderNetworkConfig.SetProxyExceptionList
 ---
 
 # IWMReaderNetworkConfig::SetProxyExceptionList
@@ -115,4 +115,3 @@ Wildcard characters can be used in the list entries (using the * character). For
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-setproxysettings">IWMReaderNetworkConfig::SetProxySettings</a>
-

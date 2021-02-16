@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IConnectionPointContainer::EnumConnectionPoints
+ - IConnectionPointContainer.EnumConnectionPoints
 ---
 
 # IConnectionPointContainer::EnumConnectionPoints
@@ -108,4 +108,3 @@ Returning E_NOTIMPL is specifically disallowed because, with the exception of ty
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints">IEnumConnectionPoints</a>
-

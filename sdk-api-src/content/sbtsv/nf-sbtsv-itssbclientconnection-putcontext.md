@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbClientConnection::PutContext
+ - ITsSbClientConnection.PutContext
 ---
 
 # ITsSbClientConnection::PutContext
@@ -77,4 +77,3 @@ Plug-ins can use the client connection object to store context information that 
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbclientconnection">ITsSbClientConnection</a>
-

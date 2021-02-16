@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_503
- - PSERVER_INFO_503
  - SERVER_INFO_503
 ---
 
@@ -328,4 +326,3 @@ The maximum number of free connection blocks maintained per endpoint. The server
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::Send
+ - IXMLHTTPRequest2.Send
 ---
 
 # IXMLHTTPRequest2::Send
@@ -77,4 +77,3 @@ Alternatives to using <a href="/windows/desktop/api/objidl/nn-objidl-isequential
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
-

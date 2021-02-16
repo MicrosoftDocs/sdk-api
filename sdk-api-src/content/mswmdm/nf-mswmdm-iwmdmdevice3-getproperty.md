@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice3::GetProperty
+ - IWMDMDevice3.GetProperty
 ---
 
 # IWMDMDevice3::GetProperty
@@ -147,4 +147,3 @@ e_Exit:
 
 
 <a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-

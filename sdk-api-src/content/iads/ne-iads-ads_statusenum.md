@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0019
  - ADS_STATUSENUM
 ---
 
@@ -135,4 +134,3 @@ HRESULT SetAndCheckSearchTimeout(IDirectorySearch *pSearch,
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
-

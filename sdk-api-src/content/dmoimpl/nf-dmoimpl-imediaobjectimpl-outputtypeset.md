@@ -45,7 +45,7 @@ api_location:
  - Msdmo.lib
  - Msdmo.dll
 api_name:
- - IMediaObjectImpl::OutputTypeSet
+ - IMediaObjectImpl.OutputTypeSet
 ---
 
 # IMediaObjectImpl::OutputTypeSet
@@ -68,4 +68,3 @@ Returns <b>TRUE</b> if the media type was set on this stream, or <b>FALSE</b> ot
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/imediaobjectimpl-class-template">IMediaObjectImpl Class Template</a>
-

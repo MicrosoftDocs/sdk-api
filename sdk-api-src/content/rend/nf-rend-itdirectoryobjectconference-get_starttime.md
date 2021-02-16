@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObjectConference::get_StartTime
+ - ITDirectoryObjectConference.get_StartTime
 ---
 
 # ITDirectoryObjectConference::get_StartTime
@@ -135,4 +135,3 @@ This method is not yet implemented.
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobjectconference-put_starttime">ITDirectoryObjectConference::put_StartTime</a>
-

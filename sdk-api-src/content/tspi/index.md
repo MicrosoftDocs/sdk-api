@@ -9,8 +9,6 @@ tech.root: tapi2
 f1_keywords:
  - tspi
  - tspi/tspi
-api_name:
- - tspi
 ---
 
 # Tspi.h header

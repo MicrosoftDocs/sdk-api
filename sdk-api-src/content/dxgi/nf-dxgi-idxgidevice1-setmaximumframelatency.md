@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDevice1::SetMaximumFrameLatency
+ - IDXGIDevice1.SetMaximumFrameLatency
 ---
 
 # IDXGIDevice1::SetMaximumFrameLatency
@@ -88,4 +88,3 @@ Frame latency is the number of frames that are allowed to be stored in a queue b
 
 
 <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice1-getmaximumframelatency">IDXGIDevice1::GetMaximumFrameLatency</a>
-

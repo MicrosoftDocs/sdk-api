@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssFileShareSnapshotProvider::DeleteSnapshots
+ - IVssFileShareSnapshotProvider.DeleteSnapshots
 ---
 
 # IVssFileShareSnapshotProvider::DeleteSnapshots
@@ -161,4 +161,3 @@ The VSS coordinator calls this method as part of the snapshot auto-release proce
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssfilesharesnapshotprovider">IVssFileShareSnapshotProvider</a>
-

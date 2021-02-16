@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContextOwnerServices::ForceLoadProperty
+ - ITfContextOwnerServices.ForceLoadProperty
 ---
 
 # ITfContextOwnerServices::ForceLoadProperty
@@ -109,4 +109,3 @@ The application must be able to grant a synchronous read-only lock before callin
 ## -see-also
 
 [ITfContextOwnerServices interface](nn-msctf-itfcontextownerservices.md), [ITfContextOwnerServices::Unserialize](nf-msctf-itfcontextownerservices-unserialize.md), [ITfProperty interface](nn-msctf-itfproperty.md)
-

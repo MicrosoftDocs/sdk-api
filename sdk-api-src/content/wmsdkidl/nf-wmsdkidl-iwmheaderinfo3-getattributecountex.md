@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMHeaderInfo3::GetAttributeCountEx
+ - IWMHeaderInfo3.GetAttributeCountEx
 ---
 
 # IWMHeaderInfo3::GetAttributeCountEx
@@ -116,4 +116,3 @@ The maximum number of attributes for a single stream is 65535, the capacity of t
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3">IWMHeaderInfo3 Interface</a>
-

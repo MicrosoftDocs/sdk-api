@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities::GetSupportedFormatProperties
+ - IPortableDeviceCapabilities.GetSupportedFormatProperties
 ---
 
 # IPortableDeviceCapabilities::GetSupportedFormatProperties
@@ -100,4 +100,3 @@ If an object does not have a value assigned to a specific property, or if the pr
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformats">IPortableDeviceCapabilities::GetSupportedFormats</a>
-

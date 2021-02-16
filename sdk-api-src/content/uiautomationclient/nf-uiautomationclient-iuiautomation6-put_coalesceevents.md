@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation6::put_CoalesceEvents
+ - IUIAutomation6.CoalesceEvents
+ - IUIAutomation6.get_CoalesceEvents
+ - IUIAutomation6.put_CoalesceEvents
 ---
 
 # IUIAutomation6::put_CoalesceEvents

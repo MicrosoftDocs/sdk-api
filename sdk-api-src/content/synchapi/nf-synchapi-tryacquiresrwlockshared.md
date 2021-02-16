@@ -50,6 +50,7 @@ api_location:
  - ntdll.dll
 api_name:
  - TryAcquireSRWLockShared
+ - RtlTryAcquireSRWLockShared
 ---
 
 # TryAcquireSRWLockShared function
@@ -82,4 +83,3 @@ if the current thread could not acquire the lock, the return value is zero.
 
 
 <a href="/windows/desktop/api/synchapi/nf-synchapi-tryacquiresrwlockexclusive">TryAcquireSRWLockExclusive</a>
-

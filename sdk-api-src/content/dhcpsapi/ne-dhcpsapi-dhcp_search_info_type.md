@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_CLIENT_SEARCH_TYPE
- - LPDHCP_SEARCH_INFO_TYPE
  - DHCP_SEARCH_INFO_TYPE
 ---
 
@@ -79,4 +77,3 @@ The search will be performed against the DHCP client's network name, represented
 
 
 <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a>
-

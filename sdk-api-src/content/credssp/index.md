@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - credssp
  - credssp/credssp
-api_name:
- - credssp
 ---
 
 # Credssp.h header

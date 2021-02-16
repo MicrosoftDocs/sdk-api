@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - rometadataresolution
  - rometadataresolution/rometadataresolution
-api_name:
- - rometadataresolution
 ---
 
 # Rometadataresolution.h header

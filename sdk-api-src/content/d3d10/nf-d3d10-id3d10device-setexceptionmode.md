@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::SetExceptionMode
+ - ID3D10Device.SetExceptionMode
 ---
 
 # ID3D10Device::SetExceptionMode
@@ -76,4 +76,3 @@ Whenever an error occurs, a Direct3D device enters the DEVICEREMOVED state and i
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

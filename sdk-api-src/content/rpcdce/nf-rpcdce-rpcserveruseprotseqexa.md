@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcServerUseProtseqExA
  - rpcdce/RpcServerUseProtseqExA
- - RpcServerUseProtseqEx
- - rpcdce/RpcServerUseProtseqEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcrt4.dll
 api_name:
- - RpcServerUseProtseqExA
  - RpcServerUseProtseqEx
+ - RpcServerUseProtseqExA
+ - RpcServerUseProtseqExW
 ---
 
 # RpcServerUseProtseqExA function
@@ -200,4 +199,3 @@ For more information, see
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
-

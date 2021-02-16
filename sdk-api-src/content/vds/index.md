@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vds
  - vds/vds
-api_name:
- - vds
 ---
 
 # Vds.h header

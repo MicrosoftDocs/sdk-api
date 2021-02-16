@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IValueProvider::SetValue
+ - IValueProvider.SetValue
 ---
 
 # IValueProvider::SetValue
@@ -85,4 +85,3 @@ Controls such as ListItem and TreeItem must implement <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

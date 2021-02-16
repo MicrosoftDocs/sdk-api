@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LsaLookup.h
 api_name:
- - _LSA_OBJECT_ATTRIBUTES
- - PLSA_OBJECT_ATTRIBUTES
  - LSA_OBJECT_ATTRIBUTES
 ---
 
@@ -100,4 +98,3 @@ The <b>LSA_OBJECT_ATTRIBUTES</b> structure is defined in the LsaLookup.h header 
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-security_quality_of_service">SECURITY_QUALITY_OF_SERVICE</a>
-

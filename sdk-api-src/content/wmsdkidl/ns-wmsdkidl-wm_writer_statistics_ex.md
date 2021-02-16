@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMWriterStatisticsEx
  - WM_WRITER_STATISTICS_EX
 ---
 
@@ -94,4 +93,3 @@ Basic writer statistics are contained within a <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

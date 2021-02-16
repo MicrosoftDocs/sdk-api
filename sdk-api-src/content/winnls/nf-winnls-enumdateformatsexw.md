@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumDateFormatsExW
  - winnls/EnumDateFormatsExW
- - EnumDateFormatsEx
- - winnls/EnumDateFormatsEx
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumDateFormatsExW
  - EnumDateFormatsEx
+ - EnumDateFormatsExA
+ - EnumDateFormatsExW
 ---
 
 # EnumDateFormatsExW function
@@ -148,4 +147,3 @@ The application should use <b>EnumDateFormatsEx</b> (instead of <a href="/window
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

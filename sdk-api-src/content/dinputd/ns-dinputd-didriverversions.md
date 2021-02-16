@@ -45,7 +45,6 @@ api_location:
  - Dinputd.h
 api_name:
  - DIDRIVERVERSIONS
- - LPDIDRIVERVERSIONS
 ---
 
 # DIDRIVERVERSIONS structure

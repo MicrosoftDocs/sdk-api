@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfDisplayAttributeInfo::Reset
+ - ITfDisplayAttributeInfo.Reset
 ---
 
 # ITfDisplayAttributeInfo::Reset
@@ -94,4 +94,3 @@ The implementation of this method should not call <a href="/windows/desktop/api/
 ## -see-also
 
 [ITfDisplayAttributeInfo interface](nn-msctf-itfdisplayattributeinfo.md), [ITfDisplayAttributeMgr::OnUpdateInfo](nf-msctf-itfdisplayattributemgr-onupdateinfo.md),
-

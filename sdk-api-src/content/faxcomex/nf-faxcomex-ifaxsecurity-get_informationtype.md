@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSecurity::get_InformationType
+ - IFaxSecurity.InformationType
+ - IFaxSecurity.get_InformationType
+ - IFaxSecurity.put_InformationType
 ---
 
 # IFaxSecurity::get_InformationType
@@ -87,4 +89,3 @@ The bits are specified in the <a href="/windows/desktop/SecAuthZ/security-inform
  
 
 You should set the <b>IFaxSecurity::InformationType</b> property before you call the <a href="/previous-versions/windows/desktop/api/faxcomex/nf-faxcomex-ifaxsecurity-get_descriptor">IFaxSecurity::get_Descriptor</a> method to ensure that you receive the information that you want and to ensure that you request only the information for which you have the appropriate access rights. Also, the <b>IFaxSecurity::InformationType</b> property will affect what information is sent to the fax server when you call the <a href="/previous-versions/windows/desktop/fax/-mfax-faxsecurity-save-vb">IFaxSecurity::Save</a> method. If you do not set the <b>IFaxSecurity::InformationType</b> property, it defaults to the flags DACL_SECURITY_INFORMATION, GROUP_SECURITY_INFORMATION, and OWNER_SECURITY_INFORMATION.
-

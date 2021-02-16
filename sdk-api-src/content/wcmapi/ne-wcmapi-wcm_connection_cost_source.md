@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_CONNECTION_COST_SOURCE
- - PWCM_CONNECTION_COST_SOURCE
  - WCM_CONNECTION_COST_SOURCE
 ---
 

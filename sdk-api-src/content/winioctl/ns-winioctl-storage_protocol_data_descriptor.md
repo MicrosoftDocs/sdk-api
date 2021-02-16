@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_PROTOCOL_DATA_DESCRIPTOR
- - PSTORAGE_PROTOCOL_DATA_DESCRIPTOR
  - STORAGE_PROTOCOL_DATA_DESCRIPTOR
 ---
 
@@ -138,4 +136,3 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="/wind
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
-

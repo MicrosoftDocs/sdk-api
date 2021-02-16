@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject::Delete
+ - IGroupPolicyObject.Delete
 ---
 
 # IGroupPolicyObject::Delete
@@ -84,4 +84,3 @@ After calling this method, you cannot call other methods of the
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nf-gpedit-igrouppolicyobject-save">Save</a>
-

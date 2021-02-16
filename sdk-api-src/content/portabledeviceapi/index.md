@@ -9,8 +9,6 @@ tech.root: wpdsdk
 f1_keywords:
  - portabledeviceapi
  - portabledeviceapi/portabledeviceapi
-api_name:
- - portabledeviceapi
 ---
 
 # Portabledeviceapi.h header

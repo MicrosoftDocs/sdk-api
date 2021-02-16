@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_GETDRIVERINFODATA
- - PDD_GETDRIVERINFODATA
  - DD_GETDRIVERINFODATA
 ---
 
@@ -306,4 +304,3 @@ The data structure passed to the driver for a <a href="/windows/desktop/api/ddra
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>
-

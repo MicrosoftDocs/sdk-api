@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxRegisterRoutingExtensionW
  - winfax/FaxRegisterRoutingExtensionW
- - FaxRegisterRoutingExtension
- - winfax/FaxRegisterRoutingExtension
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxRegisterRoutingExtensionW
  - FaxRegisterRoutingExtension
 ---
 
@@ -160,4 +157,3 @@ For more information about the steps required to register with the fax service, 
 
 
 <a href="/windows/desktop/api/winfax/nc-winfax-pfax_routing_installation_callbackw">FaxRoutingInstallationCallback</a>
-

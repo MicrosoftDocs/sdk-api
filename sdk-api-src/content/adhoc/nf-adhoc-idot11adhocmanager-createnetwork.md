@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocManager::CreateNetwork
+ - IDot11AdHocManager.CreateNetwork
 ---
 
 # IDot11AdHocManager::CreateNetwork
@@ -277,4 +277,3 @@ There are no clients or hosts connected to the network after a <b>CreateNetwork<
 
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
-

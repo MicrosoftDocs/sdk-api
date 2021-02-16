@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream::GetFilterGraph
+ - IAMMultiMediaStream.GetFilterGraph
 ---
 
 # IAMMultiMediaStream::GetFilterGraph
@@ -100,4 +100,3 @@ If the method succeeds and *<i>ppGraphBuilder</i> is non-<b>NULL</b>, the caller
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
-

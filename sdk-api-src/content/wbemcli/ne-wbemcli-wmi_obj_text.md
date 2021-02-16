@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - tag_WMI_OBJ_TEXT
  - WMI_OBJ_TEXT
 ---
 
@@ -109,4 +108,3 @@ Deprecated. Do not use.
 ### -field WMI_OBJ_TEXT_LAST
 
 Deprecated. Do not use.
-

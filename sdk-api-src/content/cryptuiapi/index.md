@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - cryptuiapi
  - cryptuiapi/cryptuiapi
-api_name:
- - cryptuiapi
 ---
 
 # Cryptuiapi.h header

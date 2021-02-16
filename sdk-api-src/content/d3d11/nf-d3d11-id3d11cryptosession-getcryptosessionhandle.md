@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11CryptoSession::GetCryptoSessionHandle
+ - ID3D11CryptoSession.GetCryptoSessionHandle
 ---
 
 # ID3D11CryptoSession::GetCryptoSessionHandle
@@ -65,4 +65,3 @@ You can use this handle to associate the session with a decoder. This enables th
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession">ID3D11CryptoSession</a>
-

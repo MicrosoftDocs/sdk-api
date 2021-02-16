@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDInboundAttachment::Read
+ - IWSDInboundAttachment.Read
 ---
 
 # IWSDInboundAttachment::Read
@@ -128,4 +128,3 @@ The <b>Read</b> method allows an application to receive arbitrary data from a re
 ## -see-also
 
 <a href="/windows/desktop/api/wsdattachment/nn-wsdattachment-iwsdinboundattachment">IWSDInboundAttachment</a>
-

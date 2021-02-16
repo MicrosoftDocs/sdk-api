@@ -48,6 +48,7 @@ api_location:
  - API-Ms-Win-Core-PsAPI-L1-1-0.dll
 api_name:
  - EnumProcessModules
+ - K32EnumProcessModules
 ---
 
 # EnumProcessModules function
@@ -168,4 +169,3 @@ For an example, see
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3DCompiler_47.dll
 api_name:
- - ID3DInclude::Close
+ - ID3DInclude.Close
 ---
 
 # ID3DInclude::Close
@@ -85,4 +85,3 @@ If <a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DIn
 
 
 <a href="/windows/desktop/api/d3dcommon/nf-d3dcommon-id3dinclude-open">ID3DInclude::Open</a>
-

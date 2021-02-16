@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUNIBBLE4::XMUNIBBLE4
+ - XMUNIBBLE4.XMUNIBBLE4
 ---
 
 # XMUNIBBLE4::XMUNIBBLE4(float,float,float,float)
@@ -124,4 +124,3 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="/windows/desktop/dxmath/xmunibble4-ctor">XMUNIBBLE4 Constructors</a>
-

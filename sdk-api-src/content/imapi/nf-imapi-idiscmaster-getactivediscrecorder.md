@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMaster::GetActiveDiscRecorder
+ - IDiscMaster.GetActiveDiscRecorder
 ---
 
 # IDiscMaster::GetActiveDiscRecorder
@@ -76,4 +76,3 @@ There is no default active disc recorder. An application using this method must 
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::GetAcquisitionTime
+ - IPhotoAcquireSettings.GetAcquisitionTime
 ---
 
 # IPhotoAcquireSettings::GetAcquisitionTime
@@ -103,4 +103,3 @@ If not set explicitly, the acquisition time defaults to the current machine time
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setacquisitiontime">SetAcquisitionTime</a>
-

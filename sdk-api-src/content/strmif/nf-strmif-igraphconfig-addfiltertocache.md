@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphConfig::AddFilterToCache
+ - IGraphConfig.AddFilterToCache
 ---
 
 # IGraphConfig::AddFilterToCache
@@ -125,4 +125,3 @@ You must disconnect all of the filter's pins before calling this method, or the 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphconfig">IGraphConfig Interface</a>
-

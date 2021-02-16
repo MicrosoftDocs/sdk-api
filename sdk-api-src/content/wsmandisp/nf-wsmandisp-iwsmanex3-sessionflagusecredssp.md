@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEx3::SessionFlagUseCredSsp
+ - IWSManEx3.SessionFlagUseCredSsp
 ---
 
 # IWSManEx3::SessionFlagUseCredSsp
@@ -67,4 +67,3 @@ If the method succeeds, it returns the authentication flag. Otherwise, it return
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanex3">IWSManEx3</a>
-

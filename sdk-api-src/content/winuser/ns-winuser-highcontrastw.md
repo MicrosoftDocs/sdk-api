@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagHIGHCONTRASTW
- - LPHIGHCONTRASTW
- - HIGHCONTRASTW
+ - HIGHCONTRAST
 ---
 
 # HIGHCONTRASTW structure
@@ -195,4 +193,3 @@ An application uses this structure when calling the[SystemParametersInfoW functi
 
 [SystemParametersInfoW function](nf-winuser-systemparametersinfow.md), [HIGHCONTRASTA structure](ns-winuser-highcontrasta.md), <a href="/windows/desktop/WinAuto/accessibility-structures">Accessibility Structures</a>,
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-

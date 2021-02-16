@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IOleDocumentView::SaveViewState
+ - IOleDocumentView.SaveViewState
 ---
 
 # IOleDocumentView::SaveViewState
@@ -108,4 +108,3 @@ According to the rules governing <a href="/windows/desktop/api/objidl/nn-objidl-
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
-

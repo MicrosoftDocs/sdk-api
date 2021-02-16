@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITBasicCallControl::SwapHold
+ - ITBasicCallControl.SwapHold
 ---
 
 # ITBasicCallControl::SwapHold
@@ -168,4 +168,3 @@ Some service providers do not support this operation while streaming is active. 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
-

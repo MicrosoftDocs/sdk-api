@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdbase.h
 api_name:
- - IWSDHttpAuthParameters::GetAuthType
+ - IWSDHttpAuthParameters.GetAuthType
 ---
 
 # IWSDHttpAuthParameters::GetAuthType
@@ -94,4 +94,3 @@ This method returns S_OK on success.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpauthparameters">IWSDHttpAuthParameters</a>
-

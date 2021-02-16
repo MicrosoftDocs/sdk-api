@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Evcoll.h
 api_name:
- - _EC_SUBSCRIPTION_CONFIGURATION_MODE
  - EC_SUBSCRIPTION_CONFIGURATION_MODE
 ---
 
@@ -85,4 +84,3 @@ The settings for each configuration mode can be found in the Event Collector reg
 
 
 For more information about the subscription delivery mode and properties see, <a href="/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_delivery_mode">EC_SUBSCRIPTION_DELIVERY_MODE</a> and  <a href="/windows/desktop/api/evcoll/ne-evcoll-ec_subscription_property_id">EC_SUBSCRIPTION_PROPERTY_ID</a>.
-

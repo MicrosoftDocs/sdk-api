@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - _CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
  - CREDENTIAL_PROVIDER_GET_SERIALIZATION_RESPONSE
 ---
 
@@ -76,4 +75,3 @@ The credential provider has not serialized a credential, but has completed its w
 ## -see-also
 
 <a href="/windows/desktop/SecAuthN/credential-providers-in-windows">Credential Providers in Windows 10</a>
-

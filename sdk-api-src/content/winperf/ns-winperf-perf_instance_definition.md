@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
- - _PERF_INSTANCE_DEFINITION
- - PPERF_INSTANCE_DEFINITION
  - PERF_INSTANCE_DEFINITION
 ---
 
@@ -101,4 +99,3 @@ Providers must allocate enough space for the instance name to ensure that <b>Byt
 ## -see-also
 
 <a href="/windows/desktop/api/winperf/ns-winperf-perf_object_type">PERF_OBJECT_TYPE</a>
-

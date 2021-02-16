@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagVideoControlFlags
  - VideoControlFlags
 ---
 
@@ -86,4 +85,3 @@ Multiple capture buffers are queued to a capture driver and are filled at a fixe
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvideocontrol">IAMVideoControl</a>
-

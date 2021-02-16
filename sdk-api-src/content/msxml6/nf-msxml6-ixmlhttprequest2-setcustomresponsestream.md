@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::SetCustomResponseStream
+ - IXMLHTTPRequest2.SetCustomResponseStream
 ---
 
 # IXMLHTTPRequest2::SetCustomResponseStream
@@ -73,4 +73,3 @@ After this method is called, <a href="/previous-versions/windows/desktop/api/msx
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nn-msxml6-ixmlhttprequest2">IXMLHTTPRequest2</a>
-

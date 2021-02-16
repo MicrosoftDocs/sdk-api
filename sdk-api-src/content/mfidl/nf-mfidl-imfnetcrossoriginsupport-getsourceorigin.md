@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCrossOriginSupport::GetSourceOrigin
+ - IMFNetCrossOriginSupport.GetSourceOrigin
 ---
 
 # IMFNetCrossOriginSupport::GetSourceOrigin

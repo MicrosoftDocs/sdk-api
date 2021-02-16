@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUIRibbon::SaveSettingsToStream
+ - IUIRibbon.SaveSettingsToStream
 ---
 
 # IUIRibbon::SaveSettingsToStream
@@ -89,4 +89,3 @@ The <b>SaveSettingsToStream</b> method is useful for persisting ribbon state, su
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

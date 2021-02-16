@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Windows.Foundation.h
 api_name:
- - IPropertyValue::get_Type
+ - IPropertyValue.Type
+ - IPropertyValue.get_Type
 ---
 
 # IPropertyValue::IPropertyValue
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/windows.foundation/ne-windows-foundation-propertytype">PropertyType</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection::GetProtocolHandles
+ - IWTSProtocolConnection.GetProtocolHandles
 ---
 
 # IWTSProtocolConnection::GetProtocolHandles
@@ -75,4 +75,3 @@ A pointer to a beep device handle. This handle is not used and must be set to <b
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-

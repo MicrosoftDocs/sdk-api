@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - __MIDL___MIDL_itf_strmif_0000_0132_0002
  - DVD_CMD_FLAGS
 ---
 
@@ -104,4 +103,3 @@ For example, when used with <a href="/windows/desktop/api/strmif/nf-strmif-idvdc
 
 
 <a href="/windows/desktop/DirectShow/synchronizing-dvd-commands">Synchronizing DVD Commands</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wpcapi.h
 api_name:
- - IWPCGamesSettings::IsBlocked
+ - IWPCGamesSettings.IsBlocked
 ---
 
 # IWPCGamesSettings::IsBlocked
@@ -73,4 +73,3 @@ If <i>guidAppID</i> is not found, the policy will default to unrated and set *<i
 ## -see-also
 
 <a href="/windows/desktop/api/wpcapi/nn-wpcapi-iwpcgamessettings">IWPCGamesSettings</a>
-

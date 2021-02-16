@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - __MIDL___MIDL_itf_msopc_0001_0076_0001
  - OPC_CANONICALIZATION_METHOD
 ---
 
@@ -144,4 +143,3 @@ For more information about canonicalization and packages, see the <i>ECMA-376 Op
 
 <a href="https://www.w3.org/TR/xml-c14n">W3C Recommendation, Canonical XML
 Version 1.0</a>
-

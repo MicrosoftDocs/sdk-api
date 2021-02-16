@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::GetWriterMetadata
+ - IVssBackupComponents.GetWriterMetadata
 ---
 
 # IVssBackupComponents::GetWriterMetadata
@@ -207,4 +207,3 @@ When the caller of this method is finished accessing the metadata, it must call 
 
 
 <a href="/windows/desktop/api/vsbackup/nl-vsbackup-ivssexaminewritermetadata">IVssExamineWriterMetadata</a>
-

@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - asyncinfo
  - asyncinfo/asyncinfo
-api_name:
- - asyncinfo
 ---
 
 # Asyncinfo.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - __MIDL_IWTSSBPlugin_0007
  - WTSSBX_MACHINE_INFO
 ---
 
@@ -92,4 +91,3 @@ A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_machine_state">
 ## -see-also
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-

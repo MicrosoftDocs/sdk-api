@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLatency::GetLatency
+ - IAMLatency.GetLatency
 ---
 
 # IAMLatency::GetLatency
@@ -70,4 +70,3 @@ Returns S_OK if successsful, or an error code otherwise.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamlatency">IAMLatency Interface</a>
-

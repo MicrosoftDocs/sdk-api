@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - _NTMS_COMPUTERINFORMATION
- - NTMS_COMPUTERINFORMATION
+ - NTMS_COMPUTERINFO
 ---
 
 # NTMS_COMPUTERINFORMATION structure
@@ -196,4 +195,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_objectinformationa">NTMS_OBJECTINFORMATION</a>
-

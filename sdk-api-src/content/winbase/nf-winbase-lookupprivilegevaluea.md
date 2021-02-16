@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LookupPrivilegeValueA
  - winbase/LookupPrivilegeValueA
- - LookupPrivilegeValue
- - winbase/LookupPrivilegeValue
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Security-LSALookup-L2-1-2.dll
  - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupPrivilegeValueA
  - LookupPrivilegeValue
+ - LookupPrivilegeValueA
+ - LookupPrivilegeValueW
 ---
 
 # LookupPrivilegeValueA function
@@ -116,4 +115,3 @@ For an example that uses this function, see <a href="/windows/desktop/SecAuthZ/e
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegenamea">LookupPrivilegeName</a>
-

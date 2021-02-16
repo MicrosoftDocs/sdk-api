@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WTSOpenServerExW
  - wtsapi32/WTSOpenServerExW
- - WTSOpenServerEx
- - wtsapi32/WTSOpenServerEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSOpenServerExW
  - WTSOpenServerEx
+ - WTSOpenServerExA
+ - WTSOpenServerExW
 ---
 
 # WTSOpenServerExW function
@@ -89,4 +88,3 @@ When you have finished using the handle returned by this function, release it by
 
 
 <a href="/windows/desktop/api/wtsapi32/nf-wtsapi32-wtsopenservera">WTSOpenServer</a>
-

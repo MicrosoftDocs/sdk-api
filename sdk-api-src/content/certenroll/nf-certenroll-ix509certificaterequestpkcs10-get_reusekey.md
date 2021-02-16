@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::get_ReuseKey
+ - IX509CertificateRequestPkcs10.ReuseKey
+ - IX509CertificateRequestPkcs10.get_ReuseKey
 ---
 
 # IX509CertificateRequestPkcs10::get_ReuseKey
@@ -63,4 +64,3 @@ If you initialized the request object by calling the <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

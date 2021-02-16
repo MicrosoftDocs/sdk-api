@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectIds::get_Count
+ - IObjectIds.Count
+ - IObjectIds.get_Count
 ---
 
 # IObjectIds::get_Count
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectids">IObjectIds</a>
-

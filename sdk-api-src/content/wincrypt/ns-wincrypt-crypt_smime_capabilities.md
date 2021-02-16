@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_SMIME_CAPABILITIES
- - PCRYPT_SMIME_CAPABILITIES
  - CRYPT_SMIME_CAPABILITIES
 ---
 
@@ -73,4 +71,3 @@ Prioritized array of pointers to
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_smime_capability">CRYPT_SMIME_CAPABILITY</a>
-

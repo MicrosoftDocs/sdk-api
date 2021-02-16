@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnItemStateChanged
+ - INameSpaceTreeControlEvents.OnItemStateChanged
 ---
 
 # INameSpaceTreeControlEvents::OnItemStateChanged
@@ -77,4 +77,3 @@ One or more values from the <a href="/windows/win32/api/shobjidl_core/ne-shobjid
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

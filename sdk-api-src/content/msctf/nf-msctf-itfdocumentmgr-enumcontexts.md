@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDocumentMgr::EnumContexts
+ - ITfDocumentMgr.EnumContexts
 ---
 
 # ITfDocumentMgr::EnumContexts
@@ -110,4 +110,3 @@ The enumerator cannot be initialized.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfdocumentmgr">ITfDocumentMgr</a>
-

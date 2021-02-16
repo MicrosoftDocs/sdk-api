@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Comdlg32.dll
 api_name:
- - IFileDialog2::SetNavigationRoot
+ - IFileDialog2.SetNavigationRoot
 ---
 
 # IFileDialog2::SetNavigationRoot
@@ -75,4 +75,3 @@ This method cannot be called while the dialog is being displayed.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl/nn-shobjidl-ifiledialog2">IFileDialog2</a>
-

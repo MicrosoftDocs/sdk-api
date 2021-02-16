@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentIsEnabled
+ - IUIAutomationElement.CurrentIsEnabled
+ - IUIAutomationElement.get_CurrentIsEnabled
 ---
 
 # IUIAutomationElement::get_CurrentIsEnabled
@@ -71,4 +72,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

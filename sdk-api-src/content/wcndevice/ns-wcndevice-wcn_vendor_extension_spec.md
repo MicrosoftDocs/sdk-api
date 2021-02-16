@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wcndevice.h
 api_name:
- - tagWCN_VENDOR_EXTENSION_SPEC
  - WCN_VENDOR_EXTENSION_SPEC
 ---
 

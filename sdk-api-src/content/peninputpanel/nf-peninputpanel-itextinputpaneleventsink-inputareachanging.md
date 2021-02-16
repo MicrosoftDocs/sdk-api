@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanelEventSink::InputAreaChanging
+ - ITextInputPanelEventSink.InputAreaChanging
 ---
 
 # ITextInputPanelEventSink::InputAreaChanging
@@ -106,4 +106,3 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-inputareachanged">ITextInputPanelEventSink::InputAreaChanged Method</a>
-

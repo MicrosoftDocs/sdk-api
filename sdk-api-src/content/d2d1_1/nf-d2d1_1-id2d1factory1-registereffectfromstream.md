@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory1::RegisterEffectFromStream
+ - ID2D1Factory1.RegisterEffectFromStream
 ---
 
 # ID2D1Factory1::RegisterEffectFromStream
@@ -140,4 +140,3 @@ Aside from the <a href="/windows/desktop/Direct2D/built-in-effects">built-in eff
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1factory1-unregistereffect">ID2D1Factory1::UnregisterEffect</a>
-

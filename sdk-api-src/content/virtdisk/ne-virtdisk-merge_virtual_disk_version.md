@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _MERGE_VIRTUAL_DISK_VERSION
  - MERGE_VIRTUAL_DISK_VERSION
 ---
 
@@ -81,4 +80,3 @@ The <b>Version2</b> member structure will be used.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

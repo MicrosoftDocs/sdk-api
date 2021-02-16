@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogObject::IsPropertyWriteOnly
+ - ICatalogObject.IsPropertyWriteOnly
 ---
 
 # ICatalogObject::IsPropertyWriteOnly
@@ -69,4 +69,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-

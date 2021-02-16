@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr::GetFunctionProvider
+ - ITfThreadMgr.GetFunctionProvider
 ---
 
 # ITfThreadMgr::GetFunctionProvider
@@ -155,4 +155,3 @@ A function provider registers by calling the TSF manager <a href="/windows/deskt
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-enumfunctionproviders">ITfThreadMgr::EnumFunctionProviders
       </a>
-

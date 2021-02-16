@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
+ - IWindowsMediaLibrarySharingServices.put_computerInternetMediaSharingAllowedState
 ---
 
 # IWindowsMediaLibrarySharingServices::put_computerInternetMediaSharingAllowedState
@@ -95,4 +95,3 @@ If Internet media sharing is allowed for the computer and a particular user has 
 
 
 <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-get_computerinternetmediasharingallowedstate">IWindowsMediaLibrarySharingServices::get_computerInternetMediaSharingAllowedState</a>
-

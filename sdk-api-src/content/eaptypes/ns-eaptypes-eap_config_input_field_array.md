@@ -46,8 +46,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_CONFIG_INPUT_FIELD_ARRAY
- - PEAP_CONFIG_INPUT_FIELD_ARRAY
  - EAP_CONFIG_INPUT_FIELD_ARRAY
 ---
 
@@ -96,4 +94,3 @@ The <b>EAP_CONFIG_INPUT_FIELD_ARRAY</b> structure can be employed to support Sin
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data">EAP_CONFIG_INPUT_FIELD_DATA</a>
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

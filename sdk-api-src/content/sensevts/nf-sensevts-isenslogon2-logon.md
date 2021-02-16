@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon2::Logon
+ - ISensLogon2.Logon
 ---
 
 # ISensLogon2::Logon
@@ -104,4 +104,3 @@ SENS calls this method to notify an application that a user is logged on.
 
 
 <a href="/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
-

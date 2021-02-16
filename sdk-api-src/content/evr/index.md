@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - evr
  - evr/evr
-api_name:
- - evr
 ---
 
 # Evr.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
- - PAUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
  - AUTHENTICODE_EXTRA_CERT_CHAIN_POLICY_PARA
 ---
 
@@ -194,4 +192,3 @@ Allow only items in personal trust database.
 
 A pointer to a 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_signer_info">CMSG_SIGNER_INFO</a> structure that contains information on the signer of the file.
-

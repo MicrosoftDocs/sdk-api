@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICStream::InitializeFromFilename
+ - IWICStream.InitializeFromFilename
 ---
 
 # IWICStream::InitializeFromFilename
@@ -197,4 +197,3 @@ This example demonstrates the use of the <b>InitializeFromFilename</b> to create
         pDecoder->Release();
     }
 ```
-

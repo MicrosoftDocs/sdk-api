@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AccCtrl.h
 api_name:
- - _SE_OBJECT_TYPE
  - SE_OBJECT_TYPE
 ---
 
@@ -163,4 +162,3 @@ Indicates an object for a registry entry under WOW64.
 
 
 <a href="/windows/desktop/api/aclapi/nf-aclapi-setsecurityinfo">SetSecurityInfo</a>
-

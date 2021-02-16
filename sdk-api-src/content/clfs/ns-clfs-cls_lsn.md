@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - _CLS_LSN
- - PCLS_LSN
- - CLS_LSN
+ - CLFS_LSN
 ---
 
 # CLS_LSN structure
@@ -73,4 +71,3 @@ In log streams, LSNs increase  monotonically. You cannot compare  LSNs between  
 ## -see-also
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-lsncreate">LsnCreate</a>
-

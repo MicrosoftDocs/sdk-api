@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tssbx.h
 api_name:
- - __MIDL_IWTSSBPlugin_0009
  - WTSSBX_SESSION_INFO
 ---
 
@@ -88,4 +87,3 @@ A value of the <a href="/windows/win32/api/tssbx/ne-tssbx-wtssbx_session_state">
 ## -see-also
 
 <a href="/windows/desktop/api/tssbx/nn-tssbx-iwtssbplugin">IWTSSBPlugin</a>
-

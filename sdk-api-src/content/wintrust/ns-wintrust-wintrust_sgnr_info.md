@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - WINTRUST_SGNR_INFO_
- - PWINTRUST_SGNR_INFO
  - WINTRUST_SGNR_INFO
 ---
 
@@ -84,4 +82,3 @@ Number of store handles in <b>pahStores</b>.
 ### -field pahStores
 
 An array of open <a href="/windows/desktop/SecGloss/c-gly">certificate stores</a> to be added to the list of stores that the policy provider uses to find certificates while building a trust chain.
-

@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::AddMarker
+ - IWMHeaderInfo.AddMarker
+ - IWMHeaderInfo2.AddMarker
+ - IWMHeaderInfo3.AddMarker
 ---
 
 # IWMHeaderInfo::AddMarker
@@ -148,4 +150,3 @@ The writer does not support markers. When accessing <b>IWMheaderInfo</b> from th
 
 
 <a href="/windows/desktop/wmformat/markers">Markers</a>
-

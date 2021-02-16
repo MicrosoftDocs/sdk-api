@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmiutils.h
 api_name:
- - tag_SWbemAssocQueryInf
  - SWbemAssocQueryInf
 ---
 
@@ -184,4 +183,3 @@ Pointer to a list of required association qualifiers.
 
 
 <a href="/windows/desktop/api/wmiutils/nf-wmiutils-iwbemquery-getanalysis">IWbemQuery::GetAnalysis</a>
-

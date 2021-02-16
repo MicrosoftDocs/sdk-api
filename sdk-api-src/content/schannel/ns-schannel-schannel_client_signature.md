@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SCHANNEL_CLIENT_SIGNATURE
- - PSCHANNEL_CLIENT_SIGNATURE
  - SCHANNEL_CLIENT_SIGNATURE
 ---
 
@@ -83,4 +81,3 @@ An array of byte values that specify the certificate thumbprint.
 ## -remarks
 
 Add a client signature to a client context by using this structure as the value of the <i>pInput</i> parameter in a call to the <a href="/windows/desktop/api/sspi/nf-sspi-applycontroltoken">ApplyControlToken</a> function.
-

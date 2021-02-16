@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NET_VALIDATE_PERSISTED_FIELDS
- - PNET_VALIDATE_PERSISTED_FIELDS
  - NET_VALIDATE_PERSISTED_FIELDS
 ---
 
@@ -186,4 +184,3 @@ The <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_authentication
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

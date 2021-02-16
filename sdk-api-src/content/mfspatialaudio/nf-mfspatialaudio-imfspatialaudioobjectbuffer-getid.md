@@ -43,7 +43,7 @@ api_location:
  - mfobjects.lib
  - mfobjects.dll
 api_name:
- - IMFSpatialAudioObjectBuffer::GetID
+ - IMFSpatialAudioObjectBuffer.GetID
 ---
 
 # IMFSpatialAudioObjectBuffer::GetID
@@ -98,4 +98,3 @@ The supplied pointer is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/mfspatialaudio/nn-mfspatialaudio-imfspatialaudioobjectbuffer">IMFSpatialAudioObjectBuffer</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern::get_CurrentVerticallyScrollable
+ - IUIAutomationScrollPattern.CurrentVerticallyScrollable
+ - IUIAutomationScrollPattern.get_CurrentVerticallyScrollable
 ---
 
 # IUIAutomationScrollPattern::get_CurrentVerticallyScrollable
@@ -67,4 +68,3 @@ This property can be dynamic. For example, the content area of the element might
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currenthorizontallyscrollable">IUIAutomationScrollPattern::CurrentHorizontallyScrollable</a>
-

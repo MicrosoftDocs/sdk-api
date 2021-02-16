@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineappinfo_tag
- - LPLINEAPPINFO
  - LINEAPPINFO
 ---
 
@@ -138,4 +136,3 @@ An address identifier is permanently associated with an address; the identifier 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineinitializeexa">lineInitializeEx</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_Bcc
+ - IEmailAction.Bcc
+ - IEmailAction.get_Bcc
+ - IEmailAction.put_Bcc
 ---
 
 # IEmailAction::put_Bcc

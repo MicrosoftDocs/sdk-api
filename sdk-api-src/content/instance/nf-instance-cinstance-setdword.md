@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetDWORD
+ - CInstance.SetDWORD
+ - ?SetDWORD@CInstance@@QAE_NPBGK@Z
+ - ?SetDWORD@CInstance@@QEAA_NPEBGK@Z
 ---
 
 # CInstance::SetDWORD
@@ -72,4 +74,3 @@ Value assigned to the <b>DWORD</b> property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent or non-<b>DWORD</b> property. More information is available in the log file, Framework.log.
-

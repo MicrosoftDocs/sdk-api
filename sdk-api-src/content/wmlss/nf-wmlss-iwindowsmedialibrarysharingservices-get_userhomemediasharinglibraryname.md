@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
+ - IWindowsMediaLibrarySharingServices.get_userHomeMediaSharingLibraryName
 ---
 
 # IWindowsMediaLibrarySharingServices::get_userHomeMediaSharingLibraryName
@@ -87,4 +87,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/wmlss/nf-wmlss-iwindowsmedialibrarysharingservices-put_userhomemediasharinglibraryname">IWindowsMediaLibrarySharingServices::put_userHomeMediaSharingLibraryName</a>
-

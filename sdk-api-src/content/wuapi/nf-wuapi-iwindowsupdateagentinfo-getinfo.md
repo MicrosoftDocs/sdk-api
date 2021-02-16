@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsUpdateAgentInfo::GetInfo
+ - IWindowsUpdateAgentInfo.GetInfo
 ---
 
 # IWindowsUpdateAgentInfo::GetInfo
@@ -98,4 +98,3 @@ The major version is incremented one time for each release if a change occurs in
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsupdateagentinfo">IWindowsUpdateAgentInfo</a>
-

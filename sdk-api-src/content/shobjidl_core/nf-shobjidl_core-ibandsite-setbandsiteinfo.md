@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IBandSite::SetBandSiteInfo
+ - IBandSite.SetBandSiteInfo
 ---
 
 # IBandSite::SetBandSiteInfo
@@ -76,4 +76,3 @@ Returns S_OK if successful, or a COM-defined error code otherwise.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>
-

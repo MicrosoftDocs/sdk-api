@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellApp::GetAppInfo
+ - IShellApp.GetAppInfo
 ---
 
 # IShellApp::GetAppInfo
@@ -118,4 +118,3 @@ HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-

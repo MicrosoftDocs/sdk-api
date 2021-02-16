@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSource::AdviseSink
+ - ITfSource.AdviseSink
 ---
 
 # ITfSource::AdviseSink
@@ -321,4 +321,3 @@ ITfEditTransactionSink
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgreventsink">ITfThreadMgrEventSink
       </a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_CALLBACK_TYPE
  - MINIDUMP_CALLBACK_TYPE
 ---
 
@@ -246,4 +245,3 @@ The callback function allows the callee to alter the buffer contents with data f
 
 
 <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::put_Duration
+ - IDataCollectorSet.Duration
+ - IDataCollectorSet.get_Duration
+ - IDataCollectorSet.put_Duration
 ---
 
 # IDataCollectorSet::put_Duration
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_enddate">ISchedule::EndDate</a>
-

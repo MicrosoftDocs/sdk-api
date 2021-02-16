@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineTranslateDialog
+ - lineTranslateDialogA
+ - lineTranslateDialogW
 ---
 
 # lineTranslateDialog function
@@ -121,4 +123,3 @@ If any function related to address translation (for example,
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
-

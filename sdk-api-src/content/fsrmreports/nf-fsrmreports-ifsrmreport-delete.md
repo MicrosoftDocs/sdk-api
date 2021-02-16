@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReport::Delete
+ - IFsrmReport.Delete
 ---
 
 # IFsrmReport::Delete
@@ -69,4 +69,3 @@ Note that the reports are not deleted until you call the <a href="/previous-vers
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IPolicyQualifier::InitializeEncode
+ - IPolicyQualifier.InitializeEncode
 ---
 
 # IPolicyQualifier::InitializeEncode
@@ -142,4 +142,3 @@ You can retrieve the following properties for this object:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
-

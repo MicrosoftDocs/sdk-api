@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem::SetValue
+ - ISettingsItem.SetValue
 ---
 
 # ISettingsItem::SetValue
@@ -105,4 +105,3 @@ Indicates that the item cannot be written, either because it is a read-only item
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-

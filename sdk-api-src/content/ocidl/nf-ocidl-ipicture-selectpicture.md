@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::SelectPicture
+ - IPicture.SelectPicture
 ---
 
 # IPicture::SelectPicture
@@ -77,4 +77,3 @@ This method supports the standard return values E_FAIL, E_INVALIDARG, E_OUTOFMEM
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ipicture-get_curdc">IPicture::get_CurDC</a>
-

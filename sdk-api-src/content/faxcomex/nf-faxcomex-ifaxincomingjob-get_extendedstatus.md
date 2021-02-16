@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob::get_ExtendedStatus
+ - IFaxIncomingJob.ExtendedStatus
+ - IFaxIncomingJob.get_ExtendedStatus
+ - IFaxIncomingJob.get_ExtendedStatus
 ---
 
 # IFaxIncomingJob::get_ExtendedStatus
@@ -71,4 +73,3 @@ The <b>ExtendedStatus</b> property can have a value only if the fax service prov
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
-

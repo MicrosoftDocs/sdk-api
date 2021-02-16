@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentServerSetup::InitializeInstallDefaults
+ - ICertificateEnrollmentServerSetup.InitializeInstallDefaults
 ---
 
 # ICertificateEnrollmentServerSetup::InitializeInstallDefaults
@@ -158,4 +158,3 @@ You must call the <b>InitializeInstallDefaults</b> method before calling any met
 
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertificateenrollmentserversetup">ICertificateEnrollmentServerSetup</a>
-

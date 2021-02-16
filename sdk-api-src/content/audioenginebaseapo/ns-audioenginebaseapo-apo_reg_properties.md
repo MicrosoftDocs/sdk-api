@@ -45,7 +45,6 @@ api_location:
  - audioenginebaseapo.h
 api_name:
  - APO_REG_PROPERTIES
- - PAPO_REG_PROPERTIES
 ---
 
 # APO_REG_PROPERTIES structure
@@ -110,4 +109,3 @@ The number of interfaces for this APO.
 ## -see-also
 
 <a href="/windows/desktop/api/audioenginebaseapo/nf-audioenginebaseapo-iaudioprocessingobject-getregistrationproperties">IAudioProcessingObject::GetRegistrationProperties</a>
-

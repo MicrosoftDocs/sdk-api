@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource::GetItemCount
+ - IPhotoAcquireSource.GetItemCount
 ---
 
 # IPhotoAcquireSource::GetItemCount
@@ -103,4 +103,3 @@ Before calling this method, call <a href="/windows/desktop/api/photoacquire/nf-p
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresource-initializeitemlist">IPhotoAcquireSource::InitializeItemList</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrEnumItems::Clone
+ - ISyncMgrEnumItems.Clone
 ---
 
 # ISyncMgrEnumItems::Clone
@@ -69,4 +69,3 @@ Return S_OK if the method succeeds.
 ## -remarks
 
 The calling application must release the new enumerator separately from the first enumerator.
-

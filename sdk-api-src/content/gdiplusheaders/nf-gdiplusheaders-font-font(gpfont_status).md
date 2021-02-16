@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gdiplusheaders.h
 api_name:
- - Font::Font
+ - Font.Font
 ---
 
 # Font::Font(GpFont,Status)
@@ -117,4 +117,3 @@ Creates a <a href="/windows/desktop/api/gdiplusheaders/nf-gdiplusheaders-font-fo
 </table>
 
 ## -parameters
-

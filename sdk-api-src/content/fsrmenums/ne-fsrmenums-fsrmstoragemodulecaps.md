@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmStorageModuleCaps
  - FsrmStorageModuleCaps
 ---
 
@@ -88,4 +87,3 @@ The storage module is allowed to handle files.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmstoragemoduledefinition-get_capabilities">IFsrmStorageModuleDefinition.Capabilities</a>
-

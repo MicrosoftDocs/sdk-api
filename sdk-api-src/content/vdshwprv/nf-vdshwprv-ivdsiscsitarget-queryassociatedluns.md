@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget::QueryAssociatedLuns
+ - IVdsIscsiTarget.QueryAssociatedLuns
 ---
 
 # IVdsIscsiTarget::QueryAssociatedLuns
@@ -142,4 +142,3 @@ LUNs are associated with the target by calling the
 
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdslun-setmask">IVdsLun::SetMask</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx::get_TerminalServicesHomeDrive
+ - IADsTSUserEx.TerminalServicesHomeDrive
+ - IADsTSUserEx.get_TerminalServicesHomeDrive
+ - IADsTSUserEx.put_TerminalServicesHomeDrive
 ---
 
 # IADsTSUserEx::get_TerminalServicesHomeDrive
@@ -84,4 +86,3 @@ WScript.echo usr.TerminalServicesHomeDirectory
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-

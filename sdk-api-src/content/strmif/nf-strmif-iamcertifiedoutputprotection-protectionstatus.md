@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCertifiedOutputProtection::ProtectionStatus
+ - IAMCertifiedOutputProtection.ProtectionStatus
 ---
 
 # IAMCertifiedOutputProtection::ProtectionStatus
@@ -114,4 +114,3 @@ The display device does not support COPP; or the VMR has not connected to a disp
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-

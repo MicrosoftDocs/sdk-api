@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccPropServices::SetPropValue
+ - IAccPropServices.SetPropValue
 ---
 
 # IAccPropServices::SetPropValue
@@ -102,4 +102,3 @@ May return other error codes under exceptional error conditions such as low memo
 ## -remarks
 
 See the support section for a list of supported properties and their expected types. Note that currently some properties are supported only when a callback is used and cannot be specified directly using this method.
-

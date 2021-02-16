@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink::PushAxisAlignedClip
+ - ID2D1CommandSink.PushAxisAlignedClip
 ---
 
 # ID2D1CommandSink::PushAxisAlignedClip
@@ -87,4 +87,3 @@ If the current world transform is not preserving the axis, <i>clipRectangle</i> 
 
 
 <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f_d2d1_antialias_mode)">ID2D1RenderTarget::PushAxisAlignedClip</a>
-

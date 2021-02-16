@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_Filter
  - MI_Filter
 ---
 
@@ -64,4 +63,3 @@ Pointer to the <a href="/windows/desktop/api/mi/ns-mi-mi_filterft">MI_FilterFT</
 ### -field reserved
 
 Reserved for internal use.
-

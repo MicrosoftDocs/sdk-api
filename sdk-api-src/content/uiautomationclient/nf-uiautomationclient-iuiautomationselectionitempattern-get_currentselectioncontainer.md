@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer
+ - IUIAutomationSelectionItemPattern.CurrentSelectionContainer
+ - IUIAutomationSelectionItemPattern.get_CurrentSelectionContainer
 ---
 
 # IUIAutomationSelectionItemPattern::get_CurrentSelectionContainer
@@ -61,4 +62,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionitempattern">IUIAutomationSelectionItemPattern</a>
-

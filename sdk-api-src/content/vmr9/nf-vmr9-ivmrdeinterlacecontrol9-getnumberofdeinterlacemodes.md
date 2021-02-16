@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
+ - IVMRDeinterlaceControl9.GetNumberOfDeinterlaceModes
 ---
 
 # IVMRDeinterlaceControl9::GetNumberOfDeinterlaceModes
@@ -162,4 +162,3 @@ Drivers can support additional modes and should define their own GUIDs to identi
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_COLORCB_COLORCONTROL
+ - DdControlColor
 ---
 
 ## -description
@@ -66,4 +66,3 @@ Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontrolda
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_colorcontroldata">DD_COLORCONTROLDATA</a>
-

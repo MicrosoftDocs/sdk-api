@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyValue2::PutObjectProperty
+ - IADsPropertyValue2.PutObjectProperty
 ---
 
 # IADsPropertyValue2::PutObjectProperty
@@ -81,4 +81,3 @@ Returns <b>S_OK</b> if successful or an error code otherwise. The following are 
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspropertyvalue2">IADsPropertyValue2</a>
-

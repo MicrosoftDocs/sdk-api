@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsBindA
  - ntdsapi/DsBindA
- - DsBind
- - ntdsapi/DsBind
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsBindA
  - DsBind
+ - DsBindA
+ - DsBindW
 ---
 
 # DsBindA function
@@ -176,4 +175,3 @@ The <i>DomainControllerName</i> parameter takes precedence. <b>DsBind</b> will a
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsunbinda">DsUnBind</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::Create
+ - IX509PrivateKey.Create
 ---
 
 # IX509PrivateKey::Create
@@ -166,4 +166,3 @@ You cannot set the following properties after calling the <b>Create</b> or <a hr
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

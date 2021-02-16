@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IObjectWithAppUserModelID::SetAppID
+ - IObjectWithAppUserModelID.SetAppID
 ---
 
 # IObjectWithAppUserModelID::SetAppID
@@ -85,4 +85,3 @@ Custom implementations that do not require dynamic AppUserModelIDs can return E_
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

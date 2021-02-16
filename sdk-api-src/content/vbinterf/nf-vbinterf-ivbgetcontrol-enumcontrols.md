@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VbInterf.h
 api_name:
- - IVBGetControl::EnumControls
+ - IVBGetControl.EnumControls
 ---
 
 # IVBGetControl::EnumControls
@@ -265,4 +265,3 @@ When migrating a VBX control to an OLE control,
 
 
 <a href="/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>
-

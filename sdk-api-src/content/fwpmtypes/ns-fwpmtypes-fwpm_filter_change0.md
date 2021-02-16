@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_FILTER_CHANGE0_
  - FWPM_FILTER_CHANGE0
 ---
 
@@ -80,4 +79,3 @@ LUID of the filter that changed.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

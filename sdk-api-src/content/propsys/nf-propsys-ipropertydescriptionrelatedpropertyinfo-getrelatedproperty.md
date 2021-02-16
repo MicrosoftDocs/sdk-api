@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty
+ - IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
 ---
 
 # IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty
@@ -89,4 +89,3 @@ We recommend that you use the <a href="/windows/desktop/api/combaseapi/nf-combas
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

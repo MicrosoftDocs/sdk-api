@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxSetJobA
  - winfax/FaxSetJobA
- - FaxSetJob
- - winfax/FaxSetJob
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxSetJobA
  - FaxSetJob
+ - FaxSetJobA
+ - FaxSetJobW
 ---
 
 # FaxSetJobA function
@@ -191,4 +190,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerBrowser::BrowseToIDList
+ - IExplorerBrowser.BrowseToIDList
 ---
 
 # IExplorerBrowser::BrowseToIDList
@@ -123,4 +123,3 @@ The parameter <i>pidl</i> may be <b>NULL</b> if the flags specified in <i>uFlags
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser">IExplorerBrowser</a>
-

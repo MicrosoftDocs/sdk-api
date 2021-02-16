@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationValuePattern::SetValue
+ - IUIAutomationValuePattern.SetValue
 ---
 
 # IUIAutomationValuePattern::SetValue
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-get_currentisenabled">CurrentIsEnabled</a> property must be <b>TRUE</b>, and the <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationvaluepattern-get_currentisreadonly">IUIAutomationValuePattern::CurrentIsReadOnly</a> property must be <b>FALSE</b>.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_SYSTEM_STORE_RELOCATE_PARA
- - PCERT_SYSTEM_STORE_RELOCATE_PARA
  - CERT_SYSTEM_STORE_RELOCATE_PARA
 ---
 
@@ -93,4 +91,3 @@ The relocate capability is used to access system stores persisted in the Group P
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-certopenstore">CertOpenStore</a>
-

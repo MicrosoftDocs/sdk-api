@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMultiMediaStream::Render
+ - IAMMultiMediaStream.Render
 ---
 
 # IAMMultiMediaStream::Render
@@ -73,4 +73,3 @@ The AMMSF_RENDERALLSTREAMS flag will create default rendering streams for video 
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammultimediastream">IAMMultiMediaStream Interface</a>
-

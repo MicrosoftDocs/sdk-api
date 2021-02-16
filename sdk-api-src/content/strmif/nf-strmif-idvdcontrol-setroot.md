@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl::SetRoot
+ - IDvdControl.SetRoot
 ---
 
 # IDvdControl::SetRoot
@@ -77,4 +77,3 @@ If you haven't set the root directory before calling <a href="/windows/desktop/a
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
-

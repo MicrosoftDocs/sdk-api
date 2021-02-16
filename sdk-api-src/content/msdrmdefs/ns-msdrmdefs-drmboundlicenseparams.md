@@ -45,7 +45,6 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - _DRMBOUNDLICENSEPARAMS
  - DRMBOUNDLICENSEPARAMS
 ---
 
@@ -141,4 +140,3 @@ If there is more than one rights group in the <a href="/previous-versions/window
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmcreateboundlicense">DRMCreateBoundLicense</a>
-

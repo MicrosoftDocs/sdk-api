@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDeviceControl::Stop
+ - IWMDMDeviceControl.Stop
 ---
 
 # IWMDMDeviceControl::Stop
@@ -117,4 +117,3 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
-

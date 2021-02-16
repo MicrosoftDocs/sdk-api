@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput1::FindClosestMatchingMode1
+ - IDXGIOutput1.FindClosestMatchingMode1
 ---
 
 # IDXGIOutput1::FindClosestMatchingMode1
@@ -130,4 +130,3 @@ If a member is unspecified, <b>FindClosestMatchingMode1</b> gravitates toward th
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutput1">IDXGIOutput1</a>
-

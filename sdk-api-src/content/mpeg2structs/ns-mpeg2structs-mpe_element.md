@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - _MPE_ELEMENT
- - PMPE_ELEMENT
  - MPE_ELEMENT
 ---
 
@@ -75,4 +73,3 @@ Pointer to the next <b>MPE_ELEMENT</b> structure in the list, or <b>NULL</b> if 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetDisplayName
+ - IPropertyDescription.GetDisplayName
 ---
 
 # IPropertyDescription::GetDisplayName
@@ -118,4 +118,3 @@ It is the responsibility of the calling application to use <a href="/windows/des
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

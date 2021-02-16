@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _TDH_CONTEXT
  - TDH_CONTEXT
 ---
 
@@ -72,4 +71,3 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/nf-tdh-tdhgeteventinformation">TdhGetEventInformation</a>
-

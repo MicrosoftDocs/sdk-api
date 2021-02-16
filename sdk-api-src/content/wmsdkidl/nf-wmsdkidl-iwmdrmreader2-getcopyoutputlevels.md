@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMReader2::GetCopyOutputLevels
+ - IWMDRMReader2.GetCopyOutputLevels
 ---
 
 # IWMDRMReader2::GetCopyOutputLevels
@@ -108,4 +108,3 @@ If the OPL information returned by this method indicates that you cannot copy th
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmreader2-getplayoutputlevels">IWMDRMReader2::GetPlayOutputLevels</a>
-

@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winsock2.h
 api_name:
- - _WSAQuerySetW
- - PWSAQUERYSETW
+ - WSAQUERYSET
+ - WSAQUERYSETA
  - WSAQUERYSETW
 ---
 
@@ -283,4 +283,3 @@ In most instances, applications interested in only a particular transport protoc
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-wsasetservicea">WSASetService</a>
-

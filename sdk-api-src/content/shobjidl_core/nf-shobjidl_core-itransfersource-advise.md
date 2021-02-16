@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ITransferSource::Advise
+ - ITransferSource.Advise
 ---
 
 # ITransferSource::Advise
@@ -104,4 +104,3 @@ The handler can only handle one sink interface.
 ## -remarks
 
 Call <b>ITransferSource::Advise</b> before calling any other methods in this interface to enable an advisory session. If not set, the handler should consider it an indication that no feedback is available and to do the "default" operation without consulting the calling application.
-

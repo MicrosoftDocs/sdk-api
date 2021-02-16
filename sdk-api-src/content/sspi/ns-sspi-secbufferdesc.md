@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecBufferDesc
- - PSecBufferDesc
  - SecBufferDesc
 ---
 
@@ -79,4 +77,3 @@ Pointer to an array of <a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">Sec
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secbuffer">SecBuffer</a>
-

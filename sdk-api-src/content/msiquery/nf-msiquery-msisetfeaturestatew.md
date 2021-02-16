@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSetFeatureStateW
  - msiquery/MsiSetFeatureStateW
- - MsiSetFeatureState
- - msiquery/MsiSetFeatureState
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSetFeatureStateW
  - MsiSetFeatureState
+ - MsiSetFeatureStateA
+ - MsiSetFeatureStateW
 ---
 
 # MsiSetFeatureStateW function
@@ -156,4 +155,3 @@ If the function fails, you can obtain extended error information by using <a hre
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Installer Selection Functions</a>
-

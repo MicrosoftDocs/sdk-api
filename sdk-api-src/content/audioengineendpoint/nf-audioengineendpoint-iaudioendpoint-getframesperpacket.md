@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioEndpoint::GetFramesPerPacket
+ - IAudioEndpoint.GetFramesPerPacket
 ---
 
 # IAudioEndpoint::GetFramesPerPacket
@@ -65,4 +65,3 @@ If the method succeeds, it returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpoint">IAudioEndpoint</a>
-

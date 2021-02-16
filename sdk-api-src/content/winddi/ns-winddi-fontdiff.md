@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FONTDIFF
  - FONTDIFF
 ---
 
@@ -175,4 +174,3 @@ For descriptions of the FSHORT and FWORD data types, see <a href="/windows-hardw
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/ns-winddi-fontsim">FONTSIM</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
- - PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
  - AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
 ---
 
@@ -79,4 +77,3 @@ A pointer to strings that specify the names of the publisher, the product, and t
 
 
 <a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-

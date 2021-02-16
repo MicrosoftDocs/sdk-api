@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - winnls32
  - winnls32/winnls32
-api_name:
- - winnls32
 ---
 
 # Winnls32.h header

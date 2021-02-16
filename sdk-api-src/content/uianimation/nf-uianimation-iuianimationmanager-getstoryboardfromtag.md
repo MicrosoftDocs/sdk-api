@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::GetStoryboardFromTag
+ - IUIAnimationManager.GetStoryboardFromTag
 ---
 
 # IUIAnimationManager::GetStoryboardFromTag
@@ -90,4 +90,3 @@ Tags are not necessarily unique; this method returns UI_E_AMBIGUOUS_MATCH if mor
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-settag">IUIAnimationStoryboard::SetTag
       </a>
-

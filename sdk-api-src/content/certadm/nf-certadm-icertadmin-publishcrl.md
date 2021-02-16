@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin::PublishCRL
+ - ICertAdmin2.PublishCRL
+ - ICertAdmin.PublishCRL
+ - CCertAdmin.PublishCRL
 ---
 
 # ICertAdmin::PublishCRL
@@ -136,4 +138,3 @@ The following example shows publishing a CRL.
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
-

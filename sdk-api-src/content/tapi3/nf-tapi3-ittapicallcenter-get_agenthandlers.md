@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPICallCenter::get_AgentHandlers
+ - ITTAPICallCenter.get_AgentHandlers
 ---
 
 # ITTAPICallCenter::get_AgentHandlers
@@ -142,4 +142,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::SetListStart
+ - ITextPara.SetListStart
 ---
 
 # ITextPara::SetListStart
@@ -151,4 +151,3 @@ Other characteristics of a list are specified by <a href="/windows/desktop/api/t
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

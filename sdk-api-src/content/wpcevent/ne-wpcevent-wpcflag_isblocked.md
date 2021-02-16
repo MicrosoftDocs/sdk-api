@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wpcevent.h
 api_name:
- - tagWPCFLAG_ISBLOCKED
  - WPCFLAG_ISBLOCKED
 ---
 

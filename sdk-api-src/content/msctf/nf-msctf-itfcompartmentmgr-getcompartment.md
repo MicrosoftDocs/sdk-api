@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfCompartmentMgr::GetCompartment
+ - ITfCompartmentMgr.GetCompartment
 ---
 
 # ITfCompartmentMgr::GetCompartment
@@ -109,4 +109,3 @@ A memory allocation failure occurred.
 ## -see-also
 
 [ITfCompartmentMgr interface](nn-msctf-itfcompartmentmgr.md), [ITfCompartment interface](nn-msctf-itfcompartment.md), [Compartments](/windows/desktop/TSF/compartments)
-

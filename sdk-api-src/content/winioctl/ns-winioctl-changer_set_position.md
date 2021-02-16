@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CHANGER_SET_POSITION
- - PCHANGER_SET_POSITION
  - CHANGER_SET_POSITION
 ---
 
@@ -82,4 +80,3 @@ If this member is <b>TRUE</b>, the media currently carried by <b>Transport</b> s
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a>
-

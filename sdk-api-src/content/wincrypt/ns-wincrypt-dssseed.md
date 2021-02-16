@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _DSSSEED
  - DSSSEED
 ---
 
@@ -76,4 +75,3 @@ A <b>BYTE</b> string containing the seed value.
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-rsapubkey">RSAPUBKEY</a>
-

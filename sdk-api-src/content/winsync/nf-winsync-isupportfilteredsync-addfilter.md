@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISupportFilteredSync::AddFilter
+ - ISupportFilteredSync.AddFilter
 ---
 
 # ISupportFilteredSync::AddFilter
@@ -134,4 +134,3 @@ When a filter has been successfully negotiated, the source provider uses it to d
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isupportfilteredsync">ISupportFilteredSync Interface</a>
-

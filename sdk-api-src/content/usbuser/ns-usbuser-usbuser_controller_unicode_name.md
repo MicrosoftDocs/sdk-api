@@ -46,8 +46,6 @@ api_type:
 api_location:
  - usbuser.h
 api_name:
- - _USBUSER_CONTROLLER_UNICODE_NAME
- - PUSBUSER_CONTROLLER_UNICODE_NAME
  - USBUSER_CONTROLLER_UNICODE_NAME
 ---
 
@@ -87,4 +85,3 @@ The <b>USBUSER_CONTROLLER_UNICODE_NAME</b> structure is used in conjunction with
 
 
 <a href="/windows/desktop/api/usbuser/ns-usbuser-usb_unicode_name">USB_UNICODE_NAME</a>
-

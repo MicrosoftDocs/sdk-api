@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ObjectPrivilegeAuditAlarmA
  - winbase/ObjectPrivilegeAuditAlarmA
- - ObjectPrivilegeAuditAlarm
- - winbase/ObjectPrivilegeAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - ObjectPrivilegeAuditAlarmA
  - ObjectPrivilegeAuditAlarm
+ - ObjectPrivilegeAuditAlarmA
+ - ObjectPrivilegeAuditAlarmW
 ---
 
 # ObjectPrivilegeAuditAlarmA function
@@ -143,4 +142,3 @@ The <b>ObjectPrivilegeAuditAlarm</b> function requires the calling <a href="/win
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-privilegedserviceauditalarma">PrivilegedServiceAuditAlarm</a>
-

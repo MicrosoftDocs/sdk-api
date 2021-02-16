@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_Attachments
+ - IEmailAction.Attachments
+ - IEmailAction.get_Attachments
+ - IEmailAction.put_Attachments
 ---
 
 # IEmailAction::put_Attachments
@@ -65,4 +67,3 @@ A maximum of eight attachments can be in the array of attachments.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
-

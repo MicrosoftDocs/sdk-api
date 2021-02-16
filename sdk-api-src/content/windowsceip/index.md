@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - windowsceip
  - windowsceip/windowsceip
-api_name:
- - windowsceip
 ---
 
 # Windowsceip.h header

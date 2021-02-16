@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpv6csdk.h
 api_name:
- - _DHCPV6Prefix
- - PDHCPV6Prefix
  - DHCPV6Prefix
 ---
 

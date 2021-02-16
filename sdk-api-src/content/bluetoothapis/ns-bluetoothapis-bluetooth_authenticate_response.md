@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_AUTHENTICATE_RESPONSE
- - PBLUETOOTH_AUTHENTICATE_RESPONSE
  - BLUETOOTH_AUTHENTICATE_RESPONSE
 ---
 
@@ -96,4 +94,3 @@ Contains information for passkey authentication.
 ## -see-also
 
 <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
-

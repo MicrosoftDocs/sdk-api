@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DResource9::SetPriority
+ - IDirect3DResource9.SetPriority
 ---
 
 # IDirect3DResource9::SetPriority
@@ -91,4 +91,3 @@ Windows Vista only - When this method is called using an <a href="/windows/deskt
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dresource9">IDirect3DResource9</a>
-

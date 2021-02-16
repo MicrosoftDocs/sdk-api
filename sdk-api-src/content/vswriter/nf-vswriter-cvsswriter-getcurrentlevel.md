@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetCurrentLevel
+ - CVssWriter.GetCurrentLevel
 ---
 
 # CVssWriter::GetCurrentLevel
@@ -84,4 +84,3 @@ This method returns a writer's current application level as a
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_application_level">VSS_APPLICATION_LEVEL</a>
-

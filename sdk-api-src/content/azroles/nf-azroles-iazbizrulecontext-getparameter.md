@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzBizRuleContext::GetParameter
+ - IAzBizRuleContext.GetParameter
+ - AzBizRuleContext.GetParameter
 ---
 
 # IAzBizRuleContext::GetParameter
@@ -70,4 +71,3 @@ Parameter value from the <i>varParameterValues</i> parameter of the <a href="/wi
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

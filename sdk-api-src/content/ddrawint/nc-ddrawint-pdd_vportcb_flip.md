@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_VPORTCB_FLIP
+ - DdVideoPortFlip
 ---
 
 ## -description
@@ -74,4 +74,3 @@ A call to <i>DdVideoPortFlip</i> typically accompanies a call to <a href="/windo
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_flip">DdFlip</a>
-

@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext::get_Strokes
+ - IInkRecognizerContext.Strokes
+ - IInkRecognizerContext.get_Strokes
+ - InkRecognizerContext.get_Strokes
 ---
 
 # IInkRecognizerContext::get_Strokes
@@ -83,4 +85,3 @@ To keep the <b>Strokes</b> property of the <a href="/windows/desktop/tablet/inkr
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)">InkStrokes Collection</a>
-

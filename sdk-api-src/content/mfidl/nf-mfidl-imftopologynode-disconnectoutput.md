@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::DisconnectOutput
+ - IMFTopologyNode.DisconnectOutput
 ---
 
 # IMFTopologyNode::DisconnectOutput
@@ -114,4 +114,3 @@ If the specified output stream is connected to another node, this method breaks 
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

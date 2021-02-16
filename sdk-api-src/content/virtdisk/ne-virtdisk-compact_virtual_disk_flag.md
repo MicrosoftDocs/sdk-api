@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _COMPACT_VIRTUAL_DISK_FLAG
  - COMPACT_VIRTUAL_DISK_FLAG
 ---
 
@@ -73,4 +72,3 @@ No flags are specified.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IHolder::FreeResource
+ - IHolder.FreeResource
 ---
 
 # IHolder::FreeResource
@@ -117,4 +117,3 @@ A resource originally returned by <a href="/windows/desktop/api/comsvcs/nf-comsv
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iholder">IHolder</a>
-

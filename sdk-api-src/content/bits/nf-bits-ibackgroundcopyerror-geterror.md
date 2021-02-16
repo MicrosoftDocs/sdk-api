@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError::GetError
+ - IBackgroundCopyError.GetError
 ---
 
 # IBackgroundCopyError::GetError
@@ -78,4 +78,3 @@ This method returns <b>S_OK</b> on success or one of the standard COM HRESULT va
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
-

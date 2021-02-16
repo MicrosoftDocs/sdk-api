@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagTRACKMOUSEEVENT
- - LPTRACKMOUSEEVENT
  - TRACKMOUSEEVENT
 ---
 
@@ -159,4 +157,3 @@ The system default hover rectangle is the same as the double-click rectangle. Yo
 ## -see-also
 
 <a href="/windows/desktop/inputdev/mouse-input">Mouse Input</a>
-

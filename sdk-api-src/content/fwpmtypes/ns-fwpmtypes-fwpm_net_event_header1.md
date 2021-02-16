@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_HEADER1_
  - FWPM_NET_EVENT_HEADER1
 ---
 
@@ -181,4 +180,3 @@ This structure is reserved for system use. [FWPM_NET_EVENT_HEADER2](ns-fwpmtypes
 [FWPM_NET_EVENT_HEADER0](ns-fwpmtypes-fwpm_net_event_header0.md)
 
 [FWPM_NET_EVENT_HEADER2](ns-fwpmtypes-fwpm_net_event_header2.md)
-

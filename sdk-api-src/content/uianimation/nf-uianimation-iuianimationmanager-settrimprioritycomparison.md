@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::SetTrimPriorityComparison
+ - IUIAnimationManager.SetTrimPriorityComparison
 ---
 
 # IUIAnimationManager::SetTrimPriorityComparison
@@ -93,4 +93,3 @@ Passing <b>NULL</b> for the <i>comparison</i> parameter causes Windows Animation
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationprioritycomparison">IUIAnimationPriorityComparison</a>
-

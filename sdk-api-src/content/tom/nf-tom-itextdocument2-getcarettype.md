@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2::GetCaretType
+ - ITextDocument2.GetCaretType
 ---
 
 # ITextDocument2::GetCaretType
@@ -94,4 +94,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-setcarettype">ITextDocument2::SetCaretType</a>
-

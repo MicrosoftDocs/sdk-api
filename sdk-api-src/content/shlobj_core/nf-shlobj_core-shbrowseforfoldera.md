@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHBrowseForFolderA
  - shlobj_core/SHBrowseForFolderA
- - SHBrowseForFolder
- - shlobj_core/SHBrowseForFolder
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - shlwapi.dll
  - unicows.dll
 api_name:
- - SHBrowseForFolderA
  - SHBrowseForFolder
+ - SHBrowseForFolderA
+ - SHBrowseForFolderW
 ---
 
 # SHBrowseForFolderA function
@@ -302,4 +301,3 @@ STDAPI SHGetTargetFolderPath(LPCITEMIDLIST pidlFolder, LPWSTR pszPath, UINT cchP
 ## -see-also
 
 <a href="/windows/desktop/dlgbox/open-and-save-as-dialog-boxes">Open and Save as Dialog Boxes</a>
-

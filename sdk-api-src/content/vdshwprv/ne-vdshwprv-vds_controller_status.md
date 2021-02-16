@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_CONTROLLER_STATUS
- - PVDS_CONTROLLER_STATUS
  - VDS_CONTROLLER_STATUS
 ---
 
@@ -109,4 +107,3 @@ If your application encounters a <b>VDS_CONTROLLER_STATUS</b> value that it does
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_controller_prop">VDS_CONTROLLER_PROP</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendView::GetViews
+ - IExtendView.GetViews
 ---
 
 # IExtendView::GetViews
@@ -94,4 +94,3 @@ For more information and a C++ code example for <b>IExtendView::GetViews</b>, se
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iviewextensioncallback-addview">IViewExtensionCallback::AddView</a>
-

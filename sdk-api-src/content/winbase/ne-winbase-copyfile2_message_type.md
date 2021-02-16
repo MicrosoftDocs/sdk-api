@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _COPYFILE2_MESSAGE_TYPE
  - COPYFILE2_MESSAGE_TYPE
 ---
 
@@ -100,4 +99,3 @@ To compile an application that uses this enumeration, define the <b>_WIN32_WINNT
 ## -see-also
 
 <a href="/windows/desktop/FileIO/file-management-enumerations">File Management Enumerations</a>
-

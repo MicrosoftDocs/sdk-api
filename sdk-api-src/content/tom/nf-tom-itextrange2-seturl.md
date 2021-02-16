@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::SetURL
+ - ITextRange2.SetURL
 ---
 
 # ITextRange2::SetURL
@@ -129,4 +129,3 @@ The following actions are possible:
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-geturl">ITextRange2::GetURL</a>
-

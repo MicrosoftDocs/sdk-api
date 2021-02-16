@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - enumCONFIDENCE_LEVEL
  - CONFIDENCE_LEVEL
 ---
 

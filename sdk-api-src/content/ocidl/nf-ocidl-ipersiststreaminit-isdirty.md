@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPersistStreamInit::IsDirty
+ - IPersistStreamInit.IsDirty
 ---
 
 # IPersistStreamInit::IsDirty
@@ -70,4 +70,3 @@ Note that the OLE-provided implementations of the <b>IPersistStreamInit::IsDirty
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
-

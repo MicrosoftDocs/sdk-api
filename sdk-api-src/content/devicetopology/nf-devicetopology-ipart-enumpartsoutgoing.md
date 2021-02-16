@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart::EnumPartsOutgoing
+ - IPart.EnumPartsOutgoing
 ---
 
 # IPart::EnumPartsOutgoing
@@ -117,4 +117,3 @@ For a code example that uses the <b>EnumPartsOutgoing</b> method, see the implem
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipartslist">IPartsList Interface</a>
-

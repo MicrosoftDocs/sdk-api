@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath::AddBezier
+ - GraphicsPath.AddBezier
 ---
 
 # GraphicsPath::AddBezier(IN const Point &,IN const Point &,IN const Point &,IN const Point &)
@@ -130,4 +130,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
-

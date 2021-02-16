@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory::DeleteDirectoryObject
+ - ITDirectory.DeleteDirectoryObject
 ---
 
 # ITDirectory::DeleteDirectoryObject
@@ -126,4 +126,3 @@ This function may send data over the wire in unencrypted form; therefore, someon
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-

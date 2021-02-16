@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_HANDLER_CONTEXT
  - WSD_HANDLER_CONTEXT
 ---
 
@@ -68,4 +67,3 @@ The value supplied by the <i>pVoidContext</i> parameter of the IWSDSession::AddP
 ### -field Unknown
 
 The value supplied by the <i>unknownContext</i> parameter of the IWSDSession::AddPort, IWSDSession::RegisterForIncomingRequests, or IWSDSession::RegisterForIncomingResponse methods.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMCUSTOMTEXT
- - LPNMCUSTOMTEXT
  - NMCUSTOMTEXT
 ---
 
@@ -101,4 +99,3 @@ One or more of the DT_* flags. For more information, see the description of the 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 Whether the text is a link.
-

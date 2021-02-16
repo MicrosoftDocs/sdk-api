@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterGraph::SetDefaultSyncSource
+ - IFilterGraph.SetDefaultSyncSource
 ---
 
 # IFilterGraph::SetDefaultSyncSource
@@ -107,4 +107,3 @@ This method fails if the filter graph is running or paused.
 
 
 <a href="/windows/desktop/DirectShow/time-and-clocks-in-directshow">Time and Clocks in DirectShow</a>
-

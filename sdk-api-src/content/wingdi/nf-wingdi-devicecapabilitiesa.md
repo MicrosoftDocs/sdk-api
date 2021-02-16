@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DeviceCapabilitiesA
  - wingdi/DeviceCapabilitiesA
- - DeviceCapabilities
- - wingdi/DeviceCapabilities
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - WinSpool.drv
  - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
 api_name:
- - DeviceCapabilitiesA
  - DeviceCapabilities
+ - DeviceCapabilitiesA
+ - DeviceCapabilitiesW
 ---
 
 # DeviceCapabilitiesA function
@@ -512,4 +511,3 @@ If the custom capability is an array of items, you must call <b>SetPinterData</b
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-startdoca">StartDoc</a>
-

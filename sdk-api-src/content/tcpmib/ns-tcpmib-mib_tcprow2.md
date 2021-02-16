@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpmib.h
 api_name:
- - _MIB_TCPROW2
- - PMIB_TCPROW2
  - MIB_TCPROW2
 ---
 
@@ -507,4 +505,3 @@ int main()
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
-

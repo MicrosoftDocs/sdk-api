@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_STATISTICS0_
  - FWPM_STATISTICS0
 ---
 
@@ -200,4 +199,3 @@ Number of active IPv6 outbound connections.
 ## -see-also
 
 [FWPM_LAYER_STATISTICS0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_layer_statistics0)
-

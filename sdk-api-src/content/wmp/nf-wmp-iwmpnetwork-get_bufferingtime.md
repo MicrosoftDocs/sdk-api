@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_bufferingTime
+ - IWMPNetwork.get_bufferingTime
 ---
 
 # IWMPNetwork::get_bufferingTime
@@ -87,4 +87,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-put_bufferingtime">IWMPNetwork::put_bufferingTime</a>
-

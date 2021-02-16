@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationViewport::RemoveConfiguration
+ - IDirectManipulationViewport.RemoveConfiguration
 ---
 
 # IDirectManipulationViewport::RemoveConfiguration
@@ -84,4 +84,3 @@ HRESULT hr = pRegion->RemoveConfiguration(
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewport">IDirectManipulationViewport</a>
-

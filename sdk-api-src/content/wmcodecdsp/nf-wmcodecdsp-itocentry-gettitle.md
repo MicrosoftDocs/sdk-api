@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmvdspa.dll
 api_name:
- - ITocEntry::GetTitle
+ - ITocEntry.GetTitle
 ---
 
 # ITocEntry::GetTitle
@@ -102,4 +102,3 @@ The method returns this error code if <i>pwszTitle</i> is not <b>NULL</b> and th
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-itocentry-settitle">SetTitle</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformations::AddAvailableCsps
+ - ICspInformations.AddAvailableCsps
 ---
 
 # ICspInformations::AddAvailableCsps
@@ -90,4 +90,3 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICs
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
-

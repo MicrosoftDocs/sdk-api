@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendTaskPad::GetDescriptiveText
+ - IExtendTaskPad.GetDescriptiveText
 ---
 
 # IExtendTaskPad::GetDescriptiveText
@@ -77,4 +77,3 @@ Allocate the pszDescriptiveText string with the COM API function
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
-

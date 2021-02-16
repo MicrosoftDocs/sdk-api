@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_get_values_lenW
  - winldap/ldap_get_values_lenW
- - ldap_get_values_len
- - winldap/ldap_get_values_len
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_get_values_lenW
  - ldap_get_values_len
+ - ldap_get_values_lenA
+ - ldap_get_values_lenW
 ---
 
 # ldap_get_values_lenW function
@@ -133,4 +132,3 @@ Call
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free_len">ldap_value_free_len</a>
-

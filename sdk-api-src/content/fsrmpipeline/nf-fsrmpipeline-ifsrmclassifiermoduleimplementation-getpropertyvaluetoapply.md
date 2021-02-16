@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation::GetPropertyValueToApply
+ - IFsrmClassifierModuleImplementation.GetPropertyValueToApply
 ---
 
 # IFsrmClassifierModuleImplementation::GetPropertyValueToApply
@@ -85,4 +85,3 @@ If <b>FSRM_E_FILE_ENCRYPTED</b>, <b>FSRM_E_INCOMPATIBLE_FORMAT</b>, or <b>FSRM_E
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduleimplementation">IFsrmClassifierModuleImplementation</a>
-

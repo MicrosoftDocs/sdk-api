@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile
+ - ID2D1DeviceContext5.CreateColorContextFromSimpleColorProfile
 ---
 
 # ID2D1DeviceContext5::CreateColorContextFromSimpleColorProfile(const D2D1_SIMPLE_COLOR_PROFILE,ID2D1ColorContext1)
@@ -75,4 +75,3 @@ This method returns an HRESULT success or error code.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1devicecontext5">ID2D1DeviceContext5</a>
-

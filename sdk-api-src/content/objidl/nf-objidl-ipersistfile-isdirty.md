@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistFile::IsDirty
+ - IPersistFile.IsDirty
 ---
 
 # IPersistFile::IsDirty
@@ -85,4 +85,3 @@ The container can clear its dirty flag whenever it is saved, as long as the file
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersistfile">IPersistFile</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - FileAPI.h
 api_name:
- - _CREATEFILE2_EXTENDED_PARAMETERS
- - PCREATEFILE2_EXTENDED_PARAMETERS
  - CREATEFILE2_EXTENDED_PARAMETERS
 ---
 
@@ -647,4 +645,3 @@ Specifying the <b>FILE_ATTRIBUTE_TEMPORARY</b> attribute causes file systems to 
 
 
 <a href="/windows/desktop/FileIO/file-management-structures">File Management Structures</a>
-

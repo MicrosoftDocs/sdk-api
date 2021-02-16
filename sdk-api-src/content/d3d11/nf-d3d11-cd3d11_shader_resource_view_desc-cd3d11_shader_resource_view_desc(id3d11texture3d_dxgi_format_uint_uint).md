@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC
+ - CD3D11_SHADER_RESOURCE_VIEW_DESC.CD3D11_SHADER_RESOURCE_VIEW_DESC
 ---
 
 # CD3D11_SHADER_RESOURCE_VIEW_DESC::CD3D11_SHADER_RESOURCE_VIEW_DESC(ID3D11Texture3D,DXGI_FORMAT,UINT,UINT)
@@ -74,4 +74,3 @@ The maximum number of mipmap levels for the view.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151684(v=vs.85)">CD3D11_SHADER_RESOURCE_VIEW_DESC</a>
-

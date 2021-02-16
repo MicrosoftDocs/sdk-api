@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_STORAGE_INFO
- - PDFS_STORAGE_INFO
  - DFS_STORAGE_INFO
 ---
 
@@ -136,4 +134,3 @@ The <a href="/windows/desktop/api/lmdfs/ns-lmdfs-dfs_info_3">DFS_INFO_3</a> and
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION
  - WS_SSPI_TRANSPORT_SECURITY_BINDING_POLICY_DESCRIPTION
 ---
 
@@ -66,4 +65,3 @@ See also,
 ### -field securityBindingProperties
 
 Specifies the security binding properties according to the specific policy.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - RestartManager.h
 api_name:
- - _RM_FILTER_INFO
- - PRM_FILTER_INFO
  - RM_FILTER_INFO
 ---
 
@@ -93,4 +91,3 @@ If the value of <b>FilterTrigger</b> is <b>RmFilterTriggerService</b> this membe
 
 
 <a href="/windows/desktop/api/restartmanager/nf-restartmanager-rmgetfilterlist">RmGetFilterList</a>
-

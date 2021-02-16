@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmiutils.dll
 api_name:
- - IWbemPath::IsLocal
+ - IWbemPath.IsLocal
 ---
 
 # IWbemPath::IsLocal
@@ -70,4 +70,3 @@ This method returns a <b>BOOL</b> indicating whether the path matches the passed
 
 
 <a href="/windows/desktop/api/wmiutils/nn-wmiutils-iwbempathkeylist">IWbemPathKeyList</a>
-

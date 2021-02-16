@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleClientSite::RequestNewObjectLayout
+ - IOleClientSite.RequestNewObjectLayout
 ---
 
 # IOleClientSite::RequestNewObjectLayout
@@ -83,4 +83,3 @@ This method can either increase or decrease the space. Currently, there is no st
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleclientsite">IOleClientSite</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ddraw.dll
 api_name:
- - IDirectDraw7::SetCooperativeLevel
+ - IDirectDraw7.SetCooperativeLevel
 ---
 
 # IDirectDraw7::SetCooperativeLevel
@@ -182,4 +182,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-

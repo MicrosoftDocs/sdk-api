@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::GetMonitor
+ - IFullScreenVideoEx.GetMonitor
 ---
 
 # IFullScreenVideoEx::GetMonitor
@@ -99,4 +99,3 @@ Success.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

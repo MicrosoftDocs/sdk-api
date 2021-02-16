@@ -43,7 +43,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateService::get_IsScanPackageService
+ - IUpdateService.IsScanPackageService
+ - IUpdateService.get_IsScanPackageService
 ---
 
 # IUpdateService::get_IsScanPackageService
@@ -60,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservice">IUpdateService</a>
-

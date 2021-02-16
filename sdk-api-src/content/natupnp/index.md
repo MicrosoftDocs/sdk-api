@@ -9,8 +9,6 @@ tech.root: ics
 f1_keywords:
  - natupnp
  - natupnp/natupnp
-api_name:
- - natupnp
 ---
 
 # Natupnp.h header

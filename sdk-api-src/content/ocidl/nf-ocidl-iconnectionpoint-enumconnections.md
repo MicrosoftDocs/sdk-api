@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IConnectionPoint::EnumConnections
+ - IConnectionPoint.EnumConnections
 ---
 
 # IConnectionPoint::EnumConnections
@@ -113,4 +113,3 @@ The caller is responsible for calling <a href="/windows/desktop/api/unknwn/nf-un
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data::put_PostgapAlreadyInImage
+ - IDiscFormat2Data.put_PostgapAlreadyInImage
 ---
 
 # IDiscFormat2Data::put_PostgapAlreadyInImage
@@ -93,4 +93,3 @@ Note that writing to CD-R/RW media will automatically append a post-gap of 150 s
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_postgapalreadyinimage">IDiscFormat2Data::get_PostgapAlreadyInImage</a>
-

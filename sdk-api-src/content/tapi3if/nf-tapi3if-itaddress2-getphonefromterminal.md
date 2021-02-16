@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress2::GetPhoneFromTerminal
+ - ITAddress2.GetPhoneFromTerminal
 ---
 
 # ITAddress2::GetPhoneFromTerminal
@@ -80,4 +80,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminal">ITTerminal</a>
-

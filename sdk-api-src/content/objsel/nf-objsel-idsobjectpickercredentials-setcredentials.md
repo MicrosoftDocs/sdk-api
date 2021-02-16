@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Objsel.dll
 api_name:
- - IDsObjectPickerCredentials::SetCredentials
+ - IDsObjectPickerCredentials.SetCredentials
 ---
 
 # IDsObjectPickerCredentials::SetCredentials
@@ -69,4 +69,3 @@ S_OK indicates success.
 ## -see-also
 
 <a href="/windows/desktop/api/objsel/nn-objsel-idsobjectpickercredentials">IDsObjectPickerCredentials</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::put_Visible
+ - IVideoWindow.put_Visible
 ---
 
 # IVideoWindow::put_Visible
@@ -134,4 +134,3 @@ The video renderer filter is not connected.
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_visible">IVideoWindow::get_Visible</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
+ - IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority

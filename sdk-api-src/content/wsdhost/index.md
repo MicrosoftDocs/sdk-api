@@ -9,8 +9,6 @@ tech.root: ncd
 f1_keywords:
  - wsdhost
  - wsdhost/wsdhost
-api_name:
- - wsdhost
 ---
 
 # Wsdhost.h header

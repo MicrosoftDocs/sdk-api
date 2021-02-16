@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagPAINTSTRUCT
- - PPAINTSTRUCT
  - PAINTSTRUCT
 ---
 
@@ -103,4 +101,3 @@ Reserved; used internally by the system.
 
 
 <a href="/windows/desktop/api/winuser/ns-winuser-wndclassa">WNDCLASS</a>
-

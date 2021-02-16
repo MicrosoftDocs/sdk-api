@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_KEY_VALUE
  - CRYPT_XML_KEY_VALUE
 ---
 
@@ -132,4 +131,3 @@ A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_key_ecdsa_key_val
 ### -field Custom
 
 A <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_blob">CRYPT_XML_BLOB</a> structure that contains custom key data.
-

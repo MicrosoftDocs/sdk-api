@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IFilterMapper::UnregisterFilterInstance
+ - IFilterMapper.UnregisterFilterInstance
 ---
 
 # IFilterMapper::UnregisterFilterInstance
@@ -71,4 +71,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper">IFilterMapper Interface</a>
-

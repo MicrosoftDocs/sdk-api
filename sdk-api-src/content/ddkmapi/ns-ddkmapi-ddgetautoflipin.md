@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDGETAUTOFLIPIN
- - LPDDGETAUTOFLIPIN
  - DDGETAUTOFLIPIN
 ---
 
@@ -75,4 +73,3 @@ Specifies the <a href="/windows-hardware/drivers/">video port extensions (VPE)</
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

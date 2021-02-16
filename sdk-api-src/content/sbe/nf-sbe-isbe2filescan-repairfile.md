@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2FileScan::RepairFile
+ - ISBE2FileScan.RepairFile
 ---
 
 # ISBE2FileScan::RepairFile
@@ -111,4 +111,3 @@ Invalid .WTV file.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2filescan">ISBE2FileScan</a>
-

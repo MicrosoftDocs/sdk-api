@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::getItemInfoByAtom
+ - IWMPMedia.getItemInfoByAtom
+ - IWMPMedia2.getItemInfoByAtom
+ - IWMPMedia3.getItemInfoByAtom
 ---
 
 # IWMPMedia::getItemInfoByAtom
@@ -117,4 +119,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmediacollection-getmediaatom">IWMPMediaCollection::getMediaAtom</a>
-

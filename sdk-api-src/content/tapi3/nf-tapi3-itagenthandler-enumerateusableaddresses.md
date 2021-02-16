@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentHandler::EnumerateUsableAddresses
+ - ITAgentHandler.EnumerateUsableAddresses
 ---
 
 # ITAgentHandler::EnumerateUsableAddresses
@@ -114,4 +114,3 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagenthandler">ITAgentHandler</a>
-

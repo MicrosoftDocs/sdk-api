@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.h
 api_name:
- - ITfThreadMgr2::EnumFunctionProviders
+ - ITfThreadMgr2.EnumFunctionProviders
 ---
 
 # ITfThreadMgr2::EnumFunctionProviders
@@ -122,4 +122,3 @@ A function provider registers itself by calling the TSF manager <a href="/window
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
-

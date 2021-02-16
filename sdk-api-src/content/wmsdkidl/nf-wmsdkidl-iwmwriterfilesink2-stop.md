@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterFileSink2::Stop
+ - IWMWriterFileSink2.Stop
 ---
 
 # IWMWriterFileSink2::Stop
@@ -80,4 +80,3 @@ Because of interleaving of streams with slightly different time stamps at any pa
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriterfilesink2-start">IWMWriterFileSink2::Start</a>
-

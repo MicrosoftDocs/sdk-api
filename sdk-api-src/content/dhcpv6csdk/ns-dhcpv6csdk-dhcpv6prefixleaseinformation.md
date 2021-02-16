@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpv6csdk.h
 api_name:
- - _DHCPV6PrefixLeaseInformation
- - PDHCPV6PrefixLeaseInformation
  - DHCPV6PrefixLeaseInformation
 ---
 
@@ -154,4 +152,3 @@ The length of the above DUID data.
 ## -remarks
 
 In a prefix delegation scenario, the validation of lease lifetime values (specific status codes, <b>T1</b>, <b>T2</b>, <b>MaxLeaseExpirationTime</b>, and <b>LastRenewalTime</b>) are performed by the calling API, rather than the application consuming the data, as the latter might interpret these values differently.
-

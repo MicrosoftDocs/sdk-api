@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagNCCALCSIZE_PARAMS
- - LPNCCALCSIZE_PARAMS
  - NCCALCSIZE_PARAMS
 ---
 
@@ -111,4 +109,3 @@ A pointer to a <a href="/windows/desktop/api/winuser/ns-winuser-windowpos">WINDO
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

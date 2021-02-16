@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMBrush::SetOpacity
+ - IXpsOMBrush.SetOpacity
 ---
 
 # IXpsOMBrush::SetOpacity
@@ -108,4 +108,3 @@ If <i>opacity</i> is less than 0.0 or greater than 1.0, the method  returns an e
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

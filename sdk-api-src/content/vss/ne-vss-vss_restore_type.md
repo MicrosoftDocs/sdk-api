@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_RESTORE_TYPE
- - PVSS_RESTORE_TYPE
  - VSS_RESTORE_TYPE
 ---
 
@@ -100,4 +98,3 @@ A writer can retrieve the type of a restore operation by calling
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-setrestorestate">IVssBackupComponents::SetRestoreState</a>
-

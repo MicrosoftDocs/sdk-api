@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::Exclude
+ - Region.Exclude
 ---
 
 # Region::Exclude(IN const Region)
@@ -72,4 +72,3 @@ If the method succeeds, it returns <a href="/windows/desktop/api/gdiplustypes/ne
 
 If the method fails, it returns one of the other elements of the 
 						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-

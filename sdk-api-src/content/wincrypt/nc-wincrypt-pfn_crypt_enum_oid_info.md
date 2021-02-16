@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - PFN_CRYPT_ENUM_OID_INFO
+ - CRYPT_ENUM_OID_INFO
 ---
 
 # PFN_CRYPT_ENUM_OID_INFO callback function
@@ -70,4 +70,3 @@ Returns <b>TRUE</b> to continue the enumeration and <b>FALSE</b> to stop the enu
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptenumoidinfo">CryptEnumOIDInfo</a>
-

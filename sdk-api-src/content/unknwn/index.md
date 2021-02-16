@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - unknwn
  - unknwn/unknwn
-api_name:
- - unknwn
 ---
 
 # Unknwn.h header

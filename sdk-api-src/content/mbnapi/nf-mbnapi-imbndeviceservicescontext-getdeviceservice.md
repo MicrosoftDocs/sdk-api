@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesContext::GetDeviceService
+ - IMbnDeviceServicesContext.GetDeviceService
 ---
 
 # IMbnDeviceServicesContext::GetDeviceService
@@ -105,4 +105,3 @@ An error was encountered when executing this method.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicescontext">IMbnDeviceServicesContext</a>
-

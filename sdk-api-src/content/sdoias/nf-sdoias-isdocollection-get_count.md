@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoCollection::get_Count
+ - ISdoCollection.get_Count
 ---
 
 # ISdoCollection::get_Count
@@ -72,4 +72,3 @@ If the method fails, the return value is one of the following error codes.
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-get__newenum">ISdoCollection::get__NewEnum</a>
-

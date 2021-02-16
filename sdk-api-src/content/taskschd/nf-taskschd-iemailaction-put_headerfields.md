@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_HeaderFields
+ - IEmailAction.HeaderFields
+ - IEmailAction.get_HeaderFields
+ - IEmailAction.put_HeaderFields
 ---
 
 # IEmailAction::put_HeaderFields

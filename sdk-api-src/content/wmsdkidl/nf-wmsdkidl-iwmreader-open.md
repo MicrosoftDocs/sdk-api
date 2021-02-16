@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader::Open
+ - IWMReader.Open
 ---
 
 # IWMReader::Open
@@ -157,4 +157,3 @@ Applications that read files from behind a firewall will have better performance
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstatuscallback-onstatus">IWMStatusCallback::OnStatus</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob5::SetProperty
+ - IBackgroundCopyJob5.SetProperty
 ---
 
 # IBackgroundCopyJob5::SetProperty
@@ -92,4 +92,3 @@ Success
 
 
 <b>IBackgroundCopyJob5::GetProperty</b>
-

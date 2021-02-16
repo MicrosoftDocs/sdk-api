@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaControl::SetQuotaState
+ - IDiskQuotaControl.SetQuotaState
 ---
 
 # IDiskQuotaControl::SetQuotaState
@@ -189,4 +189,3 @@ Not all state attributes can be modified. The enable, track, and enforce attribu
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotacontrol">IDiskQuotaControl</a>
-

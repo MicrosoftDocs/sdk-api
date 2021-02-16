@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::get_LatestOutputLocation
+ - IDataCollector.LatestOutputLocation
+ - IDataCollector.get_LatestOutputLocation
+ - IDataCollector.put_LatestOutputLocation
 ---
 
 # IDataCollector::get_LatestOutputLocation
@@ -71,4 +73,3 @@ For trace data collectors only, you can set this property to the name of the fil
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_outputlocation">IDataCollector::OutputLocation</a>
-

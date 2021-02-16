@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageStore::Close
+ - IShellImageStore.Close
 ---
 
 # IShellImageStore::Close
@@ -70,4 +70,3 @@ Returns S_FALSE if the store is not open or if the store cannot be saved. Return
 
 <div class="alert"><b>Note</b>  <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-

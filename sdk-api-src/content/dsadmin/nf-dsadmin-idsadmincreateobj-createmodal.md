@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminCreateObj::CreateModal
+ - IDsAdminCreateObj.CreateModal
 ---
 
 # IDsAdminCreateObj::CreateModal
@@ -92,4 +92,3 @@ If the user cancels the object creation wizard, this method returns S_FALSE.  If
 
 
 <a href="/windows/desktop/api/winerror/nf-winerror-succeeded">SUCCEEDED</a>
-

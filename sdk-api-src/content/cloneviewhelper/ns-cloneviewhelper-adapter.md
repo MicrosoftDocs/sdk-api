@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cloneviewhelper.h
 api_name:
- - tagAdapter
  - Adapter
 ---
 
@@ -76,4 +75,3 @@ An array of <a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sou
 
 
 <a href="/windows/desktop/api/cloneviewhelper/ns-cloneviewhelper-sources">Sources</a>
-

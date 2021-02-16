@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - _SIGDN
  - SIGDN
 ---
 
@@ -117,4 +116,3 @@ Different forms of an item's name can be retrieved through the item's properties
 <a href="/windows/desktop/properties/props-system-itemfolderpathdisplaynarrow">PKEY_ItemFolderPathDisplayNarrow</a>
 </li>
 </ul>
-

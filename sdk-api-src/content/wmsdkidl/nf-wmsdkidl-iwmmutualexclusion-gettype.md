@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion::GetType
+ - IWMMutualExclusion.GetType
 ---
 
 # IWMMutualExclusion::GetType
@@ -134,4 +134,3 @@ The following constants represent the GUIDs supported by this SDK.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion-settype">IWMMutualExclusion::SetType</a>
-

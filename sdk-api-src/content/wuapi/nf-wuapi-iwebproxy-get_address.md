@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWebProxy::get_Address
+ - IWebProxy.Address
+ - IWebProxy.get_Address
+ - IWebProxy.put_Address
 ---
 
 # IWebProxy::get_Address
@@ -64,4 +66,3 @@ When <b>Address</b> is a null reference (for example, if you specified Nothing i
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2EventArgs::get_SectorCount
+ - IWriteEngine2EventArgs.get_SectorCount
 ---
 
 # IWriteEngine2EventArgs::get_SectorCount
@@ -93,4 +93,3 @@ This is the same value passed to the <a href="/windows/desktop/api/imapi2/nf-ima
 
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-iwriteengine2eventargs">IWriteEngine2EventArgs</a>
-

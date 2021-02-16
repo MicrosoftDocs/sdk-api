@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_X942_DH_VALIDATION_PARAMS
- - PCERT_X942_DH_VALIDATION_PARAMS
- - CERT_X942_DH_VALIDATION_PARAMS
+ - CERT_942_DH_VALIDATION_PARAMS
 ---
 
 # CERT_X942_DH_VALIDATION_PARAMS structure
@@ -67,4 +65,3 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_UI
 ### -field pgenCounter
 
 A <b>DWORD</b> counter.
-

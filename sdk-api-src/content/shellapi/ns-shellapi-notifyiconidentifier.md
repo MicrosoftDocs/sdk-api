@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - _NOTIFYICONIDENTIFIER
- - PNOTIFYICONIDENTIFIER
  - NOTIFYICONIDENTIFIER
 ---
 
@@ -95,4 +93,3 @@ The icon can be identified to <a href="/windows/desktop/api/shellapi/nf-shellapi
 <li><i>hWnd</i> plus <i>uID</i></li>
 </ul>
 If <i>guidItem</i> is not <b>GUID_NULL</b>, <i>hWnd</i> and <i>uID</i> are ignored.
-

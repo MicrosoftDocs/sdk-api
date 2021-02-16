@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetDiskFreeSpaceA
  - fileapi/GetDiskFreeSpaceA
- - GetDiskFreeSpace
- - fileapi/GetDiskFreeSpace
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-Kernel32-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - GetDiskFreeSpaceA
  - GetDiskFreeSpace
+ - GetDiskFreeSpaceA
+ - GetDiskFreeSpaceW
 ---
 
 # GetDiskFreeSpaceA function
@@ -130,4 +129,3 @@ Symbolic link behavior—If the path points to a symbolic link, the operation is
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea">GetDriveType</a>
-

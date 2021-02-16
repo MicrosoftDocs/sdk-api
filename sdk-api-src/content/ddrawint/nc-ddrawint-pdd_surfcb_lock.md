@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_LOCK
+ - DdLock
 ---
 
 ## -description
@@ -127,4 +127,3 @@ Consequently, a driver should not attempt to return system memory pointers from 
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_unlock">DdUnlock</a>
-

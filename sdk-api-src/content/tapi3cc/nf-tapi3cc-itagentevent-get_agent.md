@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentEvent::get_Agent
+ - ITAgentEvent.get_Agent
 ---
 
 # ITAgentEvent::get_Agent
@@ -117,4 +117,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentevent">ITAgentEvent</a>
-

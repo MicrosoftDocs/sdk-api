@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVTILEVIEWINFO
- - PLVTILEVIEWINFO
  - LVTILEVIEWINFO
 ---
 
@@ -221,4 +219,3 @@ By default, the dimensions of tiles are determined automatically. To apply a fix
 
 
 <a href="/windows/desktop/Controls/using-list-view-controls">Using List-View Controls</a>
-

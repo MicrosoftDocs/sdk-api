@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IContextMenuCallback::AddItem
+ - IContextMenuCallback.AddItem
 ---
 
 # IContextMenuCallback::AddItem
@@ -70,4 +70,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-icontextmenucallback">IContextMenuCallback</a>
-

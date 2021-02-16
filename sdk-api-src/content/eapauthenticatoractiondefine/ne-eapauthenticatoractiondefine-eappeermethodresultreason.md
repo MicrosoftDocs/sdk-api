@@ -44,7 +44,6 @@ api_type:
 api_location:
  - EapAuthenticatorActionDefine.h
 api_name:
- - tagEapPeerMethodResultReason
  - EapPeerMethodResultReason
 ---
 
@@ -78,4 +77,3 @@ Authentication failed.
 ## -see-also
 
 [EAPHost Peer Method Enumerations](/windows/win32/eaphost/eap-host-peer-method-enumerations)
-

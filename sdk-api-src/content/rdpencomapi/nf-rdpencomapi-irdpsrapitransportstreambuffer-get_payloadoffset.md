@@ -41,7 +41,7 @@ api_type:
 api_location:
  - 
 api_name:
- - IRDPSRAPITransportStreamBuffer::get_PayloadOffset
+ - IRDPSRAPITransportStreamBuffer::PayloadOffset
 ---
 
 # IRDPSRAPITransportStreamBuffer::get_PayloadOffset
@@ -58,4 +58,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
-

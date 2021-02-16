@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellMenuCallback::CallbackSM
+ - IShellMenuCallback.CallbackSM
 ---
 
 # IShellMenuCallback::CallbackSM
@@ -83,4 +83,3 @@ An LPARAM value that contains additional information. See the specific SMC_XXX m
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStoryRanges::_NewEnum
+ - ITextStoryRanges._NewEnum
 ---
 
 # ITextStoryRanges::_NewEnum
@@ -130,4 +130,3 @@ This definition together with the implementation of
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

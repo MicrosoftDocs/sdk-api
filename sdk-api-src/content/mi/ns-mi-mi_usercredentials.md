@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_UserCredentials
  - MI_UserCredentials
 ---
 
@@ -133,4 +132,3 @@ Contains username and password information.
 ### -field credentials.certificateThumbprint
 
 Certificate thumbprint for the user.
-

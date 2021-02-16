@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - PFLS_CALLBACK_FUNCTION
+ - FlsCallback
 ---
 
 # PFLS_CALLBACK_FUNCTION callback function
@@ -76,4 +76,3 @@ Each FLS index has an associated
 
 
 <a href="/windows/desktop/ProcThread/process-and-thread-functions">Process and Thread Functions</a>
-

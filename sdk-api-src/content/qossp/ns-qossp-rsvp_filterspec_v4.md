@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
- - _RSVP_FILTERSPEC_V4
- - LPRSVP_FILTERSPEC_V4
  - RSVP_FILTERSPEC_V4
 ---
 
@@ -83,4 +81,3 @@ When working with IPv6 addresses, use <a href="/windows/desktop/api/qossp/ns-qos
 
 
 <a href="/windows/desktop/api/qossp/ns-qossp-rsvp_filterspec_v6">RSVP_FILTERSPEC_V6</a>
-

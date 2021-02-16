@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PublicKey::get_Algorithm
+ - IX509PublicKey.Algorithm
+ - IX509PublicKey.get_Algorithm
 ---
 
 # IX509PublicKey::get_Algorithm
@@ -63,4 +64,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509publickey-i
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
-

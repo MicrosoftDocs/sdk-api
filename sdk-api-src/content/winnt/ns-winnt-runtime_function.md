@@ -47,8 +47,6 @@ api_location:
  - WinNT.h
 api_name:
  - _IMAGE_RUNTIME_FUNCTION_ENTRY
- - PRUNTIME_FUNCTION
- - RUNTIME_FUNCTION
 ---
 
 # RUNTIME_FUNCTION structure
@@ -79,4 +77,3 @@ The address of the unwind information for the function.
 ## -see-also
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symfunctiontableaccess">SymFunctionTableAccess64</a>
-

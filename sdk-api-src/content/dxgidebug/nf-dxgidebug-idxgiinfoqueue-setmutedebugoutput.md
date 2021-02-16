@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::SetMuteDebugOutput
+ - IDXGIInfoQueue.SetMuteDebugOutput
 ---
 
 # IDXGIInfoQueue::SetMuteDebugOutput
@@ -70,4 +70,3 @@ A Boolean value that specifies whether to turn the debug output on or off (<b>TR
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

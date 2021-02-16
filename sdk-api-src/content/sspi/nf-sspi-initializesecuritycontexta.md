@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InitializeSecurityContextA
  - sspi/InitializeSecurityContextA
- - InitializeSecurityContext
- - sspi/InitializeSecurityContext
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - InitializeSecurityContextA
  - InitializeSecurityContext
+ - InitializeSecurityContextA
+ - InitializeSecurityContextW
 ---
 
 # InitializeSecurityContextA function
@@ -708,4 +707,3 @@ When using the Schannel SSP, after a client application receives an authenticati
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secbufferdesc">SecBufferDesc</a>
-

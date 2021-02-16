@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_503_RESPONSE_VERBOSITY
- - PHTTP_503_RESPONSE_VERBOSITY
  - HTTP_503_RESPONSE_VERBOSITY
 ---
 
@@ -101,4 +99,3 @@ This enumeration defines the verbosity level for a request queue when sending 50
 
 
 <a href="/windows/desktop/api/http/nf-http-httpsetrequestqueueproperty">HttpSetRequestQueueProperty</a>
-

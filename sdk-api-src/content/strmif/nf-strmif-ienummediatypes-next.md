@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IEnumMediaTypes::Next
+ - IEnumMediaTypes.Next
 ---
 
 # IEnumMediaTypes::Next
@@ -150,4 +150,3 @@ If the set of media types changes, the enumerator becomes inconsistent with the 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTypes Interface</a>
-

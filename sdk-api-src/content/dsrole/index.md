@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - dsrole
  - dsrole/dsrole
-api_name:
- - dsrole
 ---
 
 # Dsrole.h header

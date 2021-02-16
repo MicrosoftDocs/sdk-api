@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_FLIP
+ - DdFlip
 ---
 
 ## -description
@@ -70,4 +70,3 @@ If the driver's hardware supports overlays or textures, <b>DdFlip</b> should mak
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_flipdata">DD_FLIPDATA</a>
-

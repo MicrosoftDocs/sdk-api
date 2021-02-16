@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMCoreProperties::GetDescription
+ - IXpsOMCoreProperties.GetDescription
 ---
 
 # IXpsOMCoreProperties::GetDescription
@@ -112,4 +112,3 @@ This method allocates the memory used by the string that is returned in <i>descr
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

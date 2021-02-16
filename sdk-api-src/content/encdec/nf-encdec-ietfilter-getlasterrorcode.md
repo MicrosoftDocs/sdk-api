@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IETFilter::GetLastErrorCode
+ - IETFilter.GetLastErrorCode
 ---
 
 # IETFilter::GetLastErrorCode
@@ -79,4 +79,3 @@ Not implemented
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ietfilter">IETFilter Interface</a>
-

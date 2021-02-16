@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Unsecapp.exe
 api_name:
- - IWbemUnsecuredApartment::CreateSinkStub
+ - IWbemUnsecuredApartment.CreateSinkStub
 ---
 
 # IWbemUnsecuredApartment::CreateSinkStub
@@ -163,4 +163,3 @@ This method is provided to improve the security of asynchronous calls
 
 
 <a href="/windows/desktop/WmiSdk/setting-security-on-an-asynchronous-call">Setting Security on an Asynchronous Call</a>
-

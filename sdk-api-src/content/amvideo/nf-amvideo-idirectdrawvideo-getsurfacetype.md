@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::GetSurfaceType
+ - IDirectDrawVideo.GetSurfaceType
 ---
 
 # IDirectDrawVideo::GetSurfaceType
@@ -139,4 +139,3 @@ It is not always easy to discover which kind of surface is being used by looking
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

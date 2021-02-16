@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMFontResource::GetEmbeddingOption
+ - IXpsOMFontResource.GetEmbeddingOption
 ---
 
 # IXpsOMFontResource::GetEmbeddingOption
@@ -112,4 +112,3 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_font_embedding">XPS_FONT_EMBEDDING</a>
-

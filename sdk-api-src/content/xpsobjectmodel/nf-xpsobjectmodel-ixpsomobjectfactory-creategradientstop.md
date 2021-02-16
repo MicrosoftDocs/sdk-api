@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMObjectFactory::CreateGradientStop
+ - IXpsOMObjectFactory.CreateGradientStop
 ---
 
 # IXpsOMObjectFactory::CreateGradientStop
@@ -230,4 +230,3 @@ else
 
 
 <a href="/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a>
-

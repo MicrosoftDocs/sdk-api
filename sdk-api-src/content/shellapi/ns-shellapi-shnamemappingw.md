@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - _SHNAMEMAPPINGW
- - LPSHNAMEMAPPINGW
- - SHNAMEMAPPINGW
+ - SHNAMEMAPPING
 ---
 
 # SHNAMEMAPPINGW structure
@@ -98,4 +96,3 @@ There are two versions of this structure, an ANSI version (SHFILEOPSTRUCTA) and 
 ## -see-also
 
 <a href="/windows/desktop/api/shellapi/ns-shellapi-shfileopstructa">SHFILEOPSTRUCT</a>
-

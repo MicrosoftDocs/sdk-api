@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IServiceTransactionConfigBase::NewTransactionDescription
+ - IServiceTransactionConfigBase.NewTransactionDescription
 ---
 
 # IServiceTransactionConfigBase::NewTransactionDescription
@@ -69,4 +69,3 @@ If you do not provide a description by using this method, the value of the <i>sz
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iservicetransactionconfigbase">IServiceTransactionConfigBase</a>
-

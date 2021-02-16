@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice::SetNetworkProfile
+ - IWCNDevice.SetNetworkProfile
 ---
 
 # IWCNDevice::SetNetworkProfile
@@ -114,4 +114,3 @@ Currently, the <b>Windows Connect Now API</b> (WCNAPI) supports the following pr
 ## -see-also
 
 <a href="/windows/desktop/api/wcndevice/nn-wcndevice-iwcndevice">IWCNDevice</a>
-

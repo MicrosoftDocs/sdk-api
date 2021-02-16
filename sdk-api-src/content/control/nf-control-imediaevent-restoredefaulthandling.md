@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEvent::RestoreDefaultHandling
+ - IMediaEvent.RestoreDefaultHandling
 ---
 
 # IMediaEvent::RestoreDefaultHandling
@@ -103,4 +103,3 @@ By default, the Filter Graph Manager handles some events (such as <a href="/wind
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaevent">IMediaEvent Interface</a>
-

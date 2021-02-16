@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Effect::SetInput
+ - ID2D1Effect.SetInput
 ---
 
 # ID2D1Effect::SetInput
@@ -91,4 +91,3 @@ If the input index is out of range, the input image is ignored.
 
 
 <a href="/windows/desktop/api/d2d1/nn-d2d1-id2d1image">ID2D1Image</a>
-

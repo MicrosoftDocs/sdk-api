@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProviderPrivate::QueryIfCreatedLun
+ - IVdsHwProviderPrivate.QueryIfCreatedLun
 ---
 
 # IVdsHwProviderPrivate::QueryIfCreatedLun
@@ -113,4 +113,3 @@ Only VDS calls this method.
 
 
 <a href="/windows/desktop/api/vdslun/ns-vdslun-vds_lun_information">VDS_LUN_INFORMATION</a>
-

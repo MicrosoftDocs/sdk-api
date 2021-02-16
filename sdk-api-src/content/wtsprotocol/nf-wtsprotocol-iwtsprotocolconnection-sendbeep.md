@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection::SendBeep
+ - IWTSProtocolConnection.SendBeep
 ---
 
 # IWTSProtocolConnection::SendBeep
@@ -69,4 +69,3 @@ An integer that contains the pulse duration, in milliseconds.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-

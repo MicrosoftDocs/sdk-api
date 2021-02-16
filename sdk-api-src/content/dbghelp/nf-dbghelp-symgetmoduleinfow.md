@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SymGetModuleInfoW
  - dbghelp/SymGetModuleInfoW
- - SymGetModuleInfo
- - dbghelp/SymGetModuleInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,11 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
- - SymGetModuleInfoW
+ - SymGetModuleInfo64
+ - SymGetModuleInfo64
+ - SymGetModuleInfoW64
  - SymGetModuleInfo
+ - SymGetModuleInfoW
 ---
 
 ## -description
@@ -148,4 +149,3 @@ SymGetModuleInfoW(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symloadmodule">SymLoadModule64</a>
-

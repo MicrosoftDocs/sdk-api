@@ -43,7 +43,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMTranscryptor::Close
+ - IWMDRMTranscryptor.Close
 ---
 
 # IWMDRMTranscryptor::Close
@@ -96,4 +96,3 @@ This method is asynchronous. It returns immediately, but processing is not compl
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmdrmtranscryptor-read">IWMDRMTranscryptor::Read</a>
-

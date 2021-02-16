@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo::ExpandTarget
+ - ITargetInfo.ExpandTarget
 ---
 
 # ITargetInfo::ExpandTarget
@@ -73,4 +73,3 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. This method
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
-

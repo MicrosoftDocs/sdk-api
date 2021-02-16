@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAgentSession::get_AverageWrapUpTime
+ - ITAgentSession.get_AverageWrapUpTime
 ---
 
 # ITAgentSession::get_AverageWrapUpTime
@@ -134,4 +134,3 @@ This method wraps the TAPI 2.1
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-itagentsession">ITAgentSession</a>
-

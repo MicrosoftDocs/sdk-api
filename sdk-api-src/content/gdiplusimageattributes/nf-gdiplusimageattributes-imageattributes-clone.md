@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes::Clone
+ - ImageAttributes.Clone
 ---
 
 # ImageAttributes::Clone
@@ -82,4 +82,3 @@ This method returns a pointer to the new
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-recoloring-use">Recoloring</a>
-

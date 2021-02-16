@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFRealTimeClient::UnregisterThreads
+ - IMFRealTimeClient.UnregisterThreads
 ---
 
 # IMFRealTimeClient::UnregisterThreads
@@ -66,4 +66,3 @@ The object's worker threads should unregister themselves from MMCSS by calling <
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfrealtimeclient">IMFRealTimeClient</a>
-

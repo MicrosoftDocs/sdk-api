@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx3.dll
 api_name:
- - IBackgroundCopyFile2::SetRemoteName
+ - IBackgroundCopyFile2.SetRemoteName
 ---
 
 # IBackgroundCopyFile2::SetRemoteName
@@ -224,4 +224,3 @@ The following example shows how to call the <b>SetRemoteName</b> method to chang
 
 
 <a href="/windows/desktop/api/bits2_0/nf-bits2_0-ibackgroundcopyjob3-replaceremoteprefix">IBackgroundCopyJob3::ReplaceRemotePrefix</a>
-

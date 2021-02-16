@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioengineendpoint.h
 api_name:
- - IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
+ - IAudioEndpointLastBufferControl.ReleaseOutputDataPointerForLastBuffer
 ---
 
 # IAudioEndpointLastBufferControl::ReleaseOutputDataPointerForLastBuffer
@@ -61,4 +61,3 @@ The APO connection property.
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointlastbuffercontrol">IAudioEndpointLastBufferControl</a>
-

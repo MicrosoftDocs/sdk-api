@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISharingConfigurationManager::DeleteShare
+ - ISharingConfigurationManager.DeleteShare
 ---
 
 # ISharingConfigurationManager::DeleteShare
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Running this method requires an Administrator privilege level.
-

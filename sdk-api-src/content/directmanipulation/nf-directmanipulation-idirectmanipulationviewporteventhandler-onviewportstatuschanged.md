@@ -42,7 +42,7 @@ api_type:
 api_location:
  - directmanipulation.h
 api_name:
- - IDirectManipulationViewportEventHandler::OnViewportStatusChanged
+ - IDirectManipulationViewportEventHandler.OnViewportStatusChanged
 ---
 
 # IDirectManipulationViewportEventHandler::OnViewportStatusChanged
@@ -77,4 +77,3 @@ If you call <a href="/previous-versions/windows/desktop/api/directmanipulation/n
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationviewporteventhandler">IDirectManipulationViewportEventHandler</a>
-

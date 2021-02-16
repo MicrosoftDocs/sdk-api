@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMEnumStorage::Skip
+ - IWMDMEnumStorage.Skip
 ---
 
 # IWMDMEnumStorage::Skip
@@ -81,4 +81,3 @@ If the number of devices specified in <i>celt</i> is greater than the actual num
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumstorage">IWMDMEnumStorage Interface</a>
-

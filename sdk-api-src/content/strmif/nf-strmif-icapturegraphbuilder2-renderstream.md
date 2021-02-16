@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2::RenderStream
+ - ICaptureGraphBuilder2.RenderStream
 ---
 
 # ICaptureGraphBuilder2::RenderStream
@@ -259,4 +259,3 @@ For a complete example, see <a href="/windows/desktop/DirectShow/recompressing-a
 
 
 <a href="/windows/desktop/DirectShow/video-capture">Video Capture</a>
-

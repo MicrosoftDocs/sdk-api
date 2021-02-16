@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced::SetManualStreamSelection
+ - IWMReaderAdvanced.SetManualStreamSelection
 ---
 
 # IWMReaderAdvanced::SetManualStreamSelection
@@ -88,4 +88,3 @@ Stream numbers are in the range of 1 through 63.
 
 
 <a href="/windows/desktop/wmformat/to-use-manual-stream-selection">To Use Manual Stream Selection</a>
-

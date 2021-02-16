@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _DELETE_SNAPSHOT_VHDSET_VERSION
  - DELETE_SNAPSHOT_VHDSET_VERSION
 ---
 

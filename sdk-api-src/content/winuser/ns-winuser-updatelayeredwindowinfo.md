@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagUPDATELAYEREDWINDOWINFO
- - PUPDATELAYEREDWINDOWINFO
  - UPDATELAYEREDWINDOWINFO
 ---
 
@@ -193,4 +191,3 @@ The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, on
 
 
 <a href="/windows/desktop/winmsg/window-features">Window Features</a>
-

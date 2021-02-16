@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IGlobalOptions::Query
+ - IGlobalOptions.Query
 ---
 
 # IGlobalOptions::Query
@@ -70,4 +70,3 @@ The return value is S_OK if the property is queried successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
-

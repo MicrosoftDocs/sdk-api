@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IPreviewHandler::SetWindow
+ - IPreviewHandler.SetWindow
 ---
 
 # IPreviewHandler::SetWindow
@@ -78,4 +78,3 @@ The preview handler is responsible for painting the entire area defined by <i>pr
 
 <div class="alert"><b>Note</b>  It is preferred that this information be stored prior to calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipreviewhandler-dopreview">IPreviewHandler::DoPreview</a>. Doing so increases performance at setup time for any cases where the preview does not start.</div>
 <div> </div>
-

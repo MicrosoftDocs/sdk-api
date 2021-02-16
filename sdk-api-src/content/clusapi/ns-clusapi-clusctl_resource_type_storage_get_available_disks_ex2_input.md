@@ -45,8 +45,6 @@ api_type:
 api_location:
  - 
 api_name:
- - _CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT
- - PCLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT
  - CLUSCTL_RESOURCE_TYPE_STORAGE_GET_AVAILABLE_DISKS_EX2_INPUT
 ---
 
@@ -97,4 +95,3 @@ A storage pool <b>GUID</b> that filters the results.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

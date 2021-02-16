@@ -46,9 +46,7 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - _SP_POWERMESSAGEWAKE_PARAMS_A
- - PSP_POWERMESSAGEWAKE_PARAMS_A
- - SP_POWERMESSAGEWAKE_PARAMS_A
+ - SP_POWERMESSAGEWAKE_PARAMS - sp_powermessagewake_params_a
 ---
 
 # SP_POWERMESSAGEWAKE_PARAMS_A structure
@@ -86,4 +84,3 @@ Windows only sends the DIF_POWERMESSAGEWAKE request if the drivers for the devic
 
 
 <a href="/windows/desktop/api/setupapi/ns-setupapi-sp_classinstall_header">SP_CLASSINSTALL_HEADER</a>
-

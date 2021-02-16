@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CObjectPathParser::CObjectPathParser
+ - CObjectPathParser.CObjectPathParser
+ - ??0CObjectPathParser@@QAE@W4ObjectParserFlags@@@Z
+ - ??0CObjectPathParser@@QEAA@W4ObjectParserFlags@@@Z
 ---
 
 # CObjectPathParser::CObjectPathParser
@@ -68,4 +70,3 @@ One of the flags from the <a href="/windows/desktop/api/objpath/ne-objpath-objec
 ## -see-also
 
 <a href="/windows/desktop/api/objpath/nl-objpath-cobjectpathparser">CObjectPathParser</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetNPatchMode
+ - IDirect3DDevice9.SetNPatchMode
 ---
 
 # IDirect3DDevice9::SetNPatchMode
@@ -74,4 +74,3 @@ If the method succeeds, the return value is D3D_OK.
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getnpatchmode">IDirect3DDevice9::GetNPatchMode</a>
-

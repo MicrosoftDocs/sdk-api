@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _POLICY_NOTIFICATION_INFORMATION_CLASS
- - PPOLICY_NOTIFICATION_INFORMATION_CLASS
  - POLICY_NOTIFICATION_INFORMATION_CLASS
 ---
 
@@ -99,4 +97,3 @@ Notify when the machine account password changes.
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification">LsaUnregisterPolicyChangeNotification</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider::get_KeywordsAll
+ - ITraceDataProvider.KeywordsAll
+ - ITraceDataProvider.get_KeywordsAll
 ---
 
 # ITraceDataProvider::get_KeywordsAll
@@ -78,4 +79,3 @@ The <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ivaluemapitem-get
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedataprovider-get_keywordsany">ITraceDataProvider::KeywordsAny</a>
-

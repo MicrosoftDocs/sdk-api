@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - urlmon
  - urlmon/urlmon
-api_name:
- - urlmon
 ---
 
 # Urlmon.h header

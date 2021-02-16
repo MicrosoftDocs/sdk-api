@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineConfigDialogEditW
  - tapi/lineConfigDialogEditW
- - lineConfigDialogEdit
- - tapi/lineConfigDialogEdit
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineConfigDialogEditW
  - lineConfigDialogEdit
+ - lineConfigDialogEditA
+ - lineConfigDialogEditW
 ---
 
 # lineConfigDialogEditW function
@@ -156,4 +155,3 @@ The difference between this function and
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetdevconfig">lineSetDevConfig</a>
-

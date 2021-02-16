@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::DispatchIndirect
+ - ID3D11DeviceContext.DispatchIndirect
 ---
 
 # ID3D11DeviceContext::DispatchIndirect
@@ -76,4 +76,3 @@ When an application creates a buffer that is associated with the <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

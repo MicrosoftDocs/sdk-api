@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure::GetStartPoint
+ - IXpsOMGeometryFigure.GetStartPoint
 ---
 
 # IXpsOMGeometryFigure::GetStartPoint
@@ -106,4 +106,3 @@ In the document markup, the value returned in <i>startPoint</i> corresponds to t
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
-

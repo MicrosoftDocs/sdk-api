@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - tagHistogramBlobHeader
  - HistogramBlobHeader
 ---
 
@@ -72,4 +71,3 @@ Number of histograms in the blob. Each histogram is identified by a <a href="/wi
 
 
 <a href="/windows/desktop/api/mfapi/ns-mfapi-histogramgrid">HistogramGrid</a>
-

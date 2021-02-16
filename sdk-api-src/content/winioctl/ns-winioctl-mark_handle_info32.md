@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PMARK_HANDLE_INFO32
  - MARK_HANDLE_INFO32
 ---
 
@@ -212,4 +211,3 @@ The file previously marked for real-time read behavior using the
 </td>
 </tr>
 </table>
-

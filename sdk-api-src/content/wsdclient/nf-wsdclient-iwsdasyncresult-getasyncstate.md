@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDAsyncResult::GetAsyncState
+ - IWSDAsyncResult.GetAsyncState
 ---
 
 # IWSDAsyncResult::GetAsyncState
@@ -99,4 +99,3 @@ The operation completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdasyncresult">IWSDAsyncResult</a>
-

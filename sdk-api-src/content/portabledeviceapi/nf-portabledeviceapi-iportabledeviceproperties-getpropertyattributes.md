@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties::GetPropertyAttributes
+ - IPortableDeviceProperties.GetPropertyAttributes
 ---
 
 # IPortableDeviceProperties::GetPropertyAttributes
@@ -133,4 +133,3 @@ For an example of how to use this method, see <a href="/windows/desktop/wpd_sdk/
 
 
 <a href="/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>
-

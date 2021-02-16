@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellChecker::get_LanguageTag
+ - ISpellChecker.LanguageTag
+ - ISpellChecker.get_LanguageTag
 ---
 
 # ISpellChecker::get_LanguageTag
@@ -65,4 +66,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellchecker">ISpellChecker</a>
-

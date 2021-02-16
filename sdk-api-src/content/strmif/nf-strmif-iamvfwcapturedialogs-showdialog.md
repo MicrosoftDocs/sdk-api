@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCaptureDialogs::ShowDialog
+ - IAMVfwCaptureDialogs.ShowDialog
 ---
 
 # IAMVfwCaptureDialogs::ShowDialog
@@ -131,4 +131,3 @@ The Video Format dialog (VfwCaptureDialog_Format) may change the video format. I
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcapturedialogs">IAMVfwCaptureDialogs Interface</a>
-

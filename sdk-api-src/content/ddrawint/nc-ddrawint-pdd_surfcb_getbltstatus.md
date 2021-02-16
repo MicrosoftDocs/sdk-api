@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_GETBLTSTATUS
+ - DdGetBltStatus
 ---
 
 ## -description
@@ -81,4 +81,3 @@ If the flag is DDGBS_ISBLTDONE, the driver should set <b>ddRVal</b> to DDERR_WAS
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
-

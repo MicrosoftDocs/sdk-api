@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects::DisplayPropertyPage
+ - IWMPEffects.DisplayPropertyPage
 ---
 
 # IWMPEffects::DisplayPropertyPage
@@ -69,4 +69,3 @@ Implement this method if you want to display a property page to the user to adju
 ## -see-also
 
 <a href="/windows/desktop/api/effects/nn-effects-iwmpeffects">IWMPEffects Interface</a>
-

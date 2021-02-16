@@ -42,6 +42,9 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
+ - DnsReplaceRecordSet
+ - DnsReplaceRecordSetW
+ - DnsReplaceRecordSetA
  - DnsReplaceRecordSetUTF8
 ---
 
@@ -97,4 +100,3 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 <a href="/windows/desktop/api/windns/nf-windns-dnsmodifyrecordsinset_a">DnsModifyRecordsInSet</a>
-

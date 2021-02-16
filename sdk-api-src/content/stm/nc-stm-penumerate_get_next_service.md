@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - PENUMERATE_GET_NEXT_SERVICE
+ - EnumerateGetNextService
 ---
 
 # PENUMERATE_GET_NEXT_SERVICE callback function
@@ -120,4 +120,3 @@ The operation failed.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-functions">Service Table Management Functions</a>
-

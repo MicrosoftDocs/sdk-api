@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMTileBrush::SetTileMode
+ - IXpsOMTileBrush.SetTileMode
 ---
 
 # IXpsOMTileBrush::SetTileMode
@@ -108,4 +108,3 @@ The tile mode determines how the tile image is repeated to fill the output area.
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a>
-

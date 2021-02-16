@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystemNaming::SetFriendlyName
+ - IVdsSubSystemNaming.SetFriendlyName
 ---
 
 # IVdsSubSystemNaming::SetFriendlyName
@@ -164,4 +164,3 @@ This operation is not supported by this provider.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystemnaming">IVdsSubSystemNaming</a>
-

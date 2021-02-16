@@ -43,7 +43,7 @@ api_location:
  - Wbemuuid.lib
  - Wbemuuid.dll
 api_name:
- - IWbemConfigureRefresher::AddObjectByPath
+ - IWbemConfigureRefresher.AddObjectByPath
 ---
 
 # IWbemConfigureRefresher::AddObjectByPath
@@ -111,4 +111,3 @@ The supplied path must specify a valid object, which is provided by the High-Per
 
 
 <a href="/windows/desktop/WmiSdk/performance-counter-provider">Performance Counter Provider</a>
-

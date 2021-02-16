@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory2::CreateDevice
+ - ID2D1Factory2.CreateDevice
 ---
 
 # ID2D1Factory2::CreateDevice
@@ -123,4 +123,3 @@ The <a href="/windows/desktop/Direct2D/direct2d-portal">Direct2D</a> device defi
 
 
 <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1factory2">ID2D1Factory2</a>
-

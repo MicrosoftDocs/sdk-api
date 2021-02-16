@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linecountryentry_tag
- - LPLINECOUNTRYENTRY
  - LINECOUNTRYENTRY
 ---
 
@@ -120,4 +118,3 @@ This structure cannot be extended.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetcountry">lineGetCountry</a>
-

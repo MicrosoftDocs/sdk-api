@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPropertyUI::GetFlags
+ - IPropertyUI.GetFlags
 ---
 
 # IPropertyUI::GetFlags
@@ -77,4 +77,3 @@ The <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_propertyui_flags
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

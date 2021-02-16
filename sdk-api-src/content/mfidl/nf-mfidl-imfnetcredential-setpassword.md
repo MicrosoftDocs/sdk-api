@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetCredential::SetPassword
+ - IMFNetCredential.SetPassword
 ---
 
 # IMFNetCredential::SetPassword
@@ -92,4 +92,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetcredential">IMFNetCredential</a>
-

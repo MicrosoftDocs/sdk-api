@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagFILTERKEYS
- - LPFILTERKEYS
  - FILTERKEYS
 ---
 
@@ -198,4 +196,3 @@ The maximum value of the  <b>iBounceMSec</b>, <b>iWaitMSec</b>, <b>iDelayMSec</b
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa">SystemParametersInfo</a>
-

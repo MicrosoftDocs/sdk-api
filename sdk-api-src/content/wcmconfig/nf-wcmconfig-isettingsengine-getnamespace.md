@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsEngine::GetNamespace
+ - ISettingsEngine.GetNamespace
 ---
 
 # ISettingsEngine::GetNamespace
@@ -117,4 +117,3 @@ Indicates that the provided identity does not match a namespace registered in th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsengine">ISettingsEngine</a>
-

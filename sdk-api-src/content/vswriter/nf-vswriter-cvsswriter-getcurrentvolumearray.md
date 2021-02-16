@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetCurrentVolumeArray
+ - CVssWriter.GetCurrentVolumeArray
 ---
 
 # CVssWriter::GetCurrentVolumeArray
@@ -85,4 +85,3 @@ The derived class should not free the memory held by the returned array of volum
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-cvsswriter-onthaw">CVssWriter::OnThaw</a>
-

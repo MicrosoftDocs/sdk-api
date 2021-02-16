@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmConfigurableItem::get_Format
+ - IMsmConfigurableItem.get_Format
 ---
 
 # IMsmConfigurableItem::get_Format
@@ -146,4 +146,3 @@ The function failed.
 
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10InfoQueue::GetBreakOnCategory
+ - ID3D10InfoQueue.GetBreakOnCategory
 ---
 
 # ID3D10InfoQueue::GetBreakOnCategory
@@ -69,4 +69,3 @@ Whether this breaking condition is turned on or off (true for on, false for off)
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10infoqueue">ID3D10InfoQueue Interface</a>
-

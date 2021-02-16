@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRGLSRECORD
- - PEMRGLSRECORD
  - EMRGLSRECORD
 ---
 
@@ -84,4 +82,3 @@ Array of data representing the OpenGL function to be performed.
 
 
 <a href="/windows/desktop/OpenGL/opengl-on-windows-nt--windows-2000--and-windows-95-98">OpenGL on Windows NT, Windows 2000, and Windows 95/98</a>
-

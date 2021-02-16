@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::GetStreamCount
+ - IMFDeviceTransform.GetStreamCount
 ---
 
 # IMFDeviceTransform::GetStreamCount
@@ -104,4 +104,3 @@ This method would not be called with NULL parameters.
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

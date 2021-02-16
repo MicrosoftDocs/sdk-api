@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_VOLUME_PROP2
- - PVDS_VOLUME_PROP2
  - VDS_VOLUME_PROP2
 ---
 
@@ -157,4 +155,3 @@ Note that a unique identifier is not the same as a volume GUID path. To find the
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_volume_type">VDS_VOLUME_TYPE</a>
-

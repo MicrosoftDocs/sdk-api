@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextStrings::Remove
+ - ITextStrings.Remove
 ---
 
 # ITextStrings::Remove
@@ -97,4 +97,3 @@ The index is relative to the top of the collection, so <i>iString</i> = 0 remove
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextstrings">ITextStrings</a>
-

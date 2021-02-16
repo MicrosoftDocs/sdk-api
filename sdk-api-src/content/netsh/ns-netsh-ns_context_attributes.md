@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netsh.h
 api_name:
- - _NS_CONTEXT_ATTRIBUTES
- - PNS_CONTEXT_ATTRIBUTES
  - NS_CONTEXT_ATTRIBUTES
 ---
 
@@ -146,6 +144,7 @@ The number of entries in the <b>pTopCmds</b> member.
 
 An array of <a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a> structures that contain helper commands.
 
+
 ### -field _CMD_ENTRY
 
 ### -field ulNumGroups
@@ -178,6 +177,8 @@ Reserved. Must be null.
 
 ### -field pfnOsVersionCheck
 
+
+
 ## -see-also
 
 <a href="/windows/desktop/api/netsh/ns-netsh-cmd_entry">CMD_ENTRY</a>
@@ -205,4 +206,3 @@ Reserved. Must be null.
 
 
 <a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
-

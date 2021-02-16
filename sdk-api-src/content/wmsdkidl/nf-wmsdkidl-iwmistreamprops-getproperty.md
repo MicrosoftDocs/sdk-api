@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMIStreamProps::GetProperty
+ - IWMIStreamProps.GetProperty
 ---
 
 # IWMIStreamProps::GetProperty
@@ -165,4 +165,3 @@ You should make two calls to <b>GetProperty</b> for each property you want to re
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmistreamprops">IWMIStreamProps Interface</a>
-

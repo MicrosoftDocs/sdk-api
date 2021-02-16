@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - SetClassLongPtrW
  - winuser/SetClassLongPtrW
- - SetClassLongPtr
- - winuser/SetClassLongPtr
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - User32.dll
  - Ext-MS-Win-NTUser-WindowClass-l1-1-2.dll
 api_name:
- - SetClassLongPtrW
  - SetClassLongPtr
+ - SetClassLongPtrA
+ - SetClassLongPtrW
+req.apiset: ext-ms-win-ntuser-windowclass-l1-1-2 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SetClassLongPtrW function
@@ -253,4 +252,3 @@ Use the <b>SetClassLongPtr</b> function with care. For example, it is possible t
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)">WindowProc</a>
-

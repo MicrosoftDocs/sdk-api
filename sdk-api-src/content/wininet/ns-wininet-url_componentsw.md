@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPURL_COMPONENTSW
+ - URL_COMPONENTS
+ - URL_COMPONENTSA
  - URL_COMPONENTSW
 ---
 
@@ -145,4 +146,3 @@ For
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetcreateurla">InternetCreateUrl</a>
-

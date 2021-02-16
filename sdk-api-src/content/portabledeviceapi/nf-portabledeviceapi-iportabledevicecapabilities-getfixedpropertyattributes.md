@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceCapabilities::GetFixedPropertyAttributes
+ - IPortableDeviceCapabilities.GetFixedPropertyAttributes
 ---
 
 # IPortableDeviceCapabilities::GetFixedPropertyAttributes
@@ -104,4 +104,3 @@ Attributes describe properties. Example attributes are <b>WPD_PROPERTY_ATTRIBUTE
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes">IPortableDeviceProperties::GetPropertyAttributes</a>
-

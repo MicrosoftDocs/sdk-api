@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetFileVersionInfoSizeExA
  - winver/GetFileVersionInfoSizeExA
- - GetFileVersionInfoSizeEx
- - winver/GetFileVersionInfoSizeEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Core-Version-L1-1-1.dll
  - version.dll
 api_name:
- - GetFileVersionInfoSizeExA
  - GetFileVersionInfoSizeEx
+ - GetFileVersionInfoSizeExA
+ - GetFileVersionInfoSizeExW
 ---
 
 # GetFileVersionInfoSizeExA function
@@ -159,4 +158,3 @@ Call the <b>GetFileVersionInfoSizeEx</b> function before calling the <a href="/w
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
-

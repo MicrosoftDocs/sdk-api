@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetGlyphOutlineW
  - wingdi/GetGlyphOutlineW
- - GetGlyphOutline
- - wingdi/GetGlyphOutline
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - GetGlyphOutlineW
  - GetGlyphOutline
+ - GetGlyphOutlineA
+ - GetGlyphOutlineW
 ---
 
 # GetGlyphOutlineW function
@@ -264,4 +263,3 @@ Additional information on a glyph outlines is located in the TrueType and the Op
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-ttpolygonheader">TTPOLYGONHEADER</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
- - IKEEXT_SA_DETAILS2_
  - IKEEXT_SA_DETAILS2
 ---
 
@@ -159,4 +158,3 @@ Key derived from authentications to allow external applications to cryptographic
 
 
 [IPSEC_V4_UDP_ENCAPSULATION0](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_v4_udp_encapsulation0)
-

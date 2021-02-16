@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationRangeValuePattern::get_CurrentLargeChange
+ - IUIAutomationRangeValuePattern.CurrentLargeChange
+ - IUIAutomationRangeValuePattern.get_CurrentLargeChange
 ---
 
 # IUIAutomationRangeValuePattern::get_CurrentLargeChange
@@ -67,4 +68,3 @@ The LargeChange property can support a Not a Number (NaN) value. When retrieving
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationrangevaluepattern-get_currentsmallchange">IUIAutomationRangeValuePattern::CurrentSmallChange</a>
-

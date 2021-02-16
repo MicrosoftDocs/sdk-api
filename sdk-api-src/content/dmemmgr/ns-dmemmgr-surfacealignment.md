@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dmemmgr.h
 api_name:
- - _SURFACEALIGNMENT
- - LPSURFACEALIGNMENT
  - SURFACEALIGNMENT
 ---
 
@@ -103,4 +101,3 @@ Is reserved for system use and should be ignored by the display driver.
 ## -see-also
 
 <a href="/windows/desktop/api/dmemmgr/nf-dmemmgr-heapvidmemallocaligned">HeapVidMemAllocAligned</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider::get_WindowVisualState
+ - IWindowProvider.WindowVisualState
+ - IWindowProvider.get_WindowVisualState
 ---
 
 # IWindowProvider::get_WindowVisualState
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

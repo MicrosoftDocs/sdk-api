@@ -44,7 +44,6 @@ api_type:
 api_location:
  - tspubplugin2com.h
 api_name:
- - _TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
  - TSPUB_PLUGIN_PD_ASSIGNMENT_TYPE
 ---
 

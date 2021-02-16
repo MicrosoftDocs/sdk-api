@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagBITMAPCOREINFO
- - LPBITMAPCOREINFO
  - BITMAPCOREINFO
 ---
 
@@ -134,4 +132,3 @@ Alternatively, for functions that use DIBs, the <b>bmciColors</b> member can be 
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-rgbtriple">RGBTRIPLE</a>
-

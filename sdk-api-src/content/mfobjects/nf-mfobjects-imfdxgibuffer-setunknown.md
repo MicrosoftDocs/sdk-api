@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIBuffer::SetUnknown
+ - IMFDXGIBuffer.SetUnknown
 ---
 
 # IMFDXGIBuffer::SetUnknown
@@ -106,4 +106,3 @@ To retrieve the pointer from the object, call <a href="/windows/desktop/api/mfob
 
 
 <a href="/windows/desktop/api/mfobjects/nf-mfobjects-imfdxgibuffer-getunknown">IMFDXGIBuffer::GetUnknown</a>
-

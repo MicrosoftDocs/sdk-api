@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLunPlex::GetProperties
+ - IVdsLunPlex.GetProperties
 ---
 
 # IVdsLunPlex::GetProperties
@@ -124,4 +124,3 @@ The LUN plex is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_lun_plex_prop">VDS_LUN_PLEX_PROP</a>
-

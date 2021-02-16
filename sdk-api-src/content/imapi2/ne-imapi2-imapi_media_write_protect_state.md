@@ -46,8 +46,6 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - _IMAPI_MEDIA_WRITE_PROTECT_STATE
- - PIMAPI_MEDIA_WRITE_PROTECT_STATE
  - IMAPI_MEDIA_WRITE_PROTECT_STATE
 ---
 
@@ -92,4 +90,3 @@ The drive does not recognize write capability of the media.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_writeprotectstatus">IDiscFormat2Data::get_WriteProtectStatus</a>
-

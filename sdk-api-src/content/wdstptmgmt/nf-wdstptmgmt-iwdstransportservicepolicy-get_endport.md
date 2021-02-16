@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportServicePolicy::get_EndPort
+ - IWdsTransportServicePolicy.EndPort
+ - IWdsTransportServicePolicy.get_EndPort
+ - IWdsTransportServicePolicy.put_EndPort
 ---
 
 # IWdsTransportServicePolicy::get_EndPort
@@ -63,4 +65,3 @@ When setting the UDP end port, this property validates that it is a valid value.
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportservicepolicy">IWdsTransportServicePolicy</a>
-

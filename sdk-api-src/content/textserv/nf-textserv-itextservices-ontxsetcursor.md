@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices::OnTxSetCursor
+ - ITextServices.OnTxSetCursor
 ---
 
 # ITextServices::OnTxSetCursor
@@ -208,4 +208,3 @@ For more information, see the Remarks in <a href="/windows/desktop/api/textserv/
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

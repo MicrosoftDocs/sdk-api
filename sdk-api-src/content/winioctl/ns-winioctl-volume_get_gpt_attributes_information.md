@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
- - PVOLUME_GET_GPT_ATTRIBUTES_INFORMATION
  - VOLUME_GET_GPT_ATTRIBUTES_INFORMATION
 ---
 
@@ -118,4 +116,3 @@ The volume is not assigned a default drive letter.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_volume_get_gpt_attributes">IOCTL_VOLUME_GET_GPT_ATTRIBUTES</a>
-

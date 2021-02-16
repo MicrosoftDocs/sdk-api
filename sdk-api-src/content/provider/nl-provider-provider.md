@@ -45,6 +45,8 @@ api_location:
  - sqlmgmprovider.dll
 api_name:
  - Provider
+ - ??1Provider@@UAE@XZ
+ - ??1Provider@@UEAA@XZ
 ---
 
 # Provider class
@@ -265,4 +267,3 @@ Determines whether a set of flags is valid for a query operation.
 ## -remarks
 
 The destructor for this class is <b>Provider::~Provider</b>.
-

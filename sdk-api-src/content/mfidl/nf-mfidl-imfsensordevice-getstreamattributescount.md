@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorDevice::GetStreamAttributesCount
+ - IMFSensorDevice.GetStreamAttributesCount
 ---
 
 # IMFSensorDevice::GetStreamAttributesCount
@@ -123,4 +123,3 @@ If no streams are marked as shared and no preview stream is available, the first
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoCollection::Add
+ - ISdoCollection.Add
 ---
 
 # ISdoCollection::Add
@@ -95,4 +95,3 @@ If the <i>bstrName</i> parameter is not specified, <b>ISdoCollection::Add</b> ob
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdocollection-isnameunique">ISdoCollection::IsNameUnique</a>
-

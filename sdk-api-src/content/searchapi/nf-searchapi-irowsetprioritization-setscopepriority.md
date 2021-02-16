@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IRowsetPrioritization::SetScopePriority
+ - IRowsetPrioritization.SetScopePriority
 ---
 
 # IRowsetPrioritization::SetScopePriority
@@ -115,4 +115,3 @@ Check out the <a href="/windows/win32/search/-search-sample-searchevents">Search
 
 
 <a href="/windows/desktop/search/-search-sql-rowset-properties">Rowset Properties</a>
-

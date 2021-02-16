@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarity::CloseTable
+ - ISimilarity.CloseTable
 ---
 
 # ISimilarity::CloseTable
@@ -71,4 +71,3 @@ When the <b>CloseTable</b> method returns, the tables are always closed, even if
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilarity">ISimilarity</a>
-

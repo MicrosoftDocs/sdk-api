@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportJob::put_Task
+ - IFsrmReportJob.Task
+ - IFsrmReportJob.get_Task
+ - IFsrmReportJob.put_Task
 ---
 
 # IFsrmReportJob::put_Task
@@ -76,4 +78,3 @@ For an example, see <a href="/previous-versions/windows/desktop/fsrm/defining-a-
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportjob">IFsrmReportJob</a>
-

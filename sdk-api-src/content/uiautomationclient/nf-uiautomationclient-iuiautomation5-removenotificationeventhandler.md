@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation5::RemoveNotificationEventHandler
+ - IUIAutomation5.RemoveNotificationEventHandler
 ---
 
 # IUIAutomation5::RemoveNotificationEventHandler
@@ -79,4 +79,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-removealleventhandlers">RemoveAllEventHandlers</a>
-

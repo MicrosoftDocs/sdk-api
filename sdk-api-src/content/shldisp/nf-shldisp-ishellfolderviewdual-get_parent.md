@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shldisp.h
 api_name:
- - IShellFolderViewDual::get_Parent
+ - IShellFolderViewDual.get_Parent
 ---
 
 # IShellFolderViewDual::get_Parent
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shldisp/nn-shldisp-ishellfolderviewdual3">IShellFolderViewDual3</a>
-

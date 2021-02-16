@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSAInstallServiceClassA
  - winsock2/WSAInstallServiceClassA
- - WSAInstallServiceClass
- - winsock2/WSAInstallServiceClass
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAInstallServiceClassA
  - WSAInstallServiceClass
+ - WSAInstallServiceClassA
+ - WSAInstallServiceClassW
 ---
 
 # WSAInstallServiceClassA function
@@ -194,4 +193,3 @@ The WS2_32.DLL has not been initialized. The application must first call
 
 > [!NOTE]
 > The winsock2.h header defines WSAInstallServiceClass as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

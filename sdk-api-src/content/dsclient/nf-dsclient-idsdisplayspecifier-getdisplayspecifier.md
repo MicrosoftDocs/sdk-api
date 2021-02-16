@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier::GetDisplaySpecifier
+ - IDsDisplaySpecifier.GetDisplaySpecifier
 ---
 
 # IDsDisplaySpecifier::GetDisplaySpecifier
@@ -124,4 +124,3 @@ if(SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver">IDsDisplaySpecifier::SetServer</a>
-

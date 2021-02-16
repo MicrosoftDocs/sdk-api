@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentHelper::Initialize
+ - IX509EnrollmentHelper.Initialize
 ---
 
 # IX509EnrollmentHelper::Initialize
@@ -122,4 +122,3 @@ The object has already been initialized.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmenthelper">IX509EnrollmentHelper</a>
-

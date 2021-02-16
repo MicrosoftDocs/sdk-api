@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::AllocateStreamingResources
+ - IMediaObject.AllocateStreamingResources
 ---
 
 # IMediaObject::AllocateStreamingResources
@@ -74,4 +74,3 @@ If the DMO supports this method, it should also support the <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

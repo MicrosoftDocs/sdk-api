@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidDevice::get_Status
+ - IMSVidDevice.get_Status
 ---
 
 # IMSVidDevice::get_Status
@@ -109,4 +109,3 @@ Not all device types implement this method.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsviddevice">IMSVidDevice Interface</a>
-

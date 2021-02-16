@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsRdc.h
 api_name:
- - __MIDL___MIDL_itf_msrdc_0000_0000_0013
  - FindSimilarFileIndexResults
 ---
 
@@ -69,4 +68,3 @@ The number of traits that were matched. The valid range is from <b>MSRDC_MINIMUM
 ## -see-also
 
 <a href="/windows/desktop/api/msrdc/nf-msrdc-isimilaritytraitstable-findsimilarfileindex">ISimilarityTraitsTable::FindSimilarFileIndex</a>
-

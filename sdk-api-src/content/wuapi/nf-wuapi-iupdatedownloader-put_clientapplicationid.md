@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloader::put_ClientApplicationID
+ - IUpdateDownloader.ClientApplicationID
+ - IUpdateDownloader.get_ClientApplicationID
+ - IUpdateDownloader.put_ClientApplicationID
 ---
 
 # IUpdateDownloader::put_ClientApplicationID
@@ -63,4 +65,3 @@ Returns the value Unknown if the client application has not set the property.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
-

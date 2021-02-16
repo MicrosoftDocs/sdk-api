@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile::GetVersion
+ - IWMProfile.GetVersion
+ - IWMProfile2.GetVersion
+ - IWMProfile3.GetVersion
 ---
 
 # IWMProfile::GetVersion
@@ -110,4 +112,3 @@ The version number indicates the version of the Windows Media codecs used to enc
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3</a>
-

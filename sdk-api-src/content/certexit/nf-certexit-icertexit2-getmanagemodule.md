@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certexit.h
 api_name:
- - ICertExit2::GetManageModule
+ - ICertExit2.GetManageModule
+ - CCertExit.GetManageModule
 ---
 
 # ICertExit2::GetManageModule
@@ -65,4 +66,3 @@ Pointer to the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodul
 
 <h3>VB</h3>
 The return value is a <b>Variant</b> containing the <a href="/windows/desktop/api/certmod/nn-certmod-icertmanagemodule">ICertManageModule</a> interface associated with the <a href="/windows/desktop/api/certexit/nn-certexit-icertexit2">ICertExit2</a> interface.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - _DETAILSINFO
  - DETAILSINFO
 ---
 
@@ -110,4 +109,3 @@ An <a href="/windows/desktop/api/shtypes/ns-shtypes-strret">STRRET</a> structure
 Type: <b>int</b>
 
 The index of an icon in the Shell image list that is displayed in the view.
-

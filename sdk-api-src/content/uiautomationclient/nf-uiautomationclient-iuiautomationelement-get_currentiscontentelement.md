@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentIsContentElement
+ - IUIAutomationElement.CurrentIsContentElement
+ - IUIAutomationElement.get_CurrentIsContentElement
 ---
 
 # IUIAutomationElement::get_CurrentIsContentElement
@@ -79,4 +80,3 @@ A content element contains data that is presented to the user. Examples of conte
 
 
 <b>Reference</b>
-

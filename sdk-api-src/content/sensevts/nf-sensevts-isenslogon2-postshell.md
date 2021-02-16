@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon2::PostShell
+ - ISensLogon2.PostShell
+ - ISensLogon2.PostShell
 ---
 
 # ISensLogon2::PostShell
@@ -106,4 +107,3 @@ SENS calls this method to notify your application that a user has logged on and 
 
 
 <a href="/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
-

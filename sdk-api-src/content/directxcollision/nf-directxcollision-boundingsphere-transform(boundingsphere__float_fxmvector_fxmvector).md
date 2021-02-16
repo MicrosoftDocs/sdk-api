@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingSphere::Transform
+ - BoundingSphere.Transform
 ---
 
 # BoundingSphere::Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR)
@@ -89,4 +89,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <a href="https://msdn.microsoft.com/545904d4-f6c4-4341-a043-70b1a4d81f1c">Transform</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiOpenClassRegKeyExA
  - setupapi/SetupDiOpenClassRegKeyExA
- - SetupDiOpenClassRegKeyEx
- - setupapi/SetupDiOpenClassRegKeyEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiOpenClassRegKeyExA
- - SetupDiOpenClassRegKeyEx
+ - SetupDiOpenClassRegKeyEx - SetupDiOpenClassRegKeyExA
 ---
 
 # SetupDiOpenClassRegKeyExA function
@@ -120,4 +117,3 @@ Callers of this function must close the handle returned from this function by ca
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendevregkey">SetupDiOpenDevRegKey</a>
-

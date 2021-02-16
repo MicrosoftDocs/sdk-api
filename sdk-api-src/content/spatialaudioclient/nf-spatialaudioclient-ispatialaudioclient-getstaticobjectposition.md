@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioClient::GetStaticObjectPosition
+ - ISpatialAudioClient.GetStaticObjectPosition
 ---
 
 # ISpatialAudioClient::GetStaticObjectPosition
@@ -99,4 +99,3 @@ The supplied  <a href="/windows/desktop/api/spatialaudioclient/ne-spatialaudiocl
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
-

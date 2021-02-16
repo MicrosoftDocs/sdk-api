@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo::Add
+ - IGPMSecurityInfo.Add
+ - GPMSecurityInfo.Add
 ---
 
 ## -description
@@ -111,4 +112,3 @@ For more information about security groups, see
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
-

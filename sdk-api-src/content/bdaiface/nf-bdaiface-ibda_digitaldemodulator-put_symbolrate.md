@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DigitalDemodulator::put_SymbolRate
+ - IBDA_DigitalDemodulator.put_SymbolRate
 ---
 
 # IBDA_DigitalDemodulator::put_SymbolRate
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_digitaldemodulator-get_symbolrate">IBDA_DigitalDemodulator::get_SymbolRate</a>
-

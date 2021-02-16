@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IFileViewerSite::SetPinnedWindow
+ - IFileViewerSite.SetPinnedWindow
 ---
 
 # IFileViewerSite::SetPinnedWindow
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj/nn-shlobj-ifileviewersite">IFileViewerSite</a>
-

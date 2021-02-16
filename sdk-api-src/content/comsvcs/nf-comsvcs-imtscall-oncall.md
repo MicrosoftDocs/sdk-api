@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IMTSCall::OnCall
+ - IMTSCall.OnCall
 ---
 
 # IMTSCall::OnCall
@@ -67,4 +67,3 @@ The batch work that is run in this method runs in the context and thread apartme
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-imtscall">IMTSCall</a>
-

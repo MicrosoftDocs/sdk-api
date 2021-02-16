@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::IsUsingDefaultSource
+ - IBasicVideo.IsUsingDefaultSource
 ---
 
 # IBasicVideo::IsUsingDefaultSource
@@ -70,4 +70,3 @@ Returns S_OK if the renderer is using the default source rectangle, or S_FALSE o
 
 
 <a href="/windows/desktop/api/control/nf-control-ibasicvideo-setdefaultsourceposition">IBasicVideo::SetDefaultSourcePosition</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDictionary::InsertAt
+ - IXpsOMDictionary.InsertAt
 ---
 
 # IXpsOMDictionary::InsertAt
@@ -128,4 +128,3 @@ The figure that follows illustrates how the dictionary is changed by the <b>Inse
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

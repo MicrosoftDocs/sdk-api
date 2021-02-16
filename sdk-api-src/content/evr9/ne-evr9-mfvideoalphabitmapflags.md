@@ -44,7 +44,6 @@ api_type:
 api_location:
  - evr9.h
 api_name:
- - __MIDL___MIDL_itf_evr9_0000_0002_0002
  - MFVideoAlphaBitmapFlags
 ---
 
@@ -104,4 +103,3 @@ Bitmask to validate flag values. This value is not a valid flag.
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

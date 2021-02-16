@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_GSS_INFO
- - PSECPKG_GSS_INFO
  - SECPKG_GSS_INFO
 ---
 
@@ -71,4 +69,3 @@ The encoded GSS OID length.
 ### -field EncodedId
 
 The encoded GSS OID.
-

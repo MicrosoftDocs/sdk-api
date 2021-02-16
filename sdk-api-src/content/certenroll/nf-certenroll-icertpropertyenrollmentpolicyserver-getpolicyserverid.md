@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - ICertPropertyEnrollmentPolicyServer::GetPolicyServerId
+ - ICertPropertyEnrollmentPolicyServer.GetPolicyServerId
 ---
 
 # ICertPropertyEnrollmentPolicyServer::GetPolicyServerId
@@ -112,4 +112,3 @@ The ID can be any string. It is set by the administrator who installs the CEP se
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollmentpolicyserver">ICertPropertyEnrollmentPolicyServer</a>
-

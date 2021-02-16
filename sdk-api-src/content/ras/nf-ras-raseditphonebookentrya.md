@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasEditPhonebookEntryA
  - ras/RasEditPhonebookEntryA
- - RasEditPhonebookEntry
- - ras/RasEditPhonebookEntry
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasEditPhonebookEntryA
  - RasEditPhonebookEntry
+ - RasEditPhonebookEntryA
+ - RasEditPhonebookEntryW
 ---
 
 # RasEditPhonebookEntryA function
@@ -156,4 +155,3 @@ When calling <a href="/windows/desktop/api/rasdlg/nf-rasdlg-rasentrydlga">RasEnt
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

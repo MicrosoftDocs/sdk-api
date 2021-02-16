@@ -42,7 +42,9 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor::put_BoundaryBottom
+ - IInertiaProcessor.BoundaryBottom
+ - IInertiaProcessor.get_BoundaryBottom
+ - IInertiaProcessor.put_BoundaryBottom
 ---
 
 # IInertiaProcessor::put_BoundaryBottom
@@ -83,4 +85,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/wintouch/iinertiaprocessor-properties">Properties</a>
-

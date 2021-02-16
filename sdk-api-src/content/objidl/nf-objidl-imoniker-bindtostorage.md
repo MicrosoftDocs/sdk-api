@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::BindToStorage
+ - IMoniker.BindToStorage
 ---
 
 # IMoniker::BindToStorage
@@ -247,4 +247,3 @@ If the caller does not specify asynchronous <a href="/windows/desktop/api/objidl
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-

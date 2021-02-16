@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::GetSubSystem
+ - IVdsLun.GetSubSystem
 ---
 
 # IVdsLun::GetSubSystem
@@ -111,4 +111,3 @@ The LUN object is no longer present.
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
-

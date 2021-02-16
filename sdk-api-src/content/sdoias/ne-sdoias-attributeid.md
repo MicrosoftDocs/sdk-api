@@ -43,7 +43,6 @@ api_type:
 api_location:
  - 
 api_name:
- - _ATTRIBUTEID
  - ATTRIBUTEID
 ---
 
@@ -1269,4 +1268,3 @@ This attribute is reserved for system use.
 
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-

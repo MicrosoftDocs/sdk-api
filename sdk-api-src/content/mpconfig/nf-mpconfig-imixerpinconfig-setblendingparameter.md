@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::SetBlendingParameter
+ - IMixerPinConfig.SetBlendingParameter
 ---
 
 # IMixerPinConfig::SetBlendingParameter
@@ -123,4 +123,3 @@ This method is not intended to be called on the primary stream.
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getblendingparameter">IMixerPinConfig::GetBlendingParameter</a>
-

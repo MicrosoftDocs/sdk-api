@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_HEADER0_
  - FWPM_NET_EVENT_HEADER0
 ---
 
@@ -145,4 +144,3 @@ Contains a user ID that corresponds to the traffic.
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
 
 [socket](/windows/desktop/api/winsock2/nf-winsock2-socket)
-

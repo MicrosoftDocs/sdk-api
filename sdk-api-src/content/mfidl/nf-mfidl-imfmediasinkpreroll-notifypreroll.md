@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSinkPreroll::NotifyPreroll
+ - IMFMediaSinkPreroll.NotifyPreroll
 ---
 
 # IMFMediaSinkPreroll::NotifyPreroll
@@ -81,4 +81,3 @@ During preroll, the media sink can prepare the samples that it receives, so that
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

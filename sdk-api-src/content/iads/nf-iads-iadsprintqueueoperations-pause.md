@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPrintQueueOperations::Pause
+ - IADsPrintQueueOperations.Pause
 ---
 
 # IADsPrintQueueOperations::Pause
@@ -65,4 +65,3 @@ This method supports the standard return values. For more information about othe
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadsprintqueueoperations-resume">IADsPrintQueueOperations::Resume</a>
-

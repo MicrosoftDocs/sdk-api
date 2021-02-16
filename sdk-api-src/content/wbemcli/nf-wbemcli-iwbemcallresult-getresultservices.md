@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - IWbemCallResult::GetResultServices
+ - IWbemCallResult.GetResultServices
 ---
 
 # IWbemCallResult::GetResultServices
@@ -84,4 +84,3 @@ COM-specific error codes may also be returned if network problems cause you to l
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-opennamespace">IWbemServices::OpenNamespace</a>
-

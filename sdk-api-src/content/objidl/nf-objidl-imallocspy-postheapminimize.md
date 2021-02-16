@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy::PostHeapMinimize
+ - IMallocSpy.PostHeapMinimize
 ---
 
 # IMallocSpy::PostHeapMinimize
@@ -69,4 +69,3 @@ When a spy object implementing <a href="/windows/desktop/api/objidl/nn-objidl-im
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-preheapminimize">IMallocSpy::PreHeapMinimize</a>
-

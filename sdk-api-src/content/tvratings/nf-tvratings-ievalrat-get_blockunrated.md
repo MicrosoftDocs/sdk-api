@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tvratings.h
 api_name:
- - IEvalRat::get_BlockUnRated
+ - IEvalRat.get_BlockUnRated
 ---
 
 # IEvalRat::get_BlockUnRated
@@ -103,4 +103,3 @@ The method succeeded.
 
 
 <a href="/previous-versions/windows/desktop/api/tvratings/nf-tvratings-ievalrat-put_blockunrated">IEvalRat::put_BlockUnRated</a>
-

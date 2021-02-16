@@ -42,7 +42,7 @@ api_type:
 api_location:
  - robuffer.h
 api_name:
- - IBufferByteAccess::Buffer
+ - IBufferByteAccess.Buffer
 ---
 
 # IBufferByteAccess::Buffer
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/previous-versions/hh846267(v=vs.85)">IBufferByteAccess</a>
-

@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::AbandonSearch
+ - IDirectorySearch.AbandonSearch
 ---
 
 # IDirectorySearch::AbandonSearch
@@ -121,4 +121,3 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistration::GetRegisterMode
+ - IMbnRegistration.GetRegisterMode
 ---
 
 # IMbnRegistration::GetRegisterMode
@@ -136,4 +136,3 @@ For recoverable error <b>E_MBN_PIN_REQUIRED</b>, the Mobile Broadband service wi
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistration">IMbnRegistration</a>
-

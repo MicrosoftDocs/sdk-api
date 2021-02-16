@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService::allowPlay
+ - IWMPSubscriptionService.allowPlay
 ---
 
 # IWMPSubscriptionService::allowPlay
@@ -87,4 +87,3 @@ The <b>allowPlay</b> method is not called when streaming protected content for w
 ## -see-also
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMCUSTOMDRAWINFO
- - LPNMCUSTOMDRAW
  - NMCUSTOMDRAW
 ---
 
@@ -376,4 +374,3 @@ Application-defined item data.
 ## -remarks
 
 The value your application returns depends on the current drawing stage. The <b>dwDrawStage</b> member of the associated <b>NMCUSTOMDRAW</b> structure holds a value that specifies the drawing stage. When the <b>dwDrawStage</b> member equals CDDS_PREPAINT and CDDS_PREERASE, some controls send the CDDS_PREERASE message first and expect the return value to indicate which subsequent messages will be sent. For a code sample that illustrates states and drawing stages, see <a href="/windows/desktop/Controls/custom-draw">Customizing a Control's Appearance Using Custom Draw</a>.
-

@@ -43,7 +43,7 @@ api_location:
  - D2D1.lib
  - D2D1.dll
 api_name:
- - ID2D1EffectContext::GetDpi
+ - ID2D1EffectContext.GetDpi
 ---
 
 # ID2D1EffectContext::GetDpi
@@ -78,4 +78,3 @@ The dpi on the y-axis.
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nf-d2d1effectauthor-id2d1effectimpl-prepareforrender">ID2D1EffectImpl::PrepareForRender</a>
-

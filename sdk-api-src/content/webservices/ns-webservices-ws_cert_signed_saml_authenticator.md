@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CERT_SIGNED_SAML_AUTHENTICATOR
  - WS_CERT_SIGNED_SAML_AUTHENTICATOR
 ---
 
@@ -116,4 +115,3 @@ validation on the SAML assertion if the signature validation passes.
 ### -field samlValidatorCallbackState
 
 The state to be passed back when invoking the samlValidator callback.
-

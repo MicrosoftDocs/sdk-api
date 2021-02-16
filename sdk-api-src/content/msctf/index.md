@@ -9,8 +9,6 @@ tech.root: tsf
 f1_keywords:
  - msctf
  - msctf/msctf
-api_name:
- - msctf
 ---
 
 # Msctf.h header

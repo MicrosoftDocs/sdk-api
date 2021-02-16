@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscContentAdvisoryDescriptor::GetLength
+ - IAtscContentAdvisoryDescriptor.GetLength
 ---
 
 # IAtscContentAdvisoryDescriptor::GetLength
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsccontentadvisorydescriptor">IAtscContentAdvisoryDescriptor Interface</a>
-

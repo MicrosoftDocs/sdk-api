@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0001_0048_0005
  - ADS_SD_CONTROL_ENUM
 ---
 
@@ -122,4 +121,3 @@ Since VBScript cannot read information from a type library, VBScript application
 
 
 <a href="/windows/desktop/SecAuthZ/access-control">Access Control</a>
-

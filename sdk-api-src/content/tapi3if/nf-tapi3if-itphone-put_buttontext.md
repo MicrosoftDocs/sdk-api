@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::put_ButtonText
+ - ITPhone.put_ButtonText
 ---
 
 # ITPhone::put_ButtonText
@@ -74,4 +74,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itphone-get_buttontext">get_ButtonText</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - _OPM_IMAGE_ASPECT_RATIO_EN300294
  - OPM_IMAGE_ASPECT_RATIO_EN300294
 ---
 
@@ -104,4 +103,3 @@ This enumeration is numerically equivalent to the <b>COPP_ImageAspectRatio_EN300
 
 
 <a href="/windows/win32/api/opmapi/ns-opmapi-opm_set_acp_and_cgmsa_signaling_parameters">OPM_SET_ACP_AND_CGMSA_SIGNALING_PARAMETERS</a>
-

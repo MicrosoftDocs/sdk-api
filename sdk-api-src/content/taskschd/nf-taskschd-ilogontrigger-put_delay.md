@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ILogonTrigger::put_Delay
+ - ILogonTrigger.Delay
+ - ILogonTrigger.get_Delay
+ - ILogonTrigger.put_Delay
 ---
 
 # ILogonTrigger::put_Delay
@@ -67,4 +69,3 @@ When reading or writing XML for a task, the logon trigger delay is specified usi
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator::GetSubpathCount
+ - GraphicsPathIterator.GetSubpathCount
 ---
 
 # GraphicsPathIterator::GetSubpathCount
@@ -88,4 +88,3 @@ This method returns the number of subpaths (also called figures) in the path.
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-startfigure">StartFigure</a>
-

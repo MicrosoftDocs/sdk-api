@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::IsHideOnDeactivate
+ - IFullScreenVideoEx.IsHideOnDeactivate
 ---
 
 # IFullScreenVideoEx::IsHideOnDeactivate
@@ -95,4 +95,3 @@ The video window is hidden.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - nldef.h
 api_name:
- - PNL_ADDRESS_TYPE
  - NL_ADDRESS_TYPE
 ---
 

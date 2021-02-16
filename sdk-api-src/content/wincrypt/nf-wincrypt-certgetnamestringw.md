@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CertGetNameStringW
  - wincrypt/CertGetNameStringW
- - CertGetNameString
- - wincrypt/CertGetNameString
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Crypt32.dll
 api_name:
- - CertGetNameStringW
  - CertGetNameString
+ - CertGetNameStringA
+ - CertGetNameStringW
 ---
 
 # CertGetNameStringW function
@@ -277,4 +276,3 @@ Returns the number of characters converted, including the terminating zero chara
 
 > [!NOTE]
 > The wincrypt.h header defines CertGetNameString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

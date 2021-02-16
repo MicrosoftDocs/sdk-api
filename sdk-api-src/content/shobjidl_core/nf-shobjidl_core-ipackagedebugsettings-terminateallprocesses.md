@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::TerminateAllProcesses
+ - IPackageDebugSettings.TerminateAllProcesses
 ---
 
 # IPackageDebugSettings::TerminateAllProcesses
@@ -69,4 +69,3 @@ This method does not suspend the processes first. To test suspension followed by
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
-

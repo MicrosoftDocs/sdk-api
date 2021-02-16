@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CharacterRange::operator=
+ - CharacterRange.operator=
 ---
 
 # CharacterRange::operator-assign
@@ -82,4 +82,3 @@ This method returns a reference to this <a href="/windows/desktop/api/gdiplustyp
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">SetMeasurableCharacterRanges</a>
-

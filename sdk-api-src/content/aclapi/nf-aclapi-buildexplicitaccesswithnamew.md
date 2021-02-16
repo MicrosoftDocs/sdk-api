@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BuildExplicitAccessWithNameW
  - aclapi/BuildExplicitAccessWithNameW
- - BuildExplicitAccessWithName
- - aclapi/BuildExplicitAccessWithName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-security-trustee-l1-1-1.dll
  - advapi32legacy.dll
 api_name:
- - BuildExplicitAccessWithNameW
  - BuildExplicitAccessWithName
+ - BuildExplicitAccessWithNameA
+ - BuildExplicitAccessWithNameW
 ---
 
 # BuildExplicitAccessWithNameW function
@@ -251,4 +250,3 @@ Noncontainer objects contained by the primary object inherit the ACE. This flag 
 
 > [!NOTE]
 > The aclapi.h header defines BuildExplicitAccessWithName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

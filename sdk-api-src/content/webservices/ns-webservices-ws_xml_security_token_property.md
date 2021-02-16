@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_SECURITY_TOKEN_PROPERTY
  - WS_XML_SECURITY_TOKEN_PROPERTY
 ---
 
@@ -70,4 +69,3 @@ A pointer to the value.
 ### -field valueSize
 
 The size in bytes of the memory pointed to by value.
-

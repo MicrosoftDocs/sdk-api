@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIOutputDuplication::AcquireNextFrame
+ - IDXGIOutputDuplication.AcquireNextFrame
 ---
 
 # IDXGIOutputDuplication::AcquireNextFrame
@@ -97,4 +97,3 @@ If the caller specifies a zero time-out interval in the <i>TimeoutInMilliseconds
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgioutputduplication">IDXGIOutputDuplication</a>
-

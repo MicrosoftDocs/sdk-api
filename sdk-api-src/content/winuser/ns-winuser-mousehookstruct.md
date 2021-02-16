@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMOUSEHOOKSTRUCT
- - LPMOUSEHOOKSTRUCT
  - MOUSEHOOKSTRUCT
 ---
 
@@ -107,4 +105,3 @@ Additional information associated with the message.
 
 
 <a href="/windows/desktop/inputdev/wm-nchittest">WM_NCHITTEST</a>
-

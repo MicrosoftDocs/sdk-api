@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_MAIL_LIST_RECIPIENT_INFO
- - PCMSG_MAIL_LIST_RECIPIENT_INFO
  - CMSG_MAIL_LIST_RECIPIENT_INFO
 ---
 
@@ -84,4 +82,3 @@ Optional. When present, this member specifies a single key-encryption key from a
 
 Optional pointer to a 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_attribute_type_value">CRYPT_ATTRIBUTE_TYPE_VALUE</a> structure containing additional information.
-

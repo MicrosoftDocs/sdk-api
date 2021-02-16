@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUIObjInfoW::ConvertObject
+ - IOleUIObjInfo.ConvertObject
+ - IOleUIObjInfoW.ConvertObject
+ - IOleUIObjInfoA.ConvertObject
 ---
 
 # IOleUIObjInfoW::ConvertObject
@@ -129,4 +131,3 @@ Your implementation of <b>IOleUIObjInfo::ConvertObject</b> needs to convert the 
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuiconverta">OleUIConvert</a>
-

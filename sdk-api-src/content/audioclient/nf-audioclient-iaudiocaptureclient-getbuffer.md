@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioCaptureClient::GetBuffer
+ - IAudioCaptureClient.GetBuffer
 ---
 
 # IAudioCaptureClient::GetBuffer
@@ -240,4 +240,3 @@ For a code example that calls the <b>GetBuffer</b> method, see <a href="/windows
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclock-getposition">IAudioClock::GetPosition</a>
-

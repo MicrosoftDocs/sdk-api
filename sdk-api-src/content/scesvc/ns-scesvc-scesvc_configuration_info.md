@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Scesvc.h
 api_name:
- - _SCESVC_CONFIGURATION_INFO_
- - PSCESVC_CONFIGURATION_INFO
  - SCESVC_CONFIGURATION_INFO
 ---
 
@@ -93,4 +91,3 @@ When analysis information is specified, the
 
 
 <a href="/windows/desktop/api/scesvc/ne-scesvc-scesvc_info_type">SCESVC_INFO_TYPE</a>
-

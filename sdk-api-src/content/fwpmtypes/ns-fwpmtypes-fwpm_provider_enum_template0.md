@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_ENUM_TEMPLATE0_
  - FWPM_PROVIDER_ENUM_TEMPLATE0
 ---
 
@@ -71,4 +70,3 @@ enumeration — all providers are returned.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

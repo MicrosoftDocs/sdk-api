@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSELECTCLIPPATH
- - PEMRSELECTCLIPPATH
  - EMRSELECTCLIPPATH
 ---
 
@@ -107,4 +105,3 @@ A value and meaning that varies depending on the function contained in the enhan
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-settextalign">SetTextAlign</a>
-

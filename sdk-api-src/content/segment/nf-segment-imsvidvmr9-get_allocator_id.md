@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVMR9::get_Allocator_ID
+ - IMSVidVMR9.get_Allocator_ID
 ---
 
 # IMSVidVMR9::get_Allocator_ID
@@ -92,4 +92,3 @@ To set a custom allocator-presenter, call <a href="/windows/desktop/api/segment/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidvmr9">IMSVidVMR9 Interface</a>
-

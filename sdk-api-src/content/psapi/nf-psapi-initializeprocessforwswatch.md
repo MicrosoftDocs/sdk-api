@@ -47,6 +47,7 @@ api_location:
  - KernelBase.dll
 api_name:
  - InitializeProcessForWsWatch
+ - K32InitializeProcessForWsWatch
 ---
 
 # InitializeProcessForWsWatch function
@@ -104,4 +105,3 @@ Programs that must run on earlier versions of Windows as
 
 
 <a href="/windows/desktop/psapi/working-set-information">Working Set Information</a>
-

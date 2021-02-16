@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth::SetNumChannelGroups
+ - IDirectMusicSynth.SetNumChannelGroups
 ---
 
 # IDirectMusicSynth::SetNumChannelGroups
@@ -102,4 +102,3 @@ For more information, see the description of the <b>IDirectMusic</b> interface i
 ## -see-also
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynth-open">IDirectMusicSynth::Open</a>
-

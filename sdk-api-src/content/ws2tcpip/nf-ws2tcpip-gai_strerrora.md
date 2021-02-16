@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - gai_strerrorA
  - ws2tcpip/gai_strerrorA
- - gai_strerror
- - ws2tcpip/gai_strerror
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Ws2tcpip.h
  - Wspiapi.h
 api_name:
- - gai_strerrorA
  - gai_strerror
+ - gai_strerrorA
+ - gai_strerrorW
 ---
 
 # gai_strerrorA function
@@ -100,4 +99,3 @@ If the <i>ecode</i> parameter is not an error code value that
 
 
 <a href="/windows/desktop/api/ws2tcpip/nf-ws2tcpip-getaddrinfo">getaddrinfo</a>
-

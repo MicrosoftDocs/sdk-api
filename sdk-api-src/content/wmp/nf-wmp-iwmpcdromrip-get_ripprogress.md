@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromRip::get_ripProgress
+ - IWMPCdromRip.get_ripProgress
 ---
 
 # IWMPCdromRip::get_ripProgress
@@ -93,4 +93,3 @@ The progress value represents the completed percentage of the entire ripping pro
 
 
 <a href="/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
-

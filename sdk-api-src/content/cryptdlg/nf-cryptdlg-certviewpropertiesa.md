@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CertViewPropertiesA
  - cryptdlg/CertViewPropertiesA
- - CertViewProperties
- - cryptdlg/CertViewProperties
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - CryptDlg.dll
 api_name:
- - CertViewPropertiesA
  - CertViewProperties
+ - CertViewPropertiesA
+ - CertViewPropertiesW
 ---
 
 # CertViewPropertiesA function
@@ -72,4 +71,3 @@ The return value is <b>TRUE</b> if the function is successful; <b>FALSE</b> if t
 
 > [!NOTE]
 > The cryptdlg.h header defines CertViewProperties as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

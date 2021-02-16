@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmwksta.h
 api_name:
- - _WKSTA_INFO_100
- - PWKSTA_INFO_100
  - WKSTA_INFO_100
 ---
 
@@ -179,4 +177,3 @@ The minor version number of the operating system running on the computer.
 
 
 <a href="/windows/desktop/NetMgmt/workstation-and-workstation-user-functions">Workstation and Workstation User Functions</a>
-

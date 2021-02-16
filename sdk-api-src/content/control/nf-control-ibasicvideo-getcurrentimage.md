@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::GetCurrentImage
+ - IBasicVideo.GetCurrentImage
 ---
 
 # IBasicVideo::GetCurrentImage
@@ -93,4 +93,3 @@ If the method succeeds, the buffer is filled with the entire DIB image, includin
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-

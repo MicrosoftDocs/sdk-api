@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_VCT::GetRecordName
+ - IATSC_VCT.GetRecordName
 ---
 
 # IATSC_VCT::GetRecordName
@@ -129,4 +129,3 @@ This method returns the short_name field.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_vct">IATSC_VCT Interface</a>
-

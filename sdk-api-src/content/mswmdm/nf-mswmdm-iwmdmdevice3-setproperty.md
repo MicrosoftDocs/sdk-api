@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDevice3::SetProperty
+ - IWMDMDevice3.SetProperty
 ---
 
 # IWMDMDevice3::SetProperty
@@ -107,4 +107,3 @@ Not all properties of the device can be set.
 
 
 <a href="/windows/desktop/WMDM/setting-metadata-on-a-file">Setting Metadata on a File</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportCacheable::get_Dirty
+ - IWdsTransportCacheable.Dirty
+ - IWdsTransportCacheable.get_Dirty
 ---
 
 # IWdsTransportCacheable::get_Dirty
@@ -63,4 +64,3 @@ All objects of the <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstr
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportcacheable">IWdsTransportCacheable</a>
-

@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
+ - INewShortcutHook.GetName
+ - INewShortcutHookA::GetName
  - INewShortcutHookW::GetName
 ---
 

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiRecordSetStreamA
  - msiquery/MsiRecordSetStreamA
- - MsiRecordSetStream
- - msiquery/MsiRecordSetStream
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiRecordSetStreamA
  - MsiRecordSetStream
+ - MsiRecordSetStreamA
+ - MsiRecordSetStreamW
 ---
 
 # MsiRecordSetStreamA function
@@ -97,4 +96,3 @@ If the function fails, you can obtain extended error information by using <a hre
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">Record Processing Functions</a>
-

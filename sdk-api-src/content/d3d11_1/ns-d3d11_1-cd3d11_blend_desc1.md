@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11_1.h
 api_name:
- - CD3D11_BLEND_DESC1
+ - D3D11_BLEND_DESC1
 ---
 
 ## -description
@@ -61,4 +61,3 @@ Describes the blend state that you use in a call to [**D3D11Device1::CreateBlend
 <a href="/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_render_target_blend_desc1">D3D11_RENDER_TARGET_BLEND_DESC1</a>
 
 <a href="/windows/desktop/api/d3d11_1/nf-d3d11_1-id3d11blendstate1-getdesc1">ID3D11BlendState1::GetDesc1</a>
-

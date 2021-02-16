@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate4::get_PerUser
+ - IUpdate4.PerUser
+ - IUpdate4.get_PerUser
 ---
 
 # IUpdate4::get_PerUser
@@ -63,4 +64,3 @@ Per-user updates are  designed to alter the current user’s environment only; n
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate4">IUpdate4</a>
-

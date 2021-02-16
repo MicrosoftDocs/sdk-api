@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0030
- - PMPEG_CONTEXT
  - MPEG_CONTEXT
 ---
 
@@ -79,4 +77,3 @@ Currently not supported.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

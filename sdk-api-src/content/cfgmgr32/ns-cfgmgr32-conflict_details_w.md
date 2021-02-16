@@ -46,9 +46,8 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - _CONFLICT_DETAILS_W
- - PCONFLICT_DETAILS_W
- - CONFLICT_DETAILS_W
+ - CONFLICT_DETAILS
+ - conflict_details_w
 ---
 
 # CONFLICT_DETAILS_W structure
@@ -176,4 +175,3 @@ If CM_CDMASK_DESCRIPTION is set in <b>CD_ulMask</b>, this member will receive a 
 
 > [!NOTE]
 > The cfgmgr32.h header defines CONFLICT_DETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

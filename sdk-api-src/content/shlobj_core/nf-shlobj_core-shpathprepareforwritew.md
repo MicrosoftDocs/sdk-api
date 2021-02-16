@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHPathPrepareForWriteW
  - shlobj_core/SHPathPrepareForWriteW
- - SHPathPrepareForWrite
- - shlobj_core/SHPathPrepareForWrite
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHPathPrepareForWriteW
  - SHPathPrepareForWrite
+ - SHPathPrepareForWriteA
+ - SHPathPrepareForWriteW
 ---
 
 # SHPathPrepareForWriteW function
@@ -173,4 +172,3 @@ The primary use of this function is for a program to check a path before using i
 
 > [!NOTE]
 > The shlobj_core.h header defines SHPathPrepareForWrite as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

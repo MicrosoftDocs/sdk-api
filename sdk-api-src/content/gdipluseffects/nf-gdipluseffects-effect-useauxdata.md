@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Effect::UseAuxData
+ - Effect.UseAuxData
 ---
 
 # Effect::UseAuxData
@@ -72,4 +72,3 @@ Set to <b>TRUE</b> to specify that <a href="/windows/desktop/api/gdiplusheaders/
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-effect-getauxdatasize">Effect::GetAuxDataSize</a>
-

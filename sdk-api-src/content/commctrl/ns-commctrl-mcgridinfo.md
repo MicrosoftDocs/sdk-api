@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagMCGRIDINFO
- - PMCGRIDINFO
  - MCGRIDINFO
 ---
 
@@ -272,4 +270,3 @@ Pointer to a string for which <b>cchName</b> is the length. Set only if <b>dwFla
 Type: <b>size_t</b>
 
 Length of <b>pszName</b>, in characters.
-

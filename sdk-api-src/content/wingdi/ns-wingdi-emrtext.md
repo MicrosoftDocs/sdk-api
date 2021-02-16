@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRTEXT
- - PEMRTEXT
  - EMRTEXT
 ---
 
@@ -107,4 +105,3 @@ The <b>EMRTEXT</b> structure is used as a member in the <a href="/windows/deskto
 
 
 <a href="/previous-versions/dd162907(v=vs.85)">RECTL</a>
-

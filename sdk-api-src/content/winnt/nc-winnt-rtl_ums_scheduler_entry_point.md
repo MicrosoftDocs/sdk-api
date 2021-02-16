@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - RTL_UMS_SCHEDULER_ENTRY_POINT
+ - UmsSchedulerProc
 ---
 
 # RTL_UMS_SCHEDULER_ENTRY_POINT callback function
@@ -167,4 +167,3 @@ When a blocked UMS worker thread becomes unblocked, the system queues the unbloc
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-umsthreadyield">UmsThreadYield</a>
-

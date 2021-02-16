@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CInstance::SetWBEMINT16
+ - CInstance.SetWBEMINT16
+ - ?SetWBEMINT16@CInstance@@QAE_NPBGABF@Z
+ - ?SetWBEMINT16@CInstance@@QEAA_NPEBGAEBF@Z
 ---
 
 # CInstance::SetWBEMINT16
@@ -72,4 +74,3 @@ Value assigned to the 16-bit integer property.
 ## -returns
 
 Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attempt was made to set a nonexistent property or a property that is not a 16-bit integer. More information is available in the log file, Framework.log.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITask::SetPriority
+ - ITask.SetPriority
 ---
 
 # ITask::SetPriority
@@ -122,4 +122,3 @@ For more information and an example of how to set the priority of  a task, see <
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-

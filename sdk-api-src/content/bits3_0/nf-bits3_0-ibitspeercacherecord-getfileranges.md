@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheRecord::GetFileRanges
+ - IBitsPeerCacheRecord.GetFileRanges
 ---
 
 # IBitsPeerCacheRecord::GetFileRanges
@@ -96,4 +96,3 @@ The method always returns at least one range (for the complete file). Multiple r
 
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeercacherecord">IBitsPeerCacheRecord</a>
-

@@ -44,6 +44,7 @@ api_location:
  - Inkdiv.dll.dll
 api_name:
  - IInkDivisionUnits
+ - IInkDivisionUnits._NewEnum
 ---
 
 # IInkDivisionUnits interface
@@ -76,4 +77,3 @@ If you define a class that implements this interface, the new class will not int
 
 
 <a href="/windows/desktop/api/msinkaut15/nn-msinkaut15-iinkdivisionunit">IInkDivisionUnit Interface</a>
-

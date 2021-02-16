@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes::get_AntiAliased
+ - IInkDrawingAttributes.AntiAliased
+ - IInkDrawingAttributes.get_AntiAliased
+ - IInkDrawingAttributes.put_AntiAliased
+ - InkDrawingAttributes.get_AntiAliased
+ - InkDrawingAttributes.put_AntiAliased
 ---
 
 # IInkDrawingAttributes::get_AntiAliased
@@ -72,4 +76,3 @@ Antialiasing improves the quality of rendering by making ink appear smoother and
 
 
 <a href="/windows/desktop/tablet/inkdrawingattributes-class">InkDrawingAttribute Class</a>
-

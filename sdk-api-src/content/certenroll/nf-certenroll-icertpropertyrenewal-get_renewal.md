@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyRenewal::get_Renewal
+ - ICertPropertyRenewal.Renewal
+ - ICertPropertyRenewal.get_Renewal
 ---
 
 # ICertPropertyRenewal::get_Renewal
@@ -63,4 +64,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyren
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyrenewal">ICertPropertyRenewal</a>
-

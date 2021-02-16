@@ -42,7 +42,7 @@ api_type:
 api_location:
  - TSGPolicyEngine.h
 api_name:
- - ITSGPolicyEngine::Refresh
+ - ITSGPolicyEngine.Refresh
 ---
 
 # ITSGPolicyEngine::Refresh
@@ -61,4 +61,3 @@ Always returns <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/tsgpolicyengine/nn-tsgpolicyengine-itsgpolicyengine">ITSGPolicyEngine</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication::get_ProcessImageFileName
+ - INetFwAuthorizedApplication.ProcessImageFileName
+ - INetFwAuthorizedApplication.get_ProcessImageFileName
+ - INetFwAuthorizedApplication.put_ProcessImageFileName
 ---
 
 # INetFwAuthorizedApplication::get_ProcessImageFileName
@@ -74,4 +76,3 @@ A demonstration of this property can be found in the VBScript code example <a hr
 
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a>
-

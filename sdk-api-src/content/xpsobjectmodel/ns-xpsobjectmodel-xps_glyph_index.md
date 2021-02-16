@@ -44,7 +44,6 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - __MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0021
  - XPS_GLYPH_INDEX
 ---
 

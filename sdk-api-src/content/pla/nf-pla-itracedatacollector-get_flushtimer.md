@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_FlushTimer
+ - ITraceDataCollector.FlushTimer
+ - ITraceDataCollector.get_FlushTimer
+ - ITraceDataCollector.put_FlushTimer
 ---
 
 # ITraceDataCollector::get_FlushTimer
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
-

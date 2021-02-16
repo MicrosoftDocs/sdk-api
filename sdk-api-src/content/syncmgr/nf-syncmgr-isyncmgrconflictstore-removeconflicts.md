@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrConflictStore::RemoveConflicts
+ - ISyncMgrConflictStore.RemoveConflicts
 ---
 
 # ISyncMgrConflictStore::RemoveConflicts
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 The conflicts are removed when the user selects the conflicts in the conflicts folder and chooses to delete them.
-

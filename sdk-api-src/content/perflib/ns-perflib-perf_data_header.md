@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_DATA_HEADER
- - PPERF_DATA_HEADER
  - PERF_DATA_HEADER
 ---
 
@@ -103,4 +101,3 @@ you compute the display values of certain performance counters.
 
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterinfo">PerfQueryCounterInfo</a>
-

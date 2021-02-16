@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplateWritable::Initialize
+ - IX509CertificateTemplateWritable.Initialize
 ---
 
 # IX509CertificateTemplateWritable::Initialize
@@ -108,4 +108,3 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetempl
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplatewritable">IX509CertificateTemplateWritable</a>
-

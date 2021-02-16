@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - ISynchronize::Reset
+ - ISynchronize.Reset
 ---
 
 # ISynchronize::Reset
@@ -69,4 +69,3 @@ In general, it is the server's responsibility to call <b>Reset</b>. If, however,
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-isynchronize">ISynchronize</a>
-

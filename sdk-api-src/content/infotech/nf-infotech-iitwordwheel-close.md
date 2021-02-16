@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITWordWheel::Close
+ - IITWordWheel.Close
 ---
 
 # IITWordWheel::Close
@@ -81,4 +81,3 @@ The word wheel was successfully closed.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitwordwheel">IITWordWheel</a>
-

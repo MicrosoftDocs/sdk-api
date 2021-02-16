@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IErrorInfo::GetHelpFile
+ - IErrorInfo.GetHelpFile
 ---
 
 # IErrorInfo::GetHelpFile
@@ -69,4 +69,3 @@ This method returns the fully qualified path of the Help file that describes the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-ierrorinfo">IErrorInfo</a>
-

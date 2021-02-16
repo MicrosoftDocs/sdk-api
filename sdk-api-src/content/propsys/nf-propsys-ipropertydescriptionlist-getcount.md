@@ -42,7 +42,7 @@ api_type:
 api_location:
  - propsys.h
 api_name:
- - IPropertyDescriptionList::GetCount
+ - IPropertyDescriptionList.GetCount
 ---
 
 # IPropertyDescriptionList::GetCount

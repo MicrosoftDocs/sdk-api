@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mpeg2psiparser.h
 api_name:
- - ICAT::Initialize
+ - ICAT.Initialize
 ---
 
 # ICAT::Initialize
@@ -114,4 +114,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
-

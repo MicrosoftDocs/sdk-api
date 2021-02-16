@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagPhysicalConnectorType
  - PhysicalConnectorType
 ---
 
@@ -160,4 +159,3 @@ Specifies an audio decoder pin.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

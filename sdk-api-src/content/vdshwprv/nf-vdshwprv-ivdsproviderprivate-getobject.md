@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsProviderPrivate::GetObject
+ - IVdsProviderPrivate.GetObject
 ---
 
 # IVdsProviderPrivate::GetObject
@@ -103,4 +103,3 @@ The object can be a  subsystem, controller, LUN, LUN plex, drive, pack, disk, vo
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_object_type">VDS_OBJECT_TYPE</a>
-

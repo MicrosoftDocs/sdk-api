@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor::SetGlyphMappings
+ - IXpsOMGlyphsEditor.SetGlyphMappings
 ---
 
 # IXpsOMGlyphsEditor::SetGlyphMappings
@@ -133,4 +133,3 @@ In one or more <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a>
-

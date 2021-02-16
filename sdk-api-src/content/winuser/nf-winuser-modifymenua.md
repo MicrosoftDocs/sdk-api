@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - ModifyMenuA
  - winuser/ModifyMenuA
- - ModifyMenu
- - winuser/ModifyMenu
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +42,10 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - ModifyMenuA
  - ModifyMenu
+ - ModifyMenuA
+ - ModifyMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-3 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # ModifyMenuA function
@@ -376,4 +375,3 @@ For an example, see <a href="/windows/desktop/menurc/using-menus">Setting Fonts 
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setmenuiteminfoa">SetMenuItemInfo</a>
-

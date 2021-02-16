@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::Initialize
+ - CVssWriter.Initialize
 ---
 
 # CVssWriter::Initialize
@@ -238,4 +238,3 @@ The <i>wszWriterInstanceName</i> parameter allows a multi-instance writer to spe
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_usage_type">VSS_USAGE_TYPE</a>
-

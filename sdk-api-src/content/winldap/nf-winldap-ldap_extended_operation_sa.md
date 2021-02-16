@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_extended_operation_sA
  - winldap/ldap_extended_operation_sA
- - ldap_extended_operation_s
- - winldap/ldap_extended_operation_s
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_extended_operation_sA
  - ldap_extended_operation_s
+ - ldap_extended_operation_sA
+ - ldap_extended_operation_sW
 ---
 
 # ldap_extended_operation_sA function
@@ -132,4 +131,3 @@ Multithreading: The <b>ldap_extended_operation_s</b> function is thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
-

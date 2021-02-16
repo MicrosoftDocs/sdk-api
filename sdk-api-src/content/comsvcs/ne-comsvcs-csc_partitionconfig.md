@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCSC_PartitionConfig
  - CSC_PartitionConfig
 ---
 
@@ -92,4 +91,3 @@ This enumeration is used to specify the working COM+ partition through <a href="
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicepartitionconfig-partitionconfig">IServicePartitionConfig::PartitionConfig</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationStylesPattern::get_CachedStyleName
+ - IUIAutomationStylesPattern.CachedStyleName
+ - IUIAutomationStylesPattern.get_CachedStyleName
 ---
 
 # IUIAutomationStylesPattern::get_CachedStyleName
@@ -63,4 +64,3 @@ The style name typically indicates the role of the element in the document, such
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationstylespattern">IUIAutomationStylesPattern</a>
-

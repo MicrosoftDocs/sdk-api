@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
- - NET_FW_PROFILE_TYPE2_
  - NET_FW_PROFILE_TYPE2
 ---
 
@@ -79,4 +78,3 @@ Profile type is public. This profile type is used for public Internet access poi
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
-

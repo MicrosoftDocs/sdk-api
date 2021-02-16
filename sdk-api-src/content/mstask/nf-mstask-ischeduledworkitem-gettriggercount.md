@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::GetTriggerCount
+ - IScheduledWorkItem.GetTriggerCount
 ---
 
 # IScheduledWorkItem::GetTriggerCount
@@ -112,4 +112,3 @@ Not enough memory is available.
 
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itask">ITask</a>
-

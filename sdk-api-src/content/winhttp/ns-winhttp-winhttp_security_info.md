@@ -28,7 +28,6 @@ api_location:
  - winhttp.h
 api_name:
  - _WINHTTP_SECURITY_INFO
- - PWINHTTP_SECURITY_INFO
  - WINHTTP_SECURITY_INFO
 f1_keywords:
  - _WINHTTP_SECURITY_INFO

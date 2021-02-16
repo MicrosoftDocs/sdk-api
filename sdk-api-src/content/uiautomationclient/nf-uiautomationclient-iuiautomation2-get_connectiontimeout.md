@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomation2::get_ConnectionTimeout
+ - IUIAutomation2.ConnectionTimeout
+ - IUIAutomation2.get_ConnectionTimeout
+ - IUIAutomation2.put_ConnectionTimeout
 ---
 
 # IUIAutomation2::get_ConnectionTimeout
@@ -63,4 +65,3 @@ The default connection timeout value is two seconds. A responsive UI Automation 
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation2">IUIAutomation2</a>
-

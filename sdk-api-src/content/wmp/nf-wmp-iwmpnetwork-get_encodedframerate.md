@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_encodedFrameRate
+ - IWMPNetwork.get_encodedFrameRate
 ---
 
 # IWMPNetwork::get_encodedFrameRate
@@ -87,4 +87,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_framerate">IWMPNetwork::get_frameRate</a>
-

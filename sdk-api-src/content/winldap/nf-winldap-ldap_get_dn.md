@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_get_dn
+ - ldap_get_dnA
+ - ldap_get_dnW
 ---
 
 # ldap_get_dn function
@@ -95,4 +97,3 @@ The <b>ldap_get_dn</b> function retrieves the distinguished name for an entry th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
-

@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::get_GroupBroadcastReceipts
+ - IFaxDocument.GroupBroadcastReceipts
+ - IFaxDocument.get_GroupBroadcastReceipts
+ - IFaxDocument.put_GroupBroadcastReceipts
+ - IFaxDocument.get_GroupBroadcastReceipts
+ - IFaxDocument.put_GroupBroadcastReceipts
 ---
 
 # IFaxDocument::get_GroupBroadcastReceipts
@@ -67,4 +71,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-broadcasting-a-fax">Visual Basic Example</a>
-

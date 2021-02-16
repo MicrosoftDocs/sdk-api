@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_INTF_OPCODE
- - PWLAN_INTF_OPCODE
  - WLAN_INTF_OPCODE
 ---
 
@@ -171,4 +170,3 @@ The <b>WLAN_INTF_OPCODE</b> enumerated type defines the possible opcodes that ca
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
-

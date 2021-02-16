@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - ISectionList::InitializeWithRawSections
+ - ISectionList.InitializeWithRawSections
 ---
 
 # ISectionList::InitializeWithRawSections
@@ -114,4 +114,3 @@ Use this method as follows:
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-isectionlist">ISectionList Interface</a>
-

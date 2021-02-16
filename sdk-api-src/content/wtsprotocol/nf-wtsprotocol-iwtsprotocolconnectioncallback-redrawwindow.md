@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnectionCallback::RedrawWindow
+ - IWTSProtocolConnectionCallback.RedrawWindow
 ---
 
 # IWTSProtocolConnectionCallback::RedrawWindow
@@ -84,4 +84,3 @@ To avoid deadlocks when calling this method:
 
 
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocolconnectioncallback-stopscreenupdates">StopScreenUpdates</a>
-

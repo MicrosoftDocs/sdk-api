@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireOptionsDialog::Initialize
+ - IPhotoAcquireOptionsDialog.Initialize
 ---
 
 # IPhotoAcquireOptionsDialog::Initialize
@@ -90,4 +90,3 @@ If <code>Initialize</code> is called while the options dialog box is already dis
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireoptionsdialog">IPhotoAcquireOptionsDialog Interface</a>
-

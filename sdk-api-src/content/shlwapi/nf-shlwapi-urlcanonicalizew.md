@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - UrlCanonicalizeW
  - shlwapi/UrlCanonicalizeW
- - UrlCanonicalize
- - shlwapi/UrlCanonicalize
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - UrlCanonicalizeW
  - UrlCanonicalize
+ - UrlCanonicalizeA
+ - UrlCanonicalizeW
 ---
 
 # UrlCanonicalizeW function
@@ -201,4 +200,3 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 ## -see-also
 
 <a href="/windows/desktop/WinInet/handling-uniform-resource-locators">Handling Uniform Resource Locators</a>
-

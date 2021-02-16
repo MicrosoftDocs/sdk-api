@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MF_ATTRIBUTES_MATCH_TYPE
  - MF_ATTRIBUTES_MATCH_TYPE
 ---
 
@@ -84,4 +83,3 @@ Find the object with the fewest number of attributes, and check if those attribu
 
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

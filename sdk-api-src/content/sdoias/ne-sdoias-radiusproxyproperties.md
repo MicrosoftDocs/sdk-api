@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _RADIUSPROXYPROPERTIES
  - RADIUSPROXYPROPERTIES
 ---
 
@@ -65,4 +64,3 @@ The collection of RADIUS proxy server groups.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-radiusservergroupproperties">RADIUSSERVERGROUPPROPERTIES</a>
-

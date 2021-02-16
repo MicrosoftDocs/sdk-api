@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleAssignment::get_Scope
+ - IAzRoleAssignment.Scope
+ - IAzRoleAssignment.get_Scope
 ---
 
 # IAzRoleAssignment::get_Scope
@@ -55,4 +56,3 @@ The <b>Scope</b> property retrieves the <a href="/windows/desktop/api/azroles/nn
 This property is read-only.
 
 ## -parameters
-

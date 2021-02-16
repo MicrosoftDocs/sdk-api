@@ -43,6 +43,7 @@ api_location:
  - Mmcndmgr.dll
 api_name:
  - IMMCVersionInfo
+ - MMCVersionInfo
 ---
 
 # IMMCVersionInfo interface

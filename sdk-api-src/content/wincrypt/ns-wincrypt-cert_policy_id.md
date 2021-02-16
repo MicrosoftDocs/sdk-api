@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_POLICY_ID
- - PCERT_POLICY_ID
  - CERT_POLICY_ID
 ---
 
@@ -74,4 +72,3 @@ Array of pointers to policy element identifier strings.
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_key_usage_restriction_info">CERT_KEY_USAGE_RESTRICTION_INFO</a>
-

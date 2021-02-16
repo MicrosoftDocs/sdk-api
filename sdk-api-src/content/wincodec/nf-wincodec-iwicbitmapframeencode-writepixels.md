@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode::WritePixels
+ - IWICBitmapFrameEncode.WritePixels
 ---
 
 # IWICBitmapFrameEncode::WritePixels
@@ -116,4 +116,3 @@ The value of <i>lineCount</i> is larger than the number of scan lines in the ima
 ## -remarks
 
 Successive <b>WritePixels</b> calls are assumed to be sequential scan-line access in the output image.
-

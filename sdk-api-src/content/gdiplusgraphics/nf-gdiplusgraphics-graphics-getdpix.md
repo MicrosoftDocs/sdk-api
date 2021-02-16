@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::GetDpiX
+ - Graphics.GetDpiX
 ---
 
 # Graphics::GetDpiX
@@ -86,4 +86,3 @@ This method returns the horizontal resolution, in dots per inch, of the display 
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-types-of-coordinate-systems-about">Types of Coordinate Systems</a>
-

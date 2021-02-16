@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_CIPHER_ALGORITHM0_
  - IKEEXT_CIPHER_ALGORITHM0
 ---
 
@@ -82,4 +81,3 @@ Unused parameter, always set it to 0.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

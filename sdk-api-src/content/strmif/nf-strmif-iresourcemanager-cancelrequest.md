@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceManager::CancelRequest
+ - IResourceManager.CancelRequest
 ---
 
 # IResourceManager::CancelRequest
@@ -140,4 +140,3 @@ This method should be called when the <a href="/windows/desktop/api/strmif/nn-st
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourcemanager">IResourceManager Interface</a>
-

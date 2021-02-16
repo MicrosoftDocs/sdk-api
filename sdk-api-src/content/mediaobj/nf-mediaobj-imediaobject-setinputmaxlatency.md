@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::SetInputMaxLatency
+ - IMediaObject.SetInputMaxLatency
 ---
 
 # IMediaObject::SetInputMaxLatency
@@ -125,4 +125,3 @@ Success
 
 
 <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getinputmaxlatency">IMediaObject::GetInputMaxLatency</a>
-

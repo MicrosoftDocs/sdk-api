@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem::GetItemID
+ - ISyncMgrSyncItem.GetItemID
 ---
 
 # ISyncMgrSyncItem::GetItemID
@@ -109,4 +109,3 @@ STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
 }
 
 ```
-

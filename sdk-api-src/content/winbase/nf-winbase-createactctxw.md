@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateActCtxW
  - winbase/CreateActCtxW
- - CreateActCtx
- - winbase/CreateActCtx
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-Ms-Win-Core-Sidebyside-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - CreateActCtxW
  - CreateActCtx
+ - CreateActCtxA
+ - CreateActCtxW
 ---
 
 # CreateActCtxW function
@@ -94,4 +93,3 @@ Set any undefined bits in <b>dwFlags</b> of
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/ns-winbase-actctxa">ACTCTX</a>
-

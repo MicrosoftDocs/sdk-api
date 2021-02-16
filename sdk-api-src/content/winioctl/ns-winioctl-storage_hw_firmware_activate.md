@@ -45,8 +45,6 @@ api_type:
 api_location:
  - winioctl.h
 api_name:
- - _STORAGE_HW_FIRMWARE_ACTIVATE
- - PSTORAGE_HW_FIRMWARE_ACTIVATE
  - STORAGE_HW_FIRMWARE_ACTIVATE
 ---
 
@@ -121,4 +119,3 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/FileIO/storage-hw-firmware-slot-info">STORAGE_HW_FIRMWARE_SLOT_INFO</a>
-

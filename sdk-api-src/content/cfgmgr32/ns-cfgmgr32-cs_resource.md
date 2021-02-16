@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - CS_Resource_s
- - PCS_RESOURCE
  - CS_RESOURCE
 ---
 
@@ -67,4 +65,3 @@ A [CS_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des) structure.
 ## -see-also
 
 [CS_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_des)
-

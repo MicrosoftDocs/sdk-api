@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imjpcic.dll
 api_name:
- - ITfDisplayAttributeProvider::GetDisplayAttributeInfo
+ - ITfDisplayAttributeProvider.GetDisplayAttributeInfo
 ---
 
 # ITfDisplayAttributeProvider::GetDisplayAttributeInfo
@@ -134,4 +134,3 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/TSF/providing-display-attributes">Providing Display Attributes</a>
-

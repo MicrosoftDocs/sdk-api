@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::IsPlaybackRateSupported
+ - IMFMediaEngineEx.IsPlaybackRateSupported
 ---
 
 # IMFMediaEngineEx::IsPlaybackRateSupported
@@ -71,4 +71,3 @@ The results of this method can vary depending on the media resource that is curr
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

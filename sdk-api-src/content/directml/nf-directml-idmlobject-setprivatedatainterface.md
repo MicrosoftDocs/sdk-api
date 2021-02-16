@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLObject::SetPrivateDataInterface
+ - IDMLObject.SetPrivateDataInterface
 ---
 
 # IDMLObject::SetPrivateDataInterface
@@ -75,4 +75,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 [IDMLObject](/windows/win32/api/directml/nn-directml-idmlobject)
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow::CanChange
+ - ITextRow.CanChange
 ---
 
 # ITextRow::CanChange
@@ -73,4 +73,3 @@ The row can be changed only if no part of an associated range is protected and t
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrow">ITextRow</a>
-

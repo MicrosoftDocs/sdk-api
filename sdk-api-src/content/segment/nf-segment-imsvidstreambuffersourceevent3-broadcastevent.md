@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent3::BroadcastEvent
+ - IMSVidStreamBufferSourceEvent3.BroadcastEvent
 ---
 
 # IMSVidStreamBufferSourceEvent3::BroadcastEvent
@@ -70,4 +70,3 @@ Return S_OK or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent3">IMSVidStreamBufferSourceEvent3 Interface</a>
-

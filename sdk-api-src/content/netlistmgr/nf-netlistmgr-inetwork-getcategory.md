@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork::GetCategory
+ - INetwork.GetCategory
 ---
 
 # INetwork::GetCategory
@@ -73,4 +73,3 @@ The private or public network categories must never be used to assume  which Win
 
 
 <a href="/windows/desktop/api/netlistmgr/ne-netlistmgr-nlm_network_category">NLM_NETWORK_CATEGORY</a>
-

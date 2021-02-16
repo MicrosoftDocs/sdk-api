@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent
+ - IUIAutomationPropertyChangedEventHandler.HandlePropertyChangedEvent
 ---
 
 # IUIAutomationPropertyChangedEventHandler::HandlePropertyChangedEvent
@@ -84,4 +84,3 @@ This method is implemented by the application to handle events that it has subsc
 			
 
 Adjusting an event handler from within this method is not supported.
-

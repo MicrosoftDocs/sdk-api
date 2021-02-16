@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::CreateMutualExclusion
+ - IMFASFProfile.CreateMutualExclusion
 ---
 
 # IMFASFProfile::CreateMutualExclusion
@@ -96,4 +96,3 @@ The ASF mutual exclusion object created by this method is not associated with th
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
-

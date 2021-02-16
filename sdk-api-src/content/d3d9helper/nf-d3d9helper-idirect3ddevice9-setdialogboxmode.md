@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetDialogBoxMode
+ - IDirect3DDevice9.SetDialogBoxMode
 ---
 
 # IDirect3DDevice9::SetDialogBoxMode
@@ -87,4 +87,3 @@ The method has no effect for windowed mode applications, but this setting will b
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-

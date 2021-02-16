@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
+ - IIsdbCAContractInformationDescriptor.GetContractVerificationInfo
 ---
 
 # IIsdbCAContractInformationDescriptor::GetContractVerificationInfo
@@ -77,4 +77,3 @@ request information.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbcacontractinformationdescriptor">IIsdbCAContractInformationDescriptor</a>
-

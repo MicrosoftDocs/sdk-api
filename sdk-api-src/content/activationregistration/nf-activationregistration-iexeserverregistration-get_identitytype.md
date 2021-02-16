@@ -42,7 +42,7 @@ api_type:
 api_location:
  - activationregistration.h
 api_name:
- - IExeServerRegistration::get_IdentityType
+ - IExeServerRegistration.get_IdentityType
 ---
 
 # IExeServerRegistration::get_IdentityType
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/activationregistration/ne-activationregistration-identitytype">IdentityType</a>
-

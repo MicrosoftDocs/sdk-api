@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDeviceProvider::get_UniqueName
+ - IFaxDeviceProvider.UniqueName
+ - IFaxDeviceProvider.get_UniqueName
+ - IFaxDeviceProvider.get_UniqueName
 ---
 
 # IFaxDeviceProvider::get_UniqueName
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-device-providers">Visual Basic Example</a>
-

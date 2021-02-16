@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - TextureBrush::TextureBrush
+ - TextureBrush.TextureBrush
 ---
 
 # TextureBrush::TextureBrush(IN Image,IN WrapMode,const IN Rect &)
@@ -129,4 +129,3 @@ An area that extends beyond the boundaries of the brush is tiled with repeated c
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
-

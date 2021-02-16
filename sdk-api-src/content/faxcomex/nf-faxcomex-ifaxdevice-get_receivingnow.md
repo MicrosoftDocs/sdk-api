@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice::get_ReceivingNow
+ - IFaxDevice.ReceivingNow
+ - IFaxDevice.get_ReceivingNow
+ - IFaxDevice.put_ReceivingNow
+ - IFaxDevice.get_ReceivingNow
+ - IFaxDevice.put_ReceivingNow
 ---
 
 # IFaxDevice::get_ReceivingNow
@@ -74,4 +78,3 @@ If this property is equal to <b>TRUE</b>, the fax device is currently receiving 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-fax-device-collection">Visual Basic Example</a>
-

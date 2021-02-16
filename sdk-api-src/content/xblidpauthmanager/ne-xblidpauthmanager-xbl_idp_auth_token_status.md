@@ -44,7 +44,6 @@ api_type:
 api_location:
  - XblIdpAuthManager.h
 api_name:
- - _XBL_IDP_AUTH_TOKEN_STATUS
  - XBL_IDP_AUTH_TOKEN_STATUS
 ---
 
@@ -96,4 +95,3 @@ Reserved for Microsoft use.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/xblidp/xblidpauthmanager-portal">XblIdpAuthManager</a>
-

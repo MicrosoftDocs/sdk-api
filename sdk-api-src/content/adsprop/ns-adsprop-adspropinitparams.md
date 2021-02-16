@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Adsprop.h
 api_name:
- - _ADSPROPINITPARAMS
- - PADSPROPINITPARAMS
  - ADSPROPINITPARAMS
 ---
 
@@ -99,4 +97,3 @@ The <a href="/windows/desktop/api/adsprop/nf-adsprop-adspropgetinitinfo">ADsProp
 
 
 <a href="/windows/desktop/api/iads/nn-iads-idirectoryobject">IDirectoryObject</a>
-

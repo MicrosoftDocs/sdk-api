@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imagehlp.h
 api_name:
- - PIMAGEHLP_STATUS_ROUTINE
+ - StatusRoutine
 ---
 
 # PIMAGEHLP_STATUS_ROUTINE callback function
@@ -293,4 +293,3 @@ case BindImageComplete:
 
 
 <a href="/windows/desktop/Debug/imagehlp-functions">ImageHlp Functions</a>
-

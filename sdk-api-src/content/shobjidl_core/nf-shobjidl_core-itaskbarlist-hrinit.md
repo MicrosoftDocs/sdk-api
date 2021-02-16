@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ITaskbarList::HrInit
+ - ITaskbarList.HrInit
 ---
 
 # ITaskbarList::HrInit
@@ -59,4 +59,3 @@ Initializes the taskbar list object. This method must be called before any other
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. If the method fails, no other methods can be called. The calling application should release the interface pointer.
-

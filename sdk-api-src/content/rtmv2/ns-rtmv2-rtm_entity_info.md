@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_ENTITY_INFO
- - PRTM_ENTITY_INFO
  - RTM_ENTITY_INFO
 ---
 
@@ -92,4 +90,3 @@ Specifies the identifier that uniquely identifies a client.
 
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaseentityinfo">RtmReleaseEntityInfo</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dot1x.h
 api_name:
- - _ONEX_AUTH_RESTART_REASON
  - ONEX_AUTH_RESTART_REASON
 ---
 
@@ -128,4 +127,3 @@ The <b>ONEX_AUTH_RESTART_REASON</b> specifies the possible values for the reason
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

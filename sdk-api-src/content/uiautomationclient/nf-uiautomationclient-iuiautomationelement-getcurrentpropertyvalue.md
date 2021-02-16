@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::GetCurrentPropertyValue
+ - IUIAutomationElement.GetCurrentPropertyValue
 ---
 
 # IUIAutomationElement::GetCurrentPropertyValue
@@ -99,4 +99,3 @@ Microsoft UI Automation properties of the <b>double</b> type support Not a Numbe
 
 
 <a href="/windows/desktop/WinAuto/uiauto-propertiesoverview">UI Automation Properties Overview</a>
-

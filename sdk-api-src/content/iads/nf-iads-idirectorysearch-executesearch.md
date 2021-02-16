@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::ExecuteSearch
+ - IDirectorySearch.ExecuteSearch
 ---
 
 # IDirectorySearch::ExecuteSearch
@@ -120,4 +120,3 @@ hr = m_pSearch->ExecuteSearch(L"(&(objectClass=user)(sn=h*))", pszAttr, dwCount,
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow">IDirectorySearch::GetNextRow</a>
-

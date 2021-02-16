@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPPropertyCollection::get__NewEnum
+ - IOCSPPropertyCollection._NewEnum
+ - IOCSPPropertyCollection.get__NewEnum
 ---
 
 # IOCSPPropertyCollection::get__NewEnum
@@ -61,4 +62,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocsppropertycollection">IOCSPPropertyCollection</a>
-

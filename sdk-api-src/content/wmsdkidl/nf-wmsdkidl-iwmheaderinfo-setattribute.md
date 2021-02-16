@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::SetAttribute
+ - IWMHeaderInfo.SetAttribute
+ - IWMHeaderInfo2.SetAttribute
+ - IWMHeaderInfo3.SetAttribute
 ---
 
 # IWMHeaderInfo::SetAttribute
@@ -191,4 +193,3 @@ The objects of the Windows Media Format SDK perform type checking on some suppor
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
-

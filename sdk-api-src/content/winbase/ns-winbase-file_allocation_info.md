@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_ALLOCATION_INFO
- - PFILE_ALLOCATION_INFO
  - FILE_ALLOCATION_INFO
 ---
 
@@ -76,4 +74,3 @@ The end-of-file (EOF) position for a file must always be less than or equal to t
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-

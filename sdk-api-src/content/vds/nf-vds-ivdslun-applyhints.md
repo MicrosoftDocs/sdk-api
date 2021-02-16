@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::ApplyHints
+ - IVdsLun.ApplyHints
 ---
 
 # IVdsLun::ApplyHints
@@ -171,4 +171,3 @@ Instead of using this method, callers can specify hints by passing in the <i>pHi
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hints">VDS_HINTS</a>
-

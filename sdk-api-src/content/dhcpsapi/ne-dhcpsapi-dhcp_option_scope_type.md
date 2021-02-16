@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION_SCOPE_TYPE
- - LPDHCP_OPTION_SCOPE_TYPE
  - DHCP_OPTION_SCOPE_TYPE
 ---
 
@@ -83,4 +81,3 @@ The DHCP options correspond to a multicast scope.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_scope_info">DHCP_OPTION_SCOPE_INFO</a>
-

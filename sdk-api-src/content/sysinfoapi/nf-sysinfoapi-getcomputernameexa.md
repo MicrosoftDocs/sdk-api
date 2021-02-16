@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetComputerNameExA
  - sysinfoapi/GetComputerNameExA
- - GetComputerNameEx
- - sysinfoapi/GetComputerNameEx
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Core-SysInfo-l1-2-3.dll
 api_name:
- - GetComputerNameExA
  - GetComputerNameEx
+ - GetComputerNameExA
+ - GetComputerNameExW
 ---
 
 # GetComputerNameExA function
@@ -310,4 +309,3 @@ void _tmain(void)
 
 <a href="/windows/desktop/SysInfo/system-information-functions">System
 		  Information Functions</a>
-

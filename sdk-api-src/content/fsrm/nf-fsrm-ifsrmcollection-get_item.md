@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmCollection::get_Item
+ - IFsrmCollection.Item
+ - IFsrmCollection.get_Item
 ---
 
 # IFsrmCollection::get_Item
@@ -78,4 +79,3 @@ For examples, see
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
-

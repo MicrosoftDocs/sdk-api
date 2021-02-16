@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSource::CopyPixels
+ - IWICBitmapSource.CopyPixels
 ---
 
 # IWICBitmapSource::CopyPixels
@@ -106,4 +106,3 @@ If the caller needs to perform numerous copies of an expensive <a href="/windows
 
 <h3><a id="Codec_Developer_Remarks"></a><a id="codec_developer_remarks"></a><a id="CODEC_DEVELOPER_REMARKS"></a>Codec Developer Remarks</h3>
 The callee must only write to the first (prc-&gt;Width*bitsperpixel+7)/8 bytes of each line of the output buffer (in this case, a line is a consecutive string of <i>cbStride</i> bytes).
-

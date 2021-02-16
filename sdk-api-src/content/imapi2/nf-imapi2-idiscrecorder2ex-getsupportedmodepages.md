@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2Ex::GetSupportedModePages
+ - IDiscRecorder2Ex.GetSupportedModePages
 ---
 
 # IDiscRecorder2Ex::GetSupportedModePages
@@ -386,4 +386,3 @@ Value: 0xC0AA0201
 
 
 <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_mode_page_type">IMAPI_MODE_PAGE_TYPE</a>
-

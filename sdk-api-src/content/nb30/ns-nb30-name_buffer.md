@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
- - _NAME_BUFFER
- - PNAME_BUFFER
  - NAME_BUFFER
 ---
 
@@ -99,6 +97,8 @@ The name specified by the name member was created by using the NCBADDGRNAME comm
 
 The name specified by the name member was created by using the NCBADDNAME command.
 
+
+
 ## -see-also
 
 <b></b>
@@ -118,4 +118,3 @@ The name specified by the name member was created by using the NCBADDNAME comman
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-

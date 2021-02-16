@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
- - textrange_properties
  - TEXTRANGE_PROPERTIES
 ---
 
@@ -84,4 +83,3 @@ Pointer to an array of <a href="/windows/desktop/api/usp10/ns-usp10-opentype_fea
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncKnowledge::GetVersion
+ - ISyncKnowledge.GetVersion
 ---
 
 # ISyncKnowledge::GetVersion
@@ -102,4 +102,3 @@ This value is the version of the knowledge structure itself. When the internal k
 
 
 <a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SYNC_SERIALIZATION_VERSION Enumeration</a>
-

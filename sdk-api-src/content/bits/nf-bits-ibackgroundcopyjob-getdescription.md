@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetDescription
+ - IBackgroundCopyJob.GetDescription
 ---
 
 # IBackgroundCopyJob::GetDescription
@@ -95,4 +95,3 @@ The parameter, <i>ppDescription</i>, cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdescription">IBackgroundCopyJob::SetDescription</a>
-

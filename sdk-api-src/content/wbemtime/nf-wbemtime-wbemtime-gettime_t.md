@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::Gettime_t
+ - WBEMTime.Gettime_t
+ - ?Gettime_t@WBEMTime@@QBEHPAJ@Z
 ---
 
 # WBEMTime::Gettime_t
@@ -70,4 +71,3 @@ ANSI C run-time <b>time_t</b> variable, which represents the number of seconds s
 The method returns <b>TRUE</b> if the object's time is equal to or later than midnight Jan 1, 1970.
 
 The method returns <b>FALSE</b> on all other times or if the object's time is set to INVALID_TIME. In this case, the value of <i>ptm</i> is indeterminate.
-

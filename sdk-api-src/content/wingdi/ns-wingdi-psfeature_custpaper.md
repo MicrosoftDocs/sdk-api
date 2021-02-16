@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - _PSFEATURE_CUSTPAPER
- - PPSFEATURE_CUSTPAPER
  - PSFEATURE_CUSTPAPER
 ---
 
@@ -95,4 +93,3 @@ For the semantics of the <b>lOrientation</b>, <b>lWidth</b>, <b>lHeight</b>, <b>
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
-

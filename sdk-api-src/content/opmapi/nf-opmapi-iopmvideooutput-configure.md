@@ -42,7 +42,7 @@ api_type:
 api_location:
  - opmapi.h
 api_name:
- - IOPMVideoOutput::Configure
+ - IOPMVideoOutput.Configure
 ---
 
 # IOPMVideoOutput::Configure
@@ -89,4 +89,3 @@ The <i>pbAdditionalParameters</i> parameter must be <b>NULL</b>, and <i>ulAdditi
 
 
 <a href="/windows/desktop/medfound/output-protection-manager">Output Protection Manager</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStreamControl::GetInfo
+ - IAMStreamControl.GetInfo
 ---
 
 # IAMStreamControl::GetInfo
@@ -99,4 +99,3 @@ Success.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamcontrol">IAMStreamControl Interface</a>
-

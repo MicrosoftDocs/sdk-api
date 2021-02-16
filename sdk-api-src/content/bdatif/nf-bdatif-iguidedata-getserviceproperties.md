@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideData::GetServiceProperties
+ - IGuideData.GetServiceProperties
 ---
 
 # IGuideData::GetServiceProperties
@@ -123,4 +123,3 @@ The method fails if the TIF has not received the service information from the PS
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedata">IGuideData Interface</a>
-

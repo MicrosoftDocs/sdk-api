@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmcodecdsp.h
 api_name:
- - IWMCodecLeakyBucket::SetBufferSizeBits
+ - IWMCodecLeakyBucket.SetBufferSizeBits
 ---
 
 # IWMCodecLeakyBucket::SetBufferSizeBits
@@ -95,4 +95,3 @@ This method is an alternative to setting the MFPKEY_VIDEOWINDOW property. Using 
 
 
 <a href="/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmcodecleakybucket-getbuffersizebits">IWMCodecLeakyBucket::GetBufferSizeBits</a>
-

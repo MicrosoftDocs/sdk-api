@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMMigrationTable::Save
+ - IGPMMigrationTable.Save
+ - GPMMigrationTable.Save
 ---
 
 # IGPMMigrationTable::Save
@@ -69,4 +70,3 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain">IGPMMigrationTable</a>
-

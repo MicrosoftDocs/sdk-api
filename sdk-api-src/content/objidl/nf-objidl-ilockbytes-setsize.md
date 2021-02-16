@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILockBytes::SetSize
+ - ILockBytes.SetSize
 ---
 
 # ILockBytes::SetSize
@@ -88,4 +88,3 @@ Callers cannot rely on STG_E_MEDIUMFULL being returned at the appropriate time b
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilockbytes-writeat">ILockBytes::WriteAt</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICodecAPI::RegisterForEvent
+ - ICodecAPI.RegisterForEvent
 ---
 
 # ICodecAPI::RegisterForEvent
@@ -175,4 +175,3 @@ To disable notifications for an event, call <a href="/windows/desktop/api/strmif
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icodecapi">ICodecAPI</a>
-

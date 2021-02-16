@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _PRIORITY_HINT
  - PRIORITY_HINT
 ---
 
@@ -80,4 +79,3 @@ This value is used for validation. Supported values are less than this value.
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-

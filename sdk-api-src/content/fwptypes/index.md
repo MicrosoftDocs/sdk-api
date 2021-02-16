@@ -9,8 +9,6 @@ tech.root: fwp
 f1_keywords:
  - fwptypes
  - fwptypes/fwptypes
-api_name:
- - fwptypes
 ---
 
 # Fwptypes.h header

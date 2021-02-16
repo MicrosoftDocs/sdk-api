@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlayNotify::OnClipChange
+ - IOverlayNotify.OnClipChange
 ---
 
 # IOverlayNotify::OnClipChange
@@ -84,4 +84,3 @@ If the window rectangle is all zeros, the window is invisible. As is the case fo
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify">IOverlayNotify Interface</a>
-

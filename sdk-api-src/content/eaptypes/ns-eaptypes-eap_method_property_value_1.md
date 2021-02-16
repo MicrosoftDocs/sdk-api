@@ -44,7 +44,6 @@ api_type:
 api_location:
  - EapTypes.h
 api_name:
- - _EAP_METHOD_PROPERTY_VALUE
  - EAP_METHOD_PROPERTY_VALUE
 ---
 
@@ -86,4 +85,3 @@ If <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eap_method_property">eapMe
 
 
 <a href="/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeergetmethodproperties">EapHostPeerGetMethodProperties</a>
-

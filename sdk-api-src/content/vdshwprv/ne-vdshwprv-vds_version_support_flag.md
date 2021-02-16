@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_VERSION_SUPPORT_FLAG
  - VDS_VERSION_SUPPORT_FLAG
 ---
 
@@ -111,4 +110,3 @@ Indicates that the VDS 3.0 interfaces are supported. VDS 3.0 is supported on Win
 
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

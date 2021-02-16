@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSecurity2::get_Descriptor
+ - IFaxSecurity2.Descriptor
+ - IFaxSecurity2.get_Descriptor
+ - IFaxSecurity2.put_Descriptor
 ---
 
 # IFaxSecurity2::get_Descriptor
@@ -69,4 +71,3 @@ To read and write this property, the user must have the <a href="/previous-versi
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity2">IFaxSecurity2</a>
-

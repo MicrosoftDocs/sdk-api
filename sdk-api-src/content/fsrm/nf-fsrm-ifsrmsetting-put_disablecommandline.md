@@ -42,7 +42,10 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmSetting::put_DisableCommandLine
+ - IFsrmSetting.DisableCommandLine
+ - IFsrmSetting.get_DisableCommandLine
+ - IFsrmSetting.put_DisableCommandLine
+ - FsrmSetting.DisableCommandLine
 ---
 
 # IFsrmSetting::put_DisableCommandLine
@@ -63,4 +66,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmsetting">IFsrmSetting</a>
-

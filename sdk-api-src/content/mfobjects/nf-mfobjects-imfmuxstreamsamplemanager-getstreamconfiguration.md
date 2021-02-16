@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFMuxStreamSampleManager::GetStreamConfiguration
+ - IMFMuxStreamSampleManager.GetStreamConfiguration
 ---
 
 # IMFMuxStreamSampleManager::GetStreamConfiguration
@@ -64,4 +64,3 @@ Gets a  bitmask value where the bits that are on represent the indices of the su
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfmuxstreamsamplemanager">IMFMuxStreamSampleManager</a>
-

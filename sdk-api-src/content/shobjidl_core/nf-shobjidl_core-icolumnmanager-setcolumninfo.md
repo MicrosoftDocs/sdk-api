@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnManager::SetColumnInfo
+ - IColumnManager.SetColumnInfo
 ---
 
 # IColumnManager::SetColumnInfo
@@ -111,4 +111,3 @@ The <i>pcmci</i> parameter is <b>NULL</b>.
 </td>
 </tr>
 </table>
-

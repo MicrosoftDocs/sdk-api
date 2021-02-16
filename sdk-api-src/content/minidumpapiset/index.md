@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - minidumpapiset
  - minidumpapiset/minidumpapiset
-api_name:
- - minidumpapiset
 ---
 
 # Minidumpapiset.h header

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokes::RemoveStrokes
+ - IInkStrokes.RemoveStrokes
 ---
 
 # IInkStrokes::RemoveStrokes
@@ -158,4 +158,3 @@ Unexpected parameter or property type.
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-remove">Remove Method [InkStrokes Collection]</a>
-

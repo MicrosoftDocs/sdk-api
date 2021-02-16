@@ -44,7 +44,6 @@ api_type:
 api_location:
  - NapTypes.h
 api_name:
- - tagResultCodes
  - ResultCodes
 ---
 
@@ -72,4 +71,3 @@ A pointer to either a list of application defined 4-octet HRESULTs that specify 
 
 
 <a href="/windows/desktop/NAP/nap-structures">NAP Structures</a>
-

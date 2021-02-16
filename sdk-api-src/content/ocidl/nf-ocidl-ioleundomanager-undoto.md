@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager::UndoTo
+ - IOleUndoManager.UndoTo
 ---
 
 # IOleUndoManager::UndoTo
@@ -135,4 +135,3 @@ It is possible for an undo unit to return E_ABORT as a failure, but that has no 
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ioleundounit-do">IOleUndoUnit::Do</a>
-

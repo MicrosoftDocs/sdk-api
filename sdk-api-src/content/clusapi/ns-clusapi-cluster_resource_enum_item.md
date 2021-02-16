@@ -47,8 +47,6 @@ api_location:
  - ClusApi.h
  - MsClus.h
 api_name:
- - _CLUSTER_RESOURCE_ENUM_ITEM
- - PCLUSTER_RESOURCE_ENUM_ITEM
  - CLUSTER_RESOURCE_ENUM_ITEM
 ---
 
@@ -115,4 +113,3 @@ A pointer to a list of names of read-only common properties.
 <a href="/windows/desktop/api/clusapi/nf-clusapi-clusterresourceenumex">ClusterResourceEnumEx</a>
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

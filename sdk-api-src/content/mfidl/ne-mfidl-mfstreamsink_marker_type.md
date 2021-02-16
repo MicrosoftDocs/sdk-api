@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFSTREAMSINK_MARKER_TYPE
  - MFSTREAMSINK_MARKER_TYPE
 ---
 
@@ -80,4 +79,3 @@ If the <a href="/windows/desktop/medfound/streaming-audio-renderer">Streaming Au
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

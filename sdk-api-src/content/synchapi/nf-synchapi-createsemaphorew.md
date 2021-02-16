@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateSemaphoreW
  - synchapi/CreateSemaphoreW
- - CreateSemaphore
- - synchapi/CreateSemaphore
 dev_langs:
  - c++
 topic_type:
@@ -57,7 +55,8 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
  - CreateSemaphoreW
- - CreateSemaphore
+ - CreateSemaphoreA
+ - CreateSemaphoreW
 ---
 
 # CreateSemaphoreW function

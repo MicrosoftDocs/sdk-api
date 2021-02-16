@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument::Freeze
+ - ITextDocument.Freeze
 ---
 
 # ITextDocument::Freeze
@@ -93,4 +93,3 @@ If the freeze count is nonzero, screen updating is disabled. This allows a seque
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument-unfreeze">Unfreeze</a>
-

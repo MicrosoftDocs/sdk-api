@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSessionCreator::CreateSession
+ - ISyncMgrSessionCreator.CreateSession
 ---
 
 # ISyncMgrSessionCreator::CreateSession
@@ -112,4 +112,3 @@ STDMETHODIMP CMyDeviceHandler::Synchronize(...)
 }
 
 ```
-

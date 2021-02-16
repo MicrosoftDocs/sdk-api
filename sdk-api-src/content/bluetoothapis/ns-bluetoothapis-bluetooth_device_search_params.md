@@ -44,7 +44,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_DEVICE_SEARCH_PARAMS
  - BLUETOOTH_DEVICE_SEARCH_PARAMS
 ---
 
@@ -116,4 +115,3 @@ A handle for the radio on which to perform the inquiry. Set to <b>NULL</b> to pe
 
 
 <a href="/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothupdatedevicerecord">BluetoothUpdateDeviceRecord</a>
-

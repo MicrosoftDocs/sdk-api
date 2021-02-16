@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_event_node_change_data_tag
- - PPEER_EVENT_NODE_CHANGE_DATA
  - PEER_EVENT_NODE_CHANGE_DATA
 ---
 
@@ -116,4 +114,3 @@ Specifies the peer ID of the node that has  changed.
 ## -see-also
 
 [PEER_GRAPH_EVENT_DATA](./ns-p2p-peer_graph_event_data.md)
-

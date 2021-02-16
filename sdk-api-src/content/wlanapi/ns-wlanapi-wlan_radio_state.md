@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_RADIO_STATE
- - PWLAN_RADIO_STATE
  - WLAN_RADIO_STATE
 ---
 
@@ -281,4 +279,3 @@ return dwRetVal;
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlansetinterface">WlanSetInterface</a>
-

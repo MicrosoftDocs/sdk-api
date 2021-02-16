@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - tlogstg
  - tlogstg/tlogstg
-api_name:
- - tlogstg
 ---
 
 # Tlogstg.h header

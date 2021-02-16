@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder::GetBackgroundColor
+ - IAMLine21Decoder.GetBackgroundColor
 ---
 
 # IAMLine21Decoder::GetBackgroundColor
@@ -103,4 +103,3 @@ Success
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setbackgroundcolor">IAMLine21Decoder::SetBackgroundColor</a>
-

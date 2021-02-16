@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_V4_UDP_ENCAPSULATION0_
  - IPSEC_V4_UDP_ENCAPSULATION0
 ---
 
@@ -74,4 +73,3 @@ This is used only when a NAT was detected as part of the IPsec NAT traversal spe
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

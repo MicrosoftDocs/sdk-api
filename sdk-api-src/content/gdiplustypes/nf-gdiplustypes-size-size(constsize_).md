@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Size::Size
+ - Size.Size
 ---
 
 # Size::Size(IN const Size &)
@@ -68,4 +68,3 @@ Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-size">
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-class-size-constructors">Size Constructors</a>
-

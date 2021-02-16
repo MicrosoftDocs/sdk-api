@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_FREEDRIVERMEMORYDATA
- - PDD_FREEDRIVERMEMORYDATA
  - DD_FREEDRIVERMEMORYDATA
 ---
 
@@ -79,4 +77,3 @@ Used by the DirectDraw API and should not be filled in by the driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_freedrivermemory">DdFreeDriverMemory</a>
-

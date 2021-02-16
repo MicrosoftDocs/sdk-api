@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext::EnableCommit
+ - ObjectContext.EnableCommit
 ---
 
 # ObjectContext::EnableCommit
@@ -96,4 +96,3 @@ When an object calls <b>EnableCommit</b>, it allows the transaction in which it'
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-

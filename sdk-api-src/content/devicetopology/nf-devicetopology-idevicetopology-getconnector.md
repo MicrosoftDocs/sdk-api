@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceTopology::GetConnector
+ - IDeviceTopology.GetConnector
 ---
 
 # IDeviceTopology::GetConnector
@@ -110,4 +110,3 @@ For code examples that call the <b>GetConnector</b> method, see the implementati
 
 
 <a href="/windows/desktop/api/devicetopology/nf-devicetopology-idevicetopology-getconnectorcount">IDeviceTopology::GetConnectorCount</a>
-

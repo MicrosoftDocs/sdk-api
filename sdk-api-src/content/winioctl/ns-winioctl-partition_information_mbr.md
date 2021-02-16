@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _PARTITION_INFORMATION_MBR
- - PPARTITION_INFORMATION_MBR
  - PARTITION_INFORMATION_MBR
 ---
 
@@ -95,4 +93,3 @@ The number of hidden sectors to be allocated when the partition table is created
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-partition_information_ex">PARTITION_INFORMATION_EX</a>
-

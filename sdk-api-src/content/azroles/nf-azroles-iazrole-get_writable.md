@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole::get_Writable
+ - IAzRole.Writable
+ - IAzRole.get_Writable
+ - AzRole.Writable
 ---
 
 # IAzRole::get_Writable

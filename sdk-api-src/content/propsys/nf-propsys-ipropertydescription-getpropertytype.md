@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetPropertyType
+ - IPropertyDescription.GetPropertyType
 ---
 
 # IPropertyDescription::GetPropertyType
@@ -174,4 +174,3 @@ The information retrieved by this method comes from the <i>type</i> attribute of
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AVISaveW
  - vfw/AVISaveW
- - AVISave
- - vfw/AVISave
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avifil32.dll
 api_name:
- - AVISaveW
  - AVISave
+ - AVISaveA
+ - AVISaveW
 ---
 
 # AVISaveW function
@@ -121,4 +120,3 @@ The argument <i>pavi</i> is a pointer to an <a href="/windows/desktop/api/vfw/nn
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-

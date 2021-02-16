@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking::QueryPreferredFormat
+ - IMediaSeeking.QueryPreferredFormat
 ---
 
 # IMediaSeeking::QueryPreferredFormat
@@ -114,4 +114,3 @@ Not implemented.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-settimeformat">IMediaSeeking::SetTimeFormat</a>
-

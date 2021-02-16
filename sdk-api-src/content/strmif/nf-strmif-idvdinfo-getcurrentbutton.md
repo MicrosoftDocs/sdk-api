@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdInfo::GetCurrentButton
+ - IDvdInfo.GetCurrentButton
 ---
 
 # IDvdInfo::GetCurrentButton
@@ -110,4 +110,3 @@ This method is valid in any domain. For more information, see <a href="/windows/
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo">IDvdInfo Interface</a>
-

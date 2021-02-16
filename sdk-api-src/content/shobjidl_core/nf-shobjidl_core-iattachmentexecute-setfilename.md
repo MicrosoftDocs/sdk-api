@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute::SetFileName
+ - IAttachmentExecute.SetFileName
 ---
 
 # IAttachmentExecute::SetFileName
@@ -110,4 +110,3 @@ No path information should be included at <i>pszFileName</i>, just the file's na
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iattachmentexecute-setlocalpath">IAttachmentExecute::SetLocalPath</a>
-

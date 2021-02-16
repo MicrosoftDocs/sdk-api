@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StringCchCopyA
  - strsafe/StringCchCopyA
- - StringCchCopy
- - strsafe/StringCchCopy
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Strsafe.h
 api_name:
- - StringCchCopyA
  - StringCchCopy
+ - StringCchCopyA
+ - StringCchCopyW
 ---
 
 # StringCchCopyA function
@@ -187,4 +186,3 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="/wi
 
 
 <a href="/windows/desktop/api/strsafe/nf-strsafe-stringcchcopyexa">StringCchCopyEx</a>
-

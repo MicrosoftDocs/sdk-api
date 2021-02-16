@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::ConnectedTo
+ - IPin.ConnectedTo
 ---
 
 # IPin::ConnectedTo
@@ -123,4 +123,3 @@ If the method succeeds, the <a href="/windows/desktop/api/strmif/nn-strmif-ipin"
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

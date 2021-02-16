@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPViewerInputSink::AddTouchInput
+ - IRDPViewerInputSink.AddTouchInput
 ---
 
 # IRDPViewerInputSink::AddTouchInput
@@ -87,4 +87,3 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpviewerinputsink">IRDPViewerInputSink</a>
-

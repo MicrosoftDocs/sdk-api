@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::IsVisible
+ - Region.IsVisible
 ---
 
 # Region::IsVisible(IN REAL,IN REAL,IN const Graphics)
@@ -95,4 +95,3 @@ If the point is inside this region, this method returns <b>TRUE</b>; otherwise, 
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
-

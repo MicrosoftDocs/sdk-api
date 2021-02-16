@@ -9,8 +9,6 @@ tech.root: winlocation
 f1_keywords:
  - sensorsapi
  - sensorsapi/sensorsapi
-api_name:
- - sensorsapi
 ---
 
 # Sensorsapi.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - _RASIKEV2_PROJECTION_INFO
- - PRASIKEV2_PROJECTION_INFO
  - RASIKEV2_PROJECTION_INFO
 ---
 
@@ -244,4 +242,3 @@ A pointer to a <a href="/windows/desktop/RRAS/remote-access-service-data-types">
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-structures">Remote Access Service Structures</a>
-

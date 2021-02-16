@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSASetServiceA
  - winsock2/WSASetServiceA
- - WSASetService
- - winsock2/WSASetService
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSASetServiceA
  - WSASetService
+ - WSASetServiceA
+ - WSASetServiceW
 ---
 
 # WSASetServiceA function
@@ -376,4 +375,3 @@ As illustrated in the following, the combination of the <b>dwNameSpace</b> and <
 
 
 <a href="/windows/desktop/WinSock/winsock-reference">Winsock Reference</a>
-

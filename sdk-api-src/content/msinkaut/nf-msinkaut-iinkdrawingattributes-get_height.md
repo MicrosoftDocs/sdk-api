@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDrawingAttributes::get_Height
+ - IInkDrawingAttributes.Height
+ - IInkDrawingAttributes.get_Height
+ - IInkDrawingAttributes.put_Height
+ - InkDrawingAttributes.get_Height
+ - InkDrawingAttributes.put_Height
 ---
 
 # IInkDrawingAttributes::get_Height
@@ -84,4 +88,3 @@ Precision is limited to 1/1000 (three digits to the right of the decimal point).
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkdrawingattributes-get_width">Width Property [InkDrawingAttributes Class]</a>
-

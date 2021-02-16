@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRendererEvent::OverlayUnavailable
+ - IMSVidVideoRendererEvent.OverlayUnavailable
 ---
 
 # IMSVidVideoRendererEvent::OverlayUnavailable
@@ -70,4 +70,3 @@ The dispatch identifier (dispid) of this method is <b>eventidOverlayUnavailable<
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidvideorendererevent">IMSVidVideoRendererEvent Interface</a>
-

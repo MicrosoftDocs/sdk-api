@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetFeatureInfoW
  - msi/MsiGetFeatureInfoW
- - MsiGetFeatureInfo
- - msi/MsiGetFeatureInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetFeatureInfoW
  - MsiGetFeatureInfo
+ - MsiGetFeatureInfoA
+ - MsiGetFeatureInfoW
 ---
 
 # MsiGetFeatureInfoW function
@@ -217,4 +216,3 @@ The buffer sizes for the
 ## -see-also
 
 <a href="/windows/desktop/Msi/installer-function-reference">Product Query Functions</a>
-

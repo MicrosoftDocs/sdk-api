@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastAddressAllocation::RenewAddress
+ - IMcastAddressAllocation.RenewAddress
 ---
 
 # IMcastAddressAllocation::RenewAddress
@@ -133,4 +133,3 @@ Not enough memory to create the required objects.
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastaddressallocation">IMcastAddressAllocation</a>
-

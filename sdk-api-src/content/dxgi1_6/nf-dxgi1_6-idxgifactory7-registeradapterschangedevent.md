@@ -43,7 +43,7 @@ api_location:
  - dxgi.lib
  - dxgi.dll
 api_name:
- - IDXGIFactory7::RegisterAdaptersChangedEvent
+ - IDXGIFactory7.RegisterAdaptersChangedEvent
 ---
 
 # IDXGIFactory7::RegisterAdaptersChangedEvent
@@ -74,4 +74,3 @@ Returns <b>S_OK</b> if successful; an error code otherwise.
 
 
 <a href="/windows/desktop/api/dxgi1_6/nf-dxgi1_6-idxgifactory7-unregisteradapterschangedevent">UnregisterAdaptersChangedEvent</a>
-

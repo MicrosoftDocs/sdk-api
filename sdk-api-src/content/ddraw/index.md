@@ -9,8 +9,6 @@ tech.root: directdraw
 f1_keywords:
  - ddraw
  - ddraw/ddraw
-api_name:
- - ddraw
 ---
 
 # Ddraw.h header

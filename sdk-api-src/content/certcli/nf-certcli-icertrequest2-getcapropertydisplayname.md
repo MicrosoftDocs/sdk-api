@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest2::GetCAPropertyDisplayName
+ - ICertRequest3.GetCAPropertyDisplayName
+ - ICertRequest2.GetCAPropertyDisplayName
+ - ICertRequest.GetCAPropertyDisplayName
+ - CCertRequest.GetCAPropertyDisplayName
 ---
 
 # ICertRequest2::GetCAPropertyDisplayName
@@ -102,4 +105,3 @@ The CA's request interface can be locked down by using the registry configuratio
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-

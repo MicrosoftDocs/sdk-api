@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod::get_RoutingData
+ - IFaxRoutingMethod.RoutingData
+ - IFaxRoutingMethod.get_RoutingData
 ---
 
 # IFaxRoutingMethod::get_RoutingData
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
-

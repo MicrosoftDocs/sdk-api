@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IPolicyQualifier::get_RawData
+ - IPolicyQualifier.RawData
+ - IPolicyQualifier.get_RawData
 ---
 
 # IPolicyQualifier::get_RawData
@@ -69,4 +70,3 @@ You can also retrieve the following properties for this object:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
-

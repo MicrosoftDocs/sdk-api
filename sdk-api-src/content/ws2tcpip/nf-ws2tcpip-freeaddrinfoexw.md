@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FreeAddrInfoExW
  - ws2tcpip/FreeAddrInfoExW
- - FreeAddrInfoEx
- - ws2tcpip/FreeAddrInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - FreeAddrInfoExW
  - FreeAddrInfoEx
+ - FreeAddrInfoEx
+ - FreeAddrInfoExW
 ---
 
 # FreeAddrInfoExW function
@@ -96,4 +95,3 @@ When UNICODE or _UNICODE is defined, <b>FreeAddrInfoEx</b> is defined to <b>Free
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoexw">addrinfoex</a>
-

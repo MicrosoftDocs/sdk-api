@@ -46,6 +46,8 @@ api_location:
  - API-MS-Win-mm-misc-l1-1-1.dll
 api_name:
  - mmioStringToFOURCC
+ - mmioStringToFOURCCA
+ - mmioStringToFOURCCW
 ---
 
 # mmioStringToFOURCC function

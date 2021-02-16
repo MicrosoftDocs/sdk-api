@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IDesktopWallpaper::GetMonitorDevicePathAt
+ - IDesktopWallpaper.GetMonitorDevicePathAt
 ---
 
 # IDesktopWallpaper::GetMonitorDevicePathAt
@@ -95,4 +95,3 @@ This method can be called on monitors that are currently detached but that have 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idesktopwallpaper-getmonitordevicepathcount">IDesktopWallpaper::GetMonitorDevicePathCount</a>
-

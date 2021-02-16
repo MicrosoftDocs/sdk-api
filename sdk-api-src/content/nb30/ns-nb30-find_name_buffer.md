@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
- - _FIND_NAME_BUFFER
- - PFIND_NAME_BUFFER
  - FIND_NAME_BUFFER
 ---
 
@@ -105,4 +103,3 @@ Specifies additional routing information.
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-

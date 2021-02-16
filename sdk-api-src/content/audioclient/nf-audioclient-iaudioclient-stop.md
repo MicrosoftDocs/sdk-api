@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::Stop
+ - IAudioClient.Stop
 ---
 
 # IAudioClient::Stop
@@ -119,4 +119,3 @@ For code examples that call the <b>Stop</b> method, see the following topics:
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-start">IAudioClient::Start</a>
-

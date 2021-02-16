@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IDropTargetProvider::get_DropTargetEffects
+ - IDropTargetProvider.DropTargetEffects
+ - IDropTargetProvider.get_DropTargetEffects
 ---
 
 # IDropTargetProvider::get_DropTargetEffects
@@ -63,4 +64,3 @@ Some drag operations support a set of different drop effects. For example, a dra
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idroptargetprovider">IDropTargetProvider</a>
-

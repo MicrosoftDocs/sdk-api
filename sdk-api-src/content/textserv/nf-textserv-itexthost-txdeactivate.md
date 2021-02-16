@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxDeactivate
+ - ITextHost.TxDeactivate
 ---
 
 # ITextHost::TxDeactivate
@@ -109,4 +109,3 @@ No matter how many times this method is called, only one call to <a href="/windo
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

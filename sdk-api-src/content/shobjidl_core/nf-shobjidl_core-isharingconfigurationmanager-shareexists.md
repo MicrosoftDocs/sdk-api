@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISharingConfigurationManager::ShareExists
+ - ISharingConfigurationManager.ShareExists
 ---
 
 # ISharingConfigurationManager::ShareExists
@@ -69,4 +69,3 @@ S_OK if the folder is shared; otherwise, S_FALSE.
 ## -remarks
 
 Because as of Windows 7 <b>Public</b> is shared in-place through <b>Users</b>, callers should always check for the Users share first. If a share is found to exist on <b>Users</b>, then it follows that a share exists on <b>Public</b> as well.
-

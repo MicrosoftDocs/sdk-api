@@ -43,7 +43,7 @@ api_location:
  - d3d11.lib
  - d3d11.dll
 api_name:
- - ID3D11Device5::OpenSharedFence
+ - ID3D11Device5.OpenSharedFence
 ---
 
 # ID3D11Device5::OpenSharedFence
@@ -84,4 +84,3 @@ This method returns one of the <a href="/windows/win32/direct3d11/d3d11-graphics
 ## -see-also
 
 [ID3D11Device5](./nn-d3d11_4-id3d11device5.md), [Multi-adapter systems](/windows/win32/direct3d12/multi-engine)
-

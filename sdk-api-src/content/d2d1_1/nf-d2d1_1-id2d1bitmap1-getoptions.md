@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Bitmap1::GetOptions
+ - ID2D1Bitmap1.GetOptions
 ---
 
 # ID2D1Bitmap1::GetOptions
@@ -67,4 +67,3 @@ This method returns the options used.
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getcolorcontext">ID2D1Bitmap1::GetColorContext</a>
-

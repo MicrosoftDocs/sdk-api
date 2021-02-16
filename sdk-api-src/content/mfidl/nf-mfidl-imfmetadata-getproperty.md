@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMetadata::GetProperty
+ - IMFMetadata.GetProperty
 ---
 
 # IMFMetadata::GetProperty
@@ -106,4 +106,3 @@ The requested property was not found.
 
 
 <a href="/windows/desktop/medfound/media-metadata">Media Metadata</a>
-

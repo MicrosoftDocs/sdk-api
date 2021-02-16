@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMREBARAUTOBREAK
- - LPNMREBARAUTOBREAK
  - NMREBARAUTOBREAK
 ---
 
@@ -102,4 +100,3 @@ Style of the specified band.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
 
 <b>BOOL</b> that indicates whether a break should occur.
-

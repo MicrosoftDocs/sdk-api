@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbProvider::CreateTargetPropertySetObject
+ - ITsSbProvider.CreateTargetPropertySetObject
 ---
 
 # ITsSbProvider::CreateTargetPropertySetObject
@@ -73,4 +73,3 @@ Plug-ins can use this method to create a target property set object.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtargetpropertyset">ITsSbTargetPropertySet</a>
-

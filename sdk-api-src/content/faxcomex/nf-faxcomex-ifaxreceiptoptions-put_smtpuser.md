@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxReceiptOptions::put_SMTPUser
+ - IFaxReceiptOptions.SMTPUser
+ - IFaxReceiptOptions.get_SMTPUser
+ - IFaxReceiptOptions.put_SMTPUser
+ - IFaxReceiptOptions.get_SMTPUser
+ - IFaxReceiptOptions.put_SMTPUser
 ---
 
 # IFaxReceiptOptions::put_SMTPUser
@@ -67,4 +71,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxreceiptoptions">IFaxReceiptOptions</a>
-

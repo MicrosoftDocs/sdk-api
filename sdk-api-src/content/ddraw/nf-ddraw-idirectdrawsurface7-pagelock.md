@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 018e6539-bb2a-472c-bab4-2c0665cdbe15
 ms.date: 12/05/2018
 ms.keywords: IDirectDrawSurface7 interface [DirectDraw],PageLock method, IDirectDrawSurface7.PageLock, IDirectDrawSurface7::PageLock, PageLock, PageLock method [DirectDraw], PageLock method [DirectDraw],IDirectDrawSurface7 interface, ddraw/IDirectDrawSurface7::PageLock, directdraw.idirectdrawsurface7_pagelock
+f1_keywords:
+- ddraw/IDirectDrawSurface7.PageLock
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDrawSurface7.PageLock
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDrawSurface7::PageLock
- - ddraw/IDirectDrawSurface7::PageLock
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDrawSurface7::PageLock
 ---
 
 ## -description
@@ -82,7 +81,15 @@ A lock count is maintained for each surface and is incremented each time that <b
 
 You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to explicitly link to Ddraw.dll and then use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> to access the <b>PageLock</b> method.
 
+
+
+
 ## -see-also
 
-<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
 
+
+
+<a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawsurface7">IDirectDrawSurface7</a>
+ 
+
+ 

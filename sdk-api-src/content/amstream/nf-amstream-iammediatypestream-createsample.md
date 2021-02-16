@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeStream::CreateSample
+ - IAMMediaTypeStream.CreateSample
 ---
 
 # IAMMediaTypeStream::CreateSample
@@ -127,4 +127,3 @@ If <i>pUnkOuter</i> is non-<b>NULL</b>, the new stream sample is aggregated into
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
-

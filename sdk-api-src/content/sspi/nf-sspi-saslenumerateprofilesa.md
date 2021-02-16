@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SaslEnumerateProfilesA
  - sspi/SaslEnumerateProfilesA
- - SaslEnumerateProfiles
- - sspi/SaslEnumerateProfiles
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - SaslEnumerateProfilesA
  - SaslEnumerateProfiles
+ - SaslEnumerateProfilesA
+ - SaslEnumerateProfilesW
 ---
 
 # SaslEnumerateProfilesA function

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPO::SetWMIFilter
+ - IGPMGPO.SetWMIFilter
+ - GPMGPO.SetWMIFilter
 ---
 
 ## -description
@@ -71,4 +72,3 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifilter">IGPMWMIFilter</a>
-

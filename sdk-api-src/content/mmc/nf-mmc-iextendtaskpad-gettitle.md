@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IExtendTaskPad::GetTitle
+ - IExtendTaskPad.GetTitle
 ---
 
 # IExtendTaskPad::GetTitle
@@ -73,4 +73,3 @@ Allocate the <i>pszTitle</i> string with the COM API function <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iextendtaskpad">IExtendTaskPad</a>
-

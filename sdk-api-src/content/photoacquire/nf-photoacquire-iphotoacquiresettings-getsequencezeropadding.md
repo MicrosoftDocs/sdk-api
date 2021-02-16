@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::GetSequenceZeroPadding
+ - IPhotoAcquireSettings.GetSequenceZeroPadding
 ---
 
 # IPhotoAcquireSettings::GetSequenceZeroPadding
@@ -101,4 +101,3 @@ The same file name without zero padding might appear as
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setsequencezeropadding">SetSequenceZeroPadding</a>
-

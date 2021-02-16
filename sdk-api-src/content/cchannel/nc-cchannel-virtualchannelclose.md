@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cchannel.h
 api_name:
- - VIRTUALCHANNELCLOSE
+ - VirtualChannelClose
 ---
 
 # VIRTUALCHANNELCLOSE callback function
@@ -73,4 +73,3 @@ If an error occurs, the function returns one of the following values.
 ## -see-also
 
 <a href="/windows/desktop/api/cchannel/nc-cchannel-virtualchannelopen">VirtualChannelOpen</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler::AutomaticEnable
+ - IMFContentEnabler.AutomaticEnable
 ---
 
 # IMFContentEnabler::AutomaticEnable
@@ -90,4 +90,3 @@ To find out whether the content enabler supports this method, call <a href="/win
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-

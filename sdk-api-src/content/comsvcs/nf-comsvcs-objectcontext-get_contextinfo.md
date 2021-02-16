@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext::get_ContextInfo
+ - ObjectContext.get_ContextInfo
 ---
 
 # ObjectContext::get_ContextInfo
@@ -65,4 +65,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-

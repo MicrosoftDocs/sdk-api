@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog::ImportComponent
+ - ICOMAdminCatalog.ImportComponent
 ---
 
 # ICOMAdminCatalog::ImportComponent
@@ -75,4 +75,3 @@ Generally, this method should not be used unless you want to restrict a componen
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-

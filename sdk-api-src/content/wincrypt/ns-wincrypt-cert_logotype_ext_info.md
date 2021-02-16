@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_LOGOTYPE_EXT_INFO
- - PCERT_LOGOTYPE_EXT_INFO
  - CERT_LOGOTYPE_EXT_INFO
 ---
 
@@ -95,4 +93,3 @@ An array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_other_logoty
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptencodeobjectex">CryptEncodeObjectEx</a>
-

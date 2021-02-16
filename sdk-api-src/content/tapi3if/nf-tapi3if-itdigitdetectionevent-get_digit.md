@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDigitDetectionEvent::get_Digit
+ - ITDigitDetectionEvent.get_Digit
 ---
 
 # ITDigitDetectionEvent::get_Digit
@@ -106,4 +106,3 @@ The <i>pucDigit</i> parameter is not a valid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent">ITDigitDetectionEvent</a>
-

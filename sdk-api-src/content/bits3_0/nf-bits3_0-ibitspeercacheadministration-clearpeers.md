@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration::ClearPeers
+ - IBitsPeerCacheAdministration.ClearPeers
 ---
 
 # IBitsPeerCacheAdministration::ClearPeers
@@ -94,4 +94,3 @@ BITS automatically discovers new peers when a job requests content from a peer. 
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-enumpeers">IBitsPeerCacheAdministration::EnumPeers</a>
-

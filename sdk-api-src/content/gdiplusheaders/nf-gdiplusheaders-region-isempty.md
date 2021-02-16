@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::IsEmpty
+ - Region.IsEmpty
 ---
 
 # Region::IsEmpty
@@ -94,4 +94,3 @@ If this region is empty, this method returns <b>TRUE</b>; otherwise, it returns 
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-

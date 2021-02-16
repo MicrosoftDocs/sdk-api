@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::CreateRequest
+ - IX509Enrollment.CreateRequest
 ---
 
 # IX509Enrollment::CreateRequest
@@ -126,4 +126,3 @@ Before calling the <b>CreateRequest</b> method, you must initialize the <a href=
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

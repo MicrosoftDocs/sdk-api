@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_ETHER_ENCAP_METHOD_
  - FWP_ETHER_ENCAP_METHOD
 ---
 

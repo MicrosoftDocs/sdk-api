@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - _SHCREATEPROCESSINFOW
- - PSHCREATEPROCESSINFOW
  - SHCREATEPROCESSINFOW
 ---
 
@@ -224,4 +222,3 @@ In this case, the application receives three parameters: <i>An, example:, and "q
 ## -see-also
 
 <a href="/windows/desktop/api/shellapi/ns-shellapi-shellexecuteinfoa">SHELLEXECUTEINFO</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::GetCommands
+ - IWMPContentPartner.GetCommands
 ---
 
 # IWMPContentPartner::GetCommands
@@ -113,4 +113,3 @@ This method must call <b>CoTaskMemAlloc</b> to allocate the array that it return
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-

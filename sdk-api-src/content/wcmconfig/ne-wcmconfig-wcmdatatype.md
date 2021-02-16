@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WcmConfig.h
 api_name:
- - __MIDL___MIDL_itf_wcmconfig_0000_0000_0003
  - WcmDataType
 ---
 
@@ -102,4 +101,3 @@ Corresponds to a string.
 ### -field dataTypeFlagArray
 
 This flag may appear combined with <b>dataTypeByte</b> or <b>dataTypeString</b> to indicate xsd:hexBinary or wcm:multiString settings, respectively.
-

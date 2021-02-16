@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenTemplateImported::put_OverwriteOnCommit
+ - IFsrmFileScreenTemplateImported.OverwriteOnCommit
+ - IFsrmFileScreenTemplateImported.get_OverwriteOnCommit
+ - IFsrmFileScreenTemplateImported.put_OverwriteOnCommit
 ---
 
 # IFsrmFileScreenTemplateImported::put_OverwriteOnCommit
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreentemplateimported">IFsrmFileScreenTemplateImported</a>
-

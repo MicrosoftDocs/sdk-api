@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmwksta.h
 api_name:
- - _WKSTA_TRANSPORT_INFO_0
- - PWKSTA_TRANSPORT_INFO_0
  - WKSTA_TRANSPORT_INFO_0
 ---
 
@@ -110,4 +108,3 @@ Certain legacy networking protocols, including NetBEUI, will no longer be suppor
 
 
 <a href="/windows/desktop/NetMgmt/server-and-workstation-transport-functions">Server and Workstation Transport Functions</a>
-

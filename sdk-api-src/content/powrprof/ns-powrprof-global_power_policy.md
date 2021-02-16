@@ -46,8 +46,6 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
- - _GLOBAL_POWER_POLICY
- - PGLOBAL_POWER_POLICY
  - GLOBAL_POWER_POLICY
 ---
 
@@ -93,4 +91,3 @@ A
 
 
 <a href="/windows/desktop/api/powrprof/nf-powrprof-writeglobalpwrpolicy">WriteGlobalPwrPolicy</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumMethods
+ - IMetaDataImport.EnumMethods
 ---
 
 # IMetaDataImport::EnumMethods
@@ -97,4 +97,3 @@ The number of MethodDef tokens returned in <i>rgMethods</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

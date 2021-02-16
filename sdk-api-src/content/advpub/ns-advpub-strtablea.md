@@ -46,8 +46,6 @@ api_type:
 api_location:
  - advpack.lib
 api_name:
- - _StrTableA
- - LPSTRTABLEA
  - STRTABLEA
 ---
 

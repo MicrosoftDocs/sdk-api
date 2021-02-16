@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::GetStrokeEndLineCap
+ - IXpsOMPath.GetStrokeEndLineCap
 ---
 
 # IXpsOMPath::GetStrokeEndLineCap
@@ -110,4 +110,3 @@ For more information about line   end cap styles, see <a href="/windows/win32/ap
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
-

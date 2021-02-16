@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog::SetProgress
+ - IProgressDialog.SetProgress
 ---
 
 # IProgressDialog::SetProgress
@@ -79,4 +79,3 @@ Use any convenient numerical measure of the progress of the operation. To use va
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-

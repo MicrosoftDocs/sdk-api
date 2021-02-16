@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFTrackedSample::SetAllocator
+ - IMFTrackedSample.SetAllocator
 ---
 
 # IMFTrackedSample::SetAllocator
@@ -107,4 +107,3 @@ It is safe to pass in the sample's <a href="/windows/desktop/api/mfobjects/nn-mf
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftrackedsample">IMFTrackedSample</a>
-

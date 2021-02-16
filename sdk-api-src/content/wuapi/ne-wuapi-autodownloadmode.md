@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
- - tagAutoDownloadMode
  - AutoDownloadMode
 ---
 
@@ -72,4 +71,3 @@ The update will always be automatically downloaded.
 ## -remarks
 
 If Automatic Updates is disabled, or if Automatic Updates is enabled but set to “Check for updates but let me choose whether to download or install them,” updates will never be automatically downloaded, regardless of the value of an update’s <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate5-get_autodownload">IUpdate5::AutoDownload</a> property. In earlier versions of the WUA in which <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a> is not available, all updates are processed by using the standard logic.
-

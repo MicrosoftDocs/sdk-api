@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate2::get_CveIDs
+ - IUpdate2.CveIDs
+ - IUpdate2.get_CveIDs
 ---
 
 # IUpdate2::get_CveIDs
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
-

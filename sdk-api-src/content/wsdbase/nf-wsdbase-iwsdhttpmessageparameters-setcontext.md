@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDHttpMessageParameters::SetContext
+ - IWSDHttpMessageParameters.SetContext
 ---
 
 # IWSDHttpMessageParameters::SetContext
@@ -88,4 +88,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdhttpmessageparameters">IWSDHttpMessageParameters</a>
-

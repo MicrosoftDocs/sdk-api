@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LookupPrivilegeNameW
  - winbase/LookupPrivilegeNameW
- - LookupPrivilegeName
- - winbase/LookupPrivilegeName
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Security-LSALookup-L2-1-2.dll
  - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupPrivilegeNameW
  - LookupPrivilegeName
+ - LookupPrivilegeNameA
+ - LookupPrivilegeNameW
 ---
 
 # LookupPrivilegeNameW function
@@ -113,4 +112,3 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>
-

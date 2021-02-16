@@ -46,6 +46,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdAttachSurface
+ - GdiEntry11
 ---
 
 # DdAttachSurface function
@@ -115,4 +116,3 @@ See the DirectDraw 
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-

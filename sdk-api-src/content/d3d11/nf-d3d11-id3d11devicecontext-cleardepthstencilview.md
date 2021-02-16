@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::ClearDepthStencilView
+ - ID3D11DeviceContext.ClearDepthStencilView
 ---
 
 # ID3D11DeviceContext::ClearDepthStencilView
@@ -95,4 +95,3 @@ Unlike Direct3D 9, the full extent of the resource view is always cleared. Viewp
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

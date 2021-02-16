@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeLib::GetTypeInfo
+ - ITypeLib.GetTypeInfo
 ---
 
 # ITypeLib::GetTypeInfo
@@ -153,4 +153,3 @@ if (FAILED(hr)) {
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypelib">ITypeLib</a>
-

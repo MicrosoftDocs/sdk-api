@@ -42,7 +42,10 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitation::put_Revoked
+ - IRDPSRAPIInvitation.Revoked
+ - IRDPSRAPIInvitation.get_Revoked
+ - IRDPSRAPIInvitation.put_Revoked
+ - RDPSRAPIInvitation.Revoked
 ---
 
 # IRDPSRAPIInvitation::put_Revoked
@@ -63,4 +66,3 @@ There is no way to delete an invitation, only to revoke it. This enables the app
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitation">IRDPSRAPIInvitation</a>
-

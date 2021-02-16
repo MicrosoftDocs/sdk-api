@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_PORT_PROP
- - PVDS_PORT_PROP
  - VDS_PORT_PROP
 ---
 
@@ -101,4 +99,3 @@ The
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_port_status">VDS_PORT_STATUS</a>
-

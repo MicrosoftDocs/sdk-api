@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_AVAILABLE_NETWORK
- - PWLAN_AVAILABLE_NETWORK
  - WLAN_AVAILABLE_NETWORK
 ---
 
@@ -285,4 +283,3 @@ Reserved for future use.  Must be set to <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_available_network_list">WLAN_AVAILABLE_NETWORK_LIST</a>
-

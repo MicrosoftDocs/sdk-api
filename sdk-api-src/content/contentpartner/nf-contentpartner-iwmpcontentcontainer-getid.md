@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainer::GetID
+ - IWMPContentContainer.GetID
 ---
 
 # IWMPContentContainer::GetID
@@ -91,4 +91,3 @@ If the container does not represent an album or list, this method retrieves -1.
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_GuideDataDeliveryService::GetGuideData
+ - IBDA_GuideDataDeliveryService.GetGuideData
 ---
 
 # IBDA_GuideDataDeliveryService::GetGuideData
@@ -102,4 +102,3 @@ The MTD has no more data to return.
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_guidedatadeliveryservice">IBDA_GuideDataDeliveryService</a>
-

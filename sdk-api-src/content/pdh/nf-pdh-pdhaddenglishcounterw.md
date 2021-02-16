@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PdhAddEnglishCounterW
  - pdh/PdhAddEnglishCounterW
- - PdhAddEnglishCounter
- - pdh/PdhAddEnglishCounter
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Pdh.dll
 api_name:
- - PdhAddEnglishCounterW
  - PdhAddEnglishCounter
+ - PdhAddEnglishCounterA
+ - PdhAddEnglishCounterW
 ---
 
 # PdhAddEnglishCounterW function
@@ -237,4 +236,3 @@ To remove the counter from the query, use the
 
 
 <a href="/windows/desktop/api/pdh/nf-pdh-pdhremovecounter">PdhRemoveCounter</a>
-

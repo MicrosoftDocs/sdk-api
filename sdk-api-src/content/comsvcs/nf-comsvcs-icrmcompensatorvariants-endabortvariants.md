@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICrmCompensatorVariants::EndAbortVariants
+ - ICrmCompensatorVariants.EndAbortVariants
 ---
 
 # ICrmCompensatorVariants::EndAbortVariants
@@ -61,4 +61,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icrmcompensatorvariants">ICrmCompensatorVariants</a>
-

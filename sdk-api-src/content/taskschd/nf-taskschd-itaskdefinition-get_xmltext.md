@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskDefinition::get_XmlText
+ - ITaskDefinition.XmlText
+ - ITaskDefinition.get_XmlText
+ - ITaskDefinition.put_XmlText
 ---
 
 # ITaskDefinition::get_XmlText
@@ -63,4 +65,3 @@ The XML for a task is defined by the <a href="/windows/desktop/TaskSchd/task-sch
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-itaskdefinition">ITaskDefinition</a>
-

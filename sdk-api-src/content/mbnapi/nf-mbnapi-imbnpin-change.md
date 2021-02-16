@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnPin::Change
+ - IMbnPin.Change
 ---
 
 # IMbnPin::Change
@@ -136,4 +136,3 @@ This is an asynchronous operation. If the method returns with success, then upon
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnpin">IMbnPin</a>
-

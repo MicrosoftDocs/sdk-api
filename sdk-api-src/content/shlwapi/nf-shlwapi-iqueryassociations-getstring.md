@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IQueryAssociations::GetString
+ - IQueryAssociations.GetString
 ---
 
 # IQueryAssociations::GetString
@@ -137,4 +137,3 @@ Returns a standard COM error value, including the following:
 <td><i>pwszOut</i> is <b>NULL</b>. <i>pcchOut</i> contains the required buffer size.</td>
 </tr>
 </table>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlaylist::get_isIdentical
+ - IWMPPlaylist.get_isIdentical
 ---
 
 # IWMPPlaylist::get_isIdentical
@@ -87,4 +87,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylist">IWMPPlaylist Interface</a>
-

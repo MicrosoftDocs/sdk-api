@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterMapper2::RegisterFilter
+ - IFilterMapper2.RegisterFilter
 ---
 
 # IFilterMapper2::RegisterFilter
@@ -136,4 +136,3 @@ Set <i>ppMoniker</i> to <b>NULL</b> if you don't want to provide or receive the 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifiltermapper2">IFilterMapper2 Interface</a>
-

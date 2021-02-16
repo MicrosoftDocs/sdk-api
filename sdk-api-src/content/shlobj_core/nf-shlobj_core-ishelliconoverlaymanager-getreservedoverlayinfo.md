@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellIconOverlayManager::GetReservedOverlayInfo
+ - IShellIconOverlayManager.GetReservedOverlayInfo
 ---
 
 # IShellIconOverlayManager::GetReservedOverlayInfo
@@ -126,4 +126,3 @@ Failure, for any reason.
 
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-ishelliconoverlaymanager">IShellIconOverlayManager</a>
-

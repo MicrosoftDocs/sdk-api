@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsWriter.h
 api_name:
- - IVssExpressWriter::Unregister
+ - IVssExpressWriter.Unregister
 ---
 
 # IVssExpressWriter::Unregister
@@ -100,4 +100,3 @@ Before using this method, the caller must have used the <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivssexpresswriter">IVssExpressWriter</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationPriorityComparison::HasPriority
+ - IUIAnimationPriorityComparison.HasPriority
 ---
 
 # IUIAnimationPriorityComparison::HasPriority
@@ -172,4 +172,3 @@ When <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priorit
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_priority_effect">UI_ANIMATION_PRIORITY_EFFECT</a>
-

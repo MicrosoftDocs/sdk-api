@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume::AddPlex
+ - IVdsVolume.AddPlex
 ---
 
 # IVdsVolume::AddPlex
@@ -192,4 +192,3 @@ Implementers must return a pointer to the <a href="/windows/desktop/api/vdshwprv
 
 
 <a href="/windows/desktop/VDS/volume-plex-object">Volume Plex Object</a>
-

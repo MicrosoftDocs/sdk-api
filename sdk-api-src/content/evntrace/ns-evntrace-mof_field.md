@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _MOF_FIELD
- - PMOF_FIELD
  - MOF_FIELD
 ---
 
@@ -98,4 +96,3 @@ The event tracing session automatically dereferences
 
 
 <a href="/windows/desktop/ETW/event-trace-header">EVENT_TRACE_HEADER</a>
-

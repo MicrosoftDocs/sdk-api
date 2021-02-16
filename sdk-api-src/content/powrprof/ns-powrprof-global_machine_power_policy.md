@@ -46,8 +46,6 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
- - _GLOBAL_MACHINE_POWER_POLICY
- - PGLOBAL_MACHINE_POWER_POLICY
  - GLOBAL_MACHINE_POWER_POLICY
 ---
 
@@ -94,4 +92,3 @@ The resolution of change in the current battery capacity that should cause the s
 ## -see-also
 
 <a href="/windows/desktop/api/powrprof/ns-powrprof-global_power_policy">GLOBAL_POWER_POLICY</a>
-

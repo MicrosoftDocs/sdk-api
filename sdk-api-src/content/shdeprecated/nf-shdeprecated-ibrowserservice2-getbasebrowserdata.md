@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::GetBaseBrowserData
+ - IBrowserService2.GetBaseBrowserData
 ---
 
 # IBrowserService2::GetBaseBrowserData
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is used as an optimization to access the internal state of the base browser. The state should be updated only by the base browser.
-

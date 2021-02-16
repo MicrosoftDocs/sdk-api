@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
  - MF_TOPOLOGY_RESOLUTION_STATUS_FLAGS
 ---
 
@@ -72,4 +71,3 @@ An optional topology node was rejected because it could not be loaded into a pro
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

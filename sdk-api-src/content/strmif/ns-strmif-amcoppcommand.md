@@ -46,8 +46,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _AMCOPPCommand
- - LPAMCOPPCommand
  - AMCOPPCommand
 ---
 
@@ -106,4 +104,3 @@ For more information, see the Windows DDK documentation.
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-

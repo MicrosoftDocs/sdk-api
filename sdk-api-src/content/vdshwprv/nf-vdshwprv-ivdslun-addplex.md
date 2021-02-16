@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsLun::AddPlex
+ - IVdsLun.AddPlex
 ---
 
 # IVdsLun::AddPlex
@@ -183,4 +183,3 @@ Implementers must return a pointer to the
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdslun">IVdsLun</a>
-

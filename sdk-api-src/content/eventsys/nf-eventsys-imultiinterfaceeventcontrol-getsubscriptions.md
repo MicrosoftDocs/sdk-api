@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IMultiInterfaceEventControl::GetSubscriptions
+ - IMultiInterfaceEventControl.GetSubscriptions
 ---
 
 # IMultiInterfaceEventControl::GetSubscriptions
@@ -161,4 +161,3 @@ Following are some examples of valid query criteria:
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-imultiinterfaceeventcontrol">IMultiInterfaceEventControl</a>
-

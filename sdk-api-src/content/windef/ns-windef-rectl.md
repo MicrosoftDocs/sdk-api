@@ -46,8 +46,6 @@ api_type:
 api_location:
  - windef.h
 api_name:
- - _RECTL
- - PRECTL
  - RECTL
 ---
 
@@ -83,4 +81,3 @@ The RECTL structure is identical to the <a href="/windows/desktop/api/windef/ns-
 ## -see-also
 
 <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a>
-

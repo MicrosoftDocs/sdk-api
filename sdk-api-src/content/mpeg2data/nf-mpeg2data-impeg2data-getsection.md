@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2data.h
 api_name:
- - IMpeg2Data::GetSection
+ - IMpeg2Data.GetSection
 ---
 
 # IMpeg2Data::GetSection
@@ -123,4 +123,3 @@ The filter did not receive a matching table section.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mpeg2data/nn-mpeg2data-impeg2data">IMpeg2Data Interface</a>
-

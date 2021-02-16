@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::SetEnabled
+ - IFullScreenVideoEx.SetEnabled
 ---
 
 # IFullScreenVideoEx::SetEnabled
@@ -122,4 +122,3 @@ Display modes are indexed from zero. The <a href="/windows/desktop/api/amvideo/n
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

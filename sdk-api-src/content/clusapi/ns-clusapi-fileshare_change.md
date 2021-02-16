@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _FILESHARE_CHANGE
- - PFILESHARE_CHANGE
  - FILESHARE_CHANGE
 ---
 
@@ -97,4 +95,3 @@ The name of the file share resource specific to this entry in the event notifica
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription::put_MachineName
+ - IEventSubscription.MachineName
+ - IEventSubscription.get_MachineName
+ - IEventSubscription.put_MachineName
 ---
 
 # IEventSubscription::put_MachineName
@@ -63,4 +65,3 @@ This information is only meaningful if the <a href="/windows/desktop/api/eventsy
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsubscription">IEventSubscription</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITPhone::get_PhoneCapsString
+ - ITPhone.get_PhoneCapsString
 ---
 
 # ITPhone::get_PhoneCapsString
@@ -78,4 +78,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-phonecaps">PHONECAPS</a>
-

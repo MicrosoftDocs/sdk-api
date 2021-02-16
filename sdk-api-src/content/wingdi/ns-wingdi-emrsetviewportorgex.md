@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSETVIEWPORTORGEX
- - PEMRSETVIEWPORTORGEX
  - EMRSETVIEWPORTORGEX
 ---
 
@@ -87,4 +85,3 @@ Coordinates of the origin. For <b>EMRSETVIEWPORTORGEX</b> and <b>EMRSETBRUSHORGE
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setwindoworgex">SetWindowOrgEx</a>
-

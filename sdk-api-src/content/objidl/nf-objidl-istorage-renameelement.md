@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStorage::RenameElement
+ - IStorage.RenameElement
 ---
 
 # IStorage::RenameElement
@@ -81,4 +81,3 @@ The <b>IStorage::RenameElement</b> method is not guaranteed to work in low memor
 ## -see-also
 
 <a href="/windows/desktop/Stg/istorage-compound-file-implementation">IStorage - Compound File Implementation</a>
-

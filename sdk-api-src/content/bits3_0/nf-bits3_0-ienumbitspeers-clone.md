@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IEnumBitsPeers::Clone
+ - IEnumBitsPeers.Clone
 ---
 
 # IEnumBitsPeers::Clone
@@ -69,4 +69,3 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ienumbitspeers">IEnumBitsPeers</a>
-

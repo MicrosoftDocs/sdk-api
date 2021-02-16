@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice::CreateScaleTransform3D
+ - IDCompositionDevice.CreateScaleTransform3D
 ---
 
 # IDCompositionDevice::CreateScaleTransform3D
@@ -81,4 +81,3 @@ A new 3D scale transform object has a static value of 1.0 for the ScaleX, ScaleY
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
-

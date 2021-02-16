@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_WRITE_BACKUP_INFORMATION
- - PTXFS_WRITE_BACKUP_INFORMATION
  - TXFS_WRITE_BACKUP_INFORMATION
 ---
 
@@ -72,4 +70,3 @@ The buffer for the data.
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_write_backup_information">FSCTL_TXFS_WRITE_BACKUP_INFORMATION</a>
-

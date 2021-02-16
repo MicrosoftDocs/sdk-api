@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumFieldsWithName
+ - IMetaDataImport.EnumFieldsWithName
 ---
 
 # IMetaDataImport::EnumFieldsWithName
@@ -105,4 +105,3 @@ Unlike <a href="/windows/desktop/api/rometadataapi/nf-rometadataapi-imetadataimp
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

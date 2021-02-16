@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagCREATESTRUCTW
- - LPCREATESTRUCTW
+ - CREATESTRUCT
+ - CREATESTRUCTA
  - CREATESTRUCTW
 ---
 
@@ -195,4 +195,3 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

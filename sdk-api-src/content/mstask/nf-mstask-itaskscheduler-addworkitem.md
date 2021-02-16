@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler::AddWorkItem
+ - ITaskScheduler.AddWorkItem
 ---
 
 # ITaskScheduler::AddWorkItem
@@ -144,4 +144,3 @@ Task scheduler provides two methods for adding work items:
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-itaskscheduler-newworkitem">ITaskScheduler::NewWorkItem</a>
-

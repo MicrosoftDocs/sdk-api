@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CharUpperW
  - winuser/CharUpperW
- - CharUpper
- - winuser/CharUpper
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-0.dll
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharUpperW
  - CharUpper
+ - CharUpperA
+ - CharUpperW
 ---
 
 # CharUpperW function
@@ -118,4 +117,3 @@ Conversion to Unicode in the ANSI version of the function is done with the syste
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
-

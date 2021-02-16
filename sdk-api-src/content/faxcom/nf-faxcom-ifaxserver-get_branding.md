@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxServer::get_Branding
+ - IFaxServer.Branding
+ - IFaxServer.get_Branding
+ - IFaxServer.put_Branding
+ - IFaxServer.get_Branding
+ - IFaxServer.put_Branding
 ---
 
 # IFaxServer::get_Branding
@@ -75,4 +79,3 @@ A brand is an informational header at the top of most fax pages that typically c
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxserver">IFaxServer</a>
-

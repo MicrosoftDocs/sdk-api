@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _CRYPT_PROVUI_DATA
- - PCRYPT_PROVUI_DATA
  - CRYPT_PROVUI_DATA
 ---
 
@@ -101,4 +99,3 @@ A pointer to a <b>null</b>-terminated string for the text used when a signature 
 ## -see-also
 
 <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provui_funcs">CRYPT_PROVUI_FUNCS</a>
-

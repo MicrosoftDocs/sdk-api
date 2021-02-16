@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_101
- - PSERVER_INFO_101
  - SERVER_INFO_101
 ---
 
@@ -552,4 +550,3 @@ To retrieve a value that indicates whether a share is the root volume in a Dfs t
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationInvokePattern::Invoke
+ - IUIAutomationInvokePattern.Invoke
 ---
 
 # IUIAutomationInvokePattern::Invoke
@@ -67,4 +67,3 @@ Calls to this method should return immediately without blocking. However, this b
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationinvokepattern">IUIAutomationInvokePattern</a>
-

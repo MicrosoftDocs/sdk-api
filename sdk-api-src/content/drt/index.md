@@ -9,8 +9,6 @@ tech.root: p2p
 f1_keywords:
  - drt
  - drt/drt
-api_name:
- - drt
 ---
 
 # Drt.h header

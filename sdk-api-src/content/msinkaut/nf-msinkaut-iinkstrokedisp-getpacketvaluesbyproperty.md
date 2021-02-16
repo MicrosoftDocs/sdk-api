@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::GetPacketValuesByProperty
+ - IInkStrokeDisp.GetPacketValuesByProperty
 ---
 
 # IInkStrokeDisp::GetPacketValuesByProperty
@@ -205,4 +205,3 @@ A specific packet property may not be available on a particular <a href="/window
 
 
 <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
-

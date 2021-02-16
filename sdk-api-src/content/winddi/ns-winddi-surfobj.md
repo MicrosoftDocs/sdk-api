@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _SURFOBJ
  - SURFOBJ
 ---
 
@@ -331,4 +330,3 @@ When a SURFOBJ structure represents a GDI bitmap, the driver must be able to det
 When a SURFOBJ structure represents a device surface, the driver must be able to locate the device handle for the surface.
 
 For more information about supporting JPEG and PNG compressed images, see <a href="/windows/desktop/api/winddi/ns-winddi-devinfo">DEVINFO</a>.
-

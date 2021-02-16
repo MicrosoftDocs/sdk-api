@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IReferenceClockTimerControl::SetDefaultTimerResolution
+ - IReferenceClockTimerControl.SetDefaultTimerResolution
 ---
 
 # IReferenceClockTimerControl::SetDefaultTimerResolution
@@ -94,4 +94,3 @@ If this method is not called, the reference clock sets the timer resolution to 1
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclocktimercontrol">IReferenceClockTimerControl Interface</a>
-

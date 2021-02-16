@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionFactory2::CreateNegation
+ - IConditionFactory2.CreateNegation
 ---
 
 # IConditionFactory2::CreateNegation
@@ -121,4 +121,3 @@ Applications that need to execute queries based on the condition tree would typi
 
 
 <b>Reference</b>
-

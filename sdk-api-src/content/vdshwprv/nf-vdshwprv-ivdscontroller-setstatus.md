@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsController::SetStatus
+ - IVdsController.SetStatus
 ---
 
 # IVdsController::SetStatus
@@ -179,4 +179,3 @@ Implementers are responsible for performing any necessary operations to get the 
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_controller_status">VDS_CONTROLLER_STATUS</a>
-

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRenderer::ScaleTransform
+ - IInkRenderer.ScaleTransform
 ---
 
 # IInkRenderer::ScaleTransform
@@ -107,4 +107,3 @@ An exception occurred inside the method.
 
 
 <a href="/windows/desktop/tablet/inkrenderer-class">InkRenderer Class</a>
-

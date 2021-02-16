@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::get_RequestId
+ - IX509Enrollment.RequestId
+ - IX509Enrollment.get_RequestId
 ---
 
 # IX509Enrollment::get_RequestId
@@ -63,4 +64,3 @@ The value of the <b>RequestId</b> property is set during the enrollment process.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

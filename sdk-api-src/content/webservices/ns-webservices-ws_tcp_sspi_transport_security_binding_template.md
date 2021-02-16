@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE
  - WS_TCP_SSPI_TRANSPORT_SECURITY_BINDING_TEMPLATE
 ---
 
@@ -69,4 +68,3 @@ Application provided security binding properties that cannot be represented in p
 
 The Windows credential to be used to obtain this security token.  This
           is required on the client and must not be specified on the server.
-

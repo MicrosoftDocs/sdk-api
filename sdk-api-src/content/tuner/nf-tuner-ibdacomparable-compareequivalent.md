@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IBDAComparable::CompareEquivalent
+ - IBDAComparable.CompareEquivalent
 ---
 
 # IBDAComparable::CompareEquivalent
@@ -83,4 +83,3 @@ For example, DirectShow implements the <b>IBDAComparable::CompareEquivalent</b> 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ibdacomparable">IBDAComparable Interface</a>
-

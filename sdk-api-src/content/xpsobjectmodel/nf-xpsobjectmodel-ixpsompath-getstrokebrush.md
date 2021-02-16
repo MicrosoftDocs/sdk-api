@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPath::GetStrokeBrush
+ - IXpsOMPath.GetStrokeBrush
 ---
 
 # IXpsOMPath::GetStrokeBrush
@@ -171,4 +171,3 @@ No object could be found with a key name that matched the lookup value.
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

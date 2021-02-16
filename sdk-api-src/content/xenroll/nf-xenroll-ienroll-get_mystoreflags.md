@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_MyStoreFlags
+ - IEnroll.MyStoreFlags
+ - IEnroll.get_MyStoreFlags
+ - IEnroll.put_MyStoreFlags
 ---
 
 # IEnroll::get_MyStoreFlags
@@ -80,4 +82,3 @@ The <b>MyStoreFlags</b> property should be set before using the following method
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

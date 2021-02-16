@@ -9,8 +9,6 @@ tech.root: mib
 f1_keywords:
  - ifmib
  - ifmib/ifmib
-api_name:
- - ifmib
 ---
 
 # Ifmib.h header

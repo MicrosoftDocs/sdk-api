@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IImageInformation::get_AltText
+ - IImageInformation.AltText
+ - IImageInformation.get_AltText
 ---
 
 # IImageInformation::get_AltText
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>
-

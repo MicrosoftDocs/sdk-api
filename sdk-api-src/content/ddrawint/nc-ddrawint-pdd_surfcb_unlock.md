@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_SURFCB_UNLOCK
+ - DdUnlock
 ---
 
 ## -description
@@ -72,4 +72,3 @@ The driver does not need to verify that the memory was previously locked down by
 
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_lock">DdLock</a>
-

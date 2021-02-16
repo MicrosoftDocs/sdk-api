@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CopyFileA
  - winbase/CopyFileA
- - CopyFile
- - winbase/CopyFile
 dev_langs:
  - c++
 topic_type:
@@ -54,8 +52,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
 api_name:
- - CopyFileA
  - CopyFile
+ - CopyFileA
+ - CopyFileW
 ---
 
 # CopyFileA function
@@ -248,4 +247,3 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
-

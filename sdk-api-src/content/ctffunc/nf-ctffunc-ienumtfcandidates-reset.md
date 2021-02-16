@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfCandidates::Reset
+ - IEnumTfCandidates.Reset
 ---
 
 # IEnumTfCandidates::Reset

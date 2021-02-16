@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetSetPerSiteCookieDecisionW
  - wininet/InternetSetPerSiteCookieDecisionW
- - InternetSetPerSiteCookieDecision
- - wininet/InternetSetPerSiteCookieDecision
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetSetPerSiteCookieDecisionW
  - InternetSetPerSiteCookieDecision
+ - InternetSetPerSiteCookieDecisionA
+ - InternetSetPerSiteCookieDecisionW
 ---
 
 # InternetSetPerSiteCookieDecisionW function
@@ -103,4 +102,3 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/api/wininet/nf-wininet-privacysetzonepreferencew">PrivacySetZonePreferenceW</a>
-

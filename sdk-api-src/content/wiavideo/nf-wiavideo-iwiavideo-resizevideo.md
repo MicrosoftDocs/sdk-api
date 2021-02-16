@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiavideo.dll
 api_name:
- - IWiaVideo::ResizeVideo
+ - IWiaVideo.ResizeVideo
 ---
 
 # IWiaVideo::ResizeVideo

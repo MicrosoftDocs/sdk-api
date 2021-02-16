@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12sdklayers.h
 api_name:
- - ID3D12DebugCommandList::SetFeatureMask
+ - ID3D12DebugCommandList.SetFeatureMask
 ---
 
 # ID3D12DebugCommandList::SetFeatureMask
@@ -69,4 +69,3 @@ This method returns one of the <a href="/windows/desktop/direct3d12/d3d12-graphi
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12sdklayers/nn-d3d12sdklayers-id3d12debugcommandlist">ID3D12DebugCommandList</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _PROJECTION_INFO
- - PPROJECTION_INFO
  - PROJECTION_INFO
 ---
 
@@ -110,4 +108,3 @@ A <a href="/windows/desktop/api/mprapi/ns-mprapi-ikev2_projection_info">IKEV2_PR
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

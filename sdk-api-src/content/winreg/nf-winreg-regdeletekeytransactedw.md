@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegDeleteKeyTransactedW
  - winreg/RegDeleteKeyTransactedW
- - RegDeleteKeyTransacted
- - winreg/RegDeleteKeyTransacted
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegDeleteKeyTransactedW
  - RegDeleteKeyTransacted
+ - RegDeleteKeyTransactedA
+ - RegDeleteKeyTransactedW
 ---
 
 # RegDeleteKeyTransactedW function
@@ -170,4 +169,3 @@ If the function succeeds, <b>RegDeleteKeyTransacted</b> removes the specified ke
 
 
 <a href="/windows/desktop/WinProg64/registry-redirector">Registry Redirector</a>
-

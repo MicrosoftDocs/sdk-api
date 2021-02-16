@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _repastespecial
  - REPASTESPECIAL
 ---
 
@@ -101,4 +100,3 @@ Aspect data. If <b>dwAspect</b> is DVASPECT_ICON, this member contains the handl
 ## -see-also
 
 <a href="https://msdn.microsoft.com/b4b9c1a7-943d-4dc8-bcb9-054c984b82ba">EM_PASTESPECIAL</a>
-

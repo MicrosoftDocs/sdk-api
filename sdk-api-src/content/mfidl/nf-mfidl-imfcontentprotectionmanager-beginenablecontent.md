@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentProtectionManager::BeginEnableContent
+ - IMFContentProtectionManager.BeginEnableContent
 ---
 
 # IMFContentProtectionManager::BeginEnableContent
@@ -113,4 +113,3 @@ This method is not necessarily called every time the application plays protected
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager">IMFContentProtectionManager</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter::GetLastSendTime
+ - IMFASFSplitter.GetLastSendTime
 ---
 
 # IMFASFSplitter::GetLastSendTime
@@ -99,4 +99,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfsplitter-setflags">IMFASFSplitter::SetFlags</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLangBarMgr::AdviseEventSink
+ - ITfLangBarMgr.AdviseEventSink
 ---
 
 # ITfLangBarMgr::AdviseEventSink
@@ -130,4 +130,3 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/TSF/thread-manager">Thread Manager</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CREATE_CLUSTER_CONFIG
- - PCREATE_CLUSTER_CONFIG
  - CREATE_CLUSTER_CONFIG
 ---
 
@@ -126,4 +124,3 @@ A <a href="/previous-versions/windows/desktop/api/clusapi/ne-clusapi-cluster_mgm
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

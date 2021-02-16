@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Documenttarget.h
 api_name:
- - __MIDL___MIDL_itf_documenttarget_0000_0001_0001
  - PrintDocumentPackageStatus
 ---
 
@@ -84,4 +83,3 @@ The error state of the job.
 ## -see-also
 
 <a href="/windows/desktop/api/documenttarget/nf-documenttarget-iprintdocumentpackagestatusevent-packagestatusupdated">PackageStatusUpdated</a>
-

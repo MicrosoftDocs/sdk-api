@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - mpeg2psiparser
  - mpeg2psiparser/mpeg2psiparser
-api_name:
- - mpeg2psiparser
 ---
 
 # Mpeg2Psiparser.h header

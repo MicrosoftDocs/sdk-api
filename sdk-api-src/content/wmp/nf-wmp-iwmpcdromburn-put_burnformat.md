@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn::put_burnFormat
+ - IWMPCdromBurn.put_burnFormat
 ---
 
 # IWMPCdromBurn::put_burnFormat
@@ -95,4 +95,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpburnformat">WMPBurnFormat</a>
-

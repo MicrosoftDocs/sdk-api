@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
- - PCMSG_CTRL_KEY_TRANS_DECRYPT_PARA
  - CMSG_CTRL_KEY_TRANS_DECRYPT_PARA
 ---
 
@@ -87,4 +85,3 @@ A pointer to a
 ### -field dwRecipientIndex
 
 Indicates a specific recipient in any array of recipients.
-

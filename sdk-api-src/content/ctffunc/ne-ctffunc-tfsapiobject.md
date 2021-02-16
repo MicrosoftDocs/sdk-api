@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ctffunc.h
 api_name:
- - __MIDL___MIDL_itf_ctffunc_0000_0011_0001
  - TfSapiObject
 ---
 
@@ -85,4 +84,3 @@ Specifies an ISpRecognizer object. SAPI will not be initialized if it is not alr
 
 <a href="/windows/desktop/api/ctffunc/nf-ctffunc-itffngetsapiobject-get">ITfFnGetSAPIObject::Get
       </a>
-

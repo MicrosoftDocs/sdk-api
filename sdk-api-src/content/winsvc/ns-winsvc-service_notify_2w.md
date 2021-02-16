@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_NOTIFY_2W
- - PSERVICE_NOTIFY_2W
- - SERVICE_NOTIFY_2W
+ - SERVICE_NOTIFY
+ - SERVICE_NOTIFYA
+ - SERVICE_NOTIFYW
 ---
 
 # SERVICE_NOTIFY_2W structure
@@ -113,4 +113,3 @@ The callback function receives a pointer to the <b>SERVICE_NOTIFY</b> structure 
 
 
 <a href="/windows/desktop/api/winsvc/ns-winsvc-service_status_process">SERVICE_STATUS_PROCESS</a>
-

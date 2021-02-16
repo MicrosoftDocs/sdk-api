@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DIndexBuffer9::Unlock
+ - IDirect3DIndexBuffer9.Unlock
 ---
 
 # IDirect3DIndexBuffer9::Unlock
@@ -72,4 +72,3 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 <a href="/windows/desktop/direct3d9/index-buffers">Index Buffers (Direct3D 9)</a>
-

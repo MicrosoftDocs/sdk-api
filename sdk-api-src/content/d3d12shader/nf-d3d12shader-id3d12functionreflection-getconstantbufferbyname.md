@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - ID3D12FunctionReflection::GetConstantBufferByName
+ - ID3D12FunctionReflection.GetConstantBufferByName
 ---
 
 # ID3D12FunctionReflection::GetConstantBufferByName
@@ -73,4 +73,3 @@ A constant buffer supplies either scalar constants or texture constants to a sha
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12shader/nn-d3d12shader-id3d12functionreflection">ID3D12FunctionReflection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCustomTone::put_Volume
+ - ITCustomTone.put_Volume
 ---
 
 # ITCustomTone::put_Volume
@@ -88,4 +88,3 @@ Method succeeded.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itcustomtone-get_volume">get_Volume</a>
-

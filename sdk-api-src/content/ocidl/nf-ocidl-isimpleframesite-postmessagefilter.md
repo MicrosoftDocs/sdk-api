@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - ISimpleFrameSite::PostMessageFilter
+ - ISimpleFrameSite.PostMessageFilter
 ---
 
 # ISimpleFrameSite::PostMessageFilter
@@ -125,4 +125,3 @@ The site does not filter any messages.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-isimpleframesite">ISimpleFrameSite</a>
-

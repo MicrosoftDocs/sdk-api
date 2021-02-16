@@ -46,8 +46,6 @@ api_type:
 api_location:
  - iwstdec.h
 api_name:
- - _AM_WST_STATE
- - PAM_WST_STATE
  - AM_WST_STATE
 ---
 
@@ -75,4 +73,3 @@ Specifies that WST closed captioning is disabled.
 
 
 <a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder</a>
-

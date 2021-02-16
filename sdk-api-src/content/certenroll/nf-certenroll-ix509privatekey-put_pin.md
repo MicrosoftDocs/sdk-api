@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::put_Pin
+ - IX509PrivateKey.Pin
+ - IX509PrivateKey.put_Pin
 ---
 
 # IX509PrivateKey::put_Pin
@@ -59,4 +60,3 @@ This property is write-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

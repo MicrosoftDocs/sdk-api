@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern::GetVisibleRanges
+ - IUIAutomationTextPattern.GetVisibleRanges
 ---
 
 # IUIAutomationTextPattern::GetVisibleRanges
@@ -84,4 +84,3 @@ If the visible text consists of multiple, disjoint spans of text, the <i>ranges<
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

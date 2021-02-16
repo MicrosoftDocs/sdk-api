@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMPushSource::SetMaxStreamOffset
+ - IAMPushSource.SetMaxStreamOffset
 ---
 
 # IAMPushSource::SetMaxStreamOffset
@@ -74,4 +74,3 @@ If this method is called prior to connecting the filter, the filter can allocate
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iampushsource">IAMPushSource Interface</a>
-

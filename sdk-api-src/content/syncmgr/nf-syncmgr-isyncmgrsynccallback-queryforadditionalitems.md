@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncCallback::QueryForAdditionalItems
+ - ISyncMgrSyncCallback.QueryForAdditionalItems
 ---
 
 # ISyncMgrSyncCallback::QueryForAdditionalItems
@@ -75,4 +75,3 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. Returns <b>S_FAL
 ## -remarks
 
 Item IDs retrieved by a call to the <b>Next</b> method of the retrieved enumerator interface have a maximum length of <b>MAX_SYNCMGR_ID</b> including the terminating null character. The calling application is responsible for deallocating each item ID retrieved through the <b>Next</b> method by using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-

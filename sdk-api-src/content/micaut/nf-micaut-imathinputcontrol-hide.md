@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::Hide
+ - IMathInputControl.Hide
 ---
 
 # IMathInputControl::Hide
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/micaut/nf-micaut-imathinputcontrol-show">Show</a>
-

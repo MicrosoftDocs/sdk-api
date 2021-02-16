@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IStylusPlugin::StylusInRange
+ - IStylusPlugin.StylusInRange
 ---
 
 # IStylusPlugin::StylusInRange
@@ -164,4 +164,3 @@ STDMETHODIMP CPacketModifier::StylusInRange(
 
 
 <a href="/windows/desktop/api/rtscom/nn-rtscom-istylussyncplugin">IStylusSyncPlugin</a>
-

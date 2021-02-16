@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IReferenceClock::AdvisePeriodic
+ - IReferenceClock.AdvisePeriodic
 ---
 
 # IReferenceClock::AdvisePeriodic
@@ -167,4 +167,3 @@ pRefClock-&gt;Unadvise(dwAdviseToken);
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ireferenceclock">IReferenceClock Interface</a>
-

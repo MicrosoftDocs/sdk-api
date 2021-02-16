@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - IWbemCallResult::GetCallStatus
+ - IWbemCallResult.GetCallStatus
 ---
 
 # IWbemCallResult::GetCallStatus
@@ -134,4 +134,3 @@ After invoking an
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemservices-putinstance">IWbemServices::PutInstance</a>
-

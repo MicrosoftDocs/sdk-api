@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shimgvw.dll
 api_name:
- - IHWEventHandler::HandleEventWithContent
+ - IHWEventHandler.HandleEventWithContent
 ---
 
 # IHWEventHandler::HandleEventWithContent

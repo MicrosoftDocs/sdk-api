@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMXDEC4::operator=
+ - XMXDEC4.operator =
 ---
 
 # XMXDEC4::operator-assign(uint32_t)

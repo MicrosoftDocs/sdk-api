@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer::fIsAuthenticated
+ - CSecureChannelServer.fIsAuthenticated
 ---
 
 # CSecureChannelServer::fIsAuthenticated
@@ -105,4 +105,3 @@ HRESULT CMyDevice::GetVersion(DWORD * pdwVersion)
 
 
 <a href="/windows/desktop/WMDM/csecurechannelserver-class">CSecureChannelServer Class</a>
-

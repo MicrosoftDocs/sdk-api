@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
- - tagMONMSGSTRUCT
- - PMONMSGSTRUCT
  - MONMSGSTRUCT
 ---
 
@@ -143,4 +141,3 @@ Additional information about the DDE message.
 
 
 <b>Reference</b>
-

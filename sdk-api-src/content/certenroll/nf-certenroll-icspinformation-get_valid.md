@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformation::get_Valid
+ - ICspInformation.Valid
+ - ICspInformation.get_Valid
 ---
 
 # ICspInformation::get_Valid
@@ -63,4 +64,3 @@ The <b>Valid</b> property is typically set by the Certificate Enrollment Control
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformation">ICspInformation</a>
-

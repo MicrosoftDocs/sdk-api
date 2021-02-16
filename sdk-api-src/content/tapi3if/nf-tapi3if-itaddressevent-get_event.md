@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressEvent::get_Event
+ - ITAddressEvent.get_Event
 ---
 
 # ITAddressEvent::get_Event
@@ -133,4 +133,3 @@ Certain events on PnP devices, such as AE_NEWTERMINAL and AE_REMOVETERMINAL, wil
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent">ITAddressEvent</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::GetAdapterModeCount
+ - IDirect3D9.GetAdapterModeCount
 ---
 
 # IDirect3D9::GetAdapterModeCount
@@ -80,4 +80,3 @@ This method returns the number of display modes on this adapter or zero if Adapt
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

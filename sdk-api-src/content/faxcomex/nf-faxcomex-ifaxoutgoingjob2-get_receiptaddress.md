@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob2::get_ReceiptAddress
+ - IFaxOutgoingJob2.ReceiptAddress
+ - IFaxOutgoingJob2.get_ReceiptAddress
+ - IFaxOutgoingJob2.get_ReceiptAddress
 ---
 
 # IFaxOutgoingJob2::get_ReceiptAddress
@@ -82,4 +84,3 @@ The type of address will vary according to the value of the <a href="/previous-v
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob2">IFaxOutgoingJob2</a>
-

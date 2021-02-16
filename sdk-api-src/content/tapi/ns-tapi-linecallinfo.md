@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linecallinfo_tag
- - LPLINECALLINFO
  - LINECALLINFO
 ---
 
@@ -512,4 +510,3 @@ The members <b>dwCallTreatment</b> through <b>dwReceivingFlowspecOffset</b> are 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linetranslateaddress">lineTranslateAddress</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::GetResponseHeader
+ - IXMLHTTPRequest2.GetResponseHeader
 ---
 
 # IXMLHTTPRequest2::GetResponseHeader
@@ -111,4 +111,3 @@ if (pwszHeaderValue != NULL)
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2callback-onheadersavailable">OnHeadersAvailable</a>
-

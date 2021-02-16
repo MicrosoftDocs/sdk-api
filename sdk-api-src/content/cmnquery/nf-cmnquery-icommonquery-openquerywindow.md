@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsquery.dll
 api_name:
- - ICommonQuery::OpenQueryWindow
+ - ICommonQuery.OpenQueryWindow
 ---
 
 # ICommonQuery::OpenQueryWindow
@@ -124,4 +124,3 @@ Returns a standard <b>HRESULT</b> value including the following.
 
 
 <a href="/windows/desktop/api/cmnquery/ns-cmnquery-openquerywindow">OPENQUERYWINDOW</a>
-

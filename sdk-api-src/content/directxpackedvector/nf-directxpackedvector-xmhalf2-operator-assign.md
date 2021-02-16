@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMHALF2::operator=
+ - XMHALF2.operator =
 ---
 
 # XMHALF2::operator-assign

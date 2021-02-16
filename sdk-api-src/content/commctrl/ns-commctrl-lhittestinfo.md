@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLHITTESTINFO
- - PLHITTESTINFO
  - LHITTESTINFO
 ---
 
@@ -94,4 +92,3 @@ To convert from screen coordinates to client coordinates, use <a href="/windows/
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient">ScreenToClient</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfEditRecord::GetTextAndPropertyUpdates
+ - ITfEditRecord.GetTextAndPropertyUpdates
 ---
 
 # ITfEditRecord::GetTextAndPropertyUpdates
@@ -155,4 +155,3 @@ A memory allocation failure occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfeditrecord">ITfEditRecord</a>
-

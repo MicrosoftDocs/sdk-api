@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Extension::Initialize
+ - IX509Extension.Initialize
 ---
 
 # IX509Extension::Initialize
@@ -98,4 +98,3 @@ A certificate extension consists of an OID, a Boolean value that identifies whet
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extension">IX509Extension</a>
-

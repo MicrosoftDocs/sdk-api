@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::SetPixel
+ - Bitmap.SetPixel
 ---
 
 # Bitmap::SetPixel
@@ -147,4 +147,3 @@ VOID Example_SetPixel(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

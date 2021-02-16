@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_VALUE0_
  - FWP_VALUE0
 ---
 
@@ -198,4 +197,3 @@ When IP addresses are stored in FWP_UINT32 format or when IP port is stored in F
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform API structures</a>
-

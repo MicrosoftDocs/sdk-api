@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
- - _WSDXML_NODE
  - WSDXML_NODE
 ---
 
@@ -85,4 +84,3 @@ Node represents text.
 ## -remarks
 
 <b>WSDXML_NODE</b> represents an arbitrary node within the DOM tree. Nodes are weakly typed; the <b>Type</b> member must be inspected to determine the actual type of the node, and the node pointer must then be cast to the structure of the appropriate type (see <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> and <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_text">WSDXML_TEXT</a>) to obtain the node contents. <b>Parent</b> points to the containing element for the current node, and <b>Next</b> points to any nodes at the same level as the current node.
-

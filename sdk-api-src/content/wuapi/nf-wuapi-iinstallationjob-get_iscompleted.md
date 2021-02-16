@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IInstallationJob::get_IsCompleted
+ - IInstallationJob.IsCompleted
+ - IInstallationJob.get_IsCompleted
 ---
 
 # IInstallationJob::get_IsCompleted
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iinstallationjob">IInstallationJob</a>
-

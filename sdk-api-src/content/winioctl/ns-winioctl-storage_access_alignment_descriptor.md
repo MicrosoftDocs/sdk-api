@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
- - PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
  - STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
 ---
 
@@ -108,4 +106,3 @@ In this example, <code>BytesOffsetForSectorAlignment = 3 * BytesPerLogicalSector
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-

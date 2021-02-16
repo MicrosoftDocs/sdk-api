@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceContent2::UpdateObjectWithPropertiesAndData
+ - IPortableDeviceContent2.UpdateObjectWithPropertiesAndData
 ---
 
 # IPortableDeviceContent2::UpdateObjectWithPropertiesAndData
@@ -83,4 +83,3 @@ An update is incomplete until the <b>IStream::Commit</b> method is called on the
 To abandon a data transfer in progress, an application should call the <b>IStream::Revert</b> method on the object referenced by the <i>ppData</i> parameter.
 
 The <b>IStream</b> interface object referenced by the <i>ppData</i> parameter must be released after the update operation is complete, or, is canceled.
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IMonthlyTrigger::put_RandomDelay
+ - IMonthlyTrigger.RandomDelay
+ - IMonthlyTrigger.get_RandomDelay
+ - IMonthlyTrigger.put_RandomDelay
 ---
 
 # IMonthlyTrigger::put_RandomDelay
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-imonthlytrigger">IMonthlyTrigger</a>
-

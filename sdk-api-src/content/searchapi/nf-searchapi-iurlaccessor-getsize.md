@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - IUrlAccessor::GetSize
+ - IUrlAccessor.GetSize
 ---
 
 # IUrlAccessor::GetSize
@@ -73,4 +73,3 @@ The value calculated in this method is a factor in determining limitations on <a
             
 
 Implement this method for non-files by returning the size of the document to be indexed. For example, to index a database where each row is a document, return the best estimate of the size of the row.
-

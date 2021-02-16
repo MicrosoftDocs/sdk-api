@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFolderView2::SetCurrentFolderFlags
+ - IFolderView2.SetCurrentFolderFlags
 ---
 
 # IFolderView2::SetCurrentFolderFlags
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 <b>For Windows 7 or later:</b> This method must be used in combinaton with the <i>FVO_CUSTOMPOSITION</i> flag from the <a href="/windows/desktop/api/shobjidl/ne-shobjidl-folderviewoptions">FOLDERVIEWOPTIONS</a> enumeration.
-

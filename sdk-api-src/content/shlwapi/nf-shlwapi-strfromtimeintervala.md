@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StrFromTimeIntervalA
  - shlwapi/StrFromTimeIntervalA
- - StrFromTimeInterval
- - shlwapi/StrFromTimeInterval
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Shlwapi.dll
  - api-ms-win-shlwapi-winrt-storage-l1-1-1.dll
 api_name:
- - StrFromTimeIntervalA
  - StrFromTimeInterval
+ - StrFromTimeIntervalA
+ - StrFromTimeIntervalW
 ---
 
 # StrFromTimeIntervalA function

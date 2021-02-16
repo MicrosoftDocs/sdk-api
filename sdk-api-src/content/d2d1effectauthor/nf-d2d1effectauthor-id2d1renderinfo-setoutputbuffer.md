@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1RenderInfo::SetOutputBuffer
+ - ID2D1RenderInfo.SetOutputBuffer
 ---
 
 # ID2D1RenderInfo::SetOutputBuffer
@@ -96,4 +96,3 @@ There is no global output channel depth, this is always left to the control of t
 
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1renderinfo">ID2D1RenderInfo</a>
-

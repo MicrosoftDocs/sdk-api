@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpGetContextTokenFn
+ - SpGetContextToken
 ---
 
 # SpGetContextTokenFn callback function
@@ -106,4 +106,3 @@ A pointer to the <b>SpGetContextToken</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spusermodeinitializefn">SpUserModeInitialize</a>
-

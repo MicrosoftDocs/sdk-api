@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11DeviceContext::DrawIndexed
+ - ID3D11DeviceContext.DrawIndexed
 ---
 
 # ID3D11DeviceContext::DrawIndexed
@@ -82,4 +82,3 @@ If the sum of both indices is negative, the result of the function call is undef
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
-

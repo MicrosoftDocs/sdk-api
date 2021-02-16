@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport::CloseEnum
+ - IMetaDataAssemblyImport.CloseEnum
 ---
 
 # IMetaDataAssemblyImport::CloseEnum
@@ -61,4 +61,3 @@ The enumeration instance to be closed.
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-

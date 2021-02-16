@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector::GetOutputCount
+ - IMFASFStreamSelector.GetOutputCount
 ---
 
 # IMFASFStreamSelector::GetOutputCount
@@ -88,4 +88,3 @@ Outputs are streams in the ASF data section that will be parsed.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-

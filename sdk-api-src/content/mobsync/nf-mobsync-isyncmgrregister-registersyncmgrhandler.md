@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrRegister::RegisterSyncMgrHandler
+ - ISyncMgrRegister.RegisterSyncMgrHandler
 ---
 
 # ISyncMgrRegister::RegisterSyncMgrHandler
@@ -97,4 +97,3 @@ The handler was successfully registered.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrregister">ISyncMgrRegister</a>
-

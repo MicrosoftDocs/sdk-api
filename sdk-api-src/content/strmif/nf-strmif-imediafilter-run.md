@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaFilter::Run
+ - IMediaFilter.Run
 ---
 
 # IMediaFilter::Run
@@ -109,4 +109,3 @@ When an application calls the <a href="/windows/desktop/api/control/nf-control-i
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediafilter">IMediaFilter Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: netmgmt
 f1_keywords:
  - lmuse
  - lmuse/lmuse
-api_name:
- - lmuse
 ---
 
 # Lmuse.h header

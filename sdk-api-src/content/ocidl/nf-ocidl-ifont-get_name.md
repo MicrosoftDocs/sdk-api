@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::get_Name
+ - IFont.get_Name
 ---
 
 # IFont::get_Name
@@ -98,4 +98,3 @@ The address in the <i>pname</i> parameter is not valid. For example, it may be <
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_name">IFont::put_Name</a>
-

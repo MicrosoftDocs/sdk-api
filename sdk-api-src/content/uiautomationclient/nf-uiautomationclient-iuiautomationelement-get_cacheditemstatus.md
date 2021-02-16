@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedItemStatus
+ - IUIAutomationElement.CachedItemStatus
+ - IUIAutomationElement.get_CachedItemStatus
 ---
 
 # IUIAutomationElement::get_CachedItemStatus
@@ -75,4 +76,3 @@ This property enables a client to ascertain whether an element is conveying stat
 
 
 <b>Reference</b>
-

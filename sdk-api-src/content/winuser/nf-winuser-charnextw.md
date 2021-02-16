@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CharNextW
  - winuser/CharNextW
- - CharNext
- - winuser/CharNext
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-DownLevel-user32-l1-1-0.dll
  - API-MS-Win-DownLevel-user32-l1-1-1.dll
 api_name:
- - CharNextW
  - CharNext
+ - CharNextA
+ - CharNextW
 ---
 
 # CharNextW function
@@ -116,4 +115,3 @@ and so on.
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
-

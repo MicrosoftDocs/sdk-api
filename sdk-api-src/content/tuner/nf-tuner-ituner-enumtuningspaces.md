@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner::EnumTuningSpaces
+ - ITuner.EnumTuningSpaces
 ---
 
 # ITuner::EnumTuningSpaces
@@ -73,4 +73,3 @@ This list is a subset of the compatible tuning spaces for this implementation.
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-

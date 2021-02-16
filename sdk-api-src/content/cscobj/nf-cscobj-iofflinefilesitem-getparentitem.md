@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItem::GetParentItem
+ - IOfflineFilesItem.GetParentItem
 ---
 
 # IOfflineFilesItem::GetParentItem
@@ -68,4 +68,3 @@ If the item is a server item, this function returns <code>HRESULT_FROM_WIN32(ERR
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitem">IOfflineFilesItem</a>
-

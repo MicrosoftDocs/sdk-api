@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFActivate::ShutdownObject
+ - IMFActivate.ShutdownObject
 ---
 
 # IMFActivate::ShutdownObject
@@ -92,4 +92,3 @@ After <b>ShutdownObject</b> is called, the activation object releases all of its
 
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate">IMFActivate</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName
+ - IUIAutomationAnnotationPattern.CurrentAnnotationTypeName
+ - IUIAutomationAnnotationPattern.get_CurrentAnnotationTypeName
 ---
 
 # IUIAutomationAnnotationPattern::get_CurrentAnnotationTypeName
@@ -63,4 +64,3 @@ The name of the annotation type can correspond to one of the annotation type ide
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationannotationpattern">IUIAutomationAnnotationPattern</a>
-

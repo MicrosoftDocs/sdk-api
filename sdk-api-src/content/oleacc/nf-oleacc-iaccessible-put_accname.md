@@ -43,7 +43,7 @@ api_location:
  - Oleacc.dll
  - srchctls.dll
 api_name:
- - IAccessible::put_accName
+ - IAccessible.put_accName
 ---
 
 # IAccessible::put_accName
@@ -72,4 +72,3 @@ Not supported.
 ## -see-also
 
 <a href="/windows/desktop/api/oleacc/nn-oleacc-iaccessible">IAccessible</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IEnumSTATSTG::Reset
+ - IEnumSTATSTG.Reset
 ---
 
 # IEnumSTATSTG::Reset
@@ -79,4 +79,3 @@ The enumeration sequence was successfully reset to the beginning of the enumerat
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatstg">IEnumSTATSTG</a>
-

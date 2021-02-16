@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - tagXHR_COOKIE
  - XHR_COOKIE
 ---
 
@@ -220,4 +219,3 @@ Do not use this flag if you expose a scriptable interface, because this has secu
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest2-setproperty">SetProperty Method</a>
-

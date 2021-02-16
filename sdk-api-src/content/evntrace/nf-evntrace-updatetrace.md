@@ -45,6 +45,8 @@ api_location:
  - advapi32legacy.dll
 api_name:
  - UpdateTrace
+ - UpdateTraceA
+ - UpdateTraceW
 ---
 
 # UpdateTrace macro
@@ -139,4 +141,3 @@ For an example that uses
 ## -see-also
 
 <a href="/windows/desktop/ETW/controltrace">ControlTrace</a>
-

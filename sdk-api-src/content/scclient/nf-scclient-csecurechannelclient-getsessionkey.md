@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient::GetSessionKey
+ - CSecureChannelClient.GetSessionKey
 ---
 
 # CSecureChannelClient::GetSessionKey
@@ -98,4 +98,3 @@ Possible values include, but are not limited to, those in the following table.
 
 
 <a href="/previous-versions/ms868506(v=msdn.10)">CSecureChannelClient::SetSessionKey</a>
-

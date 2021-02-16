@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlock::GetDocumentName
+ - IXpsSignatureBlock.GetDocumentName
 ---
 
 # IXpsSignatureBlock::GetDocumentName
@@ -114,4 +114,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

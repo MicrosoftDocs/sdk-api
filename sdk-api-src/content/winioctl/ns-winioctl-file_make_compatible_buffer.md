@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_MAKE_COMPATIBLE_BUFFER
- - PFILE_MAKE_COMPATIBLE_BUFFER
  - FILE_MAKE_COMPATIBLE_BUFFER
 ---
 
@@ -70,4 +68,3 @@ If <b>TRUE</b>, indicates the media should be finalized. No new data can be appe
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_make_media_compatible">FSCTL_MAKE_MEDIA_COMPATIBLE</a>
-

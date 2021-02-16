@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellingError::get_CorrectiveAction
+ - ISpellingError.CorrectiveAction
+ - ISpellingError.get_CorrectiveAction
 ---
 
 # ISpellingError::get_CorrectiveAction
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellingerror">ISpellingError</a>
-

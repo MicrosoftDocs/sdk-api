@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Termmgr.h
 api_name:
- - ITTerminalManager::CreateDynamicTerminal
+ - ITTerminalManager.CreateDynamicTerminal
 ---
 
 # ITTerminalManager::CreateDynamicTerminal
@@ -150,4 +150,3 @@ The application must use
 
 
 <a href="/windows/desktop/Tapi/tapimediatype--constants">media type</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSystemId::GetData
+ - IMFSystemId.GetData
 ---
 
 # IMFSystemId::GetData
@@ -87,4 +87,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsystemid">IMFSystemId</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_SYSTEM_PROPERTY_ID
  - EVT_SYSTEM_PROPERTY_ID
 ---
 
@@ -152,4 +151,3 @@ Before accessing these properties, check the variant type to ensure that it is n
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtrender">EvtRender</a>
-

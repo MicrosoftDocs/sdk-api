@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObjectInfo::GetLongestPlayPosition
+ - IMDSPObjectInfo.GetLongestPlayPosition
 ---
 
 # IMDSPObjectInfo::GetLongestPlayPosition
@@ -79,4 +79,3 @@ The last play position changes when either the user starts playing a file on the
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspobjectinfo">IMDSPObjectInfo Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - _VSS_VOLUME_PROTECTION_INFO
- - PVSS_VOLUME_PROTECTION_INFO
  - VSS_VOLUME_PROTECTION_INFO
 ---
 
@@ -87,4 +85,3 @@ Reserved for system use.
 ## -see-also
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3">IVssDifferentialSoftwareSnapshotMgmt3</a>
-

@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CThreadBase::OnFinalRelease
+ - CThreadBase.OnFinalRelease
+ - ?OnFinalRelease@CThreadBase@@MAEXXZ
+ - ?OnFinalRelease@CThreadBase@@MEAAXXZ
 ---
 
 # CThreadBase::OnFinalRelease
@@ -60,4 +62,3 @@ api_name:
 The <b>OnFinalRelease</b>  method  is a virtual function called by <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> when the reference count reaches zero. <a href="/windows/desktop/api/thrdbase/nl-thrdbase-cthreadbase">CThreadBase</a> is called internally.
 
 ## -parameters
-

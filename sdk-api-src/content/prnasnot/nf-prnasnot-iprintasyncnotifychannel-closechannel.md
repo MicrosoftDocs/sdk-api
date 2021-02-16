@@ -42,7 +42,7 @@ api_type:
 api_location:
  - prnasnot.dll
 api_name:
- - IPrintAsyncNotifyChannel::CloseChannel
+ - IPrintAsyncNotifyChannel.CloseChannel
 ---
 
 # IPrintAsyncNotifyChannel::CloseChannel
@@ -206,4 +206,3 @@ If an <a href="/windows/desktop/api/prnasnot/nf-prnasnot-iprintasyncnotifychanne
 
 
 <a href="/windows/desktop/printdocs/printdocs-printing">Printing</a>
-

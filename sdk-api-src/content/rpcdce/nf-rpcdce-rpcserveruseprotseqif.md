@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcServerUseProtseqIf
+ - RpcServerUseProtseqIfA
+ - RpcServerUseProtseqIfW
 ---
 
 # RpcServerUseProtseqIf function
@@ -235,4 +237,3 @@ For more information, see
 
 
 Writing a Secure RPC Client or Server
-

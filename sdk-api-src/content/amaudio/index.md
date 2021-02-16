@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - amaudio
  - amaudio/amaudio
-api_name:
- - amaudio
 ---
 
 # Amaudio.h header

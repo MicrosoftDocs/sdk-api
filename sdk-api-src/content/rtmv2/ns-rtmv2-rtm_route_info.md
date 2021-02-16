@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_ROUTE_INFO
- - PRTM_ROUTE_INFO
  - RTM_ROUTE_INFO
 ---
 
@@ -324,4 +322,3 @@ Specifies a list of equal-cost next hops.
 
 
 <a href="/windows/desktop/api/rtmv2/nf-rtmv2-rtmreleaserouteinfo">RtmReleaseRouteInfo</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - tag_WBEM_UNSECAPP_FLAG_TYPE
  - WBEM_UNSECAPP_FLAG_TYPE
 ---
 
@@ -68,4 +67,3 @@ Unsecapp.exe authenticates callbacks regardless of the setting of the registry k
 ### -field WBEM_FLAG_UNSECAPP_DONT_CHECK_ACCESS
 
 Unsecapp.exe does not authenticate callbacks regardless of the setting of the registry key UnsecAppAccessControlDefault.
-

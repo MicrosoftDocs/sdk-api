@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolSettings::GetSettings
+ - IWRdsProtocolSettings.GetSettings
 ---
 
 # IWRdsProtocolSettings::GetSettings
@@ -73,4 +73,3 @@ When you are implementing this method, return <b>S_OK</b> if the function succee
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolsettings">IWRdsProtocolSettings</a>
-

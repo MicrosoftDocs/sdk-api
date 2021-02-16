@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCLocator::get_PhysicalChannel
+ - IATSCLocator.get_PhysicalChannel
 ---
 
 # IATSCLocator::get_PhysicalChannel
@@ -69,4 +69,3 @@ This is a required property. A tuner cannot locate an ATSC transmission source w
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator Interface</a>
-

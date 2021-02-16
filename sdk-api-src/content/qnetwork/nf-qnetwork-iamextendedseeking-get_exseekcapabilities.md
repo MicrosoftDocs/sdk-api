@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMExtendedSeeking::get_ExSeekCapabilities
+ - IAMExtendedSeeking.get_ExSeekCapabilities
 ---
 
 # IAMExtendedSeeking::get_ExSeekCapabilities
@@ -102,4 +102,3 @@ The Windows Media Source filter sets the extended seeking flags as follows.
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamextendedseeking">IAMExtendedSeeking Interface</a>
-

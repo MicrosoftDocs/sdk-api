@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkCostManager::SetDestinationAddresses
+ - INetworkCostManager.SetDestinationAddresses
 ---
 
 # INetworkCostManager::SetDestinationAddresses
@@ -144,4 +144,3 @@ This method must be called before <a href="/windows/desktop/api/ocidl/nf-ocidl-i
 
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkcostmanager">INetworkCostManager</a>
-

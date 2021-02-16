@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoDictionaryOld::GetAttributeID
+ - ISdoDictionaryOld.GetAttributeID
 ---
 
 # ISdoDictionaryOld::GetAttributeID
@@ -83,4 +83,3 @@ If the method fails, the return value is one of the following error codes.
 
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-

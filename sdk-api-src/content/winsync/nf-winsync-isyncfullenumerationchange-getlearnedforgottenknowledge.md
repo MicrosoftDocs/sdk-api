@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
+ - ISyncFullEnumerationChange.GetLearnedForgottenKnowledge
 ---
 
 # ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
@@ -109,4 +109,3 @@ The knowledge returned in <i>ppLearnedForgottenKnowledge</i> is the source forgo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncfullenumerationchange">ISyncFullEnumerationChange Interface</a>
-

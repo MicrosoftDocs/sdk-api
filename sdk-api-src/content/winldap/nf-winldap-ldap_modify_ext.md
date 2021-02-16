@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_modify_ext
+ - ldap_modify_extA
+ - ldap_modify_extW
 ---
 
 # ldap_modify_ext function
@@ -137,4 +139,3 @@ Multithreading: Calls to <b>ldap_modify_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dbt.h
 api_name:
- - _DEV_BROADCAST_VOLUME
  - DEV_BROADCAST_VOLUME
 ---
 
@@ -126,4 +125,3 @@ Messages for network drive arrival and removal are not sent whenever network com
 
 
 <a href="/windows/desktop/DevIO/wm-devicechange">WM_DEVICECHANGE</a>
-

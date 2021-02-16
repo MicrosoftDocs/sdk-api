@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidDevice2::get_DevicePath
+ - IMSVidDevice2.get_DevicePath
 ---
 
 # IMSVidDevice2::get_DevicePath
@@ -92,4 +92,3 @@ This property is not a human-readable string, but is guaranteed to be unique per
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsviddevice2">IMSVidDevice2 Interface</a>
-

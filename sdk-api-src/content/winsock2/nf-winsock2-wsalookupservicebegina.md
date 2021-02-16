@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSALookupServiceBeginA
  - winsock2/WSALookupServiceBeginA
- - WSALookupServiceBegin
- - winsock2/WSALookupServiceBegin
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSALookupServiceBeginA
  - WSALookupServiceBegin
+ - WSALookupServiceBeginA
+ - WSALookupServiceBeginW
 ---
 
 # WSALookupServiceBeginA function
@@ -508,4 +507,3 @@ See the Important note that follows.
 
 
 <a href="/windows/desktop/api/ws2spi/nf-ws2spi-wscenumprotocols32">WSCEnumProtocols32</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_CONVERT_AUTH_DATA_TO_TOKEN
+ - ConvertAuthDataToToken
 ---
 
 # LSA_CONVERT_AUTH_DATA_TO_TOKEN callback function
@@ -148,4 +148,3 @@ A pointer to the <b>ConvertAuthDataToToken</b> function is available in the
 
 
 <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a>
-

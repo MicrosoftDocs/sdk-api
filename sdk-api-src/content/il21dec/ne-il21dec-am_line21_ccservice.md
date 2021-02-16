@@ -46,8 +46,6 @@ api_type:
 api_location:
  - il21dec.h
 api_name:
- - _AM_LINE21_CCSERVICE
- - PAM_LINE21_CCSERVICE
  - AM_LINE21_CCSERVICE
 ---
 
@@ -103,4 +101,3 @@ The Line 21 decoder supports CC1 and CC2 only.
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setcurrentservice">IAMLine21Decoder::SetCurrentService</a>
-

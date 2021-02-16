@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSecurity::get_GrantedRights
+ - IFaxSecurity.GrantedRights
+ - IFaxSecurity.get_GrantedRights
+ - IFaxSecurity.get_GrantedRights
 ---
 
 # IFaxSecurity::get_GrantedRights
@@ -69,4 +71,3 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxsecurity">IFaxSecurity</a>
-

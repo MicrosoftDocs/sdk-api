@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0001_0050_0001
  - ADS_NAME_TYPE_ENUM
 ---
 
@@ -139,4 +138,3 @@ Because VBScript cannot read data from a type library, an application must use t
 
 
 <a href="/windows/desktop/SecAuthZ/security-descriptor-string-format">Security Descriptor String Format</a>
-

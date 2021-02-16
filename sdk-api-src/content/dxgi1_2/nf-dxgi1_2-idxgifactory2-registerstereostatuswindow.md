@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2::RegisterStereoStatusWindow
+ - IDXGIFactory2.RegisterStereoStatusWindow
 ---
 
 # IDXGIFactory2::RegisterStereoStatusWindow
@@ -82,4 +82,3 @@ A pointer to a key value that an application can pass to the <a href="/windows/d
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
-

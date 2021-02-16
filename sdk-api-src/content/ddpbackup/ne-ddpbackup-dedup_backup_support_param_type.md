@@ -44,7 +44,6 @@ api_type:
 api_location:
  - DdpBackup.h
 api_name:
- - _DEDUP_BACKUP_SUPPORT_PARAM_TYPE
  - DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 ---
 
@@ -68,4 +67,3 @@ Reserved for future use. Do not use.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ddpbackup/nf-ddpbackup-idedupbackupsupport-restorefiles">IDedupBackupSupport::RestoreFiles</a>
-

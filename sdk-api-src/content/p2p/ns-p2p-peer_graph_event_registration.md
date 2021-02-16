@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_graph_event_registration_tag
- - PPEER_GRAPH_EVENT_REGISTRATION
  - PEER_GRAPH_EVENT_REGISTRATION
 ---
 
@@ -75,4 +73,3 @@ If the peer event specified by  <b>eventType</b>  relates to records, use this m
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphregisterevent">PeerGraphRegisterEvent</a>
-

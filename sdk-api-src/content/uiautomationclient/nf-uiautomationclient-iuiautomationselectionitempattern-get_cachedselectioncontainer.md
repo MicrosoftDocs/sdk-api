@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionItemPattern::get_CachedSelectionContainer
+ - IUIAutomationSelectionItemPattern.CachedSelectionContainer
+ - IUIAutomationSelectionItemPattern.get_CachedSelectionContainer
 ---
 
 # IUIAutomationSelectionItemPattern::get_CachedSelectionContainer
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionitempattern">IUIAutomationSelectionItemPattern</a>
-

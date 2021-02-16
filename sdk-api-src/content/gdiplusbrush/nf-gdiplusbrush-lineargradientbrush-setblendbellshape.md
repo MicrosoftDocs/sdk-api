@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush::SetBlendBellShape
+ - LinearGradientBrush.SetBlendBellShape
 ---
 
 # LinearGradientBrush::SetBlendBellShape
@@ -146,4 +146,3 @@ VOID Example_SetBlendBell(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

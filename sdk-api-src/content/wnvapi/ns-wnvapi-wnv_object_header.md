@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wnvapi.h
 api_name:
- - _WNV_OBJECT_HEADER
- - PWNV_OBJECT_HEADER
  - WNV_OBJECT_HEADER
 ---
 
@@ -81,4 +79,3 @@ The size of the <b>Buffer</b> field in the <a href="/windows/desktop/api/wnvapi/
 ## -remarks
 
 There is currently only one version number: "1.0".
-

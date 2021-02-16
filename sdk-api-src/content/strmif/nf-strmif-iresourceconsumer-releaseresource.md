@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IResourceConsumer::ReleaseResource
+ - IResourceConsumer.ReleaseResource
 ---
 
 # IResourceConsumer::ReleaseResource
@@ -70,4 +70,3 @@ Returns S_OK if the consumer has released it and requires it again when it becom
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iresourceconsumer">IResourceConsumer Interface</a>
-

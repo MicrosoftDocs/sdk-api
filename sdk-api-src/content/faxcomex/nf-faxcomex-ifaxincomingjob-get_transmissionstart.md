@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingJob::get_TransmissionStart
+ - IFaxIncomingJob.TransmissionStart
+ - IFaxIncomingJob.get_TransmissionStart
+ - IFaxIncomingJob.get_TransmissionStart
 ---
 
 # IFaxIncomingJob::get_TransmissionStart
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-incoming-queue">Visual Basic Example</a>
-

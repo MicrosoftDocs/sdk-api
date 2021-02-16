@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback::EstablishConnection
+ - ISyncMgrSynchronizeCallback.EstablishConnection
 ---
 
 # ISyncMgrSynchronizeCallback::EstablishConnection
@@ -98,4 +98,3 @@ When an instance of <b>EstablishConnection</b> is called by a handler, SyncMgr t
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback">ISyncMgrSynchronizeCallback</a>
-

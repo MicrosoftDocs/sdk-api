@@ -44,7 +44,6 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_SELECT_DEVICE_PARAMS
  - BLUETOOTH_SELECT_DEVICE_PARAMS
 ---
 
@@ -145,4 +144,3 @@ To free the array of
 
 
 <a href="/windows/desktop/api/bluetoothapis/nc-bluetoothapis-pfn_device_callback">PFN_DEVICE_CALLBACK</a>
-

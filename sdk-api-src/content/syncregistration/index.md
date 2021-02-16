@@ -9,8 +9,6 @@ tech.root: winsync
 f1_keywords:
  - syncregistration
  - syncregistration/syncregistration
-api_name:
- - syncregistration
 ---
 
 # Syncregistration.h header

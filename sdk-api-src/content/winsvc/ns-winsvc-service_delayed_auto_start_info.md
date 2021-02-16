@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_DELAYED_AUTO_START_INFO
- - LPSERVICE_DELAYED_AUTO_START_INFO
  - SERVICE_DELAYED_AUTO_START_INFO
 ---
 
@@ -85,4 +83,3 @@ If a client calls a delayed auto-start service before it is loaded, the call fai
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
-

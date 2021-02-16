@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMultiplexer::GetStatistics
+ - IMFASFMultiplexer.GetStatistics
 ---
 
 # IMFASFMultiplexer::GetStatistics
@@ -92,4 +92,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfmultiplexer">IMFASFMultiplexer</a>
-

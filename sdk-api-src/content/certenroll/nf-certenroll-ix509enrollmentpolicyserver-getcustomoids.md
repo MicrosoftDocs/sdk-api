@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::GetCustomOids
+ - IX509EnrollmentPolicyServer.GetCustomOids
 ---
 
 # IX509EnrollmentPolicyServer::GetCustomOids
@@ -65,4 +65,3 @@ This function is not currently implemented and always returns E_NOTIMPL.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

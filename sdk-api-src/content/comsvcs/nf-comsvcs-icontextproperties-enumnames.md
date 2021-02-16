@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextProperties::EnumNames
+ - IContextProperties.EnumNames
 ---
 
 # IContextProperties::EnumNames
@@ -69,4 +69,3 @@ Use the <b>EnumNames</b> method to obtain a reference to an enumerator object. T
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextproperties">IContextProperties</a>
-

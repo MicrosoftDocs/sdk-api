@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeStringArray::Reset
+ - ICertEncodeStringArray.Reset
+ - CCertEncodeStringArray.Reset
 ---
 
 # ICertEncodeStringArray::Reset
@@ -191,4 +192,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -see-also
 
 <a href="/windows/desktop/api/certenc/nn-certenc-icertencodestringarray">ICertEncodeStringArray</a>
-

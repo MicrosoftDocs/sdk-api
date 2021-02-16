@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bits5_0.h
 api_name:
- - __MIDL___MIDL_itf_bits5_0_0000_0000_0001
  - BITS_JOB_PROPERTY_VALUE
 ---
 
@@ -94,4 +93,3 @@ This value is returned when using the enum property ID <b>BITS_JOB_PROPERTY_USE_
 
 
 <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_transfer_policy">BITS_JOB_TRANSFER_POLICY</a>
-

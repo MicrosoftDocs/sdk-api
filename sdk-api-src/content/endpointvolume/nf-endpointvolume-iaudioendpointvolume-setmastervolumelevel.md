@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Endpointvolume.h
 api_name:
- - IAudioEndpointVolume::SetMasterVolumeLevel
+ - IAudioEndpointVolume.SetMasterVolumeLevel
 ---
 
 # IAudioEndpointVolume::SetMasterVolumeLevel
@@ -114,4 +114,3 @@ If volume level <i>fLevelDB</i> falls outside of the volume range reported by th
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
-

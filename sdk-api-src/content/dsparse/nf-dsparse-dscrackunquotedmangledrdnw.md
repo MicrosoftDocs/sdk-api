@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsCrackUnquotedMangledRdnW
  - dsparse/DsCrackUnquotedMangledRdnW
- - DsCrackUnquotedMangledRdn
- - dsparse/DsCrackUnquotedMangledRdn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsCrackUnquotedMangledRdnW
  - DsCrackUnquotedMangledRdn
+ - DsCrackUnquotedMangledRdnA
+ - DsCrackUnquotedMangledRdnW
 ---
 
 # DsCrackUnquotedMangledRdnW function
@@ -110,4 +109,3 @@ This function attempts to
 
 
 <a href="/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a>
-

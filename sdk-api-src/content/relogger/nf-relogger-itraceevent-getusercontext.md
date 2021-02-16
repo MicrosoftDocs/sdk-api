@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceEvent::GetUserContext
+ - ITraceEvent.GetUserContext
 ---
 
 # ITraceEvent::GetUserContext
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/relogger/nf-relogger-itracerelogger-addrealtimetracestream">ITraceRelogger::AddRealtimeTraceStream</a>
-

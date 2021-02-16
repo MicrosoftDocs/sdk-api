@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SecPkgContext_LastClientTokenStatus
- - PSecPkgContext_LastClientTokenStatus
  - SecPkgContext_LastClientTokenStatus
 ---
 
@@ -67,4 +65,3 @@ A value of the <a href="/windows/desktop/api/sspi/ne-sspi-secpkg_attr_lct_status
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/ne-sspi-secpkg_attr_lct_status">SECPKG_ATTR_LCT_STATUS</a>
-

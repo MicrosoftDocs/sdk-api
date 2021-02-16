@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - PMIB_GET_TRAP_INFO
+ - MibGetTrapInfo
 ---
 
 # PMIB_GET_TRAP_INFO callback function
@@ -114,4 +114,3 @@ Insufficient resources to complete the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/routprot/nc-routprot-pmib_set_trap_info">MibSetTrapInfo</a>
-

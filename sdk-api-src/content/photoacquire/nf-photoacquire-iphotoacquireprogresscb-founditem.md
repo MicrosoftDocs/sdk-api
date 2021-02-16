@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireProgressCB::FoundItem
+ - IPhotoAcquireProgressCB.FoundItem
 ---
 
 # IPhotoAcquireProgressCB::FoundItem
@@ -99,4 +99,3 @@ Return S_FALSE to exclude the item from the results of the enumeration. This wou
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquireprogresscb">IPhotoAcquireProgressCB Interface</a>
-

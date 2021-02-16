@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PONLINE_V2_ROUTINE
+ - OnlineV2
 ---
 
 # PONLINE_V2_ROUTINE callback function
@@ -171,4 +171,3 @@ If the operation was not successful for other reasons,
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-

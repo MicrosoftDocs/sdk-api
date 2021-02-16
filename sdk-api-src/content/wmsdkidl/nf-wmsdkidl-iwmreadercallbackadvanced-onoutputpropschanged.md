@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced::OnOutputPropsChanged
+ - IWMReaderCallbackAdvanced.OnOutputPropsChanged
 ---
 
 # IWMReaderCallbackAdvanced::OnOutputPropsChanged
@@ -77,4 +77,3 @@ This method is called by the reader if the caller gets an asynchronous result fr
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
-

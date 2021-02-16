@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMCUSTOMSPLITRECTINFO
- - LPNMCUSTOMSPLITRECTINFO
  - NMCUSTOMSPLITRECTINFO
 ---
 
@@ -87,4 +85,3 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that d
 ## -remarks
 
 This information is used to draw the button. The button must be of style <a href="/windows/desktop/Controls/button-styles">BS_SPLITBUTTON</a> or <a href="/windows/desktop/Controls/button-styles">BS_DEFSPLITBUTTON</a>
-

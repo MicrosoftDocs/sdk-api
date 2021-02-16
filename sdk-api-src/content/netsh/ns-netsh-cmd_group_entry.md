@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netsh.h
 api_name:
- - _CMD_GROUP_ENTRY
- - PCMD_GROUP_ENTRY
  - CMD_GROUP_ENTRY
 ---
 
@@ -139,4 +137,3 @@ static CMD_GROUP_ENTRY g_SampleGroupCmds[] =
 
 
 <a href="/previous-versions/windows/desktop/netshell/netshell-flags">NetShell Flags</a>
-

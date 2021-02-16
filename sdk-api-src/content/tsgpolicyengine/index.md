@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - tsgpolicyengine
  - tsgpolicyengine/tsgpolicyengine
-api_name:
- - tsgpolicyengine
 ---
 
 # Tsgpolicyengine.h header

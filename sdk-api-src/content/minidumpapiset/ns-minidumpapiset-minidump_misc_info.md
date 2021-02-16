@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_MISC_INFO
- - PMINIDUMP_MISC_INFO
  - MINIDUMP_MISC_INFO
 ---
 
@@ -118,4 +116,3 @@ The time the process has executed in kernel mode, in seconds. The time that each
 ## -see-also
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

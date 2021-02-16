@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_SHELL_STARTUP_INFO_V10
- - WSMAN_SHELL_STARTUP_INFO_V10
+ - WSMAN_SHELL_STARTUP_INFO
 ---
 
 # WSMAN_SHELL_STARTUP_INFO_V10 structure
@@ -87,4 +86,3 @@ A pointer to a <a href="/windows/desktop/api/wsman/ns-wsman-wsman_environment_va
 #### - name
 
 Specifies an optional friendly name to be associated with the shell. This parameter is only functional when the client passes the  flag <b>WSMAN_FLAG_REQUESTED_API_VERSION_1_1</b> to WSManInitialize.
-

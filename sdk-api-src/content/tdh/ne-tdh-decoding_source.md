@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tdh.h
 api_name:
- - _DECODING_SOURCE
  - DECODING_SOURCE
 ---
 
@@ -78,4 +77,3 @@ Indicates that the event was a self-describing event and was decoded using Trace
 ## -see-also
 
 <a href="/windows/desktop/api/tdh/ns-tdh-trace_event_info">TRACE_EVENT_INFO</a>
-

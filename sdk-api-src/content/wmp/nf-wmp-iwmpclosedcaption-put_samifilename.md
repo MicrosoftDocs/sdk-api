@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption::put_SAMIFileName
+ - IWMPClosedCaption.put_SAMIFileName
 ---
 
 # IWMPClosedCaption::put_SAMIFileName
@@ -103,4 +103,3 @@ Once you specify a value using <b>put_SAMIFileName</b>, that value persists unti
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>
-

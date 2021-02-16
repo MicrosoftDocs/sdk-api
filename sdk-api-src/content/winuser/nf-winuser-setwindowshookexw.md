@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetWindowsHookExW
  - winuser/SetWindowsHookExW
- - SetWindowsHookEx
- - winuser/SetWindowsHookEx
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +49,10 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - SetWindowsHookExW
  - SetWindowsHookEx
+ - SetWindowsHookExA
+ - SetWindowsHookExW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetWindowsHookExW function
@@ -479,4 +478,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-hooks">Installing and
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-unhookwindowshookex">UnhookWindowsHookEx</a>
-

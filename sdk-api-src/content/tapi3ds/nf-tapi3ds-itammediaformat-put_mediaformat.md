@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAMMediaFormat::put_MediaFormat
+ - ITAMMediaFormat.put_MediaFormat
 ---
 
 # ITAMMediaFormat::put_MediaFormat
@@ -111,4 +111,3 @@ For other addresses, such as those implemented over IP, the format may be fixed/
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-get_mediaformat">get_MediaFormat</a>
-

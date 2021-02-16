@@ -45,7 +45,6 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - _DRMTIMETYPE
  - DRMTIMETYPE
 ---
 
@@ -71,4 +70,3 @@ Local time.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/adrms_sdk/ad-rms-enumerations">AD RMS Enumerations</a>
-

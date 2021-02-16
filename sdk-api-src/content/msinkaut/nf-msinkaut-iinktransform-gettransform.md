@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform::GetTransform
+ - IInkTransform.GetTransform
 ---
 
 # IInkTransform::GetTransform
@@ -138,4 +138,3 @@ An <a href="/windows/desktop/tablet/inktransform-class">InkTransform</a> object 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinktransform-settransform">SetTransform Method</a>
-

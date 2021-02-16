@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SID_NAME_USE
- - PSID_NAME_USE
  - SID_NAME_USE
 ---
 
@@ -117,4 +115,3 @@ A mandatory integrity label SID.
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lookupaccountsida">LookupAccountSid</a>
-

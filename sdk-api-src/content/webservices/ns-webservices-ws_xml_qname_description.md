@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_QNAME_DESCRIPTION
  - WS_XML_QNAME_DESCRIPTION
 ---
 
@@ -78,4 +77,3 @@ The minimum number of bytes of UTF8 character data
 
 The maximum number of bytes of UTF8 character data 
                     for the namespace string.
-

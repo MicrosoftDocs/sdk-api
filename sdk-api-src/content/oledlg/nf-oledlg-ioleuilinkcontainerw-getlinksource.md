@@ -42,7 +42,9 @@ api_type:
 api_location:
  - OleDlg.h
 api_name:
- - IOleUILinkContainerW::GetLinkSource
+ - IOleUILinkContainer.GetLinkSource
+ - IOleUILinkContainerA.GetLinkSource
+ - IOleUILinkContainerW.GetLinkSource
 ---
 
 # IOleUILinkContainerW::GetLinkSource
@@ -165,4 +167,3 @@ Call this method during dialog box initialization, after returning from the <b>C
 
 
 <a href="/windows/desktop/api/oleidl/ne-oleidl-userclasstype">USERCLASSTYPE</a>
-

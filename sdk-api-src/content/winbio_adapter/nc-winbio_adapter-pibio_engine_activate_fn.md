@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_ACTIVATE_FN
+ - EngineAdapterActivate
 ---
 
 # PIBIO_ENGINE_ACTIVATE_FN callback function
@@ -89,4 +89,3 @@ The Storage adapter has been activated when this method is called.
 Returning any <b>HRESULT</b> other than <b>S_OK</b> will cause the Windows Biometric Framework to log the error and abort the activation of the biometric unit.
 
 This method executes in the context of the sensor control thread that will process all other requests for the unit, including deactivation.
-

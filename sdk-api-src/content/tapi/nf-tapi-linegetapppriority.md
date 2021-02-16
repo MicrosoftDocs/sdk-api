@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetAppPriority
+ - lineGetAppPriorityA
+ - lineGetAppPriorityW
 ---
 
 # lineGetAppPriority function
@@ -115,4 +117,3 @@ If LINEERR_INVALMEDIAMODE is returned, the value specified in <i>dwMediaMode</i>
 
 
 <a href="/windows/desktop/api/tapi/ns-tapi-varstring">VARSTRING</a>
-

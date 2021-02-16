@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_DELETE_LOGON_SESSION
+ - DeleteLogonSession
 ---
 
 # LSA_DELETE_LOGON_SESSION callback function
@@ -120,4 +120,3 @@ In contrast, authentication packages are not notified when a logon session is de
 
 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-lsa_secpkg_function_table">LSA_SECPKG_FUNCTION_TABLE</a>
-

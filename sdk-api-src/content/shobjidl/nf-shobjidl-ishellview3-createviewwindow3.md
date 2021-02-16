@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IShellView3::CreateViewWindow3
+ - IShellView3.CreateViewWindow3
 ---
 
 # IShellView3::CreateViewWindow3
@@ -137,4 +137,3 @@ A value that receives a pointer to the handle of the new Shell view window.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -36,7 +36,6 @@ api_location:
  - p2p.h
 api_name:
  - peer_group_event_data_tag
- - PPEER_GROUP_EVENT_DATA
  - PEER_GROUP_EVENT_DATA
 ---
 
@@ -143,4 +142,3 @@ An attempt has been made to perform an unauthorized operation. For example, atte
 <a href="/windows/desktop/api/p2p/ne-p2p-peer_group_status">PEER_GROUP_STATUS</a>
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupgeteventdata">PeerGroupGetEventData</a>
-

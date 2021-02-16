@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IConnectionPoint::GetConnectionInterface
+ - IConnectionPoint.GetConnectionInterface
 ---
 
 # IConnectionPoint::GetConnectionInterface
@@ -101,4 +101,3 @@ This method must be implemented in any connection point; E_NOTIMPL is not an acc
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iconnectionpoint">IConnectionPoint</a>
-

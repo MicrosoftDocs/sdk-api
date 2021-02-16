@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategoryCollection::get_Item
+ - ICategoryCollection.Item
+ - ICategoryCollection.get_Item
 ---
 
 # ICategoryCollection::get_Item
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategorycollection">ICategoryCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
+ - IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases
 ---
 
 # IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases
@@ -86,4 +86,3 @@ The following is an example usage for this method. When sorting by System.Author
 
 
 <a href="/windows/desktop/api/propsys/nf-propsys-ipropertydescriptionaliasinfo-getsortbyalias">IPropertyDescriptionAliasInfo::GetSortByAlias</a>
-

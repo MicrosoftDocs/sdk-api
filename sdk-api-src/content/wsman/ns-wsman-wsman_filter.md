@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wsman.h
 api_name:
- - _WSMAN_FILTER
  - WSMAN_FILTER
 ---
 

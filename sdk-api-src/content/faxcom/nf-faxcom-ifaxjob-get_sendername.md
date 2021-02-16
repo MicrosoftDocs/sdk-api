@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_SenderName
+ - IFaxJob.SenderName
+ - IFaxJob.get_SenderName
 ---
 
 # IFaxJob::get_SenderName
@@ -83,4 +84,3 @@ You can call the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxjob-g
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-

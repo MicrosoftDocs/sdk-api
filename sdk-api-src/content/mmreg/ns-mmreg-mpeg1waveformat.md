@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmreg.h
 api_name:
- - mpeg1waveformat_tag
  - MPEG1WAVEFORMAT
 ---
 
@@ -365,4 +364,3 @@ If the bit rate is variable or the sampling frequency is 44.1 kHz, the audio fra
 
 
 <a href="/windows/desktop/DirectShow/mpeg-1-media-types">MPEG-1 Media Types</a>
-

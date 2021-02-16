@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxActivity::get_OutgoingMessages
+ - IFaxActivity.OutgoingMessages
+ - IFaxActivity.get_OutgoingMessages
+ - IFaxActivity.get_OutgoingMessages
 ---
 
 # IFaxActivity::get_OutgoingMessages
@@ -71,4 +73,3 @@ To read this property, a user must have the <a href="/previous-versions/windows/
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-monitoring-fax-activity">Visual Basic Example</a>
-

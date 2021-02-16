@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyValue::Clear
+ - IADsPropertyValue.Clear
 ---
 
 # IADsPropertyValue::Clear
@@ -200,4 +200,3 @@ Cleanup:
 
 
 <a href="/windows/desktop/ADSI/iadspropertyvalue-property-methods">IADsPropertyValue Property Methods</a>
-

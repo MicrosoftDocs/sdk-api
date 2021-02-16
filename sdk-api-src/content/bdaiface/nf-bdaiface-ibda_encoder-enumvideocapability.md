@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_Encoder::EnumVideoCapability
+ - IBDA_Encoder.EnumVideoCapability
 ---
 
 # IBDA_Encoder::EnumVideoCapability
@@ -148,4 +148,3 @@ The <i>VerticalSize</i>, <i>HorizontalSize</i>, <i>AspectRatio</i>, <i>FrameRate
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_encoder">IBDA_Encoder</a>
-

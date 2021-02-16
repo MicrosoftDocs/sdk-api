@@ -42,7 +42,12 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_RequestStoreNameWStr
+ - IEnroll.RequestStoreNameWStr
+ - IEnroll.get_RequestStoreNameWStr
+ - IEnroll.put_RequestStoreNameWStr
+ - IEnroll4.RequestStoreNameWStr
+ - IEnroll4.get_RequestStoreNameWStr
+ - IEnroll4.put_RequestStoreNameWStr
 ---
 
 # IEnroll::get_RequestStoreNameWStr
@@ -93,4 +98,3 @@ The <b>RequestStoreNameWStr</b> property affects the behavior of the following m
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

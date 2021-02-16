@@ -43,6 +43,7 @@ api_location:
  - VssApi.dll
  - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
+ - VssFreeSnapshotProperties
  - VssFreeSnapshotPropertiesInternal
 ---
 
@@ -81,4 +82,3 @@ Pointer to a valid <a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">V
 
 
 <a href="/windows/desktop/api/vss/ns-vss-vss_snapshot_prop">VSS_SNAPSHOT_PROP</a>
-

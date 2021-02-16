@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - tagSTATDATA
  - STATDATA
 ---
 
@@ -76,4 +75,3 @@ The token that uniquely identifies the advisory connection. This token is return
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumstatdata">IEnumSTATDATA</a>
-

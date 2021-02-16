@@ -46,9 +46,8 @@ api_type:
 api_location:
  - Setupapi.h
 api_name:
- - _SP_INF_SIGNER_INFO_V1_A
- - PSP_INF_SIGNER_INFO_V1_A
- - SP_INF_SIGNER_INFO_V1_A
+ - SP_INF_SIGNER_INFO
+ - sp_inf_signer_info_v1_a
 ---
 
 # SP_INF_SIGNER_INFO_V1_A structure
@@ -88,4 +87,3 @@ Version of the digital signer, stored in an array of size MAX_PATH characters.
 
 > [!NOTE]
 > The setupapi.h header defines SP_INF_SIGNER_INFO_V1 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

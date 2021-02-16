@@ -42,7 +42,9 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbSession::get_CreateTime
+ - ITsSbSession.CreateTime
+ - ITsSbSession.get_CreateTime
+ - ITsSbSession.put_CreateTime
 ---
 
 # ITsSbSession::get_CreateTime
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
-

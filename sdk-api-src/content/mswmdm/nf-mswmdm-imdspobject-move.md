@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPObject::Move
+ - IMDSPObject.Move
 ---
 
 # IMDSPObject::Move
@@ -136,4 +136,3 @@ This method is optional. For more information, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstorage">IWMDMStorage Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: tbs
 f1_keywords:
  - tbs
  - tbs/tbs
-api_name:
- - tbs
 ---
 
 # Tbs.h header

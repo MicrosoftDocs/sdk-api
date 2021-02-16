@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureBlock::CreateRequest
+ - IXpsSignatureBlock.CreateRequest
 ---
 
 # IXpsSignatureBlock::CreateRequest
@@ -124,4 +124,3 @@ Creating a new request marks the signature block as <i>dirty</i> and  generates 
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

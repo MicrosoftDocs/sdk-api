@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagAM_SAMPLE2_PROPERTIES
  - AM_SAMPLE2_PROPERTIES
 ---
 
@@ -224,4 +223,3 @@ Size of the sample buffer, in bytes.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

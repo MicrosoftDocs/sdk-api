@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9Ex::WaitForVBlank
+ - IDirect3DDevice9Ex.WaitForVBlank
 ---
 
 # IDirect3DDevice9Ex::WaitForVBlank
@@ -76,4 +76,3 @@ In some scenarios the hardware may stop generating vertical blank signals when n
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3ddevice9ex">IDirect3DDevice9Ex</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFTimecodeTranslate::BeginConvertTimecodeToHNS
+ - IMFTimecodeTranslate.BeginConvertTimecodeToHNS
 ---
 
 # IMFTimecodeTranslate::BeginConvertTimecodeToHNS
@@ -151,4 +151,3 @@ void CreateTimeCode(
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imftimecodetranslate">IMFTimecodeTranslate</a>
-

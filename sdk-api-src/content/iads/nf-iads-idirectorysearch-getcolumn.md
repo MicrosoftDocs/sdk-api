@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::GetColumn
+ - IDirectorySearch.GetColumn
 ---
 
 # IDirectorySearch::GetColumn
@@ -131,4 +131,3 @@ m_pSearch->CloseSearchHandle( hSearch );
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-freecolumn">IDirectorySearch::FreeColumn</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
- - _RADIUS_DATA_TYPE
  - RADIUS_DATA_TYPE
 ---
 
@@ -101,4 +100,3 @@ The value of the attribute is a <b>BYTE*</b> value that represents an IPv6 addre
 
 
 <a href="/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
-

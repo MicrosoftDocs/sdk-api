@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMAddressAccess::RemoveAccessEntry
+ - IWMAddressAccess.RemoveAccessEntry
 ---
 
 # IWMAddressAccess::RemoveAccessEntry
@@ -112,4 +112,3 @@ Invalid index number.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess Interface</a>
-

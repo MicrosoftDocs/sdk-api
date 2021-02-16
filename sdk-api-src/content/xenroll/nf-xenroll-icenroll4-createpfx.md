@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::createPFX
+ - ICEnroll4.createPFX
+ - CEnroll.createPFX
 ---
 
 # ICEnroll4::createPFX
@@ -80,4 +81,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 This method is disabled when  the Certificate Enrollment Control is executed as a scripted control.
-

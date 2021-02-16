@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WTSGetListenerSecurityA
  - wtsapi32/WTSGetListenerSecurityA
- - WTSGetListenerSecurity
- - wtsapi32/WTSGetListenerSecurity
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wtsapi32.dll
 api_name:
- - WTSGetListenerSecurityA
  - WTSGetListenerSecurity
+ - WTSGetListenerSecurityA
+ - WTSGetListenerSecurityW
 ---
 
 # WTSGetListenerSecurityA function
@@ -239,4 +238,3 @@ If the number of bytes needed for the buffer that receives the <a href="/windows
 
 
 <a href="/windows/desktop/SecAuthZ/security-information">SECURITY_INFORMATION</a>
-

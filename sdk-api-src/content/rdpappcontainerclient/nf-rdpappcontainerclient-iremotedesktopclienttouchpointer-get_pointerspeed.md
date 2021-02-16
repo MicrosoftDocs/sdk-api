@@ -42,7 +42,8 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - IRemoteDesktopClientTouchPointer::get_PointerSpeed
+ - IRemoteDesktopClientTouchPointer.PointerSpeed
+ - IRemoteDesktopClientTouchPointer.get_PointerSpeed
 ---
 
 # IRemoteDesktopClientTouchPointer::get_PointerSpeed
@@ -61,4 +62,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclienttouchpointer">IRemoteDesktopClientTouchPointer</a>
-

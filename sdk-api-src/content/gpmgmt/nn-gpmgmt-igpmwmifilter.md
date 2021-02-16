@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMWMIFilter
+ - GPMWMIFilter
 ---
 
 # IGPMWMIFilter interface
@@ -78,4 +79,3 @@ For information about importing, exporting, and copying WMI filters, see the
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
-

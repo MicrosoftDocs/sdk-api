@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::Initialize
+ - IAudioClient.Initialize
 ---
 
 # IAudioClient::Initialize
@@ -548,4 +548,3 @@ done:
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
-

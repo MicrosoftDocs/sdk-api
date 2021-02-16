@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagSCROLLBARINFO
- - PSCROLLBARINFO
  - SCROLLBARINFO
 ---
 
@@ -207,4 +205,3 @@ The component is disabled.
 
 
 <a href="/windows/desktop/Controls/scroll-bars">Scroll Bars</a>
-

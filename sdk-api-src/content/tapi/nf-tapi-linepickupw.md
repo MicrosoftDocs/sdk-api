@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - linePickupW
  - tapi/linePickupW
- - linePickup
- - tapi/linePickup
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - linePickupW
  - linePickup
+ - linePickupA
+ - linePickupW
 ---
 
 # linePickupW function
@@ -159,4 +158,3 @@ After
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineswaphold">lineSwapHold</a>
-

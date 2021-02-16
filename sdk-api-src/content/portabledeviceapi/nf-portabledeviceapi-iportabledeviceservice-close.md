@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::Close
+ - IPortableDeviceService.Close
 ---
 
 # IPortableDeviceService::Close
@@ -67,4 +67,3 @@ When an application does call this method, the WPD API releases the service conn
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceservice">IPortableDeviceService Interface</a>
-

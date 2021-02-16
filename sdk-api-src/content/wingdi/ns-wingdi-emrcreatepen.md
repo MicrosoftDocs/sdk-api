@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRCREATEPEN
- - PEMRCREATEPEN
  - EMRCREATEPEN
 ---
 
@@ -83,4 +81,3 @@ Logical pen.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

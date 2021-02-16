@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOQualityControl::GetStatus
+ - IDMOQualityControl.GetStatus
 ---
 
 # IDMOQualityControl::GetStatus
@@ -95,4 +95,3 @@ Success
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-idmoqualitycontrol">IDMOQualityControl Interface</a>
-

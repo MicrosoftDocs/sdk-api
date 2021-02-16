@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced3::StartAtPosition
+ - IWMReaderAdvanced3.StartAtPosition
 ---
 
 # IWMReaderAdvanced3::StartAtPosition
@@ -255,4 +255,3 @@ If an invalid duration is specified, <b>StartAtPosition</b> will not fail. As ma
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced3">IWMReaderAdvanced3 Interface</a>
-

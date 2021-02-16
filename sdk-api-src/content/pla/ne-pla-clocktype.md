@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pla.h
 api_name:
- - __MIDL___MIDL_itf_pla_0001_0043_0005
  - ClockType
 ---
 
@@ -80,4 +79,3 @@ For details, see the <b>ClientContext</b> member of the <a href="/windows/deskto
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_clocktype">ITraceDataCollector::ClockType</a>
-

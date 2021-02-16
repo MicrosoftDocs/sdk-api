@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoProcessor::GetAvailableVideoProcessorModes
+ - IMFVideoProcessor.GetAvailableVideoProcessorModes
 ---
 
 # IMFVideoProcessor::GetAvailableVideoProcessorModes
@@ -109,4 +109,3 @@ Before calling this method, you must set the media type for the reference stream
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-

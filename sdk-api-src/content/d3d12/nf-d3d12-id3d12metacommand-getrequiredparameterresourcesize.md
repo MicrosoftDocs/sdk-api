@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.h
 api_name:
- - ID3D12MetaCommand::GetRequiredParameterResourceSize
+ - ID3D12MetaCommand.GetRequiredParameterResourceSize
 ---
 
 # ID3D12MetaCommand::GetRequiredParameterResourceSize
@@ -75,4 +75,3 @@ The number of bytes required for the  specified  runtime parameter resource.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12metacommand">ID3D12MetaCommand</a>
-

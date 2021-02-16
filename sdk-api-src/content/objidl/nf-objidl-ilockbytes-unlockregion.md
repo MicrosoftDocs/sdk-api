@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILockBytes::UnlockRegion
+ - ILockBytes.UnlockRegion
 ---
 
 # ILockBytes::UnlockRegion
@@ -91,4 +91,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
-

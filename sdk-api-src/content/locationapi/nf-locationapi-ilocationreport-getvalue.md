@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocationReport::GetValue
+ - ILocationReport.GetValue
 ---
 
 # ILocationReport::GetValue
@@ -456,4 +456,3 @@ STDMETHODIMP CLocationReport::GetValue(REFPROPERTYKEY pKey, PROPVARIANT *pValue)
 ## -see-also
 
 <a href="/windows/desktop/api/locationapi/nn-locationapi-ilocationreport">ILocationReport</a>
-

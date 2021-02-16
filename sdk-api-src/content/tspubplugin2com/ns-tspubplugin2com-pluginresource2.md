@@ -44,7 +44,6 @@ api_type:
 api_location:
  - tspubplugin2com.h
 api_name:
- - __MIDL_ItsPubPlugin2_0002
  - pluginResource2
 ---
 
@@ -98,4 +97,3 @@ The <b>pluginFolderName</b> type is defined as follows:
 
 
 <a href="/windows/win32/api/tspubplugincom/ns-tspubplugincom-pluginresource">pluginResource</a>
-

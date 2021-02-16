@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataDispenserEx::GetOption
+ - IMetaDataDispenserEx.GetOption
 ---
 
 # IMetaDataDispenserEx::GetOption
@@ -104,4 +104,3 @@ MetaDataLinkerOptions
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadatadispenserex">IMetaDataDispenserEx</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_ENUM_TEMPLATE0_
  - IPSEC_SA_ENUM_TEMPLATE0
 ---
 
@@ -74,4 +73,3 @@ See [FWP_DIRECTION](/windows/desktop/api/fwptypes/ne-fwptypes-fwp_direction) for
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

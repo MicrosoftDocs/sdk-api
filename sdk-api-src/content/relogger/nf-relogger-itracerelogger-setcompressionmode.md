@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceRelogger::SetCompressionMode
+ - ITraceRelogger.SetCompressionMode
 ---
 
 # ITraceRelogger::SetCompressionMode
@@ -80,4 +80,3 @@ Compressed trace files can only be decoded in Windows 8 or Windows Server 2012
 ## -see-also
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-

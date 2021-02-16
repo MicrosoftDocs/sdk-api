@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::put_Flags
+ - IX509PolicyServerUrl.Flags
+ - IX509PolicyServerUrl.get_Flags
+ - IX509PolicyServerUrl.put_Flags
 ---
 
 # IX509PolicyServerUrl::put_Flags
@@ -63,4 +65,3 @@ When the PsfLocationGroupPolicy and PsfLocationRegistry flags are combined, this
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

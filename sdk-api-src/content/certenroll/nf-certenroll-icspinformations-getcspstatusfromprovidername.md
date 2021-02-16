@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformations::GetCspStatusFromProviderName
+ - ICspInformations.GetCspStatusFromProviderName
 ---
 
 # ICspInformations::GetCspStatusFromProviderName
@@ -84,4 +84,3 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
-

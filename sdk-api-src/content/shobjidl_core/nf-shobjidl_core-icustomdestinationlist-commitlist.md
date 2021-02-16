@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList::CommitList
+ - ICustomDestinationList.CommitList
 ---
 
 # ICustomDestinationList::CommitList
@@ -75,4 +75,3 @@ As long as no call to <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_co
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

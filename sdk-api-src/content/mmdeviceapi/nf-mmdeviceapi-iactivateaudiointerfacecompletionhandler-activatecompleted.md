@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmdeviceapi.h
 api_name:
- - IActivateAudioInterfaceCompletionHandler::ActivateCompleted
+ - IActivateAudioInterfaceCompletionHandler.ActivateCompleted
 ---
 
 # IActivateAudioInterfaceCompletionHandler::ActivateCompleted
@@ -91,4 +91,3 @@ An application implements this method if it calls the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-iactivateaudiointerfacecompletionhandler">IActivateAudioInterfaceCompletionHandler</a>
-

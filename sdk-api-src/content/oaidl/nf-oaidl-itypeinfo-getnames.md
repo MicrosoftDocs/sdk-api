@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ITypeInfo::GetNames
+ - ITypeInfo.GetNames
 ---
 
 # ITypeInfo::GetNames
@@ -136,4 +136,3 @@ If the type description inherits from another type description, this function is
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-itypeinfo">ITypeInfo</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _ITEM_INFO
  - ITEM_INFO
 ---
 
@@ -86,4 +85,3 @@ Pointer to a null-terminated Unicode string containing the workspace name from w
 Type: <b>LPCWSTR</b>
 
 Not used by protocol handlers.
-

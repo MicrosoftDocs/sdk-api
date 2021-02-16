@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - l_timeval
- - PLDAP_TIMEVAL
  - LDAP_TIMEVAL
 ---
 
@@ -79,4 +77,3 @@ The  <b>LDAP_TIMEVAL</b> structure specify both local timeouts and timeouts sent
 
 
 <a href="/previous-versions/windows/desktop/ldap/searching-a-directory">Searching a Directory</a>
-

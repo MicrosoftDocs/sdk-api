@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule::get_Grouping
+ - INetFwRule.Grouping
+ - INetFwRule.get_Grouping
+ - INetFwRule.put_Grouping
 ---
 
 # INetFwRule::get_Grouping
@@ -69,4 +71,3 @@ When indirect strings in the form of "h" are passed as parameters to the Windows
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule">INetFwRule</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::SetFlags
+ - IPhotoAcquireSettings.SetFlags
 ---
 
 # IPhotoAcquireSettings::SetFlags
@@ -88,4 +88,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresettings">IPhotoAcquireSettings Interface</a>
-

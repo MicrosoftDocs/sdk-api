@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmdeviceapi.h
 api_name:
- - __MIDL___MIDL_itf_mmdeviceapi_0000_0008_0001
  - AudioExtensionParams
 ---
 
@@ -80,4 +79,3 @@ Pointer to the Pnp devnode.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-addpages">IShellPropSheetExt::AddPages</a>
-

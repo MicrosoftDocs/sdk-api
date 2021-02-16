@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertificateEnrollmentPolicyServerSetup::GetProperty
+ - ICertificateEnrollmentPolicyServerSetup.GetProperty
 ---
 
 # ICertificateEnrollmentPolicyServerSetup::GetProperty
@@ -172,4 +172,3 @@ The <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolic
 
 
 <a href="/windows/desktop/api/casetup/nf-casetup-icertificateenrollmentpolicyserversetup-setproperty">SetProperty</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IRedbookDiscMaster::AddAudioTrackBlocks
+ - IRedbookDiscMaster.AddAudioTrackBlocks
 ---
 
 # IRedbookDiscMaster::AddAudioTrackBlocks
@@ -77,4 +77,3 @@ If a call to this method would overrun the number of available audio blocks, the
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>
-

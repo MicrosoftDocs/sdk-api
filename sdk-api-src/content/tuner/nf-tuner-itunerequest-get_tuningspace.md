@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuneRequest::get_TuningSpace
+ - ITuneRequest.get_TuningSpace
 ---
 
 # ITuneRequest::get_TuningSpace
@@ -69,4 +69,3 @@ You must first access the tuning space in order to obtain the default locator an
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>
-

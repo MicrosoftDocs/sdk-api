@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
- - PJOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
  - JOBOBJECT_NOTIFICATION_LIMIT_INFORMATION
 ---
 
@@ -265,4 +263,3 @@ CPU rate control limits for a job are established in a <a href="/windows/desktop
 
 
 <a href="/windows/desktop/api/jobapi2/nf-jobapi2-setinformationjobobject">SetInformationJobObject</a>
-

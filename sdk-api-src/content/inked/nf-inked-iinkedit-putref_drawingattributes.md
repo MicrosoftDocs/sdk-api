@@ -43,7 +43,9 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::putref_DrawingAttributes
+ - IInkEdit.DrawingAttributes
+ - IInkEdit.get_DrawingAttributes
+ - InkEdit.get_DrawingAttributes
 ---
 
 # IInkEdit::putref_DrawingAttributes
@@ -78,4 +80,3 @@ This property is different from the <a href="/windows/desktop/api/msinkaut/nf-ms
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

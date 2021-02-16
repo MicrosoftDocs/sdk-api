@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::GetAttributeByName
+ - IWMHeaderInfo.GetAttributeByName
+ - IWMHeaderInfo2.GetAttributeByName
+ - IWMHeaderInfo3.GetAttributeByName
 ---
 
 # IWMHeaderInfo::GetAttributeByName
@@ -229,4 +231,3 @@ if( FAILED( hr ) )
 
 
 <a href="/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_attr_datatype">WMT_ATTR_DATATYPE</a>
-

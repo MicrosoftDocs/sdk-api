@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2::Reset
+ - IEnroll2.Reset
+ - IEnroll3.Reset
+ - IEnroll4.Reset
 ---
 
 # IEnroll2::Reset
@@ -72,4 +74,3 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 <b>IEnroll4</b>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_MISC_INFO_2
- - PMINIDUMP_MISC_INFO_2
  - MINIDUMP_MISC_INFO_2
 ---
 
@@ -167,4 +165,3 @@ The current idle state of the processor. If <b>Flags1</b> does not specify
 ## -see-also
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

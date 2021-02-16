@@ -43,6 +43,7 @@ api_location:
  - wmp.h
 api_name:
  - IWMPPlaylistCollection
+ - IWMPPlaylistCollection.setDeleted
 ---
 
 # IWMPPlaylistCollection interface
@@ -70,4 +71,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWMPPlaylistCollection</b> in
 
 
 <a href="/windows/desktop/WMP/interfaces">Interfaces</a>
-

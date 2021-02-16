@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellMenu::SetShellFolder
+ - IShellMenu.SetShellFolder
 ---
 
 # IShellMenu::SetShellFolder
@@ -111,4 +111,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 Call this method after you call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenu-initialize">IShellMenu::Initialize</a>.
-

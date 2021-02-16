@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::ConnectionMediaType
+ - IPin.ConnectionMediaType
 ---
 
 # IPin::ConnectionMediaType
@@ -120,4 +120,3 @@ If the pin is not connected, this method clears the media type specified by <i>p
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

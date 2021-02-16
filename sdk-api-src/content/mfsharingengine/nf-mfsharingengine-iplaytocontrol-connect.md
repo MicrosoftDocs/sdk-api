@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfsharingengine.h
 api_name:
- - IPlayToControl::Connect
+ - IPlayToControl.Connect
 ---
 
 # IPlayToControl::Connect
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytocontrol">IPlayToControl</a>
-

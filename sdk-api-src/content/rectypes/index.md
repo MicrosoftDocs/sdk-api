@@ -9,8 +9,6 @@ tech.root: tablet
 f1_keywords:
  - rectypes
  - rectypes/rectypes
-api_name:
- - rectypes
 ---
 
 # Rectypes.h header

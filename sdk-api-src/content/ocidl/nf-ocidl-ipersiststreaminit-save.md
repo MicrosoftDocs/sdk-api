@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPersistStreamInit::Save
+ - IPersistStreamInit.Save
 ---
 
 # IPersistStreamInit::Save
@@ -122,4 +122,3 @@ The <b>IPersistStreamInit::Save</b> method can read from, write to, and seek in 
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
-

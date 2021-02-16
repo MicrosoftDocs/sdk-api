@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - _DXVA2_DecodeBufferDesc
  - DXVA2_DecodeBufferDesc
 ---
 
@@ -219,4 +218,3 @@ This structure corresponds closely to the <a href="/windows-hardware/drivers/ddi
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

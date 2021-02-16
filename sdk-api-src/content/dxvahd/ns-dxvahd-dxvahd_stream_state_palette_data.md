@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_STREAM_STATE_PALETTE_DATA
  - DXVAHD_STREAM_STATE_PALETTE_DATA
 ---
 
@@ -96,4 +95,3 @@ To get the device capabilities, call <a href="/windows/desktop/api/dxvahd/nf-dxv
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

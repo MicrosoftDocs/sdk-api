@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager::GetOpenParentState
+ - IOleUndoManager.GetOpenParentState
 ---
 
 # IOleUndoManager::GetOpenParentState
@@ -80,4 +80,3 @@ If the undo manager is disabled, it should fill the <i>pdwState</i> parameter wi
 
 
 <a href="/windows/desktop/api/ocidl/ne-ocidl-uasflags">UASFLAGS</a>
-

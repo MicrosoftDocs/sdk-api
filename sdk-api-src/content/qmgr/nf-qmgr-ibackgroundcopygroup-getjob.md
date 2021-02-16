@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup::GetJob
+ - IBackgroundCopyGroup.GetJob
 ---
 
 # IBackgroundCopyGroup::GetJob
@@ -100,4 +100,3 @@ Could not find the job in the group.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
-

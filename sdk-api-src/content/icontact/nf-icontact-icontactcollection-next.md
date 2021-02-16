@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactCollection::Next
+ - IContactCollection.Next
 ---
 
 # IContactCollection::Next

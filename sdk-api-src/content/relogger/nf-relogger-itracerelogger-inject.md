@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Relogger.h
 api_name:
- - ITraceRelogger::Inject
+ - ITraceRelogger.Inject
 ---
 
 # ITraceRelogger::Inject
@@ -79,4 +79,3 @@ To preserve an existing event provided by <a href="/windows/desktop/api/relogger
 
 
 <a href="/windows/desktop/api/relogger/nn-relogger-itracerelogger">ITraceRelogger</a>
-

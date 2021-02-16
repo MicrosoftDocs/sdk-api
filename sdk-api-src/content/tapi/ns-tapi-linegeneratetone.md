@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linegeneratetone_tag
- - LPLINEGENERATETONE
  - LINEGENERATETONE
 ---
 
@@ -92,4 +90,3 @@ This structure is used only for the generation of tones. It is not used for tone
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegeneratetone">lineGenerateTone</a>
-

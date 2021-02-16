@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject::Find
+ - IWABObject.Find
 ---
 
 # IWABObject::Find
@@ -75,4 +75,3 @@ Value of type <b>HWND</b> that specifies
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful.
-

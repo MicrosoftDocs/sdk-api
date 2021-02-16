@@ -44,7 +44,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - drt_status_tag
  - DRT_STATUS
 ---
 
@@ -80,4 +79,3 @@ A critical error has occurred in the local DRT instance. The <a href="/windows/d
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtopen">DrtOpen</a>
-

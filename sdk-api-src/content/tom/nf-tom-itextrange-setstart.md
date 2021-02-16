@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::SetStart
+ - ITextRange.SetStart
 ---
 
 # ITextRange::SetStart
@@ -110,4 +110,3 @@ This also makes the end position the active end of the range, and it can turn a 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

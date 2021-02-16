@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleWriter3::AddPackageReference
+ - IAppxBundleWriter3.AddPackageReference
 ---
 
 # IAppxBundleWriter3::AddPackageReference
@@ -73,4 +73,3 @@ By adding a reference to a payload file or optional app package to an app bundle
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter3">IAppxBundleWriter3</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPDeviceFinder::CancelAsyncFind
+ - IUPnPDeviceFinder.CancelAsyncFind
 ---
 
 # IUPnPDeviceFinder::CancelAsyncFind
@@ -79,4 +79,3 @@ Applications can keep asynchronous searches running until the application exits.
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpdevicefinder-startasyncfind">IUPnPDeviceFinder::StartAsyncFind</a>
-

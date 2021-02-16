@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxgi1_5.h
 api_name:
- - _DXGI_RECLAIM_RESOURCE_RESULTS
  - DXGI_RECLAIM_RESOURCE_RESULTS
 ---
 
@@ -73,4 +72,3 @@ recreated and the content regenerated in order to be used. All future use of tha
 ## -see-also
 
 <a href="/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-enums">DXGI Enumerations</a>
-

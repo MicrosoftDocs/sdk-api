@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology::Clear
+ - IMFTopology.Clear
 ---
 
 # IMFTopology::Clear
@@ -88,4 +88,3 @@ You do not need to clear a topology before disposing of it. The <b>Clear</b> met
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

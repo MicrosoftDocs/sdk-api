@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::DeleteNotification
+ - IFsrmFileManagementJob.DeleteNotification
 ---
 
 # IFsrmFileManagementJob::DeleteNotification
@@ -89,4 +89,3 @@ Deleting the notification also deletes its associated actions.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

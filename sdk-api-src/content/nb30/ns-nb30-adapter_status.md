@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nb30.h
 api_name:
- - _ADAPTER_STATUS
- - PADAPTER_STATUS
  - ADAPTER_STATUS
 ---
 
@@ -191,4 +189,3 @@ Specifies the number of names in the local names table.
 
 
 <a href="/previous-versions/windows/desktop/netbios/portal">The NetBIOS Interface Overview</a>
-

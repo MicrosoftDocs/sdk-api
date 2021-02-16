@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection::NotifySessionId
+ - IWTSProtocolConnection.NotifySessionId
 ---
 
 # IWTSProtocolConnection::NotifySessionId
@@ -67,4 +67,3 @@ This is an event notification and you should return immediately from this method
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-

@@ -45,7 +45,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIBICMPINFO
  - MIBICMPINFO
 ---
 
@@ -94,4 +93,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/api/ipmib/ns-ipmib-mib_icmp_ex_xpsp1">MIB_ICMP_EX</a>
-

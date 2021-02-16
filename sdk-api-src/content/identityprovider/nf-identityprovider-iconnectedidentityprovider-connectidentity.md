@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Identityprovider.h
 api_name:
- - IConnectedIdentityProvider::ConnectIdentity
+ - IConnectedIdentityProvider.ConnectIdentity
 ---
 
 # IConnectedIdentityProvider::ConnectIdentity
@@ -126,4 +126,3 @@ The <i>AuthBuffer</i> parameter can be encrypted in the system context if the cr
 ## -see-also
 
 <a href="/windows/desktop/api/identityprovider/nn-identityprovider-iconnectedidentityprovider">IConnectedIdentityProvider</a>
-

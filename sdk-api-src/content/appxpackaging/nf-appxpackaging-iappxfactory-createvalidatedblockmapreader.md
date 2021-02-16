@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxFactory::CreateValidatedBlockMapReader
+ - IAppxFactory.CreateValidatedBlockMapReader
 ---
 
 # IAppxFactory::CreateValidatedBlockMapReader
@@ -111,4 +111,3 @@ The <i>fileName</i> parameter should include the path of a package digital signa
 
 
 <a href="/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createblockmapreader">IAppxFactory::CreateBlockMapReader</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost::Terminate
+ - IWSDDeviceHost.Terminate
 ---
 
 # IWSDDeviceHost::Terminate
@@ -98,4 +98,3 @@ If this device host was started by calling <a href="/windows/desktop/api/wsdhost
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-

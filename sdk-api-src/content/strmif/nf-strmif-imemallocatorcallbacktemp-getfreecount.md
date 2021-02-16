@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocatorCallbackTemp::GetFreeCount
+ - IMemAllocatorCallbackTemp.GetFreeCount
 ---
 
 # IMemAllocatorCallbackTemp::GetFreeCount
@@ -105,4 +105,3 @@ Until the allocator is committed, the samples are not guaranteed to be allocated
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocatorcallbacktemp">IMemAllocatorCallbackTemp Interface</a>
-

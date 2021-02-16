@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_HandlerID
+ - IUpdate.HandlerID
+ - IUpdate.get_HandlerID
 ---
 
 # IUpdate::get_HandlerID
@@ -81,4 +82,3 @@ The valid values for the <b>HandlerID</b> property include the following:
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

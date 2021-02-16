@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Factory4::CreateDevice
+ - ID2D1Factory4.CreateDevice
 ---
 
 # ID2D1Factory4::CreateDevice
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1factory4">ID2D1Factory4</a>
-

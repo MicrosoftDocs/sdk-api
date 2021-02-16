@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskFolder::get_Path
+ - ITaskFolder.Path
+ - ITaskFolder.get_Path
 ---
 
 # ITaskFolder::get_Path
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

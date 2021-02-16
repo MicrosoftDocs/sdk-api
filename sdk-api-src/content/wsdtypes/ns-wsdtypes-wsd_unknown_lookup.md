@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_UNKNOWN_LOOKUP
  - WSD_UNKNOWN_LOOKUP
 ---
 
@@ -60,4 +59,3 @@ Represents an XML element that could not be parsed.
 ### -field Any
 
 Reference to a <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_ELEMENT</a> structure that specifies extension content allowed by the XML <b>ANY</b> keyword.
-

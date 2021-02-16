@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate5::get_AutoDownload
+ - IWindowsDriverUpdate5.AutoDownload
+ - IWindowsDriverUpdate5.get_AutoDownload
 ---
 
 # IWindowsDriverUpdate5::get_AutoDownload
@@ -63,4 +64,3 @@ The AutoDownload property indicates whether the update will be automatically dow
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate5">IWindowsDriverUpdate5</a>
-

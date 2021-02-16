@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
+ - IFsrmClassifierModuleImplementation.UseRulesAndDefinitions
 ---
 
 # IFsrmClassifierModuleImplementation::UseRulesAndDefinitions
@@ -87,4 +87,3 @@ Other values will result in the client application receiving a
 
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmcollection">IFsrmCollection</a>
-

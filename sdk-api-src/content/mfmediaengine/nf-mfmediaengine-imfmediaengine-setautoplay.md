@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::SetAutoPlay
+ - IMFMediaEngine.SetAutoPlay
 ---
 
 # IMFMediaEngine::SetAutoPlay
@@ -69,4 +69,3 @@ This method corresponds to setting the <b>autoplay</b> attribute of the <b>HTMLM
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

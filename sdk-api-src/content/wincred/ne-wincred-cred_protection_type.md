@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinCred.h
 api_name:
- - _CRED_PROTECTION_TYPE
- - PCRED_PROTECTION_TYPE
  - CRED_PROTECTION_TYPE
 ---
 
@@ -73,4 +71,3 @@ The credentials are encrypted and can be decrypted only in the security context 
 The credentials are encrypted and can only be decrypted by a trusted component.
 
 ### -field CredForSystemProtection
-

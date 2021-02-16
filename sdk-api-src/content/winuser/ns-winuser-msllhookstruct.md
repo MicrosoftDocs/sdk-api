@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMSLLHOOKSTRUCT
- - LPMSLLHOOKSTRUCT
  - MSLLHOOKSTRUCT
 ---
 
@@ -206,4 +204,3 @@ Additional information associated with the message.
 
 
 <a href="/windows/desktop/inputdev/wm-xbuttonup">WM_XBUTTONUP</a>
-

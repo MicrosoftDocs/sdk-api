@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::BindIfRunning
+ - IOleLink.BindIfRunning
 ---
 
 # IOleLink::BindIfRunning
@@ -93,4 +93,3 @@ The linked object's implementation of <b>IOleLink::BindIfRunning</b> checks the 
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolelink-bindtosource">IOleLink::BindToSource</a>
-

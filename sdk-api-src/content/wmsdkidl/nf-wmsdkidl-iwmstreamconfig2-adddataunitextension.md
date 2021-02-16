@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig2::AddDataUnitExtension
+ - IWMStreamConfig2.AddDataUnitExtension
 ---
 
 # IWMStreamConfig2::AddDataUnitExtension
@@ -130,4 +130,3 @@ The new value will not take effect in the profile until you call <a href="/windo
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension">IWMStreamConfig2::GetDataUnitExtension</a>
-

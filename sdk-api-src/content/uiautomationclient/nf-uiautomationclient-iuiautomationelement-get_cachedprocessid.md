@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedProcessId
+ - IUIAutomationElement.CachedProcessId
+ - IUIAutomationElement.get_CachedProcessId
 ---
 
 # IUIAutomationElement::get_CachedProcessId
@@ -71,4 +72,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

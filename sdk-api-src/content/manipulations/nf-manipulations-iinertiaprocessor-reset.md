@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IInertiaProcessor::Reset
+ - IInertiaProcessor.Reset
 ---
 
 # IInertiaProcessor::Reset
@@ -95,4 +95,3 @@ If you have changed properties on an object currently being manipulated by inert
 
 
 <a href="/windows/desktop/wintouch/imanipulationprocessor-methods">Methods</a>
-

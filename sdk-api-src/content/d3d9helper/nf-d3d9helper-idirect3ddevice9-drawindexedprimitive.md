@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::DrawIndexedPrimitive
+ - IDirect3DDevice9.DrawIndexedPrimitive
 ---
 
 # IDirect3DDevice9::DrawIndexedPrimitive
@@ -129,4 +129,3 @@ When converting a legacy application to Direct3D 9, you must add a call to eithe
 
 
 <a href="/windows/desktop/direct3d9/vertex-buffers">Vertex Buffers (Direct3D 9)</a>
-

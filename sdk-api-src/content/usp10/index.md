@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - usp10
  - usp10/usp10
-api_name:
- - usp10
 ---
 
 # Usp10.h header

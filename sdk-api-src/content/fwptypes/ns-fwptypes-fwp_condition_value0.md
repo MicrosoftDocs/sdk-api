@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_CONDITION_VALUE0_
  - FWP_CONDITION_VALUE0
 ---
 
@@ -251,4 +250,3 @@ compared to an FWP_UINT32 containing an IPv4 address. See [FWP_MATCH_TYPE](ne-fw
 [FWP_VALUE0](ns-fwptypes-fwp_value0.md)
 
 [Windows Filtering Platform API Structures](/windows/desktop/FWP/fwp-structs)
-

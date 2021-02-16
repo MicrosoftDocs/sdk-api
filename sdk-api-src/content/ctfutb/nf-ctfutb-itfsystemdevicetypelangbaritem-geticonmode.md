@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfSystemDeviceTypeLangBarItem::GetIconMode
+ - ITfSystemDeviceTypeLangBarItem.GetIconMode
 ---
 
 # ITfSystemDeviceTypeLangBarItem::GetIconMode
@@ -99,4 +99,3 @@ The system language bar item does not support this method.
 
 <a href="/windows/desktop/api/ctfutb/nf-ctfutb-itfsystemdevicetypelangbaritem-seticonmode">ITfSystemDeviceTypeLangBarItem::SetIconMode
       </a>
-

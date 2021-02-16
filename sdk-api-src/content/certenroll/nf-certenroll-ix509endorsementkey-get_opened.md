@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey::get_Opened
+ - IX509EndorsementKey.Opened
+ - IX509EndorsementKey.get_Opened
 ---
 
 # IX509EndorsementKey::get_Opened
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_RADIO_STATE
- - PWLAN_HOSTED_NETWORK_RADIO_STATE
  - WLAN_HOSTED_NETWORK_RADIO_STATE
 ---
 
@@ -83,4 +81,3 @@ The <b>WLAN_HOSTED_NETWORK_RADIO_STATE</b> structure is an extension to native w
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
-

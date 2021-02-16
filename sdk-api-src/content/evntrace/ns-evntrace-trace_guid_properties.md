@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Evntrace.h
 api_name:
- - _TRACE_GUID_PROPERTIES
- - PTRACE_GUID_PROPERTIES
  - TRACE_GUID_PROPERTIES
 ---
 
@@ -94,4 +92,3 @@ Be sure to initialize the memory for this structure to zero before setting any m
 ## -see-also
 
 <a href="/windows/desktop/ETW/enumeratetraceguids">EnumerateTraceGuids</a>
-

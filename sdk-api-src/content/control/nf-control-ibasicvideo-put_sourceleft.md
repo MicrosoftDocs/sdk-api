@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBasicVideo::put_SourceLeft
+ - IBasicVideo.put_SourceLeft
 ---
 
 # IBasicVideo::put_SourceLeft
@@ -114,4 +114,3 @@ This method moves the entire source rectangle to the left or right. It does not 
 
 
 <a href="/windows/desktop/api/control/nn-control-ibasicvideo">IBasicVideo Interface</a>
-

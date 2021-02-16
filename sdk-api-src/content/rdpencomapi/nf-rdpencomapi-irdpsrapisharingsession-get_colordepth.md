@@ -42,7 +42,13 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPISharingSession::get_ColorDepth
+ - IRDPSRAPISharingSession2.ColorDepth
+ - IRDPSRAPISharingSession2.get_ColorDepth
+ - IRDPSRAPISharingSession2.put_ColorDepth
+ - IRDPSRAPISharingSession.ColorDepth
+ - IRDPSRAPISharingSession.get_ColorDepth
+ - IRDPSRAPISharingSession.put_ColorDepth
+ - RDPSession.ColorDepth
 ---
 
 # IRDPSRAPISharingSession::get_ColorDepth
@@ -63,4 +69,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapisharingsession2">IRDPSRAPISharingSession2</a>
-

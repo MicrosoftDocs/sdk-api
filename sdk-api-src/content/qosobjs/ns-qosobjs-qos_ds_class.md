@@ -46,8 +46,6 @@ api_type:
 api_location:
  - QosObjs.h
 api_name:
- - _QOS_DS_CLASS
- - LPQOS_DS_CLASS
  - QOS_DS_CLASS
 ---
 
@@ -151,4 +149,3 @@ Non-conformant traffic
 
 
 <a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_traffic_class">QOS_TRAFFIC_CLASS</a>
-

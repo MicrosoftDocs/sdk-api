@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - LPBITMAPV5HEADER
  - BITMAPV5HEADER
 ---
 
@@ -353,4 +352,3 @@ If a profile is linked, the path of the profile can be any fully qualified name 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-

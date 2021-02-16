@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wbemcli.h
 api_name:
- - tag_WBEM_TEXT_FLAG_TYPE
  - WBEM_TEXT_FLAG_TYPE
 ---
 
@@ -64,4 +63,3 @@ Present qualifiers without propagation or flavor information.
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getobjecttext">IWbemClassObject::GetObjectText</a>
-

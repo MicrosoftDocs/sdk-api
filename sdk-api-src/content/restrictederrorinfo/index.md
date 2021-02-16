@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - restrictederrorinfo
  - restrictederrorinfo/restrictederrorinfo
-api_name:
- - restrictederrorinfo
 ---
 
 # Restrictederrorinfo.h header

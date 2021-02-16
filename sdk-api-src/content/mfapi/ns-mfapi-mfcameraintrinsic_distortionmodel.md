@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFCameraIntrinsic_DistortionModel
  - MFCameraIntrinsic_DistortionModel
 ---
 
@@ -80,4 +79,3 @@ The second tangential distortion coefficient.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

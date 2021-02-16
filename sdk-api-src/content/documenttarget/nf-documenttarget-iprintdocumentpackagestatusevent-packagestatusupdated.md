@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Documenttarget.h
 api_name:
- - IPrintDocumentPackageStatusEvent::PackageStatusUpdated
+ - IPrintDocumentPackageStatusEvent.PackageStatusUpdated
 ---
 
 # IPrintDocumentPackageStatusEvent::PackageStatusUpdated
@@ -69,4 +69,3 @@ If the <b>PackageStatusUpdated</b> method completes successfully, it returns an 
 
 
 <a href="/windows/win32/api/documenttarget/ns-documenttarget-printdocumentpackagestatus">PrintDocumentPackageStatus</a>
-

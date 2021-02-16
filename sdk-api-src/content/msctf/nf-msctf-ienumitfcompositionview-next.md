@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumITfCompositionView::Next
+ - IEnumITfCompositionView.Next
 ---
 
 # IEnumITfCompositionView::Next
@@ -113,4 +113,3 @@ The method reached the end of the enumeration before the specified number of ele
 ## -see-also
 
 [IEnumITfCompositionView interface](nn-msctf-ienumitfcompositionview.md), [ITfCompositionView interface](nn-msctf-itfcompositionview.md)
-

@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - winsafer
  - winsafer/winsafer
-api_name:
- - winsafer
 ---
 
 # Winsafer.h header

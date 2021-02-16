@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::GetTabStopCount
+ - StringFormat.GetTabStopCount
 ---
 
 # StringFormat::GetTabStopCount
@@ -62,4 +62,3 @@ Type: <b>INT</b>
 
 This method returns an integer that indicates the number of tab stops in this 
 						<a href="/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat">StringFormat</a> object.
-

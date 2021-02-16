@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::put_SelRTF
+ - IInkEdit.SelRTF
+ - IInkEdit.get_SelRTF
+ - IInkEdit.put_SelRTF
+ - InkEdit.get_SelRTF
+ - InkEdit.put_SelRTF
 ---
 
 # IInkEdit::put_SelRTF
@@ -68,4 +72,3 @@ Setting the SelRTF property replaces any selected text in the <a href="/windows/
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

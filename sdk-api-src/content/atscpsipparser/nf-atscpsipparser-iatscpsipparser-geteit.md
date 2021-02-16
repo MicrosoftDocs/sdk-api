@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IAtscPsipParser::GetEIT
+ - IAtscPsipParser.GetEIT
 ---
 
 # IAtscPsipParser::GetEIT
@@ -144,4 +144,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatscpsipparser">IAtscPsipParser Interface</a>
-

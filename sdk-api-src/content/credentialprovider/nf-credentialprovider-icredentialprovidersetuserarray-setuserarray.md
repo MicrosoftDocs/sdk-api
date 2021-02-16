@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CredentialProvider.h
 api_name:
- - ICredentialProviderSetUserArray::SetUserArray
+ - ICredentialProviderSetUserArray.SetUserArray
 ---
 
 # ICredentialProviderSetUserArray::SetUserArray
@@ -73,4 +73,3 @@ Note that this method does not transfer ownership of the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/credentialprovider/nn-credentialprovider-icredentialprovideruser">ICredentialProviderUser</a>
-

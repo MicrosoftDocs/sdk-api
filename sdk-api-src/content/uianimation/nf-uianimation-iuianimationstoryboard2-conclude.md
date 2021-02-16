@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationStoryboard2::Conclude
+ - IUIAnimationStoryboard2.Conclude
 ---
 
 # IUIAnimationStoryboard2::Conclude
@@ -73,4 +73,3 @@ For alternating keyframe loops, each iteration has a starting value that is equi
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard2">IUIAnimationStoryboard2</a>
-

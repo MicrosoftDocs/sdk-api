@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::IsVisible
+ - Region.IsVisible
 ---
 
 # Region::IsVisible(IN INT,IN INT,IN INT,IN INT,IN const Graphics)
@@ -149,4 +149,3 @@ VOID Example_IsVisibleXYWH(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
-

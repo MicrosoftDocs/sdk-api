@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::GetContext
+ - ITfRange.GetContext
 ---
 
 # ITfRange::GetContext
@@ -110,4 +110,3 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::GetMathFunctionType
+ - ITextRange2.GetMathFunctionType
 ---
 
 # ITextRange2::GetMathFunctionType
@@ -110,4 +110,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextrange2">ITextRange2</a>
-

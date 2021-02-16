@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3::GetBandwidthSharing
+ - IWMProfile3.GetBandwidthSharing
 ---
 
 # IWMProfile3::GetBandwidthSharing
@@ -136,4 +136,3 @@ Bandwidth sharing objects in a profile are assigned sequential index numbers in 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile3-removebandwidthsharing">IWMProfile3::RemoveBandwidthSharing</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::SetMediaType
+ - IAMMediaTypeSample.SetMediaType
 ---
 
 # IAMMediaTypeSample::SetMediaType
@@ -96,4 +96,3 @@ Success.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

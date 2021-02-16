@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector::SetStreamSelectorFlags
+ - IMFASFStreamSelector.SetStreamSelectorFlags
 ---
 
 # IMFASFStreamSelector::SetStreamSelectorFlags
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamselector">IMFASFStreamSelector</a>
-

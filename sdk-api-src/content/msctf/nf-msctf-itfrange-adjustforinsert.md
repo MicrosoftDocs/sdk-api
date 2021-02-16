@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::AdjustForInsert
+ - ITfRange.AdjustForInsert
 ---
 
 # ITfRange::AdjustForInsert
@@ -179,4 +179,3 @@ On exit, if <i>*pfInsertOk</i> is set to <b>FALSE</b>, a future call to <b>ITfRa
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
-

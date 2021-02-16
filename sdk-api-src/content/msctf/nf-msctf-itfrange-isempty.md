@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::IsEmpty
+ - ITfRange.IsEmpty
 ---
 
 # ITfRange::IsEmpty
@@ -130,4 +130,3 @@ The value of the <i>ec</i> parameter is an invalid cookie.
 
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange</a>
-

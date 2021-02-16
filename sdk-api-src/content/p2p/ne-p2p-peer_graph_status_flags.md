@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_graph_status_flags_tag
  - PEER_GRAPH_STATUS_FLAGS
 ---
 
@@ -76,4 +75,3 @@ Specifies whether or not the node's database is synchronized.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetstatus">PeerGraphGetStatus</a>
-

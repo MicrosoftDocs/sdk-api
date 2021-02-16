@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_PKCS12_PBE_PARAMS
  - CRYPT_PKCS12_PBE_PARAMS
 ---
 
@@ -72,4 +71,3 @@ The buffer that contains the salt immediately follows the <b>CRYPT_PKCS12_PBE_PA
 The <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptexportkey">NCryptExportKey</a> and <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptimportkey">NCryptImportKey</a> functions consume the <b>CRYPT_PKCS12_PBE_PARAMS</b> structure as an <a href="/windows/desktop/api/bcrypt/ns-bcrypt-_bcryptbuffer">NCryptBuffer</a> structure in the <i>pParameterList</i> parameter.
 
 The <a href="/windows/desktop/SecGloss/p-gly">PKCS #12</a> standard recommends a value of 1024 or greater for the <b>iIterations</b> member.
-

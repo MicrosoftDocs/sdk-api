@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - _SEARCH_KIND_OF_CHANGE
  - SEARCH_KIND_OF_CHANGE
 ---
 
@@ -100,4 +99,3 @@ SEARCH_CHANGE_ADD, SEARCH_CHANGE_DELETE, and SEARCH_CHANGE_MODIFY are mutually e
 
 
 <a href="/windows/desktop/api/searchapi/ns-searchapi-search_item_change">SEARCH_ITEM_CHANGE</a>
-

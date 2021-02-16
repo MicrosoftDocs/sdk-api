@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_101
- - PDFS_INFO_101
  - DFS_INFO_101
 ---
 
@@ -139,4 +137,3 @@ Puts a root volume in standby mode. This flag is valid for a clustered DFS names
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

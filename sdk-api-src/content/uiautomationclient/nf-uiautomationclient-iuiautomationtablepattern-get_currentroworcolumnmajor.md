@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTablePattern::get_CurrentRowOrColumnMajor
+ - IUIAutomationTablePattern.CurrentRowOrColumnMajor
+ - IUIAutomationTablePattern.get_CurrentRowOrColumnMajor
 ---
 
 # IUIAutomationTablePattern::get_CurrentRowOrColumnMajor
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationtablepattern">IUIAutomationTablePattern</a>
-

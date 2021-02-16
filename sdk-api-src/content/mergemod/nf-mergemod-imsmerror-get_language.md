@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmError::get_Language
+ - IMsmError.get_Language
 ---
 
 # IMsmError::get_Language
@@ -101,4 +101,3 @@ The function returns -1 unless the error is of type msmErrorLanguageUnsupported 
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument::Save
+ - ITextDocument.Save
 ---
 
 # ITextDocument::Save
@@ -169,4 +169,3 @@ Unicode plain-text files should be saved with the Unicode byte-order mark (0xFEF
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

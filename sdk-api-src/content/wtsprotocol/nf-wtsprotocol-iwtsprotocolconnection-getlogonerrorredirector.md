@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWTSProtocolConnection::GetLogonErrorRedirector
+ - IWTSProtocolConnection.GetLogonErrorRedirector
 ---
 
 # IWTSProtocolConnection::GetLogonErrorRedirector
@@ -67,4 +67,3 @@ The <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocollogoner
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwtsprotocolconnection">IWTSProtocolConnection</a>
-

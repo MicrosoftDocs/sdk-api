@@ -46,8 +46,6 @@ api_type:
 api_location:
  - commoncontrols.h
 api_name:
- - _IMAGELISTDRAWPARAMS
- - LPIMAGELISTDRAWPARAMS
  - IMAGELISTDRAWPARAMS
 ---
 
@@ -384,4 +382,3 @@ An overlay image is an image that is drawn on top of the primary image specified
 To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="/windows/desktop/Controls/imagelistdrawflags">ILD_OVERLAYMASK</a> value. 
 
 Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
-

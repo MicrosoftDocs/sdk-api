@@ -44,7 +44,6 @@ api_type:
 api_location:
  - HighLevelMonitorConfigurationAPI.h
 api_name:
- - _MC_GAIN_TYPE
  - MC_GAIN_TYPE
 ---
 
@@ -80,4 +79,3 @@ Blue gain.
 
 
 <a href="/windows/desktop/api/highlevelmonitorconfigurationapi/nf-highlevelmonitorconfigurationapi-setmonitorredgreenorbluegain">SetMonitorRedGreenOrBlueGain</a>
-

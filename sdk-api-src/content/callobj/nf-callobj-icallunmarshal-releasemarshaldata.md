@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallUnmarshal::ReleaseMarshalData
+ - ICallUnmarshal.ReleaseMarshalData
 ---
 
 # ICallUnmarshal::ReleaseMarshalData
@@ -120,4 +120,3 @@ To clean up resources held in the marshaled buffer, the <b>ReleaseMarshalData</b
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallunmarshal">ICallUnmarshal</a>
-

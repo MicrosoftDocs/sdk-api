@@ -44,7 +44,6 @@ api_type:
 api_location:
  - PhotoAcquire.h
 api_name:
- - tagPROGRESS_DIALOG_IMAGE_TYPE
  - PROGRESS_DIALOG_IMAGE_TYPE
 ---
 
@@ -80,4 +79,3 @@ Specifies a bitmap thumbnail (up to 128 x 128 pixels, although it will be scaled
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoprogressdialog-setimage">IPhotoAcquireProgressDialog::SetImage</a>
-

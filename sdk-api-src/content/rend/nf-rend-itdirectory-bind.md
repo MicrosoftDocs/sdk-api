@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory::Bind
+ - ITDirectory.Bind
 ---
 
 # ITDirectory::Bind
@@ -144,4 +144,3 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - IEnumTfUIElements::Next
+ - IEnumTfUIElements.Next
 ---
 
 # IEnumTfUIElements::Next
@@ -109,4 +109,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

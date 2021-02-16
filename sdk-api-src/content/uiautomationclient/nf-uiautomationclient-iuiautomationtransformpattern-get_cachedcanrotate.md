@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern::get_CachedCanRotate
+ - IUIAutomationTransformPattern.CachedCanRotate
+ - IUIAutomationTransformPattern.get_CachedCanRotate
 ---
 
 # IUIAutomationTransformPattern::get_CachedCanRotate
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-rotate">IUIAutomationTransformPattern::Rotate</a>
-

@@ -9,8 +9,6 @@ tech.root: battery
 f1_keywords:
  - batclass
  - batclass/batclass
-api_name:
- - batclass
 ---
 
 # Batclass.h header

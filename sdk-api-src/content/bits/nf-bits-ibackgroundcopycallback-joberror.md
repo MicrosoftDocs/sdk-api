@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bits.h
 api_name:
- - IBackgroundCopyCallback::JobError
+ - IBackgroundCopyCallback.JobError
 ---
 
 # IBackgroundCopyCallback::JobError
@@ -121,4 +121,3 @@ See the example code for the
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-resume">IBackgroundCopyJob::Resume</a>
-

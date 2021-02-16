@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shlobj.h
 api_name:
- - LPSHCOLUMNDATA
  - SHCOLUMNDATA
 ---
 
@@ -168,4 +167,3 @@ A null-terminated Unicode string containing a fully qualified file path.
 ## -see-also
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-getfileattributesa">GetFileAttributes</a>
-

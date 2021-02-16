@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - ILCreateFromPathA
  - shlobj_core/ILCreateFromPathA
- - ILCreateFromPath
- - shlobj_core/ILCreateFromPath
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +44,10 @@ api_location:
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - ILCreateFromPathA
  - ILCreateFromPath
+ - ILCreateFromPathA
+ - ILCreateFromPathW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # ILCreateFromPathA function
@@ -81,4 +80,3 @@ Call <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a>
 
 > [!NOTE]
 > The shlobj_core.h header defines ILCreateFromPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

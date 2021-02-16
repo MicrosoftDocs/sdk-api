@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::EndWriting
+ - IWMWriter.EndWriting
 ---
 
 # IWMWriter::EndWriting
@@ -101,4 +101,3 @@ This method will not return a failure code if the disk space was used up before 
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter-beginwriting">IWMWriter::BeginWriting</a>
-

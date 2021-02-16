@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
+ - IMbnMultiCarrierEvents.OnInterfaceCapabilityChange
 ---
 
 # IMbnMultiCarrierEvents::OnInterfaceCapabilityChange
@@ -72,4 +72,3 @@ When a network carrier is changed due to a call to <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace2::Expand
+ - IConsoleNameSpace2.Expand
 ---
 
 # IConsoleNameSpace2::Expand
@@ -76,4 +76,3 @@ For example, if a snap-in must place a child item beneath a parent item at a spe
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
-

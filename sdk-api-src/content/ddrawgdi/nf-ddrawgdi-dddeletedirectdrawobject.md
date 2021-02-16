@@ -46,6 +46,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdDeleteDirectDrawObject
+ - GdiEntry3
 ---
 
 # DdDeleteDirectDrawObject function
@@ -79,4 +80,3 @@ DirectDraw and
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-

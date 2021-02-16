@@ -42,7 +42,16 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll2::get_EnableT61DNEncoding
+ - ICEnroll4.EnableT61DNEncoding
+ - ICEnroll4.get_EnableT61DNEncoding
+ - ICEnroll4.put_EnableT61DNEncoding
+ - ICEnroll3.EnableT61DNEncoding
+ - ICEnroll3.get_EnableT61DNEncoding
+ - ICEnroll3.put_EnableT61DNEncoding
+ - ICEnroll2.EnableT61DNEncoding
+ - ICEnroll2.get_EnableT61DNEncoding
+ - ICEnroll2.put_EnableT61DNEncoding
+ - CEnroll.EnableT61DNEncoding
 ---
 
 # ICEnroll2::get_EnableT61DNEncoding
@@ -102,4 +111,3 @@ if ( FAILED ( hr ) )
 else
     printf( "EnableT61DNEncoding was set to TRUE\n" );
 ```
-

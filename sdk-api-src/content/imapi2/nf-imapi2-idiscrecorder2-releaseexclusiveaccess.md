@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2::ReleaseExclusiveAccess
+ - IDiscRecorder2.ReleaseExclusiveAccess
 ---
 
 # IDiscRecorder2::ReleaseExclusiveAccess
@@ -162,4 +162,3 @@ An equal number of  calls to the <a href="/windows/desktop/api/imapi2/nf-imapi2-
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_exclusiveaccessowner">IDiscRecorder2::get_ExclusiveAccessOwner</a>
-

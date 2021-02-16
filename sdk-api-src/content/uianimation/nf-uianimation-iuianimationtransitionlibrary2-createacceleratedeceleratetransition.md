@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
+ - IUIAnimationTransitionLibrary2.CreateAccelerateDecelerateTransition
 ---
 
 # IUIAnimationTransitionLibrary2::CreateAccelerateDecelerateTransition
@@ -98,4 +98,3 @@ The following figures show the change in value for animation variables with diff
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtransitionlibrary2">IUIAnimationTransitionLibrary2</a>
-

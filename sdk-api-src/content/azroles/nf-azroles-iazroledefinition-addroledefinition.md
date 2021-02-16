@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleDefinition::AddRoleDefinition
+ - IAzRoleDefinition.AddRoleDefinition
 ---
 
 # IAzRoleDefinition::AddRoleDefinition
@@ -67,4 +67,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
-

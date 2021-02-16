@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutboundRoutingRule::put_DeviceId
+ - IFaxOutboundRoutingRule.DeviceId
+ - IFaxOutboundRoutingRule.get_DeviceId
+ - IFaxOutboundRoutingRule.put_DeviceId
+ - IFaxOutboundRoutingRule.get_DeviceId
+ - IFaxOutboundRoutingRule.put_DeviceId
 ---
 
 # IFaxOutboundRoutingRule::put_DeviceId
@@ -69,4 +73,3 @@ To read or to write to this property, a user must have the <a href="/previous-ve
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutboundroutingrule">IFaxOutboundRoutingRule</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMetadataText::get_description
+ - IWMPMetadataText.get_description
 ---
 
 # IWMPMetadataText::get_description
@@ -89,4 +89,3 @@ Before calling this method, you must have read access to the library. For more i
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmetadatatext">IWMPMetadataText Interface</a>
-

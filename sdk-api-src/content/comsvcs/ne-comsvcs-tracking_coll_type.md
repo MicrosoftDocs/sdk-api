@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - __MIDL___MIDL_itf_autosvcs_0000_0034_0001
  - TRACKING_COLL_TYPE
 ---
 
@@ -72,4 +71,3 @@ The objects in the referenced tracking information collections are components.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomtrackinginfocollection">IComTrackingInfoCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::Delete
+ - IDataCollectorSet.Delete
 ---
 
 # IDataCollectorSet::Delete
@@ -83,4 +83,3 @@ The RPC server is not available. The method is unable to delete the data collect
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-get_status">IDataCollectorSet::Status</a>
-

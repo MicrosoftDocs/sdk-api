@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRicheditUiaOverrides::GetPropertyOverrideValue
+ - IRicheditUiaOverrides.GetPropertyOverrideValue
 ---
 
 # IRicheditUiaOverrides::GetPropertyOverrideValue
@@ -75,4 +75,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/textserv/nn-textserv-irichedituiaoverrides">IRicheditUiaOverrides</a>
-

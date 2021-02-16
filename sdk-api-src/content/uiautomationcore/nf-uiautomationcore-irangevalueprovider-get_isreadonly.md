@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IRangeValueProvider::get_IsReadOnly
+ - IRangeValueProvider.IsReadOnly
+ - IRangeValueProvider.get_IsReadOnly
 ---
 
 # IRangeValueProvider::get_IsReadOnly
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

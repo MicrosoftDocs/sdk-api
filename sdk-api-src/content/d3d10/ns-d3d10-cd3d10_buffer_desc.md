@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10.h
 api_name:
- - CD3D10_BUFFER_DESC
+ - D3D10_BUFFER_DESC
 ---
 
 ## -description

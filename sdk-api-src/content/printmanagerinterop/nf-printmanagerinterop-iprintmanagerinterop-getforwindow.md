@@ -42,7 +42,7 @@ api_type:
 api_location:
  - printmanagerinterop.h
 api_name:
- - IPrintManagerInterop::GetForWindow
+ - IPrintManagerInterop.GetForWindow
 ---
 
 # IPrintManagerInterop::GetForWindow
@@ -85,4 +85,3 @@ You can use the <b>GetForWindow</b> method to get the <a href="/uwp/api/Windows.
 
 
 <a href="/uwp/api/Windows.Graphics.Printing.PrintManager">PrintManager</a>
-

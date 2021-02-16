@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_Topology::SetMedium
+ - IBDA_Topology.SetMedium
 ---
 
 # IBDA_Topology::SetMedium
@@ -77,4 +77,3 @@ A medium is a structure that identifies a hardware data path between two devices
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_topology">IBDA_Topology Interface</a>
-

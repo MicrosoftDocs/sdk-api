@@ -42,7 +42,11 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager::get_ActionVariables
+ - IFsrmQuotaManager.ActionVariables
+ - IFsrmQuotaManager.get_ActionVariables
+ - IFsrmQuotaManagerEx.ActionVariables
+ - IFsrmQuotaManagerEx.get_ActionVariables
+ - FsrmQuotaManager.ActionVariables
 ---
 
 # IFsrmQuotaManager::get_ActionVariables
@@ -82,4 +86,3 @@ FSRM parses the action property for the macros and substitutes the macro string 
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

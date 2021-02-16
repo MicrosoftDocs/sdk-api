@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11.dll
 api_name:
- - ID3D11On12Device::AcquireWrappedResources
+ - ID3D11On12Device.AcquireWrappedResources
 ---
 
 # ID3D11On12Device::AcquireWrappedResources
@@ -124,4 +124,3 @@ Refer to the <a href="/windows/desktop/direct3d12/notes-on-example-code">Example
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11on12/nn-d3d11on12-id3d11on12device">ID3D11On12Device</a>
-

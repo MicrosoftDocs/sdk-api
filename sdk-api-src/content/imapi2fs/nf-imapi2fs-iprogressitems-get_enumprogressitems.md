@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IProgressItems::get_EnumProgressItems
+ - IProgressItems.get_EnumProgressItems
 ---
 
 # IProgressItems::get_EnumProgressItems
@@ -106,4 +106,3 @@ This property returns the same results as the <a href="/windows/desktop/api/imap
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-iprogressitems">IProgressItems</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoctl.h
 api_name:
- - _STORAGE_TEMPERATURE_THRESHOLD
- - PSTORAGE_TEMPERATURE_THRESHOLD
  - STORAGE_TEMPERATURE_THRESHOLD
 ---
 
@@ -117,4 +115,3 @@ Reserved for future use.
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-storage_temperature_info">STORAGE_TEMPERATURE_INFO</a>
-

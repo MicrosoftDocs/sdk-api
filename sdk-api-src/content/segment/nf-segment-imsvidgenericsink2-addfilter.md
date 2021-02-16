@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidGenericSink2::AddFilter
+ - IMSVidGenericSink2.AddFilter
 ---
 
 # IMSVidGenericSink2::AddFilter
@@ -93,4 +93,3 @@ Use this method to insert additional filters to the graph other than the sink fi
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidgenericsink2">IMSVidGenericSink2 Interface</a>
-

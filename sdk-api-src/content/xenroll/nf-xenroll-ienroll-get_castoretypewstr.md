@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_CAStoreTypeWStr
+ - IEnroll.CAStoreTypeWStr
+ - IEnroll.get_CAStoreTypeWStr
+ - IEnroll.put_CAStoreTypeWStr
 ---
 
 # IEnroll::get_CAStoreTypeWStr
@@ -77,4 +79,3 @@ The <b>CAStoreTypeWStr</b> property affects the behavior of the following method
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1023
- - PUSER_INFO_1023
  - USER_INFO_1023
 ---
 
@@ -87,4 +85,3 @@ Server names should be preceded by two backslashes (\\). To indicate that the lo
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

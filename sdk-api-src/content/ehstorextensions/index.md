@@ -9,8 +9,6 @@ tech.root: enstor
 f1_keywords:
  - ehstorextensions
  - ehstorextensions/ehstorextensions
-api_name:
- - ehstorextensions
 ---
 
 # Ehstorextensions.h header

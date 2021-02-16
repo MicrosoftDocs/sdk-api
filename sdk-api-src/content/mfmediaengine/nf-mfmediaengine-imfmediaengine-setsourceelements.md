@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::SetSourceElements
+ - IMFMediaEngine.SetSourceElements
 ---
 
 # IMFMediaEngine::SetSourceElements
@@ -85,4 +85,3 @@ If the application also calls <a href="/windows/desktop/api/mfmediaengine/nf-mfm
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IProxyProviderWinEventHandler::RespondToWinEvent
+ - IProxyProviderWinEventHandler.RespondToWinEvent
 ---
 
 # IProxyProviderWinEventHandler::RespondToWinEvent

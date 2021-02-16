@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponentData::Destroy
+ - IComponentData.Destroy
 ---
 
 # IComponentData::Destroy
@@ -80,4 +80,3 @@ Only the console calls this method.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-

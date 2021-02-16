@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzApplicationGroup2::put_BizRuleImportedPath
+ - IAzApplicationGroup2.BizRuleImportedPath
+ - IAzApplicationGroup2.get_BizRuleImportedPath
+ - IAzApplicationGroup2.put_BizRuleImportedPath
 ---
 
 # IAzApplicationGroup2::put_BizRuleImportedPath

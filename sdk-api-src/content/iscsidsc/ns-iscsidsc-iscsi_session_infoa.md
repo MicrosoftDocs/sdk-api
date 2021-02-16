@@ -44,8 +44,9 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PISCSI_SESSION_INFOA
+ - ISCSI_SESSION_INFO
  - ISCSI_SESSION_INFOA
+ - ISCSI_SESSION_INFOW
 ---
 
 # ISCSI_SESSION_INFOA structure
@@ -105,4 +106,3 @@ A pointer to a <a href="/previous-versions/windows/desktop/api/iscsidsc/ns-iscsi
 
 > [!NOTE]
 > The iscsidsc.h header defines ISCSI_SESSION_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

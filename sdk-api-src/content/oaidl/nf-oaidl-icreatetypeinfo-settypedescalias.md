@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::SetTypeDescAlias
+ - ICreateTypeInfo.SetTypeDescAlias
 ---
 
 # ICreateTypeInfo::SetTypeDescAlias
@@ -148,4 +148,3 @@ To set the type for an alias, call <b>SetTypeDescAlias</b> for a type descriptio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

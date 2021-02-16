@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagDEBUGHOOKINFO
- - PDEBUGHOOKINFO
  - DEBUGHOOKINFO
 ---
 
@@ -112,4 +110,3 @@ The value to be passed to the hook in the
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowshookexa">SetWindowsHookEx</a>
-

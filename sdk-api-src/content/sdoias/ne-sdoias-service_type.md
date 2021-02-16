@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _SERVICE_TYPE
  - SERVICE_TYPE
 ---
 
@@ -80,4 +79,3 @@ Use this constant to test whether the value is in range.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-getservicesdo">ISdoMachine::GetServiceSDO</a>
-

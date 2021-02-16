@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::get_Request
+ - IX509Enrollment.Request
+ - IX509Enrollment.get_Request
 ---
 
 # IX509Enrollment::get_Request
@@ -63,4 +64,3 @@ This property can be set when the <a href="/windows/desktop/api/certenroll/nf-ce
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

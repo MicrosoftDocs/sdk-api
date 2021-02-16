@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_STREAM_STATE_ALPHA_DATA
  - DXVAHD_STREAM_STATE_ALPHA_DATA
 ---
 
@@ -133,4 +132,3 @@ HRESULT DXVAHD_SetPlanarAlpha(
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

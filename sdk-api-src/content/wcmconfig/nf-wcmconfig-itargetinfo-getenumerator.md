@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ITargetInfo::GetEnumerator
+ - ITargetInfo.GetEnumerator
 ---
 
 # ITargetInfo::GetEnumerator
@@ -70,4 +70,3 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-itargetinfo">ITargetInfo</a>
-

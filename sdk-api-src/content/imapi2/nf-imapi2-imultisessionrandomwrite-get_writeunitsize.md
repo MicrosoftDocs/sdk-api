@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IMultisessionRandomWrite::get_WriteUnitSize
+ - IMultisessionRandomWrite.get_WriteUnitSize
 ---
 
 # IMultisessionRandomWrite::get_WriteUnitSize
@@ -362,4 +362,3 @@ Each write performed to the disc must start from an LBA that is a multiple of th
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-imultisessionrandomwrite">IMultisessionRandomWrite</a>
-

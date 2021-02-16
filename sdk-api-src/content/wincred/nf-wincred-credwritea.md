@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CredWriteA
  - wincred/CredWriteA
- - CredWrite
- - wincred/CredWrite
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - API-MS-Win-Security-credentials-l1-1-0.dll
 api_name:
- - CredWriteA
  - CredWrite
+ - CredWriteA
+ - CredWriteW
 ---
 
 # CredWriteA function
@@ -216,4 +215,3 @@ If the value of the <b>Type</b> member of the <a href="/windows/desktop/api/winc
 ## -see-also
 
 <a href="/windows/desktop/api/wincred/ns-wincred-credentiala">CREDENTIAL</a>
-

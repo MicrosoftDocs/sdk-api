@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption2::getSAMILangName
+ - IWMPClosedCaption2.getSAMILangName
 ---
 
 # IWMPClosedCaption2::getSAMILangName
@@ -103,4 +103,3 @@ This method cannot be used until a digital media file is open.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samilang">IWMPClosedCaption::get_SAMILang</a>
-

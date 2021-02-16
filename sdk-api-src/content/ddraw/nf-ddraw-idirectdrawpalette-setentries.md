@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ddraw.dll
 api_name:
- - IDirectDrawPalette::SetEntries
+ - IDirectDrawPalette.SetEntries
 ---
 
 # IDirectDrawPalette::SetEntries
@@ -93,4 +93,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdrawpalette">IDirectDrawPalette</a>
-

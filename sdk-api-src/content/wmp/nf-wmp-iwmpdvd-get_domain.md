@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPDVD::get_domain
+ - IWMPDVD.get_domain
 ---
 
 # IWMPDVD::get_domain
@@ -122,4 +122,3 @@ Every DVD is authored differently. Some DVDs do not contain the firstPlay, video
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
-

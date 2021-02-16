@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadata::SetBackupSchema
+ - IVssCreateWriterMetadata.SetBackupSchema
 ---
 
 # IVssCreateWriterMetadata::SetBackupSchema
@@ -155,4 +155,3 @@ Requesters call
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_backup_schema">VSS_BACKUP_SCHEMA</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasGetConnectStatusW
  - ras/RasGetConnectStatusW
- - RasGetConnectStatus
- - ras/RasGetConnectStatus
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasGetConnectStatusW
  - RasGetConnectStatus
+ - RasGetConnectStatusA
+ - RasGetConnectStatusW
 ---
 
 # RasGetConnectStatusW function
@@ -136,4 +135,3 @@ The return value for
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

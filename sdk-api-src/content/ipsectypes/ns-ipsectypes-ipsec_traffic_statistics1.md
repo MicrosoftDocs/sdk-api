@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_TRAFFIC_STATISTICS1_
  - IPSEC_TRAFFIC_STATISTICS1
 ---
 
@@ -89,4 +88,3 @@ The total number of packets that were successfully transmitted.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

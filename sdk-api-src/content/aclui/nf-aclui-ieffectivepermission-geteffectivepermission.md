@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - IEffectivePermission::GetEffectivePermission
+ - IEffectivePermission.GetEffectivePermission
 ---
 
 # IEffectivePermission::GetEffectivePermission
@@ -102,4 +102,3 @@ A pointer to a <b>ULONG</b> variable that receives the count of granted access m
 If the function is successful, the return value is S_OK.
 
 If the function fails, the return value is an <b>HRESULT</b> that indicates the error. For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

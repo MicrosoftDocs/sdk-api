@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorDevice::GetFlags
+ - IMFSensorDevice.GetFlags
 ---
 
 # IMFSensorDevice::GetFlags
@@ -114,4 +114,3 @@ This method is reserved for future use and should not be called.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensordevice">IMFSensorDevice</a>
-

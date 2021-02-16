@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage4::SetReferences
+ - IMDSPStorage4.SetReferences
 ---
 
 # IMDSPStorage4::SetReferences
@@ -91,4 +91,3 @@ The <b>SetReferences</b> method follows a wipe-and-load model. The references pa
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage4-getreferences">IMDSPStorage4::GetReferences</a>
-

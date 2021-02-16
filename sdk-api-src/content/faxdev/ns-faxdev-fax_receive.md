@@ -46,8 +46,6 @@ api_type:
 api_location:
  - FaxDev.h
 api_name:
- - _FAX_RECEIVE
- - PFAX_RECEIVE
  - FAX_RECEIVE
 ---
 
@@ -134,4 +132,3 @@ The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members a
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-using-the-fax-service-provider-api">Using the Fax Service Provider API</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::PlaylistChange
+ - IWMPEvents.PlaylistChange
 ---
 
 # IWMPEvents::PlaylistChange
@@ -73,4 +73,3 @@ A <b>WMPPlaylistChangeEventType</b> enumeration value.
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpplaylistchangeeventtype">WMPPlaylistChangeEventType</a>
-

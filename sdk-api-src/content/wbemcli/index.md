@@ -9,8 +9,6 @@ tech.root: msdtcwmi
 f1_keywords:
  - wbemcli
  - wbemcli/wbemcli
-api_name:
- - wbemcli
 ---
 
 # Wbemcli.h header

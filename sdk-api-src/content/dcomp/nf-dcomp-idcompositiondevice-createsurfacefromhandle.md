@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice::CreateSurfaceFromHandle
+ - IDCompositionDevice.CreateSurfaceFromHandle
 ---
 
 # IDCompositionDevice::CreateSurfaceFromHandle
@@ -87,4 +87,3 @@ This method enables an application to use a shared composition surface in a comp
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositiondevice-createsurfacefromhwnd">IDCompositionDevice::CreateSurfaceFromHwnd</a>
-

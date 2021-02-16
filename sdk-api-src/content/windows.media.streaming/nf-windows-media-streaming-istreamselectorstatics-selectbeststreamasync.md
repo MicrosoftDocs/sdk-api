@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IStreamSelectorStatics::SelectBestStreamAsync
+ - IStreamSelectorStatics.SelectBestStreamAsync
 ---
 
 # IStreamSelectorStatics::streaming
@@ -98,4 +98,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/hh828953(v=vs.85)">IStreamSelectorStatics</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_PROXY_PROPERTY
  - WS_PROXY_PROPERTY
 ---
 
@@ -68,4 +67,3 @@ The buffer for the property value.
 ### -field valueSize
 
 The size of buffer, in bytes.
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::GetFlags
+ - IPhotoAcquireSettings.GetFlags
 ---
 
 # IPhotoAcquireSettings::GetFlags
@@ -99,4 +99,3 @@ A non-NULL value was expected.
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setflags">SetFlags</a>
-

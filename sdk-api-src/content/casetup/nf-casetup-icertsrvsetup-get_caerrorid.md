@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup::get_CAErrorId
+ - ICertSrvSetup.CAErrorId
+ - ICertSrvSetup.get_CAErrorId
 ---
 
 # ICertSrvSetup::get_CAErrorId
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-

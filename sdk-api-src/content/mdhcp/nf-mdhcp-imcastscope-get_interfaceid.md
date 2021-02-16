@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mdhcp.dll
 api_name:
- - IMcastScope::get_InterfaceID
+ - IMcastScope.get_InterfaceID
 ---
 
 # IMcastScope::get_InterfaceID
@@ -102,4 +102,3 @@ The InterfaceID is provided for informational purposes only; it is not required 
 ## -see-also
 
 <a href="/windows/desktop/api/mdhcp/nn-mdhcp-imcastscope">IMcastScope</a>
-

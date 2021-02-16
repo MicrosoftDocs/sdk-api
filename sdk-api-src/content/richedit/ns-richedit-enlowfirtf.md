@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _enlowfirtf
  - ENLOWFIRTF
 ---
 
@@ -76,4 +75,3 @@ This structure is used with the <a href="https://msdn.microsoft.com/3b18320b-ebc
 ## -see-also
 
 <a href="https://msdn.microsoft.com/3b18320b-ebc3-44f2-a93c-e967a028c522">EN_LOWFIRTF</a>
-

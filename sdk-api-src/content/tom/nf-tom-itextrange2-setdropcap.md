@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange2::SetDropCap
+ - ITextRange2.SetDropCap
 ---
 
 # ITextRange2::SetDropCap
@@ -107,4 +107,3 @@ The current range can be degenerate, or you can select up to the complete drop-c
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrange2-getdropcap">ITextRange2::GetDropCap</a>
-

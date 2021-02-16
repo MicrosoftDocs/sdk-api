@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::get_UserDisplay
+ - IAzClientContext.UserDisplay
+ - IAzClientContext.get_UserDisplay
+ - AzClientContext.UserDisplay
 ---
 
 # IAzClientContext::get_UserDisplay
@@ -61,4 +63,3 @@ This property is read-only.
 The user display client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameCanonical</b> specified for the <i>NameDisplay</i> parameter. 
 
 An example of a  client name in user display name format is "Ben Smith".
-

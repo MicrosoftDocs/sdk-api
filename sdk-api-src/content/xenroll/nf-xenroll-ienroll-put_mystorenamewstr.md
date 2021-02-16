@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::put_MyStoreNameWStr
+ - IEnroll.MyStoreNameWStr
+ - IEnroll.get_MyStoreNameWStr
+ - IEnroll.put_MyStoreNameWStr
 ---
 
 # IEnroll::put_MyStoreNameWStr
@@ -78,4 +80,3 @@ The <b>MyStoreNameWStr</b> property affects the behavior of the following method
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

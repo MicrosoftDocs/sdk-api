@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFOutputTrustAuthority::SetPolicy
+ - IMFOutputTrustAuthority.SetPolicy
 ---
 
 # IMFOutputTrustAuthority::SetPolicy
@@ -128,4 +128,3 @@ If the method returns <b>MF_S_WAIT_FOR_POLICY_SET</b>, the OTA sends an <a href=
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfoutputtrustauthority">IMFOutputTrustAuthority</a>
-

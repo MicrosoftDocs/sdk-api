@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmcobj.h
 api_name:
- - _MMC_SNAPIN_PROPERTY
  - MMC_SNAPIN_PROPERTY
 ---
 
@@ -81,4 +80,3 @@ The action taking place on the property, as defined in
 
 
 <a href="/windows/desktop/api/mmcobj/ne-mmcobj-mmc_property_action">MMC_PROPERTY_ACTION</a>
-

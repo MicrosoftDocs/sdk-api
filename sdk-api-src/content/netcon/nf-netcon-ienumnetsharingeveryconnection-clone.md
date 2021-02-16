@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - IEnumNetSharingEveryConnection::Clone
+ - IEnumNetSharingEveryConnection.Clone
 ---
 
 # IEnumNetSharingEveryConnection::Clone
@@ -174,4 +174,3 @@ The method failed for unknown reasons.
 
 
 <a href="/previous-versions/windows/desktop/ics/internet-connection-sharing-and-internet-connection-firewall-reference">Internet Connection Sharing and Internet Connection Firewall Reference</a>
-

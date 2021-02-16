@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::ElementFromPoint
+ - IUIAutomation.ElementFromPoint
 ---
 
 # IUIAutomation::ElementFromPoint
@@ -83,4 +83,3 @@ The <b>IUIAutomation::ElementFromPoint</b> method returns the <a href="/windows/
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-elementfrompointbuildcache">IUIAutomation::ElementFromPointBuildCache</a>
-

@@ -9,8 +9,6 @@ tech.root: wsw
 f1_keywords:
  - webservices
  - webservices/webservices
-api_name:
- - webservices
 ---
 
 # Webservices.h header

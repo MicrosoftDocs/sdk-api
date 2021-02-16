@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSinkWriter::BeginWriting
+ - IMFSinkWriter.BeginWriting
 ---
 
 # IMFSinkWriter::BeginWriting
@@ -126,4 +126,3 @@ This interface is available on Windows Vista if Platform Update Supplement for 
 
 
 <a href="/windows/desktop/medfound/sink-writer">Sink Writer</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::put_ParentWindow
+ - IX509CertificateRequest.ParentWindow
+ - IX509CertificateRequest.get_ParentWindow
+ - IX509CertificateRequest.put_ParentWindow
 ---
 
 # IX509CertificateRequest::put_ParentWindow
@@ -95,4 +97,3 @@ For a PKCS #10 request, the property value is retrieved from and specified on th
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

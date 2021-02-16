@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - _IP_ADAPTER_PREFIX_XP
- - PIP_ADAPTER_PREFIX_XP
- - IP_ADAPTER_PREFIX_XP
+ - IP_ADAPTER_PREFIX
 ---
 
 # IP_ADAPTER_PREFIX_XP structure
@@ -111,4 +109,3 @@ The <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRES
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-

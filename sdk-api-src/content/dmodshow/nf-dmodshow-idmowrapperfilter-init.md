@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IDMOWrapperFilter::Init
+ - IDMOWrapperFilter.Init
 ---
 
 # IDMOWrapperFilter::Init
@@ -78,4 +78,3 @@ In some cases, the DMO Wrapper filter performs optimizations based on the catego
 
 
 <a href="/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter">IDMOWrapperFilter Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVfwCompressDialogs::SetState
+ - IAMVfwCompressDialogs.SetState
 ---
 
 # IAMVfwCompressDialogs::SetState
@@ -78,4 +78,3 @@ This method calls the <a href="/windows/desktop/api/vfw/nf-vfw-icsetstate">ICSet
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamvfwcompressdialogs">IAMVfwCompressDialogs Interface</a>
-

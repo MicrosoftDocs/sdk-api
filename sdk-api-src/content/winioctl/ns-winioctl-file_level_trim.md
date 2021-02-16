@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_LEVEL_TRIM
- - PFILE_LEVEL_TRIM
  - FILE_LEVEL_TRIM
 ---
 
@@ -86,4 +84,3 @@ Array of ranges that describe the portions of the file that are to be trimmed.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_file_level_trim">FSCTL_FILE_LEVEL_TRIM</a>
-

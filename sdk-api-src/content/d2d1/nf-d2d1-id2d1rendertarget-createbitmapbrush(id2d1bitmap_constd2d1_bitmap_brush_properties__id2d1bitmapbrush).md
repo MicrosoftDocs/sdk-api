@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1RenderTarget::CreateBitmapBrush
+ - ID2D1RenderTarget.CreateBitmapBrush
 ---
 
 # ID2D1RenderTarget::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES &,ID2D1BitmapBrush)

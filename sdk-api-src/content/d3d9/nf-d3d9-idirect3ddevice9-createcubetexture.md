@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::CreateCubeTexture
+ - IDirect3DDevice9.CreateCubeTexture
 ---
 
 # IDirect3DDevice9::CreateCubeTexture
@@ -140,4 +140,3 @@ An application can discover support for <a href="/windows/desktop/direct3d9/auto
 
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
-

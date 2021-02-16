@@ -9,8 +9,6 @@ tech.root: policy
 f1_keywords:
  - gpedit
  - gpedit/gpedit
-api_name:
- - gpedit
 ---
 
 # Gpedit.h header

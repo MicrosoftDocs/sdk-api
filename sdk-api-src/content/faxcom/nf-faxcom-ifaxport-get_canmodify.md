@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxPort::get_CanModify
+ - IFaxPort.CanModify
+ - IFaxPort.get_CanModify
 ---
 
 # IFaxPort::get_CanModify
@@ -75,4 +76,3 @@ To ensure that the client has permission to modify the specified fax port, a fax
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxports">IFaxPorts</a>
-

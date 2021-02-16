@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsLunMpio::SetLoadBalancePolicy
+ - IVdsLunMpio.SetLoadBalancePolicy
 ---
 
 # IVdsLunMpio::SetLoadBalancePolicy
@@ -163,4 +163,3 @@ Another operation is in progress. This operation cannot proceed until previous o
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_path_policy">VDS_PATH_POLICY</a>
-

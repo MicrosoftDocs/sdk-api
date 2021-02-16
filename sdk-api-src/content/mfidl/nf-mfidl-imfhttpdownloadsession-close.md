@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSession::Close
+ - IMFHttpDownloadSession.Close
 ---
 
 # IMFHttpDownloadSession::Close
@@ -83,4 +83,3 @@ Successfully closed the session.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsession">IMFHttpDownloadSession</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
  - WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 ---
 

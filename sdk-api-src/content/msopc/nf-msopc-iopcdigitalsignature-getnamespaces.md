@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcDigitalSignature::GetNamespaces
+ - IOpcDigitalSignature.GetNamespaces
 ---
 
 # IOpcDigitalSignature::GetNamespaces
@@ -199,4 +199,3 @@ if ( SUCCEEDED( signature->GetNamespaces(&prefixes, &namespaces, &count) ) )
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IVersionInfo::GetComponentDescription
+ - IVersionInfo.GetComponentDescription
 ---
 
 # IVersionInfo::GetComponentDescription
@@ -76,4 +76,3 @@ String of the form of "Company, suite, component, version." This is for human co
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
 
 If successful, returns S_OK. If not successful, returns a standard <a href="/windows/desktop/WinAuto/return-values">COM error code</a>.
-

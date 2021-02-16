@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeAltName::GetNameChoice
+ - ICertEncodeAltName.GetNameChoice
+ - CCertEncodeAltName.GetNameChoice
 ---
 
 # ICertEncodeAltName::GetNameChoice
@@ -167,4 +168,3 @@ The name consists of an OID and a binary <a href="/windows/desktop/SecGloss/b-gl
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodealtname-setnameentry">ICertEncodeAltName::SetNameEntry</a>
-

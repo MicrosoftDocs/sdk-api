@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI::get_EventFilter
+ - ITTAPI.get_EventFilter
 ---
 
 # ITTAPI::get_EventFilter
@@ -116,4 +116,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-ittapi-put_eventfilter">put_EventFilter</a>
-

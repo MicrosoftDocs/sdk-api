@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListClearSourceW
  - msi/MsiSourceListClearSourceW
- - MsiSourceListClearSource
- - msi/MsiSourceListClearSource
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiSourceListClearSourceW
  - MsiSourceListClearSource
+ - MsiSourceListClearSourceA
+ - MsiSourceListClearSourceW
 ---
 
 # MsiSourceListClearSourceW function
@@ -335,4 +334,3 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 <a href="/windows/desktop/Msi/source-resiliency">Source Resiliency</a>
-

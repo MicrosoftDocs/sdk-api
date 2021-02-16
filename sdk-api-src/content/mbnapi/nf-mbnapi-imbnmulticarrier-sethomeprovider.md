@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrier::SetHomeProvider
+ - IMbnMultiCarrier.SetHomeProvider
 ---
 
 # IMbnMultiCarrier::SetHomeProvider
@@ -149,4 +149,3 @@ If the device is removed from the system before this operation is complete, ther
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrier">IMbnMultiCarrier</a>
-

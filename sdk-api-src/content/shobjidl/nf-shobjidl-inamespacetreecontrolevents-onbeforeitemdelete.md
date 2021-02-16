@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - INameSpaceTreeControlEvents::OnBeforeItemDelete
+ - INameSpaceTreeControlEvents.OnBeforeItemDelete
 ---
 
 # INameSpaceTreeControlEvents::OnBeforeItemDelete
@@ -77,4 +77,3 @@ If this method fails, the given <a href="/windows/desktop/api/shobjidl_core/nn-s
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

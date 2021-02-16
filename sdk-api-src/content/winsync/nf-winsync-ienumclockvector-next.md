@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumClockVector::Next
+ - IEnumClockVector.Next
 ---
 
 # IEnumClockVector::Next
@@ -110,4 +110,3 @@ If there are no more elements to retrieve.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumclockvector">IEnumClockVector Interface</a>
-

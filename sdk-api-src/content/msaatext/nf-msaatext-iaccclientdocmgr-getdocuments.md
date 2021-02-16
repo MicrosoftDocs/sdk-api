@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msaatext.dll
 api_name:
- - IAccClientDocMgr::GetDocuments
+ - IAccClientDocMgr.GetDocuments
 ---
 
 # IAccClientDocMgr::GetDocuments
@@ -72,4 +72,3 @@ If successful, returns S_OK.
 ## -remarks
 
 Servers might need to poll this method more than once before they receive a document. There can be a limited time lapse (approximately second) between when a document appears in the system and when it is registered with document services.
-

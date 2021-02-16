@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
- - MS_ADDINFO_CATALOGMEMBER_
- - PMS_ADDINFO_CATALOGMEMBER
  - MS_ADDINFO_CATALOGMEMBER
 ---
 
@@ -71,4 +69,3 @@ A [CRYPTCATSTORE](/windows/desktop/api/mscat/ns-mscat-cryptcatstore) structure t
 ### -field pMember
 
 A [CRYPTCATMEMBER](/windows/desktop/api/mscat/ns-mscat-cryptcatmember) structure that contains a catalog member.
-

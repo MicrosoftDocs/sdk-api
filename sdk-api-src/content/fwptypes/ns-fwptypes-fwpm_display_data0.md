@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWPM_DISPLAY_DATA0_
  - FWPM_DISPLAY_DATA0
 ---
 
@@ -80,4 +79,3 @@ support MUI, both strings may contain indirect strings. See
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

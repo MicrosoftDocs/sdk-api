@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - IStaticPortMapping::get_Enabled
+ - IStaticPortMapping.get_Enabled
 ---
 
 # IStaticPortMapping::get_Enabled
@@ -175,4 +175,3 @@ The method failed for unknown reasons.
 
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-

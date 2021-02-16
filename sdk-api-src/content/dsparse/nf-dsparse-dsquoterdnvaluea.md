@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsQuoteRdnValueA
  - dsparse/DsQuoteRdnValueA
- - DsQuoteRdnValue
- - dsparse/DsQuoteRdnValue
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsQuoteRdnValueA
  - DsQuoteRdnValue
+ - DsQuoteRdnValueA
+ - DsQuoteRdnValueW
 ---
 
 # DsQuoteRdnValueA function
@@ -115,4 +114,3 @@ To revert changes made by this call, call the <a href="/windows/desktop/api/dspa
 
 
 <a href="/windows/desktop/api/dsparse/nf-dsparse-dsunquoterdnvaluea">DsUnquoteRdnValue</a>
-

@@ -45,7 +45,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagVMRMONITORINFO
  - VMRMONITORINFO
 ---
 
@@ -95,4 +94,3 @@ Null-terminated string containing the device description.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
+ - IMSVidStreamBufferV2SourceEvent.ContentPrimarilyAudio
 ---
 
 # IMSVidStreamBufferV2SourceEvent::ContentPrimarilyAudio
@@ -71,4 +71,3 @@ This event applies to Update Rollup 2 for Microsoft Windows XP Media Center Edit
 
 
 <a href="/previous-versions/windows/desktop/mstv/stream-buffer-engine-codes">Stream Buffer Engine Event Codes</a>
-

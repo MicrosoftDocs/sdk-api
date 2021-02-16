@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPServices::GetStreamState
+ - IWMPServices.GetStreamState
 ---
 
 # IWMPServices::GetStreamState
@@ -73,4 +73,3 @@ The stream is stopped, paused, or playing.
 
 
 <a href="/windows/desktop/api/wmpservices/ne-wmpservices-wmpservices_streamstate">WMPServices_StreamState</a>
-

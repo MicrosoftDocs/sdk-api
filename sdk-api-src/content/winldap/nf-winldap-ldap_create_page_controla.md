@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_create_page_controlA
  - winldap/ldap_create_page_controlA
- - ldap_create_page_control
- - winldap/ldap_create_page_control
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_create_page_controlA
  - ldap_create_page_control
+ - ldap_create_page_controlA
+ - ldap_create_page_controlW
 ---
 
 # ldap_create_page_controlA function
@@ -125,4 +124,3 @@ Call
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_ext_s">ldap_search_ext_s</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::ScriptCommand
+ - IWMPEvents.ScriptCommand
 ---
 
 # IWMPEvents::ScriptCommand
@@ -161,4 +161,3 @@ Param = http://myweb/mypage.html&&myframe
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_invokeurls">IWMPSettings::put_invokeURLs</a>
-

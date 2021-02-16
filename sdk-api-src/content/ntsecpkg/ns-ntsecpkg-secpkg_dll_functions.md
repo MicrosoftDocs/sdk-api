@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_DLL_FUNCTIONS
- - PSECPKG_DLL_FUNCTIONS
  - SECPKG_DLL_FUNCTIONS
 ---
 
@@ -74,4 +72,3 @@ Pointer to the  <a href="/previous-versions/windows/desktop/legacy/aa375418(v=vs
 Pointer to the  <a href="/previous-versions/windows/desktop/legacy/aa379372(v=vs.85)">RegisterCallback</a> function.
 
 ### -field LocatePackageById
-

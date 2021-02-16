@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::GetStructtm
+ - WBEMTime.GetStructtm
+ - ?GetStructtm@WBEMTime@@QEBAHPEAUtm@@@Z
+ - ?GetStructtm@WBEMTime@@QBEHPAUtm@@@Z
 ---
 
 # WBEMTime::GetStructtm
@@ -70,4 +72,3 @@ Pointer to an ANSI C run-time <b>struct tm</b> structure.
 The method returns <b>TRUE</b> if the object's time is equal to or later than midnight Jan 1, 1900.
 
 The method returns <b>FALSE</b> on all other times or if the object's time is set to INVALID_TIME. In this case, the value of <i>ptm</i> is indeterminate.
-

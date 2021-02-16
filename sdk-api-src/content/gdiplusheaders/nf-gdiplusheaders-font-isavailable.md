@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::IsAvailable
+ - Font.IsAvailable
 ---
 
 # Font::IsAvailable
@@ -73,4 +73,3 @@ If the font was constructed successfully, this method returns <b>TRUE</b>; other
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

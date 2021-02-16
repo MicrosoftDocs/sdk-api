@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::SetPageScale
+ - Graphics.SetPageScale
 ---
 
 # Graphics::SetPageScale
@@ -100,4 +100,3 @@ If the method fails, it returns one of the other elements of the <a href="/windo
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-unit">Unit</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bthsdpdef.h
 api_name:
- - _SdpQueryUuid
  - SdpQueryUuid
 ---
 
@@ -61,6 +60,8 @@ The <b>SdpQueryUuid</b> structure facilitates searching for UUIDs.
 
 Union containing the UUID on which to search.
 
+
+
 ### -field uuidType
 
 Type of UUID being searched. Must be one of the three valid values from the SDP_SPECIFICTYPE enumeration:
@@ -75,4 +76,3 @@ Type of UUID being searched. Must be one of the three valid values from the SDP_
 ## -see-also
 
 <a href="/windows/desktop/api/ws2bth/ns-ws2bth-bth_query_service">BTH_QUERY_SERVICE</a>
-

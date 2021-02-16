@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeMF3::QueryVolumeGuidPathnames
+ - IVdsVolumeMF3.QueryVolumeGuidPathnames
 ---
 
 # IVdsVolumeMF3::QueryVolumeGuidPathnames
@@ -106,4 +106,3 @@ A volume GUID path is a string of the form "\\?\Volume{GUID}\" where GUID is a G
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumemf3">IVdsVolumeMF3</a>
-

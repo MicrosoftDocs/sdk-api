@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::put_maxBandwidth
+ - IWMPNetwork.put_maxBandwidth
 ---
 
 # IWMPNetwork::put_maxBandwidth
@@ -97,4 +97,3 @@ This setting is useful for reducing the amount of bandwidth used, particularly i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-get_maxbandwidth">IWMPNetwork::get_maxBandwidth</a>
-

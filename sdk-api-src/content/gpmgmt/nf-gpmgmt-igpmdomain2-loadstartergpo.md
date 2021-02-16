@@ -42,7 +42,7 @@ api_type:
 api_location:
  - gpmgmt.dll
 api_name:
- - IGPMDomain2::LoadStarterGPO
+ - IGPMDomain2.LoadStarterGPO
 ---
 
 # IGPMDomain2::LoadStarterGPO
@@ -105,4 +105,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmdomain2">IGPMDomain2</a>
-

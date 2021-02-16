@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::BuildUpdatedCache
+ - IUIAutomationElement.BuildUpdatedCache
 ---
 
 # IUIAutomationElement::BuildUpdatedCache
@@ -91,4 +91,3 @@ The original UI Automation element is unchanged. The new <a href="/windows/deskt
 
 
 <b>Reference</b>
-

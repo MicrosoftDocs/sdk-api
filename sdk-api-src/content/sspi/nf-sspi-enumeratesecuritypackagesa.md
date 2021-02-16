@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumerateSecurityPackagesA
  - sspi/EnumerateSecurityPackagesA
- - EnumerateSecurityPackages
- - sspi/EnumerateSecurityPackages
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - SspiCli.dll
 api_name:
- - EnumerateSecurityPackagesA
  - EnumerateSecurityPackages
+ - EnumerateSecurityPackagesA
+ - EnumerateSecurityPackagesW
 ---
 
 # EnumerateSecurityPackagesA function
@@ -145,4 +144,3 @@ The caller can use the <b>Name</b> member of a <a href="/windows/desktop/api/ssp
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secpkginfoa">SecPkgInfo</a>
-

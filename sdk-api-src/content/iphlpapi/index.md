@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - iphlpapi
  - iphlpapi/iphlpapi
-api_name:
- - iphlpapi
 ---
 
 # Iphlpapi.h header

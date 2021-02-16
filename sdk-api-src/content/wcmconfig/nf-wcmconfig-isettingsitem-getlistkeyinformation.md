@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem::GetListKeyInformation
+ - ISettingsItem.GetListKeyInformation
 ---
 
 # ISettingsItem::GetListKeyInformation
@@ -120,4 +120,3 @@ Indicates that there are insufficient resources to complete the operation.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-

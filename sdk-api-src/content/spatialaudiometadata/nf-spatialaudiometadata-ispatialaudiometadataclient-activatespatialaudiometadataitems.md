@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiometadata.h
 api_name:
- - ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
+ - ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 ---
 
 # ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems
@@ -97,4 +97,3 @@ The value of <i>maxItemCount</i> or <i>frameCount</i> is 0.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadataclient">ISpatialAudioMetadataClient</a>
-

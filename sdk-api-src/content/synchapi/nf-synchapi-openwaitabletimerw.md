@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OpenWaitableTimerW
  - synchapi/OpenWaitableTimerW
- - OpenWaitableTimer
- - synchapi/OpenWaitableTimer
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Synch-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - OpenWaitableTimerW
  - OpenWaitableTimer
+ - OpenWaitableTimerA
+ - OpenWaitableTimerW
 ---
 
 # OpenWaitableTimerW function
@@ -140,4 +139,3 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="/windows/desktop/Sync/waitable-timer-objects">Waitable Timer Objects</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage::SetObjects
+ - IPropertyPage.SetObjects
 ---
 
 # IPropertyPage::SetObjects
@@ -122,4 +122,3 @@ E_NOTIMPL is not a valid return value.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-

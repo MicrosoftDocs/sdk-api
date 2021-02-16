@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DCubeTexture9::LockRect
+ - IDirect3DCubeTexture9.LockRect
 ---
 
 # IDirect3DCubeTexture9::LockRect
@@ -124,4 +124,3 @@ The only lockable format for a depth-stencil texture is <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dcubetexture9-unlockrect">IDirect3DCubeTexture9::UnlockRect</a>
-

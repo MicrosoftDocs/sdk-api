@@ -43,6 +43,7 @@ api_location:
  - Dbghelp.dll
 api_name:
  - SymUnDName64
+ - SymUnDName
 ---
 
 # SymUnDName64 function
@@ -105,4 +106,3 @@ SymUnDName(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-undecoratesymbolname">UnDecorateSymbolName</a>
-

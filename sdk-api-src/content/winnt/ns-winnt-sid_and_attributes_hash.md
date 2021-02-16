@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SID_AND_ATTRIBUTES_HASH
- - PSID_AND_ATTRIBUTES_HASH
  - SID_AND_ATTRIBUTES_HASH
 ---
 
@@ -83,4 +81,3 @@ The <b>SID_HASH_SIZE</b> array dimension is defined in Winnt.h as 32.
 
 
 <a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
-

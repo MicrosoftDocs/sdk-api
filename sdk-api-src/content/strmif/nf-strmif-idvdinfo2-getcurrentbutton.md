@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetCurrentButton
+ - IDvdInfo2.GetCurrentButton
 ---
 
 # IDvdInfo2::GetCurrentButton
@@ -115,4 +115,3 @@ If buttons are not present, both <i>pulButtonsAvailable</i> and <i>pulCurrentBut
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

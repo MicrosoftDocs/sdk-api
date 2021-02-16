@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMDEC4::operator=
+ - XMDEC4.operator =
 ---
 
 # XMDEC4::operator-assign(XMDEC4 &&)

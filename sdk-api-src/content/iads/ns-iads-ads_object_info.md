@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - _ads_object_info
- - PADS_OBJECT_INFO
  - ADS_OBJECT_INFO
 ---
 
@@ -95,4 +93,3 @@ To obtain the object data, non-Automation clients call the  <a href="/windows/de
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectoryobject-getobjectinformation">IDirectoryObject::GetObjectInformation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsFileServiceOperations::Sessions
+ - IADsFileServiceOperations.Sessions
 ---
 
 # IADsFileServiceOperations::Sessions
@@ -113,4 +113,3 @@ For a code example using the <b>IADsFileServiceOperations::Sessions</b> interfac
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadssession">IADsSession</a>
-

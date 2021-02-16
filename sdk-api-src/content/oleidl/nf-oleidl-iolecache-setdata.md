@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache::SetData
+ - IOleCache.SetData
 ---
 
 # IOleCache::SetData
@@ -173,4 +173,3 @@ A container can use this method to maintain a single aspect of an object, such a
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-setdata">IOleCache::SetData</a>
-

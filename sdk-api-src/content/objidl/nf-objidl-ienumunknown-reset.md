@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IEnumUnknown::Reset
+ - IEnumUnknown.Reset
 ---
 
 # IEnumUnknown::Reset
@@ -65,4 +65,3 @@ There is no guarantee that the same set of objects will be enumerated after the 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
-

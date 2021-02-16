@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::_SaveToolbars
+ - IBrowserService2._SaveToolbars
 ---
 
 # IBrowserService2::_SaveToolbars
@@ -70,4 +70,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This method is implemented by the derived class.
-

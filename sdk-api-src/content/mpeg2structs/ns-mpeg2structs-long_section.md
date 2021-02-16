@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0008
- - PLONG_SECTION
  - LONG_SECTION
 ---
 
@@ -125,4 +123,3 @@ BYTE VersionNumber = pSection->VersionNumber;
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

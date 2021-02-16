@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionCommand::put_WorkingDirectory
+ - IFsrmActionCommand.WorkingDirectory
+ - IFsrmActionCommand.get_WorkingDirectory
+ - IFsrmActionCommand.put_WorkingDirectory
 ---
 
 # IFsrmActionCommand::put_WorkingDirectory
@@ -85,4 +87,3 @@ The path must exist when you set the property or the command executes. If the pa
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

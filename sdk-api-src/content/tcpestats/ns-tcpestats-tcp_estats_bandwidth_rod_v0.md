@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tcpestats.h
 api_name:
- - _TCP_ESTATS_BANDWIDTH_ROD_v0
- - PTCP_ESTATS_BANDWIDTH_ROD_v0
  - TCP_ESTATS_BANDWIDTH_ROD_v0
 ---
 
@@ -125,4 +123,3 @@ The members of this structure are not defined in the IETF RFC on the TCP Extende
 
 
 <a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
-

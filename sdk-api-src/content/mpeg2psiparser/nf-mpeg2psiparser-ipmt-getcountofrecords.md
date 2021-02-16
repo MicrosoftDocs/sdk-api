@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mpeg2PsiParser.h
 api_name:
- - IPMT::GetCountOfRecords
+ - IPMT.GetCountOfRecords
 ---
 
 # IPMT::GetCountOfRecords
@@ -94,4 +94,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-ipmt">IPMT Interface</a>
-

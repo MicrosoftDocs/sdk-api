@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler::MonitorEnable
+ - IMFContentEnabler.MonitorEnable
 ---
 
 # IMFContentEnabler::MonitorEnable
@@ -101,4 +101,3 @@ You do not have to call <b>MonitorEnable</b> when you use automatic enabling by 
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-

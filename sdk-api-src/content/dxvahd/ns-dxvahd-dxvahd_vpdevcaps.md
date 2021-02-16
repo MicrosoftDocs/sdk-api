@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_VPDEVCAPS
  - DXVAHD_VPDEVCAPS
 ---
 
@@ -126,4 +125,3 @@ To set the state data for a stream, call <a href="/windows/desktop/api/dxvahd/nf
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

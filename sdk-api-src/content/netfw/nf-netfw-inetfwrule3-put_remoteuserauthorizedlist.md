@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule3::put_RemoteUserAuthorizedList
+ - INetFwRule3.RemoteUserAuthorizedList
+ - INetFwRule3.get_RemoteUserAuthorizedList
+ - INetFwRule3.put_RemoteUserAuthorizedList
 ---
 
 # INetFwRule3::put_RemoteUserAuthorizedList
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
-

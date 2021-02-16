@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wlanapi.h
 api_name:
- - _WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
- - PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
  - WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 ---
 
@@ -79,4 +77,3 @@ The <b>WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS</b> structure is an extension to 
 
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>
-

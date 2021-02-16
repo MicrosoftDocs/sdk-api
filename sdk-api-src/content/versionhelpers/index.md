@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - versionhelpers
  - versionhelpers/versionhelpers
-api_name:
- - versionhelpers
 ---
 
 # Versionhelpers.h header

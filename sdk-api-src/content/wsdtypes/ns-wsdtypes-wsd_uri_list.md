@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_URI_LIST
  - WSD_URI_LIST
 ---
 

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc::get_SignatureInformation
+ - IX509CertificateRequestCmc.SignatureInformation
+ - IX509CertificateRequestCmc.get_SignatureInformation
 ---
 
 # IX509CertificateRequestCmc::get_SignatureInformation
@@ -100,4 +101,3 @@ You must initialize the CMC request object before calling this property. For mor
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

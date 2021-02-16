@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxGetMaxLength
+ - ITextHost.TxGetMaxLength
 ---
 
 # ITextHost::TxGetMaxLength
@@ -95,4 +95,3 @@ If the limit returned is less than the number of characters currently in the tex
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

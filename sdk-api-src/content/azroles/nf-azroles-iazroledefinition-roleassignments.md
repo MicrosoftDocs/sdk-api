@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleDefinition::RoleAssignments
+ - IAzRoleDefinition.RoleAssignments
+ - IAzRoleDefinition.get_RoleAssignments
 ---
 
 # IAzRoleDefinition::RoleAssignments
@@ -55,4 +56,3 @@ The <b>RoleAssignments</b> property retrieves a collection of <a href="/windows/
 This property is read-only.
 
 ## -parameters
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo::SendCommand
+ - IEnhancedStorageSilo.SendCommand
 ---
 
 # IEnhancedStorageSilo::SendCommand
@@ -131,4 +131,3 @@ The caller is responsible for sending correct parameters to the command, as well
 
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-

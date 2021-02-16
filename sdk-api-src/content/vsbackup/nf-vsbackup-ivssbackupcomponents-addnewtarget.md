@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::AddNewTarget
+ - IVssBackupComponents.AddNewTarget
 ---
 
 # IVssBackupComponents::AddNewTarget
@@ -309,4 +309,3 @@ Writers can determine if files have been restored to new locations by using the
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
-

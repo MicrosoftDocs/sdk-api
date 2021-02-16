@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::stringToBinary
+ - ICEnroll4.stringToBinary
+ - CEnroll.stringToBinary
 ---
 
 # ICEnroll4::stringToBinary
@@ -82,4 +83,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 <h3>VB</h3>
  The return value is a string that contains the binary data.
-

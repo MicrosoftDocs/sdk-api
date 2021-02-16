@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - winternl
  - winternl/winternl
-api_name:
- - winternl
 ---
 
 # Winternl.h header

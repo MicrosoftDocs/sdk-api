@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtDevice::GetCapability
+ - IAMExtDevice.GetCapability
 ---
 
 # IAMExtDevice::GetCapability
@@ -402,4 +402,3 @@ For MSDV only, the ED_DEVCAP_DEVICE_TYPE flag returns the device type. Possible 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamextdevice">IAMExtDevice Interface</a>
-

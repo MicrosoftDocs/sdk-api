@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDirectTransfer::TransferToDevice
+ - IMDSPDirectTransfer.TransferToDevice
 ---
 
 # IMDSPDirectTransfer::TransferToDevice
@@ -217,4 +217,3 @@ If <b>IMDSPDirectTransfer</b> is supported, Windows Media Device Manager delegat
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmstoragecontrol">IWMDMStorageControl Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::put_Rate
+ - IMediaPosition.put_Rate
 ---
 
 # IMediaPosition::put_Rate
@@ -116,4 +116,3 @@ For more information, see the remarks in <a href="/windows/desktop/api/strmif/nf
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-

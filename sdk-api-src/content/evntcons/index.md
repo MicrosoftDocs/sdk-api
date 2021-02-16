@@ -9,8 +9,6 @@ tech.root: etw
 f1_keywords:
  - evntcons
  - evntcons/evntcons
-api_name:
- - evntcons
 ---
 
 # Evntcons.h header

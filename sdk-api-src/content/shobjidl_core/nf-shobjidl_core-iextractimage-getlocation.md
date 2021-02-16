@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IExtractImage::GetLocation
+ - IExtractImage.GetLocation
 ---
 
 # IExtractImage::GetLocation
@@ -227,4 +227,3 @@ Success
 <b>Microsoft Windows XP and earlier:</b> This method returns the path to an image and specifies how the image should be rendered. <b>IExtractImage::GetLocation</b> is free-threaded—that is, supports the Multithreaded Apartment Model (MTA)— therefore it can be placed in a background thread. The object must also expose an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-irunnabletask">IRunnableTask</a> interface, so the calling application can start and stop the extraction process as needed.
 
 You should return images that fit within the boundaries defined by <i>prgSize</i>. With Windows 2000 and later systems, you can set <b>IEIFLAG_ORIGSIZE</b> to use objects that do not have a standard aspect ratio, and they will be displayed properly. You do not need to fill in the unused part of the rectangle. If you try to use a nonstandard aspect ratio image with earlier versions of the Shell, it will be stretched to fit the <i>prgSize</i> rectangle. Depending on how much the aspect ratio differs from what is specified, the image may be badly distorted.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IApplicationAssociationRegistration::QueryAppIsDefaultAll
+ - IApplicationAssociationRegistration.QueryAppIsDefaultAll
 ---
 
 # IApplicationAssociationRegistration::QueryAppIsDefaultAll
@@ -86,4 +86,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iapplicationassociationregistration">IApplicationAssociationRegistration</a>
-

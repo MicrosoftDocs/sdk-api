@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _VIRTUAL_DISK_PROGRESS
- - PVIRTUAL_DISK_PROGRESS
  - VIRTUAL_DISK_PROGRESS
 ---
 
@@ -120,4 +118,3 @@ The <b>OperationStatus</b> member is the indicator of completion, not the percen
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

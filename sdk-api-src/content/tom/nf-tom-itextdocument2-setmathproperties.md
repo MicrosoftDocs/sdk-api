@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2::SetMathProperties
+ - ITextDocument2.SetMathProperties
 ---
 
 # ITextDocument2::SetMathProperties
@@ -79,4 +79,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-getmathproperties">ITextDocument2::GetMathProperties</a>
-

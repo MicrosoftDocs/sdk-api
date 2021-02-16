@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_LOGIN_CLASS
  - EVT_LOGIN_CLASS
 ---
 
@@ -68,4 +67,3 @@ Use Remote Procedure Call (RPC) login.
 
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtopensession">EvtOpenSession</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMWriter::GenerateKeySeed
+ - IWMDRMWriter.GenerateKeySeed
 ---
 
 # IWMDRMWriter::GenerateKeySeed
@@ -80,4 +80,3 @@ This method is used infrequently because the same key seed should be used for mu
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter">IWMDRMWriter Interface</a>
-

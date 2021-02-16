@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Mshtml.dll
 api_name:
- - IUICommandHandler::UpdateProperty
+ - IUICommandHandler.UpdateProperty
 ---
 
 # IUICommandHandler::UpdateProperty
@@ -99,4 +99,3 @@ The values of Command properties, such as <a href="/windows/desktop/windowsribbo
 
 
 <a href="/windows/desktop/windowsribbon/windowsribbon-samples-entry">Windows Ribbon Framework Samples</a>
-

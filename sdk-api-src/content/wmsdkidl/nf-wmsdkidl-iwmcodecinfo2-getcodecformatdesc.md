@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo2::GetCodecFormatDesc
+ - IWMCodecInfo2.GetCodecFormatDesc
 ---
 
 # IWMCodecInfo2::GetCodecFormatDesc
@@ -140,4 +140,3 @@ Some formats of the Windows Media Audio 9 codec and Windows Media Audio 9 Profes
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo2">IWMCodecInfo2 Interface</a>
-

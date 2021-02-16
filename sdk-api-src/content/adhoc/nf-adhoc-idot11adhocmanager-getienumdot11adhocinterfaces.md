@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
+ - IDot11AdHocManager.GetIEnumDot11AdHocInterfaces
 ---
 
 # IDot11AdHocManager::GetIEnumDot11AdHocInterfaces
@@ -138,4 +138,3 @@ A pointer passed as a parameter is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocmanager">IDot11AdHocManager</a>
-

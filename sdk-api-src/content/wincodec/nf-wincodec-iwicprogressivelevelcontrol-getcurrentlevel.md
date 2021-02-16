@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICProgressiveLevelControl::GetCurrentLevel
+ - IWICProgressiveLevelControl.GetCurrentLevel
 ---
 
 # IWICProgressiveLevelControl::GetCurrentLevel
@@ -77,4 +77,3 @@ The level always defaults to the highest progressive level. In order to decode a
 
 
 <a href="/windows/desktop/wic/-wic-progressive-decoding">Progressive Decoding Overview</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmalert.h
 api_name:
- - _ADMIN_OTHER_INFO
- - PADMIN_OTHER_INFO
  - ADMIN_OTHER_INFO
 ---
 
@@ -116,4 +114,3 @@ See
 
 
 <a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
-

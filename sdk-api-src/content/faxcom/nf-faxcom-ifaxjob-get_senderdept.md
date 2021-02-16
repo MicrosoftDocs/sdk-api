@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_SenderDept
+ - IFaxJob.SenderDept
+ - IFaxJob.get_SenderDept
 ---
 
 # IFaxJob::get_SenderDept
@@ -77,4 +78,3 @@ The <b>IFaxJob::get_SenderDept</b> method allocates the memory required for the 
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-

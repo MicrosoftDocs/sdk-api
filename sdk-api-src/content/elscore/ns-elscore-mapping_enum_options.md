@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Elscore.h
 api_name:
- - _MAPPING_ENUM_OPTIONS
- - PMAPPING_ENUM_OPTIONS
  - MAPPING_ENUM_OPTIONS
 ---
 
@@ -118,4 +116,3 @@ The <b>Size</b> member is the only required member of this structure. All the ot
 
 
 <a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetGeoInfoA
  - winnls/GetGeoInfoA
- - GetGeoInfo
- - winnls/GetGeoInfo
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetGeoInfoA
  - GetGeoInfo
+ - GetGeoInfoA
+ - GetGeoInfoW
 ---
 
 # GetGeoInfoA function
@@ -143,4 +142,3 @@ If the application specifies GEO_LCID for <i>GeoType</i>, the function treats th
 
 
 <a href="/windows/desktop/api/winnls/ne-winnls-sysgeotype">SYSGEOTYPE</a>
-

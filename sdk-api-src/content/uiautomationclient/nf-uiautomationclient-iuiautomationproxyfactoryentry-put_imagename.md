@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry::put_ImageName
+ - IUIAutomationProxyFactoryEntry.ImageName
+ - IUIAutomationProxyFactoryEntry.get_ImageName
+ - IUIAutomationProxyFactoryEntry.put_ImageName
 ---
 
 # IUIAutomationProxyFactoryEntry::put_ImageName

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AddISNSServerW
  - iscsidsc/AddISNSServerW
- - AddISNSServer
- - iscsidsc/AddISNSServer
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - AddISNSServerW
- - AddISNSServer
+ - AddIsnsServer
+ - AddIsnsServerA
+ - AddIsnsServerW
 ---
 
 # AddISNSServerW function
@@ -89,4 +88,3 @@ If management software does not call <b>AddIsnsServer</b> to manually add the ne
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-reportisnsserverlista">ReportIsnsServerList</a>
-

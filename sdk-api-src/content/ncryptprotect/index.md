@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - ncryptprotect
  - ncryptprotect/ncryptprotect
-api_name:
- - ncryptprotect
 ---
 
 # Ncryptprotect.h header

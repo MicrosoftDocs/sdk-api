@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartnerCallback::GetContentIDsInLibrary
+ - IWMPContentPartnerCallback.GetContentIDsInLibrary
 ---
 
 # IWMPContentPartnerCallback::GetContentIDsInLibrary
@@ -93,4 +93,3 @@ This method allocates an array of <b>ULONGs</b>, fills the array with content ID
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartnercallback">IWMPContentPartnerCallback Interface</a>
-

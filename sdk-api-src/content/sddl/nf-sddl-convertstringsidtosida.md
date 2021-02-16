@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ConvertStringSidToSidA
  - sddl/ConvertStringSidToSidA
- - ConvertStringSidToSid
- - sddl/ConvertStringSidToSid
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-DownLevel-AdvApi32-l2-1-1.dll
  - API-MS-Win-Security-sddl-l1-1-0.dll
 api_name:
- - ConvertStringSidToSidA
  - ConvertStringSidToSid
+ - ConvertStringSidToSidA
+ - ConvertStringSidToSidW
 ---
 
 # ConvertStringSidToSidA function
@@ -142,4 +141,3 @@ Invalid SID.
 
 > [!NOTE]
 > The sddl.h header defines ConvertStringSidToSid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

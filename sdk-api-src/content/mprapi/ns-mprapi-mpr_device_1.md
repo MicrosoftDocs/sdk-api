@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_DEVICE_1
- - PMPR_DEVICE_1
  - MPR_DEVICE_1
 ---
 
@@ -91,4 +89,3 @@ Pointer to a list of consecutive null-terminated Unicode strings. The last strin
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacedevicesetinfo">MprAdminInterfaceDeviceSetInfo</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISignerCertificates::get__NewEnum
+ - ISignerCertificates._NewEnum
+ - ISignerCertificates.get__NewEnum
 ---
 
 # ISignerCertificates::get__NewEnum
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-isignercertificates">ISignerCertificates</a>
-

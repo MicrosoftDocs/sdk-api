@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_SNAPSHOT_STATE
- - PVSS_SNAPSHOT_STATE
  - VSS_SNAPSHOT_STATE
 ---
 

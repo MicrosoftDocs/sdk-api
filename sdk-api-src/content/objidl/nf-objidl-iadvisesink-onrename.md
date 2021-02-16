@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IAdviseSink::OnRename
+ - IAdviseSink.OnRename
 ---
 
 # IAdviseSink::OnRename
@@ -65,4 +65,3 @@ OLE link objects normally implement <b>IAdviseSink::OnRename</b> to receive noti
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iadvisesink">IAdviseSink</a>
-

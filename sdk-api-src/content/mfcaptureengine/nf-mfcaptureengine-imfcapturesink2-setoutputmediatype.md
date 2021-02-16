@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSink2::SetOutputMediaType
+ - IMFCaptureSink2.SetOutputMediaType
 ---
 
 # IMFCaptureSink2::SetOutputMediaType
@@ -107,4 +107,3 @@ to be notified when the output media type has been set.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesink2">IMFCaptureSink2</a>
-

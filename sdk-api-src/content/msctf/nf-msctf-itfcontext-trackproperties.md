@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfContext::TrackProperties
+ - ITfContext.TrackProperties
 ---
 
 # ITfContext::TrackProperties
@@ -227,4 +227,3 @@ sel.range->Release();
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfreadonlyproperty">ITfReadOnlyProperty
       </a>
-

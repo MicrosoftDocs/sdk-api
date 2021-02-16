@@ -46,8 +46,6 @@ api_type:
 api_location:
  - amva.h
 api_name:
- - _tag_AMVABUFFERINFO
- - LPAMVABUFFERINFO
  - AMVABUFFERINFO
 ---
 
@@ -244,4 +242,3 @@ Size of the relevant data in the buffer, in bytes.
 
 
 <a href="/windows/desktop/api/videoacc/nf-videoacc-iamvideoaccelerator-execute">IAMVideoAccelerator::Execute</a>
-

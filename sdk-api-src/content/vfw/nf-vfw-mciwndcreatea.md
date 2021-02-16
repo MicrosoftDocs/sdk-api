@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MCIWndCreateA
  - vfw/MCIWndCreateA
- - MCIWndCreate
- - vfw/MCIWndCreate
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msvfw32.dll
 api_name:
- - MCIWndCreateA
  - MCIWndCreate
+ - MCIWndCreateA
+ - MCIWndCreateW
 ---
 
 # MCIWndCreateA function
@@ -192,4 +191,3 @@ Use the window handle returned by this function for the window handle in the MCI
 
 
 <a href="/windows/desktop/api/vfw/nf-vfw-mciwndregisterclass">MCIWndRegisterClass</a>
-

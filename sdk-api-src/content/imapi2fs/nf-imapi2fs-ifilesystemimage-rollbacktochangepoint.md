@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::RollbackToChangePoint
+ - IFileSystemImage.RollbackToChangePoint
 ---
 
 # IFileSystemImage::RollbackToChangePoint
@@ -112,4 +112,3 @@ An application can call the <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-i
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_changepoint">IFileSystemImage::get_ChangePoint</a>
-

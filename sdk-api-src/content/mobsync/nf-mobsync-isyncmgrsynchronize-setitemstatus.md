@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize::SetItemStatus
+ - ISyncMgrSynchronize.SetItemStatus
 ---
 
 # ISyncMgrSynchronize::SetItemStatus
@@ -123,4 +123,3 @@ Currently, the only <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrstat
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-synchronizecompleted">SynchronizeCompleted</a>
-

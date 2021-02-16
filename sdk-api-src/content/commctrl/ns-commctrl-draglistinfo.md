@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagDRAGLISTINFO
- - LPDRAGLISTINFO
  - DRAGLISTINFO
 ---
 
@@ -125,4 +123,3 @@ A handle to the drag list box.
 Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 
 A <a href="/previous-versions/dd162805(v=vs.85)">POINT</a> structure that contains the current x- and y-coordinates of the mouse cursor.
-

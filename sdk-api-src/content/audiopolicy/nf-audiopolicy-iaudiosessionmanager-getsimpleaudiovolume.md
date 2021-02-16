@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionManager::GetSimpleAudioVolume
+ - IAudioSessionManager.GetSimpleAudioVolume
 ---
 
 # IAudioSessionManager::GetSimpleAudioVolume
@@ -139,4 +139,3 @@ Out of memory.
 
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
-

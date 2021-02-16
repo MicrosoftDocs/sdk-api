@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasEnumConnectionsW
  - ras/RasEnumConnectionsW
- - RasEnumConnections
- - ras/RasEnumConnections
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-ras-rasapi32-l1-1-0.dll
  - Ext-MS-Win-ras-rasapi32-l1-1-1.dll
 api_name:
- - RasEnumConnectionsW
  - RasEnumConnections
+ - RasEnumConnectionsA
+ - RasEnumConnectionsW
 ---
 
 # RasEnumConnectionsW function
@@ -213,4 +212,3 @@ The most reliable way to enumerate and check for an active connection is to call
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDevice3::Trim
+ - IDXGIDevice3.Trim
 ---
 
 ## -description
@@ -66,4 +66,3 @@ to Direct3D objects.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidevice3">IDXGIDevice3</a>
-

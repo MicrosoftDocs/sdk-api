@@ -44,7 +44,6 @@ api_type:
 api_location:
  - avifmt.h
 api_name:
- - _avistreamheader
  - AVISTREAMHEADER
 ---
 
@@ -219,4 +218,3 @@ The header file Vfw.h defines a <b>AVIStreamHeader</b> structure that is equival
 
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem::get_Item
+ - IFsiDirectoryItem.get_Item
 ---
 
 # IFsiDirectoryItem::get_Item
@@ -151,4 +151,3 @@ To enumerate all children, call the <a href="/windows/desktop/api/imapi2fs/nf-im
 
 
 IFsiFileItem
-

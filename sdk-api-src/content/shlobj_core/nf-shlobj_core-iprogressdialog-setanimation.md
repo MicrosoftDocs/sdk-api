@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog::SetAnimation
+ - IProgressDialog.SetAnimation
 ---
 
 # IProgressDialog::SetAnimation
@@ -91,4 +91,3 @@ This method takes the instance handle specified by <i>hInstAnimation</i> and use
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-

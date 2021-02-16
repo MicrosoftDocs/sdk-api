@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapSourceTransform::DoesSupportTransform
+ - IWICBitmapSourceTransform.DoesSupportTransform
 ---
 
 # IWICBitmapSourceTransform::DoesSupportTransform
@@ -83,4 +83,3 @@ The Windows provided codecs provide the following level of support:
 <li>JPEG-XR: Support for all transformation/rotations.
 </li>
 </ul>
-

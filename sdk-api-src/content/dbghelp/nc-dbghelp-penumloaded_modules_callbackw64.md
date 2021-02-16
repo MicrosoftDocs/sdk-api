@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - PENUMLOADED_MODULES_CALLBACKW64
+ - EnumerateLoadedModulesProc64
 ---
 
 # PENUMLOADED_MODULES_CALLBACKW64 callback function
@@ -106,4 +106,3 @@ typedef BOOL (CALLBACK *PENUMLOADED_MODULES_CALLBACK)(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-enumerateloadedmodules">EnumerateLoadedModules64</a>
-

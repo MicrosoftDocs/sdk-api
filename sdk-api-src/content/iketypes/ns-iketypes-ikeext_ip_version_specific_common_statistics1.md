@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1_
  - IKEEXT_IP_VERSION_SPECIFIC_COMMON_STATISTICS1
 ---
 
@@ -69,4 +68,3 @@ Total number of UDP 500/4500 socket send failures.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

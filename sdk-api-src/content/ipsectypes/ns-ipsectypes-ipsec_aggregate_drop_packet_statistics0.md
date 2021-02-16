@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0_
  - IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0
 ---
 
@@ -97,4 +96,3 @@ Number of inbound IPsec secured packets that did not match any inbound IPsec tra
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

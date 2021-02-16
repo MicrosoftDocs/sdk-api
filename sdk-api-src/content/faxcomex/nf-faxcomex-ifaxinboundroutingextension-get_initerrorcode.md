@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension::get_InitErrorCode
+ - IFaxInboundRoutingExtension.InitErrorCode
+ - IFaxInboundRoutingExtension.get_InitErrorCode
+ - IFaxInboundRoutingExtension.get_InitErrorCode
 ---
 
 # IFaxInboundRoutingExtension::get_InitErrorCode
@@ -71,4 +73,3 @@ The error code may be an HRESULT value or a Win32 error code.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
-

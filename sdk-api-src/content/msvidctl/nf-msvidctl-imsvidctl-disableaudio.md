@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::DisableAudio
+ - IMSVidCtl.DisableAudio
 ---
 
 # IMSVidCtl::DisableAudio
@@ -69,4 +69,3 @@ This method sets the active audio output device to <b>NULL</b>.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_audiorendereractive">IMSVidCtl::put_AudioRendererActive</a>
-

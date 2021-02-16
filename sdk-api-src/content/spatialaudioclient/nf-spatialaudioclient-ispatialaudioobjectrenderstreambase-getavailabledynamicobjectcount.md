@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
+ - ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount
 ---
 
 # ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
@@ -146,4 +146,3 @@ You should not call this method after streaming has started, as the value is alr
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
-

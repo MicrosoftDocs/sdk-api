@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSourceResolver::CreateObjectFromByteStream
+ - IMFSourceResolver.CreateObjectFromByteStream
 ---
 
 # IMFSourceResolver::CreateObjectFromByteStream
@@ -149,4 +149,3 @@ The source resolver attempts to find one or more byte-stream handlers for the by
 
 
 <a href="/windows/desktop/medfound/source-resolver">Source Resolver</a>
-

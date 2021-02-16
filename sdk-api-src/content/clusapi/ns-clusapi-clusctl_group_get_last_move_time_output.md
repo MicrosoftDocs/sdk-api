@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
- - PCLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
  - CLUSCTL_GROUP_GET_LAST_MOVE_TIME_OUTPUT
 ---
 
@@ -87,4 +85,3 @@ The unique ID of the node that owns the group.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

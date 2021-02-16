@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - __MIDL___MIDL_itf_mfobjects_0000_0008_0003
  - MFT_REGISTER_TYPE_INFO
 ---
 
@@ -89,4 +88,3 @@ The media subtype. For a list of possible values, see the following topics:
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFCONTENTPROTECTIONDEVICE_INPUT_DATA
  - MFCONTENTPROTECTIONDEVICE_INPUT_DATA
 ---
 
@@ -96,4 +95,3 @@ The protection system specification defines the format and size of the DRM funct
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

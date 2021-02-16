@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::GetAdapterDisplayMode
+ - IDirect3D9.GetAdapterDisplayMode
 ---
 
 # IDirect3D9::GetAdapterDisplayMode
@@ -84,4 +84,3 @@ If Adapter is out of range or pMode is invalid, this method returns D3DERR_INVAL
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

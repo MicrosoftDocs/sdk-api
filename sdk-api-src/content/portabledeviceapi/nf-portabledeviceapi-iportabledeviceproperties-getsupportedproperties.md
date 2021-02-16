@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties::GetSupportedProperties
+ - IPortableDeviceProperties.GetSupportedProperties
 ---
 
 # IPortableDeviceProperties::GetSupportedProperties
@@ -92,4 +92,3 @@ To get the values of supported properties, call <b>GetPropertyAttributes</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties Interface</a>
-

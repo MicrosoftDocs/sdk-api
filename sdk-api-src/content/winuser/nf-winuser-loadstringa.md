@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LoadStringA
  - winuser/LoadStringA
- - LoadString
- - winuser/LoadString
 dev_langs:
  - c++
 topic_type:
@@ -55,8 +53,9 @@ api_location:
  - API-MS-Win-Core-Libraryloader-l1-2-1.dll
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
 api_name:
- - LoadStringA
  - LoadString
+ - LoadStringA
+ - LoadStringW
 ---
 
 # LoadStringA function
@@ -167,4 +166,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-the-multiple-document
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
-

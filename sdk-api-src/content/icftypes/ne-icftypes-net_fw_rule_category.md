@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Icftypes.h
 api_name:
- - NET_FW_RULE_CATEGORY_
  - NET_FW_RULE_CATEGORY
 ---
 
@@ -88,4 +87,3 @@ For more information about using <b>NET_FW_RULE_CATEGORY</b>, download the <a hr
 
 
 <a href="/previous-versions/windows/desktop/ics/windows-firewall-with-advanced-security-reference">Windows Firewall with Advanced Security Reference</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IEnumRangeExceptions::Next
+ - IEnumRangeExceptions.Next
 ---
 
 # IEnumRangeExceptions::Next
@@ -118,4 +118,3 @@ There are no more elements to retrieve.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-ienumrangeexceptions">IEnumRangeExceptions Interface</a>
-

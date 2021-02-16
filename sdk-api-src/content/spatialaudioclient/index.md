@@ -9,8 +9,6 @@ tech.root: coreaudio
 f1_keywords:
  - spatialaudioclient
  - spatialaudioclient/spatialaudioclient
-api_name:
- - spatialaudioclient
 ---
 
 # Spatialaudioclient.h header

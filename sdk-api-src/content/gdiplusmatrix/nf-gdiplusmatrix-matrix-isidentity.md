@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::IsIdentity
+ - Matrix.IsIdentity
 ---
 
 # Matrix::IsIdentity
@@ -76,4 +76,3 @@ If this matrix is the identity matrix, this method returns <b>TRUE</b>; otherwis
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

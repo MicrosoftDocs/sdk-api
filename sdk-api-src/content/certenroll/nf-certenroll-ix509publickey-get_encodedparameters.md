@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PublicKey::get_EncodedParameters
+ - IX509PublicKey.EncodedParameters
+ - IX509PublicKey.get_EncodedParameters
 ---
 
 # IX509PublicKey::get_EncodedParameters
@@ -132,4 +133,3 @@ AES-IV ::= OCTET STRING (SIZE(16))
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509publickey">IX509PublicKey</a>
-

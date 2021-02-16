@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_compare_sW
  - winldap/ldap_compare_sW
- - ldap_compare_s
- - winldap/ldap_compare_s
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_compare_sW
  - ldap_compare_s
+ - ldap_compare_sA
+ - ldap_compare_sW
 ---
 
 # ldap_compare_sW function
@@ -135,4 +134,3 @@ Multithreading: Calls to <b>ldap_compare_s</b> are
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

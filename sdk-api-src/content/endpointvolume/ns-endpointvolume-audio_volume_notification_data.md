@@ -45,7 +45,6 @@ api_location:
  - Endpointvolume.h
 api_name:
  - AUDIO_VOLUME_NOTIFICATION_DATA
- - PAUDIO_VOLUME_NOTIFICATION_DATA
 ---
 
 # AUDIO_VOLUME_NOTIFICATION_DATA structure
@@ -155,4 +154,3 @@ In its implementation of the <b>OnNotify</b> method, a client can inspect the ev
 
 
 <a href="/windows/desktop/api/endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify">IAudioEndpointVolumeCallback::OnNotify</a>
-

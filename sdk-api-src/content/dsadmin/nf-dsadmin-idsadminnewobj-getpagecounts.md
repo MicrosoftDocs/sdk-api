@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObj::GetPageCounts
+ - IDsAdminNewObj.GetPageCounts
 ---
 
 # IDsAdminNewObj::GetPageCounts
@@ -85,4 +85,3 @@ This function will provide results based on the count of pages added using
 
 
 <a href="/windows/desktop/api/dsadmin/nf-dsadmin-idsadminnewobjext-setobject">IDsAdminNewObjExt::SetObject</a>
-

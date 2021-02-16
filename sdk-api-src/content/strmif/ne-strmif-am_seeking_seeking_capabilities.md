@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - AM_SEEKING_SeekingCapabilities
  - AM_SEEKING_SEEKING_CAPABILITIES
 ---
 
@@ -108,4 +107,3 @@ Most DirectShow filters do not report the <b>AM_SEEKING_CanGetCurrentPos</b> cap
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>
-

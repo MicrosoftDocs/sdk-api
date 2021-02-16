@@ -42,7 +42,7 @@ api_type:
 api_location:
  - effects.h
 api_name:
- - IWMPEffects2::Destroy
+ - IWMPEffects2.Destroy
 ---
 
 # IWMPEffects2::Destroy
@@ -69,4 +69,3 @@ This method is used only by windowed visualizations. Windowless visualizations s
 
 
 <a href="/windows/desktop/api/effects/nf-effects-iwmpeffects2-create">IWMPEffects2::Create</a>
-

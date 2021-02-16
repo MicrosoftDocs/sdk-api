@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ICreateProcessInputs::SetCreateFlags
+ - ICreateProcessInputs.SetCreateFlags
 ---
 
 # ICreateProcessInputs::SetCreateFlags
@@ -85,4 +85,3 @@ The flags that will be passed to the <i>dwCreationFlags</i> parameter to <a href
 
 
 <a href="/windows/desktop/api/processthreadsapi/ns-processthreadsapi-startupinfoa">STARTUPINFO</a>
-

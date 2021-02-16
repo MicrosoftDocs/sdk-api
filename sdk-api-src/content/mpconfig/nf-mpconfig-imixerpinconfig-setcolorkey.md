@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::SetColorKey
+ - IMixerPinConfig.SetColorKey
 ---
 
 # IMixerPinConfig::SetColorKey
@@ -89,4 +89,3 @@ Valid arguments for the <i>pColorKey</i> parameter include CK_INDEX when video d
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-getcolorkey">IMixerPinConfig::GetColorKey</a>
-

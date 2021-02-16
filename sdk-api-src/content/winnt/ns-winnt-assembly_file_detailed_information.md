@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _ASSEMBLY_FILE_DETAILED_INFORMATION
- - PASSEMBLY_FILE_DETAILED_INFORMATION
  - ASSEMBLY_FILE_DETAILED_INFORMATION
 ---
 
@@ -158,4 +156,3 @@ DoneQuerying:
     }
 
 ```
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample::GetSize
+ - IMediaSample.GetSize
 ---
 
 # IMediaSample::GetSize
@@ -70,4 +70,3 @@ Returns the size of the buffer, in bytes. The size does not include the prefix b
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediasample">IMediaSample Interface</a>
-

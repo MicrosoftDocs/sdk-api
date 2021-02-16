@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReader::Close
+ - IWMReader.Close
 ---
 
 # IWMReader::Close
@@ -113,4 +113,3 @@ This method sends a WMT_CLOSE status notification to the application's <a href="
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreader-stop">IWMReader::Stop</a>
-

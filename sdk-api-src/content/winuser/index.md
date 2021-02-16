@@ -9,8 +9,6 @@ tech.root: controls
 f1_keywords:
  - winuser
  - winuser/winuser
-api_name:
- - winuser
 ---
 
 # Winuser.h header

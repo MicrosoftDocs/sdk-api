@@ -42,7 +42,7 @@ api_type:
 api_location:
  - structuredquerycondition.h
 api_name:
- - ICondition::GetValueNormalization
+ - ICondition.GetValueNormalization
 ---
 
 # ICondition::GetValueNormalization
@@ -89,4 +89,3 @@ In <b>Windows 7 and later</b>, if the value of the leaf node is <b>VT_EMPTY</b
 
 
 <b>Reference</b>
-

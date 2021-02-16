@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _PERBANDINFO
- - PPERBANDINFO
  - PERBANDINFO
 ---
 
@@ -89,4 +87,3 @@ When the band is scaled, the graphics engine anchors the smaller band to the upp
 
 
 <a href="/windows/desktop/api/winddi/ns-winddi-gdiinfo">GDIINFO</a>
-

@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - PDNS_TSIG_DATAA
- - DNS_TSIG_DATAA
+ - DNS_TSIG_DATA
 ---
 
 # DNS_TSIG_DATAA structure
@@ -193,4 +192,3 @@ The
 
 
 <a href="/windows/win32/api/windns/ns-windns-dns_tkey_dataw">DNS_TKEY_DATA</a>
-

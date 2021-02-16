@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore3::newPlaylist
+ - IWMPCore3.newPlaylist
 ---
 
 # IWMPCore3::newPlaylist
@@ -111,4 +111,3 @@ Because the library allows multiple playlists with the same name, you may want t
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-newplaylist">IWMPPlaylistCollection::newPlaylist</a>
-

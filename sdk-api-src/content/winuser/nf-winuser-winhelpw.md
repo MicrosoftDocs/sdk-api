@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - WinHelpW
  - winuser/WinHelpW
- - WinHelp
- - winuser/WinHelp
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +49,10 @@ api_location:
  - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - WinHelpW
  - WinHelp
+ - WinHelpA
+ - WinHelpW
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # WinHelpW function
@@ -220,4 +219,3 @@ The following table shows the possible values for the <i>uCommand</i> parameter 
 
 
 <a href="/windows/desktop/api/winuser/ns-winuser-multikeyhelpa">MULTIKEYHELP</a>
-

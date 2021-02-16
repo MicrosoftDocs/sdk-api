@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::GetProperty
+ - ISensor.GetProperty
 ---
 
 # ISensor::GetProperty
@@ -114,4 +114,3 @@ To retrieve multiple property values as a collection, call <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-

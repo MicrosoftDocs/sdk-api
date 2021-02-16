@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrEvent::GetLevel
+ - ISyncMgrEvent.GetLevel
 ---
 
 # ISyncMgrEvent::GetLevel
@@ -65,4 +65,3 @@ When this method returns, contains a pointer to a member of the <a href="/window
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

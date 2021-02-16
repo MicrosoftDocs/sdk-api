@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::GetDragPoint
+ - IShellFolderView.GetDragPoint
 ---
 
 # IShellFolderView::GetDragPoint
@@ -67,4 +67,3 @@ A pointer to a structure that, when this method returns successfully, receives t
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if successful, <b>S_FALSE</b> if the view does not have a drag point, or an error value otherwise.
-

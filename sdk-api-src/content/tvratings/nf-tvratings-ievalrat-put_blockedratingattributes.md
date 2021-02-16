@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tvratings.h
 api_name:
- - IEvalRat::put_BlockedRatingAttributes
+ - IEvalRat.put_BlockedRatingAttributes
 ---
 
 # IEvalRat::put_BlockedRatingAttributes
@@ -101,4 +101,3 @@ This method should be called once for each level in a rating system, to specify 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tvratings/nn-tvratings-ievalrat">IEvalRat Interface</a>
-

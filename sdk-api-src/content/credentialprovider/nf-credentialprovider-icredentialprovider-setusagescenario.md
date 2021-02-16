@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProvider::SetUsageScenario
+ - ICredentialProvider.SetUsageScenario
 ---
 
 # ICredentialProvider::SetUsageScenario
@@ -126,4 +126,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 This method is required and enables the credential provider to indicate how it will be used.
 
 This method should return <b>E_NOTIMPL</b> if the call completes but the requested usage scenario is not supported. This method should return <b>S_OK</b> if the method is successful and the usage scenario is supported.
-

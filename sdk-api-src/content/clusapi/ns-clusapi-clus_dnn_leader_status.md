@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUS_DNN_LEADER_STATUS
- - PCLUS_DNN_LEADER_STATUS
 ---
 
 # CLUS_DNN_LEADER_STATUS structure
@@ -72,4 +71,3 @@ Represents the status of a Distributed Network Name (DNN) resource for a Scale-O
 
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data structures</a>
-

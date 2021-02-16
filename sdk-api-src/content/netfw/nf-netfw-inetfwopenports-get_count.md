@@ -43,7 +43,8 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPorts::get_Count
+ - INetFwOpenPorts.Count
+ - INetFwOpenPorts.get_Count
 ---
 
 # INetFwOpenPorts::get_Count
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwopenports">INetFwOpenPorts</a>
-

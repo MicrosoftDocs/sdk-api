@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_QUERY_TYPE
- - PSTORAGE_QUERY_TYPE
  - STORAGE_QUERY_TYPE
 ---
 
@@ -81,4 +79,3 @@ Specifies the upper limit of the list of query types. This is used to validate t
 * [IOCTL_STORAGE_QUERY_PROPERTY](ni-winioctl-ioctl_storage_query_property.md)
 * [STORAGE_PROPERTY_ID](ne-winioctl-storage_property_id.md)
 * [STORAGE_PROPERTY_QUERY](ns-winioctl-storage_property_query.md)
-

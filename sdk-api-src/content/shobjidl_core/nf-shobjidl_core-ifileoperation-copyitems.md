@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperation::CopyItems
+ - IFileOperation.CopyItems
 ---
 
 # IFileOperation::CopyItems
@@ -89,4 +89,3 @@ This method does not copy the items, it merely declares the items to be copied. 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-copyitem">IFileOperation::CopyItem</a>
-

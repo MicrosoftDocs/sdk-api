@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionGenerator::GenerateForLeaf
+ - IConditionGenerator.GenerateForLeaf
 ---
 
 # IConditionGenerator::GenerateForLeaf
@@ -205,4 +205,3 @@ In many cases, a condition generator can ignore the argument <i>automaticWildcar
 
 
 <b>Reference</b>
-

@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - _FAX_CONTEXT_INFOW
- - PFAX_CONTEXT_INFOW
+ - FAX_CONTEXT_INFO
+ - FAX_CONTEXT_INFOA
  - FAX_CONTEXT_INFOW
 ---
 
@@ -112,4 +112,3 @@ A fax client application can call the <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxstartprintjoba">FaxStartPrintJob</a>
-

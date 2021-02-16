@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
- - _tagSYNCMGRREGISTERFLAGS
  - SYNCMGRREGISTERFLAGS
 ---
 
@@ -72,4 +71,3 @@ Idle events.
 ## -remarks
 
 The SYNCMGRREGISTERFLAGS_MASK value can be used to identify valid <b>SYNCMGRREGISTERFLAGS</b> values.
-

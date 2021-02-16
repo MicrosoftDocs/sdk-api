@@ -44,7 +44,6 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - tagDOT11_ADHOC_CONNECT_FAIL_REASON
  - DOT11_ADHOC_CONNECT_FAIL_REASON
 ---
 

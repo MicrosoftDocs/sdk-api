@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_NullTransform::Stop
+ - IBDA_NullTransform.Stop
 ---
 
 # IBDA_NullTransform::Stop
@@ -65,4 +65,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_nulltransform">IBDA_NullTransform Interface</a>
-

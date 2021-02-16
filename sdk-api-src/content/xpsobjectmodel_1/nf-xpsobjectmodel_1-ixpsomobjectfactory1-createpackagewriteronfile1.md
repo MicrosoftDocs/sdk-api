@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1::CreatePackageWriterOnFile1
+ - IXpsOMObjectFactory1.CreatePackageWriterOnFile1
 ---
 
 # IXpsOMObjectFactory1::CreatePackageWriterOnFile1
@@ -158,4 +158,3 @@ Additional References: Legacy method description
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
-

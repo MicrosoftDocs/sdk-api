@@ -45,7 +45,6 @@ api_location:
  - mfidl.h
 api_name:
  - _MF_CROSS_ORIGIN_POLICY
- - MF_CROSS_ORIGIN_POLICY
 ---
 
 # MF_CROSS_ORIGIN_POLICY enumeration

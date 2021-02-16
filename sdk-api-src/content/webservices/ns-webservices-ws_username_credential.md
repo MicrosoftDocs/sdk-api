@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_USERNAME_CREDENTIAL
  - WS_USERNAME_CREDENTIAL
 ---
 
@@ -74,4 +73,3 @@ and the security bindings that use it.
 ### -field credentialType
 
 The selector for the type of the username credential.
-

@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDecodeSwapChain::PresentBuffer
+ - IDXGIDecodeSwapChain.PresentBuffer
 ---
 
 # IDXGIDecodeSwapChain::PresentBuffer
@@ -98,4 +98,3 @@ This method returns <b>S_OK</b> on success, or it returns one of the following e
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgidecodeswapchain">IDXGIDecodeSwapChain</a>
-

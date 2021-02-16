@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::operator-=
+ - WBEMTime.operator-=
 ---
 
 # WBEMTime::operator-sub-assign
@@ -68,4 +68,3 @@ Reference to the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan
 ## -remarks
 
 The return value is a new <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object with a value equal to the "this" object after it has been decremented.
-

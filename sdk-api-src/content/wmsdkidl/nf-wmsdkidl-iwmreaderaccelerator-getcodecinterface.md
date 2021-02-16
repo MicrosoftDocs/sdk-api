@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAccelerator::GetCodecInterface
+ - IWMReaderAccelerator.GetCodecInterface
 ---
 
 # IWMReaderAccelerator::GetCodecInterface
@@ -109,4 +109,3 @@ The WM Reader has no pointer to the codec.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderaccelerator">IWMReaderAccelerator Interface</a>
-

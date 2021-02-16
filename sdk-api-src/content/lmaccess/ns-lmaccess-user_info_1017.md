@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _USER_INFO_1017
- - PUSER_INFO_1017
  - USER_INFO_1017
 ---
 
@@ -87,4 +85,3 @@ The value is stored as the number of seconds that have elapsed since 00:00:00, J
 
 
 <a href="/windows/desktop/NetMgmt/user-functions">User Functions</a>
-

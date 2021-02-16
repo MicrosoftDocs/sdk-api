@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetActualModelsSectionW
  - setupapi/SetupDiGetActualModelsSectionW
- - SetupDiGetActualModelsSection
- - setupapi/SetupDiGetActualModelsSection
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetActualModelsSectionW
  - SetupDiGetActualModelsSection
+ - SetupDiGetActualModelsSectionW
 ---
 
 # SetupDiGetActualModelsSectionW function
@@ -110,4 +108,3 @@ For information about retrieving an <a href="/windows-hardware/drivers/install/i
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetactualsectiontoinstalla">SetupDiGetActualSectionToInstall</a>
-

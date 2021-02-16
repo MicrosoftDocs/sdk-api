@@ -41,7 +41,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1PathGeometry1::ComputePointAndSegmentAtLength
+ - ID2D1PathGeometry1.ComputePointAndSegmentAtLength
 ---
 
 # ID2D1PathGeometry1::ComputePointAndSegmentAtLength(FLOAT,UINT32,const D2D1_MATRIX_3X2_F,FLOAT,D2D1_POINT_DESCRIPTION)
@@ -195,4 +195,3 @@ You call ComputePointAndSegmentAtLength(= L3-length(AB)-length(BD), startSegment
 
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1">ID2D1PathGeometry1</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IShellWindows::FindWindowSW
+ - IShellWindows.FindWindowSW
 ---
 
 # IShellWindows::FindWindowSW
@@ -151,4 +151,3 @@ A window was found, but the window is pending open. Only occurs if the <a href="
 ## -remarks
 
 If the <a href="/windows/desktop/api/exdisp/ne-exdisp-shellwindowfindwindowoptions">SWFO_COOKIEPASSED</a> flag is set, <i>pvarLoc</i> is interpreted as a cookie instead of a PIDL.
-

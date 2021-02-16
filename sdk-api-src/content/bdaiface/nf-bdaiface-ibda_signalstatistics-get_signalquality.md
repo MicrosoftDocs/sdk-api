@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_SignalStatistics::get_SignalQuality
+ - IBDA_SignalStatistics.get_SignalQuality
 ---
 
 # IBDA_SignalStatistics::get_SignalQuality
@@ -73,4 +73,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/windows/desktop/api/bdaiface/nf-bdaiface-ibda_signalstatistics-put_signalquality">IBDA_SignalStatistics::put_SignalQuality</a>
-

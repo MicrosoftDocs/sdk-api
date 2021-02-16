@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
- - PHTTP_SERVICE_CONFIG_SSL_CCS_QUERY
  - HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
 ---
 
@@ -115,4 +113,3 @@ Pass this structure to the <a href="/windows/desktop/api/http/nf-http-httpquerys
 
 
 <a href="/windows/desktop/api/http/nf-http-httpqueryserviceconfiguration">HttpQueryServiceConfiguration</a>
-

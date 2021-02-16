@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcSignatureReader::ReadSignatures
+ - IRdcSignatureReader.ReadSignatures
 ---
 
 # IRdcSignatureReader::ReadSignatures
@@ -82,4 +82,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/win32/api/msrdc/ns-msrdc-rdcsignaturepointer">RdcSignaturePointer</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_NAME_TYPE
  - SECPKG_NAME_TYPE
 ---
 
@@ -78,4 +77,3 @@ The account name is a flat user principal name (UPN) style account name.
 The account name is the distinguished name of the object.
 
 ### -field SecNameSPN
-

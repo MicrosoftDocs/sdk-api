@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0028
  - MPEG_BCS_DEMUX
 ---
 
@@ -68,4 +67,3 @@ Specifies the filter graph instance.
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-mpeg_context">MPEG_CONTEXT Structure</a>
-

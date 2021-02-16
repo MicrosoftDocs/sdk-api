@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2::GetStrings
+ - ITextDocument2.GetStrings
 ---
 
 # ITextDocument2::GetStrings
@@ -73,4 +73,3 @@ The collection is useful for manipulating rich text, particularly for transformi
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
-

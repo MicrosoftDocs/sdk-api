@@ -46,8 +46,6 @@ api_type:
 api_location:
  - setupapi.h
 api_name:
- - _SP_DRVINSTALL_PARAMS
- - PSP_DRVINSTALL_PARAMS
  - SP_DRVINSTALL_PARAMS
 ---
 
@@ -257,4 +255,3 @@ If the device-specific software is not installed on the computer, the PnP manage
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdriverinstallparamsa">SetupDiSetDriverInstallParams</a>
-

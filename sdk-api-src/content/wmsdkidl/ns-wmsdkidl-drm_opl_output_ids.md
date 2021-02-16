@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmsdkidl.h
 api_name:
- - __tagDRM_OPL_OUTPUT_IDS
  - DRM_OPL_OUTPUT_IDS
 ---
 
@@ -72,4 +71,3 @@ This structure is used as a member of the <a href="/previous-versions/windows/de
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

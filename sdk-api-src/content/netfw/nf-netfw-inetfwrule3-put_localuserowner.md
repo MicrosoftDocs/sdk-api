@@ -42,7 +42,9 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRule3::put_LocalUserOwner
+ - INetFwRule3.LocalUserOwner
+ - INetFwRule3.get_LocalUserOwner
+ - INetFwRule3.put_LocalUserOwner
 ---
 
 # INetFwRule3::put_LocalUserOwner
@@ -63,4 +65,3 @@ If this rule does not specify <b>localUserConditions</b>, all the traffic that t
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrule3">INetFwRule3</a>
-

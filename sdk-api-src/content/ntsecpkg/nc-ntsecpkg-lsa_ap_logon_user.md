@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_AP_LOGON_USER
+ - LsaApLogonUser
 ---
 
 # LSA_AP_LOGON_USER callback function
@@ -292,4 +292,3 @@ Authentication packages must implement one of the following functions: <b>LsaApL
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpackage">LsaCallAuthenticationPackage</a>
-

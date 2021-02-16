@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMemAllocator::GetProperties
+ - IMemAllocator.GetProperties
 ---
 
 # IMemAllocator::GetProperties
@@ -74,4 +74,3 @@ Calls to this method might not succeed until the <a href="/windows/desktop/api/s
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imemallocator">IMemAllocator Interface</a>
-

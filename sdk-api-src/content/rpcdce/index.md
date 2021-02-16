@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - rpcdce
  - rpcdce/rpcdce
-api_name:
- - rpcdce
 ---
 
 # Rpcdce.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsbOnline.h
 api_name:
- - _WSB_OB_STATUS_ENTRY
  - WSB_OB_STATUS_ENTRY
 ---
 
@@ -97,4 +96,3 @@ The resources indicated by the resource IDs contained in the <b>m_dwIcon</b>,
 
 
 <a href="/windows/win32/api/wsbonline/ns-wsbonline-wsb_ob_status_entry_value_type_pair">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a>
-

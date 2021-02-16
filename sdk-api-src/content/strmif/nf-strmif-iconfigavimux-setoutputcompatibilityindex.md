@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IConfigAviMux::SetOutputCompatibilityIndex
+ - IConfigAviMux.SetOutputCompatibilityIndex
 ---
 
 # IConfigAviMux::SetOutputCompatibilityIndex
@@ -93,4 +93,3 @@ The AVI 2.0 index format allows for larger files, incremental growth of files, a
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iconfigavimux">IConfigAviMux Interface</a>
-

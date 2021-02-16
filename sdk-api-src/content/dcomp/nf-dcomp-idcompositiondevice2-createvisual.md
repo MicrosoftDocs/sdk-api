@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2::CreateVisual
+ - IDCompositionDevice2.CreateVisual
 ---
 
 # IDCompositionDevice2::CreateVisual
@@ -81,4 +81,3 @@ A new visual object has a static value of zero for the OffsetX and OffsetY prope
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-addvisual">IDCompositionVisual::AddVisual</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - cluadmex.h
 api_name:
- - IWEExtendWizard97::CreateWizard97Pages
+ - IWEExtendWizard97.CreateWizard97Pages
 ---
 
 # IWEExtendWizard97::CreateWizard97Pages
@@ -233,4 +233,3 @@ If your extension has no Wizard97 pages but does have non-Wizard97 pages, you ca
 
 
 <a href="/previous-versions/windows/desktop/api/cluadmex/nn-cluadmex-iweextendwizard97">IWEExtendWizard97</a>
-

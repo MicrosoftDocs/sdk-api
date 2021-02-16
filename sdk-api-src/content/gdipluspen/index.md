@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdipluspen
  - gdipluspen/gdipluspen
-api_name:
- - gdipluspen
 ---
 
 # Gdipluspen.h header

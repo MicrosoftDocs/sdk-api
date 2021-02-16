@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::GetOutputPrefType
+ - IMFTopologyNode.GetOutputPrefType
 ---
 
 # IMFTopologyNode::GetOutputPrefType
@@ -131,4 +131,3 @@ The preferred output type provides a hint to the topology loader. In a fully res
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

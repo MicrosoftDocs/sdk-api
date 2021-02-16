@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.media.streaming.h
 api_name:
- - IMediaRenderer::PlayAtSpeedAsync
+ - IMediaRenderer.PlayAtSpeedAsync
 ---
 
 # IMediaRenderer::streaming
@@ -91,4 +91,3 @@ Before this method is called, you must call <a href="/previous-versions/windows/
 ## -see-also
 
 <a href="/windows/desktop/mediastreaming/imediarenderer">IMediaRenderer</a>
-

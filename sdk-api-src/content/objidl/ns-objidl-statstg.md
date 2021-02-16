@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
- - tagSTATSTG
  - STATSTG
 ---
 
@@ -115,4 +114,3 @@ Reserved for future use.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istorage-setelementtimes">IStorage::SetElementTimes</a>
-

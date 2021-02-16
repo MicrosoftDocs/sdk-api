@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - _CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
  - CREDENTIAL_PROVIDER_FIELD_INTERACTIVE_STATE
 ---
 
@@ -76,4 +75,3 @@ Credential providers use this field interactive state to indicate that the field
 ## -remarks
 
 Starting with Windows 10, field interactive states are set during the initial rendering of the Credential UI and when the credential provider fires interactive state change events. An example of this event would be when the user enters digits in the first field and the credential provider automatically moves the cursor to the second field. Be careful when you fire interactive state change events because it could interrupt users entering credential data.
-

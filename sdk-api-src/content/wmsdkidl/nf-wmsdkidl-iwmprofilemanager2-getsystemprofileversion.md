@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager2::GetSystemProfileVersion
+ - IWMProfileManager2.GetSystemProfileVersion
 ---
 
 # IWMProfileManager2::GetSystemProfileVersion
@@ -76,4 +76,3 @@ Because there are no system profiles for the Windows Media 9 Series codecs, this
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager2-setsystemprofileversion">IWMProfileManager2::SetSystemProfileVersion</a>
-

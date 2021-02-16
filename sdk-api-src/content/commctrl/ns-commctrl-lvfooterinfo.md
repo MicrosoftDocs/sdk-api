@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagLVFOOTERINFO
- - LPLVFOOTERINFO
  - LVFOOTERINFO
 ---
 
@@ -89,4 +87,3 @@ The number of items in the footer. When this structure is used to get informatio
 This structure is used with the <a href="/windows/desktop/api/commctrl/nf-commctrl-listview_getfooterinfo">ListView_GetFooterInfo</a> macro and the <a href="/windows/desktop/Controls/lvm-getfooterinfo">LVM_GETFOOTERINFO</a> message.
 
 The creation of footers in list-view controls is currently not supported.
-

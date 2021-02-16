@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::EnableModeless
+ - IShellView.EnableModeless
 ---
 
 # IShellView::EnableModeless
@@ -69,4 +69,3 @@ Returns S_OK if successful, or a COM-defined error value otherwise.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

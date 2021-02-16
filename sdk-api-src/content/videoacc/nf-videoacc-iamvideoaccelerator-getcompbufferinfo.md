@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMVideoAccelerator::GetCompBufferInfo
+ - IAMVideoAccelerator.GetCompBufferInfo
 ---
 
 # IAMVideoAccelerator::GetCompBufferInfo
@@ -166,4 +166,3 @@ The <a href="/previous-versions/windows/desktop/api/amva/ns-amva-amvacompbufferi
 
 
 <a href="/windows/desktop/api/videoacc/nn-videoacc-iamvideoaccelerator">IAMVideoAccelerator Interface</a>
-

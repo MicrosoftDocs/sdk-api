@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIFactory1::IsCurrent
+ - IDXGIFactory1.IsCurrent
 ---
 
 # IDXGIFactory1::IsCurrent
@@ -76,4 +76,3 @@ This method is not supported by DXGI 1.0, which shipped in Windows Vista and Wi
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1">IDXGIFactory1</a>
-

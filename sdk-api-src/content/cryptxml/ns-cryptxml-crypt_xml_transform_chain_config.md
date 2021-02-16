@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_TRANSFORM_CHAIN_CONFIG
- - PCRYPT_XML_TRANSFORM_CHAIN_CONFIG
  - CRYPT_XML_TRANSFORM_CHAIN_CONFIG
 ---
 
@@ -71,4 +69,3 @@ The number of elements in the array pointed to by the <b>rgpTransformInfo</b> me
 ### -field rgpTransformInfo
 
 A pointer to an array of pointers to <a href="/windows/desktop/api/cryptxml/ns-cryptxml-crypt_xml_transform_info">CRYPT_XML_TRANSFORM_INFO</a> structures that contain the transform parameters.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_PARTITION_FLAG
  - VDS_PARTITION_FLAG
 ---
 
@@ -77,4 +76,3 @@ This enumeration provides the values for the <i>ulFlags</i> member of the <a hre
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>
-

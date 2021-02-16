@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronizeCallback::PrepareForSyncCompleted
+ - ISyncMgrSynchronizeCallback.PrepareForSyncCompleted
 ---
 
 # ISyncMgrSynchronizeCallback::PrepareForSyncCompleted
@@ -106,4 +106,3 @@ The registered handler of an application should not call this method if the
 
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronize-synchronize">Synchronize</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassifierModuleDefinition::put_PropertiesAffected
+ - IFsrmClassifierModuleDefinition.PropertiesAffected
+ - IFsrmClassifierModuleDefinition.get_PropertiesAffected
+ - IFsrmClassifierModuleDefinition.put_PropertiesAffected
 ---
 
 # IFsrmClassifierModuleDefinition::put_PropertiesAffected
@@ -63,4 +65,3 @@ This list is optional. Specify a list of properties only if you want to limit th
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmclassifiermoduledefinition">IFsrmClassifierModuleDefinition</a>
-

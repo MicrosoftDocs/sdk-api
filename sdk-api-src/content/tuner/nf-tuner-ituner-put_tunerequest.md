@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuner::put_TuneRequest
+ - ITuner.put_TuneRequest
 ---
 
 # ITuner::put_TuneRequest
@@ -73,4 +73,3 @@ Calling this method initiates a tuning operation based on the properties of the 
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ituner">ITuner Interface</a>
-

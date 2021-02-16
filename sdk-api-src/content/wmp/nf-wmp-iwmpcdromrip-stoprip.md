@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromRip::stopRip
+ - IWMPCdromRip.stopRip
 ---
 
 # IWMPCdromRip::stopRip
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/WMP/ripping-a-cd">Ripping a CD</a>
-

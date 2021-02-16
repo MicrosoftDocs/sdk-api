@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetFileSignatureInformationA
  - msi/MsiGetFileSignatureInformationA
- - MsiGetFileSignatureInformation
- - msi/MsiGetFileSignatureInformation
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetFileSignatureInformationA
  - MsiGetFileSignatureInformation
+ - MsiGetFileSignatureInformationA
+ - MsiGetFileSignatureInformationW
 ---
 
 # MsiGetFileSignatureInformationA function
@@ -285,4 +284,3 @@ Note that
 
 
 <a href="/windows/desktop/Msi/msidigitalsignature-table">MsiDigitalSignature table</a>
-

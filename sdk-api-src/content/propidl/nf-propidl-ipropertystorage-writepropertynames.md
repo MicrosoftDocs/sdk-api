@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IPropertyStorage::WritePropertyNames
+ - IPropertyStorage.WritePropertyNames
 ---
 
 # IPropertyStorage::WritePropertyNames
@@ -110,4 +110,3 @@ If the value of an element in the <i>rgpropid</i> array parameter is set to 0xff
 
 
 <a href="/windows/desktop/Stg/writeread-sample">WriteRead Sample</a>
-

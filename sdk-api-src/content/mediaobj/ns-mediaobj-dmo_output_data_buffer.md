@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mediaobj.h
 api_name:
- - _DMO_OUTPUT_DATA_BUFFER
- - PDMO_OUTPUT_DATA_BUFFER
  - DMO_OUTPUT_DATA_BUFFER
 ---
 
@@ -83,4 +81,3 @@ Reference time specifying the length of the data in the buffer. If the DMO sets 
 
 
 <a href="/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-processoutput">IMediaObject::ProcessOutput</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageACT2::IsDeviceRemovable
+ - IEnhancedStorageACT2.IsDeviceRemovable
 ---
 
 # IEnhancedStorageACT2::IsDeviceRemovable
@@ -94,4 +94,3 @@ The information was successfully retrieved.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstorageact2">IEnhancedStorageACT2</a>
-

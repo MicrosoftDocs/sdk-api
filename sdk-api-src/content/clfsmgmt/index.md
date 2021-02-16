@@ -9,8 +9,6 @@ tech.root: fs
 f1_keywords:
  - clfsmgmt
  - clfsmgmt/clfsmgmt
-api_name:
- - clfsmgmt
 ---
 
 # Clfsmgmt.h header

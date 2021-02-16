@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - certpol
  - certpol/certpol
-api_name:
- - certpol
 ---
 
 # Certpol.h header

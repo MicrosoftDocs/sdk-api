@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleAdviseHolder::Advise
+ - IOleAdviseHolder.Advise
 ---
 
 # IOleAdviseHolder::Advise
@@ -107,4 +107,3 @@ If the attempt to establish an advisory connection is successful, the object rec
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-advise">IOleObject::Advise</a>
-

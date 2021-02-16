@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole::SelectScopeItem
+ - IConsole.SelectScopeItem
 ---
 
 # IConsole::SelectScopeItem
@@ -81,4 +81,3 @@ If
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole">IConsole</a>
-

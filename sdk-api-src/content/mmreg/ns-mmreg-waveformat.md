@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - waveformat_tag
  - WAVEFORMAT
 ---
 
@@ -109,4 +108,3 @@ For formats that require additional information, this structure is included as a
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-

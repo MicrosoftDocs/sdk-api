@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IClassFactory2::CreateInstanceLic
+ - IClassFactory2.CreateInstanceLic
 ---
 
 # IClassFactory2::CreateInstanceLic
@@ -163,4 +163,3 @@ If the class factory does not provide a license key (that is, <a href="/windows/
 
 
 <a href="/windows/desktop/api/ocidl/ns-ocidl-licinfo">LICINFO</a>
-

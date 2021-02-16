@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagUSEROBJECTFLAGS
- - PUSEROBJECTFLAGS
  - USEROBJECTFLAGS
 ---
 
@@ -130,4 +128,3 @@ Allows processes running in other accounts on the desktop to set hooks in this p
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setuserobjectinformationa">SetUserObjectInformation</a>
-

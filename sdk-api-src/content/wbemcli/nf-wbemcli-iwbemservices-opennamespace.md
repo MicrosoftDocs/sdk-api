@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::OpenNamespace
+ - IWbemServices.OpenNamespace
 ---
 
 # IWbemServices::OpenNamespace
@@ -134,4 +134,3 @@ The namespace is closed when <b>Release</b> is called and the reference count re
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-

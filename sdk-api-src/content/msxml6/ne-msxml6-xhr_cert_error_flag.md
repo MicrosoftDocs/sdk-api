@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - _XHR_CERT_ERROR_FLAG
  - XHR_CERT_ERROR_FLAG
 ---
 
@@ -84,4 +83,3 @@ The certificate received from the server has an invalid certificate revocation, 
 
 
 <a href="/previous-versions/windows/desktop/api/msxml6/nf-msxml6-ixmlhttprequest3callback-onservercertificatereceived">OnServerCertificateReceived</a>
-

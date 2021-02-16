@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - _FilterInfo
  - FILTER_INFO
 ---
 
@@ -72,4 +71,3 @@ If the <b>pGraph</b> member is not <b>NULL</b>, the application should release t
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

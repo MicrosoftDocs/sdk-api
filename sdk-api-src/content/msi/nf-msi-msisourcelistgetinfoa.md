@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListGetInfoA
  - msi/MsiSourceListGetInfoA
- - MsiSourceListGetInfo
- - msi/MsiSourceListGetInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSourceListGetInfoA
  - MsiSourceListGetInfo
+ - MsiSourceListGetInfoA
+ - MsiSourceListGetInfoW
 ---
 
 # MsiSourceListGetInfoA function
@@ -391,4 +390,3 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
-

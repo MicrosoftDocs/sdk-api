@@ -9,8 +9,6 @@ tech.root: tapi3
 f1_keywords:
  - mspcall
  - mspcall/mspcall
-api_name:
- - mspcall
 ---
 
 # Mspcall.h header

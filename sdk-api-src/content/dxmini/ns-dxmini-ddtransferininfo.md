@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DDTRANSFERININFO
- - PDDTRANSFERININFO
  - DDTRANSFERININFO
 ---
 
@@ -152,4 +150,3 @@ Points to a destination <a href="/windows-hardware/drivers/">memory descriptor l
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_transfer">DxTransfer</a>
-

@@ -43,7 +43,8 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPorts::get__NewEnum
+ - INetFwOpenPorts._NewEnum
+ - INetFwOpenPorts.get__NewEnum
 ---
 
 # INetFwOpenPorts::get__NewEnum
@@ -68,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/ics/iterating-a-collection">Iterating a Collection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2::GetTypographyOptions
+ - ITextDocument2.GetTypographyOptions
 ---
 
 # ITextDocument2::GetTypographyOptions
@@ -100,4 +100,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextdocument2-settypographyoptions">ITextDocument2::SetTypographyOptions</a>
-

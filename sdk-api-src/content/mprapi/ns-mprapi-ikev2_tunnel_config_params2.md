@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
- - _IKEV2_TUNNEL_CONFIG_PARAMS2
- - PIKEV2_TUNNEL_CONFIG_PARAMS2
  - IKEV2_TUNNEL_CONFIG_PARAMS2
 ---
 
@@ -152,4 +150,3 @@ RRAS requires maximum strength encryption to be negotiated.
 ### -field customPolicy
 
 A value that specifies the custom IKEv2 configurations to be used during  the SA negotiation. If <b>customPolicy</b> is set to <b>NULL</b>, no custom IKEv2 configuration is available.
-

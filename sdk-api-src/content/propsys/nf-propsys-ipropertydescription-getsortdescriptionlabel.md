@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetSortDescriptionLabel
+ - IPropertyDescription.GetSortDescriptionLabel
 ---
 
 # IPropertyDescription::GetSortDescriptionLabel
@@ -84,4 +84,3 @@ It is the responsibility of the calling application to release <i>ppszDescriptio
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

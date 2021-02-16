@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentAcceleratorKey
+ - IUIAutomationElement.CurrentAcceleratorKey
+ - IUIAutomationElement.get_CurrentAcceleratorKey
 ---
 
 # IUIAutomationElement::get_CurrentAcceleratorKey
@@ -71,4 +72,3 @@ This property is read-only.
 
 
 <b>Reference</b>
-

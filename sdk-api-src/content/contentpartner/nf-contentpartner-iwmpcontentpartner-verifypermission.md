@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::VerifyPermission
+ - IWMPContentPartner.VerifyPermission
 ---
 
 # IWMPContentPartner::VerifyPermission
@@ -103,4 +103,3 @@ Windows Media Player is requesting permission from the online store to synchroni
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-verifypermissioncomplete">IWMPContentPartnerCallback::VerifyPermissionComplete</a>
-

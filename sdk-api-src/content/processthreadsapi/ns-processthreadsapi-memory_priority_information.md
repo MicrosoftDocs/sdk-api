@@ -46,8 +46,6 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
- - _MEMORY_PRIORITY_INFORMATION
- - PMEMORY_PRIORITY_INFORMATION
  - MEMORY_PRIORITY_INFORMATION
 ---
 
@@ -145,4 +143,3 @@ The memory priority of a thread or process serves as a hint to the memory manage
 
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadinformation">SetThreadInformation</a>
-

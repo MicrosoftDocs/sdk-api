@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferConfigure3::GetStartRecConfig
+ - IStreamBufferConfigure3.GetStartRecConfig
 ---
 
 # IStreamBufferConfigure3::GetStartRecConfig
@@ -83,4 +83,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferconfigure3">IStreamBufferConfigure3 Interface</a>
-

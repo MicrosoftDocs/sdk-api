@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking::GetCapabilities
+ - IMediaSeeking.GetCapabilities
 ---
 
 # IMediaSeeking::GetCapabilities

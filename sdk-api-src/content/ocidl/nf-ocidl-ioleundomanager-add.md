@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleUndoManager::Add
+ - IOleUndoManager.Add
 ---
 
 # IOleUndoManager::Add
@@ -76,4 +76,3 @@ If the undo manager is in the base state, it should put the new unit on the undo
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleundomanager">IOleUndoManager</a>
-

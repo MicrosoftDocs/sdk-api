@@ -44,7 +44,6 @@ api_type:
 api_location:
  - d3d12shader.h
 api_name:
- - _D3D12_SHADER_DESC
  - D3D12_SHADER_DESC
 ---
 
@@ -228,4 +227,3 @@ A shader is written in HLSL and compiled into an intermediate language by the HL
 ## -see-also
 
 <a href="/windows/desktop/direct3d12/d3d12-graphics-reference-shader-structures">Shader Structures</a>
-

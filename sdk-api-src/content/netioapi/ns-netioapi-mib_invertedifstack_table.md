@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
- - _MIB_INVERTEDIFSTACK_TABLE
- - PMIB_INVERTEDIFSTACK_TABLE
  - MIB_INVERTEDIFSTACK_TABLE
 ---
 
@@ -105,4 +103,3 @@ Note that the <i>Netioapi.h</i> header file is automatically included in the <i>
 
 
 <a href="/windows/desktop/api/netioapi/ns-netioapi-mib_invertedifstack_row">MIB_INVERTEDIFSTACK_ROW</a>
-

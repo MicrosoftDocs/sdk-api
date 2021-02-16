@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mgm.h
 api_name:
- - _SOURCE_GROUP_ENTRY
- - PSOURCE_GROUP_ENTRY
  - SOURCE_GROUP_ENTRY
 ---
 
@@ -113,4 +111,3 @@ Specify zero for this parameter if zero was specified for <b>dwGroupAddr</b> (a 
 
 
 <a href="/windows/desktop/api/mgm/nf-mgm-mgmgroupenumerationstart">MgmGroupEnumerationStart</a>
-

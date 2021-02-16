@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAudioRenderer::get_Balance
+ - IMSVidAudioRenderer.get_Balance
 ---
 
 # IMSVidAudioRenderer::get_Balance
@@ -77,4 +77,3 @@ The balance level is a value between –10,000 and 10,000, measured in hundredth
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-put_balance">IMSVidAudioRenderer::put_Balance</a>
-

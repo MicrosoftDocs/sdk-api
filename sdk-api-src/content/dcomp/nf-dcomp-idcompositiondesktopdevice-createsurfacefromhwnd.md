@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dcomp.h
 api_name:
- - IDCompositionDesktopDevice::CreateSurfaceFromHwnd
+ - IDCompositionDesktopDevice.CreateSurfaceFromHwnd
 ---
 
 # IDCompositionDesktopDevice::CreateSurfaceFromHwnd
@@ -85,4 +85,3 @@ If the window is moved off-screen or resized to zero, the system stops composing
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-setcontent">IDCompositionVisual::SetContent</a>
-

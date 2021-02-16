@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
+ - IMFHttpDownloadSessionProvider.CreateHttpDownloadSession
 ---
 
 # IMFHttpDownloadSessionProvider::CreateHttpDownloadSession
@@ -128,4 +128,3 @@ Specifying “https” as the value of <i>wszScheme</i> does not imply that HTTP
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadsessionprovider">IMFHttpDownloadSessionProvider</a>
-

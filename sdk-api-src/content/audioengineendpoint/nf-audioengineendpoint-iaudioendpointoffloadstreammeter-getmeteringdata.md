@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioengineendpoint.h
 api_name:
- - IAudioEndpointOffloadStreamMeter::GetMeteringData
+ - IAudioEndpointOffloadStreamMeter.GetMeteringData
 ---
 
 # IAudioEndpointOffloadStreamMeter::GetMeteringData
@@ -69,4 +69,3 @@ The <b>GetMeteringData</b> method returns <b>S_OK</b> to indicate that it has co
 ## -see-also
 
 <a href="/windows/desktop/api/audioengineendpoint/nn-audioengineendpoint-iaudioendpointoffloadstreammeter">IAudioEndpointOffloadStreamMeter</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_ERROR
  - EAP_ERROR
 ---
 
@@ -550,4 +549,3 @@ A localized and readable string that describes the possible repair action.
 ## -see-also
 
 [Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
-

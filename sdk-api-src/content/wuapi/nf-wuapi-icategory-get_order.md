@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategory::get_Order
+ - ICategory.Order
+ - ICategory.get_Order
 ---
 
 # ICategory::get_Order
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>
-

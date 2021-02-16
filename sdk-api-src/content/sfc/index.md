@@ -9,8 +9,6 @@ tech.root: setup
 f1_keywords:
  - sfc
  - sfc/sfc
-api_name:
- - sfc
 ---
 
 # Sfc.h header

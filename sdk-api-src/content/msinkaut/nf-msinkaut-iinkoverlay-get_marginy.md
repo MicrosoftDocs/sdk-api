@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::get_MarginY
+ - IInkOverlay.MarginY
+ - IInkOverlay.get_MarginY
+ - IInkOverlay.put_MarginY
+ - InkOverlay.get_MarginY
+ - InkOverlay.put_MarginY
 ---
 
 # IInkOverlay::get_MarginY
@@ -91,4 +95,3 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_marginx">MarginX Property</a>
-

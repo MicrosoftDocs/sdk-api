@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9::GetCertificateSize
+ - IDirect3DAuthenticatedChannel9.GetCertificateSize
 ---
 
 # IDirect3DAuthenticatedChannel9::GetCertificateSize
@@ -75,4 +75,3 @@ This method fails if the channel type is <b>D3DAUTHENTICATEDCHANNEL_D3D9</b>, be
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
-

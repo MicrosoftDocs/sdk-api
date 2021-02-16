@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_CUSTOM_TYPE_DESCRIPTION
  - WS_CUSTOM_TYPE_DESCRIPTION
 ---
 
@@ -88,4 +87,3 @@ The pointer to this data is passed
                     particular usage of the callback.
 
 ### -field isDefaultValueCallback
-

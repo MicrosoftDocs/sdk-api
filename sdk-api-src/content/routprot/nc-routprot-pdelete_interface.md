@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Routprot.h
 api_name:
- - PDELETE_INTERFACE
+ - DeleteInterface
 ---
 
 # PDELETE_INTERFACE callback function
@@ -109,4 +109,3 @@ The <i>InterfaceIndex</i> parameter is invalid (for example, no interface exists
 
 
 <a href="/windows/desktop/RRAS/routing-protocol-interface-reference">Routing Protocol Interface Reference</a>
-

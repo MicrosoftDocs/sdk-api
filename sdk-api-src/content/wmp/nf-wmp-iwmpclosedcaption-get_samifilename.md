@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption::get_SAMIFileName
+ - IWMPClosedCaption.get_SAMIFileName
 ---
 
 # IWMPClosedCaption::get_SAMIFileName
@@ -105,4 +105,3 @@ If you want Windows Media Player to use the default SAMI file associated with a 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-close">IWMPCore::close</a>
-

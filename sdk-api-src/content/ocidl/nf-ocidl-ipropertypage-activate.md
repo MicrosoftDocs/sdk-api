@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPropertyPage::Activate
+ - IPropertyPage.Activate
 ---
 
 # IPropertyPage::Activate
@@ -111,4 +111,3 @@ E_NOTIMPL is not a valid return value.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipropertypage">IPropertyPage</a>
-

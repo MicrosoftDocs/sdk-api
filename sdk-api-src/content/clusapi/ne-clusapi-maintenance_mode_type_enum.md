@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _MAINTENANCE_MODE_TYPE_ENUM
- - PMAINTENANCE_MODE_TYPE_ENUM
  - MAINTENANCE_MODE_TYPE_ENUM
 ---
 
@@ -83,4 +81,3 @@ Indicates the server has released ownership of the storage resource.
 
 
 <a href="/previous-versions/windows/desktop/mscs/maintenancemode">MaintenanceMode</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10SDKLayers.h
 api_name:
- - ID3D10SwitchToRef::SetUseRef
+ - ID3D10SwitchToRef.SetUseRef
 ---
 
 # ID3D10SwitchToRef::SetUseRef
@@ -79,4 +79,3 @@ Switching from a software device to a hardware device clears all cached objects 
 
 
 <a href="/windows/desktop/api/d3d10sdklayers/nn-d3d10sdklayers-id3d10switchtoref">ID3D10SwitchToRef Interface</a>
-

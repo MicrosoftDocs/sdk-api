@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfileManager::GetConnectionProfiles
+ - IMbnConnectionProfileManager.GetConnectionProfiles
 ---
 
 # IMbnConnectionProfileManager::GetConnectionProfiles
@@ -129,4 +129,3 @@ A connection profile is associated with the subscriber ID of the device. For GSM
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager">IMbnConnectionProfileManager</a>
-

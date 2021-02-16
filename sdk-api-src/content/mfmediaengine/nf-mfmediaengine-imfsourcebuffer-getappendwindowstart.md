@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFSourceBuffer::GetAppendWindowStart
+ - IMFSourceBuffer.GetAppendWindowStart
 ---
 
 # IMFSourceBuffer::GetAppendWindowStart
@@ -61,4 +61,3 @@ The timestamp for the start of the append window.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfsourcebuffer">IMFSourceBuffer</a>
-

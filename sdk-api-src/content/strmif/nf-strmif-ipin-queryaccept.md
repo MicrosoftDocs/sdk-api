@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::QueryAccept
+ - IPin.QueryAccept
 ---
 
 # IPin::QueryAccept
@@ -115,4 +115,3 @@ If the filter is running, a return value of S_OK is ambiguous. The pin might acc
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

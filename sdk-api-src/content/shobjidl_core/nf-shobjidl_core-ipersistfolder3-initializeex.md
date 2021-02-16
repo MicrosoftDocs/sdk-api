@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IPersistFolder3::InitializeEx
+ - IPersistFolder3.InitializeEx
 ---
 
 # IPersistFolder3::InitializeEx
@@ -87,4 +87,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 This function is an extended version of <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipersistfolder-initialize">IPersistFolder::Initialize</a>. It allows the Shell to initialize folder shortcuts as well as normal folders.
-

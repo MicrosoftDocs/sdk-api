@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_INTERFACE_0
- - PMPR_INTERFACE_0
  - MPR_INTERFACE_0
 ---
 
@@ -119,4 +117,3 @@ Specifies a nonzero value if the interface fails to connect.
 
 
 <a href="/windows/desktop/RRAS/unreachability-reasons">Unreachability Reasons</a>
-

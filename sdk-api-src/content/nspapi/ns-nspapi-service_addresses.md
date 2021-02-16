@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Nspapi.h
 api_name:
- - _SERVICE_ADDRESSES
- - PSERVICE_ADDRESSES
  - SERVICE_ADDRESSES
 ---
 
@@ -86,4 +84,3 @@ Array of
 
 
 <a href="/windows/desktop/api/nspapi/ns-nspapi-service_infoa">SERVICE_INFO</a>
-

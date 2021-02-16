@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetDeviceDriverBaseNameW
  - psapi/GetDeviceDriverBaseNameW
- - GetDeviceDriverBaseName
- - psapi/GetDeviceDriverBaseName
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,12 @@ api_location:
  - API-MS-Win-Core-PsAPI-L1-1-0.dll
  - KernelBase.dll
 api_name:
- - GetDeviceDriverBaseNameW
  - GetDeviceDriverBaseName
+ - GetDeviceDriverBaseNameA
+ - GetDeviceDriverBaseNameW
+ - K32GetDeviceDriverBaseName
+ - K32GetDeviceDriverBaseNameW
+ - K32GetDeviceDriverBaseNameA
 ---
 
 # GetDeviceDriverBaseNameW function
@@ -116,4 +118,3 @@ For an example, see
 
 
 <a href="/windows/desktop/psapi/psapi-functions">PSAPI Functions</a>
-

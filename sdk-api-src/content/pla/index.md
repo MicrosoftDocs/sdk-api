@@ -9,8 +9,6 @@ tech.root: pla
 f1_keywords:
  - pla
  - pla/pla
-api_name:
- - pla
 ---
 
 # Pla.h header

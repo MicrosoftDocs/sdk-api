@@ -46,8 +46,6 @@ api_type:
 api_location:
  - LmDfs.h
 api_name:
- - _DFS_INFO_6
- - PDFS_INFO_6
  - DFS_INFO_6
 ---
 
@@ -295,4 +293,3 @@ For more information about how server target priority is determined, see
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

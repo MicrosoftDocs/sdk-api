@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoProcessor::GetProcAmpValues
+ - IMFVideoProcessor.GetProcAmpValues
 ---
 
 # IMFVideoProcessor::GetProcAmpValues
@@ -111,4 +111,3 @@ To find out which ProcAmp settings the driver supports, call <a href="/windows/d
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-

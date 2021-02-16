@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDecimateVideoImage::ResetDecimationImageSize
+ - IDecimateVideoImage.ResetDecimationImageSize
 ---
 
 # IDecimateVideoImage::ResetDecimationImageSize
@@ -66,4 +66,3 @@ Returns an <b>HRESULT</b> value indicating the success or failure of the call.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idecimatevideoimage">IDecimateVideoImage Interface</a>
-

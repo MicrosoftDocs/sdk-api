@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_FAULT_DESCRIPTION
  - WS_FAULT_DESCRIPTION
 ---
 
@@ -60,4 +59,3 @@ Information about a mapping between an <a href="/windows/desktop/api/webservices
 ### -field envelopeVersion
 
 The SOAP version to use when serializing the fault.
-

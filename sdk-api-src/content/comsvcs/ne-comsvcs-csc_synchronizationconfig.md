@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCSC_SynchronizationConfig
  - CSC_SynchronizationConfig
 ---
 
@@ -100,4 +99,3 @@ If it is incompatible with the transaction setting from <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-iservicesynchronizationconfig-configuresynchronization">IServiceSynchronizationConfig::ConfigureSynchronization</a>
-

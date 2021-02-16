@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509SCEPEnrollment::put_SignerCertificate
+ - IX509SCEPEnrollment.SignerCertificate
+ - IX509SCEPEnrollment.get_SignerCertificate
+ - IX509SCEPEnrollment.put_SignerCertificate
 ---
 
 # IX509SCEPEnrollment::put_SignerCertificate
@@ -63,4 +65,3 @@ To create a renewal request, you must set this property prior to calling the <a 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509scepenrollment">IX509SCEPEnrollment</a>
-

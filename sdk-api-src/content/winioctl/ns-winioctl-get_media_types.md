@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _GET_MEDIA_TYPES
- - PGET_MEDIA_TYPES
  - GET_MEDIA_TYPES
 ---
 
@@ -457,4 +455,3 @@ A pointer to the first
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_media_types_ex">IOCTL_STORAGE_GET_MEDIA_TYPES_EX</a>
-

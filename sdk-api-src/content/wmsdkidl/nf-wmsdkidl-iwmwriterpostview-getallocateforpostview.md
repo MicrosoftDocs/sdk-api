@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPostView::GetAllocateForPostView
+ - IWMWriterPostView.GetAllocateForPostView
 ---
 
 # IWMWriterPostView::GetAllocateForPostView
@@ -105,4 +105,3 @@ See the Remarks for <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriter
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostview">IWMWriterPostView Interface</a>
-

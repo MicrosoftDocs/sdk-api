@@ -42,7 +42,7 @@ api_type:
 api_location:
  - editionupgradehelper.h
 api_name:
- - IEditionUpgradeHelper::GetGenuineLocalStatus
+ - IEditionUpgradeHelper.GetGenuineLocalStatus
 ---
 
 # IEditionUpgradeHelper::GetGenuineLocalStatus
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/editionupgradehelper/nn-editionupgradehelper-ieditionupgradehelper">IEditionUpgradeHelper</a>
-

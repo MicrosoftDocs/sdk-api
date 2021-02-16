@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IKnowledgeSyncProvider::EndSession
+ - IKnowledgeSyncProvider.EndSession
 ---
 
 # IKnowledgeSyncProvider::EndSession
@@ -102,4 +102,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-iknowledgesyncprovider">IKnowledgeSyncProvider Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::get_AddressName
+ - ITAddress.get_AddressName
 ---
 
 # ITAddress::get_AddressName
@@ -115,4 +115,3 @@ The application must use
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddress">ITAddress</a>
-

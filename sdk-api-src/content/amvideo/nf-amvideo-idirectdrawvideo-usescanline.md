@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::UseScanLine
+ - IDirectDrawVideo.UseScanLine
 ---
 
 # IDirectDrawVideo::UseScanLine
@@ -74,4 +74,3 @@ If you blit an image to the video memory while the monitor's scan line is scanni
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::InsertEmbedded
+ - ITfRange.InsertEmbedded
 ---
 
 # ITfRange::InsertEmbedded
@@ -194,4 +194,3 @@ To determine in advance whether a context owner supports insertion of a particul
 
 
 <a href="/windows/desktop/TSF/text-stores">Text Stores</a>
-

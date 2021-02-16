@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1552
- - PSERVER_INFO_1552
  - SERVER_INFO_1552
 ---
 
@@ -80,4 +78,3 @@ Specifies the maximum time allowed for a link delay, in seconds. If delays excee
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

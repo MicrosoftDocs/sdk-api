@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2::GetSharedResourceAdapterLuid
+ - IDXGIFactory2.GetSharedResourceAdapterLuid
 ---
 
 # IDXGIFactory2::GetSharedResourceAdapterLuid
@@ -110,4 +110,3 @@ while (SUCCEEDED(pFactory-&gt;EnumAdapters(index, &amp;pAdapter)))
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
-

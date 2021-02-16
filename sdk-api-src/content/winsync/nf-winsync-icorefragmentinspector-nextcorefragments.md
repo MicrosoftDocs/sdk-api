@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ICoreFragmentInspector::NextCoreFragments
+ - ICoreFragmentInspector.NextCoreFragments
 ---
 
 # ICoreFragmentInspector::NextCoreFragments
@@ -124,4 +124,3 @@ The knowledge object contained in this object has changed since this object was 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-icorefragmentinspector">ICoreFragmentInspector Interface</a>
-

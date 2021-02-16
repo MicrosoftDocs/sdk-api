@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IQuickActivate::GetContentExtent
+ - IQuickActivate.GetContentExtent
 ---
 
 # IQuickActivate::GetContentExtent
@@ -79,4 +79,3 @@ typedef struct tagSIZEL *LPSIZEL;</code></pre>
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iquickactivate">IQuickActivate</a>
-

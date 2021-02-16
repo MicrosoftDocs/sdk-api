@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_ClientFT_V1
  - MI_ClientFT_V1
 ---
 
@@ -110,4 +109,3 @@ Pointer to the <a href="/windows/desktop/api/mi/ns-mi-mi_operationoptionsft">MI_
 
 Pointer to the <a href="/windows/desktop/api/mi/ns-mi-mi_utilitiesft">MI_UtilitiesFT</a> function 
       table.
-

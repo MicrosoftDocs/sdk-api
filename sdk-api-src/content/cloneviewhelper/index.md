@@ -9,8 +9,6 @@ tech.root: display
 f1_keywords:
  - cloneviewhelper
  - cloneviewhelper/cloneviewhelper
-api_name:
- - cloneviewhelper
 ---
 
 # Cloneviewhelper.h header

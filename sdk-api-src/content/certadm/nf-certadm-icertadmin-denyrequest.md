@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin::DenyRequest
+ - ICertAdmin2.DenyRequest
+ - ICertAdmin.DenyRequest
+ - CCertAdmin.DenyRequest
 ---
 
 # ICertAdmin::DenyRequest
@@ -163,4 +165,3 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12GraphicsCommandList4::EndRenderPass
+ - ID3D12GraphicsCommandList4.EndRenderPass
 ---
 
 # ID3D12GraphicsCommandList4::EndRenderPass
@@ -65,4 +65,3 @@ Marks the ending of a render pass.
 
 
 <a href="/windows/desktop/direct3d12/rendering">Rendering</a>
-

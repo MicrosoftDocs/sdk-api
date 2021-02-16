@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XAPO.h
 api_name:
- - IXAPOParameters::SetParameters
+ - IXAPOParameters.SetParameters
 ---
 
 # IXAPOParameters::SetParameters
@@ -82,4 +82,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="/windows/desktop/api/xaudio2/nf-xaudio2-ixaudio2voice-seteffectparameters">IXAudio2Voice::SetEffectParameters</a>
-

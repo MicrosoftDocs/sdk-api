@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - _IP_ADDR_STRING
- - PIP_ADDR_STRING
  - IP_ADDR_STRING
 ---
 
@@ -103,4 +101,3 @@ A network table entry (NTE). This value corresponds to the <i>NTEContext</i> par
 
 
 <b>IP_ADDRESS_STRING</b>
-

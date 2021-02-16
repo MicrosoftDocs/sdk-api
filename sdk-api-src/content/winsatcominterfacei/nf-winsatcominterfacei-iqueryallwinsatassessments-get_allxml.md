@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Winsatapi.dll
 api_name:
- - IQueryAllWinSATAssessments::get_AllXML
+ - IQueryAllWinSATAssessments.AllXML
+ - IQueryAllWinSATAssessments.get_AllXML
 ---
 
 # IQueryAllWinSATAssessments::get_AllXML
@@ -194,4 +195,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iqueryrecentwinsatassessment-get_xml">IQueryRecentWinSATAssessment::XML</a>
-

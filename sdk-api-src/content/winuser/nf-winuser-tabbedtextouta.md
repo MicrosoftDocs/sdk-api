@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - TabbedTextOutA
  - winuser/TabbedTextOutA
- - TabbedTextOut
- - winuser/TabbedTextOut
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +49,10 @@ api_location:
  - Ext-Ms-Win-NTUser-Misc-L1-5-0.dll
  - Ext-MS-Win-NTUser-Misc-L1-5-1.dll
 api_name:
- - TabbedTextOutA
  - TabbedTextOut
+ - TabbedTextOutA
+ - TabbedTextOutW
+req.apiset: ext-ms-win-ntuser-misc-l1-5-1 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # TabbedTextOutA function
@@ -163,4 +162,3 @@ By default, the current position is not used or updated by the <b>TabbedTextOut<
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-textouta">TextOut</a>
-

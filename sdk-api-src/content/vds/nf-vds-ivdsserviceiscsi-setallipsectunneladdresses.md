@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceIscsi::SetAllIpsecTunnelAddresses
+ - IVdsServiceIscsi.SetAllIpsecTunnelAddresses
 ---
 
 # IVdsServiceIscsi::SetAllIpsecTunnelAddresses
@@ -89,4 +89,3 @@ This method is not supported in this release.
 </td>
 </tr>
 </table>
-

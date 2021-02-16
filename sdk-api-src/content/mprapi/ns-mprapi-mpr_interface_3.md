@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_INTERFACE_3
- - PMPR_INTERFACE_3
  - MPR_INTERFACE_3
 ---
 
@@ -883,4 +881,3 @@ The following members from the
 
 
 <a href="/windows/desktop/api/mprapi/nf-mprapi-mpradmininterfacesetinfo">MprAdminInterfaceSetInfo</a>
-

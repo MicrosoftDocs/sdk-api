@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_BLOB
- - PCRYPT_XML_BLOB
  - CRYPT_XML_BLOB
 ---
 

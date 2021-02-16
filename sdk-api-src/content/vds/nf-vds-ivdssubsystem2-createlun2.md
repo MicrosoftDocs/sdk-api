@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem2::CreateLun2
+ - IVdsSubSystem2.CreateLun2
 ---
 
 # IVdsSubSystem2::CreateLun2
@@ -333,4 +333,3 @@ There is a subtle difference between the <b>E_INVALIDARG</b> and
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFsiDirectoryItem::Add
+ - IFsiDirectoryItem.Add
 ---
 
 # IFsiDirectoryItem::Add
@@ -271,4 +271,3 @@ Once an item is added to the file system image, the <a href="/windows/desktop/ap
 
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifsifileitem">IFsiFileItem</a>
-

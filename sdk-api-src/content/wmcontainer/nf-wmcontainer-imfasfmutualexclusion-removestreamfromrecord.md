@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion::RemoveStreamFromRecord
+ - IMFASFMutualExclusion.RemoveStreamFromRecord
 ---
 
 # IMFASFMutualExclusion::RemoveStreamFromRecord
@@ -103,4 +103,3 @@ The stream number is not listed for the specified record.
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-

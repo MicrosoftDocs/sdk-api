@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingOrientedBox::Intersects
+ - BoundingOrientedBox.Intersects
 ---
 
 # BoundingOrientedBox::Intersects(FXMVECTOR,FXMVECTOR,FXMVECTOR)

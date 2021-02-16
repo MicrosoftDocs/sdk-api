@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_NAME_CONSTRAINTS_INFO
- - PCERT_NAME_CONSTRAINTS_INFO
  - CERT_NAME_CONSTRAINTS_INFO
 ---
 
@@ -76,4 +74,3 @@ Array of
 ### -field rgExcludedSubtree
 
 Array of <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_general_subtree">CERT_GENERAL_SUBTREE</a> structures, each identifying an excluded certificate name.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMWriterPostViewCallback::AllocateForPostView
+ - IWMWriterPostViewCallback.AllocateForPostView
 ---
 
 # IWMWriterPostViewCallback::AllocateForPostView
@@ -77,4 +77,3 @@ This method is implemented by the application. It should return S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpostviewcallback">IWMWriterPostViewCallback Interface</a>
-

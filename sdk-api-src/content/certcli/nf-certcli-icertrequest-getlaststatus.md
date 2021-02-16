@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest::GetLastStatus
+ - ICertRequest3.GetLastStatus
+ - ICertRequest2.GetLastStatus
+ - ICertRequest.GetLastStatus
+ - CCertRequest.GetLastStatus
 ---
 
 # ICertRequest::GetLastStatus
@@ -115,4 +118,3 @@ else
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertrequest3">ICertRequest3</a>
-

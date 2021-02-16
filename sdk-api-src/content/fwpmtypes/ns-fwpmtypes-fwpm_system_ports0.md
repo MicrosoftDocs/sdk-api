@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_SYSTEM_PORTS0_
  - FWPM_SYSTEM_PORTS0
 ---
 
@@ -76,4 +75,3 @@ A [FWPM_SYSTEM_PORTS_BY_TYPE0](/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

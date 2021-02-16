@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork::GetSSID
+ - IDot11AdHocNetwork.GetSSID
 ---
 
 # IDot11AdHocNetwork::GetSSID
@@ -129,4 +129,3 @@ A pointer passed as a parameter is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-

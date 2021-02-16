@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFELanguage::GetConversion
+ - IFELanguage.GetConversion
 ---
 
 # IFELanguage::GetConversion
@@ -77,4 +77,3 @@ The converted string. This string is allocated by <a href="/previous-versions/wi
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-

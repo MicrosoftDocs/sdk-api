@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::put_MessageWaiting
+ - ITAddress.put_MessageWaiting
 ---
 
 # ITAddress::put_MessageWaiting
@@ -139,4 +139,3 @@ For programmers familiar with TAPI 2.<i>x:</i> This method turns on and off the 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetlinedevstatus">lineSetLineDevStatus</a>
-

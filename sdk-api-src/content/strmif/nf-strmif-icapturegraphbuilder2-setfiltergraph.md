@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2::SetFiltergraph
+ - ICaptureGraphBuilder2.SetFiltergraph
 ---
 
 # ICaptureGraphBuilder2::SetFiltergraph
@@ -114,4 +114,3 @@ If you do not call this method, the capture graph builder automatically creates 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-

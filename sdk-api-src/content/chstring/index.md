@@ -9,8 +9,6 @@ tech.root: wmi
 f1_keywords:
  - chstring
  - chstring/chstring
-api_name:
- - chstring
 ---
 
 # Chstring.h header

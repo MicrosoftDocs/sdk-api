@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_node_info_tag
- - PPEER_NODE_INFO
  - PEER_NODE_INFO
 ---
 
@@ -91,4 +89,3 @@ Points to a string  that contains the  attributes that describe this particular 
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphgetnodeinfo">PeerGraphGetNodeInfo</a>
-

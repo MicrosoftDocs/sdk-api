@@ -43,6 +43,7 @@ api_location:
  - Wmiutils.dll
 api_name:
  - IWbemStatusCodeText
+ - WbemStatusCodeText
 ---
 
 # IWbemStatusCodeText interface

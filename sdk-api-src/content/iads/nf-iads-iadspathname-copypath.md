@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPathname::CopyPath
+ - IADsPathname.CopyPath
 ---
 
 # IADsPathname::CopyPath
@@ -133,4 +133,3 @@ hr = pDisp->QueryInterface(IID_IADsPathname,(void**)&pPathCopy);
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadspathname">IADsPathname</a>
-

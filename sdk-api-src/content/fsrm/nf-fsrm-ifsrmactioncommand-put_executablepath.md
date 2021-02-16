@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionCommand::put_ExecutablePath
+ - IFsrmActionCommand.ExecutablePath
+ - IFsrmActionCommand.get_ExecutablePath
+ - IFsrmActionCommand.put_ExecutablePath
 ---
 
 # IFsrmActionCommand::put_ExecutablePath
@@ -90,4 +92,3 @@ Only administrators can have write access to all folders in the path at the time
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

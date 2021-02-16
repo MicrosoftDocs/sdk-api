@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole::AddMember
+ - IAzRole.AddMember
+ - AzRole.AddMember
 ---
 
 # IAzRole::AddMember
@@ -67,4 +68,3 @@ Reserved for future use.
 To view the list of SIDs of Windows accounts that belong to this role in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a> property.
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-submit">Submit</a> method to persist any changes made by this method.
-

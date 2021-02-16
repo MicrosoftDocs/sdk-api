@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetup::SetDatabaseInformation
+ - ICertSrvSetup.SetDatabaseInformation
 ---
 
 # ICertSrvSetup::SetDatabaseInformation
@@ -79,4 +79,3 @@ Upon failure, the <b>SetDatabaseInformation</b> method might set additional erro
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetup">ICertSrvSetup</a>
-

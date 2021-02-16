@@ -9,8 +9,6 @@ tech.root: wininet
 f1_keywords:
  - wininet
  - wininet/wininet
-api_name:
- - wininet
 ---
 
 # Wininet.h header

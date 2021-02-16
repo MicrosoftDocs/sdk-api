@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509CertificateTemplates::get__NewEnum
+ - IX509CertificateTemplates._NewEnum
+ - IX509CertificateTemplates.get__NewEnum
 ---
 
 # IX509CertificateTemplates::get__NewEnum
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificatetemplates">IX509CertificateTemplates</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDocument::GetSignatureBlockResources
+ - IXpsOMDocument.GetSignatureBlockResources
 ---
 
 # IXpsOMDocument::GetSignatureBlockResources
@@ -102,4 +102,3 @@ After loading and parsing the resource into the XPS OM, this method might return
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

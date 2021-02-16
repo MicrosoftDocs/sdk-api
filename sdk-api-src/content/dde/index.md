@@ -9,8 +9,6 @@ tech.root: dataxchg
 f1_keywords:
  - dde
  - dde/dde
-api_name:
- - dde
 ---
 
 # Dde.h header

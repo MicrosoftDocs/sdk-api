@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddeml.h
 api_name:
- - tagMONCONVSTRUCT
- - PMONCONVSTRUCT
  - MONCONVSTRUCT
 ---
 
@@ -145,4 +143,3 @@ The <b>hConvClient</b> and <b>hConvServer</b> members of the <b>MONCONVSTRUCT</b
 
 
 <b>Reference</b>
-

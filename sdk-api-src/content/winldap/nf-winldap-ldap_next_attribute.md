@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_next_attribute
+ - ldap_next_attributeA
+ - ldap_next_attributeW
 ---
 
 # ldap_next_attribute function
@@ -128,4 +130,3 @@ The
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DSurface9::GetDesc
+ - IDirect3DSurface9.GetDesc
 ---
 
 # IDirect3DSurface9::GetDesc
@@ -72,4 +72,3 @@ D3DERR_INVALIDCALL is returned if the argument is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dsurface9">IDirect3DSurface9</a>
-

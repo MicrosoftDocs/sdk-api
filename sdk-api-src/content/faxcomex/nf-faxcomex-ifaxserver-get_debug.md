@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer::get_Debug
+ - IFaxServer.Debug
+ - IFaxServer.get_Debug
+ - IFaxServer.get_Debug
 ---
 
 # IFaxServer::get_Debug
@@ -71,4 +73,3 @@ If this property is equal to <b>TRUE</b>, the fax server was created in a debug 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-retrieving-server-properties">Visual Basic Example</a>
-

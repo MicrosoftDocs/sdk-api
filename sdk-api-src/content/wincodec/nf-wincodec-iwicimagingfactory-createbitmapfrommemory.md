@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImagingFactory::CreateBitmapFromMemory
+ - IWICImagingFactory.CreateBitmapFromMemory
 ---
 
 # IWICImagingFactory::CreateBitmapFromMemory
@@ -109,4 +109,3 @@ The size of the <a href="/windows/desktop/wic/-wic-imp-iwicbitmapdecoder">IWICBi
 The <a href="https://docs.microsoft.com/">stride</a> of the destination bitmap will equal the <i>stride</i> of the source data, regardless of the width and height specified.
 
 The <i>pixelFormat</i> parameter defines the pixel format for both the input data and the output bitmap.
-

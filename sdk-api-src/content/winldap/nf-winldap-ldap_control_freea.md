@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_control_freeA
  - winldap/ldap_control_freeA
- - ldap_control_free
- - winldap/ldap_control_free
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_control_freeA
  - ldap_control_free
+ - ldap_control_freeA
+ - ldap_control_freeW
 ---
 
 # ldap_control_freeA function
@@ -106,4 +105,3 @@ Use this function to free an <a href="/previous-versions/windows/desktop/api/win
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_create_vlv_controla">ldap_create_vlv_control</a>
-

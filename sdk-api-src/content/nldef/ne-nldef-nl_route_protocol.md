@@ -44,7 +44,6 @@ api_type:
 api_location:
  - nldef.h
 api_name:
- - PNL_ROUTE_PROTOCOL
  - NL_ROUTE_PROTOCOL
 ---
 
@@ -232,4 +231,3 @@ Note that the
     Nldef.h header is automatically included by the 
     Netioapi.h header file. Your driver should never use the 
     Nldef.h header file directly.
-

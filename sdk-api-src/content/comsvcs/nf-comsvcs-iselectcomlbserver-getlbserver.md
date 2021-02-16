@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ISelectCOMLBServer::GetLBServer
+ - ISelectCOMLBServer.GetLBServer
 ---
 
 # ISelectCOMLBServer::GetLBServer
@@ -69,4 +69,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iselectcomlbserver">ISelectCOMLBServer</a>
-

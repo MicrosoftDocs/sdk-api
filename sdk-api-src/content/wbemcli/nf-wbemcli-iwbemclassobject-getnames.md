@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject::GetNames
+ - IWbemClassObject.GetNames
 ---
 
 # IWbemClassObject::GetNames
@@ -187,4 +187,3 @@ For more information about using <b>SAFEARRAY</b> structures of
 
 
 <a href="/windows/desktop/WmiSdk/wmi-system-properties">WMI System Properties</a>
-

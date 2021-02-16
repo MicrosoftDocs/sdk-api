@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_MultichannelAudioAttributes
  - DVD_MultichannelAudioAttributes
 ---
 
@@ -72,4 +71,3 @@ The [DVD_TitleAttributes](/windows/desktop/api/strmif/ns-strmif-dvd_titleattribu
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DCryptoSession9::EncryptionBlt
+ - IDirect3DCryptoSession9.EncryptionBlt
 ---
 
 # IDirect3DCryptoSession9::EncryptionBlt
@@ -113,4 +113,3 @@ If you lock the destination surface, the stride reported in the <a href="/window
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-

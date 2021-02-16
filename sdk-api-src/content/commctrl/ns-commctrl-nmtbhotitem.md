@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMTBHOTITEM
- - LPNMTBHOTITEM
  - NMTBHOTITEM
 ---
 
@@ -194,4 +192,3 @@ The change in the hot item resulted from the user entering the shortcut key for 
 </td>
 </tr>
 </table>
-

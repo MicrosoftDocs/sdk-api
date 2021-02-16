@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCrossbar::CanRoute
+ - IAMCrossbar.CanRoute
 ---
 
 # IAMCrossbar::CanRoute
@@ -111,4 +111,3 @@ To route the pins, call the <a href="/windows/desktop/api/strmif/nf-strmif-iamcr
 
 
 <a href="/windows/desktop/DirectShow/working-with-crossbars">Working with Crossbars</a>
-

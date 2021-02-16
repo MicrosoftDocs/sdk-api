@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::DownloadTrackComplete
+ - IWMPContentPartner.DownloadTrackComplete
 ---
 
 # IWMPContentPartner::DownloadTrackComplete
@@ -101,4 +101,3 @@ To learn how the Player and the plug-in work together to download a set of track
 
 
 <a href="/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-download">IWMPContentPartner::Download</a>
-

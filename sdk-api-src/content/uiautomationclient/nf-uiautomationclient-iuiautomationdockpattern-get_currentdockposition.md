@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationDockPattern::get_CurrentDockPosition
+ - IUIAutomationDockPattern.CurrentDockPosition
+ - IUIAutomationDockPattern.get_CurrentDockPosition
 ---
 
 # IUIAutomationDockPattern::get_CurrentDockPosition
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationdockpattern-setdockposition">IUIAutomationDockPattern::SetDockPosition</a>
-

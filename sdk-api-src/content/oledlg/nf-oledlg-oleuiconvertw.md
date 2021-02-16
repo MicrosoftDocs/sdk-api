@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - OleUIConvertW
  - oledlg/OleUIConvertW
- - OleUIConvert
- - oledlg/OleUIConvert
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - OleDlg.dll
 api_name:
- - OleUIConvertW
  - OleUIConvert
+ - OleUIConvertA
+ - OleUIConvertW
 ---
 
 # OleUIConvertW function
@@ -424,4 +423,3 @@ The convert command, which invokes this function, should only be made available 
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuicanconvertoractivateas">OleUICanConvertOrActivateAs</a>
-

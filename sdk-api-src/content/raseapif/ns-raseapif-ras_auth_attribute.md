@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Raseapif.h
 api_name:
- - _RAS_AUTH_ATTRIBUTE
- - PRAS_AUTH_ATTRIBUTE
  - RAS_AUTH_ATTRIBUTE
 ---
 

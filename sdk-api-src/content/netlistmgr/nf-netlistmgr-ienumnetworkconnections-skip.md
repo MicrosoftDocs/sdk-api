@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - IEnumNetworkConnections::Skip
+ - IEnumNetworkConnections.Skip
 ---
 
 # IEnumNetworkConnections::Skip
@@ -94,4 +94,3 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-ienumnetworkconnections">IEnumNetworkConnections</a>
-

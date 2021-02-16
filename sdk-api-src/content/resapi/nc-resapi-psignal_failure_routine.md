@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PSIGNAL_FAILURE_ROUTINE
+ - SignalFailure
 ---
 
 # PSIGNAL_FAILURE_ROUTINE callback function
@@ -82,4 +82,3 @@ Returns <b>ERROR_SUCCESS</b> (0), if the operation succeeds; otherwise returns a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
-

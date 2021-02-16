@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::get_DomainTimeout
+ - IAzAuthorizationStore.DomainTimeout
+ - IAzAuthorizationStore.get_DomainTimeout
+ - IAzAuthorizationStore.put_DomainTimeout
+ - AzAuthorizationStore.DomainTimeout
 ---
 
 # IAzAuthorizationStore::get_DomainTimeout

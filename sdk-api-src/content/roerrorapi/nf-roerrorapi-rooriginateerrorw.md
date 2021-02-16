@@ -46,6 +46,7 @@ api_location:
  - API-MS-Win-Core-WinRT-error-l1-1-1.dll
 api_name:
  - RoOriginateErrorW
+ - WinRTOriginateErrorW
 ---
 
 # RoOriginateErrorW function
@@ -148,4 +149,3 @@ Depending on the current configuration of the debugger, the <b>RoOriginateErrorW
 
 
 <a href="/windows/desktop/api/roerrorapi/nf-roerrorapi-rotransformerror">RoTransformErrorW</a>
-

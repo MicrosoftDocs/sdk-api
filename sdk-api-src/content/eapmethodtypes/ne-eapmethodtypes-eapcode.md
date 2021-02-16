@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eapmethodtypes.h
 api_name:
- - tagEapCode
  - EapCode
 ---
 
@@ -86,4 +85,3 @@ The highest possible value for an EAP packet type code.
 ## -see-also
 
 <a href="/windows/desktop/api/eapmethodtypes/ns-eapmethodtypes-eappacket">EapPacket</a>
-

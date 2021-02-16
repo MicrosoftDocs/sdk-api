@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOleCallback::ContextSensitiveHelp
+ - IRichEditOleCallback.ContextSensitiveHelp
 ---
 
 # IRichEditOleCallback::ContextSensitiveHelp
@@ -87,4 +87,3 @@ There was an invalid argument.
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditolecallback">IRichEditOleCallback</a>
-

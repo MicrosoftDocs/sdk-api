@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::QuerySessionBySessionId
+ - ITsSbResourcePluginStore.QuerySessionBySessionId
+ - ITsSbResourcePluginStoreEx.QuerySessionBySessionId
 ---
 
 # ITsSbResourcePluginStore::QuerySessionBySessionId
@@ -85,4 +86,3 @@ A resource plug-in can use this method to retrieve a session object. Unlike the 
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
-

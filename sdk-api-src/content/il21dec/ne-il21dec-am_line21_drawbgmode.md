@@ -46,8 +46,6 @@ api_type:
 api_location:
  - il21dec.h
 api_name:
- - _AM_LINE21_DRAWBGMODE
- - PAM_LINE21_DRAWBGMODE
  - AM_LINE21_DRAWBGMODE
 ---
 
@@ -79,4 +77,3 @@ Transparent background.
 
 
 <a href="/windows/desktop/api/il21dec/nf-il21dec-iamline21decoder-setdrawbackgroundmode">IAMLine21Decoder::SetDrawBackgroundMode</a>
-

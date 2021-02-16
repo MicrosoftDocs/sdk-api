@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMT_COLORSPACEINFO_EXTENSION_DATA
  - WMT_COLORSPACEINFO_EXTENSION_DATA
 ---
 
@@ -76,4 +75,3 @@ Specifies the matrix coefficients used to derive Y, Cb, and Cr signals from the 
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

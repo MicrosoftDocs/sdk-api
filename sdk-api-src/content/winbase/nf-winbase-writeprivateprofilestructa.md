@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WritePrivateProfileStructA
  - winbase/WritePrivateProfileStructA
- - WritePrivateProfileStruct
- - winbase/WritePrivateProfileStruct
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - WritePrivateProfileStructA
  - WritePrivateProfileStruct
+ - WritePrivateProfileStructA
+ - WritePrivateProfileStructW
 ---
 
 # WritePrivateProfileStructA function
@@ -152,4 +151,3 @@ When looking at values in the registry that specify other registry locations, th
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-writeprofilestringa">WriteProfileString</a>
-

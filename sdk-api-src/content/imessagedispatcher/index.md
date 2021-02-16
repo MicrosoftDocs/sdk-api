@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - imessagedispatcher
  - imessagedispatcher/imessagedispatcher
-api_name:
- - imessagedispatcher
 ---
 
 # Imessagedispatcher.h header

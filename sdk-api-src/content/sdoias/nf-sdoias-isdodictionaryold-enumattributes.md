@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoDictionaryOld::EnumAttributes
+ - ISdoDictionaryOld.EnumAttributes
 ---
 
 # ISdoDictionaryOld::EnumAttributes
@@ -94,4 +94,3 @@ When the method returns, Id is a <a href="/windows/desktop/api/oaidl/ns-oaidl-sa
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/nn-sdoias-isdodictionaryold">ISdoDictionaryOld</a>
-

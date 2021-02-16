@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetCalendarInfoA
  - winnls/GetCalendarInfoA
- - GetCalendarInfo
- - winnls/GetCalendarInfo
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetCalendarInfoA
  - GetCalendarInfo
+ - GetCalendarInfoA
+ - GetCalendarInfoW
 ---
 
 # GetCalendarInfoA function
@@ -162,4 +161,3 @@ When the ANSI version of this function is used with a Unicode-only locale identi
 
 
 <a href="/windows/desktop/api/winnls/nf-winnls-setcalendarinfoa">SetCalendarInfo</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionItemPattern::Select
+ - IUIAutomationSelectionItemPattern.Select
 ---
 
 # IUIAutomationSelectionItemPattern::Select
@@ -67,4 +67,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionitempattern-addtoselection">IUIAutomationSelectionItemPattern::AddToSelection</a>
-

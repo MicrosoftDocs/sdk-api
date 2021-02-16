@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IChannelIDTuneRequest::get_ChannelID
+ - IChannelIDTuneRequest.ChannelID
+ - IChannelIDTuneRequest.get_ChannelID
+ - IChannelIDTuneRequest.put_ChannelID
 ---
 
 # IChannelIDTuneRequest::get_ChannelID
@@ -60,4 +62,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ichannelidtunerequest">IChannelIDTuneRequest</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::CreateStoryboard
+ - IUIAnimationManager.CreateStoryboard
 ---
 
 # IUIAnimationManager::CreateStoryboard
@@ -80,4 +80,3 @@ For an example, see <a href="/windows/desktop/UIAnimation/updating---timer-drive
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationstoryboard">IUIAnimationStoryboard</a>
-

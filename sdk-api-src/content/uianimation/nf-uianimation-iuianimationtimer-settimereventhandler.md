@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationTimer::SetTimerEventHandler
+ - IUIAnimationTimer.SetTimerEventHandler
 ---
 
 # IUIAnimationTimer::SetTimerEventHandler
@@ -93,4 +93,3 @@ For an example, see <a href="/windows/desktop/UIAnimation/introducing-windows-an
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationtimereventhandler">IUIAnimationTimerEventHandler</a>
-

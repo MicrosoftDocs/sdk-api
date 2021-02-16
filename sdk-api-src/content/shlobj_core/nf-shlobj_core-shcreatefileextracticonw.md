@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHCreateFileExtractIconW
  - shlobj_core/SHCreateFileExtractIconW
- - SHCreateFileExtractIcon
- - shlobj_core/SHCreateFileExtractIcon
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHCreateFileExtractIconW
  - SHCreateFileExtractIcon
+ - SHCreateFileExtractIconW
 ---
 
 # SHCreateFileExtractIconW function
@@ -88,4 +86,3 @@ When this function returns, contains the interface pointer requested in <i>riid<
 Type: <b>HRESULT</b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

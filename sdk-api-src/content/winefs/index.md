@@ -9,8 +9,6 @@ tech.root: fs
 f1_keywords:
  - winefs
  - winefs/winefs
-api_name:
- - winefs
 ---
 
 # Winefs.h header

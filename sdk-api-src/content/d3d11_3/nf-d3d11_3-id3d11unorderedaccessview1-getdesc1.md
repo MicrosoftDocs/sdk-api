@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11UnorderedAccessView1::GetDesc1
+ - ID3D11UnorderedAccessView1.GetDesc1
 ---
 
 # ID3D11UnorderedAccessView1::GetDesc1
@@ -64,4 +64,3 @@ A pointer to a <a href="/windows/desktop/api/d3d11_3/ns-d3d11_3-cd3d11_unordered
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_3/nn-d3d11_3-id3d11unorderedaccessview1">ID3D11UnorderedAccessView1</a>
-

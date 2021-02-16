@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_LUN_PLEX_TYPE
  - VDS_LUN_PLEX_TYPE
 ---
 
@@ -178,4 +177,3 @@ If your application encounters a <a href="/windows/desktop/api/vdshwprv/ne-vdshw
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_lun_type">VDS_LUN_TYPE</a>
-

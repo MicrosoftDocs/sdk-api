@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - identityprovider
  - identityprovider/identityprovider
-api_name:
- - identityprovider
 ---
 
 # Identityprovider.h header

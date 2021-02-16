@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::KeyDown
+ - IWMPEvents.KeyDown
 ---
 
 # IWMPEvents::KeyDown
@@ -239,4 +239,3 @@ Values for the navigation keys.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

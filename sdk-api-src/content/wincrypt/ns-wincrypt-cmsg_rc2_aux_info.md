@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_RC2_AUX_INFO
- - PCMSG_RC2_AUX_INFO
  - CMSG_RC2_AUX_INFO
 ---
 
@@ -86,4 +84,3 @@ Specifies the RC2 effective key length. Currently 40-, 64-, and 128-bit lengths 
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-crypt_algorithm_identifier">CRYPT_ALGORITHM_IDENTIFIER</a>
-

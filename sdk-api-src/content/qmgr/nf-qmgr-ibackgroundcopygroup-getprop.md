@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyGroup::GetProp
+ - IBackgroundCopyGroup.GetProp
 ---
 
 # IBackgroundCopyGroup::GetProp
@@ -111,4 +111,3 @@ You specified a variant type that is not compatible with the property.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopygroup">IBackgroundCopyGroup</a>
-

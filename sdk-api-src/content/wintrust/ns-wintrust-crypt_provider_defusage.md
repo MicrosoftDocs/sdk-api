@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _CRYPT_PROVIDER_DEFUSAGE
- - PCRYPT_PROVIDER_DEFUSAGE
  - CRYPT_PROVIDER_DEFUSAGE
 ---
 
@@ -83,4 +81,3 @@ Pointer to a data buffer used to pass subject interface package (SIP) specific d
 
 
 <a href="/windows/desktop/api/wintrust/nf-wintrust-wintrustgetdefaultforusage">WintrustGetDefaultForUsage</a>
-

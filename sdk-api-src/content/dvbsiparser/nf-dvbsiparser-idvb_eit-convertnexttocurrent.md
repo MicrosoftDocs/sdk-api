@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_EIT::ConvertNextToCurrent
+ - IDVB_EIT.ConvertNextToCurrent
 ---
 
 # IDVB_EIT::ConvertNextToCurrent
@@ -121,4 +121,3 @@ This method applies only to <i>next</i> tables that have become current. Before 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_eit">IDVB_EIT Interface</a>
-

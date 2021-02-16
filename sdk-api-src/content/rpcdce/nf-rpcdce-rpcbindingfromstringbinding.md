@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcBindingFromStringBinding
+ - RpcBindingFromStringBindingA
+ - RpcBindingFromStringBindingW
 ---
 
 # RpcBindingFromStringBinding function
@@ -203,4 +205,3 @@ When an application is finished using the <i>Binding</i> parameter, the applicat
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringbindingcompose">RpcStringBindingCompose</a>
-

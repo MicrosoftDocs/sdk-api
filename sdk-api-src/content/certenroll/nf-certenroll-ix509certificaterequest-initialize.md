@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequest::Initialize
+ - IX509CertificateRequest.Initialize
 ---
 
 # IX509CertificateRequest::Initialize
@@ -183,4 +183,3 @@ You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509ce
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinformation">IX509SignatureInformation</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - _THDTYPE
  - THDTYPE
 ---
 
@@ -68,4 +67,3 @@ The thread supports a message loop. This behavior is associated with single-thre
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentthreadtype">IComThreadingInfo::GetCurrentThreadType</a>
-

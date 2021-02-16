@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleParameters::GetParameterValue
+ - IAzBizRuleParameters.GetParameterValue
 ---
 
 # IAzBizRuleParameters::GetParameterValue
@@ -75,4 +75,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 
 
 <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext3-get_bizruleparameters">IAzClientContext3::BizRuleParameters</a>
-

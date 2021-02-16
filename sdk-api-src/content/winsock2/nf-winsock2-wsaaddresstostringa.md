@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WSAAddressToStringA
  - winsock2/WSAAddressToStringA
- - WSAAddressToString
- - winsock2/WSAAddressToString
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ws2_32.dll
 api_name:
- - WSAAddressToStringA
  - WSAAddressToString
+ - WSAAddressToStringA
+ - WSAAddressToStringW
 ---
 
 # WSAAddressToStringA function
@@ -232,4 +231,3 @@ Support for IPv6 addresses using the <b>WSAAddressToString</b> function was adde
 
 
 <a href="/windows/desktop/WinSock/sockaddr-2">sockaddr</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCapturePhotoSink::SetOutputFileName
+ - IMFCapturePhotoSink.SetOutputFileName
 ---
 
 # IMFCapturePhotoSink::SetOutputFileName
@@ -69,4 +69,3 @@ Calling this method overrides any previous call to <a href="/windows/desktop/api
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturephotosink">IMFCapturePhotoSink</a>
-

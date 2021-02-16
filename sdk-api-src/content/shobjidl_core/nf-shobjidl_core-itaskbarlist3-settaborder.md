@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3::SetTabOrder
+ - ITaskbarList3.SetTabOrder
 ---
 
 # ITaskbarList3::SetTabOrder
@@ -103,4 +103,3 @@ This method must be called for the thumbnail to be shown in the group. Call it a
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

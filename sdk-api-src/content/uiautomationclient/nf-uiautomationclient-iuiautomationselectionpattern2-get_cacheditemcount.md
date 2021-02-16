@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern2::get_CachedItemCount
+ - IUIAutomationSelectionPattern2.CachedItemCount
+ - IUIAutomationSelectionPattern2.get_CachedItemCount
+ - IUIAutomationSelectionPattern2.put_CachedItemCount
 ---
 
 # IUIAutomationSelectionPattern2::get_CachedItemCount
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationselectionpattern2">IUIAutomationSelectionPattern2</a>
-

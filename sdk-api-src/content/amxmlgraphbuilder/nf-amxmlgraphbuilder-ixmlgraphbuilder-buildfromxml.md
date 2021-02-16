@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amxmlgraphbuilder.h
 api_name:
- - IXMLGraphBuilder::BuildFromXML
+ - IXMLGraphBuilder.BuildFromXML
 ---
 
 # IXMLGraphBuilder::BuildFromXML
@@ -79,4 +79,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/amxmlgraphbuilder/nn-amxmlgraphbuilder-ixmlgraphbuilder">IXMLGraphBuilder Interface</a>
-

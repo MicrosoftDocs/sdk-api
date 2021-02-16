@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagWTSSESSION_NOTIFICATION
- - PWTSSESSION_NOTIFICATION
  - WTSSESSION_NOTIFICATION
 ---
 
@@ -72,4 +70,3 @@ Session identifier that triggered the session change event.
 ## -see-also
 
 <a href="/windows/desktop/api/winsvc/nc-winsvc-lphandler_function_ex">HandlerEx</a>
-

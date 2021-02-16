@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _SID_INFO
- - PSID_INFO
  - SID_INFO
 ---
 
@@ -95,4 +93,3 @@ A pointer to the user principal name (UPN) corresponding to the
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-sid">SID</a>
-

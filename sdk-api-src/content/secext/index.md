@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - secext
  - secext/secext
-api_name:
- - secext
 ---
 
 # Secext.h header

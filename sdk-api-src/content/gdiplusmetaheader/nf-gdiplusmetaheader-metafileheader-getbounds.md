@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - MetafileHeader::GetBounds
+ - MetafileHeader.GetBounds
 ---
 
 # MetafileHeader::GetBounds
@@ -84,4 +84,3 @@ Pointer to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Re
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-rect">Rect</a>
-

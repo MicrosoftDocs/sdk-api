@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Hnetcfg.dll
 api_name:
- - INATEventManager::put_ExternalIPAddressCallback
+ - INATEventManager.put_ExternalIPAddressCallback
 ---
 
 # INATEventManager::put_ExternalIPAddressCallback
@@ -190,4 +190,3 @@ If only <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch
 
 
 <a href="/previous-versions/windows/desktop/ics/network-address-translation-traversal-reference">Network Address Translation Traversal Reference</a>
-

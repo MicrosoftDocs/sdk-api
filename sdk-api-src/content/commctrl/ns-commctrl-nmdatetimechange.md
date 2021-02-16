@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMDATETIMECHANGE
- - LPNMDATETIMECHANGE
  - NMDATETIMECHANGE
 ---
 
@@ -105,4 +103,3 @@ The control is not set to the "no date" status. The
 Type: <b><a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 A <a href="/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure that contains information about the current system date and time.
-

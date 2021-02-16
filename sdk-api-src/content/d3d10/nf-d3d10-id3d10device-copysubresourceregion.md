@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::CopySubresourceRegion
+ - ID3D10Device.CopySubresourceRegion
 ---
 
 # ID3D10Device::CopySubresourceRegion
@@ -184,4 +184,3 @@ Notice that, for a 2D texture, front and back are always set to 0 and 1 respecti
 
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10resource">ID3D10Resource Interface</a>
-

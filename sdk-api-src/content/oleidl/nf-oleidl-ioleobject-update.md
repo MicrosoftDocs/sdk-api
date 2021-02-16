@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::Update
+ - IOleObject.Update
 ---
 
 # IOleObject::Update
@@ -125,4 +125,3 @@ When a container calls an embedded object's <b>IOleObject::Update</b> method, it
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-isuptodate">IOleObject::IsUpToDate</a>
-

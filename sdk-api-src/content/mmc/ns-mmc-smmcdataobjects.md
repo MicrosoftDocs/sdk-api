@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _SMMCDataObjects
  - SMMCDataObjects
 ---
 
@@ -88,4 +87,3 @@ Each multiselection data object also holds a list that contains the selected ite
 
 
 <a href="/windows/desktop/api/mmc/ns-mmc-smmcobjecttypes">SMMCObjectTypes</a>
-

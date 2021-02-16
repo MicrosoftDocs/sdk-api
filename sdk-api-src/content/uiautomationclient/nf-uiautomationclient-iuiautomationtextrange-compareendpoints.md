@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange::CompareEndpoints
+ - IUIAutomationTextRange.CompareEndpoints
 ---
 
 # IUIAutomationTextRange::CompareEndpoints
@@ -91,4 +91,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

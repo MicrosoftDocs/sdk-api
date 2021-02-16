@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal2::get_RequiredPrivilegeCount
+ - IPrincipal2.RequiredPrivilegeCount
+ - IPrincipal2.get_RequiredPrivilegeCount
 ---
 
 # IPrincipal2::get_RequiredPrivilegeCount
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-iprincipal2">IPrincipal2</a>
-

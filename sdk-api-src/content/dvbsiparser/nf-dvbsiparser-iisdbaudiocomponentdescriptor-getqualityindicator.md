@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IIsdbAudioComponentDescriptor::GetQualityIndicator
+ - IIsdbAudioComponentDescriptor.GetQualityIndicator
 ---
 
 # IIsdbAudioComponentDescriptor::GetQualityIndicator
@@ -116,4 +116,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdbaudiocomponentdescriptor">IIsdbAudioComponentDescriptor</a>
-

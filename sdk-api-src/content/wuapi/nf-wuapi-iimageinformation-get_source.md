@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IImageInformation::get_Source
+ - IImageInformation.Source
+ - IImageInformation.get_Source
 ---
 
 # IImageInformation::get_Source
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iimageinformation">IImageInformation</a>
-

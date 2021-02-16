@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPINTERNET_ASYNC_RESULT
  - INTERNET_ASYNC_RESULT
 ---
 
@@ -101,4 +100,3 @@ The value of
 ## -see-also
 
 <a href="/windows/desktop/WinInet/asynchronous-operation"> Asynchronous Operation</a>
-

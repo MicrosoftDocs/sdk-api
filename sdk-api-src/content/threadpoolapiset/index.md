@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - threadpoolapiset
  - threadpoolapiset/threadpoolapiset
-api_name:
- - threadpoolapiset
 ---
 
 # Threadpoolapiset.h header

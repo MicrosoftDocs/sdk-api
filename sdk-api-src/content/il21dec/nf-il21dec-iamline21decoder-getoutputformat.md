@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMLine21Decoder::GetOutputFormat
+ - IAMLine21Decoder.GetOutputFormat
 ---
 
 # IAMLine21Decoder::GetOutputFormat
@@ -110,4 +110,3 @@ The output format has not been set.
 
 
 <a href="/previous-versions/windows/desktop/api/il21dec/nn-il21dec-iamline21decoder">IAMLine21Decoder Interface</a>
-

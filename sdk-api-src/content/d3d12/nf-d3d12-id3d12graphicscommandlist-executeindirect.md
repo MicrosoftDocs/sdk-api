@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12GraphicsCommandList::ExecuteIndirect
+ - ID3D12GraphicsCommandList.ExecuteIndirect
 ---
 
 # ID3D12GraphicsCommandList::ExecuteIndirect
@@ -319,4 +319,3 @@ See <a href="/windows/desktop/direct3d12/notes-on-example-code">Example Code in 
 
 
 <a href="/windows/desktop/direct3d12/indirect-drawing">Indirect Drawing</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DocObj.h
 api_name:
- - IPrint::GetPageInfo
+ - IPrint.GetPageInfo
 ---
 
 # IPrint::GetPageInfo
@@ -69,4 +69,3 @@ This method can return the standard return values E_UNEXPECTED and S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/docobj/nn-docobj-iprint">IPrint</a>
-

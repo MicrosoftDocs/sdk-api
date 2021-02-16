@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ncrypt.h
 api_name:
- - _NCryptAlgorithmName
  - NCryptAlgorithmName
 ---
 
@@ -156,4 +155,3 @@ A set of flags that provide more information about the algorithm.
 ## -see-also
 
 <a href="/windows/desktop/api/ncrypt/nf-ncrypt-ncryptenumalgorithms">NCryptEnumAlgorithms</a>
-

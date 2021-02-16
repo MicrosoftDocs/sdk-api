@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0010
- - PADS_HOLD
  - ADS_HOLD
 ---
 
@@ -71,4 +69,3 @@ Number of charges that a server places against the user on hold while it verifie
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

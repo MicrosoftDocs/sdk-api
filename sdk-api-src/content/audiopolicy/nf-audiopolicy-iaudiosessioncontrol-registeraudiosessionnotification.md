@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionControl::RegisterAudioSessionNotification
+ - IAudioSessionControl.RegisterAudioSessionNotification
 ---
 
 # IAudioSessionControl::RegisterAudioSessionNotification
@@ -136,4 +136,3 @@ For a code example that calls the <b>RegisterAudioSessionNotification</b> method
 
 
 <a href="/windows/desktop/api/audiopolicy/nn-audiopolicy-iaudiosessionmanager">IAudioSessionManager</a>
-

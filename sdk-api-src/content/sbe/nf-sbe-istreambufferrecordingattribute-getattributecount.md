@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecordingAttribute::GetAttributeCount
+ - IStreamBufferRecordingAttribute.GetAttributeCount
 ---
 
 # IStreamBufferRecordingAttribute::GetAttributeCount
@@ -98,4 +98,3 @@ Success
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferrecordingattribute">IStreamBufferRecordingAttribute Interface</a>
-

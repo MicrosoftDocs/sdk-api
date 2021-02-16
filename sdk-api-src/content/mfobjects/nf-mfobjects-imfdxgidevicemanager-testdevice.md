@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFDXGIDeviceManager::TestDevice
+ - IMFDXGIDeviceManager.TestDevice
 ---
 
 # IMFDXGIDeviceManager::TestDevice
@@ -110,4 +110,3 @@ If the method returns <b>MF_E_DXGI_NEW_VIDEO_DEVICE</b>, call <a href="/windows/
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfdxgidevicemanager">IMFDXGIDeviceManager</a>
-

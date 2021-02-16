@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMS_DH_KEY_INFO
- - PCMS_DH_KEY_INFO
  - CMS_DH_KEY_INFO
 ---
 
@@ -83,4 +81,3 @@ Reserved for future use and must be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetkeyparam">CryptSetKeyParam</a>
-

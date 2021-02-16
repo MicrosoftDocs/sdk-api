@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIDevice2::OfferResources
+ - IDXGIDevice2.OfferResources
 ---
 
 # IDXGIDevice2::OfferResources
@@ -97,4 +97,3 @@ To offer shared resources, call <b>OfferResources</b> on only one of the sharing
 
 
 <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgidevice2-reclaimresources">IDXGIDevice2::ReclaimResource</a>
-

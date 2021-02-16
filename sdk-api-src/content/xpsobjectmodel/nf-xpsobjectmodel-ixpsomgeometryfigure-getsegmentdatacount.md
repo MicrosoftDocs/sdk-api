@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometryFigure::GetSegmentDataCount
+ - IXpsOMGeometryFigure.GetSegmentDataCount
 ---
 
 # IXpsOMGeometryFigure::GetSegmentDataCount
@@ -120,4 +120,3 @@ For an example of how to use this method in a program, see the code example in <
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

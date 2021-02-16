@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItem2::GetPropertyStore
+ - IShellItem2.GetPropertyStore
 ---
 
 # IShellItem2::GetPropertyStore
@@ -82,4 +82,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 <div class="alert"><b>Note</b>  When this method is called on a property store for a file, that file is held open for the lifetime of the <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> object.</div>
 <div> </div>
-

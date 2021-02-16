@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_TEMPLATE_EXT
- - PCERT_TEMPLATE_EXT
  - CERT_TEMPLATE_EXT
 ---
 

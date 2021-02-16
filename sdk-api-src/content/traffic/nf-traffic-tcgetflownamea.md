@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - TcGetFlowNameA
  - traffic/TcGetFlowNameA
- - TcGetFlowName
- - traffic/TcGetFlowName
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Traffic.dll
 api_name:
- - TcGetFlowNameA
  - TcGetFlowName
+ - TcGetFlowNameA
+ - TcGetFlowNameW
 ---
 
 # TcGetFlowNameA function
@@ -139,4 +138,3 @@ Use of the
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/traffic/nf-traffic-tcenumerateflows">TcEnumerateFlows</a>
-

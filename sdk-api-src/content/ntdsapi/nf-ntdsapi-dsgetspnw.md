@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetSpnW
  - ntdsapi/DsGetSpnW
- - DsGetSpn
- - ntdsapi/DsGetSpn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsGetSpnW
  - DsGetSpn
+ - DsGetSpnA
+ - DsGetSpnW
 ---
 
 # DsGetSpnW function
@@ -219,4 +218,3 @@ An application with the appropriate privileges, which are usually those of a dom
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dswriteaccountspna">DsWriteAccountSpn</a>
-

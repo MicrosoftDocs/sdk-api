@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IActiveDesktop::GetDesktopItem
+ - IActiveDesktop.GetDesktopItem
 ---
 
 # IActiveDesktop::GetDesktopItem
@@ -85,4 +85,3 @@ The index values will change as desktop items are added and removed from the Act
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iactivedesktop">IActiveDesktop</a>
-

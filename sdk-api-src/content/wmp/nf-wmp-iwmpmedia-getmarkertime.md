@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::getMarkerTime
+ - IWMPMedia.getMarkerTime
+ - IWMPMedia2.getMarkerTime
+ - IWMPMedia3.getMarkerTime
 ---
 
 # IWMPMedia::getMarkerTime
@@ -101,4 +103,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_markercount">IWMPMedia::get_markerCount</a>
-

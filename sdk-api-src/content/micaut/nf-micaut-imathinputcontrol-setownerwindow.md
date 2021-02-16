@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::SetOwnerWindow
+ - IMathInputControl.SetOwnerWindow
 ---
 
 # IMathInputControl::SetOwnerWindow
@@ -69,4 +69,3 @@ The math input control always appears on top of the window that owns it.
 ## -see-also
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-

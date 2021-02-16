@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumQueue::Next
+ - IEnumQueue.Next
 ---
 
 # IEnumQueue::Next
@@ -132,4 +132,3 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3cc/nn-tapi3cc-itqueue">ITQueue</a>
-

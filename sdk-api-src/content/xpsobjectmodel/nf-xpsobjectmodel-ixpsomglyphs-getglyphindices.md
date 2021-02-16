@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphs::GetGlyphIndices
+ - IXpsOMGlyphs.GetGlyphIndices
 ---
 
 # IXpsOMGlyphs::GetGlyphIndices
@@ -131,4 +131,3 @@ The glyph indices override the default <b>cmap</b> mapping from the <b>UnicodeSt
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
-

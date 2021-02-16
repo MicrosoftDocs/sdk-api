@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - windows.graphics.effects.interop
  - windows.graphics.effects.interop/windows.graphics.effects.interop
-api_name:
- - windows.graphics.effects.interop
 ---
 
 # Windows.Graphics.Effects.Interop.h header

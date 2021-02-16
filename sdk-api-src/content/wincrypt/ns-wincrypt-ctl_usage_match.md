@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_USAGE_MATCH
- - PCTL_USAGE_MATCH
  - CTL_USAGE_MATCH
 ---
 
@@ -97,4 +95,3 @@ Default usage match logic is USAGE_MATCH_TYPE_AND.
 ### -field Usage
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a> structure that includes an array of <a href="/windows/desktop/SecGloss/o-gly">object identifiers</a> (OIDs) a CTL must match in order to be valid.
-

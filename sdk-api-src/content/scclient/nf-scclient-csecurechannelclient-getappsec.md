@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelClient::GetAppSec
+ - CSecureChannelClient.GetAppSec
 ---
 
 # CSecureChannelClient::GetAppSec
@@ -98,4 +98,3 @@ Possible values include, but are not limited to, those in the following table.
 ## -see-also
 
 <a href="/windows/desktop/WMDM/csecurechannelclient-class">CSecureChannelClient Class</a>
-

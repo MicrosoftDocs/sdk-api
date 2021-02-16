@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig2::RemoveAllDataUnitExtensions
+ - IWMStreamConfig2.RemoveAllDataUnitExtensions
 ---
 
 # IWMStreamConfig2::RemoveAllDataUnitExtensions
@@ -80,4 +80,3 @@ The changes will not take effect in the profile until you call <a href="/windows
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount">IWMStreamConfig2::GetDataUnitExtensionCount</a>
-

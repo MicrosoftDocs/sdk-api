@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupCopyErrorW
  - setupapi/SetupCopyErrorW
- - SetupCopyError
- - setupapi/SetupCopyError
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupCopyErrorW
  - SetupCopyError
+ - SetupCopyErrorA
+ - SetupCopyErrorW
 ---
 
 # SetupCopyErrorW function
@@ -258,4 +257,3 @@ To avoid insufficient buffer errors, <i>ReturnBuffer</i> should be at least MAX_
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setuprenameerrora">SetupRenameError</a>
-

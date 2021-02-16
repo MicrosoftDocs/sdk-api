@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfKeystrokeMgr::PreserveKey
+ - ITfKeystrokeMgr.PreserveKey
 ---
 
 # ITfKeystrokeMgr::PreserveKey
@@ -167,4 +167,3 @@ Preserved keys are registered by TSF text services and provide keyboard shortcut
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_preservedkey">TF_PRESERVEDKEY
       </a>
-

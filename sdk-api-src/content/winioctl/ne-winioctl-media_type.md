@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _MEDIA_TYPE
- - PMEDIA_TYPE
  - MEDIA_TYPE
 ---
 

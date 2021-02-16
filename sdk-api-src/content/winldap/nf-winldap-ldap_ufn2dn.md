@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_ufn2dn
+ - ldap_ufn2dnA
+ - ldap_ufn2dnW
 ---
 
 # ldap_ufn2dn function
@@ -87,4 +89,3 @@ The <b>ldap_ufn2dn</b> function attempts to normalize a user-specified name to a
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IRequiredExtensions::GetFirstExtension
+ - IRequiredExtensions.GetFirstExtension
 ---
 
 # IRequiredExtensions::GetFirstExtension
@@ -81,4 +81,3 @@ If this method returns S_OK, MMC adds the extension snap-in specified by pExtCLS
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-irequiredextensions-getnextextension">IRequiredExtensions::GetNextExtension</a>
-

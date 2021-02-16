@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Extensions::get_IndexByObjectId
+ - IX509Extensions.IndexByObjectId
+ - IX509Extensions.get_IndexByObjectId
 ---
 
 # IX509Extensions::get_IndexByObjectId
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensions">IX509Extensions</a>
-

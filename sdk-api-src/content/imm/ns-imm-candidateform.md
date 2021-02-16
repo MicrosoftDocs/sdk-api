@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Imm.h
 api_name:
- - tagCANDIDATEFORM
- - PCANDIDATEFORM
  - CANDIDATEFORM
 ---
 
@@ -98,4 +96,3 @@ A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure contai
 
 
 <a href="/windows/desktop/Intl/input-method-manager-structures">Input Method Manager Structures</a>
-

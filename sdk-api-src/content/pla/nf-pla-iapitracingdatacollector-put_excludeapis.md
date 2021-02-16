@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IApiTracingDataCollector::put_ExcludeApis
+ - IApiTracingDataCollector.ExcludeApis
+ - IApiTracingDataCollector.get_ExcludeApis
+ - IApiTracingDataCollector.put_ExcludeApis
 ---
 
 # IApiTracingDataCollector::put_ExcludeApis
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_logapinamesonly">IApiTracingDataCollector::LogApiNamesOnly</a>
-

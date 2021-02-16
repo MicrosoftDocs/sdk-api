@@ -42,7 +42,13 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::put_ClassificationReportFormats
+ - IFsrmClassificationManager.ClassificationReportFormats
+ - IFsrmClassificationManager.get_ClassificationReportFormats
+ - IFsrmClassificationManager.put_ClassificationReportFormats
+ - IFsrmClassificationManager2.ClassificationReportFormats
+ - IFsrmClassificationManager2.get_ClassificationReportFormats
+ - IFsrmClassificationManager2.put_ClassificationReportFormats
+ - FsrmClassificationManager.ClassificationReportFormats
 ---
 
 # IFsrmClassificationManager::put_ClassificationReportFormats
@@ -83,4 +89,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

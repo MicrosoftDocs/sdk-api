@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IFolderAction::get_SendCabTo
+ - IFolderAction.SendCabTo
+ - IFolderAction.get_SendCabTo
+ - IFolderAction.put_SendCabTo
 ---
 
 # IFolderAction::get_SendCabTo
@@ -63,4 +65,3 @@ The data manager does not fail if it is not able to send the file.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ifolderaction">IFolderAction</a>
-

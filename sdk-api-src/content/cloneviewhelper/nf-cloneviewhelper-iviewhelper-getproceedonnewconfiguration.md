@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Cloneviewhelper.h
 api_name:
- - IViewHelper::GetProceedOnNewConfiguration
+ - IViewHelper.GetProceedOnNewConfiguration
 ---
 
 # IViewHelper::GetProceedOnNewConfiguration

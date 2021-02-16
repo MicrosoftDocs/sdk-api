@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_D3DBUFCALLBACKS
- - PDD_D3DBUFCALLBACKS
  - DD_D3DBUFCALLBACKS
 ---
 
@@ -145,4 +143,3 @@ Implicit vertex buffers should not be placed in video memory because they are ex
 
 
 <a href="/previous-versions/windows/hardware/drivers/ff570106(v=vs.85)">UnlockD3DBuffer</a>
-

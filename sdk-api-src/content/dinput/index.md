@@ -9,8 +9,6 @@ tech.root: hid
 f1_keywords:
  - dinput
  - dinput/dinput
-api_name:
- - dinput
 ---
 
 # Dinput.h header

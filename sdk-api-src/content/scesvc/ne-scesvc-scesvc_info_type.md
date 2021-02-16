@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Scesvc.h
 api_name:
- - _SCESVC_INFO_TYPE
  - SCESVC_INFO_TYPE
 ---
 
@@ -90,4 +89,3 @@ Reserved. Do not use.
 
 
 <a href="/windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info">SCESVC_CONFIGURATION_INFO</a>
-

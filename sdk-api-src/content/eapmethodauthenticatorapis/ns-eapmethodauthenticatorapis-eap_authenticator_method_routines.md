@@ -46,8 +46,6 @@ api_type:
 api_location:
  - eapmethodauthenticatorapis.h
 api_name:
- - _EAP_AUTHENTICATOR_METHOD_ROUTINES
- - PEAP_AUTHENTICATOR_METHOD_ROUTINES
  - EAP_AUTHENTICATOR_METHOD_ROUTINES
 ---
 
@@ -403,4 +401,3 @@ These APIs are called on an EAP authenticator method when an authenticator (serv
 
 
 <a href="/previous-versions/windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorgetinfo">EapMethodAuthenticatorGetInfo</a>
-

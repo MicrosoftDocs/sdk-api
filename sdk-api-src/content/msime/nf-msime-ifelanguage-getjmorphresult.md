@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFELanguage::GetJMorphResult
+ - IFELanguage.GetJMorphResult
 ---
 
 # IFELanguage::GetJMorphResult
@@ -452,4 +452,3 @@ Mutex timeout is occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-

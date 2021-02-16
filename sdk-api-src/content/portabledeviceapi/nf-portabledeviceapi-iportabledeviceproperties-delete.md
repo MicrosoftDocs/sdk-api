@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceProperties::Delete
+ - IPortableDeviceProperties.Delete
 ---
 
 # IPortableDeviceProperties::Delete
@@ -116,4 +116,3 @@ The driver has no way to indicate partial success; that is, if only some propert
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties">IPortableDeviceProperties Interface</a>
-

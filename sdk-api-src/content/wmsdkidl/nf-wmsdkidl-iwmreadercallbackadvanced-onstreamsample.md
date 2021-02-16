@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced::OnStreamSample
+ - IWMReaderCallbackAdvanced.OnStreamSample
 ---
 
 # IWMReaderCallbackAdvanced::OnStreamSample
@@ -124,4 +124,3 @@ To get samples for a particular stream, call <a href="/windows/desktop/api/wmsdk
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
-

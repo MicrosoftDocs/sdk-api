@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - _SI_INHERIT_TYPE
- - PSI_INHERIT_TYPE
  - SI_INHERIT_TYPE
 ---
 
@@ -139,4 +137,3 @@ Alternatively, <b>pszName</b> can be a string resource identifier returned by th
 
 
 <a href="/windows/desktop/api/aclui/nf-aclui-isecurityinformation-getobjectinformation">ISecurityInformation::GetObjectInformation</a>
-

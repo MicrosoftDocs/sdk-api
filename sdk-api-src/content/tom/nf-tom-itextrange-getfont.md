@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::GetFont
+ - ITextRange.GetFont
 ---
 
 # ITextRange::GetFont
@@ -89,4 +89,3 @@ For plain-text controls, these objects do not vary from range to range, but in r
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

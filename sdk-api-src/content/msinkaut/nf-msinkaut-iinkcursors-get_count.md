@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCursors::get_Count
+ - IInkCursors.Count
+ - IInkCursors.get_Count
+ - IInkCursors.get_Count
 ---
 
 # IInkCursors::get_Count
@@ -62,4 +64,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursors">IInkCursors Interface</a>
-

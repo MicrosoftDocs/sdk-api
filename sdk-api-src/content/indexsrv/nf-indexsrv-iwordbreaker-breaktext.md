@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Indexsrv.h
 api_name:
- - IWordBreaker::BreakText
+ - IWordBreaker.BreakText
 ---
 
 # IWordBreaker::BreakText
@@ -122,4 +122,3 @@ Use <b>pfnFillTextBuffer</b>, the function pointer element in the <a href="/wind
 
 
 <a href="/windows/desktop/api/indexsrv/ns-indexsrv-text_source">TEXT_SOURCE</a>
-

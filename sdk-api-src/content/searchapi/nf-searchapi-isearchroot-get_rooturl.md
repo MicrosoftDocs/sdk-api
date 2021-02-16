@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchRoot::get_RootURL
+ - ISearchRoot.get_RootURL
 ---
 
 # ISearchRoot::get_RootURL
@@ -72,4 +72,3 @@ Use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTask
 
 <b>Windows 7 and later</b>: Check out the <a href="/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-

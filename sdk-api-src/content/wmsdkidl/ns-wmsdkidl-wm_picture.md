@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMPicture
  - WM_PICTURE
 ---
 
@@ -169,4 +168,3 @@ Pointer to a <b>BYTE</b> array containing the picture data.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

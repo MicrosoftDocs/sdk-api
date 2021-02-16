@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::InitializeForRestore
+ - IVssBackupComponents.InitializeForRestore
 ---
 
 # IVssBackupComponents::InitializeForRestore
@@ -158,4 +158,3 @@ The XML document supplied to this method initializes the
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-saveasxml">IVssBackupComponents::SaveAsXML</a>
-

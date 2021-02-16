@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_LIST_TRANSACTION_LOCKED_FILES
- - PTXFS_LIST_TRANSACTION_LOCKED_FILES
  - TXFS_LIST_TRANSACTION_LOCKED_FILES
 ---
 
@@ -88,4 +86,3 @@ The offset from the beginning of this structure to the beginning of the first <a
 
 
 <a href="/windows/win32/api/winioctl/ns-winioctl-txfs_list_transaction_locked_files_entry">TXFS_LIST_TRANSACTION_LOCKED_FILES_ENTRY</a>
-

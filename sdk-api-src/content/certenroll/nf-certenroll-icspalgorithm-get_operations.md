@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm::get_Operations
+ - ICspAlgorithm.Operations
+ - ICspAlgorithm.get_Operations
 ---
 
 # ICspAlgorithm::get_Operations
@@ -67,4 +68,3 @@ The main difference between the <a href="/windows/desktop/api/certenroll/nf-cert
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-icspalgorithm-get_type">Type</a>
-

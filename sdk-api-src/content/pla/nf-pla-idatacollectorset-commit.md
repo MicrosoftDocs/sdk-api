@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::Commit
+ - IDataCollectorSet.Commit
 ---
 
 # IDataCollectorSet::Commit
@@ -234,4 +234,3 @@ The property conflicts with another property, for example, both <a href="/previo
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorset-query">IDataCollectorSet::Query</a>
-

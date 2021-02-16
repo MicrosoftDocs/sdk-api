@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSinkWriterCallback2::OnStreamError
+ - IMFSinkWriterCallback2.OnStreamError
 ---
 
 # IMFSinkWriterCallback2::OnStreamError
@@ -69,4 +69,3 @@ Returns an <b>HRESULT</b> value. Currently, the sink writer ignores the return v
 ## -see-also
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwritercallback2">IMFSinkWriterCallback2</a>
-

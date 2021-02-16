@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemBackupRestoreEx::Pause
+ - IWbemBackupRestoreEx.Pause
 ---
 
 # IWbemBackupRestoreEx::Pause
@@ -78,4 +78,3 @@ pInt->Pause();
 ## -see-also
 
 <a href="/windows/desktop/api/wbemcli/nn-wbemcli-iwbembackuprestoreex">IWbemBackupRestoreEx</a>
-

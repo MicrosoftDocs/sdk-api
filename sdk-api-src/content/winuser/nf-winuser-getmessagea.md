@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - GetMessageA
  - winuser/GetMessageA
- - GetMessage
- - winuser/GetMessage
 dev_langs:
  - c++
 topic_type:
@@ -54,8 +51,10 @@ api_location:
  - Ext-MS-Win-NTUser-Message-l1-1-2.dll
  - Ext-MS-Win-NTUser-Message-L1-1-3.dll
 api_name:
- - GetMessageA
  - GetMessage
+ - GetMessageA
+ - GetMessageW
+req.apiset: ext-ms-win-ntuser-message-l1-1-0 (introduced in Windows 8)
 ---
 
 # GetMessageA function
@@ -224,4 +223,3 @@ For an example, see <a href="/windows/desktop/winmsg/using-messages-and-message-
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-waitmessage">WaitMessage</a>
-

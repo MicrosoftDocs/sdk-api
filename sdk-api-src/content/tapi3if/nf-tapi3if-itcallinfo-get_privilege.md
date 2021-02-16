@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallInfo::get_Privilege
+ - ITCallInfo.get_Privilege
 ---
 
 # ITCallInfo::get_Privilege
@@ -120,4 +120,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo">ITCallInfo</a>
-

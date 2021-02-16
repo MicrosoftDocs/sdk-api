@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IValueMapItem::put_Enabled
+ - IValueMapItem.Enabled
+ - IValueMapItem.get_Enabled
+ - IValueMapItem.put_Enabled
 ---
 
 # IValueMapItem::put_Enabled
@@ -63,4 +65,3 @@ The type of the item determines whether more than one item in the value map coll
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemapitem">IValueMapItem</a>
-

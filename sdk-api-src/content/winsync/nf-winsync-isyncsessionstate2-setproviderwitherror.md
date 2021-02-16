@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsync.h
 api_name:
- - ISyncSessionState2::SetProviderWithError
+ - ISyncSessionState2.SetProviderWithError
 ---
 
 # ISyncSessionState2::SetProviderWithError
@@ -110,4 +110,3 @@ The destination provider indicates which provider caused synchronization to fail
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncsessionstate2">ISyncSessionState2 Interface</a>
-

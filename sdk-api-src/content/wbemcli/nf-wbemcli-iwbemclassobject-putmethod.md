@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject::PutMethod
+ - IWbemClassObject.PutMethod
 ---
 
 # IWbemClassObject::PutMethod
@@ -130,4 +130,3 @@ Each property in a <a href="/windows/desktop/WmiSdk/--parameters">__Parameters</
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-getmethod">IWbemClassObject::GetMethod</a>
-

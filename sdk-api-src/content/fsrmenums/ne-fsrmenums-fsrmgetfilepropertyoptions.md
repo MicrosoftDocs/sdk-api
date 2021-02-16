@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fsrm.h
 api_name:
- - _FsrmGetFilePropertyOptions
  - FsrmGetFilePropertyOptions
 ---
 
@@ -99,4 +98,3 @@ If the <b>FsrmGetFilePropertyOptions_Persistent</b> flag is set, skip any proper
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmclassificationmanager-getfileproperty">IFsrmClassificationManager::GetFileProperty</a>
-

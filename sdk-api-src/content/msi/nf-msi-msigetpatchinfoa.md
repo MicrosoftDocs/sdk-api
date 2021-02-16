@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiGetPatchInfoA
  - msi/MsiGetPatchInfoA
- - MsiGetPatchInfo
- - msi/MsiGetPatchInfo
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiGetPatchInfoA
  - MsiGetPatchInfo
+ - MsiGetPatchInfoA
+ - MsiGetPatchInfoW
 ---
 
 # MsiGetPatchInfoA function
@@ -197,4 +196,3 @@ If the buffer is too small to hold the requested data,
 ## -see-also
 
 <a href="/windows/desktop/Msi/not-supported-in-windows-installer-version-2-0">Not Supported in Windows Installer 2.0 and earlier</a>
-

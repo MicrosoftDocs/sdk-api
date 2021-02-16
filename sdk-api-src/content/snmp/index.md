@@ -9,8 +9,6 @@ tech.root: snmp
 f1_keywords:
  - snmp
  - snmp/snmp
-api_name:
- - snmp
 ---
 
 # Snmp.h header

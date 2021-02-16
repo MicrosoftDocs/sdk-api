@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::GetType
+ - ISensor.GetType
 ---
 
 # ISensor::GetType
@@ -115,4 +115,3 @@ Sensor type IDs are <b>GUID</b>s that are defined in Sensors.h.
 
 
 <a href="/windows/desktop/SensorsAPI/sensor-categories--types--and-datafields">Sensor Categories, Types, and Data Fields</a>
-

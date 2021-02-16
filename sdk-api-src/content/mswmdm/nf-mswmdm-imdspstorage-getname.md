@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage::GetName
+ - IMDSPStorage.GetName
 ---
 
 # IMDSPStorage::GetName
@@ -93,4 +93,3 @@ This method must be implemented. It must not return WMDM_E_NOTSUPPORTED or E_NOT
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorage-getsize">IMDSPStorage::GetSize</a>
-

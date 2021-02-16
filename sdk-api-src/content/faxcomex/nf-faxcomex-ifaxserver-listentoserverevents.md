@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxServer::ListenToServerEvents
+ - IFaxServer.ListenToServerEvents
+ - IFaxServer.ListenToServerEvents
 ---
 
 # IFaxServer::ListenToServerEvents
@@ -198,4 +199,3 @@ Access rights for this method depend on which events are requested, as shown in 
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-registering-for-fax-events">Visual Basic Example</a>
-

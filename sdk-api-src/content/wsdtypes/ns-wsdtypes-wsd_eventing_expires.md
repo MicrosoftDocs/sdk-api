@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_EVENTING_EXPIRES
  - WSD_EVENTING_EXPIRES
 ---
 
@@ -64,4 +63,3 @@ Reference to a <a href="/windows/desktop/api/wsdxml/ns-wsdxml-wsd_duration">WSD_
 ### -field DateTime
 
 Reference to a <a href="/windows/desktop/api/wsdxml/ns-wsdxml-wsd_datetime">WSD_DATETIME</a> structure that specifies the time that the request or response expires.
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo3::GetCodecEnumerationSetting
+ - IWMCodecInfo3.GetCodecEnumerationSetting
 ---
 
 # IWMCodecInfo3::GetCodecEnumerationSetting
@@ -159,4 +159,3 @@ The enumeration setting specified is not valid for the codec.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo3-setcodecenumerationsetting">SetCodecEnumerationSetting</a>
-

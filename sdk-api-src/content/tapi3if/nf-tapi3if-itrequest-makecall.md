@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITRequest::MakeCall
+ - ITRequest.MakeCall
 ---
 
 # ITRequest::MakeCall
@@ -146,4 +146,3 @@ The application must use
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itrequest">ITRequest</a>
-

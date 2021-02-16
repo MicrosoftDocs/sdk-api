@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FindAtomA
  - winbase/FindAtomA
- - FindAtom
- - winbase/FindAtom
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - kernel32legacy.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - FindAtomA
  - FindAtom
+ - FindAtomA
+ - FindAtomW
 ---
 
 # FindAtomA function
@@ -113,4 +112,3 @@ If
 
 
 <b>Reference</b>
-

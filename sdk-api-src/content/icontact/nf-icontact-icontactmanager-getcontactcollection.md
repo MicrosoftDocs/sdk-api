@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactManager::GetContactCollection
+ - IContactManager.GetContactCollection
 ---
 
 # IContactManager::GetContactCollection
@@ -87,4 +87,3 @@ Success. <i>ppContactCollection</i> contains the collection.
 ## -remarks
 
 The enumerator of the new collection is set before the first contact. You must first call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-next">Next</a> before querying the collection with <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactcollection-getcurrent">GetCurrent</a>.
-

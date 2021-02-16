@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingSphere::Contains
+ - BoundingSphere.Contains
 ---
 
 # BoundingSphere::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
@@ -85,4 +85,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

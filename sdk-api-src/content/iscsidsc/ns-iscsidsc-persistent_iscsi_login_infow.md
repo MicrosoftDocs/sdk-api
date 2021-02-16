@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Iscsidsc.h
 api_name:
- - PPERSISTENT_ISCSI_LOGIN_INFOW
+ - PERSISTENT_ISCSI_LOGIN_INFO
+ - PERSISTENT_ISCSI_LOGIN_INFOA
  - PERSISTENT_ISCSI_LOGIN_INFOW
 ---
 
@@ -204,4 +205,3 @@ The <b>PERSISTENT_ISCSI_LOGIN_INFO</b> structure is used in conjunction with the
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-sendscsireportluns">SendScsiReportLuns</a>
-

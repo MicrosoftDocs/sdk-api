@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
+ - IRDPSRAPIVirtualChannelManager.CreateVirtualChannel
 ---
 
 # IRDPSRAPIVirtualChannelManager::CreateVirtualChannel
@@ -111,4 +111,3 @@ The binding between server and client channels is established based on the chann
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapivirtualchannelmanager">IRDPSRAPIVirtualChannelManager</a>
-

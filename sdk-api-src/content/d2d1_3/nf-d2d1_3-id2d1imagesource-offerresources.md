@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ImageSource::OfferResources
+ - ID2D1ImageSource.OfferResources
 ---
 
 # ID2D1ImageSource::OfferResources
@@ -71,4 +71,3 @@ Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1imagesource">ID2D1ImageSource</a>
-

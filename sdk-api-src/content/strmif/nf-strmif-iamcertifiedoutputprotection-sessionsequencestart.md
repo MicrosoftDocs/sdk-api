@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMCertifiedOutputProtection::SessionSequenceStart
+ - IAMCertifiedOutputProtection.SessionSequenceStart
 ---
 
 # IAMCertifiedOutputProtection::SessionSequenceStart
@@ -122,4 +122,3 @@ Then encrypt this number with 2048-bit RSA encryption using the graphics driver'
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-

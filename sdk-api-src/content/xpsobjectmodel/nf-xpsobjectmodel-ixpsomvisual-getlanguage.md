@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMVisual::GetLanguage
+ - IXpsOMVisual.GetLanguage
 ---
 
 # IXpsOMVisual::GetLanguage
@@ -114,4 +114,3 @@ Internet Engineering Task Force (IETF) RFC 3066 specifies the recommended encodi
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

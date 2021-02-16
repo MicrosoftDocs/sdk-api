@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineProtectedContent::TransferVideoFrame
+ - IMFMediaEngineProtectedContent.TransferVideoFrame
 ---
 
 # IMFMediaEngineProtectedContent::TransferVideoFrame
@@ -85,4 +85,3 @@ For protected content, call this method instead of the <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineprotectedcontent">IMFMediaEngineProtectedContent</a>
-

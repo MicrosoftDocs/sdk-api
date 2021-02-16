@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeGenerator::SetTCGMode
+ - IAMTimecodeGenerator.SetTCGMode
 ---
 
 # IAMTimecodeGenerator::SetTCGMode
@@ -206,4 +206,3 @@ For more information on ED_TCG_TIMECODE_TYPE, see the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettcgmode">IAMTimecodeGenerator::GetTCGMode</a>
-

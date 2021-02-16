@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::SetBleedBox
+ - IXpsOMPage.SetBleedBox
 ---
 
 # IXpsOMPage::SetBleedBox
@@ -139,4 +139,3 @@ The bleed box dimensions are not checked against the page dimensions until the p
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
-

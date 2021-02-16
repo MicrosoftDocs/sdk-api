@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
+ - IMbnConnectionProfileManagerEvents.OnConnectionProfileRemoval
 ---
 
 # IMbnConnectionProfileManagerEvents::OnConnectionProfileRemoval
@@ -68,4 +68,3 @@ This method must return <b>S_OK</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanagerevents">IMbnConnectionProfileManagerEvents</a>
-

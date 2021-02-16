@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSubscription::GetPublisherProperty
+ - IEventSubscription.GetPublisherProperty
 ---
 
 # IEventSubscription::GetPublisherProperty
@@ -77,4 +77,3 @@ Publisher filters should call this method to obtain filter properties stored by 
 
 
 <a href="/windows/desktop/api/eventsys/nf-eventsys-ieventsubscription-get_publisherid">PublisherID</a>
-

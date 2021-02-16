@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsGroupMbrAddA
  - rpcnsi/RpcNsGroupMbrAddA
- - RpcNsGroupMbrAdd
- - rpcnsi/RpcNsGroupMbrAdd
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsGroupMbrAddA
  - RpcNsGroupMbrAdd
+ - RpcNsGroupMbrAddA
+ - RpcNsGroupMbrAddW
 ---
 
 # RpcNsGroupMbrAddA function
@@ -179,4 +178,3 @@ If the <i>GroupName</i> entry does not exist,
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
-

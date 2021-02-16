@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter::GetCurrentProfileId
+ - IConfigAsfWriter.GetCurrentProfileId
 ---
 
 # IConfigAsfWriter::GetCurrentProfileId
@@ -77,4 +77,3 @@ This method is obsolete because it applies only to version 4.0 Windows Media For
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter">IConfigAsfWriter Interface</a>
-

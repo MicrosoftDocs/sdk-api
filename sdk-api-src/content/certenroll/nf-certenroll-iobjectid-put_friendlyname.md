@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IObjectId::put_FriendlyName
+ - IObjectId.FriendlyName
+ - IObjectId.get_FriendlyName
+ - IObjectId.put_FriendlyName
 ---
 
 # IObjectId::put_FriendlyName
@@ -83,4 +85,3 @@ You can also retrieve the following property values:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-iobjectid">IObjectId</a>
-

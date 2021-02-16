@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_playlistCollection
+ - IWMPCore.get_playlistCollection
 ---
 
 # IWMPCore::get_playlistCollection
@@ -91,4 +91,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpplaylistcollection">IWMPPlaylistCollection Interface</a>
-

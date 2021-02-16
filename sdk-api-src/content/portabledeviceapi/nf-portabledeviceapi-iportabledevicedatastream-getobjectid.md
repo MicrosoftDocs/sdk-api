@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDeviceDataStream::GetObjectID
+ - IPortableDeviceDataStream.GetObjectID
 ---
 
 # IPortableDeviceDataStream::GetObjectID
@@ -110,4 +110,3 @@ An object ID is created after the object is created on the device. Therefore, a 
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicedatastream">IPortableDeviceDataStream Interface</a>
-

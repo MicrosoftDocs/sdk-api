@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mprapi.h
 api_name:
- - _PPP_PROJECTION_INFO2
- - PPPP_PROJECTION_INFO2
  - PPP_PROJECTION_INFO2
 ---
 

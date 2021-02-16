@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChainMedia::CheckPresentDurationSupport
+ - IDXGISwapChainMedia.CheckPresentDurationSupport
 ---
 
 # IDXGISwapChainMedia::CheckPresentDurationSupport
@@ -78,4 +78,3 @@ If the DXGI output adapter does not support custom refresh rates (for example, a
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgiswapchainmedia">IDXGISwapChainMedia</a>
-

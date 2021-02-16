@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceProxy::GetAllMetadata
+ - IWSDDeviceProxy.GetAllMetadata
 ---
 
 # IWSDDeviceProxy::GetAllMetadata
@@ -110,4 +110,3 @@ Upon success, the memory at <i>ppMetadata</i> will be valid until <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsddeviceproxy">IWSDDeviceProxy</a>
-

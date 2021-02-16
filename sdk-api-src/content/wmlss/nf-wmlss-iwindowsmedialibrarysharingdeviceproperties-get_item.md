@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingDeviceProperties::get_Item
+ - IWindowsMediaLibrarySharingDeviceProperties.get_Item
 ---
 
 # IWindowsMediaLibrarySharingDeviceProperties::get_Item
@@ -83,4 +83,3 @@ The method succeeded.
 </td>
 </tr>
 </table>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_CONTENT_ENCRYPT_INFO
- - PCMSG_CONTENT_ENCRYPT_INFO
  - CMSG_CONTENT_ENCRYPT_INFO
 ---
 
@@ -259,4 +257,3 @@ The following members are read-only:<dl>
 
 
 <a href="/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_gen_content_encrypt_key">PFN_CMSG_GEN_CONTENT_ENCRYPT_KEY</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Taskschd.dll
 api_name:
- - IMaintenanceSettings::get_Deadline
+ - IMaintenanceSettings.Deadline
+ - IMaintenanceSettings.get_Deadline
+ - IMaintenanceSettings.put_Deadline
 ---
 
 # IMaintenanceSettings::get_Deadline
@@ -65,4 +67,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 ## -see-also
 
 <a href="/windows/desktop/api/taskschd/nn-taskschd-imaintenancesettings">IMaintenanceSettings</a>
-

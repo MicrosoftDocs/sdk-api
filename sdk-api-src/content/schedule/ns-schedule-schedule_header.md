@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schedule.h
 api_name:
- - _SCHEDULE_HEADER
- - PSCHEDULE_HEADER
  - SCHEDULE_HEADER
 ---
 
@@ -151,4 +149,3 @@ Contains the offset, in bytes, from the beginning of the <a href="/windows/deskt
 
 
 <a href="/windows/desktop/api/schedule/ns-schedule-schedule">SCHEDULE</a>
-

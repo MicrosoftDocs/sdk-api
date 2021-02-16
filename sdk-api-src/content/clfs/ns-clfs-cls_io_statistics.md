@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - _CLS_IO_STATISTICS
- - PCLS_IO_STATISTICS
- - CLS_IO_STATISTICS
+ - CLFS_IO_STATISTICS
 ---
 
 # CLS_IO_STATISTICS structure
@@ -87,4 +85,3 @@ The cumulative number of bytes of metadata flushed in the logging session.
 
 
 <a href="/windows/desktop/api/clfsw32/nf-clfsw32-getlogiostatistics">GetLogIoStatistics</a>
-

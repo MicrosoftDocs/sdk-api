@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_LIST_TRANSACTIONS_ENTRY
- - PTXFS_LIST_TRANSACTIONS_ENTRY
  - TXFS_LIST_TRANSACTIONS_ENTRY
 ---
 
@@ -92,4 +90,3 @@ Reserved.
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-txfs_list_transactions">TXFS_LIST_TRANSACTIONS</a>
-

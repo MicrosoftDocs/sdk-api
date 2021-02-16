@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IRawElementProviderSimple3::GetMetadataValue
+ - IRawElementProviderSimple3.GetMetadataValue
 ---
 
 # IRawElementProviderSimple3::GetMetadataValue
@@ -77,4 +77,3 @@ Returns <b>S_OK</b> if successful, otherwise an <b>HRESULT</b> error code.
 
 
 <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-sayasinterpretas">SayAsInterpretAs</a>
-

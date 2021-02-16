@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureRecordSink::SetCustomSink
+ - IMFCaptureRecordSink.SetCustomSink
 ---
 
 # IMFCaptureRecordSink::SetCustomSink
@@ -69,4 +69,3 @@ This method overrides the default selection of the media sink for recording.
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturerecordsink">IMFCaptureRecordSink</a>
-

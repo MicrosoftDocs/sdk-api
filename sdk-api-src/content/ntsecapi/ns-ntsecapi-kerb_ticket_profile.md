@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_TICKET_PROFILE
- - PKERB_TICKET_PROFILE
  - KERB_TICKET_PROFILE
 ---
 
@@ -71,4 +69,3 @@ This structure is returned by
 ### -field SessionKey
 
 <a href="/windows/desktop/api/ntsecapi/ns-ntsecapi-kerb_crypto_key">KERB_CRYPTO_KEY</a> structure containing the <a href="/windows/desktop/SecGloss/s-gly">session key</a> for the Kerberos ticket.
-

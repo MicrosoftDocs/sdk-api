@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole2::IsTaskpadViewPreferred
+ - IConsole2.IsTaskpadViewPreferred
 ---
 
 # IConsole2::IsTaskpadViewPreferred
@@ -65,4 +65,3 @@ This method can return one of these values.
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-taskpads">Using Taskpads</a>
-

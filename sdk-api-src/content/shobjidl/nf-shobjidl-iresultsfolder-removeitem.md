@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IResultsFolder::RemoveItem
+ - IResultsFolder.RemoveItem
 ---
 
 # IResultsFolder::RemoveItem
@@ -65,4 +65,3 @@ A pointer to an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ish
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

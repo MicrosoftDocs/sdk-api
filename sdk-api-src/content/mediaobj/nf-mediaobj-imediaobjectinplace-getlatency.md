@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObjectInPlace::GetLatency
+ - IMediaObjectInPlace.GetLatency
 ---
 
 # IMediaObjectInPlace::GetLatency
@@ -70,4 +70,3 @@ This method returns the average time required to process each buffer. This value
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobjectinplace">IMediaObjectInPlace Interface</a>
-

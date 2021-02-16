@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::enumProviders
+ - ICEnroll4.enumProviders
+ - ICEnroll3.enumProviders
+ - ICEnroll2.enumProviders
+ - ICEnroll.enumProviders
+ - CEnroll.enumProviders
 ---
 
 # ICEnroll::enumProviders
@@ -164,4 +168,3 @@ if ( bstrProvName )
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_providertype">ProviderType</a>
-

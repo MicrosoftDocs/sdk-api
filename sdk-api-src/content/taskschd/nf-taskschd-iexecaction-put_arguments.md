@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IExecAction::put_Arguments
+ - IExecAction.Arguments
+ - IExecAction.get_Arguments
+ - IExecAction.put_Arguments
 ---
 
 # IExecAction::put_Arguments
@@ -67,4 +69,3 @@ When reading or writing XML, the command-line operation arguments are specified 
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

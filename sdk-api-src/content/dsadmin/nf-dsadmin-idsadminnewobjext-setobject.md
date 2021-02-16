@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjExt::SetObject
+ - IDsAdminNewObjExt.SetObject
 ---
 
 # IDsAdminNewObjExt::SetObject
@@ -77,4 +77,3 @@ The method should always return <b>S_OK</b>.
 
 
 <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)">IUnknown::QueryInterface</a>
-

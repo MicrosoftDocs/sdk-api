@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
+ - ISyncChangeBatchWithPrerequisite.GetLearnedForgottenKnowledge
 ---
 
 # ISyncChangeBatchWithPrerequisite::GetLearnedForgottenKnowledge
@@ -113,4 +113,3 @@ The knowledge returned in <i>ppLearnedForgottenKnowledge</i> is the source forgo
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchwithprerequisite">ISyncChangeBatchWithPrerequisite Interface</a>
-

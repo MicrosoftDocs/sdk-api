@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Region::Region
+ - Region.Region
 ---
 
 # Region::Region(IN const RectF &)
@@ -68,4 +68,3 @@ Reference to a rectangle.
 
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region">Region</a>
-

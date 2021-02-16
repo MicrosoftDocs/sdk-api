@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _WMT_BUFFER_SEGMENT
  - WMT_BUFFER_SEGMENT
 ---
 
@@ -72,4 +71,3 @@ The length, in bytes, of the buffer segment.
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyEnrollment::get_RequestId
+ - ICertPropertyEnrollment.RequestId
+ - ICertPropertyEnrollment.get_RequestId
 ---
 
 # ICertPropertyEnrollment::get_RequestId
@@ -81,4 +82,3 @@ You can also call the following properties to retrieve the other values specifie
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icertpropertyenrollment">ICertPropertyEnrollment</a>
-

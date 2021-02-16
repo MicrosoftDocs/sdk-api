@@ -44,7 +44,6 @@ api_type:
 api_location:
  - BthLEDef.h
 api_name:
- - _BTH_LE_GATT_EVENT_TYPE
  - BTH_LE_GATT_EVENT_TYPE
 ---
 
@@ -68,4 +67,3 @@ The characteristic value has changed.
 
 
 <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
-

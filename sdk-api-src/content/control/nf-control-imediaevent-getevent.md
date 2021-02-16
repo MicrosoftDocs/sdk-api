@@ -43,7 +43,8 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaEvent::GetEvent
+ - IMediaEvent.GetEvent
+ - IMediaEventEx.GetEvent
 ---
 
 # IMediaEvent::GetEvent
@@ -125,4 +126,3 @@ Because this method removes the event from the filter graph event queue, there i
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaeventex">IMediaEventEx</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Authz.h
 api_name:
- - _AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
- - PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION
  - AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
 ---
 
@@ -81,4 +79,3 @@ An array of <a href="/windows/desktop/api/authz/ns-authz-authz_security_attribut
 ## -see-also
 
 <a href="/windows/desktop/api/authz/nf-authz-authzmodifysecurityattributes">AuthzModifySecurityAttributes</a>
-

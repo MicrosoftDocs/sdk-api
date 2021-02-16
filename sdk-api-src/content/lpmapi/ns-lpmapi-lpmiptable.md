@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Lpmapi.h
 api_name:
- - lpmiptable
  - LPMIPTABLE
 ---
 
@@ -74,4 +73,3 @@ IP subnet mask for the interface.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/lpmapi/nf-lpmapi-lpm_ipaddresstable">Lpm_IpAddressTable</a>
-

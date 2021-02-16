@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfRange::ShiftStart
+ - ITfRange.ShiftStart
 ---
 
 # ITfRange::ShiftStart
@@ -168,4 +168,3 @@ If the shift operation causes the range start anchor to move past the end anchor
 
 <a href="/windows/desktop/api/msctf/ns-msctf-tf_haltcond">TF_HALTCOND
       </a>
-

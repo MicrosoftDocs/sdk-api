@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleCache::EnumCache
+ - IOleCache.EnumCache
 ---
 
 # IOleCache::EnumCache
@@ -80,4 +80,3 @@ The enumerator object returned by this method implements the <a href="/windows/d
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iolecache-cache">IOleCache::Cache</a>
-

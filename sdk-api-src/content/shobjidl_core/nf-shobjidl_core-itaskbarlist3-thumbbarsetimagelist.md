@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3::ThumbBarSetImageList
+ - ITaskbarList3.ThumbBarSetImageList
 ---
 
 # ITaskbarList3::ThumbBarSetImageList
@@ -160,4 +160,3 @@ HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SERVICE_CONTRACT
  - WS_SERVICE_CONTRACT
 ---
 
@@ -68,4 +67,3 @@ Callback for processing unhandled messages. Optional if contractDescription is g
 ### -field methodTable
 
 The function table. Mandatory, if <b>contractDescription</b> is given.
-

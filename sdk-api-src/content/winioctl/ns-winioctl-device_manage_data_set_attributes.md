@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
- - PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
  - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
@@ -281,4 +279,3 @@ The total length of the buffer that contains this structure must be at least
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-

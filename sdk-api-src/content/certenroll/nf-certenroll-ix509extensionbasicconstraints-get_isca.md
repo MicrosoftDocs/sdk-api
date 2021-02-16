@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509ExtensionBasicConstraints::get_IsCA
+ - IX509ExtensionBasicConstraints.IsCA
+ - IX509ExtensionBasicConstraints.get_IsCA
 ---
 
 # IX509ExtensionBasicConstraints::get_IsCA
@@ -63,4 +64,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509extensionba
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionbasicconstraints">IX509ExtensionBasicConstraints</a>
-

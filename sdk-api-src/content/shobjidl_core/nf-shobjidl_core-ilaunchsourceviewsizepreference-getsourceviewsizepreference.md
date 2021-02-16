@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ILaunchSourceViewSizePreference::GetSourceViewSizePreference
+ - ILaunchSourceViewSizePreference.GetSourceViewSizePreference
 ---
 
 # ILaunchSourceViewSizePreference::GetSourceViewSizePreference
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ilaunchsourceviewsizepreference">ILaunchSourceViewSizePreference</a>
-

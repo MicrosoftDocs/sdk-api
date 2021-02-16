@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderNotifications::OnUnload
+ - IVssProviderNotifications.OnUnload
 ---
 
 # IVssProviderNotifications::OnUnload
@@ -106,4 +106,3 @@ If <i>bForceUnload</i> is <b>TRUE</b>, the return value must be
 
 
 <a href="/windows/desktop/api/vsprov/nf-vsprov-ivssprovidernotifications-onload">OnLoad</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGroupPolicyObject::GetFileSysPath
+ - IGroupPolicyObject.GetFileSysPath
 ---
 
 # IGroupPolicyObject::GetFileSysPath
@@ -111,4 +111,3 @@ To retrieve the Active Directory path to the root of a GPO section, you can call
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igrouppolicyobject">IGroupPolicyObject</a>
-

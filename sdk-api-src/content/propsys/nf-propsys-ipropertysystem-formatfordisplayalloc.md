@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertySystem::FormatForDisplayAlloc
+ - IPropertySystem.FormatForDisplayAlloc
 ---
 
 # IPropertySystem::FormatForDisplayAlloc
@@ -263,4 +263,3 @@ If the property key does not correspond to a property description in any of the 
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

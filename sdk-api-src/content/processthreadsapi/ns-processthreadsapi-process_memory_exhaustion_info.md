@@ -46,8 +46,6 @@ api_type:
 api_location:
  - processthreadsapi.h
 api_name:
- - _PROCESS_MEMORY_EXHAUSTION_INFO
- - PPROCESS_MEMORY_EXHAUSTION_INFO
  - PROCESS_MEMORY_EXHAUSTION_INFO
 ---
 
@@ -102,4 +100,3 @@ Used to turn the feature on or off.
 
 
 <a href="/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
-

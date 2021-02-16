@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::GetPixelFormat
+ - IShellImageData.GetPixelFormat
 ---
 
 # IShellImageData::GetPixelFormat
@@ -87,4 +87,3 @@ The image has not been decoded or the decoding process failed.
 ## -remarks
 
 Values that identify various pixel formats are defined in Gdipluspixelformats.h.
-

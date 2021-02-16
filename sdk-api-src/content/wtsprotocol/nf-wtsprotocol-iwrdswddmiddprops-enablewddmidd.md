@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wtsprotocol.h
 api_name:
- - IWRdsWddmIddProps::EnableWddmIdd
+ - IWRdsWddmIddProps.EnableWddmIdd
 ---
 
 # IWRdsWddmIddProps::EnableWddmIdd

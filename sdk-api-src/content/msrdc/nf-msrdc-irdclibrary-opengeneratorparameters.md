@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcLibrary::OpenGeneratorParameters
+ - IRdcLibrary.OpenGeneratorParameters
 ---
 
 # IRdcLibrary::OpenGeneratorParameters
@@ -90,4 +90,3 @@ To create a serialized parameter block, use the <a href="/previous-versions/wind
 
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-irdclibrary">IRdcLibrary</a>
-

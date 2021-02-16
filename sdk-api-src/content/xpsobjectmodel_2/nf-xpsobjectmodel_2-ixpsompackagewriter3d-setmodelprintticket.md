@@ -42,7 +42,7 @@ api_type:
 api_location:
  - XpsObjectModel_2.h
 api_name:
- - IXpsOMPackageWriter3D::SetModelPrintTicket
+ - IXpsOMPackageWriter3D.SetModelPrintTicket
 ---
 
 # IXpsOMPackageWriter3D::SetModelPrintTicket
@@ -73,4 +73,3 @@ Call this method at most once per package writer. Calling this method creates a 
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_2/nn-xpsobjectmodel_2-ixpsompackagewriter3d">IXpsOMPackageWriter3D</a>
-

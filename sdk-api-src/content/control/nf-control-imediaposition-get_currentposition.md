@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::get_CurrentPosition
+ - IMediaPosition.get_CurrentPosition
 ---
 
 # IMediaPosition::get_CurrentPosition
@@ -116,4 +116,3 @@ If the graph is paused or stopped, the current position is the point at which pl
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-

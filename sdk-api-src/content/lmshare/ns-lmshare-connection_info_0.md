@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _CONNECTION_INFO_0
- - PCONNECTION_INFO_0
  - CONNECTION_INFO_0
 ---
 
@@ -79,4 +77,3 @@ Specifies a connection identification number.
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-

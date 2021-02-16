@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IEnumGuideDataProperties::Next
+ - IEnumGuideDataProperties.Next
 ---
 
 # IEnumGuideDataProperties::Next
@@ -117,4 +117,3 @@ NULL pointer argument.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-ienumguidedataproperties">IEnumGuideDataProperties Interface</a>
-

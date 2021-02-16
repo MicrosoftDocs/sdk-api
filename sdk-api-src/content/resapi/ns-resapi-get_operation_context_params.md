@@ -44,7 +44,6 @@ api_location:
  - 
 api_name:
  - GET_OPERATION_CONTEXT_PARAMS
- - PGET_OPERATION_CONTEXT_PARAMS
 ---
 
 # GET_OPERATION_CONTEXT_PARAMS structure
@@ -75,4 +74,3 @@ TBD
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-structures">Resource DLL Structures</a>
-

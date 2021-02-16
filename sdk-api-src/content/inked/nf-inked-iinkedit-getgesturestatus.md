@@ -43,7 +43,7 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::GetGestureStatus
+ - IInkEdit.GetGestureStatus
 ---
 
 # IInkEdit::GetGestureStatus
@@ -188,4 +188,3 @@ To set the interest of the <a href="/windows/desktop/tablet/inkedit-control-refe
 
 
 <a href="/windows/desktop/api/inked/nf-inked-iinkedit-setgesturestatus">SetGestureStatus Method [InkEdit Control]</a>
-

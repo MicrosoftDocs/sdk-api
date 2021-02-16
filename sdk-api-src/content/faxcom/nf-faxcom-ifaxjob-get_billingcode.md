@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::get_BillingCode
+ - IFaxJob.BillingCode
+ - IFaxJob.get_BillingCode
 ---
 
 # IFaxJob::get_BillingCode
@@ -77,4 +78,3 @@ If billing information is not available, the <b>IFaxJob::get_BillingCode</b> pro
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxjobs">IFaxJobs</a>
-

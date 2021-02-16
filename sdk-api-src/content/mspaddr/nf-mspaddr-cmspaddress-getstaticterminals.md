@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspaddr.h
 api_name:
- - CMSPAddress::GetStaticTerminals
+ - CMSPAddress.GetStaticTerminals
 ---
 
 # CMSPAddress::GetStaticTerminals
@@ -71,4 +71,3 @@ Pointer to array of
 ## -see-also
 
 <a href="/windows/desktop/api/mspaddr/nl-mspaddr-cmspaddress">CMSPAddress</a>
-

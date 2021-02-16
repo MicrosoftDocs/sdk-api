@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFClockConsumer::SetPresentationClock
+ - IMFClockConsumer.SetPresentationClock
 ---
 
 # IMFClockConsumer::SetPresentationClock
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfclockconsumer">IMFClockConsumer</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - sysinfoapi.h
 api_name:
- - _COMPUTER_NAME_FORMAT
  - COMPUTER_NAME_FORMAT
 ---
 
@@ -105,4 +104,3 @@ Not used.
 
 
 <a href="/windows/desktop/api/sysinfoapi/nf-sysinfoapi-setcomputernameexa">SetComputerNameEx</a>
-

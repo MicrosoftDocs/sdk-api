@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleManifestReader::GetStream
+ - IAppxBundleManifestReader.GetStream
 ---
 
 # IAppxBundleManifestReader::GetStream
@@ -73,4 +73,3 @@ The raw XML stream is the entire source stream and might contain elements and at
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlemanifestreader">IAppxBundleManifestReader</a>
-

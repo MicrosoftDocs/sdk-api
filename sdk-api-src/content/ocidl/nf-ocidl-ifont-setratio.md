@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::SetRatio
+ - IFont.SetRatio
 ---
 
 # IFont::SetRatio
@@ -84,4 +84,3 @@ The method supports the standard return values E_UNEXPECTED, E_INVALIDARG, and S
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-put_size">IFont::put_Size</a>
-

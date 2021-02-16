@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportTftpManager::RetrieveTftpClients
+ - IWdsTransportTftpManager.RetrieveTftpClients
 ---
 
 # IWdsTransportTftpManager::RetrieveTftpClients
@@ -65,4 +65,3 @@ A pointer to a pointer to an object of the <a href="/windows/desktop/api/wdstptm
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransporttftpmanager">IWdsTransportTftpManager</a>
-

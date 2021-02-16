@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IAudioMediaStream::CreateSample
+ - IAudioMediaStream.CreateSample
 ---
 
 # IAudioMediaStream::CreateSample
@@ -79,4 +79,3 @@ The <i>pAudioData</i> object defines the data's format.
 ## -see-also
 
 <a href="/windows/desktop/api/austream/nn-austream-iaudiomediastream">IAudioMediaStream Interface</a>
-

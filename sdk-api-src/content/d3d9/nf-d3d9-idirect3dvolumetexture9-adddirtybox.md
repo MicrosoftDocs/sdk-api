@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DVolumeTexture9::AddDirtyBox
+ - IDirect3DVolumeTexture9.AddDirtyBox
 ---
 
 # IDirect3DVolumeTexture9::AddDirtyBox
@@ -76,4 +76,3 @@ Using <a href="/windows/desktop/direct3d9/d3dlock">D3DLOCK_NO_DIRTY_UPDATE</a> a
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3dvolumetexture9">IDirect3DVolumeTexture9</a>
-

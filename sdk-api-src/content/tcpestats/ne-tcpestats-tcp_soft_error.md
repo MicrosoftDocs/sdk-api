@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Tcpestats.h
 api_name:
- - PTCP_SOFT_ERROR
  - TCP_SOFT_ERROR
 ---
 
@@ -129,4 +128,3 @@ The values in this enumeration are defined in the IETF draft RFC on the TCP Exte
 
 
 <a href="/windows/desktop/api/tcpestats/ne-tcpestats-tcp_estats_type">TCP_ESTATS_TYPE</a>
-

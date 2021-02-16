@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetFileVersionInfoExW
  - winver/GetFileVersionInfoExW
- - GetFileVersionInfoEx
- - winver/GetFileVersionInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Core-Version-L1-1-1.dll
  - version.dll
 api_name:
- - GetFileVersionInfoExW
  - GetFileVersionInfoEx
+ - GetFileVersionInfoExA
+ - GetFileVersionInfoExW
 ---
 
 # GetFileVersionInfoExW function
@@ -189,4 +188,3 @@ Call the <a href="/windows/desktop/api/winver/nf-winver-getfileversioninfosizeex
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
-

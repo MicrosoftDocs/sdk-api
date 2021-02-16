@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegEnumValueW
  - winreg/RegEnumValueW
- - RegEnumValue
- - winreg/RegEnumValue
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - api-ms-win-core-registry-l1-1-1.dll
 api_name:
- - RegEnumValueW
  - RegEnumValue
+ - RegEnumValueA
+ - RegEnumValueW
 ---
 
 # RegEnumValueW function
@@ -201,4 +200,3 @@ For an example, see
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
-

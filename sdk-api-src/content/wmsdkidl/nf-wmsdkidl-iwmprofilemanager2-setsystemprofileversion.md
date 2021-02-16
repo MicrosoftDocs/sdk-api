@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager2::SetSystemProfileVersion
+ - IWMProfileManager2.SetSystemProfileVersion
 ---
 
 # IWMProfileManager2::SetSystemProfileVersion
@@ -78,4 +78,3 @@ WMT_VER_4_0 is the default for backward-compatibility only, so be sure to set th
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofilemanager2-getsystemprofileversion">IWMProfileManager2::GetSystemProfileVersion</a>
-

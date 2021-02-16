@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily::GetCellAscent
+ - FontFamily.GetCellAscent
 ---
 
 # FontFamily::GetCellAscent
@@ -90,4 +90,3 @@ This method returns the cell ascent, in design units, of this font family for th
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-obtaining-font-metrics-use">Obtaining Font Metrics</a>
-

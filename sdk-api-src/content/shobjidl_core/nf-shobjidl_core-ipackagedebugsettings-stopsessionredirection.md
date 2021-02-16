@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::StopSessionRedirection
+ - IPackageDebugSettings.StopSessionRedirection
 ---
 
 # IPackageDebugSettings::StopSessionRedirection
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-startsessionredirection">StartSessionRedirection</a>
-

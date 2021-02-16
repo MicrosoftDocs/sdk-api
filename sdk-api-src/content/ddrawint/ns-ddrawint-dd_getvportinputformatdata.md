@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_GETVPORTINPUTFORMATDATA
- - PDD_GETVPORTINPUTFORMATDATA
  - DD_GETVPORTINPUTFORMATDATA
 ---
 
@@ -118,4 +116,3 @@ Used by the DirectDraw API and should not be filled in by the driver.
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getinputformats">DdVideoPortGetInputFormats</a>
-

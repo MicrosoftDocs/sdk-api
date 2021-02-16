@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspstrm.h
 api_name:
- - CMSPStream::HandleTSPData
+ - CMSPStream.HandleTSPData
 ---
 
 # CMSPStream::HandleTSPData
@@ -67,4 +67,3 @@ Size in bytes of opaque buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/mspstrm/nl-mspstrm-cmspstream">CMSPStream</a>
-

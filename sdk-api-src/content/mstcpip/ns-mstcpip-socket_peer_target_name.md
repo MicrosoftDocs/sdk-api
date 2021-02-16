@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mstcpip.h
 api_name:
- - _SOCKET_PEER_TARGET_NAME
  - SOCKET_PEER_TARGET_NAME
 ---
 
@@ -110,4 +109,3 @@ The implementation of IPsec on Windows Vistaand Windows Server 2008 only suppo
 
 
 <a href="/windows/desktop/WinSock/winsock-secure-socket-extensions">Winsock Secure Socket Extensions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation
+ - IDWriteTextAnalyzer1.AnalyzeVerticalGlyphOrientation
 ---
 
 # IDWriteTextAnalyzer1::AnalyzeVerticalGlyphOrientation

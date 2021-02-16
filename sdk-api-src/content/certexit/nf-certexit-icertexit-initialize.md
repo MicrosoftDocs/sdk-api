@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certexit.h
 api_name:
- - ICertExit::Initialize
+ - ICertExit2.Initialize
+ - ICertExit.Initialize
+ - CCertExit.Initialize
 ---
 
 # ICertExit::Initialize
@@ -320,4 +322,3 @@ STDMETHODIMP CCertExit::Initialize(
 
 
 <a href="/windows/desktop/api/certexit/nf-certexit-icertexit-notify">Notify</a>
-

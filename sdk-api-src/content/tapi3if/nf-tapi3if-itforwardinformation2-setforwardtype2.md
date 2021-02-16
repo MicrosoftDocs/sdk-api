@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITForwardInformation2::SetForwardType2
+ - ITForwardInformation2.SetForwardType2
 ---
 
 # ITForwardInformation2::SetForwardType2
@@ -141,4 +141,3 @@ The <i>pDestAddress</i> or <i>pCallerAddress</i> parameter is not a valid pointe
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itforwardinformation-setforwardtype">ITForwardInformation::SetForwardType</a>
-

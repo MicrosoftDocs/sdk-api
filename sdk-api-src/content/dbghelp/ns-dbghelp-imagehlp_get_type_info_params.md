@@ -46,8 +46,6 @@ api_type:
 api_location:
  - DbgHelp.h
 api_name:
- - _IMAGEHLP_GET_TYPE_INFO_PARAMS
- - PIMAGEHLP_GET_TYPE_INFO_PARAMS
  - IMAGEHLP_GET_TYPE_INFO_PARAMS
 ---
 
@@ -168,4 +166,3 @@ A bitmask indexed by <b>Buffer</b> element index that indicates which request da
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgettypeinfoex">SymGetTypeInfoEx</a>
-

@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_DRIVE_EXTENT
- - PVDS_DRIVE_EXTENT
  - VDS_DRIVE_EXTENT
 ---
 
@@ -105,4 +103,3 @@ A disk extent is a contiguous set of blocks on a single disk or LUN handled by a
 
 
 <a href="/windows/desktop/VDS/vds-structures">VDS Structures</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxStartPrintJobW
  - winfax/FaxStartPrintJobW
- - FaxStartPrintJob
- - winfax/FaxStartPrintJob
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxStartPrintJobW
  - FaxStartPrintJob
+ - FaxStartPrintJobA
+ - FaxStartPrintJobW
 ---
 
 # FaxStartPrintJobW function
@@ -216,4 +215,3 @@ A fax client application must call the <b>FaxStartPrintJob</b> function before c
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxprintcoverpagea">FaxPrintCoverPage</a>
-

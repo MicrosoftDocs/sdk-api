@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRL_FIND_ISSUED_FOR_PARA
- - PCRL_FIND_ISSUED_FOR_PARA
  - CRL_FIND_ISSUED_FOR_PARA
 ---
 
@@ -68,4 +66,3 @@ A pointer to a subject's certificate context.
 ### -field pIssuerCert
 
 A pointer to a certificate issuer's certificate context.
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_explode_dnW
  - winldap/ldap_explode_dnW
- - ldap_explode_dn
- - winldap/ldap_explode_dn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_explode_dnW
  - ldap_explode_dn
+ - ldap_explode_dnA
+ - ldap_explode_dnW
 ---
 
 # ldap_explode_dnW function
@@ -90,4 +89,3 @@ Calling <b>ldap_explode_dn</b> with a pointer to a constant string will cause th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
-

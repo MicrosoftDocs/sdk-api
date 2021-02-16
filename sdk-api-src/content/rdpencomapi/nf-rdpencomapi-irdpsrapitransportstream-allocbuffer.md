@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPITransportStream::AllocBuffer
+ - IRDPSRAPITransportStream.AllocBuffer
 ---
 
 # IRDPSRAPITransportStream::AllocBuffer
@@ -79,4 +79,3 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapitransportstreambuffer">IRDPSRAPITransportStreamBuffer</a>
-

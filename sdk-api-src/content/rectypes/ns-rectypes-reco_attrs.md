@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - tagRECO_ATTRS
  - RECO_ATTRS
 ---
 
@@ -82,4 +81,3 @@ The <i>awcFriendlyName</i> parameter may be empty (that is, having the first ele
 ## -see-also
 
 <a href="/windows/desktop/api/recapis/nf-recapis-getrecoattributes">GetRecoAttributes Function</a>
-

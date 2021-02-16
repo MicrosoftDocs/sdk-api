@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::GetEditProperty
+ - IAMExtTransport.GetEditProperty
 ---
 
 # IAMExtTransport::GetEditProperty
@@ -94,4 +94,3 @@ For a list of edit event parameters and their possible values, see <a href="/win
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-seteditproperty">IAMExtTransport::SetEditProperty</a>
-

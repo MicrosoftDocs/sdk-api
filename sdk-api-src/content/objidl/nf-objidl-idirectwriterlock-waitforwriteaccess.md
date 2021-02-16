@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IDirectWriterLock::WaitForWriteAccess
+ - IDirectWriterLock.WaitForWriteAccess
 ---
 
 # IDirectWriterLock::WaitForWriteAccess
@@ -75,4 +75,3 @@ This method returns immediately if no readers have the storage open. If the stor
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-idirectwriterlock-releasewriteaccess">IDirectWriterLock::ReleaseWriteAccess</a>
-

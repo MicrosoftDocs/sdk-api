@@ -43,7 +43,7 @@ api_location:
  - d3d11.h
  - d3dcommon.h
 api_name:
- - D3D_PRIMITIVE
+ - D3D11_PRIMITIVE
 ---
 
 # D3D_PRIMITIVE enumeration
@@ -316,4 +316,3 @@ typedef D3D_PRIMITIVE D3D11_PRIMITIVE;
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-core-enums">Core Enumerations</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiSetDeviceInterfacePropertyW
  - setupapi/SetupDiSetDeviceInterfacePropertyW
- - SetupDiSetDeviceInterfaceProperty
- - setupapi/SetupDiSetDeviceInterfaceProperty
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetDeviceInterfacePropertyW
  - SetupDiSetDeviceInterfaceProperty
 ---
 
@@ -242,4 +239,3 @@ To retrieve a device interface property, call <a href="/windows/desktop/api/setu
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceinterfacepropertykeys">SetupDiGetDeviceInterfacePropertyKeys</a>
-

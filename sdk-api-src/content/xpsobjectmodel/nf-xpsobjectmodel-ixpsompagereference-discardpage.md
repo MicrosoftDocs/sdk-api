@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPageReference::DiscardPage
+ - IXpsOMPageReference.DiscardPage
 ---
 
 # IXpsOMPageReference::DiscardPage
@@ -112,4 +112,3 @@ If the page has been constructed from a file and subsequently modified, <b>Disca
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

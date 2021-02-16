@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidOutputDevices::get_Item
+ - IMSVidOutputDevices.get_Item
 ---
 
 # IMSVidOutputDevices::get_Item
@@ -137,4 +137,3 @@ If the method succeeds, the <a href="/previous-versions/windows/desktop/mstv/msv
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidoutputdevices">IMSVidOutputDevices Interface</a>
-

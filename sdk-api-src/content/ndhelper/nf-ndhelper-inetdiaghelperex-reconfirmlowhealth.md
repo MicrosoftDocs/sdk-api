@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelperEx::ReconfirmLowHealth
+ - INetDiagHelperEx.ReconfirmLowHealth
 ---
 
 # INetDiagHelperEx::ReconfirmLowHealth
@@ -110,4 +110,3 @@ This method is not required when building a Helper Class Extension.
 
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelperex">INetDiagHelperEx</a>
-

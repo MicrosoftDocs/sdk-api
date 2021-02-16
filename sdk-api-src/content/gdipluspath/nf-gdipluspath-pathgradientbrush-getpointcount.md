@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::GetPointCount
+ - PathGradientBrush.GetPointCount
 ---
 
 # PathGradientBrush::GetPointCount
@@ -84,4 +84,3 @@ This method returns the number of points in the array of points that defines thi
 
 
 <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-point">Point</a>
-

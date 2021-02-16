@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeLib::SetDocString
+ - ICreateTypeLib.SetDocString
 ---
 
 # ICreateTypeLib::SetDocString
@@ -120,4 +120,3 @@ The documentation string is a brief description of the library intended for use 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypelib">ICreateTypeLib</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMDocument::SetPrintTicketResource
+ - IXpsOMDocument.SetPrintTicketResource
 ---
 
 # IXpsOMDocument::SetPrintTicketResource
@@ -111,4 +111,3 @@ If the document contains an <a href="/windows/desktop/api/xpsobjectmodel/nn-xpso
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

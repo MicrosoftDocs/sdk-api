@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPin::EnumMediaTypes
+ - IPin.EnumMediaTypes
 ---
 
 # IPin::EnumMediaTypes
@@ -129,4 +129,3 @@ The <a href="/windows/desktop/api/strmif/nn-strmif-ienummediatypes">IEnumMediaTy
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipin">IPin Interface</a>
-

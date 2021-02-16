@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_NEGO2_INFO
- - PSECPKG_NEGO2_INFO
  - SECPKG_NEGO2_INFO
 ---
 
@@ -71,4 +69,3 @@ The authentication identifier.
 ### -field PackageFlags
 
 The flags associated with the authentication package.
-

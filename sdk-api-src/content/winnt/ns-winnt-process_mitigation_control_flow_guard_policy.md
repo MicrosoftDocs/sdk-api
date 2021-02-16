@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY
- - PPROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY
  - PROCESS_MITIGATION_CONTROL_FLOW_GUARD_POLICY
 ---
 
@@ -83,4 +81,3 @@ If TRUE, all DLLs that are loaded must enable CFG. If a DLL does not enable CFG 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME.ReservedFlags
 
 This member is reserved for system use.
-

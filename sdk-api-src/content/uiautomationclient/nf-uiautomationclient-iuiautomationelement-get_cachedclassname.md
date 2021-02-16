@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CachedClassName
+ - IUIAutomationElement.CachedClassName
+ - IUIAutomationElement.get_CachedClassName
 ---
 
 # IUIAutomationElement::get_CachedClassName
@@ -75,4 +76,3 @@ The value of this property is implementation-defined. The property is useful in 
 
 
 <b>Reference</b>
-

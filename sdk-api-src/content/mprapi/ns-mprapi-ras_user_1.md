@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _RAS_USER_1
- - PRAS_USER_1
  - RAS_USER_1
 ---
 
@@ -180,4 +178,3 @@ Remote access policies determine whether the user is allowed dial-in access.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-

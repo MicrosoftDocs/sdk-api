@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleVerb::SetVerbState
+ - IConsoleVerb.SetVerbState
 ---
 
 # IConsoleVerb::SetVerbState
@@ -78,4 +78,3 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
-

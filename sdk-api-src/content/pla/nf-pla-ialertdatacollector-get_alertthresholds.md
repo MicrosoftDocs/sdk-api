@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IAlertDataCollector::get_AlertThresholds
+ - IAlertDataCollector.AlertThresholds
+ - IAlertDataCollector.get_AlertThresholds
+ - IAlertDataCollector.put_AlertThresholds
 ---
 
 # IAlertDataCollector::get_AlertThresholds
@@ -70,4 +72,3 @@ If you use XML to define the alert, you must use "&amp;gt;" for the greater than
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ialertdatacollector">IAlertDataCollector</a>
-

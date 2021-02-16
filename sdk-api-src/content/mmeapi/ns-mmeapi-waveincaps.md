@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - waveincaps_tag
- - PWAVEINCAPS
  - WAVEINCAPS
 ---
 
@@ -162,4 +160,3 @@ Number specifying whether the device supports mono (1) or stereo (2) input.
 
 
 <a href="/windows/desktop/Multimedia/waveform-structures">Waveform Structures</a>
-

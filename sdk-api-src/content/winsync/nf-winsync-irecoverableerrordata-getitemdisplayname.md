@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - IRecoverableErrorData::GetItemDisplayName
+ - IRecoverableErrorData.GetItemDisplayName
 ---
 
 # IRecoverableErrorData::GetItemDisplayName
@@ -117,4 +117,3 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-irecoverableerrordata">IRecoverableErrorData Interface</a>
-

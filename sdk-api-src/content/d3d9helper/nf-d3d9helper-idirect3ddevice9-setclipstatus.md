@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetClipStatus
+ - IDirect3DDevice9.SetClipStatus
 ---
 
 # IDirect3DDevice9::SetClipStatus
@@ -83,4 +83,3 @@ Clip status is not updated by <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-getclipstatus">IDirect3DDevice9::GetClipStatus</a>
-

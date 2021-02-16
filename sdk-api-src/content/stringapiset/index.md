@@ -9,8 +9,6 @@ tech.root: intl
 f1_keywords:
  - stringapiset
  - stringapiset/stringapiset
-api_name:
- - stringapiset
 ---
 
 # Stringapiset.h header

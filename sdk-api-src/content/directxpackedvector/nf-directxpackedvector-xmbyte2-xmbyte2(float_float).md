@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMBYTE2::XMBYTE2
+ - XMBYTE2.XMBYTE2
 ---
 
 # XMBYTE2::XMBYTE2(float,float)
@@ -93,4 +93,3 @@ The following pseudocode demonstrates the operation of this constructor:
 
 
 <a href="/windows/desktop/dxmath/xmbyte2-ctor">XMBYTE2 Constructors</a>
-

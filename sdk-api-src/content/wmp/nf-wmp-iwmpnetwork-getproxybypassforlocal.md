@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::getProxyBypassForLocal
+ - IWMPNetwork.getProxyBypassForLocal
 ---
 
 # IWMPNetwork::getProxyBypassForLocal
@@ -101,4 +101,3 @@ This method fails unless the calling application is running on the local compute
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxybypassforlocal">IWMPNetwork::setProxyBypassForLocal</a>
-

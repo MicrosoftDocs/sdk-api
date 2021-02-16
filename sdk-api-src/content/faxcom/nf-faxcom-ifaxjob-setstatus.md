@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxJob::SetStatus
+ - IFaxJob.SetStatus
+ - IFaxJob.SetStatus
 ---
 
 # IFaxJob::SetStatus
@@ -118,4 +119,3 @@ You can use the <a href="/previous-versions/windows/desktop/fax/-mfax-ifaxjob-ge
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-fax-jobs">Managing Fax Jobs</a>
-

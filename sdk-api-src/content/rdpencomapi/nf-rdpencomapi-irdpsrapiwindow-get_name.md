@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIWindow::get_Name
+ - IRDPSRAPIWindow.Name
+ - IRDPSRAPIWindow.get_Name
+ - RDPSRAPIWindow.Name
 ---
 
 # IRDPSRAPIWindow::get_Name
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiwindow">IRDPSRAPIWindow</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
- - _tagSYNCMGRITEM
- - LPSYNCMGRITEM
  - SYNCMGRITEM
 ---
 
@@ -117,4 +115,3 @@ The time of the last synchronization for this item.
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgritemflags">SYNCMGRITEMFLAGS</a>
-

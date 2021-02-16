@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - __MIDL___MIDL_itf_winsync_0000_0000_0004
  - SYNC_FULL_ENUMERATION_ACTION
 ---
 
@@ -76,4 +75,3 @@ Cancel the synchronization session. All methods will return errors as if they we
 
 
 <a href="/previous-versions/windows/desktop/winsync/windows-sync-enumerations">Windows Sync Enumerations</a>
-

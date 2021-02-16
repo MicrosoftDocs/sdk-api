@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dhcpsapi.h
 api_name:
- - PDHCPV6_STATELESS_SCOPE_STATS
  - DHCPV6_STATELESS_SCOPE_STATS
 ---
 
@@ -76,4 +75,3 @@ Integer that specifies the number of IPv6 stateless clients that have been remov
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpv6getstatelessstatistics">DhcpV6GetStatelessStatistics</a>
-

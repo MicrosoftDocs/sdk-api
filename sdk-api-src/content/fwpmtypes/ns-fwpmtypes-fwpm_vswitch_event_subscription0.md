@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_VSWITCH_EVENT_SUBSCRIPTION0_
  - FWPM_VSWITCH_EVENT_SUBSCRIPTION0
 ---
 
@@ -76,4 +75,3 @@ Identifies the session which created the subscription.
 ## -see-also
 
 <a href="/windows/desktop/api/fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0">FwpmvSwitchEventSubscribe0</a>
-

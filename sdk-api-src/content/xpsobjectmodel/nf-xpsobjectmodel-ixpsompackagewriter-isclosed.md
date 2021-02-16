@@ -42,7 +42,8 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPackageWriter::IsClosed
+ - IXpsOMPackageWriter.IsClosed
+ - IXpsOMPackageWriter3D.IsClosed
 ---
 
 # IXpsOMPackageWriter::IsClosed
@@ -148,4 +149,3 @@ If the <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompack
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWebProxy::put_UserName
+ - IWebProxy.UserName
+ - IWebProxy.get_UserName
+ - IWebProxy.put_UserName
 ---
 
 # IWebProxy::put_UserName
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwebproxy">IWebProxy</a>
-

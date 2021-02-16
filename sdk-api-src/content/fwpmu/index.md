@@ -9,8 +9,6 @@ tech.root: fwp
 f1_keywords:
  - fwpmu
  - fwpmu/fwpmu
-api_name:
- - fwpmu
 ---
 
 # Fwpmu.h header

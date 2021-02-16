@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _RAS_PORT_1
- - PRAS_PORT_1
  - RAS_PORT_1
 ---
 
@@ -143,4 +141,3 @@ Specifies a percentage indicating the degree to which data transmitted on this c
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-administration-reference">Remote Access Service Administration Reference</a>
-

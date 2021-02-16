@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPicture::get_Height
+ - IPicture.get_Height
 ---
 
 # IPicture::get_Height
@@ -94,4 +94,3 @@ The value of <i>pHeight</i> is not valid. For example, it may be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipicture">IPicture</a>
-

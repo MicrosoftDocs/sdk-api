@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_modify_extW
  - winldap/ldap_modify_extW
- - ldap_modify_ext
- - winldap/ldap_modify_ext
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_modify_extW
  - ldap_modify_ext
+ - ldap_modify_extA
+ - ldap_modify_extW
 ---
 
 # ldap_modify_extW function
@@ -147,4 +146,3 @@ Multithreading: Calls to <b>ldap_modify_ext</b> are thread-safe.
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagMINMAXINFO
- - PMINMAXINFO
  - MINMAXINFO
 ---
 
@@ -113,4 +111,3 @@ For systems with multiple monitors, the <b>ptMaxSize</b> and <b>ptMaxPosition</b
 
 
 <a href="/windows/desktop/winmsg/windows">Windows</a>
-

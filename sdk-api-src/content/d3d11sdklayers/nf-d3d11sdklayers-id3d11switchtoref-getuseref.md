@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D11SDKLayers.h
 api_name:
- - ID3D11SwitchToRef::GetUseRef
+ - ID3D11SwitchToRef.GetUseRef
 ---
 
 # ID3D11SwitchToRef::GetUseRef
@@ -63,4 +63,3 @@ Reserved.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11switchtoref">ID3D11SwitchToRef Interface</a>
-

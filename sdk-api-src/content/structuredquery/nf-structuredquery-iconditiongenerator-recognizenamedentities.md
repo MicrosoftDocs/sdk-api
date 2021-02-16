@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IConditionGenerator::RecognizeNamedEntities
+ - IConditionGenerator.RecognizeNamedEntities
 ---
 
 # IConditionGenerator::RecognizeNamedEntities
@@ -119,4 +119,3 @@ Given an input string, a user locale (typically the user's default locale) and a
 
 
 <b>Reference</b>
-

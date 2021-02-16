@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::get_BezierPoints
+ - IInkStrokeDisp.BezierPoints
+ - IInkStrokeDisp.get_BezierPoints
+ - IInkStrokeDisp.get_BezierPoints
 ---
 
 # IInkStrokeDisp::get_BezierPoints
@@ -70,4 +72,3 @@ The control points that the <b>BezierPoints</b> property returns provide a smoot
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-

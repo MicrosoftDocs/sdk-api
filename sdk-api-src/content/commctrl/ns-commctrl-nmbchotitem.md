@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMBCHOTITEM
- - LPNMBCHOTITEM
  - NMBCHOTITEM
 ---
 
@@ -118,4 +116,3 @@ The mouse is leaving the button.
 
 
 <b>Reference</b>
-

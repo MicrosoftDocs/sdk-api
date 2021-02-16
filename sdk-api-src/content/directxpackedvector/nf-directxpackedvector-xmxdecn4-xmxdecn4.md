@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMXDECN4::XMXDECN4
+ - XMXDECN4.XMXDECN4
 ---
 
 # XMXDECN4::XMXDECN4
@@ -74,4 +74,3 @@ Default constructor for <a href="/windows/desktop/api/directxpackedvector/ns-dir
 
 
 <a href="/windows/desktop/dxmath/xmxdecn4-ctor">XMXDECN4 Constructors</a>
-

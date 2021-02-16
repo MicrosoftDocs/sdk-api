@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::AllocateSample
+ - IWMWriter.AllocateSample
 ---
 
 # IWMWriter::AllocateSample
@@ -109,4 +109,3 @@ You must use a new buffer for each sample passed to the writer object; reusing a
 
 
 <a href="/windows/desktop/wmformat/to-write-samples">To Write Samples</a>
-

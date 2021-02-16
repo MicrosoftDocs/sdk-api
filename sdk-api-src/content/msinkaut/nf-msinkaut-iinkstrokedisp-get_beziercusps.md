@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkStrokeDisp::get_BezierCusps
+ - IInkStrokeDisp.BezierCusps
+ - IInkStrokeDisp.get_BezierCusps
+ - IInkStrokeDisp.get_BezierCusps
 ---
 
 # IInkStrokeDisp::get_BezierCusps
@@ -74,4 +76,3 @@ The following code extracts the x and y values of the Bezier cusps of an <a href
 
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp">IInkStrokeDisp Interface</a>
-

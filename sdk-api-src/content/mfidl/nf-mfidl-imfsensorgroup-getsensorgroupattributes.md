@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup::GetSensorGroupAttributes
+ - IMFSensorGroup.GetSensorGroupAttributes
 ---
 
 # IMFSensorGroup::GetSensorGroupAttributes
@@ -117,4 +117,3 @@ This attribute store can be used to add runtime attributes for the <a href="/win
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
-

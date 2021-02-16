@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecComp::Cancel
+ - IStreamBufferRecComp.Cancel
 ---
 
 # IStreamBufferRecComp::Cancel
@@ -79,4 +79,3 @@ Success
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-

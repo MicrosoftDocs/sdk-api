@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN
+ - EngineAdapterIdentifyFeatureSetSecure
 ---
 
 # PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN callback function
@@ -165,4 +165,3 @@ Here is a pseudocode implementation of the SHA256 HMAC calculation:
     authorization = FinishHash(hashHandle);
 
 ```
-

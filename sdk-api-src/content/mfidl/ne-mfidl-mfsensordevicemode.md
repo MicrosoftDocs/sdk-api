@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - __MIDL___MIDL_itf_mfidl_0000_0110_0003
  - MFSensorDeviceMode
 ---
 
@@ -64,4 +63,3 @@ The device is in controller mode, which means its settings can be modified.
 ### -field MFSensorDeviceMode_Shared
 
 The device is in shared mode, which means it's settings can't be modified.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICOMAdminCatalog::GetCollectionByQuery
+ - ICOMAdminCatalog.GetCollectionByQuery
 ---
 
 # ICOMAdminCatalog::GetCollectionByQuery
@@ -83,4 +83,3 @@ For a complete list of available collections, see <a href="/windows/desktop/coss
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icomadmincatalog">ICOMAdminCatalog</a>
-

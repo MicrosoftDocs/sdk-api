@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertRequest2::GetIssuedCertificate
+ - ICertRequest3.GetIssuedCertificate
+ - ICertRequest2.GetIssuedCertificate
+ - ICertRequest.GetIssuedCertificate
+ - CCertRequest.GetIssuedCertificate
 ---
 
 # ICertRequest2::GetIssuedCertificate
@@ -156,4 +159,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 <h3>VB</h3>
 The return value is a <b>Long</b> that represents the certificate's disposition.
-

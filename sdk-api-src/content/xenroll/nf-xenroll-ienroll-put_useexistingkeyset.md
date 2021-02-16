@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::put_UseExistingKeySet
+ - IEnroll.UseExistingKeySet
+ - IEnroll.get_UseExistingKeySet
+ - IEnroll.put_UseExistingKeySet
 ---
 
 # IEnroll::put_UseExistingKeySet
@@ -79,4 +81,3 @@ The <b>UseExistingKeySet</b> property affects the behavior of the following meth
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

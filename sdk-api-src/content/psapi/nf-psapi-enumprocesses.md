@@ -47,6 +47,7 @@ api_location:
  - KernelBase.dll
 api_name:
  - EnumProcesses
+ - K32EnumProcesses
 ---
 
 # EnumProcesses function
@@ -116,4 +117,3 @@ For an example, see
 
 
 <a href="/windows/desktop/psapi/process-information">Process Information</a>
-

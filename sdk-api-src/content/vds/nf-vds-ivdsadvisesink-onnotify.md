@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdviseSink::OnNotify
+ - IVdsAdviseSink.OnNotify
 ---
 
 # IVdsAdviseSink::OnNotify
@@ -130,4 +130,3 @@ For providers that use this method to send notifications, it is good practice to
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
-

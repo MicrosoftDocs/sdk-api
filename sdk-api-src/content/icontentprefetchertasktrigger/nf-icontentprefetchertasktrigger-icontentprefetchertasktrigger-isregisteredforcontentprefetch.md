@@ -42,7 +42,7 @@ api_type:
 api_location:
  - IContentPrefetcherTaskTrigger.h
 api_name:
- - IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
+ - IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 ---
 
 # IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch
@@ -88,4 +88,3 @@ The method call was not made at the required Medium Integrity Level (Medium IL).
 ## -see-also
 
 <a href="/windows/desktop/api/icontentprefetchertasktrigger/nn-icontentprefetchertasktrigger-icontentprefetchertasktrigger">IContentPrefetcherTaskTrigger</a>
-

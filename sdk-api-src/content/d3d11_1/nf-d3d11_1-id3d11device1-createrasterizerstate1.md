@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11Device1::CreateRasterizerState1
+ - ID3D11Device1.CreateRasterizerState1
 ---
 
 # ID3D11Device1::CreateRasterizerState1
@@ -75,4 +75,3 @@ An app can create up to 4096 unique rasterizer state objects. For each object cr
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11_1/nn-d3d11_1-id3d11device1">ID3D11Device1</a>
-

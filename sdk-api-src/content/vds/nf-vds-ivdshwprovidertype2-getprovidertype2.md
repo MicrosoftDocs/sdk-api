@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsHwProviderType2::GetProviderType2
+ - IVdsHwProviderType2.GetProviderType2
 ---
 
 # IVdsHwProviderType2::GetProviderType2
@@ -109,4 +109,3 @@ If the provider object supports the <a href="/windows/desktop/api/vdshwprv/nn-vd
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_hwprovider_type">VDS_HWPROVIDER_TYPE</a>
-

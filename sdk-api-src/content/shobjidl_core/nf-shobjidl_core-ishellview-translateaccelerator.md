@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::TranslateAccelerator
+ - IShellView.TranslateAccelerator
 ---
 
 # IShellView::TranslateAccelerator
@@ -81,4 +81,3 @@ By default, the view should return S_FALSE so that Windows Explorer can either d
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

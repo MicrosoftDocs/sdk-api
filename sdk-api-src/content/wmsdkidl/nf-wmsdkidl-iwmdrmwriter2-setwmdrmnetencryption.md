@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMDRMWriter2::SetWMDRMNetEncryption
+ - IWMDRMWriter2.SetWMDRMNetEncryption
 ---
 
 # IWMDRMWriter2::SetWMDRMNetEncryption
@@ -106,4 +106,3 @@ This method is intended only to create new files from existing data that is enco
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2">IWMDRMWriter2 Interface</a>
-

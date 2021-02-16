@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_openState
+ - IWMPCore.get_openState
 ---
 
 # IWMPCore::get_openState
@@ -91,4 +91,3 @@ Windows Media Player states are not guaranteed to occur in any particular order.
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpopenstate">WMPOpenState</a>
-

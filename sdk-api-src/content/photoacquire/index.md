@@ -9,8 +9,6 @@ tech.root: picacq
 f1_keywords:
  - photoacquire
  - photoacquire/photoacquire
-api_name:
- - photoacquire
 ---
 
 # Photoacquire.h header

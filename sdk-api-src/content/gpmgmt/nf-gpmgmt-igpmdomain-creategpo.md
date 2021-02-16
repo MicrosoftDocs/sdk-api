@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMDomain::CreateGPO
+ - IGPMDomain.CreateGPO
+ - GPMDomain.CreateGPO
 ---
 
 # IGPMDomain::CreateGPO
@@ -78,4 +79,3 @@ Returns a reference to a <b>GPMGPO</b> object.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpo">IGPMGPO</a>
-

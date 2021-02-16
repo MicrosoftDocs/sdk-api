@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
+ - IVMRDeinterlaceControl9.GetDeinterlaceModeCaps
 ---
 
 # IVMRDeinterlaceControl9::GetDeinterlaceModeCaps
@@ -168,4 +168,3 @@ The method returns <b>E_INVALIDARG</b> if you do not set the <b>dwSize</b> membe
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
-

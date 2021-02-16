@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Elscore.h
 api_name:
- - _MAPPING_SERVICE_INFO
- - PMAPPING_SERVICE_INFO
  - MAPPING_SERVICE_INFO
 ---
 
@@ -241,4 +239,3 @@ Structures of this type are created in an application call to <a href="/windows/
 
 
 <a href="/windows/desktop/api/elscore/nf-elscore-mappinggetservices">MappingGetServices</a>
-

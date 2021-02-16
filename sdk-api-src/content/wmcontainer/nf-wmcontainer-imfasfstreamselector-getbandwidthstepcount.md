@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFStreamSelector::GetBandwidthStepCount
+ - IMFASFStreamSelector.GetBandwidthStepCount
 ---
 
 # IMFASFStreamSelector::GetBandwidthStepCount
@@ -92,4 +92,3 @@ Bandwidth steps are bandwidth levels used for multiple bit rate (MBR) content. I
 
 
 <a href="/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamselector-getbandwidthstep">IMFASFStreamSelector::GetBandwidthStep</a>
-

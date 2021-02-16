@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent
+ - IUIAutomationScrollPattern.CurrentHorizontalScrollPercent
+ - IUIAutomationScrollPattern.get_CurrentHorizontalScrollPercent
 ---
 
 # IUIAutomationScrollPattern::get_CurrentHorizontalScrollPercent
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationscrollpattern-get_currentverticalscrollpercent">IUIAutomationScrollPattern::CurrentVerticalScrollPercent</a>
-

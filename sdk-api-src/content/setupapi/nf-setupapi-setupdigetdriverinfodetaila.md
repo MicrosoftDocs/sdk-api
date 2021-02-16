@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetDriverInfoDetailA
  - setupapi/SetupDiGetDriverInfoDetailA
- - SetupDiGetDriverInfoDetail
- - setupapi/SetupDiGetDriverInfoDetail
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetDriverInfoDetailA
- - SetupDiGetDriverInfoDetail
+ - SetupDiGetDriverInfoDetail - SetupDiGetDriverInfoDetailA
 ---
 
 # SetupDiGetDriverInfoDetailA function
@@ -107,4 +104,3 @@ If the specified driver information member and the caller-supplied buffer are bo
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdigetselecteddrivera">SetupDiGetSelectedDriver</a>
-

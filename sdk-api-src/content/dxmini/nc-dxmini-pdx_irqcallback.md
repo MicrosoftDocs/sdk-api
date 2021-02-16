@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - PDX_IRQCALLBACK
+ - IRQCallback
 ---
 
 # PDX_IRQCALLBACK callback function
@@ -73,4 +73,3 @@ The <a href="/windows-hardware/drivers/display/video-miniport-drivers-in-the-win
 
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_enableirq">DxEnableIRQ</a>
-

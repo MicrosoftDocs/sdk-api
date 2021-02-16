@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_CALL_PACKAGEEX
+ - CallPackageEx
 ---
 
 # LSA_CALL_PACKAGEEX callback function
@@ -124,4 +124,3 @@ A pointer to the <b>CallPackageEx</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideo::SetDDrawObject
+ - IDDrawExclModeVideo.SetDDrawObject
 ---
 
 # IDDrawExclModeVideo::SetDDrawObject
@@ -114,4 +114,3 @@ A game application can use this method to share its DirectDraw object with the <
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideo">IDDrawExclModeVideo Interface</a>
-

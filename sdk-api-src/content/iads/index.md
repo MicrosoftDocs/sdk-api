@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - iads
  - iads/iads
-api_name:
- - iads
 ---
 
 # Iads.h header

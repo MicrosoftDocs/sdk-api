@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_HALINFO
- - PDD_HALINFO
  - DD_HALINFO
 ---
 
@@ -170,4 +168,3 @@ GDI allocates and zero-initializes the DD_HALINFO structure and passes it to the
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-videomemoryinfo">VIDEOMEMORYINFO</a>
-

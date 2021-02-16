@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qospol.h
 api_name:
- - _IDPE_ATTR
- - LPIDPE_ATTR
  - IDPE_ATTR
 ---
 
@@ -143,4 +141,3 @@ Policy element value.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/qos/policy-elements">Policy Elements</a>
-

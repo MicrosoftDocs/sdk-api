@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateCollection::put_Item
+ - IUpdateCollection.Item
+ - IUpdateCollection.get_Item
+ - IUpdateCollection.put_Item
 ---
 
 # IUpdateCollection::put_Item
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatecollection">IUpdateCollection</a>
-

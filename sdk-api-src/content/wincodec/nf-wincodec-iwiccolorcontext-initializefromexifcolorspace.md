@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICColorContext::InitializeFromExifColorSpace
+ - IWICColorContext.InitializeFromExifColorSpace
 ---
 
 # IWICColorContext::InitializeFromExifColorSpace

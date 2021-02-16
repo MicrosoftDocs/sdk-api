@@ -44,7 +44,6 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - _XHR_COOKIE_STATE
  - XHR_COOKIE_STATE
 ---
 
@@ -84,4 +83,3 @@ The cookie has been rejected.
 
 
 <a href="/windows/desktop/api/msxml6/ns-msxml6-xhr_cookie">XHR_COOKIE</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMBCDROPDOWN
- - LPNMBCDROPDOWN
  - NMBCDROPDOWN
 ---
 
@@ -71,4 +69,3 @@ An <a href="/windows/desktop/api/richedit/ns-richedit-nmhdr">NMHDR</a> structure
 Type: <b><a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a></b>
 
 A <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure that contains the client area of the button.
-

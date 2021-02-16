@@ -42,7 +42,7 @@ api_type:
 api_location:
  - manipulations.h
 api_name:
- - IManipulationProcessor::ProcessDown
+ - IManipulationProcessor.ProcessDown
 ---
 
 # IManipulationProcessor::ProcessDown
@@ -82,4 +82,3 @@ This method takes a timestamp using system time rather than from the touch hardw
 
 
 <a href="/windows/desktop/wintouch/mtmethods">Methods</a>
-

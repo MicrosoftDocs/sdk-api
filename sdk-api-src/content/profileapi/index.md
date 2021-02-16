@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - profileapi
  - profileapi/profileapi
-api_name:
- - profileapi
 ---
 
 # Profileapi.h header

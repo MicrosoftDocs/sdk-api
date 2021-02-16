@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFTopologyServiceLookupClient::InitServicePointers
+ - IMFTopologyServiceLookupClient.InitServicePointers
 ---
 
 # IMFTopologyServiceLookupClient::InitServicePointers
@@ -94,4 +94,3 @@ When the EVR calls <a href="/windows/desktop/api/evr/nf-evr-imftopologyservicelo
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imftopologyservicelookupclient">IMFTopologyServiceLookupClient</a>
-

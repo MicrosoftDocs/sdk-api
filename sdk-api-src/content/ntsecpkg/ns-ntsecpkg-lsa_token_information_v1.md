@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _LSA_TOKEN_INFORMATION_V1
- - PLSA_TOKEN_INFORMATION_V1
- - LSA_TOKEN_INFORMATION_V1
+ - LSA_TOKEN_INFORMATION_V2
 ---
 
 # LSA_TOKEN_INFORMATION_V1 structure
@@ -120,4 +118,3 @@ The <b>Owner.Sid</b> member may be set to <b>NULL</b> to indicate there is no al
 
 
 The <b>DefaultDacl.DefaultDacl</b> member may be set to <b>NULL</b> to indicate there is no default protection.
-

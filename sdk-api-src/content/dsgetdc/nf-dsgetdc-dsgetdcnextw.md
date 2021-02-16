@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsGetDcNextW
  - dsgetdc/DsGetDcNextW
- - DsGetDcNext
- - dsgetdc/DsGetDcNext
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Netapi32.dll
 api_name:
- - DsGetDcNextW
  - DsGetDcNext
+ - DsGetDcNextA
+ - DsGetDcNextW
 ---
 
 # DsGetDcNextW function
@@ -136,4 +135,3 @@ The following procedure shows how to get a complete DC list from a computer runn
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration::SetMaximumCacheSize
+ - IBitsPeerCacheAdministration.SetMaximumCacheSize
 ---
 
 # IBitsPeerCacheAdministration::SetMaximumCacheSize
@@ -113,4 +113,3 @@ If the request is to reduce the size of the cache and BITS is currently download
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcontentage">IBitsPeerCacheAdministration::SetMaximumContentAge</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmaccess.h
 api_name:
- - _NET_VALIDATE_PASSWORD_HASH
- - PNET_VALIDATE_PASSWORD_HASH
  - NET_VALIDATE_PASSWORD_HASH
 ---
 
@@ -83,4 +81,3 @@ The <a href="/windows/win32/api/lmaccess/ns-lmaccess-net_validate_password_chang
 
 
 <a href="/windows/desktop/NetMgmt/network-management-structures">Network Management Structures</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITaskSettings2::get_UseUnifiedSchedulingEngine
+ - ITaskSettings2.UseUnifiedSchedulingEngine
+ - ITaskSettings2.get_UseUnifiedSchedulingEngine
+ - ITaskSettings2.put_UseUnifiedSchedulingEngine
 ---
 
 # ITaskSettings2::get_UseUnifiedSchedulingEngine
@@ -67,4 +69,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

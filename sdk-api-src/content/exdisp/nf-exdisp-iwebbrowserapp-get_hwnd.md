@@ -43,7 +43,11 @@ api_location:
  - Shdocvw.dll
  - Shdocvw.dll.dll
 api_name:
- - IWebBrowserApp::get_HWND
+ - IWebBrowserApp.HWND
+ - IWebBrowserApp.get_HWND
+ - IWebBrowser2.HWND
+ - IWebBrowser2.get_HWND
+ - IWebBrowser2.get_HWND
 ---
 
 # IWebBrowserApp::get_HWND
@@ -64,4 +68,3 @@ Internet Explorer 7. With the introduction of tabbed browsing, the return value 
 ## -see-also
 
 <a href="/windows/desktop/api/exdisp/nn-exdisp-iwebbrowser2">IWebBrowser2</a>
-

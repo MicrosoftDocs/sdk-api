@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetNtmsUIOptionsA
  - ntmsapi/GetNtmsUIOptionsA
- - GetNtmsUIOptions
- - ntmsapi/GetNtmsUIOptions
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - GetNtmsUIOptionsA
  - GetNtmsUIOptions
+ - GetNtmsUIOptionsA
+ - GetNtmsUIOptionsW
 ---
 
 # GetNtmsUIOptionsA function
@@ -263,4 +262,3 @@ A call to
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsuioptionsa">SetNtmsUIOptions</a>
-

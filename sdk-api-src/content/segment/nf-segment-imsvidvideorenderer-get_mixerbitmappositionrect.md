@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidVideoRenderer::get_MixerBitmapPositionRect
+ - IMSVidVideoRenderer.get_MixerBitmapPositionRect
 ---
 
 # IMSVidVideoRenderer::get_MixerBitmapPositionRect
@@ -79,4 +79,3 @@ The returned <a href="/previous-versions/windows/desktop/mstv/msvidrect">IMSVidR
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidvideorenderer-put_mixerbitmappositionrect">IMSVidVideoRenderer::put_MixerBitmapPositionRect</a>
-

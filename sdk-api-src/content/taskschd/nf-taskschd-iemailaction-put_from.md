@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IEmailAction::put_From
+ - IEmailAction.From
+ - IEmailAction.get_From
+ - IEmailAction.put_From
 ---
 
 # IEmailAction::put_From

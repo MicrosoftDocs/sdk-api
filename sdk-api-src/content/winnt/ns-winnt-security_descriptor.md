@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _SECURITY_DESCRIPTOR
- - PISECURITY_DESCRIPTOR
  - SECURITY_DESCRIPTOR
 ---
 
@@ -130,4 +128,3 @@ Several functions that use the <b>SECURITY_DESCRIPTOR</b> structure require that
 
 
 <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-setsecuritydescriptorsacl">SetSecurityDescriptorSacl</a>
-

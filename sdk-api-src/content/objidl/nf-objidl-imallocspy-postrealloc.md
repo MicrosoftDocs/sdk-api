@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMallocSpy::PostRealloc
+ - IMallocSpy.PostRealloc
 ---
 
 # IMallocSpy::PostRealloc
@@ -81,4 +81,3 @@ If memory is successfully reallocated while the spy is active, <i>fSpyed</i> wil
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imallocspy-prerealloc">IMallocSpy::PreRealloc</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::EnableDebugging
+ - IPackageDebugSettings.EnableDebugging
 ---
 
 # IPackageDebugSettings::EnableDebugging
@@ -90,4 +90,3 @@ To restore normal operation, call the <a href="/previous-versions/hh438394(v=vs.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipackagedebugsettings">IPackageDebugSettings</a>
-

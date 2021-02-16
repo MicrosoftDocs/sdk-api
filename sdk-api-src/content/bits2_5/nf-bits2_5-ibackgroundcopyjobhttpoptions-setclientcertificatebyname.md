@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJobHttpOptions::SetClientCertificateByName
+ - IBackgroundCopyJobHttpOptions.SetClientCertificateByName
 ---
 
 # IBackgroundCopyJobHttpOptions::SetClientCertificateByName
@@ -284,4 +284,3 @@ cleanup:
 
 
 <a href="/windows/desktop/api/bits2_5/nf-bits2_5-ibackgroundcopyjobhttpoptions-setclientcertificatebyid">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
-

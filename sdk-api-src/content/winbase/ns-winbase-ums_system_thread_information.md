@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _UMS_SYSTEM_THREAD_INFORMATION
- - PUMS_SYSTEM_THREAD_INFORMATION
  - UMS_SYSTEM_THREAD_INFORMATION
 ---
 
@@ -81,4 +79,3 @@ A bitfield that specifies a UMS worker thread. If <b>IsUmsWorkerThread</b>  is s
 ## -remarks
 
 If both <b>IsUmsSchedulerThread</b>  and <b>IsUmsWorkerThread</b> are clear, the structure specifies a non-UMS thread.
-

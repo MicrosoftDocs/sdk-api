@@ -44,7 +44,6 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - __MIDL___MIDL_itf_xpsdigitalsignature_0000_0000_0003
  - XPS_SIGN_FLAGS
 ---
 
@@ -84,4 +83,3 @@ signing the package.
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

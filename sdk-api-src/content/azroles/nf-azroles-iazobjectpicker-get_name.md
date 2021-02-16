@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzObjectPicker::get_Name
+ - IAzObjectPicker.Name
+ - IAzObjectPicker.get_Name
 ---
 
 # IAzObjectPicker::get_Name
@@ -55,4 +56,3 @@ The <b>Name</b> property gets the name of the <a href="/windows/desktop/api/azro
 This property is read-only.
 
 ## -parameters
-

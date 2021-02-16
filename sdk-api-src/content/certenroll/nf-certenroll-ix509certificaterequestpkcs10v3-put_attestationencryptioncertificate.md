@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate
+ - IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate
+ - IX509CertificateRequestPkcs10V3.get_AttestationEncryptionCertificate
+ - IX509CertificateRequestPkcs10V3.put_AttestationEncryptionCertificate
 ---
 
 # IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10v3">IX509CertificateRequestPkcs10V3</a>
-

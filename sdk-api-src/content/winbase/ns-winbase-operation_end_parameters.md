@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _OPERATION_END_PARAMETERS
- - POPERATION_END_PARAMETERS
  - OPERATION_END_PARAMETERS
 ---
 
@@ -131,4 +129,3 @@ Specifies that the system should discard the information it has been tracking fo
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-operationstart">OperationStart</a>
-

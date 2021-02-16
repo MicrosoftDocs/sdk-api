@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscRecorder::OpenExclusive
+ - IDiscRecorder.OpenExclusive
 ---
 
 # IDiscRecorder::OpenExclusive
@@ -80,4 +80,3 @@ Any time that
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscrecorder">IDiscRecorder</a>
-

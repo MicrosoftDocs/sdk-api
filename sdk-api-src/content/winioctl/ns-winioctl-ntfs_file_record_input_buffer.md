@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PNTFS_FILE_RECORD_INPUT_BUFFER
  - NTFS_FILE_RECORD_INPUT_BUFFER
 ---
 
@@ -75,4 +74,3 @@ Pass this structure as input to the
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-ntfs_file_record_output_buffer">NTFS_FILE_RECORD_OUTPUT_BUFFER</a>
-

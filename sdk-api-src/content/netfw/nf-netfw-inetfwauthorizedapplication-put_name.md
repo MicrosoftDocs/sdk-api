@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplication::put_Name
+ - INetFwAuthorizedApplication.Name
+ - INetFwAuthorizedApplication.get_Name
+ - INetFwAuthorizedApplication.put_Name
 ---
 
 # INetFwAuthorizedApplication::put_Name
@@ -66,4 +68,3 @@ This property is required.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplication">INetFwAuthorizedApplication</a>
-

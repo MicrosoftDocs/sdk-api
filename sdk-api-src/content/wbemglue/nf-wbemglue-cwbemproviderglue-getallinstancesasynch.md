@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue::GetAllInstancesAsynch
+ - CWbemProviderGlue.GetAllInstancesAsynch
 ---
 
 # CWbemProviderGlue::GetAllInstancesAsynch
@@ -107,4 +107,3 @@ The <b>GetAllInstancesAsynch</b> method performs almost the same function as <a 
 <div class="alert"><b>Note</b>  Because the call-back to the sink might not be returned at the same authentication level as the client requires, it is recommended that you use semisynchronous instead of asynchronous communication.  For more information, see <a href="/windows/desktop/WmiSdk/calling-a-method">Calling a Method</a>.</div>
 <div> </div>
 This method is semantically equivalent to the query SELECT * FROM <i>pszBaseClassName</i> WHERE<b> __</b>Class = <i>pszBaseClassName</i>.
-

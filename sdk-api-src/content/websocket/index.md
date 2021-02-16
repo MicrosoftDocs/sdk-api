@@ -9,8 +9,6 @@ tech.root: websock
 f1_keywords:
  - websocket
  - websocket/websocket
-api_name:
- - websocket
 ---
 
 # Websocket.h header

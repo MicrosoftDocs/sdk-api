@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d10.h
 api_name:
- - ID3D10Query::GetDesc
+ - ID3D10Query.GetDesc
 ---
 
 # ID3D10Query::GetDesc
@@ -63,4 +63,3 @@ Pointer to a query description (see <a href="/windows/desktop/api/d3d10/ns-d3d10
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10query">ID3D10Query Interface</a>
-

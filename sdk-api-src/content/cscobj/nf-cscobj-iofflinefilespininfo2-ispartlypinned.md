@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesPinInfo2::IsPartlyPinned
+ - IOfflineFilesPinInfo2.IsPartlyPinned
 ---
 
 # IOfflineFilesPinInfo2::IsPartlyPinned
@@ -82,4 +82,3 @@ Only container items, such as directories and shares, can be partly pinned. An i
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilestransparentcacheinfo-istransparentlycached">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
-

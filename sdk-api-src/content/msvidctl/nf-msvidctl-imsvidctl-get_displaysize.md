@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::get_DisplaySize
+ - IMSVidCtl.get_DisplaySize
 ---
 
 # IMSVidCtl::get_DisplaySize
@@ -77,4 +77,3 @@ The display size has no effect if the <b>AutoSize</b> property is false.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-put_displaysize">IMSVidCtl::put_DisplaySize</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - _VMR9AllocationInfo
  - VMR9AllocationInfo
 ---
 
@@ -100,4 +99,3 @@ Specifies the native video size as a <b>SIZE</b> structure.
 
 
 <a href="/windows/desktop/api/vmr9/nf-vmr9-ivmrsurfaceallocatornotify9-allocatesurfacehelper">IVMRSurfaceAllocatorNotify9::AllocateSurfaceHelper</a>
-

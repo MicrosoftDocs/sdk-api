@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer::put_Bass
+ - IAMAudioInputMixer.put_Bass
 ---
 
 # IAMAudioInputMixer::put_Bass
@@ -107,4 +107,3 @@ This method boosts or cuts the signal's bass before it is recorded, by the numbe
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_bass">IAMAudioInputMixer::get_Bass</a>
-

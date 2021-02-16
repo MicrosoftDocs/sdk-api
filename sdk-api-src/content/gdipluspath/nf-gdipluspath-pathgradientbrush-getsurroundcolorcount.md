@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::GetSurroundColorCount
+ - PathGradientBrush.GetSurroundColorCount
 ---
 
 # PathGradientBrush::GetSurroundColorCount
@@ -88,4 +88,3 @@ This method returns the number of colors that have been specified for the bounda
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setsurroundcolors">PathGradientBrush::SetSurroundColors</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certenc.dll
 api_name:
- - ICertEncodeDateArray::GetCount
+ - ICertEncodeDateArray.GetCount
+ - CCertEncodeDateArray.GetCount
 ---
 
 # ICertEncodeDateArray::GetCount
@@ -79,4 +80,3 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 <a href="/windows/desktop/api/certenc/nf-certenc-icertencodedatearray-reset">ICertEncodeDateArray::Reset</a>
-

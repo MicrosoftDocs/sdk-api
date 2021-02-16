@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_event_request_status_changed_data_tag
- - PPEER_EVENT_REQUEST_STATUS_CHANGED_DATA
  - PEER_EVENT_REQUEST_STATUS_CHANGED_DATA
 ---
 
@@ -83,4 +81,3 @@ This event is raised when the infrastructure  finishes processing the request fo
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

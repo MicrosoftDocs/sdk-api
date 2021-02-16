@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IDropTarget::DragEnter
+ - IDropTarget.DragEnter
 ---
 
 # IDropTarget::DragEnter
@@ -188,4 +188,3 @@ On return, the method must write the effect, one of the DROPEFFECT flags, to the
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-revokedragdrop">RevokeDragDrop</a>
-

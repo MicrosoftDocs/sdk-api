@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects
+ - ISpatialAudioObjectRenderStreamBase.BeginUpdatingAudioObjects
 ---
 
 # ISpatialAudioObjectRenderStreamBase::BeginUpdatingAudioObjects
@@ -165,4 +165,3 @@ For each <b>BeginUpdatingAudioObjects</b> call, there should be a corresponding 
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
-

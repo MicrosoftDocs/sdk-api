@@ -8,8 +8,6 @@ tech.root: mf
 f1_keywords:
  - icodecapi
  - icodecapi/icodecapi
-api_name:
- - icodecapi
 ---
 
 # icodecapi.h header

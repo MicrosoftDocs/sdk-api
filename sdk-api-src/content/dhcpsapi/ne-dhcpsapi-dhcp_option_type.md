@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_OPTION_TYPE
- - LPDHCP_OPTION_TYPE
  - DHCP_OPTION_TYPE
 ---
 
@@ -71,4 +69,3 @@ The option is an array of data items associated with it.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option">DHCP_OPTION</a>
-

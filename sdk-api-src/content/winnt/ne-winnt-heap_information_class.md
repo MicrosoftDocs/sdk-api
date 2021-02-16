@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _HEAP_INFORMATION_CLASS
  - HEAP_INFORMATION_CLASS
 ---
 
@@ -93,4 +92,3 @@ Look-aside lists are faster than general pool allocations that vary in size, bec
 
 
 <a href="/windows/desktop/api/heapapi/nf-heapapi-heapsetinformation">HeapSetInformation</a>
-

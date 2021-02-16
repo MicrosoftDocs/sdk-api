@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::GetProperty
+ - IAzClientContext.GetProperty
+ - AzClientContext.GetProperty
 ---
 
 # IAzClientContext::GetProperty
@@ -166,4 +167,3 @@ A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazcl
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

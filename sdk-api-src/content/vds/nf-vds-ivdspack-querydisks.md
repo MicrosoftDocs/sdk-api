@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsPack::QueryDisks
+ - IVdsPack.QueryDisks
 ---
 
 # IVdsPack::QueryDisks
@@ -102,4 +102,3 @@ The dynamic provider cache is corrupt.
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdspack">IVdsPack</a>
-

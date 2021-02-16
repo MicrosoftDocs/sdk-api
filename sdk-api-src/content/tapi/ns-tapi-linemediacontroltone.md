@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linemediacontroltone_tag
- - LPLINEMEDIACONTROLTONE
  - LINEMEDIACONTROLTONE
 ---
 
@@ -105,4 +103,3 @@ A tone with all frequencies set to zero corresponds to silence. An application c
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetmediacontrol">lineSetMediaControl</a>
-

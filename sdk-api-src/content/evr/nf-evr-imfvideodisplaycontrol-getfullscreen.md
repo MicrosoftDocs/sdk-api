@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoDisplayControl::GetFullscreen
+ - IMFVideoDisplayControl.GetFullscreen
 ---
 
 # IMFVideoDisplayControl::GetFullscreen
@@ -103,4 +103,3 @@ The EVR is currently switching between full-screen and windowed mode.
 
 
 <a href="/windows/desktop/medfound/using-the-video-display-controls">Using the Video Display Controls</a>
-

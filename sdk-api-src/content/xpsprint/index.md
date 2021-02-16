@@ -9,8 +9,6 @@ tech.root: gdi
 f1_keywords:
  - xpsprint
  - xpsprint/xpsprint
-api_name:
- - xpsprint
 ---
 
 # Xpsprint.h header

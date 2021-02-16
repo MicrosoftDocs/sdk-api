@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor::SetGlyphIndices
+ - IXpsOMGlyphsEditor.SetGlyphIndices
 ---
 
 # IXpsOMGlyphsEditor::SetGlyphIndices
@@ -147,4 +147,3 @@ The <b>advanceWidth</b> field of one or more <a href="/windows/win32/api/xpsobje
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a>
-

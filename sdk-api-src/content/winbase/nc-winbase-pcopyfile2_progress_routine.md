@@ -42,6 +42,7 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
+ - CopyFile2ProgressRoutine
  - PCOPYFILE2_PROGRESS_ROUTINE
 ---
 
@@ -227,4 +228,3 @@ Yes
 </td>
 </tr>
 </table>
-

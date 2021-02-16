@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - ICatRegister::UnRegisterCategories
+ - ICatRegister.UnRegisterCategories
 ---
 
 # ICatRegister::UnRegisterCategories
@@ -104,4 +104,3 @@ This method does not remove the component category tags from individual classes.
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatregister">ICatRegister</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_SA_BUNDLE1_
  - IPSEC_SA_BUNDLE1
 ---
 
@@ -302,4 +301,3 @@ SA lookup context which is propagated from the SA to data connections flowing ov
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

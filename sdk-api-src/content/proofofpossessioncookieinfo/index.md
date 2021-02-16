@@ -9,8 +9,6 @@ tech.root: wininet
 f1_keywords:
  - proofofpossessioncookieinfo
  - proofofpossessioncookieinfo/proofofpossessioncookieinfo
-api_name:
- - proofofpossessioncookieinfo
 ---
 
 # Proofofpossessioncookieinfo.h header

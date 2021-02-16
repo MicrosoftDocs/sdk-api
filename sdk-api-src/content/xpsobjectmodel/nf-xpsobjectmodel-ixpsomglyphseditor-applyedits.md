@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGlyphsEditor::ApplyEdits
+ - IXpsOMGlyphsEditor.ApplyEdits
 ---
 
 # IXpsOMGlyphsEditor::ApplyEdits
@@ -187,4 +187,3 @@ The <a href="/windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomglyphse
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

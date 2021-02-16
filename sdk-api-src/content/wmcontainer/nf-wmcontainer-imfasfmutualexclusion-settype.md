@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFMutualExclusion::SetType
+ - IMFASFMutualExclusion.SetType
 ---
 
 # IMFASFMutualExclusion::SetType
@@ -96,4 +96,3 @@ Sometimes, content must be made mutually exclusive in more than one way. For exa
 
 
 <a href="/windows/desktop/medfound/using-mutual-exclusion-for-asf-streams">Using Mutual Exclusion for ASF Streams</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationCacheRequest::put_AutomationElementMode
+ - IUIAutomationCacheRequest.AutomationElementMode
+ - IUIAutomationCacheRequest.get_AutomationElementMode
+ - IUIAutomationCacheRequest.put_AutomationElementMode
 ---
 
 # IUIAutomationCacheRequest::put_AutomationElementMode
@@ -63,4 +65,3 @@ This property is read/write.
 Certain operations on elements, including <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-getcurrentpropertyvalue">GetCurrentPropertyValue</a>, and <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationelement-setfocus">SetFocus</a>, require a full reference; attempting to perform these on an element that has none results in an error.
 
 Using <a href="/windows/desktop/api/uiautomationclient/ne-uiautomationclient-automationelementmode">AutomationElementMode_None</a> can be more efficient when only properties are needed, as it avoids the overhead involved in setting up full references.
-

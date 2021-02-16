@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidAudioRenderer::put_Volume
+ - IMSVidAudioRenderer.put_Volume
 ---
 
 # IMSVidAudioRenderer::put_Volume
@@ -77,4 +77,3 @@ Full volume is 0 and silence is –10,000. Multiply the desired decibel level by
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidaudiorenderer-get_volume">IMSVidAudioRenderer::get_Volume</a>
-

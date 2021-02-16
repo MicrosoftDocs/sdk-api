@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_IKEEXT_EM_FAILURE0_
  - FWPM_NET_EVENT_IKEEXT_EM_FAILURE0
 ---
 
@@ -111,4 +110,3 @@ Quick Mode (QM) filter ID associated with this failure.
 [IPSEC_FAILURE_POINT](../ipsectypes/ne-ipsectypes-ipsec_failure_point.md)
 
 [Windows Filtering Platform  API Structures](/windows/desktop/FWP/fwp-structs)
-

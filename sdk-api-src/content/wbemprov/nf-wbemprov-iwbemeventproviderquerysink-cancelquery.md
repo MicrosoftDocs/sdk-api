@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventProviderQuerySink::CancelQuery
+ - IWbemEventProviderQuerySink.CancelQuery
 ---
 
 # IWbemEventProviderQuerySink::CancelQuery
@@ -80,4 +80,3 @@ Providers use this method to help optimize the generation of events internally.
 
 
 <a href="/windows/desktop/api/wbemprov/nf-wbemprov-iwbemeventproviderquerysink-newquery">IWbemEventProviderQuerySink::NewQuery</a>
-

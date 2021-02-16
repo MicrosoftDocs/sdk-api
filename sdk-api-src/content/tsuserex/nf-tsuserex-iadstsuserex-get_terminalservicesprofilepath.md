@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx::get_TerminalServicesProfilePath
+ - IADsTSUserEx.TerminalServicesProfilePath
+ - IADsTSUserEx.get_TerminalServicesProfilePath
+ - IADsTSUserEx.put_TerminalServicesProfilePath
 ---
 
 # IADsTSUserEx::get_TerminalServicesProfilePath
@@ -181,4 +183,3 @@ WScript.echo usr.TerminalServicesProfilePath
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-

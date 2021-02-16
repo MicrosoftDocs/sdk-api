@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetLight
+ - IDirect3DDevice9.SetLight
 ---
 
 # IDirect3DDevice9::SetLight
@@ -145,4 +145,3 @@ Enable a light source by calling the <a href="/windows/desktop/api/d3d9/nf-d3d9-
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9-lightenable">IDirect3DDevice9::LightEnable</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _REQUEST_OPLOCK_INPUT_BUFFER
- - PREQUEST_OPLOCK_INPUT_BUFFER
  - REQUEST_OPLOCK_INPUT_BUFFER
 ---
 
@@ -167,4 +165,3 @@ Acknowledgment of an oplock break.  Setting this flag together with
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_output_buffer">REQUEST_OPLOCK_OUTPUT_BUFFER</a>
-

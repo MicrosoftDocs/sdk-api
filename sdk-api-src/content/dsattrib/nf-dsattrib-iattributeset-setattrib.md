@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dsattrib.h
 api_name:
- - IAttributeSet::SetAttrib
+ - IAttributeSet.SetAttrib
 ---
 
 # IAttributeSet::SetAttrib
@@ -107,4 +107,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dsattrib/nn-dsattrib-iattributeset">IAttributeSet Interface</a>
-

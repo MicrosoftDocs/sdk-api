@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_HOTPLUG_INFO
- - PSTORAGE_HOTPLUG_INFO
  - STORAGE_HOTPLUG_INFO
 ---
 
@@ -114,4 +112,3 @@ The <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_set_hotplug_info">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
-

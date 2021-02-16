@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmddk.h
 api_name:
- - midiopendesc_tag
  - MIDIOPENDESC
 ---
 
@@ -84,4 +83,3 @@ Specifies an array of device identifiers. The number of identifiers is given by 
 ## -see-also
 
 <a href="/previous-versions//ms708182(v=vs.85)">DriverCallback</a>
-

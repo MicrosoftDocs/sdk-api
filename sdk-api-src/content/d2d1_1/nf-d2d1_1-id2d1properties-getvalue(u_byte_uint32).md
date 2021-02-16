@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Properties::GetValue
+ - ID2D1Properties.GetValue
 ---
 
 # ID2D1Properties::GetValue(U,BYTE,UINT32)
@@ -138,4 +138,3 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 �
 
 �
-

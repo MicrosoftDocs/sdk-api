@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextServices::TxGetDropTarget
+ - ITextServices.TxGetDropTarget
 ---
 
 # ITextServices::TxGetDropTarget
@@ -117,4 +117,3 @@ The host (caller) is responsible for calling <a href="/windows/desktop/api/ole2/
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls</a>
-

@@ -9,8 +9,6 @@ tech.root: rras
 f1_keywords:
  - rasdlg
  - rasdlg/rasdlg
-api_name:
- - rasdlg
 ---
 
 # Rasdlg.h header

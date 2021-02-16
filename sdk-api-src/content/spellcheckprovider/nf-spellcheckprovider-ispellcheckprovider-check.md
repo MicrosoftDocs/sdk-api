@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheckprovider.h
 api_name:
- - ISpellCheckProvider::Check
+ - ISpellCheckProvider.Check
 ---
 
 # ISpellCheckProvider::Check
@@ -117,4 +117,3 @@ The returned <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ienumspellin
 
 
 <a href="/windows/desktop/api/spellcheckprovider/nn-spellcheckprovider-ispellcheckprovider">ISpellCheckProvider</a>
-

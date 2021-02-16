@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::CreateStreamPrioritization
+ - IMFASFProfile.CreateStreamPrioritization
 ---
 
 # IMFASFProfile::CreateStreamPrioritization
@@ -70,4 +70,3 @@ Returns <b>E_NOTIMPL</b>.
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile">IMFASFProfile</a>
-

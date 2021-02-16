@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetBackupType
+ - CVssWriter.GetBackupType
 ---
 
 # CVssWriter::GetBackupType
@@ -88,4 +88,3 @@ This method returns the backup type as a
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_backup_type">VSS_BACKUP_TYPE</a>
-

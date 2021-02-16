@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - PCOMPVARS
  - COMPVARS
 ---
 
@@ -165,4 +164,3 @@ Video Compression Manager
 
 
 <a href="/windows/desktop/Multimedia/video-compression-structures">Video Compression Structures</a>
-

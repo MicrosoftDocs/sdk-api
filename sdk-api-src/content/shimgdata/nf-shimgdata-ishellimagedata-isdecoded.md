@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageData::IsDecoded
+ - IShellImageData.IsDecoded
 ---
 
 # IShellImageData::IsDecoded
@@ -89,4 +89,3 @@ All other cases.
 </td>
 </tr>
 </table>
-

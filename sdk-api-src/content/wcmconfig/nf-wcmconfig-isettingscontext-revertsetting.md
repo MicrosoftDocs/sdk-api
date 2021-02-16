@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsContext::RevertSetting
+ - ISettingsContext.RevertSetting
 ---
 
 # ISettingsContext::RevertSetting
@@ -69,4 +69,3 @@ This method returns an HRESULT value. <b>S_OK</b> indicates success. It returns 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
-

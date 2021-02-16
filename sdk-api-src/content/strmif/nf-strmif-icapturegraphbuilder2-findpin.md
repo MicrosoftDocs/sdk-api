@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - ICaptureGraphBuilder2::FindPin
+ - ICaptureGraphBuilder2.FindPin
 ---
 
 # ICaptureGraphBuilder2::FindPin
@@ -104,4 +104,3 @@ Typically, an application will not need to use this method. It is provided for u
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder2">ICaptureGraphBuilder2 Interface</a>
-

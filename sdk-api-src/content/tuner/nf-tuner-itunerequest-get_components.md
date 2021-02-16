@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - ITuneRequest::get_Components
+ - ITuneRequest.get_Components
 ---
 
 # ITuneRequest::get_Components
@@ -73,4 +73,3 @@ After a tune request is submitted to the Network Provider filter, the Network Pr
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-itunerequest">ITuneRequest Interface</a>
-

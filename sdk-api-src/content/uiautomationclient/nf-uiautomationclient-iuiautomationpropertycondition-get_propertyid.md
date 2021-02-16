@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationPropertyCondition::get_PropertyId
+ - IUIAutomationPropertyCondition.PropertyId
+ - IUIAutomationPropertyCondition.get_PropertyId
 ---
 
 # IUIAutomationPropertyCondition::get_PropertyId

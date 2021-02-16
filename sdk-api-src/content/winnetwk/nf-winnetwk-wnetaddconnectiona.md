@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - WNetAddConnectionA
  - winnetwk/WNetAddConnectionA
- - WNetAddConnection
- - winnetwk/WNetAddConnection
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Mpr.dll
 api_name:
- - WNetAddConnectionA
  - WNetAddConnection
+ - WNetAddConnectionA
+ - WNetAddConnectionW
 ---
 
 # WNetAddConnectionA function
@@ -270,4 +269,3 @@ On Windows Server 2003 and Windows XP, if a service that runs as LocalSystem c
 
 <a href="/windows/desktop/WNet/windows-networking-functions">Windows
 		  Networking Functions</a>
-

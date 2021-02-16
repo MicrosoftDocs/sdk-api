@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf::SetDistanceDecay
+ - ISpatialAudioObjectForHrtf.SetDistanceDecay
 ---
 
 # ISpatialAudioObjectForHrtf::SetDistanceDecay
@@ -100,4 +100,3 @@ If <b>SetEnvironment</b> is not called, the default values are used.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
-

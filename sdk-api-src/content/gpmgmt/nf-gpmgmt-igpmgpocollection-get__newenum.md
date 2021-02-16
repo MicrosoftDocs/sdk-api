@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMGPOCollection::get__NewEnum
+ - IGPMGPOCollection.get__NewEnum
 ---
 
 # IGPMGPOCollection::get__NewEnum
@@ -73,4 +73,3 @@ Returns <b>S_OK</b> if successful. Returns a failure code if an error occurs.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmgpocollection">IGPMGPOCollection</a>
-

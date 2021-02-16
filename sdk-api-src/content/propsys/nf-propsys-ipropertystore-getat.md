@@ -43,7 +43,7 @@ api_location:
  - Propsys.idl
  - Propsys.idl.dll
 api_name:
- - IPropertyStore::GetAt
+ - IPropertyStore.GetAt
 ---
 
 # IPropertyStore::GetAt
@@ -86,4 +86,3 @@ None
 
 
 <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-setvalue">IPropertyStore::SetValue</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls3::getAudioLanguageDescription
+ - IWMPControls3.getAudioLanguageDescription
 ---
 
 # IWMPControls3::getAudioLanguageDescription
@@ -119,4 +119,3 @@ Use the <b>get_audioLanguageCount</b> method to retrieve the number of supported
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcontrols3-put_currentaudiolanguage">IWMPControls3::put_currentAudioLanguage</a>
-

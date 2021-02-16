@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IEnumIDList::Next
+ - IEnumIDList.Next
 ---
 
 # IEnumIDList::Next
@@ -97,4 +97,3 @@ The distinction is important in the case where <i>celt</i> &gt; 1. For example, 
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ienumidlist">IEnumIDList</a>
-

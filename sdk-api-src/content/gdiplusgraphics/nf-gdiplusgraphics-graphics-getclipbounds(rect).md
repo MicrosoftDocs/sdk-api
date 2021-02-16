@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Graphics::GetClipBounds
+ - Graphics.GetClipBounds
 ---
 
 # Graphics::GetClipBounds(OUT Rect)
@@ -149,4 +149,3 @@ VOID Example_GetClipBounds(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a>
-

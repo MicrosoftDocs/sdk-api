@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPSink::OnEndEditTransaction
+ - ITextStoreACPSink.OnEndEditTransaction
 ---
 
 # ITextStoreACPSink::OnEndEditTransaction
@@ -95,4 +95,3 @@ An edit transaction is a group of text changes that should be processed at one t
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfedittransactionsink-onendedittransaction">ITfEditTransactionSink::OnEndEditTransaction
       </a>
-

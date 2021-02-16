@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Udpmib.h
 api_name:
- - _MIB_UDP6TABLE
- - PMIB_UDP6TABLE
  - MIB_UDP6TABLE
 ---
 
@@ -146,4 +144,3 @@ The <a href="/windows/desktop/api/udpmib/ns-udpmib-mib_udp6table_owner_module">M
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-bind">bind</a>
-

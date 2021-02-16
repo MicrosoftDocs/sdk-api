@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cpl.h
 api_name:
- - tagCPLINFO
- - LPCPLINFO
  - CPLINFO
 ---
 
@@ -84,4 +82,3 @@ A pointer to data defined by the application. When the Control Panel sends the <
 ## -remarks
 
 If the icon or display strings of the dialog box can change based on the state of the computer, you can specify the CPL_DYNAMIC_RES value for the <b>idIcon</b>, <b>idName</b>, or <b>idInfo</b> members rather than specifying a valid resource identifier. This causes the Control Panel to send the <a href="/windows/desktop/shell/glossary">CPL_NEWINQUIRE</a> message each time it needs the icon and display strings. Using this technique is significantly slower, however, because the Control Panel will need to load your application each time it sends the <b>CPL_NEWINQUIRE</b> message.
-

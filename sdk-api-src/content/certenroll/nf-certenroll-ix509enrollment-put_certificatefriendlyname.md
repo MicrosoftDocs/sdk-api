@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::put_CertificateFriendlyName
+ - IX509Enrollment.CertificateFriendlyName
+ - IX509Enrollment.get_CertificateFriendlyName
+ - IX509Enrollment.put_CertificateFriendlyName
 ---
 
 # IX509Enrollment::put_CertificateFriendlyName
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

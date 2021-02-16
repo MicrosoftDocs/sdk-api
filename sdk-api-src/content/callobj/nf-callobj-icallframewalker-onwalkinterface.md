@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Callobj.h
 api_name:
- - ICallFrameWalker::OnWalkInterface
+ - ICallFrameWalker.OnWalkInterface
 ---
 
 # ICallFrameWalker::OnWalkInterface
@@ -106,4 +106,3 @@ An unexpected error has occurred.
 ## -see-also
 
 <a href="/windows/desktop/api/callobj/nn-callobj-icallframewalker">ICallFrameWalker</a>
-

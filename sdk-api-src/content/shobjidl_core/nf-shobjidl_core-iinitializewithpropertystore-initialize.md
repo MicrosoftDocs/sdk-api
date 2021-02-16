@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IInitializeWithPropertyStore::Initialize
+ - IInitializeWithPropertyStore.Initialize
 ---
 
 # IInitializeWithPropertyStore::Initialize
@@ -77,4 +77,3 @@ This method supports initializing handlers for use with OpenSearch result sets, 
 
 
 <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiInstallMissingComponentA
  - msi/MsiInstallMissingComponentA
- - MsiInstallMissingComponent
- - msi/MsiInstallMissingComponent
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiInstallMissingComponentA
  - MsiInstallMissingComponent
+ - MsiInstallMissingComponentA
+ - MsiInstallMissingComponentW
 ---
 
 # MsiInstallMissingComponentA function
@@ -225,4 +224,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/Msi/multiple-package-installations">Multiple-Package Installations</a>
-

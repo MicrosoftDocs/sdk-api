@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPerPropertyBrowsing::MapPropertyToPage
+ - IPerPropertyBrowsing.MapPropertyToPage
 ---
 
 # IPerPropertyBrowsing::MapPropertyToPage
@@ -113,4 +113,3 @@ The CLSID returned from this method can be passed to <a href="/windows/desktop/a
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-iperpropertybrowsing">IPerPropertyBrowsing</a>
-

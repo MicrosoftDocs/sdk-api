@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPIObjectEvent::get_TAPIObject
+ - ITTAPIObjectEvent.get_TAPIObject
 ---
 
 # ITTAPIObjectEvent::get_TAPIObject
@@ -118,4 +118,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2::get_SupportedMediaTypes
+ - IDiscFormat2.get_SupportedMediaTypes
 ---
 
 # IDiscFormat2::get_SupportedMediaTypes
@@ -332,4 +332,3 @@ The device associated with this recorder during the last operation has been excl
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2">IDiscFormat2</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask::SetProperty
+ - IAzTask.SetProperty
+ - AzTask.SetProperty
 ---
 
 # IAzTask::SetProperty
@@ -213,4 +214,3 @@ The return value is an <b>HRESULT</b>. A value of <b>S_OK</b> indicates success.
 ## -remarks
 
 You must call the <a href="/windows/desktop/api/azroles/nf-azroles-iaztask-submit">Submit</a> method to persist any changes made by this method.
-

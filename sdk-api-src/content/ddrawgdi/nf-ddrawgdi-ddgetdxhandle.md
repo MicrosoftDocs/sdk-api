@@ -46,6 +46,7 @@ api_location:
  - GDI32Full.dll
 api_name:
  - DdGetDxHandle
+ - GdiEntry14
 ---
 
 # DdGetDxHandle function
@@ -86,4 +87,3 @@ If both <i>pDDraw</i> and <i>pSurface</i> are specified, <i>pSurface</i> is igno
 ## -see-also
 
 <a href="/windows/desktop/DevNotes/-dxgkernel-low-level-client-support">Graphics Low Level Client Support</a>
-

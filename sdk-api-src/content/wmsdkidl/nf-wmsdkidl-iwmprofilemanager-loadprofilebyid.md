@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfileManager::LoadProfileByID
+ - IWMProfileManager.LoadProfileByID
 ---
 
 # IWMProfileManager::LoadProfileByID
@@ -120,4 +120,3 @@ Only system profiles have IDs. Because there are no system profiles for the Wind
 
 
 <a href="/windows/desktop/wmformat/using-system-profiles">Using System Profiles</a>
-

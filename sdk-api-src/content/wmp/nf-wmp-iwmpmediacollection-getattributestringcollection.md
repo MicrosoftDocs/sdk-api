@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection::getAttributeStringCollection
+ - IWMPMediaCollection.getAttributeStringCollection
 ---
 
 # IWMPMediaCollection::getAttributeStringCollection
@@ -101,4 +101,3 @@ For information about the attributes supported by Windows Media Player, see the 
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection">IWMPStringCollection Interface</a>
-

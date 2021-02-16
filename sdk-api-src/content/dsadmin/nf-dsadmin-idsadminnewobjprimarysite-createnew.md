@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNewObjPrimarySite::CreateNew
+ - IDsAdminNewObjPrimarySite.CreateNew
 ---
 
 # IDsAdminNewObjPrimarySite::CreateNew
@@ -70,4 +70,3 @@ If the  method
 
 
 <a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnewobjprimarysite">IDsAdminNewObjPrimarySite</a>
-

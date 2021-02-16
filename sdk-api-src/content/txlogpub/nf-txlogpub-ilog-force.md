@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Txlogpub.h
 api_name:
- - ILog::Force
+ - ILog.Force
 ---
 
 # ILog::Force
@@ -79,4 +79,3 @@ It is recommended that you flush file buffers (for example, using the <a href="/
 
 
 <a href="/windows/desktop/api/txlogpub/nn-txlogpub-ilog">ILog</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderTimecode::GetTimecodeRangeCount
+ - IWMReaderTimecode.GetTimecodeRangeCount
 ---
 
 # IWMReaderTimecode::GetTimecodeRangeCount
@@ -94,4 +94,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadertimecode-gettimecoderangebounds">IWMReaderTimecode::GetTimecodeRangeBounds</a>
-

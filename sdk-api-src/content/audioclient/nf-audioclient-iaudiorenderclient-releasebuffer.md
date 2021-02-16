@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioRenderClient::ReleaseBuffer
+ - IAudioRenderClient.ReleaseBuffer
 ---
 
 # IAudioRenderClient::ReleaseBuffer
@@ -175,4 +175,3 @@ For code examples that call the <b>ReleaseBuffer</b> method, see the following t
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-getbuffer">IAudioRenderClient::GetBuffer</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_SUBLAYER_ENUM_TEMPLATE0_
  - FWPM_SUBLAYER_ENUM_TEMPLATE0
 ---
 
@@ -68,4 +67,3 @@ Uniquely identifies the provider associated with this sublayer. If this value is
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

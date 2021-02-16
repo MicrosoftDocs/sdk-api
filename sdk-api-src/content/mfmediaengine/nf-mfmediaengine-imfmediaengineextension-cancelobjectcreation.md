@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineExtension::CancelObjectCreation
+ - IMFMediaEngineExtension.CancelObjectCreation
 ---
 
 # IMFMediaEngineExtension::CancelObjectCreation
@@ -69,4 +69,3 @@ This method attempts to cancel a previous call to <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineextension">IMFMediaEngineExtension</a>
-

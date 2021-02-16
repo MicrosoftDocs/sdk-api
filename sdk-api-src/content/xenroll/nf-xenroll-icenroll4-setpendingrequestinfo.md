@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::setPendingRequestInfo
+ - ICEnroll4.setPendingRequestInfo
+ - CEnroll.setPendingRequestInfo
 ---
 
 # ICEnroll4::setPendingRequestInfo
@@ -79,4 +80,3 @@ The display name of the certification authority. The <i>strFriendlyName</i> para
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

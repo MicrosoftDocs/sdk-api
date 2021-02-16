@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winperf.h
 api_name:
- - PM_CLOSE_PROC
+ - ClosePerformanceData
 ---
 
 # PM_CLOSE_PROC callback function
@@ -69,4 +69,3 @@ This function should return ERROR_SUCCESS.
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa372200(v=vs.85)">OpenPerformanceData</a>
-

@@ -45,7 +45,6 @@ api_location:
  - Shobjidl_core.h
 api_name:
  - SHDRAGIMAGE
- - LPSHDRAGIMAGE
 ---
 
 # SHDRAGIMAGE structure
@@ -104,4 +103,3 @@ Use the following procedure to create the drag image.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-idragsourcehelper-initializefromwindow">IDragSourceHelper::InitializeFromWindow</a>
-

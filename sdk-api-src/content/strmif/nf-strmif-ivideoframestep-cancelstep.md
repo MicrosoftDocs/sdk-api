@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoFrameStep::CancelStep
+ - IVideoFrameStep.CancelStep
 ---
 
 # IVideoFrameStep::CancelStep
@@ -66,4 +66,3 @@ Returns S_OK if the <b>Step</b> operation was successfully canceled, or E_FAIL o
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ivideoframestep">IVideoFrameStep Interface</a>
-

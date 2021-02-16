@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl2::ConfigDialog
+ - ITLegacyAddressMediaControl2.ConfigDialog
 ---
 
 # ITLegacyAddressMediaControl2::ConfigDialog
@@ -78,4 +78,3 @@ This method translates to a TAPI 2.<i>x</i>
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2">ITLegacyAddressMediaControl2</a>
-

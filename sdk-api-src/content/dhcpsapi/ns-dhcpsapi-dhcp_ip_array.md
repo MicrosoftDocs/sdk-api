@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_IP_ARRAY
- - LPDHCP_IP_ARRAY
  - DHCP_IP_ARRAY
 ---
 
@@ -79,4 +77,3 @@ Pointer to a list of <a href="/previous-versions/windows/desktop/dhcp/dhcp-serve
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpenumsubnets">DhcpEnumSubnets</a>
-

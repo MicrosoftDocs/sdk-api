@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPI2::EnumeratePhones
+ - ITTAPI2.EnumeratePhones
 ---
 
 # ITTAPI2::EnumeratePhones
@@ -80,4 +80,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2">ITTAPI2</a>
-

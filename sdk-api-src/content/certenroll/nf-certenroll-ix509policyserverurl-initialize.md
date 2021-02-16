@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509PolicyServerUrl::Initialize
+ - IX509PolicyServerUrl.Initialize
 ---
 
 # IX509PolicyServerUrl::Initialize
@@ -122,4 +122,3 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl"
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509policyserverurl">IX509PolicyServerUrl</a>
-

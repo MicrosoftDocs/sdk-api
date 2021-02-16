@@ -46,8 +46,6 @@ api_type:
 api_location:
  - drt.h
 api_name:
- - _DRT_ADDRESS_LIST
- - PDRT_ADDRESS_LIST
  - DRT_ADDRESS_LIST
 ---
 
@@ -75,4 +73,3 @@ An array of <a href="/windows/desktop/api/drt/ns-drt-drt_address">DRT_ADDRESS</a
 
 
 <a href="/windows/desktop/api/drt/nf-drt-drtgetsearchresult">DrtGetSearchResult</a>
-

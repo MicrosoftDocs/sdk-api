@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice::CreateAnimation
+ - IDCompositionDevice.CreateAnimation
 ---
 
 # IDCompositionDevice::CreateAnimation
@@ -75,4 +75,3 @@ A newly created animation object does not have any animation segments associated
 ## -see-also
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositiondevice">IDCompositionDevice</a>
-

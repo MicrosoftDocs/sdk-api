@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - systemmediatransportcontrolsinterop
  - systemmediatransportcontrolsinterop/systemmediatransportcontrolsinterop
-api_name:
- - systemmediatransportcontrolsinterop
 ---
 
 # Systemmediatransportcontrolsinterop.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SEC_CHANNEL_BINDINGS
- - PSEC_CHANNEL_BINDINGS
  - SEC_CHANNEL_BINDINGS
 ---
 
@@ -111,4 +109,3 @@ If the value of the <i>ulAttribute</i> parameter of the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings">SecPkgContext_Bindings</a>
-

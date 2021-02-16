@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IDataAdviseHolder::SendOnDataChange
+ - IDataAdviseHolder.SendOnDataChange
 ---
 
 # IDataAdviseHolder::SendOnDataChange
@@ -85,4 +85,3 @@ Before calling the <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-on
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-idataadviseholder">IDataAdviseHolder</a>
-

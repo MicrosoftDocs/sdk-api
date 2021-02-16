@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntmsapi.h
 api_name:
- - _NTMS_ALLOCATION_INFORMATION
- - LPNTMS_ALLOCATION_INFORMATION
  - NTMS_ALLOCATION_INFORMATION
 ---
 
@@ -80,4 +78,3 @@ Unique identifier of the original source of the media.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/rsm/media">AllocateNtmsMedia</a>
-

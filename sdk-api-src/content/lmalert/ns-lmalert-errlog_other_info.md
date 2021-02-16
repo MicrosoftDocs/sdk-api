@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmalert.h
 api_name:
- - _ERRLOG_OTHER_INFO
- - PERRLOG_OTHER_INFO
  - ERRLOG_OTHER_INFO
 ---
 
@@ -111,4 +109,3 @@ The calling application must allocate and free the memory for all structures and
 
 
 <a href="/windows/desktop/api/lmalert/ns-lmalert-user_other_info">USER_OTHER_INFO</a>
-

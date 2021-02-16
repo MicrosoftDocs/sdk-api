@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::put_SignerCertificate
+ - ICEnroll4.SignerCertificate
+ - ICEnroll4.put_SignerCertificate
+ - CEnroll.SignerCertificate
 ---
 
 # ICEnroll4::put_SignerCertificate
@@ -67,4 +69,3 @@ This property is write-only.
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-

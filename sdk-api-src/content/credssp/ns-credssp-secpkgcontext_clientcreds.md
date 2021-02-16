@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Credssp.h
 api_name:
- - _SecPkgContext_ClientCreds
- - PSecPkgContext_ClientCreds
  - SecPkgContext_ClientCreds
 ---
 
@@ -73,4 +71,3 @@ A pointer to a buffer that represents the client credentials.
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/nf-sspi-querycontextattributesa">QueryContextAttributes (CredSSP)</a>
-

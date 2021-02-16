@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IContext::SetProperty
+ - IContext.SetProperty
 ---
 
 # IContext::SetProperty
@@ -73,4 +73,3 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-icontext">IContext</a>
-

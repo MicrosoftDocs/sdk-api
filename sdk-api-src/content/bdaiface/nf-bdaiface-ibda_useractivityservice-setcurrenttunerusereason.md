@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_UserActivityService::SetCurrentTunerUseReason
+ - IBDA_UserActivityService.SetCurrentTunerUseReason
 ---
 
 # IBDA_UserActivityService::SetCurrentTunerUseReason
@@ -129,4 +129,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_useractivityservice">IBDA_UserActivityService</a>
-

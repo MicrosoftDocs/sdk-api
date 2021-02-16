@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2::IsRuleGroupEnabled
+ - INetFwPolicy2.IsRuleGroupEnabled
 ---
 
 # INetFwPolicy2::IsRuleGroupEnabled
@@ -137,4 +137,3 @@ When indirect strings in the form of "@yourresourcedll.dll,-23255" are passed as
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
-

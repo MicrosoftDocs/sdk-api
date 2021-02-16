@@ -51,7 +51,7 @@ api_location:
  - Wbemess.dll
  - Wmipiprt.dll
 api_name:
- - IWbemClassObject::EndMethodEnumeration
+ - IWbemClassObject.EndMethodEnumeration
 ---
 
 # IWbemClassObject::EndMethodEnumeration
@@ -79,4 +79,3 @@ The caller begins the enumeration sequence using
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemclassobject-nextmethod">IWbemClassObject::NextMethod</a> until <b>WBEM_S_NO_MORE_DATA</b> is returned. The caller optionally finishes the sequence with 
 <b>IWbemClassObject::EndMethodEnumeration</b>. The caller may terminate the enumeration early by calling 
 <b>IWbemClassObject::EndMethodEnumeration</b> at any time.
-

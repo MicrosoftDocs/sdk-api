@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_KEY_ECDSA_KEY_VALUE
  - CRYPT_XML_KEY_ECDSA_KEY_VALUE
 ---
 
@@ -72,4 +71,3 @@ Defines the Y value of an ECDSA curve.
 ### -field ExplicitPara
 
 A   <b>CRYPT_XML_BLOB</b> value that defines the encoded parameters of an ECDSA curve.
-

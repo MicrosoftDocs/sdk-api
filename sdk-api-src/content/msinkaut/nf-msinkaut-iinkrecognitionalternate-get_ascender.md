@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognitionAlternate::get_Ascender
+ - IInkRecognitionAlternate.Ascender
+ - IInkRecognitionAlternate.get_Ascender
+ - IInkRecognitionAlternate.get_Ascender
 ---
 
 # IInkRecognitionAlternate::get_Ascender
@@ -91,4 +93,3 @@ For western languages, the ascender corresponds to the portion of a lowercase le
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognitionalternate-get_midline">Midline Property [IInkRecognitionAlternate Interface]</a>
-

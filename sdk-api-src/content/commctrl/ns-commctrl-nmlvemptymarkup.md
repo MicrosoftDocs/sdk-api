@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMLVEMPTYMARKUP
  - NMLVEMPTYMARKUP
 ---
 
@@ -91,4 +90,3 @@ Render markup centered in the listview area.
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 Markup to display.
-

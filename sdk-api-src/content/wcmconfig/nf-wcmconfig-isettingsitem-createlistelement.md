@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsItem::CreateListElement
+ - ISettingsItem.CreateListElement
 ---
 
 # ISettingsItem::CreateListElement
@@ -125,4 +125,3 @@ Indicates that the item cannot be written, either because  it is a read-only ite
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingsitem">ISettingsItem</a>
-

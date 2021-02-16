@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationRestoreSupport::PostRestore
+ - IWsbApplicationRestoreSupport.PostRestore
 ---
 
 # IWsbApplicationRestoreSupport::PostRestore
@@ -81,4 +81,3 @@ During application restore, Windows Server Backup calls this method after restor
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationrestoresupport">IWsbApplicationRestoreSupport</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::CheckMultisampleQualityLevels
+ - ID3D10Device.CheckMultisampleQualityLevels
 ---
 
 # ID3D10Device::CheckMultisampleQualityLevels
@@ -93,4 +93,3 @@ Direct3D 10.1 devices are required to support 4x MSAA for all formats except R32
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

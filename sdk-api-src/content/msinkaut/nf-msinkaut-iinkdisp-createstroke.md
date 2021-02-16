@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::CreateStroke
+ - IInkDisp.CreateStroke
 ---
 
 # IInkDisp::CreateStroke
@@ -150,4 +150,3 @@ The minimum and maximum values of any point in the points array are LONG_MIN and
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
- - _WSABUF
- - LPWSABUF
  - WSABUF
 ---
 

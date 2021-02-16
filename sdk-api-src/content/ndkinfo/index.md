@@ -9,8 +9,6 @@ tech.root: netvista
 f1_keywords:
  - ndkinfo
  - ndkinfo/ndkinfo
-api_name:
- - ndkinfo
 ---
 
 # Ndkinfo.h header

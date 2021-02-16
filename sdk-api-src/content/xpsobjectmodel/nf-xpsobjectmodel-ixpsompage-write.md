@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::Write
+ - IXpsOMPage.Write
 ---
 
 # IXpsOMPage::Write
@@ -143,4 +143,3 @@ The XPS markup that is  written to the stream by this method contains the page m
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::CalculateDiscIdentifier
+ - IFileSystemImage.CalculateDiscIdentifier
 ---
 
 # IFileSystemImage::CalculateDiscIdentifier
@@ -104,4 +104,3 @@ You must call <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimag
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-

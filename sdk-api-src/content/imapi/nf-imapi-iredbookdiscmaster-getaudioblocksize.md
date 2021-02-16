@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IRedbookDiscMaster::GetAudioBlockSize
+ - IRedbookDiscMaster.GetAudioBlockSize
 ---
 
 # IRedbookDiscMaster::GetAudioBlockSize
@@ -69,4 +69,3 @@ This method returns 2352.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-iredbookdiscmaster">IRedbookDiscMaster</a>
-

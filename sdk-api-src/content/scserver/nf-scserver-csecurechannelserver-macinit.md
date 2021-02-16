@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - CSecureChannelServer::MACInit
+ - CSecureChannelServer.MACInit
 ---
 
 # CSecureChannelServer::MACInit
@@ -134,4 +134,3 @@ if( dwRead )
 
 
 <a href="/windows/desktop/WMDM/message-authentication">Message Authentication</a>
-

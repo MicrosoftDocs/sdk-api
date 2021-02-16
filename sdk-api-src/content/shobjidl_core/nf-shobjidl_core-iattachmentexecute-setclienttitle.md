@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shdocvw.dll
 api_name:
- - IAttachmentExecute::SetClientTitle
+ - IAttachmentExecute.SetClientTitle
 ---
 
 # IAttachmentExecute::SetClientTitle

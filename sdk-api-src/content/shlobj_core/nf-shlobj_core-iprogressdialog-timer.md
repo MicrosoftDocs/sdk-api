@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog::Timer
+ - IProgressDialog.Timer
 ---
 
 # IProgressDialog::Timer
@@ -97,4 +97,3 @@ The timer is used to estimate the remaining time. It is started when your applic
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-

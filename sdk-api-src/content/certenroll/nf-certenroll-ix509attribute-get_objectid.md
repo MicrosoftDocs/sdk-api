@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Attribute::get_ObjectId
+ - IX509Attribute.ObjectId
+ - IX509Attribute.get_ObjectId
 ---
 
 # IX509Attribute::get_ObjectId
@@ -71,4 +72,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509attribute-i
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributes">IX509Attributes</a>
-

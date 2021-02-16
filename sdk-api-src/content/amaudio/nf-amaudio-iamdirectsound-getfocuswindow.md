@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDirectSound::GetFocusWindow
+ - IAMDirectSound.GetFocusWindow
 ---
 
 # IAMDirectSound::GetFocusWindow
@@ -131,4 +131,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
-

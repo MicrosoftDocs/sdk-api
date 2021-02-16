@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateHistoryEntry2::get_Categories
+ - IUpdateHistoryEntry2.Categories
+ - IUpdateHistoryEntry2.get_Categories
 ---
 
 # IUpdateHistoryEntry2::get_Categories
@@ -67,4 +68,3 @@ Because there is a <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdate-get_cate
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry2">IUpdateHistoryEntry2</a>
-

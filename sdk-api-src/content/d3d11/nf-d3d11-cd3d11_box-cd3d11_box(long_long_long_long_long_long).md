@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_BOX::CD3D11_BOX
+ - CD3D11_BOX.CD3D11_BOX
 ---
 
 # CD3D11_BOX::CD3D11_BOX(LONG,LONG,LONG,LONG,LONG,LONG)
@@ -94,4 +94,3 @@ The y-coordinate of the back of the box.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151614(v=vs.85)">CD3D11_BOX</a>
-

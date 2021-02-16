@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents
+ - IUIAutomationProxyFactoryEntry.NeedsAdviseEvents
+ - IUIAutomationProxyFactoryEntry.get_NeedsAdviseEvents
+ - IUIAutomationProxyFactoryEntry.put_NeedsAdviseEvents
 ---
 
 # IUIAutomationProxyFactoryEntry::put_NeedsAdviseEvents

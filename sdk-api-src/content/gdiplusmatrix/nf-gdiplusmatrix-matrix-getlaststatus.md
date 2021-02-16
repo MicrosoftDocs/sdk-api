@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::GetLastStatus
+ - Matrix.GetLastStatus
 ---
 
 # Matrix::GetLastStatus
@@ -97,4 +97,3 @@ The first time you call the <b>Matrix::GetLastStatus</b> method of a
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

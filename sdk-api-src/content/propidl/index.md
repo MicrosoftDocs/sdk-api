@@ -9,8 +9,6 @@ tech.root: properties
 f1_keywords:
  - propidl
  - propidl/propidl
-api_name:
- - propidl
 ---
 
 # Propidl.h header

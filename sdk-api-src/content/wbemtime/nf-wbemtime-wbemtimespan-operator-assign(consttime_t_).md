@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::operator=
+ - WBEMTimeSpan.operator=
 ---
 
 # WBEMTimeSpan::operator-assign(const time_t &)
@@ -64,4 +64,3 @@ Converts a <b>BSTR</b> time interval value to a <a href="/windows/desktop/api/wb
 ### -param t
 
 <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/interval-format">Interval Format</a>.
-

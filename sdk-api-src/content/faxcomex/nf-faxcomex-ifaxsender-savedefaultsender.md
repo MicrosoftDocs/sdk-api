@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxSender::SaveDefaultSender
+ - IFaxSender.SaveDefaultSender
+ - IFaxSender.SaveDefaultSender
 ---
 
 # IFaxSender::SaveDefaultSender
@@ -77,4 +78,3 @@ This method can return remote procedure call (RPC) return values. For more infor
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

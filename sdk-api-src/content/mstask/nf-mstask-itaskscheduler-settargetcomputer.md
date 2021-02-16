@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - ITaskScheduler::SetTargetComputer
+ - ITaskScheduler.SetTargetComputer
 ---
 
 # ITaskScheduler::SetTargetComputer
@@ -151,4 +151,3 @@ For a Windows Server 2003, Windows XP computer to create, monitor, or control 
 ## -see-also
 
 <a href="/windows/desktop/api/mstask/nn-mstask-itaskscheduler">ITaskScheduler</a>
-

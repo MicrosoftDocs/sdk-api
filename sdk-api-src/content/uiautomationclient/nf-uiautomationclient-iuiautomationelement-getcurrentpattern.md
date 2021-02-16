@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::GetCurrentPattern
+ - IUIAutomationElement.GetCurrentPattern
 ---
 
 # IUIAutomationElement::GetCurrentPattern
@@ -101,4 +101,3 @@ For some forms of UI, this method will incur cross-process performance overhead.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-controlpatternsoverview">UI Automation Control Patterns Overview</a>
-

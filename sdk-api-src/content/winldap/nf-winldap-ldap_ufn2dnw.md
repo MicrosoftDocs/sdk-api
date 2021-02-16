@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_ufn2dnW
  - winldap/ldap_ufn2dnW
- - ldap_ufn2dn
- - winldap/ldap_ufn2dn
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_ufn2dnW
  - ldap_ufn2dn
+ - ldap_ufn2dnA
+ - ldap_ufn2dnW
 ---
 
 # ldap_ufn2dnW function
@@ -97,4 +96,3 @@ The <b>ldap_ufn2dn</b> function attempts to normalize a user-specified name to a
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_memfree">ldap_memfree</a>
-

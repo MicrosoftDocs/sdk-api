@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbBaseNotifySink::OnReportStatus
+ - ITsSbBaseNotifySink.OnReportStatus
 ---
 
 # ITsSbBaseNotifySink::OnReportStatus
@@ -107,4 +107,3 @@ The following error codes are defined by RD Connection Broker for use by plug-i
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbbasenotifysink">ITsSbBaseNotifySink</a>
-

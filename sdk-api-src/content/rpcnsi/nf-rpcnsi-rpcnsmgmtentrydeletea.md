@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsMgmtEntryDeleteA
  - rpcnsi/RpcNsMgmtEntryDeleteA
- - RpcNsMgmtEntryDelete
- - rpcnsi/RpcNsMgmtEntryDelete
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsMgmtEntryDeleteA
  - RpcNsMgmtEntryDelete
+ - RpcNsMgmtEntryDeleteA
+ - RpcNsMgmtEntryDeleteW
 ---
 
 # RpcNsMgmtEntryDeleteA function
@@ -181,4 +180,3 @@ Because name-service databases are designed to be relatively stable, frequent us
 ## -see-also
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea">RpcNsMgmtEntryCreate</a>
-

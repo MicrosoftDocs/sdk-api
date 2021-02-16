@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfsharingengine.h
 api_name:
- - IMFMediaSharingEngine::GetDevice
+ - IMFMediaSharingEngine.GetDevice
 ---
 
 # IMFMediaSharingEngine::GetDevice
@@ -69,4 +69,3 @@ The method allocates memory for the <b>BSTR</b> members of the <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine">IMFMediaSharingEngine</a>
-

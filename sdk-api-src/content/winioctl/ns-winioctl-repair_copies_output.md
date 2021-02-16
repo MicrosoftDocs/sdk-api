@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _REPAIR_COPIES_OUTPUT
- - PREPAIR_COPIES_OUTPUT
  - REPAIR_COPIES_OUTPUT
 ---
 
@@ -75,4 +73,3 @@ Indicates the status of the repair operation. The value is a <b>NTSTATUS</b> val
 
 If the <b>Status</b> member indicates the operation was not successful, this is the 
       file offset to use to resume repair operations, skipping the range where errors were found.
-

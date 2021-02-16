@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sensorsapi.dll
 api_name:
- - ISensor::SetProperties
+ - ISensor.SetProperties
 ---
 
 # ISensor::SetProperties
@@ -128,4 +128,3 @@ For an example of how to set properties, see <a href="/windows/desktop/SensorsAP
 
 
 <a href="/windows/desktop/api/sensorsapi/nn-sensorsapi-isensor">ISensor</a>
-

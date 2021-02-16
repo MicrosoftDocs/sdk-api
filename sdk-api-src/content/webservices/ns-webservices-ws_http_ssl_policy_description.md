@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_HTTP_SSL_POLICY_DESCRIPTION
  - WS_HTTP_SSL_POLICY_DESCRIPTION
 ---
 

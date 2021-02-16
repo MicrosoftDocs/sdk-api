@@ -42,7 +42,7 @@ api_type:
 api_location:
  - pnpxassoc.h
 api_name:
- - IPNPXDeviceAssociation::Unassociate
+ - IPNPXDeviceAssociation.Unassociate
 ---
 
 # IPNPXDeviceAssociation::Unassociate
@@ -117,4 +117,3 @@ This method does not remove the entry from the association database. To remove a
 
 
 <a href="/windows/desktop/api/pnpxassoc/nn-pnpxassoc-ipnpxdeviceassociation">IPNPXDeviceAssociation</a>
-

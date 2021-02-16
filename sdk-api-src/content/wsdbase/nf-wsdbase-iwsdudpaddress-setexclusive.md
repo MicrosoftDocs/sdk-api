@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDUdpAddress::SetExclusive
+ - IWSDUdpAddress.SetExclusive
 ---
 
 # IWSDUdpAddress::SetExclusive
@@ -88,4 +88,3 @@ Method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdbase/nn-wsdbase-iwsdudpaddress">IWSDUdpAddress</a>
-

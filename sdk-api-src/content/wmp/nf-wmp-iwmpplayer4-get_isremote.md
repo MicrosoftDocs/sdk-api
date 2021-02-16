@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer4::get_isRemote
+ - IWMPPlayer4.get_isRemote
 ---
 
 # IWMPPlayer4::get_isRemote
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
-

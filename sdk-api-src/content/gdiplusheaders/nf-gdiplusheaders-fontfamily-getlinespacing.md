@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - FontFamily::GetLineSpacing
+ - FontFamily.GetLineSpacing
 ---
 
 # FontFamily::GetLineSpacing
@@ -90,4 +90,3 @@ This method returns the line spacing of this font family.
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-obtaining-font-metrics-use">Obtaining Font Metrics</a>
-

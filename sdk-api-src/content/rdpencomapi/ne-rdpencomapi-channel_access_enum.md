@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rdpencomapi.h
 api_name:
- - __MIDL___MIDL_itf_rdpencomapi_0000_0000_0005
  - CHANNEL_ACCESS_ENUM
 ---
 
@@ -68,4 +67,3 @@ The attendee can send or receive data on the channel.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapivirtualchannel-setaccess">IRDPSRAPIVirtualChannel::SetAccess</a>
-

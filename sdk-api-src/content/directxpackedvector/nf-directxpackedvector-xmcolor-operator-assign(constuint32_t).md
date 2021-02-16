@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMCOLOR::operator=
+ - XMCOLOR.operator =
 ---
 
 # XMCOLOR::operator-assign(const uint32_t)
@@ -107,4 +107,3 @@ The fourth 8 bits (bits 24-31) of <b>Color</b> assigned, as an unsigned integer,
 
 
 <a href="https://msdn.microsoft.com/7dbba878-2f03-451f-b02b-75e531b6315b">operator = </a>
-

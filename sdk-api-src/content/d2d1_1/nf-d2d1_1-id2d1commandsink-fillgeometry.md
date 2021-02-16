@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink::FillGeometry
+ - ID2D1CommandSink.FillGeometry
 ---
 
 # ID2D1CommandSink::FillGeometry
@@ -95,4 +95,3 @@ Ellipses and rounded rectangles are converted to the corresponding geometry befo
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>
-

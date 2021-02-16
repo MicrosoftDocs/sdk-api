@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaItemExtras::Escape
+ - IWiaItemExtras.Escape
 ---
 
 # IWiaItemExtras::Escape
@@ -99,4 +99,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitemextras">IWiaItemExtras</a>
-

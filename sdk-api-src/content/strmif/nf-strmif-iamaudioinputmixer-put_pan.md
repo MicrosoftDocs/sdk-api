@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAudioInputMixer::put_Pan
+ - IAMAudioInputMixer.put_Pan
 ---
 
 # IAMAudioInputMixer::put_Pan
@@ -99,4 +99,3 @@ In a stereo recording, setting the pan level to -1.0 or 1.0 sends the entire sig
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamaudioinputmixer-get_pan">IAMAudioInputMixer::get_Pan</a>
-

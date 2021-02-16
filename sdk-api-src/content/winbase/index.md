@@ -9,8 +9,6 @@ tech.root: backup
 f1_keywords:
  - winbase
  - winbase/winbase
-api_name:
- - winbase
 ---
 
 # Winbase.h header

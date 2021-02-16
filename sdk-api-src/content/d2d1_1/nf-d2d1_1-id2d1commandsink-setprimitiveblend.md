@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink::SetPrimitiveBlend
+ - ID2D1CommandSink.SetPrimitiveBlend
 ---
 
 # ID2D1CommandSink::SetPrimitiveBlend
@@ -77,4 +77,3 @@ If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HR
 
 
 <a href="/windows/desktop/Direct2D/id2d1rendertarget-settransform">ID2D1RenderTarget::SetTransform</a>
-

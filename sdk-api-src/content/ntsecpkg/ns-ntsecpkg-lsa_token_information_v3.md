@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _LSA_TOKEN_INFORMATION_V3
- - PLSA_TOKEN_INFORMATION_V3
  - LSA_TOKEN_INFORMATION_V3
 ---
 
@@ -134,4 +132,3 @@ The <b>DefaultDacl.DefaultDacl</b> member may be set to <b>NULL</b> to indicate 
 Unlike user groups, there is no notion of a primary device group.
 
 Each SID is expected to be in a separately allocated block of memory. The <a href="/windows/desktop/api/winnt/ns-winnt-token_groups">TOKEN_GROUPS</a> structure is also expected to be in a separately allocated block of memory.
-

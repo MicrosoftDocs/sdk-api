@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _CRYPT_PROVIDER_PRIVDATA
- - PCRYPT_PROVIDER_PRIVDATA
  - CRYPT_PROVIDER_PRIVDATA
 ---
 
@@ -81,4 +79,3 @@ A pointer to a <b>void</b> that contains the private data.
 ## -see-also
 
 <a href="/windows/desktop/api/wintrust/ns-wintrust-crypt_provider_data">CRYPT_PROVIDER_DATA</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_ELEMENT_NODE
  - WS_XML_ELEMENT_NODE
 ---
 
@@ -85,4 +84,3 @@ The array of attributes for the element.
 ### -field isEmpty
 
 Whether the element is an empty element or not.  In the example, it would be <b>FALSE</b>.
-

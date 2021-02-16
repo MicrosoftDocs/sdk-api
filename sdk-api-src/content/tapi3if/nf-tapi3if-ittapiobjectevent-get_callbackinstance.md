@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITTAPIObjectEvent::get_CallbackInstance
+ - ITTAPIObjectEvent.get_CallbackInstance
 ---
 
 # ITTAPIObjectEvent::get_CallbackInstance
@@ -115,4 +115,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/Tapi/tapi-object">TAPI Object</a>
-

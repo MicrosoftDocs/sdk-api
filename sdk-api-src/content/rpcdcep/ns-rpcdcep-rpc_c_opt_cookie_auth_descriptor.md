@@ -44,8 +44,9 @@ api_type:
 api_location:
  - Rpcdcep.h
 api_name:
- - _RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
  - RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
+ - RPC_CALL_ATTRIBUTES_V1_A
+ - RPC_CALL_ATTRIBUTES_V1_W
 ---
 
 # RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR structure
@@ -68,4 +69,3 @@ A null-terminated string that contains the cookie.
 ## -remarks
 
 A pointer to this structure is passed as the OptionValue when making a call to <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcbindingsetoption">RpcBindingSetOption</a>  with <a href="/windows/desktop/Rpc/binding-option-constants">RPC_C_OPT_COOKIE_AUTH</a>  as the option.
-

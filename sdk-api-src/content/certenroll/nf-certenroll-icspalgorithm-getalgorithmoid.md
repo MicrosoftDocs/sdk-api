@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspAlgorithm::GetAlgorithmOid
+ - ICspAlgorithm.GetAlgorithmOid
 ---
 
 # ICspAlgorithm::GetAlgorithmOid
@@ -137,4 +137,3 @@ You must call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icspinf
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspalgorithm">ICspAlgorithm</a>
-

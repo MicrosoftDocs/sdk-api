@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - tagDDDEVICEIDENTIFIER2
- - LPDDDEVICEIDENTIFIER2
  - DDDEVICEIDENTIFIER2
 ---
 
@@ -119,4 +117,3 @@ The values in <b>szDriver</b> and <b>szDescription</b> are for presentation to t
 
 
 The <b>dwVendorId</b>, <b>dwDeviceId</b>, <b>dwSubSysId</b>, and <b>dwRevision</b> members can be used to identify particular chipsets, but use extreme caution.
-

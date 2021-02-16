@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shlwapi.h
 api_name:
- - DLLGETVERSIONPROC
+ - DllGetVersion
 ---
 
 # DLLGETVERSIONPROC callback function
@@ -76,4 +76,3 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 This function is exported by name from each DLL that implements it. Currently, most of the Windows Shell and controls DLLs implement <b>DllGetVersion</b>. These include, but are not limited to, Shell32.dll, Comctl32.dll, Shdocvw.dll, and Shlwapi.dll.
 
 To call this function, use the <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> and <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> functions to obtain the function pointer. The DLLGETVERSIONPROC type is used as the data type to define a pointer to a <b>DllGetVersion</b> function. Use the pointer when calling the function dynamically by loading the library and getting the function's address. See <a href="/previous-versions/windows/desktop/legacy/bb776779(v=vs.85)">Shell and Shlwapi DLL Versions</a> for a detailed discussion of the different file versions, and how to use <b>DllGetVersion</b>.
-

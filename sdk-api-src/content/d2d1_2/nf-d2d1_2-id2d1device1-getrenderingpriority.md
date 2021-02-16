@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Device1::GetRenderingPriority
+ - ID2D1Device1.GetRenderingPriority
 ---
 
 # ID2D1Device1::GetRenderingPriority
@@ -63,4 +63,3 @@ The current rendering priority of the device.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_2/nn-d2d1_2-id2d1device1">ID2D1Device1</a>
-

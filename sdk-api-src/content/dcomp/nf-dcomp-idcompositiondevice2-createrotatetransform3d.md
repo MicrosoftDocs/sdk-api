@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice2::CreateRotateTransform3D
+ - IDCompositionDevice2.CreateRotateTransform3D
 ---
 
 # IDCompositionDevice2::CreateRotateTransform3D
@@ -81,4 +81,3 @@ A new 3D rotation transform object has a default static value of zero for the An
 
 
 <a href="/windows/desktop/api/dcomp/nf-dcomp-idcompositionvisual-seteffect">IDCompositionVisual::SetEffect</a>
-

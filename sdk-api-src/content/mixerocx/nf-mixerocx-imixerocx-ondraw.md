@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::OnDraw
+ - IMixerOCX.OnDraw
 ---
 
 # IMixerOCX::OnDraw
@@ -78,4 +78,3 @@ The HDC provided here should not be cached.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

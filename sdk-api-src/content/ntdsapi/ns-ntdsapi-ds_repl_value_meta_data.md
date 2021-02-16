@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - _DS_REPL_VALUE_META_DATA
  - DS_REPL_VALUE_META_DATA
 ---
 
@@ -114,4 +113,3 @@ Contains the USN on the destination server, that is the server from which the <a
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsreplicagetinfo2w">DsReplicaGetInfo2</a>
-

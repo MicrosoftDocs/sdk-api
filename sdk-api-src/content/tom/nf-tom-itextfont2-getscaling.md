@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::GetScaling
+ - ITextFont2.GetScaling
 ---
 
 # ITextFont2::GetScaling
@@ -77,4 +77,3 @@ The font horizontal scaling percentage can range from 200, which doubles the wid
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-setscaling">ITextFont2::SetScaling</a>
-

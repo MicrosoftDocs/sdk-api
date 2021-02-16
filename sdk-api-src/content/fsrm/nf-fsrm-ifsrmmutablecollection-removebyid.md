@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmMutableCollection::RemoveById
+ - IFsrmMutableCollection.RemoveById
 ---
 
 # IFsrmMutableCollection::RemoveById
@@ -65,4 +65,3 @@ The method returns the following return values.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmmutablecollection">IFsrmMutableCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Strmif.h
 api_name:
- - IDvdControl::MenuLanguageSelect
+ - IDvdControl.MenuLanguageSelect
 ---
 
 # IDvdControl::MenuLanguageSelect
@@ -79,4 +79,3 @@ Applications specify languages with standard Windows LCIDs.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdcontrol">IDvdControl Interface</a>
-

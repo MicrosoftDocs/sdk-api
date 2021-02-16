@@ -44,7 +44,6 @@ api_type:
 api_location:
  - wmsdkidl.h
 api_name:
- - __tagDRM_VIDEO_OUTPUT_PROTECTION_IDS
  - DRM_VIDEO_OUTPUT_PROTECTION_IDS
 ---
 
@@ -76,4 +75,3 @@ This structure is used as a member of the <a href="/previous-versions/windows/de
 
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

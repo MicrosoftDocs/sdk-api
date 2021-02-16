@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Searchapi.h
 api_name:
- - ISearchProtocol::Init
+ - ISearchProtocol.Init
 ---
 
 # ISearchProtocol::Init
@@ -84,4 +84,3 @@ After the protocol handler is <a href="/windows/desktop/api/combaseapi/nf-combas
       
 
 Because the protocol host may unexpectedly terminate before calling <a href="/windows/desktop/api/searchapi/nf-searchapi-isearchprotocol-shutdown">ISearchProtocol::ShutDown</a>, protocol handlers with persistent information, such as temporary files and registry entries, should do an initial clean-up of resources previously opened in this method before starting the current instance.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::GetTemplate
+ - IWMPContentPartner.GetTemplate
 ---
 
 # IWMPContentPartner::GetTemplate
@@ -129,4 +129,3 @@ Windows Media Player calls <b>GetTemplate</b> to retrieve the URL of the discove
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-

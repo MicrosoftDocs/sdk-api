@@ -42,7 +42,9 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBSLocator2::put_LocalLNBSwitchOverride
+ - IDVBSLocator2.LocalLNBSwitchOverride
+ - IDVBSLocator2.get_LocalLNBSwitchOverride
+ - IDVBSLocator2.put_LocalLNBSwitchOverride
 ---
 
 # IDVBSLocator2::put_LocalLNBSwitchOverride
@@ -60,4 +62,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbslocator2">IDVBSLocator2</a>
-

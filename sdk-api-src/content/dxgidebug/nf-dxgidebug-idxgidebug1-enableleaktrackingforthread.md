@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIDebug1::EnableLeakTrackingForThread
+ - IDXGIDebug1.EnableLeakTrackingForThread
 ---
 
 # IDXGIDebug1::EnableLeakTrackingForThread
@@ -61,4 +61,3 @@ Starts tracking leaks for the current thread.
 
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgidebug1">IDXGIDebug1</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN
+ - EngineAdapterSelectCalibrationFormat
 ---
 
 # PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback function
@@ -132,4 +132,3 @@ Any other error code will cause the Biometric Service to log the error and abort
 ## -remarks
 
 This method is called once during configuration of the biometric unit. After a calibration format has been selected, it cannot be changed.
-

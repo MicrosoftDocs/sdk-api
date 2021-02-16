@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mstask.dll
 api_name:
- - IScheduledWorkItem::SetIdleWait
+ - IScheduledWorkItem.SetIdleWait
 ---
 
 # IScheduledWorkItem::SetIdleWait
@@ -96,4 +96,3 @@ For an example of how to set the idle wait time when creating an idle trigger, s
 
 
 <a href="/windows/desktop/api/mstask/nf-mstask-ischeduledworkitem-getidlewait">IScheduledWorkItem::GetIdleWait</a>
-

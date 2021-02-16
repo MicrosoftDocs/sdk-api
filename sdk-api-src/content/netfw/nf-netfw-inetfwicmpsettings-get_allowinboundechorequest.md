@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwIcmpSettings::get_AllowInboundEchoRequest
+ - INetFwIcmpSettings.AllowInboundEchoRequest
+ - INetFwIcmpSettings.get_AllowInboundEchoRequest
+ - INetFwIcmpSettings.put_AllowInboundEchoRequest
 ---
 
 # INetFwIcmpSettings::get_AllowInboundEchoRequest
@@ -66,4 +68,3 @@ This setting is common to IPv4 and IPv6.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwicmpsettings">INetFwIcmpSettings</a>
-

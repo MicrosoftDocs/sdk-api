@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext::putref_Guide
+ - IInkRecognizerContext.Guide
+ - IInkRecognizerContext.get_Guide
+ - InkRecognizerContext.get_Guide
 ---
 
 # IInkRecognizerContext::putref_Guide
@@ -110,4 +112,3 @@ For information about how to query which capabilities, or modes, are available f
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizerguide-get_rows">Rows Property</a>
-

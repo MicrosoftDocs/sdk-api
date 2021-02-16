@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lstrcmpiW
  - winbase/lstrcmpiW
- - lstrcmpi
- - winbase/lstrcmpi
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-deprecated-apis-Obsolete-l1-1-0.dll
  - MinKernelBase.dll
 api_name:
- - lstrcmpiW
  - lstrcmpi
+ - lstrcmpiA
+ - lstrcmpiW
 ---
 
 # lstrcmpiW function
@@ -156,4 +155,3 @@ See <a href="/windows/desktop/Intl/security-considerations--international-featur
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lstrlena">lstrlen</a>
-

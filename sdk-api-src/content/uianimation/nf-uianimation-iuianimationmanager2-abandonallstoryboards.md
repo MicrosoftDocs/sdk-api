@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager2::AbandonAllStoryboards
+ - IUIAnimationManager2.AbandonAllStoryboards
 ---
 
 # IUIAnimationManager2::AbandonAllStoryboards
@@ -82,4 +82,3 @@ A storyboard is considered active if a call to the <a href="/windows/desktop/api
 
 
 <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
-

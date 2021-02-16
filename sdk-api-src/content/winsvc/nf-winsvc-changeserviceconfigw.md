@@ -34,8 +34,6 @@ ms.custom: 19H1
 f1_keywords:
  - ChangeServiceConfigW
  - winsvc/ChangeServiceConfigW
- - ChangeServiceConfig
- - winsvc/ChangeServiceConfig
 topic_type:
  - APIRef
  - kbSyntax
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - ChangeServiceConfigW
  - ChangeServiceConfig
+ - ChangeServiceConfigA
+ - ChangeServiceConfigW
 ---
 
 # ChangeServiceConfigW function
@@ -513,4 +512,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-startservicea">StartService</a>
-

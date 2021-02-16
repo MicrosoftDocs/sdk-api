@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dvp.h
 api_name:
- - _DDVIDEOPORTINFO
- - LPDDVIDEOPORTINFO
  - DDVIDEOPORTINFO
 ---
 
@@ -280,4 +278,3 @@ All members of this structure are set by the client and the driver should never 
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_videoport_local">DD_VIDEOPORT_LOCAL</a>
-

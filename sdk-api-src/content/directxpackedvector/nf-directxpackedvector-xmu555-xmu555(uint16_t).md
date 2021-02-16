@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU555::XMU555
+ - XMU555.XMU555
 ---
 
 # XMU555::XMU555(uint16_t)
@@ -109,4 +109,3 @@ The last 1 bits (bit 15) of <b>Packed</b> assigned, as an integer, to
 
 
 <a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
-

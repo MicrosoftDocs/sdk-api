@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::WaitForCompletion
+ - IFsrmFileManagementJob.WaitForCompletion
 ---
 
 # IFsrmFileManagementJob::WaitForCompletion
@@ -91,4 +91,3 @@ After <b>WaitForCompletion</b>
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

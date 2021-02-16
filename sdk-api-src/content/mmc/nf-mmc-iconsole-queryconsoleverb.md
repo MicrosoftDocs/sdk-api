@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsole::QueryConsoleVerb
+ - IConsole.QueryConsoleVerb
 ---
 
 # IConsole::QueryConsoleVerb
@@ -77,4 +77,3 @@ This method should be called from an
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsoleverb">IConsoleVerb</a>
-

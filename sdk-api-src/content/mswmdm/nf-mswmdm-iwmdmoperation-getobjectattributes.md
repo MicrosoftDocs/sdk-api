@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMOperation::GetObjectAttributes
+ - IWMDMOperation.GetObjectAttributes
 ---
 
 # IWMDMOperation::GetObjectAttributes
@@ -154,4 +154,3 @@ HRESULT GetObjectAttributes(DWORD* pdwAttributes, _WAVEFORMATEX* pFormat)
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmoperation-setobjectattributes">IWMDMOperation::SetObjectAttributes</a>
-

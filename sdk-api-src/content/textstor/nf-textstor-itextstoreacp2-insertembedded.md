@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACP2::InsertEmbedded
+ - ITextStoreACP2.InsertEmbedded
 ---
 
 # ITextStoreACP2::InsertEmbedded
@@ -168,4 +168,3 @@ The caller does not have a read/write lock.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_textchange">TS_TEXTCHANGE
       </a>
-

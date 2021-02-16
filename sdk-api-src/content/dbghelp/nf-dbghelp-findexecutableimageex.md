@@ -43,6 +43,8 @@ api_location:
  - Dbghelp.dll
 api_name:
  - FindExecutableImageEx
+ - FindExecutableImageEx
+ - FindExecutableImageExW
 ---
 
 # FindExecutableImageEx function
@@ -108,4 +110,3 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-symgetsearchpath">SymGetSearchPath</a>
-

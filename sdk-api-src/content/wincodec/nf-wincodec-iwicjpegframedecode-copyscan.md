@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICJpegFrameDecode::CopyScan
+ - IWICJpegFrameDecode.CopyScan
 ---
 
 # IWICJpegFrameDecode::CopyScan
@@ -122,4 +122,3 @@ The specified scan index is invalid.
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicjpegframedecode">IWICJpegFrameDecode</a>
-

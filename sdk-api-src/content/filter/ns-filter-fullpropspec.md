@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - tagFULLPROPSPEC
  - FULLPROPSPEC
 ---
 
@@ -71,4 +70,3 @@ A pointer to the <a href="/windows/desktop/api/propidl/ns-propidl-propspec">PROP
 ## -see-also
 
 <a href="/windows/desktop/api/filter/nf-filter-ifilter-init">IFilter::Init</a>
-

@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::GatherWriterStatus
+ - IVssBackupComponents.GatherWriterStatus
 ---
 
 # IVssBackupComponents::GatherWriterStatus
@@ -188,4 +188,3 @@ The caller is responsible for releasing the
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-freewriterstatus">IVssBackupComponents::FreeWriterStatus</a>
-

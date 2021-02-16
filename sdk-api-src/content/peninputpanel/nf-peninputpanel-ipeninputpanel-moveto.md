@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IPenInputPanel::MoveTo
+ - IPenInputPanel.MoveTo
 ---
 
 # IPenInputPanel::MoveTo
@@ -126,4 +126,3 @@ You can also override the automatic positioning behavior of the <a href="/window
 
 
 <a href="/windows/desktop/tablet/peninputpanel-class">PenInputPanel</a>
-

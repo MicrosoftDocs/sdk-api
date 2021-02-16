@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::getProxySettings
+ - IWMPNetwork.getProxySettings
 ---
 
 # IWMPNetwork::getProxySettings
@@ -122,4 +122,3 @@ This method fails unless the calling application is running on the local compute
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpnetwork-setproxysettings">IWMPNetwork::setProxySettings</a>
-

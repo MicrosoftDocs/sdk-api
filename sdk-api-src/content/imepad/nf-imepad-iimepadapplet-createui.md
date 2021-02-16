@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Imepad.h
 api_name:
- - IImePadApplet::CreateUI
+ - IImePadApplet.CreateUI
 ---
 
 # IImePadApplet::CreateUI
@@ -71,4 +71,3 @@ Pointer to <a href="/windows/desktop/api/imepad/ns-imepad-imeappletui">IMEAPPLET
 ## -see-also
 
 <a href="/windows/desktop/api/imepad/nn-imepad-iimepadapplet">IImePadApplet</a>
-

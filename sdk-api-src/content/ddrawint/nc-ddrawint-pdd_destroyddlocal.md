@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - PDD_DESTROYDDLOCAL
+ - D3dDestroyDDLocal
 ---
 
 ## -description
@@ -90,4 +90,3 @@ The pointer to the <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directd
 
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
-

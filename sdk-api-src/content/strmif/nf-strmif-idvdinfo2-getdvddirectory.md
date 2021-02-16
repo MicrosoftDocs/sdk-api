@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetDVDDirectory
+ - IDvdInfo2.GetDVDDirectory
 ---
 
 # IDvdInfo2::GetDVDDirectory
@@ -126,4 +126,3 @@ This method is demonstrated in the DVDSample application in <b>CDvdCore::GetDriv
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathUndecorateW
  - shlwapi/PathUndecorateW
- - PathUndecorate
- - shlwapi/PathUndecorate
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Shlwapi.dll
  - API-MS-Win-shlwapi-IE-l1-1-0.dll
 api_name:
- - PathUndecorateW
  - PathUndecorate
+ - PathUndecorateA
+ - PathUndecorateW
 ---
 
 # PathUndecorateW function

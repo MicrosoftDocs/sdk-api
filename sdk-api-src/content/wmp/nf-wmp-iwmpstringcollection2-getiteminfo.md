@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPStringCollection2::getItemInfo
+ - IWMPStringCollection2.getItemInfo
 ---
 
 # IWMPStringCollection2::getItemInfo
@@ -103,4 +103,3 @@ To use this method, read access to the library is required. For more information
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpstringcollection2-getiteminfobytype">IWMPStringCollection2::getItemInfoByType</a>
-

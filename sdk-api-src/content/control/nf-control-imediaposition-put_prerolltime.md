@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::put_PrerollTime
+ - IMediaPosition.put_PrerollTime
 ---
 
 # IMediaPosition::put_PrerollTime
@@ -103,4 +103,3 @@ The <i>preroll</i> is the time prior to the start position at which nonrandom ac
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-

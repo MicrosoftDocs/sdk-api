@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCdromBurn::get_burnProgress
+ - IWMPCdromBurn.get_burnProgress
 ---
 
 # IWMPCdromBurn::get_burnProgress
@@ -89,4 +89,3 @@ The progress value represents the completed percentage of the entire burning pro
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpcdromburn">IWMPCdromBurn Interface</a>
-

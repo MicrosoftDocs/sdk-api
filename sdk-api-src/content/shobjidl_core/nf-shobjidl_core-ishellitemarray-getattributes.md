@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemArray::GetAttributes
+ - IShellItemArray.GetAttributes
 ---
 
 # IShellItemArray::GetAttributes
@@ -113,4 +113,3 @@ Returns S_OK if the attributes returned exactly match those requested in <i>sfga
 The Shell item array caches individual attributes after they have been determined.
 
 As this method passes through the array gathering attribute information, it normally stops looking at a particular attribute after that value is irrevocably set. For instance, if the SIATTRIBFLAGS_AND flag is set, after an attribute is found not to be set on an item (a value of 0), there is no need to continue examining that attribute value on other items because the result of the AND operation will always be 0. Therefore, the final set of attributes is commonly calculated by looking at only the first few items in the array, which is all that is needed to obtain the final value. If you have a need to examine all items in the array, set the SIATTRIBFLAGS_ALLITEMS flag. However, be aware that this can slow the method's return considerably, so do not do so without cause.
-

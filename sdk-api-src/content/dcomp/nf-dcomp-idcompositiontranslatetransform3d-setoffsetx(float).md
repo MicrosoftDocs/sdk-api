@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionTranslateTransform3D::SetOffsetX
+ - IDCompositionTranslateTransform3D.SetOffsetX
 ---
 
 # IDCompositionTranslateTransform3D::SetOffsetX(float)
@@ -85,4 +85,3 @@ If the OffsetX property was previously animated, this method removes the animati
 
 
 <a href="/windows/win32/api/dcomp/nf-dcomp-idcompositiontranslatetransform3d-setoffsetz(float)">IDCompositionTranslateTransform3D::SetOffsetZ</a>
-

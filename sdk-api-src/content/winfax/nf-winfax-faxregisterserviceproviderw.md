@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxRegisterServiceProviderW
  - winfax/FaxRegisterServiceProviderW
- - FaxRegisterServiceProvider
- - winfax/FaxRegisterServiceProvider
 dev_langs:
  - c++
 topic_type:
@@ -45,7 +43,6 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxRegisterServiceProviderW
  - FaxRegisterServiceProvider
 ---
 
@@ -127,4 +124,3 @@ Local installation of a fax service provider is recommended. The local installat
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nf-winfax-faxconnectfaxservera">FaxConnectFaxServer</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMAnalogVideoDecoder::get_TVFormat
+ - IAMAnalogVideoDecoder.get_TVFormat
 ---
 
 # IAMAnalogVideoDecoder::get_TVFormat
@@ -70,4 +70,3 @@ Returns S_OK if successful, or an error code otherwise.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamanalogvideodecoder">IAMAnalogVideoDecoder Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_DOSP_OPTIONS0_
  - IPSEC_DOSP_OPTIONS0
 ---
 
@@ -223,4 +222,3 @@ Optional internal IPv6 address or subnet for this policy, as specified in [FWP_V
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidDeviceEvent::StateChange
+ - IMSVidDeviceEvent.StateChange
 ---
 
 # IMSVidDeviceEvent::StateChange
@@ -82,4 +82,3 @@ The dispatch identifier (dispid) of this method is <b>eventidStateChange</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsviddeviceevent">IMSVidDeviceEvent</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Audioenginebaseapo.idl
  - Audioenginebaseapo.idl.dll
 api_name:
- - IAudioProcessingObjectRT::APOProcess
+ - IAudioProcessingObjectRT.APOProcess
 ---
 
 # IAudioProcessingObjectRT::APOProcess
@@ -93,4 +93,3 @@ For a detailed look at an implementation of this method, see the <a href="/windo
 ## -see-also
 
 <a href="/windows-hardware/drivers/audio/windows-vista-sapo-feature-reference">Swap sample code</a>
-

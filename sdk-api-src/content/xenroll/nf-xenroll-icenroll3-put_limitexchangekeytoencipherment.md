@@ -42,7 +42,13 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll3::put_LimitExchangeKeyToEncipherment
+ - ICEnroll4.LimitExchangeKeyToEncipherment
+ - ICEnroll4.get_LimitExchangeKeyToEncipherment
+ - ICEnroll4.put_LimitExchangeKeyToEncipherment
+ - ICEnroll3.LimitExchangeKeyToEncipherment
+ - ICEnroll3.get_LimitExchangeKeyToEncipherment
+ - ICEnroll3.put_LimitExchangeKeyToEncipherment
+ - CEnroll.LimitExchangeKeyToEncipherment
 ---
 
 # ICEnroll3::put_LimitExchangeKeyToEncipherment
@@ -123,4 +129,3 @@ else
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-get_keyspec">KeySpec</a>
-

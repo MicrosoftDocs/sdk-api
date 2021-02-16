@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IDockProvider::get_DockPosition
+ - IDockProvider.DockPosition
+ - IDockProvider.get_DockPosition
 ---
 
 # IDockProvider::get_DockPosition
@@ -91,4 +92,3 @@ The following example shows how to return the DockPosition property.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

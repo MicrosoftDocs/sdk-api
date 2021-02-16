@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_CONNECTION_SETTINGS
- - PWRDS_CONNECTION_SETTINGS
  - WRDS_CONNECTION_SETTINGS
 ---
 
@@ -74,7 +72,8 @@ The structure is a <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connect
 
 A <a href="/windows/desktop/api/wtsdefs/ns-wtsdefs-wrds_connection_setting">WRDS_CONNECTION_SETTING</a> structure that specifies the connection settings.
 
+
+
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwrdsprotocolconnection-logonnotify">IWRdsProtocolConnection::LogonNotify</a>
-

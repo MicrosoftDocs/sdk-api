@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapReader::GetFile
+ - IAppxBlockMapReader.GetFile
 ---
 
 # IAppxBlockMapReader::GetFile
@@ -93,4 +93,3 @@ The specified file name does not match the name of a file listed in the block ma
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapreader">IAppxBlockMapReader</a>
-

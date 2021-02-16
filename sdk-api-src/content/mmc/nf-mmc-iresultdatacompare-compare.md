@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IResultDataCompare::Compare
+ - IResultDataCompare.Compare
 ---
 
 # IResultDataCompare::Compare
@@ -101,4 +101,3 @@ IResultDataCompare interface is not called for virtual list sorting. Because the
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-sortitems">IResultOwnerData::SortItems</a>
-

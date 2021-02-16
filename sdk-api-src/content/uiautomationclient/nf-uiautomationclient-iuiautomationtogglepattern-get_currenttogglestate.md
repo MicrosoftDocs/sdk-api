@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTogglePattern::get_CurrentToggleState
+ - IUIAutomationTogglePattern.CurrentToggleState
+ - IUIAutomationTogglePattern.get_CurrentToggleState
 ---
 
 # IUIAutomationTogglePattern::get_CurrentToggleState

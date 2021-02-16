@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup::GetFlags
+ - IMFSensorGroup.GetFlags
 ---
 
 # IMFSensorGroup::GetFlags
@@ -103,4 +103,3 @@ Currently, no flags are defined for Sensor Groups.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
-

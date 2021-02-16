@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - tagDEVNAMES
  - DEVNAMES
 ---
 
@@ -100,4 +99,3 @@ Indicates whether the strings contained in the <b>DEVNAMES</b> structure identif
 
 
 <b>Reference</b>
-

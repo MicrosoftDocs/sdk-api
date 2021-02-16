@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - intsafe
  - intsafe/intsafe
-api_name:
- - intsafe
 ---
 
 # Intsafe.h header

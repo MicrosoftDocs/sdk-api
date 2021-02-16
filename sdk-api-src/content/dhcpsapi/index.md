@@ -9,8 +9,6 @@ tech.root: dhcp
 f1_keywords:
  - dhcpsapi
  - dhcpsapi/dhcpsapi
-api_name:
- - dhcpsapi
 ---
 
 # Dhcpsapi.h header

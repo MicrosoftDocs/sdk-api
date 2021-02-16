@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sbe.h
 api_name:
- - IStreamBufferRecComp::GetCurrentLength
+ - IStreamBufferRecComp.GetCurrentLength
 ---
 
 # IStreamBufferRecComp::GetCurrentLength
@@ -87,4 +87,3 @@ To get accurate updates, you can call this method continually from one thread wh
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-istreambufferreccomp">IStreamBufferRecComp Interface</a>
-

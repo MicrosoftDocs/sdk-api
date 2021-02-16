@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0001_0078_0004
  - ADS_ESCAPE_MODE_ENUM
 ---
 
@@ -148,4 +147,3 @@ To obtain correct behavior, the LDAP special characters must be escaped before t
 
 
 <a href="/windows/desktop/ADSI/ldap-adspath">LDAP ADsPath</a>
-

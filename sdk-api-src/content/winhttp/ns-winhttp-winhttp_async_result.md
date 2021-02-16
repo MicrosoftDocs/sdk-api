@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winhttp.h
 api_name:
- - LPWINHTTP_ASYNC_RESULT
  - WINHTTP_ASYNC_RESULT
 ---
 
@@ -140,4 +139,3 @@ Contains the error code if
 
 <a href="/windows/desktop/WinHttp/winhttp-versions">WinHTTP
 		  Versions</a>
-

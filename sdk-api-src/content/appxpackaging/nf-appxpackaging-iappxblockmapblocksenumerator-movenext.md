@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapBlocksEnumerator::MoveNext
+ - IAppxBlockMapBlocksEnumerator.MoveNext
 ---
 
 # IAppxBlockMapBlocksEnumerator::MoveNext
@@ -73,4 +73,3 @@ Note that when the enumerator passes the end of the collection for the first tim
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblocksenumerator">IAppxBlockMapBlocksEnumerator</a>
-

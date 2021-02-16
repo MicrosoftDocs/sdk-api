@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - PSYSTEM_BATTERY_STATE
  - SYSTEM_BATTERY_STATE
 ---
 
@@ -115,4 +114,3 @@ The manufacturer's suggestion of a capacity, in mWh, at which a warning battery 
 ## -see-also
 
 <a href="/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
-

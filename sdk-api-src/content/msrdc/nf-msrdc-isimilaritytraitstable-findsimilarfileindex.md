@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsTable::FindSimilarFileIndex
+ - ISimilarityTraitsTable.FindSimilarFileIndex
 ---
 
 # ISimilarityTraitsTable::FindSimilarFileIndex
@@ -85,4 +85,3 @@ The list of files that is returned in the <i>findSimilarFileIndexResults</i> par
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitstable">ISimilarityTraitsTable</a>
-

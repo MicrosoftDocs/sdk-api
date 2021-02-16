@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::InPlaceDeactivate
+ - IRichEditOle.InPlaceDeactivate
 ---
 
 # IRichEditOle::InPlaceDeactivate
@@ -63,4 +63,3 @@ Returns S_OK on success, or a failure code otherwise. If there is no active in-p
 ## -see-also
 
 <a href="/windows/desktop/api/richole/nn-richole-iricheditole">IRichEditOle</a>
-

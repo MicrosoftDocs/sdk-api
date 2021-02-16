@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_InstanceFT
  - MI_InstanceFT
 ---
 
@@ -145,4 +144,3 @@ Sets the namespace name of the specified instance. See
 
 Sets the server name of the specified instance. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_instance_setservername">MI_Instance_SetServerName</a>.
-

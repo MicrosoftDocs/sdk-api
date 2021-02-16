@@ -42,7 +42,8 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogObject::get_Valid
+ - ICatalogObject.Valid
+ - ICatalogObject.get_Valid
 ---
 
 # ICatalogObject::get_Valid
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-

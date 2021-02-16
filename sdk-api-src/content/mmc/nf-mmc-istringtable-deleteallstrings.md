@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IStringTable::DeleteAllStrings
+ - IStringTable.DeleteAllStrings
 ---
 
 # IStringTable::DeleteAllStrings
@@ -73,4 +73,3 @@ This method deletes all strings from the snap-in's string table, regardless of e
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-istringtable-deletestring">IStringTable::DeleteString</a>
-

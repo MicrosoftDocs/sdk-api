@@ -9,8 +9,6 @@ tech.root: multimedia
 f1_keywords:
  - mmiscapi
  - mmiscapi/mmiscapi
-api_name:
- - mmiscapi
 ---
 
 # Mmiscapi.h header

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WTypes.h
 api_name:
- - tagSTATFLAG
  - STATFLAG
 ---
 
@@ -90,4 +89,3 @@ Not implemented.
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istream-stat">IStream::Stat</a>
-

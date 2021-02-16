@@ -9,8 +9,6 @@ tech.root: wcs
 f1_keywords:
  - wcsplugin
  - wcsplugin/wcsplugin
-api_name:
- - wcsplugin
 ---
 
 # Wcsplugin.h header

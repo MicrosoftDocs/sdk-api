@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - PFIXED_INFO_W2KSP1
- - FIXED_INFO_W2KSP1
+ - FIXED_INFO
 ---
 
 # FIXED_INFO_W2KSP1 structure
@@ -314,4 +313,3 @@ int __cdecl main()
 
 
 <a href="/windows/desktop/api/iptypes/ns-iptypes-ip_addr_string">IP_ADDR_STRING</a>
-

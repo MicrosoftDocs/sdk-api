@@ -42,6 +42,7 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
+ - SymGetSymFromAddr64
  - SymGetSymFromAddr
 ---
 
@@ -124,4 +125,3 @@ SymGetSymFromAddr(
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

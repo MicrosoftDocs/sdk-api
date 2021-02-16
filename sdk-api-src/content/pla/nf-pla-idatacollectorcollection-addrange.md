@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorCollection::AddRange
+ - IDataCollectorCollection.AddRange
 ---
 
 # IDataCollectorCollection::AddRange
@@ -92,4 +92,3 @@ The current configuration for the data collector set requires that it contain ex
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollectorcollection-remove">IDataCollectorCollection::Remove</a>
-

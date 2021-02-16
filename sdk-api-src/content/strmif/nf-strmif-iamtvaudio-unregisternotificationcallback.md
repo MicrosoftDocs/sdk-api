@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTVAudio::UnRegisterNotificationCallBack
+ - IAMTVAudio.UnRegisterNotificationCallBack
 ---
 
 # IAMTVAudio::UnRegisterNotificationCallBack
@@ -74,4 +74,3 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamtvaudio">IAMTVAudio Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: wmi
 f1_keywords:
  - thrdbase
  - thrdbase/thrdbase
-api_name:
- - thrdbase
 ---
 
 # Thrdbase.h header

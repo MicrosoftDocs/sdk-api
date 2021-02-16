@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
+ - IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 ---
 
 # IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot
@@ -203,4 +203,3 @@ The caller is responsible for calling the <a href="/windows/desktop/api/unknwn/n
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadataex2-getexcludefromsnapshotfile">IVssExamineWriterMetadataEx2::GetExcludeFromSnapshotFile</a>
-

@@ -43,7 +43,10 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTablet2::get_DeviceKind
+ - IInkTablet2.DeviceKind
+ - IInkTablet2.get_DeviceKind
+ - TBD.DeviceKind
+ - IInkTablet2.get_DeviceKind
 ---
 
 # IInkTablet2::get_DeviceKind
@@ -61,4 +64,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet2">IInkTablet2 Interface</a>
-

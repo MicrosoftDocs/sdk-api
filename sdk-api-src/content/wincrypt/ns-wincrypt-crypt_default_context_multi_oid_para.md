@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
- - PCRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
  - CRYPT_DEFAULT_CONTEXT_MULTI_OID_PARA
 ---
 
@@ -71,4 +69,3 @@ An array of pointers to null-terminated ANSI strings that contain the object ide
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptinstalldefaultcontext">CryptInstallDefaultContext</a>
-

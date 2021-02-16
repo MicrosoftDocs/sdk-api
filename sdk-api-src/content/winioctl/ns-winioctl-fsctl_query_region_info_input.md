@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoctl.h
 api_name:
- - _FSCTL_QUERY_REGION_INFO_INPUT
- - PFSCTL_QUERY_REGION_INFO_INPUT
  - FSCTL_QUERY_REGION_INFO_INPUT
 ---
 

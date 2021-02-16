@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - RasCustomDeleteEntryNotifyFn
+ - RasCustomDeleteEntryNotify
 ---
 
 # RasCustomDeleteEntryNotifyFn callback function
@@ -124,4 +124,3 @@ This function should return value <b>ERROR_SUCCESS</b> if successful.
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

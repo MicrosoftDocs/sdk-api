@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_CLASSIFY_OPTIONS0_
  - FWPM_CLASSIFY_OPTIONS0
 ---
 
@@ -78,4 +77,3 @@ Pointer to an array of [FWPM_CLASSIFY_OPTION0](/windows/desktop/api/fwpmtypes/ns
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

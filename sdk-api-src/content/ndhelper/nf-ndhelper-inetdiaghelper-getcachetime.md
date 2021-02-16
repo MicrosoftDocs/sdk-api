@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper::GetCacheTime
+ - INetDiagHelper.GetCacheTime
 ---
 
 # INetDiagHelper::GetCacheTime
@@ -147,4 +147,3 @@ The <b>FILETIME</b> structure is a 64-bit value representing the number of 100-n
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-

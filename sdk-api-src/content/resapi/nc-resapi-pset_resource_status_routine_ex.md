@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PSET_RESOURCE_STATUS_ROUTINE_EX
+ - SetResourceStatusEx
 ---
 
 # PSET_RESOURCE_STATUS_ROUTINE_EX callback function
@@ -111,4 +111,3 @@ The resource has been terminated. Callers should end
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-callback-functions">Resource DLL Callback Functions</a>
-

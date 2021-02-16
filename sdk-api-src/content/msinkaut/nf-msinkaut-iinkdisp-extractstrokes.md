@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkDisp::ExtractStrokes
+ - IInkDisp.ExtractStrokes
 ---
 
 # IInkDisp::ExtractStrokes
@@ -182,4 +182,3 @@ The
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-

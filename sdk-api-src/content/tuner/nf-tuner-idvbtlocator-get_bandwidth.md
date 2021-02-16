@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IDVBTLocator::get_Bandwidth
+ - IDVBTLocator.get_Bandwidth
 ---
 
 # IDVBTLocator::get_Bandwidth
@@ -69,4 +69,3 @@ The bandwidth is determined by the bandwidth field in the DVB terrestrial delive
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-idvbtlocator">IDVBTLocator Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFEDictionary::GetHeader
+ - IFEDictionary.GetHeader
 ---
 
 # IFEDictionary::GetHeader
@@ -326,4 +326,3 @@ One of the following:
 
 
 <a href="/windows/desktop/api/msime/ns-msime-imeshf">IMESHF</a>
-

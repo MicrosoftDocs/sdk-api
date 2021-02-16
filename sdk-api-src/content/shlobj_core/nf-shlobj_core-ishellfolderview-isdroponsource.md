@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - IShellFolderView::IsDropOnSource
+ - IShellFolderView.IsDropOnSource
 ---
 
 # IShellFolderView::IsDropOnSource
@@ -67,4 +67,3 @@ A pointer to a destination drop target object.
 Type: <b>HRESULT</b>
 
 Returns <b>S_OK</b> if the destination is the same as the source.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdsclientapi.h
 api_name:
- - __unnamed_enum_2
+ - WDS_LOG_LEVEL
 ---
 
 # __unnamed_enum_2 enumeration
@@ -69,4 +69,3 @@ The event severity is warning level.
 ### -field WDS_LOG_LEVEL_INFO
 
 The event severity is information level.
-

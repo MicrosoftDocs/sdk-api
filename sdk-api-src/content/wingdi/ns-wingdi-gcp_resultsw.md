@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagGCP_RESULTSW
- - LPGCP_RESULTSW
+ - GCP_RESULTS
+ - GCP_RESULTSA
  - GCP_RESULTSW
 ---
 

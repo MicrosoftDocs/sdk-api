@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Dsclient.h
 api_name:
- - LPDSCLASSCREATIONINFO
  - DSCLASSCREATIONINFO
 ---
 
@@ -96,4 +95,3 @@ Contains an array of the class identifiers of the  property page extensions. <b>
 
 
 <a href="/windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo">IDsDisplaySpecifier::GetClassCreationInfo</a>
-

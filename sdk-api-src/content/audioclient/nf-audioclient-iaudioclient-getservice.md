@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::GetService
+ - IAudioClient.GetService
 ---
 
 # IAudioClient::GetService
@@ -253,4 +253,3 @@ For code examples that call the <b>GetService</b> method, see the following topi
 
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-isimpleaudiovolume">ISimpleAudioVolume Interface</a>
-

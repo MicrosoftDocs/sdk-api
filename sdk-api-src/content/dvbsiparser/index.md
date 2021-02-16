@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - dvbsiparser
  - dvbsiparser/dvbsiparser
-api_name:
- - dvbsiparser
 ---
 
 # Dvbsiparser.h header

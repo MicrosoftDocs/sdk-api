@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::get_LogCircular
+ - IDataCollector.LogCircular
+ - IDataCollector.get_LogCircular
+ - IDataCollector.put_LogCircular
 ---
 
 # IDataCollector::get_LogCircular
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-idatacollector-get_logoverwrite">IDataCollector::LogOverwrite</a>
-

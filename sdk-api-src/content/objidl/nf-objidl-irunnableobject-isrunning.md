@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunnableObject::IsRunning
+ - IRunnableObject.IsRunning
 ---
 
 # IRunnableObject::IsRunning
@@ -74,4 +74,3 @@ An object handler could call <b>IRunnableObject::IsRunning</b> when it wants to 
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-oleisrunning">OleIsRunning</a>
-

@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - LPNMCBEENDEDITW
+ - NMCBEENDEDIT
+ - NMCBEENDEDITA
  - NMCBEENDEDITW
 ---
 
@@ -138,4 +139,3 @@ The user completed the edit operation by pressing ENTER.
 
 > [!NOTE]
 > The commctrl.h header defines NMCBEENDEDIT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

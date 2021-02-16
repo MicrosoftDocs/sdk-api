@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - __MIDL___MIDL_itf_vmr9_0000_0000_0002
  - VMR9PresentationFlags
 ---
 
@@ -78,4 +77,3 @@ Indicates that the time stamp on the sample is valid.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

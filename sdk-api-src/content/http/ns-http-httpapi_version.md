@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTPAPI_VERSION
- - PHTTPAPI_VERSION
  - HTTPAPI_VERSION
 ---
 

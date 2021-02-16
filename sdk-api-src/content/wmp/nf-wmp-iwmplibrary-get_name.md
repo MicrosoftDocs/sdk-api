@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibrary::get_name
+ - IWMPLibrary.get_name
 ---
 
 # IWMPLibrary::get_name
@@ -91,4 +91,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmplibrary-get_type">IWMPLibrary::get_type</a>
-

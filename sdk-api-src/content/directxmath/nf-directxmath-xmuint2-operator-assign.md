@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMUINT2::operator=
+ - XMUINT2.operator =
 ---
 
 # XMUINT2::operator-assign

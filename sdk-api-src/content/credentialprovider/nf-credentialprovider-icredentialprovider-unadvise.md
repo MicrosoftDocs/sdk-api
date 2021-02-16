@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProvider::UnAdvise
+ - ICredentialProvider.UnAdvise
 ---
 
 # ICredentialProvider::UnAdvise
@@ -78,4 +78,3 @@ If this method is called, it indicates that the <a href="/windows/desktop/api/cr
 
 
 <a href="/windows/desktop/api/credentialprovider/nf-credentialprovider-icredentialprovider-advise">ICredentialProvider::Advise</a>
-

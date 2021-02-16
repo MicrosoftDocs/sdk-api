@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IFolderView::GetItemPosition
+ - IFolderView.GetItemPosition
 ---
 
 # IFolderView::GetItemPosition
@@ -71,4 +71,3 @@ A pointer to a structure that receives the position of the item's upper-left cor
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linedevcaps_tag
- - LPLINEDEVCAPS
  - LINEDEVCAPS
 ---
 
@@ -439,4 +437,3 @@ The members <b>dwSettableDevStatus</b> through <b>dwDeviceClassesOffset</b> are 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineuncompletecall">lineUncompleteCall</a>
-

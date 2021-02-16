@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_CONNECTION_MODE
- - PWLAN_CONNECTION_MODE
  - WLAN_CONNECTION_MODE
 ---
 
@@ -95,4 +93,3 @@ Not used.
 
 
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_connection_parameters">WLAN_CONNECTION_PARAMETERS</a>
-

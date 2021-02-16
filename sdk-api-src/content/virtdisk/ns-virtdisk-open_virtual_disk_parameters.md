@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _OPEN_VIRTUAL_DISK_PARAMETERS
- - POPEN_VIRTUAL_DISK_PARAMETERS
  - OPEN_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -201,4 +199,3 @@ typedef struct _OPEN_VIRTUAL_DISK_PARAMETERS {
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

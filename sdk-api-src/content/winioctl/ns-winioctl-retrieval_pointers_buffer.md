@@ -44,7 +44,6 @@ api_location:
  - WinIoCtl.h
 api_name:
  - RETRIEVAL_POINTERS_BUFFER
- - PRETRIEVAL_POINTERS_BUFFER
 ---
 
 # RETRIEVAL_POINTERS_BUFFER structure
@@ -96,4 +95,3 @@ The LCN at which the current extent begins on the volume. This value is an input
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_move_file">FSCTL_MOVE_FILE</a>
-

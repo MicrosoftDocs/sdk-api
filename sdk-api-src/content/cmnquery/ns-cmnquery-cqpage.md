@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Cmnquery.h
 api_name:
- - _cqpage
- - LPCQPAGE
  - CQPAGE
 ---
 
@@ -111,4 +109,3 @@ An extension-defined 32-bit value passed in the <b>lParam</b> member of the <b>C
 
 
 <a href="/windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages">IQueryForm::AddPages</a>
-

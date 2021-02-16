@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMU555::XMU555
+ - XMU555.XMU555
 ---
 
 # XMU555::XMU555(float,float,float,bool)
@@ -126,4 +126,3 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="/windows/desktop/dxmath/xmu555-ctor">XMU555 Constructors</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMDeviceControl::Play
+ - IWMDMDeviceControl.Play
 ---
 
 # IWMDMDeviceControl::Play
@@ -137,4 +137,3 @@ To determine before invoking the play operation whether an audio format can be p
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmobjectinfo">IWMDMObjectInfo Interface</a>
-

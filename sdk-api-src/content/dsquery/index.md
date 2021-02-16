@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - dsquery
  - dsquery/dsquery
-api_name:
- - dsquery
 ---
 
 # Dsquery.h header

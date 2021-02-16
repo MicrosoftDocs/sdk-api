@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - OpenBackupEventLogW
  - winbase/OpenBackupEventLogW
- - OpenBackupEventLog
- - winbase/OpenBackupEventLog
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,10 @@ api_location:
  - Advapi32.dll
  - Ext-Ms-Win-AdvAPI32-EventLog-Ansi-L1-1-0.dll
 api_name:
- - OpenBackupEventLogW
  - OpenBackupEventLog
+ - OpenBackupEventLogA
+ - OpenBackupEventLogW
+req.apiset: ext-ms-win-advapi32-eventlog-ansi-l1-1-0 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # OpenBackupEventLogW function
@@ -95,4 +94,3 @@ When this function is used on Windows Vista and later computers, only backup ev
 
 
 <a href="/windows/desktop/EventLog/event-logging-functions">Event Logging Functions</a>
-

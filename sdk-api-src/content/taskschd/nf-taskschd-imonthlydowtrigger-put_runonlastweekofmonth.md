@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth
+ - IMonthlyDOWTrigger.RunOnLastWeekOfMonth
+ - IMonthlyDOWTrigger.get_RunOnLastWeekOfMonth
+ - IMonthlyDOWTrigger.put_RunOnLastWeekOfMonth
 ---
 
 # IMonthlyDOWTrigger::put_RunOnLastWeekOfMonth
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

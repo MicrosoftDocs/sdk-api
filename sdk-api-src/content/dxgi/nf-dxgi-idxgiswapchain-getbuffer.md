@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGISwapChain::GetBuffer
+ - IDXGISwapChain.GetBuffer
 ---
 
 # IDXGISwapChain::GetBuffer
@@ -86,4 +86,3 @@ Returns one of the following <a href="/windows/desktop/direct3ddxgi/dxgi-error">
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiswapchain">IDXGISwapChain</a>
-

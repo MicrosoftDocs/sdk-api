@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_FILE_SYSTEM_NOTIFICATION
  - VDS_FILE_SYSTEM_NOTIFICATION
 ---
 
@@ -125,4 +124,3 @@ An application can receive file-system events by implementing the <a href="/wind
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
-

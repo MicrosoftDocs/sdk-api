@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataAssemblyImport::FindAssembliesByName
+ - IMetaDataAssemblyImport.FindAssembliesByName
 ---
 
 # IMetaDataAssemblyImport::FindAssembliesByName
@@ -106,4 +106,3 @@ Given an assembly name, the <b>FindAssembliesByName</b> method finds the assembl
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataassemblyimport">IMetaDataAssemblyImport</a>
-

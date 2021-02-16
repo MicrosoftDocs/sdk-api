@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMPropertyVault::CopyPropertiesFrom
+ - IWMPropertyVault.CopyPropertiesFrom
 ---
 
 # IWMPropertyVault::CopyPropertiesFrom
@@ -103,4 +103,3 @@ Passing <b>NULL</b> as <i>pIWMPropertyVault</i> will result in unpredictable err
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpropertyvault">IWMPropertyVault Interface</a>
-

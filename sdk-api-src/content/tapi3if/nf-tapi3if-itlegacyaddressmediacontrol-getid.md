@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyAddressMediaControl::GetID
+ - ITLegacyAddressMediaControl.GetID
 ---
 
 # ITLegacyAddressMediaControl::GetID
@@ -143,4 +143,3 @@ The application must call the
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacyaddressmediacontrol-setdevconfig">SetDevConfig</a>
-

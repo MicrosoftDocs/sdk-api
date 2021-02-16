@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara2::SetDuplicate2
+ - ITextPara2.SetDuplicate2
 ---
 
 # ITextPara2::SetDuplicate2
@@ -117,4 +117,3 @@ Insufficient memory.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextpara2-getduplicate2">ITextPara2::GetDuplicate2</a>
-

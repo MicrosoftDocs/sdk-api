@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DAuthenticatedChannel9::Query
+ - IDirect3DAuthenticatedChannel9.Query
 ---
 
 # IDirect3DAuthenticatedChannel9::Query
@@ -85,4 +85,3 @@ For a list of queries, see <a href="/windows/desktop/medfound/content-protection
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dauthenticatedchannel9">IDirect3DAuthenticatedChannel9</a>
-

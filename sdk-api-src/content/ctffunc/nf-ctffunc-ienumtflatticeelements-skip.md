@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sptip.dll
 api_name:
- - IEnumTfLatticeElements::Skip
+ - IEnumTfLatticeElements.Skip
 ---
 
 # IEnumTfLatticeElements::Skip

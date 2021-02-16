@@ -46,9 +46,7 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _XFORML
- - PXFORML
- - XFORML
+ - FLOATOBJ_XFORM
 ---
 
 # XFORML structure
@@ -87,4 +85,3 @@ All elements are specified as <a href="/windows/desktop/api/winddi/ns-winddi-flo
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-xformobj_igetxform">XFORMOBJ_iGetXform</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameEncode::SetPalette
+ - IWICBitmapFrameEncode.SetPalette
 ---
 
 # IWICBitmapFrameEncode::SetPalette
@@ -75,4 +75,3 @@ This method doesn't fail if called on a frame whose pixel format is set to a non
 If you already called <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapencoder-setpalette">IWICBitmapEncoder::SetPalette</a> to set a global palette, this method overrides that palette for the current frame.
 
 The palette must be specified before your first call to <a href="/windows/desktop/api/wincodec/nf-wincodec-iwicplanarbitmapframeencode-writepixels">WritePixels</a>/<a href="/windows/desktop/api/wincodec/nf-wincodec-iwicbitmapframeencode-writesource">WriteSource</a>. Doing so will cause <b>WriteSource</b> to use the specified palette when converting the source image to the encoder pixel format. If no palette is specified, a palette will be generated on the first call to <b>WriteSource</b>.
-

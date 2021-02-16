@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imm32.dll
 api_name:
- - ImmDisableLegacyIME
+ - IMMDisableLegacyIME
 ---
 
 # ImmDisableLegacyIME function
@@ -76,4 +76,3 @@ The app must call this function before the first top-level window in the thread 
 
 
 <a href="/windows/desktop/Intl/input-method-manager-functions">Input Method Manager Functions</a>
-

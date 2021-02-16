@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::WBEMTimeSpan
+ - WBEMTimeSpan::WbemTimeSpan
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan(const FILETIME &)
@@ -93,4 +93,3 @@ Initializes the new time span object to values in the parameters.
 </table>
 
 ## -parameters
-

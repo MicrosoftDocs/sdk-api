@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRANGLEARC
- - PEMRANGLEARC
  - EMRANGLEARC
 ---
 
@@ -91,4 +89,3 @@ An arc's sweep angle, in degrees.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

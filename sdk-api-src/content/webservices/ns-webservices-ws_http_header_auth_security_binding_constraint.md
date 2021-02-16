@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
  - WS_HTTP_HEADER_AUTH_SECURITY_BINDING_CONSTRAINT
 ---
 
@@ -61,4 +60,3 @@ A security binding constraint that corresponds to the
 ### -field bindingConstraint
 
 The base binding constraint that this binding constraint derives from.
-

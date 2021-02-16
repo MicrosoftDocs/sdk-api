@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vfw.h
 api_name:
- - tagCapDriverCaps
- - PCAPDRIVERCAPS
  - CAPDRIVERCAPS
 ---
 
@@ -113,4 +111,3 @@ Video Capture
 
 
 <a href="/windows/desktop/Multimedia/video-capture-structures">Video Capture Structures</a>
-

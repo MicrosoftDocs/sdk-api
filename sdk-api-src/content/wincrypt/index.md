@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - wincrypt
  - wincrypt/wincrypt
-api_name:
- - wincrypt
 ---
 
 # Wincrypt.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPropertyBag::SetFileProperty
+ - IFsrmPropertyBag.SetFileProperty
 ---
 
 # IFsrmPropertyBag::SetFileProperty
@@ -77,4 +77,3 @@ The caller must be a storage module to obtain access to this property.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nf-fsrmpipeline-ifsrmpropertybag-getfileproperty">IFsrmPropertyBag::GetFileProperty</a>
-

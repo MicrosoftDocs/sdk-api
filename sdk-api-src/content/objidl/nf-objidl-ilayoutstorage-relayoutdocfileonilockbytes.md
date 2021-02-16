@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILayoutStorage::ReLayoutDocfileOnILockBytes
+ - ILayoutStorage.ReLayoutDocfileOnILockBytes
 ---
 
 # ILayoutStorage::ReLayoutDocfileOnILockBytes
@@ -85,4 +85,3 @@ This method is not implemented.
 ## -remarks
 
 If implemented, it would rewrite the compound file in the byte-array object specified by the caller.  It would return <b>S_OK</b> for success or one of the <b>STG_E_*</b> error codes for failure.
-

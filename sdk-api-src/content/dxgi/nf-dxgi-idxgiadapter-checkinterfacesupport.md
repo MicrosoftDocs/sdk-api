@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIAdapter::CheckInterfaceSupport
+ - IDXGIAdapter.CheckInterfaceSupport
 ---
 
 # IDXGIAdapter::CheckInterfaceSupport
@@ -85,4 +85,3 @@ S_OK indicates that the interface is supported, otherwise DXGI_ERROR_UNSUPPORTED
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter">IDXGIAdapter</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyJob::GetDisplayName
+ - IBackgroundCopyJob.GetDisplayName
 ---
 
 # IBackgroundCopyJob::GetDisplayName
@@ -95,4 +95,3 @@ The <i>ppDisplayName</i> parameter cannot be <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-setdisplayname">IBackgroundCopyJob::SetDisplayName</a>
-

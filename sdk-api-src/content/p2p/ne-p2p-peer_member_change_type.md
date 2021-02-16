@@ -44,7 +44,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_member_change_type_tag
  - PEER_MEMBER_CHANGE_TYPE
 ---
 
@@ -86,4 +85,3 @@ This peer event does not exist in the Peer Grouping Infrastructure v1.0, and mus
 ## -see-also
 
 <a href="/windows/desktop/api/p2p/ns-p2p-peer_event_member_change_data">PEER_EVENT_MEMBER_CHANGE_DATA</a>
-

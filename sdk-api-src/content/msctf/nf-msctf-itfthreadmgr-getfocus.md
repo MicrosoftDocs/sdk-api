@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfThreadMgr::GetFocus
+ - ITfThreadMgr.GetFocus
 ---
 
 # ITfThreadMgr::GetFocus
@@ -120,4 +120,3 @@ No document manager has focus. <i>ppdimFocus</i> be set to <b>NULL</b>.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfthreadmgr-setfocus">ITfThreadMgr::SetFocus
       </a>
-

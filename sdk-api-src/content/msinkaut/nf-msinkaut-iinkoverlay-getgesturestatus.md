@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::GetGestureStatus
+ - IInkOverlay.GetGestureStatus
 ---
 
 # IInkOverlay::GetGestureStatus
@@ -170,4 +170,3 @@ To set the interest of the <a href="/windows/desktop/tablet/inkcollector-class">
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-setgesturestatus">SetGestureStatus Method</a>
-

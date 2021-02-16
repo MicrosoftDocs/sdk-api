@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDistributorNotify::NotifyGraphChange
+ - IDistributorNotify.NotifyGraphChange
 ---
 
 # IDistributorNotify::NotifyGraphChange
@@ -72,4 +72,3 @@ Make sure you call <b>Release</b> on any held filters that have been removed at 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IPerformanceCounterDataCollector::put_SampleInterval
+ - IPerformanceCounterDataCollector.SampleInterval
+ - IPerformanceCounterDataCollector.get_SampleInterval
+ - IPerformanceCounterDataCollector.put_SampleInterval
 ---
 
 # IPerformanceCounterDataCollector::put_SampleInterval
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-iperformancecounterdatacollector">IPerformanceCounterDataCollector</a>
-

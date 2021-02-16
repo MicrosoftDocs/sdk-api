@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellItemFilter::IncludeItem
+ - IShellItemFilter.IncludeItem
 ---
 
 # IShellItemFilter::IncludeItem
@@ -77,4 +77,3 @@ The host calls this method for each item in the folder. Returns S_OK to have the
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitemfilter">IShellItemFilter</a>
-

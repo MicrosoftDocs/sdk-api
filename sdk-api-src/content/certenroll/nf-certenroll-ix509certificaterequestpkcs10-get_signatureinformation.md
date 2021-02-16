@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::get_SignatureInformation
+ - IX509CertificateRequestPkcs10.SignatureInformation
+ - IX509CertificateRequestPkcs10.get_SignatureInformation
 ---
 
 # IX509CertificateRequestPkcs10::get_SignatureInformation
@@ -81,4 +82,3 @@ The <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509signatureinforma
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

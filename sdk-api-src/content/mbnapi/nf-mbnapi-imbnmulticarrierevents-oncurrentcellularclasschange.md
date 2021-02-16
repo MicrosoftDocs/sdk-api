@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnMultiCarrierEvents::OnCurrentCellularClassChange
+ - IMbnMultiCarrierEvents.OnCurrentCellularClassChange
 ---
 
 # IMbnMultiCarrierEvents::OnCurrentCellularClassChange
@@ -86,4 +86,3 @@ The operation  was successful.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnmulticarrierevents">IMbnMultiCarrierEvents</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_X942_DH_PARAMETERS
- - PCERT_X942_DH_PARAMETERS
  - CERT_X942_DH_PARAMETERS
 ---
 
@@ -84,4 +82,3 @@ Optional subgroup factor.
 ### -field pValidationParams
 
 Optional pointer to a <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_x942_dh_validation_params">CERT_X942_DH_VALIDATION_PARAMS</a> structure. If the <b>cbData</b> member of the q BLOB is zero, all of the members of <b>pValidationParams</b> must be zero.
-

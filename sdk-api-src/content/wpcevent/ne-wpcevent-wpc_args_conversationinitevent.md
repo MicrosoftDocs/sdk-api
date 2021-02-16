@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wpcevent.h
 api_name:
- - tagWPC_ARGS_CONVERSATIONINITEVENT
  - WPC_ARGS_CONVERSATIONINITEVENT
 ---
 

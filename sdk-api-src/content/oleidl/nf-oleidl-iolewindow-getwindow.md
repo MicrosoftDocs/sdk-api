@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleWindow::GetWindow
+ - IOleWindow.GetWindow
 ---
 
 # IOleWindow::GetWindow
@@ -180,4 +180,3 @@ Each type of window has a different role in the in-place activation architecture
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-iolewindow">IOleWindow</a>
-

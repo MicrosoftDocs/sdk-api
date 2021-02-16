@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMR
- - PEMR
  - EMR
 ---
 
@@ -187,4 +185,3 @@ The size of the record, in bytes. This member must be a multiple of four.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

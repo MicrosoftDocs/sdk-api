@@ -44,7 +44,6 @@ api_type:
 api_location:
  - cmdtree.h
 api_name:
- - tagDBBYGUID
  - DBBYGUID
 ---
 
@@ -75,4 +74,3 @@ this node's GUID
 ## -remarks
 
 The information stored in the <b>pbInfo</b> member is provider-specific, and provides for operation extensibility.
-

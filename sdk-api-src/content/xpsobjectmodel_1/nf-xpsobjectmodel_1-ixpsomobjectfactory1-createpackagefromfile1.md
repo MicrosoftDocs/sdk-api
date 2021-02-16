@@ -43,7 +43,7 @@ api_location:
  - none
  - none.dll
 api_name:
- - IXpsOMObjectFactory1::CreatePackageFromFile1
+ - IXpsOMObjectFactory1.CreatePackageFromFile1
 ---
 
 # IXpsOMObjectFactory1::CreatePackageFromFile1
@@ -88,4 +88,3 @@ Use this method to read a file that contains an XPS document that could be of ty
 ## -see-also
 
 <a href="/windows/desktop/api/xpsobjectmodel_1/nn-xpsobjectmodel_1-ixpsomobjectfactory1">IXpsOMObjectFactory1</a>
-

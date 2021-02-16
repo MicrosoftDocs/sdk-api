@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_KEYMODULE_STATISTICS0_
  - IKEEXT_KEYMODULE_STATISTICS0
 ---
 
@@ -87,4 +86,3 @@ Current Quick Mode negotiation time.
 ### -field extendedModeNegotiationTime
 
 Current Extended Mode negotiation time.  This member is applicable for Authip only.
-

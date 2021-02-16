@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - ISearchFolderItemFactory::SetCondition
+ - ISearchFolderItemFactory.SetCondition
 ---
 
 # ISearchFolderItemFactory::SetCondition
@@ -73,4 +73,3 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-isearchfolderitemfactory">ISearchFolderItemFactory</a>
-

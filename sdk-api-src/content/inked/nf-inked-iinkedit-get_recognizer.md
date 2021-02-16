@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_Recognizer
+ - IInkEdit.Recognizer
+ - IInkEdit.get_Recognizer
+ - IInkEdit.put_Recognizer
+ - InkEdit.get_Recognizer
+ - InkEdit.putref_Recognizer
 ---
 
 # IInkEdit::get_Recognizer
@@ -82,4 +86,3 @@ If a factoid is used for the <a href="/windows/desktop/tablet/inkedit-control-re
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

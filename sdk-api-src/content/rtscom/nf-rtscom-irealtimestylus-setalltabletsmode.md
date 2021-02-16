@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus::SetAllTabletsMode
+ - IRealTimeStylus.SetAllTabletsMode
 ---
 
 # IRealTimeStylus::SetAllTabletsMode
@@ -86,4 +86,3 @@ If <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-setsingletable
 
 
 <b>RealTimeStylus Class</b>
-

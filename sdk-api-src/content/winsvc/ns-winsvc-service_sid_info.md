@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_SID_INFO
- - LPSERVICE_SID_INFO
  - SERVICE_SID_INFO
 ---
 
@@ -150,4 +148,3 @@ Note that NT SERVICE is the domain name.
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfig2a">QueryServiceConfig2</a>
-

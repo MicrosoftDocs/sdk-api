@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXMath.h
 api_name:
- - XMMATRIX::operator()
+ - XMMATRIX.operator ()
 ---
 
 # XMMATRIX::operator-function-call(size_t,size_t)

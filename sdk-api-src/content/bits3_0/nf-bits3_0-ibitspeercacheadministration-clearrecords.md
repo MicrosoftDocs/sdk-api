@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration::ClearRecords
+ - IBitsPeerCacheAdministration.ClearRecords
 ---
 
 # IBitsPeerCacheAdministration::ClearRecords
@@ -88,4 +88,3 @@ The cache is not cleared until all current cache activity is complete.
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-deleterecord">IBitsPeerCacheAdministration::DeleteRecord</a>
-

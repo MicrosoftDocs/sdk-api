@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - SpAcceptCredentialsFn
+ - SpAcceptCredentials
 ---
 
 # SpAcceptCredentialsFn callback function
@@ -110,4 +110,3 @@ The LSA accesses the <b>SpAcceptCredentials</b> function through the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-splsamodeinitializefn">SpLsaModeInitialize</a>
-

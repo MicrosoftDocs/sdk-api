@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linedialparams_tag
- - LPLINEDIALPARAMS
  - LINEDIALPARAMS
 ---
 
@@ -111,4 +109,3 @@ The
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linesetcallparams">lineSetCallParams</a>
-

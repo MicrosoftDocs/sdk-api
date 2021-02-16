@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::GetMixFormat
+ - IAudioClient.GetMixFormat
 ---
 
 # IAudioClient::GetMixFormat
@@ -147,4 +147,3 @@ For more information about the <b>GetMixFormat</b> method, see <a href="/windows
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-isformatsupported">IAudioClient::IsFormatSupported</a>
-

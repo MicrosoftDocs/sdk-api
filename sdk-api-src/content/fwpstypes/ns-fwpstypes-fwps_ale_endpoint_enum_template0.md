@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpstypes.h
 api_name:
- - FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0_
  - FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0
 ---
 
@@ -94,4 +93,3 @@ This structure can be used to narrow the results when enumerating endpoints. If 
 
 
 <a href="/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
-

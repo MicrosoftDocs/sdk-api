@@ -45,7 +45,6 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - _DRM_USAGEPOLICY_TYPE
  - DRM_USAGEPOLICY_TYPE
 ---
 
@@ -88,4 +87,3 @@ The usage policy is tied to an operating system.
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmsetusagepolicy">DRMSetUsagePolicy</a>
-

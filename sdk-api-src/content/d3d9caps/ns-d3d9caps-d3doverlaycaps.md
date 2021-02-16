@@ -44,7 +44,6 @@ api_type:
 api_location:
  - d3d9caps.h
 api_name:
- - _D3DOVERLAYCAPS
  - D3DOVERLAYCAPS
 ---
 
@@ -171,4 +170,3 @@ The maximum overlay height after stretching.
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3d9exoverlayextension-checkdeviceoverlaytype">IDirect3D9ExOverlayExtension::CheckDeviceOverlayType</a>
-

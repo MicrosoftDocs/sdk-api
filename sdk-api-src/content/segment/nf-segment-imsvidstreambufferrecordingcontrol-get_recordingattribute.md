@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferRecordingControl::get_RecordingAttribute
+ - IMSVidStreamBufferRecordingControl.get_RecordingAttribute
 ---
 
 # IMSVidStreamBufferRecordingControl::get_RecordingAttribute
@@ -87,4 +87,3 @@ The caller must release the returned <b>IUnknown</b> pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambufferrecordingcontrol">IMSVidStreamBufferRecordingControl Interface</a>
-

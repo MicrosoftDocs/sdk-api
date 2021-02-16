@@ -9,8 +9,6 @@ tech.root: wnv
 f1_keywords:
  - wnvapi
  - wnvapi/wnvapi
-api_name:
- - wnvapi
 ---
 
 # Wnvapi.h header

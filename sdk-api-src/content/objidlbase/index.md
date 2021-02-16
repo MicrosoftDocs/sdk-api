@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - objidlbase
  - objidlbase/objidlbase
-api_name:
- - objidlbase
 ---
 
 # Objidlbase.h header

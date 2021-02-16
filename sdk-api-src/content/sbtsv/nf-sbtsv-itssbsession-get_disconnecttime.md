@@ -42,7 +42,9 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbSession::get_DisconnectTime
+ - ITsSbSession.DisconnectTime
+ - ITsSbSession.get_DisconnectTime
+ - ITsSbSession.put_DisconnectTime
 ---
 
 # ITsSbSession::get_DisconnectTime
@@ -60,4 +62,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbsession">ITsSbSession</a>
-

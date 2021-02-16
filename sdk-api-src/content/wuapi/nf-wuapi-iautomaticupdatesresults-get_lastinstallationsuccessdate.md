@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesResults::get_LastInstallationSuccessDate
+ - IAutomaticUpdatesResults.LastInstallationSuccessDate
+ - IAutomaticUpdatesResults.get_LastInstallationSuccessDate
 ---
 
 # IAutomaticUpdatesResults::get_LastInstallationSuccessDate
@@ -63,4 +64,3 @@ Calls to <b>LastInstallationSuccessDate</b> by public users do not update this p
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iautomaticupdatesresults">IAutomaticUpdatesResults</a>
-

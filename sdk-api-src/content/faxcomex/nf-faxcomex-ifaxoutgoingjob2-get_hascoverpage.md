@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingJob2::get_HasCoverPage
+ - IFaxOutgoingJob2.HasCoverPage
+ - IFaxOutgoingJob2.get_HasCoverPage
+ - IFaxOutgoingJob2.get_HasCoverPage
 ---
 
 # IFaxOutgoingJob2::get_HasCoverPage
@@ -67,4 +69,3 @@ The value is VARIANT_TRUE if there is a cover page; otherwise VARIANT_FALSE.
 
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxoutgoingjob2">IFaxOutgoingJob2</a>
-

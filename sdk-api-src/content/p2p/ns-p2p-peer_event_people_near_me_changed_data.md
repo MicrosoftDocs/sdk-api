@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_event_people_near_me_changed_data_tag
- - PPEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA
  - PEER_EVENT_PEOPLE_NEAR_ME_CHANGED_DATA
 ---
 
@@ -85,4 +83,3 @@ The information that can be changed in a peer contact include the endpoint's nam
 
 
 <a href="/windows/desktop/P2PSdk/collaboration-api-structures">Peer Collaboration API Structures</a>
-

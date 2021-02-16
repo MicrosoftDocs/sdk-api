@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
- - _DCB
- - LPDCB
  - DCB
 ---
 
@@ -595,4 +593,3 @@ When a <b>DCB</b> structure is used to configure the 8250, the
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
-

@@ -26,8 +26,6 @@ req.unicode-ansi:
 f1_keywords:
  - IsCharLowerW
  - winuser/IsCharLowerW
- - IsCharLower
- - winuser/IsCharLower
 dev_langs:
  - c++
 topic_type:
@@ -43,7 +41,6 @@ api_location:
  - mfc120u.dll mfc140u.dll
 api_name:
  - IsCharLowerW
- - IsCharLower
 ---
 
 ## -description
@@ -86,4 +83,3 @@ If the character is not lowercase, the return value is zero. To get extended err
 
 
 <a href="/windows/desktop/menurc/strings">Strings</a>
-

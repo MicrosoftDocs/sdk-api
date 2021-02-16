@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::put_URL
+ - IWMPCore.put_URL
 ---
 
 # IWMPCore::put_URL
@@ -95,4 +95,3 @@ Do not call this method from event handler code as it may yield unexpected resul
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_url">IWMPCore::get_URL</a>
-

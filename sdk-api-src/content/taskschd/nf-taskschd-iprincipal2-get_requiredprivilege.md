@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal2::get_RequiredPrivilege
+ - IPrincipal2.RequiredPrivilege
+ - IPrincipal2.get_RequiredPrivilege
 ---
 
 # IPrincipal2::get_RequiredPrivilege
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

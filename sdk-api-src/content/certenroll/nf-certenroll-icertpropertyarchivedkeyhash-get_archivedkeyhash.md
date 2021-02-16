@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICertPropertyArchivedKeyHash::get_ArchivedKeyHash
+ - ICertPropertyArchivedKeyHash.ArchivedKeyHash
+ - ICertPropertyArchivedKeyHash.get_ArchivedKeyHash
 ---
 
 # ICertPropertyArchivedKeyHash::get_ArchivedKeyHash
@@ -71,4 +72,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-icertpropertyarc
 
 
 <a href="/windows/desktop/api/certenroll/nf-certenroll-ix509certificaterequestcmc-get_keyarchivalcertificate">KeyArchivalCertificate</a>
-

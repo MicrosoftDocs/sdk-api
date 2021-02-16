@@ -44,7 +44,6 @@ api_type:
 api_location:
  - PhotoAcquire.h
 api_name:
- - tagUSER_INPUT_STRING_TYPE
  - USER_INPUT_STRING_TYPE
 ---
 
@@ -76,4 +75,3 @@ Indicates that the string will not accept characters that are illegal in file or
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iuserinputstring-getstringtype">IUserInputString::GetStringType</a>
-

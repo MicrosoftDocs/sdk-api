@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Bdaiface.h
 api_name:
- - IBDA_ConditionalAccess::get_Entitlement
+ - IBDA_ConditionalAccess.get_Entitlement
 ---
 
 # IBDA_ConditionalAccess::get_Entitlement
@@ -71,4 +71,3 @@ Returns <b>E_NOTIMPL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_conditionalaccess">IBDA_ConditionalAccess Interface</a>
-

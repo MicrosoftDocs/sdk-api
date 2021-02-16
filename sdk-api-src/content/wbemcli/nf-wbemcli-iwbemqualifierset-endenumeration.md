@@ -45,7 +45,7 @@ api_location:
  - Ncprov.dll
  - Wbemcore.dll
 api_name:
- - IWbemQualifierSet::EndEnumeration
+ - IWbemQualifierSet.EndEnumeration
 ---
 
 # IWbemQualifierSet::EndEnumeration
@@ -75,4 +75,3 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 
 <a href="/windows/desktop/api/wbemcli/nf-wbemcli-iwbemqualifierset-next">IWbemQualifierSet::Next</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - SizeF::SizeF
+ - SizeF.SizeF
 ---
 
 # SizeF::SizeF(IN const SizeF &)
@@ -68,4 +68,3 @@ Reference to a <a href="/windows/desktop/api/gdiplustypes/nl-gdiplustypes-sizef"
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>
-

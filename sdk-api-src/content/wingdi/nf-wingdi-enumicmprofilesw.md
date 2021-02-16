@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumICMProfilesW
  - wingdi/EnumICMProfilesW
- - EnumICMProfiles
- - wingdi/EnumICMProfiles
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - EnumICMProfilesW
  - EnumICMProfiles
+ - EnumICMProfilesA
+ - EnumICMProfilesW
 ---
 
 # EnumICMProfilesW function
@@ -107,4 +106,3 @@ The <b>EnumICMProfiles</b> function returns a list of profiles that are associat
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-seticmprofilea">SetICMProfile</a>
-

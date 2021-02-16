@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxManifestReader::GetPackageDependencies
+ - IAppxManifestReader.GetPackageDependencies
 ---
 
 # IAppxManifestReader::GetPackageDependencies
@@ -75,4 +75,3 @@ Call the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">IUnkno
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxmanifestreader">IAppxManifestReader</a>
-

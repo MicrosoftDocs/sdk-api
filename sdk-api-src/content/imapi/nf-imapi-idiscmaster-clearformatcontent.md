@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IDiscMaster::ClearFormatContent
+ - IDiscMaster.ClearFormatContent
 ---
 
 # IDiscMaster::ClearFormatContent
@@ -73,4 +73,3 @@ The stash file is an internal structure that is used to stage a disc before reco
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-idiscmaster">IDiscMaster</a>
-

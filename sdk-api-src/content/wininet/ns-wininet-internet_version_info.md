@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPINTERNET_VERSION_INFO
  - INTERNET_VERSION_INFO
 ---
 
@@ -74,4 +73,3 @@ Minor version number.
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetqueryoptiona">InternetQueryOption</a>
-

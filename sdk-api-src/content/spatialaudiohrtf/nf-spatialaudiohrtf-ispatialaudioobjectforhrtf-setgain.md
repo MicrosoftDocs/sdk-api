@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiohrtf.h
 api_name:
- - ISpatialAudioObjectForHrtf::SetGain
+ - ISpatialAudioObjectForHrtf.SetGain
 ---
 
 # ISpatialAudioObjectForHrtf::SetGain
@@ -102,4 +102,3 @@ If <b>SetGain</b> is never called, the default value of 0.0 is used. After <b>Se
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf">ISpatialAudioObjectForHrtf</a>
-

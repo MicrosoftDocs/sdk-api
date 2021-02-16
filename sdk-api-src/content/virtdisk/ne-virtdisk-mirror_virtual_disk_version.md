@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _MIRROR_VIRTUAL_DISK_VERSION
  - MIRROR_VIRTUAL_DISK_VERSION
 ---
 
@@ -80,4 +79,3 @@ Use the <b>Version1</b> member.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323698(v=vs.85)">VHD Enumerations</a>
-

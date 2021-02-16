@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkTransform::Rotate
+ - IInkTransform.Rotate
 ---
 
 # IInkTransform::Rotate
@@ -111,4 +111,3 @@ The center point defaults to the origin.
 
 
 <a href="/windows/desktop/tablet/inktransform-class">InkTransform Class</a>
-

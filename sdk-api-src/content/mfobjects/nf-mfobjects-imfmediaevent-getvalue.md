@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaEvent::GetValue
+ - IMFMediaEvent.GetValue
 ---
 
 # IMFMediaEvent::GetValue
@@ -138,4 +138,3 @@ HRESULT GetEventObject(IMFMediaEvent *pEvent, Q **ppObject)
 
 
 <a href="/windows/desktop/medfound/media-event-generators">Media Event Generators</a>
-

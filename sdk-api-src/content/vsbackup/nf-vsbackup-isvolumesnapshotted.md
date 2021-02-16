@@ -44,6 +44,7 @@ api_location:
  - Ext-MS-Win-Fs-VssAPI-L1-1-0.dll
 api_name:
  - IsVolumeSnapshotted
+ - IsVolumeSnapshottedInternal
 ---
 
 # IsVolumeSnapshotted function
@@ -196,4 +197,3 @@ If no volume control or file I/O operations are disabled for the selected volume
 ## -see-also
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_snapshot_compatibility">VSS_SNAPSHOT_COMPATIBILITY</a>
-

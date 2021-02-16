@@ -44,7 +44,6 @@ api_type:
 api_location:
  - fwpmu.h
 api_name:
- - _IPSEC_KEY_MANAGER_CALLBACKS0
  - IPSEC_KEY_MANAGER_CALLBACKS0
 ---
 
@@ -114,4 +113,3 @@ If the <b>IPSEC_KEY_MANAGER_FLAG_DICTATE_KEY</b> flag is set, all three callback
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

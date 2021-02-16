@@ -9,8 +9,6 @@ tech.root: psapi
 f1_keywords:
  - psapi
  - psapi/psapi
-api_name:
- - psapi
 ---
 
 # Psapi.h header

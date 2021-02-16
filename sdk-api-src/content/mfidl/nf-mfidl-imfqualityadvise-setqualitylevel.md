@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFQualityAdvise::SetQualityLevel
+ - IMFQualityAdvise.SetQualityLevel
 ---
 
 # IMFQualityAdvise::SetQualityLevel
@@ -95,4 +95,3 @@ The component does not support the specified quality level or any levels below i
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfqualityadvise">IMFQualityAdvise</a>
-

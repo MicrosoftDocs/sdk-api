@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxgi.dll
 api_name:
- - IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
+ - IDXGIAdapter3.UnregisterVideoMemoryBudgetChangeNotification
 ---
 
 # IDXGIAdapter3::UnregisterVideoMemoryBudgetChangeNotification
@@ -67,4 +67,3 @@ An application may switch back to polling for the information regularly.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiadapter3">IDXGIAdapter3</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cryptxml.h
 api_name:
- - _CRYPT_XML_KEY_DSA_KEY_VALUE
  - CRYPT_XML_KEY_DSA_KEY_VALUE
 ---
 
@@ -84,4 +83,3 @@ The seed value, in big-endian format.
 ### -field Counter
 
 The count value, in big-endian format.
-

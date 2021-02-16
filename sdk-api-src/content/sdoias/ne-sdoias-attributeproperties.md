@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _ATTRIBUTEPROPERTIES
  - ATTRIBUTEPROPERTIES
 ---
 
@@ -146,4 +145,3 @@ The
 
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-dictionaryproperties">DICTIONARYPROPERTIES</a>
-

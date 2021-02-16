@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnInterfaceEvents::OnSetPreferredProvidersComplete
+ - IMbnInterfaceEvents.OnSetPreferredProvidersComplete
 ---
 
 # IMbnInterfaceEvents::OnSetPreferredProvidersComplete
@@ -143,4 +143,3 @@ If a call to the <a href="/windows/desktop/api/mbnapi/nf-mbnapi-imbninterface-se
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbninterfaceevents">IMbnInterfaceEvents</a>
-

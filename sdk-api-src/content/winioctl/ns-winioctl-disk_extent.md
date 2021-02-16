@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DISK_EXTENT
- - PDISK_EXTENT
  - DISK_EXTENT
 ---
 
@@ -78,4 +76,3 @@ The number of bytes in this extent.
 * [IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS](ni-winioctl-ioctl_volume_get_volume_disk_extents.md)
 * [LARGE_INTEGER](../winnt/ns-winnt-large_integer-r1.md)
 * [VOLUME_DISK_EXTENTS](ns-winioctl-volume_disk_extents.md)
-

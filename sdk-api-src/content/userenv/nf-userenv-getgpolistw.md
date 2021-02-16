@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetGPOListW
  - userenv/GetGPOListW
- - GetGPOList
- - userenv/GetGPOList
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Userenv.dll
 api_name:
- - GetGPOListW
  - GetGPOList
+ - GetGPOListA
+ - GetGPOListW
 ---
 
 # GetGPOListW function
@@ -180,4 +179,3 @@ To retrieve the list of GPOs applied for a specific user or computer and extensi
 
 <a href="/previous-versions/windows/desktop/Policy/about-group-policy">Group Policy
     Overview</a>
-

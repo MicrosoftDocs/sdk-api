@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_controls_freeA
  - winldap/ldap_controls_freeA
- - ldap_controls_free
- - winldap/ldap_controls_free
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_controls_freeA
  - ldap_controls_free
+ - ldap_controls_freeA
+ - ldap_controls_freeW
 ---
 
 # ldap_controls_freeA function
@@ -94,4 +93,3 @@ Use this function to free an array of <a href="/previous-versions/windows/deskto
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_parse_result">ldap_parse_result</a>
-

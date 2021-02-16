@@ -46,8 +46,6 @@ api_type:
 api_location:
  - tpcshrd.h
 api_name:
- - _PACKET_PROPERTY
- - PPACKET_PROPERTY
  - PACKET_PROPERTY
 ---
 
@@ -75,4 +73,3 @@ Describes a packet property that is reported by the tablet driver.
 
 
 <a href="/windows/desktop/api/tpcshrd/ns-tpcshrd-property_metrics">PROPERTY_METRICS Structure</a>
-

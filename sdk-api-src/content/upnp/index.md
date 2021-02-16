@@ -9,8 +9,6 @@ tech.root: upnp
 f1_keywords:
  - upnp
  - upnp/upnp
-api_name:
- - upnp
 ---
 
 # Upnp.h header

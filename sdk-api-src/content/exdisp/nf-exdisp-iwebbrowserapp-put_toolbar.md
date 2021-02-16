@@ -43,7 +43,14 @@ api_location:
  - Shdocvw.dll
  - Shdocvw.dll.dll
 api_name:
- - IWebBrowserApp::put_ToolBar
+ - IWebBrowserApp.ToolBar
+ - IWebBrowserApp.get_ToolBar
+ - IWebBrowserApp.put_ToolBar
+ - IWebBrowser2.ToolBar
+ - IWebBrowser2.get_ToolBar
+ - IWebBrowser2.put_ToolBar
+ - IWebBrowser2.get_ToolBar
+ - IWebBrowser2.put_ToolBar
 ---
 
 # IWebBrowserApp::put_ToolBar
@@ -66,4 +73,3 @@ The WebBrowser object saves the value of this property, but otherwise ignores it
 ## -see-also
 
 <a href="/windows/desktop/api/exdisp/nn-exdisp-iwebbrowser2">IWebBrowser2</a>
-

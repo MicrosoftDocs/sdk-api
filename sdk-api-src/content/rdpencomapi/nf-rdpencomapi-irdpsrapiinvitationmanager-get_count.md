@@ -42,7 +42,9 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIInvitationManager::get_Count
+ - IRDPSRAPIInvitationManager.Count
+ - IRDPSRAPIInvitationManager.get_Count
+ - RDPSRAPIInvitationManager.Count
 ---
 
 # IRDPSRAPIInvitationManager::get_Count
@@ -59,4 +61,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/rdpencomapi/nn-rdpencomapi-irdpsrapiinvitationmanager">IRDPSRAPIInvitationManager</a>
-

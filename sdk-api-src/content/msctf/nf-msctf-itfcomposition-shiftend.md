@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfComposition::ShiftEnd
+ - ITfComposition.ShiftEnd
 ---
 
 # ITfComposition::ShiftEnd
@@ -135,4 +135,3 @@ This method causes the GUID_PROP_COMPOSING property to be removed from any text 
 ## -see-also
 
 [ITfComposition interface](nn-msctf-itfcomposition.md), [ITfEditSession::DoEditSession](nf-msctf-itfeditsession-doeditsession.md), [ITfRange interface](nn-msctf-itfrange.md), [ITfComposition::ShiftStart](nf-msctf-itfcomposition-shiftstart.md)
-

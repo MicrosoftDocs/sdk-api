@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate5::get_AutoSelection
+ - IUpdate5.AutoSelection
+ - IUpdate5.get_AutoSelection
 ---
 
 # IUpdate5::get_AutoSelection
@@ -63,4 +64,3 @@ The AutoSelection property indicates whether the update will be automatically se
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate5">IUpdate5</a>
-

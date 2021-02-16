@@ -45,6 +45,8 @@ api_location:
  - winmmbase.dll
 api_name:
  - mixerGetLineInfo
+ - mixerGetLineInfoA
+ - mixerGetLineInfoW
 ---
 
 # mixerGetLineInfo function
@@ -232,4 +234,3 @@ No mixer device is available for the object specified by <i>hmxobj</i>.
 
 
 <a href="/windows/desktop/Multimedia/audio-mixers">Audio Mixers</a>
-

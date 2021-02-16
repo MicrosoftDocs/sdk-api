@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - realtimeapiset
  - realtimeapiset/realtimeapiset
-api_name:
- - realtimeapiset
 ---
 
 # Realtimeapiset.h header

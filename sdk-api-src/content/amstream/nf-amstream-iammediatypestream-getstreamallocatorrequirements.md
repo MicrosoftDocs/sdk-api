@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeStream::GetStreamAllocatorRequirements
+ - IAMMediaTypeStream.GetStreamAllocatorRequirements
 ---
 
 # IAMMediaTypeStream::GetStreamAllocatorRequirements
@@ -67,4 +67,3 @@ Returns E_FAIL.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypestream">IAMMediaTypeStream Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - shobjidl
  - shobjidl/shobjidl
-api_name:
- - shobjidl
 ---
 
 # Shobjidl.h header

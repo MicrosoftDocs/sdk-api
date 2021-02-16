@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - _VDS_DISK_OFFLINE_REASON
  - VDS_DISK_OFFLINE_REASON
 ---
 
@@ -95,4 +94,3 @@ If it is a GPT disk, it is offline for one of the following reasons:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_disk_prop2">VDS_DISK_PROP2</a>
-

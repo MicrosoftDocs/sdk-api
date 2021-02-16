@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxvahd.h
 api_name:
- - _DXVAHD_BLT_STATE_ALPHA_FILL_DATA
  - DXVAHD_BLT_STATE_ALPHA_FILL_DATA
 ---
 
@@ -90,4 +89,3 @@ To get the maximum number of streams, call <a href="/windows/desktop/api/dxvahd/
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

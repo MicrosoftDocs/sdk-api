@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMLISTVIEW
- - LPNMLISTVIEW
  - NMLISTVIEW
 ---
 
@@ -110,4 +108,3 @@ Type: <b><a href="/previous-versions/dd162805(v=vs.85)">POINT</a></b>
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined value of the item. This member is undefined for notification messages that do not use it.
-
