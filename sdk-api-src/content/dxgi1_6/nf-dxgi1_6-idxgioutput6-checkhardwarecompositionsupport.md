@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput6::CheckHardwareCompositionSupport
+ - IDXGIOutput6.CheckHardwareCompositionSupport
 ---
 
 # IDXGIOutput6::CheckHardwareCompositionSupport
@@ -78,4 +78,3 @@ Returns a code that indicates success or failure.
 
 
 <a href="/windows/desktop/api/dxgi1_6/nn-dxgi1_6-idxgioutput6">IDXGIOutput6 interface</a>
-

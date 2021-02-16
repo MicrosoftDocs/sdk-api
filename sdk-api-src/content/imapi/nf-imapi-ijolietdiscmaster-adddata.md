@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Actxprxy.dll
 api_name:
- - IJolietDiscMaster::AddData
+ - IJolietDiscMaster.AddData
 ---
 
 # IJolietDiscMaster::AddData
@@ -83,4 +83,3 @@ If a call to this method would overrun the number of available data blocks, the 
 ## -see-also
 
 <a href="/windows/desktop/api/imapi/nn-imapi-ijolietdiscmaster">IJolietDiscMaster</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTWorkQ.dll
 api_name:
- - IRtwqAsyncCallback::GetParameters
+ - IRtwqAsyncCallback.GetParameters
 ---
 
 # IRtwqAsyncCallback::GetParameters
@@ -117,4 +117,3 @@ Not implemented. Assume the default behavior.
 ## -see-also
 
 <a href="/windows/desktop/api/rtworkq/nn-rtworkq-irtwqasynccallback">IRtwqAsyncCallback</a>
-

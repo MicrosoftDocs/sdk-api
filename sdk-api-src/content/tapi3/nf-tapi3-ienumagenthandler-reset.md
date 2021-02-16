@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumAgentHandler::Reset
+ - IEnumAgentHandler.Reset
 ---
 
 # IEnumAgentHandler::Reset
@@ -91,4 +91,3 @@ Insufficient memory exists to perform the operation.
 ## -see-also
 
 <a href="/windows/desktop/api/tapi3/nn-tapi3-ienumagenthandler">IEnumAgentHandler</a>
-

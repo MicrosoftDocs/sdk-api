@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulk::QueueGetValuesByObjectList
+ - IPortableDevicePropertiesBulk.QueueGetValuesByObjectList
 ---
 
 # IPortableDevicePropertiesBulk::QueueGetValuesByObjectList
@@ -106,4 +106,3 @@ Due to performance issues, some devices may not return a comprehensive list of p
 
 
 <a href="/windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist">IPortableDevicePropertiesBulk::QueueSetValuesByObjectList</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideDataEvent::ProgramChanged
+ - IGuideDataEvent.ProgramChanged
 ---
 
 # IGuideDataEvent::ProgramChanged
@@ -69,4 +69,3 @@ Return S_OK if successful, or an error code.
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedataevent">IGuideDataEvent Interface</a>
-

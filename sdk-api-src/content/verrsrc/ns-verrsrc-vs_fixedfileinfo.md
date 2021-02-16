@@ -44,7 +44,6 @@ api_type:
 api_location:
  - VerRsrc.h
 api_name:
- - tagVS_FIXEDFILEINFO
  - VS_FIXEDFILEINFO
 ---
 
@@ -716,4 +715,3 @@ The least significant 32 bits of the file's 64-bit binary creation date and time
 
 
 <a href="/windows/desktop/menurc/version-information">Version Information</a>
-

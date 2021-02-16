@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType
+ - IDiscFormat2TrackAtOnce.get_CurrentPhysicalMediaType
 ---
 
 # IDiscFormat2TrackAtOnce::get_CurrentPhysicalMediaType
@@ -366,4 +366,3 @@ IDiscFormat2TrackAtOnce::get_SupportedMediaTypes
 
 
 <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_media_physical_type">IMAPI_MEDIA_PHYSICAL_TYPE</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::DeleteDelegatedPolicyUserName
+ - IAzApplication.DeleteDelegatedPolicyUserName
+ - AzApplication.DeleteDelegatedPolicyUserName
 ---
 
 # IAzApplication::DeleteDelegatedPolicyUserName
@@ -75,4 +76,3 @@ Delegated policy users are principals that are allowed to read the subset of the
 <div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
 <div> </div>
 To view the list of delegated policy users in account name format, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazapplication-get_delegatedpolicyusersname">DelegatedPolicyUsersName</a> property.
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _TXFS_SAVEPOINT_INFORMATION
- - PTXFS_SAVEPOINT_INFORMATION
  - TXFS_SAVEPOINT_INFORMATION
 ---
 
@@ -141,4 +139,3 @@ If <b>ActionCode</b> is <b>TXFS_SAVEPOINT_CLEAR</b> or
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_txfs_savepoint_information">FSCTL_TXFS_SAVEPOINT_INFORMATION</a>
-

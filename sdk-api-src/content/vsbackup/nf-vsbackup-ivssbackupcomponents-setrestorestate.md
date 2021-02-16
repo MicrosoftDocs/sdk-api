@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::SetRestoreState
+ - IVssBackupComponents.SetRestoreState
 ---
 
 # IVssBackupComponents::SetRestoreState
@@ -168,4 +168,3 @@ If
 
 
 <a href="/windows/desktop/api/vss/ne-vss-vss_restore_type">VSS_RESTORE_TYPE</a>
-

@@ -9,8 +9,6 @@ tech.root: tracelogging
 f1_keywords:
  - traceloggingactivity
  - traceloggingactivity/traceloggingactivity
-api_name:
- - traceloggingactivity
 ---
 
 # Traceloggingactivity.h header

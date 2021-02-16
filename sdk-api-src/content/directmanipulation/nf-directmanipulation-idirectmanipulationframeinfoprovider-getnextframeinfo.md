@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationFrameInfoProvider::GetNextFrameInfo
+ - IDirectManipulationFrameInfoProvider.GetNextFrameInfo
 ---
 
 # IDirectManipulationFrameInfoProvider::GetNextFrameInfo
@@ -81,4 +81,3 @@ The system implementation of <a href="/previous-versions/windows/desktop/api/dir
 
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationframeinfoprovider">IDirectManipulationFrameInfoProvider</a>
-

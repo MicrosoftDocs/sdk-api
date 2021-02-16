@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mfapi.h
 api_name:
- - tagCapturedMetadataExposureCompensation
  - CapturedMetadataExposureCompensation
 ---
 

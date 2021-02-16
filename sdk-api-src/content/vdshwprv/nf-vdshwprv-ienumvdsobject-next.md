@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IEnumVdsObject::Next
+ - IEnumVdsObject.Next
 ---
 
 # IEnumVdsObject::Next
@@ -115,4 +115,3 @@ To obtain object-specific interface pointers from the <a href="/windows/desktop/
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a>
-

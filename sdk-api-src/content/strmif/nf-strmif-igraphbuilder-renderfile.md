@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGraphBuilder::RenderFile
+ - IGraphBuilder.RenderFile
 ---
 
 # IGraphBuilder::RenderFile
@@ -308,4 +308,3 @@ hr = pGraph-&gt;RenderFile(L"http://example.microsoft.com/Example.avi", 0);
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igraphbuilder">IGraphBuilder Interface</a>
-

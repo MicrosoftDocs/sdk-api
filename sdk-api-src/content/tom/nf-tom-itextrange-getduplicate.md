@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::GetDuplicate
+ - ITextRange.GetDuplicate
 ---
 
 # ITextRange::GetDuplicate
@@ -120,4 +120,3 @@ Even if the range is actually an <a href="/windows/desktop/api/tom/nn-tom-itexts
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

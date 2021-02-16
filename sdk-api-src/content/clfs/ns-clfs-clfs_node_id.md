@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Clfs.h
 api_name:
- - _CLFS_NODE_ID
- - PCLFS_NODE_ID
  - CLFS_NODE_ID
 ---
 

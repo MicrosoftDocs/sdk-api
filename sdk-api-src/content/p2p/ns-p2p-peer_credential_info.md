@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_credential_info_tag
- - PPEER_CREDENTIAL_INFO
  - PEER_CREDENTIAL_INFO
 ---
 
@@ -134,4 +132,3 @@ The role can add records to the peer group database.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergroupissuecredentials">PeerGroupIssueCredentials</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - _WINBIO_ADAPTER_INTERFACE_VERSION
- - PWINBIO_ADAPTER_INTERFACE_VERSION
  - WINBIO_ADAPTER_INTERFACE_VERSION
 ---
 
@@ -91,4 +89,3 @@ This structure is used by the following structures:
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-structures">Plug-in Structures</a>
-

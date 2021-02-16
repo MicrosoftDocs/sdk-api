@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_AGGREGATE_SA_STATISTICS0_
  - IPSEC_AGGREGATE_SA_STATISTICS0
 ---
 
@@ -92,4 +91,3 @@ Number of offloaded SAs.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

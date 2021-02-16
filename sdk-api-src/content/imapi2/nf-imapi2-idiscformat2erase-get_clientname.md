@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Erase::get_ClientName
+ - IDiscFormat2Erase.get_ClientName
 ---
 
 # IDiscFormat2Erase::get_ClientName
@@ -102,4 +102,3 @@ Value: 0x8007000E
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_clientname">IDiscFormat2Erase::put_ClientName</a>
-

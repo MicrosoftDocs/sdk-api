@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - SetupDiSetClassInstallParamsW
  - setupapi/SetupDiSetClassInstallParamsW
- - SetupDiSetClassInstallParams
- - setupapi/SetupDiSetClassInstallParams
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +43,9 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiSetClassInstallParamsW
  - SetupDiSetClassInstallParams
+ - SetupDiSetClassInstallParamsW
+req.apiset: ext-ms-win-setupapi-classinstallers-l1-1-0 (introduced in Windows 8)
 ---
 
 # SetupDiSetClassInstallParamsW function
@@ -103,4 +101,3 @@ If the class install parameters are cleared, the DI_CLASSINSTALLPARAMS flag is r
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdisetdeviceinstallparamsa">SetupDiSetDeviceInstallParams</a>
-

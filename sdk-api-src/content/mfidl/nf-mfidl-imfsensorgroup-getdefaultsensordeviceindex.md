@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorGroup::GetDefaultSensorDeviceIndex
+ - IMFSensorGroup.GetDefaultSensorDeviceIndex
 ---
 
 # IMFSensorGroup::GetDefaultSensorDeviceIndex
@@ -116,4 +116,3 @@ If this <a href="/windows/desktop/api/mfidl/nf-mfidl-imfsensorgroup-setdefaultse
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensorgroup">IMFSensorGroup</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPErrorItem2::get_condition
+ - IWMPErrorItem2.get_condition
 ---
 
 # IWMPErrorItem2::get_condition
@@ -89,4 +89,3 @@ The condition code is a value that is used by Microsoft to provide additional in
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperroritem2">IWMPErrorItem2 Interface</a>
-

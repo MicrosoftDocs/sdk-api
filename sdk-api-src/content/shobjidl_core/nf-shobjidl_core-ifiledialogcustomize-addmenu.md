@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileDialogCustomize::AddMenu
+ - IFileDialogCustomize.AddMenu
 ---
 
 # IFileDialogCustomize::AddMenu
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 The default state for this control is enabled and visible.
 
 To add items to this control, use <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifiledialogcustomize-addcontrolitem">IFileDialogCustomize::AddControlItem</a>.
-

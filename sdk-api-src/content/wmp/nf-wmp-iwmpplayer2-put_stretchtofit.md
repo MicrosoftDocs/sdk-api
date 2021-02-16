@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPPlayer2::put_stretchToFit
+ - IWMPPlayer2.put_stretchToFit
 ---
 
 # IWMPPlayer2::put_stretchToFit
@@ -95,4 +95,3 @@ This method applies to the Windows Media Player control only when embedded in a 
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplayer2-get_stretchtofit">IWMPPlayer2::get_stretchToFit</a>
-

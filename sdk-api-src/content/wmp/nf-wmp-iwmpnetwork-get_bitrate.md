@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPNetwork::get_bitRate
+ - IWMPNetwork.get_bitRate
 ---
 
 # IWMPNetwork::get_bitRate
@@ -87,4 +87,3 @@ The value retrieved by this method is a combination of the bit rates of both vid
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpnetwork">IWMPNetwork Interface</a>
-

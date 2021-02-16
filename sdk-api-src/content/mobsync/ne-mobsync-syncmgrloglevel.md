@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mobsync.h
 api_name:
- - _tagSYNCMGRLOGLEVEL
  - SYNCMGRLOGLEVEL
 ---
 
@@ -78,4 +77,3 @@ The largest valid <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrloglev
 ## -see-also
 
 <a href="/windows/desktop/api/mobsync/nf-mobsync-isyncmgrsynchronizecallback-logerror">ISyncMgrSynchronizeCallback::LogError</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _LINEATTRS
- - PLINEATTRS
  - LINEATTRS
 ---
 
@@ -228,4 +226,3 @@ Specifies a FLOAT_LONG that contains a pair of 16-bit values supplied by GDI whe
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-pathobj_venumstartcliplines">PATHOBJ_vEnumStartClipLines</a>
-

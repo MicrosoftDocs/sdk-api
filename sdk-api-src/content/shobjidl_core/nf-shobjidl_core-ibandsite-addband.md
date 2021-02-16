@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IBandSite::AddBand
+ - IBandSite.AddBand
 ---
 
 # IBandSite::AddBand
@@ -73,4 +73,3 @@ Returns the band ID in ShortFromResult(hresult).
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>
-

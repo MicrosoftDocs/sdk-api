@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::SetMoniker
+ - IOleObject.SetMoniker
 ---
 
 # IOleObject::SetMoniker
@@ -117,4 +117,3 @@ Upon receiving a call to <b>IOleObject::SetMoniker</b>, an object should registe
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmoniker">IOleObject::GetMoniker</a>
-

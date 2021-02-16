@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - Shell_NotifyIconW
  - shellapi/Shell_NotifyIconW
- - Shell_NotifyIcon
- - shellapi/Shell_NotifyIcon
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +44,10 @@ api_location:
  - ext-ms-win-shell-shell32-l1-2-1.dll
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
 api_name:
- - Shell_NotifyIconW
  - Shell_NotifyIcon
+ - Shell_NotifyIconA
+ - Shell_NotifyIconW
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # Shell_NotifyIconW function
@@ -185,4 +184,3 @@ As of Windows XP Service Pack 2 (SP2), a custom icon can be displayed in the n
 ## -see-also
 
 <a href="/windows/desktop/shell/notification-area">Notifications and the Notification Area</a>
-

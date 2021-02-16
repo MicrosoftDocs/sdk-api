@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateMDIWindowA
  - winuser/CreateMDIWindowA
- - CreateMDIWindow
- - winuser/CreateMDIWindow
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - CreateMDIWindowA
  - CreateMDIWindow
+ - CreateMDIWindowA
+ - CreateMDIWindowW
 ---
 
 # CreateMDIWindowA function
@@ -204,4 +203,3 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 > [!NOTE]
 > The winuser.h header defines CreateMDIWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

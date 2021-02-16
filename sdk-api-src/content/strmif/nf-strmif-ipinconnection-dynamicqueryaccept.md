@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IPinConnection::DynamicQueryAccept
+ - IPinConnection.DynamicQueryAccept
 ---
 
 # IPinConnection::DynamicQueryAccept
@@ -111,4 +111,3 @@ Although the <a href="/windows/desktop/api/strmif/nf-strmif-ipin-queryaccept">IP
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ipinconnection">IPinConnection Interface</a>
-

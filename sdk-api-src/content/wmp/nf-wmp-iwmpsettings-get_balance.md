@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSettings::get_balance
+ - IWMPSettings.get_balance
 ---
 
 # IWMPSettings::get_balance
@@ -91,4 +91,3 @@ The value zero indicates that the audio plays at equal volume on both left and r
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsettings-put_balance">IWMPSettings::put_balance</a>
-

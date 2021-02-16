@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IViewObject::SetAdvise
+ - IViewObject.SetAdvise
 ---
 
 # IViewObject::SetAdvise
@@ -177,4 +177,3 @@ At any time, a given view object can support only one advisory connection. There
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-iviewobject-getadvise">IViewObject::GetAdvise</a>
-

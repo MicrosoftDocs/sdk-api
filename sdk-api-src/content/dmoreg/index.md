@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - dmoreg
  - dmoreg/dmoreg
-api_name:
- - dmoreg
 ---
 
 # Dmoreg.h header

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - LookupPrivilegeDisplayNameA
  - winbase/LookupPrivilegeDisplayNameA
- - LookupPrivilegeDisplayName
- - winbase/LookupPrivilegeDisplayName
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-Security-LSALookup-L2-1-2.dll
  - API-MS-Win-Security-LSALookup-Ansi-L2-1-0.dll
 api_name:
- - LookupPrivilegeDisplayNameA
  - LookupPrivilegeDisplayName
+ - LookupPrivilegeDisplayNameA
+ - LookupPrivilegeDisplayNameW
 ---
 
 # LookupPrivilegeDisplayNameA function
@@ -117,4 +116,3 @@ The <b>LookupPrivilegeDisplayName</b> function retrieves display names only for 
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-lookupprivilegevaluea">LookupPrivilegeValue</a>
-

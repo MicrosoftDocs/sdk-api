@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFactory2::CreateGlyphRunAnalysis
+ - IDWriteFactory2.CreateGlyphRunAnalysis
 ---
 
 # IDWriteFactory2::CreateGlyphRunAnalysis

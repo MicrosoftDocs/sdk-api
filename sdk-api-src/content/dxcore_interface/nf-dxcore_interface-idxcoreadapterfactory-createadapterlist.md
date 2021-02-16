@@ -37,10 +37,7 @@ api_type:
 api_location:
  - dxcore.dll
 api_name:
- - IDXCoreAdapterFactory::CreateAdapterList
-f1_keywords:
- - IDXCoreAdapterFactory::CreateAdapterList
- - dxcore_interface/IDXCoreAdapterFactory::CreateAdapterList
+ - IDXCoreAdapterFactory.CreateAdapterList
 ---
 
 ## -description
@@ -94,4 +91,3 @@ The resulting list is not ordered in any particular way, but the ordering of a l
 ## -see-also
 
 [IDXCoreAdapterFactory](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterfactory), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [DXCore adapter attribute GUIDs](/windows/win32/dxcore/dxcore-adapter-attribute-guids), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

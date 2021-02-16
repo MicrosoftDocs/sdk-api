@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Spellcheck.h
 api_name:
- - ISpellCheckerChangedEventHandler::Invoke
+ - ISpellCheckerChangedEventHandler.Invoke
 ---
 
 # ISpellCheckerChangedEventHandler::Invoke
@@ -73,4 +73,3 @@ This method is called when there is a change to the state of the spell checker t
 
 
 <a href="/windows/desktop/api/spellcheck/nn-spellcheck-ispellcheckerchangedeventhandler">ISpellCheckerChangedEventHandler</a>
-

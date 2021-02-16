@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_MethodDecl
  - MI_MethodDecl
 ---
 
@@ -146,4 +145,3 @@ The extrinsic function that implements this method.
 
 
 <a href="/windows/desktop/api/mi/ns-mi-mi_schemadecl">MI_SchemaDecl</a>
-

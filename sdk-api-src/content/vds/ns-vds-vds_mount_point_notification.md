@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_MOUNT_POINT_NOTIFICATION
  - VDS_MOUNT_POINT_NOTIFICATION
 ---
 
@@ -111,4 +110,3 @@ An application can receive these event notifications by implementing the
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_notification">VDS_NOTIFICATION</a>
-

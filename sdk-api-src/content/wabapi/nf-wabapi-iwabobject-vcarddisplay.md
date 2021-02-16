@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject::VCardDisplay
+ - IWABObject.VCardDisplay
 ---
 
 # IWABObject::VCardDisplay
@@ -81,4 +81,3 @@ Value of type <b>LPSTR</b> that specifies
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

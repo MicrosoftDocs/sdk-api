@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerExit::GetCertificateProperty
+ - ICertServerExit.GetCertificateProperty
+ - CCertServerExit.GetCertificateProperty
 ---
 
 # ICertServerExit::GetCertificateProperty
@@ -507,4 +508,3 @@ VariantClear(&varProp);
 
 
 <a href="/windows/desktop/SecCrypto/name-properties">Name Properties</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiGetActualSectionToInstallW
  - setupapi/SetupDiGetActualSectionToInstallW
- - SetupDiGetActualSectionToInstall
- - setupapi/SetupDiGetActualSectionToInstall
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,7 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiGetActualSectionToInstallW
- - SetupDiGetActualSectionToInstall
+ - SetupDiGetActualSectionToInstall - SetupDiGetActualSectionToInstallW
 ---
 
 # SetupDiGetActualSectionToInstallW function
@@ -139,4 +136,3 @@ If a driver is not selected for the specified device information element, a null
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiinstalldevice">SetupDiInstallDevice</a>
-

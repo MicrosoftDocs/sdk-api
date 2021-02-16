@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::SetProfileByID
+ - IWMWriter.SetProfileByID
 ---
 
 # IWMWriter::SetProfileByID
@@ -113,4 +113,3 @@ Only system profiles have IDs. Use the methods of the <b>IWMProfileManager</b> i
 
 
 <a href="/windows/desktop/wmformat/to-use-profiles-with-the-writer">To Use Profiles with the Writer</a>
-

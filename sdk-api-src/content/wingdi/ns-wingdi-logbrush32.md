@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagLOGBRUSH32
- - PLOGBRUSH32
  - LOGBRUSH32
 ---
 
@@ -222,4 +220,3 @@ Brushes can be created from bitmaps or DIBs larger than 8 by 8 pixels.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-setbkmode">SetBkMode</a>
-

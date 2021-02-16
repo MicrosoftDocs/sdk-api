@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_RootStoreFlags
+ - ICEnroll4.RootStoreFlags
+ - ICEnroll4.get_RootStoreFlags
+ - ICEnroll4.put_RootStoreFlags
+ - ICEnroll3.RootStoreFlags
+ - ICEnroll3.get_RootStoreFlags
+ - ICEnroll3.put_RootStoreFlags
+ - ICEnroll2.RootStoreFlags
+ - ICEnroll2.get_RootStoreFlags
+ - ICEnroll2.put_RootStoreFlags
+ - ICEnroll.RootStoreFlags
+ - ICEnroll.get_RootStoreFlags
+ - ICEnroll.put_RootStoreFlags
+ - CEnroll.RootStoreFlags
 ---
 
 # ICEnroll::put_RootStoreFlags
@@ -102,4 +114,3 @@ if ( FAILED ( hr ) )
 else
     printf("Updated RootStoreFlags\n");
 ```
-

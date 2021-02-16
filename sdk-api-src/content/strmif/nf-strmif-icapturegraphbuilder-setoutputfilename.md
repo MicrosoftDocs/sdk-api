@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Quartz.dll
 api_name:
- - ICaptureGraphBuilder::SetOutputFileName
+ - ICaptureGraphBuilder.SetOutputFileName
 ---
 
 # ICaptureGraphBuilder::SetOutputFileName
@@ -175,4 +175,3 @@ You can use the <i>pSink</i> parameter from this method in a call to <a href="/w
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-icapturegraphbuilder">ICaptureGraphBuilder Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DrawingStateBlock1::SetDescription
+ - ID2D1DrawingStateBlock1.SetDescription
 ---
 
 # ID2D1DrawingStateBlock1::SetDescription
@@ -63,4 +63,3 @@ The <a href="/windows/desktop/api/d2d1_1/ns-d2d1_1-d2d1_drawing_state_descriptio
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1drawingstateblock1">ID2D1DrawingStateBlock1</a>
-

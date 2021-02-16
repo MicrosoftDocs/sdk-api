@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1CommandSink::DrawGeometry
+ - ID2D1CommandSink.DrawGeometry
 ---
 
 # ID2D1CommandSink::DrawGeometry
@@ -99,4 +99,3 @@ An HRESULT.
 
 
 <a href="/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">ID2D1RenderTarget::DrawGeometry</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchCatalogManager::UnregisterViewForNotification
+ - ISearchCatalogManager.UnregisterViewForNotification
 ---
 
 # ISearchCatalogManager::UnregisterViewForNotification

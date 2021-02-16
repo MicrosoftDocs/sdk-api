@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMPEG2StreamIdMap::MapStreamId
+ - IMPEG2StreamIdMap.MapStreamId
 ---
 
 # IMPEG2StreamIdMap::MapStreamId
@@ -86,4 +86,3 @@ The Stream ID mapped by this method is the stream ID in the PES header. Substrea
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-impeg2streamidmap">IMPEG2StreamIdMap Interface</a>
-

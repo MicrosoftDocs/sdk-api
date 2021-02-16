@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterPushSink::EndSession
+ - IWMWriterPushSink.EndSession
 ---
 
 # IWMWriterPushSink::EndSession
@@ -104,4 +104,3 @@ There is no connection to the server. (Possibly this method was called before an
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriterpushsink">IWMWriterPushSink Interface</a>
-

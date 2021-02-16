@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMAddressAccess::AddAccessEntry
+ - IWMAddressAccess.AddAccessEntry
 ---
 
 # IWMAddressAccess::AddAccessEntry
@@ -72,4 +72,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmaddressaccess">IWMAddressAccess Interface</a>
-

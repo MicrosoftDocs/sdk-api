@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Gpedit.dll
 api_name:
- - IGPEInformation::GetFileSysPath
+ - IGPEInformation.GetFileSysPath
 ---
 
 # IGPEInformation::GetFileSysPath
@@ -111,4 +111,3 @@ To retrieve the Active Directory path for the specified section of a GPO, you ca
 
 
 <a href="/previous-versions/windows/desktop/api/gpedit/nn-gpedit-igpeinformation">IGPEInformation</a>
-

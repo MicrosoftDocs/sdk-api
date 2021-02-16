@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dwrite.dll
 api_name:
- - IDWriteFontFace::GetDesignGlyphMetrics
+ - IDWriteFontFace.GetDesignGlyphMetrics
 ---
 
 # IDWriteFontFace::GetDesignGlyphMetrics

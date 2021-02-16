@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IClientSecurity::SetBlanket
+ - IClientSecurity.SetBlanket
 ---
 
 # IClientSecurity::SetBlanket
@@ -172,4 +172,3 @@ Note that it is important to set all unused parameters to the default constants 
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iclientsecurity">IClientSecurity</a>
-

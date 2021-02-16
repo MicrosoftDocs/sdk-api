@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wintrust.h
 api_name:
- - _WIN_CERTIFICATE
- - LPWIN_CERTIFICATE
  - WIN_CERTIFICATE
 ---
 

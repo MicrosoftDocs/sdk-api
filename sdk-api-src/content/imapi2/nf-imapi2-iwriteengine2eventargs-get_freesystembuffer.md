@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2EventArgs::get_FreeSystemBuffer
+ - IWriteEngine2EventArgs.get_FreeSystemBuffer
 ---
 
 # IWriteEngine2EventArgs::get_FreeSystemBuffer
@@ -97,4 +97,3 @@ This method returns the same value as if you subtracted <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2eventargs-get_usedsystembuffer">IWriteEngine2EventArgs::get_UsedSystemBuffer</a>
-

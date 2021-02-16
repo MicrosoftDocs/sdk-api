@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.dll
 api_name:
- - IX509EndorsementKey::RemoveCertificate
+ - IX509EndorsementKey.RemoveCertificate
 ---
 
 # IX509EndorsementKey::RemoveCertificate
@@ -73,4 +73,3 @@ Only non-manufacturer certificates can be removed from the key storage provider.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509endorsementkey">IX509EndorsementKey</a>
-

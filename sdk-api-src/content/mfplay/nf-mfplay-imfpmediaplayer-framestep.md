@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplay.h
 api_name:
- - IMFPMediaPlayer::FrameStep
+ - IMFPMediaPlayer.FrameStep
 ---
 
 # IMFPMediaPlayer::FrameStep
@@ -130,4 +130,3 @@ The player object does not support frame stepping during reverse playback (that 
 
 
 <a href="/windows/desktop/medfound/using-mfplay-for-audio-video-playback">Using MFPlay for Audio/Video Playback</a>
-

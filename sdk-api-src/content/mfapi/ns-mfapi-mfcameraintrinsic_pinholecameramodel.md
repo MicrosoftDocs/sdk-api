@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - _MFCameraIntrinsic_PinholeCameraModel
  - MFCameraIntrinsic_PinholeCameraModel
 ---
 
@@ -74,4 +73,3 @@ The <b>PrincipalPoint</b> field is expressed in pixels, not in normalized coordi
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

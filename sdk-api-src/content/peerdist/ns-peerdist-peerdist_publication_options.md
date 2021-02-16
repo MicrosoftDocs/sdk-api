@@ -46,8 +46,6 @@ api_type:
 api_location:
  - peerdist.h
 api_name:
- - peerdist_publication_options_tag
- - PPEERDIST_PUBLICATION_OPTIONS
  - PEERDIST_PUBLICATION_OPTIONS
 ---
 

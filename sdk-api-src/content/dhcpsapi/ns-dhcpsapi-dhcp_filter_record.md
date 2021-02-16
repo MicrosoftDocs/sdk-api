@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_FILTER_RECORD
- - LPDHCP_FILTER_RECORD
  - DHCP_FILTER_RECORD
 ---
 
@@ -71,4 +69,3 @@ Pointer to a null-terminated Unicode string which contains the comment associate
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_addr_pattern">DHCP_ADDR_PATTERN</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::put_ColorKey
+ - IMSVidCtl.put_ColorKey
 ---
 
 # IMSVidCtl::put_ColorKey
@@ -73,4 +73,3 @@ The color key is used when the video renderer draws to an overlay surface.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_colorkey">IMSVidCtl::get_ColorKey</a>
-

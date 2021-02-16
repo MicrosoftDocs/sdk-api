@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPLibrary::isIdentical
+ - IWMPLibrary.isIdentical
 ---
 
 # IWMPLibrary::isIdentical
@@ -91,4 +91,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary">IWMPLibrary Interface</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderFragment::get_BoundingRectangle
+ - IRawElementProviderFragment.BoundingRectangle
+ - IRawElementProviderFragment.get_BoundingRectangle
 ---
 
 # IRawElementProviderFragment::get_BoundingRectangle
@@ -90,4 +91,3 @@ HRESULT STDMETHODCALLTYPE ListItemProvider::get_BoundingRectangle(UiaRect * pRet
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementproviderfragment">IRawElementProviderFragment</a>
-

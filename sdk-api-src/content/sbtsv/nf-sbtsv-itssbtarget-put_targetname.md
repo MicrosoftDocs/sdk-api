@@ -42,7 +42,12 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::put_TargetName
+ - ITsSbTarget.TargetName
+ - ITsSbTarget.get_TargetName
+ - ITsSbTarget.put_TargetName
+ - ITsSbTargetEx.TargetName
+ - ITsSbTargetEx.get_TargetName
+ - ITsSbTargetEx.put_TargetName
 ---
 
 # ITsSbTarget::put_TargetName
@@ -67,4 +72,3 @@ This property was read-only prior to Windows Server 2012.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - austream.h
 api_name:
- - IMemoryData::SetActual
+ - IMemoryData.SetActual
 ---
 
 # IMemoryData::SetActual
@@ -71,4 +71,3 @@ This method is usually called by the <a href="/windows/desktop/api/austream/nn-a
 ## -see-also
 
 <a href="/windows/desktop/api/austream/nn-austream-imemorydata">IMemoryData Interface</a>
-

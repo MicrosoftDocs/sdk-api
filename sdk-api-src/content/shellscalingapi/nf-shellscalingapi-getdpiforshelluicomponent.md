@@ -43,7 +43,7 @@ api_location:
  - shcore.dll
  - api-ms-win-shcore-scaling-l1-1-1.dll
 api_name:
- - GetDpiForShellUIComponent
+ - GetDpiForShellUiComponent
 ---
 
 # GetDpiForShellUIComponent function
@@ -62,4 +62,3 @@ The type of shell component.
 ## -returns
 
 The DPI required for an icon of this type.
-

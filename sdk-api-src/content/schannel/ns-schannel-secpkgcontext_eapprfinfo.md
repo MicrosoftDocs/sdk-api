@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SecPkgContext_EapPrfInfo
- - PSecPkgContext_EapPrfInfo
  - SecPkgContext_EapPrfInfo
 ---
 
@@ -126,4 +124,3 @@ PRF(master_secret, "key expansion", server_random + client_random)
 </table>
 
 ### -field pbPrfData
-

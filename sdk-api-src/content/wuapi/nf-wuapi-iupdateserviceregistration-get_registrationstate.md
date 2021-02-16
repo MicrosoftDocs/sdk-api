@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceRegistration::get_RegistrationState
+ - IUpdateServiceRegistration.RegistrationState
+ - IUpdateServiceRegistration.get_RegistrationState
 ---
 
 # IUpdateServiceRegistration::get_RegistrationState
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateserviceregistration">IUpdateServiceRegistration</a>
-

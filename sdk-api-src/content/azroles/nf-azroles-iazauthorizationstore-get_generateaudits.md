@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::get_GenerateAudits
+ - IAzAuthorizationStore.GenerateAudits
+ - IAzAuthorizationStore.get_GenerateAudits
+ - IAzAuthorizationStore.put_GenerateAudits
+ - AzAuthorizationStore.GenerateAudits
 ---
 
 # IAzAuthorizationStore::get_GenerateAudits
@@ -59,4 +62,3 @@ This property is read/write.
 ## -remarks
 
 The <b>GenerateAudits</b> property controls application initialization, client context creation, client context deletion,  and access check run-time auditing. The client context can be created by <a href="/windows/desktop/SecGloss/s-gly">security identifier</a> (SID), name, or token.
-

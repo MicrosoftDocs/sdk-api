@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsService::QueryFileSystemTypes
+ - IVdsService.QueryFileSystemTypes
 ---
 
 # IVdsService::QueryFileSystemTypes
@@ -111,4 +111,3 @@ VDS failed to initialize. If an application calls this method before the service
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_file_system_type_prop">VDS_FILE_SYSTEM_TYPE_PROP</a>
-

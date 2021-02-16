@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WRDS_LISTENER_SETTINGS_1
- - PWRDS_LISTENER_SETTINGS_1
  - WRDS_LISTENER_SETTINGS_1
 ---
 

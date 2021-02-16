@@ -42,7 +42,11 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel::put_AttachedEditWindow
+ - ITextInputPanel.AttachedEditWindow
+ - ITextInputPanel.get_AttachedEditWindow
+ - ITextInputPanel.put_AttachedEditWindow
+ - ITextInputPanel.get_AttachedEditWindow
+ - ITextInputPanel.put_AttachedEditWindow
 ---
 
 # ITextInputPanel::put_AttachedEditWindow
@@ -119,4 +123,3 @@ if (SUCCEEDED(CoInitialize(NULL)))
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-

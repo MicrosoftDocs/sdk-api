@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - DMA_Resource_s
- - PDMA_RESOURCE
  - DMA_RESOURCE
 ---
 
@@ -83,4 +81,3 @@ A [DMA_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range) array.
 
 
 [DMA_RANGE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_range)
-

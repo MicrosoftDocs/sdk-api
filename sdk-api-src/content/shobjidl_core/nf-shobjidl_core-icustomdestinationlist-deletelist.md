@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - ICustomDestinationList::DeleteList
+ - ICustomDestinationList.DeleteList
 ---
 
 # ICustomDestinationList::DeleteList
@@ -96,4 +96,3 @@ After the custom Jump List has been removed, a standard Jump List generated from
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

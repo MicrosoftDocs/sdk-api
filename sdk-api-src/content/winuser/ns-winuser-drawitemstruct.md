@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagDRAWITEMSTRUCT
- - PDRAWITEMSTRUCT
  - DRAWITEMSTRUCT
 ---
 
@@ -397,4 +395,3 @@ Some control types, such as status bars, do not set the value of <b>CtlType</b>.
 
 
 <a href="/windows/desktop/Controls/wm-drawitem">WM_DRAWITEM</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - __MIDL___MIDL_itf_vmr9_0000_0006_0001
  - VMR9AlphaBitmapFlags
 ---
 
@@ -84,4 +83,3 @@ Indicates that the <b>dwFilterMode</b> member is valid and should be used to ove
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateExceptionCollection::get_Count
+ - IUpdateExceptionCollection.Count
+ - IUpdateExceptionCollection.get_Count
 ---
 
 # IUpdateExceptionCollection::get_Count
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexceptioncollection">IUpdateExceptionCollection</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMRSOP::LoggingEnumerateUsers
+ - IGPMRSOP.LoggingEnumerateUsers
+ - GPMRSOP.LoggingEnumerateUsers
 ---
 
 # IGPMRSOP::LoggingEnumerateUsers
@@ -77,4 +78,3 @@ Returns an array of <b>GPMTrustee</b> object references. Note that the array is 
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmtrustee">IGPMTrustee</a>
-

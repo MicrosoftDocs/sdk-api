@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mpeg2psiparser.h
 api_name:
- - ICAT::RegisterForNextTable
+ - ICAT.RegisterForNextTable
 ---
 
 # ICAT::RegisterForNextTable
@@ -125,4 +125,3 @@ This method applies only to <i>current</i> tables. Otherwise, the method returns
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
-

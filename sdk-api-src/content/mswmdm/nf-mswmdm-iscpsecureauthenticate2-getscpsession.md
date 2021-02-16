@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureAuthenticate2::GetSCPSession
+ - ISCPSecureAuthenticate2.GetSCPSession
 ---
 
 # ISCPSecureAuthenticate2::GetSCPSession
@@ -70,4 +70,3 @@ This method is used to obtain a secure content provider (SCP) session. An SCP se
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iscpsecureauthenticate2">ISCPSecureAuthenticate2 Interface</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_BuffersLost
+ - ITraceDataCollector.BuffersLost
+ - ITraceDataCollector.get_BuffersLost
 ---
 
 # ITraceDataCollector::get_BuffersLost
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_realtimebufferslost">ITraceDataCollector::RealTimeBuffersLost</a>
-

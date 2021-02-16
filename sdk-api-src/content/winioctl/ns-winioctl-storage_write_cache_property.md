@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_WRITE_CACHE_PROPERTY
- - PSTORAGE_WRITE_CACHE_PROPERTY
  - STORAGE_WRITE_CACHE_PROPERTY
 ---
 
@@ -285,4 +283,3 @@ A <b>BOOLEAN</b> value that indicates whether the device has a battery backup fo
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
-

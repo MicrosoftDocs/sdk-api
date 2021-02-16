@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAnimation.dll
 api_name:
- - IUIAnimationManager::CreateAnimationVariable
+ - IUIAnimationManager.CreateAnimationVariable
 ---
 
 # IUIAnimationManager::CreateAnimationVariable
@@ -86,4 +86,3 @@ For an example, see <a href="/windows/desktop/UIAnimation/create-animation-varia
 
 
 <a href="/windows/desktop/api/uianimation/nn-uianimation-iuianimationvariable">IUIAnimationVariable</a>
-

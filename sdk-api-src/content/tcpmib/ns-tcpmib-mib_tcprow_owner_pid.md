@@ -47,8 +47,6 @@ api_location:
  - Tcpmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_TCPROW_OWNER_PID
- - PMIB_TCPROW_OWNER_PID
  - MIB_TCPROW_OWNER_PID
 ---
 
@@ -302,4 +300,3 @@ On the Windows SDK released for Windows Vistaand later, the organization of hea
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-ntohs">ntohs</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::ImportSpecificFileSystem
+ - IFileSystemImage.ImportSpecificFileSystem
 ---
 
 # IFileSystemImage::ImportSpecificFileSystem
@@ -204,4 +204,3 @@ If the file system specified by <i>fileSystemToUse</i> has not been found, this 
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2fs/nn-imapi2fs-ifilesystemimage">IFileSystemImage</a>
-

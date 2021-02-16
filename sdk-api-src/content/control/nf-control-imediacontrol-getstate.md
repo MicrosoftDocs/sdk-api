@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaControl::GetState
+ - IMediaControl.GetState
 ---
 
 # IMediaControl::GetState
@@ -152,4 +152,3 @@ For more information about filter graph states, see <a href="/windows/desktop/Di
 
 
 <a href="/windows/desktop/api/control/nn-control-imediacontrol">IMediaControl Interface</a>
-

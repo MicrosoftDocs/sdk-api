@@ -42,7 +42,9 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManResourceLocator::put_FragmentPath
+ - IWSManResourceLocator.FragmentPath
+ - IWSManResourceLocator.get_FragmentPath
+ - IWSManResourceLocator.put_FragmentPath
 ---
 
 # IWSManResourceLocator::put_FragmentPath
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/WinRM/resourcelocator-fragmentpath">ResourceLocator.FragmentPath</a>
-

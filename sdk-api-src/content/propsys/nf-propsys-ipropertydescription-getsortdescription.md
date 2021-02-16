@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetSortDescription
+ - IPropertyDescription.GetSortDescription
 ---
 
 # IPropertyDescription::GetSortDescription
@@ -106,4 +106,3 @@ The settings retrieved by this method are set through the <i>sortDescription</i>
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

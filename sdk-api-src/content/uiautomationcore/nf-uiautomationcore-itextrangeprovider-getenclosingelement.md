@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::GetEnclosingElement
+ - ITextRangeProvider.GetEnclosingElement
 ---
 
 # ITextRangeProvider::GetEnclosingElement
@@ -117,4 +117,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 [ITextProvider](nn-uiautomationcore-itextprovider.md), [ITextRangeProvider](nn-uiautomationcore-itextrangeprovider.md), [ITextRangeProvider::GetChildren](nf-uiautomationcore-itextrangeprovider-getchildren.md), [UI Automation Providers Overview](/windows/desktop/WinAuto/uiauto-providersoverview)
-

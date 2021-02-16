@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::GetHttpStatus
+ - IMFHttpDownloadRequest.GetHttpStatus
 ---
 
 # IMFHttpDownloadRequest::GetHttpStatus
@@ -109,4 +109,3 @@ The <i>pdwHttpStatus</i> parameter is an invalid pointer.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

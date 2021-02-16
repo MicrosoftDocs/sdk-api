@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetworkStatus::get_LostPackets
+ - IAMNetworkStatus.get_LostPackets
 ---
 
 # IAMNetworkStatus::get_LostPackets
@@ -71,4 +71,3 @@ Whenever playback is stopped and restarted, this property is set to zero. It is 
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus">IAMNetworkStatus Interface</a>
-

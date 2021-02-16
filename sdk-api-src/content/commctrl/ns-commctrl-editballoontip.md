@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - _tagEDITBALLOONTIP
- - PEDITBALLOONTIP
  - EDITBALLOONTIP
 ---
 
@@ -180,4 +178,3 @@ Use the large error icon. This is assumed to be an HICON value.
 
 
 <b>Reference</b>
-

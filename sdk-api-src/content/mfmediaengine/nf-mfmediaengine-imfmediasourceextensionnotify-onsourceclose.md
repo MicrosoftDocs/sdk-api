@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaSourceExtensionNotify::OnSourceClose
+ - IMFMediaSourceExtensionNotify.OnSourceClose
 ---
 
 # IMFMediaSourceExtensionNotify::OnSourceClose
@@ -57,4 +57,3 @@ Used to indicate that the media source has closed.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediasourceextensionnotify">IMFMediaSourceExtensionNotify</a>
-

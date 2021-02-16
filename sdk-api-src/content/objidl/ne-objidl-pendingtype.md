@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Objidl.h
 api_name:
- - tagPENDINGTYPE
  - PENDINGTYPE
 ---
 
@@ -68,4 +67,3 @@ Nested call.
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nf-objidl-imessagefilter-messagepending">IMessageFilter::MessagePending</a>
-

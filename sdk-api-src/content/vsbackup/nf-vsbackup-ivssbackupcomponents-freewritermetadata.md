@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::FreeWriterMetadata
+ - IVssBackupComponents.FreeWriterMetadata
 ---
 
 # IVssBackupComponents::FreeWriterMetadata
@@ -105,4 +105,3 @@ Once writer metadata has been freed, it cannot be recovered by the current insta
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata">IVssBackupComponents::GatherWriterMetadata</a>
-

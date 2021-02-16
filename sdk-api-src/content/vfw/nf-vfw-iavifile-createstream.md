@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIFile::CreateStream
+ - IAVIFile.CreateStream
 ---
 
 # IAVIFile::CreateStream
@@ -87,4 +87,3 @@ HRESULT CreateStream(PAVISTREAM *ppstream,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IFont::get_hFont
+ - IFont.get_hFont
 ---
 
 # IFont::get_hFont
@@ -113,4 +113,3 @@ The font object maintains ownership of the <b>HFONT</b> and can destroy it
 
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-ifont-releasehfont">IFont::ReleaseHfont</a>
-

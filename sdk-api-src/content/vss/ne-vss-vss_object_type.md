@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_OBJECT_TYPE
- - PVSS_OBJECT_TYPE
  - VSS_OBJECT_TYPE
 ---
 

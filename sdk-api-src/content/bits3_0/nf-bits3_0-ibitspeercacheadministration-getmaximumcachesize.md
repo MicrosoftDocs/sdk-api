@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeerCacheAdministration::GetMaximumCacheSize
+ - IBitsPeerCacheAdministration.GetMaximumCacheSize
 ---
 
 # IBitsPeerCacheAdministration::GetMaximumCacheSize
@@ -88,4 +88,3 @@ Success
 
 
 <a href="/windows/desktop/api/bits3_0/nf-bits3_0-ibitspeercacheadministration-setmaximumcachesize">IBitsPeerCacheAdministration::SetMaximumCacheSize</a>
-

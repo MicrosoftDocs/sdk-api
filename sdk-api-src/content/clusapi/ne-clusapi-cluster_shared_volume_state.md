@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _CLUSTER_SHARED_VOLUME_STATE
- - PCLUSTER_SHARED_VOLUME_STATE
  - CLUSTER_SHARED_VOLUME_STATE
 ---
 

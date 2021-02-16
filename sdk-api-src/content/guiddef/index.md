@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - guiddef
  - guiddef/guiddef
-api_name:
- - guiddef
 ---
 
 # Guiddef.h header

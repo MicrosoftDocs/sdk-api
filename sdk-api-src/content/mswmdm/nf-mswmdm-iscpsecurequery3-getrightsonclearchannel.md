@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureQuery3::GetRightsOnClearChannel
+ - ISCPSecureQuery3.GetRightsOnClearChannel
 ---
 
 # ISCPSecureQuery3::GetRightsOnClearChannel
@@ -172,4 +172,3 @@ This method is identical to <b>ISCPSecureQuery::GetRights</b> except that the pa
 
 
 <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
-

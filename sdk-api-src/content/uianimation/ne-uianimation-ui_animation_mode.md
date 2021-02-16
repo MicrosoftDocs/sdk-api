@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0000_0003
  - UI_ANIMATION_MODE
 ---
 
@@ -72,4 +71,3 @@ Animation is enabled.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationmanager-setanimationmode">IUIAnimationManager::SetAnimationMode</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc::put_TransactionId
+ - IX509CertificateRequestCmc.TransactionId
+ - IX509CertificateRequestCmc.get_TransactionId
+ - IX509CertificateRequestCmc.put_TransactionId
 ---
 
 # IX509CertificateRequestCmc::put_TransactionId
@@ -86,4 +88,3 @@ You must set this property, if at all,  before calling the <a href="/windows/des
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
-

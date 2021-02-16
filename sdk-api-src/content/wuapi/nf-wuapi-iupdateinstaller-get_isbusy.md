@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateInstaller::get_IsBusy
+ - IUpdateInstaller.IsBusy
+ - IUpdateInstaller.get_IsBusy
 ---
 
 # IUpdateInstaller::get_IsBusy
@@ -63,4 +64,3 @@ A new installation or uninstallation is processed only when no other installatio
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateinstaller">IUpdateInstaller</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Magnification.h
 api_name:
- - tagMAGIMAGEHEADER
- - PMAGIMAGEHEADER
  - MAGIMAGEHEADER
 ---
 
@@ -99,4 +97,3 @@ The size of the data.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/magnification/nc-magnification-magimagescalingcallback">MagImageScalingCallback</a>
-

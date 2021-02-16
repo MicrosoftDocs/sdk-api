@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMROFFSETCLIPRGN
- - PEMROFFSETCLIPRGN
  - EMROFFSETCLIPRGN
 ---
 
@@ -79,4 +77,3 @@ The logical coordinates of offset.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-offsetcliprgn">OffsetClipRgn</a>
-

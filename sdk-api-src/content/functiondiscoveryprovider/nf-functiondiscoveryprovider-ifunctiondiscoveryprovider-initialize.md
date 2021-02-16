@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IFunctionDiscoveryProvider::Initialize
+ - IFunctionDiscoveryProvider.Initialize
 ---
 
 # IFunctionDiscoveryProvider::Initialize
@@ -136,4 +136,3 @@ If your provider is going to create Function Discovery objects, queue notificati
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-ifunctiondiscoveryprovider">IFunctionDiscoveryProvider</a>
-

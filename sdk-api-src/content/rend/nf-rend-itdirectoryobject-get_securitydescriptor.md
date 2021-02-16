@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObject::get_SecurityDescriptor
+ - ITDirectoryObject.get_SecurityDescriptor
 ---
 
 # ITDirectoryObject::get_SecurityDescriptor
@@ -128,4 +128,3 @@ If the security descriptor has not been set, this method will set <i>ppSecDes</i
 
 
 <a href="/windows/desktop/api/rend/nf-rend-itdirectoryobject-put_securitydescriptor">ITDirectoryObject::put_SecurityDescriptor</a>
-

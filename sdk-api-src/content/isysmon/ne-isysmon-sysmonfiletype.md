@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ISysmon.h
 api_name:
- - __MIDL___MIDL_itf_sysmon_0000_0000_0001
  - SysmonFileType
 ---
 
@@ -92,4 +91,3 @@ Saves the image of the System Monitor control to a file. The image does not incl
 
 
 <a href="/windows/desktop/SysMon/systemmonitor-saveas">SystemMonitor.SaveAs</a>
-

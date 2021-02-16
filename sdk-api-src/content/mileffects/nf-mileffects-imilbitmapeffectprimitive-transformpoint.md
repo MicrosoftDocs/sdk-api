@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mileffects.h
 api_name:
- - IMILBitmapEffectPrimitive::TransformPoint
+ - IMILBitmapEffectPrimitive.TransformPoint
 ---
 
 # IMILBitmapEffectPrimitive::TransformPoint
@@ -89,4 +89,3 @@ When this method returns, contains a value indicating whether the point transfor
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

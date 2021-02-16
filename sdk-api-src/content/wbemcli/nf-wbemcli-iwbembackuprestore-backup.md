@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemBackupRestore::Backup
+ - IWbemBackupRestore.Backup
 ---
 
 # IWbemBackupRestore::Backup

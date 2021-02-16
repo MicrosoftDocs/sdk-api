@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Websocket.h
 api_name:
- - _WEB_SOCKET_CLOSE_STATUS
  - WEB_SOCKET_CLOSE_STATUS
 ---
 
@@ -113,4 +112,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_buffer">WEB_SOCKET_BUFFER</a>
-

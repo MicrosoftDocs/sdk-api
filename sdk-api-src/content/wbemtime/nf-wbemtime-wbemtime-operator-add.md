@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::operator+
+ - WBEMTime.operator+
+ - ??HWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z
 ---
 
 # WBEMTime::operator-add
@@ -68,4 +69,3 @@ Reference to the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan
 ## -returns
 
 A new <a href="/windows/desktop/WmiSdk/wbemtime">WBEMTime</a> object whose value is the sum of the "this" object and the <a href="/windows/desktop/api/wbemtime/nl-wbemtime-wbemtimespan">WBEMTimeSpan</a> argument. The value of the "this" object is unchanged by this method.
-

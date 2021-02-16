@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSettings::GetOutputFilenameTemplate
+ - IPhotoAcquireSettings.GetOutputFilenameTemplate
 ---
 
 # IPhotoAcquireSettings::GetOutputFilenameTemplate
@@ -96,4 +96,3 @@ $(MyPicturesFolder)\$(DateAcquired), $(EventName)\$(EventName) $(SequenceNumber)
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquiresettings-setoutputfilenametemplate">SetOutputFilenameTemplate</a>
-

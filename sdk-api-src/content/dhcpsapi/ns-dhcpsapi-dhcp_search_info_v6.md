@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_CLIENT_SEARCH_INFO_V6
- - LPDHCP_SEARCH_INFO_V6
  - DHCP_SEARCH_INFO_V6
 ---
 
@@ -93,7 +91,9 @@ DDHCP_CLIENT_UIDGUID value that specifies the client DHCP UID to search for.
 
 * ClientName 
 
-LPWSTRUnicode string that specifies the client name to search for.
+LPWSTRUnicode string that specifies the client name to search for. 
+
+
 
 ### -field SearchInfo.ClientIpAddress.case
 
@@ -106,6 +106,8 @@ LPWSTRUnicode string that specifies the client name to search for.
 ### -field SearchInfo.ClientName.case
 
 ### -field SearchInfo.ClientName.case.Dhcpv6ClientName
+
+
 
 ### -field SearchInfo.switch_type
 
@@ -130,4 +132,3 @@ Unicode string that specifies the client name to search for.
 ## -see-also
 
 <a href="/windows/win32/api/dhcpsapi/ne-dhcpsapi-dhcp_search_info_type_v6">DHCP_SEARCH_INFO_TYPE_V6</a>
-

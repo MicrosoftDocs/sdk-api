@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Explorerframe.dll
 api_name:
- - ITaskbarList3::ThumbBarUpdateButtons
+ - ITaskbarList3.ThumbBarUpdateButtons
 ---
 
 # ITaskbarList3::ThumbBarUpdateButtons
@@ -142,4 +142,3 @@ HRESULT UpdateThumbarButton(HWND hwnd)
 
 
 <a href="/windows/desktop/shell/taskbar-extensions">Taskbar Extensions</a>
-

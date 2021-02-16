@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ResApi.h
 api_name:
- - PRELEASE_ROUTINE
+ - Release
 ---
 
 # PRELEASE_ROUTINE callback function
@@ -109,4 +109,3 @@ The <i>Release</i> entry-point function is implemented for quorum
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/resource-dll-entry-point-functions">Resource DLL Entry-Point Functions</a>
-

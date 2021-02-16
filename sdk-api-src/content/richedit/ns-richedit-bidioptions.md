@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Richedit.h
 api_name:
- - _bidioptions
  - BIDIOPTIONS
 ---
 
@@ -261,4 +260,3 @@ If this flag is 1, the Unicode Bidi Algorithm (UBA) is used for rich-text contro
 
 
 <a href="https://msdn.microsoft.com/b518e423-317a-4654-9d9f-c501028e2a0a">EM_SETBIDIOPTIONS</a>
-

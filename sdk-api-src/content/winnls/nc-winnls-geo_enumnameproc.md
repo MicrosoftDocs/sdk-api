@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winnls.h
 api_name:
- - GEO_ENUMNAMEPROC
+ - Geo_EnumNameProc
 ---
 
 # GEO_ENUMNAMEPROC callback function
@@ -88,4 +88,3 @@ For information about two-letter ISO 3166-1 codes, see <a href="https://www.iso.
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

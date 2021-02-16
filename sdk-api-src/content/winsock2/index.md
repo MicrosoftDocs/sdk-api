@@ -9,8 +9,6 @@ tech.root: qos
 f1_keywords:
  - winsock2
  - winsock2/winsock2
-api_name:
- - winsock2
 ---
 
 # Winsock2.h header

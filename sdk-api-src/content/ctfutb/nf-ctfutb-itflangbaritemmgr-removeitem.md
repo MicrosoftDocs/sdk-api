@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemMgr::RemoveItem
+ - ITfLangBarItemMgr.RemoveItem
 ---
 
 # ITfLangBarItemMgr::RemoveItem
@@ -113,4 +113,3 @@ An unspecified error occurred.
 
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itflangbaritemmgr">ITfLangBarItemMgr</a>
-

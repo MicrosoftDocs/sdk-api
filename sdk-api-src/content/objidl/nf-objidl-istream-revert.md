@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream::Revert
+ - IStream.Revert
 ---
 
 # IStream::Revert
@@ -70,4 +70,3 @@ The <b>Revert</b> method discards changes made to a transacted stream since the 
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-istream-commit">IStream::Commit</a>
-

@@ -45,7 +45,6 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - _DRMATTESTTYPE
  - DRMATTESTTYPE
 ---
 
@@ -76,4 +75,3 @@ Create a signature using only a hash of the environment.
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmattest">DRMAttest</a>
-

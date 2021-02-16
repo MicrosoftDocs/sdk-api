@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3::GetExpectedPacketCount
+ - IWMProfile3.GetExpectedPacketCount
 ---
 
 # IWMProfile3::GetExpectedPacketCount
@@ -129,4 +129,3 @@ It is impossible for this method to give exact counts, because there is no way t
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
-

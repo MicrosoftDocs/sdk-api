@@ -47,8 +47,8 @@ api_location:
  - Ws2def.h
 api_name:
  - addrinfoex4
- - PADDRINFOEX4
- - ADDRINFOEX4
+ - addrinfoex4A
+ - addrinfoex4W
 ---
 
 # ADDRINFOEX4 structure
@@ -702,4 +702,3 @@ Exit:
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-addrinfoex3">addrinfoex3</a>
-

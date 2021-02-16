@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkPicture::get_hWnd
+ - IInkPicture.hWnd
+ - IInkPicture.get_hWnd
+ - IInkPicture.put_hWnd
+ - InkPicture.get_hWnd
+ - InkPicture.put_hWnd
 ---
 
 # IInkPicture::get_hWnd
@@ -82,4 +86,3 @@ In Automation, this property is called <a href="/windows/desktop/api/msinkaut/nf
 
 
 <a href="/windows/desktop/tablet/inkpicture-control">InkPicture Control</a>
-

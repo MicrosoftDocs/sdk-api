@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjPool::PutEndTx
+ - IObjPool.PutEndTx
 ---
 
 # IObjPool::PutEndTx
@@ -61,4 +61,3 @@ A reference to the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnk
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjpool">IObjPool</a>
-

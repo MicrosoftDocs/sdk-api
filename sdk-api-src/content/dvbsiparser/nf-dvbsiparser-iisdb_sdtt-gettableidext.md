@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IISDB_SDTT::GetTableIdExt
+ - IISDB_SDTT.GetTableIdExt
 ---
 
 # IISDB_SDTT::GetTableIdExt
@@ -68,4 +68,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_sdtt">IISDB_SDTT</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::GetCaps
+ - IDirectDrawVideo.GetCaps
 ---
 
 # IDirectDrawVideo::GetCaps
@@ -74,4 +74,3 @@ If the renderer has not loaded DirectDraw, this method returns E_FAIL.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - D3DCommon.h
 api_name:
- - _D3D_SHADER_INPUT_FLAGS
  - D3D_SHADER_INPUT_FLAGS
 ---
 
@@ -117,4 +116,3 @@ Forces the enumeration to compile to 32 bits.
 ## -see-also
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-d3d11-common-enumerations">Common Version Enumerations</a>
-

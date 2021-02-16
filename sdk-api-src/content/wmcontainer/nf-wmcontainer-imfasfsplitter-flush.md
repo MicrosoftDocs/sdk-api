@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFSplitter::Flush
+ - IMFASFSplitter.Flush
 ---
 
 # IMFASFSplitter::Flush
@@ -84,4 +84,3 @@ Any samples waiting to be retrieved when <b>Flush</b> is called are lost.
 ## -see-also
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfsplitter">IMFASFSplitter</a>
-

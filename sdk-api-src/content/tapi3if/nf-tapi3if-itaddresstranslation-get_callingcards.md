@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressTranslation::get_CallingCards
+ - ITAddressTranslation.get_CallingCards
 ---
 
 # ITAddressTranslation::get_CallingCards
@@ -136,4 +136,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegettranslatecaps">LineGetTranslateCaps</a>
-

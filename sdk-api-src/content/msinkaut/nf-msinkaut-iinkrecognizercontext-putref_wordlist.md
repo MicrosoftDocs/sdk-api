@@ -43,7 +43,9 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkRecognizerContext::putref_WordList
+ - IInkRecognizerContext.WordList
+ - IInkRecognizerContext.get_WordList
+ - InkRecognizerContext.get_WordList
 ---
 
 # IInkRecognizerContext::putref_WordList
@@ -84,4 +86,3 @@ Using words longer than 256 characters will result in an E_POINTER exception whe
 
 
 <a href="/windows/desktop/tablet/inkwordlist-class">InkWordList Class</a>
-

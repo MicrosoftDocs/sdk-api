@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll4::resetAttributes
+ - IEnroll4.resetAttributes
 ---
 
 # IEnroll4::resetAttributes
@@ -59,4 +59,3 @@ The <b>resetAttributes</b> method removes all attributes from the request.  This
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll4</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_BootImageOptions
+ - IFileSystemImage.put_BootImageOptions
 ---
 
 # IFileSystemImage::put_BootImageOptions
@@ -110,4 +110,3 @@ You can specify a boot image only if the file system image has no previous sessi
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_bootimageoptions">IFileSystemImage::get_BootImageOptions</a>
-

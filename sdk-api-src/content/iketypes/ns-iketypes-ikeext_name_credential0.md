@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_NAME_CREDENTIAL0_
  - IKEEXT_NAME_CREDENTIAL0
 ---
 
@@ -68,4 +67,3 @@ Name of the principal.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

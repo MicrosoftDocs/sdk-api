@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ClusAPI.h
 api_name:
- - _SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
- - PSR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
  - SR_RESOURCE_TYPE_REPLICATED_PARTITION_INFO
 ---
 
@@ -71,4 +69,3 @@ The capabilities of replicated partition
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/data-structures">Data Structures</a>
-

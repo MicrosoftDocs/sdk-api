@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQualProp::get_DevSyncOffset
+ - IQualProp.get_DevSyncOffset
 ---
 
 # IQualProp::get_DevSyncOffset
@@ -74,4 +74,3 @@ When playing video from networks, the presentation can often be disrupted by net
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
-

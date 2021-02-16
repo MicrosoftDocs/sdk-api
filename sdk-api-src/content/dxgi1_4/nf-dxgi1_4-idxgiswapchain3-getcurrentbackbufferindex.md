@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain3::GetCurrentBackBufferIndex
+ - IDXGISwapChain3.GetCurrentBackBufferIndex
 ---
 
 # IDXGISwapChain3::GetCurrentBackBufferIndex
@@ -64,4 +64,3 @@ Returns the index of the current back buffer.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_4/nn-dxgi1_4-idxgiswapchain3">IDXGISwapChain3</a>
-

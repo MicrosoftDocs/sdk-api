@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IISDB_CDT::GetCountOfTableDescriptors
+ - IISDB_CDT.GetCountOfTableDescriptors
 ---
 
 # IISDB_CDT::GetCountOfTableDescriptors
@@ -66,4 +66,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-iisdb_cdt">IISDB_CDT</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListEnumMediaDisksW
  - msi/MsiSourceListEnumMediaDisksW
- - MsiSourceListEnumMediaDisks
- - msi/MsiSourceListEnumMediaDisks
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSourceListEnumMediaDisksW
  - MsiSourceListEnumMediaDisks
+ - MsiSourceListEnumMediaDisksA
+ - MsiSourceListEnumMediaDisksW
 ---
 
 # MsiSourceListEnumMediaDisksW function
@@ -357,4 +356,3 @@ An administrator can enumerate per-user unmanaged and managed installations for 
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
-

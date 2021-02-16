@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_BINDING_CACHE_ENTRY_DATA
- - PKERB_BINDING_CACHE_ENTRY_DATA
  - KERB_BINDING_CACHE_ENTRY_DATA
 ---
 
@@ -136,4 +134,3 @@ No flags are found for the binding cache.
 ### -field KdcName
 
 <a href="/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the name of the KDC.
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - __MIDL___MIDL_itf_vmr9_0000_0004_0001
  - VMR9AspectRatioMode
 ---
 
@@ -68,4 +67,3 @@ Indicates that the VMR will maintain the aspect ratio of the source video by let
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

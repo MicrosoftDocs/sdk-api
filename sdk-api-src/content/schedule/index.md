@@ -9,8 +9,6 @@ tech.root: ad
 f1_keywords:
  - schedule
  - schedule/schedule
-api_name:
- - schedule
 ---
 
 # Schedule.h header

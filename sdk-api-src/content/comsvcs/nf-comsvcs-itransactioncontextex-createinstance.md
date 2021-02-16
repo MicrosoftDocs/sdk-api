@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionContextEx::CreateInstance
+ - ITransactionContextEx.CreateInstance
 ---
 
 # ITransactionContextEx::CreateInstance
@@ -131,4 +131,3 @@ if (FAILED(hr)) throw(hr);
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactioncontextex">ITransactionContextEx</a>
-

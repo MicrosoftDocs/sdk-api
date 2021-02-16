@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
- - PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
  - DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 ---
 
@@ -226,4 +224,3 @@ The length, in bytes, of the action-specific data.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
-

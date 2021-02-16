@@ -47,8 +47,6 @@ api_location:
  - MinWinBase.h
  - FileExtd.h
 api_name:
- - _FILE_INFO_BY_HANDLE_CLASS
- - PFILE_INFO_BY_HANDLE_CLASS
  - FILE_INFO_BY_HANDLE_CLASS
 ---
 
@@ -233,4 +231,3 @@ As noted in the preceding section, some file information classes are valid only 
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-

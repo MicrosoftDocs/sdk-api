@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwAuthorizedApplications::Remove
+ - INetFwAuthorizedApplications.Remove
 ---
 
 # INetFwAuthorizedApplications::Remove
@@ -163,4 +163,3 @@ If the application does not exist in the collection, the Remove method has no ef
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwauthorizedapplications">INetFwAuthorizedApplications</a>
-

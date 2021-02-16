@@ -43,7 +43,8 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSite::DiscardUndoState
+ - IOleInPlaceSite.DiscardUndoState
+ - IOleInPlaceSiteWindowless.DiscardUndoState
 ---
 
 # IOleInPlaceSite::DiscardUndoState
@@ -91,4 +92,3 @@ If an object is activated in place and the object's associated object applicatio
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleinplacesite-discardundostate">IOleInPlaceSite::DiscardUndoState</a>
-

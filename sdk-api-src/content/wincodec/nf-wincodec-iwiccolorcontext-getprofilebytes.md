@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICColorContext::GetProfileBytes
+ - IWICColorContext.GetProfileBytes
 ---
 
 # IWICColorContext::GetProfileBytes
@@ -84,4 +84,3 @@ Only use this method if the context type is <a href="/windows/desktop/api/wincod
 
 
 Calling this method with <i>pbBuffer</i> set to <b>NULL</b> will cause it to return the required buffer size in <i>pcbActual</i>.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2VoiceCallback::OnBufferStart
+ - IXAudio2VoiceCallback.OnBufferStart
 ---
 
 # IXAudio2VoiceCallback::OnBufferStart
@@ -100,4 +100,3 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 <a href="/windows/desktop/xaudio2/xaudio2-callbacks">XAudio2 Callbacks</a>
-

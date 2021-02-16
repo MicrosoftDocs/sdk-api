@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateServiceCollection::get_Item
+ - IUpdateServiceCollection.Item
+ - IUpdateServiceCollection.get_Item
 ---
 
 # IUpdateServiceCollection::get_Item
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateservicecollection">IUpdateServiceCollection</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbPlacement::QueryEnvironmentForTarget
+ - ITsSbPlacement.QueryEnvironmentForTarget
 ---
 
 # ITsSbPlacement::QueryEnvironmentForTarget
@@ -85,4 +85,3 @@ to determine whether the environment is present and ready.
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbplacementnotifysink">ITsSbPlacementNotifySink</a>
-

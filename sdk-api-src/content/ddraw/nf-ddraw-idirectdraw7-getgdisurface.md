@@ -8,6 +8,10 @@ tech.root: directdraw
 ms.assetid: 4d0b827d-86f8-4d71-a193-9e330db0fbfd
 ms.date: 12/05/2018
 ms.keywords: GetGDISurface, GetGDISurface method [DirectDraw], GetGDISurface method [DirectDraw],IDirectDraw7 interface, IDirectDraw7 interface [DirectDraw],GetGDISurface method, IDirectDraw7.GetGDISurface, IDirectDraw7::GetGDISurface, ddraw/IDirectDraw7::GetGDISurface, directdraw.idirectdraw7_getgdisurface
+f1_keywords:
+- ddraw/IDirectDraw7.GetGDISurface
+dev_langs:
+- c++
 req.header: ddraw.h
 req.include-header: 
 req.target-type: Windows
@@ -25,24 +29,19 @@ req.type-library:
 req.lib: Ddraw.lib
 req.dll: Ddraw.dll
 req.irql: 
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- COM
+api_location:
+- Ddraw.dll
+api_name:
+- IDirectDraw7.GetGDISurface
 targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-f1_keywords:
- - IDirectDraw7::GetGDISurface
- - ddraw/IDirectDraw7::GetGDISurface
-dev_langs:
- - c++
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - Ddraw.dll
-api_name:
- - IDirectDraw7::GetGDISurface
 ---
 
 ## -description
@@ -74,4 +73,3 @@ You must use <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibr
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-

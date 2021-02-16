@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - thumbcache
  - thumbcache/thumbcache
-api_name:
- - thumbcache
 ---
 
 # Thumbcache.h header

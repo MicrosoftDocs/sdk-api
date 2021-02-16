@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - lineproxyrequest_tag
- - LPLINEPROXYREQUEST
  - LINEPROXYREQUEST
 ---
 
@@ -446,4 +444,3 @@ An address identifier is permanently associated with an address; the identifier 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineproxyresponse">lineProxyResponse</a>
-

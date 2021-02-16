@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_IFTRANSPORT_0
- - PMPR_IFTRANSPORT_0
  - MPR_IFTRANSPORT_0
 ---
 
@@ -88,4 +86,3 @@ Specifies a Unicode string that contains the name of the interface transport.
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

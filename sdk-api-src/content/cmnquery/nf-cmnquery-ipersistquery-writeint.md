@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsquery.dll
 api_name:
- - IPersistQuery::WriteInt
+ - IPersistQuery.WriteInt
 ---
 
 # IPersistQuery::WriteInt
@@ -77,4 +77,3 @@ Returns <b>S_OK</b> if successful or a standard  <b>HRESULT</b> value otherwise.
 
 
 <a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
-

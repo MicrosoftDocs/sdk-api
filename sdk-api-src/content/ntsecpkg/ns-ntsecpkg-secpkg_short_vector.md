@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_SHORT_VECTOR
- - PSECPKG_SHORT_VECTOR
  - SECPKG_SHORT_VECTOR
 ---
 

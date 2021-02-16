@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemButton::InitMenu
+ - ITfLangBarItemButton.InitMenu
 ---
 
 # ITfLangBarItemButton::InitMenu
@@ -99,4 +99,3 @@ An unspecified error occurred.
 
 <a href="/windows/desktop/api/ctfutb/nn-ctfutb-itfmenu">ITfMenu
       </a>
-

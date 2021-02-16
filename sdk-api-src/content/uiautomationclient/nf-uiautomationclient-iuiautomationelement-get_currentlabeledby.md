@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement::get_CurrentLabeledBy
+ - IUIAutomationElement.CurrentLabeledBy
+ - IUIAutomationElement.get_CurrentLabeledBy
 ---
 
 # IUIAutomationElement::get_CurrentLabeledBy
@@ -77,4 +78,3 @@ This property maps to the Accessible Rich Internet Applications (ARIA) <b>labele
 
 
 <b>Reference</b>
-

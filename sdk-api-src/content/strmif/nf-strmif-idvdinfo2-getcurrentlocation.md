@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDvdInfo2::GetCurrentLocation
+ - IDvdInfo2.GetCurrentLocation
 ---
 
 # IDvdInfo2::GetCurrentLocation
@@ -129,4 +129,3 @@ This method retrieves information sufficient to restart playback of a video from
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idvdinfo2">IDvdInfo2 Interface</a>
-

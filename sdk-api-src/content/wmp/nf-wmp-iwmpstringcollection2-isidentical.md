@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPStringCollection2::isIdentical
+ - IWMPStringCollection2.isIdentical
 ---
 
 # IWMPStringCollection2::isIdentical
@@ -93,4 +93,3 @@ To use this method, read access to the library is required. For more information
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpstringcollection2">IWMPStringCollection2 Interface</a>
-

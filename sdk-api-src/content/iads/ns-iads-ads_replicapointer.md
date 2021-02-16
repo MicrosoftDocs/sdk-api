@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0012
- - PADS_REPLICAPOINTER
  - ADS_REPLICAPOINTER
 ---
 
@@ -83,4 +81,3 @@ A network address that is a likely reference to a node leading to the name serve
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winbase.h
 api_name:
- - _EVENTLOG_FULL_INFORMATION
- - LPEVENTLOG_FULL_INFORMATION
  - EVENTLOG_FULL_INFORMATION
 ---
 
@@ -67,4 +65,3 @@ Indicates whether the event log is full. If the log is full, this member is <b>T
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-geteventloginformation">GetEventLogInformation</a>
-

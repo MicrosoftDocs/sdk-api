@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_POLICY_QUALIFIER_INFO
- - PCERT_POLICY_QUALIFIER_INFO
  - CERT_POLICY_QUALIFIER_INFO
 ---
 
@@ -78,4 +76,3 @@ A <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_OB
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa381414(v=vs.85)">CRYPT_INTEGER_BLOB</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsock.h
 api_name:
- - FD_SET
+ - fd_set
 ---
 
 # FD_SET macro
@@ -68,4 +68,3 @@ The
 
 
 <a href="/windows/desktop/api/winsock2/nf-winsock2-select">select</a>
-

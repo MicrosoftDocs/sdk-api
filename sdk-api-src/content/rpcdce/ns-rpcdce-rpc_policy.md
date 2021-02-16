@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - _RPC_POLICY
- - PRPC_POLICY
  - RPC_POLICY
 ---
 
@@ -296,4 +294,3 @@ You can use the <b>RPC_Policy</b> structure to set policies for remote procedure
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcserveruseprotseqifex">RpcServerUseProtseqIfEx</a>
-

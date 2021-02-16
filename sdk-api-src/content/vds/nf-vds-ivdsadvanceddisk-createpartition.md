@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsAdvancedDisk::CreatePartition
+ - IVdsAdvancedDisk.CreatePartition
 ---
 
 # IVdsAdvancedDisk::CreatePartition
@@ -189,4 +189,3 @@ The partition was created successfully, but VDS failed to update the boot option
 
 
 <a href="/windows/desktop/api/vds/nf-vds-ivdscreatepartitionex-createpartitionex">IVdsCreatePartitionEx::CreatePartitionEx</a>
-

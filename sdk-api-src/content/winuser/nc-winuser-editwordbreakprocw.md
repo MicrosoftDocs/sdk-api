@@ -42,6 +42,8 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
+ - EditWordBreakProc
+ - EDITWORDBREAKPROCA
  - EDITWORDBREAKPROCW
 ---
 
@@ -220,4 +222,3 @@ An application must install the callback function by specifying the address of t
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-sendmessage">SendMessage</a>
-

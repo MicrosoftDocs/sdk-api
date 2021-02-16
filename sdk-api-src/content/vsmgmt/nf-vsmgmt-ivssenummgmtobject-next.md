@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssEnumMgmtObject::Next
+ - IVssEnumMgmtObject.Next
 ---
 
 # IVssEnumMgmtObject::Next
@@ -79,4 +79,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_mgmt_object_prop">VSS_MGMT_OBJECT_PROP</a>
-

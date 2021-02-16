@@ -9,8 +9,6 @@ tech.root: ncd
 f1_keywords:
  - functiondiscoveryconstraints
  - functiondiscoveryconstraints/functiondiscoveryconstraints
-api_name:
- - functiondiscoveryconstraints
 ---
 
 # Functiondiscoveryconstraints.h header

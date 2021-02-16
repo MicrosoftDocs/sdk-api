@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMStorageGlobals::GetTotalFree
+ - IWMDMStorageGlobals.GetTotalFree
 ---
 
 # IWMDMStorageGlobals::GetTotalFree
@@ -89,4 +89,3 @@ To determine the amount of storage space in use by the medium for file managemen
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstorageglobals-gettotalsize">IWMDMStorageGlobals::GetTotalSize</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - uiautomationclient.h
 api_name:
- - IUIAutomationElement8::get_CachedHeadingLevel
+ - IUIAutomationElement8.CachedHeadingLevel
+ - IUIAutomationElement8.get_CachedHeadingLevel
 ---
 
 # IUIAutomationElement8::get_CachedHeadingLevel
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationelement8">IUIAutomationElement8</a>
-

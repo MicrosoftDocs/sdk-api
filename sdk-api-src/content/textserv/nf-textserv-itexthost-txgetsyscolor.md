@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextHost::TxGetSysColor
+ - ITextHost.TxGetSysColor
 ---
 
 # ITextHost::TxGetSysColor
@@ -81,4 +81,3 @@ Note that the color returned may be
 
 
 <a href="/windows/desktop/Controls/windowless-rich-edit-controls">Windowless Rich Edit Controls Overview</a>
-

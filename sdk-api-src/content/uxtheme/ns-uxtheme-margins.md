@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
- - _MARGINS
- - PMARGINS
  - MARGINS
 ---
 
@@ -87,4 +85,3 @@ Height of the bottom border that retains its size.
 ## -see-also
 
 <a href="/windows/desktop/api/uxtheme/nf-uxtheme-getthememargins">GetThemeMargins</a>
-

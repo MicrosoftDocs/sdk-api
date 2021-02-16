@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - BusNumber_Des_s
- - PBUSNUMBER_DES
  - BUSNUMBER_DES
 ---
 
@@ -115,4 +113,3 @@ The BUSNUMBER_DES structure is included as a member of the [BUSNUMBER_RESOURCE](
 
 
 [BUSNUMBER_RESOURCE](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-busnumber_resource)
-

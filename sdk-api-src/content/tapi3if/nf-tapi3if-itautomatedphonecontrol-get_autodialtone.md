@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAutomatedPhoneControl::get_AutoDialtone
+ - ITAutomatedPhoneControl.get_AutoDialtone
 ---
 
 # ITAutomatedPhoneControl::get_AutoDialtone
@@ -85,4 +85,3 @@ All dial tone generation ceases when an invocation of
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itautomatedphonecontrol-put_phonehandlingenabled">put_PhoneHandlingEnabled</a>
-

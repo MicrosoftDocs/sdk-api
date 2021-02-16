@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_NET_EVENT_IKEEXT_QM_FAILURE0_
  - FWPM_NET_EVENT_IKEEXT_QM_FAILURE0
 ---
 
@@ -104,4 +103,3 @@ Quick Mode filter ID.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

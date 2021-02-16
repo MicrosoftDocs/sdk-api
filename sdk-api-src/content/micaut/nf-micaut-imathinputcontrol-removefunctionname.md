@@ -42,7 +42,7 @@ api_type:
 api_location:
  - micaut.h
 api_name:
- - IMathInputControl::RemoveFunctionName
+ - IMathInputControl.RemoveFunctionName
 ---
 
 # IMathInputControl::RemoveFunctionName
@@ -98,4 +98,3 @@ The named math function cannot be removed because it is not in the list of custo
 
 
 <a href="/windows/desktop/api/micaut/nn-micaut-imathinputcontrol">IMathInputControl</a>
-

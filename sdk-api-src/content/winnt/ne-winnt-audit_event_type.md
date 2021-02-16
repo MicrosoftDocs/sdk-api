@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _AUDIT_EVENT_TYPE
- - PAUDIT_EVENT_TYPE
  - AUDIT_EVENT_TYPE
 ---
 
@@ -83,4 +81,3 @@ Indicates a directory service object that generates audit messages only if the s
 
 
 <a href="/windows/desktop/SecAuthZ/client-server-access-control">Client/Server Access Control Overview</a>
-

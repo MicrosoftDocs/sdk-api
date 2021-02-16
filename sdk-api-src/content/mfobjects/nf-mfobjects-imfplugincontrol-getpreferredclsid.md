@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - IMFPluginControl::GetPreferredClsid
+ - IMFPluginControl.GetPreferredClsid
 ---
 
 # IMFPluginControl::GetPreferredClsid
@@ -113,4 +113,3 @@ No CLSID matching this key was found.
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfplugincontrol">IMFPluginControl</a>
-

@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquireSource::GetFriendlyName
+ - IPhotoAcquireSource.GetFriendlyName
 ---
 
 # IPhotoAcquireSource::GetFriendlyName
@@ -95,4 +95,3 @@ A null value was passed where non-null is expected.
 ## -see-also
 
 <a href="/windows/desktop/api/photoacquire/nn-photoacquire-iphotoacquiresource">IPhotoAcquireSource Interface</a>
-

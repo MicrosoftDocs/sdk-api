@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
+ - IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
 ---
 
 # IDiscFormat2RawCD::get_LastPossibleStartOfLeadout
@@ -98,4 +98,3 @@ Value: 0xC0AA0602
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2rawcd">IDiscFormat2RawCD</a>
-

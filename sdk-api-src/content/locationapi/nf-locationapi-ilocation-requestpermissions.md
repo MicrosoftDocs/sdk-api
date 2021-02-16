@@ -42,7 +42,7 @@ api_type:
 api_location:
  - LocationAPI.dll
 api_name:
- - ILocation::RequestPermissions
+ - ILocation.RequestPermissions
 ---
 
 # ILocation::RequestPermissions
@@ -203,4 +203,3 @@ The following example demonstrates how to call <b>RequestPermissions</b> to requ
 
 
 ```
-

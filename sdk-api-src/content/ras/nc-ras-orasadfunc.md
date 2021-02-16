@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ras.h
 api_name:
- - ORASADFUNC
+ - ORASADFunc
 ---
 
 # ORASADFUNC callback function
@@ -130,4 +130,3 @@ The
 
 
 <a href="/windows/desktop/RRAS/remote-access-service-functions">Remote Access Service Functions</a>
-

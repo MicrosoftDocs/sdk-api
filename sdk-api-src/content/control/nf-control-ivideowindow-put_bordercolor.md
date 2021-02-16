@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::put_BorderColor
+ - IVideoWindow.put_BorderColor
 ---
 
 # IVideoWindow::put_BorderColor
@@ -111,4 +111,3 @@ If the destination rectangle is smaller than the client area of the video window
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_bordercolor">IVideoWindow::get_BorderColor</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFVIDEOFORMAT
  - MFVIDEOFORMAT
 ---
 
@@ -92,4 +91,3 @@ You can use the <b>MFVIDEOFORMAT</b> structure as the format block for a DirectS
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
-

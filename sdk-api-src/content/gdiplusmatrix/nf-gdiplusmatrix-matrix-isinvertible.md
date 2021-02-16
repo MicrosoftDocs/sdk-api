@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::IsInvertible
+ - Matrix.IsInvertible
 ---
 
 # Matrix::IsInvertible
@@ -80,4 +80,3 @@ If this matrix is invertible, this method returns <b>TRUE</b>; otherwise, it ret
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

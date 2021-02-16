@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Schannel.h
 api_name:
- - _SecPkgContext_IssuerListInfoEx
- - PSecPkgContext_IssuerListInfoEx
  - SecPkgContext_IssuerListInfoEx
 ---
 
@@ -74,4 +72,3 @@ When you have finished using the data in this array, free it by calling the <a h
 ### -field cIssuers
 
 The number of names in <b>aIssuers</b>.
-

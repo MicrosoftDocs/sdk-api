@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::CompareEndpoints
+ - ITextRangeProvider.CompareEndpoints
 ---
 
 # ITextRangeProvider::CompareEndpoints
@@ -114,4 +114,3 @@ Returns a positive value if the caller's endpoint occurs later in the text than 
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - ISnapinHelp2::GetLinkedTopics
+ - ISnapinHelp2.GetLinkedTopics
 ---
 
 # ISnapinHelp2::GetLinkedTopics
@@ -83,4 +83,3 @@ Allocate the <i>lpCompiledHelpFiles</i> string with the COM API function <a href
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa814944(v=vs.85)">ISnapinHelp2::GetHelpTopic</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IStreamPseudoRandomBased::put_ExtendedSeed
+ - IStreamPseudoRandomBased.put_ExtendedSeed
 ---
 
 # IStreamPseudoRandomBased::put_ExtendedSeed
@@ -102,4 +102,3 @@ Use this method to provide a seed value greater than 32 bits.
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-istreampseudorandombased-put_seed">IStreamPseudoRandomBased::put_Seed</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataProvider::get_Properties
+ - ITraceDataProvider.Properties
+ - ITraceDataProvider.get_Properties
 ---
 
 # ITraceDataProvider::get_Properties
@@ -103,4 +104,3 @@ Use the <a href="/previous-versions/windows/desktop/api/pla/nn-pla-ivaluemap">IV
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedataprovider">ITraceDataProvider</a>
-

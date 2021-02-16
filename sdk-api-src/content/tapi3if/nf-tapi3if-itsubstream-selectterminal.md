@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITSubStream::SelectTerminal
+ - ITSubStream.SelectTerminal
 ---
 
 # ITSubStream::SelectTerminal
@@ -139,4 +139,3 @@ The terminal selected is not valid.
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

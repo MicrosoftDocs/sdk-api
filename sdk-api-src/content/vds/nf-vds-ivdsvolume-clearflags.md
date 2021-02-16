@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolume::ClearFlags
+ - IVdsVolume.ClearFlags
 ---
 
 # IVdsVolume::ClearFlags
@@ -117,4 +117,3 @@ To create a boot volume on a dynamic disk, you must set the <b>VDS_VF_INSTALLABL
 
 
 <a href="/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>
-

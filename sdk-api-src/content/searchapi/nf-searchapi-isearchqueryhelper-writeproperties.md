@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchQueryHelper::WriteProperties
+ - ISearchQueryHelper.WriteProperties
 ---
 
 # ISearchQueryHelper::WriteProperties
@@ -110,4 +110,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="https://msdn.microsoft.com/library/ff518152(v=VS.85).aspx">System Properties</a>
-

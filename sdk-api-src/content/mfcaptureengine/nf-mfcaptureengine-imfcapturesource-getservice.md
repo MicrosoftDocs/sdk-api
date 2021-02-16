@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfcaptureengine.h
 api_name:
- - IMFCaptureSource::GetService
+ - IMFCaptureSource.GetService
 ---
 
 # IMFCaptureSource::GetService
@@ -113,4 +113,3 @@ The capture source was not initialized. Possibly there is no capture device on t
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-

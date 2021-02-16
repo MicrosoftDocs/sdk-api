@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - winstring
  - winstring/winstring
-api_name:
- - winstring
 ---
 
 # Winstring.h header

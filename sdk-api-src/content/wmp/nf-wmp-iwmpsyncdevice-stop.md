@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::stop
+ - IWMPSyncDevice.stop
 ---
 
 # IWMPSyncDevice::stop
@@ -98,4 +98,3 @@ Windows Media Player is currently busy initializing devices. Please try again la
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-start">IWMPSyncDevice::start</a>
-

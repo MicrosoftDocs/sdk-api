@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IViewObjectEx::GetViewStatus
+ - IViewObjectEx.GetViewStatus
 ---
 
 # IViewObjectEx::GetViewStatus
@@ -87,4 +87,3 @@ Which drawing aspects are supported is independent of whether the object is opaq
 
 
 <a href="/windows/desktop/api/ocidl/ne-ocidl-viewstatus">VIEWSTATUS</a>
-

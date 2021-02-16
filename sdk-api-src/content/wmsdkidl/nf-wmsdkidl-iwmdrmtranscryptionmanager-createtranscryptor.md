@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMDRMTranscryptionManager::CreateTranscryptor
+ - IWMDRMTranscryptionManager.CreateTranscryptor
 ---
 
 # IWMDRMTranscryptionManager::CreateTranscryptor
@@ -65,4 +65,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/dd798365(v=vs.85)">IWMDRMTranscryptionManager</a>
-

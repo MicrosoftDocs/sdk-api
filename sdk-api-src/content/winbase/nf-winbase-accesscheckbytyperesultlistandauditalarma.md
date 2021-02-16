@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AccessCheckByTypeResultListAndAuditAlarmA
  - winbase/AccessCheckByTypeResultListAndAuditAlarmA
- - AccessCheckByTypeResultListAndAuditAlarm
- - winbase/AccessCheckByTypeResultListAndAuditAlarm
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - MinKernelBase.dll
  - API-MS-Win-Security-Base-L1-2-1.dll
 api_name:
- - AccessCheckByTypeResultListAndAuditAlarmA
  - AccessCheckByTypeResultListAndAuditAlarm
+ - AccessCheckByTypeResultListAndAuditAlarmA
+ - AccessCheckByTypeResultListAndAuditAlarmW
 ---
 
 # AccessCheckByTypeResultListAndAuditAlarmA function
@@ -228,4 +227,3 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-security_descriptor">SECURITY_DESCRIPTOR</a>
-

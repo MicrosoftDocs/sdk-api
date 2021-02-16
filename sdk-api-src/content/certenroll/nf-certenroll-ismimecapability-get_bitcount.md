@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISmimeCapability::get_BitCount
+ - ISmimeCapability.BitCount
+ - ISmimeCapability.get_BitCount
 ---
 
 # ISmimeCapability::get_BitCount
@@ -148,4 +149,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ismimecapability
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
-

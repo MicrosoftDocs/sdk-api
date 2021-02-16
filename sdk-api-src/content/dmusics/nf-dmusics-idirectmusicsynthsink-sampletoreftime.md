@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynthSink::SampleToRefTime
+ - IDirectMusicSynthSink.SampleToRefTime
 ---
 
 # IDirectMusicSynthSink::SampleToRefTime
@@ -85,4 +85,3 @@ For more information, see the description of reference time and sample time in <
 
 
 <a href="/windows-hardware/drivers/ddi/content/dmusicks/nf-dmusicks-isynthsinkdmus-sampletoreftime">ISynthSinkDMus::SampleToRefTime</a>
-

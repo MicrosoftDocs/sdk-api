@@ -46,7 +46,6 @@ api_location:
  - MsClus.h
 api_name:
  - GROUP_FAILURE_INFO_BUFFER
- - PGROUP_FAILURE_INFO_BUFFER
 ---
 
 # GROUP_FAILURE_INFO_BUFFER structure
@@ -69,4 +68,3 @@ The <a href="/previous-versions/windows/desktop/api/clusapi/ns-clusapi-group_fai
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

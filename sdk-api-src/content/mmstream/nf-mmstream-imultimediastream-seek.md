@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMultiMediaStream::Seek
+ - IMultiMediaStream.Seek
 ---
 
 # IMultiMediaStream::Seek
@@ -100,4 +100,3 @@ To determine whether the media streams support seeking, call the <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imultimediastream">IMultiMediaStream Interface</a>
-

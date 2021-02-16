@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - IVdsHbaPort::GetProperties
+ - IVdsHbaPort.GetProperties
 ---
 
 # IVdsHbaPort::GetProperties
@@ -113,4 +113,3 @@ The <i>pHbaPortProp</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
-

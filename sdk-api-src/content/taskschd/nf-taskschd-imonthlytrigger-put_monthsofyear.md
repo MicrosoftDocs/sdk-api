@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IMonthlyTrigger::put_MonthsOfYear
+ - IMonthlyTrigger.MonthsOfYear
+ - IMonthlyTrigger.get_MonthsOfYear
+ - IMonthlyTrigger.put_MonthsOfYear
 ---
 
 # IMonthlyTrigger::put_MonthsOfYear
@@ -138,4 +140,3 @@ When reading or writing your own XML for a task, the months of the year are spec
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

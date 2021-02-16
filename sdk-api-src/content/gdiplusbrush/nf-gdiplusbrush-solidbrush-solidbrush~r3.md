@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - SolidBrush::SolidBrush
+ - SolidBrush.SolidBrush
 ---
 
 ## -description
@@ -73,4 +73,3 @@ Reference to a <a href="/windows/desktop/api/gdipluscolor/nl-gdipluscolor-color"
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

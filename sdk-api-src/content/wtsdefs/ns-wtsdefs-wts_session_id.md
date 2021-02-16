@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_SESSION_ID
- - PWTS_SESSION_ID
  - WTS_SESSION_ID
 ---
 
@@ -99,4 +97,3 @@ This structure is used in the following methods:
 
 
 <a href="/windows/desktop/TermServ/custom-remote-protocol-structures">Remote Desktop Protocol Provider Structures</a>
-

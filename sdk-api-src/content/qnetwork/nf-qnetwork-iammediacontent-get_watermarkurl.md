@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMMediaContent::get_WatermarkURL
+ - IAMMediaContent.get_WatermarkURL
 ---
 
 # IAMMediaContent::get_WatermarkURL
@@ -124,4 +124,3 @@ If the method succeeds, the caller must free the returned <b>BSTR</b> by calling
 
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iammediacontent">IAMMediaContent Interface</a>
-

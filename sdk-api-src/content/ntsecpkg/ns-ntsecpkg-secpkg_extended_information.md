@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_EXTENDED_INFORMATION
- - PSECPKG_EXTENDED_INFORMATION
  - SECPKG_EXTENDED_INFORMATION
 ---
 
@@ -103,4 +101,3 @@ A
 
 A 
 <a href="/windows/desktop/api/ntsecpkg/ns-ntsecpkg-secpkg_nego2_info">SECPKG_NEGO2_INFO</a> structure that contains the Nego2 information used by a <a href="/windows/desktop/SecGloss/s-gly">security package</a>.
-

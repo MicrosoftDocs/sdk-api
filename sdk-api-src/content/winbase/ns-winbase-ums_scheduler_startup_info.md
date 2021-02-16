@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinBase.h
 api_name:
- - _UMS_SCHEDULER_STARTUP_INFO
- - PUMS_SCHEDULER_STARTUP_INFO
  - UMS_SCHEDULER_STARTUP_INFO
 ---
 
@@ -75,4 +73,3 @@ A pointer to an application-defined <a href="/windows/desktop/api/winnt/nc-winnt
 ### -field SchedulerParam
 
 An application-defined parameter to pass to the specified <a href="/windows/desktop/api/winnt/nc-winnt-rtl_ums_scheduler_entry_point">UmsSchedulerProc</a> function.
-

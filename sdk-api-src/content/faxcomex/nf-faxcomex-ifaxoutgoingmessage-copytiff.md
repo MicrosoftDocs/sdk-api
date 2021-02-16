@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage::CopyTiff
+ - IFaxOutgoingMessage.CopyTiff
 ---
 
 # IFaxOutgoingMessage::CopyTiff
@@ -83,4 +83,3 @@ With the <a href="/previous-versions/windows/desktop/api/faxcomex/ne-faxcomex-fa
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIEditStream::Copy
+ - IAVIEditStream.Copy
 ---
 
 # IAVIEditStream::Copy
@@ -96,4 +96,3 @@ HRESULT Copy(LONG *plStart, LONG *plLength,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IContextState::GetMyTransactionVote
+ - IContextState.GetMyTransactionVote
 ---
 
 # IContextState::GetMyTransactionVote
@@ -102,4 +102,3 @@ If the method fails, you may be able to determine that a transaction is not pres
 
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icontextstate">IContextState</a>
-

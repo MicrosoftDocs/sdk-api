@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMCHAR
- - LPNMCHAR
  - NMCHAR
 ---
 
@@ -83,4 +81,3 @@ A 32-bit value that is determined by the control that is sending the notificatio
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 A 32-bit value that is determined by the control that is sending the notification.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tapi3if.h
 api_name:
- - ITTerminalSupport2::get_PluggableTerminalClasses
+ - ITTerminalSupport2.get_PluggableTerminalClasses
 ---
 
 # ITTerminalSupport2::get_PluggableTerminalClasses
@@ -146,4 +146,3 @@ TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">A
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itterminalsupport2">ITTerminalSupport2</a>
-

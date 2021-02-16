@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError::GetProtocol
+ - IBackgroundCopyError.GetProtocol
 ---
 
 # IBackgroundCopyError::GetProtocol
@@ -95,4 +95,3 @@ The error is not associated with the remote file transfer protocol. The <i>ppPro
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nn-bits-ibackgroundcopyerror">IBackgroundCopyError</a>
-

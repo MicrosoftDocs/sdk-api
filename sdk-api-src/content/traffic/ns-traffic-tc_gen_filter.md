@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Traffic.h
 api_name:
- - _TC_GEN_FILTER
- - PTC_GEN_FILTER
- - TC_GEN_FILTER
+ - TC_GEN_FILTER)
 ---
 
 # TC_GEN_FILTER structure
@@ -87,4 +85,3 @@ A bitmask applied to the bits designated in the <b>Pattern</b> member. The appli
 
 
 <a href="/windows/desktop/api/traffic/ns-traffic-ip_pattern">IP_PATTERN</a>
-

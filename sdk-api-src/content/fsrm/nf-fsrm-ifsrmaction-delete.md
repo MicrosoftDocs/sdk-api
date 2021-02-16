@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAction::Delete
+ - IFsrmAction.Delete
 ---
 
 # IFsrmAction::Delete
@@ -80,4 +80,3 @@ Note that the actions are not  deleted from the object until you call the object
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a>
-

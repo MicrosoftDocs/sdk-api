@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IShellLibrary::RemoveFolder
+ - IShellLibrary.RemoveFolder
 ---
 
 # IShellLibrary::RemoveFolder
@@ -145,4 +145,3 @@ __inline HRESULT SHRemoveFolderPathFromLibrary(
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)">Windows Libraries</a>
-

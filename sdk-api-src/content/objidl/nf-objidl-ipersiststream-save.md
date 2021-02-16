@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IPersistStream::Save
+ - IPersistStream.Save
 ---
 
 # IPersistStream::Save
@@ -137,4 +137,3 @@ Saves an URL moniker to a stream. The binary format of URL moniker is its URL st
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-ipersiststream">IPersistStream</a>
-

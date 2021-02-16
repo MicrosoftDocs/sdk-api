@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll3::InstallPKCS7
+ - ICEnroll4.InstallPKCS7
+ - ICEnroll3.InstallPKCS7
+ - CEnroll.InstallPKCS7
 ---
 
 # ICEnroll3::InstallPKCS7
@@ -86,4 +88,3 @@ When this method is called from script, the method displays a user interface tha
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">ICEnroll::acceptPKCS7</a>
-

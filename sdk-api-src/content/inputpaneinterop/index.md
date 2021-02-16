@@ -9,8 +9,6 @@ tech.root: winrt
 f1_keywords:
  - inputpaneinterop
  - inputpaneinterop/inputpaneinterop
-api_name:
- - inputpaneinterop
 ---
 
 # Inputpaneinterop.h header

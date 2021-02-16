@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMediaCollection::getMediaAtom
+ - IWMPMediaCollection.getMediaAtom
 ---
 
 # IWMPMediaCollection::getMediaAtom
@@ -101,4 +101,3 @@ Before calling this method, you must have read access to the library. For more i
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
-

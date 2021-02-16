@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunningObjectTable::IsRunning
+ - IRunningObjectTable.IsRunning
 ---
 
 # IRunningObjectTable::IsRunning
@@ -76,4 +76,3 @@ Generally, you call the <b>IsRunning</b> method only if you are writing your own
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-

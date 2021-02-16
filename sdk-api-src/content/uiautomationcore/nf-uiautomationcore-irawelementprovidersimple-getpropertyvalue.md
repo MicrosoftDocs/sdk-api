@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple::GetPropertyValue
+ - IRawElementProviderSimple.GetPropertyValue
 ---
 
 # IRawElementProviderSimple::GetPropertyValue
@@ -147,4 +147,3 @@ HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId,
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-irawelementprovidersimple">IRawElementProviderSimple</a>
-

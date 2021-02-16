@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationUpdateHandler::Update
+ - IDirectManipulationUpdateHandler.Update
 ---
 
 # IDirectManipulationUpdateHandler::Update
@@ -61,4 +61,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationupdatehandler">IDirectManipulationUpdateHandler</a>
-

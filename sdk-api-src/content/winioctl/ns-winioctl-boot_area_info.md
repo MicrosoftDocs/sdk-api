@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _BOOT_AREA_INFO
- - PBOOT_AREA_INFO
  - BOOT_AREA_INFO
 ---
 
@@ -89,4 +87,3 @@ typedef struct _BOOT_AREA_INFO {
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_boot_area_info">FSCTL_GET_BOOT_AREA_INFO</a>
-

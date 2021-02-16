@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EapCertificateCredential
  - EapCertificateCredential
 ---
 
@@ -67,4 +66,3 @@ If the certificate is present on the system and strong private key protection is
 <a href="/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>
 
 <a href="/windows/desktop/api/eaptypes/ne-eaptypes-eapcredentialtype">EapCredentialType</a>
-

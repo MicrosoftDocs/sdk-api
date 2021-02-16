@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Commctrl.h
 api_name:
- - tagNMLVCACHEHINT
- - LPNMLVCACHEHINT
  - NMLVCACHEHINT
 ---
 
@@ -78,4 +76,3 @@ Starting index of the requested range of items. This value is inclusive.
 Type: <b>int</b>
 
 Ending index of the requested range of items. This value is inclusive.
-

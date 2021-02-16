@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplications::get_Item
+ - IAzApplications.Item
+ - IAzApplications.get_Item
+ - AzApplications.Item
 ---
 
 # IAzApplications::get_Item
@@ -55,4 +57,3 @@ The <b>Item</b> property retrieves the <a href="/windows/desktop/api/azroles/nn-
 This property is read-only.
 
 ## -parameters
-

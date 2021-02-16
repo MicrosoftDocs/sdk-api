@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionScaleTransform::SetScaleX
+ - IDCompositionScaleTransform.SetScaleX
 ---
 
 # IDCompositionScaleTransform::SetScaleX(float)
@@ -81,4 +81,3 @@ If the ScaleX property was previously animated, this method removes the animatio
 
 
 <a href="/previous-versions/windows/desktop/legacy/hh449055(v=vs.85)">IDCompositionScaleTransform::SetScaleY</a>
-

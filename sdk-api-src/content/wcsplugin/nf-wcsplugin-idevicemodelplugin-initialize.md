@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcsPlugIn.h
 api_name:
- - IDeviceModelPlugIn::Initialize
+ - IDeviceModelPlugIn.Initialize
 ---
 
 # IDeviceModelPlugIn::Initialize
@@ -83,4 +83,3 @@ If this function is called more than once, subsequent calls release any allocate
 
 
 <a href="/previous-versions/windows/desktop/api/wcsplugin/nn-wcsplugin-idevicemodelplugin">IDeviceModelPlugIn</a>
-

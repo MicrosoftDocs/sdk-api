@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - FaxSetPortW
  - winfax/FaxSetPortW
- - FaxSetPort
- - winfax/FaxSetPort
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - WinFax.lib
  - WinFax.dll
 api_name:
- - FaxSetPortW
  - FaxSetPort
+ - FaxSetPortA
+ - FaxSetPortW
 ---
 
 # FaxSetPortW function
@@ -158,4 +157,3 @@ To obtain a valid port handle to specify in the <i>FaxPortHandle</i> parameter o
 
 
 <a href="/previous-versions/windows/desktop/api/winfax/nc-winfax-pfaxopenport">FaxOpenPort</a>
-

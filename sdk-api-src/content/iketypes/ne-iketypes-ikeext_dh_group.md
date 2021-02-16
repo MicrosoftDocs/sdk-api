@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_DH_GROUP_
  - IKEEXT_DH_GROUP
 ---
 
@@ -105,4 +104,3 @@ Maximum value for testing purposes.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVideoWindow::put_FullScreenMode
+ - IVideoWindow.put_FullScreenMode
 ---
 
 # IVideoWindow::put_FullScreenMode
@@ -166,4 +166,3 @@ Except on older hardware, the second option will generally succeed. The third op
 
 
 <a href="/windows/desktop/api/control/nf-control-ivideowindow-get_fullscreenmode">IVideoWindow::get_FullScreenMode</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - SolidBrush::SolidBrush
+ - SolidBrush.SolidBrush
 ---
 
 ## -description
@@ -65,4 +65,3 @@ The **SolidBrush** object to copy into this object.
 <a href="/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-solidbrush">SolidBrush</a>
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-a-brush-to-fill-shapes-use">Using a Brush to Fill Shapes</a>
-

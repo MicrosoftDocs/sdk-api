@@ -43,7 +43,7 @@ api_location:
  - d2d1.lib
  - d2d1.dll
 api_name:
- - ID2D1BorderTransform::SetExtendModeX
+ - ID2D1BorderTransform.SetExtendModeX
 ---
 
 # ID2D1BorderTransform::SetExtendModeX
@@ -68,4 +68,3 @@ If the extend mode enumeration is invalid, this operation is ignored.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1effectauthor/nn-d2d1effectauthor-id2d1bordertransform">ID2D1BorderTransform</a>
-

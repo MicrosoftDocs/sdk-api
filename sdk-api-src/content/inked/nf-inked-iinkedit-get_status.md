@@ -43,7 +43,9 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_Status
+ - IInkEdit.Status
+ - IInkEdit.get_Status
+ - InkEdit.get_Status
 ---
 
 # IInkEdit::get_Status
@@ -74,4 +76,3 @@ This property is available at run time only.
 
 
 <a href="/windows/desktop/api/inked/ne-inked-inkeditstatus">InkEditStatus Enumeration</a>
-

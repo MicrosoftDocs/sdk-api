@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Perflib.h
 api_name:
- - _PERF_COUNTER_DATA
- - PPERF_COUNTER_DATA
  - PERF_COUNTER_DATA
 ---
 
@@ -86,4 +84,3 @@ The <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQ
 ## -see-also
 
 <a href="/windows/desktop/api/perflib/nf-perflib-perfquerycounterdata">PerfQueryCounterData</a>
-

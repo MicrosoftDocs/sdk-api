@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxContentGroupFilesEnumerator::GetHasCurrent
+ - IAppxContentGroupFilesEnumerator.GetHasCurrent
 ---
 
 # IAppxContentGroupFilesEnumerator::GetHasCurrent

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate2::get_IsPresent
+ - IUpdate2.IsPresent
+ - IUpdate2.get_IsPresent
 ---
 
 # IUpdate2::get_IsPresent
@@ -67,4 +68,3 @@ If <b>IsPresent</b> returns <b>VARIANT_TRUE</b> and <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate2">IUpdate2</a>
-

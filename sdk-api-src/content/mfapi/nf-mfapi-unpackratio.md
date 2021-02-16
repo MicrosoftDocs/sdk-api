@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfapi.h
 api_name:
- - UnpackRatio
+ - unpackratio
 ---
 
 # UnpackRatio function
@@ -81,4 +81,3 @@ You can use this function to unpack a <b>UINT64</b> value that you receive from 
 
 
 <a href="/windows/desktop/medfound/media-foundation-functions">Media Foundation Functions</a>
-

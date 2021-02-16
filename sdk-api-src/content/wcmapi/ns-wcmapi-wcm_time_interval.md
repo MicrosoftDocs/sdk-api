@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wcmapi.h
 api_name:
- - _WCM_TIME_INTERVAL
  - WCM_TIME_INTERVAL
 ---
 

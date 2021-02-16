@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientBrush::SetTransformLookup
+ - IXpsOMGradientBrush.SetTransformLookup
 ---
 
 # IXpsOMGradientBrush::SetTransformLookup
@@ -201,4 +201,3 @@ Neither <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgra
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

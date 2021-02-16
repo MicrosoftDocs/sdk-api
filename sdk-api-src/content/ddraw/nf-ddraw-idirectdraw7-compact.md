@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ddraw.h
 api_name:
- - IDirectDraw7::Compact
+ - IDirectDraw7.Compact
 ---
 
 # IDirectDraw7::Compact
@@ -72,4 +72,3 @@ If it fails, the method can return one of the following error values:
 ## -see-also
 
 <a href="/windows/desktop/api/ddraw/nn-ddraw-idirectdraw7">IDirectDraw7</a>
-

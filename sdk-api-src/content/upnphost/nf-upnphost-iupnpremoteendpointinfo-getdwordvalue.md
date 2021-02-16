@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnphost.dll
 api_name:
- - IUPnPRemoteEndpointInfo::GetDwordValue
+ - IUPnPRemoteEndpointInfo.GetDwordValue
 ---
 
 # IUPnPRemoteEndpointInfo::GetDwordValue
@@ -110,4 +110,3 @@ Currently, the only valid value for the <i>bstrValueName</i> parameter is "Addre
 
 
 <a href="/windows/desktop/api/upnphost/nn-upnphost-iupnpremoteendpointinfo">IUPnPRemoteEndpointInfo</a>
-

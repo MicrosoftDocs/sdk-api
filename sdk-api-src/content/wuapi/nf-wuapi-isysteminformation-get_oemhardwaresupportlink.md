@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ISystemInformation::get_OemHardwareSupportLink
+ - ISystemInformation.OemHardwareSupportLink
+ - ISystemInformation.get_OemHardwareSupportLink
 ---
 
 # ISystemInformation::get_OemHardwareSupportLink
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-isysteminformation">ISystemInformation</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rtmv2.h
 api_name:
- - _RTM_PREF_INFO
- - PRTM_PREF_INFO
  - RTM_PREF_INFO
 ---
 
@@ -76,4 +74,3 @@ Preference is more important than metric. The metric is only  checked if the pre
 ## -see-also
 
 <a href="/windows/desktop/api/rtmv2/ns-rtmv2-rtm_route_info">RTM_ROUTE_INFO</a>
-

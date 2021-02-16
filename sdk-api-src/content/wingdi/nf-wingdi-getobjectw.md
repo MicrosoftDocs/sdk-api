@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetObjectW
  - wingdi/GetObjectW
- - GetObject
- - wingdi/GetObject
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +46,9 @@ api_location:
  - ext-ms-win-gdi-dc-l1-2-1.dll
  - GDI32Full.dll
 api_name:
- - GetObjectW
  - GetObject
+ - GetObjectA
+ - GetObjectW
 ---
 
 # GetObjectW function
@@ -256,4 +255,3 @@ For an example, see <a href="/windows/desktop/gdi/storing-an-image">Storing an I
 
 
 <a href="/windows/desktop/api/wingdi/ns-wingdi-logpen">LOGPEN</a>
-

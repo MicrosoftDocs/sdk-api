@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSinkWriterEncoderConfig::SetTargetMediaType
+ - IMFSinkWriterEncoderConfig.SetTargetMediaType
 ---
 
 # IMFSinkWriterEncoderConfig::SetTargetMediaType
@@ -86,4 +86,3 @@ The new media type must be supported by the media sink being used and by     the
 
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsinkwriterex">IMFSinkWriterEx</a>
-

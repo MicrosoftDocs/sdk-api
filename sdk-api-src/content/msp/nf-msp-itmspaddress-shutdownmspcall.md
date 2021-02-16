@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msp.h
 api_name:
- - ITMSPAddress::ShutdownMSPCall
+ - ITMSPAddress.ShutdownMSPCall
 ---
 
 # ITMSPAddress::ShutdownMSPCall
@@ -116,4 +116,3 @@ This method is not automatically invoked when a call enters the disconnect state
 
 
 <a href="/windows/desktop/Tapi/media-service-provider-interface-mspi-">Media Service Provider Interface (MSPI)</a>
-

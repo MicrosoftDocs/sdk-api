@@ -47,8 +47,6 @@ api_location:
  - ResApi.h
  - ClusApi.h
 api_name:
- - _SR_REPLICATED_DISK_TYPE
- - PSR_REPLICATED_DISK_TYPE
  - SR_REPLICATED_DISK_TYPE
 ---
 
@@ -96,4 +94,3 @@ Other.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

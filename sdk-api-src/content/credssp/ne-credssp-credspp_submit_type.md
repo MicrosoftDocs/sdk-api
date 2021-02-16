@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credssp.h
 api_name:
- - _CREDSSP_SUBMIT_TYPE
  - CREDSPP_SUBMIT_TYPE
 ---
 
@@ -80,4 +79,3 @@ The credentials contain both certificate and Schannel credentials.
 ## -see-also
 
 <a href="/windows/desktop/api/credssp/ns-credssp-credssp_cred">CREDSSP_CRED</a>
-

@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineSetupTransfer
+ - lineSetupTransferA
+ - lineSetupTransferW
 ---
 
 # lineSetupTransfer function
@@ -146,4 +148,3 @@ The application can also transfer calls in a single step, without having to deal
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunhold">lineUnhold</a>
-

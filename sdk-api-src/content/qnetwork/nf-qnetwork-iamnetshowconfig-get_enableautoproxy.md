@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetShowConfig::get_EnableAutoProxy
+ - IAMNetShowConfig.get_EnableAutoProxy
 ---
 
 # IAMNetShowConfig::get_EnableAutoProxy
@@ -69,4 +69,3 @@ This flag is <b>TRUE</b> by default.
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetshowconfig">IAMNetShowConfig Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - pathcch
  - pathcch/pathcch
-api_name:
- - pathcch
 ---
 
 # Pathcch.h header

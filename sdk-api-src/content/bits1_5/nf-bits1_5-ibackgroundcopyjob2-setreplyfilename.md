@@ -42,7 +42,7 @@ api_type:
 api_location:
  - BitsPrx2.dll
 api_name:
- - IBackgroundCopyJob2::SetReplyFileName
+ - IBackgroundCopyJob2.SetReplyFileName
 ---
 
 # IBackgroundCopyJob2::SetReplyFileName
@@ -139,4 +139,3 @@ The file is empty if the server application did not provide a reply.
 
 
 <a href="/windows/desktop/api/bits1_5/nf-bits1_5-ibackgroundcopyjob2-getreplyfilename">IBackgroundCopyJob::GetReplyFileName</a>
-

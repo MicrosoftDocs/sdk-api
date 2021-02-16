@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoProcessor::VideoProcessBlt
+ - IDirectXVideoProcessor.VideoProcessBlt
 ---
 
 # IDirectXVideoProcessor::VideoProcessBlt
@@ -170,4 +170,3 @@ If the method returns <b>E_INVALIDARG</b>, check for the following:
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessor">IDirectXVideoProcessor</a>
-

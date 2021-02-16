@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dxva2api.h
 api_name:
- - IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
+ - IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 ---
 
 # IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids
@@ -135,4 +135,3 @@ The graphics device may define additional vendor-specific GUIDs. The driver prov
 
 
 <a href="/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoprocessorservice">IDirectXVideoProcessorService</a>
-

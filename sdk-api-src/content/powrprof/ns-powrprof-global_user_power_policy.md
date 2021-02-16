@@ -46,8 +46,6 @@ api_type:
 api_location:
  - PowrProf.h
 api_name:
- - _GLOBAL_USER_POWER_POLICY
- - PGLOBAL_USER_POWER_POLICY
  - GLOBAL_USER_POWER_POLICY
 ---
 
@@ -116,4 +114,3 @@ A flag that enables or disables miscellaneous user power policy settings. This m
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-system_power_level">SYSTEM_POWER_LEVEL</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Shtypes.h
 api_name:
- - tagSHCOLSTATE
  - SHCOLSTATE
 ---
 
@@ -136,4 +135,3 @@ Fixed width and height ratio.
 ### -field SHCOLSTATE_DISPLAYMASK
 
 Filters out new display flags.
-

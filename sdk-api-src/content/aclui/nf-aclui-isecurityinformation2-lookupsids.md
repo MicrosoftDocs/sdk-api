@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Aclui.h
 api_name:
- - ISecurityInformation2::LookupSids
+ - ISecurityInformation2.LookupSids
 ---
 
 # ISecurityInformation2::LookupSids
@@ -131,4 +131,3 @@ typedef struct _SID_INFO_LIST
 
 
 <a href="/windows/desktop/api/aclui/ns-aclui-sid_info_list">SID_INFO_LIST</a>
-

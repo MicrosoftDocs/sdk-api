@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - StrCmpNCA
  - shlwapi/StrCmpNCA
- - StrCmpNC
- - shlwapi/StrCmpNC
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-0.dll
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
- - StrCmpNCA
  - StrCmpNC
+ - StrCmpNCA
+ - StrCmpNCW
 ---
 
 # StrCmpNCA function
@@ -112,4 +111,3 @@ For those versions of Windows that do not include <b>StrCmpNC</b> in Shlwapi.h, 
 
 
 <a href="/windows/desktop/api/shlwapi/nf-shlwapi-strcmpna">StrCmpN</a>
-

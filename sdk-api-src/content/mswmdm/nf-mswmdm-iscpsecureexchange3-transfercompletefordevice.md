@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - ISCPSecureExchange3::TransferCompleteForDevice
+ - ISCPSecureExchange3.TransferCompleteForDevice
 ---
 
 # ISCPSecureExchange3::TransferCompleteForDevice
@@ -127,4 +127,3 @@ In that case, the secure content provider needs to know which device the transfe
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iscpsecureexchange-transfercomplete">ISCPSecureExchange::TransferComplete</a>
-

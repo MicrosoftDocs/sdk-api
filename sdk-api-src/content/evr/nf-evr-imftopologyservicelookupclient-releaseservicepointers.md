@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFTopologyServiceLookupClient::ReleaseServicePointers
+ - IMFTopologyServiceLookupClient.ReleaseServicePointers
 ---
 
 # IMFTopologyServiceLookupClient::ReleaseServicePointers
@@ -88,4 +88,3 @@ After this method is called, any interface pointers obtained during the previous
 
 
 <a href="/windows/desktop/api/evr/nn-evr-imftopologyservicelookupclient">IMFTopologyServiceLookupClient</a>
-

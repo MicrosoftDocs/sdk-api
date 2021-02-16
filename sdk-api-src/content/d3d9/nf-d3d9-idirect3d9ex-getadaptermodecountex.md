@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9Ex::GetAdapterModeCountEx
+ - IDirect3D9Ex.GetAdapterModeCountEx
 ---
 
 # IDirect3D9Ex::GetAdapterModeCountEx
@@ -84,4 +84,3 @@ To increase the chance of setting a currently available display mode successfull
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex">IDirect3D9Ex</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - _SECPKG_TARGETINFO
- - PSECPKG_TARGETINFO
  - SECPKG_TARGETINFO
 ---
 
@@ -71,4 +69,3 @@ The name of the target computer.
 ## -see-also
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spvalidatetargetinfofn">SpValidateTargetInfoFn</a>
-

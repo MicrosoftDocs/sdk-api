@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DWORD_DWORD
- - LPDWORD_DWORD
  - DWORD_DWORD
 ---
 
@@ -71,4 +69,3 @@ Specifies the lower 32 bits of the value.
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_option_data_element">DHCP_OPTION_DATA_ELEMENT</a>
-

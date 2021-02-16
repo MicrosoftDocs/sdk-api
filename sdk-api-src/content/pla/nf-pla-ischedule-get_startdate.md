@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ISchedule::get_StartDate
+ - ISchedule.StartDate
+ - ISchedule.get_StartDate
+ - ISchedule.put_StartDate
 ---
 
 # ISchedule::get_StartDate
@@ -71,4 +73,3 @@ Use the start and end date to specify a date range when the schedule is valid.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-ischedule-get_starttime">ISchedule::StartTime</a>
-

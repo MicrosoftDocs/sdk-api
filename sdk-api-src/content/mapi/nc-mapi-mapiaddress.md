@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPIADDRESS
+ - MAPIAddress
 ---
 
 # MAPIADDRESS callback function
@@ -258,4 +258,3 @@ Before <b>MAPIAddress</b> writes new or changed recipient information, it must a
 
 
 <a href="/previous-versions/dd296734(v=vs.85)">Simple MAPI</a>
-

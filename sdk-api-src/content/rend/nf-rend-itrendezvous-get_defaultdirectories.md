@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITRendezvous::get_DefaultDirectories
+ - ITRendezvous.get_DefaultDirectories
 ---
 
 # ITRendezvous::get_DefaultDirectories
@@ -126,4 +126,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/rend/nn-rend-itrendezvous">ITRendezvous</a>
-

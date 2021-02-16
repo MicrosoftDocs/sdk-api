@@ -42,7 +42,9 @@ api_type:
 api_location:
  - eventsys.h
 api_name:
- - IEventClass::get_FiringInterfaceID
+ - IEventClass.FiringInterfaceID
+ - IEventClass.get_FiringInterfaceID
+ - IEventClass.put_FiringInterfaceID
 ---
 
 # IEventClass::get_FiringInterfaceID
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventclass">IEventClass</a>
-

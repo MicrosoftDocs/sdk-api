@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIOutput::GetDesc
+ - IDXGIOutput.GetDesc
 ---
 
 # IDXGIOutput::GetDesc
@@ -78,4 +78,3 @@ Returns a code that indicates success or failure. S_OK if successful, <a href="/
 
 
 <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgioutput">IDXGIOutput</a>
-

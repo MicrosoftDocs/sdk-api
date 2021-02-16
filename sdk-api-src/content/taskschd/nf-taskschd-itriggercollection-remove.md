@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITriggerCollection::Remove
+ - ITriggerCollection.Remove
 ---
 
 # ITriggerCollection::Remove
@@ -75,4 +75,3 @@ This method will return <b>E_INVALIDARG</b> when the value passed to the <i>inde
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::GetBump
+ - IAMExtTransport.GetBump
 ---
 
 # IAMExtTransport::GetBump
@@ -90,4 +90,3 @@ This method returns the temporary speed and remaining duration for an active "bu
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-setbump">IAMExtTransport::SetBump</a>
-

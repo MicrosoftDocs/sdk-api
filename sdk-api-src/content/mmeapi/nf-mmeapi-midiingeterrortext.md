@@ -45,6 +45,8 @@ api_location:
  - winmmbase.dll
 api_name:
  - midiInGetErrorText
+ - midiInGetErrorTextA
+ - midiInGetErrorTextW
 ---
 
 # midiInGetErrorText function
@@ -119,4 +121,3 @@ If the textual error description is longer than the specified buffer, the descri
 ## -see-also
 
 <a href="/windows/desktop/Multimedia/midi-functions">MIDI Functions</a>
-

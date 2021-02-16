@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCustomStrokes::Item
+ - IInkCustomStrokes.Item
 ---
 
 # IInkCustomStrokes::Item
@@ -212,4 +212,3 @@ This method takes an input argument of type <b>VARIANT</b>. The subtype of this 
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkstrokes-item">Item Method [InkStrokes Collection]</a>
-

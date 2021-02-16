@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceSite::GetWindowContext
+ - IOleInPlaceSite.GetWindowContext
 ---
 
 # IOleInPlaceSite::GetWindowContext
@@ -116,4 +116,3 @@ When an object is activated, it calls <b>GetWindowContext</b> from its container
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-

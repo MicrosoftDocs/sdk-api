@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::BeginReceiveResponse
+ - IMFHttpDownloadRequest.BeginReceiveResponse
 ---
 
 # IMFHttpDownloadRequest::BeginReceiveResponse
@@ -91,4 +91,3 @@ Successfully started the asynchronous operation.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

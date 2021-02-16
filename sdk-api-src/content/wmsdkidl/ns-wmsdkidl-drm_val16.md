@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - _DRM_VAL16
  - DRM_VAL16
 ---
 
@@ -68,4 +67,3 @@ This structure is used to store the device serial number for network devices, su
 ## -see-also
 
 <a href="/windows/desktop/wmformat/structures">Structures</a>
-

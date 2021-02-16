@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponent::put_Status
+ - IComponent.put_Status
 ---
 
 # IComponent::put_Status
@@ -73,4 +73,3 @@ Use this method to activate or inactivate a stream component.
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-icomponent-get_status">IComponent::get_Status</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sptip.dll
 api_name:
- - IEnumTfLatticeElements::Clone
+ - IEnumTfLatticeElements.Clone
 ---
 
 # IEnumTfLatticeElements::Clone
@@ -106,4 +106,3 @@ The method is not implemented.
 
 <a href="/windows/desktop/api/ctffunc/nn-ctffunc-ienumtflatticeelements">IEnumTfLatticeElements
       </a>
-

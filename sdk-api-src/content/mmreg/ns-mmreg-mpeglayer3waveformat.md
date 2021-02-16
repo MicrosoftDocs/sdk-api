@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mmreg.h
 api_name:
- - mpeglayer3waveformat_tag
  - MPEGLAYER3WAVEFORMAT
 ---
 
@@ -124,4 +123,3 @@ Encoder delay in samples. If you do not know this value, set this structure memb
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

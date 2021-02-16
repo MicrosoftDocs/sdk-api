@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _RESULTFINDINFO
  - RESULTFINDINFO
 ---
 
@@ -86,4 +85,3 @@ Continue search at beginning of list if no match is found.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iresultownerdata-finditem">IResultOwnerData::FindItem</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatchBase::GetChangeEnumerator
+ - ISyncChangeBatchBase.GetChangeEnumerator
 ---
 
 # ISyncChangeBatchBase::GetChangeEnumerator
@@ -108,4 +108,3 @@ Invalid pointer.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncchangebatchbase">ISyncChangeBatchBase Interface</a>
-

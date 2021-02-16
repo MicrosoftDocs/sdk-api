@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::CurrentItemChange
+ - IWMPEvents.CurrentItemChange
 ---
 
 # IWMPEvents::CurrentItemChange
@@ -65,4 +65,3 @@ Pointer to an <b>IDispatch</b> interface that identifies the new current item.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpevents">IWMPEvents Interface</a>
-

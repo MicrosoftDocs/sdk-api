@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxIncomingArchive::put_ArchiveFolder
+ - IFaxIncomingArchive.ArchiveFolder
+ - IFaxIncomingArchive.get_ArchiveFolder
+ - IFaxIncomingArchive.put_ArchiveFolder
 ---
 
 # IFaxIncomingArchive::put_ArchiveFolder
@@ -72,4 +74,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-incoming-archive">Visual Basic Example</a>
-

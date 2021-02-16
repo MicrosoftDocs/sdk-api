@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - tapiRequestMakeCallW
  - tapi/tapiRequestMakeCallW
- - tapiRequestMakeCall
- - tapi/tapiRequestMakeCall
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - tapiRequestMakeCallW
  - tapiRequestMakeCall
+ - tapiRequestMakeCallA
+ - tapiRequestMakeCallW
 ---
 
 # tapiRequestMakeCallW function
@@ -102,4 +101,3 @@ Invoking
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-

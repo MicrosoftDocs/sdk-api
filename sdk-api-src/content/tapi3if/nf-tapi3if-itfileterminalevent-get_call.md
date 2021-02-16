@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITFileTerminalEvent::get_Call
+ - ITFileTerminalEvent.get_Call
 ---
 
 # ITFileTerminalEvent::get_Call
@@ -75,4 +75,3 @@ When a terminal must generate an event, it requires a selected track in order to
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent">ITFileTerminalEvent</a>
-

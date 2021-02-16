@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardGetProviderIdA
  - winscard/SCardGetProviderIdA
- - SCardGetProviderId
- - winscard/SCardGetProviderId
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Winscard.dll
 api_name:
- - SCardGetProviderIdA
  - SCardGetProviderId
+ - SCardGetProviderIdA
+ - SCardGetProviderIdW
 ---
 
 # SCardGetProviderIdA function
@@ -163,4 +162,3 @@ else
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardlistreadersa">SCardListReaders</a>
-

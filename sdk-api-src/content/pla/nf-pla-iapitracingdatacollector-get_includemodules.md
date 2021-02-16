@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IApiTracingDataCollector::get_IncludeModules
+ - IApiTracingDataCollector.IncludeModules
+ - IApiTracingDataCollector.get_IncludeModules
+ - IApiTracingDataCollector.put_IncludeModules
 ---
 
 # IApiTracingDataCollector::get_IncludeModules
@@ -75,4 +77,3 @@ This property  limits the  trace to a subset of those DLLs. For example, you can
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iapitracingdatacollector-get_exepath">IApiTracingDataCollector::ExePath</a>
-

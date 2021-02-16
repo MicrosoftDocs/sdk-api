@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wmsdkidl.h
 api_name:
- - IWMReaderCallbackAdvanced::OnStreamSelection
+ - IWMReaderCallbackAdvanced.OnStreamSelection
 ---
 
 # IWMReaderCallbackAdvanced::OnStreamSelection
@@ -83,4 +83,3 @@ The application can also get callbacks when stream changes due to bandwidth rest
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreadercallbackadvanced">IWMReaderCallbackAdvanced Interface</a>
-

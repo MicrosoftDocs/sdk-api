@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::TransformVectors
+ - Matrix.TransformVectors
 ---
 
 # Matrix::TransformVectors(IN OUT Point,IN INT)
@@ -152,4 +152,3 @@ VOID Example_TransVectors(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

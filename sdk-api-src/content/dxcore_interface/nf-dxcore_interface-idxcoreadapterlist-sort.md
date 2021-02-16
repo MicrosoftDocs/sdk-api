@@ -38,9 +38,6 @@ api_location:
  - dxcore.dll
 api_name:
  - IDXCoreAdapterList::Sort
-f1_keywords:
- - IDXCoreAdapterList::Sort
- - dxcore_interface/IDXCoreAdapterList::Sort
 ---
 
 ## -description
@@ -84,4 +81,3 @@ When **Sort** returns, items in the DXCore adapter list will have been sorted fr
 ## -see-also
 
 [IDXCoreAdapterList](/windows/win32/api/dxcore_interface/nn-dxcore_interface-idxcoreadapterlist), [DXCore Reference](/windows/win32/dxcore/dxcore-reference), [Using DXCore to enumerate adapters](/windows/win32/dxcore/dxcore-enum-adapters)
-

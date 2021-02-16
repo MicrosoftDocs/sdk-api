@@ -9,8 +9,6 @@ tech.root: coreaudio
 f1_keywords:
  - audiosessiontypes
  - audiosessiontypes/audiosessiontypes
-api_name:
- - audiosessiontypes
 ---
 
 # Audiosessiontypes.h header

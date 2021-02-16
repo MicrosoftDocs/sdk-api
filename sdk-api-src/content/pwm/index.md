@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - pwm
  - pwm/pwm
-api_name:
- - pwm
 ---
 
 # Pwm.h header

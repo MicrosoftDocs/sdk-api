@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfsharingengine.h
 api_name:
- - IPlayToControlWithCapabilities::GetCapabilities
+ - IPlayToControlWithCapabilities.GetCapabilities
 ---
 
 # IPlayToControlWithCapabilities::GetCapabilities
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/mfsharingengine/nn-mfsharingengine-iplaytosourceclassfactory">IPlayToSource</a>
-

@@ -43,7 +43,7 @@ api_location:
  - strmiids.lib
  - strmiids.dll
 api_name:
- - IMFVideoProcessor::SetVideoProcessorMode
+ - IMFVideoProcessor.SetVideoProcessorMode
 ---
 
 # IMFVideoProcessor::SetVideoProcessorMode
@@ -143,4 +143,3 @@ Call this method before video playback begins.
 
 
 <a href="/windows/desktop/api/evr9/nn-evr9-imfvideoprocessor">IMFVideoProcessor</a>
-

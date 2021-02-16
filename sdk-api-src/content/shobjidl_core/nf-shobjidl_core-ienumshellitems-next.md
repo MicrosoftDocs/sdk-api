@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IEnumShellItems::Next
+ - IEnumShellItems.Next
 ---
 
 # IEnumShellItems::Next
@@ -122,4 +122,3 @@ Returns an  error value if the function fails for any other reason.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellitem">IShellItem</a>
-

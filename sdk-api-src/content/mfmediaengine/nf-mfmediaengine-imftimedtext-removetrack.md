@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.dll
 api_name:
- - IMFTimedText::RemoveTrack
+ - IMFTimedText.RemoveTrack
 ---
 
 # IMFTimedText::RemoveTrack
@@ -75,4 +75,3 @@ When a track is removed, all buffered data from the track is also removed.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtext">IMFTimedText</a>
-

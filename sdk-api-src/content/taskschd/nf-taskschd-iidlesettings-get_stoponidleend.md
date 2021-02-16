@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IIdleSettings::get_StopOnIdleEnd
+ - IIdleSettings.StopOnIdleEnd
+ - IIdleSettings.get_StopOnIdleEnd
+ - IIdleSettings.put_StopOnIdleEnd
 ---
 
 # IIdleSettings::get_StopOnIdleEnd
@@ -67,4 +69,3 @@ When reading or writing XML for a task, this setting is specified in the <a href
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

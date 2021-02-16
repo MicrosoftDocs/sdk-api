@@ -43,7 +43,7 @@ api_location:
  - Propsys.idl
  - Propsys.idl.dll
 api_name:
- - IPropertyStore::SetValue
+ - IPropertyStore.SetValue
 ---
 
 # IPropertyStore::SetValue
@@ -151,4 +151,3 @@ To remove a value from the property store, set the vt member of the structure th
 
 
 <a href="/windows/desktop/api/propsys/nf-propsys-ipropertystore-getcount">IPropertyStore::GetCount</a>
-

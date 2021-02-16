@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::IntNativeArrayToSafeArray
+ - IUIAutomation.IntNativeArrayToSafeArray
 ---
 
 # IUIAutomation::IntNativeArrayToSafeArray
@@ -89,4 +89,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomation-intsafearraytonativearray">IUIAutomation::IntSafeArrayToNativeArray</a>
-

@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::WBEMTimeSpan
+ - WBEMTimeSpan.WBEMTimeSpan
+ - ??0WBEMTimeSpan@@QAE@QAG@Z
 ---
 
 # WBEMTimeSpan::WBEMTimeSpan(const BSTR)
@@ -64,4 +65,3 @@ This   <b>WBEMTimeSpan</b> class constructor creates a time span object from a <
 ### -param bstrDMTFFormat
 
 <b>BSTR</b> in <a href="/windows/desktop/WmiSdk/interval-format">Interval Format</a>.
-

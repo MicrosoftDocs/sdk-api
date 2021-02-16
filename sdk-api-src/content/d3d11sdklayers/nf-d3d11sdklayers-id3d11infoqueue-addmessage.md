@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11InfoQueue::AddMessage
+ - ID3D11InfoQueue.AddMessage
 ---
 
 # ID3D11InfoQueue::AddMessage
@@ -92,4 +92,3 @@ This method is used by the runtime's internal mechanisms to add debug messages t
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11sdklayers/nn-d3d11sdklayers-id3d11infoqueue">ID3D11InfoQueue Interface</a>
-

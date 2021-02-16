@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Vmr9.h
 api_name:
- - _VMR9MonitorInfo
  - VMR9MonitorInfo
 ---
 
@@ -108,4 +107,3 @@ This structure is used to configure monitors on multi-monitor systems.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-structures">DirectShow Structures</a>
-

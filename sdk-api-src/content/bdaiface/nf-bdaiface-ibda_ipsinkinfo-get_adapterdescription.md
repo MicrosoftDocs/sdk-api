@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_IPSinkInfo::get_AdapterDescription
+ - IBDA_IPSinkInfo.get_AdapterDescription
 ---
 
 # IBDA_IPSinkInfo::get_AdapterDescription
@@ -78,4 +78,3 @@ The caller must free the returned string, using the <b>SysFreeString</b> method.
 
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_ipsinkinfo">IBDA_IPSinkInfo Interface</a>
-

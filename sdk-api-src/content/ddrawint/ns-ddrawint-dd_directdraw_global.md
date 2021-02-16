@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_DIRECTDRAW_GLOBAL
- - PDD_DIRECTDRAW_GLOBAL
  - DD_DIRECTDRAW_GLOBAL
 ---
 
@@ -87,4 +85,3 @@ The <b>dwReserved1</b> and <b>dwReserved2</b> members can be used as required by
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_directdraw_local">DD_DIRECTDRAW_LOCAL</a>
-

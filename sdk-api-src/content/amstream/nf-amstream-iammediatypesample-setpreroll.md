@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::SetPreroll
+ - IAMMediaTypeSample.SetPreroll
 ---
 
 # IAMMediaTypeSample::SetPreroll
@@ -67,4 +67,3 @@ Returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

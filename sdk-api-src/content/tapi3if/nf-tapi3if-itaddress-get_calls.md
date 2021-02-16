@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress::get_Calls
+ - ITAddress.get_Calls
 ---
 
 # ITAddress::get_Calls
@@ -131,4 +131,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcollection">ITCollection</a>
-

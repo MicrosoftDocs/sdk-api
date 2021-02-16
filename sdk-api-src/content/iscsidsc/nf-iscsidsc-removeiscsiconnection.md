@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - RemoveIScsiConnection
+ - RemoveIscsiConnection
 ---
 
 # RemoveIScsiConnection function
@@ -73,4 +73,3 @@ The <b>RemoveIscsiConnection</b> function will not remove the last connection of
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-logoutiscsitarget">LogoutIscsiTarget</a>
-

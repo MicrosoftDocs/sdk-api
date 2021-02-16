@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mpeg2Structs.h
 api_name:
- - __MIDL___MIDL_itf_mpeg2structs_0000_0000_0019
- - PMPEG2_FILTER
  - MPEG2_FILTER
 ---
 
@@ -131,4 +129,3 @@ Specifies an <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpe
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/bda-structures">BDA Structures</a>
-

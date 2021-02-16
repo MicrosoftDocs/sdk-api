@@ -43,6 +43,7 @@ api_location:
  - Mofd.dll
 api_name:
  - IMofCompiler
+ - MofCompiler
 ---
 
 # IMofCompiler interface
@@ -97,4 +98,3 @@ CoCreateInstance(
 
 
 <a href="/windows/desktop/WmiSdk/mofcomp">mofcomp</a>
-

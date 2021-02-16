@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync::EndQueryStateVariable
+ - IUPnPServiceAsync.EndQueryStateVariable
 ---
 
 # IUPnPServiceAsync::EndQueryStateVariable
@@ -168,4 +168,3 @@ The state variable is evented, but the UPnP software cannot return a value becau
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-endquerystatevariable">IUPnPServiceAsync::EndQueryStateVariable</a>
-

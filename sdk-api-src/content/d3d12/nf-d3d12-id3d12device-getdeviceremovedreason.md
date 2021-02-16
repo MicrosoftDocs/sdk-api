@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::GetDeviceRemovedReason
+ - ID3D12Device.GetDeviceRemovedReason
 ---
 
 # ID3D12Device::GetDeviceRemovedReason
@@ -63,4 +63,3 @@ This method returns the reason that the device was removed.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12device">ID3D12Device</a>
-

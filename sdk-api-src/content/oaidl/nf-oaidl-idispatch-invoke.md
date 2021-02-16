@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - IDispatch::Invoke
+ - IDispatch.Invoke
 ---
 
 # IDispatch::Invoke
@@ -313,4 +313,3 @@ The information that follows addresses developers of ActiveX clients and others 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
-

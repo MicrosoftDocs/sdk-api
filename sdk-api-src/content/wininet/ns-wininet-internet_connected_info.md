@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wininet.h
 api_name:
- - LPINTERNET_CONNECTED_INFO
  - INTERNET_CONNECTED_INFO
 ---
 
@@ -130,4 +129,3 @@ Controls the transition between states. This member can be ISO_FORCE_DISCONNECTE
 ## -see-also
 
 <a href="/windows/desktop/api/wininet/nf-wininet-internetsetoptiona">InternetSetOption</a>
-

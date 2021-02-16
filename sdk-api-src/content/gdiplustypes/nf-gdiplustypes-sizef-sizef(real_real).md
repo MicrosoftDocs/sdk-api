@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - SizeF::SizeF
+ - SizeF.SizeF
 ---
 
 # SizeF::SizeF(IN REAL,IN REAL)
@@ -78,4 +78,3 @@ Real number that specifies the initial value of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-class-sizef-constructors">SizeF Constructors</a>
-

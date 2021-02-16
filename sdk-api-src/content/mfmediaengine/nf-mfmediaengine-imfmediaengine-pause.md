@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::Pause
+ - IMFMediaEngine.Pause
 ---
 
 # IMFMediaEngine::Pause
@@ -69,4 +69,3 @@ Note that after you call <b>Pause</b>, the time returned by <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

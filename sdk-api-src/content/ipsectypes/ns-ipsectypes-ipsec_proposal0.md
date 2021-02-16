@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_PROPOSAL0_
  - IPSEC_PROPOSAL0
 ---
 
@@ -96,4 +95,3 @@ proposal.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

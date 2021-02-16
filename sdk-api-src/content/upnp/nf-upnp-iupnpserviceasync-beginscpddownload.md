@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceAsync::BeginSCPDDownload
+ - IUPnPServiceAsync.BeginSCPDDownload
 ---
 
 # IUPnPServiceAsync::BeginSCPDDownload
@@ -108,4 +108,3 @@ Failed to initiate the SCPD download.
 
 
 <a href="/windows/desktop/api/upnp/nf-upnp-iupnpserviceasync-begininvokeaction">IUPnPServiceAsync::BeginInvokeAction</a>
-

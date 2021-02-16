@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxPackageWriter2::Close
+ - IAppxPackageWriter2.Close
 ---
 
 # IAppxPackageWriter2::Close
@@ -98,4 +98,3 @@ The input stream contains a manifest that is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagewriter2">IAppxPackageWriter2</a>
-

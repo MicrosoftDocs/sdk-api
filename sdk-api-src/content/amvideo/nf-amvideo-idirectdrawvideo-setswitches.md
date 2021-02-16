@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDirectDrawVideo::SetSwitches
+ - IDirectDrawVideo.SetSwitches
 ---
 
 # IDirectDrawVideo::SetSwitches
@@ -139,4 +139,3 @@ This method must be called before the Video Renderer is connected.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-idirectdrawvideo">IDirectDrawVideo Interface</a>
-

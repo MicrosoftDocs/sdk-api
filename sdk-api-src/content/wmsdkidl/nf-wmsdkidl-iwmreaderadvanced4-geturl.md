@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderAdvanced4::GetURL
+ - IWMReaderAdvanced4.GetURL
 ---
 
 # IWMReaderAdvanced4::GetURL
@@ -105,4 +105,3 @@ Call this method twice. The first time, pass <b>NULL</b> as the value for <i>pws
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced4">IWMReaderAdvanced4 Interface</a>
-

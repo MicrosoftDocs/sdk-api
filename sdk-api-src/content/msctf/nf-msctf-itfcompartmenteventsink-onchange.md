@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfCompartmentEventSink::OnChange
+ - ITfCompartmentEventSink.OnChange
 ---
 
 # ITfCompartmentEventSink::OnChange
@@ -71,4 +71,3 @@ When this method is called, the data has changed. The new data can be obtained a
 ## -see-also
 
 [ITfCompartment::GetValue](nf-msctf-itfcompartment-getvalue.md), [ITfCompartment::SetValue](nf-msctf-itfcompartment-setvalue.md), [ITfCompartmentEventSink interface](nn-msctf-itfcompartmenteventsink.md)
-

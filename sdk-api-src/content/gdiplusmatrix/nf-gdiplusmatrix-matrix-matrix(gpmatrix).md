@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Matrix::Matrix
+ - Matrix.Matrix
 ---
 
 # Matrix::Matrix(GpMatrix)
@@ -78,4 +78,3 @@ TBD
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-transformations-use">Transformations</a>
-

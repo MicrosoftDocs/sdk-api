@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::SetStreamSourceFreq
+ - IDirect3DDevice9.SetStreamSourceFreq
 ---
 
 ## -description
@@ -79,4 +79,3 @@ There are two constants defined in d3d9types.h that are designed to use with Set
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3ddevice9">IDirect3DDevice9</a>
 
 <a href="/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-getstreamsourcefreq">IDirect3DDevice9::GetStreamSourceFreq</a>
-

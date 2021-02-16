@@ -42,7 +42,9 @@ api_type:
 api_location:
  - UIAutomationCore.dll
 api_name:
- - IUIAutomation2::get_TransactionTimeout
+ - IUIAutomation2.TransactionTimeout
+ - IUIAutomation2.get_TransactionTimeout
+ - IUIAutomation2.put_TransactionTimeout
 ---
 
 # IUIAutomation2::get_TransactionTimeout
@@ -63,4 +65,3 @@ The default transaction timeout value is 20 seconds.  Because some operations re
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation2">IUIAutomation2</a>
-

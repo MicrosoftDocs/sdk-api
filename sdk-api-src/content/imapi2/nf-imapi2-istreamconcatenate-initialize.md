@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IStreamConcatenate::Initialize
+ - IStreamConcatenate.Initialize
 ---
 
 # IStreamConcatenate::Initialize
@@ -128,4 +128,3 @@ When using the <a href="/windows/desktop/api/imapi2/nn-imapi2-istreamconcatenate
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-istreamconcatenate-initialize2">IStreamConcatenate::Initialize2</a>
-

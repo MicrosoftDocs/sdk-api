@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSequencerSource::UpdateTopologyFlags
+ - IMFSequencerSource.UpdateTopologyFlags
 ---
 
 # IMFSequencerSource::UpdateTopologyFlags
@@ -92,4 +92,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/medfound/sequencer-source">Sequencer Source</a>
-

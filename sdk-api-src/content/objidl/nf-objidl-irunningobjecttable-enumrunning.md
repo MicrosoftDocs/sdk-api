@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IRunningObjectTable::EnumRunning
+ - IRunningObjectTable.EnumRunning
 ---
 
 # IRunningObjectTable::EnumRunning
@@ -75,4 +75,3 @@ The <b>EnumRunning</b> method is intended primarily for the use by the system in
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irunningobjecttable">IRunningObjectTable</a>
-

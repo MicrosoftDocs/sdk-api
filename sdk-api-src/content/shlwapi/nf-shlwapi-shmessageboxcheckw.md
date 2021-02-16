@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHMessageBoxCheckW
  - shlwapi/SHMessageBoxCheckW
- - SHMessageBoxCheck
- - shlwapi/SHMessageBoxCheck
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Shlwapi.dll
 api_name:
- - SHMessageBoxCheckW
  - SHMessageBoxCheck
+ - SHMessageBoxCheckA
+ - SHMessageBoxCheckW
 ---
 
 # SHMessageBoxCheckW function
@@ -235,4 +234,3 @@ The default button displayed by the message box should agree with your <i>iDefau
 
 > [!NOTE]
 > The shlwapi.h header defines SHMessageBoxCheck as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

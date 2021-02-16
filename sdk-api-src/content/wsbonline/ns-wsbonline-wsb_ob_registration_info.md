@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsbOnline.h
 api_name:
- - _WSB_OB_REGISTRATION_INFO
  - WSB_OB_REGISTRATION_INFO
 ---
 
@@ -84,4 +83,3 @@ A flag to indicate whether the cloud backup provider can communicate with a remo
 
 
 <a href="/previous-versions/windows/desktop/api/wsbonline/nf-wsbonline-registeronlinebackupwithwindowsserverbackup">RegisterOnlineBackupWithWindowsServerBackup</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkListManager::SetSimulatedProfileInfo
+ - INetworkListManager.SetSimulatedProfileInfo
 ---
 
 # INetworkListManager::SetSimulatedProfileInfo
@@ -79,4 +79,3 @@ Returns S_OK on success.
 
 
 <a href="/windows/desktop/api/netlistmgr/ns-netlistmgr-nlm_simulated_profile_info">NLM_SIMULATED_PROFILE_INFO</a>
-

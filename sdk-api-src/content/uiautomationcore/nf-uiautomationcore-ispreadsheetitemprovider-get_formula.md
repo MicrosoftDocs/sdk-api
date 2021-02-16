@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ISpreadsheetItemProvider::get_Formula
+ - ISpreadsheetItemProvider.Formula
+ - ISpreadsheetItemProvider.get_Formula
 ---
 
 # ISpreadsheetItemProvider::get_Formula
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ispreadsheetitemprovider">ISpreadsheetItemProvider</a>
-

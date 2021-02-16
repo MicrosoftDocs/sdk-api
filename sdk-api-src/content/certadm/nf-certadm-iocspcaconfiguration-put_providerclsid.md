@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - IOCSPCAConfiguration::put_ProviderCLSID
+ - IOCSPCAConfiguration.ProviderCLSID
+ - IOCSPCAConfiguration.get_ProviderCLSID
+ - IOCSPCAConfiguration.put_ProviderCLSID
 ---
 
 # IOCSPCAConfiguration::put_ProviderCLSID
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-iocspcaconfiguration">IOCSPCAConfiguration</a>
-

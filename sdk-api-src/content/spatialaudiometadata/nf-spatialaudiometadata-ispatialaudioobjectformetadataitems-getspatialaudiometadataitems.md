@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiometadata.h
 api_name:
- - ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
+ - ISpatialAudioObjectForMetadataItems.GetSpatialAudioMetadataItems
 ---
 
 # ISpatialAudioObjectForMetadataItems::GetSpatialAudioMetadataItems
@@ -87,4 +87,3 @@ The client must free this object when it is no longer being used by calling <a h
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadataitems">ISpatialAudioObjectForMetadataItems</a>
-

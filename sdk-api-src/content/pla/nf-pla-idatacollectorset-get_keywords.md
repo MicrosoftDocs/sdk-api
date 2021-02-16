@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollectorSet::get_Keywords
+ - IDataCollectorSet.Keywords
+ - IDataCollectorSet.get_Keywords
+ - IDataCollectorSet.put_Keywords
 ---
 
 # IDataCollectorSet::get_Keywords
@@ -63,4 +65,3 @@ The keywords can be used when searching for files and are also displayed in Wind
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollectorset">IDataCollectorSet</a>
-

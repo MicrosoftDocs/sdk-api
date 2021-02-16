@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - IEnumTfFunctionProviders::Reset
+ - IEnumTfFunctionProviders.Reset
 ---
 
 # IEnumTfFunctionProviders::Reset

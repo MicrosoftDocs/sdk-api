@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_STORAGE_CLEAR_CONTEXT_FN
+ - StorageAdapterClearContext
 ---
 
 # PIBIO_STORAGE_CLEAR_CONTEXT_FN callback function
@@ -178,4 +178,3 @@ cleanup:
 ## -see-also
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

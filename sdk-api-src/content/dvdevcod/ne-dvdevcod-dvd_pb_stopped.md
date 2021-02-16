@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dvdevcod.h
 api_name:
- - _tagDVD_PB_STOPPED
  - DVD_PB_STOPPED
 ---
 
@@ -124,4 +123,3 @@ The disc cannot be played because the driver does not support checking the video
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

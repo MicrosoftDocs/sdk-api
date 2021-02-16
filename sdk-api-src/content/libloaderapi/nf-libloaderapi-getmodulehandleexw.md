@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetModuleHandleExW
  - libloaderapi/GetModuleHandleExW
- - GetModuleHandleEx
- - libloaderapi/GetModuleHandleEx
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-MS-Win-Core-LibraryLoader-L1-2-2.dll
  - vertdll.dll
 api_name:
- - GetModuleHandleExW
  - GetModuleHandleEx
+ - GetModuleHandleExA
+ - GetModuleHandleExW
 ---
 
 # GetModuleHandleExW function
@@ -191,4 +190,3 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0501
 
 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibraryexa">LoadLibraryEx</a>
-

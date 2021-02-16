@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgElement::GetLastChild
+ - ID2D1SvgElement.GetLastChild
 ---
 
 # ID2D1SvgElement::GetLastChild
@@ -63,4 +63,3 @@ Outputs the last child of this element.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgelement">ID2D1SvgElement</a>
-

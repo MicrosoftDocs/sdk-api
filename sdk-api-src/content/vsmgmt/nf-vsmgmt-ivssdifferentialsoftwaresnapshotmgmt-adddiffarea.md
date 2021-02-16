@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
+ - IVssDifferentialSoftwareSnapshotMgmt.AddDiffArea
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea
@@ -237,4 +237,3 @@ To change the size of a shadow copy storage area, use the <a href="/windows/desk
 ## -see-also
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt">IVssDifferentialSoftwareSnapshotMgmt</a>
-

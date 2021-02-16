@@ -42,7 +42,8 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2::get_CurrentProfileTypes
+ - INetFwPolicy2.CurrentProfileTypes
+ - INetFwPolicy2.get_CurrentProfileTypes
 ---
 
 # INetFwPolicy2::get_CurrentProfileTypes
@@ -66,4 +67,3 @@ Multiple profiles can be returned in the profiles bitmask.
 
 
 <a href="/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>
-

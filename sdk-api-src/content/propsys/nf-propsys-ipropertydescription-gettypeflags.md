@@ -41,7 +41,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyDescription::GetTypeFlags
+ - IPropertyDescription.GetTypeFlags
 ---
 
 # IPropertyDescription::GetTypeFlags
@@ -86,4 +86,3 @@ For additional information on type flags, see the <i>canGroupBy</i>, <i>canStack
 
 
 <a href="/windows/desktop/properties/propdesc-schema-entry">Property Description Schema</a>
-

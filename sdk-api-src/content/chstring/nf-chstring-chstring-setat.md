@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::SetAt
+ - CHString.SetAt
 ---
 
 # CHString::SetAt
@@ -83,4 +83,3 @@ This method does not return a value.
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getat(int)">CHString::GetAt</a>
-

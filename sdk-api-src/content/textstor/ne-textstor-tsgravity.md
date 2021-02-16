@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Textstor.h
 api_name:
- - __MIDL_IAnchor_0001
  - TsGravity
 ---
 
@@ -72,4 +71,3 @@ The anchor has forward gravity. For more information about anchor gravity, see <
 
 
 <a href="/windows/desktop/api/textstor/nn-textstor-ianchor">IAnchor</a>
-

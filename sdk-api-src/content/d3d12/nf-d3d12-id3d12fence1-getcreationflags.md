@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Fence1::GetCreationFlags
+ - ID3D12fence1.GetCreationFlags
 ---
 
 # ID3D12Fence1::GetCreationFlags

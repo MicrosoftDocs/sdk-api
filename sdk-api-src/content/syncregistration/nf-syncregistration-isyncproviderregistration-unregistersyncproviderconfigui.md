@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderRegistration::UnregisterSyncProviderConfigUI
+ - ISyncProviderRegistration.UnregisterSyncProviderConfigUI
 ---
 
 # ISyncProviderRegistration::UnregisterSyncProviderConfigUI
@@ -109,4 +109,3 @@ The CLSID and content type combination does not exist in the registration store 
 
 
 <a href="/windows/desktop/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration Structure</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfreadwrite.h
 api_name:
- - IMFSourceReaderCallback2::OnStreamError
+ - IMFSourceReaderCallback2.OnStreamError
 ---
 
 # IMFSourceReaderCallback2::OnStreamError
@@ -69,4 +69,3 @@ Returns an <b>HRESULT</b> value. Currently, the source reader ignores the return
 ## -see-also
 
 <a href="/windows/desktop/api/mfreadwrite/nn-mfreadwrite-imfsourcereadercallback2">IMFSourceReaderCallback2</a>
-

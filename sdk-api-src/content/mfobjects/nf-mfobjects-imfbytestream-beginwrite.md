@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFByteStream::BeginWrite
+ - IMFByteStream.BeginWrite
 ---
 
 # IMFByteStream::BeginWrite
@@ -96,4 +96,3 @@ This interface is available on the following platforms if the Windows Media Form
 ## -see-also
 
 <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream">IMFByteStream</a>
-

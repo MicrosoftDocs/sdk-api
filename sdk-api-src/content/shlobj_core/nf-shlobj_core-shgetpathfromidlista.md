@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 f1_keywords:
  - SHGetPathFromIDListA
  - shlobj_core/SHGetPathFromIDListA
- - SHGetPathFromIDList
- - shlobj_core/SHGetPathFromIDList
 dev_langs:
  - c++
 topic_type:
@@ -48,8 +45,10 @@ api_location:
  - Ext-MS-Win-Shell-Shell32-L1-2-2.dll
  - windows.storage.dll
 api_name:
- - SHGetPathFromIDListA
  - SHGetPathFromIDList
+ - SHGetPathFromIDListA
+ - SHGetPathFromIDListW
+req.apiset: ext-ms-win-shell-shell32-l1-2-2 (introduced in Windows 10, version 10.0.14393)
 ---
 
 # SHGetPathFromIDListA function
@@ -99,4 +98,3 @@ If the <i>pidl</i> parameter specifies a shortcut, the <i>pszPath</i> will conta
 
 
 <a href="/windows/desktop/api/shlobj_core/nf-shlobj_core-shparsedisplayname">SHParseDisplayName</a>
-

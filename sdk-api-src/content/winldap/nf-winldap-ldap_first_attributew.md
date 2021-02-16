@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_first_attributeW
  - winldap/ldap_first_attributeW
- - ldap_first_attribute
- - winldap/ldap_first_attribute
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_first_attributeW
  - ldap_first_attribute
+ - ldap_first_attributeA
+ - ldap_first_attributeW
 ---
 
 # ldap_first_attributeW function
@@ -139,4 +138,3 @@ Both
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_next_entry">ldap_next_entry</a>
-

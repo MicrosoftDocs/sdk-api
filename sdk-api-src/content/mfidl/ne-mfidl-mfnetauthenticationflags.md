@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFNetAuthenticationFlags
  - MFNetAuthenticationFlags
 ---
 
@@ -80,4 +79,3 @@ The credentials must be from a user who is currently logged on.
 
 
 <a href="/windows/desktop/medfound/network-source-authentication">Network Source Authentication</a>
-

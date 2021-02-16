@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMC_ADD_EXTENSIONS_INFO
- - PCMC_ADD_EXTENSIONS_INFO
  - CMC_ADD_EXTENSIONS_INFO
 ---
 
@@ -80,4 +78,3 @@ Array of certificate reference numbers.
 
 Array of pointers to the 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_extension">CERT_EXTENSION</a> certificate extensions to be added.
-

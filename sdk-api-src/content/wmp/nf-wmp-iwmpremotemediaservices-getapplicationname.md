@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPRemoteMediaServices::GetApplicationName
+ - IWMPRemoteMediaServices.GetApplicationName
 ---
 
 # IWMPRemoteMediaServices::GetApplicationName
@@ -90,4 +90,3 @@ The full mode of Windows Media Player displays the program name on the <b>View</
 
 
 <a href="/windows/desktop/WMP/remoting-the-windows-media-player-control">Remoting the Windows Media Player Control</a>
-

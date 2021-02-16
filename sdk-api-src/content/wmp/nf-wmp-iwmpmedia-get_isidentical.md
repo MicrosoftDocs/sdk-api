@@ -42,7 +42,9 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPMedia::get_isIdentical
+ - IWMPMedia.get_isIdentical
+ - IWMPMedia2.get_isIdentical
+ - IWMPMedia3.get_isIdentical
 ---
 
 # IWMPMedia::get_isIdentical
@@ -87,4 +89,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmedia">IWMPMedia Interface</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::ProcessOutput
+ - IMediaObject.ProcessOutput
 ---
 
 # IMediaObject::ProcessOutput
@@ -165,4 +165,3 @@ To check whether a stream is discardable or optional, call the <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

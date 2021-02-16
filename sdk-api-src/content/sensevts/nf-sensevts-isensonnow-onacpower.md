@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensOnNow::OnACPower
+ - ISensOnNow.OnACPower
 ---
 
 # ISensOnNow::OnACPower
@@ -100,4 +100,3 @@ SENS calls this method to notify your application that AC power has been activat
 
 
 <a href="/windows/desktop/api/sensevts/nf-sensevts-isensonnow-onbatterypower">ISensOnNow::OnBatteryPower</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - LPBITMAPV4HEADER
  - BITMAPV4HEADER
 ---
 
@@ -278,4 +277,3 @@ The <b>BITMAPV4HEADER</b> structure is extended to allow a JPEG or PNG image to 
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-stretchdibits">StretchDIBits</a>
-

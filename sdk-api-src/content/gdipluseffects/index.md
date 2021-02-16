@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdipluseffects
  - gdipluseffects/gdipluseffects
-api_name:
- - gdipluseffects
 ---
 
 # Gdipluseffects.h header

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - tagCONTROLINFO
- - LPCONTROLINFO
  - CONTROLINFO
 ---
 
@@ -86,4 +84,3 @@ When the control has the focus, the dialog box containing the control cannot use
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nf-ocidl-iolecontrol-getcontrolinfo">IOleControl::GetControlInfo</a>
-

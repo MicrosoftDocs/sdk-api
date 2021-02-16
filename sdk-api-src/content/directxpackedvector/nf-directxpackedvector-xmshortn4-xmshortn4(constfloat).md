@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMSHORTN4::XMSHORTN4
+ - XMSHORTN4.XMSHORTN4
 ---
 
 # XMSHORTN4::XMSHORTN4(const float)
@@ -96,4 +96,3 @@ instance._w = _w1;
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmshortn4">XMSHORTN4</a>
 
 <a href="/windows/desktop/dxmath/xmshortn4-ctor">XMSHORTN4 Constructors</a>
-

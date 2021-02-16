@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - __BCRYPT_KEY_LENGTHS_STRUCT
  - BCRYPT_KEY_LENGTHS_STRUCT
 ---
 

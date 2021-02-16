@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestCmc::get_X509Extensions
+ - IX509CertificateRequestCmc.X509Extensions
+ - IX509CertificateRequestCmc.get_X509Extensions
 ---
 
 # IX509CertificateRequestCmc::get_X509Extensions
@@ -82,4 +83,3 @@ You must initialize the CMC request object before calling this property. For mor
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestcmc">IX509CertificateRequestCmc</a>
-

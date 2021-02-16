@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IParseDisplayName::ParseDisplayName
+ - IParseDisplayName.ParseDisplayName
 ---
 
 # IParseDisplayName::ParseDisplayName
@@ -150,4 +150,3 @@ Some moniker classes will be able to handle this parsing internally to themselve
 
 
 <a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775113(v=vs.85)">MkParseDisplayNameEx</a>
-

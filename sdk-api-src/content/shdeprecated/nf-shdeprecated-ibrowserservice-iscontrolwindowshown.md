@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService::IsControlWindowShown
+ - IBrowserService.IsControlWindowShown
 ---
 
 # IBrowserService::IsControlWindowShown

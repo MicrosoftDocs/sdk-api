@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1ImageBrush::GetInterpolationMode
+ - ID2D1ImageBrush.GetInterpolationMode
 ---
 
 # ID2D1ImageBrush::GetInterpolationMode
@@ -63,4 +63,3 @@ This method returns the  interpolation mode.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1imagebrush">ID2D1ImageBrush</a>
-

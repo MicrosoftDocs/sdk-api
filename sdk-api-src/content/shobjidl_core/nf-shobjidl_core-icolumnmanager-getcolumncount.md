@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IColumnManager::GetColumnCount
+ - IColumnManager.GetColumnCount
 ---
 
 # IColumnManager::GetColumnCount
@@ -71,4 +71,3 @@ Contains a pointer to the column count.
 Type: <b>HRESULT</b>
 
 Always returns S_OK.
-

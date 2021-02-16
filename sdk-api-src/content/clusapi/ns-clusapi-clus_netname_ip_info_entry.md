@@ -45,7 +45,6 @@ api_location:
  - ClusApi.h
 api_name:
  - CLUS_NETNAME_IP_INFO_ENTRY
- - PCLUS_NETNAME_IP_INFO_ENTRY
 ---
 
 # CLUS_NETNAME_IP_INFO_ENTRY structure
@@ -72,4 +71,3 @@ A byte array that contains the address of the NetName.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility structures</a>
-

@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDocument::get_Priority
+ - IFaxDocument.Priority
+ - IFaxDocument.get_Priority
+ - IFaxDocument.put_Priority
+ - IFaxDocument.get_Priority
+ - IFaxDocument.put_Priority
 ---
 
 # IFaxDocument::get_Priority
@@ -71,4 +75,3 @@ By default, <b>IFaxDocument::get_Priority</b> is set to <a href="/previous-versi
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-sending-a-fax">Visual Basic Example</a>
-

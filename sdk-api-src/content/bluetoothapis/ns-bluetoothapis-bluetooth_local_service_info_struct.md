@@ -44,8 +44,7 @@ api_type:
 api_location:
  - BluetoothAPIs.h
 api_name:
- - _BLUETOOTH_LOCAL_SERVICE_INFO
- - BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT
+ - BLUETOOTH_LOCAL_SERVICE_INFO
 ---
 
 # BLUETOOTH_LOCAL_SERVICE_INFO_STRUCT structure
@@ -80,4 +79,3 @@ In the event  the service is not associated with a specific device, <b>btAddr</b
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/bb870603(v=vs.85)">BluetoothSetLocalServiceInfo</a>
-

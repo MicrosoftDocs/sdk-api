@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsUser::ChangePassword
+ - IADsUser.ChangePassword
 ---
 
 # IADsUser::ChangePassword
@@ -128,4 +128,3 @@ HRESULT ChangePassword(
 
 <a href="/windows/desktop/ADSI/iadsuser-property-methods">IADsUser
   Property Methods</a>
-

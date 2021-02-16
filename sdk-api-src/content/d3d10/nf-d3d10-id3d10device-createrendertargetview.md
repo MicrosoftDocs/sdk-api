@@ -43,7 +43,7 @@ api_location:
  - D3D10.lib
  - D3D10.dll
 api_name:
- - ID3D10Device::CreateRenderTargetView
+ - ID3D10Device.CreateRenderTargetView
 ---
 
 # ID3D10Device::CreateRenderTargetView
@@ -86,4 +86,3 @@ A rendertarget view can be bound to the <a href="/windows/desktop/direct3d11/d3d
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10/nn-d3d10-id3d10device">ID3D10Device Interface</a>
-

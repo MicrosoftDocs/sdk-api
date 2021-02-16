@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin::SetRequestAttributes
+ - ICertAdmin2.SetRequestAttributes
+ - ICertAdmin.SetRequestAttributes
+ - CCertAdmin.SetRequestAttributes
 ---
 
 # ICertAdmin::SetRequestAttributes
@@ -192,4 +194,3 @@ error:
 
 
 <a href="/windows/desktop/api/certview/nn-certview-ienumcertviewattribute">IEnumCERTVIEWATTRIBUTE</a>
-

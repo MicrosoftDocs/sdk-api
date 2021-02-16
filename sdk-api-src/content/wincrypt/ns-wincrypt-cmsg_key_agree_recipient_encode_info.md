@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
- - PCMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
  - CMSG_KEY_AGREE_RECIPIENT_ENCODE_INFO
 ---
 
@@ -173,4 +171,3 @@ An array of  <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_recipient_enc
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptacquirecontexta">CryptAcquireContext</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManEnumerator::ReadItem
+ - IWSManEnumerator.ReadItem
 ---
 
 # IWSManEnumerator::ReadItem
@@ -77,4 +77,3 @@ Be aware that freeing the enumeration object clears pending enumeration requests
 
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanenumerator">IWSManEnumerator</a>
-

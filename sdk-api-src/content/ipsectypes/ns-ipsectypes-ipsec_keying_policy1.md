@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ipsectypes.h
 api_name:
- - IPSEC_KEYING_POLICY1_
  - IPSEC_KEYING_POLICY1
 ---
 
@@ -96,4 +95,3 @@ Forces the use of a Kerberos proxy server when acting as initiator.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

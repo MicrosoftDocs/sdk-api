@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - ISimilarityTraitsMapping::CloseMapping
+ - ISimilarityTraitsMapping.CloseMapping
 ---
 
 # ISimilarityTraitsMapping::CloseMapping
@@ -61,4 +61,3 @@ Note that there may still be valid views open on the file. No new views may be c
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/msrdc/nn-msrdc-isimilaritytraitsmapping">ISimilarityTraitsMapping</a>
-

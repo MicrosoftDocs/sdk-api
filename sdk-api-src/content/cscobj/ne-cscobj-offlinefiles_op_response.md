@@ -44,7 +44,6 @@ api_type:
 api_location:
  - CscObj.h
 api_name:
- - tagOFFLINEFILES_OP_RESPONSE
  - OFFLINEFILES_OP_RESPONSE
 ---
 
@@ -84,4 +83,3 @@ Stop processing now.
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nf-cscobj-iofflinefilessyncprogress-syncitemresult">IOfflineFilesSyncProgress::SyncItemResult</a>
-

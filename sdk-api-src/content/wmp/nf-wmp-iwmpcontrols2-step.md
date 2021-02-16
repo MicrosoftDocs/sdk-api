@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPControls2::step
+ - IWMPControls2.step
 ---
 
 # IWMPControls2::step
@@ -93,4 +93,3 @@ This method currently only supports the parameters 1 or -1, so you can only step
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpdvd">IWMPDVD Interface</a>
-

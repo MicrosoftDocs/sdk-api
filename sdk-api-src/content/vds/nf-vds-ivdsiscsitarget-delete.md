@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsIscsiTarget::Delete
+ - IVdsIscsiTarget.Delete
 ---
 
 # IVdsIscsiTarget::Delete
@@ -151,4 +151,3 @@ LUNs are associated with this target. All LUNs must be disassociated from this t
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsiscsitarget">IVdsIscsiTarget</a>
-

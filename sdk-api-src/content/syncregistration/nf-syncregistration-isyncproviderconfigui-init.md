@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncProviderConfigUI::Init
+ - ISyncProviderConfigUI.Init
 ---
 
 # ISyncProviderConfigUI::Init
@@ -96,4 +96,3 @@ This method will be called by the registration code before the object is returne
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncproviderconfigui">ISyncProviderConfigUI Interface</a>
-

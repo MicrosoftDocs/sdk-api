@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audioclient.h
 api_name:
- - IAudioClient::IsFormatSupported
+ - IAudioClient.IsFormatSupported
 ---
 
 # IAudioClient::IsFormatSupported
@@ -193,4 +193,3 @@ For more information about APOs, see the white papers titled "Custom Audio Effec
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-iaudioclient-initialize">IAudioClient::Initialize</a>
-

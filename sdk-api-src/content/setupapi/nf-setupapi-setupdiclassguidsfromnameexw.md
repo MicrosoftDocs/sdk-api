@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupDiClassGuidsFromNameExW
  - setupapi/SetupDiClassGuidsFromNameExW
- - SetupDiClassGuidsFromNameEx
- - setupapi/SetupDiClassGuidsFromNameEx
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,8 @@ api_location:
  - Setupapi.lib
  - Setupapi.dll
 api_name:
- - SetupDiClassGuidsFromNameExW
  - SetupDiClassGuidsFromNameEx
+ - SetupDiClassGuidsFromNameExW
 ---
 
 # SetupDiClassGuidsFromNameExW function
@@ -104,4 +102,3 @@ Class names are not guaranteed to be unique; only GUIDs are unique. Therefore, o
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiclassnamefromguidexa">SetupDiClassNameFromGuidEx</a>
-

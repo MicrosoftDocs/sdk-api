@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Commdlg.h
 api_name:
- - tagPDEXW
- - LPPRINTDLGEXW
+ - PRINTDLGEX
+ - PRINTDLGEXA
  - PRINTDLGEXW
 ---
 
@@ -553,4 +553,3 @@ During the execution of <a href="/previous-versions/windows/desktop/legacy/ms646
 
 
 <b>Reference</b>
-

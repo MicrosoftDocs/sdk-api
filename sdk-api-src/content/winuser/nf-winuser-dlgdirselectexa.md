@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DlgDirSelectExA
  - winuser/DlgDirSelectExA
- - DlgDirSelectEx
- - winuser/DlgDirSelectEx
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - DlgDirSelectExA
  - DlgDirSelectEx
+ - DlgDirSelectExA
+ - DlgDirSelectExW
 ---
 
 # DlgDirSelectExA function
@@ -140,4 +139,3 @@ For an example, see <a href="/windows/desktop/Controls/using-list-boxes">Creatin
 
 
 <b>Reference</b>
-

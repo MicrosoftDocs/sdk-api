@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsReadMsgPdu::get_PduData
+ - IMbnSmsReadMsgPdu.PduData
+ - IMbnSmsReadMsgPdu.get_PduData
 ---
 
 # IMbnSmsReadMsgPdu::get_PduData
@@ -95,4 +96,3 @@ For CDMA devices, this property returns <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsreadmsgpdu">IMbnSmsReadMsgPdu</a>
-

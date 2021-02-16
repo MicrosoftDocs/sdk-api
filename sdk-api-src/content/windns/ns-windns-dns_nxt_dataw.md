@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - PDNS_NXT_DATAW
- - DNS_NXT_DATAW
+ - DNS_NXT_DATA
 ---
 
 # DNS_NXT_DATAW structure
@@ -90,4 +89,3 @@ The
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
-

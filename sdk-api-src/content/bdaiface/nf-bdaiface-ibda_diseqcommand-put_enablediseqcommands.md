@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdaiface.h
 api_name:
- - IBDA_DiseqCommand::put_EnableDiseqCommands
+ - IBDA_DiseqCommand.put_EnableDiseqCommands
 ---
 
 # IBDA_DiseqCommand::put_EnableDiseqCommands
@@ -69,4 +69,3 @@ Depending on the satellite installation, DiSEqC commands might be required. Howe
 ## -see-also
 
 <a href="/windows/desktop/api/bdaiface/nn-bdaiface-ibda_diseqcommand">IBDA_DiseqCommand</a>
-

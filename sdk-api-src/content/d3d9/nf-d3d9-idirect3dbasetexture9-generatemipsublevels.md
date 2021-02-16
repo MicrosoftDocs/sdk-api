@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DBaseTexture9::GenerateMipSubLevels
+ - IDirect3DBaseTexture9.GenerateMipSubLevels
 ---
 
 # IDirect3DBaseTexture9::GenerateMipSubLevels
@@ -70,4 +70,3 @@ An application can generate mipmap sublevels at any time by calling <b>GenerateM
 
 
 <a href="/windows/desktop/api/d3d9/nf-d3d9-idirect3dbasetexture9-setautogenfiltertype">SetAutoGenFilterType</a>
-

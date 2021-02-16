@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Medparam.h
 api_name:
- - _MP_ENVELOPE_SEGMENT
  - MP_ENVELOPE_SEGMENT
 ---
 
@@ -124,4 +123,3 @@ Ignore the specified start value. Start from the neutral value. (See <a href="/p
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/dmo-structures">DMO Structures</a>
-

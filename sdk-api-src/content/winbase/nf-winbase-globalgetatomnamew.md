@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GlobalGetAtomNameW
  - winbase/GlobalGetAtomNameW
- - GlobalGetAtomName
- - winbase/GlobalGetAtomName
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - kernel32legacy.dll
  - API-MS-Win-DownLevel-Kernel32-l2-1-0.dll
 api_name:
- - GlobalGetAtomNameW
  - GlobalGetAtomName
+ - GlobalGetAtomNameA
+ - GlobalGetAtomNameW
 ---
 
 # GlobalGetAtomNameW function
@@ -133,4 +132,3 @@ Using this function incorrectly might compromise the security of your program. I
 
 
 <b>Reference</b>
-

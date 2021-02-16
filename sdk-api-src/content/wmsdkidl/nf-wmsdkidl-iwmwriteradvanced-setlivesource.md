@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterAdvanced::SetLiveSource
+ - IWMWriterAdvanced.SetLiveSource
 ---
 
 # IWMWriterAdvanced::SetLiveSource
@@ -72,4 +72,3 @@ The default is False. To handle incoming samples correctly, the writer object mu
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmwriteradvanced">IWMWriterAdvanced Interface</a>
-

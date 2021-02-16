@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsSubSystem::SetControllerStatus
+ - IVdsSubSystem.SetControllerStatus
 ---
 
 # IVdsSubSystem::SetControllerStatus
@@ -185,4 +185,3 @@ Callers must pass the complete set of controllers in either the <i>pOnlineContro
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdssubsystem">IVdsSubSystem</a>
-

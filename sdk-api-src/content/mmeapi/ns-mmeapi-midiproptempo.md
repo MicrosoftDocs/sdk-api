@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - midiproptempo_tag
- - LPMIDIPROPTEMPO
  - MIDIPROPTEMPO
 ---
 
@@ -83,4 +81,3 @@ The tempo property is read or written by the <a href="/previous-versions/dd79849
 
 
 <a href="/previous-versions/dd798490(v=vs.85)">midiStreamProperty</a>
-

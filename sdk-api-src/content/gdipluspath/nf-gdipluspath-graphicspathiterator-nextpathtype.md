@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPathIterator::NextPathType
+ - GraphicsPathIterator.NextPathType
 ---
 
 # GraphicsPathIterator::NextPathType
@@ -112,4 +112,3 @@ The first time you call the <a href="/previous-versions/ms535462(v=vs.85)">Graph
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDockingWindow::ResizeBorderDW
+ - IDockingWindow.ResizeBorderDW
 ---
 
 # IDockingWindow::ResizeBorderDW
@@ -110,4 +110,3 @@ For example, if the docking window object requires 25 pixels at the top of the b
 
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-idockingwindowsite">IDockingWindowSite</a>
-

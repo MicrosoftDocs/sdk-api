@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceTopology::GetSubunit
+ - IDeviceTopology.GetSubunit
 ---
 
 # IDeviceTopology::GetSubunit
@@ -106,4 +106,3 @@ Pointer <i>ppSubunit</i> is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-isubunit">ISubunit Interface</a>
-

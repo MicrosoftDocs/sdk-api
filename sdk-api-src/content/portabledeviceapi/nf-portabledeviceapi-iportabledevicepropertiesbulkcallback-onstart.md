@@ -43,7 +43,7 @@ api_location:
  - PortableDeviceGUIDs.lib
  - PortableDeviceGUIDs.dll
 api_name:
- - IPortableDevicePropertiesBulkCallback::OnStart
+ - IPortableDevicePropertiesBulkCallback.OnStart
 ---
 
 # IPortableDevicePropertiesBulkCallback::OnStart
@@ -66,4 +66,3 @@ The application should return either S_OK or an error code to abandon the operat
 ## -see-also
 
 <a href="/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback">IPortableDevicePropertiesBulkCallback Interface</a>
-

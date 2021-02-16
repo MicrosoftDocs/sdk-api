@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - certenc
  - certenc/certenc
-api_name:
- - certenc
 ---
 
 # Certenc.h header

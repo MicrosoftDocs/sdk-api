@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumPropsW
  - winuser/EnumPropsW
- - EnumProps
- - winuser/EnumProps
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - minuser.dll
  - Ext-MS-Win-RTCore-NTUser-Window-Ext-l1-1-0.dll
 api_name:
- - EnumPropsW
  - EnumProps
+ - EnumPropsA
+ - EnumPropsW
 ---
 
 # EnumPropsW function
@@ -110,4 +109,3 @@ An application can remove only those properties it has added. It must not remove
 
 
 <a href="/windows/desktop/winmsg/window-properties">Window Properties</a>
-

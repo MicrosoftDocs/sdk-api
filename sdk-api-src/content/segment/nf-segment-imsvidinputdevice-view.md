@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidInputDevice::View
+ - IMSVidInputDevice.View
 ---
 
 # IMSVidInputDevice::View
@@ -69,4 +69,3 @@ Before calling this method, set the device as the active input by calling the <a
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidinputdevice">IMSVidInputDevice Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IVisualProperties::GetFont
+ - IVisualProperties.GetFont
 ---
 
 # IVisualProperties::GetFont

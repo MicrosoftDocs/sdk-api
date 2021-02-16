@@ -42,7 +42,19 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::put_RequestStoreFlags
+ - ICEnroll4.RequestStoreFlags
+ - ICEnroll4.get_RequestStoreFlags
+ - ICEnroll4.put_RequestStoreFlags
+ - ICEnroll3.RequestStoreFlags
+ - ICEnroll3.get_RequestStoreFlags
+ - ICEnroll3.put_RequestStoreFlags
+ - ICEnroll2.RequestStoreFlags
+ - ICEnroll2.get_RequestStoreFlags
+ - ICEnroll2.put_RequestStoreFlags
+ - ICEnroll.RequestStoreFlags
+ - ICEnroll.get_RequestStoreFlags
+ - ICEnroll.put_RequestStoreFlags
+ - CEnroll.RequestStoreFlags
 ---
 
 # ICEnroll::put_RequestStoreFlags
@@ -111,4 +123,3 @@ if ( FAILED ( hr ) )
 else
     printf("Updated RequestStoreFlags\n");
 ```
-

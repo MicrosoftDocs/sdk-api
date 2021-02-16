@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopology::GetNodeByID
+ - IMFTopology.GetNodeByID
 ---
 
 # IMFTopology::GetNodeByID
@@ -110,4 +110,3 @@ The topology does not contain a node with this identifier.
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

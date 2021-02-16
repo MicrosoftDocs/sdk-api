@@ -42,7 +42,12 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmActionEmail::put_MailReplyTo
+ - IFsrmActionEmail2.MailReplyTo
+ - IFsrmActionEmail2.get_MailReplyTo
+ - IFsrmActionEmail2.put_MailReplyTo
+ - IFsrmActionEmail.MailReplyTo
+ - IFsrmActionEmail.get_MailReplyTo
+ - IFsrmActionEmail.put_MailReplyTo
 ---
 
 # IFsrmActionEmail::put_MailReplyTo
@@ -92,4 +97,3 @@ If the user specified  in the <a href="/previous-versions/windows/desktop/api/fs
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfmjnotificationaction">MSFT_FSRMFMJNotificationAction</a>
-

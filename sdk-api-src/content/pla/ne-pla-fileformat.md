@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Pla.h
 api_name:
- - __MIDL___MIDL_itf_pla_0001_0043_0002
  - FileFormat
 ---
 
@@ -76,4 +75,3 @@ Binary log file.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-iperformancecounterdatacollector-get_logfileformat">IPerformanceCounterDataCollector::LogFileFormat</a>
-

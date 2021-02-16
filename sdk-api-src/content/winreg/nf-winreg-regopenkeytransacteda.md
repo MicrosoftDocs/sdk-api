@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegOpenKeyTransactedA
  - winreg/RegOpenKeyTransactedA
- - RegOpenKeyTransacted
- - winreg/RegOpenKeyTransacted
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegOpenKeyTransactedA
  - RegOpenKeyTransacted
+ - RegOpenKeyTransactedA
+ - RegOpenKeyTransactedW
 ---
 
 # RegOpenKeyTransactedA function
@@ -158,4 +157,3 @@ A single registry key can be opened only 65,534 times. When attempting the 65,53
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
-

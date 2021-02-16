@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ISyncChangeBatch::EndUnorderedGroup
+ - ISyncChangeBatch.EndUnorderedGroup
 ---
 
 # ISyncChangeBatch::EndUnorderedGroup
@@ -110,4 +110,3 @@ No group is open or an ordered group is open.
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge Interface</a>
-

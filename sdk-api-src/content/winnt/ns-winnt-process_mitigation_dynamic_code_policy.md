@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
- - PPROCESS_MITIGATION_DYNAMIC_CODE_POLICY
  - PROCESS_MITIGATION_DYNAMIC_CODE_POLICY
 ---
 
@@ -93,4 +91,3 @@ Reserved for system use.
 
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessmitigationpolicy">SetProcessMitigationPolicy</a>
-

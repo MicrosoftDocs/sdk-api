@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioObjectBase::GetAudioObjectType
+ - ISpatialAudioObjectBase.GetAudioObjectType
 ---
 
 # ISpatialAudioObjectBase::GetAudioObjectType
@@ -73,4 +73,3 @@ Set the type of the audio object with the <i>type</i> parameter to the  <a href=
 
 
 <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
-

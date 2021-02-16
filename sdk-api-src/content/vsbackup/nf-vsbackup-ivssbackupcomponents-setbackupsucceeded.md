@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::SetBackupSucceeded
+ - IVssBackupComponents.SetBackupSucceeded
 ---
 
 # IVssBackupComponents::SetBackupSucceeded
@@ -214,4 +214,3 @@ Do not call this method if the call to <a href="/windows/desktop/api/vsbackup/nf
 
 
 <a href="/windows/desktop/api/vswriter/ne-vswriter-vss_component_type">VSS_COMPONENT_TYPE</a>
-

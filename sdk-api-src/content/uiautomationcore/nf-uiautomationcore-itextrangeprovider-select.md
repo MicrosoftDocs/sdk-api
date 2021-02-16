@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - ITextRangeProvider::Select
+ - ITextRangeProvider.Select
 ---
 
 # ITextRangeProvider::Select
@@ -83,4 +83,3 @@ Providing a degenerate text range will move the text insertion point.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

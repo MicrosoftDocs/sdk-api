@@ -47,8 +47,6 @@ api_location:
  - Ipmib.h
  - Iprtrmib.h
 api_name:
- - _MIB_IPMCAST_MFE
- - PMIB_IPMCAST_MFE
  - MIB_IPMCAST_MFE
 ---
 
@@ -189,4 +187,3 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 <a href="/windows/desktop/RRAS/multicast-group-manager-functions">Multicast Group Manager functions</a>
-

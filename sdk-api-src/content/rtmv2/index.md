@@ -9,8 +9,6 @@ tech.root: rras
 f1_keywords:
  - rtmv2
  - rtmv2/rtmv2
-api_name:
- - rtmv2
 ---
 
 # Rtmv2.h header

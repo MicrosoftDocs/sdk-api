@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_CLASS_INFO
- - LPDHCP_CLASS_INFO
  - DHCP_CLASS_INFO
 ---
 
@@ -120,4 +118,3 @@ Pointer to a byte buffer that contains specific data for the class. When passing
 
 
 <a href="/previous-versions/windows/desktop/api/dhcpsapi/nf-dhcpsapi-dhcpmodifyclass">DhcpModifyClass</a>
-

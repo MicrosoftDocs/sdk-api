@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOleCallback::ShowContainerUI
+ - IRichEditOleCallback.ShowContainerUI
 ---
 
 # IRichEditOleCallback::ShowContainerUI
@@ -104,4 +104,3 @@ The
 
 
 <b>Reference</b>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509CertificateRequestPkcs10::GetCspStatuses
+ - IX509CertificateRequestPkcs10.GetCspStatuses
 ---
 
 # IX509CertificateRequestPkcs10::GetCspStatuses
@@ -184,4 +184,3 @@ The <b>GetCspStatuses</b> method differs from the <a href="/windows/desktop/api/
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509certificaterequestpkcs10">IX509CertificateRequestPkcs10</a>
-

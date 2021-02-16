@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ImageAttributes::ImageAttributes
+ - ImageAttributes.ImageAttributes
 ---
 
 # ImageAttributes::ImageAttributes

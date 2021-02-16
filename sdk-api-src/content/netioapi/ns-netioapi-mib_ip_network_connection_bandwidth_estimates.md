@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Netioapi.h
 api_name:
- - _MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
- - PMIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
  - MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES
 ---
 
@@ -97,4 +95,3 @@ The  <b>MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</b>  structure is defined 
 
 
 <a href="/windows/desktop/api/tcpestats/ns-tcpestats-tcp_estats_bandwidth_rod_v0">TCP_ESTATS_BANDWIDTH_ROD_v0</a>
-

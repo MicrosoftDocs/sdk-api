@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectML.dll
 api_name:
- - IDMLDevice::MakeResident
+ - IDMLDevice.MakeResident
 ---
 
 # IDMLDevice::MakeResident

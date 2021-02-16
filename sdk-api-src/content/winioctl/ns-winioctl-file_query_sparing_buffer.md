@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _FILE_QUERY_SPARING_BUFFER
- - PFILE_QUERY_SPARING_BUFFER
  - FILE_QUERY_SPARING_BUFFER
 ---
 
@@ -82,4 +80,3 @@ The  number of blocks available for sparing.
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_query_sparing_info">FSCTL_QUERY_SPARING_INFO</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IKnownFolderManager::Redirect
+ - IKnownFolderManager.Redirect
 ---
 
 # IKnownFolderManager::Redirect
@@ -127,4 +127,3 @@ Among other things, this value can indicate that the <i>rfid</i> parameter refer
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

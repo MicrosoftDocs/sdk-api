@@ -9,8 +9,6 @@ tech.root: wmdm
 f1_keywords:
  - mtpext
  - mtpext/mtpext
-api_name:
- - mtpext
 ---
 
 # Mtpext.h header

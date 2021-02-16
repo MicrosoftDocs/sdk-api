@@ -45,8 +45,6 @@ api_type:
 api_location:
  - 
 api_name:
- - _CLUSTER_SHARED_VOLUME_STATE_INFO_EX
- - PCLUSTER_SHARED_VOLUME_STATE_INFO_EX
  - CLUSTER_SHARED_VOLUME_STATE_INFO_EX
 ---
 
@@ -170,4 +168,3 @@ All reasons.
 
 
 <a href="/previous-versions/windows/desktop/mscs/utility-structures">Utility Structures</a>
-

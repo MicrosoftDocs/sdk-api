@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncregistration.h
 api_name:
- - ISyncRegistrationChange::GetEvent
+ - ISyncRegistrationChange.GetEvent
 ---
 
 # ISyncRegistrationChange::GetEvent
@@ -94,4 +94,3 @@ Invalid pointer.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/syncregistration/nn-syncregistration-isyncregistrationchange">ISyncRegistrationChange Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITDetectTone::get_AppSpecific
+ - ITDetectTone.get_AppSpecific
 ---
 
 # ITDetectTone::get_AppSpecific
@@ -99,4 +99,3 @@ The <i>plAppSpecific</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itdetecttone-put_appspecific">put_AppSpecific</a>
-

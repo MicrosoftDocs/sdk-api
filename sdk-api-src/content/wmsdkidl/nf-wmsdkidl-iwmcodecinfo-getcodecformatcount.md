@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMCodecInfo::GetCodecFormatCount
+ - IWMCodecInfo.GetCodecFormatCount
 ---
 
 # IWMCodecInfo::GetCodecFormatCount
@@ -145,4 +145,3 @@ You do not need to call this method for the Windows Media Video codecs; each vid
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat">IWMCodecInfo::GetCodecFormat</a>
-

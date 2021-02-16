@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Msctf.h
 api_name:
- - __MIDL_ITfTextLayoutSink_0001
  - TfLayoutCode
 ---
 
@@ -77,4 +76,3 @@ In TSF, a view is on-screen rendering of document content. These constants are a
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itftextlayoutsink-onlayoutchange">ITfTextLayoutSink::OnLayoutChange
       </a>
-

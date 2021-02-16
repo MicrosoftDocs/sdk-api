@@ -9,8 +9,6 @@ tech.root: tsf
 f1_keywords:
  - msaatext
  - msaatext/msaatext
-api_name:
- - msaatext
 ---
 
 # Msaatext.h header

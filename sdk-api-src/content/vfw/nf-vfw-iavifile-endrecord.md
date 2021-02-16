@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIFile::EndRecord
+ - IAVIFile.EndRecord
 ---
 
 # IAVIFile::EndRecord
@@ -84,4 +84,3 @@ HRESULT EndRecord(VOID);
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMutualExclusion2::SetName
+ - IWMMutualExclusion2.SetName
 ---
 
 # IWMMutualExclusion2::SetName
@@ -101,4 +101,3 @@ The method was unable to allocate memory to hold the name.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmutualexclusion2-getname">IWMMutualExclusion2::GetName</a>
-

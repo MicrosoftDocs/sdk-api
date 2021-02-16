@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcProtseqVectorFree
+ - RpcProtseqVectorFreeA
+ - RpcProtseqVectorFreeW
 ---
 
 # RpcProtseqVectorFree function
@@ -102,4 +104,3 @@ A server obtains a vector of protocol sequences by calling
 ## -see-also
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcnetworkinqprotseqs">RpcNetworkInqProtseqs</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_SYSTEMTIME
- - PWTS_SYSTEMTIME
  - WTS_SYSTEMTIME
 ---
 

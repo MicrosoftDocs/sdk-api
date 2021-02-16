@@ -43,7 +43,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - PNTFS_VOLUME_DATA_BUFFER
  - NTFS_VOLUME_DATA_BUFFER
 ---
 
@@ -139,4 +138,3 @@ This structure contains the major and minor version information for an NTFS volu
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-fsctl_get_ntfs_volume_data">FSCTL_GET_NTFS_VOLUME_DATA</a>
-

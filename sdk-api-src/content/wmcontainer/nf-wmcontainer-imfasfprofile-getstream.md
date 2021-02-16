@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFASFProfile::GetStream
+ - IMFASFProfile.GetStream
 ---
 
 # IMFASFProfile::GetStream
@@ -122,4 +122,3 @@ To change the configuration of the stream configuration object in the profile, y
 
 
 <a href="/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfstreamconfig">IMFASFStreamConfig</a>
-

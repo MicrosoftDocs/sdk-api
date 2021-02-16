@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AcquireCredentialsHandleW
  - sspi/AcquireCredentialsHandleW
- - AcquireCredentialsHandle
- - sspi/AcquireCredentialsHandle
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Secur32.dll
 api_name:
- - AcquireCredentialsHandleW
  - AcquireCredentialsHandle
+ - AcquireCredentialsHandleA
+ - AcquireCredentialsHandleW
 ---
 
 # AcquireCredentialsHandleW function
@@ -262,4 +261,3 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 <a href="/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPCore::get_error
+ - IWMPCore.get_error
 ---
 
 # IWMPCore::get_error
@@ -87,4 +87,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmperror">IWMPError Interface</a>
-

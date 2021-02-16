@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderProperties::GetAt
+ - IProviderProperties.GetAt
 ---
 
 # IProviderProperties::GetAt
@@ -119,4 +119,3 @@ The  <i>pKey</i> parameter is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderproperties">IProviderProperties</a>
-

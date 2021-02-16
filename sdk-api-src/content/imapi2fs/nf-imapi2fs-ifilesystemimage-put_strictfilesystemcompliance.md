@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2fs.h
 api_name:
- - IFileSystemImage::put_StrictFileSystemCompliance
+ - IFileSystemImage.put_StrictFileSystemCompliance
 ---
 
 # IFileSystemImage::put_StrictFileSystemCompliance
@@ -77,4 +77,3 @@ If this property is VARIANT_TRUE and a method requests an action that violates o
 
 
 <a href="/windows/desktop/api/imapi2fs/nf-imapi2fs-ifilesystemimage-get_strictfilesystemcompliance">IFileSystemImage::get_StrictFileSystemCompliance</a>
-

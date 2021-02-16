@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinEvt.h
 api_name:
- - _EVT_OPEN_LOG_FLAGS
  - EVT_OPEN_LOG_FLAGS
 ---
 
@@ -68,4 +67,3 @@ Open an exported log file.
 ## -see-also
 
 <a href="/windows/desktop/api/winevt/nf-winevt-evtopenlog">EvtOpenLog</a>
-

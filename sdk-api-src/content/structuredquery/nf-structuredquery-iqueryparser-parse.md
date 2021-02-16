@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IQueryParser::Parse
+ - IQueryParser.Parse
 ---
 
 # IQueryParser::Parse
@@ -91,4 +91,3 @@ For each <a href="/windows/desktop/api/structuredquerycondition/nn-structuredque
 <li>System.StructuredQuery.CustomProperty.String</li>
 </ul>
 An application can use them in the enumeration passed in the <i>pCustomProperties</i> parameter and look for them in the resulting condition tree.
-

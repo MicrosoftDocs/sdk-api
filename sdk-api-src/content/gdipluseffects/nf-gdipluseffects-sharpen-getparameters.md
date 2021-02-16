@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Sharpen::GetParameters
+ - Sharpen.GetParameters
 ---
 
 # Sharpen::GetParameters
@@ -84,4 +84,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/api/gdipluseffects/nf-gdipluseffects-sharpen-setparameters">Sharpen::SetParameters</a>
-

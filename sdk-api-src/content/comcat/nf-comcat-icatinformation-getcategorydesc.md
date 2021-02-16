@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComCat.h
 api_name:
- - ICatInformation::GetCategoryDesc
+ - ICatInformation.GetCategoryDesc
 ---
 
 # ICatInformation::GetCategoryDesc
@@ -102,4 +102,3 @@ There is no description string for <i>rcatid</i> with the specified locale.
 ## -see-also
 
 <a href="/windows/desktop/api/comcat/nn-comcat-icatinformation">ICatInformation</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetMessageCountLimit
+ - IDXGIInfoQueue.GetMessageCountLimit
 ---
 
 # IDXGIInfoQueue::GetMessageCountLimit
@@ -72,4 +72,3 @@ When the number of messages in the message queue reaches the maximum limit, new 
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

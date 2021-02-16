@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CTL_INFO
- - PCTL_INFO
  - CTL_INFO
 ---
 
@@ -152,4 +150,3 @@ Array of
 
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-ctl_usage">CTL_USAGE</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - audevcod.h
 api_name:
- - _tagSND_DEVICE_ERROR
  - SNDDEV_ERR
 ---
 
@@ -116,4 +115,3 @@ The audio device was being queried.
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

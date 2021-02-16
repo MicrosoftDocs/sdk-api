@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IWMDMProgress::End
+ - IWMDMProgress.End
 ---
 
 # IWMDMProgress::End
@@ -94,4 +94,3 @@ HRESULT End()
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmprogress3-end3">IWMDMProgress3::End3</a>
-

@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - AppendMenuA
  - winuser/AppendMenuA
- - AppendMenu
- - winuser/AppendMenu
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +46,10 @@ api_location:
  - ext-ms-win-ntuser-menu-l1-1-2.dll
  - Ext-MS-Win-NTUser-Menu-L1-1-3.dll
 api_name:
- - AppendMenuA
  - AppendMenu
+ - AppendMenuA
+ - AppendMenuW
+req.apiset: ext-ms-win-ntuser-menu-l1-1-0 (introduced in Windows 8)
 ---
 
 # AppendMenuA function
@@ -345,4 +344,3 @@ For an example, see <a href="/windows/desktop/menurc/using-menus">Adding Lines a
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setmenuitembitmaps">SetMenuItemBitmaps</a>
-

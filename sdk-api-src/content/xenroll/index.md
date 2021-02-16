@@ -9,8 +9,6 @@ tech.root: security
 f1_keywords:
  - xenroll
  - xenroll/xenroll
-api_name:
- - xenroll
 ---
 
 # Xenroll.h header

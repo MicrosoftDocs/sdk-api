@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdate::get_BundledUpdates
+ - IUpdate.BundledUpdates
+ - IUpdate.get_BundledUpdates
 ---
 
 # IUpdate::get_BundledUpdates
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdate">IUpdate</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ICheckSxsConfig::IsSameSxsConfig
+ - ICheckSxsConfig.IsSameSxsConfig
 ---
 
 # ICheckSxsConfig::IsSameSxsConfig
@@ -103,4 +103,3 @@ The current side-by-side assembly does not have the specified configuration.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-ichecksxsconfig">ICheckSxsConfig</a>
-

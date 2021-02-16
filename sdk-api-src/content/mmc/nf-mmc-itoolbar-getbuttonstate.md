@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IToolbar::GetButtonState
+ - IToolbar.GetButtonState
 ---
 
 # IToolbar::GetButtonState
@@ -103,4 +103,3 @@ This method can return one of these values.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-

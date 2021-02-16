@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - IComponentData::GetDisplayInfo
+ - IComponentData.GetDisplayInfo
 ---
 
 # IComponentData::GetDisplayInfo
@@ -86,4 +86,3 @@ GetDisplayInfo is called again for that scope item.</li>
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsole2">IConsole2</a>
-

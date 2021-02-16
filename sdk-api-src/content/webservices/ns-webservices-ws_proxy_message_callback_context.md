@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_PROXY_MESSAGE_CALLBACK_CONTEXT
  - WS_PROXY_MESSAGE_CALLBACK_CONTEXT
 ---
 
@@ -69,4 +68,3 @@ application specific callback for handling the message.
 ### -field state
 
 Application specific state that would be made available to the callback upon its invocation.
-

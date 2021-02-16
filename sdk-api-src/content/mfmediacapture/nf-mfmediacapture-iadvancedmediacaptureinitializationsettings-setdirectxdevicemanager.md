@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfmediacapture.h
 api_name:
- - IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
+ - IAdvancedMediaCaptureInitializationSettings.SetDirectxDeviceManager
 ---
 
 # IAdvancedMediaCaptureInitializationSettings::SetDirectxDeviceManager
@@ -63,4 +63,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediacapture/nn-mfmediacapture-iadvancedmediacaptureinitializationsettings">IAdvancedMediaCaptureInitializationSettings</a>
-

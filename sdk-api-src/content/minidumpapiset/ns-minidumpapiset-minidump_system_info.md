@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_SYSTEM_INFO
- - PMINIDUMP_SYSTEM_INFO
  - MINIDUMP_SYSTEM_INFO
 ---
 
@@ -554,4 +552,3 @@ For a list of possible values, see the
 
 
 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_stream_type">MINIDUMP_STREAM_TYPE</a>
-

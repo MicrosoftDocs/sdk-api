@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shldisp.h
 api_name:
- - IShellFolderViewDual3::put_FolderFlags
+ - IShellFolderViewDual3.put_FolderFlags
 ---
 
 # IShellFolderViewDual3::put_FolderFlags
@@ -65,4 +65,3 @@ Flags that determine the folder settings. For a list of possible values, see <a 
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

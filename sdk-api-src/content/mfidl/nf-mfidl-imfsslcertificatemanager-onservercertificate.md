@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - IMFSSLCertificateManager::OnServerCertificate
+ - IMFSSLCertificateManager.OnServerCertificate
 ---
 
 # IMFSSLCertificateManager::OnServerCertificate
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsslcertificatemanager">IMFSSLCertificateManager</a>
-

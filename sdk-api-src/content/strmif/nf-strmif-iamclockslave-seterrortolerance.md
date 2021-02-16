@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMClockSlave::SetErrorTolerance
+ - IAMClockSlave.SetErrorTolerance
 ---
 
 # IAMClockSlave::SetErrorTolerance
@@ -116,4 +116,3 @@ This method fails if the filter graph is not stopped.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamclockslave">IAMClockSlave Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrHandler::Activate
+ - ISyncMgrHandler.Activate
 ---
 
 # ISyncMgrHandler::Activate
@@ -113,4 +113,3 @@ STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
 
 
 <a href="/windows/desktop/api/syncmgr/nf-syncmgr-isyncmgruioperation-run">ISyncMgrUIOperation::Run</a>
-

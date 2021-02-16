@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMDirectSound::ReleasePrimaryBufferInterface
+ - IAMDirectSound.ReleasePrimaryBufferInterface
 ---
 
 # IAMDirectSound::ReleasePrimaryBufferInterface
@@ -68,4 +68,3 @@ Returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/amaudio/nn-amaudio-iamdirectsound">IAMDirectSound Interface</a>
-

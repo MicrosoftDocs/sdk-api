@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Uiautomationcore.dll
 api_name:
- - IMultipleViewProvider::get_CurrentView
+ - IMultipleViewProvider.CurrentView
+ - IMultipleViewProvider.get_CurrentView
 ---
 
 # IMultipleViewProvider::get_CurrentView
@@ -67,4 +68,3 @@ The collection of view identifiers must be identical for all instances of a cont
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IAssocHandler::Invoke
+ - IAssocHandler.Invoke
 ---
 
 # IAssocHandler::Invoke
@@ -81,4 +81,3 @@ It is generally safe to assume that an application will support invocation on a 
 For multiple selection scenarios, however, the application should call <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandler-createinvoker">IAssocHandler::CreateInvoker</a>. That method retrieves an <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iassochandlerinvoker">IAssocHandlerInvoker</a> object that allows the calling application to first check whether the selection is supported (<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandlerinvoker-supportsselection">SupportsSelection</a>), then to invoke the handler (<a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iassochandlerinvoker-invoke">Invoke</a>).
 
 <b>IAssocHandler::Invoke</b> can be called on a selection of multiple files, but it is not recommended because of the large processing load involved and no guarantee that it will succeed.
-

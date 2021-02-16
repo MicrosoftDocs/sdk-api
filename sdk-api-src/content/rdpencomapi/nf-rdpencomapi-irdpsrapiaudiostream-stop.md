@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RdpEncom.dll
 api_name:
- - IRDPSRAPIAudioStream::Stop
+ - IRDPSRAPIAudioStream.Stop
 ---
 
 # IRDPSRAPIAudioStream::Stop
@@ -65,4 +65,3 @@ If the method succeeds, the return value is <b>S_OK</b>. Otherwise, the return v
 
 
 <a href="/windows/desktop/api/rdpencomapi/nf-rdpencomapi-irdpsrapiaudiostream-start">Start</a>
-

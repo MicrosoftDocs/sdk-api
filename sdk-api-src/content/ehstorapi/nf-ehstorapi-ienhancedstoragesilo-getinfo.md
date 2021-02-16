@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EhStorAPI.h
 api_name:
- - IEnhancedStorageSilo::GetInfo
+ - IEnhancedStorageSilo.GetInfo
 ---
 
 # IEnhancedStorageSilo::GetInfo
@@ -83,4 +83,3 @@ Silo information was retrieved successfully.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/ehstorapi/nn-ehstorapi-ienhancedstoragesilo">IEnhancedStorageSilo</a>
-

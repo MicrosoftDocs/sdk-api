@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CryptEnumProvidersW
  - wincrypt/CryptEnumProvidersW
- - CryptEnumProviders
- - wincrypt/CryptEnumProviders
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - API-MS-Win-Security-cryptoapi-l1-1-0.dll
  - cryptsp.dll
 api_name:
- - CryptEnumProvidersW
  - CryptEnumProviders
+ - CryptEnumProvidersA
+ - CryptEnumProvidersW
 ---
 
 # CryptEnumProvidersW function
@@ -262,4 +261,3 @@ void main()
 
 
 <a href="/windows/desktop/SecCrypto/cryptography-functions">Service Provider Functions</a>
-

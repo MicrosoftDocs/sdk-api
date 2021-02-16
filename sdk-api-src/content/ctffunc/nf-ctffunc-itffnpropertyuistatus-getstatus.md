@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnPropertyUIStatus::GetStatus
+ - ITfFnPropertyUIStatus.GetStatus
 ---
 
 # ITfFnPropertyUIStatus::GetStatus
@@ -131,4 +131,3 @@ The text service does not support this method.
 
 <a href="/windows/desktop/TSF/predefined-properties">Predefined Properties
       </a>
-

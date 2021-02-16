@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetCPInfoExW
  - winnls/GetCPInfoExW
- - GetCPInfoEx
- - winnls/GetCPInfoEx
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetCPInfoExW
  - GetCPInfoEx
+ - GetCPInfoExA
+ - GetCPInfoExW
 ---
 
 # GetCPInfoExW function
@@ -168,4 +167,3 @@ The information retrieved in the <a href="/windows/desktop/api/winnls/ns-winnls-
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkConnectionCost::GetCost
+ - INetworkConnectionCost.GetCost
 ---
 
 # INetworkConnectionCost::GetCost
@@ -94,4 +94,3 @@ Network connectivity is currently unavailable.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkconnectioncost">INetworkConnectionCost</a>
-

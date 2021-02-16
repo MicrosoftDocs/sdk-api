@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMReaderNetworkConfig::SetProxyHostName
+ - IWMReaderNetworkConfig.SetProxyHostName
 ---
 
 # IWMReaderNetworkConfig::SetProxyHostName
@@ -109,4 +109,3 @@ By default, the proxy host name is <b>NULL</b>, and must be set if a proxy is be
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmreadernetworkconfig-getproxyhostname">IWMReaderNetworkConfig::GetProxyHostName</a>
-

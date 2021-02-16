@@ -42,7 +42,7 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IActionCollection::Create
+ - IActionCollection.Create
 ---
 
 # IActionCollection::Create
@@ -154,4 +154,3 @@ You cannot add more than 32 actions to the collection.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

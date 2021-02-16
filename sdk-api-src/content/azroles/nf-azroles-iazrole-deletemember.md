@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRole::DeleteMember
+ - IAzRole.DeleteMember
+ - AzRole.DeleteMember
 ---
 
 # IAzRole::DeleteMember
@@ -65,4 +66,3 @@ Reserved for future use.
 ## -remarks
 
 To view the list of SIDs of Windows accounts that belong to the role in text form, use the <a href="/windows/desktop/api/azroles/nf-azroles-iazrole-get_members">Members</a> property.
-

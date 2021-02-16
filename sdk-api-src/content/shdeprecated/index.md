@@ -9,8 +9,6 @@ tech.root: shell
 f1_keywords:
  - shdeprecated
  - shdeprecated/shdeprecated
-api_name:
- - shdeprecated
 ---
 
 # Shdeprecated.h header

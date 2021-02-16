@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_BLTDATA
- - PDD_BLTDATA
  - DD_BLTDATA
 ---
 
@@ -335,4 +333,3 @@ For more information about the DDBLT_PRESENTATION and DDBLT_LAST_PRESENTATION fl
 ## -see-also
 
 <a href="/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
-

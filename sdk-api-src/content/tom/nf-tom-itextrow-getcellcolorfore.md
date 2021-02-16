@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRow::GetCellColorFore
+ - ITextRow.GetCellColorFore
 ---
 
 # ITextRow::GetCellColorFore
@@ -91,4 +91,3 @@ Invalid argument.
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextrow-setcellcolorfore">ITextRow::SetCellColorFore</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Filter.h
 api_name:
- - tagCHUNK_BREAKTYPE
  - CHUNK_BREAKTYPE
 ---
 
@@ -91,4 +90,3 @@ A change in attributes implies a word, sentence, paragraph, or chapter break.
 
 
 <a href="/windows/desktop/api/filter/ns-filter-stat_chunk">STAT_CHUNK</a>
-

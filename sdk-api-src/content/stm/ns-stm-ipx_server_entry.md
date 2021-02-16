@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Stm.h
 api_name:
- - _IPX_SERVER_ENTRY
- - PIPX_SERVER_ENTRY
  - IPX_SERVER_ENTRY
 ---
 
@@ -96,4 +94,3 @@ Contains the service hop count.
 
 
 <a href="/windows/desktop/RRAS/service-table-management-structures">Service Table Management Structures</a>
-

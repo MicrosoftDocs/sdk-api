@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellBrowser::SetMenuSB
+ - IShellBrowser.SetMenuSB
 ---
 
 # IShellBrowser::SetMenuSB
@@ -91,4 +91,3 @@ A container's implementation of this method should call the <b>SetMenu</b> funct
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellbrowser">IShellBrowser</a>
-

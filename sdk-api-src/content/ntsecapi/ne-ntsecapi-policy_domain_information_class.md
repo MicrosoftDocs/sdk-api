@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _POLICY_DOMAIN_INFORMATION_CLASS
- - PPOLICY_DOMAIN_INFORMATION_CLASS
  - POLICY_DOMAIN_INFORMATION_CLASS
 ---
 
@@ -69,4 +67,3 @@ The information is for <a href="/windows/desktop/SecGloss/e-gly">Encrypting File
 ### -field PolicyDomainKerberosTicketInformation
 
 The information is for a Kerberos ticket.
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile::Metafile
+ - Metafile.Metafile
 ---
 
 # Metafile::Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL)
@@ -84,4 +84,3 @@ Placeable metafiles are WMF files that contain a preheader preceding the metafil
 
 
 <a href="/windows/desktop/api/gdiplusmetaheader/ns-gdiplusmetaheader-pwmfrect16">PWMFRect16</a>
-

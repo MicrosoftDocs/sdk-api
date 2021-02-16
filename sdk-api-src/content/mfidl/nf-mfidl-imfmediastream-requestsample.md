@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaStream::RequestSample
+ - IMFMediaStream.RequestSample
 ---
 
 # IMFMediaStream::RequestSample
@@ -156,4 +156,3 @@ If a media source enounters an error asynchronously while processing data, it sh
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
-

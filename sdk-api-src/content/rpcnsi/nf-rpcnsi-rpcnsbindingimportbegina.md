@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RpcNsBindingImportBeginA
  - rpcnsi/RpcNsBindingImportBeginA
- - RpcNsBindingImportBegin
- - rpcnsi/RpcNsBindingImportBegin
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rpcns4.dll
 api_name:
- - RpcNsBindingImportBeginA
  - RpcNsBindingImportBegin
+ - RpcNsBindingImportBeginA
+ - RpcNsBindingImportBeginW
 ---
 
 # RpcNsBindingImportBeginA function
@@ -224,4 +223,3 @@ When finished importing binding handles, the client application calls the
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingimportnext">RpcNsBindingImportNext</a>
-

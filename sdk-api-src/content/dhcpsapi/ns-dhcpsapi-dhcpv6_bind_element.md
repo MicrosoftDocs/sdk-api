@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCPV6_BIND_ELEMENT
- - LPDHCPV6_BIND_ELEMENT
  - DHCPV6_BIND_ELEMENT
 ---
 
@@ -122,4 +120,3 @@ Integer that specifies the size of the interface GUID stored in <b>IfId</b>.
 
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
-

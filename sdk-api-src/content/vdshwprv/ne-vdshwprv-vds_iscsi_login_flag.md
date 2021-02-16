@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_LOGIN_FLAG
  - VDS_ISCSI_LOGIN_FLAG
 ---
 
@@ -84,4 +83,3 @@ If this flag is set, the login is allowed to proceed and create a new login sess
 
 
 <a href="/windows/desktop/VDS/vds-enumerations">VDS Enumerations</a>
-

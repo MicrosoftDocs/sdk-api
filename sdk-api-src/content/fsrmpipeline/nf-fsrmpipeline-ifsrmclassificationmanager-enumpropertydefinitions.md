@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmClassificationManager::EnumPropertyDefinitions
+ - IFsrmClassificationManager.EnumPropertyDefinitions
+ - IFsrmClassificationManager2.EnumPropertyDefinitions
+ - FsrmClassificationManager.EnumPropertyDefinitions
 ---
 
 # IFsrmClassificationManager::EnumPropertyDefinitions
@@ -101,4 +103,3 @@ The method returns the following return values.
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmclassification">MSFT_FSRMClassification</a>
-

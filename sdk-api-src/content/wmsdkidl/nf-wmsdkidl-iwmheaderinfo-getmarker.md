@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::GetMarker
+ - IWMHeaderInfo.GetMarker
+ - IWMHeaderInfo2.GetMarker
+ - IWMHeaderInfo3.GetMarker
 ---
 
 # IWMHeaderInfo::GetMarker
@@ -171,4 +173,3 @@ The writer does not support markers, and returns E_NOTIMPL when this method is c
 
 
 <a href="/windows/desktop/wmformat/markers">Markers</a>
-

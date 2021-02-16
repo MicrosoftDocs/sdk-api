@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateNtmsMediaPoolW
  - ntmsapi/CreateNtmsMediaPoolW
- - CreateNtmsMediaPool
- - ntmsapi/CreateNtmsMediaPool
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntmsapi.dll
 api_name:
- - CreateNtmsMediaPoolW
  - CreateNtmsMediaPool
+ - CreateNtmsMediaPoolA
+ - CreateNtmsMediaPoolW
 ---
 
 # CreateNtmsMediaPoolW function
@@ -285,4 +284,3 @@ Application-specific media pools are created by applications. Applications creat
 
 
 <a href="/windows/desktop/api/ntmsapi/nf-ntmsapi-setntmsobjectsecurity">SetNtmsObjectSecurity</a>
-

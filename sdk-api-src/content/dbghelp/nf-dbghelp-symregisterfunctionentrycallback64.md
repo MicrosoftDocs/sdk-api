@@ -44,6 +44,7 @@ api_location:
  - imagehlp.dll
 api_name:
  - SymRegisterFunctionEntryCallback64
+ - SymRegisterFunctionEntryCallback
 ---
 
 # SymRegisterFunctionEntryCallback64 function
@@ -111,4 +112,3 @@ SymRegisterFunctionEntryCallback(
 
 
 <a href="/windows/desktop/api/dbghelp/nc-dbghelp-psymbol_funcentry_callback">SymRegisterFunctionEntryCallbackProc64</a>
-

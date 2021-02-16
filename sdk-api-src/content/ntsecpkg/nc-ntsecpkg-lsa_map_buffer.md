@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_MAP_BUFFER
+ - MapBuffer
 ---
 
 # LSA_MAP_BUFFER callback function
@@ -87,4 +87,3 @@ A pointer to the <b>MapBuffer</b> function is available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMSignatureBlockResource::SetContent
+ - IXpsOMSignatureBlockResource.SetContent
 ---
 
 # IXpsOMSignatureBlockResource::SetContent
@@ -83,4 +83,3 @@ Because <a href="/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomsig
 
 
 <a href="https://www.ecma-international.org/activities/XML%20Paper%20Specification/XPS%20Standard%20WD%201.6.pdf">XML Paper Specification</a>
-

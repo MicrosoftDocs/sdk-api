@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsOpenVDisk::Compact
+ - IVdsOpenVDisk.Compact
 ---
 
 # IVdsOpenVDisk::Compact
@@ -112,4 +112,3 @@ This method reduces the size of the virtual disk's backing store file by reclaim
 ## -see-also
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsopenvdisk">IVdsOpenVDisk</a>
-

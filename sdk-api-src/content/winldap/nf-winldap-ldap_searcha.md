@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_searchA
  - winldap/ldap_searchA
- - ldap_search
- - winldap/ldap_search
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_searchA
  - ldap_search
+ - ldap_searchA
+ - ldap_searchW
 ---
 
 # ldap_searchA function
@@ -181,4 +180,3 @@ Multithreading: Calls to <b>ldap_search</b> are thread-safe, provided that
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_simple_bind">ldap_simple_bind</a>
-

@@ -43,7 +43,8 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleWindow::ContextSensitiveHelp
+ - IOleWindow.ContextSensitiveHelp
+ - IOleInPlaceSiteWindowless.ContextSensitiveHelp
 ---
 
 # IOleWindow::ContextSensitiveHelp
@@ -132,4 +133,3 @@ If a container application is to support context-sensitive help on menu items, i
 
 
 <a href="/windows/desktop/api/ole2/nf-ole2-olesetmenudescriptor">OleSetMenuDescriptor</a>
-

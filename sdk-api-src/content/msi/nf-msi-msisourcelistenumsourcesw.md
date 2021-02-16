@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListEnumSourcesW
  - msi/MsiSourceListEnumSourcesW
- - MsiSourceListEnumSources
- - msi/MsiSourceListEnumSources
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiSourceListEnumSourcesW
  - MsiSourceListEnumSources
+ - MsiSourceListEnumSourcesA
+ - MsiSourceListEnumSourcesW
 ---
 
 # MsiSourceListEnumSourcesW function
@@ -359,4 +358,3 @@ An administrator can enumerate per-user unmanaged and managed installations for 
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
-

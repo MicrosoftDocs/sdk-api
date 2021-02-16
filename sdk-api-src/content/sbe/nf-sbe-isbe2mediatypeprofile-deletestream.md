@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.dll
 api_name:
- - ISBE2MediaTypeProfile::DeleteStream
+ - ISBE2MediaTypeProfile.DeleteStream
 ---
 
 # ISBE2MediaTypeProfile::DeleteStream
@@ -94,4 +94,3 @@ Invalid parameter.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/sbe/nn-sbe-isbe2mediatypeprofile">ISBE2MediaTypeProfile</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - _IFaxAccountNotify
+ - IFaxAccountNotify
+ - IIFaxAccountNotify
 ---
 
 # _IFaxAccountNotify interface
@@ -75,4 +76,3 @@ Dim WithEvents objFaxAccount As FaxAccount
 
 <h3><a id="To_Use_Fax_Notification_Events_with_C__"></a><a id="to_use_fax_notification_events_with_c__"></a><a id="TO_USE_FAX_NOTIFICATION_EVENTS_WITH_C__"></a>To Use Fax Notification Events with C++</h3>
 A fax client application must implement <b>IFaxAccountNotify</b> and pass the fax service the pointer to an <b>IFaxAccountNotify</b> interface.
-

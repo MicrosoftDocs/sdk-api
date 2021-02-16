@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::put_DesiredPacketDescription
+ - IInkOverlay.DesiredPacketDescription
+ - IInkOverlay.get_DesiredPacketDescription
+ - IInkOverlay.put_DesiredPacketDescription
+ - InkOverlay.get_DesiredPacketDescription
+ - InkOverlay.put_DesiredPacketDescription
 ---
 
 # IInkOverlay::put_DesiredPacketDescription
@@ -86,4 +90,3 @@ Changes to this property do not affect incoming packet data until the <a href="/
 
 
 <a href="/windows/desktop/tablet/packetpropertyguids-constants">PacketPropertyGuids Constants</a>
-

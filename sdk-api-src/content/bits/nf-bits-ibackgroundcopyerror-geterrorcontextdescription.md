@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyError::GetErrorContextDescription
+ - IBackgroundCopyError.GetErrorContextDescription
 ---
 
 # IBackgroundCopyError::GetErrorContextDescription
@@ -139,4 +139,3 @@ No string is available for the locale.
 
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyerror-getfile">IBackgroundCopyError::GetFile</a>
-

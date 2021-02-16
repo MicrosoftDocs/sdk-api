@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IWindowProvider::get_CanMaximize
+ - IWindowProvider.CanMaximize
+ - IWindowProvider.get_CanMaximize
 ---
 
 # IWindowProvider::get_CanMaximize
@@ -75,4 +76,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/WinAuto/uiauto-providersoverview">UI Automation Providers Overview</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumePlex::GetProperties
+ - IVdsVolumePlex.GetProperties
 ---
 
 # IVdsVolumePlex::GetProperties
@@ -102,4 +102,3 @@ Some but not all of the properties were successfully retrieved. Note that there 
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_volume_plex_prop">VDS_VOLUME_PLEX_PROP</a>
-

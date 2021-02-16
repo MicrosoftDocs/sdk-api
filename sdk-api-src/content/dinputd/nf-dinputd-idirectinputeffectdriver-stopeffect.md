@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dinputd.h
 api_name:
- - IDirectInputEffectDriver::StopEffect
+ - IDirectInputEffectDriver.StopEffect
 ---
 
 # IDirectInputEffectDriver::StopEffect

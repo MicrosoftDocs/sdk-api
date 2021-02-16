@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagPOINTER_DEVICE_TYPE
  - POINTER_DEVICE_TYPE
 ---
 
@@ -80,4 +79,3 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/input_pointerdevice/enumerations">Enumerations</a>
-

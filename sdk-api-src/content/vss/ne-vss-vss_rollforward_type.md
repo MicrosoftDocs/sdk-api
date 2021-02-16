@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_ROLLFORWARD_TYPE
- - PVSS_ROLLFORWARD_TYPE
  - VSS_ROLLFORWARD_TYPE
 ---
 
@@ -88,4 +86,3 @@ A requester sets the roll-forward operation type and specifies the restore point
 ## -see-also
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponentsex2-setrollforward">IVssBackupComponentsEx2::SetRollForward</a>
-

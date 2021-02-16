@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::AddImplType
+ - ICreateTypeInfo.AddImplType
 ---
 
 # ICreateTypeInfo::AddImplType
@@ -151,4 +151,3 @@ To specify an inherited interface, use index = 0. For a dispinterface with Synta
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

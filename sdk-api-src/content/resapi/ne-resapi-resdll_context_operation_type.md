@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - RESDLL_CONTEXT_OPERATION_TYPE
- - PRESDLL_CONTEXT_OPERATION_TYPE
 ---
 
 # RESDLL_CONTEXT_OPERATION_TYPE enumeration
@@ -92,4 +91,3 @@ A network connection was disconnected and it is being re-established.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mscs/cluster-enumerations">Failover Cluster Enumerations</a>
-

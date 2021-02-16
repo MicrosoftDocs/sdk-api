@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider::CreatePropertySheet
+ - IPropertySheetProvider.CreatePropertySheet
 ---
 
 # IPropertySheetProvider::CreatePropertySheet
@@ -134,4 +134,3 @@ For a snap-in that targets MMC 1.1, the snap-in must keep an extra reference on 
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-ipropertysheetprovider-show">IPropertySheetProvider::Show</a>
-

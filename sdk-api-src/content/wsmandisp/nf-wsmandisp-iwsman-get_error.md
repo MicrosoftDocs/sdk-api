@@ -42,7 +42,8 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSMan::get_Error
+ - IWSMan.Error
+ - IWSMan.get_Error
 ---
 
 # IWSMan::get_Error
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsman">IWSMan</a>
-

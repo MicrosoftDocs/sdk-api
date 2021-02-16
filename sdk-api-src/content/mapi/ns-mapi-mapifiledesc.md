@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - lpMapiFileDesc
  - MapiFileDesc
 ---
 
@@ -146,4 +145,3 @@ When using the <b>MapiFileDesc</b> member <b>nPosition</b>, the client applicati
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapimessagew">MapiMessageW</a>
-

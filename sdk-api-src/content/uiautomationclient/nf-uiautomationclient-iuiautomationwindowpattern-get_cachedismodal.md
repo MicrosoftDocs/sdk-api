@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationWindowPattern::get_CachedIsModal
+ - IUIAutomationWindowPattern.CachedIsModal
+ - IUIAutomationWindowPattern.get_CachedIsModal
 ---
 
 # IUIAutomationWindowPattern::get_CachedIsModal
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationwindowpattern">IUIAutomationWindowPattern</a>
-

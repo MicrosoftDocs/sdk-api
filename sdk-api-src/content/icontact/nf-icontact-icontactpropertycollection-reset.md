@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IContactPropertyCollection::Reset
+ - IContactPropertyCollection.Reset
 ---
 
 # IContactPropertyCollection::Reset
@@ -83,4 +83,3 @@ Reset is successful.
 <div class="alert"><b>Note</b>  Collection has been reset to the location before the first element (if any elements are present), 
 		so you must call <a href="/previous-versions/windows/desktop/api/icontact/nf-icontact-icontactpropertycollection-next">IContactPropertyCollection::Next</a> to begin querying data.</div>
 <div> </div>
-

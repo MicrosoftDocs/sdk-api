@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon::StartScreenSaver
+ - ISensLogon.StartScreenSaver
 ---
 
 # ISensLogon::StartScreenSaver
@@ -112,4 +112,3 @@ SENS calls this method to notify an application that a screen saver is started.
 
 
 <a href="/windows/desktop/api/sensevts/nf-sensevts-isenslogon-stopscreensaver">ISensLogon::StopScreenSaver</a>
-

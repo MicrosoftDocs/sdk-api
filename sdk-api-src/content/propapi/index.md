@@ -9,8 +9,6 @@ tech.root: stg
 f1_keywords:
  - propapi
  - propapi/propapi
-api_name:
- - propapi
 ---
 
 # Propapi.h header

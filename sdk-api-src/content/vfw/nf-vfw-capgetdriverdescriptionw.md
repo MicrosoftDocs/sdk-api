@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - capGetDriverDescriptionW
  - vfw/capGetDriverDescriptionW
- - capGetDriverDescription
- - vfw/capGetDriverDescription
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Avicap32.dll
 api_name:
- - capGetDriverDescriptionW
  - capGetDriverDescription
+ - capGetDriverDescriptionA
+ - capGetDriverDescriptionW
 ---
 
 # capGetDriverDescriptionW function
@@ -101,4 +100,3 @@ If the information description is longer than its buffer, the description is tru
 
 
 <a href="/windows/desktop/Multimedia/video-capture-functions">Video Capture Functions</a>
-

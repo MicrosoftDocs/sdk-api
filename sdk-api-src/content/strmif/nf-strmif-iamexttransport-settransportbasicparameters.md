@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMExtTransport::SetTransportBasicParameters
+ - IAMExtTransport.SetTransportBasicParameters
 ---
 
 # IAMExtTransport::SetTransportBasicParameters
@@ -302,4 +302,3 @@ For the following flags, use a string in the <i>pszData</i> parameter.
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamexttransport-gettransportbasicparameters">IAMExtTransport::GetTransportBasicParameters</a>
-

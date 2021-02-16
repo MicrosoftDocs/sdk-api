@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiometadata.h
 api_name:
- - ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems
+ - ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
 ---
 
 # ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems
@@ -189,4 +189,3 @@ A dynamic <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometa
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudioobjectformetadataitems">ISpatialAudioObjectForMetadataItems</a>
-

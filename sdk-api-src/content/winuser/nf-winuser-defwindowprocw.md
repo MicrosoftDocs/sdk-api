@@ -29,12 +29,9 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 f1_keywords:
  - DefWindowProcW
  - winuser/DefWindowProcW
- - DefWindowProc
- - winuser/DefWindowProc
 dev_langs:
  - c++
 topic_type:
@@ -55,8 +52,10 @@ api_location:
  - ext-ms-win-ntuser-window-l1-1-3.dll
  - Ext-MS-Win-NTUser-Window-L1-1-4.dll
 api_name:
- - DefWindowProcW
  - DefWindowProc
+ - DefWindowProcA
+ - DefWindowProcW
+req.apiset: ext-ms-win-ntuser-window-l1-1-0 (introduced in Windows 8)
 ---
 
 # DefWindowProcW function
@@ -126,4 +125,3 @@ The return value is the result of the message processing and depends on the mess
 
 > [!NOTE]
 > The winuser.h header defines DefWindowProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

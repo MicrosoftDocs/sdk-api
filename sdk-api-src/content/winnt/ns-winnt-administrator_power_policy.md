@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _ADMINISTRATOR_POWER_POLICY
- - PADMINISTRATOR_POWER_POLICY
  - ADMINISTRATOR_POWER_POLICY
 ---
 
@@ -105,4 +103,3 @@ To set an administrator override policy, call the
 ## -see-also
 
 <a href="/windows/desktop/api/powerbase/nf-powerbase-callntpowerinformation">CallNtPowerInformation</a>
-

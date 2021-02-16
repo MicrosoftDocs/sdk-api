@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - _SERVICE_CONTROL_STATUS_REASON_PARAMSA
- - PSERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - SERVICE_CONTROL_STATUS_REASON_PARAMS
  - SERVICE_CONTROL_STATUS_REASON_PARAMSA
+ - SERVICE_CONTROL_STATUS_REASON_PARAMSW
 ---
 
 # SERVICE_CONTROL_STATUS_REASON_PARAMSA structure
@@ -485,4 +485,3 @@ The service control manager fills in the structure only when
 
 > [!NOTE]
 > The winsvc.h header defines SERVICE_CONTROL_STATUS_REASON_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

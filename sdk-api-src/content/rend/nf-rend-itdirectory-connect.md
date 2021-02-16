@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectory::Connect
+ - ITDirectory.Connect
 ---
 
 # ITDirectory::Connect
@@ -116,4 +116,3 @@ The
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectory">ITDirectory</a>
-

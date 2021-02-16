@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::removePendingRequest
+ - ICEnroll4.removePendingRequest
+ - CEnroll.removePendingRequest
 ---
 
 # ICEnroll4::removePendingRequest
@@ -67,4 +68,3 @@ The thumbprint, or <a href="/windows/desktop/SecGloss/h-gly">hash</a>, of the ce
 
 If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see 
 <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mobsync.dll
 api_name:
- - ISyncMgrSynchronize::PrepareForSync
+ - ISyncMgrSynchronize.PrepareForSync
 ---
 
 # ISyncMgrSynchronize::PrepareForSync
@@ -137,4 +137,3 @@ The <a href="/windows/desktop/api/mobsync/nn-mobsync-isyncmgrsynchronizecallback
 
 
 <a href="/windows/desktop/api/mobsync/ne-mobsync-syncmgrflag">SYNCMGRFLAG</a>
-

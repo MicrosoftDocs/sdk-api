@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateLockdown::LockDown
+ - IUpdateLockdown.Lockdown
 ---
 
 # IUpdateLockdown::LockDown
@@ -214,4 +214,3 @@ The following table identifies the interfaces that implement the <a href="/windo
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatelockdown">IUpdateLockdown</a>
-

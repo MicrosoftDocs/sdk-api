@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RegCreateKeyW
  - winreg/RegCreateKeyW
- - RegCreateKey
- - winreg/RegCreateKey
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-Core-Registry-l2-2-0.dll
 api_name:
- - RegCreateKeyW
  - RegCreateKey
+ - RegCreateKeyA
+ - RegCreateKeyW
 ---
 
 # RegCreateKeyW function
@@ -147,4 +146,3 @@ Note that this behavior will result in creation of unwanted keys if an existing 
 
 
 <a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
-

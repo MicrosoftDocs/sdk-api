@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreACPSink::OnStatusChange
+ - ITextStoreACPSink.OnStatusChange
 ---
 
 # ITextStoreACPSink::OnStatusChange
@@ -88,4 +88,3 @@ The method was successful.
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

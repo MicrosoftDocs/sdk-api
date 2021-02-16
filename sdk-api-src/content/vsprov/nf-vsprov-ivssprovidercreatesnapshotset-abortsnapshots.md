@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsProv.h
 api_name:
- - IVssProviderCreateSnapshotSet::AbortSnapshots
+ - IVssProviderCreateSnapshotSet.AbortSnapshots
 ---
 
 # IVssProviderCreateSnapshotSet::AbortSnapshots
@@ -150,4 +150,3 @@ VSS will only call
 ## -see-also
 
 <a href="/windows/desktop/api/vsprov/nn-vsprov-ivssprovidercreatesnapshotset">IVssProviderCreateSnapshotSet</a>
-

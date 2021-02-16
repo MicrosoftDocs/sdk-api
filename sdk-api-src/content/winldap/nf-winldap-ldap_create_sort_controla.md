@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - ldap_create_sort_controlA
  - winldap/ldap_create_sort_controlA
- - ldap_create_sort_control
- - winldap/ldap_create_sort_control
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wldap32.dll
 api_name:
- - ldap_create_sort_controlA
  - ldap_create_sort_control
+ - ldap_create_sort_controlA
+ - ldap_create_sort_controlW
 ---
 
 # ldap_create_sort_controlA function
@@ -104,4 +103,3 @@ To free the control when it is no longer required, call
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_control_free">ldap_control_free</a>
-

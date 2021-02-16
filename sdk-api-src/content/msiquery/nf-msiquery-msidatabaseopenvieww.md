@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiDatabaseOpenViewW
  - msiquery/MsiDatabaseOpenViewW
- - MsiDatabaseOpenView
- - msiquery/MsiDatabaseOpenView
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSI-Misc-l1-1-0.dll
 api_name:
- - MsiDatabaseOpenViewW
  - MsiDatabaseOpenView
+ - MsiDatabaseOpenViewA
+ - MsiDatabaseOpenViewW
 ---
 
 # MsiDatabaseOpenViewW function
@@ -101,4 +100,3 @@ If the function fails, you can obtain extended error information by using <a hre
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">General Database Access Functions</a>
-

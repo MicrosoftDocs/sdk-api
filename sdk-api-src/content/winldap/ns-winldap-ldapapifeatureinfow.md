@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - ldap_apifeature_infoW
+ - LDAPAPIFeatureInfo
+ - LDAPAPIFeatureInfoA
  - LDAPAPIFeatureInfoW
 ---
 
@@ -91,4 +92,3 @@ A pointer to this structure is passed, along with the <a href="/previous-version
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_option">ldap_get_option</a>
-

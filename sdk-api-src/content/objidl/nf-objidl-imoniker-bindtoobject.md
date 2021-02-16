@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::BindToObject
+ - IMoniker.BindToObject
 ---
 
 # IMoniker::BindToObject
@@ -356,4 +356,3 @@ When the object returns from one of the various <b>Load</b> calls described in t
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imoniker">IMoniker</a>
-

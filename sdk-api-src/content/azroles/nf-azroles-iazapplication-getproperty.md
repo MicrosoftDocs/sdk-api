@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::GetProperty
+ - IAzApplication.GetProperty
+ - AzApplication.GetProperty
 ---
 
 # IAzApplication::GetProperty
@@ -228,4 +229,3 @@ A pointer to the returned <a href="/windows/desktop/api/azroles/nn-azroles-iazap
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

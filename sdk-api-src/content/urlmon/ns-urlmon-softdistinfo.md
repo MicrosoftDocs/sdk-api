@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Urlmon.h
 api_name:
- - _tagSOFTDISTINFO
- - LPSOFTDISTINFO
  - SOFTDISTINFO
 ---
 

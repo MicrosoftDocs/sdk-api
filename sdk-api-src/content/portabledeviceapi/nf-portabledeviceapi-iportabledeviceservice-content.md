@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PortableDeviceAPI.h
 api_name:
- - IPortableDeviceService::Content
+ - IPortableDeviceService.Content
 ---
 
 # IPortableDeviceService::Content
@@ -106,4 +106,3 @@ A <b>NULL</b> parameter was specified.
 
 
 <a href="/windows/desktop/wpd_sdk/writing-content-object-properties">Writing Content-Object Properties</a>
-

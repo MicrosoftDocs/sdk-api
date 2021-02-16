@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::get_Rate
+ - IMediaPosition.get_Rate
 ---
 
 # IMediaPosition::get_Rate
@@ -114,4 +114,3 @@ The playback rate is expressed as a ratio of the normal speed. Thus, 1.0 is norm
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-

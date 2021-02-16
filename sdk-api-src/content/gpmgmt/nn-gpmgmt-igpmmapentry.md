@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMMapEntry
+ - GPMMapEntry
 ---
 
 # IGPMMapEntry interface
@@ -59,4 +60,3 @@ The <b>IGPMMapEntry</b> interface provides access to a map entry.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpm">IGPM</a>
-

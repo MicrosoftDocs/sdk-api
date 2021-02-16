@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBundleWriter4::AddExternalPackageReference
+ - IAppxBundleWriter4.AddExternalPackageReference
 ---
 
 # IAppxBundleWriter4::AddExternalPackageReference
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxbundlewriter4">IAppxBundleWriter4</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGradientStop::GetColor
+ - IXpsOMGradientStop.GetColor
 ---
 
 # IXpsOMGradientStop::GetColor
@@ -118,4 +118,3 @@ A color profile is only returned when the color type of <i>color</i> is <a href=
 
 
 <a href="/previous-versions/windows/desktop/dd372939(v=vs.85)">XPS_COLOR</a>
-

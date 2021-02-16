@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MFVideoCompressedInfo
  - MFVideoCompressedInfo
 ---
 
@@ -80,4 +79,3 @@ For uncompressed video formats, set the structure members to zero.
 
 
 <a href="/windows/desktop/medfound/media-types">Media Types</a>
-

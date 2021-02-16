@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mergemod.dll
 api_name:
- - IMsmError::get_DatabaseTable
+ - IMsmError.get_DatabaseTable
 ---
 
 # IMsmError::get_DatabaseTable
@@ -114,4 +114,3 @@ The collection is empty if the values do not apply to the type of the error. You
 ## -see-also
 
 <a href="/windows/desktop/Msi/merge-module-automation">Merge Module Automation</a>
-

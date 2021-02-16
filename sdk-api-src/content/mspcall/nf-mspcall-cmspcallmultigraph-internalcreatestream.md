@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph::InternalCreateStream
+ - CMSPCallMultiGraph.InternalCreateStream
 ---
 
 # CMSPCallMultiGraph::InternalCreateStream
@@ -76,4 +76,3 @@ Pointer to array of
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-

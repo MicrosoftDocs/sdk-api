@@ -43,7 +43,9 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwRemoteAdminSettings::put_Enabled
+ - INetFwRemoteAdminSettings.Enabled
+ - INetFwRemoteAdminSettings.get_Enabled
+ - INetFwRemoteAdminSettings.put_Enabled
 ---
 
 # INetFwRemoteAdminSettings::put_Enabled
@@ -62,4 +64,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
-

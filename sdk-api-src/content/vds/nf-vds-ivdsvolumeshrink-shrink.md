@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsVolumeShrink::Shrink
+ - IVdsVolumeShrink.Shrink
 ---
 
 # IVdsVolumeShrink::Shrink
@@ -224,4 +224,3 @@ You can use the <a href="/windows/desktop/api/vds/nf-vds-ivdsvolumeshrink-querym
 
 
 <a href="/windows/desktop/api/vds/nn-vds-ivdsvolumeshrink">IVdsVolumeShrink</a>
-

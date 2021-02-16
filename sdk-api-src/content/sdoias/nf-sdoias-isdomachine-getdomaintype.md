@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Iassdo.dll
 api_name:
- - ISdoMachine::GetDomainType
+ - ISdoMachine.GetDomainType
+ - SdoMachine.GetDomainType
 ---
 
 # ISdoMachine::GetDomainType
@@ -83,4 +84,3 @@ Before calling this method, use the
 
 
 <a href="/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach">ISdoMachine::Attach</a>
-

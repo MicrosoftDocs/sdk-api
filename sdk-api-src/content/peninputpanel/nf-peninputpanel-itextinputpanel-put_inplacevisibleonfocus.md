@@ -42,7 +42,11 @@ api_type:
 api_location:
  - tiptsf.dll
 api_name:
- - ITextInputPanel::put_InPlaceVisibleOnFocus
+ - ITextInputPanel.InPlaceVisibleOnFocus
+ - ITextInputPanel.get_InPlaceVisibleOnFocus
+ - ITextInputPanel.put_InPlaceVisibleOnFocus
+ - ITextInputPanel.get_InPlaceVisibleOnFocus
+ - ITextInputPanel.put_InPlaceVisibleOnFocus
 ---
 
 # ITextInputPanel::put_InPlaceVisibleOnFocus
@@ -125,4 +129,3 @@ if (SUCCEEDED(CoInitialize(NULL)))
 ## -see-also
 
 <a href="/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel">ITextInputPanel Interface</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriter::WriteSample
+ - IWMWriter.WriteSample
 ---
 
 # IWMWriter::WriteSample
@@ -212,4 +212,3 @@ If the output stream has a time code data unit extension and there is no time co
 
 
 <a href="/windows/desktop/wmformat/to-write-samples">To Write Samples</a>
-

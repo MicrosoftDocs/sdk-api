@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - dvdmedia
  - dvdmedia/dvdmedia
-api_name:
- - dvdmedia
 ---
 
 # Dvdmedia.h header

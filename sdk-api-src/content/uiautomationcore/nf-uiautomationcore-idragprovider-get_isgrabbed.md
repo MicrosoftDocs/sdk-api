@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IDragProvider::get_IsGrabbed
+ - IDragProvider.IsGrabbed
+ - IDragProvider.get_IsGrabbed
 ---
 
 # IDragProvider::get_IsGrabbed
@@ -63,4 +64,3 @@ If this property changes, the provider must notify clients by calling <a href="/
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-idragprovider">IDragProvider</a>
-

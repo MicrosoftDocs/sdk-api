@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msime.h
 api_name:
- - IFELanguage::GetConversionModeCaps
+ - IFELanguage.GetConversionModeCaps
 ---
 
 # IFELanguage::GetConversionModeCaps
@@ -311,4 +311,3 @@ Remove invisible chars (for example, the tone mark).
 ## -see-also
 
 <a href="/windows/desktop/api/msime/nn-msime-ifelanguage">IFELanguage</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IMalloc::GetSize
+ - IMalloc.GetSize
 ---
 
 # IMalloc::GetSize
@@ -69,4 +69,3 @@ To get the size in bytes of a memory block, the block must have been previously 
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-imalloc">IMalloc</a>
-

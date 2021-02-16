@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Wtsapi32.h
 api_name:
- - _WTSINFOEX_LEVEL1_W
- - PWTSINFOEX_LEVEL1_W
+ - WTSINFOEX_LEVEL1
+ - WTSINFOEX_LEVEL1_A
  - WTSINFOEX_LEVEL1_W
 ---
 
@@ -166,4 +166,3 @@ The session is unlocked.
 ## -see-also
 
 <a href="/windows/desktop/api/wtsapi32/ne-wtsapi32-wts_connectstate_class">WTS_CONNECTSTATE_CLASS</a>
-

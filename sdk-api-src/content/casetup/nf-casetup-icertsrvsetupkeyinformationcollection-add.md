@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certocm.dll
 api_name:
- - ICertSrvSetupKeyInformationCollection::Add
+ - ICertSrvSetupKeyInformationCollection.Add
 ---
 
 # ICertSrvSetupKeyInformationCollection::Add
@@ -61,4 +61,3 @@ A pointer to an <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupke
 ## -see-also
 
 <a href="/windows/desktop/api/casetup/nn-casetup-icertsrvsetupkeyinformationcollection">ICertSrvSetupKeyInformationCollection</a>
-

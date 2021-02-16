@@ -46,9 +46,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - tagDiagnosticsInfo
- - PDiagnosticsInfo
- - DiagnosticsInfo
+ - DiagnosticsInfo, *PDiagnosticsInfo
 ---
 
 # DiagnosticsInfo structure

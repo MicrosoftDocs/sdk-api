@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - tagSTRUCTURED_QUERY_SYNTAX
  - STRUCTURED_QUERY_SYNTAX
 ---
 
@@ -72,4 +71,3 @@ Specifies the Natural Query Syntax. This syntax removes the requirement for a co
 ## -remarks
 
 Use this enumeration to set the desired SQSO_SYNTAX flag in <a href="/windows/win32/api/structuredquery/ne-structuredquery-structured_query_single_option">STRUCTURED_QUERY_SINGLE_OPTION</a>, which is used with the methods <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-setoption">IQueryParser::SetOption</a> and <a href="/windows/desktop/api/structuredquery/nf-structuredquery-iqueryparser-getoption">IQueryParser::GetOption</a>.
-

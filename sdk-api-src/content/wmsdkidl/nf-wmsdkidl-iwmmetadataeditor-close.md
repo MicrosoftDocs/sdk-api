@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMMetadataEditor::Close
+ - IWMMetadataEditor.Close
 ---
 
 # IWMMetadataEditor::Close
@@ -72,4 +72,3 @@ This method always returns S_OK.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmmetadataeditor-open">IWMMetadataEditor::Open</a>
-

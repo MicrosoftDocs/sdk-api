@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentPartner::CompareContainerListPrices
+ - IWMPContentPartner.CompareContainerListPrices
 ---
 
 # IWMPContentPartner::CompareContainerListPrices
@@ -97,4 +97,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentpartner">IWMPContentPartner Interface</a>
-

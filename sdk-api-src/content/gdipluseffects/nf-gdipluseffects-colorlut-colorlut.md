@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - ColorLUT::ColorLUT
+ - ColorLUT.ColorLUT
 ---
 
 # ColorLUT::ColorLUT
@@ -66,4 +66,3 @@ Creates a new <a href="/windows/desktop/api/gdipluseffects/nl-gdipluseffects-col
 
 
 <a href="/windows/desktop/api/gdipluseffects/ns-gdipluseffects-colorlutparams">ColorLUTParams</a>
-

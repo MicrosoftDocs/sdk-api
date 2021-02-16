@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - _CREDENTIAL_PROVIDER_FIELD_TYPE
  - CREDENTIAL_PROVIDER_FIELD_TYPE
 ---
 
@@ -100,4 +99,3 @@ This field appears as a button on the credential tile. Pressing the button lets 
 ## -remarks
 
 This type enables you to specify the different elements your credential provider will need to display to the user. Credential providers are not responsible for drawing their own UI, so they need to define the elements that are necessary. This type is one of the elements to support that mechanism.
-

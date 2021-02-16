@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxBlockMapBlock::GetHash
+ - IAppxBlockMapBlock.GetHash
 ---
 
 # IAppxBlockMapBlock::GetHash
@@ -81,4 +81,3 @@ The caller is responsible for deallocating the memory used for <i>buffer</i>. Us
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxblockmapblock">IAppxBlockMapBlock</a>
-

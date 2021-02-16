@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMCButton
  - MMCBUTTON
 ---
 
@@ -146,4 +145,3 @@ A pointer to the text for a particular tooltip.
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-itoolbar">IToolbar</a>
-

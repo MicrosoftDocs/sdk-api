@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineGetIconA
  - tapi/lineGetIconA
- - lineGetIcon
- - tapi/lineGetIcon
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineGetIconA
  - lineGetIcon
+ - lineGetIconA
+ - lineGetIconW
 ---
 
 # lineGetIconA function
@@ -107,4 +106,3 @@ For applications using an API version earlier than 2.0, if the provider does not
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetid">lineGetID</a>
-

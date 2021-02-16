@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IDropTargetHelper::DragOver
+ - IDropTargetHelper.DragOver
 ---
 
 # IDropTargetHelper::DragOver
@@ -81,4 +81,3 @@ This method is called by a drop target when its <a href="/windows/desktop/api/ol
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idroptargethelper">IDropTargetHelper</a>
-

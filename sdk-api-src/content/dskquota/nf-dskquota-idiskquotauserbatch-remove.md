@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dskquota.dll
 api_name:
- - IDiskQuotaUserBatch::Remove
+ - IDiskQuotaUserBatch.Remove
 ---
 
 # IDiskQuotaUserBatch::Remove
@@ -126,4 +126,3 @@ An unexpected exception occurred.
 
 
 <a href="/windows/desktop/api/dskquota/nn-dskquota-idiskquotauserbatch">IDiskQuotaUserBatch</a>
-

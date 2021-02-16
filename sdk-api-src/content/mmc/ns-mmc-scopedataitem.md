@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _SCOPEDATAITEM
  - SCOPEDATAITEM
 ---
 
@@ -251,4 +250,3 @@ It is not valid to insert an item as a sibling of the static node. If a snap-in 
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-iconsolenamespace-setitem">IConsoleNameSpace2::SetItem</a>
-

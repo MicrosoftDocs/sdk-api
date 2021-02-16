@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDDrawExclModeVideo::SetDrawParameters
+ - IDDrawExclModeVideo.SetDrawParameters
 ---
 
 # IDDrawExclModeVideo::SetDrawParameters
@@ -78,4 +78,3 @@ Returns an <b>HRESULT</b> value that depends on the implementation of the interf
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iddrawexclmodevideocallback">IDDrawExclModeVideoCallback Interface</a>
-

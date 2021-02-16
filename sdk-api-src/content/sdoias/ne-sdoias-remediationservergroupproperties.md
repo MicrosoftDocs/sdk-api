@@ -44,7 +44,6 @@ api_type:
 api_location:
  - SdoIas.h
 api_name:
- - _REMEDIATIONSERVERGROUPPROPERTIES
  - REMEDIATIONSERVERGROUPPROPERTIES
 ---
 
@@ -65,4 +64,3 @@ The collection of servers in the remediation server group.
 ## -see-also
 
 <a href="/windows/desktop/api/sdoias/ne-sdoias-iascommonproperties">IASCOMMONPROPERTIES</a>
-

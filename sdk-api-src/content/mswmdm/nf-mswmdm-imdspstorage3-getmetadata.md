@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage3::GetMetadata
+ - IMDSPStorage3.GetMetadata
 ---
 
 # IMDSPStorage3::GetMetadata
@@ -85,4 +85,3 @@ The service provider calls <a href="/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmm
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmmetadata">IWMDMMetaData Interface</a>
-

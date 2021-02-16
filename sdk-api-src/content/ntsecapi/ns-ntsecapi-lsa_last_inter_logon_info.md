@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _LSA_LAST_INTER_LOGON_INFO
- - PLSA_LAST_INTER_LOGON_INFO
  - LSA_LAST_INTER_LOGON_INFO
 ---
 
@@ -71,4 +69,3 @@ The time of the most recent failed attempt to log on.
 ### -field FailedAttemptCountSinceLastSuccessfulLogon
 
 The number of failed attempts to log on since the last successful log on.
-

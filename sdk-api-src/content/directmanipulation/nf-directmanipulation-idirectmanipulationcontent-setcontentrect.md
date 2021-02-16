@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationContent::SetContentRect
+ - IDirectManipulationContent.SetContentRect
 ---
 
 # IDirectManipulationContent::SetContentRect
@@ -69,4 +69,3 @@ The default bounding rectangle is (-<a href="/previous-versions/ms858507(v=msdn.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcontent">IDirectManipulationContent</a>
-

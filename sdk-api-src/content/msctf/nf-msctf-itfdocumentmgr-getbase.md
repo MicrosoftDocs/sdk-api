@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfDocumentMgr::GetBase
+ - ITfDocumentMgr.GetBase
 ---
 
 # ITfDocumentMgr::GetBase
@@ -120,4 +120,3 @@ A memory allocation error occurred.
 
 <a href="/windows/desktop/api/msctf/nf-msctf-itfdocumentmgr-push">ITfDocumentMgr::Push
       </a>
-

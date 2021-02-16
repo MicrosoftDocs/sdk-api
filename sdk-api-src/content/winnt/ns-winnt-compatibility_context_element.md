@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _COMPATIBILITY_CONTEXT_ELEMENT
- - PCOMPATIBILITY_CONTEXT_ELEMENT
  - COMPATIBILITY_CONTEXT_ELEMENT
 ---
 
@@ -96,4 +94,3 @@ Windows 7
 ### -field Type
 
 A value of the <a href="/windows/desktop/api/winnt/ne-winnt-actctx_compatibility_element_type">ACTCTX_COMPATIBILITY_ELEMENT_TYPE</a> enumeration that describes the compatibility elements in the application manifest.
-

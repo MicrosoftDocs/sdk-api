@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2::GetCAPropertyDisplayName
+ - ICertAdmin2.GetCAPropertyDisplayName
+ - CCertAdmin.GetCAPropertyDisplayName
 ---
 
 # ICertAdmin2::GetCAPropertyDisplayName
@@ -80,4 +81,3 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates the method was 
 
 <h3>VB</h3>
 A string that represents the property's display name.
-

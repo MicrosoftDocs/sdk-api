@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::get_PolicyReaders
+ - IAzApplication.PolicyReaders
+ - IAzApplication.get_PolicyReaders
+ - AzApplication.PolicyReaders
 ---
 
 # IAzApplication::get_PolicyReaders
@@ -61,4 +63,3 @@ This property is read-only.
 Policy readers for an object can read attributes for the object and for child objects of the object. Readers can also  use the policy; for example, readers can call the <a href="/windows/desktop/api/azroles/nf-azroles-iazclientcontext-accesscheck">AccessCheck</a> method. Readers cannot modify the object or its child objects.
 
 In JScript, the returned <a href="/windows/desktop/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> must be converted to the JScript <a href="/scripting/javascript/reference/array-object-javascript">Array</a> object.
-

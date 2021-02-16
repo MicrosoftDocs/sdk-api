@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vds.h
 api_name:
- - IVdsAdvancedDisk::GetPartitionProperties
+ - IVdsAdvancedDisk.GetPartitionProperties
 ---
 
 # IVdsAdvancedDisk::GetPartitionProperties
@@ -113,4 +113,3 @@ This method returns information for all partition types.
 
 
 <a href="/windows/desktop/api/vds/ns-vds-vds_partition_prop">VDS_PARTITION_PROP</a>
-

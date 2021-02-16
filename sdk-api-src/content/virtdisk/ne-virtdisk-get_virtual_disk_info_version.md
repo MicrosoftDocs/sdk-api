@@ -45,7 +45,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _GET_VIRTUAL_DISK_INFO_VERSION
  - GET_VIRTUAL_DISK_INFO_VERSION
 ---
 
@@ -157,4 +156,3 @@ The state of resilient change tracking (RCT) for the virtual disk.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Tsuserex.dll
 api_name:
- - IADsTSUserEx::put_AllowLogon
+ - IADsTSUserEx.AllowLogon
+ - IADsTSUserEx.get_AllowLogon
+ - IADsTSUserEx.put_AllowLogon
 ---
 
 # IADsTSUserEx::put_AllowLogon
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/tsuserex/nn-tsuserex-iadstsuserex">IADsTSUserEx</a>
-

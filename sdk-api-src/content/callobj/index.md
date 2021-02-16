@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - callobj
  - callobj/callobj
-api_name:
- - callobj
 ---
 
 # Callobj.h header

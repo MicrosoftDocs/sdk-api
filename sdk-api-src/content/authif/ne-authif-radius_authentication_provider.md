@@ -44,7 +44,6 @@ api_type:
 api_location:
  - AuthIf.h
 api_name:
- - _RADIUS_AUTHENTICATION_PROVIDER
  - RADIUS_AUTHENTICATION_PROVIDER
 ---
 
@@ -111,4 +110,3 @@ The <b>ratProvider</b> extended attribute in
 
 
 <a href="/windows/desktop/api/authif/ne-authif-radius_attribute_type">RADIUS_ATTRIBUTE_TYPE</a>
-

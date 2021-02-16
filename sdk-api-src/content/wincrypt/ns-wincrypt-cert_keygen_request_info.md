@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_KEYGEN_REQUEST_INFO
- - PCERT_KEYGEN_REQUEST_INFO
  - CERT_KEYGEN_REQUEST_INFO
 ---
 
@@ -75,4 +73,3 @@ A random printable string. This string is used by the server to ensure that the 
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_request_info">CERT_REQUEST_INFO</a>
-

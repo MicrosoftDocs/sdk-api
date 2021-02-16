@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::MouseDown
+ - IWMPEvents.MouseDown
 ---
 
 # IWMPEvents::MouseDown
@@ -81,4 +81,3 @@ The <i>y</i> coordinate of the mouse pointer relative to the upper-left corner o
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpevents-mousemove">MouseMove</a>
-

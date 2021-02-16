@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d10_1.h
 api_name:
- - ID3D10ShaderResourceView1::GetDesc1
+ - ID3D10ShaderResourceView1.GetDesc1
 ---
 
 # ID3D10ShaderResourceView1::GetDesc1
@@ -67,4 +67,3 @@ This method requires Windows Vista Service Pack 1.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10shaderresourceview1">ID3D10ShaderResourceView1 Interface</a>
-

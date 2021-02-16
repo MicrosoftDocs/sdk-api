@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Dnsapi.dll
 api_name:
+ - DnsAcquireContextHandle
  - DnsAcquireContextHandle_A
+ - DnsAcquireContextHandle_W
 ---
 
 # DnsAcquireContextHandle_A function
@@ -93,4 +95,3 @@ Returns success confirmation upon successful completion. Otherwise, returns the 
 
 
 <a href="/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ISysmon.h
 api_name:
- - eDisplayTypeConstant
  - DisplayTypeConstants
 ---
 
@@ -91,4 +90,3 @@ The following enumeration values were introduced in Windows Vista.
 ## -see-also
 
 <a href="/windows/desktop/SysMon/systemmonitor-displaytype">SystemMonitor.DisplayType</a>
-

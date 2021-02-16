@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiSourceListSetInfoW
  - msi/MsiSourceListSetInfoW
- - MsiSourceListSetInfo
- - msi/MsiSourceListSetInfo
 dev_langs:
  - c++
 topic_type:
@@ -45,8 +43,9 @@ api_location:
  - Msi.dll
  - Ext-MS-Win-MSi-Misc-L1-1-0.dll
 api_name:
- - MsiSourceListSetInfoW
  - MsiSourceListSetInfo
+ - MsiSourceListSetInfoA
+ - MsiSourceListSetInfoW
 ---
 
 # MsiSourceListSetInfoW function
@@ -392,4 +391,3 @@ An exception to the above rule is setting "LastUsedSource" to one of the registe
 
 
 <a href="/windows/desktop/Msi/productcode">ProductCode</a>
-

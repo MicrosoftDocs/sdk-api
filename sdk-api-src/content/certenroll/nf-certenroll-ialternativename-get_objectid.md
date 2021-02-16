@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IAlternativeName::get_ObjectId
+ - IAlternativeName.ObjectId
+ - IAlternativeName.get_ObjectId
 ---
 
 # IAlternativeName::get_ObjectId
@@ -69,4 +70,3 @@ You can retrieve a value for this property if you initialized the <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ialternativename">IAlternativeName</a>
-

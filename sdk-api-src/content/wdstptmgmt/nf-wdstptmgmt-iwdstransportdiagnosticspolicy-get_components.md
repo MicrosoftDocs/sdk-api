@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportDiagnosticsPolicy::get_Components
+ - IWdsTransportDiagnosticsPolicy.Components
+ - IWdsTransportDiagnosticsPolicy.get_Components
+ - IWdsTransportDiagnosticsPolicy.put_Components
 ---
 
 # IWdsTransportDiagnosticsPolicy::get_Components
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/win32/api/wdstptmgmt/ne-wdstptmgmt-wdstransport_diagnostics_component_flags">WDSTRANSPORT_DIAGNOSTICS_COMPONENT_FLAGS</a>
-

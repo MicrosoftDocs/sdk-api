@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Rasshost.h
 api_name:
- - _RAS_SECURITY_INFO
- - PRAS_SECURITY_INFO
  - RAS_SECURITY_INFO
 ---
 
@@ -120,4 +118,3 @@ Specifies a null-terminated string that contains the user-friendly display name 
 
 
 <a href="/windows/desktop/RRAS/about-remote-access-service">Remote Access Service (RAS) Overview</a>
-

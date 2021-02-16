@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Metafile::EmfToWmfBits
+ - Metafile.EmfToWmfBits
 ---
 
 # Metafile::EmfToWmfBits
@@ -163,4 +163,3 @@ delete[] buffer;
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-metafiles-about">Metafiles</a>
-

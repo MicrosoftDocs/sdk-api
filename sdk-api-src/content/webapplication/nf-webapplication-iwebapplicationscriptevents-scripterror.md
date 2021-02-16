@@ -42,7 +42,7 @@ api_type:
 api_location:
  - webapplication.h
 api_name:
- - IWebApplicationScriptEvents::ScriptError
+ - IWebApplicationScriptEvents.ScriptError
 ---
 
 # IWebApplicationScriptEvents::ScriptError
@@ -87,4 +87,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/webapplication/nn-webapplication-iwebapplicationscriptevents">IWebApplicationScriptEvents</a>
-

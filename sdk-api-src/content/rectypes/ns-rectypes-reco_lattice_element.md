@@ -44,7 +44,6 @@ api_type:
 api_location:
  - rectypes.h
 api_name:
- - tagRECO_LATTICE_ELEMENT
  - RECO_LATTICE_ELEMENT
 ---
 
@@ -94,4 +93,3 @@ For details about properties, see the <a href="/windows/desktop/api/rectypes/ns-
 
 
 <a href="/windows/desktop/tablet/recognizer-lattice-structure">Recognizer Lattice Structure</a>
-

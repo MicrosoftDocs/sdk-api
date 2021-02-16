@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ObjectContext::IsCallerInRole
+ - ObjectContext.IsCallerInRole
 ---
 
 # ObjectContext::IsCallerInRole
@@ -117,4 +117,3 @@ Because <b>IsCallerInRole</b> returns <b>TRUE</b> when the object that invokes i
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-objectcontext">ObjectContext</a>
-

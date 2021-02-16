@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.idl
 api_name:
- - IActionProgress::End
+ - IActionProgress.End
 ---
 
 # IActionProgress::End
@@ -71,4 +71,3 @@ This method indicates that the action has finished, and the implementing class s
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iactionprogress-begin">IActionProgress::Begin</a>
-

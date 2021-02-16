@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellImageStore::IsEntryInStore
+ - IShellImageStore.IsEntryInStore
 ---
 
 # IShellImageStore::IsEntryInStore
@@ -116,4 +116,3 @@ The store is not open.
 
 <div class="alert"><b>Note</b>  <a href="/windows/desktop/api/shlobj/nn-shlobj-ishellimagestore">IShellImageStore</a> is supported through Windows XP. It is not supported in later operating systems.</div>
 <div> </div>
-

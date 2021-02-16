@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_METADATA_ENDPOINT
  - WS_METADATA_ENDPOINT
 ---
 

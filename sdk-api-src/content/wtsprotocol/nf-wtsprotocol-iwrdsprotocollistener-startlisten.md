@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolListener::StartListen
+ - IWRdsProtocolListener.StartListen
 ---
 
 # IWRdsProtocolListener::StartListen
@@ -84,4 +84,3 @@ The <b>StartListen</b> method is called when the Remote Desktop Services service
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocollistener">IWRdsProtocolListener</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - AppxPackaging.h
 api_name:
- - IAppxFilesEnumerator::GetCurrent
+ - IAppxFilesEnumerator.GetCurrent
 ---
 
 # IAppxFilesEnumerator::GetCurrent
@@ -91,4 +91,3 @@ The enumerator returned can be empty. In this case, a call to  <a href="/windows
 ## -see-also
 
 <a href="/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfilesenumerator">IAppxFilesEnumerator</a>
-

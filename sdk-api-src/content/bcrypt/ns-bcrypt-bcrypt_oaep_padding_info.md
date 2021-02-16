@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _BCRYPT_OAEP_PADDING_INFO
  - BCRYPT_OAEP_PADDING_INFO
 ---
 
@@ -76,4 +75,3 @@ Contains the number of bytes in the <b>pbLabel</b> buffer to use to create the p
 
 
 <a href="/windows/desktop/api/bcrypt/nf-bcrypt-bcryptencrypt">BCryptEncrypt</a>
-

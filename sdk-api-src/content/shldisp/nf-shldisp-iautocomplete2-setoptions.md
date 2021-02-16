@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IAutoComplete2::SetOptions
+ - IAutoComplete2.SetOptions
 ---
 
 # IAutoComplete2::SetOptions
@@ -77,4 +77,3 @@ The TAB key is disabled by default because it is typically used to navigate from
 
 
 <a href="/windows/desktop/api/shldisp/nf-shldisp-iautocomplete2-getoptions">IAutoComplete2::GetOptions</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IConsoleNameSpace::DeleteItem
+ - IConsoleNameSpace.DeleteItem
+ - IConsoleNameSpace2.DeleteItem
 ---
 
 # IConsoleNameSpace::DeleteItem
@@ -73,4 +74,3 @@ This method can return one of these values.
 
 
 <a href="/windows/desktop/api/mmc/nn-mmc-iconsolenamespace2">IConsoleNameSpace2</a>
-

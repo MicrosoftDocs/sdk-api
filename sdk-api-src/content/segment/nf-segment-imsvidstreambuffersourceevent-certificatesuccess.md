@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSourceEvent::CertificateSuccess
+ - IMSVidStreamBufferSourceEvent.CertificateSuccess
 ---
 
 # IMSVidStreamBufferSourceEvent::CertificateSuccess
@@ -66,4 +66,3 @@ Return S_OK or an error code.
 ## -see-also
 
 <a href="/windows/desktop/api/segment/nn-segment-imsvidstreambuffersourceevent">IMSVidStreamBufferSourceEvent Interface</a>
-

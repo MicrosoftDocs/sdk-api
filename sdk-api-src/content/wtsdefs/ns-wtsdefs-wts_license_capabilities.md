@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wtsdefs.h
 api_name:
- - _WTS_LICENSE_CAPABILITIES
- - PWTS_LICENSE_CAPABILITIES
  - WTS_LICENSE_CAPABILITIES
 ---
 
@@ -99,4 +97,3 @@ The client name, including a terminating null character.
 ## -remarks
 
 This enumeration is used by the <a href="/windows/desktop/api/wtsprotocol/nf-wtsprotocol-iwtsprotocollicenseconnection-requestlicensingcapabilities">RequestLicensingCapabilities</a> method.
-

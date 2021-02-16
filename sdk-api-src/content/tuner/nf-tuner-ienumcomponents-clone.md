@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IEnumComponents::Clone
+ - IEnumComponents.Clone
 ---
 
 # IEnumComponents::Clone
@@ -69,4 +69,3 @@ The application must release this new collection when done with it.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-ienumcomponents">IEnumComponents Interface</a>
-

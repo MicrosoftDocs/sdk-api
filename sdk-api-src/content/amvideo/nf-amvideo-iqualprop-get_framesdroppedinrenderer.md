@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IQualProp::get_FramesDroppedInRenderer
+ - IQualProp.get_FramesDroppedInRenderer
 ---
 
 # IQualProp::get_FramesDroppedInRenderer
@@ -74,4 +74,3 @@ The property page uses this method to retrieve data from the renderer.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-iqualprop">IQualProp Interface</a>
-

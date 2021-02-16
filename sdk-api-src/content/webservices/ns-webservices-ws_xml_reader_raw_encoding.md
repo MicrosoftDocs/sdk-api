@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_XML_READER_RAW_ENCODING
  - WS_XML_READER_RAW_ENCODING
 ---
 
@@ -76,4 +75,3 @@ The bytes of the document are only converted to base64 when necessary.  So, for 
         encoding. Using <a href="/windows/desktop/api/webservices/nf-webservices-wsreadchars">WsReadChars</a>, for example, will cause the bytes to physically get 
         converted to their corresponding base64 characters.  In general reading the document using
         anything other than <b>WsReadBytes</b> will incur the base64 conversion.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IKnownFolderManager::GetFolderIds
+ - IKnownFolderManager.GetFolderIds
 ---
 
 # IKnownFolderManager::GetFolderIds
@@ -85,4 +85,3 @@ You can use <a href="/windows/desktop/api/combaseapi/nf-combaseapi-stringfromcls
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - d3dcommon.h
 api_name:
- - _D3D_PARAMETER_FLAGS
  - D3D_PARAMETER_FLAGS
 ---
 
@@ -80,4 +79,3 @@ Forces this enumeration to compile to 32 bits in size. Without this value, some 
 
 
 <a href="/windows/desktop/direct3d11/d3d11-graphics-reference-shader-enums">Shader Enumerations</a>
-

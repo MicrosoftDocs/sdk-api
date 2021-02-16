@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Qnetwork.h
 api_name:
- - IAMNetworkStatus::get_IsBroadcast
+ - IAMNetworkStatus.get_IsBroadcast
 ---
 
 # IAMNetworkStatus::get_IsBroadcast
@@ -69,4 +69,3 @@ A broadcast stream can be unicast or multicast. In a broadcast connection, the c
 ## -see-also
 
 <a href="/windows/desktop/api/qnetwork/nn-qnetwork-iamnetworkstatus">IAMNetworkStatus Interface</a>
-

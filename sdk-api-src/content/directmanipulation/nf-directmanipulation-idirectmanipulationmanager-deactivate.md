@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationManager::Deactivate
+ - IDirectManipulationManager.Deactivate
 ---
 
 # IDirectManipulationManager::Deactivate
@@ -71,4 +71,3 @@ Calls to <a href="/previous-versions/windows/desktop/api/directmanipulation/nf-d
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationmanager">IDirectManipulationManager</a>
-

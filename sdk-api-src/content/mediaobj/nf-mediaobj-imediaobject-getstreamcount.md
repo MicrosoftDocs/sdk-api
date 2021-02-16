@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::GetStreamCount
+ - IMediaObject.GetStreamCount
 ---
 
 # IMediaObject::GetStreamCount
@@ -103,4 +103,3 @@ The DMO might have zero input streams or zero output streams. The number of stre
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

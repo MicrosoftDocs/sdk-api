@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - DsReplicaSyncAllW
  - ntdsapi/DsReplicaSyncAllW
- - DsReplicaSyncAll
- - ntdsapi/DsReplicaSyncAll
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Ntdsapi.dll
 api_name:
- - DsReplicaSyncAllW
  - DsReplicaSyncAll
+ - DsReplicaSyncAllA
+ - DsReplicaSyncAllW
 ---
 
 # DsReplicaSyncAllW function
@@ -221,4 +220,3 @@ The <b>DsReplicaSyncAll</b> function can use the callback function pointed to by
 
 
 <a href="/previous-versions/windows/desktop/legacy/ms677968(v=vs.85)">SyncUpdateProc</a>
-

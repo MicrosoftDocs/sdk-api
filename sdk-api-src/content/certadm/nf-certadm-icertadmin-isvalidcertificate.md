@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin::IsValidCertificate
+ - ICertAdmin2.IsValidCertificate
+ - ICertAdmin.IsValidCertificate
+ - CCertAdmin.IsValidCertificate
 ---
 
 # ICertAdmin::IsValidCertificate
@@ -218,4 +220,3 @@ error:
 
 
 <a href="/windows/desktop/api/certcli/nn-certcli-icertconfig">ICertConfig</a>
-

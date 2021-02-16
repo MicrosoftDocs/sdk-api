@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shappmgr.h
 api_name:
- - IPublishedApp::Unschedule
+ - IPublishedApp.Unschedule
 ---
 
 # IPublishedApp::Unschedule
@@ -85,4 +85,3 @@ This method is called in each of the following circumstances.
 
 
 <a href="/windows/desktop/api/shappmgr/nn-shappmgr-ishellapp">IShellApp</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMPage::SetDictionaryLocal
+ - IXpsOMPage.SetDictionaryLocal
 ---
 
 # IXpsOMPage::SetDictionaryLocal
@@ -178,4 +178,3 @@ Neither <b>SetDictionaryLocal</b> nor <a href="/windows/desktop/api/xpsobjectmod
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

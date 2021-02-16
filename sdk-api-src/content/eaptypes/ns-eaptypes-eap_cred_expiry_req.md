@@ -44,7 +44,6 @@ api_type:
 api_location:
  - eaptypes.h
 api_name:
- - _EAP_CRED_EXPIRY_REQ
  - EAP_CRED_EXPIRY_REQ
 ---
 
@@ -94,4 +93,3 @@ The <b>EAP_CRED_EXPIRY_REQ</b> structure is identical to the <a href="/previous-
 
 
 [SSO and PLAP](/windows/win32/eaphost/understanding-sso-and-plap)
-

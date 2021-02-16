@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmpservices.h
 api_name:
- - IWMPConvert::ConvertFile
+ - IWMPConvert.ConvertFile
 ---
 
 # IWMPConvert::ConvertFile
@@ -170,4 +170,3 @@ This is a synchronous call. Your code must complete and return as quickly as pos
 ## -see-also
 
 <a href="/windows/desktop/api/wmpservices/nn-wmpservices-iwmpconvert">IWMPConvert Interface</a>
-

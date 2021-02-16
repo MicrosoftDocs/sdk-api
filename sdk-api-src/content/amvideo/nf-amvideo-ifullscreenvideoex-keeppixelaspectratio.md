@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFullScreenVideoEx::KeepPixelAspectRatio
+ - IFullScreenVideoEx.KeepPixelAspectRatio
 ---
 
 # IFullScreenVideoEx::KeepPixelAspectRatio
@@ -70,4 +70,3 @@ Returns an <b>HRESULT</b> value.
 
 
 <a href="/windows/desktop/api/amvideo/nn-amvideo-ifullscreenvideoex">IFullScreenVideoEx Interface</a>
-

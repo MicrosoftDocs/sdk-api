@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_RootStoreFlags
+ - IEnroll.RootStoreFlags
+ - IEnroll.get_RootStoreFlags
+ - IEnroll.put_RootStoreFlags
 ---
 
 # IEnroll::get_RootStoreFlags
@@ -80,4 +82,3 @@ The <b>RootStoreFlags</b> property should be set before using the following meth
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

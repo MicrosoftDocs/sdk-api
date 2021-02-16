@@ -44,7 +44,6 @@ api_type:
 api_location:
  - iketypes.h
 api_name:
- - IKEEXT_CREDENTIALS2_
  - IKEEXT_CREDENTIALS2
 ---
 
@@ -91,4 +90,3 @@ is index 1.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

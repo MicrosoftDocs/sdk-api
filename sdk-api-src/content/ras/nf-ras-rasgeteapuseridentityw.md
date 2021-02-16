@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - RasGetEapUserIdentityW
  - ras/RasGetEapUserIdentityW
- - RasGetEapUserIdentity
- - ras/RasGetEapUserIdentity
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Rasapi32.dll
 api_name:
- - RasGetEapUserIdentityW
  - RasGetEapUserIdentity
+ - RasGetEapUserIdentityA
+ - RasGetEapUserIdentityW
 ---
 
 # RasGetEapUserIdentityW function
@@ -235,4 +234,3 @@ If the remote access application being developed has a graphical user interface,
 
 
 <a href="/windows/desktop/api/ras/nf-ras-rasseteapuserdataa">RasSetEapUserData</a>
-

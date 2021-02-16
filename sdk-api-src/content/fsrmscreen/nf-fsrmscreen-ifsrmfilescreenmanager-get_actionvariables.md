@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenManager::get_ActionVariables
+ - IFsrmFileScreenManager.ActionVariables
+ - IFsrmFileScreenManager.get_ActionVariables
+ - FsrmFileScreenManager.ActionVariables
 ---
 
 # IFsrmFileScreenManager::get_ActionVariables
@@ -70,4 +72,3 @@ FSRM parses the action property for the macros and substitutes the macro string 
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenmanager">IFsrmFileScreenManager</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TAPE_SET_MEDIA_PARAMETERS
- - PTAPE_SET_MEDIA_PARAMETERS
  - TAPE_SET_MEDIA_PARAMETERS
 ---
 
@@ -69,4 +67,3 @@ Number of bytes per block. Maximum and minimum block sizes can be obtained by ca
 ## -see-also
 
 <a href="/windows/desktop/api/winbase/nf-winbase-settapeparameters">SetTapeParameters</a>
-

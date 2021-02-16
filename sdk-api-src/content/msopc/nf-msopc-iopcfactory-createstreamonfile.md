@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msopc.h
 api_name:
- - IOpcFactory::CreateStreamOnFile
+ - IOpcFactory.CreateStreamOnFile
 ---
 
 # IOpcFactory::CreateStreamOnFile
@@ -214,4 +214,3 @@ For more information, see the <a href="/previous-versions/windows/desktop/opc/pa
 
 
 <a href="/previous-versions/windows/desktop/opc/saving-a-package">Saving a Package</a>
-

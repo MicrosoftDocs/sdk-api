@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mpeg2Bits.h
 api_name:
- - PMPEG_HEADER_BITS
  - MPEG_HEADER_BITS
 ---
 
@@ -80,4 +79,3 @@ The section_syntax_indicator bit.
 
 
 <a href="/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-section">SECTION Structure</a>
-

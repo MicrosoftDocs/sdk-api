@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::put_friendlyName
+ - IWMPSyncDevice.put_friendlyName
 ---
 
 # IWMPSyncDevice::put_friendlyName
@@ -104,4 +104,3 @@ The friendly name is the string that is displayed in the Windows Media Player us
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpsyncdevice-get_friendlyname">IWMPSyncDevice::get_friendlyName</a>
-

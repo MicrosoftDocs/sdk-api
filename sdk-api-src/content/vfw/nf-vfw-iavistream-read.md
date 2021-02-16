@@ -43,7 +43,7 @@ api_location:
  - Vfw32.lib
  - Vfw32.dll
 api_name:
- - IAVIStream::Read
+ - IAVIStream.Read
 ---
 
 # IAVIStream::Read
@@ -109,4 +109,3 @@ HRESULT Read(LONG lStart, LONG lSamples,
 
 
 <a href="/windows/desktop/Multimedia/custom-file-and-stream-handlers">Custom File and Stream Handlers</a>
-

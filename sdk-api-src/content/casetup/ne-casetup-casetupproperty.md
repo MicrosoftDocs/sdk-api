@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Casetup.h
 api_name:
- - __MIDL___MIDL_itf_casetup_0000_0002_0001
  - CASetupProperty
 ---
 
@@ -148,4 +147,3 @@ A <b>VT_BSTR</b> value that specifies the name of the computer that is hosting t
 ### -field ENUM_SETUPPROP_WEBCANAME
 
 A <b>VT_BSTR</b> value that specifies the name of the CA. This value is only applicable if support for the Certification Authority Web Enrollment role is being installed. There is no default value.
-

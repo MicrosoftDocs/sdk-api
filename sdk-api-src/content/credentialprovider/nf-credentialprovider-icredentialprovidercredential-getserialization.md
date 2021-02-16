@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Credentialprovider.h
 api_name:
- - ICredentialProviderCredential::GetSerialization
+ - ICredentialProviderCredential.GetSerialization
 ---
 
 # ICredentialProviderCredential::GetSerialization
@@ -116,4 +116,3 @@ Credential providers handle extremely sensitive user secrets in order to complet
 <li>Securely discard secrets promptly after they are used.</li>
 <li>Securely discard secrets if they are not used for their intended purpose within an expected amount of time.</li>
 </ul>
-

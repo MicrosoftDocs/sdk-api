@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::get_progress
+ - IWMPSyncDevice.get_progress
 ---
 
 # IWMPSyncDevice::get_progress
@@ -104,4 +104,3 @@ The <b>plProgress</b> value indicates the percent complete for the entire synchr
 
 
 <a href="/windows/desktop/WMP/showing-synchronization-progress">Showing Synchronization Progress</a>
-

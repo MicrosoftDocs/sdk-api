@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumDependentServicesA
  - winsvc/EnumDependentServicesA
- - EnumDependentServices
- - winsvc/EnumDependentServices
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - AdvApi32Legacy.dll
  - API-MS-Win-Service-Core-Ansi-L1-1-1.dll
 api_name:
- - EnumDependentServicesA
  - EnumDependentServices
+ - EnumDependentServicesA
+ - EnumDependentServicesW
 ---
 
 # EnumDependentServicesA function
@@ -236,4 +235,3 @@ For an example, see
 
 
 <a href="/windows/desktop/Services/service-installation-removal-and-enumeration">Service Installation, Removal, and Enumeration</a>
-

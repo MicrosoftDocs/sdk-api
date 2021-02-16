@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - _SHCONTF
+ - SHCONTF
 ---
 
 # _SHCONTF enumeration
@@ -112,4 +112,3 @@ By setting the <b><b>SHCONTF_INIT_ON_FIRST_NEXT</b></b> flag, the calling applic
 
 <div class="alert"><b>Note</b>  The name of this enumeration was changed to <b>SHCONTF</b> in Windows Vista. Earlier, it was named <b>SHCONTF</b>. The name <b>SHCONTF</b> is still defined through a typedef statement, however, so it can continue to be used by legacy code.</div>
 <div> </div>
-

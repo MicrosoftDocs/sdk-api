@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - HttpAddRequestHeadersA
  - wininet/HttpAddRequestHeadersA
- - HttpAddRequestHeaders
- - wininet/HttpAddRequestHeaders
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - HttpAddRequestHeadersA
  - HttpAddRequestHeaders
+ - HttpAddRequestHeadersA
+ - HttpAddRequestHeadersW
 ---
 
 # HttpAddRequestHeadersA function
@@ -178,4 +177,3 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

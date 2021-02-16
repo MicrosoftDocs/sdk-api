@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItemContainer::EnumItems
+ - IOfflineFilesItemContainer.EnumItems
 ---
 
 # IOfflineFilesItemContainer::EnumItems
@@ -254,4 +254,3 @@ int wmain(int argc, __in_ecount(argc) WCHAR* argv[])
 
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesitemcontainer">IOfflineFilesItemContainer</a>
-

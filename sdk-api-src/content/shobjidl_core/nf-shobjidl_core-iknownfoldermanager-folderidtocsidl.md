@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IKnownFolderManager::FolderIdToCsidl
+ - IKnownFolderManager.FolderIdToCsidl
 ---
 
 # IKnownFolderManager::FolderIdToCsidl
@@ -105,4 +105,3 @@ To call this method, the caller must have at least User privileges.
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd940364(v=vs.85)">Known Folders Sample</a>
-

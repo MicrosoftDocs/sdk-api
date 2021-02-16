@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IOverlayNotify2::OnDisplayChange
+ - IOverlayNotify2.OnDisplayChange
 ---
 
 # IOverlayNotify2::OnDisplayChange
@@ -70,4 +70,3 @@ Returns S_OK if successful. If the method fails, it returns an <b>HRESULT</b> er
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ioverlaynotify2">IOverlayNotify2 Interface</a>
-

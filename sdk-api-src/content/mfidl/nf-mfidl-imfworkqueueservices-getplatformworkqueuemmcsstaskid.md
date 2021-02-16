@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFWorkQueueServices::GetPlatformWorkQueueMMCSSTaskId
+ - IMFWorkQueueServices.GetPlatformWorkQueueMMCSSTaskId
 ---
 
 # IMFWorkQueueServices::GetPlatformWorkQueueMMCSSTaskId
@@ -88,4 +88,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfworkqueueservices">IMFWorkQueueServices</a>
-

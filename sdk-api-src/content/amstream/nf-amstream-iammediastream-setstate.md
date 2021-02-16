@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaStream::SetState
+ - IAMMediaStream.SetState
 ---
 
 # IAMMediaStream::SetState
@@ -71,4 +71,3 @@ Applications should not call this method.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediastream">IAMMediaStream Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextPattern2::GetCaretRange
+ - IUIAutomationTextPattern2.GetCaretRange
 ---
 
 # IUIAutomationTextPattern2::GetCaretRange
@@ -89,4 +89,3 @@ This method retrieves a text range that a client can use to find the bounding re
 
 
 <a href="/windows/desktop/WinAuto/uiauto-workingwithtextbasedcontrols">Working with Text-based Controls</a>
-

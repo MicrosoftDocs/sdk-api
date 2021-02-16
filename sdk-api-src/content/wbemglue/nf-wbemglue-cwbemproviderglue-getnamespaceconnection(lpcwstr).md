@@ -43,7 +43,9 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CWbemProviderGlue::GetNamespaceConnection
+ - CWbemProviderGlue.GetNameSpaceConnection
+ - ?GetNamespaceConnection@CWbemProviderGlue@@SAPEAUIWbemServices@@PEBG@Z
+ - ?GetNamespaceConnection@CWbemProviderGlue@@SGPAUIWbemServices@@PBG@Z
 ---
 
 # CWbemProviderGlue::GetNamespaceConnection
@@ -72,4 +74,3 @@ Returns a pointer to the namespace if successful, or <b>NULL</b> if not.
 ## -remarks
 
 The <b>GetNameSpaceConnection</b> method should only be used when the framework functions do not provide the level of control required.
-

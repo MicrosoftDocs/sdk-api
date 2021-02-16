@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchorSink::OnStatusChange
+ - ITextStoreAnchorSink.OnStatusChange
 ---
 
 # ITextStoreAnchorSink::OnStatusChange
@@ -97,4 +97,3 @@ Applications should call this method whenever <a href="/windows/desktop/api/text
 
 <a href="/windows/desktop/api/textstor/ns-textstor-ts_status">TS_STATUS
       </a>
-

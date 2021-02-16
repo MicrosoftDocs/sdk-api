@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHSetUnreadMailCountW
  - shellapi/SHSetUnreadMailCountW
- - SHSetUnreadMailCount
- - shellapi/SHSetUnreadMailCount
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,8 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - SHSetUnreadMailCountW
  - SHSetUnreadMailCount
+ - SHSetUnreadMailCountW
 ---
 
 # SHSetUnreadMailCountW function

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFSchemeHandler::CancelObjectCreation
+ - IMFSchemeHandler.CancelObjectCreation
 ---
 
 # IMFSchemeHandler::CancelObjectCreation
@@ -94,4 +94,3 @@ The operation cannot be canceled if <a href="/windows/desktop/api/mfidl/nf-mfidl
 
 
 <a href="/windows/desktop/medfound/scheme-handlers-and-byte-stream-handlers">Scheme Handlers and Byte-Stream Handlers</a>
-

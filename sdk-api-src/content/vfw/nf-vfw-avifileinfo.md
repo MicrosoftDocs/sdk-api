@@ -44,6 +44,8 @@ api_location:
  - Ext-MS-Win-Media-Avi-L1-1-0.dll
 api_name:
  - AVIFileInfo
+ - AVIFileInfoA
+ - AVIFileInfoW
 ---
 
 # AVIFileInfo function
@@ -82,4 +84,3 @@ The argument <i>pfile</i> is a pointer to an <a href="/windows/desktop/api/vfw/n
 
 
 <a href="/windows/desktop/Multimedia/avifile-functions-and-macros">AVIFile Functions and Macros</a>
-

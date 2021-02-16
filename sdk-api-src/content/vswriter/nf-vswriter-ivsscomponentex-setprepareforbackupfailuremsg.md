@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponentEx::SetPrepareForBackupFailureMsg
+ - IVssComponentEx.SetPrepareForBackupFailureMsg
 ---
 
 # IVssComponentEx::SetPrepareForBackupFailureMsg
@@ -134,4 +134,3 @@ The failure message that is set by
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponentex-getprepareforbackupfailuremsg">IVssComponentEx::GetPrepareForBackupFailureMsg</a>
-

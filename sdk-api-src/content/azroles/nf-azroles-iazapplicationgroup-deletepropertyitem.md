@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplicationGroup::DeletePropertyItem
+ - IAzApplicationGroup.DeletePropertyItem
+ - AzApplicationGroup.DeletePropertyItem
 ---
 
 # IAzApplicationGroup::DeletePropertyItem
@@ -142,4 +143,3 @@ Reserved for future use.
  If the method succeeds, the method returns S_OK.
 
 Any other <b>HRESULT</b> value indicates that the operation failed.
-

@@ -9,8 +9,6 @@ tech.root: mstv
 f1_keywords:
  - strmif
  - strmif/strmif
-api_name:
- - strmif
 ---
 
 # Strmif.h header
@@ -21,4 +19,6 @@ api_name:
 This header is used by Microsoft TV Technologies. For more information, see:
 
 - [Microsoft TV Technologies](/previous-versions/windows/desktop/mstv/microsoft-tv-technologies-portal)
+
+
 

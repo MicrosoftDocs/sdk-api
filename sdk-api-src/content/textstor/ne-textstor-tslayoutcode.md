@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Textstor.h
 api_name:
- - __MIDL___MIDL_itf_textstor_0000_0000_0002
  - TsLayoutCode
 ---
 
@@ -78,4 +77,3 @@ The view is about to be destroyed.
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchorsink-onlayoutchange">ITextStoreAnchorSink::OnLayoutChange
       </a>
-

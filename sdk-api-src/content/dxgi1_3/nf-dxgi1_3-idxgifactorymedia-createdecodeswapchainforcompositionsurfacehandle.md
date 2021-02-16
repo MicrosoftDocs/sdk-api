@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
+ - IDXGIFactoryMedia.CreateDecodeSwapChainForCompositionSurfaceHandle
 ---
 
 # IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle
@@ -121,4 +121,3 @@ The <a href="/windows/desktop/api/dxgi/nn-dxgi-idxgiresource">IDXGIResource</a> 
 ## -see-also
 
 <a href="/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>
-

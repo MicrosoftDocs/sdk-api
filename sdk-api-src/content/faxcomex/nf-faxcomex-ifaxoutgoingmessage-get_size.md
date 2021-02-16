@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingMessage::get_Size
+ - IFaxOutgoingMessage.Size
+ - IFaxOutgoingMessage.get_Size
+ - IFaxOutgoingMessage.get_Size
 ---
 
 # IFaxOutgoingMessage::get_Size
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-opening-a-fax-from-the-outgoing-archive">Visual Basic Example</a>
-

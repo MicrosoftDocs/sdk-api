@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC
+ - CD3D11_SAMPLER_DESC.~CD3D11_SAMPLER_DESC
 ---
 
 # CD3D11_SAMPLER_DESC::~CD3D11_SAMPLER_DESC
@@ -58,4 +58,3 @@ Destroys an instance of a <a href="/previous-versions/windows/desktop/legacy/jj1
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/legacy/jj151678(v=vs.85)">CD3D11_SAMPLER_DESC</a>
-

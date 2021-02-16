@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRSELECTPALETTE
- - PEMRSELECTPALETTE
  - EMRSELECTPALETTE
 ---
 
@@ -79,4 +77,3 @@ Index to logical palette in the handle table.
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-selectpalette">SelectPalette</a>
-

@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMStreamConfig::GetStreamNumber
+ - IWMStreamConfig.GetStreamNumber
 ---
 
 # IWMStreamConfig::GetStreamNumber
@@ -101,4 +101,3 @@ The <i>pwStreamNum</i> parameter is <b>NULL</b>.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig-setstreamnumber">IWMStreamConfig::SetStreamNumber</a>
-

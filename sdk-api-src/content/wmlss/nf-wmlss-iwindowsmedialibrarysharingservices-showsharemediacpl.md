@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WMPMediaSharing.dll
 api_name:
- - IWindowsMediaLibrarySharingServices::showShareMediaCPL
+ - IWindowsMediaLibrarySharingServices.showShareMediaCPL
 ---
 
 # IWindowsMediaLibrarySharingServices::showShareMediaCPL

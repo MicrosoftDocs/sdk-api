@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocInterface::GetDeviceSignature
+ - IDot11AdHocInterface.GetDeviceSignature
 ---
 
 # IDot11AdHocInterface::GetDeviceSignature
@@ -127,4 +127,3 @@ A pointer passed as a parameter is not valid.
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocinterface">IDot11AdHocInterface</a>
-

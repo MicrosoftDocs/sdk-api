@@ -44,7 +44,6 @@ api_type:
 api_location:
  - FsrmEnums.h
 api_name:
- - _FsrmPropertyValueType
  - FsrmPropertyValueType
 ---
 
@@ -78,4 +77,3 @@ The type assigned to the property value is a date expression containing a date v
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nf-fsrmreports-ifsrmfileconditionproperty-get_valuetype">IFsrmFileConditionProperty.ValueType</a>
-

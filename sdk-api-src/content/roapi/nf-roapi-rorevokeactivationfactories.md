@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-WinRT-l1-1-0.dll
 api_name:
  - RoRevokeActivationFactories
+ - WinRTRevokeActivationFactories
 ---
 
 # RoRevokeActivationFactories function
@@ -74,4 +75,3 @@ Call the <b>RoRevokeActivationFactories</b> function remove the activation facto
 
 
 <a href="/windows/desktop/api/roapi/nf-roapi-roregisteractivationfactories">RoRegisterActivationFactories</a>
-

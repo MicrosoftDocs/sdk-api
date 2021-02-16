@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Scesvc.h
 api_name:
- - _SCESVC_CALLBACK_INFO_
- - PSCESVC_CALLBACK_INFO
  - SCESVC_CALLBACK_INFO
 ---
 
@@ -87,4 +85,3 @@ Pointer to a
 ## -see-also
 
 <a href="/windows/desktop/SecMgmt/sce-handle">SCE_HANDLE</a>
-

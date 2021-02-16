@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_SURFACE_INT
- - PDD_SURFACE_INT
  - DD_SURFACE_INT
 ---
 
@@ -63,4 +61,3 @@ The DD_SURFACE_INT structure contains the DirectDrawSurface object's interface i
 ### -field lpLcl
 
 Points to a <a href="/windows/desktop/api/ddrawint/ns-ddrawint-dd_surface_local">DD_SURFACE_LOCAL</a> structure that describes a unique surface object.
-

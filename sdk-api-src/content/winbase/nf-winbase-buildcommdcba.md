@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BuildCommDCBA
  - winbase/BuildCommDCBA
- - BuildCommDCB
- - winbase/BuildCommDCB
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - BuildCommDCBA
  - BuildCommDCB
+ - BuildCommDCBA
+ - BuildCommDCBW
 ---
 
 # BuildCommDCBA function
@@ -166,4 +165,3 @@ The newer form of the <b>mode</b> syntax lets you explicitly set the values of t
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-setcommstate">SetCommState</a>
-

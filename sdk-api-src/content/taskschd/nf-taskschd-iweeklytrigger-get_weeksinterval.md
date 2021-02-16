@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IWeeklyTrigger::get_WeeksInterval
+ - IWeeklyTrigger.WeeksInterval
+ - IWeeklyTrigger.get_WeeksInterval
+ - IWeeklyTrigger.put_WeeksInterval
 ---
 
 # IWeeklyTrigger::get_WeeksInterval
@@ -69,4 +71,3 @@ When reading or writing your own XML for a task, the interval for a weekly sched
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

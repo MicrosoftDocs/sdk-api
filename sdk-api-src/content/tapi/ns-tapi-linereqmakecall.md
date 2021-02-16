@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Tapi.h
 api_name:
- - linereqmakecall_tag
- - LPLINEREQMAKECALL
  - LINEREQMAKECALL
 ---
 
@@ -88,4 +86,3 @@ The <b>szDestAddress</b> member contains the address of the remote party; the ot
 ## -see-also
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linegetrequest">lineGetRequest</a>
-

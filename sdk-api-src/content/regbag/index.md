@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - regbag
  - regbag/regbag
-api_name:
- - regbag
 ---
 
 # Regbag.h header

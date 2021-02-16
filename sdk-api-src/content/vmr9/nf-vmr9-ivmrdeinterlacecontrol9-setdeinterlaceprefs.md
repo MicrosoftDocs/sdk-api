@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IVMRDeinterlaceControl9::SetDeinterlacePrefs
+ - IVMRDeinterlaceControl9.SetDeinterlacePrefs
 ---
 
 # IVMRDeinterlaceControl9::SetDeinterlacePrefs
@@ -126,4 +126,3 @@ By default, the preferred deinterlacing mode is the first mode reported by the d
 
 
 <a href="/windows/desktop/DirectShow/video-mixing-renderer-filter-9">Video Mixing Renderer Filter 9</a>
-

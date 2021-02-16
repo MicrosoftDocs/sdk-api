@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IQuerySolution::GetLexicalData
+ - IQuerySolution.GetLexicalData
 ---
 
 # IQuerySolution::GetLexicalData
@@ -83,4 +83,3 @@ Receives a pointer to the word breaker used for this query. This parameter can b
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

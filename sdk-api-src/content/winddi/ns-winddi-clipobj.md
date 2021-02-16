@@ -44,7 +44,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _CLIPOBJ
  - CLIPOBJ
 ---
 
@@ -214,4 +213,3 @@ The region, described by CLIPOBJ, can be enumerated as a series of rectangles.
 
 
 <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
-

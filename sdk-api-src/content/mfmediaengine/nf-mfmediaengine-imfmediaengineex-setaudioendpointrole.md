@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngineEx::SetAudioEndpointRole
+ - IMFMediaEngineEx.SetAudioEndpointRole
 ---
 
 # IMFMediaEngineEx::SetAudioEndpointRole
@@ -69,4 +69,3 @@ For information on audio endpoint roles, see <a href="/windows/win32/api/mmdevic
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengineex">IMFMediaEngineEx</a>
-

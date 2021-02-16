@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateFontIndirectExW
  - wingdi/CreateFontIndirectExW
- - CreateFontIndirectEx
- - wingdi/CreateFontIndirectEx
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
  - GDI32Full.dll
 api_name:
- - CreateFontIndirectExW
  - CreateFontIndirectEx
+ - CreateFontIndirectExA
+ - CreateFontIndirectExW
 ---
 
 # CreateFontIndirectExW function
@@ -123,4 +122,3 @@ The font mapper for <a href="/windows/desktop/api/wingdi/nf-wingdi-createfonta">
 
 
 <a href="/windows/desktop/gdi/fonts-and-text">Fonts and Text Overview</a>
-

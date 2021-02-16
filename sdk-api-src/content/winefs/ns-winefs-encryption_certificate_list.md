@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinEfs.h
 api_name:
- - _ENCRYPTION_CERTIFICATE_LIST
- - PENCRYPTION_CERTIFICATE_LIST
  - ENCRYPTION_CERTIFICATE_LIST
 ---
 
@@ -90,4 +88,3 @@ A pointer to the first
 
 
 <a href="/windows/desktop/FileIO/file-encryption">File Encryption</a>
-

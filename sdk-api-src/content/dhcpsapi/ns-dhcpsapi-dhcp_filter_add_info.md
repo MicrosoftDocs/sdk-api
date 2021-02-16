@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_FILTER_ADD_INFOV4
- - LPDHCP_FILTER_ADD_INFO
  - DHCP_FILTER_ADD_INFO
 ---
 
@@ -79,4 +77,3 @@ Pointer to a Unicode string that contains a text comment for the filter.
 
 
 <a href="/windows/desktop/api/dhcpsapi/ne-dhcpsapi-dhcp_filter_list_type">DHCP_FILTER_LIST_TYPE</a>
-

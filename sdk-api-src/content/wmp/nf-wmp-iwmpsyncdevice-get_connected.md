@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPSyncDevice::get_connected
+ - IWMPSyncDevice.get_connected
 ---
 
 # IWMPSyncDevice::get_connected
@@ -123,4 +123,3 @@ Windows Media Player is currently busy initializing devices. Please try again la
 
 
 <a href="/windows/desktop/WMP/retrieving-device-attributes">Retrieving Device Attributes</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFContentEnabler::GetEnableData
+ - IMFContentEnabler.GetEnableData
 ---
 
 # IMFContentEnabler::GetEnableData
@@ -127,4 +127,3 @@ The purpose of the data depends on the content enabler type, which is obtained b
 
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfcontentenabler">IMFContentEnabler</a>
-

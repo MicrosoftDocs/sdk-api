@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwpmtypes.h
 api_name:
- - FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0_
  - FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0
 ---
 
@@ -109,4 +108,3 @@ Uniquely identifies this session.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_data_tag
- - PPEER_DATA
  - PEER_DATA
 ---
 
@@ -87,4 +85,3 @@ Pointer to a buffer.
 
 
 <a href="/windows/desktop/api/p2p/nc-p2p-pfnpeer_secure_record">PFNPEER_SECURE_RECORD</a>
-

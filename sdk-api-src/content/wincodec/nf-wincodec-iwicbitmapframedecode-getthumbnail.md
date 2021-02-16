@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICBitmapFrameDecode::GetThumbnail
+ - IWICBitmapFrameDecode.GetThumbnail
 ---
 
 # IWICBitmapFrameDecode::GetThumbnail
@@ -72,4 +72,3 @@ Not all formats support thumbnails. Joint Photographic Experts Group (JPEG), Tag
 
 <h3><a id="Note_to_Implementers"></a><a id="note_to_implementers"></a><a id="NOTE_TO_IMPLEMENTERS"></a>Note to Implementers</h3>
 If the codec does not support thumbnails, return WINCODEC_ERROR_CODECNOTHUMBNAIL rather than E_NOTIMPL.
-

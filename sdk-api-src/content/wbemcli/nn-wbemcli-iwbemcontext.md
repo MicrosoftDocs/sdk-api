@@ -50,6 +50,7 @@ api_location:
  - Wmipjobj.dll
 api_name:
  - IWbemContext
+ - WbemContext
 ---
 
 # IWbemContext interface
@@ -125,4 +126,3 @@ The client application calls <a href="/windows/desktop/api/combaseapi/nf-combase
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-part-of-an-instance">Retrieving Part of a WMI Instance</a>
-

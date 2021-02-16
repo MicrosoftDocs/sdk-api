@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice2::GetStorage
+ - IMDSPDevice2.GetStorage
 ---
 
 # IMDSPDevice2::GetStorage
@@ -87,4 +87,3 @@ This method is optional. For more information, see <a href="/windows/desktop/WMD
 ## -see-also
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspdevice2">IMDSPDevice2 Interface</a>
-

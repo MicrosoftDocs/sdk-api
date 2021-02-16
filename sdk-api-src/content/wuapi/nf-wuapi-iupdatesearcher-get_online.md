@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateSearcher::get_Online
+ - IUpdateSearcher.Online
+ - IUpdateSearcher.get_Online
+ - IUpdateSearcher.put_Online
 ---
 
 # IUpdateSearcher::get_Online
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatesearcher">IUpdateSearcher</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots
+ - IAccessibleHostingElementProviders.GetEmbeddedFragmentRoots
 ---
 
 # IAccessibleHostingElementProviders::GetEmbeddedFragmentRoots
@@ -75,4 +75,3 @@ This method should not include any providers that do not implement <b>IRawElemen
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iaccessiblehostingelementproviders">IAccessibleHostingElementProviders</a>
-

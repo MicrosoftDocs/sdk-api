@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth::PlayBuffer
+ - IDirectMusicSynth.PlayBuffer
 ---
 
 # IDirectMusicSynth::PlayBuffer
@@ -161,4 +161,3 @@ For more information, see the descriptions of the <b>IDirectMusic</b>, <b>IDirec
 
 
 <a href="/windows/desktop/api/dmusics/nf-dmusics-idirectmusicsynthsink-reftimetosample">IDirectMusicSynthSink::RefTimeToSample</a>
-

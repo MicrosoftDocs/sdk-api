@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ipsectypes.h
 api_name:
- - IPSEC_TRANSPORT_POLICY2_
  - IPSEC_TRANSPORT_POLICY2
 ---
 
@@ -198,4 +197,3 @@ The AuthIP extended mode authentication policy.
 
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

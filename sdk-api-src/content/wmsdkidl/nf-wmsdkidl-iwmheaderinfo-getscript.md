@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMHeaderInfo::GetScript
+ - IWMHeaderInfo.GetScript
+ - IWMHeaderInfo2.GetScript
+ - IWMHeaderInfo3.GetScript
 ---
 
 # IWMHeaderInfo::GetScript
@@ -197,4 +199,3 @@ You should make two calls to <b>GetScript</b> for each script you want to retrie
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmheaderinfo-removescript">IWMHeaderInfo::RemoveScript</a>
-

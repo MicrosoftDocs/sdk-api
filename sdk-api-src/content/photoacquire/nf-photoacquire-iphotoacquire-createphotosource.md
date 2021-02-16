@@ -43,7 +43,7 @@ api_location:
  - PhotoAcquireUID.lib
  - PhotoAcquireUID.dll
 api_name:
- - IPhotoAcquire::CreatePhotoSource
+ - IPhotoAcquire.CreatePhotoSource
 ---
 
 # IPhotoAcquire::CreatePhotoSource
@@ -109,4 +109,3 @@ If an error occurs in <code>CreatePhotoSource</code>, <i>ppPhotoAcquireSource</i
 
 
 <a href="/windows/desktop/api/photoacquire/nf-photoacquire-iphotoacquire-acquire">IPhotoAcquire::Acquire</a>
-

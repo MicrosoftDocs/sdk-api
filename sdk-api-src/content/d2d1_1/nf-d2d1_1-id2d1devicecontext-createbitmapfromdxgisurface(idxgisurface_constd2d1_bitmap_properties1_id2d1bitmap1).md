@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1DeviceContext::CreateBitmapFromDxgiSurface
+ - ID2D1DeviceContext.CreateBitmapFromDxgiSurface
 ---
 
 # ID2D1DeviceContext::CreateBitmapFromDxgiSurface
@@ -145,4 +145,3 @@ If the bitmap properties are specified, the bitmap properties will be used as fo
 
 
 <a href="/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-settarget">ID2D1DeviceContext::SetTarget</a>
-

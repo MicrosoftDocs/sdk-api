@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisual::SetClip
+ - IDCompositionVisual.SetClip
 ---
 
 # IDCompositionVisual::SetClip
@@ -94,4 +94,3 @@ If the clip rectangle is empty, the visual is fully clipped; that is, the visual
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-

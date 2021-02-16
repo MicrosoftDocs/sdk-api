@@ -43,7 +43,7 @@ api_location:
  - D3D11.lib
  - D3D11.dll
 api_name:
- - ID3D11RenderTargetView::GetDesc
+ - ID3D11RenderTargetView.GetDesc
 ---
 
 # ID3D11RenderTargetView::GetDesc
@@ -64,4 +64,3 @@ Pointer to the description of a render target view (see <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11rendertargetview">ID3D11RenderTargetView</a>
-

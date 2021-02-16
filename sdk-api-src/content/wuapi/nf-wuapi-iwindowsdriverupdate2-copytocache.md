@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdate2::CopyToCache
+ - IWindowsDriverUpdate2.CopyToCache
 ---
 
 # IWindowsDriverUpdate2::CopyToCache
@@ -119,4 +119,3 @@ This method returns <b>WU_E_INVALID_OPERATION</b> if the object that is  impleme
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdate2">IWindowsDriverUpdate2</a>
-

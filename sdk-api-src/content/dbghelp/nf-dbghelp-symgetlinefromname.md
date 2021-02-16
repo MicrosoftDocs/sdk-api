@@ -42,6 +42,9 @@ api_type:
 api_location:
  - Dbghelp.dll
 api_name:
+ - SymGetLineFromName64
+ - SymGetLineFromName64
+ - SymGetLineFromNameW64
  - SymGetLineFromName
 ---
 
@@ -169,4 +172,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/dbghelp/nf-dbghelp-syminitialize">SymInitialize</a>
-

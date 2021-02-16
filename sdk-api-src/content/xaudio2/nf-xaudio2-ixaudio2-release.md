@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2::Release
+ - IXAudio2.Release
 ---
 
 # IXAudio2::Release
@@ -77,4 +77,3 @@ Windows 10 (XAudio2.9);
 ## -see-also
 
 <a href="/windows/desktop/api/xaudio2/nn-xaudio2-ixaudio2">IXAudio2</a>
-

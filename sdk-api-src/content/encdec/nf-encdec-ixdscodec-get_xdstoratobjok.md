@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IXDSCodec::get_XDSToRatObjOK
+ - IXDSCodec.get_XDSToRatObjOK
 ---
 
 # IXDSCodec::get_XDSToRatObjOK
@@ -94,4 +94,3 @@ Success
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodec">IXDSCodec Interface</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_RoutingString
+ - IFaxStatus.RoutingString
+ - IFaxStatus.get_RoutingString
 ---
 
 # IFaxStatus::get_RoutingString
@@ -89,4 +90,3 @@ The <b>IFaxStatus::get_RoutingString</b> method allocates the memory required fo
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

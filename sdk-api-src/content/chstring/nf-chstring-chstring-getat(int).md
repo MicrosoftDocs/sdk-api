@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::GetAt
+ - CHString.GetAt
 ---
 
 # CHString::GetAt(int)
@@ -98,4 +98,3 @@ assert( s.GetAt(2) == 'c' );
 
 
 <a href="/previous-versions/windows/desktop/legacy/aa386162(v=vs.85)">CHString::operator[]</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IFilterChain::PauseChain
+ - IFilterChain.PauseChain
 ---
 
 # IFilterChain::PauseChain
@@ -78,4 +78,3 @@ If this method cannot switch a given filter into a paused state, it stops all of
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ifilterchain">IFilterChain Interface</a>
-

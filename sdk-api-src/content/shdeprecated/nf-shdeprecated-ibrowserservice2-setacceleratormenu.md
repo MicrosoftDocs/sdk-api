@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService2::SetAcceleratorMenu
+ - IBrowserService2.SetAcceleratorMenu
 ---
 
 # IBrowserService2::SetAcceleratorMenu
@@ -66,4 +66,3 @@ A handle to an array of <a href="/windows/desktop/api/winuser/ns-winuser-accel">
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3D9::CheckDepthStencilMatch
+ - IDirect3D9.CheckDepthStencilMatch
 ---
 
 # IDirect3D9::CheckDepthStencilMatch
@@ -136,4 +136,3 @@ The preceding call will return <b>FALSE</b> if DepthFormat cannot be used in con
 ## -see-also
 
 <a href="/windows/desktop/api/d3d9helper/nn-d3d9helper-idirect3d9">IDirect3D9</a>
-

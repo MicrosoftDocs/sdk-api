@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mfcaptureengine.h
 api_name:
- - IMFCaptureSource::GetStreamIndexFromFriendlyName
+ - IMFCaptureSource.GetStreamIndexFromFriendlyName
 ---
 
 # IMFCaptureSource::GetStreamIndexFromFriendlyName
@@ -78,4 +78,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 <a href="/windows/desktop/api/mfcaptureengine/nn-mfcaptureengine-imfcapturesource">IMFCaptureSource</a>
-

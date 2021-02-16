@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - ITDirectoryObject::EnumerateDialableAddrs
+ - ITDirectoryObject.EnumerateDialableAddrs
 ---
 
 # ITDirectoryObject::EnumerateDialableAddrs
@@ -124,4 +124,3 @@ TAPI calls the <b>AddRef</b> method on the
 
 
 <a href="/windows/desktop/api/rend/nn-rend-itdirectoryobject">ITDirectoryObject</a>
-

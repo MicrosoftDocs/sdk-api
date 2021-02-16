@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Wuapi.h
 api_name:
- - tagUpdateExceptionContext
  - UpdateExceptionContext
 ---
 
@@ -74,4 +73,3 @@ The <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdateexception">IUpdateExcept
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iupdateexception-get_context">IUpdateException.Context</a>
-

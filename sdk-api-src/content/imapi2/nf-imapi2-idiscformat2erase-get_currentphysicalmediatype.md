@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Erase::get_CurrentPhysicalMediaType
+ - IDiscFormat2Erase.get_CurrentPhysicalMediaType
 ---
 
 # IDiscFormat2Erase::get_CurrentPhysicalMediaType
@@ -347,4 +347,3 @@ Value: 0xC0AA0210
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-idiscformat2erase">IDiscFormat2Erase</a>
-

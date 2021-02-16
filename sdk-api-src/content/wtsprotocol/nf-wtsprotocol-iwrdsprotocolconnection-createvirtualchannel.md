@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wtsprotocol.h
 api_name:
- - IWRdsProtocolConnection::CreateVirtualChannel
+ - IWRdsProtocolConnection.CreateVirtualChannel
 ---
 
 # IWRdsProtocolConnection::CreateVirtualChannel
@@ -94,4 +94,3 @@ Virtual channels are software extensions that can be created to enhance a Remote
 ## -see-also
 
 <a href="/windows/desktop/api/wtsprotocol/nn-wtsprotocol-iwrdsprotocolconnection">IWRdsProtocolConnection</a>
-

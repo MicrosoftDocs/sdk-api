@@ -9,8 +9,6 @@ tech.root: controls
 f1_keywords:
  - uxtheme
  - uxtheme/uxtheme
-api_name:
- - uxtheme
 ---
 
 # Uxtheme.h header

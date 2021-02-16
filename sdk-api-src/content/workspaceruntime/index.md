@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - workspaceruntime
  - workspaceruntime/workspaceruntime
-api_name:
- - workspaceruntime
 ---
 
 # Workspaceruntime.h header

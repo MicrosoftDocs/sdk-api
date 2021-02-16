@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage::GetRights
+ - IMDSPStorage.GetRights
 ---
 
 # IMDSPStorage::GetRights
@@ -93,4 +93,3 @@ This method is optional. For more information, see <a href="/windows/desktop/WMD
 
 
 <a href="/windows/desktop/WMDM/wmdmrights">WMDMRIGHTS</a>
-

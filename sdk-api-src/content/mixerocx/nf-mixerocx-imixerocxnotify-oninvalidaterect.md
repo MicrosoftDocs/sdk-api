@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCXNotify::OnInvalidateRect
+ - IMixerOCXNotify.OnInvalidateRect
 ---
 
 # IMixerOCXNotify::OnInvalidateRect
@@ -70,4 +70,3 @@ If the method succeeds, it returns S_OK.
 
 
 <a href="/windows/desktop/api/mixerocx/nn-mixerocx-imixerocxnotify">IMixerOCXNotify Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.h
 api_name:
- - IWMPLibrary2::getItemInfo
+ - IWMPLibrary2.getItemInfo
 ---
 
 # IWMPLibrary2::getItemInfo
@@ -91,4 +91,3 @@ The <b>LibraryID</b> attribute retrieved by this method is the same as the <b>Li
 ## -see-also
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmplibrary2">IWMPLibrary2</a>
-

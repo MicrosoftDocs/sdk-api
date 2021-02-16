@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IDistributorNotify::Pause
+ - IDistributorNotify.Pause
 ---
 
 # IDistributorNotify::Pause
@@ -99,4 +99,3 @@ This method is called before the filters are notified.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-idistributornotify">IDistributorNotify Interface</a>
-

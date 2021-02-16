@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IDTFilter3::LicenseHasExpirationDate
+ - IDTFilter3.LicenseHasExpirationDate
 ---
 
 # IDTFilter3::LicenseHasExpirationDate
@@ -83,4 +83,3 @@ Success.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-idtfilter3">IDTFilter3 Interface</a>
-

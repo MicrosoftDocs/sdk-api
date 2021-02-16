@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Evalcom2.dll
 api_name:
- - IValidate::CloseDatabase
+ - IValidate.CloseDatabase
 ---
 
 # IValidate::CloseDatabase
@@ -88,4 +88,3 @@ This method can also return one or more of the errors returned by the <a href="/
 
 
 <a href="/windows/desktop/Msi/validation-callback-functions">Validation Callback Functions</a>
-

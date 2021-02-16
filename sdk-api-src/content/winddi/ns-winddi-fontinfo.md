@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - _FONTINFO
- - PFONTINFO
  - FONTINFO
 ---
 
@@ -95,4 +93,3 @@ GDI writes and returns this structure through <a href="/windows/desktop/api/wind
 ## -see-also
 
 <a href="/windows/desktop/api/winddi/nf-winddi-fontobj_vgetinfo">FONTOBJ_vGetInfo</a>
-

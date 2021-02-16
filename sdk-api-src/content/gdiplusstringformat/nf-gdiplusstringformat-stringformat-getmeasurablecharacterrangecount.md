@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - StringFormat::GetMeasurableCharacterRangeCount
+ - StringFormat.GetMeasurableCharacterRangeCount
 ---
 
 # StringFormat::GetMeasurableCharacterRangeCount
@@ -73,4 +73,3 @@ This method returns an integer that indicates the number of character ranges tha
 
 
 <a href="/windows/desktop/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-setmeasurablecharacterranges">StringFormat::SetMeasurableCharacterRanges</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IBlockRange::get_EndLba
+ - IBlockRange.get_EndLba
 ---
 
 # IBlockRange::get_EndLba
@@ -88,4 +88,3 @@ The sector number returned by this method is included in the range.
 ## -see-also
 
 <a href="/windows/desktop/api/imapi2/nn-imapi2-iblockrange">IBlockRange</a>
-

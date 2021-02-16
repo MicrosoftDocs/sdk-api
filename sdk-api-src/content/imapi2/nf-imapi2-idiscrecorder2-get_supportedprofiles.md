@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2::get_SupportedProfiles
+ - IDiscRecorder2.get_SupportedProfiles
 ---
 
 # IDiscRecorder2::get_SupportedProfiles
@@ -383,4 +383,3 @@ Value: 0xC0AA0210
 
 
 <a href="/windows/desktop/api/imapi2/ne-imapi2-imapi_profile_type">IMAPI_PROFILE_TYPE</a>
-

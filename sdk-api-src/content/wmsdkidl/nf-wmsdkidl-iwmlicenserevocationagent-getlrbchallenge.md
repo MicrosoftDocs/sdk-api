@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMLicenseRevocationAgent::GetLRBChallenge
+ - IWMLicenseRevocationAgent.GetLRBChallenge
 ---
 
 # IWMLicenseRevocationAgent::GetLRBChallenge
@@ -112,4 +112,3 @@ After the challenge and response have been processed, the license server sends a
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserevocationagent">IWMLicenseRevocationAgent Interface</a>
-

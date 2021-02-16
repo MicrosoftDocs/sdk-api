@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnLMProcessor::QueryKey
+ - ITfFnLMProcessor.QueryKey
 ---
 
 # ITfFnLMProcessor::QueryKey
@@ -103,4 +103,3 @@ The method was successful.
 
 
 <a href="/windows/desktop/inputdev/wm-keyup">WM_KEYUP</a>
-

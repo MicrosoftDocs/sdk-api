@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Http.h
 api_name:
- - _HTTP_KNOWN_HEADER
- - PHTTP_KNOWN_HEADER
  - HTTP_KNOWN_HEADER
 ---
 
@@ -93,4 +91,3 @@ For more information about the structure and usage of HTTP headers, see the
 
 
 <a href="/windows/desktop/api/http/ns-http-http_response_headers">HTTP_RESPONSE_HEADERS</a>
-

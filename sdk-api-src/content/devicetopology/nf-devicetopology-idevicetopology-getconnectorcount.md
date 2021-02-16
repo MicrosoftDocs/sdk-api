@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IDeviceTopology::GetConnectorCount
+ - IDeviceTopology.GetConnectorCount
 ---
 
 # IDeviceTopology::GetConnectorCount
@@ -83,4 +83,3 @@ Pointer <i>pCount</i> is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-idevicetopology">IDeviceTopology Interface</a>
-

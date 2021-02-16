@@ -42,7 +42,7 @@ api_type:
 api_location:
  - rometadataapi.h
 api_name:
- - IMetaDataImport::EnumMethodImpls
+ - IMetaDataImport.EnumMethodImpls
 ---
 
 # IMetaDataImport::EnumMethodImpls
@@ -101,4 +101,3 @@ The actual number of methods returned in <i>rMethodBody</i> and <i>rMethodDecl</
 ## -see-also
 
 <a href="/windows/desktop/api/rometadataapi/nn-rometadataapi-imetadataimport">IMetaDataImport</a>
-

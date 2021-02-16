@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMWriterNetworkSink::SetNetworkProtocol
+ - IWMWriterNetworkSink.SetNetworkProtocol
 ---
 
 # IWMWriterNetworkSink::SetNetworkProtocol
@@ -101,4 +101,3 @@ Invalid argument.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmwriternetworksink-getnetworkprotocol">IWMWriterNetworkSink::GetNetworkProtocol</a>
-

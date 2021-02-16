@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - Module32NextW
  - tlhelp32/Module32NextW
- - Module32Next
- - tlhelp32/Module32Next
 dev_langs:
  - c++
 topic_type:
@@ -51,8 +49,9 @@ api_location:
  - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
  - API-MS-Win-Core-ToolHelp-L1-1-1.dll
 api_name:
- - Module32NextW
  - Module32Next
+ - Module32Next
+ - Module32NextW
 ---
 
 # Module32NextW function
@@ -117,4 +116,3 @@ For an example, see
 
 
 <a href="/windows/desktop/ToolHelp/tool-help-functions">Tool Help Functions</a>
-

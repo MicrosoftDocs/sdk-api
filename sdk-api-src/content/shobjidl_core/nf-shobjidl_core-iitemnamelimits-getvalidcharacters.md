@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IItemNameLimits::GetValidCharacters
+ - IItemNameLimits.GetValidCharacters
 ---
 
 # IItemNameLimits::GetValidCharacters
@@ -82,4 +82,3 @@ in <i>ppwszInvalidChars</i>. It is assumed that when there are specified invalid
 			
 
 If the method returns a success code, the allocated string must be freed using <a href="/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>.
-

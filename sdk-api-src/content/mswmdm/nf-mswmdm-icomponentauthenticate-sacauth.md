@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IComponentAuthenticate::SACAuth
+ - IComponentAuthenticate.SACAuth
 ---
 
 # IComponentAuthenticate::SACAuth
@@ -140,4 +140,3 @@ HRESULT CMyServiceProvider::SACAuth(
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate">IComponentAuthenticate Interface</a>
-

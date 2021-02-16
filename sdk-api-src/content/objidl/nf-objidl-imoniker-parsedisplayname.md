@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IMoniker::ParseDisplayName
+ - IMoniker.ParseDisplayName
 ---
 
 # IMoniker::ParseDisplayName
@@ -214,4 +214,3 @@ Parses a full or partial URL string into a result moniker (ppmkOut). If <i>szDis
 
 
 <a href="/windows/desktop/api/objbase/nf-objbase-mkparsedisplayname">MkParseDisplayName</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnSmsConfiguration::put_SmsFormat
+ - IMbnSmsConfiguration.SmsFormat
+ - IMbnSmsConfiguration.get_SmsFormat
+ - IMbnSmsConfiguration.put_SmsFormat
 ---
 
 # IMbnSmsConfiguration::put_SmsFormat
@@ -62,4 +64,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnsmsconfiguration">IMbnSmsConfiguration</a>
-

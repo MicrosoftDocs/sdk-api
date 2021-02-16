@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfUIElementMgr::GetUIElement
+ - ITfUIElementMgr.GetUIElement
 ---
 
 # ITfUIElementMgr::GetUIElement
@@ -105,4 +105,3 @@ One or more parameters are invalid.
 </td>
 </tr>
 </table>
-

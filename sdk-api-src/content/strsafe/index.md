@@ -9,8 +9,6 @@ tech.root: menurc
 f1_keywords:
  - strsafe
  - strsafe/strsafe
-api_name:
- - strsafe
 ---
 
 # Strsafe.h header

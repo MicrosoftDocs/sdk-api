@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _MPR_SERVER_SET_CONFIG_EX1
- - PMPR_SERVER_SET_CONFIG_EX1
+ - MPR_SERVER_SET_CONFIG_EX
+ - MPR_SERVER_SET_CONFIG_EX0
  - MPR_SERVER_SET_CONFIG_EX1
 ---
 
@@ -129,4 +129,3 @@ A <a href="/windows/desktop/api/mprapi/ns-mprapi-mprapi_tunnel_config_params0">M
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_ALT_NAME_INFO
- - PCERT_ALT_NAME_INFO
  - CERT_ALT_NAME_INFO
 ---
 
@@ -78,4 +76,3 @@ Array of
 ## -see-also
 
 <a href="/windows/desktop/api/wincrypt/ns-wincrypt-cert_alt_name_entry">CERT_ALT_NAME_ENTRY</a>
-

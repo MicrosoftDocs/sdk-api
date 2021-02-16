@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesEvents::DataLost
+ - IOfflineFilesEvents.DataLost
 ---
 
 # IOfflineFilesEvents::DataLost
@@ -66,4 +66,3 @@ This event cannot be filtered out by using the <a href="/previous-versions/windo
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/cscobj/nn-cscobj-iofflinefilesevents">IOfflineFilesEvents</a>
-

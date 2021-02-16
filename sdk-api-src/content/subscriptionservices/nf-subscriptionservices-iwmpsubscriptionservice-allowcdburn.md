@@ -42,7 +42,7 @@ api_type:
 api_location:
  - subscriptionservices.h
 api_name:
- - IWMPSubscriptionService::allowCDBurn
+ - IWMPSubscriptionService.allowCDBurn
 ---
 
 # IWMPSubscriptionService::allowCDBurn
@@ -87,4 +87,3 @@ Regardless of the Player version, there is no callback mechanism that the backgr
 ## -see-also
 
 <a href="/windows/desktop/api/subscriptionservices/nn-subscriptionservices-iwmpsubscriptionservice">IWMPSubscriptionService Interface</a>
-

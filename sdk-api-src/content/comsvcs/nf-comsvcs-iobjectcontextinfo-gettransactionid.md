@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IObjectContextInfo::GetTransactionId
+ - IObjectContextInfo.GetTransactionId
 ---
 
 # IObjectContextInfo::GetTransactionId
@@ -98,4 +98,3 @@ Objects in the same transaction share the same transaction identifier.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-iobjectcontextinfo">IObjectContextInfo</a>
-

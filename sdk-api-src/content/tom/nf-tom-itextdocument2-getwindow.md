@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument2::GetWindow
+ - ITextDocument2.GetWindow
 ---
 
 # ITextDocument2::GetWindow
@@ -75,4 +75,3 @@ The Input Method Editor (IME) needs the handle of the window that is receiving k
 ## -see-also
 
 <a href="/windows/desktop/api/tom/nn-tom-itextdocument2">ITextDocument2</a>
-

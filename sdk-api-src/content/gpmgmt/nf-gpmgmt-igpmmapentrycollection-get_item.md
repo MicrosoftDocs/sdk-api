@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMMapEntryCollection::get_Item
+ - IGPMMapEntryCollection.Item
+ - IGPMMapEntryCollection.get_Item
+ - GPMMapEntryCollection.Item
 ---
 
 # IGPMMapEntryCollection::get_Item
@@ -63,4 +65,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmmapentrycollection">IGPMMapEntryCollection</a>
-

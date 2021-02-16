@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winwlx.h
 api_name:
- - _WLX_DISPATCH_VERSION_1_0
- - PWLX_DISPATCH_VERSION_1_0
  - WLX_DISPATCH_VERSION_1_0
 ---
 
@@ -121,4 +119,3 @@ Pointer to a <a href="/windows/desktop/api/winwlx/nc-winwlx-pwlx_change_password
 ## -see-also
 
 <a href="/windows/desktop/api/winwlx/nf-winwlx-wlxinitialize">WlxInitialize</a>
-

@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmReportManager::SetOutputDirectory
+ - IFsrmReportManager.SetOutputDirectory
+ - FsrmReportManager.SetOutputDirectory
 ---
 
 # IFsrmReportManager::SetOutputDirectory
@@ -113,4 +114,3 @@ The default output directories are:
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmreports/nn-fsrmreports-ifsrmreportmanager">IFsrmReportManager</a>
-

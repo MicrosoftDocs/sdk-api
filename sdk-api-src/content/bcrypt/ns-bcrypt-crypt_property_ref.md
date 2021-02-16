@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Bcrypt.h
 api_name:
- - _CRYPT_PROPERTY_REF
- - PCRYPT_PROPERTY_REF
  - CRYPT_PROPERTY_REF
 ---
 
@@ -79,4 +77,3 @@ A pointer to a memory buffer that contains the value of the property. The format
 
 
 <a href="/windows/desktop/api/bcrypt/ns-bcrypt-crypt_provider_ref">CRYPT_PROVIDER_REF</a>
-

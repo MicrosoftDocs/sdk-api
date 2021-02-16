@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMWMIFilter::GetSecurityInfo
+ - IGPMWMIFilter.GetSecurityInfo
+ - GPMWMIFilter.GetSecurityInfo
 ---
 
 # IGPMWMIFilter::GetSecurityInfo
@@ -81,4 +82,3 @@ Returns a reference to a <a href="/previous-versions/windows/desktop/api/gpmgmt/
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmwmifiltercollection">IGPMWMIFilterCollection</a>
-

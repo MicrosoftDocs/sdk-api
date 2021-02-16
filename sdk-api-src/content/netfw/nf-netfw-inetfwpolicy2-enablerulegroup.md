@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwPolicy2::EnableRuleGroup
+ - INetFwPolicy2.EnableRuleGroup
 ---
 
 # INetFwPolicy2::EnableRuleGroup
@@ -172,4 +172,3 @@ When indirect strings in the form of "@C:\Program Files\Contoso Storefront\Store
 
 
 <a href="/previous-versions/windows/desktop/ics/rule-authoring">Rule Authoring</a>
-

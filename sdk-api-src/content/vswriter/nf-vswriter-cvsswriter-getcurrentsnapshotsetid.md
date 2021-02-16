@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - CVssWriter::GetCurrentSnapshotSetId
+ - CVssWriter.GetCurrentSnapshotSetId
 ---
 
 # CVssWriter::GetCurrentSnapshotSetId
@@ -96,4 +96,3 @@ However, this cannot be said for calls to <b>GetCurrentSnapshotSetId</b> from wi
 
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-data-types">VSS_ID</a>
-

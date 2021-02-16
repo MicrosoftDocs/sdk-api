@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextDocument::EndEditCollection
+ - ITextDocument.EndEditCollection
 ---
 
 # ITextDocument::EndEditCollection
@@ -105,4 +105,3 @@ The screen is unfrozen unless the freeze count is nonzero.
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

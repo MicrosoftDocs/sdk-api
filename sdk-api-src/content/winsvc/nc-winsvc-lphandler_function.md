@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winsvc.h
 api_name:
- - LPHANDLER_FUNCTION
+ - Handler
 ---
 
 # LPHANDLER_FUNCTION callback function
@@ -285,4 +285,3 @@ For an example, see
 
 
 <a href="/windows/desktop/api/winsvc/nf-winsvc-setservicestatus">SetServiceStatus</a>
-

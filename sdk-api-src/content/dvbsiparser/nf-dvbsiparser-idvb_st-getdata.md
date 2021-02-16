@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dvbsiparser.h
 api_name:
- - IDVB_ST::GetData
+ - IDVB_ST.GetData
 ---
 
 # IDVB_ST::GetData
@@ -125,4 +125,3 @@ The data in an ST has no meaning.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/dvbsiparser/nn-dvbsiparser-idvb_st">IDVB_ST Interface</a>
-

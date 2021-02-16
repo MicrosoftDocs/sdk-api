@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - memoryapi
  - memoryapi/memoryapi
-api_name:
- - memoryapi
 ---
 
 # Memoryapi.h header

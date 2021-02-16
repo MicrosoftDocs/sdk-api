@@ -46,8 +46,6 @@ api_type:
 api_location:
  - BthLEDef.h
 api_name:
- - _BTH_LE_GATT_SERVICE
- - PBTH_LE_GATT_SERVICE
  - BTH_LE_GATT_SERVICE
 ---
 
@@ -83,4 +81,3 @@ The handle to the Bluetooth LE GATT profile attributes.
 
 
 <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattgetservices">BluetoothGATTGetServices</a>
-

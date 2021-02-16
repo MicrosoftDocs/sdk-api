@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - vswriter
  - vswriter/vswriter
-api_name:
- - vswriter
 ---
 
 # Vswriter.h header

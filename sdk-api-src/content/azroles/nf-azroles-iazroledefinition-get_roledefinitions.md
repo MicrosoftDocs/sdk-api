@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzRoleDefinition::get_RoleDefinitions
+ - IAzRoleDefinition.RoleDefinitions
+ - IAzRoleDefinition.get_RoleDefinitions
 ---
 
 # IAzRoleDefinition::get_RoleDefinitions
@@ -55,4 +56,3 @@ The <b>RoleDefinitions</b> property retrieves a collection of the <a href="/wind
 This property is read-only.
 
 ## -parameters
-

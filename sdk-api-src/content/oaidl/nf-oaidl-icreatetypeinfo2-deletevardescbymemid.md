@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo2::DeleteVarDescByMemId
+ - ICreateTypeInfo2.DeleteVarDescByMemId
 ---
 
 # ICreateTypeInfo2::DeleteVarDescByMemId
@@ -154,4 +154,3 @@ The type library cannot be opened.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo2">ICreateTypeInfo2</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace::Refresh
+ - IWdsTransportNamespace.Refresh
 ---
 
 # IWdsTransportNamespace::Refresh
@@ -65,4 +65,3 @@ The method fails if the namespace object has never been registered on the server
 ## -see-also
 
 <a href="/windows/desktop/api/wdstptmgmt/nn-wdstptmgmt-iwdstransportnamespace">IWdsTransportNamespace</a>
-

@@ -43,7 +43,7 @@ api_location:
  - D3D9.lib
  - D3D9.dll
 api_name:
- - IDirect3DDevice9::Reset
+ - IDirect3DDevice9.Reset
 ---
 
 # IDirect3DDevice9::Reset
@@ -118,4 +118,3 @@ If a multihead device was created with <a href="/windows/desktop/direct3d9/d3dcr
 
 
 <a href="/windows/desktop/direct3d9/multihead">Multihead (Direct3D 9)</a>
-

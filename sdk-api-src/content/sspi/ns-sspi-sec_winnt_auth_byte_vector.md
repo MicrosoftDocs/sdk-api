@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _SEC_WINNT_AUTH_BYTE_VECTOR
- - PSEC_WINNT_AUTH_BYTE_VECTOR
  - SEC_WINNT_AUTH_BYTE_VECTOR
 ---
 
@@ -83,4 +81,3 @@ The number of bytes in the data array of a structure.
 
 
 <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_auth_packed_credentials_ex">SEC_WINNT_AUTH_PACKED_CREDENTIALS_EX</a>
-

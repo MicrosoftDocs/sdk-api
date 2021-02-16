@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ICspInformations::get_ItemByName
+ - ICspInformations.ItemByName
+ - ICspInformations.get_ItemByName
 ---
 
 # ICspInformations::get_ItemByName
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-icspinformations">ICspInformations</a>
-

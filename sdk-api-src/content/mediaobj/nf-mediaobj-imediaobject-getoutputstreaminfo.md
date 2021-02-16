@@ -43,7 +43,7 @@ api_location:
  - Dmoguids.lib
  - Dmoguids.dll
 api_name:
- - IMediaObject::GetOutputStreamInfo
+ - IMediaObject.GetOutputStreamInfo
 ---
 
 # IMediaObject::GetOutputStreamInfo
@@ -110,4 +110,3 @@ Success
 ## -see-also
 
 <a href="/windows/desktop/api/mediaobj/nn-mediaobj-imediaobject">IMediaObject Interface</a>
-

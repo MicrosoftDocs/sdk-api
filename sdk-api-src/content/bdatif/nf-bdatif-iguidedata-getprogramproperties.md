@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bdatif.h
 api_name:
- - IGuideData::GetProgramProperties
+ - IGuideData.GetProgramProperties
 ---
 
 # IGuideData::GetProgramProperties
@@ -119,4 +119,3 @@ The method fails if the TIF has not received the program information from the PS
 
 
 <a href="/previous-versions/windows/desktop/api/bdatif/nn-bdatif-iguidedata">IGuideData Interface</a>
-

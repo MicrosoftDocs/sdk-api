@@ -42,7 +42,7 @@ api_type:
 api_location:
  - direct2d.dll
 api_name:
- - ID2D1SvgAttribute::Clone
+ - ID2D1SvgAttribute.Clone
 ---
 
 # ID2D1SvgAttribute::Clone
@@ -69,4 +69,3 @@ This method returns an HRESULT success or error code.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1svg/nn-d2d1svg-id2d1svgattribute">ID2D1SvgAttribute</a>
-

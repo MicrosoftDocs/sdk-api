@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcobj.h
 api_name:
- - ISnapinProperties::QueryPropertyNames
+ - ISnapinProperties.QueryPropertyNames
 ---
 
 # ISnapinProperties::QueryPropertyNames
@@ -64,4 +64,3 @@ A pointer to the
 ## -returns
 
 If successful, the return value is S_OK; otherwise, the return value is an error code.
-

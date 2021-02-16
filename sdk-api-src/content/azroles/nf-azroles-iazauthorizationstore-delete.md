@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzAuthorizationStore::Delete
+ - AzAuthorizationStore.Delete
+ - IAzAuthorizationStore.Delete
 ---
 
 # IAzAuthorizationStore::Delete
@@ -64,4 +65,3 @@ When the <b>Delete</b> method is called, the <a href="/windows/desktop/api/azrol
 
 <div class="alert"><b>Important</b>  All objects opened by clients on the policy store  (for example,  <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a> objects created using <a href="/windows/desktop/api/azroles/nf-azroles-iazauthorizationstore-createapplication">CreateApplication</a>) must be released before you call the <b>Delete</b> method. If the <b>Delete</b> method is called on an <a href="/windows/desktop/api/azroles/nn-azroles-iazauthorizationstore">AzAuthorizationStore</a> object whose current policy store contains child objects, HRESULT_FROM_WIN32(ERROR_SERVER_HAS_OPEN_HANDLES) is returned.</div>
 <div> </div>
-

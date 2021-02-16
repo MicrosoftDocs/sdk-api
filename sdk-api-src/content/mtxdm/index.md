@@ -9,8 +9,6 @@ tech.root: cos
 f1_keywords:
  - mtxdm
  - mtxdm/mtxdm
-api_name:
- - mtxdm
 ---
 
 # Mtxdm.h header

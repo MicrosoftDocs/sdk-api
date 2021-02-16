@@ -44,8 +44,7 @@ api_type:
 api_location:
  - Dinput.h
 api_name:
- - DIEFFESCAPE
- - LPDIEFFESCAPE
+ - DIEFFESCAPE, *LPDIEFFESCAPE
 ---
 
 # DIEFFESCAPE structure

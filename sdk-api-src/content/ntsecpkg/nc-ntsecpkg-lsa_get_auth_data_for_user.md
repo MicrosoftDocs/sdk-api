@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_GET_AUTH_DATA_FOR_USER
+ - GetAuthDataForUser
 ---
 
 # LSA_GET_AUTH_DATA_FOR_USER callback function
@@ -166,4 +166,3 @@ Pointers to these functions are available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

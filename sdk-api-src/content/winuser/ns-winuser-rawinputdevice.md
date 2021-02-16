@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagRAWINPUTDEVICE
- - PRAWINPUTDEVICE
  - RAWINPUTDEVICE
 ---
 
@@ -216,4 +214,3 @@ If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>
 <b>Reference</b>
 
 [RegisterRawInputDevices](nf-winuser-registerrawinputdevices.md)
-

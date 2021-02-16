@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITPropList::SetPersist
+ - IITPropList.SetPersist
 ---
 
 # IITPropList::SetPersist(BOOL)
@@ -89,4 +89,3 @@ By default, properties are created with a persistence state of TRUE.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitproplist">IITPropList</a>
-

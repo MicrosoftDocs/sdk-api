@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_EIT::GetRecordEtmLocation
+ - IATSC_EIT.GetRecordEtmLocation
 ---
 
 # IATSC_EIT::GetRecordEtmLocation
@@ -114,4 +114,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_eit">IATSC_EIT Interface</a>
-

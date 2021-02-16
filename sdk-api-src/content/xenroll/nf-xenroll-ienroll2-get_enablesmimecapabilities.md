@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll2::get_EnableSMIMECapabilities
+ - IEnroll2.EnableSMIMECapabilities
+ - IEnroll2.get_EnableSMIMECapabilities
+ - IEnroll2.put_EnableSMIMECapabilities
 ---
 
 # IEnroll2::get_EnableSMIMECapabilities
@@ -63,4 +65,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll2</a>
-

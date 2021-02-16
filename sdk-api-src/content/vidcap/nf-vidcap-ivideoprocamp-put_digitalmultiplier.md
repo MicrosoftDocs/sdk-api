@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Vidcap.h
 api_name:
- - IVideoProcAmp::put_DigitalMultiplier
+ - IVideoProcAmp.put_DigitalMultiplier
 ---
 
 # IVideoProcAmp::put_DigitalMultiplier
@@ -77,4 +77,3 @@ For more information about the digital zoom multiplier, see <a href="/windows/de
 
 
 <a href="/windows/desktop/api/vidcap/nn-vidcap-ivideoprocamp">IVideoProcAmp Interface</a>
-

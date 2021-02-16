@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certadm.dll
 api_name:
- - ICertAdmin2::GetConfigEntry
+ - ICertAdmin2.GetConfigEntry
 ---
 
 # ICertAdmin2::GetConfigEntry
@@ -95,4 +95,3 @@ The return value is a <b>Variant</b> that represents the retrieved configuration
 ## -see-also
 
 <a href="/windows/desktop/api/certadm/nn-certadm-icertadmin2">ICertAdmin2</a>
-

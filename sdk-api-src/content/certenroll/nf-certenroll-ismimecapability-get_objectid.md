@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - ISmimeCapability::get_ObjectId
+ - ISmimeCapability.ObjectId
+ - ISmimeCapability.get_ObjectId
 ---
 
 # ISmimeCapability::get_ObjectId
@@ -86,4 +87,3 @@ Call the <a href="/windows/desktop/api/certenroll/nf-certenroll-ismimecapability
 
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509extensionsmimecapabilities">IX509ExtensionSmimeCapabilities</a>
-

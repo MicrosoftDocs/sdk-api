@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzTask::DeletePropertyItem
+ - IAzTask.DeletePropertyItem
+ - AzTask.DeletePropertyItem
 ---
 
 # IAzTask::DeletePropertyItem
@@ -98,4 +99,3 @@ Reserved for future use.
 ## -returns
 
 The return value is an <b>HRESULT</b>. A value of S_OK indicates success. Any other value indicates that the operation failed.
-

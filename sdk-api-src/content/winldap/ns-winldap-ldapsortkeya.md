@@ -46,9 +46,9 @@ api_type:
 api_location:
  - Winldap.h
 api_name:
- - ldapsortkeyA
- - PLDAPSortKeyA
+ - LDAPSortKey
  - LDAPSortKeyA
+ - LDAPSortKeyW
 ---
 
 # LDAPSortKeyA structure
@@ -104,4 +104,3 @@ The
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_search_init_page">ldap_search_init_page</a>
-

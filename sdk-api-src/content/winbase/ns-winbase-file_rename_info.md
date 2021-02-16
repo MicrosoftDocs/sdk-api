@@ -47,8 +47,6 @@ api_location:
  - WinBase.h
  - FileExtd.h
 api_name:
- - _FILE_RENAME_INFO
- - PFILE_RENAME_INFO
  - FILE_RENAME_INFO
 ---
 
@@ -93,4 +91,3 @@ The new file name.
 
 
 <a href="/windows/desktop/api/fileapi/nf-fileapi-setfileinformationbyhandle">SetFileInformationByHandle</a>
-

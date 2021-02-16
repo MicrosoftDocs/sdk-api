@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - DMA_Range_s
- - PDMA_RANGE
  - DMA_RANGE
 ---
 
@@ -75,4 +73,3 @@ One bit flag from [DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des) s
 ## -see-also
 
 [DMA_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-dma_des)
-

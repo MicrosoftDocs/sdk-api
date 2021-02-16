@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextPara::SetIndents
+ - ITextPara.SetIndents
 ---
 
 # ITextPara::SetIndents
@@ -163,4 +163,3 @@ Line indents are not allowed to position text in the margins. If the first-line 
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

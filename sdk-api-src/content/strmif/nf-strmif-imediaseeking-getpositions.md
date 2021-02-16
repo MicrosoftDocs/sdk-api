@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSeeking::GetPositions
+ - IMediaSeeking.GetPositions
 ---
 
 # IMediaSeeking::GetPositions
@@ -120,4 +120,3 @@ The returned values are expressed in the current time format. The default time f
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
-

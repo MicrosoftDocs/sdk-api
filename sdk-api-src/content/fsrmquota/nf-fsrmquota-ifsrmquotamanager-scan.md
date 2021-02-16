@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmQuotaManager::Scan
+ - IFsrmQuotaManager.Scan
+ - IFsrmQuotaManagerEx.Scan
+ - FsrmQuotaManager.Scan
 ---
 
 # IFsrmQuotaManager::Scan
@@ -88,4 +90,3 @@ Although quota usage is monitored on an ongoing basis, there may be some instanc
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmquota">MSFT_FSRMQuota</a>
-

@@ -43,7 +43,13 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkCollector::get_hWnd
+ - IInkCollector.hWnd
+ - IInkCollector.get_hWnd
+ - IInkCollector.put_hWnd
+ - put_hWnd
+ - IInkCollector.put_hWnd
+ - InkCollector.get_hWnd
+ - InkCollector.put_hWnd
 ---
 
 # IInkCollector::get_hWnd
@@ -82,4 +88,3 @@ In Automation, this property is called <b>hWnd Property</b>.
 
 
 <a href="/windows/desktop/tablet/inkdisp-class">InkDisp Class</a>
-

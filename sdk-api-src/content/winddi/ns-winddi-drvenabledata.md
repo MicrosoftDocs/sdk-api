@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winddi.h
 api_name:
- - tagDRVENABLEDATA
- - PDRVENABLEDATA
  - DRVENABLEDATA
 ---
 
@@ -206,4 +204,3 @@ As the table shows, a driver can run on any of these operating system versions i
 
 
 <a href="/windows/desktop/api/winddi/nf-winddi-drvenabledriver">DrvEnableDriver</a>
-

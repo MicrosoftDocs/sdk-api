@@ -42,7 +42,7 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
+ - IVssDifferentialSoftwareSnapshotMgmt3.GetVolumeProtectLevel
 ---
 
 # IVssDifferentialSoftwareSnapshotMgmt3::GetVolumeProtectLevel
@@ -166,4 +166,3 @@ If the value of the <i>protectionLevel</i> parameter is <b>VSS_PROTECTION_LEVEL_
 
 
 <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt3-setvolumeprotectlevel">IVssDifferentialSoftwareSnapshotMgmt3::SetVolumeProtectLevel</a>
-

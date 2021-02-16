@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ime.h
 api_name:
- - tagIMESTRUCT
- - PIMESTRUCT
  - IMESTRUCT
 ---
 
@@ -474,4 +472,3 @@ Usage depends on the subfunction specified in <b>fnc</b>.
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setclipboarddata">SetClipboardData</a>
-

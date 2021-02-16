@@ -44,7 +44,6 @@ api_type:
 api_location:
  - UIAnimation.h
 api_name:
- - __MIDL___MIDL_itf_UIAnimation_0000_0009_0001
  - UI_ANIMATION_SLOPE
 ---
 
@@ -68,4 +67,3 @@ A decreasing slope.
 ## -see-also
 
 <a href="/windows/desktop/api/uianimation/nf-uianimation-iuianimationtransitionlibrary-createsinusoidaltransitionfromrange">IUIAnimationTransitionLibrary::CreateSinusoidalTransitionFromRange</a>
-

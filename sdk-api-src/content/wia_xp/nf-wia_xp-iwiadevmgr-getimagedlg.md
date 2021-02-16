@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wiaservc.dll
 api_name:
- - IWiaDevMgr::GetImageDlg
+ - IWiaDevMgr.GetImageDlg
 ---
 
 # IWiaDevMgr::GetImageDlg
@@ -142,4 +142,3 @@ If <b>IWiaDevMgr::GetImageDlg</b> finds only one matching device, it will not di
 It is recommended that applications make device and image selection available through a menu item named <b>From scanner or camera</b> on the <b>File</b> menu.
 
 The dialog must have sufficient rights to the folder for <i>bstrFilename</i> that it can save the file with a unique file name. The folder should also be protected with an access control list (ACL) because it contains user data.
-

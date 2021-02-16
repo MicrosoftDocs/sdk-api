@@ -42,7 +42,7 @@ api_type:
 api_location:
  - QmgrPrxy.dll
 api_name:
- - IBackgroundCopyQMgr::GetGroup
+ - IBackgroundCopyQMgr.GetGroup
 ---
 
 # IBackgroundCopyQMgr::GetGroup
@@ -100,4 +100,3 @@ Could not find the group in the download queue.
 ## -see-also
 
 <a href="/windows/desktop/api/qmgr/nn-qmgr-ibackgroundcopyqmgr">IBackgroundCopyQMgr</a>
-

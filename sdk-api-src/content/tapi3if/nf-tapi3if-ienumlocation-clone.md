@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - IEnumLocation::Clone
+ - IEnumLocation.Clone
 ---
 
 # IEnumLocation::Clone
@@ -120,4 +120,3 @@ Failed for unknown reasons.
 TAPI calls the <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-addref">AddRef</a> method on the 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-ienumlocation">IEnumLocation</a> interface returned by <b>IEnumLocation::Clone</b>. The application must call <a href="/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> on the 
 <b>IEnumLocation</b> interface to free resources associated with it.
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - P2P.h
 api_name:
- - peer_graph_properties_tag
- - PPEER_GRAPH_PROPERTIES
  - PEER_GRAPH_PROPERTIES
 ---
 
@@ -174,4 +172,3 @@ The remaining members cannot be modified.
 
 
 <a href="/windows/desktop/api/p2p/nf-p2p-peergraphsetproperties">PeerGraphSetProperties</a>
-

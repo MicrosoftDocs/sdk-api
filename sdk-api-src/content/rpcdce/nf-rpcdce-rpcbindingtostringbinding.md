@@ -43,6 +43,8 @@ api_location:
  - Rpcrt4.dll
 api_name:
  - RpcBindingToStringBinding
+ - RpcBindingToStringBindingA
+ - RpcBindingToStringBindingW
 ---
 
 # RpcBindingToStringBinding function
@@ -134,4 +136,3 @@ To parse the returned <i>StringBinding</i> parameter, call the
 
 
 <a href="/windows/desktop/api/rpcdce/nf-rpcdce-rpcstringfree">RpcStringFree</a>
-

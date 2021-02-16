@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IParseAndCreateItem::GetItem
+ - IParseAndCreateItem.GetItem
 ---
 
 # IParseAndCreateItem::GetItem
@@ -79,4 +79,3 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iparseandcreateitem">IParseAndCreateItem</a>
-

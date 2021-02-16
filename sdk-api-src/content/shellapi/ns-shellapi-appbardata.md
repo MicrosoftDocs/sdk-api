@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Shellapi.h
 api_name:
- - _AppBarData
- - PAPPBARDATA
  - APPBARDATA
 ---
 
@@ -167,4 +165,3 @@ A message-dependent value. This member is used with these messages:
 
 
 See the individual message pages for details.
-

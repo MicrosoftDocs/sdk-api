@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSink::GetCharacteristics
+ - IMFMediaSink.GetCharacteristics
 ---
 
 # IMFMediaSink::GetCharacteristics
@@ -191,4 +191,3 @@ The characteristics of a media sink are fixed throughout the life time of the si
 
 
 <a href="/windows/desktop/medfound/media-sinks">Media Sinks</a>
-

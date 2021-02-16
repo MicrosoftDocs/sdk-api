@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - BuildSecurityDescriptorW
  - aclapi/BuildSecurityDescriptorW
- - BuildSecurityDescriptor
- - aclapi/BuildSecurityDescriptor
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - advapi32legacy.dll
  - API-MS-Win-security-trustee-l1-1-1.dll
 api_name:
- - BuildSecurityDescriptorW
  - BuildSecurityDescriptor
+ - BuildSecurityDescriptorA
+ - BuildSecurityDescriptorW
 ---
 
 # BuildSecurityDescriptorW function
@@ -179,4 +178,3 @@ The <b>BuildSecurityDescriptor</b> function is intended for trusted servers that
 
 
 <a href="/windows/desktop/api/accctrl/ns-accctrl-trustee_a">TRUSTEE</a>
-

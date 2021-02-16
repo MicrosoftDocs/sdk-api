@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkEvents::NetworkDeleted
+ - INetworkEvents.NetworkDeleted
 ---
 
 # INetworkEvents::NetworkDeleted
@@ -65,4 +65,3 @@ Returns S_OK if the method succeeds.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetworkevents">INetworkEvents</a>
-

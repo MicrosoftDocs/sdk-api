@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerPinConfig::GetColorKey
+ - IMixerPinConfig.GetColorKey
 ---
 
 # IMixerPinConfig::GetColorKey
@@ -127,4 +127,3 @@ Current DirectShow implementation of this interface can return <b>NULL</b> for e
 
 
 <a href="/windows/desktop/api/mpconfig/nf-mpconfig-imixerpinconfig-setcolorkey">IMixerPinConfig::SetColorKey</a>
-

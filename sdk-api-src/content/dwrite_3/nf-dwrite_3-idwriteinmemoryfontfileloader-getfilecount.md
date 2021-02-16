@@ -43,7 +43,7 @@ api_location:
  - Dwrite.lib
  - Dwrite.dll
 api_name:
- - IDWriteInMemoryFontFileLoader::GetFileCount
+ - IDWriteInMemoryFontFileLoader.GetFileCount
 ---
 
 # IDWriteInMemoryFontFileLoader::GetFileCount

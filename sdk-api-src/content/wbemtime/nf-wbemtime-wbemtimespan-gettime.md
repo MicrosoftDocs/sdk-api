@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTimeSpan::GetTime
+ - WBEMTimeSpan.GetTime
 ---
 
 # WBEMTimeSpan::GetTime
@@ -68,4 +68,3 @@ This method returns <b>ULONGLONG</b>.
 ## -remarks
 
 The method is provided to assist users in debugging.
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IPrincipal2::get_ProcessTokenSidType
+ - IPrincipal2.ProcessTokenSidType
+ - IPrincipal2.get_ProcessTokenSidType
+ - IPrincipal2.put_ProcessTokenSidType
 ---
 
 # IPrincipal2::get_ProcessTokenSidType
@@ -63,4 +65,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - interlockedapi
  - interlockedapi/interlockedapi
-api_name:
- - interlockedapi
 ---
 
 # Interlockedapi.h header

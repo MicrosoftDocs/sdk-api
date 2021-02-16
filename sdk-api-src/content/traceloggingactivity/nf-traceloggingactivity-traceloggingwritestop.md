@@ -42,7 +42,7 @@ api_type:
 api_location:
  - traceloggingactivity.h
 api_name:
- - TraceLoggingWriteStop
+ - TraceLoggingWriteStart
 ---
 
 # TraceLoggingWriteStop macro
@@ -74,4 +74,3 @@ The args should not include <b>TraceLoggingLevel</b>, <b>TraceLoggingKeyword</b>
 ## -see-also
 
 <a href="/windows/desktop/api/traceloggingactivity/nf-traceloggingactivity-traceloggingwritestart">TraceLoggingWriteStart</a>
-

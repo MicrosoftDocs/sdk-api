@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItem::Enable
+ - ISyncMgrSyncItem.Enable
 ---
 
 # ISyncMgrSyncItem::Enable
@@ -93,4 +93,3 @@ STDMETHODIMP CMyDeviceSyncItem::Enable(__in BOOL fEnable)
 }
 
 ```
-

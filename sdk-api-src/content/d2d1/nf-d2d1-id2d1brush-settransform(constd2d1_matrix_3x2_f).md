@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2d1.dll
 api_name:
- - ID2D1Brush::SetTransform
+ - ID2D1Brush.SetTransform
 ---
 
 # ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)

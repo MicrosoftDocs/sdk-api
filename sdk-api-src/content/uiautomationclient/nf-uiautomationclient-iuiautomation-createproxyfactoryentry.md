@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomation::CreateProxyFactoryEntry
+ - IUIAutomation.CreateProxyFactoryEntry
 ---
 
 # IUIAutomation::CreateProxyFactoryEntry
@@ -79,4 +79,3 @@ Use the <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-i
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomation">IUIAutomation</a>
-

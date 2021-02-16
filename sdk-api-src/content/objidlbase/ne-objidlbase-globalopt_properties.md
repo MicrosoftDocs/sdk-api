@@ -44,7 +44,6 @@ api_type:
 api_location:
  - objidl.h
 api_name:
- - tagGLOBALOPT_PROPERTIES
  - GLOBALOPT_PROPERTIES
 ---
 
@@ -98,4 +97,3 @@ The unmarshaling policy option <b>COMGLB_UNMARSHALING_POLICY</b> takes values fr
 
 
 <a href="/windows/desktop/api/objidl/nn-objidl-iglobaloptions">IGlobalOptions</a>
-

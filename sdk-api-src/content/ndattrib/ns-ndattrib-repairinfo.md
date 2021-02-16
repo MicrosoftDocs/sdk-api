@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - tagRepairInfo
- - PRepairInfo
  - RepairInfo
 ---
 
@@ -228,4 +226,3 @@ A <a href="/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a> structur
 
 
 <a href="/windows/desktop/api/ndattrib/ns-ndattrib-uiinfo">UiInfo</a>
-

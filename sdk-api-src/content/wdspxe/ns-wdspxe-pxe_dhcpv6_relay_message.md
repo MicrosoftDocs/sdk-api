@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WdsPxe.h
 api_name:
- - tagPXE_DHCPV6_RELAY_MESSAGE
- - PPXE_DHCPV6_RELAY_MESSAGE
  - PXE_DHCPV6_RELAY_MESSAGE
 ---
 
@@ -83,4 +81,3 @@ The peer address
 ### -field Options
 
 A <a href="/windows/desktop/api/wdspxe/ns-wdspxe-pxe_dhcpv6_option">PXE_DHCPV6_OPTION</a> structure and see RFC 3315 section 7.
-

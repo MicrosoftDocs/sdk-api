@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileManagementJob::get_Logging
+ - IFsrmFileManagementJob.Logging
+ - IFsrmFileManagementJob.get_Logging
+ - IFsrmFileManagementJob.put_Logging
 ---
 
 # IFsrmFileManagementJob::get_Logging
@@ -82,4 +84,3 @@ The log files are stored in the reports directory. The name of the
 
 
 <a href="/previous-versions/windows/desktop/fsrm/msft-fsrmfilemanagementjob">MSFT_FSRMFileManagementJob</a>
-

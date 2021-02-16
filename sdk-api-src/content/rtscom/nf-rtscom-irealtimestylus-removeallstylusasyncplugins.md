@@ -42,7 +42,7 @@ api_type:
 api_location:
  - RTSCom.dll
 api_name:
- - IRealTimeStylus::RemoveAllStylusAsyncPlugins
+ - IRealTimeStylus.RemoveAllStylusAsyncPlugins
 ---
 
 # IRealTimeStylus::RemoveAllStylusAsyncPlugins
@@ -77,4 +77,3 @@ Use <a href="/windows/desktop/api/rtscom/nf-rtscom-irealtimestylus-removestylusa
 
 
 <a href="/windows/desktop/tablet/realtimestylus-class">RealTimeStylus Class</a>
-

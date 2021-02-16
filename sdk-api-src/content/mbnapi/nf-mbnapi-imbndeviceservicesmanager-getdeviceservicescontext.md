@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesManager::GetDeviceServicesContext
+ - IMbnDeviceServicesManager.GetDeviceServicesContext
 ---
 
 # IMbnDeviceServicesManager::GetDeviceServicesContext
@@ -123,4 +123,3 @@ Could not allocate the required memory.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesmanager">IMbnDeviceServicesManager</a>
-

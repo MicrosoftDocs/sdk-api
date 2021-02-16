@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mpeg2psiparser.h
 api_name:
- - ICAT::GetTableDescriptorByTag
+ - ICAT.GetTableDescriptorByTag
 ---
 
 # ICAT::GetTableDescriptorByTag
@@ -144,4 +144,3 @@ If the value of <i>pdwCookie</i> is not <b>NULL</b>, the method returns either M
 ## -see-also
 
 <a href="/windows/desktop/api/mpeg2psiparser/nn-mpeg2psiparser-icat">ICAT Interface</a>
-

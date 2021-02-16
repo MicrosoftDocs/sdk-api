@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DSAdmin.dll
 api_name:
- - IDsAdminNotifyHandler::Initialize
+ - IDsAdminNotifyHandler.Initialize
 ---
 
 # IDsAdminNotifyHandler::Initialize
@@ -103,4 +103,3 @@ If the method succeeds, <b>S_OK</b> is returned. If the method fails,  a standar
 
 
 <a href="/windows/desktop/api/dsadmin/nn-dsadmin-idsadminnotifyhandler">IDsAdminNotifyHandler</a>
-

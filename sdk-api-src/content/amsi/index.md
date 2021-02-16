@@ -9,8 +9,6 @@ tech.root: amsi
 f1_keywords:
  - amsi
  - amsi/amsi
-api_name:
- - amsi
 ---
 
 # Amsi.h header

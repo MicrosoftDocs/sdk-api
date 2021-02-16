@@ -42,7 +42,7 @@ api_type:
 api_location:
  - restrictederrorinfo.h
 api_name:
- - ILanguageExceptionErrorInfo2::CapturePropagationContext
+ - ILanguageExceptionErrorInfo2.CapturePropagationContext
 ---
 
 # ILanguageExceptionErrorInfo2::CapturePropagationContext
@@ -141,4 +141,3 @@ HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooE
 ## -see-also
 
 <a href="/windows/desktop/api/restrictederrorinfo/nn-restrictederrorinfo-ilanguageexceptionerrorinfo2">ILanguageExceptionErrorInfo2</a>
-

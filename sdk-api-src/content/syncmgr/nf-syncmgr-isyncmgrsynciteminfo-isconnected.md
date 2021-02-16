@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Syncmgr.h
 api_name:
- - ISyncMgrSyncItemInfo::IsConnected
+ - ISyncMgrSyncItemInfo.IsConnected
 ---
 
 # ISyncMgrSyncItemInfo::IsConnected
@@ -83,4 +83,3 @@ STDMETHODIMP CMyDeviceSyncItem::IsConnected()
 }
 
 ```
-

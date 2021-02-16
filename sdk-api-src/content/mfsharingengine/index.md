@@ -9,8 +9,6 @@ tech.root: mf
 f1_keywords:
  - mfsharingengine
  - mfsharingengine/mfsharingengine
-api_name:
- - mfsharingengine
 ---
 
 # Mfsharingengine.h header

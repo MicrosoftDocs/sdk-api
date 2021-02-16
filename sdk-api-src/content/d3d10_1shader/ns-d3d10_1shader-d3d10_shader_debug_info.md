@@ -44,7 +44,6 @@ api_type:
 api_location:
  - d3d10_1shader.h
 api_name:
- - _D3D10_SHADER_DEBUG_INFO
  - D3D10_SHADER_DEBUG_INFO
 ---
 
@@ -186,4 +185,3 @@ Offset to the string datastore, all string offsets are from this offset.
 ## -see-also
 
 <a href="/windows/desktop/direct3d10/d3d10-graphics-reference-d3d10-shader-structures">Shader Structures</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WinNT.h
 api_name:
- - _WOW64_CONTEXT
  - WOW64_CONTEXT
 ---
 
@@ -95,4 +94,3 @@ In the following versions of Windows, Slot 1 of Thread Local Storage (TLS) holds
 
 
 <a href="/windows/desktop/api/winbase/nf-winbase-wow64setthreadcontext">Wow64SetThreadContext</a>
-

@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPStorage4::FindStorage
+ - IMDSPStorage4.FindStorage
 ---
 
 # IMDSPStorage4::FindStorage
@@ -118,4 +118,3 @@ Windows Media Device Manager calls this method only for devices that can be sync
 
 
 <a href="/windows/desktop/api/mswmdm/nn-mswmdm-imdspstorage4">IMDSPStorage4 Interface</a>
-

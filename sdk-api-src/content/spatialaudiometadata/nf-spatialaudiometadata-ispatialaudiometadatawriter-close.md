@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudiometadata.h
 api_name:
- - ISpatialAudioMetadataWriter::Close
+ - ISpatialAudioMetadataWriter.Close
 ---
 
 # ISpatialAudioMetadataWriter::Close
@@ -101,4 +101,3 @@ No metadata commands have been written to the supplied <a href="/windows/desktop
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudiometadata/nn-spatialaudiometadata-ispatialaudiometadatawriter">ISpatialAudioMetadataWriter</a>
-

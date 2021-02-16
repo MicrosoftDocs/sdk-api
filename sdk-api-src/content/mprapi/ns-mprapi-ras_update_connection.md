@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - RAS_UPDATE_CONNECTION_
- - PRAS_UPDATE_CONNECTION
  - RAS_UPDATE_CONNECTION
 ---
 
@@ -86,4 +84,3 @@ A null-terminated Unicode string that contains the new IP address of the remote 
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

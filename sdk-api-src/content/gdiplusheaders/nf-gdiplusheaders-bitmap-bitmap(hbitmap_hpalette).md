@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::Bitmap
+ - Bitmap.Bitmap
 ---
 
 # Bitmap::Bitmap(IN HBITMAP,IN HPALETTE)
@@ -97,4 +97,3 @@ Do not pass to the GDI+ <b>Bitmap::Bitmap</b> constructor a GDI bitmap or a GDI 
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-images-bitmaps-and-metafiles-use">Using Images, Bitmaps, and Metafiles</a>
-

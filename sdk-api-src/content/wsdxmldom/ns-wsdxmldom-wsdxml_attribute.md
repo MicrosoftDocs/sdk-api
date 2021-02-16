@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdXmldom.h
 api_name:
- - _WSDXML_ATTRIBUTE
  - WSDXML_ATTRIBUTE
 ---
 
@@ -76,4 +75,3 @@ The value of the attribute.
 ## -remarks
 
 <b>WSDXML_ATTRIBUTE</b> is used to describe attribute values in an XML element.
-

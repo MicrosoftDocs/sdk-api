@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCLocator2::get_ProgramNumber
+ - IATSCLocator2.get_ProgramNumber
 ---
 
 # IATSCLocator2::get_ProgramNumber
@@ -69,4 +69,3 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nf-tuner-iatsclocator2-put_programnumber">put_ProgramNumber</a>
-

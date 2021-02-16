@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::GetBlendCount
+ - PathGradientBrush.GetBlendCount
 ---
 
 # PathGradientBrush::GetBlendCount
@@ -158,4 +158,3 @@ VOID Example_GetBlend(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-setblend">PathGradientBrush::SetBlend</a>
-

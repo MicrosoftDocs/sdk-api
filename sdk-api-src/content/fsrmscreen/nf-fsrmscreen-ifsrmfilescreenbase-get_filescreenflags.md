@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmFileScreenBase::get_FileScreenFlags
+ - IFsrmFileScreenBase.FileScreenFlags
+ - IFsrmFileScreenBase.get_FileScreenFlags
+ - IFsrmFileScreenBase.put_FileScreenFlags
 ---
 
 # IFsrmFileScreenBase::get_FileScreenFlags
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmscreen/nn-fsrmscreen-ifsrmfilescreenbase">IFsrmFileScreenBase</a>
-

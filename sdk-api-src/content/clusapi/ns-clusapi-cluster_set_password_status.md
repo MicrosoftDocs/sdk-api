@@ -45,7 +45,6 @@ api_location:
  - ClusAPI.h
 api_name:
  - CLUSTER_SET_PASSWORD_STATUS
- - PCLUSTER_SET_PASSWORD_STATUS
 ---
 
 # CLUSTER_SET_PASSWORD_STATUS structure
@@ -71,4 +70,3 @@ If <b>TRUE</b>, indicates that the password change was attempted on this node.
 ### -field ReturnStatus
 
 An error code describing the results of the password change.
-

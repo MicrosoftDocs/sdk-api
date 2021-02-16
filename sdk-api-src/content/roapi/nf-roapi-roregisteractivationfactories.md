@@ -44,6 +44,7 @@ api_location:
  - API-MS-Win-Core-WinRT-l1-1-0.dll
 api_name:
  - RoRegisterActivationFactories
+ - WinRTRegisterActivationFactories
 ---
 
 # RoRegisterActivationFactories function
@@ -169,4 +170,3 @@ The <b>RoRegisterActivationFactories</b> function enables an exe server to regis
 
 
 <a href="/windows/desktop/api/roapi/nf-roapi-roinitialize">RoInitialize</a>
-

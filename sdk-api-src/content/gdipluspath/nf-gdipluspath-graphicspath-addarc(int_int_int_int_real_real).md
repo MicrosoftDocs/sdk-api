@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - GraphicsPath::AddArc
+ - GraphicsPath.AddArc
 ---
 
 # GraphicsPath::AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
@@ -132,4 +132,3 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
-

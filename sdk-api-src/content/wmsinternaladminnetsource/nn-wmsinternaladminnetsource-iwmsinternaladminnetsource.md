@@ -43,6 +43,9 @@ api_location:
  - wmsinternaladminnetsource.h
 api_name:
  - IWMSInternalAdminNetSource
+ - IWMSInternalAdminNetSource.GetNetSourceCreator
+ - IWMSInternalAdminNetSource.Initialize
+ - IWMSInternalAdminNetSource.IsUsingIE
 ---
 
 # IWMSInternalAdminNetSource interface
@@ -80,4 +83,3 @@ Most of the methods of the <b>IWMSInternalAdminNetSource</b> interface have been
 
 
 <a href="/windows/desktop/wmformat/interfaces">Interfaces</a>
-

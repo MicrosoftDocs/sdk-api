@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationCompositor::SetUpdateManager
+ - IDirectManipulationCompositor.SetUpdateManager
 ---
 
 # IDirectManipulationCompositor::SetUpdateManager
@@ -71,4 +71,3 @@ Call this method during <a href="/previous-versions/windows/desktop/directmanipu
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationcompositor">IDirectManipulationCompositor</a>
-

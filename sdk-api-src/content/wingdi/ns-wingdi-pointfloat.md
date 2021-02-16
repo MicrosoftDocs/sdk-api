@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wingdi.h
 api_name:
- - _POINTFLOAT
- - PPOINTFLOAT
  - POINTFLOAT
 ---
 
@@ -79,4 +77,3 @@ Specifies the vertical (y) coordinate of a point.
 
 
 <a href="/windows/desktop/OpenGL/structures">Structures</a>
-

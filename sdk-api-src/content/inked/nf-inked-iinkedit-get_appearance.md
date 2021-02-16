@@ -43,7 +43,11 @@ api_location:
  - InkEd.dll
  - InkEd.dll.dll
 api_name:
- - IInkEdit::get_Appearance
+ - IInkEdit.Appearance
+ - IInkEdit.get_Appearance
+ - IInkEdit.put_Appearance
+ - InkEdit.get_Appearance
+ - InkEdit.put_Appearance
 ---
 
 # IInkEdit::get_Appearance
@@ -69,4 +73,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/tablet/inkedit-control-reference">InkEdit</a>
-

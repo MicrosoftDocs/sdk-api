@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - PathIsNetworkPathA
  - shlwapi/PathIsNetworkPathA
- - PathIsNetworkPath
- - shlwapi/PathIsNetworkPath
 dev_langs:
  - c++
 topic_type:
@@ -47,8 +45,9 @@ api_location:
  - Ext-MS-Win-Shell-ShlwApi-l1-1-1.dll
  - Ext-MS-Win-Shell-ShlwAPI-L1-1-2.dll
 api_name:
- - PathIsNetworkPathA
  - PathIsNetworkPath
+ - PathIsNetworkPathA
+ - PathIsNetworkPathW
 ---
 
 # PathIsNetworkPathA function
@@ -87,4 +86,3 @@ Returns <b>TRUE</b> if the string represents a network resource, or <b>FALSE</b>
 
 > [!NOTE]
 > The shlwapi.h header defines PathIsNetworkPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - IComResourceEvents::OnResourceDestroy
+ - IComResourceEvents.OnResourceDestroy
 ---
 
 # IComResourceEvents::OnResourceDestroy
@@ -81,4 +81,3 @@ The user verifies the return values from this method.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-icomresourceevents">IComResourceEvents</a>
-

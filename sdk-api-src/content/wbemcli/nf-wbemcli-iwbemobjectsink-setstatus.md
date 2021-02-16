@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fastprox.dll
 api_name:
- - IWbemObjectSink::SetStatus
+ - IWbemObjectSink.SetStatus
+ - IWbemObjectSinkEx.SetStatus
 ---
 
 # IWbemObjectSink::SetStatus
@@ -135,4 +136,3 @@ If you do not specify <b>WBEM_FLAG_SEND_STATUS</b> when calling your provider or
 
 
 <a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_status_type">WBEM_STATUS_TYPE</a>
-

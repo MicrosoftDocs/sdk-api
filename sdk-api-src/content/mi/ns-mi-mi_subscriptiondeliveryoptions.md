@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_SubscriptionDeliveryOptions
  - MI_SubscriptionDeliveryOptions
 ---
 
@@ -76,4 +75,3 @@ This structure is created by calling the <a href="/previous-versions/windows/des
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_application_newsubscriptiondeliveryoptions">MI_Application_NewSubscriptionDeliveryOptions</a>
-

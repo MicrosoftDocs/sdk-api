@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddrawint.h
 api_name:
- - _DD_VIDEOPORT_LOCAL
- - PDD_VIDEOPORT_LOCAL
  - DD_VIDEOPORT_LOCAL
 ---
 
@@ -103,4 +101,3 @@ Reserved for use by the display driver.
 ## -remarks
 
 This structure is initialized and filled in by DirectDraw. Except for the <b>dwReserved1</b>, <b>dwReserved2</b>, and <b>dwReserved3</b> members, the driver must not modify any other members of the DD_VIDEOPORT_LOCAL structure.
-

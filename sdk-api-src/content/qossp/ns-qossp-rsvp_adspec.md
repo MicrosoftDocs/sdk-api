@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Qossp.h
 api_name:
- - _RSVP_ADSPEC
- - LPRSVP_ADSPEC
  - RSVP_ADSPEC
 ---
 
@@ -83,4 +81,3 @@ A <a href="/windows/desktop/api/qossp/ns-qossp-control_service">CONTROL_SERVICE<
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/qos/ns-qos-qos_object_hdr">QOS_OBJECT_HDR</a>
-

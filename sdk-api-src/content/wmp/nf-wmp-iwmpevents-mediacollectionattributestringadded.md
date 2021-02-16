@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::MediaCollectionAttributeStringAdded
+ - IWMPEvents.MediaCollectionAttributeStringAdded
 ---
 
 # IWMPEvents::MediaCollectionAttributeStringAdded
@@ -75,4 +75,3 @@ When a media item is added to the library, its metadata is added to the <b>Media
 
 
 <a href="/windows/desktop/api/wmp/nn-wmp-iwmpmediacollection">IWMPMediaCollection Interface</a>
-

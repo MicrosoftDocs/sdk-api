@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Audiopolicy.h
 api_name:
- - IAudioSessionEvents::OnSimpleVolumeChanged
+ - IAudioSessionEvents.OnSimpleVolumeChanged
 ---
 
 # IAudioSessionEvents::OnSimpleVolumeChanged
@@ -89,4 +89,3 @@ For a code example that implements the methods in the <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/audioclient/nf-audioclient-isimpleaudiovolume-setmute">ISimpleAudioVolume::SetMute</a>
-

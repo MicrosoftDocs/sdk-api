@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Sspi.h
 api_name:
- - _CREDUIWIN_MARSHALED_CONTEXT
- - PCREDUIWIN_MARSHALED_CONTEXT
  - CREDUIWIN_MARSHALED_CONTEXT
 ---
 
@@ -87,4 +85,3 @@ The size, in bytes, of the serialized data.
 ## -see-also
 
 <a href="/windows/desktop/api/sspi/ns-sspi-sec_winnt_credui_context">SEC_WINNT_CREDUI_CONTEXT</a>
-

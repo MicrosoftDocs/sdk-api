@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Af_irda.h
 api_name:
- - _SOCKADDR_IRDA
- - PSOCKADDR_IRDA
  - SOCKADDR_IRDA
 ---
 
@@ -100,4 +98,3 @@ The <b>irdaServiceName</b> member is filled with the well-known value that the s
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
-

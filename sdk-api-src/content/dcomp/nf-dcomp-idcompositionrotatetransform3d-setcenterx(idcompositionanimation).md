@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionRotateTransform3D::SetCenterX
+ - IDCompositionRotateTransform3D.SetCenterX
 ---
 
 # IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation)
@@ -85,4 +85,3 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 [IDCompositionRotateTransform3D::SetCenterZ](./nf-dcomp-idcompositionrotatetransform3d-setcenterz(idcompositionanimation).md)
-

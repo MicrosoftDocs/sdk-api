@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::SetTargetProperty
+ - ITsSbResourcePluginStore.SetTargetProperty
+ - ITsSbResourcePluginStoreEx.SetTargetProperty
 ---
 
 # ITsSbResourcePluginStore::SetTargetProperty
@@ -81,4 +82,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-settargetpropertywithversioncheck">SetTargetPropertyWithVersionCheck</a>
-

@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::get_Renderer
+ - IInkOverlay.Renderer
+ - IInkOverlay.get_Renderer
+ - IInkOverlay.put_Renderer
+ - InkOverlay.get_Renderer
+ - InkOverlay.put_Renderer
 ---
 
 # IInkOverlay::get_Renderer
@@ -70,4 +74,3 @@ When handling certain window messages, changing the <b>Renderer</b> associated w
 
 
 <a href="/windows/desktop/tablet/inkoverlay-class">InkOverlay Class</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FirewallAPI.dll
 api_name:
- - INetFwRules::Remove
+ - INetFwRules.Remove
 ---
 
 # INetFwRules::Remove
@@ -158,4 +158,3 @@ If a rule specified by the <i>name</i> parameter does not exist in the collectio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwrules">INetFwRules</a>
-

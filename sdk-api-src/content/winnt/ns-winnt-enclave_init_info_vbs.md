@@ -46,8 +46,6 @@ api_type:
 api_location:
  - winnt.h
 api_name:
- - _ENCLAVE_INIT_INFO_VBS
- - PENCLAVE_INIT_INFO_VBS
  - ENCLAVE_INIT_INFO_VBS
 ---
 
@@ -71,4 +69,3 @@ Upon entry to the <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initial
 ## -see-also
 
 <a href="/windows/desktop/api/enclaveapi/nf-enclaveapi-initializeenclave">InitializeEnclave</a>
-

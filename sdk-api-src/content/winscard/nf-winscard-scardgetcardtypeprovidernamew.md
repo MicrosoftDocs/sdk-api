@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SCardGetCardTypeProviderNameW
  - winscard/SCardGetCardTypeProviderNameW
- - SCardGetCardTypeProviderName
- - winscard/SCardGetCardTypeProviderName
 dev_langs:
  - c++
 topic_type:
@@ -46,8 +44,9 @@ api_location:
  - Ext-MS-Win-wlan-scard-l1-1-0.dll
  - Ext-MS-Win-Security-WinSCard-L1-1-0.dll
 api_name:
- - SCardGetCardTypeProviderNameW
  - SCardGetCardTypeProviderName
+ - SCardGetCardTypeProviderNameA
+ - SCardGetCardTypeProviderNameW
 ---
 
 # SCardGetCardTypeProviderNameW function
@@ -237,4 +236,3 @@ if (SCARD_S_SUCCESS == lReturn)
 
 
 <a href="/windows/desktop/api/winscard/nf-winscard-scardsetcardtypeprovidernamea">SCardSetCardTypeProviderName</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN
+ - EngineAdapterSetEnrollmentParameters
 ---
 
 # PIBIO_ENGINE_SET_ENROLLMENT_PARAMETERS_FN callback function
@@ -89,4 +89,3 @@ The <i>Pipeline</i> parameter cannot be <b>NULL</b>.
 If the engine adapter successfully completes an <a href="/windows/desktop/api/winbio_adapter/nc-winbio_adapter-pibio_engine_create_enrollment_fn">EngineAdapterCreateEnrollment</a> call, it will immediately receive a call to its <b>EngineAdapterSetEnrollmentParameters</b> function.
 
  This function specifies the subfactor to be used for the new enrollment template.
-

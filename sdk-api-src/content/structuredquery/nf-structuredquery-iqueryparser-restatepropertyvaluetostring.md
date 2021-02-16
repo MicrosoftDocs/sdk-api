@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IQueryParser::RestatePropertyValueToString
+ - IQueryParser.RestatePropertyValueToString
 ---
 
 # IQueryParser::RestatePropertyValueToString
@@ -87,4 +87,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 If the leaf nodes of the condition contain more than one property name, or no property name at all, E_INVALIDARG is returned.
-

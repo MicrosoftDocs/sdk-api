@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Erase::EraseMedia
+ - IDiscFormat2Erase.EraseMedia
 ---
 
 # IDiscFormat2Erase::EraseMedia
@@ -397,4 +397,3 @@ Currently, the E_IMAPI_ERASE_TOOK_LONGER_THAN_ONE_HOUR value is returned if an a
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2erase-put_fullerase">IDiscFormat2Erase::put_FullErase</a>
-

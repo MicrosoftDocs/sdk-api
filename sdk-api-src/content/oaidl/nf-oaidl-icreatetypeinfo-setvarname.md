@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::SetVarName
+ - ICreateTypeInfo.SetVarName
 ---
 
 # ICreateTypeInfo::SetVarName
@@ -136,4 +136,3 @@ The element cannot be found.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

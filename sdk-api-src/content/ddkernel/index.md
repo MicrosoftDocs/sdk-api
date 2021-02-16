@@ -9,8 +9,6 @@ tech.root: display
 f1_keywords:
  - ddkernel
  - ddkernel/ddkernel
-api_name:
- - ddkernel
 ---
 
 # Ddkernel.h header

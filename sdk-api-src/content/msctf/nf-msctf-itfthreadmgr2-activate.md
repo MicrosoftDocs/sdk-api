@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.h
 api_name:
- - ITfThreadMgr2::Activate
+ - ITfThreadMgr2.Activate
 ---
 
 # ITfThreadMgr2::Activate
@@ -109,4 +109,3 @@ This method can be called more than once from a thread, but each call must be ma
 ## -see-also
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfthreadmgr2">ITfThreadMgr2</a>
-

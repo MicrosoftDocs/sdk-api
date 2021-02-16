@@ -42,7 +42,7 @@ api_type:
 api_location:
  - PlayToDevice.dll
 api_name:
- - IActiveBasicDevice::SetCachedSinkProtocolInfo
+ - IActiveBasicDevice.SetCachedSinkProtocolInfo
 ---
 
 # IActiveBasicDevice::streaming
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/mediastreaming/ibasicdevice">IBasicDevice</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_QUERY_BINDING_CACHE_RESPONSE
- - PKERB_QUERY_BINDING_CACHE_RESPONSE
  - KERB_QUERY_BINDING_CACHE_RESPONSE
 ---
 
@@ -71,4 +69,3 @@ the <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsacallauthenticationpack
 The number of entries in the binding cache.
 
 ### -field Entries
-

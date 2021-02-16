@@ -46,8 +46,6 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - _VSS_PROTECTION_FAULT
- - PVSS_PROTECTION_FAULT
  - VSS_PROTECTION_FAULT
 ---
 
@@ -142,4 +140,3 @@ Another application attempted to write  to the shadow copy storage area.
 
 
 <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_volume_protection_info">VSS_VOLUME_PROTECTION_INFO</a>
-

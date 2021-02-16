@@ -43,7 +43,11 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkOverlay::get_MouseIcon
+ - IInkOverlay.MouseIcon
+ - IInkOverlay.get_MouseIcon
+ - IInkOverlay.put_MouseIcon
+ - InkOverlay.get_MouseIcon
+ - InkOverlay.put_MouseIcon
 ---
 
 # IInkOverlay::get_MouseIcon
@@ -78,4 +82,3 @@ You can use the <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkcollector-get_mousepointer">MousePointer Property</a>
-

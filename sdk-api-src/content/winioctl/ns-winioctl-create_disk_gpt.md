@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CREATE_DISK_GPT
- - PCREATE_DISK_GPT
  - CREATE_DISK_GPT
 ---
 
@@ -87,4 +85,3 @@ If a maximum partition count of less than 128 is specified, it will be reset to 
 
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
-

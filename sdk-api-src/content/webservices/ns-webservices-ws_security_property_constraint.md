@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_SECURITY_PROPERTY_CONSTRAINT
  - WS_SECURITY_PROPERTY_CONSTRAINT
 ---
 
@@ -199,4 +198,3 @@ When <a href="/windows/desktop/api/webservices/nf-webservices-wsmatchpolicyalter
                     entire contents of this structure will be filled out.
 
 ### -field out.securityProperty
-

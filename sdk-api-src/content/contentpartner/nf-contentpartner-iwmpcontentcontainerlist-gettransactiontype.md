@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainerList::GetTransactionType
+ - IWMPContentContainerList.GetTransactionType
 ---
 
 # IWMPContentContainerList::GetTransactionType
@@ -89,4 +89,3 @@ The method succeeded.
 
 
 <a href="/windows/desktop/api/contentpartner/ne-contentpartner-wmptransactiontype">WMPTransactionType</a>
-

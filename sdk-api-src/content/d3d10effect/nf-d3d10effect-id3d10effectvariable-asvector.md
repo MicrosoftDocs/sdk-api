@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectVariable::AsVector
+ - ID3D10EffectVariable.AsVector
 ---
 
 # ID3D10EffectVariable::AsVector
@@ -69,4 +69,3 @@ Applications can test the returned object for validity by calling <a href="/wind
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effectvariable">ID3D10EffectVariable Interface</a>
-

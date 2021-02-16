@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMTimecodeGenerator::SetTimecode
+ - IAMTimecodeGenerator.SetTimecode
 ---
 
 # IAMTimecodeGenerator::SetTimecode

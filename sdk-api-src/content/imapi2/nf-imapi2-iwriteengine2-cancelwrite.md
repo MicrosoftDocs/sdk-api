@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2::CancelWrite
+ - IWriteEngine2.CancelWrite
 ---
 
 # IWriteEngine2::CancelWrite
@@ -131,4 +131,3 @@ To cancel the write operation, you must call this method from the <a href="/wind
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_writeinprogress">IWriteEngine2::get_WriteInProgress</a>
-

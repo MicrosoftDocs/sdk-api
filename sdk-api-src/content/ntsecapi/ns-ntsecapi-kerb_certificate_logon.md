@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_CERTIFICATE_LOGON
- - PKERB_CERTIFICATE_LOGON
  - KERB_CERTIFICATE_LOGON
 ---
 
@@ -171,4 +169,3 @@ The pointers stored in the members of <b>UNICODE_STRING</b> type are relative to
 
 
 <a href="/windows/desktop/api/ntsecapi/nf-ntsecapi-lsalogonuser">LsaLogonUser</a>
-

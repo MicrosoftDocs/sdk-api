@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextFont2::SetCompressionMode
+ - ITextFont2.SetCompressionMode
 ---
 
 # ITextFont2::SetCompressionMode
@@ -97,4 +97,3 @@ If the method succeeds, it returns <b>NOERROR</b>. Otherwise, it returns an <b>H
 
 
 <a href="/windows/desktop/api/tom/nf-tom-itextfont2-getcompressionmode">ITextFont2::GetCompressionMode</a>
-

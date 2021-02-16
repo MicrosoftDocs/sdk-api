@@ -42,7 +42,7 @@ api_type:
 api_location:
  - atscpsipparser.h
 api_name:
- - IATSC_ETT::GetExtendedMessageText
+ - IATSC_ETT.GetExtendedMessageText
 ---
 
 # IATSC_ETT::GetExtendedMessageText
@@ -125,4 +125,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/atscpsipparser/nn-atscpsipparser-iatsc_ett">IATSC_ETT Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - ctxtcall
  - ctxtcall/ctxtcall
-api_name:
- - ctxtcall
 ---
 
 # Ctxtcall.h header

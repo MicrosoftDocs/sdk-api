@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10_1.h
 api_name:
- - ID3D10Device1::GetFeatureLevel
+ - ID3D10Device1.GetFeatureLevel
 ---
 
 # ID3D10Device1::GetFeatureLevel
@@ -67,4 +67,3 @@ This method requires Windows Vista Service Pack 1.
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10_1/nn-d3d10_1-id3d10device1">ID3D10Device1 Interface</a>
-

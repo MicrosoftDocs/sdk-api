@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - LPNSPV2LOOKUPSERVICEBEGIN
+ - NSPv2LookupServiceBegin
 ---
 
 # LPNSPV2LOOKUPSERVICEBEGIN callback function

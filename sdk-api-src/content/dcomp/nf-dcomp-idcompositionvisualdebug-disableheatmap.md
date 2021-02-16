@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionVisualDebug::DisableHeatMap
+ - IDCompositionVisualDebug.DisableHeatMap
 ---
 
 # IDCompositionVisualDebug::DisableHeatMap
@@ -65,4 +65,3 @@ If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisualdebug">IDCompositionVisualDebug</a>
-

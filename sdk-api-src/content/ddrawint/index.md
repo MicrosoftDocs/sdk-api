@@ -9,8 +9,6 @@ tech.root: display
 f1_keywords:
  - ddrawint
  - ddrawint/ddrawint
-api_name:
- - ddrawint
 ---
 
 # Ddrawint.h header

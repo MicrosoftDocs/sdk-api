@@ -47,8 +47,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_ISCSI_TARGET_PROP
- - PVDS_ISCSI_TARGET_PROP
  - VDS_ISCSI_TARGET_PROP
 ---
 
@@ -83,4 +81,3 @@ If <b>TRUE</b>, a CHAP shared secret is required to login to this target.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nf-vdshwprv-ivdsiscsitarget-getproperties">IVdsIscsiTarget::GetProperties</a>
-

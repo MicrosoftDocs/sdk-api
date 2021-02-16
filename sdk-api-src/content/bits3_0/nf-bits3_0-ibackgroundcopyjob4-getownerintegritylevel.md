@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBackgroundCopyJob4::GetOwnerIntegrityLevel
+ - IBackgroundCopyJob4.GetOwnerIntegrityLevel
 ---
 
 # IBackgroundCopyJob4::GetOwnerIntegrityLevel
@@ -90,4 +90,3 @@ This method returns the value from the <a href="/windows/desktop/api/securitybas
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibackgroundcopyjob4">IBackgroundCopyJob4</a>
-

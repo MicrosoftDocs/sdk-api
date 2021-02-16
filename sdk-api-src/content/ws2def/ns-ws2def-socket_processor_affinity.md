@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ws2def.h
 api_name:
- - _SOCKET_PROCESSOR_AFFINITY
- - PSOCKET_PROCESSOR_AFFINITY
  - SOCKET_PROCESSOR_AFFINITY
 ---
 
@@ -87,4 +85,3 @@ The <a href="/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)">SIO_QU
 
 
 <a href="/previous-versions/windows/desktop/legacy/jj553482(v=vs.85)">SIO_QUERY_RSS_PROCESSOR_INFO</a>
-

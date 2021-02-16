@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dshowasf.h
 api_name:
- - IConfigAsfWriter2::ResetMultiPassState
+ - IConfigAsfWriter2.ResetMultiPassState
 ---
 
 # IConfigAsfWriter2::ResetMultiPassState
@@ -98,4 +98,3 @@ This method must be called to reset the internal state of the filter whenever a 
 
 
 <a href="/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2">IConfigAsfWriter2 Interface</a>
-

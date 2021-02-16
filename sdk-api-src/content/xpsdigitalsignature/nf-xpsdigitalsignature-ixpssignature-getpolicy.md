@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignature::GetPolicy
+ - IXpsSignature.GetPolicy
 ---
 
 # IXpsSignature::GetPolicy
@@ -132,4 +132,3 @@ This method deduces the signature policy by examining the list of signed parts a
 
 
 <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
-

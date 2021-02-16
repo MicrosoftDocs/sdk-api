@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTransformPattern::get_CurrentCanResize
+ - IUIAutomationTransformPattern.CurrentCanResize
+ - IUIAutomationTransformPattern.get_CurrentCanResize
 ---
 
 # IUIAutomationTransformPattern::get_CurrentCanResize
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationtransformpattern-resize">IUIAutomationTransformPattern::Resize</a>
-

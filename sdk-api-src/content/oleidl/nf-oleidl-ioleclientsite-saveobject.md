@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleClientSite::SaveObject
+ - IOleClientSite.SaveObject
 ---
 
 # IOleClientSite::SaveObject
@@ -89,4 +89,3 @@ Calls to <b>SaveObject</b> occur in most implementations of <a href="/windows/de
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-close">IOleObject::Close</a>
-

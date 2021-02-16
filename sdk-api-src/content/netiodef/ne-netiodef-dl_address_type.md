@@ -44,7 +44,6 @@ api_type:
 api_location:
  - netiodef.h
 api_name:
- - PDL_ADDRESS_TYPE
  - DL_ADDRESS_TYPE
 ---
 
@@ -72,4 +71,3 @@ Specifies a broadcast datalink layer address.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
-

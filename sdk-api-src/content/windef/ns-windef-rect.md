@@ -46,8 +46,6 @@ api_type:
 api_location:
  - windef.h
 api_name:
- - tagRECT
- - PRECT
  - RECT
 ---
 
@@ -83,4 +81,3 @@ The RECT structure is identical to the <a href="/windows/desktop/api/windef/ns-w
 ## -see-also
 
 <a href="/windows/desktop/api/windef/ns-windef-rectl">RECTL</a>
-

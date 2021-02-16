@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_INTERFACE_STATE
- - PWLAN_INTERFACE_STATE
  - WLAN_INTERFACE_STATE
 ---
 
@@ -88,4 +87,3 @@ The interface is in the process of authenticating.
 <a href="/windows/desktop/api/wlanapi/ns-wlanapi-wlan_interface_info">WLAN_INTERFACE_INFO</a>
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
-

@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
- - PLOOKUP_STREAM_FROM_CLUSTER_OUTPUT
  - LOOKUP_STREAM_FROM_CLUSTER_OUTPUT
 ---
 
@@ -78,4 +76,3 @@ Minimum size of the buffer, in bytes, which would be needed to contain all match
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

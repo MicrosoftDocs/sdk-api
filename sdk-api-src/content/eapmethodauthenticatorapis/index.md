@@ -9,8 +9,6 @@ tech.root: eaphost
 f1_keywords:
  - eapmethodauthenticatorapis
  - eapmethodauthenticatorapis/eapmethodauthenticatorapis
-api_name:
- - eapmethodauthenticatorapis
 ---
 
 # Eapmethodauthenticatorapis.h header

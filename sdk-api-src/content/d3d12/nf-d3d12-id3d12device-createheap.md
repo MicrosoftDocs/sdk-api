@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D12.dll
 api_name:
- - ID3D12Device::CreateHeap
+ - ID3D12Device.CreateHeap
 ---
 
 ## -description
@@ -98,4 +98,3 @@ A placed resource object holds a reference on the heap it is created on; but a r
 [ID3D12Device](./nn-d3d12-id3d12device.md)
 
 [Shared heaps](/windows/win32/direct3d12/shared-heaps)
-

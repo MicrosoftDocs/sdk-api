@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleObject::Advise
+ - IOleObject.Advise
 ---
 
 # IOleObject::Advise
@@ -113,4 +113,3 @@ To destroy the advise holder, simply call <a href="/windows/desktop/api/unknwn/n
 
 
 <a href="/windows/desktop/api/oleidl/nf-oleidl-ioleobject-unadvise">IOleObject::Unadvise</a>
-

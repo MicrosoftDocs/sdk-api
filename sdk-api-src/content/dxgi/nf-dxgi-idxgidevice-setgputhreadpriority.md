@@ -43,7 +43,7 @@ api_location:
  - DXGI.lib
  - DXGI.dll
 api_name:
- - IDXGIDevice::SetGPUThreadPriority
+ - IDXGIDevice.SetGPUThreadPriority
 ---
 
 # IDXGIDevice::SetGPUThreadPriority
@@ -89,4 +89,3 @@ To use the <b>SetGPUThreadPriority</b> method, you should have a comprehensive u
 
 
 <a href="/windows/desktop/api/dxgi/nf-dxgi-idxgidevice-getgputhreadpriority">IDXGIDevice::GetGPUThreadPriority</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mi.h
 api_name:
- - _MI_OperationFT
  - MI_OperationFT
 ---
 
@@ -85,4 +84,3 @@ Gets a synchronous result for an instance operation. See
 
 Gets the session associated with an operation. See 
        <a href="/previous-versions/windows/desktop/api/mi/nf-mi-mi_operation_getsession">MI_Operation_GetSession</a>.
-

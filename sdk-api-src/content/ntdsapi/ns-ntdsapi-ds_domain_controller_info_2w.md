@@ -44,7 +44,8 @@ api_type:
 api_location:
  - Ntdsapi.h
 api_name:
- - PDS_DOMAIN_CONTROLLER_INFO_2W
+ - DS_DOMAIN_CONTROLLER_INFO_2
+ - DS_DOMAIN_CONTROLLER_INFO_2A
  - DS_DOMAIN_CONTROLLER_INFO_2W
 ---
 
@@ -136,4 +137,3 @@ The <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa"
 
 
 <a href="/windows/desktop/api/ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa">DsGetDomainControllerInfo</a>
-

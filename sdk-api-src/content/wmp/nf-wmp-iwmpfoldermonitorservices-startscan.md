@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPFolderMonitorServices::startScan
+ - IWMPFolderMonitorServices.startScan
 ---
 
 # IWMPFolderMonitorServices::startScan
@@ -103,4 +103,3 @@ The <b>startScan</b> method should always be paired with a call to the <b>stopSc
 
 
 <a href="/windows/desktop/api/wmp/ne-wmp-wmpfolderscanstate">WMPFolderScanState</a>
-

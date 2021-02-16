@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPClosedCaption2::get_SAMIStyleCount
+ - IWMPClosedCaption2.get_SAMIStyleCount
 ---
 
 # IWMPClosedCaption2::get_SAMIStyleCount
@@ -101,4 +101,3 @@ This method cannot be used until a digital media file is open.
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpclosedcaption-get_samistyle">IWMPClosedCaption::get_SAMIStyle</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D2D1.dll
 api_name:
- - ID2D1TransformedImageSource::GetSource
+ - ID2D1TransformedImageSource.GetSource
 ---
 
 # ID2D1TransformedImageSource::GetSource
@@ -64,4 +64,3 @@ Retrieves the source image used to create the transformed image source.
 ## -see-also
 
 <a href="/windows/desktop/api/d2d1_3/nn-d2d1_3-id2d1transformedimagesource">ID2D1TransformedImageSource</a>
-

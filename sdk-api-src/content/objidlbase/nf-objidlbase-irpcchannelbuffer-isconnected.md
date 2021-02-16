@@ -42,7 +42,7 @@ api_type:
 api_location:
  - objidlbase.h
 api_name:
- - IRpcChannelBuffer::IsConnected
+ - IRpcChannelBuffer.IsConnected
 ---
 
 # IRpcChannelBuffer::IsConnected
@@ -61,4 +61,3 @@ If the RPC  channel exists, the return value is <b>TRUE</b>. Otherwise, it is <b
 ## -see-also
 
 <a href="/windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer">IRpcChannelBuffer</a>
-

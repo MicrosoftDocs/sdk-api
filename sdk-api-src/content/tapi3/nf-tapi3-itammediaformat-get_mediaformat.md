@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAMMediaFormat::get_MediaFormat
+ - ITAMMediaFormat.get_MediaFormat
 ---
 
 # ITAMMediaFormat::get_MediaFormat
@@ -104,4 +104,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3/nf-tapi3-itammediaformat-put_mediaformat">put_MediaFormat</a>
-

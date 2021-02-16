@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DXGIDebug.dll
 api_name:
- - IDXGIInfoQueue::GetStorageFilterStackSize
+ - IDXGIInfoQueue.GetStorageFilterStackSize
 ---
 
 # IDXGIInfoQueue::GetStorageFilterStackSize
@@ -70,4 +70,3 @@ Returns the size of the storage-filter stack in bytes.
 ## -see-also
 
 <a href="/windows/desktop/api/dxgidebug/nn-dxgidebug-idxgiinfoqueue">IDXGIInfoQueue</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - VsMgmt.h
 api_name:
- - _VSS_MGMT_OBJECT_TYPE
- - PVSS_MGMT_OBJECT_TYPE
  - VSS_MGMT_OBJECT_TYPE
 ---
 

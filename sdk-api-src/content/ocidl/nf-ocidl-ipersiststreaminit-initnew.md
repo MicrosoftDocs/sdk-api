@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IPersistStreamInit::InitNew
+ - IPersistStreamInit.InitNew
 ---
 
 # IPersistStreamInit::InitNew
@@ -94,4 +94,3 @@ If the object has already been initialized with <a href="/windows/desktop/api/oc
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ipersiststreaminit">IPersistStreamInit</a>
-

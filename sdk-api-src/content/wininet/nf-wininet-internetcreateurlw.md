@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - InternetCreateUrlW
  - wininet/InternetCreateUrlW
- - InternetCreateUrl
- - wininet/InternetCreateUrl
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Wininet.dll
 api_name:
- - InternetCreateUrlW
  - InternetCreateUrl
+ - InternetCreateUrlA
+ - InternetCreateUrlW
 ---
 
 # InternetCreateUrlW function
@@ -132,4 +131,3 @@ When specifying scheme in the <a href="/windows/desktop/api/wininet/ns-wininet-u
 
 
 <a href="/windows/desktop/WinInet/wininet-functions">WinINet Functions</a>
-

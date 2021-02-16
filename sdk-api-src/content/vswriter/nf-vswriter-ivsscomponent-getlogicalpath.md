@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssComponent::GetLogicalPath
+ - IVssComponent.GetLogicalPath
 ---
 
 # IVssComponent::GetLogicalPath
@@ -138,4 +138,3 @@ Logical paths are not required of components. A component without a logical path
 ## -see-also
 
 <a href="/windows/desktop/api/vswriter/nl-vswriter-ivsscomponent">IVssComponent</a>
-

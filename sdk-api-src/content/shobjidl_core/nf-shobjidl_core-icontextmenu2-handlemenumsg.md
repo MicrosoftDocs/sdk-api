@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IContextMenu2::HandleMenuMsg
+ - IContextMenu2.HandleMenuMsg
 ---
 
 # IContextMenu2::HandleMenuMsg
@@ -96,4 +96,3 @@ If <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">I
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-icontextmenu2">IContextMenu2</a>
-

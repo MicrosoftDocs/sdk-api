@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRegistrationEvents::OnRegisterStateChange
+ - IMbnRegistrationEvents.OnRegisterStateChange
 ---
 
 # IMbnRegistrationEvents::OnRegisterStateChange
@@ -79,4 +79,3 @@ An application can use the passed <a href="/windows/desktop/api/mbnapi/nn-mbnapi
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnregistrationevents">IMbnRegistrationEvents</a>
-

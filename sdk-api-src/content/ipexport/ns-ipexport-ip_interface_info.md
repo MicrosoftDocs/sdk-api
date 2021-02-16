@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ipexport.h
 api_name:
- - _IP_INTERFACE_INFO
- - PIP_INTERFACE_INFO
  - IP_INTERFACE_INFO
 ---
 
@@ -156,4 +154,3 @@ else {
 
 
 <a href="/windows/desktop/api/ipexport/ns-ipexport-ip_adapter_index_map">IP_ADAPTER_INDEX_MAP</a>
-

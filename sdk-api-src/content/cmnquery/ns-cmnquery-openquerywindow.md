@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Cmnquery.h
 api_name:
- - LPOPENQUERYWINDOW
  - OPENQUERYWINDOW
 ---
 
@@ -397,4 +396,3 @@ Read-only Domain Controllers
 
 
 <a href="/windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery">IPersistQuery</a>
-

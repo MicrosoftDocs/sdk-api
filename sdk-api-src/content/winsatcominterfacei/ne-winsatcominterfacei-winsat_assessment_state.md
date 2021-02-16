@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winsatcominterfacei.h
 api_name:
- - __MIDL___MIDL_itf_winsatcominterfacei_0000_0000_0002
  - WINSAT_ASSESSMENT_STATE
 ---
 
@@ -94,4 +93,3 @@ The maximum enumeration value for this enumeration.
 
 
 <a href="/windows/desktop/api/winsatcominterfacei/nf-winsatcominterfacei-iprovidewinsatvisuals-get_bitmap">IProvideWinSATVisuals::get_Bitmap</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_NumberOfBuffers
+ - ITraceDataCollector.NumberOfBuffers
+ - ITraceDataCollector.get_NumberOfBuffers
+ - ITraceDataCollector.put_NumberOfBuffers
 ---
 
 # ITraceDataCollector::get_NumberOfBuffers
@@ -67,4 +69,3 @@ This property is read/write.
 
 
 <a href="/previous-versions/windows/desktop/api/pla/nf-pla-itracedatacollector-get_minimumbuffers">ITraceDataCollector::MinimumBuffers</a>
-

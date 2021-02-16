@@ -42,7 +42,8 @@ api_type:
 api_location:
  - windows.devices.alljoyn.interop.h
 api_name:
- - IWindowsDevicesAllJoynBusAttachmentFactoryInterop::CreateFromWin32Handle
+ - IWindowsDevicesAllJoynBusAttachmentFactoryInterop.CreateFromWin32Handle
+ - IInspectable .CreateFromWin32Handle
 ---
 
 # IWindowsDevicesAllJoynBusAttachmentFactoryInterop::alljoyn
@@ -81,4 +82,3 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 
 <a href="/previous-versions/windows/desktop/api/windows.devices.alljoyn.interop/nn-windows-devices-alljoyn-interop-iwindowsdevicesalljoynbusattachmentfactoryinterop">IWindowsDevicesAllJoynBusAttachmentFactoryInterop</a>
-

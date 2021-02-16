@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::SetDashOffset
+ - Pen.SetDashOffset
 ---
 
 # Pen::SetDashOffset
@@ -141,4 +141,3 @@ VOID Example_SetDashOffset(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IProgressDialog::SetCancelMsg
+ - IProgressDialog.SetCancelMsg
 ---
 
 # IProgressDialog::SetCancelMsg
@@ -79,4 +79,3 @@ Even though the user clicks <b>Cancel</b>, the application cannot immediately ca
 ## -see-also
 
 <a href="/windows/desktop/api/shlobj_core/nn-shlobj_core-iprogressdialog">IProgressDialog</a>
-

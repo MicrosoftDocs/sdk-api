@@ -29,7 +29,6 @@ targetos: Windows
 req.typenames: 
 req.redist: 
 ms.custom: 19H1
-req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 f1_keywords:
  - SHChangeNotifyDeregister
  - shlobj_core/SHChangeNotifyDeregister
@@ -47,6 +46,8 @@ api_location:
  - windows.storage.dll
 api_name:
  - SHChangeNotifyDeregister
+ - NTSHChangeNotifyDeregister
+req.apiset: ext-ms-win-shell-shell32-l1-2-1 (introduced in Windows 10, version 10.0.10240)
 ---
 
 # SHChangeNotifyDeregister function
@@ -75,4 +76,3 @@ Returns <b>TRUE</b> if the specified client was found and removed; otherwise <b>
 See the <a href="/previous-versions/windows/desktop/legacy/dd940348(v=vs.85)">Change Notify Watcher Sample</a> in the Windows Software Development Kit (SDK) for a full example that demonstrates the use of this function.
 
 The <b>NTSHChangeNotifyDeregister</b> function, which is no longer available for use as of Windows Vista, was equivalent to <b>SHChangeNotifyDeregister</b>.
-

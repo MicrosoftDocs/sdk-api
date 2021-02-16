@@ -46,8 +46,6 @@ api_type:
 api_location:
  - OaIdl.h
 api_name:
- - tagPARAMDESC
- - LPPARAMDESC
  - PARAMDESC
 ---
 
@@ -67,4 +65,3 @@ The default value for the parameter, if PARAMFLAG_FHASDEFAULT is specified in <b
 ### -field wParamFlags
 
 The parameter flags. See <a href="/previous-versions/windows/desktop/automat/paramflags">PARAMFLAG Constants</a>.
-

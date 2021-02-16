@@ -46,8 +46,6 @@ api_type:
 api_location:
  - iwstdec.h
 api_name:
- - _AM_WST_DRAWBGMODE
- - PAM_WST_DRAWBGMODE
  - AM_WST_DRAWBGMODE
 ---
 
@@ -75,4 +73,3 @@ The background is transparent.
 
 
 <a href="/windows/desktop/api/iwstdec/nn-iwstdec-iamwstdecoder">IAMWstDecoder</a>
-

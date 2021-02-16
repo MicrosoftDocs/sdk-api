@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IATSCLocator::put_TSID
+ - IATSCLocator.put_TSID
 ---
 
 # IATSCLocator::put_TSID
@@ -69,4 +69,3 @@ This property is optional.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iatsclocator">IATSCLocator Interface</a>
-

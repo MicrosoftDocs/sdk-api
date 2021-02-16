@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll2::addNameValuePairToSignature
+ - ICEnroll4.addNameValuePairToSignature
+ - ICEnroll3.addNameValuePairToSignature
+ - ICEnroll2.addNameValuePairToSignature
+ - CEnroll.addNameValuePairToSignature
 ---
 
 # ICEnroll2::addNameValuePairToSignature
@@ -110,4 +113,3 @@ if (bstrName )
 if (bstrValue )
     SysFreeString( bstrValue );
 ```
-

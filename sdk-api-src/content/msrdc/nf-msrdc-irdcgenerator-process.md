@@ -42,7 +42,7 @@ api_type:
 api_location:
  - MsRdc.dll
 api_name:
- - IRdcGenerator::Process
+ - IRdcGenerator.Process
 ---
 
 # IRdcGenerator::Process
@@ -107,4 +107,3 @@ This method can return one of these values.
 
 
 <a href="/windows/win32/api/msrdc/ns-msrdc-rdcbufferpointer">RdcBufferPointer</a>
-

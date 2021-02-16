@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidStreamBufferSource::get_RecordingAttribute
+ - IMSVidStreamBufferSource.get_RecordingAttribute
 ---
 
 # IMSVidStreamBufferSource::get_RecordingAttribute
@@ -87,4 +87,3 @@ The caller must release the returned <b>IUnknown</b> interface.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/mstv/msvidstreambuffersource">IMSVidStreamBufferSource Interface</a>
-

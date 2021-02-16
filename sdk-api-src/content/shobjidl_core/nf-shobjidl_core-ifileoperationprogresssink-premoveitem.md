@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IFileOperationProgressSink::PreMoveItem
+ - IFileOperationProgressSink.PreMoveItem
 ---
 
 # IFileOperationProgressSink::PreMoveItem
@@ -83,4 +83,3 @@ Pointer to a new name for the item in its new location. This is a null-terminate
 Type: <b>HRESULT</b>
 
 Returns S_OK if successful, or an error value otherwise. In the case of an error value, the move operation and all subsequent operations pending from the call to <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> are canceled.
-

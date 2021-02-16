@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFTopologyNode::ConnectOutput
+ - IMFTopologyNode.ConnectOutput
 ---
 
 # IMFTopologyNode::ConnectOutput
@@ -140,4 +140,3 @@ To break an existing node connection, call <a href="/windows/desktop/api/mfidl/n
 
 
 <a href="/windows/desktop/medfound/topologies">Topologies</a>
-

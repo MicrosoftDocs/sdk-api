@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextNotify::Reset
+ - IMFTimedTextNotify.Reset
 ---
 
 # IMFTimedTextNotify::Reset
@@ -57,4 +57,3 @@ Resets the timed-text-notify object.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a>
-

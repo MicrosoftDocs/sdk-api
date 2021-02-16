@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _ASFFlatSynchronisedLyrics
  - ASF_FLAT_SYNCHRONISED_LYRICS
 ---
 
@@ -98,4 +97,3 @@ This format differs from the <b>WM_SYNCHRONISED_LYRICS</b> structure used in the
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - GetVolumePathNamesForVolumeNameA
  - winbase/GetVolumePathNamesForVolumeNameA
- - GetVolumePathNamesForVolumeName
- - winbase/GetVolumePathNamesForVolumeName
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-Ms-Win-Core-File-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - GetVolumePathNamesForVolumeNameA
  - GetVolumePathNamesForVolumeName
+ - GetVolumePathNamesForVolumeNameA
+ - GetVolumePathNamesForVolumeNameW
 ---
 
 # GetVolumePathNamesForVolumeNameA function
@@ -176,4 +175,3 @@ For an example, see
 
 
 <a href="/windows/desktop/FileIO/volume-management-functions">Volume Management Functions</a>
-

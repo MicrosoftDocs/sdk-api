@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxInboundRoutingExtension::get_Debug
+ - IFaxInboundRoutingExtension.Debug
+ - IFaxInboundRoutingExtension.get_Debug
+ - IFaxInboundRoutingExtension.get_Debug
 ---
 
 # IFaxInboundRoutingExtension::get_Debug
@@ -67,4 +69,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-routing-extensions-and-routing-methods">Visual Basic Example</a>
-

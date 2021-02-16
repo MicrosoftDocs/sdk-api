@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxOutgoingArchive::Save
+ - IFaxOutgoingArchive.Save
+ - IFaxOutgoingArchive.Save
 ---
 
 # IFaxOutgoingArchive::Save
@@ -77,4 +78,3 @@ To use this method, a user must have the <a href="/previous-versions/windows/des
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-managing-the-outgoing-archive">Visual Basic Example</a>
-

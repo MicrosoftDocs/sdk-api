@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManSession::Enumerate
+ - IWSManSession.Enumerate
 ---
 
 # IWSManSession::Enumerate
@@ -113,4 +113,3 @@ The corresponding scripting method is <a href="/windows/desktop/WinRM/session-en
 
 
 <a href="/windows/desktop/WinRM/session-enumerate">Session.Enumerate</a>
-

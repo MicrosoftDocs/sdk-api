@@ -9,8 +9,6 @@ tech.root: com
 f1_keywords:
  - roapi
  - roapi/roapi
-api_name:
- - roapi
 ---
 
 # Roapi.h header

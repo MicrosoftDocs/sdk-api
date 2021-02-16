@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::createPKCS10WStr
+ - IEnroll.createPKCS10WStr
 ---
 
 # IEnroll::createPKCS10WStr
@@ -87,4 +87,3 @@ By default, the Microsoft Base Cryptographic Provider is used, PROV_RSA_FULL is 
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

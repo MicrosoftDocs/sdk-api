@@ -43,7 +43,7 @@ api_location:
  - mssachlp.lib
  - mssachlp.dll
 api_name:
- - IMDSPDevice::GetSerialNumber
+ - IMDSPDevice.GetSerialNumber
 ---
 
 # IMDSPDevice::GetSerialNumber
@@ -87,4 +87,3 @@ This method is optional. When transferring protected content, Windows Media Devi
 
 
 <a href="/windows/desktop/api/mswmdm/nf-mswmdm-imdspstorageglobals-getserialnumber">IMDSPStorageGlobals::GetSerialNumber</a>
-

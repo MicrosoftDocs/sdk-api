@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList::ResetPropertyItem
+ - IADsPropertyList.ResetPropertyItem
 ---
 
 # IADsPropertyList::ResetPropertyItem
@@ -217,4 +217,3 @@ void TestResetItem()
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
-

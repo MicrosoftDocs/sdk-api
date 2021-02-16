@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IPackageDebugSettings::StartServicing
+ - IPackageDebugSettings.StartServicing
 ---
 
 # IPackageDebugSettings::StartServicing
@@ -73,4 +73,3 @@ Use the <b>StartServicing</b> method to simulate what happens when a package is 
 
 
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ipackagedebugsettings-stopservicing">StopServicing</a>
-

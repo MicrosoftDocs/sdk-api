@@ -44,7 +44,6 @@ api_type:
 api_location:
  - dxva9typ.h
 api_name:
- - _COPP_TVProtectionStandard
  - COPP_TVProtectionStandard
 ---
 
@@ -141,4 +140,3 @@ Reserved.
 
 
 <a href="/windows/desktop/DirectShow/using-certified-output-protection-protocol--copp">Using Certified Output Protection Protocol (COPP)</a>
-

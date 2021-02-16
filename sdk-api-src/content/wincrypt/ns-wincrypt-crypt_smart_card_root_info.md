@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_SMART_CARD_ROOT_INFO
- - PCRYPT_SMART_CARD_ROOT_INFO
  - CRYPT_SMART_CARD_ROOT_INFO
 ---
 
@@ -73,4 +71,3 @@ A <a href="/windows/desktop/api/wincrypt/ns-wincrypt-root_info_luid">ROOT_INFO_L
 The <b>luid</b> member value comes from the <b>AuthenticationId</b> member of the <a href="/windows/desktop/api/winnt/ns-winnt-token_statistics">TOKEN_STATISTICS</a> structure retrieved by calling the <a href="/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation">GetTokenInformation</a> function.
 
 A certificate context can include an array of multiple <b>CRYPT_SMART_CARD_ROOT_INFO</b> structures, one for each <a href="/windows/desktop/SecGloss/l-gly">locally unique identifier</a> (<a href="/windows/desktop/api/winnt/ns-winnt-luid">LUID</a>) that the certificate propagation service has added to a root certificate.
-

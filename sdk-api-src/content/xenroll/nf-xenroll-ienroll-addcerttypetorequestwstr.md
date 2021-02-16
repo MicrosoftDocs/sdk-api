@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::AddCertTypeToRequestWStr
+ - IEnroll.AddCertTypeToRequestWStr
 ---
 
 # IEnroll::AddCertTypeToRequestWStr
@@ -75,4 +75,3 @@ This method can be called multiple times if more than one certificate template i
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

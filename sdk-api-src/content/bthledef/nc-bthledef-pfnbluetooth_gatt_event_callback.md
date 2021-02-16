@@ -42,7 +42,7 @@ api_type:
 api_location:
  - bthledef.h
 api_name:
- - PFNBLUETOOTH_GATT_EVENT_CALLBACK
+ - BluetoothGattEventCallback
 ---
 
 # PFNBLUETOOTH_GATT_EVENT_CALLBACK callback function
@@ -79,4 +79,3 @@ The context specified by the profile driver in the <i>CallbackContext</i> parame
 
 
 <a href="/windows/desktop/api/bluetoothleapis/nf-bluetoothleapis-bluetoothgattregisterevent">BluetoothGATTRegisterEvent</a>
-

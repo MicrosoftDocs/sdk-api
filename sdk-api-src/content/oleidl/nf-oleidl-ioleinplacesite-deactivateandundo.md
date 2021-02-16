@@ -43,7 +43,8 @@ api_location:
  - OleIdl.h
  - browsewm.dll
 api_name:
- - IOleInPlaceSite::DeactivateAndUndo
+ - IOleInPlaceSite.DeactivateAndUndo
+ - IOleInPlaceSiteWindowless.DeactivateAndUndo
 ---
 
 # IOleInPlaceSite::DeactivateAndUndo
@@ -88,4 +89,3 @@ Upon completion of this call, the container should call <a href="/windows/deskto
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-

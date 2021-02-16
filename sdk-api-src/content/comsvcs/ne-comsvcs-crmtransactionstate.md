@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - tagCrmTransactionState
  - CrmTransactionState
 ---
 
@@ -76,4 +75,3 @@ The transaction is in doubt.
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nf-comsvcs-icrmmonitorlogrecords-get_transactionstate">ICrmMonitorLogRecords::get_TransactionState</a>
-

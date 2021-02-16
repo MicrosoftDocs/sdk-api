@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IComponent::put_Type
+ - IComponent.put_Type
 ---
 
 # IComponent::put_Type
@@ -69,4 +69,3 @@ Using the <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icompon
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-icomponent">IComponent Interface</a>
-

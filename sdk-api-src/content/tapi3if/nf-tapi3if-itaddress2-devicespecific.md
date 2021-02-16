@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddress2::DeviceSpecific
+ - ITAddress2.DeviceSpecific
 ---
 
 # ITAddress2::DeviceSpecific
@@ -130,4 +130,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linedevspecific">lineDevSpecific</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMpegAudioDecoder::put_DecoderAccuracy
+ - IMpegAudioDecoder.put_DecoderAccuracy
 ---
 
 # IMpegAudioDecoder::put_DecoderAccuracy
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mpegtype/nn-mpegtype-impegaudiodecoder">IMpegAudioDecoder</a>
-

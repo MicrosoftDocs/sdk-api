@@ -46,8 +46,6 @@ api_type:
 api_location:
  - shlobj_core.h
 api_name:
- - _NRESARRAY
- - LPNRESARRAY
  - NRESARRAY
 ---
 
@@ -71,4 +69,3 @@ The number of elements in the <b>nr</b> array.
 Type: <b><a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a>[1]</b>
 
 The array of <a href="/windows/desktop/api/rrascfg/nn-rrascfg-ieapproviderconfig">NETRESOURCE</a> structures that contain information about network resources. The string members (<b>LPSTR</b> types) in the structure contain offsets instead of addresses.
-

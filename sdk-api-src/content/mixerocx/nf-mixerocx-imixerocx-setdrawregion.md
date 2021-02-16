@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMixerOCX::SetDrawRegion
+ - IMixerOCX.SetDrawRegion
 ---
 
 # IMixerOCX::SetDrawRegion
@@ -107,4 +107,3 @@ Either <i>prcDrawCC</i> or <i>lprcClip</i> are <b>NULL</b>.
 
 
 <a href="/windows/desktop/DirectShow/overlay-mixer-filter">Overlay Mixer</a>
-

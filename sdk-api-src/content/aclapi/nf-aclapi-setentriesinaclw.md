@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetEntriesInAclW
  - aclapi/SetEntriesInAclW
- - SetEntriesInAcl
- - aclapi/SetEntriesInAcl
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - ntmarta.dll
  - API-MS-Win-Security-Provider-Ansi-L1-1-0.dll
 api_name:
- - SetEntriesInAclW
  - SetEntriesInAcl
+ - SetEntriesInAclA
+ - SetEntriesInAclW
 ---
 
 # SetEntriesInAclW function
@@ -164,4 +163,3 @@ For an example that uses this function, see <a href="/windows/desktop/SecAuthZ/m
 
 
 <a href="/windows/desktop/api/winnt/ns-winnt-system_audit_ace">SYSTEM_AUDIT_ACE</a>
-

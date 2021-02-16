@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmshare.h
 api_name:
- - _SHARE_INFO_503
- - PSHARE_INFO_503
  - SHARE_INFO_503
 ---
 
@@ -350,4 +348,3 @@ The remote server specified in the <b>shi503_servername</b> member must have bee
 
 
 <a href="/windows/desktop/NetShare/network-share-functions">Network Share Functions</a>
-

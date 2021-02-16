@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WsbApp.h
 api_name:
- - IWsbApplicationBackupSupport::CheckConsistency
+ - IWsbApplicationBackupSupport.CheckConsistency
 ---
 
 # IWsbApplicationBackupSupport::CheckConsistency
@@ -111,4 +111,3 @@ The application should perform the consistency check as an asynchronous operatio
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wsbapp/nn-wsbapp-iwsbapplicationbackupsupport">IWsbApplicationBackupSupport</a>
-

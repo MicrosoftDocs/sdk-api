@@ -46,8 +46,6 @@ api_type:
 api_location:
  - in6addr.h
 api_name:
- - in6_addr
- - PIN6_ADDR
  - IN6_ADDR
 ---
 
@@ -80,4 +78,3 @@ All members of the IN6_ADDR structure must be specified in network-byte-order (b
 ## -see-also
 
 [SOCKADDR_IN6](../ws2ipdef/ns-ws2ipdef-sockaddr_in6_lh.md)
-

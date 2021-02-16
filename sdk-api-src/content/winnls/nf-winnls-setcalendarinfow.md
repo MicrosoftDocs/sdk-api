@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetCalendarInfoW
  - winnls/SetCalendarInfoW
- - SetCalendarInfo
- - winnls/SetCalendarInfo
 dev_langs:
  - c++
 topic_type:
@@ -53,8 +51,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - SetCalendarInfoW
  - SetCalendarInfo
+ - SetCalendarInfoA
+ - SetCalendarInfoW
 ---
 
 # SetCalendarInfoW function
@@ -155,4 +154,3 @@ CAL_ITWODIGITYEARMAX can be used with any calendar, even if the calendar is not 
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

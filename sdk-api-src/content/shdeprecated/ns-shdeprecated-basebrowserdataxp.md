@@ -45,8 +45,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - BASEBROWSERDATAXP
- - LPBASEBROWSERDATAXP
+ - BASEBROWSERDATA
 ---
 
 # BASEBROWSERDATAXP structure
@@ -422,4 +421,3 @@ Type: <b>LONG</b>
 Type: <b>PCIDLIST_ABSOLUTE</b>
 
 A temporary placeholder for <b>_pidlPending</b> on first navigation to the pending location.
-

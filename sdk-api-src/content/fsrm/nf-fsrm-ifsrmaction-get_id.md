@@ -42,7 +42,8 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmAction::get_Id
+ - IFsrmAction.Id
+ - IFsrmAction.get_Id
 ---
 
 # IFsrmAction::get_Id
@@ -66,4 +67,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrm/nn-fsrm-ifsrmaction">IFsrmAction</a>
-

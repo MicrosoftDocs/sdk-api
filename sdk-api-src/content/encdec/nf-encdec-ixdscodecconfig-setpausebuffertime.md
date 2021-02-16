@@ -42,7 +42,7 @@ api_type:
 api_location:
  - EncDec.h
 api_name:
- - IXDSCodecConfig::SetPauseBufferTime
+ - IXDSCodecConfig.SetPauseBufferTime
 ---
 
 # IXDSCodecConfig::SetPauseBufferTime
@@ -70,4 +70,3 @@ Returns an <b>HRESULT</b>.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/encdec/nn-encdec-ixdscodecconfig">IXDSCodecConfig Interface</a>
-

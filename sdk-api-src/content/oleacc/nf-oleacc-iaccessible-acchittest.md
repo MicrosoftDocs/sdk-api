@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Oleacc.dll
 api_name:
- - IAccessible::accHitTest
+ - IAccessible.accHitTest
 ---
 
 # IAccessible::accHitTest
@@ -258,4 +258,3 @@ HRESULT SelectItemAtPoint(IAccessible* pAcc, POINT point)
 
 
 <a href="/windows/desktop/WinAuto/variant-structure">VARIANT</a>
-

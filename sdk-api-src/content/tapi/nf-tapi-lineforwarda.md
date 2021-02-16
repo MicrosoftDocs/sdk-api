@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineForwardA
  - tapi/lineForwardA
- - lineForward
- - tapi/lineForward
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineForwardA
  - lineForward
+ - lineForwardA
+ - lineForwardW
 ---
 
 # lineForwardA function
@@ -153,4 +152,3 @@ Invoking
 
 
 <a href="/windows/desktop/Tapi/tapi-2-2-reference">TAPI 2.2 Reference Overview</a>
-

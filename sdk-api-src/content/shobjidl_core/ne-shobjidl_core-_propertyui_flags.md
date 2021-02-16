@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - _PROPERTYUI_FLAGS
+ - PROPERTYUI_FLAGS
 ---
 
 # _PROPERTYUI_FLAGS enumeration

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Commoncontrols.h
 api_name:
- - tagIMAGELISTSTATS
  - IMAGELISTSTATS
 ---
 
@@ -80,4 +79,3 @@ The number of images in use.
 Type: <b>int</b>
 
 The number of standby images.
-

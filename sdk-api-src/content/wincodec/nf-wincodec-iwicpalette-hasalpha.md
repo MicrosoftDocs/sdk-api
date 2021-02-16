@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPalette::HasAlpha
+ - IWICPalette.HasAlpha
 ---
 
 # IWICPalette::HasAlpha

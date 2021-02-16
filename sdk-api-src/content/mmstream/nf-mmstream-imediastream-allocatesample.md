@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mmstream.h
 api_name:
- - IMediaStream::AllocateSample
+ - IMediaStream.AllocateSample
 ---
 
 # IMediaStream::AllocateSample
@@ -115,4 +115,3 @@ This method allocates the sample and its associated backing object or buffer. Th
 ## -see-also
 
 <a href="/windows/desktop/api/mmstream/nn-mmstream-imediastream">IMediaStream Interface</a>
-

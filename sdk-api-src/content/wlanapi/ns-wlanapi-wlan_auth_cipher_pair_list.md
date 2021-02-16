@@ -46,8 +46,6 @@ api_type:
 api_location:
  - wlanapi.h
 api_name:
- - _WLAN_AUTH_CIPHER_PAIR_LIST
- - PWLAN_AUTH_CIPHER_PAIR_LIST
  - WLAN_AUTH_CIPHER_PAIR_LIST
 ---
 
@@ -77,4 +75,3 @@ A <a href="/windows/desktop/NativeWiFi/dot11-auth-cipher-pair">DOT11_AUTH_CIPHER
 ## -see-also
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryinterface">WlanQueryInterface</a>
-

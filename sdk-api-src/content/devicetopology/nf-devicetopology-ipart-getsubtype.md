@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Devicetopology.h
 api_name:
- - IPart::GetSubType
+ - IPart.GetSubType
 ---
 
 # IPart::GetSubType
@@ -219,4 +219,3 @@ The control interfaces in the preceding table provide convenient access to the p
 ## -see-also
 
 <a href="/windows/desktop/api/devicetopology/nn-devicetopology-ipart">IPart Interface</a>
-

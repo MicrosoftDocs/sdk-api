@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICImageEncoder::WriteFrameThumbnail
+ - IWICImageEncoder.WriteFrameThumbnail
 ---
 
 # IWICImageEncoder::WriteFrameThumbnail
@@ -89,4 +89,3 @@ You must correctly and independently have set up the <a href="/windows/desktop/w
 ## -see-also
 
 <a href="/windows/desktop/api/wincodec/nn-wincodec-iwicimageencoder">IWICImageEncoder</a>
-

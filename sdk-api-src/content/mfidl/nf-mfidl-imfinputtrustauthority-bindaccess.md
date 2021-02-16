@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFInputTrustAuthority::BindAccess
+ - IMFInputTrustAuthority.BindAccess
 ---
 
 # IMFInputTrustAuthority::BindAccess
@@ -88,4 +88,3 @@ Before calling this method, the Media Session calls <a href="/windows/desktop/ap
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfinputtrustauthority">IMFInputTrustAuthority</a>
-

@@ -43,6 +43,7 @@ api_location:
  - Gpmgmt.dll
 api_name:
  - IGPMClientSideExtension
+ - GPMClientSideExtension
 ---
 
 # IGPMClientSideExtension interface
@@ -72,4 +73,3 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGPMClientSideExtension</b> i
 
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmcsecollection">IGPMCSECollection</a>
-

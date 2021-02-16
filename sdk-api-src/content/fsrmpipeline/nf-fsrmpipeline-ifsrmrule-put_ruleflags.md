@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmRule::put_RuleFlags
+ - IFsrmRule.RuleFlags
+ - IFsrmRule.get_RuleFlags
+ - IFsrmRule.put_RuleFlags
 ---
 
 # IFsrmRule::put_RuleFlags
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmrule">IFsrmRule</a>
-

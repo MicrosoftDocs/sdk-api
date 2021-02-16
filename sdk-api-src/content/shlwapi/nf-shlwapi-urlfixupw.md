@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - UrlFixupW
  - shlwapi/UrlFixupW
- - UrlFixup
- - shlwapi/UrlFixup
 dev_langs:
  - c++
 topic_type:
@@ -49,7 +47,7 @@ api_location:
  - API-MS-Win-DownLevel-shlwapi-l1-1-1.dll
 api_name:
  - UrlFixupW
- - UrlFixup
+ - UrlFixupW
 ---
 
 # UrlFixupW function
@@ -152,4 +150,3 @@ htps:\\www.microsoft.com    http://www.microsoft.com
 http:someone@example.com    http://someone@example.com
                 
 ```
-

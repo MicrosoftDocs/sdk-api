@@ -41,7 +41,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingFrustum::Intersects
+ - BoundingFrustum.Intersects
 ---
 
 ## -description
@@ -82,4 +82,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

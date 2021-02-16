@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mswsock.h
 api_name:
- - _TRANSMIT_FILE_BUFFERS
- - PTRANSMIT_FILE_BUFFERS
  - TRANSMIT_FILE_BUFFERS
 ---
 
@@ -81,4 +79,3 @@ Size of the buffer pointed to <b>Tail</b>, in bytes, to be transmitted.
 ## -see-also
 
 <a href="/windows/desktop/api/mswsock/nf-mswsock-transmitfile">TransmitFile</a>
-

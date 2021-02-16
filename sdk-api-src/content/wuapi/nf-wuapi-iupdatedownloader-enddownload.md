@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IUpdateDownloader::EndDownload
+ - IUpdateDownloader.EndDownload
 ---
 
 # IUpdateDownloader::EndDownload
@@ -95,4 +95,3 @@ When you use any asynchronous WUA API in your app, you might need to implement a
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatedownloader">IUpdateDownloader</a>
-

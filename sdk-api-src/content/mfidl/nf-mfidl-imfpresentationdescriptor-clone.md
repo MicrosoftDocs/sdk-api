@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFPresentationDescriptor::Clone
+ - IMFPresentationDescriptor.Clone
 ---
 
 # IMFPresentationDescriptor::Clone
@@ -85,4 +85,3 @@ This interface is available on the following platforms if the Windows Media Form
 
 
 <a href="/windows/desktop/medfound/presentation-descriptors">Presentation Descriptors</a>
-

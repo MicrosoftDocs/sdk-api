@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509Enrollment::get_Certificate
+ - IX509Enrollment.Certificate
+ - IX509Enrollment.get_Certificate
 ---
 
 # IX509Enrollment::get_Certificate
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollment">IX509Enrollment</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - CustomLineCap::GetBaseCap
+ - CustomLineCap.GetBaseCap
 ---
 
 # CustomLineCap::GetBaseCap
@@ -68,4 +68,3 @@ This method returns the value of the line cap used at the base of the line.
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-linecap">LineCap</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDiscoveryProviderNotify::SearchFailed
+ - IWSDiscoveryProviderNotify.SearchFailed
 ---
 
 # IWSDiscoveryProviderNotify::SearchFailed
@@ -80,4 +80,3 @@ The interval between initiating the search with <a href="/windows/desktop/api/ws
 ## -see-also
 
 <a href="/windows/desktop/api/wsddisco/nn-wsddisco-iwsdiscoveryprovidernotify">IWSDiscoveryProviderNotify</a>
-

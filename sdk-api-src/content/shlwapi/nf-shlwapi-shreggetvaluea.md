@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SHRegGetValueA
  - shlwapi/SHRegGetValueA
- - SHRegGetValue
- - shlwapi/SHRegGetValue
 dev_langs:
  - c++
 topic_type:
@@ -50,8 +48,9 @@ api_location:
  - API-MS-Win-ShCore-Registry-l1-1-0.dll
  - API-MS-Win-ShCore-Registry-l1-1-1.dll
 api_name:
- - SHRegGetValueA
  - SHRegGetValue
+ - SHRegGetValueA
+ - SHRegGetValueW
 ---
 
 # SHRegGetValueA function
@@ -203,4 +202,3 @@ The potential for an additional call to the registry to read or re-read the data
 ## -see-also
 
 <a href="/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a>
-

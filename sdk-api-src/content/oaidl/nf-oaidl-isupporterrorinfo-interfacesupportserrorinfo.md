@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ISupportErrorInfo::InterfaceSupportsErrorInfo
+ - ISupportErrorInfo.InterfaceSupportsErrorInfo
 ---
 
 # ISupportErrorInfo::InterfaceSupportsErrorInfo
@@ -110,4 +110,3 @@ For an example that demonstrates implementing <b>InterfaceSupportsErrorInfo</b>,
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-isupporterrorinfo">ISupportErrorInfo</a>
-

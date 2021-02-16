@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl_core.h
 api_name:
- - IContactManagerInterop::ShowContactCardForWindow
+ - IContactManagerInterop.ShowContactCardForWindow
 ---
 
 # IContactManagerInterop::ShowContactCardForWindow
@@ -163,4 +163,3 @@ Other <a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a> valu
 
 
 <a href="/previous-versions/dn302110(v=vs.85)">ShowContactCardForWindow</a>
-

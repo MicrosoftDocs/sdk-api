@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - lpMapiMessageW
  - MapiMessageW
 ---
 
@@ -194,4 +193,3 @@ Pointer to an array of <a href="/previous-versions/windows/desktop/api/mapi/ns-m
 
 
 <a href="/previous-versions/windows/desktop/api/mapi/ns-mapi-mapirecipdescw">MapiRecipDescW</a>
-

@@ -9,8 +9,6 @@ tech.root: iphlp
 f1_keywords:
  - ip2string
  - ip2string/ip2string
-api_name:
- - ip2string
 ---
 
 # Ip2String.h header

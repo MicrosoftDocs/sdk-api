@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::get_ParentWindow
+ - IX509PrivateKey.ParentWindow
+ - IX509PrivateKey.get_ParentWindow
+ - IX509PrivateKey.put_ParentWindow
 ---
 
 # IX509PrivateKey::get_ParentWindow
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

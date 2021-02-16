@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mftransform.h
 api_name:
- - IMFDeviceTransform::ProcessMessage
+ - IMFDeviceTransform.ProcessMessage
 ---
 
 # IMFDeviceTransform::ProcessMessage
@@ -150,4 +150,3 @@ For more information, see <a href="/windows/desktop/api/mftransform/ne-mftransfo
 ## -see-also
 
 <a href="/windows/desktop/api/mftransform/nn-mftransform-imfdevicetransform">IMFDeviceTransform</a>
-

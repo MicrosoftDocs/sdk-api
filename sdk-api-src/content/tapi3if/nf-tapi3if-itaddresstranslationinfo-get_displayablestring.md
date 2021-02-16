@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITAddressTranslationInfo::get_DisplayableString
+ - ITAddressTranslationInfo.get_DisplayableString
 ---
 
 # ITAddressTranslationInfo::get_DisplayableString
@@ -119,4 +119,3 @@ Corresponds to the <b>dwDisplayableStringSize</b> and <b>dwDisplayableStringOffs
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo">ITAddressTranslationInfo</a>
-

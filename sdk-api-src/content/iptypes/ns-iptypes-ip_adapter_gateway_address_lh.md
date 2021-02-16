@@ -46,9 +46,7 @@ api_type:
 api_location:
  - Iptypes.h
 api_name:
- - _IP_ADAPTER_GATEWAY_ADDRESS_LH
- - PIP_ADAPTER_GATEWAY_ADDRESS_LH
- - IP_ADAPTER_GATEWAY_ADDRESS_LH
+ - IP_ADAPTER_GATEWAY_ADDRESS
 ---
 
 # IP_ADAPTER_GATEWAY_ADDRESS_LH structure
@@ -106,4 +104,3 @@ The <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRES
 
 
 <a href="/windows/desktop/api/ws2def/ns-ws2def-socket_address">SOCKET_ADDRESS</a>
-

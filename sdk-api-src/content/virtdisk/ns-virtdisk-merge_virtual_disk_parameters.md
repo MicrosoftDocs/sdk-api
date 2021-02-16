@@ -47,8 +47,6 @@ api_location:
  - VirtDisk.h
  - vdssys.h
 api_name:
- - _MERGE_VIRTUAL_DISK_PARAMETERS
- - PMERGE_VIRTUAL_DISK_PARAMETERS
  - MERGE_VIRTUAL_DISK_PARAMETERS
 ---
 
@@ -115,4 +113,3 @@ The depth of a merge request specified by the <b>MergeDepth</b> member is the nu
 
 
 <a href="/previous-versions/windows/desktop/legacy/dd323700(v=vs.85)">VHD Reference</a>
-

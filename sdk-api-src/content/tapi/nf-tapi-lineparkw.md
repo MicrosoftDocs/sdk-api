@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineParkW
  - tapi/lineParkW
- - linePark
- - tapi/linePark
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineParkW
  - linePark
+ - lineParkA
+ - lineParkW
 ---
 
 # lineParkW function
@@ -129,4 +128,3 @@ On a nondirected park, if the <b>dwTotalSize</b> member in the
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-lineunpark">lineUnpark</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - spatialaudioclient.h
 api_name:
- - ISpatialAudioClient::GetMaxFrameCount
+ - ISpatialAudioClient.GetMaxFrameCount
 ---
 
 # ISpatialAudioClient::GetMaxFrameCount
@@ -69,4 +69,3 @@ If the method succeeds, it returns S_OK.
 ## -see-also
 
 <a href="/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a>
-

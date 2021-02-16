@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmdeviceapi.h
 api_name:
- - IMMDevice::Activate
+ - IMMDevice.Activate
 ---
 
 # IMMDevice::Activate
@@ -267,4 +267,3 @@ For code examples that call the <b>Activate</b> method, see the following topics
 
 
 <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice">IMMDevice Interface</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - QosObjs.h
 api_name:
- - _QOS_DIFFSERV_RULE
- - LPQOS_DIFFSERV_RULE
  - QOS_DIFFSERV_RULE
 ---
 
@@ -110,4 +108,3 @@ Valid range is 0-7
 ## -see-also
 
 <a href="/windows/desktop/api/qosobjs/ns-qosobjs-qos_diffserv">QOS_DIFFSERV</a>
-

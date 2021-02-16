@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Wab32.dll
 api_name:
- - IWABObject::SetMe
+ - IWABObject.SetMe
 ---
 
 # IWABObject::SetMe
@@ -115,4 +115,3 @@ If the calling application specifies
  pre-selected in the contact list.
 
 Passing a combination of no flags and no entry identifiers is not valid.
-

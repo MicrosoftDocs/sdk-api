@@ -9,8 +9,6 @@ tech.root: multimedia
 f1_keywords:
  - mmreg
  - mmreg/mmreg
-api_name:
- - mmreg
 ---
 
 # Mmreg.h header

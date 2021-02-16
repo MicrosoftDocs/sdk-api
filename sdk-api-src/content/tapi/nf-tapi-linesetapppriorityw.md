@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - lineSetAppPriorityW
  - tapi/lineSetAppPriorityW
- - lineSetAppPriority
- - tapi/lineSetAppPriority
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Tapi32.dll
 api_name:
- - lineSetAppPriorityW
  - lineSetAppPriority
+ - lineSetAppPriorityA
+ - lineSetAppPriorityW
 ---
 
 # lineSetAppPriorityW function
@@ -122,4 +121,3 @@ The Priorities set with <b>lineSetAppPriority</b> will persist across restarts o
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-linehandoff">lineHandoff</a>
-

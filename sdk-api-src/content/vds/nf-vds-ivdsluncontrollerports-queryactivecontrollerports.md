@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsLunControllerPorts::QueryActiveControllerPorts
+ - IVdsLunControllerPorts.QueryActiveControllerPorts
 ---
 
 # IVdsLunControllerPorts::QueryActiveControllerPorts
@@ -146,4 +146,3 @@ Another operation is in progress. This operation cannot proceed until previous o
 
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ivdsluncontrollerports">IVdsLunControllerPorts</a>
-

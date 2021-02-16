@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Usp10.h
 api_name:
- - tag_SCRIPT_ITEM
  - SCRIPT_ITEM
 ---
 
@@ -84,4 +83,3 @@ A <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a
 
 
 <a href="/windows/desktop/Intl/uniscribe-structures">Uniscribe Structures</a>
-

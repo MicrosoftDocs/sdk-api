@@ -46,8 +46,6 @@ api_type:
 api_location:
  - cfgmgr32.h
 api_name:
- - IRQ_Range_s
- - PIRQ_RANGE
  - IRQ_RANGE
 ---
 
@@ -77,4 +75,3 @@ One bit flag from [IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32
 ## -see-also
 
 [IRQ_DES](/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)
-

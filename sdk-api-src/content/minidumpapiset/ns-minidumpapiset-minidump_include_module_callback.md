@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minidumpapiset.h
 api_name:
- - _MINIDUMP_INCLUDE_MODULE_CALLBACK
- - PMINIDUMP_INCLUDE_MODULE_CALLBACK
  - MINIDUMP_INCLUDE_MODULE_CALLBACK
 ---
 
@@ -77,4 +75,3 @@ The base address of the executable image in memory.
 
 
 <a href="/windows/desktop/api/minidumpapiset/nc-minidumpapiset-minidump_callback_routine">MiniDumpCallback</a>
-

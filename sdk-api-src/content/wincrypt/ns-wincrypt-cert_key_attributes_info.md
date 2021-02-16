@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CERT_KEY_ATTRIBUTES_INFO
- - PCERT_KEY_ATTRIBUTES_INFO
  - CERT_KEY_ATTRIBUTES_INFO
 ---
 
@@ -104,4 +102,3 @@ A pointer to a
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptdecodeobject">CryptDecodeObject</a>
-

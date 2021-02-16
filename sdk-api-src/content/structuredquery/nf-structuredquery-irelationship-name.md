@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Structuredquery.h
 api_name:
- - IRelationship::Name
+ - IRelationship.Name
 ---
 
 # IRelationship::Name
@@ -65,4 +65,3 @@ Receives a pointer to the name of the relationship as a Unicode string. The call
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

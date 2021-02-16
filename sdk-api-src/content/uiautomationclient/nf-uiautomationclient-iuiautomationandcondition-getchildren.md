@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationAndCondition::GetChildren
+ - IUIAutomationAndCondition.GetChildren
 ---
 
 # IUIAutomationAndCondition::GetChildren
@@ -85,4 +85,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <b>Reference</b>
-

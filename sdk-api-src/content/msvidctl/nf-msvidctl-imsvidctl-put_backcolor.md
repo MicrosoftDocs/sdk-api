@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::put_BackColor
+ - IMSVidCtl.put_BackColor
 ---
 
 # IMSVidCtl::put_BackColor
@@ -88,4 +88,3 @@ hr = pVideoControl->put_BackColor(static_cast<OLE_COLOR>(orange));
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-setbordercolor">IVMRWindowlessControl::SetBorderColor</a>
-

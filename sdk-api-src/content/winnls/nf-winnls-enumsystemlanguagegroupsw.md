@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - EnumSystemLanguageGroupsW
  - winnls/EnumSystemLanguageGroupsW
- - EnumSystemLanguageGroups
- - winnls/EnumSystemLanguageGroups
 dev_langs:
  - c++
 topic_type:
@@ -52,8 +50,9 @@ api_location:
  - API-MS-Win-Core-Localization-Ansi-L1-1-0.dll
  - Kernel32Legacy.dll
 api_name:
- - EnumSystemLanguageGroupsW
  - EnumSystemLanguageGroups
+ - EnumSystemLanguageGroupsA
+ - EnumSystemLanguageGroupsW
 ---
 
 # EnumSystemLanguageGroupsW function
@@ -145,4 +144,3 @@ This function enumerates language groups by passing language group identifiers, 
 
 
 <a href="/windows/desktop/Intl/national-language-support-functions">National Language Support Functions</a>
-

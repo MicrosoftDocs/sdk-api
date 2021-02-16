@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaSample::SetSyncPoint
+ - IMediaSample.SetSyncPoint
 ---
 
 # IMediaSample::SetSyncPoint
@@ -80,4 +80,3 @@ This flag is purely informational. Other filters downstream might check this fla
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-imediasample-issyncpoint">IMediaSample::IsSyncPoint</a>
-

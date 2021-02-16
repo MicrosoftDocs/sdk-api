@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_FRAMERATE
  - DVD_FRAMERATE
 ---
 
@@ -76,4 +75,3 @@ You must know the frame rate to interpret the frame count as time.
 
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

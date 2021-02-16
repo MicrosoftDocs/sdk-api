@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITfLangBarItemButton::GetText
+ - ITfLangBarItemButton.GetText
 ---
 
 # ITfLangBarItemButton::GetText
@@ -113,4 +113,3 @@ A memory allocation failure occurred.
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationTextRange3::GetEnclosingElementBuildCache
+ - IUIAutomationTextRange3.GetEnclosingElementBuildCache
 ---
 
 # IUIAutomationTextRange3::GetEnclosingElementBuildCache
@@ -82,4 +82,3 @@ As a result of a successful call, UI Automation clients are able call "Cached" A
 
 
 <a href="/windows/desktop/WinAuto/uiauto-ui-automation-textpattern-overview">UI Automation Support for Textual Content</a>
-

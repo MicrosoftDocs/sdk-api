@@ -42,7 +42,7 @@ api_type:
 api_location:
  - adhoc.h
 api_name:
- - IDot11AdHocNetwork::GetSignalQuality
+ - IDot11AdHocNetwork.GetSignalQuality
 ---
 
 # IDot11AdHocNetwork::GetSignalQuality
@@ -135,4 +135,3 @@ Signal strength, in this context, is measured on a linear scale. When <i>puStren
 ## -see-also
 
 <a href="/windows/desktop/api/adhoc/nn-adhoc-idot11adhocnetwork">IDot11AdHocNetwork</a>
-

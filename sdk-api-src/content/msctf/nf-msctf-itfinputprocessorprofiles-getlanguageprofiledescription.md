@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfInputProcessorProfiles::GetLanguageProfileDescription
+ - ITfInputProcessorProfiles.GetLanguageProfileDescription
 ---
 
 # ITfInputProcessorProfiles::GetLanguageProfileDescription
@@ -126,4 +126,3 @@ An unspecified error occurred.
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

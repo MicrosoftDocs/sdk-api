@@ -46,7 +46,9 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMProfile::GetDescription
+ - IWMProfile.GetDescription
+ - IWMProfile2.GetDescription
+ - IWMProfile3.GetDescription
 ---
 
 # IWMProfile::GetDescription
@@ -140,4 +142,3 @@ You should make two calls to <b>GetDescription</b>. On the first call, pass <b>N
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmprofile-setdescription">IWMProfile::SetDescription</a>
-

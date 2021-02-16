@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _REQUEST_OPLOCK_OUTPUT_BUFFER
- - PREQUEST_OPLOCK_OUTPUT_BUFFER
  - REQUEST_OPLOCK_OUTPUT_BUFFER
 ---
 
@@ -158,4 +156,3 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 <a href="/windows/desktop/api/winioctl/ns-winioctl-request_oplock_input_buffer">REQUEST_OPLOCK_INPUT_BUFFER</a>
-

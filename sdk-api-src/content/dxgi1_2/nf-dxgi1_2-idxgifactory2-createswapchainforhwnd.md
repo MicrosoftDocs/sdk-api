@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGIFactory2::CreateSwapChainForHwnd
+ - IDXGIFactory2.CreateSwapChainForHwnd
 ---
 
 # IDXGIFactory2::CreateSwapChainForHwnd
@@ -115,4 +115,3 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 
 <a href="/windows/desktop/api/dxgi1_2/nn-dxgi1_2-idxgifactory2">IDXGIFactory2</a>
-

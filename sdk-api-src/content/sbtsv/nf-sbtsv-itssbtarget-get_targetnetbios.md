@@ -42,7 +42,12 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbTarget::get_TargetNetbios
+ - ITsSbTarget.TargetNetbios
+ - ITsSbTarget.get_TargetNetbios
+ - ITsSbTarget.put_TargetNetbios
+ - ITsSbTargetEx.TargetNetbios
+ - ITsSbTargetEx.get_TargetNetbios
+ - ITsSbTargetEx.put_TargetNetbios
 ---
 
 # ITsSbTarget::get_TargetNetbios
@@ -63,4 +68,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/TermServ/itssbtargetex">ITsSbTargetEx</a>
-

@@ -46,7 +46,8 @@ api_location:
  - WMStubDRM.dll
  - qasf.dll
 api_name:
- - IWMPacketSize::SetMaxPacketSize
+ - IWMPacketSize.SetMaxPacketSize
+ - IWMPacketSize2.SetMaxPacketSize
 ---
 
 # IWMPacketSize::SetMaxPacketSize
@@ -112,4 +113,3 @@ This method is designed for use with only single bit rate video; it should not b
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmpacketsize-getmaxpacketsize">IWMPacketSize::GetMaxPacketSize</a>
-

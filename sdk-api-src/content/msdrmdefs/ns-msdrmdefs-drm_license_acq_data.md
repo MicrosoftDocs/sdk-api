@@ -45,7 +45,6 @@ api_type:
 api_location:
  - Msdrmdefs.h
 api_name:
- - _DRM_LICENSE_ACQ_DATA
  - DRM_LICENSE_ACQ_DATA
 ---
 
@@ -103,4 +102,3 @@ This structure has a C++ default constructor that takes no parameters and sets a
 
 
 <a href="/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmacquirelicense">DRMAcquireLicense</a>
-

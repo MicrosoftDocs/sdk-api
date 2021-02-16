@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyStoreFactory::GetPropertyStoreForKeys
+ - IPropertyStoreFactory.GetPropertyStoreForKeys
 ---
 
 # IPropertyStoreFactory::GetPropertyStoreForKeys
@@ -94,4 +94,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -remarks
 
 It is recommended that you use the IID_PPV_ARGS macro, defined in Objbase.h, to package the <i>riid</i> and <i>ppv</i> parameters. This macro provides the correct IID based on the interface pointed to by the value in <i>ppv</i>, which eliminates the possibility of a coding error.
-

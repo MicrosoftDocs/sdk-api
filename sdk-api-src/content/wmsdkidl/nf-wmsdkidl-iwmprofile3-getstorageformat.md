@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMProfile3::GetStorageFormat
+ - IWMProfile3.GetStorageFormat
 ---
 
 # IWMProfile3::GetStorageFormat
@@ -72,4 +72,3 @@ To retrieve the storage format, use the <a href="/windows/desktop/wmformat/wm-co
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmprofile3">IWMProfile3 Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetwork::GetDescription
+ - INetwork.GetDescription
 ---
 
 # INetwork::GetDescription
@@ -83,4 +83,3 @@ The pointer passed is <b>NULL</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/netlistmgr/nn-netlistmgr-inetwork">INetwork</a>
-

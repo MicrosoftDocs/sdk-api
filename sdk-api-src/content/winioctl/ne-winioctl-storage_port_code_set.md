@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _STORAGE_PORT_CODE_SET
- - PSTORAGE_PORT_CODE_SET
  - STORAGE_PORT_CODE_SET
 ---
 
@@ -95,4 +93,3 @@ Storage adapter driver is an SD-port miniport driver.
 
 * [Disk Management Enumeration Types](/windows/desktop/FileIO/disk-management-enumeration-types)
 * [STORAGE_MINIPORT_DESCRIPTOR](ns-winioctl-storage_miniport_descriptor.md)
-

@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFHttpDownloadRequest::Close
+ - IMFHttpDownloadRequest.Close
 ---
 
 # IMFHttpDownloadRequest::Close
@@ -87,4 +87,3 @@ Microsoft Media Foundation will not invoke any other methods on the <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfhttpdownloadrequest">IMFHttpDownloadRequest</a>
-

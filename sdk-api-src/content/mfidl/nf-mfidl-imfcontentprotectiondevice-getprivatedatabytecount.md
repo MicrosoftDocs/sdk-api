@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfplat.dll
 api_name:
- - IMFContentProtectionDevice::GetPrivateDataByteCount
+ - IMFContentProtectionDevice.GetPrivateDataByteCount
 ---
 
 # IMFContentProtectionDevice::GetPrivateDataByteCount
@@ -77,4 +77,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/mfidl/nf-mfidl-imfcontentprotectiondevice-invokefunction">InvokeFunction</a>
-

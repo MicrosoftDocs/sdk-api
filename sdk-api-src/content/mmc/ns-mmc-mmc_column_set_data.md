@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Mmc.h
 api_name:
- - _MMC_COLUMN_SET_DATA
  - MMC_COLUMN_SET_DATA
 ---
 
@@ -95,4 +94,3 @@ A pointer to an array of
 
 
 <a href="/previous-versions/windows/desktop/mmc/using-column-persistence">Using Column Persistence</a>
-

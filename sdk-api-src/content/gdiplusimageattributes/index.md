@@ -9,8 +9,6 @@ tech.root: gdiplus
 f1_keywords:
  - gdiplusimageattributes
  - gdiplusimageattributes/gdiplusimageattributes
-api_name:
- - gdiplusimageattributes
 ---
 
 # Gdiplusimageattributes.h header

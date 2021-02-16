@@ -42,7 +42,7 @@ api_type:
 api_location:
  - wmp.dll
 api_name:
- - IWMPEvents::CurrentPlaylistItemAvailable
+ - IWMPEvents.CurrentPlaylistItemAvailable
 ---
 
 # IWMPEvents::CurrentPlaylistItemAvailable
@@ -71,4 +71,3 @@ The name of the current playlist can be used to retrieve the corresponding <b>Pl
 
 
 <a href="/windows/desktop/api/wmp/nf-wmp-iwmpplaylistcollection-getbyname">IWMPPlaylistCollection::getByName</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Sens.dll
 api_name:
- - ISensLogon2::SessionDisconnect
+ - ISensLogon2.SessionDisconnect
 ---
 
 # ISensLogon2::SessionDisconnect
@@ -104,4 +104,3 @@ SENS calls this method to notify an application that a session is disconnected.
 
 
 <a href="/windows/desktop/TermServ/terminal-services-portal">Terminal Services</a>
-

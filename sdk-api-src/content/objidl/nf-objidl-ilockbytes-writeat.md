@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - ILockBytes::WriteAt
+ - ILockBytes.WriteAt
 ---
 
 # ILockBytes::WriteAt
@@ -95,4 +95,3 @@ If <i>ulOffset</i> is past the end of the byte array and <i>cb</i> is greater th
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-ilockbytes-setsize">ILockBytes::SetSize</a>
-

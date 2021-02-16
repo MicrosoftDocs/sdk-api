@@ -29,7 +29,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_DEVICE_SERVICE_GUID_LIST
- - PWLAN_DEVICE_SERVICE_GUID_LIST
  - WLAN_DEVICE_SERVICE_GUID_LIST
 f1_keywords:
  - _WLAN_DEVICE_SERVICE_GUID_LIST
@@ -69,4 +68,3 @@ A pointer to an array containing **GUID**s; each corresponds to a WLAN device se
 ## -remarks
 
 ## -see-also
-

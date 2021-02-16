@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellView::Refresh
+ - IShellView.Refresh
 ---
 
 # IShellView::Refresh
@@ -73,4 +73,3 @@ Refill the view by going to any underlying storage for the contents.
 ## -see-also
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellview">IShellView</a>
-

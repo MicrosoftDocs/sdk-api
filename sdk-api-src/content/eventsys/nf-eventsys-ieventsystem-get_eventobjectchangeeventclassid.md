@@ -42,7 +42,8 @@ api_type:
 api_location:
  - EventSys.h
 api_name:
- - IEventSystem::get_EventObjectChangeEventClassID
+ - IEventSystem.EventObjectChangeEventClassID
+ - IEventSystem.get_EventObjectChangeEventClassID
 ---
 
 # IEventSystem::get_EventObjectChangeEventClassID
@@ -63,4 +64,3 @@ Subscriptions can use the <b>EventObjectChangeEventClassID</b> property to obtai
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ieventsystem">IEventSystem</a>
-

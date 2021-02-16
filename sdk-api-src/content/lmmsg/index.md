@@ -9,8 +9,6 @@ tech.root: netmgmt
 f1_keywords:
  - lmmsg
  - lmmsg/lmmsg
-api_name:
- - lmmsg
 ---
 
 # Lmmsg.h header

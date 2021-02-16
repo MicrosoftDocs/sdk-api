@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssBackupComponents::SetRangesFilePath
+ - IVssBackupComponents.SetRangesFilePath
 ---
 
 # IVssBackupComponents::SetRangesFilePath
@@ -211,4 +211,3 @@ Calling
 
 
 <a href="/windows/desktop/api/vswriter/nf-vswriter-ivsscomponent-getpartialfilecount">IVssComponent::GetPartialFileCount</a>
-

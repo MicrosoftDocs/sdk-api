@@ -42,7 +42,8 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnRadio::get_SoftwareRadioState
+ - IMbnRadio.SoftwareRadioState
+ - IMbnRadio.get_SoftwareRadioState
 ---
 
 # IMbnRadio::get_SoftwareRadioState
@@ -62,4 +63,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbnradio">IMbnRadio</a>
-

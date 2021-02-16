@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAsyncReader::WaitForNext
+ - IAsyncReader.WaitForNext
 ---
 
 # IAsyncReader::WaitForNext
@@ -148,4 +148,3 @@ If a read error occurs, the source filter sends an error event to the Filter Gra
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iasyncreader">IAsyncReader Interface</a>
-

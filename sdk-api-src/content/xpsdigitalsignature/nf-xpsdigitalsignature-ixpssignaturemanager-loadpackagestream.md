@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsdigitalsignature.h
 api_name:
- - IXpsSignatureManager::LoadPackageStream
+ - IXpsSignatureManager.LoadPackageStream
 ---
 
 # IXpsSignatureManager::LoadPackageStream
@@ -130,4 +130,3 @@ The implementation of the  <b>IStream</b> interface that is passed in <i>stream<
 
 
 <a href="/previous-versions/windows/desktop/dd372955(v=vs.85)">XPS Document Errors</a>
-

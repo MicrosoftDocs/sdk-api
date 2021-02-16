@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Fhcfg.h
 api_name:
- - IFhScopeIterator::MoveToNextItem
+ - IFhScopeIterator.MoveToNextItem
 ---
 
 # IFhScopeIterator::MoveToNextItem
@@ -72,4 +72,3 @@ If the current item is the last item in the list, or if the list is empty, this 
 
 
 <a href="/windows/desktop/api/fhcfg/nf-fhcfg-ifhscopeiterator-getitem">IFhScopeIterator::GetItem</a>
-

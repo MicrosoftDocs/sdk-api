@@ -56,7 +56,7 @@ api_location:
  - Wmipjobj.dll
  - Wmiprvsd.dll
 api_name:
- - IWbemServices::DeleteClassAsync
+ - IWbemServices.DeleteClassAsync
 ---
 
 # IWbemServices::DeleteClassAsync
@@ -140,4 +140,3 @@ For more information about using methods semisynchronously, see <a href="/window
 
 
 <a href="/windows/desktop/WmiSdk/retrieving-an-error-code">Retrieving an Error Code</a>
-

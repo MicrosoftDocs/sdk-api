@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Fwptypes.h
 api_name:
- - FWP_TOKEN_INFORMATION_
  - FWP_TOKEN_INFORMATION
 ---
 
@@ -72,4 +71,3 @@ The number of <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">S
 ### -field restrictedSids
 
 An array of <a href="/windows/desktop/api/winnt/ns-winnt-sid_and_attributes">SID_AND_ATTRIBUTES</a> structures containing restricted SIDs security information.
-

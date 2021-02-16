@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICMetadataBlockReader::GetCount
+ - IWICMetadataBlockReader.GetCount
 ---
 
 # IWICMetadataBlockReader::GetCount
@@ -93,4 +93,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/wic/-wic-about-windows-imaging-codec">Windows Imaging Component Overview</a>
-

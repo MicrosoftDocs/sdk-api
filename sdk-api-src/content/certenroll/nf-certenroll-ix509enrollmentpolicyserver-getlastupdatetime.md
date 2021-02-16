@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::GetLastUpdateTime
+ - IX509EnrollmentPolicyServer.GetLastUpdateTime
 ---
 
 # IX509EnrollmentPolicyServer::GetLastUpdateTime
@@ -100,4 +100,3 @@ The date is stored as an 8-byte real value that represents a Coordinated Univers
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - LinearGradientBrush::GetWrapMode
+ - LinearGradientBrush.GetWrapMode
 ---
 
 # LinearGradientBrush::GetWrapMode
@@ -138,4 +138,3 @@ VOID Example_GetWrapMode(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdiplusenums/ne-gdiplusenums-wrapmode">WrapMode</a>
-

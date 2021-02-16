@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationCore.h
 api_name:
- - IRawElementProviderSimple::get_HostRawElementProvider
+ - IRawElementProviderSimple.HostRawElementProvider
+ - IRawElementProviderSimple.get_HostRawElementProvider
 ---
 
 # IRawElementProviderSimple::get_HostRawElementProvider
@@ -89,4 +90,3 @@ HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProvid
 
 
 <a href="/windows/desktop/api/uiautomationcoreapi/nf-uiautomationcoreapi-uiahostproviderfromhwnd">UiaHostProviderFromHwnd</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d12.dll
 api_name:
- - ID3D12Device::GetResourceTiling
+ - ID3D12Device.GetResourceTiling
 ---
 
 # ID3D12Device::GetResourceTiling
@@ -111,4 +111,3 @@ For more information on tiled resources, refer to <a href="/windows/desktop/dire
 
 
 <a href="/windows/desktop/direct3d12/subresources">Subresources</a>
-

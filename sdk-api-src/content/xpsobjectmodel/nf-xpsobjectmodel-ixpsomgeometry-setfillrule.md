@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xpsobjectmodel.h
 api_name:
- - IXpsOMGeometry::SetFillRule
+ - IXpsOMGeometry.SetFillRule
 ---
 
 # IXpsOMGeometry::SetFillRule
@@ -112,4 +112,3 @@ In the document markup, this value corresponds to the <b>FillRule</b> attribute 
 
 
 <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_fill_rule">XPS_FILL_RULE</a>
-

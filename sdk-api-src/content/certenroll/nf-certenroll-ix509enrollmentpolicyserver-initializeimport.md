@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Certenroll.h
 api_name:
- - IX509EnrollmentPolicyServer::InitializeImport
+ - IX509EnrollmentPolicyServer.InitializeImport
 ---
 
 # IX509EnrollmentPolicyServer::InitializeImport
@@ -100,4 +100,3 @@ Call this method to import templates and OIDs previously written to a buffer by 
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509enrollmentpolicyserver">IX509EnrollmentPolicyServer</a>
-

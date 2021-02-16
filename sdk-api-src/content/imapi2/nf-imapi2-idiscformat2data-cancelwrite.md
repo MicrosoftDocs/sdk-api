@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data::CancelWrite
+ - IDiscFormat2Data.CancelWrite
 ---
 
 # IDiscFormat2Data::CancelWrite
@@ -110,4 +110,3 @@ This method leaves the media in an indeterminate state. For rewriteable media, y
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-write">IDiscFormat2Data::Write</a>
-

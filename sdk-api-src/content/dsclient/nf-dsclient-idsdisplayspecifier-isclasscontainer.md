@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dsadmin.dll
 api_name:
- - IDsDisplaySpecifier::IsClassContainer
+ - IDsDisplaySpecifier.IsClassContainer
 ---
 
 # IDsDisplaySpecifier::IsClassContainer
@@ -87,4 +87,3 @@ The method uses the schema data and/or the <b>treatAsLeaf</b> attribute of the  
 
 
 <a href="/windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier">IDsDisplaySpecifier</a>
-

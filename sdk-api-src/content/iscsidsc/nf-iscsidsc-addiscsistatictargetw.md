@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - AddIScsiStaticTargetW
  - iscsidsc/AddIScsiStaticTargetW
- - AddIScsiStaticTarget
- - iscsidsc/AddIScsiStaticTarget
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Iscsidsc.dll
 api_name:
- - AddIScsiStaticTargetW
- - AddIScsiStaticTarget
+ - AddIscsiStaticTarget
+ - AddIscsiStaticTargetA
+ - AddIscsiStaticTargetW
 ---
 
 # AddIScsiStaticTargetW function
@@ -149,4 +148,3 @@ By setting the <b>ISCSI_TARGET_FLAG_HIDE_STATIC_TARGET</b> flag, callers can con
 
 
 <a href="/previous-versions/windows/desktop/api/iscsidsc/nf-iscsidsc-removeiscsistatictargeta">RemoveIscsiStaticTarget</a>
-

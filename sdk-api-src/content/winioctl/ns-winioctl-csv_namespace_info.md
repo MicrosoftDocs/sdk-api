@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _CSV_NAMESPACE_INFO
- - PCSV_NAMESPACE_INFO
  - CSV_NAMESPACE_INFO
 ---
 
@@ -100,4 +98,3 @@ The sector size of the disk.
 
 
 <a href="/windows/desktop/FileIO/volume-management-structures">Volume Management Structures</a>
-

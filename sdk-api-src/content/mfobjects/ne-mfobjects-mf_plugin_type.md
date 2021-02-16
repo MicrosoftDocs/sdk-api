@@ -44,7 +44,6 @@ api_type:
 api_location:
  - mfobjects.h
 api_name:
- - _MF_Plugin_Type
  - MF_Plugin_Type
 ---
 
@@ -76,4 +75,3 @@ Other.
 ## -see-also
 
 <a href="/windows/desktop/medfound/media-foundation-enumerations">Media Foundation Enumerations</a>
-

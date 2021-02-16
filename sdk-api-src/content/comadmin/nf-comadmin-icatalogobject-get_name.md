@@ -42,7 +42,8 @@ api_type:
 api_location:
  - ComAdmin.h
 api_name:
- - ICatalogObject::get_Name
+ - ICatalogObject.Name
+ - ICatalogObject.get_Name
 ---
 
 # ICatalogObject::get_Name
@@ -63,4 +64,3 @@ The name property of a collection is identified in the documentation for each sp
 ## -see-also
 
 <a href="/windows/desktop/api/comadmin/nn-comadmin-icatalogobject">ICatalogObject</a>
-

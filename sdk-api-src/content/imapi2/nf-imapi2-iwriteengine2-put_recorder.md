@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IWriteEngine2::put_Recorder
+ - IWriteEngine2.put_Recorder
 ---
 
 # IWriteEngine2::put_Recorder
@@ -349,4 +349,3 @@ Value: 0xC0AA0210
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-iwriteengine2-get_recorder">IWriteEngine2::get_Recorder</a>
-

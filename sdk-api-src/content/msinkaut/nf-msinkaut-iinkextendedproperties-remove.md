@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperties::Remove
+ - IInkExtendedProperties.Remove
 ---
 
 # IInkExtendedProperties::Remove
@@ -171,4 +171,3 @@ For more information about the BSTR data type, see <a href="/windows/desktop/tab
 ## -see-also
 
 <a href="/windows/desktop/api/msinkaut/nn-msinkaut-iinkextendedproperties">IInkExtendedProperties Interface</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMUBYTE4::XMUBYTE4
+ - XMUBYTE4.XMUBYTE4
 ---
 
 # XMUBYTE4::XMUBYTE4(const uint8_t)
@@ -82,4 +82,3 @@ instance.w = (uint8_t)min( max( pArray[3] 0.0 ), 255.0 );
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmubyte4">XMUBYTE4</a>
 
 <a href="/windows/desktop/dxmath/xmubyte4-ctor">XMUBYTE4 Constructors</a>
-

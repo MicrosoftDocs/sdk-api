@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IEnumVdsObject::Reset
+ - IEnumVdsObject.Reset
 ---
 
 # IEnumVdsObject::Reset
@@ -83,4 +83,3 @@ The enumeration has been reset.
 ## -see-also
 
 <a href="/windows/desktop/api/vdshwprv/nn-vdshwprv-ienumvdsobject">IEnumVdsObject</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Gpmgmt.dll
 api_name:
- - IGPMSecurityInfo::get_Count
+ - IGPMSecurityInfo.Count
+ - IGPMSecurityInfo.get_Count
+ - GPMSecurityInfo.Count
 ---
 
 # IGPMSecurityInfo::get_Count
@@ -60,4 +62,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/gpmgmt/nn-gpmgmt-igpmsecurityinfo">IGPMSecurityInfo</a>
-

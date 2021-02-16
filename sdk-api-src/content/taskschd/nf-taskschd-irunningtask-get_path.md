@@ -42,7 +42,8 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - IRunningTask::get_Path
+ - IRunningTask.Path
+ - IRunningTask.get_Path
 ---
 
 # IRunningTask::get_Path
@@ -67,4 +68,3 @@ The <a href="/windows/desktop/api/taskschd/nf-taskschd-irunningtask-refresh">IRu
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

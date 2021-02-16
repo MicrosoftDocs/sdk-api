@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CM_Open_Device_Interface_Key_ExW
  - cfgmgr32/CM_Open_Device_Interface_Key_ExW
- - CM_Open_Device_Interface_Key_Ex
- - cfgmgr32/CM_Open_Device_Interface_Key_Ex
 dev_langs:
  - c++
 topic_type:
@@ -49,7 +47,6 @@ api_location:
  - CfgMgr32.dll
 api_name:
  - CM_Open_Device_Interface_Key_ExW
- - CM_Open_Device_Interface_Key_Ex
 ---
 
 # CM_Open_Device_Interface_Key_ExW function
@@ -126,4 +123,3 @@ Close the handle returned from this function by calling <b>RegCloseKey</b>.
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupdiopendeviceinterfaceregkey">SetupDiOpenDeviceInterfaceRegKey</a>
-

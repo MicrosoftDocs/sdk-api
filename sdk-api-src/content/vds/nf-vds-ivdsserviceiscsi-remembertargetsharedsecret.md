@@ -43,7 +43,7 @@ api_location:
  - Uuid.lib
  - Uuid.dll
 api_name:
- - IVdsServiceIscsi::RememberTargetSharedSecret
+ - IVdsServiceIscsi.RememberTargetSharedSecret
 ---
 
 # IVdsServiceIscsi::RememberTargetSharedSecret
@@ -121,4 +121,3 @@ VDS failed to initialize. If an application calls this method before the service
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_iscsi_shared_secret">VDS_ISCSI_SHARED_SECRET</a>
-

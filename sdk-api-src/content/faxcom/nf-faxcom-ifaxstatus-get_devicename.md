@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxStatus::get_DeviceName
+ - IFaxStatus.DeviceName
+ - IFaxStatus.get_DeviceName
 ---
 
 # IFaxStatus::get_DeviceName
@@ -89,4 +90,3 @@ The <b>IFaxStatus::get_DeviceName</b> method allocates the memory required for t
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

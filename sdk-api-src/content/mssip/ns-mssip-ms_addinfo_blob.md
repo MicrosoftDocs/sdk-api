@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mssip.h
 api_name:
- - MS_ADDINFO_BLOB_
- - PMS_ADDINFO_BLOB
  - MS_ADDINFO_BLOB
 ---
 
@@ -79,4 +77,3 @@ The size, in bytes, of the data in the <i>pbMemSignedMsg</i> member.
 ### -field pbMemSignedMsg
 
 A pointer to the signed message.
-

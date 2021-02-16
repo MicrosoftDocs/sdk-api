@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IStringTable::Enumerate
+ - IStringTable.Enumerate
 ---
 
 # IStringTable::Enumerate
@@ -75,4 +75,3 @@ The implementation of <a href="/windows/desktop/api/objidl/nn-objidl-ienumstring
 
 
 <a href="/windows/desktop/api/mmc/nf-mmc-istringtable-findstring">IStringTable::FindString</a>
-

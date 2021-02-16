@@ -44,7 +44,6 @@ api_type:
 api_location:
  - MsTscAx.dll
 api_name:
- - __MIDL_IRemoteDesktopClientActions_0003
  - SnapshotFormatType
 ---
 
@@ -66,4 +65,3 @@ The data format used for a Remote Desktop Protocol (RDP) app container client sn
 ## -see-also
 
 <a href="/windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclientactions-getsnapshot">GetSnapshot</a>
-

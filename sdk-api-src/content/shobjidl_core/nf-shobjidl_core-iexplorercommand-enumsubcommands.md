@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IExplorerCommand::EnumSubCommands
+ - IExplorerCommand.EnumSubCommands
 ---
 
 # IExplorerCommand::EnumSubCommands
@@ -71,4 +71,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 Subcommands are displayed as menu drop-down items through the use of a Split button when commands are exposed at the top of a Windows Explorer window. In that position, only the default command button is given an icon. In a normal menu, the icons for all commands are shown.
 
 Subcommands which themselves have subcommands are not supported by Windows Explorer. When a command has its own subcommands, it must designate this status by specifying ECF_HASSUBCOMMANDS in the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-iexplorercommand-getflags">IExplorerCommand::GetFlags</a> call.
-

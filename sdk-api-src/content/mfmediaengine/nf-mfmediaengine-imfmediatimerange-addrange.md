@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaTimeRange::AddRange
+ - IMFMediaTimeRange.AddRange
 ---
 
 # IMFMediaTimeRange::AddRange
@@ -73,4 +73,3 @@ If the new range intersects a range already in the list, the two ranges are comb
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediatimerange">IMFMediaTimeRange</a>
-

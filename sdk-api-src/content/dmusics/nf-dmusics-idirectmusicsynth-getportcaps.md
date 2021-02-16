@@ -42,7 +42,7 @@ api_type:
 api_location:
  - dmusics.h
 api_name:
- - IDirectMusicSynth::GetPortCaps
+ - IDirectMusicSynth.GetPortCaps
 ---
 
 # IDirectMusicSynth::GetPortCaps

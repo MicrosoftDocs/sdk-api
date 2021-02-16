@@ -45,7 +45,7 @@ api_location:
  - mfplat.dll
  - mfplat.dll.dll
 api_name:
- - IMFSensorTransformFactory::GetTransformCount
+ - IMFSensorTransformFactory.GetTransformCount
 ---
 
 # IMFSensorTransformFactory::GetTransformCount
@@ -72,4 +72,3 @@ In the current release, chaining of transforms is not supported, so this value s
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfsensortransformfactory">IMFSensorTransformFactory</a>
-

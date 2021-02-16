@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Eventsys.h
 api_name:
- - IEnumEventObject::Reset
+ - IEnumEventObject.Reset
 ---
 
 # IEnumEventObject::Reset
@@ -96,4 +96,3 @@ A call to this method, resetting the sequence, does not guarantee that the same 
 ## -see-also
 
 <a href="/windows/desktop/api/eventsys/nn-eventsys-ienumeventobject">IEnumEventObject</a>
-

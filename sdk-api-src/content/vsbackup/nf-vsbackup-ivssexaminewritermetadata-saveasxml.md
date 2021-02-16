@@ -43,7 +43,7 @@ api_location:
  - VssApi.lib
  - VssApi.dll
 api_name:
- - IVssExamineWriterMetadata::SaveAsXML
+ - IVssExamineWriterMetadata.SaveAsXML
 ---
 
 # IVssExamineWriterMetadata::SaveAsXML
@@ -125,4 +125,3 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssexaminewritermetadata-loadfromxml">IVssExamineWriterMetadata::LoadFromXML</a>
-

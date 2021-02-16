@@ -43,7 +43,7 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - TRefPointerCollection::BeginEnum
+ - TRefPointerCollection.BeginEnum
 ---
 
 # TRefPointerCollection::BeginEnum
@@ -78,4 +78,3 @@ If the method fails, it returns <b>FALSE</b>.
 
 
 <a href="/windows/desktop/api/refptrco/nf-refptrco-trefpointercollection-endenum">TRefPointerCollection::EndEnum</a>
-

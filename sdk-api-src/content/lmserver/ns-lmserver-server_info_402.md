@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_402
- - PSERVER_INFO_402
  - SERVER_INFO_402
 ---
 
@@ -295,4 +293,3 @@ A pointer to a Unicode string containing flags that control operations on a serv
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

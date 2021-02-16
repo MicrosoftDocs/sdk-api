@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::put_OutputsActive
+ - IMSVidCtl.put_OutputsActive
 ---
 
 # IMSVidCtl::put_OutputsActive
@@ -69,4 +69,3 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 <a href="/previous-versions/windows/desktop/api/msvidctl/nf-msvidctl-imsvidctl-get_outputsactive">IMSVidCtl::get_OutputsActive</a>
-

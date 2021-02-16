@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - ads_searchpref_info
- - PADS_SEARCHPREF_INFO
  - ADS_SEARCHPREF_INFO
 ---
 
@@ -204,4 +202,3 @@ For more information and examples of how to use the <b>ADS_SEARCHPREF_INFO</b> s
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-setsearchpreference">IDirectorySearch::SetSearchPreference</a>
-

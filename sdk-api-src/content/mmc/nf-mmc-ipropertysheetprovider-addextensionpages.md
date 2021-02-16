@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mmcndmgr.dll
 api_name:
- - IPropertySheetProvider::AddExtensionPages
+ - IPropertySheetProvider.AddExtensionPages
 ---
 
 # IPropertySheetProvider::AddExtensionPages
@@ -66,4 +66,3 @@ Snap-ins that use the
 ## -see-also
 
 <a href="/windows/desktop/api/mmc/nn-mmc-ipropertysheetprovider">IPropertySheetProvider</a>
-

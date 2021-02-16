@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - tdiinfo
  - tdiinfo/tdiinfo
-api_name:
- - tdiinfo
 ---
 
 # Tdiinfo.h header

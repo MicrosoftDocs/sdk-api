@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFNetProxyLocator::FindNextProxy
+ - IMFNetProxyLocator.FindNextProxy
 ---
 
 # IMFNetProxyLocator::FindNextProxy
@@ -91,4 +91,3 @@ There are no more proxy objects.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfnetproxylocator">IMFNetProxyLocator</a>
-

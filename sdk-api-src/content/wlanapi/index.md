@@ -9,8 +9,6 @@ tech.root: nwifi
 f1_keywords:
  - wlanapi
  - wlanapi/wlanapi
-api_name:
- - wlanapi
 ---
 
 # Wlanapi.h header

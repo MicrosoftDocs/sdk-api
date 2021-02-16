@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataCollector::get_Index
+ - IDataCollector.Index
+ - IDataCollector.get_Index
 ---
 
 # IDataCollector::get_Index
@@ -63,4 +64,3 @@ PLA sets the index value when you add the data collector to a data collector set
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatacollector">IDataCollector</a>
-

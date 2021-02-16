@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IGetCapabilitiesKey::GetCapabilitiesKey
+ - IGetCapabilitiesKey.GetCapabilitiesKey
 ---
 
 # IGetCapabilitiesKey::GetCapabilitiesKey
@@ -107,4 +107,3 @@ To enumerate the values for the returned key, call <b>RegEnumValue</b>.
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-igetcapabilitieskey">IGetCapabilitiesKey</a>
-

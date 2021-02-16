@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mspcall.h
 api_name:
- - CMSPCallMultiGraph::RemoveStream
+ - CMSPCallMultiGraph.RemoveStream
 ---
 
 # CMSPCallMultiGraph::RemoveStream
@@ -64,4 +64,3 @@ Pointer to
 ## -see-also
 
 <a href="/windows/desktop/api/mspcall/nl-mspcall-cmspcallmultigraph">CMSPCallMultiGraph</a>
-

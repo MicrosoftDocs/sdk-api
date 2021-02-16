@@ -46,9 +46,9 @@ api_type:
 api_location:
  - joystickapi.h
 api_name:
- - joycaps_tag
- - PJOYCAPS
  - JOYCAPS
+ - JOYCAPSA
+ - JOYCAPSW
 ---
 
 # JOYCAPS structure
@@ -202,4 +202,3 @@ Multimedia Joystick Structures
 
 
 <a href="/previous-versions/dd757114(v=vs.85)">joySetCapture</a>
-

@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Bitmap::InitializePalette
+ - Bitmap.InitializePalette
 ---
 
 # Bitmap::InitializePalette
@@ -98,4 +98,3 @@ If the method fails, it returns one of the other elements of the
 ## -see-also
 
 <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap">Bitmap</a>
-

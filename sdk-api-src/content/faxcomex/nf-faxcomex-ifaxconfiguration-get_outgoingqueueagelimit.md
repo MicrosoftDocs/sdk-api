@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxConfiguration::get_OutgoingQueueAgeLimit
+ - IFaxConfiguration.OutgoingQueueAgeLimit
+ - IFaxConfiguration.get_OutgoingQueueAgeLimit
+ - IFaxConfiguration.put_OutgoingQueueAgeLimit
 ---
 
 # IFaxConfiguration::get_OutgoingQueueAgeLimit
@@ -59,4 +61,3 @@ This property is read/write.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/faxcomex/nn-faxcomex-ifaxconfiguration">IFaxConfiguration</a>
-

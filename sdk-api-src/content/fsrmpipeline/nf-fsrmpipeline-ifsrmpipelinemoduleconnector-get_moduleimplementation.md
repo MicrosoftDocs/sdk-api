@@ -42,7 +42,9 @@ api_type:
 api_location:
  - SrmSvc.dll
 api_name:
- - IFsrmPipelineModuleConnector::get_ModuleImplementation
+ - IFsrmPipelineModuleConnector.ModuleImplementation
+ - IFsrmPipelineModuleConnector.get_ModuleImplementation
+ - FsrmPipelineModuleConnector.ModuleImplementation
 ---
 
 # IFsrmPipelineModuleConnector::get_ModuleImplementation
@@ -65,4 +67,3 @@ This property is read-only.
 
 
 <a href="/previous-versions/windows/desktop/api/fsrmpipeline/nn-fsrmpipeline-ifsrmpipelinemoduleconnector">IFsrmPipelineModuleConnector</a>
-

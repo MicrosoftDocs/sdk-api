@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wdstptmgmt.dll
 api_name:
- - IWdsTransportNamespace::get_TombstoneTime
+ - IWdsTransportNamespace.TombstoneTime
+ - IWdsTransportNamespace.get_TombstoneTime
 ---
 
 # IWdsTransportNamespace::get_TombstoneTime
@@ -67,4 +68,3 @@ If the namespace has not been deregistered, this property fails with an error th
 
 
 <a href="/windows/desktop/api/wdstptmgmt/nf-wdstptmgmt-iwdstransportnamespace-get_tombstoned">Tombstoned Property</a>
-

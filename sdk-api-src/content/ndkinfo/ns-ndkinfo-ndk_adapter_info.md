@@ -44,7 +44,6 @@ api_type:
 api_location:
  - ndkinfo.h
 api_name:
- - _NDK_ADAPTER_INFO
  - NDK_ADAPTER_INFO
 ---
 
@@ -254,4 +253,3 @@ The <a href="/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_query_a
 
 
 <a href="/windows/desktop/api/ndkinfo/ns-ndkinfo-ndk_version">NDK_VERSION</a>
-

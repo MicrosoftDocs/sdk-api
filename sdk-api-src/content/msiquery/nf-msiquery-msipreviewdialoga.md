@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - MsiPreviewDialogA
  - msiquery/MsiPreviewDialogA
- - MsiPreviewDialog
- - msiquery/MsiPreviewDialog
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Msi.dll
 api_name:
- - MsiPreviewDialogA
  - MsiPreviewDialog
+ - MsiPreviewDialogA
+ - MsiPreviewDialogW
 ---
 
 # MsiPreviewDialogA function
@@ -85,4 +84,3 @@ Supplying a null name in the
 ## -see-also
 
 <a href="/windows/desktop/Msi/database-functions">User Interface Functions</a>
-

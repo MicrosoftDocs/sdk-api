@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - CHString::GetAllocLength
+ - CHString.GetAllocLength
+ - ?GetAllocLength@CHString@@QBEHXZ
 ---
 
 # CHString::GetAllocLength
@@ -72,4 +73,3 @@ The <b>GetAllocLength</b> method returns an integer that contains the size of th
 
 
 <a href="/windows/desktop/api/chstring/nf-chstring-chstring-getlength">CHString::GetLength</a>
-

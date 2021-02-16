@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - SetupInstallFilesFromInfSectionW
  - setupapi/SetupInstallFilesFromInfSectionW
- - SetupInstallFilesFromInfSection
- - setupapi/SetupInstallFilesFromInfSection
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Setupapi.dll
 api_name:
- - SetupInstallFilesFromInfSectionW
  - SetupInstallFilesFromInfSection
+ - SetupInstallFilesFromInfSectionA
+ - SetupInstallFilesFromInfSectionW
 ---
 
 # SetupInstallFilesFromInfSectionW function
@@ -364,4 +363,3 @@ If a UNC directory is specified as the target directory of a file installation, 
 
 
 <a href="/windows/desktop/api/setupapi/nf-setupapi-setupinstallservicesfrominfsectiona">SetupInstallServicesFromInfSection</a>
-

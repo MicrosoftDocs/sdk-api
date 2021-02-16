@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectManipulation.h
 api_name:
- - IDirectManipulationDragDropBehavior::GetStatus
+ - IDirectManipulationDragDropBehavior.GetStatus
 ---
 
 # IDirectManipulationDragDropBehavior::GetStatus
@@ -69,4 +69,3 @@ This method returns the drag-drop status at the time of the call and not at the 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/directmanipulation/nn-directmanipulation-idirectmanipulationdragdropbehavior">IDirectManipulationDragDropBehavior</a>
-

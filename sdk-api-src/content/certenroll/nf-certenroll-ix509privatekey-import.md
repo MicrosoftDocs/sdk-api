@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::Import
+ - IX509PrivateKey.Import
 ---
 
 # IX509PrivateKey::Import
@@ -144,4 +144,3 @@ The <b>Import</b> function automatically assumes that you are attempting to impo
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

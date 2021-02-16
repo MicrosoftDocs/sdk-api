@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - UpdateResourceW
  - winbase/UpdateResourceW
- - UpdateResource
- - winbase/UpdateResource
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - Kernel32.dll
 api_name:
- - UpdateResourceW
  - UpdateResource
+ - UpdateResourceA
+ - UpdateResourceW
 ---
 
 # UpdateResourceW function
@@ -226,4 +225,3 @@ For an example, see <a href="/windows/desktop/menurc/using-resources">Updating R
 
 
 <a href="/windows/desktop/api/libloaderapi/nf-libloaderapi-sizeofresource">SizeofResource</a>
-

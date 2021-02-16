@@ -43,6 +43,8 @@ api_location:
  - Wldap32.dll
 api_name:
  - ldap_explode_dn
+ - ldap_explode_dnA
+ - ldap_explode_dnW
 ---
 
 # ldap_explode_dn function
@@ -80,4 +82,3 @@ Calling <b>ldap_explode_dn</b> with a pointer to a constant string will cause th
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
-

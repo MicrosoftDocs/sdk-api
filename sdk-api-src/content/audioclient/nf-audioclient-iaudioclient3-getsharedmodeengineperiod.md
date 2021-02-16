@@ -42,7 +42,7 @@ api_type:
 api_location:
  - audioclient.h
 api_name:
- - IAudioClient3::GetSharedModeEnginePeriod
+ - IAudioClient3.GetSharedModeEnginePeriod
 ---
 
 # IAudioClient3::GetSharedModeEnginePeriod
@@ -124,4 +124,3 @@ They would NOT include 4 (which is smaller than the minimum allowed value) or 98
 ## -see-also
 
 <a href="/windows/desktop/api/audioclient/nn-audioclient-iaudioclient3">IAudioClient3</a>
-

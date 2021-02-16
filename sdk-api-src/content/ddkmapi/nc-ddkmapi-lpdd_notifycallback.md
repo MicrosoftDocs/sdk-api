@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - LPDD_NOTIFYCALLBACK
+ - NotifyCallback
 ---
 
 # LPDD_NOTIFYCALLBACK callback function
@@ -299,4 +299,3 @@ A video capture driver supplies a <i>NotifyCallback</i> callback function to the
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

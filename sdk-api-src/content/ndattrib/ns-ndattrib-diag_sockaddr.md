@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ndattrib.h
 api_name:
- - tagSOCK_ADDR
- - PDIAG_SOCK_ADDR
  - DIAG_SOCKADDR
 ---
 

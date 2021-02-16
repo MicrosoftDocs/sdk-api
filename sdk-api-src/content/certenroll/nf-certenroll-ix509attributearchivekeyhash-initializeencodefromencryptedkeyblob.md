@@ -42,7 +42,7 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob
+ - IX509AttributeArchiveKeyHash.InitializeEncodeFromEncryptedKeyBlob
 ---
 
 # IX509AttributeArchiveKeyHash::InitializeEncodeFromEncryptedKeyBlob
@@ -77,4 +77,3 @@ You must call either <b>InitializeEncodeFromEncryptedKeyBlob</b> or <a href="/wi
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509attributearchivekeyhash">IX509AttributeArchiveKeyHash</a>
-

@@ -9,8 +9,6 @@ tech.root: tablet
 f1_keywords:
  - recapis
  - recapis/recapis
-api_name:
- - recapis
 ---
 
 # Recapis.h header

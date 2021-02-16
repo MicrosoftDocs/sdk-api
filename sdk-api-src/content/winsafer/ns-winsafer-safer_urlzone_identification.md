@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinSafer.h
 api_name:
- - _SAFER_URLZONE_IDENTIFICATION
- - PSAFER_URLZONE_IDENTIFICATION
  - SAFER_URLZONE_IDENTIFICATION
 ---
 
@@ -130,4 +128,3 @@ Reserved for future use.
 ### -field Header
 
 A <a href="/windows/desktop/api/winsafer/ns-winsafer-safer_identification_header">SAFER_IDENTIFICATION_HEADER</a> structure containing the structure header. The <b>dwIdentificationType</b> member of the header must be <b>SaferIdentityTypeUrlZone</b>, and the <b>cbStructSize</b> member of the header must be sizeof(SAFER_URLZONE_IDENTIFICATION).
-

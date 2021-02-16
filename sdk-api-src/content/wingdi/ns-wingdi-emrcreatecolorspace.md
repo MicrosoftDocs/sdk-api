@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wingdi.h
 api_name:
- - tagEMRCREATECOLORSPACE
- - PEMRCREATECOLORSPACE
  - EMRCREATECOLORSPACE
 ---
 
@@ -95,4 +93,3 @@ The logical color space.
 
 
 <a href="/windows/desktop/gdi/metafiles">Metafiles Overview</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfFnReconversion::QueryRange
+ - ITfFnReconversion.QueryRange
 ---
 
 # ITfFnReconversion::QueryRange
@@ -122,4 +122,3 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/api/msctf/nn-msctf-itfrange">ITfRange
       </a>
-

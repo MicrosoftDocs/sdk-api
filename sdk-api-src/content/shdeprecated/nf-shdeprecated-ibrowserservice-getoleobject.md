@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Shdeprecated.h
 api_name:
- - IBrowserService::GetOleObject
+ - IBrowserService.GetOleObject
 ---
 
 # IBrowserService::GetOleObject
@@ -66,4 +66,3 @@ The address that receives a pointer to the retrieved <a href="/windows/desktop/a
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

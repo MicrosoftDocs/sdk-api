@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msvidctl.h
 api_name:
- - IMSVidCtl::get_ColorKey
+ - IMSVidCtl.get_ColorKey
 ---
 
 # IMSVidCtl::get_ColorKey
@@ -89,4 +89,3 @@ OleTranslateColor(ocKey, 0, &clrKey);
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-ivmrwindowlesscontrol-getcolorkey">IVMRWindowlessControl::GetColorKey</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITLegacyCallMediaControl2::GetIDAsVariant
+ - ITLegacyCallMediaControl2.GetIDAsVariant
 ---
 
 # ITLegacyCallMediaControl2::GetIDAsVariant
@@ -122,4 +122,3 @@ The <i>pVarDeviceID</i> parameter is not a valid pointer.
 
 
 <a href="/windows/desktop/api/tapi3if/nf-tapi3if-itlegacycallmediacontrol-getid">ITLegacyCallMediaControl::GetID</a>
-

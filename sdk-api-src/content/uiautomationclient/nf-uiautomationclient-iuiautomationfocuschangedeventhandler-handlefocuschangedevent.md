@@ -42,7 +42,7 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent
+ - IUIAutomationFocusChangedEventHandler.HandleFocusChangedEvent
 ---
 
 # IUIAutomationFocusChangedEventHandler::HandleFocusChangedEvent
@@ -78,4 +78,3 @@ Adjusting an event handler from within this method is not supported.
 ## -see-also
 
 <a href="/windows/desktop/api/uiautomationclient/nn-uiautomationclient-iuiautomationfocuschangedeventhandler">IUIAutomationFocusChangedEventHandler</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Dcomp.dll
 api_name:
- - IDCompositionDevice::CreateTargetForHwnd
+ - IDCompositionDevice.CreateTargetForHwnd
 ---
 
 # IDCompositionDevice::CreateTargetForHwnd
@@ -179,4 +179,3 @@ HRESULT InitializeDirectCompositionDevice(HWND hwndTarget,
 
 
 <a href="/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual">IDCompositionVisual</a>
-

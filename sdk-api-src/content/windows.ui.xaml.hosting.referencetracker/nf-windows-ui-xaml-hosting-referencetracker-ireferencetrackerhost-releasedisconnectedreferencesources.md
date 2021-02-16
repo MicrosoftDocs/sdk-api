@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windows.ui.xaml.hosting.referencetracker.h
 api_name:
- - IReferenceTrackerHost::ReleaseDisconnectedReferenceSources
+ - IReferenceTrackerHost.ReleaseDisconnectedReferenceSources
 ---
 
 # IReferenceTrackerHost::xaml
@@ -66,4 +66,3 @@ In this call, the CLR calls <b>WaitForPendingFinalizers</b>.
 ## -see-also
 
 <a href="/windows/desktop/api/windows.ui.xaml.hosting.referencetracker/nn-windows-ui-xaml-hosting-referencetracker-ireferencetrackerhost">IReferenceTrackerHost</a>
-

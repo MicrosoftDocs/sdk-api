@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msimtf.dll
 api_name:
- - ITfContextOwnerCompositionSink::OnStartComposition
+ - ITfContextOwnerCompositionSink.OnStartComposition
 ---
 
 # ITfContextOwnerCompositionSink::OnStartComposition
@@ -87,4 +87,3 @@ The method was successful.
 ## -see-also
 
 [ITfCompositionView interface](nn-msctf-itfcompositionview.md), [ITfContextOwnerCompositionSink interface](nn-msctf-itfcontextownercompositionsink.md)
-

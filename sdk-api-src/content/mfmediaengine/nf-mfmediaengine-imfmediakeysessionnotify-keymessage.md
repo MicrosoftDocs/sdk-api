@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaKeySessionNotify::KeyMessage
+ - IMFMediaKeySessionNotify.KeyMessage
 ---
 
 # IMFMediaKeySessionNotify::KeyMessage
@@ -69,4 +69,3 @@ The length in bytes of <i>message</i>.
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediakeysessionnotify">IMFMediaKeySessionNotify</a>
-

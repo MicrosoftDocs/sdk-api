@@ -42,7 +42,8 @@ api_type:
 api_location:
  - sbtsv.h
 api_name:
- - ITsSbResourcePluginStore::EnumerateTargets
+ - ITsSbResourcePluginStore.EnumerateTargets
+ - ITsSbResourcePluginStoreEx.EnumerateTargets
 ---
 
 # ITsSbResourcePluginStore::EnumerateTargets
@@ -93,4 +94,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget">ITsSbTarget</a>
-

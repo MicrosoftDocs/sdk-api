@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - DRAWSTATEPROC
+ - DrawStateProc
 ---
 
 # DRAWSTATEPROC callback function
@@ -91,4 +91,3 @@ If the function fails, the return value is <b>FALSE</b>.
 
 
 <a href="/windows/desktop/gdi/painting-and-drawing">Painting and Drawing Overview</a>
-

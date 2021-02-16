@@ -42,7 +42,7 @@ api_type:
 api_location:
  - oaidl.h
 api_name:
- - ICreateTypeInfo::SetTypeFlags
+ - ICreateTypeInfo.SetTypeFlags
 ---
 
 # ICreateTypeInfo::SetTypeFlags
@@ -144,4 +144,3 @@ Type mismatch.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/oaidl/nn-oaidl-icreatetypeinfo">ICreateTypeInfo</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Ipsectypes.h
 api_name:
- - IPSEC_TOKEN0_
  - IPSEC_TOKEN0
 ---
 
@@ -76,4 +75,3 @@ Handle to the access token.  An <b>IPSEC_TOKEN_HANDLE</b> is of type <b>UINT64</
 ## -remarks
 
 <b>IPSEC_TOKEN0</b> is a specific implementation of IPSEC_TOKEN. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a>  for more information.
-

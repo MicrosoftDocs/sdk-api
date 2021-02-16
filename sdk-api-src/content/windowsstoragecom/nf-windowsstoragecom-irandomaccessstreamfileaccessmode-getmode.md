@@ -42,7 +42,7 @@ api_type:
 api_location:
  - windows.storage.dll
 api_name:
- - IRandomAccessStreamFileAccessMode::GetMode
+ - IRandomAccessStreamFileAccessMode.GetMode
 ---
 
 # IRandomAccessStreamFileAccessMode::GetMode
@@ -73,4 +73,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 <a href="/uwp/api/Windows.Storage.FileAccessMode">Windows::Storage::FileAccessMode</a>
-

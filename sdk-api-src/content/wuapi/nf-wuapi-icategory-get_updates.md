@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - ICategory::get_Updates
+ - ICategory.Updates
+ - ICategory.get_Updates
 ---
 
 # ICategory::get_Updates
@@ -63,4 +64,3 @@ The returned updates are applicable to the computer. They may or may not be inst
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-icategory">ICategory</a>
-

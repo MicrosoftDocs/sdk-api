@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - CreateDialogIndirectW
  - winuser/CreateDialogIndirectW
- - CreateDialogIndirect
- - winuser/CreateDialogIndirect
 dev_langs:
  - c++
 topic_type:
@@ -44,8 +42,9 @@ api_type:
 api_location:
  - User32.dll
 api_name:
- - CreateDialogIndirectW
  - CreateDialogIndirect
+ - CreateDialogIndirectA
+ - CreateDialogIndirectW
 ---
 
 # CreateDialogIndirectW macro
@@ -182,4 +181,3 @@ All character strings in the dialog box template, such as titles for the dialog 
 
 
 <a href="/windows/desktop/winmsg/wm-setfont">WM_SETFONT</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Bits.h
 api_name:
- - _BG_JOB_TIMES
  - BG_JOB_TIMES
 ---
 
@@ -80,4 +79,3 @@ Time the job entered the BG_JOB_STATE_TRANSFERRED state. The time is specified a
 ## -see-also
 
 <a href="/windows/desktop/api/bits/nf-bits-ibackgroundcopyjob-gettimes">IBackgroundCopyJob::GetTimes</a>
-

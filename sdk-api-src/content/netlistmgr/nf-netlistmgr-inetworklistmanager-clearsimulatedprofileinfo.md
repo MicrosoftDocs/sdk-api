@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Netlistmgr.h
 api_name:
- - INetworkListManager::ClearSimulatedProfileInfo
+ - INetworkListManager.ClearSimulatedProfileInfo
 ---
 
 # INetworkListManager::ClearSimulatedProfileInfo
@@ -65,4 +65,3 @@ Returns S_OK on success.
 
 
 <a href="/windows/desktop/api/netlistmgr/nf-netlistmgr-inetworklistmanager-setsimulatedprofileinfo">SetSimulatedProfileInfo</a>
-

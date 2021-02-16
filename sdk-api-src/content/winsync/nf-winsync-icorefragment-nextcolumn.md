@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winsync.h
 api_name:
- - ICoreFragment::NextColumn
+ - ICoreFragment.NextColumn
 ---
 
 # ICoreFragment::NextColumn
@@ -139,4 +139,3 @@ An <b>ISyncKnowledge2</b> object contains one or more <b>ICoreFragment</b> objec
 
 
 <a href="/previous-versions/windows/desktop/api/winsync/nn-winsync-isyncknowledge">ISyncKnowledge2 Interface</a>
-

@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WsdTypes.h
 api_name:
- - _WSD_SOAP_FAULT
  - WSD_SOAP_FAULT
 ---
 
@@ -84,4 +83,3 @@ A <a href="/windows/desktop/api/wsdxmldom/ns-wsdxmldom-wsdxml_element">WSDXML_EL
 
 
 <a href="/windows/desktop/api/wsdutil/nf-wsdutil-wsdgeneratefaultex">WSDGenerateFaultEx</a>
-

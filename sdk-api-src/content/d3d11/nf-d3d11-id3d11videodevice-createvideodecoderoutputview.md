@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d11.h
 api_name:
- - ID3D11VideoDevice::CreateVideoDecoderOutputView
+ - ID3D11VideoDevice.CreateVideoDecoderOutputView
 ---
 
 # ID3D11VideoDevice::CreateVideoDecoderOutputView
@@ -77,4 +77,3 @@ Set the <i>ppVDOVView</i> parameter to <b>NULL</b> to test whether a view is sup
 ## -see-also
 
 <a href="/windows/desktop/api/d3d11/nn-d3d11-id3d11videodevice">ID3D11VideoDevice</a>
-

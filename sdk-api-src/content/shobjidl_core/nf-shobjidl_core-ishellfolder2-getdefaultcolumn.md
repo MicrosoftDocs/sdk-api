@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IShellFolder2::GetDefaultColumn
+ - IShellFolder2.GetDefaultColumn
 ---
 
 # IShellFolder2::GetDefaultColumn
@@ -97,4 +97,3 @@ This method is part of a namespace extension's folder object implementation. It 
 
 Some clients might call this method to request the index of the column with the names that should be displayed in tree view. Set 
 				<i>pDisplay</i> to the appropriate column index. The client will then obtain the display names by calling <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder2-getdetailsof">IShellFolder2::GetDetailsOf</a>.
-

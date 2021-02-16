@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXCollision.h
 api_name:
- - BoundingBox::BoundingBox
+ - BoundingBox.BoundingBox
 ---
 
 # BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
@@ -78,4 +78,3 @@ Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows 
 
 
 <b>Reference</b>
-

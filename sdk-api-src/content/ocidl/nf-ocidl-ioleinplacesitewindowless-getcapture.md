@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OCIdl.h
 api_name:
- - IOleInPlaceSiteWindowless::GetCapture
+ - IOleInPlaceSiteWindowless.GetCapture
 ---
 
 # IOleInPlaceSiteWindowless::GetCapture
@@ -83,4 +83,3 @@ As an alternative to calling this method, the object can cache information about
 ## -see-also
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ioleinplacesitewindowless">IOleInPlaceSiteWindowless</a>
-

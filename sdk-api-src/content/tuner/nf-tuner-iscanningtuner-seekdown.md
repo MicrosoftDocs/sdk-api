@@ -42,7 +42,7 @@ api_type:
 api_location:
  - tuner.h
 api_name:
- - IScanningTuner::SeekDown
+ - IScanningTuner.SeekDown
 ---
 
 # IScanningTuner::SeekDown
@@ -71,4 +71,3 @@ Currently the DVB-C and DVB-S Network Provider filters do not implement this met
 
 
 <a href="/previous-versions/windows/desktop/api/tuner/nn-tuner-iscanningtuner">IScanningTuner Interface</a>
-

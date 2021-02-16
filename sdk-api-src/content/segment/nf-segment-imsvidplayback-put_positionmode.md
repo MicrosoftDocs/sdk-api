@@ -42,7 +42,7 @@ api_type:
 api_location:
  - segment.h
 api_name:
- - IMSVidPlayback::put_PositionMode
+ - IMSVidPlayback.put_PositionMode
 ---
 
 # IMSVidPlayback::put_PositionMode
@@ -168,4 +168,3 @@ hr = m_pPlayback->put_PositionMode(TenthsSecondsMode);
 
 
 <a href="/windows/desktop/api/segment/nf-segment-imsvidplayback-get_positionmode">get_PositionMode</a>
-

@@ -43,7 +43,7 @@ api_location:
  - InkObj.dll
  - InkObj.dll.dll
 api_name:
- - IInkExtendedProperties::Clear
+ - IInkExtendedProperties.Clear
 ---
 
 # IInkExtendedProperties::Clear
@@ -110,4 +110,3 @@ To clear only one extended property at a time, call the <a href="/windows/deskto
 
 
 <a href="/windows/desktop/api/msinkaut/nf-msinkaut-iinkextendedproperties-remove">Remove Method [IInkExtendedProperties Interface]</a>
-

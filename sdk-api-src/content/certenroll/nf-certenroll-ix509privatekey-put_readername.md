@@ -42,7 +42,9 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IX509PrivateKey::put_ReaderName
+ - IX509PrivateKey.ReaderName
+ - IX509PrivateKey.get_ReaderName
+ - IX509PrivateKey.put_ReaderName
 ---
 
 # IX509PrivateKey::put_ReaderName
@@ -63,4 +65,3 @@ If you set this property before opening a key, the reader name is concatenated t
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ix509privatekey">IX509PrivateKey</a>
-

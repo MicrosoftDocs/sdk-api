@@ -46,8 +46,8 @@ api_type:
 api_location:
  - Winfax.h
 api_name:
- - _FAX_ROUTING_METHODW
- - PFAX_ROUTING_METHODW
+ - FAX_ROUTING_METHOD
+ - FAX_ROUTING_METHODA
  - FAX_ROUTING_METHODW
 ---
 
@@ -152,4 +152,3 @@ For more information, see <a href="/previous-versions/windows/desktop/fax/-mfax-
 
 
 <a href="/windows/desktop/api/faxroute/nc-faxroute-pfaxroutemethod">FaxRouteMethod</a>
-

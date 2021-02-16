@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ocidl.h
 api_name:
- - IEnumConnections::Next
+ - IEnumConnections.Next
 ---
 
 # IEnumConnections::Next
@@ -85,4 +85,3 @@ E_NOTIMPL is not allowed as a return value. If an error value is returned, no en
 
 
 <a href="/windows/desktop/api/ocidl/nn-ocidl-ienumconnections">IEnumConnections</a>
-

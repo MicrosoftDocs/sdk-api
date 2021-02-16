@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Mprapi.h
 api_name:
- - _IKEV2_PROJECTION_INFO
- - PIKEV2_PROJECTION_INFO
  - IKEV2_PROJECTION_INFO
 ---
 
@@ -203,4 +201,3 @@ AES-256 encryption
 
 
 <a href="/windows/desktop/RRAS/router-management-structures">Router Management Structures</a>
-

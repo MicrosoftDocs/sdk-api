@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
- - _PSAPI_WORKING_SET_BLOCK
- - PPSAPI_WORKING_SET_BLOCK
  - PSAPI_WORKING_SET_BLOCK
 ---
 
@@ -448,4 +446,3 @@ The address of the page in the virtual address space.
 ## -see-also
 
 <a href="/windows/desktop/api/psapi/ns-psapi-psapi_working_set_information">PSAPI_WORKING_SET_INFORMATION</a>
-

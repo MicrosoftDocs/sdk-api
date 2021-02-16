@@ -44,7 +44,6 @@ api_type:
 api_location:
  - WebServices.h
 api_name:
- - _WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
  - WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE
 ---
 
@@ -77,4 +76,3 @@ The base type from which this type and all other key handle types derive.
 ### -field asymmetricKey
 
 The CryptoNG asymmetric cryptographic key.
-

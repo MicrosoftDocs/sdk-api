@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Ntsecapi.h
 api_name:
- - _KERB_EXTERNAL_TICKET
- - PKERB_EXTERNAL_TICKET
  - KERB_EXTERNAL_TICKET
 ---
 
@@ -292,4 +290,3 @@ The size, in bytes, of the encoded ticket.
 ### -field EncodedTicket
 
 A buffer that contains the <a href="/windows/desktop/SecGloss/a-gly">Abstract Syntax Notation One</a> (ASN.1)-encoded ticket.
-

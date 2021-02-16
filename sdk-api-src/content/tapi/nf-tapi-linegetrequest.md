@@ -43,6 +43,8 @@ api_location:
  - Tapi32.dll
 api_name:
  - lineGetRequest
+ - lineGetRequestA
+ - lineGetRequestW
 ---
 
 # lineGetRequest function
@@ -116,4 +118,3 @@ The subsequent LINE_REQUEST should not be ignored because it is not repeated by 
 
 
 <a href="/windows/desktop/api/tapi/nf-tapi-tapirequestmakecall">tapiRequestMakeCall</a>
-

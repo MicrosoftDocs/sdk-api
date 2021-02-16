@@ -42,7 +42,7 @@ api_type:
 api_location:
  - contentpartner.h
 api_name:
- - IWMPContentContainer::GetContentID
+ - IWMPContentContainer.GetContentID
 ---
 
 # IWMPContentContainer::GetContentID
@@ -89,4 +89,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/contentpartner/nn-contentpartner-iwmpcontentcontainer">IWMPContentContainer Interface</a>
-

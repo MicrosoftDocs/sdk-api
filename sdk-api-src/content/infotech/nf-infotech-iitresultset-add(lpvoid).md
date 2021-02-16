@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Infotech.h
 api_name:
- - IITResultSet::Add
+ - IITResultSet.Add
 ---
 
 # IITResultSet::Add(LPVOID)
@@ -85,4 +85,3 @@ The columns were successfully added.
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/infotech/nn-infotech-iitresultset">IITResultSet</a>
-

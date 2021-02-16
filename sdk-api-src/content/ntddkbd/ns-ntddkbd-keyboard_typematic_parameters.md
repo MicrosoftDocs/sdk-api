@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ntddkbd.h
 api_name:
- - _KEYBOARD_TYPEMATIC_PARAMETERS
- - PKEYBOARD_TYPEMATIC_PARAMETERS
  - KEYBOARD_TYPEMATIC_PARAMETERS
 ---
 
@@ -103,4 +101,3 @@ This structure is used with <a href="/windows/desktop/api/ntddkbd/ni-ntddkbd-ioc
 
 
 <a href="/windows/desktop/api/ntddkbd/ns-ntddkbd-keyboard_unit_id_parameter">KEYBOARD_UNIT_ID_PARAMETER</a>
-

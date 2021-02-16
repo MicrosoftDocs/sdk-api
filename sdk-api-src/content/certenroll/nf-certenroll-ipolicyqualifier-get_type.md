@@ -42,7 +42,8 @@ api_type:
 api_location:
  - CertEnroll.dll
 api_name:
- - IPolicyQualifier::get_Type
+ - IPolicyQualifier.Type
+ - IPolicyQualifier.get_Type
 ---
 
 # IPolicyQualifier::get_Type
@@ -85,4 +86,3 @@ You can also retrieve the following properties for this object:<ul>
 ## -see-also
 
 <a href="/windows/desktop/api/certenroll/nn-certenroll-ipolicyqualifier">IPolicyQualifier</a>
-

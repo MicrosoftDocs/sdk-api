@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::SetCertificateExtension
+ - ICertServerPolicy.SetCertificateExtension
+ - CCertServerPolicy.SetCertificateExtension
 ---
 
 # ICertServerPolicy::SetCertificateExtension
@@ -231,4 +232,3 @@ the <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext"
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
-

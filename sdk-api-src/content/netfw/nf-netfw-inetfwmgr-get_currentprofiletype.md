@@ -43,7 +43,8 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwMgr::get_CurrentProfileType
+ - INetFwMgr.CurrentProfileType
+ - INetFwMgr.get_CurrentProfileType
 ---
 
 # INetFwMgr::get_CurrentProfileType
@@ -70,4 +71,3 @@ The SharedAccess service must be running.
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type">NET_FW_PROFILE_TYPE</a>
-

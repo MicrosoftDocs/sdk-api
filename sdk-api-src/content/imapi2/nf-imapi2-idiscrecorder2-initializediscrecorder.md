@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscRecorder2::InitializeDiscRecorder
+ - IDiscRecorder2.InitializeDiscRecorder
 ---
 
 # IDiscRecorder2::InitializeDiscRecorder
@@ -355,4 +355,3 @@ This method will not fail on a drive that is exclusively locked.  However, if th
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscrecorder2-get_activediscrecorder">IDiscRecorder2::get_ActiveDiscRecorder</a>
-

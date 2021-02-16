@@ -43,7 +43,7 @@ api_location:
  - Dxgi.lib
  - Dxgi.dll
 api_name:
- - IDXGISwapChain1::SetBackgroundColor
+ - IDXGISwapChain1.SetBackgroundColor
 ---
 
 # IDXGISwapChain1::SetBackgroundColor
@@ -93,4 +93,3 @@ When you call the <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchai
 
 
 <a href="/windows/desktop/api/dxgi1_2/nf-dxgi1_2-idxgiswapchain1-getbackgroundcolor">IDXGISwapChain1::GetBackgroundColor</a>
-

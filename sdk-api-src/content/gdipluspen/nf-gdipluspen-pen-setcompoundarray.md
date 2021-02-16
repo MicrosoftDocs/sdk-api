@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Pen::SetCompoundArray
+ - Pen.SetCompoundArray
 ---
 
 # Pen::SetCompoundArray
@@ -134,4 +134,3 @@ VOID Example_SetCompoundArray(HDC hdc)
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-pens-lines-and-rectangles-about">Pens, Lines, and Rectangles</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - _ads_class_def
- - PADS_CLASS_DEF
  - ADS_CLASS_DEF
 ---
 
@@ -106,4 +104,3 @@ Flags that indicate the object of the class is a container when it is <b>TRUE</b
 ## -see-also
 
 <a href="/windows/desktop/ADSI/adsi-structures">ADSI Structures</a>
-

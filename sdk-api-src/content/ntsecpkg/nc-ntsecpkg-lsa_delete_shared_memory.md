@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ntsecpkg.h
 api_name:
- - LSA_DELETE_SHARED_MEMORY
+ - DeleteSharedMemory
 ---
 
 # LSA_DELETE_SHARED_MEMORY callback function
@@ -97,4 +97,3 @@ Pointers to these functions are available in the
 
 
 <a href="/windows/desktop/api/ntsecpkg/nc-ntsecpkg-spinitializefn">SpInitialize</a>
-

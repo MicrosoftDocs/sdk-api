@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Windowscodecs.dll
 api_name:
- - IWICPlanarBitmapSourceTransform::DoesSupportTransform
+ - IWICPlanarBitmapSourceTransform.DoesSupportTransform
 ---
 
 # IWICPlanarBitmapSourceTransform::DoesSupportTransform
@@ -149,4 +149,3 @@ Other return values indicate failure.
 
 
 <a href="/windows/desktop/api/wincodec/ne-wincodec-wicplanaroptions">WICPlanarOptions</a>
-

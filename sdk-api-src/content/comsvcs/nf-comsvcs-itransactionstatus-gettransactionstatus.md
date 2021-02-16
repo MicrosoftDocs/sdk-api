@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ComSvcs.h
 api_name:
- - ITransactionStatus::GetTransactionStatus
+ - ITransactionStatus.GetTransactionStatus
 ---
 
 # ITransactionStatus::GetTransactionStatus
@@ -106,4 +106,3 @@ The <i>pHrStatus</i> parameter is a pointer to an <b>HRESULT</b> value that indi
 ## -see-also
 
 <a href="/windows/desktop/api/comsvcs/nn-comsvcs-itransactionstatus">ITransactionStatus</a>
-

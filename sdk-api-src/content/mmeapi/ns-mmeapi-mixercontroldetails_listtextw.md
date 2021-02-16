@@ -46,9 +46,8 @@ api_type:
 api_location:
  - mmeapi.h
 api_name:
- - tagMIXERCONTROLDETAILS_LISTTEXTW
- - PMIXERCONTROLDETAILS_LISTTEXTW
- - MIXERCONTROLDETAILS_LISTTEXTW
+ - MIXERCONTROLDETAILS
+ - mixercontroldetails_listtextw
 ---
 
 # MIXERCONTROLDETAILS_LISTTEXTW structure
@@ -119,4 +118,3 @@ MIXERCONTROL_CONTROLTYPE_SINGLESELECT
 
 
 <a href="/previous-versions/dd757309(v=vs.85)">mixerSetControlDetails</a>
-

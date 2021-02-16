@@ -32,8 +32,6 @@ ms.custom: 19H1
 f1_keywords:
  - NotifyServiceStatusChangeA
  - winsvc/NotifyServiceStatusChangeA
- - NotifyServiceStatusChange
- - winsvc/NotifyServiceStatusChange
 dev_langs:
  - c++
 topic_type:
@@ -49,8 +47,9 @@ api_location:
  - API-MS-Win-Service-Winsvc-l1-1-0.dll
  - API-MS-Win-Service-Winsvc-l1-2-0.dll
 api_name:
- - NotifyServiceStatusChangeA
  - NotifyServiceStatusChange
+ - NotifyServiceStatusChangeA
+ - NotifyServiceStatusChangeW
 ---
 
 # NotifyServiceStatusChangeA function
@@ -257,4 +256,3 @@ To cancel outstanding notifications, close the service handle using the <a href=
 
 
 <a href="/windows/desktop/Services/service-functions">Service Functions</a>
-

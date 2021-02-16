@@ -42,7 +42,8 @@ api_type:
 api_location:
  - WSMAuto.dll
 api_name:
- - IWSManResourceLocator::get_Error
+ - IWSManResourceLocator.Error
+ - IWSManResourceLocator.get_Error
 ---
 
 # IWSManResourceLocator::get_Error
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wsmandisp/nn-wsmandisp-iwsmanresourcelocator">IWSManResourceLocator</a>
-

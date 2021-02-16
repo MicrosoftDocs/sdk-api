@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msctf.dll
 api_name:
- - ITfLMLattice::EnumLatticeElements
+ - ITfLMLattice.EnumLatticeElements
 ---
 
 # ITfLMLattice::EnumLatticeElements
@@ -134,4 +134,3 @@ A memory allocation failure occurred.
 
 <a href="/windows/desktop/TSF/lattice-types">Lattice Types
       </a>
-

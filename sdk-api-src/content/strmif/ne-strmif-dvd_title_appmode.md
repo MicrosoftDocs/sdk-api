@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_TITLE_APPMODE
  - DVD_TITLE_APPMODE
 ---
 
@@ -76,4 +75,3 @@ When the DVD Navigator encounters a karaoke title on a disc, it goes into "karao
 ## -see-also
 
 <a href="/windows/desktop/DirectShow/directshow-enumerated-types">DirectShow Enumerated Types</a>
-

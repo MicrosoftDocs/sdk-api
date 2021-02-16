@@ -45,7 +45,6 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - _VDS_HBAPORT_STATUS
  - VDS_HBAPORT_STATUS
 ---
 
@@ -132,4 +131,3 @@ HBA_PORTSTATE_LOOPBACK
 
 
 <a href="/windows/desktop/api/vdshwprv/ns-vdshwprv-vds_hbaport_prop">VDS_HBAPORT_PROP</a>
-

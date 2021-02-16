@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2::StopEngine
+ - IXAudio2.StopEngine
 ---
 
 # IXAudio2::StopEngine
@@ -73,4 +73,3 @@ Windows 10 (XAudio2.9);
 
 
 <a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
-

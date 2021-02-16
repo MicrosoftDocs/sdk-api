@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMFLOAT3PK::XMFLOAT3PK
+ - XMFLOAT3PK.XMFLOAT3PK
 ---
 
 # XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &)
@@ -69,4 +69,3 @@ A value.
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk">XMFLOAT3PK</a>
 
 <a href="/windows/desktop/dxmath/xmfloat3pk-ctor">XMFLOAT3PK Constructors</a>
-

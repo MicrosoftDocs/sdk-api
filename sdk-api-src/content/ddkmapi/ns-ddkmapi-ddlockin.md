@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ddkmapi.h
 api_name:
- - _DDLOCKIN
- - LPDDLOCKIN
  - DDLOCKIN
 ---
 
@@ -75,4 +73,3 @@ Specifies the DirectDrawSurface handle.
 
 
 <a href="/windows-hardware/drivers/ddi/content/dxapi/nf-dxapi-dxapi">DxApi</a>
-

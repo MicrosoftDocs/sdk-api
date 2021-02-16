@@ -9,8 +9,6 @@ tech.root: parcon
 f1_keywords:
  - wpcapi
  - wpcapi/wpcapi
-api_name:
- - wpcapi
 ---
 
 # Wpcapi.h header

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDEndpointProxy::SendTwoWayRequest
+ - IWSDEndpointProxy.SendTwoWayRequest
 ---
 
 # IWSDEndpointProxy::SendTwoWayRequest
@@ -111,4 +111,3 @@ This method is normally only called by generated proxy code.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdclient/nn-wsdclient-iwsdendpointproxy">IWSDEndpointProxy</a>
-

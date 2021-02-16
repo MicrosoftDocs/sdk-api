@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMDEC4::XMDEC4
+ - XMDEC4.XMDEC4
 ---
 
 # XMDEC4::XMDEC4(float,float,float,float)
@@ -131,4 +131,3 @@ The following pseudocode demonstrates the operation of this constructor, which t
 
 
 <a href="/windows/desktop/dxmath/xmdec4-ctor">XMDEC4 Constructors</a>
-

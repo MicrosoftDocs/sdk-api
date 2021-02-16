@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Lmserver.h
 api_name:
- - _SERVER_INFO_1017
- - PSERVER_INFO_1017
  - SERVER_INFO_1017
 ---
 
@@ -90,4 +88,3 @@ For more information about how much the announce rate can vary from the period o
 
 
 <a href="/windows/desktop/NetMgmt/server-functions">Server Functions</a>
-

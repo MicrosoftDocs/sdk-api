@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winnt.h
 api_name:
- - _TOKEN_AUDIT_POLICY
- - PTOKEN_AUDIT_POLICY
  - TOKEN_AUDIT_POLICY
 ---
 
@@ -67,4 +65,3 @@ Specifies the per user audit policy for the token.
 ## -see-also
 
 <a href="/windows/desktop/api/winnt/ne-winnt-token_information_class">TOKEN_INFORMATION_CLASS</a>
-

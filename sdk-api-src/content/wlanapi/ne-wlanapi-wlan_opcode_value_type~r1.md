@@ -32,7 +32,6 @@ api_location:
  - wlanapi.h
 api_name:
  - _WLAN_OPCODE_VALUE_TYPE
- - PWLAN_OPCODE_VALUE_TYPE
  - WLAN_OPCODE_VALUE_TYPE
 ---
 
@@ -68,4 +67,3 @@ The auto config settings are invalid.
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanhostednetworkqueryproperty">WlanHostedNetworkQueryProperty</a>
 
 <a href="/windows/desktop/api/wlanapi/nf-wlanapi-wlanqueryautoconfigparameter">WlanQueryAutoConfigParameter</a>
-

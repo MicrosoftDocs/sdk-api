@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - ITraceDataCollector::get_ProcessMode
+ - ITraceDataCollector.ProcessMode
+ - ITraceDataCollector.get_ProcessMode
+ - ITraceDataCollector.put_ProcessMode
 ---
 
 # ITraceDataCollector::get_ProcessMode
@@ -63,4 +65,3 @@ A private event tracing session is a user-mode event tracing session that runs i
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-itracedatacollector">ITraceDataCollector</a>
-

@@ -43,7 +43,8 @@ api_location:
  - FrameDynOS.dll
  - FrameDyn.dll
 api_name:
- - WBEMTime::GetFILETIME
+ - WBEMTime.GetFILETIME
+ - ?GetFILETIME@WBEMTime@@QBEHPAU_FILETIME@@@Z
 ---
 
 # WBEMTime::GetFILETIME
@@ -68,4 +69,3 @@ MFC <b>FILETIME</b> structure. The <b>FILETIME</b> structure is a 64-bit value t
 ## -returns
 
 The method returns <b>TRUE</b> if the time is valid and <b>FALSE</b> if the time is not valid. If <b>FALSE</b> is returned, the value of <i>pst</i> is indeterminate.
-

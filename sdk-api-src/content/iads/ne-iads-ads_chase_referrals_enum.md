@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iads.h
 api_name:
- - __MIDL___MIDL_itf_ads_0000_0000_0024
  - ADS_CHASE_REFERRALS_ENUM
 ---
 
@@ -104,4 +103,3 @@ The ADSI LDAP provider supports external referrals for paged searches, but does 
 
 
 <a href="/windows/desktop/api/iads/nn-iads-iadsobjectoptions">IADsObjectOptions</a>
-

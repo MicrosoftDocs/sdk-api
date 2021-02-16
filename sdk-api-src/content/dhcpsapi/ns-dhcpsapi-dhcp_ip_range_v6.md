@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Dhcpsapi.h
 api_name:
- - _DHCP_IP_RANGE_V6
- - LPDHCP_IP_RANGE_V6
  - DHCP_IP_RANGE_V6
 ---
 
@@ -71,4 +69,3 @@ The <b>DHCP_IP_RANGE_V6</b> structure specifies a range of IPv6 addresses for us
 ## -see-also
 
 <a href="/windows/desktop/api/dhcpsapi/ns-dhcpsapi-dhcp_ipv6_address">DHCP_IPV6_ADDRESS</a>
-

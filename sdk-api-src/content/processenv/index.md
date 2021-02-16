@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - processenv
  - processenv/processenv
-api_name:
- - processenv
 ---
 
 # Processenv.h header

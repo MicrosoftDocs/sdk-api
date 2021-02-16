@@ -42,7 +42,7 @@ api_type:
 api_location:
  - imapi2.h
 api_name:
- - IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
+ - IDiscFormat2Data.get_LastWrittenAddressOfPreviousSession
 ---
 
 # IDiscFormat2Data::get_LastWrittenAddressOfPreviousSession
@@ -100,4 +100,3 @@ Value: 0x80004001
 
 
 <a href="/windows/desktop/api/imapi2/nf-imapi2-idiscformat2data-get_startaddressofprevioussession">IDiscFormat2Data::get_StartAddressOfPreviousSession</a>
-

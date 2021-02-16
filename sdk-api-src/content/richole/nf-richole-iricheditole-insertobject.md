@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::InsertObject
+ - IRichEditOle.InsertObject
 ---
 
 # IRichEditOle::InsertObject
@@ -81,4 +81,3 @@ If the <b>cp</b> member of the <a href="/windows/desktop/api/richole/ns-richole-
 
 
 <b>Reference</b>
-

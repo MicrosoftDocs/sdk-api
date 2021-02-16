@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Upnp.dll
 api_name:
- - IUPnPServiceCallback::ServiceInstanceDied
+ - IUPnPServiceCallback.ServiceInstanceDied
 ---
 
 # IUPnPServiceCallback::ServiceInstanceDied
@@ -79,4 +79,3 @@ The UPnP framework invokes this method either when a service has notified the UP
 
 
 <a href="/windows/desktop/api/upnp/nn-upnp-iupnpservicecallback">IUPnPServiceCallback</a>
-

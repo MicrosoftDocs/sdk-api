@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - IEnroll::get_EnableT61DNEncoding
+ - IEnroll.EnableT61DNEncoding
+ - IEnroll.get_EnableT61DNEncoding
+ - IEnroll.put_EnableT61DNEncoding
 ---
 
 # IEnroll::get_EnableT61DNEncoding
@@ -76,4 +78,3 @@ The <b>EnableT61DNEncoding</b> property affects the behavior of the following me
 ## -see-also
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-ienroll4">IEnroll</a>
-

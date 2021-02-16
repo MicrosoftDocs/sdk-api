@@ -42,7 +42,7 @@ api_type:
 api_location:
  - DirectXPackedVector.h
 api_name:
- - XMHALF4::XMHALF4
+ - XMHALF4.XMHALF4
 ---
 
 # XMHALF4::XMHALF4(const HALF)
@@ -79,4 +79,3 @@ instance.w = pArray[3];
 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmhalf4">XMHALF4</a>
 
 <a href="/windows/desktop/dxmath/xmhalf4-ctor">XMHALF4 Constructors</a>
-

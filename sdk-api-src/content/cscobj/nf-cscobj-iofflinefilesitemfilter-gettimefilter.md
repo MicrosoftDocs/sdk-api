@@ -43,7 +43,7 @@ api_location:
  - CscSvc.dll
  - CscObj.dll
 api_name:
- - IOfflineFilesItemFilter::GetTimeFilter
+ - IOfflineFilesItemFilter.GetTimeFilter
 ---
 
 # IOfflineFilesItemFilter::GetTimeFilter
@@ -102,4 +102,3 @@ This method may be implemented in any filter type (inclusion, exclusion) or filt
 
 
 <a href="/windows/desktop/api/cscobj/ne-cscobj-offlinefiles_item_time">OFFLINEFILES_ITEM_TIME</a>
-

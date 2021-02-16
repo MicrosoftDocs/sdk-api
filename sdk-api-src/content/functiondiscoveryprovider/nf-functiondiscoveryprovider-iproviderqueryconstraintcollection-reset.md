@@ -42,7 +42,7 @@ api_type:
 api_location:
  - FunctionDiscoveryProvider.h
 api_name:
- - IProviderQueryConstraintCollection::Reset
+ - IProviderQueryConstraintCollection.Reset
 ---
 
 # IProviderQueryConstraintCollection::Reset
@@ -81,4 +81,3 @@ The method completed successfully.
 ## -see-also
 
 <a href="/windows/desktop/api/functiondiscoveryprovider/nn-functiondiscoveryprovider-iproviderqueryconstraintcollection">IProviderQueryConstraintCollection</a>
-

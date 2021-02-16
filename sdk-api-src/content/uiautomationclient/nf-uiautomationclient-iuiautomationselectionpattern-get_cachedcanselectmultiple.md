@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
+ - IUIAutomationSelectionPattern.CachedCanSelectMultiple
+ - IUIAutomationSelectionPattern.get_CachedCanSelectMultiple
 ---
 
 # IUIAutomationSelectionPattern::get_CachedCanSelectMultiple
@@ -63,4 +64,3 @@ This property is read-only.
 
 
 <a href="/windows/desktop/api/uiautomationclient/nf-uiautomationclient-iuiautomationselectionpattern-get_cachedisselectionrequired">IUIAutomationSelectionPattern::CachedIsSelectionRequired</a>
-

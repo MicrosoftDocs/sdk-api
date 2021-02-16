@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msctf.dll
 api_name:
- - ITextStoreAnchor::QueryInsertEmbedded
+ - ITextStoreAnchor.QueryInsertEmbedded
 ---
 
 # ITextStoreAnchor::QueryInsertEmbedded
@@ -120,4 +120,3 @@ The clipboard formats supported by the document are dependent on the application
 
 <a href="/windows/desktop/api/textstor/nf-textstor-itextstoreanchor-insertembeddedatselection">ITextStoreAnchor::InsertEmbeddedAtSelection
       </a>
-

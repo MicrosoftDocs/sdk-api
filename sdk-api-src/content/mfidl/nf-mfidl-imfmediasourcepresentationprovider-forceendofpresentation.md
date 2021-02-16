@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSourcePresentationProvider::ForceEndOfPresentation
+ - IMFMediaSourcePresentationProvider.ForceEndOfPresentation
 ---
 
 # IMFMediaSourcePresentationProvider::ForceEndOfPresentation
@@ -84,4 +84,3 @@ The method succeeded.
 ## -see-also
 
 <a href="/windows/desktop/api/mfidl/nn-mfidl-imfmediasourcepresentationprovider">IMFMediaSourcePresentationProvider</a>
-

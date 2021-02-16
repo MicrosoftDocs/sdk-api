@@ -42,7 +42,7 @@ api_type:
 api_location:
  - xaudio2.h
 api_name:
- - IXAudio2Voice::SetEffectChain
+ - IXAudio2Voice.SetEffectChain
 ---
 
 # IXAudio2Voice::SetEffectChain
@@ -99,4 +99,3 @@ Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 
 
 <a href="/windows/desktop/xaudio2/xapo-overview">XAPO Overview</a>
-

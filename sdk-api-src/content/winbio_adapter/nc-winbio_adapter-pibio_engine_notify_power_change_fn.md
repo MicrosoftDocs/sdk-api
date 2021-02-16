@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN
+ - EngineAdapterNotifyPowerChange
 ---
 
 # PIBIO_ENGINE_NOTIFY_POWER_CHANGE_FN callback function
@@ -74,6 +74,8 @@ The system is returning from a low-power state.
 
 The status of the system's power source is changing (e.g. the system has switched from battery to line power, or the battery is getting low).
 
+
+
 ## -returns
 
 If the function succeeds, it returns <b>S_OK</b>. If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="/windows/desktop/SecCrypto/common-hresult-values">Common HRESULT Values</a>.
@@ -93,4 +95,3 @@ The biometric framework calls this adapter entry point asynchronously in the con
 
 
 <a href="/windows/desktop/Power/pbt-apmpowerstatuschange">PBT_APMPOWERSTATUSCHANGE</a>
-

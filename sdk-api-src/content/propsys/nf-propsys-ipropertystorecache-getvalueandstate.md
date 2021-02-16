@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Propsys.h
 api_name:
- - IPropertyStoreCache::GetValueAndState
+ - IPropertyStoreCache.GetValueAndState
 ---
 
 # IPropertyStoreCache::GetValueAndState
@@ -77,4 +77,3 @@ A pointer to a <a href="/windows/desktop/api/propsys/ne-propsys-psc_state">PSC_S
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

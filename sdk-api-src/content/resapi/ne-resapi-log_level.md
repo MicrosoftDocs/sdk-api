@@ -45,7 +45,6 @@ api_location:
  - ResApi.h
 api_name:
  - LOG_LEVEL
- - PLOG_LEVEL
 ---
 
 # LOG_LEVEL enumeration
@@ -84,4 +83,3 @@ The event is reporting a severe failure that affects multiple components, or the
 
 
 <a href="/previous-versions/windows/desktop/api/resapi/nc-resapi-plog_event_routine">LogEvent</a>
-

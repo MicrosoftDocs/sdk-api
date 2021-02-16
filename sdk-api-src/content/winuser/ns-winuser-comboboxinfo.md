@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Winuser.h
 api_name:
- - tagCOMBOBOXINFO
- - PCOMBOBOXINFO
  - COMBOBOXINFO
 ---
 
@@ -154,4 +152,3 @@ GetComboBoxInfo(hwnd, &info);
 ## -see-also
 
 <a href="/windows/desktop/api/winuser/nf-winuser-getcomboboxinfo">GetComboBoxInfo</a>
-

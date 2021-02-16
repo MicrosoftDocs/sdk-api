@@ -46,8 +46,6 @@ api_type:
 api_location:
  - ws2def.h
 api_name:
- - sockaddr
- - PSOCKADDR
  - SOCKADDR
 ---
 
@@ -128,4 +126,3 @@ A WSK application typically does not access the
 
 
 <a href="/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ole32.dll
 api_name:
- - IStream::LockRegion
+ - IStream.LockRegion
 ---
 
 # IStream::LockRegion
@@ -100,4 +100,3 @@ Support for this method is optional for implementations of stream objects since 
 
 
 <a href="/windows/desktop/api/objidl/ne-objidl-locktype">LOCKTYPE</a>
-

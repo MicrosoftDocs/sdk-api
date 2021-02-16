@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shell32.dll
 api_name:
- - IBandSite::EnumBands
+ - IBandSite.EnumBands
 ---
 
 # IBandSite::EnumBands
@@ -84,4 +84,3 @@ Returns S_OK if successful, or a COM-defined error code for errors.
 
 
 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ideskband">IDeskBand</a>
-

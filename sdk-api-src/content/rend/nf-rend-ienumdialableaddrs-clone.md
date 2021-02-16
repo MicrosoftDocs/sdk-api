@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Rend.dll
 api_name:
- - IEnumDialableAddrs::Clone
+ - IEnumDialableAddrs.Clone
 ---
 
 # IEnumDialableAddrs::Clone
@@ -127,4 +127,3 @@ TAPI calls the <b>AddRef</b> method on the
 ## -see-also
 
 <a href="/windows/desktop/api/rend/nn-rend-ienumdialableaddrs">IEnumDialableAddrs</a>
-

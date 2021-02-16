@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Uxtheme.h
 api_name:
- - _WTA_OPTIONS
- - PWTA_OPTIONS
  - WTA_OPTIONS
 ---
 
@@ -75,4 +73,3 @@ A bitmask that describes how the values specified in <b>dwFlags</b> should be ap
 ## -see-also
 
 <a href="/windows/desktop/api/uxtheme/nf-uxtheme-setwindowthemeattribute">SetWindowThemeAttribute</a>
-

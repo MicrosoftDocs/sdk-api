@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxRoutingMethod::get_Guid
+ - IFaxRoutingMethod.Guid
+ - IFaxRoutingMethod.get_Guid
 ---
 
 # IFaxRoutingMethod::get_Guid
@@ -86,4 +87,3 @@ A fax client application can use the <b>IFaxRoutingMethod::get_Guid</b> property
 
 
 <a href="/previous-versions/windows/desktop/api/faxcom/nn-faxcom-ifaxroutingmethods">IFaxRoutingMethods</a>
-

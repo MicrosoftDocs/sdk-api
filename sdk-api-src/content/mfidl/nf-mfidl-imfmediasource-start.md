@@ -43,7 +43,7 @@ api_location:
  - mfuuid.lib
  - mfuuid.dll
 api_name:
- - IMFMediaSource::Start
+ - IMFMediaSource.Start
 ---
 
 # IMFMediaSource::Start
@@ -224,4 +224,3 @@ hr = pSource->Start(pPresentationDescriptor, NULL, &var);
 
 
 <a href="/windows/desktop/medfound/media-sources">Media Sources</a>
-

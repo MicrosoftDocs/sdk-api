@@ -43,7 +43,7 @@ api_location:
  - Vds.h
  - VdsHwPrv.h
 api_name:
- - IVdsLunMpio::GetSupportedLbPolicies
+ - IVdsLunMpio.GetSupportedLbPolicies
 ---
 
 # IVdsLunMpio::GetSupportedLbPolicies
@@ -91,4 +91,3 @@ The load balance policy was successfully returned.
 
 
 <a href="/windows/desktop/api/vdshwprv/ne-vdshwprv-vds_provider_lbsupport_flag">VDS_PROVIDER_LBSUPPORT_FLAG</a>
-

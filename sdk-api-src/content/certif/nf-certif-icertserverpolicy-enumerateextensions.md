@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::EnumerateExtensions
+ - ICertServerPolicy.EnumerateExtensions
+ - CCertServerPolicy.EnumerateExtensions
 ---
 
 # ICertServerPolicy::EnumerateExtensions
@@ -149,4 +150,3 @@ if (NULL != bstrExt)
 
 
 <a href="/windows/desktop/api/certif/nn-certif-icertserverpolicy">ICertServerPolicy</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Tapi3.dll
 api_name:
- - ITCallHub::Clear
+ - ITCallHub.Clear
 ---
 
 # ITCallHub::Clear
@@ -95,4 +95,3 @@ Insufficient memory exists to perform the operation.
 
 
 <a href="/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub">ITCallHub</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFMediaEngine::GetSeekable
+ - IMFMediaEngine.GetSeekable
 ---
 
 # IMFMediaEngine::GetSeekable
@@ -71,4 +71,3 @@ To find out whether the media source supports seeking, call <a href="/windows/de
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imfmediaengine">IMFMediaEngine</a>
-

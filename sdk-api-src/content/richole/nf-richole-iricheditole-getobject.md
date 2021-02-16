@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - IRichEditOle::GetObject
+ - IRichEditOle.GetObject
 ---
 
 # IRichEditOle::GetObject
@@ -146,4 +146,3 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. <b>E_INVALIDARG<
 
 
 <b>Reference</b>
-

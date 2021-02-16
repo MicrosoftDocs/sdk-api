@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzBizRuleContext::put_BusinessRuleResult
+ - IAzBizRuleContext.BusinessRuleResult
+ - IAzBizRuleContext.put_BusinessRuleResult
+ - AzBizRuleContext.BusinessRuleResult
 ---
 
 # IAzBizRuleContext::put_BusinessRuleResult

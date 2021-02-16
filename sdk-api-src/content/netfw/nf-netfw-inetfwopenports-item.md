@@ -43,7 +43,7 @@ api_location:
  - FirewallAPI.dll
  - Hnetcfg.dll
 api_name:
- - INetFwOpenPorts::Item
+ - INetFwOpenPorts.Item
 ---
 
 # INetFwOpenPorts::Item
@@ -152,4 +152,3 @@ Reference to the returned
 
 
 <a href="/windows/desktop/api/icftypes/ne-icftypes-net_fw_ip_protocol">NET_FW_IP_PROTOCOL</a>
-

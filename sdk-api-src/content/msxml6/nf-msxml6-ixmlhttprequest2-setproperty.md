@@ -42,7 +42,7 @@ api_type:
 api_location:
  - msxml6.h
 api_name:
- - IXMLHTTPRequest2::SetProperty
+ - IXMLHTTPRequest2.SetProperty
 ---
 
 # IXMLHTTPRequest2::SetProperty
@@ -335,4 +335,3 @@ The <b>SetProperty</b> method on the <a href="/previous-versions/windows/desktop
 
 
 <a href="/windows/desktop/api/msxml6/ne-msxml6-xhr_property">XHR_PROPERTY Enumeration</a>
-

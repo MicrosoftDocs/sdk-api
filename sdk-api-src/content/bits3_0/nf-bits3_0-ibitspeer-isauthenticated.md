@@ -43,7 +43,7 @@ api_location:
  - Bits.lib
  - Bits.dll
 api_name:
- - IBitsPeer::IsAuthenticated
+ - IBitsPeer.IsAuthenticated
 ---
 
 # IBitsPeer::IsAuthenticated
@@ -88,4 +88,3 @@ BITS cannot download content from an unauthenticated peer. When peers are detect
 ## -see-also
 
 <a href="/windows/desktop/api/bits3_0/nn-bits3_0-ibitspeer">IBitsPeer</a>
-

@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBaseFilter::QueryVendorInfo
+ - IBaseFilter.QueryVendorInfo
 ---
 
 # IBaseFilter::QueryVendorInfo
@@ -116,4 +116,3 @@ If the method is supported, it uses the <b>CoTaskMemAlloc</b> function to alloca
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-

@@ -9,8 +9,6 @@ tech.root: winprog
 f1_keywords:
  - rpcndr
  - rpcndr/rpcndr
-api_name:
- - rpcndr
 ---
 
 # Rpcndr.h header

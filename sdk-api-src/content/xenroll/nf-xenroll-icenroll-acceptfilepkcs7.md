@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll::acceptFilePKCS7
+ - ICEnroll4.acceptFilePKCS7
+ - ICEnroll3.acceptFilePKCS7
+ - ICEnroll2.acceptFilePKCS7
+ - ICEnroll.acceptFilePKCS7
+ - CEnroll.acceptFilePKCS7
 ---
 
 # ICEnroll::acceptFilePKCS7
@@ -156,4 +160,3 @@ if (bstrFileName)
 
 
 <a href="/windows/desktop/api/xenroll/nf-xenroll-icenroll-acceptpkcs7">acceptPKCS7</a>
-

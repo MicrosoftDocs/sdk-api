@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - PathGradientBrush::SetSurroundColors
+ - PathGradientBrush.SetSurroundColors
 ---
 
 # PathGradientBrush::SetSurroundColors
@@ -144,4 +144,3 @@ VOID Example_SetSurColor(HDC hdc)
 
 
 <a href="/windows/desktop/api/gdipluspath/nf-gdipluspath-pathgradientbrush-getsurroundcolors">PathGradientBrush::GetSurroundColors</a>
-

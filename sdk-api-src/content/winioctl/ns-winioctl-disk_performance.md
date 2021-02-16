@@ -45,8 +45,6 @@ api_type:
 api_location:
  - WinIoCtl.h
 api_name:
- - _DISK_PERFORMANCE
- - PDISK_PERFORMANCE
  - DISK_PERFORMANCE
 ---
 
@@ -117,4 +115,3 @@ Examples of storage managers are "PhysDisk," "FTDISK," and "DMIO".
 ## -see-also
 
 <a href="/windows/desktop/api/winioctl/ni-winioctl-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>
-

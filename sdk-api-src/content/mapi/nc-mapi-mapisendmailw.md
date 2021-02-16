@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Mapi.h
 api_name:
- - MAPISENDMAILW
+ - MAPISendMailW
 ---
 
 # MAPISENDMAILW callback function
@@ -539,4 +539,3 @@ No name resolution; name used only for displaying the recipient name.
 
 
 <a href="https://msdn.microsoft.com/windows/desktop/hh852363.aspx">Windows SDK for Windows 8</a>
-

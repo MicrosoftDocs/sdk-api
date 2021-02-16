@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Certcli.dll
 api_name:
- - ICertServerPolicy::GetCertificateExtension
+ - ICertServerPolicy.GetCertificateExtension
+ - CCertServerPolicy.GetCertificateExtension
 ---
 
 # ICertServerPolicy::GetCertificateExtension
@@ -169,4 +170,3 @@ VariantClear(&varExt);
 
 
 <a href="/windows/desktop/api/certif/nf-certif-icertserverpolicy-setcontext">ICertServerPolicy::SetContext</a>
-

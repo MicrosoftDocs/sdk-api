@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Activeds.dll
 api_name:
- - IADsPropertyList::Skip
+ - IADsPropertyList.Skip
 ---
 
 # IADsPropertyList::Skip
@@ -77,4 +77,3 @@ This method supports the standard HRESULT return values, including S_OK. For mor
 
 
 <a href="/windows/desktop/api/iads/nf-iads-iadspropertylist-next">IADsPropertyList::Next</a>
-

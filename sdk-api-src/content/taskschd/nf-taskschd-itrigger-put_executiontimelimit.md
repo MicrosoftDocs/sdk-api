@@ -42,7 +42,9 @@ api_type:
 api_location:
  - taskschd.dll
 api_name:
- - ITrigger::put_ExecutionTimeLimit
+ - ITrigger.ExecutionTimeLimit
+ - ITrigger.get_ExecutionTimeLimit
+ - ITrigger.put_ExecutionTimeLimit
 ---
 
 # ITrigger::put_ExecutionTimeLimit
@@ -69,4 +71,3 @@ When reading or writing XML for a task, the execution time limit is specified in
 
 
 <a href="/windows/desktop/TaskSchd/task-scheduler-start-page">Task Scheduler</a>
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - WcnDevice.h
 api_name:
- - IWCNDevice::Unadvise
+ - IWCNDevice.Unadvise
 ---
 
 # IWCNDevice::Unadvise
@@ -75,4 +75,3 @@ Note that <b>IWCNDevice::Unadvise</b> does not cancel the connect operation on t
 
 
 <a href="/windows/desktop/api/wcndevice/nf-wcndevice-iwcndevice-connect">IWCNDevice::Connect</a>
-

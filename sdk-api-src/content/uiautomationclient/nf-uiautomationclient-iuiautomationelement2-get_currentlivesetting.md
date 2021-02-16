@@ -42,7 +42,8 @@ api_type:
 api_location:
  - UIAutomationClient.h
 api_name:
- - IUIAutomationElement2::get_CurrentLiveSetting
+ - IUIAutomationElement2.CurrentLiveSetting
+ - IUIAutomationElement2.get_CurrentLiveSetting
 ---
 
 # IUIAutomationElement2::get_CurrentLiveSetting
@@ -73,4 +74,3 @@ The LiveSetting property is supported by provider elements that are part of a li
 
 
 <a href="/windows/desktop/api/uiautomationcore/ne-uiautomationcore-livesetting">LiveSetting</a>
-

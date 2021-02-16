@@ -42,7 +42,7 @@ api_type:
 api_location:
  - searchapi.h
 api_name:
- - ISearchViewChangedSink::OnChange
+ - ISearchViewChangedSink.OnChange
 ---
 
 # ISearchViewChangedSink::OnChange

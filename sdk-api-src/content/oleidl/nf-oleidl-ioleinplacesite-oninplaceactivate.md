@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleInPlaceSite::OnInPlaceActivate
+ - IOleInPlaceSite.OnInPlaceActivate
 ---
 
 # IOleInPlaceSite::OnInPlaceActivate
@@ -88,4 +88,3 @@ A container that supports linking to embedded objects must properly manage the r
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleinplacesite">IOleInPlaceSite</a>
-

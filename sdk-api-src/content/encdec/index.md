@@ -10,8 +10,6 @@ archived: true
 f1_keywords:
  - encdec
  - encdec/encdec
-api_name:
- - encdec
 ---
 
 # Encdec.h header

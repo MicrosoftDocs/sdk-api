@@ -42,7 +42,10 @@ api_type:
 api_location:
  - Xenroll.dll
 api_name:
- - ICEnroll4::put_IncludeSubjectKeyID
+ - ICEnroll4.IncludeSubjectKeyID
+ - ICEnroll4.get_IncludeSubjectKeyID
+ - ICEnroll4.put_IncludeSubjectKeyID
+ - CEnroll.IncludeSubjectKeyID
 ---
 
 # ICEnroll4::put_IncludeSubjectKeyID
@@ -65,4 +68,3 @@ This property is read/write.
 
 
 <a href="/windows/desktop/api/xenroll/nn-xenroll-icenroll4">ICEnroll4</a>
-

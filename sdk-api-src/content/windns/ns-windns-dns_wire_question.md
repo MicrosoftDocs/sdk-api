@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Windns.h
 api_name:
- - _DNS_WIRE_QUESTION
- - PDNS_WIRE_QUESTION
  - DNS_WIRE_QUESTION
 ---
 
@@ -75,4 +73,3 @@ When constructing a DNS message, the question name must precede the <b>DNS_WIRE_
 ## -see-also
 
 <a href="/windows/desktop/api/windns/ns-windns-dns_wire_record">DNS_WIRE_RECORD</a>
-

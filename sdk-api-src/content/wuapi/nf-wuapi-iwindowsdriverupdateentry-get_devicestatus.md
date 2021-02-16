@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IWindowsDriverUpdateEntry::get_DeviceStatus
+ - IWindowsDriverUpdateEntry.DeviceStatus
+ - IWindowsDriverUpdateEntry.get_DeviceStatus
 ---
 
 # IWindowsDriverUpdateEntry::get_DeviceStatus
@@ -59,4 +60,3 @@ This property is read-only.
 ## -see-also
 
 <a href="/windows/desktop/api/wuapi/nn-wuapi-iwindowsdriverupdateentry">IWindowsDriverUpdateEntry</a>
-

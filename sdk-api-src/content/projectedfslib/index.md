@@ -9,8 +9,6 @@ tech.root: projfs
 f1_keywords:
  - projectedfslib
  - projectedfslib/projectedfslib
-api_name:
- - projectedfslib
 ---
 
 # Projectedfslib.h header

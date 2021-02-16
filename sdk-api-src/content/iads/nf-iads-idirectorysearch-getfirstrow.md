@@ -44,7 +44,7 @@ api_location:
  - Adsldp.dll
  - Adsldpc.dll
 api_name:
- - IDirectorySearch::GetFirstRow
+ - IDirectorySearch.GetFirstRow
 ---
 
 # IDirectorySearch::GetFirstRow
@@ -120,4 +120,3 @@ if(SUCCEEDED(hr))
 
 
 <a href="/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch">IDirectorySearch::ExecuteSearch</a>
-

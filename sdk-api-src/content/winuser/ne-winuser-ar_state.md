@@ -46,8 +46,6 @@ api_type:
 api_location:
  - WinUser.h
 api_name:
- - tagAR_STATE
- - PAR_STATE
  - AR_STATE
 ---
 

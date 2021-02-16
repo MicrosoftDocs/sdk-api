@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ndhelper.h
 api_name:
- - INetDiagHelper::GetAttributes
+ - INetDiagHelper.GetAttributes
 ---
 
 # INetDiagHelper::GetAttributes
@@ -189,4 +189,3 @@ Helper Classes can often diagnose more than one problem at once.  Analysis of th
 ## -see-also
 
 <a href="/windows/desktop/api/ndhelper/nn-ndhelper-inetdiaghelper">INetDiagHelper</a>
-

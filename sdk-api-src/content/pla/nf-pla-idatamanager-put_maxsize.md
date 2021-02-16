@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Pla.dll
 api_name:
- - IDataManager::put_MaxSize
+ - IDataManager.MaxSize
+ - IDataManager.get_MaxSize
+ - IDataManager.put_MaxSize
 ---
 
 # IDataManager::put_MaxSize
@@ -76,4 +78,3 @@ The maximum size value is ignored for performance counter log collection. To wor
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/pla/nn-pla-idatamanager">IDataManager</a>
-

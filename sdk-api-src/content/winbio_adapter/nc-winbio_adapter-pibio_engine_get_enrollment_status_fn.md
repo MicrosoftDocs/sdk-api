@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN
+ - EngineAdapterGetEnrollmentStatus
 ---
 
 # PIBIO_ENGINE_GET_ENROLLMENT_STATUS_FN callback function
@@ -135,4 +135,3 @@ The last update succeeded, but the engine adapter requires one or more additiona
 
 
 <a href="/windows/desktop/SecBioMet/plug-in-functions">Plug-in Functions</a>
-

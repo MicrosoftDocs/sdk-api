@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Ws2spi.h
 api_name:
- - LPNSPCLEANUP
+ - NSPCleanup
 ---
 
 ## -description
@@ -81,4 +81,3 @@ This function should not return until the namespace service provider DLL can be 
 
 * <a href="/windows/desktop/api/ws2spi/nf-ws2spi-nspstartup">NSPStartup</a>
 * <a href="/windows/desktop/api/winsock/nf-winsock-wsasetlasterror">WSASetLastError</a>
-

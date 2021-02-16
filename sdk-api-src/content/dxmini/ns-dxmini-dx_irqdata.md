@@ -46,8 +46,6 @@ api_type:
 api_location:
  - dxmini.h
 api_name:
- - _DX_IRQDATA
- - PDX_IRQDATA
  - DX_IRQDATA
 ---
 
@@ -294,4 +292,3 @@ The device can generate V-sync IRQs for hardware video port number 9.
 ## -see-also
 
 <a href="/windows/desktop/api/dxmini/nc-dxmini-pdx_irqcallback">IRQCallback</a>
-

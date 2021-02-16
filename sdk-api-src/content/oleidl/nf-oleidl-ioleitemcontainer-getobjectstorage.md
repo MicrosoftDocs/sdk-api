@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleItemContainer::GetObjectStorage
+ - IOleItemContainer.GetObjectStorage
 ---
 
 # IOleItemContainer::GetObjectStorage
@@ -135,4 +135,3 @@ If <i>pszItem</i> designates a pseudo-object, your implementation of <b>IOleItem
 ## -see-also
 
 <a href="/windows/desktop/api/oleidl/nn-oleidl-ioleitemcontainer">IOleItemContainer</a>
-

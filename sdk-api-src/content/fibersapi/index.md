@@ -9,8 +9,6 @@ tech.root: base
 f1_keywords:
  - fibersapi
  - fibersapi/fibersapi
-api_name:
- - fibersapi
 ---
 
 # Fibersapi.h header

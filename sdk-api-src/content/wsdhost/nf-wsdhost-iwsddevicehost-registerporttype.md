@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wsdapi.dll
 api_name:
- - IWSDDeviceHost::RegisterPortType
+ - IWSDDeviceHost.RegisterPortType
 ---
 
 # IWSDDeviceHost::RegisterPortType
@@ -105,4 +105,3 @@ The port type specified by   <i>pPortType</i> has already been registered.
 ## -see-also
 
 <a href="/windows/desktop/api/wsdhost/nn-wsdhost-iwsddevicehost">IWSDDeviceHost</a>
-

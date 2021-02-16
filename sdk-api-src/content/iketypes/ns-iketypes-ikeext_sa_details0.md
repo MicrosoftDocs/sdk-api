@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Iketypes.h
 api_name:
- - IKEEXT_SA_DETAILS0_
  - IKEEXT_SA_DETAILS0
 ---
 
@@ -110,4 +109,3 @@ Available only on Windows 7, Windows Server 2008 R2, and later.
 ## -see-also
 
 <a href="/windows/desktop/FWP/fwp-structs">Windows Filtering Platform  API Structures</a>
-

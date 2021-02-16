@@ -47,6 +47,7 @@ api_location:
  - ext-ms-win-gdi-dc-l1-1-0.dll
 api_name:
  - DeleteObject
+ - DeleteObjectW
 ---
 
 # DeleteObject function
@@ -92,4 +93,3 @@ For an example, see <a href="/windows/desktop/gdi/creating-colored-pens-and-brus
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-selectobject">SelectObject</a>
-

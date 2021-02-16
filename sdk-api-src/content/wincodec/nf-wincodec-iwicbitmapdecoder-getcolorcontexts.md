@@ -43,7 +43,7 @@ api_location:
  - Windowscodecs.lib
  - Windowscodecs.dll
 api_name:
- - IWICBitmapDecoder::GetColorContexts
+ - IWICBitmapDecoder.GetColorContexts
 ---
 
 # IWICBitmapDecoder::GetColorContexts
@@ -80,4 +80,3 @@ A pointer that receives the number of color contexts contained in the image.
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

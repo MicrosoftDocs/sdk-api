@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mfmediaengine.h
 api_name:
- - IMFTimedTextNotify::Cue
+ - IMFTimedTextNotify.Cue
 ---
 
 # IMFTimedTextNotify::Cue
@@ -75,4 +75,3 @@ The <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextcue
 ## -see-also
 
 <a href="/windows/desktop/api/mfmediaengine/nn-mfmediaengine-imftimedtextnotify">IMFTimedTextNotify</a>
-

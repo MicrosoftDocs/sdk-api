@@ -9,8 +9,6 @@ tech.root: termserv
 f1_keywords:
  - tsuserex
  - tsuserex/tsuserex
-api_name:
- - tsuserex
 ---
 
 # Tsuserex.h header

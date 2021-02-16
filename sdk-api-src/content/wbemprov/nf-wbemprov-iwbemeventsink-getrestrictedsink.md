@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Wbemsvc.dll
 api_name:
- - IWbemEventSink::GetRestrictedSink
+ - IWbemEventSink.GetRestrictedSink
 ---
 
 # IWbemEventSink::GetRestrictedSink
@@ -75,4 +75,3 @@ Pointer to created
 ## -returns
 
 This method returns an <b>HRESULT</b> indicating the status of the method call. The following list lists the value contained withinan <b>HRESULT</b>.
-

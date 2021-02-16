@@ -42,7 +42,7 @@ api_type:
 api_location:
  - amstream.h
 api_name:
- - IAMMediaTypeSample::GetMediaTime
+ - IAMMediaTypeSample.GetMediaTime
 ---
 
 # IAMMediaTypeSample::GetMediaTime
@@ -100,4 +100,3 @@ No media time stamp was set for this sample.
 ## -see-also
 
 <a href="/windows/desktop/api/amstream/nn-amstream-iammediatypesample">IAMMediaTypeSample Interface</a>
-

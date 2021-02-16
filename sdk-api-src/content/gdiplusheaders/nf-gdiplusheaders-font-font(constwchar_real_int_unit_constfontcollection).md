@@ -43,7 +43,7 @@ api_type:
 api_location:
  - Gdiplus.dll
 api_name:
- - Font::Font
+ - Font.Font
 ---
 
 # Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection)
@@ -108,4 +108,3 @@ Optional. Pointer to a
 
 
 <a href="/windows/desktop/gdiplus/-gdiplus-using-text-and-fonts-use">Using Text and Fonts</a>
-

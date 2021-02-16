@@ -9,8 +9,6 @@ tech.root: nla
 f1_keywords:
  - netlistmgr
  - netlistmgr/netlistmgr
-api_name:
- - netlistmgr
 ---
 
 # Netlistmgr.h header

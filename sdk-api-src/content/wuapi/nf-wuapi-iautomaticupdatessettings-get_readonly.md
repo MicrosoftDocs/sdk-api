@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Wuapi.dll
 api_name:
- - IAutomaticUpdatesSettings::get_ReadOnly
+ - IAutomaticUpdatesSettings.ReadOnly
+ - IAutomaticUpdatesSettings.get_ReadOnly
 ---
 
 # IAutomaticUpdatesSettings::get_ReadOnly
@@ -82,4 +83,3 @@ The value of <b>ReadOnly</b> may change after calling <a href="/windows/desktop/
 
 
 <a href="/windows/desktop/api/wuapi/nf-wuapi-iautomaticupdatessettings-refresh">IAutomaticUpdatesSettings.Refresh</a>
-

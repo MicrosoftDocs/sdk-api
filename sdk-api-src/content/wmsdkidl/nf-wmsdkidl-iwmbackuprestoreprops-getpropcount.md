@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMBackupRestoreProps::GetPropCount
+ - IWMBackupRestoreProps.GetPropCount
 ---
 
 # IWMBackupRestoreProps::GetPropCount
@@ -80,4 +80,3 @@ The method returns E_NOTIMPL.
 
 
 <a href="/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmbackuprestoreprops-setprop">IWMBackupRestoreProps::SetProp</a>
-

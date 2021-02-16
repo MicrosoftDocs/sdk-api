@@ -9,8 +9,6 @@ tech.root: netmgmt
 f1_keywords:
  - lmapibuf
  - lmapibuf/lmapibuf
-api_name:
- - lmapibuf
 ---
 
 # Lmapibuf.h header

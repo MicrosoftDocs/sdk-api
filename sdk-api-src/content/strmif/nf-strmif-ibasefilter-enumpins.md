@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IBaseFilter::EnumPins
+ - IBaseFilter.EnumPins
 ---
 
 # IBaseFilter::EnumPins
@@ -116,4 +116,3 @@ If the method succeeds, the <b>IEnumPins</b> interface has an outstanding refere
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-ibasefilter">IBaseFilter Interface</a>
-

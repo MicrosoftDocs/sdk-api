@@ -42,7 +42,7 @@ api_type:
 api_location:
  - d3d9.h
 api_name:
- - IDirect3DCryptoSession9::NegotiateKeyExchange
+ - IDirect3DCryptoSession9.NegotiateKeyExchange
 ---
 
 # IDirect3DCryptoSession9::NegotiateKeyExchange
@@ -81,4 +81,3 @@ The driver might also use a proprietary key-exhange mechanism.
 
 
 <a href="/windows/desktop/api/d3d9/nn-d3d9-idirect3dcryptosession9">IDirect3DCryptoSession9</a>
-

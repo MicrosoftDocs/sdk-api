@@ -46,8 +46,6 @@ api_type:
 api_location:
  - mfidl.h
 api_name:
- - _MFRR_COMPONENTS
- - PMFRR_COMPONENTS
  - MFRR_COMPONENTS
 ---
 
@@ -79,4 +77,3 @@ Array of <a href="/windows/desktop/api/mfidl/ns-mfidl-mfrr_component_hash_info">
 
 
 <a href="/windows/desktop/medfound/media-foundation-structures">Media Foundation Structures</a>
-

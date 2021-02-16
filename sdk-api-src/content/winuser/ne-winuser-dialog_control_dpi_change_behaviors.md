@@ -42,7 +42,7 @@ api_type:
 api_location:
  - winuser.h
 api_name:
- - DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
+ - DIALOG_SCALING_BEHAVIOR
 ---
 
 # DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS enumeration
@@ -83,4 +83,3 @@ These settings only apply to individual controls within dialogs. The dialog-wide
 
 
 <a href="/windows/desktop/api/winuser/nf-winuser-setdialogcontroldpichangebehavior">SetDialogControlDpiChangeBehavior</a>
-

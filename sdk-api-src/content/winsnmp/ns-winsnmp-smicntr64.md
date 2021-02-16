@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Winsnmp.h
 api_name:
- - smiLPCNTR64
  - smiCNTR64
 ---
 
@@ -83,4 +82,3 @@ Specifies the low-order 32 bits of the counter.
 
 
 <a href="/windows/desktop/api/winsnmp/ns-winsnmp-smivalue">smiVALUE</a>
-

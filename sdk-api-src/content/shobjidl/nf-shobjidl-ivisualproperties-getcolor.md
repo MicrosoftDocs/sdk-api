@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Shobjidl.h
 api_name:
- - IVisualProperties::GetColor
+ - IVisualProperties.GetColor
 ---
 
 # IVisualProperties::GetColor
@@ -71,4 +71,3 @@ A pointer to a value of type <a href="/windows/desktop/gdi/colorref">COLORREF</a
 Type: <b>HRESULT</b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-

@@ -42,7 +42,7 @@ api_type:
 api_location:
  - sbe.h
 api_name:
- - ISBE2SpanningEvent::GetEvent
+ - ISBE2SpanningEvent.GetEvent
 ---
 
 # ISBE2SpanningEvent::GetEvent
@@ -186,4 +186,3 @@ The following types of in-band spanning events are defined.
 
 
 <a href="/previous-versions/windows/desktop/api/sbe/nf-sbe-isbe2spanningevent-getevent">ISBE2SpanningEvent::GetEvent</a>
-

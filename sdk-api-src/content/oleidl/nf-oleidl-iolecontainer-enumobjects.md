@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleContainer::EnumObjects
+ - IOleContainer.EnumObjects
 ---
 
 # IOleContainer::EnumObjects
@@ -114,4 +114,3 @@ A container should implement <b>EnumObjects</b> to enable programmatic clients t
 
 
 <a href="/windows/desktop/api/oleidl/ne-oleidl-olecontf">OLECONTF</a>
-

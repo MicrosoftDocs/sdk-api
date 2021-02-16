@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Azroles.h
 api_name:
- - IAzBizRuleInterfaces::AddInterface
+ - IAzBizRuleInterfaces.AddInterface
 ---
 
 # IAzBizRuleInterfaces::AddInterface
@@ -75,4 +75,3 @@ If the method fails, it returns an error code. For a list of common error codes,
 ## -see-also
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazbizruleinterfaces">IAzBizRuleInterfaces</a>
-

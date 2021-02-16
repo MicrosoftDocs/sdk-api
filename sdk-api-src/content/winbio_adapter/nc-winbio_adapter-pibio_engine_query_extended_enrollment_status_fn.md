@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Winbio_adapter.h
 api_name:
- - PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN
+ - EngineAdapterQueryExtendedEnrollmentStatus
 ---
 
 # PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN callback function
@@ -104,4 +104,3 @@ The <i>EnrollmentStatusSize</i> parameter indicates that the output buffer is to
 Enrollment applications can request extended enrollment status information after each call to the <a href="/windows/desktop/api/winbio/nf-winbio-winbioenrollcapture">WinBioEnrollCapture</a> function.
 
 If the biometric unit is not currently an enrollment template when this routine is called, the engine adapter should set the EnrollmentStatus.TemplateStatus field to <b>WINBIO_E_INVALID_OPERATION</b> and return <b>S_OK</b> as the value of the function.
-

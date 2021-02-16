@@ -42,7 +42,7 @@ api_type:
 api_location:
  - mbnapi.h
 api_name:
- - IMbnDeviceServicesEvents::OnSetCommandComplete
+ - IMbnDeviceServicesEvents.OnSetCommandComplete
 ---
 
 # IMbnDeviceServicesEvents::OnSetCommandComplete
@@ -106,4 +106,3 @@ The <i>deviceServiceData</i> byte array contains the byte-by-byte copy of data r
 ## -see-also
 
 <a href="/windows/desktop/api/mbnapi/nn-mbnapi-imbndeviceservicesevents">IMbnDeviceServicesEvents</a>
-

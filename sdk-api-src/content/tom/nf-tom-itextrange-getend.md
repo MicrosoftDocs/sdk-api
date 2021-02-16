@@ -42,7 +42,7 @@ api_type:
 api_location:
  - Msftedit.dll
 api_name:
- - ITextRange::GetEnd
+ - ITextRange.GetEnd
 ---
 
 # ITextRange::GetEnd
@@ -99,4 +99,3 @@ This method is similar to the <a href="/windows/desktop/api/tom/nf-tom-itextrang
 
 
 <a href="/windows/desktop/Controls/text-object-model">Text Object Model</a>
-

@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Faxcom.dll
 api_name:
- - IFaxDoc::put_RecipientAddress
+ - IFaxDoc.RecipientAddress
+ - IFaxDoc.get_RecipientAddress
+ - IFaxDoc.put_RecipientAddress
 ---
 
 # IFaxDoc::put_RecipientAddress
@@ -77,4 +79,3 @@ The <b>get_RecipientAddress</b> method allocates the memory required for the buf
 
 
 <a href="/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring">SysFreeString</a>
-

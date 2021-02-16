@@ -46,8 +46,6 @@ api_type:
 api_location:
  - minwinbase.h
 api_name:
- - _CREATE_PROCESS_DEBUG_INFO
- - LPCREATE_PROCESS_DEBUG_INFO
  - CREATE_PROCESS_DEBUG_INFO
 ---
 
@@ -149,4 +147,3 @@ A value that indicates whether a file name specified by the <b>lpImageName</b> m
 
 
 <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreadcontext">SetThreadContext</a>
-

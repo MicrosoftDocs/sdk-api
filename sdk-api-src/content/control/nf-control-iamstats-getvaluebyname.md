@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IAMStats::GetValueByName
+ - IAMStats.GetValueByName
 ---
 
 # IAMStats::GetValueByName
@@ -138,4 +138,3 @@ No match for this name.
 
 
 <a href="/windows/desktop/api/control/nn-control-iamstats">IAMStats Interface</a>
-

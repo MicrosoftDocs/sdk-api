@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Psapi.h
 api_name:
- - _ENUM_PAGE_FILE_INFORMATION
- - PENUM_PAGE_FILE_INFORMATION
  - ENUM_PAGE_FILE_INFORMATION
 ---
 
@@ -83,4 +81,3 @@ The peak pagefile usage, in pages.
 ## -see-also
 
 <a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
-

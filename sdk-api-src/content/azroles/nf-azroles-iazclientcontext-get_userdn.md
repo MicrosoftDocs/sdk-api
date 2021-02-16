@@ -42,7 +42,9 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzClientContext::get_UserDn
+ - IAzClientContext.UserDn
+ - IAzClientContext.get_UserDn
+ - AzClientContext.UserDn
 ---
 
 # IAzClientContext::get_UserDn
@@ -61,4 +63,3 @@ This property is read-only.
 The DN client name is retrieved by impersonating the client token and calling the <a href="/windows/desktop/api/secext/nf-secext-getusernameexa">GetUserNameEx</a> function with <b>NameFullyQualifiedDN</b> specified for the <i>NameFormat</i> parameter. 
 
 An example of a  client name in DN format is "CN=Ben Smith, OU=Software, OU=Example, O=FourthCoffee, C=US".
-

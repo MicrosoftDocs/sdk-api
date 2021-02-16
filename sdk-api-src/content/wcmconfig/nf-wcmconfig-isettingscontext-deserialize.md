@@ -42,7 +42,7 @@ api_type:
 api_location:
  - SMIEngine.dll
 api_name:
- - ISettingsContext::Deserialize
+ - ISettingsContext.Deserialize
 ---
 
 # ISettingsContext::Deserialize
@@ -80,4 +80,3 @@ This method may return <b>E_OUTOFMEMORY</b> if there are insufficient resources 
 ## -see-also
 
 <a href="/previous-versions/windows/desktop/api/wcmconfig/nn-wcmconfig-isettingscontext">ISettingsContext</a>
-

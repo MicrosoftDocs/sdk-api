@@ -42,7 +42,11 @@ api_type:
 api_location:
  - Fxscomex.dll
 api_name:
- - IFaxDevice::get_SendEnabled
+ - IFaxDevice.SendEnabled
+ - IFaxDevice.get_SendEnabled
+ - IFaxDevice.put_SendEnabled
+ - IFaxDevice.get_SendEnabled
+ - IFaxDevice.put_SendEnabled
 ---
 
 # IFaxDevice::get_SendEnabled
@@ -71,4 +75,3 @@ If this property is equal to <b>TRUE</b>, the fax device is enabled to send faxe
 
 
 <a href="/previous-versions/windows/desktop/fax/-mfax-configuring-a-fax-device">Visual Basic Example</a>
-

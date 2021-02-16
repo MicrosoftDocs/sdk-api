@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - _CRYPT_KEY_PROV_PARAM
- - PCRYPT_KEY_PROV_PARAM
  - CRYPT_KEY_PROV_PARAM
 ---
 
@@ -86,4 +84,3 @@ This member is reserved for future use and is zero.
 
 
 <a href="/windows/desktop/api/wincrypt/nf-wincrypt-cryptsetprovparam">CryptSetProvParam</a>
-

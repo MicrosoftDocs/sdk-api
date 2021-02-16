@@ -45,7 +45,7 @@ api_location:
  - WMStubDRM.lib
  - WMStubDRM.dll
 api_name:
- - IWMInputMediaProps::GetGroupName
+ - IWMInputMediaProps.GetGroupName
 ---
 
 # IWMInputMediaProps::GetGroupName
@@ -112,4 +112,3 @@ The <i>pwszName</i> parameter is not large enough.
 ## -see-also
 
 <a href="/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwminputmediaprops">IWMInputMediaProps Interface</a>
-

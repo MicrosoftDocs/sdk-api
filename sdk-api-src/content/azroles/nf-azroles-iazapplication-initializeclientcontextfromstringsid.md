@@ -42,7 +42,8 @@ api_type:
 api_location:
  - Azroles.dll
 api_name:
- - IAzApplication::InitializeClientContextFromStringSid
+ - IAzApplication.InitializeClientContextFromStringSid
+ - AzApplication.InitializeClientContextFromStringSid
 ---
 
 # IAzApplication::InitializeClientContextFromStringSid
@@ -104,4 +105,3 @@ Applications calling this function should use the fully qualified domain name or
 
 
 <a href="/windows/desktop/api/azroles/nn-azroles-iazapplication">IAzApplication</a>
-

@@ -46,8 +46,6 @@ api_type:
 api_location:
  - Vss.h
 api_name:
- - _VSS_WRITER_STATE
- - PVSS_WRITER_STATE
  - VSS_WRITER_STATE
 ---
 
@@ -153,4 +151,3 @@ A requester determines the state of a writer through
 
 
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getwriterstatus">IVssBackupComponents::GetWriterStatus</a>
-

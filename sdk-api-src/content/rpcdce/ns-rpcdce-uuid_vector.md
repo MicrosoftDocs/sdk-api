@@ -44,7 +44,6 @@ api_type:
 api_location:
  - Rpcdce.h
 api_name:
- - _UUID_VECTOR
  - UUID_VECTOR
 ---
 
@@ -91,4 +90,3 @@ An application constructs a <a href="/windows/win32/rpc/rpcdce/ns-rpcdce-uuid">U
 
 
 <a href="/windows/desktop/api/rpcnsi/nf-rpcnsi-rpcnsbindingunexporta">RpcNsBindingUnexport</a>
-

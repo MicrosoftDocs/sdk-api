@@ -44,7 +44,6 @@ api_type:
 api_location:
  - strmif.h
 api_name:
- - tagDVD_TIMECODE_FLAGS
  - DVD_TIMECODE_FLAGS
 ---
 
@@ -80,4 +79,3 @@ Value representing the <a href="/windows/desktop/DirectShow/dvd-navigator-filter
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-idvdinfo2-gettotaltitletime">IDvdInfo2::GetTotalTitleTime</a>
-

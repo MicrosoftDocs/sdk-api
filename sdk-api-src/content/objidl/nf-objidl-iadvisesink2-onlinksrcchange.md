@@ -42,7 +42,7 @@ api_type:
 api_location:
  - ObjIdl.h
 api_name:
- - IAdviseSink2::OnLinkSrcChange
+ - IAdviseSink2.OnLinkSrcChange
 ---
 
 # IAdviseSink2::OnLinkSrcChange
@@ -75,4 +75,3 @@ Nothing prevents a link object from notifying its container of the moniker chang
 
 
 <a href="/windows/desktop/api/objidl/nf-objidl-iadvisesink-onrename">IAdviseSink::OnRename</a>
-

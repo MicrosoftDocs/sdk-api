@@ -42,7 +42,7 @@ api_type:
 api_location:
  - shobjidl_core.h
 api_name:
- - IVirtualDesktopManager::GetWindowDesktopId
+ - IVirtualDesktopManager.GetWindowDesktopId
 ---
 
 # IVirtualDesktopManager::GetWindowDesktopId
@@ -69,4 +69,3 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 ## -see-also
 
 [IVirtualDesktopManager](./nn-shobjidl_core-ivirtualdesktopmanager.md)
-

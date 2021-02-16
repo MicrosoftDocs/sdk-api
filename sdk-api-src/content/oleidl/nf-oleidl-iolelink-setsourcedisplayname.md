@@ -42,7 +42,7 @@ api_type:
 api_location:
  - OleIdl.h
 api_name:
- - IOleLink::SetSourceDisplayName
+ - IOleLink.SetSourceDisplayName
 ---
 
 # IOleLink::SetSourceDisplayName
@@ -99,4 +99,3 @@ For more information on how the linked object stores and uses the moniker to the
 
 
 <a href="/windows/desktop/api/oledlg/nf-oledlg-oleuieditlinksa">OleUIEditLinks</a>
-

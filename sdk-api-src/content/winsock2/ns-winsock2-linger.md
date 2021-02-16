@@ -47,8 +47,6 @@ api_location:
  - winsock.h
 api_name:
  - linger
- - PLINGER
- - LINGER
 ---
 
 # LINGER structure
@@ -145,4 +143,3 @@ The <a href="/windows/desktop/api/winsock/nf-winsock-getsockopt">getsockopt</a> 
 
 
 <a href="/windows/desktop/api/winsock/nf-winsock-setsockopt">setsockopt</a>
-

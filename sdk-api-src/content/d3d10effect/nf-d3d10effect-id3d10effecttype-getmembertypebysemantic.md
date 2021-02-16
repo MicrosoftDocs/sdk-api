@@ -42,7 +42,7 @@ api_type:
 api_location:
  - D3D10Effect.h
 api_name:
- - ID3D10EffectType::GetMemberTypeBySemantic
+ - ID3D10EffectType.GetMemberTypeBySemantic
 ---
 
 # ID3D10EffectType::GetMemberTypeBySemantic
@@ -69,4 +69,3 @@ A pointer to an <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10e
 ## -see-also
 
 <a href="/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effecttype">ID3D10EffectType Interface</a>
-

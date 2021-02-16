@@ -43,7 +43,7 @@ api_location:
  - Strmiids.lib
  - Strmiids.dll
 api_name:
- - IMediaPosition::get_Duration
+ - IMediaPosition.get_Duration
 ---
 
 # IMediaPosition::get_Duration
@@ -114,4 +114,3 @@ This method retrieves the duration of the stream at normal playback speed. Chang
 
 
 <a href="/windows/desktop/api/control/nn-control-imediaposition">IMediaPosition Interface</a>
-
