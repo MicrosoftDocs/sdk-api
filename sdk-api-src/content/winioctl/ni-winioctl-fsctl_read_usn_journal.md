@@ -60,7 +60,8 @@ Retrieves  the set of update sequence number (USN) change journal records betwee
 <pre>BOOL 
 WINAPI 
 DeviceIoControl( (HANDLE)       hDevice,         // handle to volume
-                 (DWORD) FSCTL_READ_USN_JOURNAL, // dwIoControlCode(LPVOID)       lpInBuffer,      // input buffer
+                 (DWORD) FSCTL_READ_USN_JOURNAL, // dwIoControlCode
+                 (LPVOID)       lpInBuffer,      // input buffer
                  (DWORD)        nInBufferSize,   // size of input buffer
                  (LPVOID)       lpOutBuffer,     // output buffer
                  (DWORD)        nOutBufferSize,  // size of output buffer
