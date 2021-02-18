@@ -44,8 +44,8 @@ dev_langs:
 
 ## -description
 
-[!NOTE]
-This API was added to the 19041 SDK in an update released in November 2020.
+> [!NOTE]
+> This API was added to the 19041 SDK in an update released in November 2020.
 
 Contains dynamic enforced address ranges used by various features related to user-mode Hardware-enforced Stack Protection (HSP). The <a href="/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessdynamicenforcedcetcompatibleranges">SetProcessDynamicEnforcedCetCompatibleRanges</a> function uses this structure.
 
