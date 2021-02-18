@@ -42,8 +42,8 @@ dev_langs:
 
 ## -description
 
-[!NOTE]
-This API was added to the 19041 SDK in an update released in November 2020.
+> [!NOTE]
+> This API was added to the 19041 SDK in an update released in November 2020.
 
 Sets dynamic enforced CETCOMPAT ranges for the specified process.
 
