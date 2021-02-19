@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The type of a state subobject. Use with <a href="https://msdn.microsoft.com/en-us/library/Mt830407(v=VS.85).aspx">D3D12_STATE_SUBOBJECT</a>.
+The type of a state subobject. Use with <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ns-d3d12-d3d12_state_subobject">D3D12_STATE_SUBOBJECT</a>.
 
 ## -enum-fields
 
