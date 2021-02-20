@@ -65,6 +65,6 @@ The <b>IGlobalInterfaceTable</b> interface is an efficient way for a process to 
 
 
 
-An agile object is unaware of the underlying COM infrastructure in which it runsâ€”in other words, what apartment, context, and thread it is executing on. The object may be holding on to interfaces that are specific to an apartment or context. For this reason, calling these interfaces from wherever the agile component is executing may not always work properly. The global interface table avoids this problem by guaranteeing that a valid proxy (or direct pointer) to the object is used, based on where the agile object is executing.
+An agile object is unaware of the underlying COM infrastructure in which it runs - in other words, what apartment, context, and thread it is executing on. The object may be holding on to interfaces that are specific to an apartment or context. For this reason, calling these interfaces from wherever the agile component is executing may not always work properly. The global interface table avoids this problem by guaranteeing that a valid proxy (or direct pointer) to the object is used, based on where the agile object is executing.
 
 The global interface table is not portable across process or machine boundaries, so it cannot be used in place of the normal parameter-passing mechanism.
