@@ -56,10 +56,9 @@ Contains placeholder information for creating new placeholder files or directori
 
 ### -field RelativeFileName
 
-The name of the child placeholder file or directory to be created. 
+The name of the child placeholder file or directory to be created. It should consist only of the file or directory name.
 
-This parameter must not contain a relative path or else CfCreatePlaceholders will fail with ERROR_CLOUD_FILE_INVALID_REQUEST.
-For example if the sync root of the provider is c:\SyncRoot and a placeholder named "pl.txt" is being created in a child directory of the sync root such as c:\SyncRoot\ChildDir, then BaseDirectoryPath = c:\SyncRoot\ChildDir and RelativeFileName = pl.txt is expected. It is an error to specify BaseDirectoryPath = c:\SyncRoot and RelativeFileName = ChildDir\pl.txt.
+For example, if the sync root of the provider is C:\SyncRoot then to create a placeholder named placeholder.txt in a subdirectory SubDirectory of the sync root, call the CfCreatePlaceholders function with BaseDirectoryPath equal to C:\SyncRoot\SubDirectory and set the RelativePathName field of the CF_PLACEHOLDER_CREATE_INFO to placeholder.txt.
 
 ### -field FsMetadata
 
