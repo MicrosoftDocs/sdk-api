@@ -131,7 +131,7 @@ The report key.
 
 ## -remarks
 
-For general questions about Windows Error Reporting, see the [**WER APIS**]("https://docs.microsoft.com/en-us/windows/win32/api/_wer/").
+For general questions about Windows Error Reporting, see the [**WER APIS**]("/windows/win32/api/_wer/").
 For report keys, see the [**WER APIs**]("/windows/win32/api/werapi/nf-werapi-werstoregetnextreportkey").
 
 ## -see-also
