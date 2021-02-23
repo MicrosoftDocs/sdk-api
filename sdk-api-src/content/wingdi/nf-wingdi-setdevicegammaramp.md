@@ -95,6 +95,6 @@ Direct color display modes do not use color lookup tables and are usually 16, 24
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/windows/win32/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/windows/win32/wcs/functions">Functions</a>
