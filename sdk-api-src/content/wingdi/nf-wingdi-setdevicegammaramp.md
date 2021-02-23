@@ -63,7 +63,7 @@ The <b>SetDeviceGammaRamp</b> function sets the <a href="/previous-versions/wind
 >
 > * This API has undefined interaction with both built-in and third-party color calibration solutions.
 > 
-> For color calibration, we recommend that you create an International Color Consortium (ICC) profile, and let the OS apply the profile. For advanced original equipment manufacturer (OEM) scenarios, there's a device driver model that you can use to customize color calibration more directly. See the [Windows Color System](/previous-versions/windows/desktop/wcs/windows-color-system) for information on managing color profiles.
+> For color calibration, we recommend that you create an International Color Consortium (ICC) profile, and let the OS apply the profile. For advanced original equipment manufacturer (OEM) scenarios, there's a device driver model that you can use to customize color calibration more directly. See the [Windows Color System](/windows/win32/wcs/windows-color-system) for information on managing color profiles.
 > 
 > For blue light filtering, Windows now provides built-in support called [**Night Light**](https://support.microsoft.com/help/4027563/windows-10-set-your-display-for-night-time). We recommend directing users to this feature.
 > 
@@ -95,6 +95,6 @@ Direct color display modes do not use color lookup tables and are usually 16, 24
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
+<a href="/windows/win32/wcs/basic-color-management-concepts">Basic Color Management Concepts</a>
 
-<a href="/previous-versions/dd316902(v=vs.85)">Functions</a>
+<a href="/windows/win32/wcs/functions">Functions</a>
