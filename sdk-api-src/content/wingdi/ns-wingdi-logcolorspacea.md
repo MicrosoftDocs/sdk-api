@@ -54,7 +54,7 @@ api_name:
 
 ## -description
 
-The <b>LOGCOLORSPACE</b> structure contains information that defines a logical <a href="/previous-versions/windows/desktop/wcs/c">color space</a>.
+The <b>LOGCOLORSPACE</b> structure contains information that defines a logical [color space](/windows/win32/wcs/c).
 
 ## -struct-fields
 

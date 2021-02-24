@@ -61,6 +61,6 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWICColorContext</b> interfac
 
 ## -remarks
 
-A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling <a href="/previous-versions/windows/desktop/wcs/getcolordirectory">GetColorDirectory</a>.
+A Color Context is an abstraction for a color profile. The profile can either be loaded from a file (like "sRGB Color Space Profile.icm"), read from a memory buffer, or can be defined by an EXIF color space. The system color profile directory can be obtained by calling [GetColorDirectoryW](/windows/win32/api/icm/nf-icm-getcolordirectoryw).
 
 Once a color context has been initialized, it cannot be re-initialized.
