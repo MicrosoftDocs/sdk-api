@@ -6,7 +6,7 @@ helpviewer_keywords: ["GetKeyboardType","GetKeyboardType function [Keyboard and 
 old-location: inputdev\getkeyboardtype.htm
 tech.root: inputdev
 ms.assetid: 39b9ba8b-0cab-465c-9a58-2b69eea7de76
-ms.date: 12/05/2018
+ms.date: 02/25/2021
 ms.keywords: GetKeyboardType, GetKeyboardType function [Keyboard and Mouse Input], _win32_getkeyboardtype, base.getkeyboardtype, inputdev.getkeyboardtype, winui.getkeyboardtype, winuser/GetKeyboardType
 req.header: winuser.h
 req.include-header: Windows.h
@@ -78,12 +78,11 @@ Type: <b>int</b>
 
 If the function succeeds, the return value specifies the requested information.
 
-If the function fails and <i>nTypeFlag</i> is not one, the return value is zero; zero is a valid return value when <i>nTypeFlag</i> is one (keyboard subtype). To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+If the function fails and <i>nTypeFlag</i> is not 1, the return value is 0; 0 is a valid return value when <i>nTypeFlag</i> is 1 (keyboard subtype). To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 ## -remarks
 
-The type may be one of the following values:
+Valid keyboard types are:
 
 | Value | Description                                          |
 |:-----:|------------------------------------------------------|
@@ -92,7 +91,7 @@ The type may be one of the following values:
 |  0x8  | Korean Keyboard                                      |
 | 0x51  | Unknown type or HID keyboard                         |
 
-The subtype is an original equipment manufacturer (OEM)-dependent value.
+Keyboard subtypes are original equipment manufacturer (OEM)-dependent values.
 
 ## -see-also
 
