@@ -224,7 +224,7 @@ For information about the possible values for the <b>DWORD</b> to which <i>lpVal
 </dl>
 </td>
 <td width="60%">
-The <i>lpValue</i> parameter is a pointer to a list of job handles to be assgined to the child process in the supplied order.
+The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigned to the child process, in the order specified.
 
 </td>
 </tr>
