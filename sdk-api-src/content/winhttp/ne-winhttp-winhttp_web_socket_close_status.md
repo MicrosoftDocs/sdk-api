@@ -82,6 +82,8 @@ The connection was aborted.
 
 ### -field WINHTTP_WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS
 
+The payload was invalid.
+
 ### -field WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS
 
 The message violates an endpoint's policy.
