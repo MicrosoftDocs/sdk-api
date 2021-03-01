@@ -85,12 +85,22 @@ The synchronization object was signaled.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>RPC_E_CALLPENDING</b></dt>
+<dt><b>RPC_S_CALLPENDING</b></dt>
 </dl>
 </td>
 <td width="60%">
 The time-out period elapsed before the synchronization object was signaled.
 
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>RPC_E_NO_SYNC</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no synchronization object to wait on.
 </td>
 </tr>
 </table>
