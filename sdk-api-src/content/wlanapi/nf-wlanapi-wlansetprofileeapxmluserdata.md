@@ -231,6 +231,9 @@ All wireless LAN functions require an interface GUID for the wireless interface 
 
 The <b>WlanSetProfileEapXmlUserData</b> function can fail with <b>ERROR_INVALID_PARAMETER</b> if the wireless interface specified in the <i>pInterfaceGuid</i> parameter has been removed from the system (a USB  wireless adapter that has been removed, for example). 
 
+The <b>WlanSetProfileEapXmlUserData</b> may cause wireless conenction fail when use EAP-TTLS if the API is called from 32-bit builds application but the OS Platform is 64-Bit.
+Your application should be built by the same CPU architecture of the OS Platform. 
+
 <b>Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:  </b>This function can only be used for Protected EAP (PEAP) credentials. It cannot be used for other EAP types.
 
 ## -see-also
