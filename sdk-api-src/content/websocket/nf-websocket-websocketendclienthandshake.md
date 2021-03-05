@@ -64,7 +64,7 @@ Type: <b><a href="/windows/desktop/WebSock/web-socket-protocol-component-api-dat
 
 Type: <b>const <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">PWEB_SOCKET_HTTP_HEADER</a></b>
 
-Pointer to an array or <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers received by the application.
+Pointer to an array of <a href="/windows/desktop/api/websocket/ns-websocket-web_socket_http_header">WEB_SOCKET_HTTP_HEADER</a> structures that contain the response headers received by the application.
 
 ### -param ulReponseHeaderCount [in]
 

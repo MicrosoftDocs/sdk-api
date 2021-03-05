@@ -84,25 +84,25 @@ The length of the output buffer, in **TCHARs**.
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
+If the function fails, the return value is zero. To get extended error information, call [GetLastError](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
 If a specified path is passed, **GetVolumePathName** returns the path to the volume mount point, which means that it returns the root of the volume where the end point of the specified path is located.
 
-For example, assume that you have volume D mounted at C:\Mnt\Ddrive and volume E mounted at "C:\Mnt\Ddrive\Mnt\Edrive". Also assume that you have a file with the path "E:\Dir\Subdir\MyFile". If you pass "C:\Mnt\Ddrive\Mnt\Edrive\Dir\Subdir\MyFile" to **GetVolumePathName**, it returns the path "C:\Mnt\Ddrive\Mnt\Edrive\".
+For example, assume that you have volume D mounted at `C:\Mnt\Ddrive` and volume E mounted at `C:\Mnt\Ddrive\Mnt\Edrive`. Also assume that you have a file with the path `E:\Dir\Subdir\MyFile`. If you pass `C:\Mnt\Ddrive\Mnt\Edrive\Dir\Subdir\MyFile` to **GetVolumePathName**, it returns the path `C:\Mnt\Ddrive\Mnt\Edrive\`.
 
 If either a relative directory or a file is passed without a volume qualifier, the function returns the drive letter of the boot volume. The drive letter of the boot volume is also returned if an invalid file or directory name is specified without a valid volume qualifier. If a valid volume specifier is given, and the volume exists, but an invalid file or directory name is specified, the function will succeed and that volume name will be returned. For examples, see the Examples section of this topic.
 
-You must specify a valid Win32 namespace path. If you specify an NT namespace path, for example, "\DosDevices\H:" or "\Device\HardDiskVolume6", the function returns the drive letter of the boot volume, not the drive letter of that NT namespace path.
+You must specify a valid Win32 namespace path. If you specify an NT namespace path, for example, `\DosDevices\H:` or `\Device\HardDiskVolume6`, the function returns the drive letter of the boot volume, not the drive letter of that NT namespace path.
 
-For more information about path names and namespaces, see [Naming Files, Paths, and Namespaces](/windows/desktop/FileIO/naming-a-file).
+For more information about path names and namespaces, see [Naming Files, Paths, and Namespaces](/windows/win32/FileIO/naming-a-file).
 
 You can specify both local and remote paths. If you specify a local path, **GetVolumePathName** returns a full path whose prefix is the longest prefix that represents a volume.
 
-If a network share is specified, **GetVolumePathName** returns the shortest path for which [GetDriveType](/windows/desktop/api/fileapi/nf-fileapi-getdrivetypea) returns **DRIVE_REMOTE**, which means that the path is validated as a remote drive that exists, which the current user can access.
+If a network share is specified, **GetVolumePathName** returns the shortest path for which [GetDriveType](/windows/win32/api/fileapi/nf-fileapi-getdrivetypea) returns **DRIVE_REMOTE**, which means that the path is validated as a remote drive that exists, which the current user can access.
 
-There are certain special cases that do not return a trailing backslash. These occur when the output buffer length is one character too short. For example, if _lpszFileName_ is C: and _lpszVolumePathName_ is 4 characters long, the value returned is "C:\"; however, if _lpszVolumePathName_ is 3 characters long, the value returned is "C:". A safer but slower way to set the size of the return buffer is to call the [GetFullPathName](/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea) function, and then make sure that the buffer size is at least the same size as the full path that **GetFullPathName** returns. If the output buffer is more than one character too short, the function will fail and return an error.
+There are certain special cases that do not return a trailing backslash. These occur when the output buffer length is one character too short. For example, if _lpszFileName_ is `C:` and _lpszVolumePathName_ is 4 characters long, the value returned is `C:\`; however, if _lpszVolumePathName_ is 3 characters long, the value returned is `C:`. A safer but slower way to set the size of the return buffer is to call the [GetFullPathName](/windows/win32/api/fileapi/nf-fileapi-getfullpathnamea) function, and then make sure that the buffer size is at least the same size as the full path that **GetFullPathName** returns. If the output buffer is more than one character too short, the function will fail and return an error.
 
 In Windows 8 and Windows Server 2012, this function is supported by the following technologies.
 
@@ -126,7 +126,7 @@ Trailing path elements that are invalid are ignored. For remote paths, the entir
 
 ### Junction Points and Mounted Folders
 
-If the specified path traverses a junction point, **GetVolumePathName** returns the volume to which the   junction point refers. For example, if `W:\Adir` is a junction point   that points to `C:\Adir`, then **GetVolumePathName** invoked on `W:\Adir\Afile` returns "`C:\`". If the specified path traverses multiple junction points, the entire chain is followed, and **GetVolumePathName** returns the volume to which the   last junction point in the chain refers.
+If the specified path traverses a junction point, **GetVolumePathName** returns the volume to which the   junction point refers. For example, if `W:\Adir` is a junction point that points to `C:\Adir`, then **GetVolumePathName** invoked on `W:\Adir\Afile` returns `C:\`. If the specified path traverses multiple junction points, the entire chain is followed, and **GetVolumePathName** returns the volume to which the   last junction point in the chain refers.
 
 If a remote path to a mounted folder or junction point is specified, the path is parsed as a remote path, and   the mounted folder or junction point are ignored. For example if `C:\Dir_C` is linked to `D:\Dir_D` and `C:` is mapped to `X:` on a remote computer, calling  **GetVolumePathName** and specifying `X:\Dir_C` on the remote computer returns `X:\`.
 
@@ -145,8 +145,6 @@ Specified path                     | Function returns
 `C:\COM2` (which exists)           | `\\.\COM2\`
 `C:\COM3` (non-existent)           | **FALSE** with error 123 because a non-existent COM device was specified.
 
-<div class="code"></div>
-
 For the following set of examples, the paths contain invalid trailing path elements.
 
 Specified path                                                | Function returns
@@ -155,13 +153,11 @@ Specified path                                                | Function returns
 `\\.\I:\aaa\invalid` (invalid path)                           | `\\.\I:\`
 `\\_YourComputer_\C$\invalid` (invalid trailing path element) | `\\_YourComputer_\C$\`
 
-<div class="code"></div>
-
 ## -see-also
 
-* [DeleteVolumeMountPoint](/windows/desktop/api/fileapi/nf-fileapi-deletevolumemountpointw)
-* [GetFullPathName](/windows/desktop/api/fileapi/nf-fileapi-getfullpathnamea)
-* [GetVolumeNameForVolumeMountPoint](/windows/desktop/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw)
-* [SetVolumeMountPoint](/windows/desktop/api/winbase/nf-winbase-setvolumemountpointa)
-* [Volume Management Functions](/windows/desktop/FileIO/volume-management-functions)
-* [Volume Mount Points](/windows/desktop/FileIO/volume-mount-points)
+* [DeleteVolumeMountPoint](/windows/win32/api/fileapi/nf-fileapi-deletevolumemountpointw)
+* [GetFullPathName](/windows/win32/api/fileapi/nf-fileapi-getfullpathnamea)
+* [GetVolumeNameForVolumeMountPoint](/windows/win32/api/fileapi/nf-fileapi-getvolumenameforvolumemountpointw)
+* [SetVolumeMountPoint](/windows/win32/api/winbase/nf-winbase-setvolumemountpointa)
+* [Volume Management Functions](/windows/win32/FileIO/volume-management-functions)
+* [Volume Mount Points](/windows/win32/FileIO/volume-mount-points)

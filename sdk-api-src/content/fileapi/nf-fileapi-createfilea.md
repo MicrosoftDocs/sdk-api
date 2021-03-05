@@ -1160,14 +1160,14 @@ The <b>IOCTL_CHANGER_*</b> control codes for
       "\\.\Changer<i>x</i>" where 
       <i>x</i> is a number that indicates which device to open, starting with zero. To open 
       changer device zero in an application that is written in C or C++, use the following file name: 
-      "\\\\.\\Changer0".
+      "\\.\Changer0".
 
 <h3><a id="Tape_Drives"></a><a id="tape_drives"></a><a id="TAPE_DRIVES"></a>Tape Drives</h3>
 You can open tape drives by using a file name of the following form: 
       "\\.\TAPE<i>x</i>" where 
       <i>x</i> is a number that indicates which drive to open, starting with tape drive zero. To 
       open tape drive zero in an application that is written in C or C++, use the following file name: 
-      "\\\\.\\TAPE0".
+      "\\.\TAPE0".
 
 For more information, see <a href="/windows/desktop/Backup/backup">Backup</a>.
 
@@ -1181,7 +1181,7 @@ The <b>CreateFile</b> function can create a handle to a
       for overlapped I/O.
 
 To specify a COM port number greater than 9, use the following syntax: 
-      "\\.\COM10". This syntax works for all port numbers and hardware that 
+      "\\\\.\COM10". This syntax works for all port numbers and hardware that 
       allows COM port numbers to be specified.
 
 For more information about communications, see 

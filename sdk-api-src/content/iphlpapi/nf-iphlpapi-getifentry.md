@@ -308,7 +308,7 @@ int main()
                         break;
                     default:
                         printf("Unknown status %ld\n", 
-                            pIfRow->dwAdminStatus);
+                            pIfRow->dwOperStatus);
                         break;
                     }
                     printf("\n");

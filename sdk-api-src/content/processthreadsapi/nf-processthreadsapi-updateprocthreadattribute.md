@@ -2,12 +2,12 @@
 UID: NF:processthreadsapi.UpdateProcThreadAttribute
 title: UpdateProcThreadAttribute function (processthreadsapi.h)
 description: Updates the specified attribute in a list of attributes for process and thread creation.
-helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
+helpviewer_keywords: ["PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY","PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY","PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY","PROC_THREAD_ATTRIBUTE_HANDLE_LIST","PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR","PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY","PROC_THREAD_ATTRIBUTE_PARENT_PROCESS","PROC_THREAD_ATTRIBUTE_PREFERRED_NODE","PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL","PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES","PROC_THREAD_ATTRIBUTE_UMS_THREAD","PROC_THREAD_ATTRIBUTE_JOB_LIST","UpdateProcThreadAttribute","UpdateProcThreadAttribute function","base.updateprocthreadattribute","processthreadsapi/UpdateProcThreadAttribute","winbase/UpdateProcThreadAttribute"]
 old-location: base\updateprocthreadattribute.htm
 tech.root: backup
 ms.assetid: 5fc3e04f-9b2a-440c-a9aa-d78d9b25b341
 ms.date: 02/02/2021
-ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
+ms.keywords: PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY, PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY, PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY, PROC_THREAD_ATTRIBUTE_HANDLE_LIST, PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR, PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY, PROC_THREAD_ATTRIBUTE_PARENT_PROCESS, PROC_THREAD_ATTRIBUTE_PREFERRED_NODE, PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL, PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES, PROC_THREAD_ATTRIBUTE_UMS_THREAD, PROC_THREAD_ATTRIBUTE_JOB_LIST, UpdateProcThreadAttribute, UpdateProcThreadAttribute function, base.updateprocthreadattribute, processthreadsapi/UpdateProcThreadAttribute, winbase/UpdateProcThreadAttribute
 req.header: processthreadsapi.h
 req.include-header: Windows 7, Windows Server 2008  Windows Server 2008 R2, Windows.h
 req.target-type: Windows
@@ -218,6 +218,17 @@ For information about the possible values for the <b>DWORD</b> to which <i>lpVal
 
 </td>
 </tr>
+<tr>
+<td width="40%"><a id="PROC_THREAD_ATTRIBUTE_JOB_LIST"></a><a id="proc_thread_attribute_job_list"></a><dl>
+<dt><b>PROC_THREAD_ATTRIBUTE_JOB_LIST</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>lpValue</i> parameter is a pointer to a list of job handles to be assigned to the child process, in the order specified.
+
+</td>
+</tr>
+
 </table>
 
 ### -param lpValue [in]

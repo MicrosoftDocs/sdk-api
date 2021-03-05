@@ -82,6 +82,8 @@ The connection was aborted.
 
 ### -field WINHTTP_WEB_SOCKET_INVALID_PAYLOAD_CLOSE_STATUS
 
+The payload was invalid.
+
 ### -field WINHTTP_WEB_SOCKET_POLICY_VIOLATION_CLOSE_STATUS
 
 The message violates an endpoint's policy.
@@ -101,13 +103,11 @@ An unexpected condition prevented the server from
 
 ### -field WINHTTP_WEB_SOCKET_SECURE_HANDSHAKE_ERROR_CLOSE_STATUS
 
-The
-      TLS handshake could not be completed.
-
+The TLS handshake could not be completed.
 
 #### - WINHTTP_WEB_SOCKET_INVALID_UTF8_CLOSE_STATUS
 
- UTF-8 frame carried an invalid UTF-8 stream.
+UTF-8 frame carried an invalid UTF-8 stream.
 
 ## -remarks
 
