@@ -42,6 +42,7 @@ api_type:
 api_location:
  - Cfgmgr32.lib
  - Cfgmgr32.dll
+ - setupapi.dll
 api_name:
  - CM_Get_Device_Interface_Alias
  - CM_Get_Device_Interface_AliasW
