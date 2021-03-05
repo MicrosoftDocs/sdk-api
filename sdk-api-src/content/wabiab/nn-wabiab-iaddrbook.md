@@ -4,9 +4,9 @@ title: IAddrBook (wabiab.h)
 description: Do not use.
 helpviewer_keywords: ["IAddrBook","IAddrBook interface [Windows Address Book]","IAddrBook interface [Windows Address Book]","described","_wab_IAddrBook","wab._wab_IAddrBook","wabiab/IAddrBook"]
 old-location: wab\_wab_IAddrBook.htm
-tech.root: wab
+tech.root: wab wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iaddrbook\iaddrbook.htm
-ms.date: 12/05/2018
+ms.date: 03/03/202112/05/2018
 ms.keywords: IAddrBook, IAddrBook interface [Windows Address Book], IAddrBook interface [Windows Address Book],described, _wab_IAddrBook, wab._wab_IAddrBook, wabiab/IAddrBook
 req.header: wabiab.h
 req.include-header: 
