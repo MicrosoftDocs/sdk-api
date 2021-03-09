@@ -207,7 +207,7 @@ The format of the structure depends on the action identifier. For information ab
 
 ## -returns
 
-Note, while the return type is declared as HRESULT this API returns Win32 error codes, do not use SUCCEEEDED() or FAILED() to test the result.
+Note, while the return type is declared as HRESULT this API returns Win32 error codes, do not use SUCCEEDED() or FAILED() to test the result.
 
 If the trust provider verifies that the subject is trusted for the specified action, the return value is ERROR_SUCCESS. Otherwise, the function returns a status code from the <a href="/windows/desktop/SecGloss/t-gly">trust provider</a>.
 
