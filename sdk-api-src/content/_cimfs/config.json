@@ -1,7 +1,7 @@
 {
   "tech": "cimfs",
   "headers": [
-    "cimfs.h",
+    "cimfs.h"
   ],
   "displayName": "CimFS"
 }
