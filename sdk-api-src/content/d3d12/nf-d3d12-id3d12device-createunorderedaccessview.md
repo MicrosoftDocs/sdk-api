@@ -86,7 +86,7 @@ If <i>pCounterResource</i> is specified, then there is a counter associated with
               </li>
 <li>Both of the resources (<i>pResource</i> and <i>pCounterResource</i>) must be buffers.
               </li>
-<li>The <b>CounterOffsetInBytes</b> member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_uav">D3D12_BUFFER_UAV</a> structure must be a multiple of 4 bytes, and must be within the range of the counter resource.
+<li>The <b>CounterOffsetInBytes</b> member of the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_buffer_uav">D3D12_BUFFER_UAV</a> structure must be a multiple of D3D12_UAV_COUNTER_PLACEMENT_ALIGNMENT (4096), and must be within the range of the counter resource.
               </li>
 <li><i>pResource</i> cannot be NULL
               </li>
