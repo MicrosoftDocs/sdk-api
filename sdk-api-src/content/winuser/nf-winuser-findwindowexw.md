@@ -110,6 +110,8 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 ## -remarks
 
+The FindWindowEx function searches only direct child windows. It does not search other descendants.
+
 If the <i>lpszWindow</i> parameter is not <b>NULL</b>, <b>FindWindowEx</b> calls the <a href="/windows/desktop/api/winuser/nf-winuser-getwindowtexta">GetWindowText</a> function to retrieve the window name for comparison. For a description of a potential problem that can arise, see the Remarks section of <b>GetWindowText</b>.
 
 An application can call this function in the following way.

@@ -44,7 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# EAP_UI_DATA_FORMAT structure
+# EAP_UI_DATA_FORMAT structure overview
 
 
 ## -description

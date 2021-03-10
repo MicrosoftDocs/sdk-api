@@ -44,7 +44,7 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# EAP_METHOD_PROPERTY_VALUE structure
+# EAP_METHOD_PROPERTY_VALUE structure overview
 
 
 ## -description

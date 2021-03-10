@@ -64,7 +64,7 @@ A handle to the bitmap that contains one or more images. The number of images is
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">COLORREF</a></b>
 
-The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.
+The color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1. If this parameter is CLR_DEFAULT, then the color of the pixel at (0,0) is used as the mask.
 
 ### -param pi [out]
 
@@ -83,6 +83,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 <div class="alert"><b>Note</b>  The bitmap passed in <i>hbmImage</i> will be modified.</div>
 <div> </div>
 <b>IImageList::AddMasked</b> copies the bitmap to an internal data structure. Bitmaps with color depth greater than 8bpp are not supported. You must use the <a href="/windows/desktop/api/wingdi/nf-wingdi-deleteobject">DeleteObject</a> function to delete <i>hbmImage</i> and <i>crMask</i> after the method returns. 
-		
+        
 
 To use <b>IImageList::AddMasked</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="/windows/desktop/Controls/cookbook-overview">Enabling Visual Styles</a>.
