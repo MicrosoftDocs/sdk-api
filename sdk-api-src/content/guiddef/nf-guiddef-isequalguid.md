@@ -1,6 +1,6 @@
 ---
-UID: NF:guiddef.IsEqualGUID
-title: IsEqualGUID macro (guiddef.h)
+UID: NF:guiddef.IsEqualGUID~r1
+title: IsEqualGUID function (guiddef.h)
 description: Determines whether two GUIDs are equal.
 helpviewer_keywords: ["IsEqualGUID","IsEqualGUID function [COM]","_com_IsEqualGUID","com.isequalguid","winddi/IsEqualGUID"]
 old-location: com\isequalguid.htm
@@ -61,6 +61,10 @@ The first GUID.
 ### -param rguid2 [in]
 
 The second GUID.
+
+## -returns
+
+A Boolean value that indicates if the two GUID's are equal. TRUE if yes, otherwise FALSE.
 
 ## -remarks
 
