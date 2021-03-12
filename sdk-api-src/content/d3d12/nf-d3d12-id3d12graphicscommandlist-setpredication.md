@@ -75,10 +75,9 @@ Specifies a <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_predication_op">D
 ## -remarks
 
 Use this method to denote that subsequent rendering and resource manipulation commands are not actually performed if the resulting predicate data of the predicate is equal to the operation specified.
-          However, some predicates are only hints, so they may not actually prevent operations from being performed.
         
 
-Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct command lists.
+Unlike Direct3D 11, in Direct3D 12 predication state is not inherited by direct command lists, and predication is always respected (there are no predication hints).
         All direct command lists begin with predication disabled.
           Bundles do inherit predication state.
         It is legal for the same predicate to be bound multiple times.
