@@ -70,9 +70,7 @@ The height of the video, in pixels.
 
 ### -param D3Dfmt [in]
 
-A 
-            
-              <b>D3DFORMAT</b> value that specifies the RGB format.
+A <b>D3DFORMAT</b> value that specifies the RGB format.
 
 ## -returns
 

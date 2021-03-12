@@ -84,8 +84,7 @@ Position of the first character in <b>awcBuffer</b>.
 
 Windows Search populates the members of this structure when the word breaker is invoked and initialized. <a href="/windows/desktop/api/indexsrv/nf-indexsrv-iwordbreaker-breaktext">IWordBreaker::BreakText</a> gets a pointer to a <b>TEXT_SOURCE</b> structure and calls PFNFILLTEXTBUFFER, the function pointed to by the <b>pfnFillTextBuffer</b> member, to refill <b>awcBuffer</b> until all text from the source is processed. The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> that includes both filtering and word-breaking return values.
 
- 
-                The filtering return values are the following:
+The filtering return values are the following:
 
 <ul>
 <li>FILTER_E_NO_MORE_VALUES</li>

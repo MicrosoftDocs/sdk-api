@@ -61,9 +61,7 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfContextView</b> interface 
 
 ## -see-also
 
-<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext
-        
-      </a>
+<a href="/windows/desktop/api/msctf/nn-msctf-itfcontext">ITfContext</a>
 
 
 
