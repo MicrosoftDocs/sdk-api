@@ -149,8 +149,7 @@ If the function fails, use
 
 ## -remarks
 
-The  
-<b>GetAdaptersInfo</b> function can retrieve information only for IPv4 addresses. 
+The <b>GetAdaptersInfo</b> function can retrieve information only for IPv4 addresses. 
 
 In versions prior to Windows 10, the order in which adapters appear in the list returned by this function can be controlled from the Network Connections folder: select the Advanced Settings menu item from the Advanced menu. Starting with Windows 10, the order is unspecified.
 
