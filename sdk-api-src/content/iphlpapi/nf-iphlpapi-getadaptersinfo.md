@@ -53,8 +53,7 @@ api_name:
 The 
 <b>GetAdaptersInfo</b> function retrieves adapter information for the local computer.
 
-<b>On Windows XP and later:  </b>Use the  
-<a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function instead of <b>GetAdaptersInfo</b>.
+<b>On Windows XP and later:  </b>Use the <a href="/windows/desktop/api/iphlpapi/nf-iphlpapi-getadaptersaddresses">GetAdaptersAddresses</a> function instead of <b>GetAdaptersInfo</b>.
 
 ## -parameters
 
