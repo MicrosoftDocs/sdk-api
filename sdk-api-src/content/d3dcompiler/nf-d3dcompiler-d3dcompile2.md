@@ -192,7 +192,11 @@ To compile offline shaders the recommend approach is to use the <a href="/window
 #include &lt;Robuffer.h&gt;
 </code></pre>
 </li>
-<li>Use the following code to call <b>D3DCompile2</b>. Note that there is no error checking or handling here, and also that this code  demonstrates you can do both I/O and compilation in the background, which leaves your UI more responsive.<pre class="syntax" xml:space="preserve"><code>void App1::DirectXPage::TheButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+<li>Use the following code to call <b>D3DCompile2</b>. Note that there is no error checking or handling here, and also that this code  demonstrates you can do both I/O and compilation in the background, which leaves your UI more responsive.
+
+```
+void App1::DirectXPage::TheButton_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+
 {
   std::shared_ptr&lt;Microsoft::WRL::ComPtr&lt;ID3DBlob&gt;&gt; blobRef = std::make_shared&lt;Microsoft::WRL::ComPtr&lt;ID3DBlob&gt;&gt;();
 
@@ -231,7 +235,7 @@ To compile offline shaders the recommend approach is to use the <a href="/window
     this-&gt;TheButton-&gt;Content = ref new Platform::String(message);
   }, task_continuation_context::use_current());
 }
-</code></pre>
+```
 </li>
 </ul>
 
