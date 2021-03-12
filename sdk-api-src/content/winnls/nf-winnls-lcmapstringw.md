@@ -113,6 +113,7 @@ The application cannot set this parameter to 0.
 ### -param lpDestStr [out, optional]
 
 Pointer to a buffer in which this function retrieves the mapped string or a sort key. When the application uses this function to generate a sort key, the destination string can contain an odd number of bytes. The LCMAP_BYTEREV flag only reverses an even number of bytes. The last byte (odd-positioned) in the sort key is not reversed.
+Note when the <i>cchSrc</i> parameter does not include space for the terminating null character, no terminating null character is written to <i>lpDestStr</i>, even if the buffer size given by the parameter <i>cchDest</i> would allow it.
 
 <div class="alert"><b>Note</b>  The destination string can be the same as the source string only if LCMAP_UPPERCASE or LCMAP_LOWERCASE is set. Otherwise, the strings cannot be the same. If they are, the function fails.</div>
 <div> </div>
@@ -129,7 +130,8 @@ The application can set <i>cchDest</i> to 0. In this case, the function does not
 
 ## -returns
 
-Returns the number of characters or bytes in the translated string or sort key, including a terminating null character, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key, including a terminating null character.
+Returns the number of characters or bytes in the translated string or sort key, if successful. If the function succeeds and the value of <i>cchDest</i> is 0, the return value is the size of the buffer required to hold the translated string or sort key.
+The return values in both cases only includes space for the terminating null character, if <i>cchSrc</i> includes space for the terminating null character of the source string.
 
 This function returns 0 if it does not succeed. To get extended error information, the application can call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>, which can return one of the following error codes:
 
