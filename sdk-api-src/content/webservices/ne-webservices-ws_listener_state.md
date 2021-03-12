@@ -69,9 +69,8 @@ The different states that a listener can be in.
 ## -remarks
 
 The following are the state transitions for a Listener.
-            
 
-<img alt="" src="./images/ListenerStates.png"/>
+:::image type="content" source="./images/ListenerStates.png" border="false" alt-text="Diagram showing the possible states of a Listener object and the transitions between them.":::
 
 A listener will only move to <b>WS_LISTENER_STATE_FAULTED</b> 
                 state if <a href="/windows/desktop/api/webservices/nf-webservices-wsabortlistener">WsAbortListener</a> is called.

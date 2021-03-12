@@ -73,7 +73,7 @@ The different states that a channel can be in.
 The following are the state transitions for a channel.
             
 
-<img alt="" src="./images/ChannelStates.png"/>
+:::image type="content" source="./images/ChannelStates.png" border="false" alt-text="Diagram of the state transitions for a Channel object. A second diagram shows the Sub-states for the Channel's Open state.":::
 
 A channel may move to the <b>WS_CHANNEL_STATE_FAULTED</b> 
                 state even if <a href="/windows/desktop/api/webservices/nf-webservices-wsabortchannel">WsAbortChannel</a> was never called.
