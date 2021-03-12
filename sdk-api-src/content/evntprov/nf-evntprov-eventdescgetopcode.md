@@ -50,11 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves
-		
-		
-	
-	the operation code from the event descriptor.
+Retrieves the operation code from the event descriptor.
 
 ## -parameters
 

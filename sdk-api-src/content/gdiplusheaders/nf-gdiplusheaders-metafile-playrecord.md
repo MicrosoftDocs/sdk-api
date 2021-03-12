@@ -83,19 +83,13 @@ Pointer to an array of bytes that contains the record data.
 
 Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns Ok, which is an element of the 
+If the method succeeds, it returns Ok, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -remarks
 
-This method is used in conjunction with the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes)">EnumerateMetafile Methods</a> method of the 
-
-				<a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class. The EnumerateMetafile Methods method calls an application-defined callback function for each record in a specified metafile. The callback function can display each record (or selected records) by calling the <b>Metafile::PlayRecord</b> method.
+This method is used in conjunction with the <a href="/windows/desktop/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-enumeratemetafile(inconstmetafile_inconstpointf_inint_inconstrectf__inunit_inenumeratemetafileproc_invoid_inconstimageattributes)">EnumerateMetafile Methods</a> method of the <a href="/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics">Graphics</a> class. The EnumerateMetafile Methods method calls an application-defined callback function for each record in a specified metafile. The callback function can display each record (or selected records) by calling the <b>Metafile::PlayRecord</b> method.
 
 ## -see-also
 

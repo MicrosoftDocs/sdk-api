@@ -52,7 +52,7 @@ api_name:
 
 <p class="CCE_Message">[Function Discovery is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-    A function instance is created as the result of calling one of the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>  methods; client program do not create these objects themselves.
+A function instance is created as the result of calling one of the <a href="/windows/desktop/api/functiondiscoveryapi/nn-functiondiscoveryapi-ifunctiondiscovery">IFunctionDiscovery</a>  methods; client program do not create these objects themselves.
 
 ## -inheritance
 
