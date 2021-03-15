@@ -63,7 +63,8 @@ The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITypeLib</b> interface inheri
 
 The system registry contains a list of all the installed type libraries. Type library organization is illustrated in the following figure:
 
-<img alt="" src="./images/oa03_10.Png"/>
+:::image type="content" source="./images/oa03_10.Png" border="false" alt-text="Diagram showing the organization of installed type libraries as they are listed in the system registry.":::
+
 The <b>ITypeLib</b> interface provides methods for accessing a library of type descriptions. This interface supports the following:  
 
 <ul>

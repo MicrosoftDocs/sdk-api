@@ -67,6 +67,5 @@ The policy object is no longer usable due to a previous error.
 The following diagram illustrates the functions that
                 cause state transitions in the policy object.
             
-
-<img alt="" src="./images/PolicyStates.png"/>
+:::image type="content" source="./images/PolicyStates.png" border="false" alt-text="Diagram of the state transitions for a Policy object showing the functions that cause transitions between the Created and Faulted states.":::
 

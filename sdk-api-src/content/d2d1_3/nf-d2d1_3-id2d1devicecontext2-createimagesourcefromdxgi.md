@@ -91,7 +91,7 @@ S_OK if successful, otherwise a failure HRESULT.
 
 This method creates an image source, which can be used to draw the image.
 
-        This method supports surfaces that use a limited set of DXGI formats and DXGI color space types.  Only the below set of combinations of color space types, surface formats, and surface counts are supported:
+This method supports surfaces that use a limited set of DXGI formats and DXGI color space types.  Only the below set of combinations of color space types, surface formats, and surface counts are supported:
 
 <table>
 <tr>

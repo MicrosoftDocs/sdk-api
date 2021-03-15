@@ -167,7 +167,7 @@ The <b>GetIpNetworkConnectionBandwidthEstimates</b> function is defined on Windo
 
 On input, the <i>AddressFamily</i> parameter must be initialized to either <b>AF_INET</b> or <b>AF_INET6</b>. In addition on input, the <i>InterfaceIndex</i> parameter must be initialized with the specified interface index.
 
-    A value must be set for the  <i>InterfaceIndex</i> parameter (the value of this parameter must not be set to zero). 
+A value must be set for the  <i>InterfaceIndex</i> parameter (the value of this parameter must not be set to zero). 
 
 On output, the <a href="/windows/win32/api/netioapi/ns-netioapi-mib_ip_network_connection_bandwidth_estimates">MIB_IP_NETWORK_CONNECTION_BANDWIDTH_ESTIMATES</a>  structure pointed to by the <i>BandwidthEstimates</i> parameter is filled in if the <i>AddressFamily</i> and <i>InterfaceIndex</i> parameters were specified. 
 

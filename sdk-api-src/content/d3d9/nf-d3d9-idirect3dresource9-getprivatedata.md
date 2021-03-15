@@ -71,8 +71,7 @@ Pointer to a previously allocated buffer to fill with the requested private data
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a>*</b>
 
-Pointer to the size of the buffer at 
-    pData, in bytes. If this value is less than the actual size of the private data (such as 0), the method sets this parameter to the required buffer size and the method returns D3DERR_MOREDATA.
+Pointer to the size of the buffer at pData, in bytes. If this value is less than the actual size of the private data (such as 0), the method sets this parameter to the required buffer size and the method returns D3DERR_MOREDATA.
 
 ## -returns
 

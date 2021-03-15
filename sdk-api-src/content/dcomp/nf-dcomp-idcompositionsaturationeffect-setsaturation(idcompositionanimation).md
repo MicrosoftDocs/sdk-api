@@ -58,13 +58,8 @@ Sets the saturation of the image.
 
 Type: <b><a href="/windows/desktop/api/dcompanimation/nn-dcompanimation-idcompositionanimation">IDCompositionAnimation</a>*</b>
 
-An animation that represents how the saturation of the image changes over time. This parameter must not be NULL.
-            You can set the saturation to a value between 0 and 1. If you set it to 1 the output image is fully saturated.
-            If you set it to 0 the output image is monochrome. The saturation value is unitless.
+An animation that represents how the saturation of the image changes over time. This parameter must not be NULL. You can set the saturation to a value between 0 and 1. If you set it to 1 the output image is fully saturated. If you set it to 0 the output image is monochrome. The saturation value is unitless. The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:
             
-            The effect calculates a color matrix based on the saturation value (s in the equation here) using the following equation:
-            
-
 <img alt="Matrix equation" src="./images/saturation_formula.png"/>
 
 ## -returns

@@ -59,9 +59,7 @@ The <b>Metafile::GetMetafileHeader</b> method gets the header.
 
 Type: <b>const WCHAR*</b>
 
-Pointer to a wide-character string that specifies the name of an existing 
-
-					<a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object that contains the header.
+Pointer to a wide-character string that specifies the name of an existing <a href="/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-metafile">Metafile</a> object that contains the header.
 
 ### -param header [out]
 
@@ -73,13 +71,9 @@ Pointer to a <a href="/windows/desktop/api/gdiplusmetaheader/nl-gdiplusmetaheade
 
 Type: <b><a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a></b>
 
-If the method succeeds, it returns OK, which is an element of the 
+If the method succeeds, it returns OK, which is an element of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
-
-If the method fails, it returns one of the other elements of the 
-
-						<a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="/windows/desktop/api/gdiplustypes/ne-gdiplustypes-status">Status</a> enumeration.
 
 ## -see-also
 

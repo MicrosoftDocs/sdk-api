@@ -168,7 +168,7 @@ To get an instance of this structure,  call the
 
 ## -see-also
 
-<a href="/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)">SIO_TCP_INFO</a>
+<a href="/windows/win32/winsock/sio-tcp-info">SIO_TCP_INFO</a>
 
 
 

@@ -106,8 +106,7 @@ This structure specifies how the mapping occurs between an HTTP request
 The following diagram shows how HTTP headers are mapped into
                 the headers of a message.
             
-
-<img alt="" src="images/MappedHeaders.png"/>
+:::image type="content" source="images/MappedHeaders.png" border="false" alt-text="Diagram showing a Message object with the MyHeader element highlighted and an arrow pointing to the MyHeader line in an HTTP Request.":::
 
 When a message is received, the HTTP channel
                 will automatically copy the specified HTTP headers from the request

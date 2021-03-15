@@ -50,11 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves
-		
-		
-	
-	the event identifier from the event descriptor.
+Retrieves the event identifier from the event descriptor.
 
 ## -parameters
 
