@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Gets the <a href="/en-us/openspecs/windows_protocols/ms-uamg/07e2bfa4-6795-4189-b007-cc50b476181a">ServerSelection</a> value that indicates which server provided an update.
+Gets the <a href="/previous-versions/windows/desktop/aa387280(v=vs.85)">ServerSelection</a> value that indicates which server provided an update.
 
 This property is read-only.
 
@@ -59,4 +59,4 @@ This property is read-only.
 
 ## -see-also
 
-<a href="/windows/desktop/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
+<a href="/windows/win32/api/wuapi/nn-wuapi-iupdatehistoryentry">IUpdateHistoryEntry</a>
