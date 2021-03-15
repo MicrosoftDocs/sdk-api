@@ -68,7 +68,6 @@ The states that a service host can be in.
 
 ## -remarks
 
-The following are the state transitions for a service host
+The following are the state transitions for a service host.
 
-<img alt="" src="./images/ServiceHostStates.png"/>
-
+:::image type="content" source="./images/ServiceHostStates.png" border="false" alt-text="Diagram showing the possible states of a service host object and the transitions between them.":::

@@ -50,11 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves
-		
-		
-	
-	the version from the event descriptor.
+Retrieves the version from the event descriptor.
 
 ## -parameters
 

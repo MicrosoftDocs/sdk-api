@@ -50,11 +50,7 @@ api_name:
 
 ## -description
 
-Retrieves
-		
-		
-	
-	the severity level from the event descriptor.
+Retrieves the severity level from the event descriptor.
 
 ## -parameters
 

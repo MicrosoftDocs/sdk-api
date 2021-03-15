@@ -75,5 +75,4 @@ The metadata object not usable due to a previous error.  See
 The following diagram illustrates the functions that 
                 cause state transitions in the metadata object.
             
-
-<img alt="" src="./images/MetadataStates.png"/>
+:::image type="content" source="./images/MetadataStates.png" border="false" alt-text="Diagram of the state transitions for a Metadata object showing the functions that cause transitions between the Created, Faulted, and Resolved states.":::

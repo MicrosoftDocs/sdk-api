@@ -60,9 +60,7 @@ A pointer to the <a href="/windows/desktop/api/mfobjects/nn-mfobjects-imfattribu
 
 ### -param guidKey [in]
 
-A 
-            
-              <b>GUID</b> that identifies the value to set. If this key already exists, the function overwrites the old value.
+A <b>GUID</b> that identifies the value to set. If this key already exists, the function overwrites the old value.
 
 ### -param unNumerator [in]
 
