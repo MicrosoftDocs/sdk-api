@@ -168,27 +168,23 @@ The zero-based index for the possible setting.
 
 ### -param Buffer [out, optional]
 
-A pointer to a buffer that receives the friendly name. If this parameter is <b>NULL</b>, 
-     the <i>BufferSize</i> 
-     parameter receives the required buffer size. The strings returned are all wide (Unicode) strings.
+A pointer to a buffer that receives the friendly name. If this parameter is <b>NULL</b>, the <i>BufferSize</i> 
+parameter receives the required buffer size. The strings returned are all wide (Unicode) strings.
 
 ### -param BufferSize [in, out]
 
 A pointer to a variable that contains the size of the buffer pointed to by the 
-     <i>Buffer</i> parameter. 
+<i>Buffer</i> parameter. 
 
 If the <i>Buffer</i> parameter is <b>NULL</b>, the function returns ERROR_SUCCESS and the variable receives the required buffer size. 
 
-If the specified buffer size is not large enough to hold the 
-     requested data, the function returns  <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
+If the specified buffer size is not large enough to hold the requested data, the function returns <b>ERROR_MORE_DATA</b> and the variable receives the required buffer size.
 
 ## -returns
 
-Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if 
-	     the call failed. If the buffer size specified by the <i>BufferSize</i> parameter is too small, 
+Returns <b>ERROR_SUCCESS</b> (zero) if the call was successful, and a nonzero value if the call failed. If the buffer size specified by the <i>BufferSize</i> parameter is too small, 
 	      
-	     <b>ERROR_MORE_DATA</b> will be returned and the <b>DWORD</b> pointed 
-	     to by the <i>BufferSize</i> parameter will be filled in with the required buffer size.
+<b>ERROR_MORE_DATA</b> will be returned and the <b>DWORD</b> pointed to by the <i>BufferSize</i> parameter will be filled in with the required buffer size.
 
 ## -see-also
 

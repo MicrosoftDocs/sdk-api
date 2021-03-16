@@ -75,7 +75,7 @@ To attach an implementation of <b>IFileOperationProgressSink</b> to a call to <a
 <li>To be advised of all operations performed by the call to <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a>, use the <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-advise">IFileOperation::Advise</a> method.</li>
 <li>To be notified only of progress for specific operations, pass <b>IFileOperationProgressSink</b> to one or more of these individual <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation">IFileOperation</a> methods:
 
-                        <ul>
+<ul>
 <li>
 <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-copyitem">CopyItem</a>
 </li>

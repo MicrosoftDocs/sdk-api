@@ -82,7 +82,7 @@ Indicates the output will use local time.
 
 Type: <b>FILETIME*</b>
 
-          When this function returns, contains the extracted <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
+When this function returns, contains the extracted <a href="/windows/desktop/api/minwinbase/ns-minwinbase-filetime">FILETIME</a> structure.
 
 ## -returns
 

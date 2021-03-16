@@ -76,11 +76,8 @@ The <b>hkClass</b> member provides the full registry path of a CLSID.
 
 #### ASSOCCLASS_CLSID_STR
 
-The <b>hkClass</b> member names a CLSID found as 
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>CLSID</b>&#92;<i>pszClass</i>.
+The <b>hkClass</b> member names a CLSID found as `HKEY_CLASSES_ROOT\CLSID\pszClass`.
                             
-
 
 
 #### ASSOCCLASS_PROGID_KEY
@@ -91,54 +88,30 @@ The <b>hkClass</b> member provides the full registry path of a ProgID.
 
 #### ASSOCCLASS_SHELL_KEY
 
-The <b>hkClass</b> member names a key found as                
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>SystemFileAssociations</b>&#92;<i>hkClass</i>.
-                            
-
-
+The <b>hkClass</b> member names a key found as `HKEY_CLASSES_ROOT\SystemFileAssociations\hkClass`.                 
 
 #### ASSOCCLASS_PROGID_STR
 
-The <b>pszClass</b> member names a ProgID found as 
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<i>pszClass</i>.
+The <b>pszClass</b> member names a ProgID found as `HKEY_CLASSES_ROOT\pszClass`.
                             
-
-
-
 #### ASSOCCLASS_SYSTEM_STR
 
-The <b>pszClass</b> member names a key found as
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>SystemFileAssociations</b>&#92;<i>pszClass</i>.
+The <b>pszClass</b> member names a key found a `HKEY_CLASSES_ROOT\SystemFileAssociations\pszClass`.
                             
-
-
-
 #### ASSOCCLASS_APP_STR
 
-The APPID storing the application information is found at
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>Applications</b>&#92;<i>FileName</i> where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
-
-
-
+The APPID storing the application information is found at `HKEY_CLASSES_ROOT\Applications\FileName`  where <i>FileName</i> is obtained by sending <b>pszClass</b> to <a href="/windows/desktop/api/shlwapi/nf-shlwapi-pathfindfilenamea">PathFindFileName</a>.
 
 
 #### ASSOCCLASS_FOLDER
 
-Use the association information for folders stored under
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>Folder</b>. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
+Use the association information for folders stored under `HKEY_CLASSES_ROOT\Folder`. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
 
 
 
 #### ASSOCCLASS_STAR
 
-Use the association information stored under the 
-                                
-                                <b>HKEY_CLASSES_ROOT</b>&#92;<b>*</b> subkey. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
+Use the association information stored under the `HKEY_CLASSES_ROOT\*subkey`. When this flag is set, <b>hkClass</b> and <b>pszClass</b> are ignored.
 
 
 
