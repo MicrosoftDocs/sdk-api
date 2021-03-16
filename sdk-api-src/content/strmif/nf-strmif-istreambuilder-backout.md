@@ -77,7 +77,8 @@ The following example shows how a filter would reverse the steps that are shown 
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
 {
     CheckPointer(pPin, E_POINTER);
@@ -108,7 +109,7 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     }
     return hr;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>

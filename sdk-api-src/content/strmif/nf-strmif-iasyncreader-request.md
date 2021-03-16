@@ -161,7 +161,8 @@ The following example shows a possible helper function for an input pin, to queu
 </tr>
 <tr>
 <td>
-<pre>
+
+```
 CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
 {
     IMediaSample* pSample = NULL;
@@ -184,7 +185,7 @@ CMyPin::QueueSample(long cbFirst, long cbLast, DWORD_PTR dwuser)
     }
     return hr;
 }
-</pre>
+```
 </td>
 </tr>
 </table></span></div>
